@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure the XML Validator Pipeline Component"
-title: "How to Configure the XML Validator Pipeline Component | Microsoft Docs"
+title: "How to Configure the XML Validator Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XML Validator [pipeline component]"
-  - "send pipelines, validating"
-  - "pipeline components, XML Validator"
-  - "receive pipelines, validating"
-ms.assetid: 3b3becaf-703c-4399-a5ed-e7082e31e6e9
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the XML Validator Pipeline Component
 The XML Validator pipeline component can be used in any stage (except Disassemble or Assemble) in a send or receive pipeline.  

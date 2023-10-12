@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Step 5: Configuring the BizTalk Messaging Servers"
-title: "Step 5: Configuring the BizTalk Messaging Servers | Microsoft Docs"
+title: "Step 5: Configuring the BizTalk Messaging Servers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "configuring, BizTalk Messaging servers"
-  - "BizTalk Messaging servers, configuring"
-ms.assetid: 598d336d-b006-4d02-9249-e9d6d9b6b7b5
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 5: Configuring the BizTalk Messaging Servers
 This section provides guidelines on configuring the BizTalk Messaging servers.

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid delimiter set because at least one of the delimiters is outside the allowed range"
-title: "Invalid delimiter set because at least one of the delimiters is outside the allowed range | Microsoft Docs"
+title: "Invalid delimiter set because at least one of the delimiters is outside the allowed range"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c1286559-765b-4728-945d-cf3386e1ba06
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid delimiter set because at least one of the delimiters is outside the allowed range
 ## Details  

@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: Assigning Rights"
-title: "Assigning Rights | Microsoft Docs"
+title: "Assigning Rights"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "user accounts, assigning permissions"
-  - "security, user accounts"
-  - "document library, new messages"
-  - "document library, unparsed"
-  - "messages, document library"
-  - "privileges"
-  - "permissions"
-  - "unparsed document library"
-  - "security, permissions"
-ms.assetid: cee44240-aa00-4080-9e7f-728b2421102b
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Assigning Rights
 The following permissions should be granted on the Document libraries for each site group created in the preceding topic:  

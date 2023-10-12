@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Reading Batch Descriptions from database failed"
-title: "Reading Batch Descriptions from database failed | Microsoft Docs"
+title: "Reading Batch Descriptions from database failed"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f959aa35-d957-45b0-bfac-1134b5087d0c
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Reading Batch Descriptions from database failed
 ## Details  

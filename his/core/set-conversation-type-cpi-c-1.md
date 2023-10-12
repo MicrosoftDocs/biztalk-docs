@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Set_Conversation_Type (CPI-C)"
-title: "Set_Conversation_Type (CPI-C)1 | Microsoft Docs"
+title: "Set_Conversation_Type (CPI-C)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cbbc2460-0a51-438a-a5cb-56b8f3a25156
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Set_Conversation_Type (CPI-C)
 The **Set_Conversation_Type** call (function name **cmsct**) is issued by the invoking program to define a conversation as being mapped or basic. This call overrides the default conversation type established by [Initialize_Conversation](../core/initialize-conversation-cpi-c-1.md). The default conversation type is CM_MAPPED_CONVERSATION. This call cannot be issued after [Allocate](../core/allocate-cpi-c-2.md) has been issued.  

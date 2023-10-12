@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IsInstalledCodePage"
-title: "IsInstalledCodePage1 | Microsoft Docs"
+title: "IsInstalledCodePage1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fea9230d-34e6-45bf-830b-60dc8df27ee7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IsInstalledCodePage
 The SNA National Language Support (SNANLS) **IsInstalledCodePage** function determines if a code page is installed on a local or remote computer.  

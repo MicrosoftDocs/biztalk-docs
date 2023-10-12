@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Session Integrator Programmer&#39;s Reference"
-title: "Session Integrator Programmer&#39;s Reference2 | Microsoft Docs"
+title: "Session Integrator Programmer&#39;s Reference2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6df040bc-344f-4ee6-a234-2cec60bcf896
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Session Integrator Programmer&#39;s Reference
 The following topics contain the COM reference material for the Session Integrator feature for Host Integration Server.  

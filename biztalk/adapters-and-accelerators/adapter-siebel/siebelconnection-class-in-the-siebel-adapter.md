@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: SiebelConnection class in the Siebel adapter"
-title: "SiebelConnection class in the Siebel adapter | Microsoft Docs"
+title: "SiebelConnection class in the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Data Provider for Siebel, SiebelConnection"
-  - "SiebelConnection, supported properties and methods"
-  - "SiebelConnection"
-ms.assetid: 661d9876-4c14-4748-b05f-cc4fd1c4ebcf
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SiebelConnection class in the Siebel adapter
 The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] accesses the underlying [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]`Binding`, the `ConnectionFactory`, and `Channel` to connect to the Siebel system. The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] implements the `DbConnection` class to support the preceding features.  

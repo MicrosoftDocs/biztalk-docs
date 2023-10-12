@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Linkcfg Reference"
-title: "Linkcfg Reference2 | Microsoft Docs"
+title: "Linkcfg Reference2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6a149640-905d-4676-8209-a60dc9232ca7
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Linkcfg Reference
 Allows you to install and delete link services from the command prompt. Linkcfg allows you to build script files to add link services. If you need to uninstall or reinstall [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], you can reinstall link services by running the Linkcfg script files.  

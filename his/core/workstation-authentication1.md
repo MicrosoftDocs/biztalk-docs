@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Workstation Authentication"
-title: "Workstation Authentication1 | Microsoft Docs"
+title: "Workstation Authentication1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: eb88ce27-e97a-44b1-9848-b564c6a4e024
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Workstation Authentication
 When you receive a request from a source that is external to the corporate network containing the SNA subdomain, or if you are not using a domain-type network, domain authentication is usually difficult to implement.  

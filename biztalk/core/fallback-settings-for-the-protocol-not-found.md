@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Fallback Settings for the Protocol not found"
-title: "Fallback Settings for the Protocol not found | Microsoft Docs"
+title: "Fallback Settings for the Protocol not found"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d93e5db1-16a3-4796-8fa2-fef934508034
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Fallback Settings for the Protocol not found
 ## Details  

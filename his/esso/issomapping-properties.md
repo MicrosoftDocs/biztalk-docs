@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOMapping Properties"
-title: "ISSOMapping Properties | Microsoft Docs"
+title: "ISSOMapping Properties"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bb58ee58-14bb-4413-a7cf-39885fa00cbe
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOMapping Properties
 The properties of the **ISSOMapping** interface are listed in the following table. For a complete list of **ISSOMapping** interface members, see [ISSOMapping Members](../esso/issomapping-members.md).  

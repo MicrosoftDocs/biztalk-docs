@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error encountered during parsing. The Edifact transaction set contained in functional group is being suspended with following errors"
-title: "Error encountered during parsing. The Edifact transaction set contained in functional group is being suspended with following errors | Microsoft Docs"
+title: "Error encountered during parsing. The Edifact transaction set contained in functional group is being suspended with following errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 986a7220-d35a-4047-8996-7d44c7d2b823
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error encountered during parsing. The Edifact transaction set contained in functional group is being suspended with following errors
 ## Details  

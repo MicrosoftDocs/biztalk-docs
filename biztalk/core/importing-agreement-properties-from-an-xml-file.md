@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Importing Agreement Properties from an XML File"
-title: "Importing Agreement Properties from an XML File | Microsoft Docs"
+title: "Importing Agreement Properties from an XML File"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c8bf5268-1742-47da-b42f-6472706a9bff
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Importing Agreement Properties from an XML File
 This section provides instructions on how to import agreement properties from an XML template file.  

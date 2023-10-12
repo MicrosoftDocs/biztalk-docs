@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Configure dynamic ports with the Siebel adapter"
-title: "Configure dynamic ports with the Siebel adapter | Microsoft Docs"
+title: "Configure dynamic ports with the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "dynamic ports, configuring"
-  - "configuring, dynamic ports"
-ms.assetid: a3516c2c-d40e-426b-bf3f-f9dc3de105ef
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure dynamic ports with the Siebel adapter
 In [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you can configure dynamic ports for a [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]. Because [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] is a WCF-based adapter, you can dynamically configure a port for the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] by using message context properties.  

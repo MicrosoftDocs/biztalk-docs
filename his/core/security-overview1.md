@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Security Overview"
-title: "Security Overview1 | Microsoft Docs"
+title: "Security Overview1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d9c8f6cf-b2fc-40f6-b221-7b77b894504f
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Security Overview
 As corporate networks become increasingly integrated with the Internet and other external networks, the threat of unauthorized access to your corporate resources grows significantly. When you plan your networking environment, you must strike a balance between protecting your resources and allowing users unobstructed access to data.  

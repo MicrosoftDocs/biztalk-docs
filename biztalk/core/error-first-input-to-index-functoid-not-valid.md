@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - First Input to Index Functoid Not Valid"
-title: "Error - First Input to Index Functoid Not Valid | Microsoft Docs"
+title: "Error - First Input to Index Functoid Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.firstInputToIndexNotValid"
-ms.assetid: f7dbe9cc-9cfa-4fc7-af3e-1241cb2b50a9
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - First Input to Index Functoid Not Valid
 **Error Code**  

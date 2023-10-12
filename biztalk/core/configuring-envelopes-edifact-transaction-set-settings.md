@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Envelopes (EDIFACT-Transaction Set Settings)"
-title: "Configuring Envelopes (EDIFACT-Transaction Set Settings) | Microsoft Docs"
+title: "Configuring Envelopes (EDIFACT-Transaction Set Settings)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ec140def-6155-4b8a-8489-6e0a530bd697
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Envelopes (EDIFACT-Transaction Set Settings)
 In the **Envelopes** page of the **Transaction Set Settings** section, you define how BizTalk Server generates the UNG and UNH segments for an EDIFACT-encoded interchange that it sends to the party.  

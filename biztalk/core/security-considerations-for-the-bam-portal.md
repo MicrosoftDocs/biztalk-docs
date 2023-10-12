@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Security Considerations for the BAM Portal"
-title: "Security Considerations for the BAM Portal | Microsoft Docs"
+title: "Security Considerations for the BAM Portal"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM portal, security"
-  - "BAM portal, administrator accounts"
-  - "user accounts, BAM"
-  - "administrator accounts, BAM portal"
-  - "BAM portal, user accounts"
-  - "security, BAM portal"
-ms.assetid: 5c8e6034-dfb8-4dba-b040-0c19504abdb2
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security Considerations for the BAM Portal
 Using the principle of least privilege, user accounts should have restrictive permissions to perform routine tasks in the BAM portal. Keep the following points in mind as you set up your user accounts for BAM to balance security with appropriate access for users.  

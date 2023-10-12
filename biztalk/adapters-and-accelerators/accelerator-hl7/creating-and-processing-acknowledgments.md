@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Creating and Processing Acknowledgments"
 title: "Creating and Processing Acknowledgments"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "acknowledgements, creating"
-  - "acknowledgements, processing"
-  - "creating, acknowledgements"
-ms.assetid: b0bbfcee-3951-403c-9838-422d195543ac
-caps.latest.revision: 3
-
-
-
 ---
 # Creating and Processing Acknowledgments
 The following topics provide information about ACK message schemas, and how BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) processes acknowledgments.  

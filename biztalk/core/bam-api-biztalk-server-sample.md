@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BAM API (BizTalk Server Sample)"
-title: "BAM API sample | Microsoft Docs"
+title: "BAM API sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 32a925f2-c7f4-4111-9c59-8865f15c6a89
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BAM API (BizTalk Server Sample)
 The BAM API sample illustrates how to incorporate calls to the BAM API into an application to save key information that you can monitor.  

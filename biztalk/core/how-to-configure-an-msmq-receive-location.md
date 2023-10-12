@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Configure an MSMQ Receive Location"
-title: "How to Configure an MSMQ Receive Location | Microsoft Docs"
+title: "How to Configure an MSMQ Receive Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MSMQ adapters, receive locations"
-  - "receive locations, MSMQ adapters"
-  - "configuring [MSMQ adapters], receive locations"
-ms.assetid: ba25cf43-18f1-4c19-84fb-74c7b82b95a9
-caps.latest.revision: 43
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure an MSMQ Receive Location
 You can set MSMQ receive location adapter variables in the BizTalk Server Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Server Administration console are used.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location for Content-Based Routing"
-title: "How to Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location for Content-Based Routing | Microsoft Docs"
+title: "How to Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location for Content-Based Routing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF Service Publishing Wizard, publishing metadata"
-  - "WCF services, metadata"
-ms.assetid: e900b0a0-db17-4db9-a639-54891e02d6d7
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use the BizTalk WCF Service Publishing Wizard to Publish Service Metadata for a WCF Receive Location for Content-Based Routing
 You use the BizTalk WCF Service Publishing Wizard to create a WCF service to publish service metadata for existing WCF receive locations for content-based routing.  

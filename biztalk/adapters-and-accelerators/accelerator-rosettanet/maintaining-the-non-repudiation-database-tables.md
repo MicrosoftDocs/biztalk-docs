@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Maintaining the Non-Repudiation Database Tables"
-title: "Maintaining the Non-Repudiation Database Tables | Microsoft Docs"
+title: "Maintaining the Non-Repudiation Database Tables"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "databases, purging"
-  - "databases, non-repudiation database"
-  - "maintaining databases, purging"
-  - "purging databases"
-  - "databases, maintaining"
-  - "non-repudiation, database"
-ms.assetid: 29222510-325b-4cd7-854b-6f548a63fd08
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Maintaining the Non-Repudiation Database Tables
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] stores messages for non-repudiation purposes in the MessageStorageIn and MessageStorageOut tables of the BTARNArchive database. Many messages in these tables can affect system performance. You may want to maintain these non-repudiation database tables by periodically purging and archiving messages from these tables, as appropriate.  

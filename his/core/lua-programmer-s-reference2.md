@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA Programmer's Reference"
-title: "LUA Programmer's Reference | Microsoft Docs"
+title: "LUA Programmer's Reference"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 25b12ac7-7721-47ce-875e-d91cb69c5925
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA Programmer's Reference
 This section of the Host Integration Server Developer's Guide lists the verbs, extensions, control blocks, and return codes that describe the logical unit application (LUA) programming interface.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Enable Receive Location (BizTalk Server Sample)"
-title: "Enable Receive Location (BizTalk Server Sample) | Microsoft Docs"
+title: "Enable Receive Location (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "receive locations, examples"
-  - "receive locations, enabling"
-  - "examples, receive locations"
-ms.assetid: dd04b38a-634d-4c9a-b31a-2f226fa91d19
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Enable Receive Location (BizTalk Server Sample)
 The Enable Receive Location sample demonstrates how to enable a receive location and optionally set the Inbound Transport URL for that receive location.

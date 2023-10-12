@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Types of EDI and AS2 Status Reports"
-title: "Types of EDI and AS2 Status Reports | Microsoft Docs"
+title: "Types of EDI and AS2 Status Reports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0c07fd68-4815-4c2b-9084-1f2bae4c1f8e
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Types of EDI and AS2 Status Reports
 The topics in this section describe the different types of EDI and AS2 status reports that you can display on the **Group Hub** page of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.  

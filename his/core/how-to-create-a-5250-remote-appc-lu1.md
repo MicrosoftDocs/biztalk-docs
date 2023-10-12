@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Create a 5250 Remote APPC LU"
-title: "How to Create a 5250 Remote APPC LU1 | Microsoft Docs"
+title: "How to Create a 5250 Remote APPC LU1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f1af8278-b071-4fb8-87b3-135c9eed145c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Create a 5250 Remote APPC LU
 The following procedure details creating a 5250 remote APPC LU manually.  

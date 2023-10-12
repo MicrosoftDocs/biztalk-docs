@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11044"
-title: "Single Sign-On: Event 11044 | Microsoft Docs"
+title: "Single Sign-On: Event 11044"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fa75bafc-624e-48e3-9883-241dfe3025c5
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11044
 ## Details  

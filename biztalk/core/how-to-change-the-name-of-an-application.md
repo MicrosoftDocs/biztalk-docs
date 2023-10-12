@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Change the Name of an Application"
-title: "How to Change the Name of an Application | Microsoft Docs"
+title: "How to Change the Name of an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "naming conventions, renaming"
-  - "naming conventions, applications"
-  - "applications, renaming"
-ms.assetid: ae59c792-44bd-43e0-a4ae-e67bcad2e128
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Change the Name of an Application
 This topic describes how to use the BizTalk Server Administration console to change the name of an application. The application name that you use cannot already exist in the group.  

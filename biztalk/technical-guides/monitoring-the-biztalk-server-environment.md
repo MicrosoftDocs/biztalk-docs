@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Monitoring the BizTalk Server Environment"
-title: "Monitoring the BizTalk Server Environment | Microsoft Docs"
+title: "Monitoring the BizTalk Server Environment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: baae51cf-0284-429b-8335-bc1ac3e63f4c
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Monitoring the BizTalk Server Environment
 You can monitor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] infrastructure and applications with a manual or automatic process, or a combination of the two methods, using the tools as shown in the following table.  

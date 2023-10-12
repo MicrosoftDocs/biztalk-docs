@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Snacfg TNIPID"
-title: "Snacfg TNIPID1 | Microsoft Docs"
+title: "Snacfg TNIPID1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 152dda2d-4ded-4af1-89b9-b932e3572429
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Snacfg TNIPID
 ## Purpose  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Troubleshoot Issues with the Data Provider for Siebel"
-title: "Troubleshoot Issues with the Data Provider for Siebel | Microsoft Docs"
+title: "Troubleshoot Issues with the Data Provider for Siebel"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Data Provider for Siebel, troubleshooting"
-  - "troubleshooting, Data Provider for Siebel"
-ms.assetid: 2bfe69a2-d6de-466d-9f36-f11c386c771c
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshoot Issues with the Data Provider for Siebel
 This section discusses using troubleshooting techniques to resolve errors that you might encounter when using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]).  

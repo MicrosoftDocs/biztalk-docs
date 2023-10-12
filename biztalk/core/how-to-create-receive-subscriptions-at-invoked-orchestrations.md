@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Create Receive Subscriptions at Invoked Orchestrations"
-title: "How to Create Receive Subscriptions at Invoked Orchestrations | Microsoft Docs"
+title: "How to Create Receive Subscriptions at Invoked Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3423309a-cb5a-40a5-9582-6ee3ac82b538
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create Receive Subscriptions at Invoked Orchestrations
 Although you can pass messages as parameters through the **Start Orchestration** shape when you start an orchestration, in some scenarios you may want to send messages from the caller orchestration to the invoked orchestration after the invocation. For example, you may not know what messages you want to pass at the time of invocation, or other orchestrations may need to send messages to the invoked orchestration dynamically.  

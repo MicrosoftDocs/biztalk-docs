@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Set_Conversation_Security_Password (CPI-C)"
-title: "Set_Conversation_Security_Password (CPI-C)1 | Microsoft Docs"
+title: "Set_Conversation_Security_Password (CPI-C)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 959e2155-e3fa-4137-a962-492729e2ef4c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Set_Conversation_Security_Password (CPI-C)
 The **Set_Conversation_Security_Password** call (function name **cmscsp**) is issued by the invoking program to specify the password required to gain access to the invoked program.  

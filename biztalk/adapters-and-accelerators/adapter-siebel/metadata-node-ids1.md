@@ -1,19 +1,12 @@
 ---
-title: "Metadata Node IDs for the Siebel adapter in BizTalk Adapter Pack | Microsoft Docs"
+title: "Metadata Node IDs for the Siebel adapter in BizTalk Adapter Pack"
 description: Metadata, search, retrieval nodes types and IDs used in Siebel components that are exposed in Siebel adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bdffc8d1-0a0a-48d7-b134-5d16acf2c523
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Node types and IDs for the Siebel adapter
 

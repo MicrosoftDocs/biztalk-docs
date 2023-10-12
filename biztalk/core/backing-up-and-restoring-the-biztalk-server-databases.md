@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Backing Up and Restoring the BizTalk Server Databases"
-title: "Backing Up and Restoring the BizTalk Server Databases | Microsoft Docs"
+title: "Backing Up and Restoring the BizTalk Server Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "backing up, BizTalk Server"
-  - "backing up, transaction logs"
-  - "maintaining, restoring"
-  - "restoring, BizTalk Server"
-  - "maintaining, backing up"
-  - "transaction logs"
-ms.assetid: 7c08ce19-614c-4728-8dde-c40d4052339e
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Backing Up and Restoring the BizTalk Server Databases
 This section provides information about how to back up and restore the BizTalk Server databases. You should follow the procedures in this section to ensure your ability to restore a consistent BizTalk Server environment in the event of a hardware failure. BizTalk Server performs distributed transactions across databases, so it is critical that you back up and then restore all databases.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Remote Environment Selection Guidelines"
-title: "Remote Environment Selection Guidelines1 | Microsoft Docs"
+title: "Remote Environment Selection Guidelines1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f5e05935-c016-4afd-9871-59e332758e79
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Remote Environment Selection Guidelines
 Consider these guidelines when you are using the `SelectionHint` property to specify a remote environment (RE) programmatically:  

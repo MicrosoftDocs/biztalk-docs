@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11021"
-title: "Single Sign-On: Event 11021 | Microsoft Docs"
+title: "Single Sign-On: Event 11021"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 70b987aa-8097-4243-a25b-f1cc12c5bc6a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11021
 ## Details  

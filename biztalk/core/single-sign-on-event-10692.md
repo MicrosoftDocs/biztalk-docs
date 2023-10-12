@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10692"
-title: "Single Sign-On: Event 10692 | Microsoft Docs"
+title: "Single Sign-On: Event 10692"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 78a476ca-32eb-4f37-a807-25850503db6e
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10692
 ## Details  

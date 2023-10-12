@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: BAM Portal Page Layout"
-title: "BAM Portal Page Layout | Microsoft Docs"
+title: "BAM Portal Page Layout"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM portal"
-  - "Portal page [BAM portal]"
-ms.assetid: 0d8833b7-dd2f-475c-a890-e925ee47d219
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BAM Portal Page Layout
 The BAM portal page is laid out in the following three frames:  

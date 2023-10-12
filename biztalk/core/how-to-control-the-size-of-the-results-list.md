@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Control the Size of the Results List"
-title: "How to Control the Size of the Results List | Microsoft Docs"
+title: "How to Control the Size of the Results List"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "results list [Orchestration Debugger], deleting columns"
-  - "results list [Orchestration Debugger], limiting list size"
-  - "Orchestration Debugger, results list"
-  - "results list [Orchestration Designer]"
-  - "results list [Orchestration Debugger], adding columns"
-ms.assetid: 4d41003f-5ea9-4599-8ec0-737c342ffdbd
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Control the Size of the Results List
 On the **Group Hub** page of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, the Query results pane contains so many columns of information that you need to scroll to view them. You can add or remove columns in the pane to display only the information that you need. To add or remove columns, right-click any part of the Query results pane and click **Add/Remove Columns** on the context menu.  

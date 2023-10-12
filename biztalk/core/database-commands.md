@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Database Commands"
-title: "Database Commands | Microsoft Docs"
+title: "Database Commands"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 60c54131-0793-45a9-822a-554cd4fc05a2
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Database Commands
 The BAM Management utility database commands allow you to work with the BAM databases:  

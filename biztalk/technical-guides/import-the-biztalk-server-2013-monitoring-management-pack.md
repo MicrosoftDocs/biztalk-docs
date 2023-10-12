@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Import the BizTalk Server 2013 Monitoring Management Pack"
-title: "Import the BizTalk Server 2013 Monitoring Management Pack | Microsoft Docs"
+title: "Import the BizTalk Server 2013 Monitoring Management Pack"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bee2bfe9-4eb0-46d4-8eee-75182202080c
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Import the BizTalk Server 2013 Monitoring Management Pack
 For instructions about how to import a management pack, see How to Import a Management Pack in [Operations Manager 2007 R2/2012](/previous-versions/system-center/operations-manager-2007-r2/cc974494(v=technet.10)) (<https://go.microsoft.com/fwlink/?LinkId=142351>). After the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack is imported, follow these procedures to finish your initial configuration:

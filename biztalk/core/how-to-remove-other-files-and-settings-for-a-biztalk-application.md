@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Remove Other Files and Settings for a BizTalk Application"
-title: "How to Remove Other Files and Settings for a BizTalk Application | Microsoft Docs"
+title: "How to Remove Other Files and Settings for a BizTalk Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "managing [applications], deleting settings"
-  - "managing [applications], deleting files"
-  - "undeploying, settings"
-  - "applications, undeploying"
-  - "undeploying, files"
-ms.assetid: b947831a-c988-435c-92ec-45f3fd6967de
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Remove Other Files and Settings for a BizTalk Application
 This topic describes how to remove files and settings for a BizTalk application that may not be removed when you uninstall the application (which is described in [How to Uninstall a BizTalk Application](../core/how-to-uninstall-a-biztalk-application.md)). For example, certificates, COM and COM+ registry entries, and COM files are not removed unless the application included a post-processing script that removed them on uninstallation.

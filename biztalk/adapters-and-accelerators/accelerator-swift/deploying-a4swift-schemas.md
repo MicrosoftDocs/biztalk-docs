@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Deploying A4SWIFT Schemas"
-title: "Deploying A4SWIFT Schemas | Microsoft Docs"
+title: "Deploying A4SWIFT Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "schemas, A4SWIFT"
-  - "deploying, A4SWIFT schemas"
-  - "A4SWIFT, deploying schemas"
-  - "schemas, deploying"
-ms.assetid: a6aed2cd-3578-442e-ab1e-8284cc5f7b72
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploying A4SWIFT Schemas
 You must deploy schemas for the SWIFT messages that you want to exchange.  

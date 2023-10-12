@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Host Throttling Performance Counters"
-title: "Host Throttling Performance Counters | Microsoft Docs"
+title: "Host Throttling Performance Counters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "host throttling, performance counters"
-ms.assetid: b9090d1c-86be-40db-b814-cc116a426d95
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Host Throttling Performance Counters
 This section describes the performance monitor counters that measure system parameters that impact host throttling. The following performance counters are accessible for each host instance under the **BizTalk:Message Agent** performance object category:  

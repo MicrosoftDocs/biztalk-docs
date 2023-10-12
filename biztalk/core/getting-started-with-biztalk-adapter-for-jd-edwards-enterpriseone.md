@@ -1,19 +1,12 @@
 ---
-title: "Get started with BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
+title: "Get started with BizTalk Adapter for JD Edwards EnterpriseOne"
 description: Install and step through a tutorial for the BizTalk Adapter for JD Edwards EnterpriseOne in BizTalk Server
 ms.custom: ""
 ms.date: "10/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 58850648-9e65-41fb-8457-21cdbe441062
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Get started with BizTalk Adapter for JD Edwards EnterpriseOne
 

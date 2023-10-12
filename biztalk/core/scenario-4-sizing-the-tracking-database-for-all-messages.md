@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Scenario 4: Sizing the Tracking Database for all Messages"
-title: "Scenario 4: Sizing the Tracking Database for all Messages | Microsoft Docs"
+title: "Scenario 4: Sizing the Tracking Database for all Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Tracking database, database size"
-ms.assetid: db1126c7-0b86-4635-bfdc-3b69a82cc64b
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scenario 4: Sizing the Tracking Database for all Messages
 If you had all three message scenarios present in a Microsoft® BizTalk Server® 2004 implementation, you would need to add together all of the scenario results to determine the size of the BizTalk Tracking database.  

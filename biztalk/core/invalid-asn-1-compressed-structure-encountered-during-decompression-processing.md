@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid ASN.1 compressed structure encountered during decompression processing"
-title: "Invalid ASN.1 compressed structure encountered during decompression processing | Microsoft Docs"
+title: "Invalid ASN.1 compressed structure encountered during decompression processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4e5ebbd6-249a-4746-8ee6-cfb1f52ecc94
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid ASN.1 compressed structure encountered during decompression processing
 ## Details  

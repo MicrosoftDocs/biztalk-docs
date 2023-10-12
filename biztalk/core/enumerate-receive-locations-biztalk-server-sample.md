@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Enumerate Receive Locations (BizTalk Server Sample)"
-title: "Enumerate Receive Locations (BizTalk Server Sample) | Microsoft Docs"
+title: "Enumerate Receive Locations (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "receive locations, examples"
-  - "receive locations, enumerating"
-  - "examples, receive locations"
-ms.assetid: 27ff8ac6-7e8e-4dde-84d1-d21bf417ddd7
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Enumerate Receive Locations (BizTalk Server Sample)
 The Enumerate Receive Locations sample demonstrates how to retrieve details about one or more receive locations.

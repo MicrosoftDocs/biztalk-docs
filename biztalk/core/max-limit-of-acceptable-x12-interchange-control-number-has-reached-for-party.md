@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Max limit of acceptable X12 interchange control number has reached for party"
-title: "Max limit of acceptable X12 interchange control number has reached for party | Microsoft Docs"
+title: "Max limit of acceptable X12 interchange control number has reached for party"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: adc49089-3c7b-4ce2-9fbc-68e582c3a822
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Max limit of acceptable X12 interchange control number has reached for party
 ## Details  

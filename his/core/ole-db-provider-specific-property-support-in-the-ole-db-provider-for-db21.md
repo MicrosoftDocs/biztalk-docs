@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: OLE DB Provider-Specific Property Support in the OLE DB Provider for DB2"
-title: "OLE DB Provider-Specific Property Support in the OLE DB Provider for DB21 | Microsoft Docs"
+title: "OLE DB Provider-Specific Property Support in the OLE DB Provider for DB21"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b85568e8-0108-4923-88ba-4ca28d3c9913
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # OLE DB Provider-Specific Property Support in the OLE DB Provider for DB2
 The following table summarizes the provider-specific OLE DB version 2.0 properties in the DB2OLEDB_DBPROPSET_DBINIT property set that are supported by the version of Microsoft OLE DB Provider for DB2 included with Host Integration Server.  

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: HTTP Adapter Configuration Properties"
-title: "HTTP Adapter Configuration Properties | Microsoft Docs"
+title: "HTTP Adapter Configuration Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "HTTP adapters, properties"
-  - "receive locations, adapters"
-  - "HTTP adapters, code sample"
-  - "HTTP adapters, send ports"
-  - "HTTP adapters, receive locations"
-  - "send ports, adapters"
-ms.assetid: 3d4e9d88-ea40-4478-a0cf-77057fadd3b2
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # HTTP Adapter Configuration Properties
 The following table lists the configuration properties that you can set for an HTTP adapter receive location:  

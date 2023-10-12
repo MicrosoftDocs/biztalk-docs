@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDI Type (Data Element) Validation"
-title: "EDI Type (Data Element) Validation | Microsoft Docs"
+title: "EDI Type (Data Element) Validation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cd53685f-a49c-41c8-813e-29700fc0b62b
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDI Type (Data Element) Validation
 The EDI receive pipeline and EDI send pipeline perform EDI validation on transaction-set data elements. This validation is configured for all messages from or to a specific party, through that party's agreement properties on the **Validation** page (under the **Transaction Set Settings** section for either X12 or EDIFACT agreements). If the **EDI Type Validation** property is not selected in the **Validation** page, the data validations described in this topic will not be performed.  

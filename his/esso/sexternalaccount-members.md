@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SExternalAccount Members"
-title: "SExternalAccount Members | Microsoft Docs"
+title: "SExternalAccount Members"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5022eb3e-e328-4419-8523-59b6c7a226eb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SExternalAccount Members
 The following table shows the **SExternal** members.  

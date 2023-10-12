@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Run TI over SNA (APPC/LU 6.2)"
-title: "How to Run TI over SNA (APPC-LU 6.2)1 | Microsoft Docs"
+title: "How to Run TI over SNA (APPC-LU 6.2)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c746f4b4-fd8f-4420-9587-d54a0986176d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Run TI over SNA (APPC/LU 6.2)
 If you have a distributed network, use Transaction Integrator (TI) over an SNA (APPC/LU 6.2) network connection to take advantage of its support for two-phase commit (2PC) in ACID (atomic, consistent, isolated, and durable) transaction processing. To support ACID transactions, your COBOL transaction program (TP) must support Sync Level 2. The TCP/IP protocol has no default support for 2PC, so TCP/IP is not appropriate in a distributed network.  

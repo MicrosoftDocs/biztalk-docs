@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Import and Export Policies and Vocabularies"
-title: "How to Import and Export Policies and Vocabularies | Microsoft Docs"
+title: "How to Import and Export Policies and Vocabularies"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "policies, exporting"
-  - "Rule Engine Deployment Wizard"
-  - "policies, importing"
-  - "vocabularies, exporting"
-  - "vocabularies, importing"
-ms.assetid: c427f686-5908-4f72-9e72-46a5497274ac
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Import and Export Policies and Vocabularies
 You can use the Rules Engine Deployment Wizard to import or export a policy or vocabulary.  

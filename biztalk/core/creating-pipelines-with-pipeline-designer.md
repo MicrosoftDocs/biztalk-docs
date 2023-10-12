@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Creating Pipelines with Pipeline Designer"
-title: "Creating Pipelines with Pipeline Designer | Microsoft Docs"
+title: "Creating Pipelines with Pipeline Designer"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Pipeline Designer, how to"
-  - "creating, pipelines"
-  - "pipelines, creating"
-ms.assetid: cd72e77d-642b-491c-aaa7-20683616b8c9
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Pipelines with Pipeline Designer
 This section describes how to:  

@@ -1,25 +1,12 @@
 ---
 description: "Learn how to build, deploy, bind, and start orchestrations in BizTalk Server."
-title: "Running Orchestrations1 | Microsoft Docs"
+title: "Running Orchestrations1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "strong name keys, creating"
-  - "orchestrations"
-  - "host instances, stopping and restarting"
-  - "orchestrations, compiling"
-  - "orchestrations, deploying"
-ms.assetid: b992bdba-630d-4f28-aca8-c568f3c27968
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run Orchestrations
 

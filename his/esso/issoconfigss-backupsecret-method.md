@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigSS.BackupSecret Method"
-title: "ISSOConfigSS.BackupSecret Method | Microsoft Docs"
+title: "ISSOConfigSS.BackupSecret Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8dc8c495-7ff1-4ed0-921a-0828e69319b8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigSS.BackupSecret Method
 The **BackupSecret** method backs up the secret server.  

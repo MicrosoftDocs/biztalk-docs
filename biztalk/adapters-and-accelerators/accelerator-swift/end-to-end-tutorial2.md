@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: End-to-End Tutorial"
-title: "End-to-End Tutorial2 | Microsoft Docs"
+title: "End-to-End Tutorial2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tutorial, about the tutorial"
-  - "tutorial"
-  - "tutorial, workflow"
-ms.assetid: 1aba93b9-6991-46ef-a3bc-3815a5ff473f
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # End-to-End Tutorial
 This tutorial contains detailed steps that describe how to create and set up a Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] solution. The modules and lessons use Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] to create the schema, maps orchestrations, and pipeline components using A4SWIFT.  

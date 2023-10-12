@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Custom Party Resolution (BizTalk Server Sample)"
-title: "Custom Party Resolution (BizTalk Server Sample) | Microsoft Docs"
+title: "Custom Party Resolution (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, parties"
-  - "pipeline components [custom], examples"
-  - "pipeline components [custom], parties"
-  - "examples, pipeline components [custom]"
-  - "parties, pipeline components [custom]"
-  - "parties, custom"
-ms.assetid: 1f88450f-5fe9-486d-bfb8-fd11181c78b4
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Custom Party Resolution (BizTalk Server Sample)
 The Custom Party Resolution sample demonstrates how to write a custom pipeline component to resolve a custom party.  

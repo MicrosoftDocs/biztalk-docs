@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Application Deployment and Management Features"
-title: "Application Deployment and Management Features | Microsoft Docs"
+title: "Application Deployment and Management Features"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "what's new, Installation Wizard"
-  - "what's new, BTSTask command-line tool"
-  - "what's new, Import Wizard"
-  - "deploying, what's new"
-  - "what's new, Export Wizard"
-  - "what's new, deploying"
-  - "applications, what's new"
-  - "what's new, applications"
-ms.assetid: 2d09d6b1-1003-406f-81da-14e21a1cbc81
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Application Deployment and Management Features
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several features to assist with the deployment of BizTalk business solutions:  

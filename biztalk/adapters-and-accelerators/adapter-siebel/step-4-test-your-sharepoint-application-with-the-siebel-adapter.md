@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4: Test Your SharePoint Application with the Siebel adapter"
-title: "Step 4: Test Your SharePoint Application with the Siebel adapter | Microsoft Docs"
+title: "Step 4: Test Your SharePoint Application with the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ec1392fa-fdc1-42be-b4dc-75a55d8fa400
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Test Your SharePoint Application with the Siebel adapter
 ![Step 4 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")  

@@ -1,23 +1,12 @@
 ---
 description: "Learn about publishing Web services in BizTalk Server by using the BizTalk Web Services Publishing Wizard or by exposing orchestrations as Web services."
-title: "Planning for Publishing Web Services2 | Microsoft Docs"
+title: "Planning for Publishing Web Services2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web services, planning"
-  - "virtual directories, updating"
-  - "BizTalk Server Web Services Publishing Wizard"
-ms.assetid: 69107557-48e2-4f15-ba42-9fad476a8294
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Plan for Publishing Web Services
 

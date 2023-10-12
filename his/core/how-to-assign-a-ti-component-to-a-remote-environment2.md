@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Assign a TI Component to a Remote Environment"
-title: "Assign a TI Component to a Remote Environment | Microsoft Docs"
+title: "Assign a TI Component to a Remote Environment"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 025b6170-0028-44c4-a23c-bc22856ed124
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Assign a TI Component to a Remote Environment
 

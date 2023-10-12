@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: View the supported message exchange patterns in the WCF LOB Adapter SDK"
-title: "View the supported message exchange patterns in the WCF LOB Adapter SDK | Microsoft Docs"
+title: "View the supported message exchange patterns in the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b6662f17-b4f8-45fe-a22f-5d027dc9f2ff
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # View the supported message exchange patterns in the WCF LOB Adapter SDK
 The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] supports several of the messaging patterns supported by the underlying [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] including request-reply, and one-way communication. Different transports support different messaging patterns, and thus affect the types of interactions that they support.  

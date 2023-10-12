@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Monitoring Throttling Using Performance Threshold Rules"
-title: "Monitoring Throttling Using Performance Threshold Rules | Microsoft Docs"
+title: "Monitoring Throttling Using Performance Threshold Rules"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc2c3024-a54b-4485-8110-c2ec9ec52721
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Monitoring Throttling Using Performance Threshold Rules
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will initialize throttling to protect the system from reaching an unrecoverable state. Throttling can indicate a problem and assist you in identifying its source. After you have identified the cause of the bottleneck based on the throttling state, analyze the other performance counters to narrow down the source of the problem.

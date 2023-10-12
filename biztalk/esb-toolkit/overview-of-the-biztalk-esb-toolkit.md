@@ -1,19 +1,12 @@
 ---
-title: "Overview of the ESB Toolkit in BizTalk Server | Microsoft Docs"
+title: "Overview of the ESB Toolkit in BizTalk Server"
 description: Explanation of the ESB Toolkit, and what it does in BizTalk Server
-caps.latest.revision: 6
-author: "MandiOhlinger"
-manager: "anneta"
-
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3e190b34-40bc-4f27-9b4f-56e98591e1d4
-ms.author: "mandia"
 ---
 
 # What is the BizTalk ESB Toolkit

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Unable to load assembly"
-title: "Unable to load assembly | Microsoft Docs"
+title: "Unable to load assembly"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 324c4862-cdda-43d6-9976-1d995935cabc
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unable to load assembly
 ## Details  

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Unenlist a Send Port or Send Port Group"
-title: "How to Unenlist a Send Port or Send Port Group | Microsoft Docs"
+title: "How to Unenlist a Send Port or Send Port Group"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "unenlisting, send port groups"
-  - "send port groups, unenlisting"
-  - "managing [send ports], unenlisting"
-  - "managing [send port groups], unenlisting"
-  - "unenlisting, send ports"
-  - "send ports, unenlisting"
-ms.assetid: 3185adad-2efa-4abd-a532-77ae6c7b4c1d
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Unenlist a Send Port or Send Port Group
 This topic describes how to use the BizTalk Server Administration console to unenlist a send port or send port group. Unenlisting a send port or send port group eliminates all subscriptions associated with that send port or send port group. You can unenlist both running and stopped send ports or send port groups. Unenlisting a send port or send port group automatically stops it.  

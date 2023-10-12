@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SSO System Properties: Audits"
-title: "SSO System Properties: Audits2 | Microsoft Docs"
+title: "SSO System Properties: Audits2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 19dfb065-14d1-4fa1-a0b7-bc7c89fdd78b
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SSO System Properties: Audits
 These properties define the sizes of the audit tables in the Enterprise Single Sign-On (SSO) database.  

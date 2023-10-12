@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: COM Mapper Programmer's Reference"
-title: "COM Mapper Programmer's Reference | Microsoft Docs"
+title: "COM Mapper Programmer's Reference"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a9b97664-412e-45b6-8b17-66c931d84d24
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # COM Mapper Programmer's Reference
 Component Object Model (COM) objects are used for accessing the Enterprise Single Sign-On (SSO) technology for Microsoft Host Integration Server.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Snacfg Workstation"
-title: "Snacfg Workstation1 | Microsoft Docs"
+title: "Snacfg Workstation1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 62ec8e5a-697d-45fb-8f4c-3be91aed6789
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Snacfg Workstation
 ## Purpose  

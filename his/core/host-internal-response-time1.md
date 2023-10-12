@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Host Internal Response Time"
-title: "Host Internal Response Time1 | Microsoft Docs"
+title: "Host Internal Response Time1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a9b5a62c-ae1e-4c02-b7c4-966682d8806c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Host Internal Response Time
 The host internal response time is the time that the transactions spend inside the host system processing the transaction requests from Transaction Integrator (TI). These include components such as processing the business logic, disk and database I/O, and handling the two-phase commit (2PC) processing.  

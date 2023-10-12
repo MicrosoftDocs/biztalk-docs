@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Receive-Side Processing of an Incoming EDI Message over AS2"
-title: "Receive-Side Processing of an Incoming EDI Message over AS2 | Microsoft Docs"
+title: "Receive-Side Processing of an Incoming EDI Message over AS2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 118451ab-d847-4f87-80ab-3cf812d71ac3
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive-Side Processing of an Incoming EDI Message over AS2
 Receive-side processing of an EDI message over AS2 includes receiving the AS2 message, sending an MDN, processing the EDI payload, and sending EDI acknowledgments (if enabled).  

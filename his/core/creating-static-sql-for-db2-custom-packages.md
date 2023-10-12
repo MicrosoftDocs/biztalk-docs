@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating Static SQL for DB2 Custom Packages"
-title: "Creating Static SQL for DB2 Custom Packages | Microsoft Docs"
+title: "Creating Static SQL for DB2 Custom Packages"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0e8af051-bfe9-4f12-b1fe-55137d23f698
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Creating Static SQL for DB2 Custom Packages
 ## Create Custom Packages Menu

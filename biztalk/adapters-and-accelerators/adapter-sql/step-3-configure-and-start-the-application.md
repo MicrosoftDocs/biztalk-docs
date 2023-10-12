@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3: Configure and Start the Application"
-title: "Step 3: Configure and Start the Application | Microsoft Docs"
+title: "Step 3: Configure and Start the Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e4252470-805e-404f-80d5-df8d1ff3af63
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Configure and Start the Application
 ![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")  

@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: What Happens to Artifacts During Installation and Uninstallation"
-title: "What Happens to Artifacts During Installation and Uninstallation | Microsoft Docs"
+title: "What Happens to Artifacts During Installation and Uninstallation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "uninstalling, artifacts"
-  - "artifacts, uninstalling"
-  - "installing, artifacts"
-  - "artifacts, installing"
-  - "uninstalling"
-ms.assetid: f7b5bd8b-bfdf-4536-ae64-fa98c4885be6
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Happens to Artifacts During Installation and Uninstallation
 This topic describes how BizTalk Server handles file-based artifacts included in a BizTalk application when you install and uninstall the application.  

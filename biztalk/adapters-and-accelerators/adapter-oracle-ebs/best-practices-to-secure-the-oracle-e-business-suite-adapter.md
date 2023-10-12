@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Best practices to secure the Oracle E-Business Suite adapter"
-title: "Best practices to secure the Oracle E-Business Suite adapter | Microsoft Docs"
+title: "Best practices to secure the Oracle E-Business Suite adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2d492d22-2a1f-4b91-9000-a4d74c6fb2fb
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Best practices to secure the Oracle E-Business Suite adapter
 This section provides best practices that you should follow to more completely protect sensitive data when you use or develop applications that consume the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].

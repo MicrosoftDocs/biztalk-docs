@@ -1,19 +1,12 @@
 ---
 description: "Learn about creating a send port that uses Single Sign-On (SSO) and an SSO affiliate application."
-title: "Creating Send Ports1 | Microsoft Docs"
+title: "Creating Send Ports1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bdb437bd-890d-4997-ae59-cd0151301153
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create a Send Port
 

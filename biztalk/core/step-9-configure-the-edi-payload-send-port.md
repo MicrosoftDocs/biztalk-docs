@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 9: Configure the EDI Payload Send Port"
-title: "Step 9: Configure the EDI Payload Send Port | Microsoft Docs"
+title: "Step 9: Configure the EDI Payload Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 71a8a4a7-7c3e-4e33-a9c0-a6445a3cc236
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 9: Configure the EDI Payload Send Port
 ![Step 9 of 11](../core/media/tut-step9-of-11.gif "Tut_Step9_of_11")  

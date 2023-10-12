@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Working with Session Integrator"
-title: "Working with Session Integrator1 | Microsoft Docs"
+title: "Working with Session Integrator1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a957804e-95a9-4818-8838-886d1bafb1d3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Working with Session Integrator
 The topics in this section describe how to create Session Integrator applications.  

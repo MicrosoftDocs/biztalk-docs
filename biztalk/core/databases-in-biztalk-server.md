@@ -1,37 +1,12 @@
 ---
 description: "Learn more about: Databases in BizTalk Server"
-title: "Databases in BizTalk Server | Microsoft Docs"
+title: "Databases in BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Notification Services Application database [BAM]"
-  - "Archive database [BAM]"
-  - "Analysis database [BAM]"
-  - "Windows SharePoint Services, content database"
-  - "Windows SharePoint Services, configuration database"
-  - "TPM database"
-  - "BizTalk Server, databases"
-  - "Notification Services Instance database [BAM]"
-  - "Star Schema database [BAM]"
-  - "Primary Import database [BAM]"
-  - "Rule Engine database"
-  - "databases, BizTalk Server"
-  - "SSO database"
-  - "Tracking Analysis Server database [BAM]"
-  - "Management database"
-  - "Tracking database"
-  - "MessageBox database"
-ms.assetid: bb504a26-cae6-4f2a-9b86-3554ef8f6045
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Databases in BizTalk Server
 Microsoft BizTalk Server installs several databases in SQL Server. This topic describes these databases, and the SQL logic groups used by these databases.  

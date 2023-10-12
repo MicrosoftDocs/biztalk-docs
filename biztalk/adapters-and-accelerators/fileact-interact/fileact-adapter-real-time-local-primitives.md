@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: FileAct Adapter Real-Time Local Primitives"
-title: "FileAct Adapter Real-Time Local Primitives | Microsoft Docs"
+title: "FileAct Adapter Real-Time Local Primitives"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ef4da4f8-3de2-4d35-8f8a-1e12937e52a1
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FileAct Adapter Real-Time Local Primitives
 Local primitives involve two messages each, which are exchanged between the client SWIFTNet Link (SNL) and the local FileAct subsystem.  

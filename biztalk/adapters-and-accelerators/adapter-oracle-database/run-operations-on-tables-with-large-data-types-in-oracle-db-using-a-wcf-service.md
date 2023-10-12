@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Complete operations on tables with large data types in Oracle Database using the WCF service model"
-title: "Complete operations on tables with large data types in Oracle Database using the WCF service model | Microsoft Docs"
+title: "Complete operations on tables with large data types in Oracle Database using the WCF service model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF service model, performing operations on tables and views"
-  - "how to, invoke the ReadLOB and UpdateLOB operations"
-ms.assetid: 5d0e84d3-7ffa-47c7-aaf2-a1007f7a71a2
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Complete operations on tables with large data types in Oracle Database using the WCF service model
 This section contains information about how to invoke the ReadLOB and UpdateLOB operations from the WCF service model. The ReadLOB and UpdateLOB operations are surfaced for tables and views that contain LOB columns; that is columns that are used to store Oracle large object (LOB) data. For an overview of the Oracle LOB data types supported by the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] and of the ReadLOB and UpdateLOB operations, see [Operations on Tables and Views That Contain LOB Data in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/operations-on-tables-and-views-that-contain-lob-data-in-oracle-database.md).  

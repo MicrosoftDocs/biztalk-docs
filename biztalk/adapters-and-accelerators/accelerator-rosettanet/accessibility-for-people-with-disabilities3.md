@@ -1,18 +1,12 @@
 ---
 description: "Learn about accessibility options for Microsoft BizTalk Accelerator for RosettaNet Help and how to find general information about accessibility features and services from Microsoft."
-title: "Accessibility for People with Disabilities3 | Microsoft Docs"
+title: "Accessibility for People with Disabilities3"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2dd0f8d9-b6d4-4568-a632-a004b8349b7a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Accessibility features and services for people with disabilities
 

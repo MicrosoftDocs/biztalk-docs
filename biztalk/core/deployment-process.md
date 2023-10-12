@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Deployment Process"
-title: "Deployment Process | Microsoft Docs"
+title: "Deployment Process"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSO, deploying"
-  - "deploying, SSO"
-  - "LogonExternalUser test [SSO]"
-  - "security, SSO"
-  - "SSO, LogonExternalUser test"
-  - "SSO, security"
-ms.assetid: 7dd4c022-c70b-467a-bf94-dc4ac6029f81
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deployment Process
 The following steps give a high-level overview of secure deployment of Enterprise Single Sign-On. For detailed procedures on the actions to take in SQL Server, see your SQL Server documentation.  

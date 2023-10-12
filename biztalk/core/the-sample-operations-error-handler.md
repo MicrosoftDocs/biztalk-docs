@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: The Sample Operations Error Handler"
-title: "The Sample Operations Error Handler | Microsoft Docs"
+title: "The Sample Operations Error Handler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Ops adapters, error handler"
-  - "process management solution tutorial, Ops adapters"
-ms.assetid: e6c55f01-c004-4340-beaa-d77764ae34c1
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Sample Operations Error Handler
 The sample operations error handler has three major assemblies: **OperationsClient**, **OperationsHandler**, and **OperationsServer**.  

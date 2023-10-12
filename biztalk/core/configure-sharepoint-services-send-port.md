@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configure SharePoint Services Send Port"
-title: "Configure SharePoint Services Send Port | Microsoft Docs"
+title: "Configure SharePoint Services Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 36aadbc2-316f-4e1c-a5a8-b162470acf9e
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure SharePoint Services Send Port
 This topic compares a Static Send Port with a Dynamic Send Port and also lists the steps to create a [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] send port. Specifically:

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Decompression failed while processing a compressed AS2 message."
-title: "Decompression failed while processing a compressed AS2 message. | Microsoft Docs"
+title: "Decompression failed while processing a compressed AS2 message."
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5246ee97-cc60-4878-9447-de870c0f4c34
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Decompression failed while processing a compressed AS2 message.
 ## Details  

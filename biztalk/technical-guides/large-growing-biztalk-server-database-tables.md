@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Large-growing BizTalk Server Database Tables"
-title: "Large-growing database Tables | Microsoft Docs"
+title: "Large-growing database Tables"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f30372f7-ab90-4ebb-9022-ac3ae3309459
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Large-growing BizTalk Server Database Tables
 The following table lists the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] tables that typically grow the largest. You can use this data to determine where a potential problem may exist.  

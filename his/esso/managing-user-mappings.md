@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Managing User Mappings"
-title: "Managing User Mappings | Microsoft Docs"
+title: "Managing User Mappings"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5a210835-e9a5-451a-84d1-3d85fca2b3d7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Managing User Mappings
 This section provides information about how to create and configure the Enterprise Single Sign-On (SSO) mappings.  

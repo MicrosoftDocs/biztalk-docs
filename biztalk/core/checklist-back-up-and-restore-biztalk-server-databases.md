@@ -1,31 +1,12 @@
 ---
 description: "Learn more about: Checklist: Back Up and Restore BizTalk Server Databases"
-title: "Checklist: Back Up and Restore BizTalk Server Databases | Microsoft Docs"
+title: "Checklist: Back Up and Restore BizTalk Server Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "backing up, BizTalk Server"
-  - "restoring, checklists"
-  - "maintaining, restoring"
-  - "maintaining, checklists"
-  - "restoring, BizTalk Server"
-  - "maintaining, backing up"
-  - "checklists, backing up"
-  - "backing up, checklists"
-  - "BizTalk Server, backing up"
-  - "checklists, restoring"
-  - "BizTalk Server, restoring"
-ms.assetid: 12f7e02e-57b1-4e55-8e44-7fe2d7920f5a
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Back Up and Restore BizTalk Server Databases
 Before attempting to back up or restore BizTalk Server, be sure to familiarize yourself with the processes involved.  

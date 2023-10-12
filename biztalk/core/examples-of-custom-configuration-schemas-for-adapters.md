@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Examples of Custom Configuration Schemas for Adapters"
-title: "Examples of Custom Configuration Schemas for Adapters | Microsoft Docs"
+title: "Examples of Custom Configuration Schemas for Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 31b188de-9363-4f4c-b40a-149ff59ddf8d
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Examples of Custom Configuration Schemas for Adapters
 This section provides the following examples for how to customize configuration schemas for adapters:  

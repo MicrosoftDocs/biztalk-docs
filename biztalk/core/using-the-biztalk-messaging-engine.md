@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Using the BizTalk Messaging Engine"
-title: "Using the BizTalk Messaging Engine | Microsoft Docs"
+title: "Using the BizTalk Messaging Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapters, Messaging Engine"
-  - "adapters, TransportProxy object"
-  - "Messaging Engine, adapters"
-  - "Messaging Engine, architecture"
-  - "TransportProxy object"
-  - "Messaging Engine, how to"
-  - "architecture, Messaging Engine"
-  - "messages, Messaging Engine"
-ms.assetid: e6b6d1ec-38cd-4721-9673-ae40da003dec
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the BizTalk Messaging Engine
 The following diagram illustrates the architecture of the Messaging Engine. It shows a scenario in which a message is received by an adapter and submitted into BizTalk Server.  

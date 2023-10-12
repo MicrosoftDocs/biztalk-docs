@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: The Application Deployment Process"
-title: "The Application Deployment Process | Microsoft Docs"
+title: "The Application Deployment Process"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "applications, deploying"
-  - "deploying [applications], how to"
-ms.assetid: 29486c37-6aa7-46fd-a457-916fd235f448
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Application Deployment Process
 This following diagram depicts the general steps involved in deploying a BizTalk application. For detailed information about the tasks involved during the development, testing, staging, and production phases of application deployment, see [Application Deployment Tasks](../core/application-deployment-tasks.md).  

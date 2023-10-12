@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Message Schemas for Functions and Procedures"
-title: "Message Schemas for Functions and Procedures | Microsoft Docs"
+title: "Message Schemas for Functions and Procedures"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "functions and procedures, message structure of"
-  - "functions and procedures, message actions of"
-ms.assetid: 90b77b15-a4c6-487d-a09e-a078ceddfd1e
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for Functions and Procedures
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces Oracle database functions and stored procedures as operations. This section describes the message structure and actions used to invoke functions and procedures.  

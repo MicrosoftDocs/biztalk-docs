@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Receive IDOCs from SAP using BizTalk Server"
-title: "Receive IDOCs from SAP using BizTalk Server | Microsoft Docs"
+title: "Receive IDOCs from SAP using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "IDOCs, sample (receiving)"
-  - "IDOCs, business scenarios for receiving"
-  - "IDOCs, receiving from SAP using BizTalk Server"
-ms.assetid: b904bf07-1108-4ed3-8564-d83eaafff247
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive IDOCs from SAP using BizTalk Server
 Receiving an IDOC involves the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to act as an RFC server to receive a special RFC call from SAP. The SAP adapter can receive IDOCs acting as an RFC server or a tRFC server. For more information about receiving an IDOC with the adapter behaving as a tRFC server, see [Receive IDOCs from SAP in a Transactional Context by Using BizTalk Server](../../adapters-and-accelerators/adapter-sap/receive-idocs-from-sap-in-a-transactional-context-using-biztalk-server.md).  

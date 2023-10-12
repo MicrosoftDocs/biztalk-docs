@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the Exception Handling Service Sample"
-title: "Running the Exception Handling Service Sample | Microsoft Docs"
+title: "Running the Exception Handling Service Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d69e720c-89e4-42c2-b4d0-31f0b865ab7f
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the Exception Handling Service Sample
 The Exception Handling Service sample demonstrates how to consume the Exception Handling Web Service in order to submit a fault into the ESB Exception Handling Framework from an external application. The following procedure for running this sample requires [Installing the Exception Management Samples](../esb-toolkit/installing-the-exception-management-samples.md).  

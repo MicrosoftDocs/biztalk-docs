@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning and Architecting Solutions Using Microsoft Service for DRDA"
-title: "Planning and Architecting Solutions Using Microsoft Service for DRDA | Microsoft Docs"
+title: "Planning and Architecting Solutions Using Microsoft Service for DRDA"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fcf397eb-2e1f-4c99-bc51-08068ef8df7f
-caps.latest.revision: 124
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Planning and Architecting Solutions Using Microsoft Service for DRDA
 The following sections provide help for planning and architecting solutions using Microsoft Service for DRDA (DRDA Service).

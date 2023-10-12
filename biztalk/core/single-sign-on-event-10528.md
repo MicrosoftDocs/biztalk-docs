@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10528"
-title: "Single Sign-On: Event 10528 | Microsoft Docs"
+title: "Single Sign-On: Event 10528"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d96c1645-70f4-4d15-a0d7-0ae37669ad2a
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10528
 ## Details  

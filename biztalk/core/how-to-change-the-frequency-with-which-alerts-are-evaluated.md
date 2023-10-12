@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Change the Frequency With Which Alerts Are Evaluated"
-title: "How to Change the Frequency With Which Alerts Are Evaluated | Microsoft Docs"
+title: "How to Change the Frequency With Which Alerts Are Evaluated"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 68f326ed-2017-4853-89b9-146cb0785554
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Change the Frequency With Which Alerts Are Evaluated
 There are cases in which the SQL Notifications services generator may not keep up with events being raised by the BAM event provider when deployed with the default settings. You can increase the frequency (the quantum duration) with which events are evaluated for alerts by modifying the Notification Services adf.xml file.

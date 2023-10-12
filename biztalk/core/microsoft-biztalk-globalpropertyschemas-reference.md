@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Microsoft.BizTalk.GlobalPropertySchemas Reference"
-title: "Microsoft.BizTalk.GlobalPropertySchemas Reference | Microsoft Docs"
+title: "Microsoft.BizTalk.GlobalPropertySchemas Reference"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2acf3083-a0a9-483f-88bf-8023d9933e1e
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Microsoft.BizTalk.GlobalPropertySchemas Reference
 The **Microsoft.BizTalk.GlobalPropertySchemas** namespace contains property schemas for the properties that various BizTalk Server components use. This namespace contains system properties that the BizTalk engine uses, transport specific properties that each transport uses for handling the configuration, and properties for configuring pipeline components.  

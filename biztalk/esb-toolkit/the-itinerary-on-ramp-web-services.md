@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: The Itinerary On-Ramp Web Services"
-title: "The Itinerary On-Ramp Web Services | Microsoft Docs"
+title: "The Itinerary On-Ramp Web Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d7551974-b9d2-4ae3-b54c-3aa5ba058e95
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Itinerary On-Ramp Web Services
 The Itinerary Web service is an itinerary on-ramp that exposes a method that allows clients to submit messages for processing by the Itinerary Service and then onward to the target Microsoft BizTalk or ESB operations.  

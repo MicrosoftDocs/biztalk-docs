@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: General Guidelines for Improving Network Performance"
-title: "General Guidelines for Improving Network Performance | Microsoft Docs"
+title: "General Guidelines for Improving Network Performance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 286c10d2-9262-4e3c-adde-f7b5780c2736
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # General Guidelines for Improving Network Performance
 Adjusting network settings to optimal values has been shown to effectively address network bottlenecks and improve overall network performance in BizTalk Server solutions. This should be done on all computers involved in the solution, including BizTalk Server computers, SQL Server computers, and any other server computers.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SNA APPC Errors"
-title: "SNA APPC Errors | Microsoft Docs"
+title: "SNA APPC Errors"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b13602e3-8634-495c-a663-2c1827eab85d
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNA APPC Errors
 The following table lists SNA network error constants, values, SqlState, SqlCode and a description of the error. An asterisk (*) indicates not in use.  

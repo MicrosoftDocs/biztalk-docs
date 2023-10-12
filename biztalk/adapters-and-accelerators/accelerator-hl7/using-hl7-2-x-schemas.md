@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Using HL7 2.X Schemas"
 title: "Using HL7 2.X Schemas"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "2.X schemas"
-  - "HL7, 2.X schemas"
-  - "schemas, 2.X schemas"
-ms.assetid: 7f2d7dd4-76f1-463e-b579-9839a74b9631
-caps.latest.revision: 5
-
-
-
 ---
 # Using HL7 2.X Schemas
 This section discusses the 2.X versions of the Health Level Seven (HL7) standard supported by Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  

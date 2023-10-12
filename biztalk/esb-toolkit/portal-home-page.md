@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Portal Home Page"
-title: "Portal Home Page | Microsoft Docs"
+title: "Portal Home Page"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 60072c30-d57b-4bd8-a7ee-b4d0fa50de58
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Portal Home Page
 Figure 1 shows the Home page, which contains four sections:  

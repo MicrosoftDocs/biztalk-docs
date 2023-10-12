@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Four Most Common Problems"
-title: "Four Most Common Problems1 | Microsoft Docs"
+title: "Four Most Common Problems1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ee76392d-8ea0-4c5f-ac61-d0b6131ca0c0
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Four Most Common Problems
 The four most common problems reported are as follows:

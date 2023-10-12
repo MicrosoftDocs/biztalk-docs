@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating Itinerary Subscribers"
-title: "Creating Itinerary Subscribers | Microsoft Docs"
+title: "Creating Itinerary Subscribers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 84a76aeb-8d40-490a-8ae6-7abfdd2d2573
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Itinerary Subscribers
 BizTalk Server automatically publishes messages arriving through a receive pipeline to the Message Box database; this makes the messages ready for pick-up by the relevant subscriber. This decoupled approach is the preferred way to develop BizTalk solutions because it provides maximum flexibility, scales well, and uses the publish-subscribe mechanism.  

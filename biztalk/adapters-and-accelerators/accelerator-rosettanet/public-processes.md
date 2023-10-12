@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Public Processes"
-title: "Public Processes | Microsoft Docs"
+title: "Public Processes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "public processes, orchestrations"
-  - "business processes, public processes"
-  - "public processes, trading partners"
-  - "BTARN, public processes"
-  - "orchestrations, public-process orchestrations"
-  - "public processes"
-  - "trading partners, public processes"
-  - "public processes, about public processes"
-ms.assetid: 5ccc7449-5741-4d49-beb6-567bcd93f679
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Public Processes
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implements business processes that involve integration with trading partners as public processes. It implements business processes that are internal to an organization as private processes. Using public and private processes isolates RosettaNet Implementation Framework (RNIF) handling (in the public process) from the service content processing and back-end integration (in the private process).  

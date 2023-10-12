@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Custom Exceptions"
-title: "Custom Exceptions | Microsoft Docs"
+title: "Custom Exceptions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "process management solution tutorial, compensation blocks"
-  - "compensation blocks, process management solutions"
-  - "process management solution tutorial, custom exceptions"
-  - "Terminate shape [Orchestration Designer], called orchestrations"
-  - "process management solution tutorial, errors"
-ms.assetid: 0c923303-82ad-4a20-9c7c-5e38c477993a
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Custom Exceptions
 For situations where there is an unrecoverable error, the Business Process Management solution uses a combination of exception handlers and custom exceptions.  

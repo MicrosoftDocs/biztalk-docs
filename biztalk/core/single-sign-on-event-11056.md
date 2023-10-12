@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11056"
-title: "Single Sign-On: Event 11056 | Microsoft Docs"
+title: "Single Sign-On: Event 11056"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 37e2dd5e-0fa4-4764-8ee1-de2ca2b263d1
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11056
 ## Details  

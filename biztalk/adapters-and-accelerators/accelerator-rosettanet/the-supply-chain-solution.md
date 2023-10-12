@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: The Supply Chain Solution"
-title: "The Supply Chain Solution | Microsoft Docs"
+title: "The Supply Chain Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "trading partners, supply chains"
-  - "supply chains, solutions"
-ms.assetid: c53e37ec-6055-46ba-a13f-1370dbfe44fb
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Supply Chain Solution
 Technology can help solve the business challenges related to business process and data communications. Information Technology (IT) systems can help high-technology companies transform the communications with their partners from disconnected, incompatible processes to integrated, standardized ones.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Extract_Conversation_Security_Type (CPI-C)"
-title: "Extract_Conversation_Security_Type (CPI-C)2 | Microsoft Docs"
+title: "Extract_Conversation_Security_Type (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 82c070d5-90fc-485f-bd5d-13d2a3536f18
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Extract_Conversation_Security_Type (CPI-C)
 The **Extract_Conversation_Security_Type** call (function name **xcecst**) returns the security type for a specified conversation.  

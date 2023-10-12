@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10657"
-title: "Single Sign-On: Event 10657 | Microsoft Docs"
+title: "Single Sign-On: Event 10657"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e92f9a67-5445-45eb-9348-980464735164
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10657
 ## Details  

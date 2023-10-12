@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Approving a Message"
-title: "Approving a Message | Microsoft Docs"
+title: "Approving a Message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, approving"
-  - "approving messages"
-ms.assetid: e6abfef3-aab2-470e-a7a7-a6d091ffba53
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Approving a Message
 This section describes how to approve a message that has been repaired and verified.  

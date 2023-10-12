@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Cost of Remote Environment Selection"
-title: "Cost of Remote Environment Selection2 | Microsoft Docs"
+title: "Cost of Remote Environment Selection2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 84e5390f-efb9-472e-858c-2d40f24befd8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Cost of Remote Environment Selection
 The following figure shows the transaction throughput against the CPU load on the middle tier (the business-logic tier). Each data point represents the number of stress clients, and the total amount of time that it takes for the clients to finish their transactions. (For example, eight clients simultaneously perform transactions at a collective rate of approximately 200 TPS.) Both requests and responses consist of 481 bytes of mixed data (text and numeric).  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Configure an HTTP Receive Location"
-title: "How to Configure an HTTP Receive Location | Microsoft Docs"
+title: "How to Configure an HTTP Receive Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, HTTP adapters"
-  - "configuring [HTTP adapters], receive locations"
-  - "HTTP adapters, receive locations"
-ms.assetid: 901adfc8-0361-49d9-b992-c27089dfbd3b
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure an HTTP Receive Location
 You can set HTTP receive location adapter variables either programmatically or by using the BizTalk Server Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Server Administration console are used.  

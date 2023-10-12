@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Use the Data Provider for SAP with the DDEX Plug-in"
-title: "Use the Data Provider for SAP with the DDEX Plug-in | Microsoft Docs"
+title: "Use the Data Provider for SAP with the DDEX Plug-in"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "DDEX plug-in"
-  - "DDEX plug-in, Data Provider for SAP"
-  - "Data Provider for SAP, using with DDEX plug-in"
-ms.assetid: b16c8634-172a-4630-87ed-2073a75afdec
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use the Data Provider for SAP with the DDEX Plug-in
 If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] along with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation, the setup program installs a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] DDEX plug-in. You can use this plug-in to browse SAP objects using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. This section provides information about using the DDEX plug-in.  

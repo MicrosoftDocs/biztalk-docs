@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Managing MessageBox Databases"
-title: "Managing MessageBox Databases | Microsoft Docs"
+title: "Managing MessageBox Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [MessageBox database], about managing MessageBox database"
-  - "managing [MessageBox database]"
-  - "MessageBox database, managing"
-ms.assetid: 9675b5d5-7a69-468d-be42-34a72cd6e5c2
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing MessageBox Databases
 The MessageBox database has three essential functions. It stores subscriptions and tracking information and it delivers the messages to the services that match the subscriptions. The MessageBox database is a host platform that stores the queues and state tables for each BizTalk Host. The MessageBox database also stores messages and message properties.  

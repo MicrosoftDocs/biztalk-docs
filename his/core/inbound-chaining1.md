@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Inbound Chaining"
-title: "Inbound Chaining1 | Microsoft Docs"
+title: "Inbound Chaining1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e508dcfa-829d-4712-a9e6-137f7c4c1897
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Inbound Chaining
 The division of application data into [Data](./data1.md) messages and the control of inbound chaining are the responsibility of the application.  

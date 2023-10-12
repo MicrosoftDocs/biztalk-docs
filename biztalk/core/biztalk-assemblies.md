@@ -1,19 +1,12 @@
 ---
-title: "How assemblies in BizTalk Server are deployed  | Microsoft Docs"
+title: "How assemblies in BizTalk Server are deployed "
 description: Deploy assemblies to the GAC, and enable versioning for assemblies in BizTalk Server
 ms.custom: ""
 ms.date: "01/21/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c7f99ed5-b64a-4a38-99d7-83070fb69030
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Assemblies
 The most important aspect of Microsoft BizTalk Server and the .NET Framework is that all BizTalk Server artifacts; maps, schemas, orchestrations, and pipelines, get compiled into .NET assemblies. The two most important implications of this design are that these assemblies must have strong names, and because of that, they also follow .NET versioning rules. The main implication of this is that a BizTalk project, once built against a particular version of another .NET project or assembly (including BizTalk projects), continues to use that version until it has been rebuilt against a newer version.  

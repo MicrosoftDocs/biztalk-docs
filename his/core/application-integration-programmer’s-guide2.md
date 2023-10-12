@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Application Integration Programmer’s Guide"
-title: "Application Integration Programmer’s Guide2 | Microsoft Docs"
+title: "Application Integration Programmer’s Guide2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 845eb739-9e3e-4e99-93c8-81bc1879fb5d
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Application Integration Programmer’s Guide
 This section of the Microsoft Host Integration Server Software Development Kit (SDK) provides information required to develop software to integrate .NET applications with Customer Information Control System (CICS) and Information Management System (IMS) transactions on IBM mainframe z/OS computers and callable RPG programs on midrange i5/OS computers.  

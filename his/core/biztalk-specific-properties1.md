@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: BizTalk-Specific Properties"
-title: "BizTalk-Specific Properties1 | Microsoft Docs"
+title: "BizTalk-Specific Properties1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f32245c5-0568-408a-9225-148dae793d03
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # BizTalk-Specific Properties
 These context properties are only meaningful from BizTalk Server concepts and are available to be used by BizTalk applications.  

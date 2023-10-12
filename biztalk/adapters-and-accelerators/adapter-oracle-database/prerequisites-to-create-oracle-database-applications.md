@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Prerequisites to create Oracle Database applications"
-title: "Prerequisites to create Oracle Database applications | Microsoft Docs"
+title: "Prerequisites to create Oracle Database applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "strong-name key file, creating a"
-ms.assetid: 7a6b2e50-8153-468c-a25e-c15612792773
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Prerequisites to create Oracle Database applications
 What you must do before developing BizTalk applications using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. The section also lists some BizTalk Server tools that are used to develop BizTalk applications.  

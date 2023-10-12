@@ -1,19 +1,12 @@
 ---
-title: "Import PeopleSoft applications | Microsoft Docs"
+title: "Import PeopleSoft applications"
 description: Use an XML binding file to import your PeopleSoft adapter applications into BizTalk Server, and read any limitations when importing 
 ms.custom: ""
 ms.date: "10/19/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2f53d1b4-e1df-41ff-b554-1bb1d20b9111
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploy BizTalk Adapter for PeopleSoft Enterprise
 This section provides information about deploying BizTalk Adapter for PeopleSoft Enterprise.  

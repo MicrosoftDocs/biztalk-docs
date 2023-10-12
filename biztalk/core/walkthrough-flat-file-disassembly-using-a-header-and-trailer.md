@@ -1,19 +1,12 @@
 ---
-title: "Walkthrough: Flat File Disassembly Using a Header and Trailer | Microsoft Docs"
+title: "Walkthrough: Flat File Disassembly Using a Header and Trailer"
 description: Use the Flat File Schema wizard to create a header schema, trailer schema, and body schema, and then disassemble a flat file in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 715af9cc-d718-483d-b593-64462aa5a58b
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Flat File Disassembly Using a Header and Trailer
 

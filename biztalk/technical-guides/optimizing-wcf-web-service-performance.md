@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Optimizing WCF Web Service Performance"
-title: "Optimizing WCF Web Service Performance | Microsoft Docs"
+title: "Optimizing WCF Web Service Performance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 93947cef-469c-4126-85a5-06456fa37443
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Optimizing WCF Web Service Performance
 WCF services expose numerous configuration parameters that affect performance. This topic provides general guidance for setting optimal values for these configuration parameters to improve performance of WCF services.

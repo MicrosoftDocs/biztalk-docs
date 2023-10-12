@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Deploying BRE Policies for Existing Messages"
-title: "Deploying BRE Policies for Existing Messages | Microsoft Docs"
+title: "Deploying BRE Policies for Existing Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 585c903d-ee44-4e92-8798-febb176367e3
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploying BRE Policies for Existing Messages
 **To deploy the related business rules:**  

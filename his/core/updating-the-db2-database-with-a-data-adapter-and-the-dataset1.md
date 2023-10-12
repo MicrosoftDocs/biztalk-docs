@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Updating the DB2 Database with a Data Adapter and the Dataset"
-title: "Updating the DB2 Database with a Data Adapter and the Dataset1 | Microsoft Docs"
+title: "Updating the DB2 Database with a Data Adapter and the Dataset1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f3b85eac-76b8-450d-adcc-8ee63510bccb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Updating the DB2 Database with a Data Adapter and the Dataset
 The `Update` method of `MsDb2DataAdapter` is called to resolve changes from a dataset back to the data source. The `Update` method, like the `Fill` method, takes as arguments an instance of `DataSet`, and an optional `DataTable` object or `DataTable` name. The `DataSet` instance is the `DataSet` object that contains the changes that have been made, and the `DataTable` object identifies the table from which to retrieve the changes.  

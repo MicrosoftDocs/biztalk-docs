@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Connect to Oracle Database using the adapter"
-title: "Connect to Oracle Database using the adapter | Microsoft Docs"
+title: "Connect to Oracle Database using the adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "connection string"
-  - "uniform resource identifier"
-  - "Oracle database, connecting to"
-  - "URI"
-  - "connection URI"
-ms.assetid: 5d5598e5-aba0-4c73-8e97-9156475b93c4
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Connect to Oracle Database using the adapter
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] uses ODP.NET 11.1.0.7 to connect to the Oracle database. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] requires adapter clients to provide a connection string, called the connection Uniform Resource Identifier (URI), to connect to the Oracle database. Internally, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] maps the URI to a database connection string to connect to the Oracle database. With a connection URI, adapter clients can specify connection parameters to connect to an external system.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid Control Standard Identifier"
-title: "Invalid Control Standard Identifier | Microsoft Docs"
+title: "Invalid Control Standard Identifier"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3d2b5a54-7f29-49c9-8bcf-a5b4b6d07ad3
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid Control Standard Identifier
 ## Details  

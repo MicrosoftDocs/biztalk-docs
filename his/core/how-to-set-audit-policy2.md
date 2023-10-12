@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Set Audit Policy"
-title: "How to Set Audit Policy2 | Microsoft Docs"
+title: "How to Set Audit Policy2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0cb836ad-38ef-48c7-a353-e9a1fb2e29f9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Set Audit Policy
 The following procedure details how to set an audit policies with Windows.  

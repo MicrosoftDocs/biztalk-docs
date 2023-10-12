@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: TransportType (SecondaryTransport Node)"
-title: "TransportType (SecondaryTransport Node) | Microsoft Docs"
+title: "TransportType (SecondaryTransport Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "TransportType node [binding file]"
-ms.assetid: ed66c7ef-32b6-4110-b932-f96a45a29618
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # TransportType (SecondaryTransport Node)
 The TransportType node of the SecondaryTransport node of a binding file contains specific information about the adapter associated with a transport that is exported with the binding file.  

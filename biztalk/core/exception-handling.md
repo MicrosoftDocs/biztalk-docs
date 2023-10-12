@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Exception Handling"
-title: "Exception Handling | Microsoft Docs"
+title: "Exception Handling"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 00a9125c-7c7c-4d2a-ae04-c923cd89683c
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exception Handling
 The **RuleEngine** class has the property **CompensationHandlerInfo**, which in turn has two properties: **CompensationHandler** and **UserData**. The **CompensationHandler** property is of type **RuleEngineCompensationHandler**, and the **UserData** property is of type **Object**. The definition for the **RuleEngineCompensationHandler** is as follows:  

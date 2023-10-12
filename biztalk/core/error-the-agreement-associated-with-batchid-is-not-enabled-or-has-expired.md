@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The agreement associated with BatchId is not enabled or has expired. Batching cannot continue"
-title: "The agreement associated with BatchId is not enabled or has expired. Batching cannot continue | Microsoft Docs"
+title: "The agreement associated with BatchId is not enabled or has expired. Batching cannot continue"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6d92cb07-7646-42b3-90a8-18acbcd145cd
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The agreement associated with BatchId is not enabled or has expired. Batching cannot continue
 ## Details  

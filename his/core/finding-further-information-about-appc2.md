@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Finding Further Information about APPC"
-title: "Finding Further Information about APPC2 | Microsoft Docs"
+title: "Finding Further Information about APPC2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4267ebf3-f90f-4d7b-8189-15b68b054020
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Finding Further Information about APPC
 This section does not describe the products, architectures, or standards developed by other companies or organizations.  

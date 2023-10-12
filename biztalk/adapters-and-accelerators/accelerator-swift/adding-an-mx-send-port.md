@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adding an MX Send Port"
-title: "Adding an MX Send Port | Microsoft Docs"
+title: "Adding an MX Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c3ad5d2f-1fcb-49d4-9974-664733308f45
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adding an MX Send Port
 **To add an MX send port:**  

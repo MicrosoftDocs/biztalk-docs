@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Enterprise Single Sign-On Tasks"
-title: "Enterprise Single Sign-On Tasks | Microsoft Docs"
+title: "Enterprise Single Sign-On Tasks"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 31b4c729-411a-4a01-a7ca-92133231fc38
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Enterprise Single Sign-On Tasks
 You can use either the Microsoft Management Console (MMC) Snap-in or the command-line management utility (ssomanage) to manage the Single Sign-On (SSO) system. This includes activities such as updating the SSO database, adding, deleting, and managing applications, and administering user mappings.  

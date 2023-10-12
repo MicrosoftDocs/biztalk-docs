@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Session Integrator for LU2"
-title: "Session Integrator for LU2 | Microsoft Docs"
+title: "Session Integrator for LU2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: eaf984f0-6882-4823-84a7-68a751002441
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Session Integrator for LU2
 This section describes how to program an application for Session Integrator using an LU2 connection.  

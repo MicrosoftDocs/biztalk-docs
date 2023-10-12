@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Complex Global Type Definition and Naming"
-title: "Complex Global Type Definition and Naming | Microsoft Docs"
+title: "Complex Global Type Definition and Naming"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b5a12956-7b77-4be8-b323-38363d04fcbc
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Complex Global Type Definition and Naming
 Within BizTalk Editor, you begin to define a complex global type by defining the first occurrence of the complex type in one of the locations where the global type will be used, after it has been converted to a global type. Continuing with the address example, you might define the complex address type in the course of defining a shipping address within the schema.  

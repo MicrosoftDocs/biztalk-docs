@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: RemovePerfmonCounters"
-title: "RemovePerfmonCounters1 | Microsoft Docs"
+title: "RemovePerfmonCounters1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e55441bb-5a65-429e-8e41-6cbd5a4cf791
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # RemovePerfmonCounters
 The **RemovePerfmonCounters** function is used to remove counters from a link service. This utility function is used to construct an integrated link service configuration DLL.  

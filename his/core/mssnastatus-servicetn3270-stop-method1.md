@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_ServiceTN3270.Stop Method"
-title: "MsSnaStatus_ServiceTN3270.Stop Method1 | Microsoft Docs"
+title: "MsSnaStatus_ServiceTN3270.Stop Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cd1861c9-ba1c-457e-84e0-65071fde34d9
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_ServiceTN3270.Stop Method
 Stops the service.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Snacfg LU"
-title: "Snacfg LU1 | Microsoft Docs"
+title: "Snacfg LU1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e9c45c05-df32-49dc-ac02-ef50a2cb6760
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Snacfg LU
 ## Purpose  

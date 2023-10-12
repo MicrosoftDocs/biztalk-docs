@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Time Dimension"
-title: "Time Dimension | Microsoft Docs"
+title: "Time Dimension"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Time dimension [BAM]"
-  - "aggregations [BAM], Time dimension"
-ms.assetid: 8f83b758-09a1-4efb-ae0e-32753f56c4e4
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Time Dimension
 The time dimension allows aggregations to be created with respect to time. For example a time dimension can be used to create the following table:  

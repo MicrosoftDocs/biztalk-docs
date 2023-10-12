@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Considerations and Known Issues for TPE"
-title: "Considerations and Known Issues for TPE | Microsoft Docs"
+title: "Considerations and Known Issues for TPE"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Tracking Profile Editor, known issues"
-  - "planning, Tracking Profile Editor"
-  - "Tracking Profile Editor, planning"
-ms.assetid: e96d85e0-e9ae-434a-b54e-5950f4a2b9c6
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Considerations and Known Issues for TPE
 You should consider the following issues when you work with tracking profiles and the TPE.  

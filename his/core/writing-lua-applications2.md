@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Writing LUA Applications"
-title: "Writing LUA Applications2 | Microsoft Docs"
+title: "Writing LUA Applications2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d48cf08e-aa49-4ca4-9450-4ff6ec1c5e39
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Writing LUA Applications
 The information contained in this section will help you write logical unit application (LUA) application programs for use with Microsoft® Host Integration Server.  

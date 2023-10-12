@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Receive Inbound RFC Calls in SAP using the WCF Service Model"
-title: "Receive Inbound RFC Calls in SAP using the WCF Service Model | Microsoft Docs"
+title: "Receive Inbound RFC Calls in SAP using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF service model, receiving inbound RFC calls"
-  - "RFC calls, receiving inbound using the WCF service model"
-ms.assetid: 064d70d7-1603-467f-9aba-ecab78a567ff
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive Inbound RFC Calls in SAP using the WCF Service Model
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] can act as an RFC server to receive RFCs invoked by a SAP system.  

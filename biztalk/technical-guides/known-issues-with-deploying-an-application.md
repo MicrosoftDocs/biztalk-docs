@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Known Issues with Deploying an Application"
-title: "Known Issues with Deploying an Application | Microsoft Docs"
+title: "Known Issues with Deploying an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7e5fb4f6-f9bd-4322-93f9-723e9e3c3317
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with Deploying an Application
 ## Deploying a BizTalk Application

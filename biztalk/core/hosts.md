@@ -1,36 +1,12 @@
 ---
 description: "Learn more about: Hosts"
-title: "Hosts | Microsoft Docs"
+title: "Hosts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "host instances, servers"
-  - "hosts, isolated"
-  - "host instances, relationships"
-  - "hosts, in-process hosts"
-  - "servers, hosts"
-  - "hosts, host instances"
-  - "hosts, relationships"
-  - "In-Process BizTalk Host groups"
-  - "hosts, about hosts"
-  - "hosts, untrusted"
-  - "host instances, hosts"
-  - "hosts, servers"
-  - "hosts"
-  - "servers, host instances"
-  - "Isolated Host Users group"
-  - "hosts, trusted"
-ms.assetid: d96537e0-e679-407a-8870-34a663acfed9
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Hosts
 The BizTalk Host object represents a logical set of zero or more runtime processes in which you can deploy services, pipelines, and other artifacts. The Host object also represents a collection of runtime instances (zero or more) where the deployed items physically run.  

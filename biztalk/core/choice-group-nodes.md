@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Choice Group Nodes"
-title: "Choice Group Nodes | Microsoft Docs"
+title: "Choice Group Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 466b525d-4d8c-4b8e-830d-eee27845c0dc
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Choice Group Nodes
 In BizTalk Editor, you can insert a **Choice Group** node to contain other nodes (or entire subtrees of nodes), only one of which can appear in an instance message. A given instance message, if valid, will have only one of the choices present. The contained nodes must be nodes that correspond to XML elements, but cannot be nodes that correspond to XML attributes.  

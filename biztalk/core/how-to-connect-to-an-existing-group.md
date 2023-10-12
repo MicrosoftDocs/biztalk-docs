@@ -1,25 +1,14 @@
 ---
 description: "Learn more about: How to Connect to an Existing Group"
-title: "How to Connect to an Existing Group | Microsoft Docs"
+title: "How to Connect to an Existing Group"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.admin.procedure.connecttogroup"
-helpviewer_keywords: 
-  - "groups, existing"
-  - "groups, connecting"
-  - "managing [groups], connecting"
-ms.assetid: 1eedbcd5-f3f1-4da5-b91c-67377131f889
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Connect to an Existing Group
 You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console on any computer in your enterprise to remotely manage one or more BizTalk Server groups within your enterprise, as long as these groups are located on computers within the same domain or within trusted domains.  

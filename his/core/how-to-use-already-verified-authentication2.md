@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Use Already Verified Authentication"
-title: "How to Use Already Verified Authentication2 | Microsoft Docs"
+title: "How to Use Already Verified Authentication2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0db986ae-2663-4e5e-a5ed-5d1d2935cb40
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Use Already Verified Authentication
 You can set the **Use Already Verified or Persistent Verification authentication** option on the remote environment (RE) Security property page in Transaction Integrator (TI) Manager.  

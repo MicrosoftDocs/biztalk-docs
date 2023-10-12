@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations"
-title: "Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations | Microsoft Docs"
+title: "Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: afdd1a5b-2a6b-48b8-a659-afd81f43f34b
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] exposes the following outbound operations at the root level:

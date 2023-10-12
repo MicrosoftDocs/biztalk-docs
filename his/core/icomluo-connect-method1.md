@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IcomLUO.Connect Method"
-title: "IcomLUO.Connect Method1 | Microsoft Docs"
+title: "IcomLUO.Connect Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c5026753-5147-40ae-9eb8-46a1f025c0dd
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IcomLUO.Connect Method
 Connects a comLU0 client to an existing session.  

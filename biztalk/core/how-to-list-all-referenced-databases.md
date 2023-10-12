@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to List All Referenced Databases"
-title: "How to List All Referenced Databases | Microsoft Docs"
+title: "How to List All Referenced Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7f6166dd-6228-45c2-98ef-4de2a4345189
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to List All Referenced Databases
 Administrators use the **get-references** command to list all of the BAM Primary Import databases on other BizTalk servers that have been given references to the local BAM Primary Import database.  

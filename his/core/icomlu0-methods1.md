@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IcomLU0 Methods"
-title: "IcomLU0 Methods1 | Microsoft Docs"
+title: "IcomLU0 Methods1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f7aa4f7e-b4bb-460a-acb1-ae070acd01b5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IcomLU0 Methods
 The methods of the IcomLU0 interfaces are listed in the following table. For a complete list of the IcomLU0 members, see [IcomLU0 Members](../core/icomlu0-members2.md).  

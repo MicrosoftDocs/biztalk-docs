@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Equivalent Nodes and Their Child Nodes"
-title: "Equivalent Nodes and Their Child Nodes | Microsoft Docs"
+title: "Equivalent Nodes and Their Child Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6a85c6a1-6121-4849-b958-7c4bd1c7c552
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Equivalent Nodes and Their Child Nodes
 

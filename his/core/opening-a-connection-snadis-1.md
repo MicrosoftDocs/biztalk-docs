@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Opening a Connection (SNADIS)"
-title: "Opening a Connection (SNADIS)1 | Microsoft Docs"
+title: "Opening a Connection (SNADIS)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 65776df3-b005-493d-bc87-d53e30b1bf49
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Opening a Connection (SNADIS)
 The 2.1 node is capable of supporting multiple connections through one or more SNALinks. For each connection, the node opens two Locality Partner Index (LPI) connections to the SNALink:  

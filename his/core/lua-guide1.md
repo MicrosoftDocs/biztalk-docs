@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA Guide"
-title: "LUA Guide1 | Microsoft Docs"
+title: "LUA Guide1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: de007ae2-8ffe-4b9b-bcce-94f5c1366694
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA Guide
 This section provides information required to develop C-language applications that use the conventional logical unit application (LUA) programming interface to exchange data in a Systems Network Architecture (SNA) environment.  

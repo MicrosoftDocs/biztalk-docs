@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Compiler Options"
-title: "Compiler Options1 | Microsoft Docs"
+title: "Compiler Options1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 20704965-e497-4296-82fb-007fea14409c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Compiler Options
 When compiling the SNALink DLL, the following compiler options are required:  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Run composite operations on SQL Server using BizTalk Server"
-title: "Run composite operations on SQL Server using BizTalk Server | Microsoft Docs"
+title: "Run composite operations on SQL Server using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 86fd2aa1-20c7-4b58-9f35-83ba0c959cf1
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run composite operations on SQL Server using BizTalk Server
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to perform composite operations on the SQL Server database. A composite operation can include:  

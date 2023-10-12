@@ -1,19 +1,12 @@
 ---
-title: "Update Host Instance Settings | Microsoft Docs"
+title: "Update Host Instance Settings"
 description: Change the host instance settings in BizTalk Server Administrator
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2338255b-cc13-4f6a-86c3-9ecc666c43e5
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Update BizTalk host instance settings
 

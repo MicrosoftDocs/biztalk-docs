@@ -1,21 +1,12 @@
 ---
 description: "Learn about using the Event Viewer log to view information about exceptions in the back-end system of a basic orchestration and how to trap and redirect exceptions using a CatchExpression."
-title: "Basic Orchestration Design4 | Microsoft Docs"
+title: "Basic Orchestration Design4"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, design"
-ms.assetid: 53f90bba-5786-49ca-b4d0-21601ec04045
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Design Basic Orchestrations
 

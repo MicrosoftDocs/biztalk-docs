@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AS2 Send Components"
-title: "AS2 Send Components | Microsoft Docs"
+title: "AS2 Send Components"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 35113732-fe32-4776-be25-971ec66c365c
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AS2 Send Components
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses several components to send AS2 messages.

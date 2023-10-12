@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Publishing an Orchestration as a Web Service"
-title: "Publishing an Orchestration as a Web Service | Microsoft Docs"
+title: "Publishing an Orchestration as a Web Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web services, publishing"
-  - "orchestrations, Web services"
-  - "Web services, orchestrations"
-  - "BizTalk Web Services Publishing Wizard, orchestrations"
-  - "BizTalk Web Services Publishing Wizard, prerequisites"
-  - "orchestrations, publishing"
-ms.assetid: f209310d-c265-4c37-8424-c9b287e713ca
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Publishing an Orchestration as a Web Service
 You use the BizTalk Web Services Publishing Wizard to publish an orchestration as a Web service. The wizard creates a Web service based on an orchestration in a BizTalk assembly. Using the wizard, you select orchestrations and receive ports to publish Web services. You can define target namespaces, SOAP header requirements, and locations for the Web service project the wizard generates.  

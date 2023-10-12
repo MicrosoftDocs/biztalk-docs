@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How TI Associates a Method with a TP"
-title: "How TI Associates a Method with a TP1 | Microsoft Docs"
+title: "How TI Associates a Method with a TP1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6bd5a257-a581-4117-836c-a30dbe25867c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How TI Associates a Method with a TP
 TI generally establishes some type of association between a method call in the Windows environment and the corresponding TP on the mainframe.  

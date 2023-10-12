@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Windows LUA Considerations"
-title: "Windows LUA Considerations2 | Microsoft Docs"
+title: "Windows LUA Considerations2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 04cf13be-88fd-43a8-af93-5bfde264e9f3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Windows LUA Considerations
 The following Windows extensions are of particular importance and should be reviewed before using the logical unit application (LUA) application programming interface (API) and this version of Host Integration Server:  

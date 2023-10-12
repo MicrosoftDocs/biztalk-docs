@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Post-installation Steps for BizTalk Server 2013 and 2013 R2"
-title: "Post-installation Steps for BizTalk Server 2013 and 2013 R2 | Microsoft Docs"
+title: "Post-installation Steps for BizTalk Server 2013 and 2013 R2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c3b47843-9da5-4144-8b84-135494b8ab43
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Post-installation Steps for BizTalk Server 2013 and 2013 R2
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status-Acknowledge Message"
-title: "Status-Acknowledge Message1 | Microsoft Docs"
+title: "Status-Acknowledge Message1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a47d910e-644e-49f3-aaba-37844e595aca
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status-Acknowledge Message
 **Status-Acknowledge** messages are the basic mechanism used to enforce inbound and outbound data acknowledgment protocols on all connections. For details about the use of **Status-Acknowledge** messages, see [Outbound Data](../core/outbound-data1.md) and [Inbound Data](../core/inbound-data2.md).  

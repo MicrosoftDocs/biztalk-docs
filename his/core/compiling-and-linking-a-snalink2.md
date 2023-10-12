@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Compiling and Linking a SNALink"
-title: "Compiling and Linking a SNALink2 | Microsoft Docs"
+title: "Compiling and Linking a SNALink2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 415508d5-5cb3-4a38-bc3a-03c0c95ed610
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Compiling and Linking a SNALink
 This section provides information about compiling and linking a SNALink for use with Host Integration Server. This section also lists and explains the header files and libraries need to build a SNALink.  

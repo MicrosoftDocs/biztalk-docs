@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Appendix C: Redistributable CAB Files"
-title: "Appendix C: Redistributable CAB Files | Microsoft Docs"
+title: "Appendix C: Redistributable CAB Files"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c2049d61-e169-4b30-869a-33d5af097941
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Appendix C: Redistributable CAB Files
 These CAB files are used by the BizTalk Server setup.

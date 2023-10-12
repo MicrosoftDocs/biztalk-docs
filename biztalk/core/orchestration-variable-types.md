@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Orchestration Variable Types"
-title: "Orchestration Variable Types | Microsoft Docs"
+title: "Orchestration Variable Types"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, variables"
-ms.assetid: 34990be2-35b6-40ec-b107-42a1c7b45aca
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Orchestration Variable Types
 You can declare variables of the following predefined types:  

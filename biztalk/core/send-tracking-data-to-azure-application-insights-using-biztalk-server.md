@@ -1,19 +1,12 @@
 ---
-title: "Track data to Application Insights or Event Hubs | Microsoft Docs"
+title: "Track data to Application Insights or Event Hubs"
 description: Enable analytics of tracked data with Azure Application Insights or Azure Event Hubs in BizTalk Server
 ms.custom: "fp1, fp2, biztalk-2020"
 ms.date: "01/14/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b3ff6cb9-44d0-46cd-9b4f-a346365afb7b
-caps.latest.revision: 10
-author: "tordgladnordahl"
-ms.author: mandia
-manager: "anneta"
 ---
 
 # Send BizTalk Server tracking data to Azure

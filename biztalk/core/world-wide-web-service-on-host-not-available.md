@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: World Wide Web service on host not available"
-title: "World Wide Web service on host not available | Microsoft Docs"
+title: "World Wide Web service on host not available"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6b14eaae-2158-4aef-9561-610d033998be
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # World Wide Web service on host not available
 ## Details  

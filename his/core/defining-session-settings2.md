@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Defining Session Settings"
-title: "Defining Session Settings2 | Microsoft Docs"
+title: "Defining Session Settings2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5785ef27-d559-4a45-b8c0-eac646d01842
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Defining Session Settings
 Before you can connect to a host, you must define the settings you will need for your session. These settings include the LU or Pool Name and the Host Code Page.  

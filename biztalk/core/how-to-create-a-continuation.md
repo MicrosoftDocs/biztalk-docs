@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: How to Create a Continuation"
-title: "How to Create a Continuation | Microsoft Docs"
+title: "How to Create a Continuation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "activities, relating events"
-  - "tracking profiles, relating events"
-  - "continuations, tracking profiles"
-  - "activities, continuations"
-  - "events, relating"
-  - "orchestrations, business events"
-  - "tracking profiles, updating"
-  - "activities, tracking profiles"
-  - "tracking profiles, continuations"
-  - "tracking profiles, connecting activities"
-ms.assetid: 31d6fc24-676e-418c-8e78-1a46b045905d
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create a Continuation
 You create continuations to indicate which business events in one or more orchestrations are related by constructing connected activities.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Key features in BizTalk adapter for Oracle E-Business Suite"
-title: "Key features in BizTalk adapter for Oracle E-Business Suite | Microsoft Docs"
+title: "Key features in BizTalk adapter for Oracle E-Business Suite"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a43091ab-f81c-4c4f-bcc3-e6abe16d3d77
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Key features in BizTalk adapter for Oracle E-Business Suite
 This section lists the key features in [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].

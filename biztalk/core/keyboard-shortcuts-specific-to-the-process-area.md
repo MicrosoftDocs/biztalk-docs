@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Keyboard Shortcuts Specific to the Process Area"
-title: "Keyboard Shortcuts Specific to the Process Area | Microsoft Docs"
+title: "Keyboard Shortcuts Specific to the Process Area"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "keyboard shortcuts, Orchestration Designer"
-  - "Orchestration Designer, keyboard shortcuts"
-ms.assetid: d993d341-99f2-4788-b1f3-6a8b911e5278
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Keyboard Shortcuts Specific to the Process Area
 The following table describes the keyboard navigation available in the Process Area, the central area of the design surface used to define the process flow of the orchestration.  

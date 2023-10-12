@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: SAP Adapter Tutorials"
-title: "SAP Adapter Tutorials | Microsoft Docs"
+title: "SAP Adapter Tutorials"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "EAI"
-  - "tutorial"
-  - "enterprise application integration"
-ms.assetid: 28da43b2-7961-4907-8264-9495ffa6f4e8
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SAP Adapter Tutorials
 ## Overview

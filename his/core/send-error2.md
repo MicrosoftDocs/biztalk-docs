@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SEND_ERROR"
-title: "SEND_ERROR2 | Microsoft Docs"
+title: "SEND_ERROR2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 790ebf6e-02b6-406b-95af-5350542c210c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SEND_ERROR
 The **SEND_ERROR** verb notifies the partner transaction program (TP) that the local TP has encountered an application-level error.  

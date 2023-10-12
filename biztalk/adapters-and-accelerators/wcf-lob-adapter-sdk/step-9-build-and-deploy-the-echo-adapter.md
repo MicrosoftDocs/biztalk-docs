@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 9: Build and Deploy the Echo Adapter"
-title: "Step 9: Build and Deploy the Echo Adapter | Microsoft Docs"
+title: "Step 9: Build and Deploy the Echo Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1ead10ab-1acf-47c5-ad16-dc6938601906
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 9: Build and Deploy the Echo Adapter
 ![Step 9 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-9of9.gif "Step_9of9")  

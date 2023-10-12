@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Message Schemas for RECORD Types"
-title: "Message Schemas for RECORD Types | Microsoft Docs"
+title: "Message Schemas for RECORD Types"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "RECORD types, message schemas for"
-  - "RECORD types, support for"
-ms.assetid: 637c42f2-eed0-4941-a6cd-7e03d01088b8
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for RECORD Types
 Oracle RECORD types are structured PL/SQL data types that consist of one or more simple or structured database types. RECORD types are primarily used in PL/SQL stored procedures and functions to send and receive hierarchical data.  

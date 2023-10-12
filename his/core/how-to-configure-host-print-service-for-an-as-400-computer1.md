@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure Host Print Service for an AS/400 Computer"
-title: "How to Configure Host Print Service for an AS-400 Computer1 | Microsoft Docs"
+title: "How to Configure Host Print Service for an AS-400 Computer1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: afda3d92-e3e7-4d29-9f55-e903c60015a3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Configure Host Print Service for an AS/400 Computer
 Configuring AS/400 print service involves the following steps:  

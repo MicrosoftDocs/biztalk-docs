@@ -1,35 +1,12 @@
 ---
 description: "Learn more about: Pipeline Tools"
-title: "Pipeline Tools | Microsoft Docs"
+title: "Pipeline Tools"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline tools, XMLAsm.exe"
-  - "pipeline tools, FFDasm.exe"
-  - "Pipeline.exe"
-  - "FFDasm.exe"
-  - "pipeline tools, XMLDasm.exe"
-  - "pipeline tools"
-  - "XMLAsm.exe"
-  - "pipeline tools, DSDump.exe"
-  - "FFAsm.exe"
-  - "pipeline tools, FFAsm.exe"
-  - "pipeline tools, how to"
-  - "pipeline tools, about pipeline tools"
-  - "pipeline tools, Pipeline.exe"
-  - "utilities, pipeline tools"
-  - "XMLDasm.exe"
-ms.assetid: ca4d053a-1473-4d40-8cd0-1ed3a3af988a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Pipeline Tools
 The pipeline tools supplied with the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Software Development Kit (SDK) enable you to verify that a pipeline is functioning correctly without having to configure the BizTalk Server environment, such as send/receive ports. You can also use the pipeline tools to:  

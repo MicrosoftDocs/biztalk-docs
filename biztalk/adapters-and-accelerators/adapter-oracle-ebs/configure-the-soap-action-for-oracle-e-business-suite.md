@@ -1,19 +1,12 @@
 ---
-title: "Configure the SOAP action for Oracle E-Business Suite in BizTalk Server | Microsoft Docs"
+title: "Configure the SOAP action for Oracle E-Business Suite in BizTalk Server"
 description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-OracleEBS adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ca799d96-66e4-4d4e-a632-cb5505e999b4
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure the SOAP action for Oracle E-Business Suite
 To perform any operation on Oracle E-Business Suite using the WCF-based [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], you must specify a SOAP action. The SOAP action communicates to the adapter what action should be performed. You can specify the SOAP action either from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. However, if you specify the SOAP action from both locations, the action you specified from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] is overridden.  

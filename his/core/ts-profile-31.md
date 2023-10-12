@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TS Profile 3"
-title: "TS Profile 31 | Microsoft Docs"
+title: "TS Profile 31"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f3ff9c0f-ce59-4bc6-b8b8-27022b1799d5
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TS Profile 3
 Transmission service (TS) Profile 3 is supported on primary logical unit-secondary logical unit (PLU-SLU) sessions using LU types 0, 1, 2, or 3. Selection is a BIND option. This profile specifies the following session rules:  

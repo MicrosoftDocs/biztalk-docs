@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Messages Represented as .NET Classes"
-title: "Messages Represented as .NET Classes | Microsoft Docs"
+title: "Messages Represented as .NET Classes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, expressions"
-  - "orchestrations, filters"
-ms.assetid: cdbea200-552e-4734-a370-2f93da07ea81
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Messages Represented as .NET Classes
 This approach first involves creating a .NET class that defines your message type. The class must have a default constructor or the orchestration using it will not compile. A simple example of such a class is shown here.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Delete a Receive Location"
-title: "How to Delete a Receive Location | Microsoft Docs"
+title: "How to Delete a Receive Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [receive locations], deleting"
-  - "receive locations, deleting"
-  - "deleting, receive locations"
-ms.assetid: aa859355-af4c-48d9-b224-78fd3ef618fc
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Delete a Receive Location
 This topic describes how to use the BizTalk Server Administration console to delete a receive location. When you delete a receive location, it is removed from the BizTalk Management database and is no longer displayed in the BizTalk Server Administration console.  

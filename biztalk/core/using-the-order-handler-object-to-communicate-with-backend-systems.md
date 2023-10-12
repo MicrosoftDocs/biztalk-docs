@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Using the Order Handler Object to Communicate with Backend Systems"
-title: "Using the Order Handler Object to Communicate with Backend Systems | Microsoft Docs"
+title: "Using the Order Handler Object to Communicate with Backend Systems"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "IOrderHandler interface"
-  - "process management solution tutorial, IOrderHandler interface"
-ms.assetid: b9fe4120-bf2a-4d15-a34b-6b98f026b984
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the Order Handler Object to Communicate with Backend Systems
 There are many ways in which the business process management solution could communicate with the legacy back-end order system, the cable provisioning system that receives the final orders. The solution uses the .NET remoting facilities found in Microsoft [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] to communicate with the provisioning system.  

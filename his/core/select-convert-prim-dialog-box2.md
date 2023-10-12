@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Select Convert Prim Dialog Box"
-title: "Select Convert Prim Dialog Box2 | Microsoft Docs"
+title: "Select Convert Prim Dialog Box2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15450"
-ms.assetid: 316ac873-619a-4412-98b6-cd63ae6fd282
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Select Convert Prim Dialog Box
 Use the **Select Convert Prim** dialog box to provide a Convert PrimEx class that is missing from your server library.  

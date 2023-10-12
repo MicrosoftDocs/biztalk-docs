@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: FRR Send Port for Messages to SWIFT"
-title: "FRR Send Port for Messages to SWIFT | Microsoft Docs"
+title: "FRR Send Port for Messages to SWIFT"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "FRR, send ports"
-  - "send ports, FRR"
-ms.assetid: 905c69a3-dff3-4a60-803d-dd617ffb6896
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FRR Send Port for Messages to SWIFT
 To enable FIN response reconciliation (FRR), you must set up an FRR send port that sends a message to SAA through the BizTalk Adapter for MQSeries. This send port routes a message through a custom FRR send pipeline component that you must create with the following pipeline components:  

@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Message Repair and New Submission"
-title: "Message Repair and New Submission | Microsoft Docs"
+title: "Message Repair and New Submission"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "repairing messages"
-  - "resubmitting messages"
-  - "errors, messages"
-  - "messages, errors"
-  - "messages, resubmitting"
-ms.assetid: 5bc6bfa2-8210-4dd3-89bb-5455e294ca92
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Repair and New Submission
 The Message Repair and New Submission feature of [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides a way for you to repair MT and MX messages that fail validation. Using the MRSR SharePoint site (deployed by user), you can see how the message failed validation. From MRSR site, you can open the message in an InfoPath form that enables you to identify the error, repair the message, and submit it for reprocessing.  

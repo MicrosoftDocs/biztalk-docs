@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Designing and Coding TPs (CPI-C)"
-title: "Designing and Coding TPs (CPI-C)2 | Microsoft Docs"
+title: "Designing and Coding TPs (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3a7dd23e-7299-44de-85a8-bd5d1c35de38
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Designing and Coding TPs (CPI-C)
 The following topics provide background information about designing and coding transaction programs (TPs).  

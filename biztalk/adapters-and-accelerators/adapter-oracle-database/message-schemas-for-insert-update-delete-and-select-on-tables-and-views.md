@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views"
-title: "Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views | Microsoft Docs"
+title: "Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "operations on tables, message actions for"
-  - "table operations, message actions for"
-  - "table operations, message structure for"
-  - "operations on tables, message schemas for"
-  - "table operations, message schemas for"
-  - "operations on tables, message structure for"
-ms.assetid: 8228d5e6-14af-49e0-b34b-be03aea59189
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces basic Insert, Update, Delete, and Select operations for each table and view in the Oracle database. These operations perform the appropriate SQL statement qualified by a WHERE clause. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses strongly-typed records and record sets in these operations.  

@@ -1,24 +1,9 @@
 ---
 description: "Learn more about: Selecting the Logging Store"
 title: "Selecting the Logging Store"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "configuring, auditing"
-  - "configuring, logging"
-  - "logging, configuring"
-  - "auditing, configuring"
-ms.assetid: 6ba64c59-3a15-4c10-b44f-18e0e432c6d3
-caps.latest.revision: 8
-
-
-
 ---
 # Selecting the Logging Store
 Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] provides you with the option to select a combination of different logging stores, such as [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Management Instrumentation (WMI), [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)], and [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Event Log.  

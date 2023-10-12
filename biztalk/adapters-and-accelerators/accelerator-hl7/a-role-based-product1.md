@@ -4,12 +4,6 @@ description: Learn more about BizTalk Server as a role-based product.
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
-
-helpviewer_keywords: 
-  - "roles"
-ms.assetid: 8f138f06-61bb-430f-8888-69721cf1f8bd
-caps.latest.revision: 6
-
 ---
 
 # BizTalk Server - A Role-based Product

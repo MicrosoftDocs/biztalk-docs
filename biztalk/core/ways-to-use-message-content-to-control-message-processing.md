@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Ways to Use Message Content to Control Message Processing"
-title: "Ways to Use Message Content to Control Message Processing | Microsoft Docs"
+title: "Ways to Use Message Content to Control Message Processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e1e3792e-9cd4-42b6-8b9d-3c2a022a16d6
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Ways to Use Message Content to Control Message Processing
 There are two types of property promotion: **Distinguished Fields** and **Property Fields**, the latter of which uses property schemas. In BizTalk Editor, you manage both of these types of property promotion by using the **Promote Properties** dialog box, which is accessible by using the **Promote Properties** property of the **Schema** node.  

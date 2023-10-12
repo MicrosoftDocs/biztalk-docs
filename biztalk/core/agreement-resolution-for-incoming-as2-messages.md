@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Agreement Resolution for Incoming AS2 Messages"
-title: "Agreement Resolution for Incoming AS2 Messages | Microsoft Docs"
+title: "Agreement Resolution for Incoming AS2 Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 746d01af-de6a-4d5d-9433-b0e1a2b41861
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Agreement Resolution for Incoming AS2 Messages
 When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDIINT/AS2-encoded message over HTTP/HTTPS transport, it attempts to determine the trading partner’s business profile that sent the message. It does so by attempting to do the following (in the order shown):  

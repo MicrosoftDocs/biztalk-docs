@@ -1,19 +1,12 @@
 ---
-title: "Troubleshooting and known issues | Microsoft Docs"
+title: "Troubleshooting and known issues"
 description: Known issues, zombies, troubleshoot performance, troubleshoot adapters, troubleshoot permissions, troubleshoot EDI and AS2, and more in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ecb934c6-3efa-40b6-949b-a04a73e60b07
-caps.latest.revision: 32
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting Microsoft BizTalk Server
 

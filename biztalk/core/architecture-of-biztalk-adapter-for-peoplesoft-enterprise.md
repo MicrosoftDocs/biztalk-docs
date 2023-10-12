@@ -1,19 +1,12 @@
 ---
-title: "Architecture of BizTalk Adapter for PeopleSoft Enterprise | Microsoft Docs"
+title: "Architecture of BizTalk Adapter for PeopleSoft Enterprise"
 description: Describes how messages are received, how messages are validates, and provides info on the component interface methods when using the PeopleSoft adapter with BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f246e974-a082-430c-ad15-23a5e597738b
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # PeopleSoft Enterprise adapter architecture
 During the basic operation of Microsoft BizTalk Adapter for PeopleSoft Enterprise, the adapter receives an XML message from BizTalk Server. It encloses the XML message in a SOAP envelope. BizTalk Adapter for PeopleSoft Enterprise forwards the SOAP requests to the server. The adapter communicates with the PeopleSoft system using the PeopleSoft psjoa classes, which connect to the PeopleSoft system through Jolt Transaction Protocol. The PeopleSoft system receives the request and executes the business logic. The reply is sent back through a similar process.  

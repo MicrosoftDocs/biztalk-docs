@@ -1,16 +1,10 @@
 ---
-title: "Install BizTalk Accelerator for RosettaNet (BTARN) on BizTalk Server | Microsoft Docs"
+title: "Install BizTalk Accelerator for RosettaNet (BTARN) on BizTalk Server"
 description: See the hardware and software requirements, the install steps, and the configuration steps of BTARN in BizTalk Server
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid:
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
 ---
 
 # Install BizTalk Accelerator for RosettaNet

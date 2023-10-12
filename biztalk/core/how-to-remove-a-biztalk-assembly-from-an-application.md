@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Remove a BizTalk Assembly from an Application"
-title: "How to Remove a BizTalk Assembly from an Application | Microsoft Docs"
+title: "How to Remove a BizTalk Assembly from an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [applications], assemblies"
-  - "assemblies, deleting"
-  - "deleting, assemblies"
-  - "applications, assemblies"
-  - "managing [assemblies], deleting"
-ms.assetid: 0691c3b6-476d-4e01-b50b-47d7c0b299bf
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Remove a BizTalk Assembly from an Application
 This topic describes how use the BizTalk Server Administration console or the command line to remove a BizTalk assembly from a BizTalk application. When you do this, the assembly and the artifacts that it includes, such as orchestrations, schemas, and pipelines, are removed from the application and the BizTalk Management database.  

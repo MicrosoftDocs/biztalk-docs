@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Snacfg Error Messages"
-title: "Snacfg Error Messages2 | Microsoft Docs"
+title: "Snacfg Error Messages2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a2cb780c-5e74-4421-b97b-b36557516c6f
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Snacfg Error Messages
 This section lists the error codes and their corresponding messages used by Snacfg commands.  

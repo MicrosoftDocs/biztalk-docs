@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: APPC Verbs and Windows Extensions"
-title: "APPC Verbs and Windows Extensions1 | Microsoft Docs"
+title: "APPC Verbs and Windows Extensions1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f5bf835f-4570-484f-9f40-7d9f494d9aff
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # APPC Verbs and Windows Extensions
 This topic describes the APPC verbs and Windows extensions that are supported by Host Integration Server:  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Diagnostic Tracing and Message Logging for the SAP adapter"
-title: "Diagnostic Tracing and Message Logging for the SAP adapter | Microsoft Docs"
+title: "Diagnostic Tracing and Message Logging for the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tracing, between the adapter client and adapter"
-  - "tracing, within the adapter"
-  - "tracing, between the adapter and the LOB application"
-  - "troubleshooting, tracing and logging"
-ms.assetid: 5c60af54-896d-4873-acbf-32fbcd051ee2
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Diagnostic Tracing and Message Logging for the SAP adapter
 Diagnostic tracing helps to effectively diagnose problems that you might encounter when using the adapters. Adapter clients can activate diagnostic tracing at three levels:  

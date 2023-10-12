@@ -5,15 +5,8 @@ ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 54a5a4ac-a994-4706-9735-a5a1a82b893b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Examples for SELECT Statement
 This topic shows example syntax for various SELECT statements.

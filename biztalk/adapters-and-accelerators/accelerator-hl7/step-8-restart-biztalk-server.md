@@ -1,19 +1,9 @@
 ---
 description: "Learn more about: Step 8: Restart BizTalk Server"
 title: "Step 8: Restart BizTalk Server"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: 90d72e10-227b-4afc-80fc-ee582d200709
-caps.latest.revision: 6
-
-
-
 ---
 # Step 8: Restart BizTalk Server
 In this step, you restart the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] in order for the changes you made in this tutorial to take effect.  

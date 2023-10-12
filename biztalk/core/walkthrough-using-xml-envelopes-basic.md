@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Using XML Envelopes (Basic)"
-title: "Walkthrough: Using XML Envelopes (Basic) | Microsoft Docs"
+title: "Walkthrough: Using XML Envelopes (Basic)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "content-based routing, promoting properties"
-  - "promoting properties, routing messages"
-  - "promoting properties, content-based routing"
-  - "routing, messages"
-  - "routing, promoting properties"
-ms.assetid: 02d0c596-0cfe-4bae-9f1b-d7dbc17e18a9
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Using XML Envelopes (Basic)
 This example demonstrates basic XML envelope disassembly by implementing part of a fictitious error-tracking system. The example meets the following requirements:  

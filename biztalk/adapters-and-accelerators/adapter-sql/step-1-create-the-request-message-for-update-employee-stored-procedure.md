@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 1: Create the Request Message for UPDATE_EMPLOYEE Stored Procedure"
-title: "Step 1: Create the Request Message for UPDATE_EMPLOYEE Stored Procedure | Microsoft Docs"
+title: "Step 1: Create the Request Message for UPDATE_EMPLOYEE Stored Procedure"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4dd975d9-4b38-46e0-a926-4b325b0d7b5e
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Create the Request Message for UPDATE_EMPLOYEE Stored Procedure
 ![Step 1 of 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")  

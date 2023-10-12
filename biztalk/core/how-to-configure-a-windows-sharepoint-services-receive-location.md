@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Configure a Windows SharePoint Services Receive Location"
-title: "How to Configure a Windows SharePoint Services Receive Location | Microsoft Docs"
+title: "How to Configure a Windows SharePoint Services Receive Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, Windows SharePoint Services adapters"
-  - "configuring [Windows SharePoint Services adapters], receive locations"
-  - "Windows SharePoint Services adapters, receive locations"
-ms.assetid: 5db3d5cf-4a77-4985-bd03-307c520247ec
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a Windows SharePoint Services Receive Location
 This topic describes how to create and configure a Windows SharePoint Services receive location by using the BizTalk Server Administration Console.  

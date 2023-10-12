@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: GetCodePage"
-title: "GetCodePage1 | Microsoft Docs"
+title: "GetCodePage1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d9302c79-8eaa-4300-91fb-78df7635c6c1
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # GetCodePage
 The SNA National Language Support (SNANLS) **GetCodePage** function copies the code page information identified by a key to a structure passed as a parameter.  

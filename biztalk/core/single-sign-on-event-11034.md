@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11034"
-title: "Single Sign-On: Event 11034 | Microsoft Docs"
+title: "Single Sign-On: Event 11034"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 828bc5fb-12ab-4eea-94f2-2434ad0ee033
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11034
 ## Details  

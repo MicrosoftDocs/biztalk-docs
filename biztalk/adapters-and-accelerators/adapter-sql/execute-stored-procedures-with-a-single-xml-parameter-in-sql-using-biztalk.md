@@ -1,19 +1,12 @@
 ---
-title: "Execute stored procedures with a single XML parameter in SQL Server using BizTalk Server | Microsoft Docs"
+title: "Execute stored procedures with a single XML parameter in SQL Server using BizTalk Server"
 description: Pass a single parameter in a stored procedure using WCF-Custom port and the SQL adapter in BizTalk 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: deb9333a-5e28-4e8d-8e0b-07b5a97a111b
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Execute stored procedures with a single XML parameter in SQL Server using BizTalk Server
 Executing a stored procedure that takes a single parameter is similar to executing any other stored procedure as described in [Execute Stored Procedures in SQL Server using BizTalk Server](execute-stored-procedures-in-sql-server-using-biztalk-server.md). However, for the approach described in the preceding link, you need to generate metadata for the stored procedure at design time and create an orchestration to invoke the procedure at run time.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Use namespaces with the WSDL-Proxy in the WCF LOB Adapter SDK"
-title: "Use namespaces with the WSDL-Proxy in the WCF LOB Adapter SDK | Microsoft Docs"
+title: "Use namespaces with the WSDL-Proxy in the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 781d20fa-83e3-42fa-866e-5650d5eb71a7
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use namespaces with the WSDL-Proxy in the WCF LOB Adapter SDK
 The [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] generates WSDL and proxies for an adapter using values supplied by the developer using the [!INCLUDE[afdevwizardnamelong](../../includes/afdevwizardnamelong-md.md)] or specified in code through modification of the SERVICENAMESPACE private variable and/or the `Namespace` property of the adapter.  

@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Activity Searches in the BAM Portal"
-title: "Activity Searches in the BAM Portal | Microsoft Docs"
+title: "Activity Searches in the BAM Portal"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "activities [BAM], searching"
-  - "queries [BAM], field descriptions"
-  - "Query Builder [BAM portal], creating queries"
-  - "queries [BAM], activity searches"
-  - "Query Builder [BAM portal], about Query Builder"
-  - "Query Builder [BAM portal], activity searches"
-  - "Query Builder [BAM portal]"
-  - "Query Builder [BAM portal], field descriptions"
-  - "BAM portal, Query Builder"
-  - "BAM portal, activity searches"
-ms.assetid: 60ab8deb-ebe2-4959-97fd-261ff64d500c
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Activity Searches in the BAM Portal
 An activity search allows you to perform searches against BAM data to find activities that match the criteria you specify based on tracked values and items available in a BAM view, and to display these activities so that you can edit them or create alerts based on them.  

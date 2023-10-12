@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: What Is the WCF-NetMsmq Adapter?"
-title: "What Is the WCF-NetMsmq Adapter? | Microsoft Docs"
+title: "What Is the WCF-NetMsmq Adapter?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF-NetMsmq adapters, about WCF-NetMsmq adapters"
-ms.assetid: 506c5e2d-6cbe-4788-8e37-49d009dc559a
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is the WCF-NetMsmq Adapter?
 The WCF-NetMsmq adapter provides disconnected cross-computer communication by using queuing technology in an environment where both the services and clients are WCF based. It uses the Message Queuing (MSMQ) transport, and messages have binary encoding.  

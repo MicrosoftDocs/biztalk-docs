@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: sepdgetinfo"
-title: "sepdgetinfo2 | Microsoft Docs"
+title: "sepdgetinfo2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0385ce46-bf67-4819-9731-f3b4c974b37d
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # sepdgetinfo
 The **sepdgetinfo** function returns a structure containing the version number of Host Integration Server, the path of the current configuration file, and the network operating system over which Host Integration Server is running.  

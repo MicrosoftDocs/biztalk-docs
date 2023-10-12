@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: General Troubleshooting Questions and Answers"
-title: "General Troubleshooting Questions and Answers | Microsoft Docs"
+title: "General Troubleshooting Questions and Answers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d2f89d92-0a97-4017-8b8e-6afd8b20eaf4
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # General Troubleshooting Questions and Answers
 This topic has questions and answers to help you resolve issues with the BizTalk Mapper.  

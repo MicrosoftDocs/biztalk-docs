@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Design Phase Recommendations"
-title: "Design Phase Recommendations | Microsoft Docs"
+title: "Design Phase Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ee3d183e-a6f3-47d0-90ac-99b12c064607
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Design Phase Recommendations
 The primary deliverables for the design phase are design specifications for both the system and the test cases for validating system functionality and performance. Investigations of the feasibility of features and tests are a typical part of the design process, involving initial development and, in the case of validation design, some early testing of proof-of-concept implementations as discussed in this section below.  

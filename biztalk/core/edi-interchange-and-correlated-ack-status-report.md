@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDI Interchange and Correlated ACK Status Report"
-title: "EDI Interchange and Correlated ACK Status Report | Microsoft Docs"
+title: "EDI Interchange and Correlated ACK Status Report"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a112cc3d-d34c-4652-a8ee-3355a31d4a03
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDI Interchange and Correlated ACK Status Report
 This report shows all EDI interchanges that are processed by the EDI send and receive pipelines, and the acknowledgment correlated to those interchanges.  

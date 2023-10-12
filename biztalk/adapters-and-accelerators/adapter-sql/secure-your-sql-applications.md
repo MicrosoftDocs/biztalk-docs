@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Secure your SQL applications"
-title: "Secure your SQL applications | Microsoft Docs"
+title: "Secure your SQL applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4b182593-fcca-4ebc-a2fd-7684b84cfb15
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Secure your SQL applications
 ## Overview

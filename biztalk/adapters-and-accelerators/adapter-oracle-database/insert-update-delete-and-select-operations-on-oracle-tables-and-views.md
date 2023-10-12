@@ -1,31 +1,12 @@
 ---
 description: "Learn more about: Insert, Update, Delete, and Select operations on Oracle tables and views"
-title: "Insert, Update, Delete, and Select operations on Oracle tables and views | Microsoft Docs"
+title: "Insert, Update, Delete, and Select operations on Oracle tables and views"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "operations, on tables and views"
-  - "operations, performing"
-  - "data manipulation language"
-  - "Delete operation"
-  - "Insert operation"
-  - "Update operation"
-  - "DELETE statement"
-  - "DML operation"
-  - "Select operation"
-  - "INSERT statement"
-  - "UPDATE statement"
-ms.assetid: af65fac4-3c16-40c4-ae7a-9c1757223f99
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Insert, Update, Delete, and Select operations on Oracle tables and views
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces a set of standard operations on each Oracle database table and view. By using these operations, you can perform simple SQL INSERT, UPDATE, SELECT, and DELETE statements qualified by a WHERE clause on the target table (or view). These operations are also called data manipulation language (DML) operations. To perform more complex operations, for example a SQL SELECT query that uses the JOIN operator, you can use the SQLEXECUTE operation. For more information about the SQLEXECUTE operation, see [SQLEXECUTE Operation in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/sqlexecute-operation-in-oracle-database.md).  

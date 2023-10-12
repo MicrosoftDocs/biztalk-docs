@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDIFACT Transaction Sets IFTSAI-WKGRRE"
-title: "EDIFACT Transaction Sets IFTSAI-WKGRRE | Microsoft Docs"
+title: "EDIFACT Transaction Sets IFTSAI-WKGRRE"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e0ba9321-4ee6-44d2-837c-2e43bedabcb0
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDIFACT Transaction Sets IFTSAI-WKGRRE
 This topic lists the EDIFACT transaction sets that are supported by BizTalk Server.  

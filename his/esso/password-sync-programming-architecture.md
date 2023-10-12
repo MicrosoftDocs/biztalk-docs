@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Password Sync Programming Architecture"
-title: "Password Sync Programming Architecture | Microsoft Docs"
+title: "Password Sync Programming Architecture"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c1c34f02-1329-4264-9b9e-91ee4f295473
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Password Sync Programming Architecture
 A password sync adapter uses a pull model for interacting with the rest of the Enterprise Single Sign-On system: that is, the adapter actively receives password changes from the Enterprise Single Sign-On (ENTSSO) service and also from the non-Windows system. Similarly, the adapter pushes password changes received from one system to the other. With this model, your adapter interacts with three architectural components: the ENTSSO architecture, the Password Sync (PS) Helper component, and a specified non-Windows system.  

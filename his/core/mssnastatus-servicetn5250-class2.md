@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_ServiceTN5250 Class"
-title: "MsSnaStatus_ServiceTN5250 Class2 | Microsoft Docs"
+title: "MsSnaStatus_ServiceTN5250 Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2b03ab95-5c64-4893-a4db-fa77356876e4
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_ServiceTN5250 Class
 The **MsSnaStatus_ServiceTN5250** class represents a TN5250 service status.  

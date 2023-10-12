@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: BizTalk Server MessageBox Database Filegroups SQL Script"
-title: "BizTalk Server MessageBox Database Filegroups SQL Script | Microsoft Docs"
+title: "BizTalk Server MessageBox Database Filegroups SQL Script"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: af4fe437-41ca-46c1-90eb-a28ed73312b6
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server MessageBox Database Filegroups SQL Script
 This topic provides a SQL script that can be run on the SQL Server instances in a BizTalk Server environment to create multiple files and filegroups for the BizTalk MessageBox databases.  

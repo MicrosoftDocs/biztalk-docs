@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: DynamicReceive Sample (BizTalk Server Sample)"
-title: "DynamicReceive Sample (BizTalk Server Sample) | Microsoft Docs"
+title: "DynamicReceive Sample (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0fa7c934-7ec3-45ad-b226-c8c53934ecb1
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # DynamicReceive Sample (BizTalk Server Sample)
 The DynamicReceive sample demonstrates how to receive [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] messages from an MQSeries queue when the URI for the MQSeries queue is specified dynamically.

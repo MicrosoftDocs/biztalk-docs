@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning the Environment for BizTalk Server"
-title: "Planning the Environment for BizTalk Server | Microsoft Docs"
+title: "Planning the Environment for BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3e9ef0b4-eccb-47e2-bbb5-e859ffa0468c
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning the Environment for BizTalk Server
 The planning section of the operations guide describes roles and responsibilities associated with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. It includes planning recommendations for the application and data tiers of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, and it provides planning recommendations for the release management stages of a BizTalk solution.

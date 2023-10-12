@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure WCF Services Published with the BizTalk WCF Service Publishing Wizard"
-title: "How to Configure WCF Services Published with the BizTalk WCF Service Publishing Wizard | Microsoft Docs"
+title: "How to Configure WCF Services Published with the BizTalk WCF Service Publishing Wizard"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "WCF services, WCF Service Publishing Wizard"
-  - "WCF services, configuring"
-  - "configuring, WCF services"
-  - "WCF Service Publishing Wizard"
-ms.assetid: f51b86c0-8c19-453d-a66d-3f373e9f096e
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure WCF Services Published with the BizTalk WCF Service Publishing Wizard
 After publishing WCF services with the BizTalk WCF Service Publishing Wizard, you must configure them properly. This topic describes how to configure the published WCF services.

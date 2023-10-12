@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MC_CONFIRMED"
-title: "MC_CONFIRMED1 | Microsoft Docs"
+title: "MC_CONFIRMED1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cb70416a-9f1c-400c-8756-37dafe114bec
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MC_CONFIRMED
 The **MC_CONFIRMED** verb responds to a confirmation request from the partner transaction program (TP). It informs the partner TP that the local TP has not detected an error in the received data. Because the TP issuing the confirmation request waits for a confirmation, **MC_CONFIRMED** synchronizes the processing of the two TPs.  

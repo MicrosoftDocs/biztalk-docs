@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Index Functoid Has No Index"
-title: "Error - Index Functoid Has No Index | Microsoft Docs"
+title: "Error - Index Functoid Has No Index"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.indexFunctoidHasNoIndex"
-ms.assetid: a523705e-6134-4d98-8ea6-dbfc7b43dae5
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Index Functoid Has No Index
 **Error Code**  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Escape Characters"
-title: "Escape Characters | Microsoft Docs"
+title: "Escape Characters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3af800b9-d31b-487a-9a06-6eda47d1574e
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Escape Characters
 

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Step 6: Start Orchestrations"
-title: "Step 6: Start Orchestrations | Microsoft Docs"
+title: "Step 6: Start Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, starting"
-  - "loopback tutorial, starting orchestratrations"
-ms.assetid: f16a4a77-04fe-4e73-8517-556668174eb9
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 6: Start Orchestrations
 In this step, you use Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to start the orchestrations for Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].  

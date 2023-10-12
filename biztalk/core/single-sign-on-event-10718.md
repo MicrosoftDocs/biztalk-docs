@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10718"
-title: "Single Sign-On: Event 10718 | Microsoft Docs"
+title: "Single Sign-On: Event 10718"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: de075c59-8396-48d1-be55-79303f83f984
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10718
 ## Details  

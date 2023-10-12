@@ -1,16 +1,12 @@
 ---
 description: "Learn more about: Upgrade to BizTalk Server 2020"
-title: "Upgrade to BizTalk Server 2020 | Microsoft Docs"
+title: "Upgrade to BizTalk Server 2020"
 ms.custom: "devx-track-javaee-webspherebiztalk-2020"
 ms.prod: biztalk-server
 ms.date: "12/30/2022"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 
 # Upgrade to BizTalk Server 2020

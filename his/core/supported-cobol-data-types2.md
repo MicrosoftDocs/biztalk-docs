@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Supported COBOL Data Types"
-title: "Supported COBOL Data Types2 | Microsoft Docs"
+title: "Supported COBOL Data Types2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 28a4da9e-4461-407b-8595-b8bdf33dfa42
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Supported COBOL Data Types
 **COMP-1**  

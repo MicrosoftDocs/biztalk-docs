@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Enabling Web Services"
-title: "Enabling Web Services | Microsoft Docs"
+title: "Enabling Web Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web services, publishing"
-  - "hosts, isolated"
-  - "Web services, planning"
-  - "Web services, enabling"
-ms.assetid: 2a4681f6-9ded-423d-baa5-5831e6a85c61
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Enabling Web Services
 To publish Web services, you must configure Internet Information Services (IIS), BizTalk Isolated Hosts, and Windows user and group accounts. This section discusses how to enable Web services in IIS. For more information about enabling Web services, see the IIS documentation.  

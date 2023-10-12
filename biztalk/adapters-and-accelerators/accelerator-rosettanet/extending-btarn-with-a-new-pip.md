@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Extending BTARN with a New PIP"
-title: "Extending BTARN with a New PIP | Microsoft Docs"
+title: "Extending BTARN with a New PIP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BTARN, extending functionality"
-  - "PIPs, extending BTARN"
-  - "BTARN, PIPs"
-ms.assetid: 3db5cd5c-031f-4451-9be5-4b5d6163c3b1
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Extending BTARN with a New PIP
 This topic describes how to extend Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] with a new Partner Interface Process (PIP) schema. This lets you add a schema based on a RosettaNet PIP when that PIP is not associated with any of the schemas installed by the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Setup program.  

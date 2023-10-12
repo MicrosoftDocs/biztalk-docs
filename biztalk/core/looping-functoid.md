@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Looping Functoid"
-title: "Looping Functoid | Microsoft Docs"
+title: "Looping Functoid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 19886ccb-4642-48a4-b93e-563640ea828b
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Looping Functoid
 

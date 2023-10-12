@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Import COBOL into a TI Component"
-title: "How to Import COBOL into a TI Component2 | Microsoft Docs"
+title: "How to Import COBOL into a TI Component2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a07216fe-3ec0-4664-85aa-c61d27143cc5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Import COBOL into a TI Component
 You can import COBOL source code to define the Automation interface of a new Transaction Integrator (TI) component library. To do so, use the TI COBOL wizard to create one method at a time. The COBOL wizard initially imports an entire source file for a mainframe transaction program (TP). As you step through the wizard, you extract the data declarations that describe input sent to, and output received from, the mainframe TP. These data declarations are used to define your TI component library. All other content in the source file is ignored.  

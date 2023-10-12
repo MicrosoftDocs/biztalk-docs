@@ -1,19 +1,12 @@
 ---
 description: "Learn about the prerequisites for Single Sign-On (SSO) and how to enable it."
-title: "SSO Requirements for TIBCO Rendevous adapter | Microsoft Docs"
+title: "SSO Requirements for TIBCO Rendevous adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7d5c406b-f548-4df0-8644-fdf6a812a989
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On Requirements
 

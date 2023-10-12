@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Fallback Charset and Separator Properties (X12)"
-title: "Configuring Fallback Charset and Separator Properties (X12) | Microsoft Docs"
+title: "Configuring Fallback Charset and Separator Properties (X12)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 477f4952-6a4e-4e98-a37f-f6e1fe7db3d3
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Fallback Charset and Separator Properties (X12)
 In the fallback agreement, you can specify the character set that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use to validate party properties when creating the envelope for an outgoing X12 message. You can also specify what separators and terminators will be used for the segments in the interchange.  

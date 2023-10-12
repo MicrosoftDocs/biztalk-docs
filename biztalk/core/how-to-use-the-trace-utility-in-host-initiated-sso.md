@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Use the Trace Utility in Host Initiated SSO"
-title: "How to Use the Trace Utility in Host Initiated SSO | Microsoft Docs"
+title: "How to Use the Trace Utility in Host Initiated SSO"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "host initiated SSO, trace utility"
-  - "trace utility"
-ms.assetid: a53444d1-3f63-42a6-8ee6-b60ff9af9e41
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use the Trace Utility in Host Initiated SSO
 The primary method of troubleshooting is tracing.

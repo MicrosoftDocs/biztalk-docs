@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Show and Hide Property Schemas"
-title: "How to Show and Hide Property Schemas | Microsoft Docs"
+title: "How to Show and Hide Property Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [schemas], showing"
-  - "schemas, properties"
-  - "managing [schemas], hiding"
-  - "managing [schemas], properties"
-ms.assetid: e7cc1838-cc3f-4dd3-a7d1-e66e7ee82d0c
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Show and Hide Property Schemas
 This topic describes how to use the BizTalk Server Administration console to show and hide property schemas in the Schemas folder for an application. A property schema is a simple version of a BizTalk schema that plays a role in the process of copying promoted properties back and forth between the instance message and the message context. You might want to hide property schemas to simplify the schema view, so that you only see document schemas.  

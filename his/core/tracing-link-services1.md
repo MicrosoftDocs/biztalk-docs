@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Tracing Link Services"
-title: "Tracing Link Services1 | Microsoft Docs"
+title: "Tracing Link Services1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 387b2227-56e0-48ff-a822-529189839d29
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Tracing Link Services
 The following table details link service traces.  

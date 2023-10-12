@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Receiving Messages"
-title: "Receiving Messages1 | Microsoft Docs"
+title: "Receiving Messages1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f966201c-97f9-49bd-9c8e-c47d2ad07cd9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Receiving Messages
 The following figure shows the method for receiving messages from the Dynamic Access Module (DMOD).  

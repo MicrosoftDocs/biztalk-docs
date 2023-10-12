@@ -1,19 +1,12 @@
 ---
-title: "Manage BizTalk Assemblies | Microsoft Docs"
+title: "Manage BizTalk Assemblies"
 description: Links to work with assemblies in BizTalk Server, including adding, updating, viewing the dependencies, and removing assemblies
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 62cc92f5-a1ea-46e4-88e6-b8a71a0c40a2
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Manage BizTalk Assemblies
 

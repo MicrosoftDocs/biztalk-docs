@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Defining a BAM View"
-title: "Defining a BAM View | Microsoft Docs"
+title: "Defining a BAM View"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM, views"
-  - "BAM views"
-  - "BAM views, about BAM views"
-ms.assetid: a669d837-63eb-4cb6-926c-415c03c6413b
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Defining a BAM View
 Sometimes you do not want to expose all of your business data to all business users. You can create different BAM views that expose different types of information.  

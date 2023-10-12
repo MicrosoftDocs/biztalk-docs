@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MC_SEND_ERROR"
-title: "MC_SEND_ERROR2 | Microsoft Docs"
+title: "MC_SEND_ERROR2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 58946184-75a2-4108-b593-32204d245ef0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MC_SEND_ERROR
 The **MC_SEND_ERROR** verb notifies the partner transaction program (TP) that the local TP has encountered an application-level error.  

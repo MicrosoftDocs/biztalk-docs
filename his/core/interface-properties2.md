@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Interface Properties"
-title: "Interface Properties2 | Microsoft Docs"
+title: "Interface Properties2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15429"
-ms.assetid: 07c70adc-071c-4347-8f76-cf69c977f2fb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Interface Properties
 Use the **Interface** properties page to set design properties on the interface.  

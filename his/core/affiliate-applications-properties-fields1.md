@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Affiliate Applications Properties: Fields"
-title: "Affiliate Applications Properties: Fields1 | Microsoft Docs"
+title: "Affiliate Applications Properties: Fields1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 469438dd-9b8e-41e5-b953-14f62eaad2f0
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Affiliate Applications Properties: Fields
 Use this dialog box to view or change fields for the Affiliate Application.  

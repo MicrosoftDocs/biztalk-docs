@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error saving properties"
-title: "Error saving properties | Microsoft Docs"
+title: "Error saving properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d37d597e-5632-45a1-b3e6-47907758abda
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error saving properties
 ## Details  

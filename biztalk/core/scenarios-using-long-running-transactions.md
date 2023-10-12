@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Scenarios Using Long-Running Transactions"
-title: "Scenarios Using Long-Running Transactions | Microsoft Docs"
+title: "Scenarios Using Long-Running Transactions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "transactions, long-running"
-  - "long-running transactions, timeouts"
-  - "transactions, examples"
-  - "long-running transactions, examples"
-  - "long-running compensations"
-  - "examples, long-running transactions"
-  - "examples, custom compensations"
-ms.assetid: 76b3e0f8-44dc-419e-a73a-c2908b1d8795
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scenarios Using Long-Running Transactions
 The following scenarios describe the use of long running transactions.  

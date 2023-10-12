@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_EventTN3270Session Class"
-title: "MsSnaStatus_EventTN3270Session Class2 | Microsoft Docs"
+title: "MsSnaStatus_EventTN3270Session Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6f42f660-718a-4ced-84de-f073f3ef2917
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_EventTN3270Session Class
 The **MsSnaStatus_EventTN3270Session** class describes a change to the **EventTN3270Session** class.  

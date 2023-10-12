@@ -1,19 +1,12 @@
 ---
-title: "Common terms and definitions | Microsoft Docs"
+title: "Common terms and definitions"
 description: Glossary of terms and their meanings for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ac9c7c7d-a97e-425a-9666-02ca6edd8be6
-caps.latest.revision: 68
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Glossary - BizTalk Server
 The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuration error. Synchronous MDN requested on one way HTTP send port"
-title: "Configuration error. Synchronous MDN requested on one way HTTP send port | Microsoft Docs"
+title: "Configuration error. Synchronous MDN requested on one way HTTP send port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3bd38eb3-321f-4738-b35e-390f4f54673e
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuration error. Synchronous MDN requested on one way HTTP send port
 ## Details  

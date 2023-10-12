@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Creating the FRR Receive Location for Receiving from SWIFT"
-title: "Creating the FRR Receive Location for Receiving from SWIFT | Microsoft Docs"
+title: "Creating the FRR Receive Location for Receiving from SWIFT"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, creating"
-  - "creating, receive locations"
-  - "FRR, creating receive locations"
-ms.assetid: e10857f4-21cb-4c09-8eed-cb6e9b0a0aa9
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating the FRR Receive Location for Receiving from SWIFT
 To perform FIN Response Reconciliation, you need to create a receive location that receives a message from the SWIFT Network into A4SWIFT.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Invoke RFCs and BAPIs using the EXEC Command in SAP"
-title: "Invoke RFCs and BAPIs using the EXEC Command in SAP | Microsoft Docs"
+title: "Invoke RFCs and BAPIs using the EXEC Command in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "EXEC command, invoking RFCs and BAPIs"
-  - "BAPIs and RFCs, invoking by using the EXEC command"
-  - "RFCs and BAPIs, invoking by using the EXEC command"
-ms.assetid: 55443679-2fa8-4c13-ac3b-1c85b5166cd2
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke RFCs and BAPIs using the EXEC Command in SAP
 The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] exposes the SAP system as an ADO.NET data source. By using [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)], you can invoke RFCs and BAPIs on the SAP system through an EXEC command.  

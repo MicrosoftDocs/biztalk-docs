@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Discoveries"
-title: "Discoveries | Microsoft Docs"
+title: "Discoveries"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5350c4b3-ecc5-487e-a75a-16af090ffa06
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Discoveries
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack provides a centralized management and monitoring experience for BizTalk Server related artifacts.  

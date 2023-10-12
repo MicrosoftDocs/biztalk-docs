@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: How to Configure SSO in a Multicomputer Scenario"
-title: "How to Configure SSO in a Multicomputer Scenario | Microsoft Docs"
+title: "How to Configure SSO in a Multicomputer Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring, SSO"
-  - "SSO database, clustering"
-  - "clustering, Master Secret server"
-  - "SSO, configuring"
-  - "configuring, Master Secret server"
-  - "Master Secret server, clustering"
-  - "clustering, SSO database"
-  - "Master Secret server, configuring"
-  - "SSO, multiple computers"
-ms.assetid: 4511a03d-96f2-45f0-9891-e8b3e253499c
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure SSO in a Multicomputer Scenario
 This section contains instructions for configuring Enterprise Single Sign-On (SSO) in a three-computer scenario.  

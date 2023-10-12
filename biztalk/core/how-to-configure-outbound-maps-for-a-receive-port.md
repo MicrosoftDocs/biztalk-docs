@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: How to Configure Outbound Maps for a Receive Port"
-title: "How to Configure Outbound Maps for a Receive Port | Microsoft Docs"
+title: "How to Configure Outbound Maps for a Receive Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [receive ports], configuring"
-  - "maps, outbound"
-  - "configuring, maps"
-  - "managing [receive ports], outbound maps"
-  - "maps, configuring"
-  - "receive ports, configuring"
-  - "configuring, receive ports"
-  - "receive ports, outbound maps"
-ms.assetid: 01a864a1-9e8c-4b82-9d03-91be09d556da
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Outbound Maps for a Receive Port
 This topic describes how to use the BizTalk Server Administration console to configure outbound maps for a receive port. You can use outbound maps with request-response receive ports to transform outbound messages from one schema to another; for example to transform messages that your company uses into a schema that a partner uses.  

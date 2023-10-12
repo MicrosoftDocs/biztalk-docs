@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10693"
-title: "Single Sign-On: Event 10693 | Microsoft Docs"
+title: "Single Sign-On: Event 10693"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 672bac7d-0ccc-4a42-a49d-57e387f4cf3a
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10693
 ## Details  

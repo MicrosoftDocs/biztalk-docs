@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting JD Edwards OneWorld"
-title: "Troubleshooting JD Edwards OneWorld | Microsoft Docs"
+title: "Troubleshooting JD Edwards OneWorld"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 15d73c2a-c6ee-46bf-8837-9c6ae3b098d2
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting JD Edwards OneWorld
 

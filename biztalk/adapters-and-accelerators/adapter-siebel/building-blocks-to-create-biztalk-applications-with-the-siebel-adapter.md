@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Building blocks to create BizTalk applications with the Siebel adapter"
-title: "Building blocks to create BizTalk applications with the Siebel adapter | Microsoft Docs"
+title: "Building blocks to create BizTalk applications with the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developing BizTalk applicatons, run-time tasks"
-  - "developing BizTalk applications, design-time tasks"
-ms.assetid: 76204181-18ad-43b5-b589-539aafd66835
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Building blocks to create BizTalk applications with the Siebel adapter
 Performing operations on a Siebel system using [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] involves two set of activities: design-time activities and run-time activities. To perform operations on a Siebel system by using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must perform a set of design-time and run-time tasks using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console respectively. This section provides an overview of these tasks. All the topics in this section, which demonstrate how to perform specific operations on a Siebel system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], are modeled on these high-level tasks.  

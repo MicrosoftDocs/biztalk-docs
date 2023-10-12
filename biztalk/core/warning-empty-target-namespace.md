@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Warning - Empty Target Namespace"
-title: "Warning - Empty Target Namespace | Microsoft Docs"
+title: "Warning - Empty Target Namespace"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.emptyTargetNamespace"
-ms.assetid: 00d43bcc-6fd6-4766-b91d-f6c33608c6c1
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Warning - Empty Target Namespace
 **Error Code**  

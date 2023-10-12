@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: INSERT Statement"
-title: "INSERT Statement2 | Microsoft Docs"
+title: "INSERT Statement2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8e0ef68c-2e88-496c-a559-2c86bb0c0544
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # INSERT Statement
 The following describes the syntax of the `INSERT` statement for the Managed Provider for Host Files, and provides sample `INSERT` statements.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Verification Phase Recommendations"
-title: "Verification Phase Recommendations | Microsoft Docs"
+title: "Verification Phase Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 00663354-ce5d-4391-b835-89940c92c1ce
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Verification Phase Recommendations
 After the system is code complete, it is ready to be fully stabilized and the release criteria can be verified. This phase is often referred to as the stabilization phase. The ultimate goal of this phase is to identify and fix bugs and prove that the system is ready for production. This phase, therefore, involves a final round of testing on a release candidate of the system.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Token Ring Link Statistics"
-title: "Token Ring Link Statistics2 | Microsoft Docs"
+title: "Token Ring Link Statistics2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 91961d49-ca06-4296-8e76-a8c94a945f42
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Token Ring Link Statistics
 Link statistics are generated when a link is closed or when one of the following counters is about to wrap. Whenever a link statistics message is built, all the counters are reset to 0.  

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Get started with the BizTalk Adapter for Siebel eBusiness Applications"
-title: "Get started with the BizTalk Adapter for Siebel eBusiness Applications | Microsoft Docs"
+title: "Get started with the BizTalk Adapter for Siebel eBusiness Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapters, about"
-ms.assetid: 0867f95f-977f-48bf-8c46-70fd6e4df56b
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Get started with the BizTalk Adapter for Siebel eBusiness Applications
 This section provides an overview of the adapter, prerequisites, and topics for users who are new to the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. It discusses the features of [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] and the different operations that can be performed on the Siebel system using the adapter.  

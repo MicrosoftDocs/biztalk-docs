@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Standard Methods in Component Interfaces"
-title: "Standard Methods in Component Interfaces | Microsoft Docs"
+title: "Standard Methods in Component Interfaces"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "component interfaces, standard methods"
-  - "methods, viewing"
-  - "methods, component interfaces"
-  - "methods, changing"
-ms.assetid: 2273d946-3fc8-4b2d-a6a1-9e4f0da74d5b
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Standard Methods in Component Interfaces
 The standard methods for the component interface are as follows:  

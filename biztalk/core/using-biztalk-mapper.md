@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Using BizTalk Mapper"
-title: "Using BizTalk Mapper | Microsoft Docs"
+title: "Using BizTalk Mapper"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.mapper.grid"
-ms.assetid: 07c69603-ee79-44b2-80b1-6ae4e4c8fb4e
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using BizTalk Mapper
 

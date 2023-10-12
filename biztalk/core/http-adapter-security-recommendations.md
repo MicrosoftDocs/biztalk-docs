@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: HTTP Adapter Security Recommendations"
-title: "HTTP Adapter Security Recommendations | Microsoft Docs"
+title: "HTTP Adapter Security Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, HTTP adapters"
-  - "configuring [HTTP adapters], security"
-  - "HTTP adapters, security"
-ms.assetid: ef6043c2-c62a-40e5-b2e1-53e60f87a761
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # HTTP Adapter Security Recommendations
 You use the HTTP adapter to exchange information between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and an application by means of the Hypertext Transfer Protocol (HTTP). Applications can send messages to a server by sending HTTP POST or HTTP GET requests to a specified HTTP URL. For more information about the HTTP adapter, see [HTTP Adapter](../core/http-adapter.md). It is recommended that you use the following guidelines for securing and deploying the HTTP adapter in your environment:  

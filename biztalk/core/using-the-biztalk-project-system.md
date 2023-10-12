@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Using the BizTalk Project System"
-title: "Using the BizTalk Project System | Microsoft Docs"
+title: "Using the BizTalk Project System"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "BizTalk Editor, opening"
-  - "BizTalk Mapper, opening"
-  - "Orchestration Designer, opening"
-  - "Pipeline Designer, opening"
-ms.assetid: a28c715e-128c-463a-b421-9b3efe76a530
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the BizTalk Project System
 You can use the BizTalk project system to create, organize, and configure BizTalk solutions in the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment. The topics and procedures in this section describe how to perform various tasks by using the BizTalk project system.

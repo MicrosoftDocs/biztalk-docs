@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Use the PivotTable"
-title: "How to Use the PivotTable | Microsoft Docs"
+title: "How to Use the PivotTable"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM views, pivot tables"
-  - "BAM views, previewing data"
-ms.assetid: af34494b-f577-4d36-9a9e-5d6e9c5fafbe
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use the PivotTable
 When you have defined a BAM view that includes dimensions and measures, you need to update one or more PivotTables associated with that view.  

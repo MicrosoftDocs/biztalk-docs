@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Agenda and Priority"
-title: "Agenda and Priority | Microsoft Docs"
+title: "Agenda and Priority"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "business rules, executing"
-  - "Business Rules Engine, agendas"
-  - "Business Rules Engine, priorities"
-  - "business rules, priorities"
-  - "business rules, examples"
-  - "Business Rules Engine, examples"
-  - "examples, Business Rules Engine"
-  - "Business Rules Engine, rules"
-ms.assetid: ca54f750-4f2d-4734-8e6e-7af1b4967e6a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Agenda and Priority
 To understand how the Business Rule engine evaluates rules and executes actions, you need to understand the concepts of *agenda* and *priority*.  

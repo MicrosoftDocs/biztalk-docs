@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Assemblies and Artifacts Installed by the Scatter-Gather Sample"
-title: "Assemblies and Artifacts Installed by the Scatter-Gather Sample | Microsoft Docs"
+title: "Assemblies and Artifacts Installed by the Scatter-Gather Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 61f5f10e-c38b-4887-b2db-f568a28d1d4d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Assemblies and Artifacts Installed by the Scatter-Gather Sample
 The following table lists the assemblies and other artifacts installed for the ESB Scatter-Gather sample.  

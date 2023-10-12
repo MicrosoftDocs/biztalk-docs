@@ -1,19 +1,12 @@
 ---
 description: "Learn how to start working with affiliate applications for TIBCO Rendezvous and Single Sign-On (SSO)."
-title: "Creating Affiliate Applications for TIBCO Rendezvous | Microsoft Docs"
+title: "Creating Affiliate Applications for TIBCO Rendezvous"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f3603fcb-3594-460b-b74a-618e22d9c4e0
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Affiliate Applications for TIBCO Rendezvous
 

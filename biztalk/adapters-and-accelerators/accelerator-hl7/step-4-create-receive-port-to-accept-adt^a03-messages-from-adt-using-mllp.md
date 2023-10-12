@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter"
 title: "Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter"
-
 ms.date: "12/09/2015"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "receive ports"
-  - "end-to-end tutorial, receive ports"
-  - "creating, receive ports"
-ms.assetid: 3c4192d5-d011-48b0-a3f9-47c5225780ee
-caps.latest.revision: 9
-
-
-
 ---
 # Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter
 You use the receive port to specify the receive location for incoming messages. Use the following procedure to create the receive port for accepting ADT^A03 messages from the ADT System using the MLLP adapter.  

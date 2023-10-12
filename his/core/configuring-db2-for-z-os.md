@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configuring DB2 for z-OS"
-title: "Configuring DB2 for z-OS | Microsoft Docs"
+title: "Configuring DB2 for z-OS"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 639cc2db-d4e7-4424-8a1c-68c09784dcfa
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configuring DB2 for z-OS
 IBM DB2 for z/OS supports access to remote DRDA Application Servers using information stored in the DB2 for z/OS Communications Database (CDB), which is a collection of catalog tables.  

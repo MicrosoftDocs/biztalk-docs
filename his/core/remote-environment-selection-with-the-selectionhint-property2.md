@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Remote Environment Selection with the SelectionHint Property"
-title: "Remote Environment Selection with the SelectionHint Property2 | Microsoft Docs"
+title: "Remote Environment Selection with the SelectionHint Property2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4cd3c73d-282c-4c04-8107-a570ed56beb1
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Remote Environment Selection with the SelectionHint Property
 Developers can use the `SelectionHint` property to specify a remote environment (RE) programmatically.  

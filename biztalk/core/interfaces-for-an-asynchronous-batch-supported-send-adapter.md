@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interfaces for an Asynchronous Batch-Supported Send Adapter"
-title: "Interfaces for an Asynchronous Batch-Supported Send Adapter | Microsoft Docs"
+title: "Interfaces for an Asynchronous Batch-Supported Send Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d38b8b87-508a-499b-86b2-846938050b44
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interfaces for an Asynchronous Batch-Supported Send Adapter
 Batch-aware adapters may send messages synchronously or asynchronously, and may perform transacted sends. To send batches of messages, a send adapter must implement the following interfaces:  

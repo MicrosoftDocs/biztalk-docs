@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: fQueryRegistryValue"
-title: "fQueryRegistryValue2 | Microsoft Docs"
+title: "fQueryRegistryValue2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 04338b82-3c6d-45a9-88f4-ac3dc2c02a05
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # fQueryRegistryValue
 The **fQueryRegistryValue** function is used to query a value from the registry. This utility function is used to construct an integrated link service configuration DLL.  

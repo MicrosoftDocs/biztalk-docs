@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Printer Definition Files"
-title: "Printer Definition Files2 | Microsoft Docs"
+title: "Printer Definition Files2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b89e01fc-ba4d-4f85-95ed-f5284055bb0c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Printer Definition Files
 Host Print service enables you to specify the capabilities of a printer to override the defaults provided by the Windows printer driver.  

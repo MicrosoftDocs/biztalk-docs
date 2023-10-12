@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigStore::SetConfigInfo"
-title: "ISSOConfigStore::SetConfigInfo | Microsoft Docs"
+title: "ISSOConfigStore::SetConfigInfo"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 84dac951-3894-43c8-9e19-1d260ef47ef5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigStore::SetConfigInfo
 

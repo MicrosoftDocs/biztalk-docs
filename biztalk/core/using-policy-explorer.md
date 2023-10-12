@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Using Policy Explorer"
-title: "Using Policy Explorer | Microsoft Docs"
+title: "Using Policy Explorer"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Business Rule Composer, Policy Explorer"
-  - "policies, Policy Explorer"
-  - "business rules, Policy Explorer"
-  - "Policy Explorer [Business Rule Composer]"
-ms.assetid: 249b1b72-ba84-4695-ba2b-16f081710b20
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Policy Explorer
 You can use the Policy Explorer to manage policies and rules in the rule store. You can create, modify, and delete policies and rules, and you can test, publish, deploy, and undeploy policies.  

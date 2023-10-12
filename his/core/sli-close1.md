@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SLI_CLOSE"
-title: "SLI_CLOSE1 | Microsoft Docs"
+title: "SLI_CLOSE1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 91e85dfe-c240-4103-a47c-3b3326e3c300
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SLI_CLOSE
 The **SLI_CLOSE** verb ends a session opened with [SLI_OPEN](../core/sli-open2.md). The LU-LU and LU-SSCP resources are released.  

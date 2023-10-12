@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Support for Composite Operations"
-title: "Support for Composite Operations2 | Microsoft Docs"
+title: "Support for Composite Operations2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3f65cf10-4e27-4872-bc6a-defe6cbab198
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Support for Composite Operations
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform composite operations that can include any number of the following operations, and in any order:  

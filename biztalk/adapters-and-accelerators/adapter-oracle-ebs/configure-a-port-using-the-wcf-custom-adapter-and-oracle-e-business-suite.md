@@ -1,19 +1,12 @@
 ---
-title: "Configure a port using the WCF-custom adapter and Oracle E-Business Suite in BizTalk | Microsoft Docs"
+title: "Configure a port using the WCF-custom adapter and Oracle E-Business Suite in BizTalk"
 description: Use the WCF-Custom adapter to receive or send messages from Oracle EBS in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 83d0bb00-934c-40cf-8833-354e7ce7e927
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure a port using the WCF-custom adapter and Oracle E-Business Suite
 How to configure WCF-Custom send and receive ports to perform outbound and inbound operations on Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  

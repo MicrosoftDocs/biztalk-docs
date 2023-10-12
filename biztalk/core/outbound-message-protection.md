@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Outbound Message Protection"
-title: "Outbound Message Protection | Microsoft Docs"
+title: "Outbound Message Protection"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "processing, outbound messages"
-  - "outbound messages"
-  - "security, messages"
-  - "authenticating, warnings"
-  - "messages, outbound"
-ms.assetid: 839d3b44-bb44-454b-817c-67b7c8cd74c9
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Outbound Message Protection
 The following figure shows the security features in BizTalk Server that you use to help protect outbound messages from being read by unauthorized parties.  

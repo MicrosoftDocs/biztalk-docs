@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Publish a Policy"
-title: "How to Publish a Policy | Microsoft Docs"
+title: "How to Publish a Policy"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "policies, publishing"
-  - "managing [policies], publishing"
-  - "publishing, policies"
-ms.assetid: 730c57a7-526f-40ca-8610-88216558e375
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Publish a Policy
 This topic describes how to use the BizTalk Server Administration console to publish a policy in a BizTalk group. Publishing a policy makes it available to add to a BizTalk application, as described in [How to Add a Policy to an Application](../core/how-to-add-a-policy-to-an-application.md).  

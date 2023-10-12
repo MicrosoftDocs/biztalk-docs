@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Microsoft Networking (Named Pipes) Errors"
-title: "Microsoft Networking (Named Pipes) Errors2 | Microsoft Docs"
+title: "Microsoft Networking (Named Pipes) Errors2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 93d1c978-e98f-4ec2-b0e6-5e67964833e7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Microsoft Networking (Named Pipes) Errors
 ## NAMED PIPES 5  

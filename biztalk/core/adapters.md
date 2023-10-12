@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: Adapters"
-title: "Adapters | Microsoft Docs"
+title: "Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapters, receive adapters"
-  - "adapters"
-  - "send adapters"
-  - "adapters, about adapters"
-  - "send adapters, about send adapters"
-  - "receive adapters, about receive adapters"
-  - "adapters, adapter framework"
-  - "receive adapters"
-  - "adapters, send adapters"
-ms.assetid: 7803a806-3396-4662-877f-eae11cb5e3e4
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adapters
 To exchange messages with external systems, applications, and entities Microsoft BizTalk Server uses the concept of an adapter. *Adapters* are COM or .NET-based components that transfer messages to and from business endpoints (such as file systems, databases, and custom business applications) using various communication protocols.  

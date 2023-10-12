@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Processing Instructions in Detail"
-title: "Processing Instructions in Detail | Microsoft Docs"
+title: "Processing Instructions in Detail"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ed5d92fb-d53b-49a2-b2c7-8558708d6554
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Processing Instructions in Detail
 This topic describes the format and structure of the System-Properties.xsd property schema, which defines several context properties required for itinerary processing. These properties are promoted when a message is received and processed through BizTalk Server pipelines; because they are promoted properties, they are accessible to BizTalk Server components. The following properties are defined in the System-Properties.xsd property schema:  

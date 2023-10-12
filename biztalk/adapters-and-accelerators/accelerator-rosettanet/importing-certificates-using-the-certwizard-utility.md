@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Importing Certificates Using the CertWizard Utility"
-title: "Importing Certificates Using the CertWizard Utility | Microsoft Docs"
+title: "Importing Certificates Using the CertWizard Utility"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "certificates, root keys"
-  - "certificates, public keys"
-  - "certificates, private keys"
-  - "importing certificates"
-  - "public keys"
-  - "private keys"
-  - "CertWizard utility"
-  - "certificates, importing"
-  - "root keys"
-ms.assetid: 0c54d7ab-69cf-4f4a-b976-6f740a41280b
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Importing Certificates Using the CertWizard Utility
 This topic describes how to import a certificate by using CertWizard utility, a step-by-step command-line utility available in the Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. This topic discusses importing a private, public, or root key. It describes the switches that you use to configure the certificate.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Form Generator Utility to Generate MT/MX InfoPath Forms"
-title: "Form Generator Utility to Generate MT-MX InfoPath Forms | Microsoft Docs"
+title: "Form Generator Utility to Generate MT-MX InfoPath Forms"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 41f2fd51-c492-499b-89aa-1b44ed5c9669
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Form Generator Utility to Generate MT/MX InfoPath Forms
 The purpose of this document is to explain how to generate and publish MT and MX InfoPath 2010 forms using Form Generator Utility. These forms are used by the Message Repair and New Submission feature of [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)].  

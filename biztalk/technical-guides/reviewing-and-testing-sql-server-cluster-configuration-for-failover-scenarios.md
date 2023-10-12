@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Reviewing and Testing SQL Server Cluster Configuration for Failover Scenarios"
-title: "Reviewing and Testing SQL Server Cluster Configuration for Failover Scenarios | Microsoft Docs"
+title: "Reviewing and Testing SQL Server Cluster Configuration for Failover Scenarios"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5dbeb383-5b38-4467-acf8-2a5b244e5fa9
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Reviewing and Testing SQL Server Cluster Configuration for Failover Scenarios
 Windows Clustering and SQL Server allow you to run SQL Server in Active/Active mode where each node of the cluster is “active” and running one or more SQL Server instances. This would allow you, for example, to have the MessageBox database on one node and all other [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases on the other node. This allows you to maximize cluster hardware usage.  

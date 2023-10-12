@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MC_GET_ATTRIBUTES"
-title: "MC_GET_ATTRIBUTES2 | Microsoft Docs"
+title: "MC_GET_ATTRIBUTES2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 649e744b-6d51-474c-9845-c923feb2145b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MC_GET_ATTRIBUTES
 The **MC_GET_ATTRIBUTES** verb returns the attributes of the conversation.  

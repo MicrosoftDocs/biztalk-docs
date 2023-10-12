@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Value Parsing"
-title: "Value Parsing1 | Microsoft Docs"
+title: "Value Parsing1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44ac6268-2726-4426-8a45-0b445acf3a15
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Value Parsing
 The following describes the syntax for value parsing for the Managed Provider for Host Files and provides an example.  

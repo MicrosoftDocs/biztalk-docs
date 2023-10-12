@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configuring and Controlling TPs"
-title: "Configuring and Controlling TPs2 | Microsoft Docs"
+title: "Configuring and Controlling TPs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4a081d6a-2c75-4e22-9597-69702e7b5c0d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configuring and Controlling TPs
 The following table shows how the characteristics of the transaction programs (TPs) and selection of the logical units (LUs) for a conversation are controlled.  

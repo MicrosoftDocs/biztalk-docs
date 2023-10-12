@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: SiebelParameter class in the Siebel adapter"
-title: "SiebelParameter class in the Siebel adapter | Microsoft Docs"
+title: "SiebelParameter class in the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SiebelParameter"
-  - "Data Provider for Siebel, SiebelParameter"
-  - "SiebelParameter, supported properties and methods"
-ms.assetid: 1dcb72c7-a470-4609-8aba-a5c8ad5f3ac9
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SiebelParameter class in the Siebel adapter
 The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] provides a `DbParameter` implementation to enable an ADO.NET client to specify parameters for a particular command. Using an instance of the `System.Data.Common.DbCommand` class of the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], a client program can obtain an instance of the `System.Data.Common.DbParameter` class.  

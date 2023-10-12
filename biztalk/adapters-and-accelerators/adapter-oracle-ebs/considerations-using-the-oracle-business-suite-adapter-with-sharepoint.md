@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Considerations using the Oracle-Business Suite adapter with SharePoint"
-title: "Considerations using the Oracle-Business Suite adapter with SharePoint | Microsoft Docs"
+title: "Considerations using the Oracle-Business Suite adapter with SharePoint"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 56de6267-ec34-4bd2-abd1-3f2b69876b36
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Considerations using the Oracle-Business Suite adapter with SharePoint
 This topic contains information about the issues you might encounter while using the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] with Microsoft Office SharePoint Server, along with resolutions. The issues are divided into two categories:  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Receive Errors"
-title: "Receive Errors | Microsoft Docs"
+title: "Receive Errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 508c1680-306d-4cef-a55a-bc5ea2df0beb
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive Errors
 This section contains detailed information for diagnosing and resolving WCF Receive errors.  

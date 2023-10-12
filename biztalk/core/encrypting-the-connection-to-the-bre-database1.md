@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Encrypt the Connection to the BRE Database"
-title: "Encrypt the BRE DB connection | Microsoft Docs"
+title: "Encrypt the BRE DB connection"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 63edd2bb-97f1-4b8b-8cdc-f4792909ca86
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Encrypt the Connection to the BRE Database
 Based on the security policy of your company, consider encrypting:  

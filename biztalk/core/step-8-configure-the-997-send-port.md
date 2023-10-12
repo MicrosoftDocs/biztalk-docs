@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 8: Configure the 997 Send Port"
-title: "Step 8: Configure the 997 Send Port | Microsoft Docs"
+title: "Step 8: Configure the 997 Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4780c491-9f1a-4f13-b346-6a2e1801ec09
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 8: Configure the 997 Send Port
 ![Step 8 of 11](../core/media/tut-step8-of-11.gif "Tut_Step8_of_11")  

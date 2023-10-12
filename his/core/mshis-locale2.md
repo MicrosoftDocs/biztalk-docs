@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsHis_Locale"
-title: "MsHis_Locale2 | Microsoft Docs"
+title: "MsHis_Locale2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0be47e9c-e709-492d-92ae-369d6f80e949
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsHis_Locale
 The **MsHIS_Locale** class is used to query for locale support.  

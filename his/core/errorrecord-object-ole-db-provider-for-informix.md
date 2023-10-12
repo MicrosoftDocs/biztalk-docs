@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ErrorRecord Object (OLE DB Provider for Informix)"
-title: "ErrorRecord Object (OLE DB Provider for Informix) | Microsoft Docs"
+title: "ErrorRecord Object (OLE DB Provider for Informix)"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 81065190-cba9-41bd-bff0-243cf8830602
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ErrorRecord Object (OLE DB Provider for Informix)
 The **ErrorRecord** object is created by calling the **IErrorRecord** interface on the **ErrorObject** object. An **ErrorObject** is created on any interface on any MSINFOMIX object when an error occurs. The **ErrorRecord** object is used to retrieve additional information when an error occurs.  

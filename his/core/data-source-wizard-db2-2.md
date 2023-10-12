@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Data Source Wizard (DB2)"
-title: "Data Source Wizard (DB2)2 | Microsoft Docs"
+title: "Data Source Wizard (DB2)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9dd3a82a-5e92-4035-8893-933ebf286383
-caps.latest.revision: 7
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Data Source Wizard (DB2)
 You can use the Data Source Wizard to guide you through the steps to configure and save data source information that is required to connect the Data Provider for DB2, ODBC Driver for DB2, BizTalk Adapter for DB2, and ADO.NET Provider for DB2 (Data Provider) to remote IBM DB2 database servers. Consumers, such as Visual Studio and BizTalk Server, will load the Data Source Wizard for use in defining and re-configuring connections to IBM DB2 database servers. The Data Source Wizard helps to simplify configuring and testing network connections, working with packages, defining character string code page conversions, working with security and encryption, and validating and saving the configuration.

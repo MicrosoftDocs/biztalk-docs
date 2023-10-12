@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Schema Samples"
-title: "Schema Samples | Microsoft Docs"
+title: "Schema Samples"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SDK samples, schemas"
-  - "examples, schemas"
-  - "schemas, examples"
-ms.assetid: 7d7e696d-935f-4582-b873-c5637673b651
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Schema Samples
 The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK includes a series of XSD schemas for RNIF and Partner Interface Process (PIP) processing. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] uses these schemas to process messages. You can modify these schemas for your own purposes, or use these to troubleshoot failures.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Inbound Data"
-title: "Inbound Data2 | Microsoft Docs"
+title: "Inbound Data2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 873d35d4-d2e6-4efa-96eb-18114f050d2d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Inbound Data
 This section describes inbound data flows from the application to the local node. The overall structure of the protocols described applies to the system services control point (SSCP) and primary logical unit (PLU) connections, but more complex aspects (such as the use of delayed request mode) are only applicable to the PLU connection.  

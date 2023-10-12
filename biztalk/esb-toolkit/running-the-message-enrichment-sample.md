@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the Message Enrichment Sample"
-title: "Running the Message Enrichment Sample | Microsoft Docs"
+title: "Running the Message Enrichment Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7015a2fe-3727-48f3-a2ed-c368e0630626
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the Message Enrichment Sample
 The Message Enrichment sample uses a Windows Forms test client application provided with the Itinerary On-Ramp sample.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Match Schema Nodes in a Map"
-title: "How to Match Schema Nodes in a Map | Microsoft Docs"
+title: "How to Match Schema Nodes in a Map"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 584f85d2-6198-4ef3-90d9-a322f1457d9a
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Match Schema Nodes in a Map
 When the source or destination schemas are complex, it can be difficult to map the elements. The BizTalk Mapper introduces the **Indicative Match** feature, which enables you to map complex schema elements by suggesting the best possible matches. This topic provides information about how to perform this operation.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Diagnose Problems with the SMTP Adapter"
-title: "How to Diagnose Problems with the SMTP Adapter | Microsoft Docs"
+title: "How to Diagnose Problems with the SMTP Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: eaf39fd8-b662-4b0c-b5e8-1af02cb4f79b
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Diagnose Problems with the SMTP Adapter
 This section contains steps that can be followed to help diagnose problems with the SMTP adapter.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Typical Use Cases"
-title: "Typical Use Cases | Microsoft Docs"
+title: "Typical Use Cases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: da60b5b0-79fc-481c-922a-1f8024de9cf2
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Typical Use Cases
 This section describes the most common use cases and scenarios identified for the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. For each one, the topic discusses the processing required, the result, and a diagram of the process flow. Some of the scenarios equate to use case sample applications provided with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)], and the topic explains how to install and run the corresponding sample.  

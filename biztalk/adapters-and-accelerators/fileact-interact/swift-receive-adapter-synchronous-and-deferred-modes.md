@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: SWIFT Receive Adapter Synchronous and Deferred Modes"
-title: "SWIFT Receive Adapter Synchronous and Deferred Modes | Microsoft Docs"
+title: "SWIFT Receive Adapter Synchronous and Deferred Modes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 704def2c-ac82-4cdb-9354-609cc8dc1a0d
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SWIFT Receive Adapter Synchronous and Deferred Modes
 SWIFTNet Link (SNL) server applications can operate in two different modes: synchronous and deferred mode. In synchronous mode, the server application sends a business response back to the client application. In deferred mode, the server application sends a technical acknowledgement back to the client application.  

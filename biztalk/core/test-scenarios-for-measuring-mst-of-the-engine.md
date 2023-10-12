@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Test Scenarios for Measuring MST of the Engine"
-title: "Test Scenarios for Measuring MST of the Engine | Microsoft Docs"
+title: "Test Scenarios for Measuring MST of the Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e54667b9-7262-43c8-a013-9242eb062daf
-caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Test Scenarios for Measuring MST of the Engine
 This section describes a test scenario that was implemented to measure the effect of driving a BizTalk system at three different levels of load:

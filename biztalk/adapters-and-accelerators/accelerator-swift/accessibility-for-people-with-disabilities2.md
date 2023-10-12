@@ -1,22 +1,12 @@
 ---
 description: "Learn about accessibility options for Microsoft BizTalk Accelerator for SWIFT Help and how to find general information about accessibility features and services from Microsoft."
-title: "Accessibility for People with Disabilities2 | Microsoft Docs"
+title: "Accessibility for People with Disabilities2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "BizTalk Accelerator for SWIFT, accessibility"
-  - "accessibility"
-ms.assetid: 7b11f488-2aae-4625-8537-cbd3c81e62a3
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # About accessibility for people with disabilities
 

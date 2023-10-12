@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: What Is the Windows SharePoint Services Adapter?"
-title: "What Is the Windows SharePoint Services Adapter? | Microsoft Docs"
+title: "What Is the Windows SharePoint Services Adapter?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, Windows SharePoint Services adapters"
-  - "Windows SharePoint Services adapters, process flow"
-  - "Windows SharePoint Services adapters, receiving documents"
-  - "Windows SharePoint Services adapters, sending documents"
-  - "Windows SharePoint Services adapters, security"
-  - "Windows SharePoint Services adapters"
-  - "Windows SharePoint Services adapters, about Windows SharePoint Services adapters"
-ms.assetid: 1875ac85-46c2-4da5-ad16-8b078cb4cbd7
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is the Windows SharePoint Services Adapter?
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Windows SharePoint Services provides a tighter integration with Windows SharePoint Services and Microsoft Office InfoPath. The following topic describes the features and an overview of how the Windows SharePoint Services adapter works.  

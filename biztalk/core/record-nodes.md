@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Record Nodes"
-title: "Record Nodes | Microsoft Docs"
+title: "Record Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 43af077d-5db8-43ca-8bd0-e3a9e3ebe2b0
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Record Nodes
 In BizTalk Editor, you use a **Record** node to represent a collection of information, the individual items of which can be:  

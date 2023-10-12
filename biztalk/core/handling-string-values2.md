@@ -1,28 +1,12 @@
 ---
 description: "Learn how to configure certain string arguments as right-justified (and left padded) in JD Edwards EnterpriseOne."
-title: "Handling String Values2 | Microsoft Docs"
+title: "Handling String Values2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "string values, configuring"
-  - "formatting strings"
-  - "strings, formatting"
-  - "left-justified string values"
-  - "jdearglist.txt"
-  - "strings, left-justified"
-  - "right-justified string values"
-  - "strings, right-justified"
-ms.assetid: 23d54731-b2b9-4610-a533-e041237e0bb3
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Handling String Values
 

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error loading properties"
-title: "Error loading properties | Microsoft Docs"
+title: "Error loading properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 34abc84c-319b-4c0a-ae1f-7ba9a1bf701b
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error loading properties
 ## Details  

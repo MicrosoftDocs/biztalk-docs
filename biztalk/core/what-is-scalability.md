@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: What Is Scalability?"
-title: "What Is Scalability? | Microsoft Docs"
+title: "What Is Scalability?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "scaling, scalability"
-ms.assetid: ac6acefd-864a-4f22-a136-a1951fe71e96
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is Scalability?
 Scalability is the ability of a system to expand to meet your business needs. You scale a system by adding extra hardware or by upgrading the existing hardware without changing much of the application. In the context of a BizTalk Server system, scalability refers to the ability of BizTalk to scale as your throughput needs increase, and if you need to reduce latency times.  

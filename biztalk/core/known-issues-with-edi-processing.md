@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with EDI Processing"
-title: "Known Issues with EDI Processing | Microsoft Docs"
+title: "Known Issues with EDI Processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b5195457-4873-473f-9f13-6df2483ebe60
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with EDI Processing
 This section contains topics that describe known issues with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI solutions.  

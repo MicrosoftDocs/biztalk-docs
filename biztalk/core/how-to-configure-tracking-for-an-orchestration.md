@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Configure Tracking for an Orchestration"
-title: "How to Configure Tracking for an Orchestration | Microsoft Docs"
+title: "How to Configure Tracking for an Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, tracking"
-  - "orchestrations, HAT"
-  - "managing [orchestrations], tracking"
-  - "configuring [HAT tracking], orchestrations"
-  - "tracking, orchestrations"
-  - "HAT, orchestrations"
-ms.assetid: 8f5ed525-11f8-4bef-95c4-cfe9c971b663
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Tracking for an Orchestration
 This topic describes how to use the BizTalk Server Administration console to configure tracking for an orchestration.  

@@ -1,42 +1,12 @@
 ---
 description: "Learn more about: Long-Running Transactions"
-title: "Long-Running Transactions | Microsoft Docs"
+title: "Long-Running Transactions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "long-running transactions, about long-running transactions"
-  - "atomic transactions, long-running transactions"
-  - "long-running transactions, orchestrations"
-  - "long-running transactions, nesting"
-  - "scopes, examples"
-  - "orchestrations, transactions"
-  - "compensations, long-running transactions"
-  - "compensations, customizing"
-  - "transactions, long-running"
-  - "transactions, compensation blocks"
-  - "long-running transactions"
-  - "long-running transactions, timeouts"
-  - "compensations, examples"
-  - "fault tolerance, long-running transactions"
-  - "transactions, examples"
-  - "orchestrations, long-running transactions"
-  - "transactions, atomic"
-  - "transactions, fault tolerance"
-  - "scopes, long-running transactions"
-  - "long-running transactions, fault tolerance"
-  - "transactions, nesting"
-  - "examples, scopes"
-ms.assetid: 4bf4d0c8-903a-411f-963b-bd4cfdfc2958
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Long-Running Transactions
 Long-running transactions are important, commonly used constructs in BizTalk orchestrations. They provide you with facilities for custom scope-based compensation, custom scope-based exception handling, and the ability to nest transactions, all of which give you great flexibility in designing robust transaction architecture.  

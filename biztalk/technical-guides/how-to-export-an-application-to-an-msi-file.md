@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Export an Application to an .msi File"
-title: "How to Export an Application to an .msi File | Microsoft Docs"
+title: "How to Export an Application to an .msi File"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b7179e86-aa55-426b-a0db-19229ca5625a
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Export an Application to an .msi File
 You can use the Export MSI File Wizard or BTSTask to export the application artifacts into an .msi file that you will use to import the application into a new BizTalk group. This process will also install the application on the computers that will run it.

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuration error. The message signing doesn&#39;t match the expected value."
-title: "Configuration error. The message signing doesn&#39;t match the expected value. | Microsoft Docs"
+title: "Configuration error. The message signing doesn&#39;t match the expected value."
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1f067351-b6b0-479d-b2ff-81e9f45b5924
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuration error. The message signing doesn&#39;t match the expected value.
 ## Details  

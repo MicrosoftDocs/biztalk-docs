@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Error Codes for Status-Error Messages"
-title: "Error Codes for Status-Error Messages2 | Microsoft Docs"
+title: "Error Codes for Status-Error Messages2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 60194101-fcd5-4a6b-998b-d2bf675c8018
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Error Codes for Status-Error Messages
 The possible error codes delivered to the function management interface (FMI) application on [Status-Error](./status-error1.md) messages are tabulated in the following table. A **Status-Error** message is delivered to the application in one of several cases, as shown in the following list:  

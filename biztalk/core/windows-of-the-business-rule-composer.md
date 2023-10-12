@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Windows of the Business Rule Composer"
-title: "Windows of the Business Rule Composer | Microsoft Docs"
+title: "Windows of the Business Rule Composer"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Business Rule Composer"
-  - "Business Rule Composer, how to"
-  - "business rules, Business Rule Composer"
-  - "Business Rule Composer, about Business Rule Composer"
-ms.assetid: 7e763b2a-6c34-46bd-a7b9-fa4c9c7f96af
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Windows of the Business Rule Composer
 The Business Rule Composer is a graphical tool used for authoring, versioning, and deploying policies and vocabularies. This section provides information about different windows of the Business Rule Composer.  

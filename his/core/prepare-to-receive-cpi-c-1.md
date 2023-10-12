@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Prepare_To_Receive (CPI-C)"
-title: "Prepare_To_Receive (CPI-C)1 | Microsoft Docs"
+title: "Prepare_To_Receive (CPI-C)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e7490ee8-e237-4399-84f4-aa918b7b9d84
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Prepare_To_Receive (CPI-C)
 The **Prepare_To_Receive** call (function name **cmptr**) changes the state of the conversation for the local program from SEND to RECEIVE.  

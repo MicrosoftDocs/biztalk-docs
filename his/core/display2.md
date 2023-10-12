@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: DISPLAY"
-title: "DISPLAY2 | Microsoft Docs"
+title: "DISPLAY2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0ac37c64-c95a-41f7-a47b-3579ad2ff869
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # DISPLAY
 The **DISPLAY** verb returns configuration information and current operating values for the SNA node.  

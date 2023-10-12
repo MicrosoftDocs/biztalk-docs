@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tutorials and walkthroughs for EDI, AS2, and EDIFACT"
-title: "Tutorials and walkthroughs for EDI, AS2, and EDIFACT | Microsoft Docs"
+title: "Tutorials and walkthroughs for EDI, AS2, and EDIFACT"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 37cc976f-7c71-4084-8ed7-5900f94bdc23
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorials and walkthroughs for EDI, AS2, and EDIFACT
 Step through X12, EDIFACT, and AS2 tutorials to learn how to enable business-to-business messaging within [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Function 0x41: Set Event/Semaphore Handle"
-title: "Function 0x41: Set Event-Semaphore Handle2 | Microsoft Docs"
+title: "Function 0x41: Set Event-Semaphore Handle2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4bc6c55c-9d7d-49b3-848d-4f0148bebd0b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Function 0x41: Set Event/Semaphore Handle
 This function supplies the driver with the handle of an event that can be used for signaling the SNALink software.  

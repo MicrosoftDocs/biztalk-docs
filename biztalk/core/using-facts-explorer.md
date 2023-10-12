@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Using Facts Explorer"
-title: "Using Facts Explorer | Microsoft Docs"
+title: "Using Facts Explorer"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Business Rule Composer, Facts Explorer"
-  - "business rules, vocabularies"
-  - "business rules, schemas"
-  - "business rules, databases"
-  - "business rules, .NET classes"
-  - "Facts Explorer [Business Rule Composer]"
-ms.assetid: ee125eb1-d5b9-4121-8a25-fcb7a640570e
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Facts Explorer
 The Facts Explorer contains four tabs: **Vocabularies**, **XML Schemas**, **Databases**, and **.NET Classes**.  

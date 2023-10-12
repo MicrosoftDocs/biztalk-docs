@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Defining Dimensions"
-title: "Defining Dimensions | Microsoft Docs"
+title: "Defining Dimensions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "aggregations [BAM], dimensions"
-  - "BAM, dimensions"
-  - "BAM views, dimensions"
-  - "Excel add-in [BAM], creating dimensions"
-  - "dimensions [BAM]"
-ms.assetid: c00e0c45-eef2-42d9-832c-4be08d79203f
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Defining Dimensions
 Microsoft Excel defines dimensions as categories used to organize data in a table into levels that will be used for analysis. For example, a location data dimension might contain levels such as city, state/province, and country/region. When creating BAM Views in the BAM View wizard, you can add one or more of the following dimension types:  

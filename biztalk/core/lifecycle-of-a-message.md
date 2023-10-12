@@ -1,39 +1,12 @@
 ---
 description: "Learn more about: Lifecycle of a Message"
-title: "Lifecycle of a Message | Microsoft Docs"
+title: "Lifecycle of a Message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, MessageBox database"
-  - "messages, orchestrations"
-  - "messages, host instances"
-  - "messages, receive locations"
-  - "send ports, about send ports"
-  - "processing, messages"
-  - "messages, processing"
-  - "host instances, about host instances"
-  - "receive locations, about receive locations"
-  - "hosts, about hosts"
-  - "messages, lifecycle"
-  - "MessageBox database, about MessageBox database"
-  - "receive ports, about receive ports"
-  - "send port groups, about send port groups"
-  - "messages, hosts"
-  - "messages, send port groups"
-  - "messages, receive ports"
-  - "orchestrations, about orchestrations"
-  - "messages, send ports"
-ms.assetid: d2374f86-9b5f-404f-ba7b-9cab69873fa8
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lifecycle of a Message
 The following figure provides a high-level overview of the BizTalk Server architecture from a messaging perspective.  

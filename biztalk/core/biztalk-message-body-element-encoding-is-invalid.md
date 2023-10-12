@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BizTalk message body element encoding is invalid"
-title: "BizTalk message body element encoding is invalid | Microsoft Docs"
+title: "BizTalk message body element encoding is invalid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b407e5c3-4655-4b2f-8ecc-30eb080ec47c
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk message body element encoding is invalid
 ## Details  

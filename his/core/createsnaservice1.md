@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CreateSNAService"
-title: "CreateSNAService1 | Microsoft Docs"
+title: "CreateSNAService1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c30c1c24-6a3b-4be7-8680-d411bce924e4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CreateSNAService
 The **CreateSNAService** function creates the necessary entries for an instance in the **Services** registry tree. This function adds particular values that are necessary for the service as well as all the subkeys under the service key, including **Parameters** and **ExtraParameters**.  

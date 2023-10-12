@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Exchange Patterns for Receive Adapters"
-title: "Exchange Patterns for Receive Adapters | Microsoft Docs"
+title: "Exchange Patterns for Receive Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e505559e-66be-4c32-a2a8-a242cba10000
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exchange Patterns for Receive Adapters
 Receive adapters receive data from the "wire" and submit it as a message into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This submittal process can be a one-way or a two-way message exchange pattern.  

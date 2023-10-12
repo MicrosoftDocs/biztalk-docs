@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Set_TP_Name (CPI-C)"
-title: "Set_TP_Name (CPI-C)1 | Microsoft Docs"
+title: "Set_TP_Name (CPI-C)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dcde03ca-6c97-4105-b204-c9a07afd4d46
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Set_TP_Name (CPI-C)
 The **Set_TP_Name** call (function name **cmstpn**) is issued by the invoking program to specify the partner (invokable) program name. This call overrides the partner program name derived from the side information when the [Initialize_Conversation](../core/initialize-conversation-cpi-c-1.md) call was issued. This call cannot be issued after the [Allocate](../core/allocate-cpi-c-2.md) call has been issued. Issuing this call has no effect on the side information itself.  

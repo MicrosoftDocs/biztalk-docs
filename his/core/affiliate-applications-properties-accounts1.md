@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Affiliate Applications Properties: Accounts"
-title: "Affiliate Applications Properties: Accounts1 | Microsoft Docs"
+title: "Affiliate Applications Properties: Accounts1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cce48726-a1ae-4226-9919-0dbe0614b7cb
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Affiliate Applications Properties: Accounts
 Use this dialog box to view or modify access accounts for the Affiliate Application.  

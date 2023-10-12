@@ -1,19 +1,12 @@
 ---
-title: "Create TIBCO Rendezvous application artifacts | Microsoft Docs"
+title: "Create TIBCO Rendezvous application artifacts"
 description: Learn how to create BizTalk Server applications and work with the BizTalk Adapter for TIBCO Rendezvous.
 ms.custom: ""
 ms.date: "10/24/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bac39de3-d146-4be1-8e5f-5de06c98b817
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create your TIBCO Rendezvous application artifacts
 

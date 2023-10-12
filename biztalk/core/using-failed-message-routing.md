@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Using Failed Message Routing"
-title: "Using Failed Message Routing | Microsoft Docs"
+title: "Using Failed Message Routing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.ops.tsroutingfailure"
-ms.assetid: d081934c-600e-44ce-8ba4-fb646d494589
-caps.latest.revision: 33
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Failed Message Routing
 The error-handling facility allows the designer to designate automated handling of messaging failures as an alternative to the traditional (now default) behavior of placing failed messages in the Suspended queue. This automated handling routes an error message to any subscribing routing destination, such as a send port or orchestration. The error message is a clone of the original message with all previously promoted properties now demoted and with selected properties related to the specific messaging failure promoted to the message context.  

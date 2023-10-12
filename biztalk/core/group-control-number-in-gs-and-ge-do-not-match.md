@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Group control number in GS and GE do not match"
-title: "Group control number in GS and GE do not match | Microsoft Docs"
+title: "Group control number in GS and GE do not match"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e2419f61-2717-4347-a4be-54362330c7e3
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Group control number in GS and GE do not match
 ## Details  

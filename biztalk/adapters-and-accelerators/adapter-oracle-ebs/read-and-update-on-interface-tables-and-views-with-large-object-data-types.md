@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data"
-title: "Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data | Microsoft Docs"
+title: "Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0f6e8db6-ba68-4e3f-84b2-1cc31ce89bcb
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] provides support for the Oracle large object (LOB) data types:  

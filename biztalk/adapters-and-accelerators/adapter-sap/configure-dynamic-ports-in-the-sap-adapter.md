@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Configure dynamic ports in the SAP adapter"
-title: "Configure dynamic ports in the SAP adapter | Microsoft Docs"
+title: "Configure dynamic ports in the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "dynamic ports, configuring"
-  - "configuring, dynamic ports"
-ms.assetid: 4d6569f9-e513-47f3-b2c1-4c21bafb2bf2
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure dynamic ports in the SAP adapter
 ## Use message context properties

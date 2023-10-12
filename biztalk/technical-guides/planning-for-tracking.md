@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning for Tracking"
-title: "Planning for Tracking | Microsoft Docs"
+title: "Planning for Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8ffc8573-1b4a-47c7-96ab-0471f43facf5
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning for Tracking
 Message tracking is the process by which parts of a message instance, such as the message body, message properties, and metadata are stored in a database, typically for archival purposes. Message instance parts that are tracked can subsequently be viewed by running queries from the Group Hub page in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. In addition to accessing archived data, you can also view live data, which can be a helpful tool for identifying and fixing problems in a development or staging environment.

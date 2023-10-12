@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Understand the LOB system with the WCF LOB Adapter SDK"
-title: "Understand the LOB system with the WCF LOB Adapter SDK | Microsoft Docs"
+title: "Understand the LOB system with the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a0f97846-5ef2-4530-853a-fba5469156f7
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Understand the LOB system with the WCF LOB Adapter SDK
 Before developing your adapter using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], you must have a thorough understanding of the target line-of-business system. If you do not understand the functionality provided by the line-of-business system, how it is exposed, and the different level of support provided for security, transactions, and other features, your adapter may not provide the features required by adapter consumers. This section describes the areas you must understand to effectively design your adapter.  

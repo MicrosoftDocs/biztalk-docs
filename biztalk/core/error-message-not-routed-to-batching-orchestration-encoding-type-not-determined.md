@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The message cannot be routed to the batching orchestration as the Encoding type could not be determined"
-title: "The message cannot be routed to the batching orchestration as the Encoding type could not be determined | Microsoft Docs"
+title: "The message cannot be routed to the batching orchestration as the Encoding type could not be determined"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d2ee38d-22c0-4fcf-bb68-b2ef00088c4c
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The message cannot be routed to the batching orchestration as the Encoding type could not be determined
 ## Details  

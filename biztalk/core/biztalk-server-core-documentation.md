@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BizTalk Server core documentation"
-title: "BizTalk Server core documentation | Microsoft Docs"
+title: "BizTalk Server core documentation"
 ms.custom: "biztalk-2020"
 ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cadd3bdd-f13b-427d-8979-b2541aa5e21d
-caps.latest.revision: 48
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server core documentation
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] core documentation includes a variety of resources that can help you learn to develop, deploy, administer, and use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

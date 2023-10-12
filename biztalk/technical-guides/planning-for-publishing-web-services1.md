@@ -1,18 +1,12 @@
 ---
 description: "View a list of questions designed to help you plan how to publish Web services in BizTalk Server."
-title: "Publish web Services planning | Microsoft Docs"
+title: "Publish web Services planning"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b571c3aa-874b-43f7-af2e-5a71113a93dd
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning for Publishing Web Services
 

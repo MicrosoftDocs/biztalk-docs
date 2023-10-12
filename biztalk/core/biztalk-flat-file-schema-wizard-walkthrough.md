@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BizTalk Flat File Schema Wizard Walkthrough"
-title: "BizTalk Flat File Schema Wizard Walkthrough | Microsoft Docs"
+title: "BizTalk Flat File Schema Wizard Walkthrough"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9e764d5c-be06-445d-80f5-7fa8c7ea075b
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Flat File Schema Wizard Walkthrough
 The following walkthrough shows you how to create flat file schema from flat file document instances using the BizTalk Flat File Schema Wizard.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SAdapterInGroup Structure (COM)"
-title: "SAdapterInGroup Structure (COM) | Microsoft Docs"
+title: "SAdapterInGroup Structure (COM)"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b1f9e9e5-719d-4fa1-a574-b89ab116961e
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SAdapterInGroup Structure (COM)
 Describes the names of one or more adapters in a group.  

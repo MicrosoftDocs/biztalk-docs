@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Create Schemas That Use Other Schemas"
-title: "How to Create Schemas That Use Other Schemas | Microsoft Docs"
+title: "How to Create Schemas That Use Other Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ff0bcd9a-6c66-4c3b-bd41-64047a7c8392
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create Schemas That Use Other Schemas
 XML Schema definition (XSD) language provides three different but related mechanisms for using one schema within another schema. These mechanisms are importing a schema, including a schema, and redefining a schema. For a brief summary of these mechanisms and how they differ, see [Schemas That Use Other Schemas](../core/schemas-that-use-other-schemas.md). For detailed information, see [XSD Resources on the Web](../core/xsd-resources-on-the-web.md) for links to the XSD primer and specifications.  

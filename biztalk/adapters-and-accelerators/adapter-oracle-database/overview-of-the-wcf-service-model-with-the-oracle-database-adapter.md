@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Overview of the WCF service model with the Oracle Database adapter"
-title: "Overview of the WCF service model with the Oracle Database adapter | Microsoft Docs"
+title: "Overview of the WCF service model with the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF service model, overview"
-  - "invoking operations"
-  - "WCF service, creating and implementing"
-ms.assetid: 8ed765e5-b5e6-46bd-bcd6-282219caf75d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Overview of the WCF service model with the Oracle Database adapter
 When you consume operations that the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces, your code acts either as a client or a service to the adapter. For almost all of the operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces, your code is the client. That is, your application invokes the operation on the adapter; for example to insert records into an Oracle table. The only operation for which your code acts as a service to the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] is for the POLLINGSMT operation. In this case, the adapter sends the results of the polling query operation to your application.  

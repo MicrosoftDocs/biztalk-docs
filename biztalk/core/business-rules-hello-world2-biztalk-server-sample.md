@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Business Rules Hello World2 (BizTalk Server Sample)"
-title: "Business Rules Hello World2 (BizTalk Server Sample) | Microsoft Docs"
+title: "Business Rules Hello World2 (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, business rules"
-  - "business rules, examples"
-ms.assetid: 2a88a2a0-8cb6-4373-8441-0ab04345a477
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Business Rules Hello World2 (BizTalk Server Sample)
 The Business Rules Hello World2 sample extends the Business Rules Hello World1 sample by demonstrating how to version, publish, and deploy the XML rule set to the shared SQL rule store, and how to run the policy using the **Policy** object provided by the Business Rules Framework. The sample also demonstrates dynamic policy updates in action.  

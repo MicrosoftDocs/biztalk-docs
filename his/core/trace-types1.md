@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Trace Types"
-title: "Trace Types1 | Microsoft Docs"
+title: "Trace Types1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c6ec1345-40b9-4bc2-9ac3-f3f706553af7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Trace Types
 Before setting up tracing, decide the software components you want to trace, and which types of tracing information will be useful.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn how to add a Catch Exception block to set up an exception handler in the BizTalk Server Orchestration Designer."
-title: "How to Add a Catch Exception Block1 | Microsoft Docs"
+title: "How to Add a Catch Exception Block1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "exceptions, adding Catch Exception block"
-  - "Catch Exception blocks, adding"
-  - "exception handling, Catch Exception blocks"
-ms.assetid: 8e4b264b-b3b0-4d83-81df-a14dc2ddeea2
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Add a Catch Exception Block
 

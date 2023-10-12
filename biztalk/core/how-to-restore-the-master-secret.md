@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Restore the Master Secret"
-title: "How to Restore the Master Secret | Microsoft Docs"
+title: "How to Restore the Master Secret"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [Master Secret server], restoring"
-  - "Master Secret server, restoring"
-  - "restoring, Master Secret server"
-ms.assetid: 68e133c5-4591-4d76-9a3b-c9564ff1aa60
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Restore the Master Secret
 As part of data recovery procedures, you may need to restore the master secret to re-use existing data. In order to perform this task, you must log on to the master secret server with an account that is both a Windows administrator and an SSO administrator.  

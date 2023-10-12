@@ -1,19 +1,12 @@
 ---
-title: "Adapters in BizTalk Server | Microsoft Docs"
+title: "Adapters in BizTalk Server"
 description: Complete list of all available adapters in BizTalk Server, including built-in adapters, enterprise adapters, and the BizTalk Adapter Pack
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8fd279fb-2c68-4de4-a586-5a8e42a685ff
-caps.latest.revision: 48
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adapters in BizTalk Server
 One of the primary design goals of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to facilitate the exchange of business documents between trading partners. To help meet this goal, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several adapters that provide connectivity between BizTalk Server and trading partners using commonly recognized data protocols and document formats. This topic discusses what an adapter is and why you use an adapter.

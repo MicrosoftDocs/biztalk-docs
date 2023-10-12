@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Index Functoid Has Too Many Indexes"
-title: "Error - Index Functoid Has Too Many Indexes | Microsoft Docs"
+title: "Error - Index Functoid Has Too Many Indexes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.indexFunctoidHasTooManyIndices"
-ms.assetid: 5dd2d5b4-3f7a-45be-b6f4-708b0a76805a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Index Functoid Has Too Many Indexes
 **Error Code**  

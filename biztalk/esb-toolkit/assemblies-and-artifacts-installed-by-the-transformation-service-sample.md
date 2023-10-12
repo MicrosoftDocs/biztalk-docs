@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Assemblies and Artifacts Installed by the Transformation Service Sample"
-title: "Assemblies and Artifacts Installed by the Transformation Service Sample | Microsoft Docs"
+title: "Assemblies and Artifacts Installed by the Transformation Service Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 890c089a-749e-421f-a6eb-2e038cd2122e
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Assemblies and Artifacts Installed by the Transformation Service Sample
 The following table lists the assemblies and artifacts installed by the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Transformation Service sample.  

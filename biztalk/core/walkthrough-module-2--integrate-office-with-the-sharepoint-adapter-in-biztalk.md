@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter"
-title: "Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter | Microsoft Docs"
+title: "Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Windows SharePoint Services adapters, InfoPath forms"
-  - "InfoPath forms, creating"
-  - "InfoPath forms, Windows SharePoint Services adapters"
-  - "tutorials, Windows SharePoint Services adapters"
-  - "Windows SharePoint Services adapter tutorials, integrating Microsoft Office"
-  - "Windows SharePoint Services, document libraries"
-ms.assetid: 2f81a712-bb20-4c32-bbac-fb438deded38
-caps.latest.revision: 48
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter
 This walkthrough is a continuation of [Walkthrough: Module 1 - Sending and Receiving Messages with the Windows SharePoint Services Adapter](../core/walkthrough-module-1--send-and-receive-messages-with-the-sharepoint-adapter.md) and shows you how to integrate Microsoft Office with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] content-based routing (CBR) application you created. For an introduction to the Windows SharePoint Services adapter see [What Is the Windows SharePoint Services Adapter?](../core/what-is-the-windows-sharepoint-services-adapter.md).  

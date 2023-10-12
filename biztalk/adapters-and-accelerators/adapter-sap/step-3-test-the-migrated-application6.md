@@ -1,22 +1,12 @@
 ---
 description: "Learn how to test a migrated application in BizTalk using the SAP adapter."
-title: "Step 3: Test the Migrated Application6 | Microsoft Docs"
+title: "Step 3: Test the Migrated Application6"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "migration, testing the migrated application (RFC)"
-  - "migration"
-ms.assetid: 1b1ee59c-a5a3-442d-af2c-0fc4817f3063
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Test the Migrated Application
 

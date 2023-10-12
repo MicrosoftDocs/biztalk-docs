@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Update an Assembly"
-title: "How to Update an Assembly | Microsoft Docs"
+title: "How to Update an Assembly"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4f456c8f-247a-4d5c-b5af-41e88968779c
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Update an Assembly
 This topic describes how to update the version of an assembly and the application that an assembly is deployed to using Visual Studio 2010.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Create and Deploy the Sample X12 Schema"
-title: "Step 2: Create and Deploy the Sample X12 Schema | Microsoft Docs"
+title: "Step 2: Create and Deploy the Sample X12 Schema"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d5862168-6621-40ab-8c97-3f317530d34e
-caps.latest.revision: 31
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Create and Deploy the Sample X12 Schema
 ![Step 2 of 11](../core/media/tut-step2-of-11.gif "Tut_Step2_of_11")  

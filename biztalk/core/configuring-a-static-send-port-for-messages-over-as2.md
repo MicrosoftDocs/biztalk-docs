@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring a Static Send Port for Messages over AS2"
-title: "Configuring a Static Send Port for Messages over AS2 | Microsoft Docs"
+title: "Configuring a Static Send Port for Messages over AS2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2708d6a9-b105-42d3-abe3-7085b39da55a
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring a Static Send Port for Messages over AS2
 This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send AS2 messages over a static send port. This configuration includes creating the static send port and configuring the agreement. If required, you will also set up an encryption certiticate to be used by the send port.  

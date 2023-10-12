@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Deploy BAM Definitions"
-title: "How to Deploy BAM Definitions | Microsoft Docs"
+title: "How to Deploy BAM Definitions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, definitions [BAM]"
-  - "managing [BAM definitions], deploying definitions"
-  - "definitions [BAM], deploying"
-  - "Deploy-All command [BAM]"
-ms.assetid: 02b8888c-6f6c-45dd-8445-6e507a02f5f0
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Deploy BAM Definitions
 Administrators use the **deploy-all** BAM Management utility command to deploy a BAM definition from the Excel workbook or the XML definitions file exported from the workbook. When you perform a complete installation of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the Configuration Wizard automatically configures the BAM Configuration XML.  

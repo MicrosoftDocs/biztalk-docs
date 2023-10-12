@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Step 7: Sign and Build the Projects"
 title: "Step 7: Sign and Build the Projects"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "message enrichment tutorial, projects"
-  - "projects, building"
-  - "projects, signing"
-ms.assetid: b66e4dc1-4ec6-4ec0-a69a-419b116b19c1
-caps.latest.revision: 6
-
-
-
 ---
 # Step 7: Sign and Build the Projects
 In this step, you assign a strong name and build the project to generate an assembly that contains the resources (the schema) that you created in [Step 6: Validate the Schemas](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md). This also ensures that there are no compile errors in the work you have completed so far.  

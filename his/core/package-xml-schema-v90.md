@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Package XML Schema V90"
-title: "Package XML Schema V90 | Microsoft Docs"
+title: "Package XML Schema V90"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fba29233-28b1-46e7-b5f6-1b1b15766f44
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Package XML Schema V90
 Microsoft HIS 2013(V9) supports both the old and new format, which includes an associated XML schema for validating the XML document. Microsoft HIS 2009 and HIS 2010 (V8.5) support the old format only.  

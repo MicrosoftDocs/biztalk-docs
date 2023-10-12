@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Versioning the Business Process Management Solution"
-title: "Versioning the Business Process Management Solution | Microsoft Docs"
+title: "Versioning the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "versioning, process management solutions"
-  - "process management solution tutorial, modifying"
-  - "process management solution tutorial, versioning"
-  - "processing, stages"
-  - "process management solution tutorial, processing stages"
-ms.assetid: 501b2162-821f-44e1-87c0-8628cc5bd9c3
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Versioning the Business Process Management Solution
 The Business Process Management solution is designed so that you can replace stages if necessary. The design also provides for an easier method of versioning schemas.  

@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Aggregations on the BAM Portal Page"
-title: "Aggregations on the BAM Portal Page | Microsoft Docs"
+title: "Aggregations on the BAM Portal Page"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "aggregations [BAM], alerts"
-  - "aggregations [BAM], viewing results"
-  - "alerts, aggregations"
-  - "Aggregations page [BAM portal]"
-  - "BAM portal, aggregations"
-ms.assetid: 6bc1a6f2-9e9a-4db6-aaa1-188ed2f2641f
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Aggregations on the BAM Portal Page
 Business end users, developers, and business analysts use the BAM portal page when they need to present aggregated data, which are precalculated summaries of a data set that convey representative characteristics of that data set. The Aggregations page of the BAM portal allows you to display aggregated data in the form of a graphical chart and accompanying PivotTable report.  

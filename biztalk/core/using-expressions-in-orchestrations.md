@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using Expressions in Orchestrations"
-title: "Using Expressions in Orchestrations | Microsoft Docs"
+title: "Using Expressions in Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1947cd39-6ef2-4b2d-afeb-a0132b19db97
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Expressions in Orchestrations
 You can use BizTalk Expression Editor to enter XLANG/s expressions to add logic to manipulate and test the values of your orchestration variables and messages. However, it is not a good practice to use it to perform high-level orchestration logic, which preferably would be visible in the orchestration drawing itself. For business process transparency and ease of reconfiguration, we recommend that you use simple and modular expressions.  

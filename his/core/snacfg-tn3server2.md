@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Snacfg TN3Server"
-title: "Snacfg TN3Server2 | Microsoft Docs"
+title: "Snacfg TN3Server2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d646625-9f14-4fed-86b1-4879e361ec16
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Snacfg TN3Server
 ## Purpose  

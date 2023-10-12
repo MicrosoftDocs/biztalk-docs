@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Preparing for Deployment"
-title: "Preparing for Deployment | Microsoft Docs"
+title: "Preparing for Deployment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, planning"
-ms.assetid: 437caa31-f7f8-42e0-af1f-13aaee0955cd
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Preparing for Deployment
 This section provides information about the planning and preparation phase of the deployment. Before implementing a deployment, make the following preparations:  

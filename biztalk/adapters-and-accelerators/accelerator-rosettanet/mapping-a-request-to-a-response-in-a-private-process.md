@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Mapping a Request to a Response in a Private Process"
-title: "Mapping a Request to a Response in a Private Process | Microsoft Docs"
+title: "Mapping a Request to a Response in a Private Process"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating, maps"
-  - "private processes, mapping requests"
-  - "private processes, customizing"
-  - "orchestrations, adding maps"
-  - "maps, adding to orchestrations"
-  - "maps, creating"
-  - "customizing private processes"
-  - "requests, mapping"
-  - "requests, private processes"
-ms.assetid: 5452c0a2-3a9b-43e7-bfa7-713eef0eab3b
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Mapping a Request to a Response in a Private Process
 This topic describes how to map a request message received by the private responder process—from the Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] public responder process, to a response message that can be sent to the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] public responder process.  

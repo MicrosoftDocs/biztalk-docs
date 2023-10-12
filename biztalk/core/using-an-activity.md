@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using an Activity"
-title: "Using an Activity | Microsoft Docs"
+title: "Using an Activity"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5e218e2a-27f8-4df2-a1e0-27392112d369
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using an Activity
 The simplest way to use BAM is to send explicit milestones or data using the BAM API. You can think of the BAM activity as a record in a SQL table that you are keeping in synchronization with the actual unit of work.  

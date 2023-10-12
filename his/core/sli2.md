@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SLI"
-title: "SLI2 | Microsoft Docs"
+title: "SLI2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5f2b1edb-abd8-48bc-9c09-9ec05a43faf5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SLI
 The **SLI** function provides event notification for all Session Level Interface (SLI) verbs.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Physical Unit (PU)"
-title: "Physical Unit (PU)1 | Microsoft Docs"
+title: "Physical Unit (PU)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 74a91bef-0f8f-4a19-bf19-9d2efc1e2e8c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Physical Unit (PU)
 Although the name physical unit (PU) strongly implies a hardware component, a PU is an IBM naming convention for hardware and software combinations that perform a specific task in an SNA network. For example, PU 5 represents not only the mainframe itself, but also the mainframe software components (such as SSCP and VTAM) within the SNA network.  

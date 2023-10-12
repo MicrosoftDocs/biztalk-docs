@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Functoid Categories"
-title: "Functoid Categories | Microsoft Docs"
+title: "Functoid Categories"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 029905e2-f01a-436a-b2ed-a364379c9cc5
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Functoid Categories
 BizTalk functoids are divided into categories according to their intended use. For example, database functoids are designed for extracting data from a database at run time, mathematical functoids are used to perform mathematical operations, and so on. In BizTalk Mapper, functoids appear by category in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox. 

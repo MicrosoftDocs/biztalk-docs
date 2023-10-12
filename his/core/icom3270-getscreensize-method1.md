@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Icom3270.getScreenSize Method"
-title: "Icom3270.getScreenSize Method1 | Microsoft Docs"
+title: "Icom3270.getScreenSize Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6e823323-2b5b-4525-b324-5e112ca2da51
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Icom3270.getScreenSize Method
 The getScreenSize method returns the size, in rows and columns, of the current 3270 screen.  

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: BindingInfo Node"
-title: "BindingInfo Node | Microsoft Docs"
+title: "BindingInfo Node"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BindingInfo node [binding file]"
-ms.assetid: a71d100c-cf8b-4a54-b239-ee0ca2d8148c
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BindingInfo Node
 The **BindingInfo** node of a binding file is the root node of a binding file and contains information that applies to all of the entries in the binding file as well as information about the BizTalk Server that the binding file was exported from.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 1: Create EAISchemas Project"
-title: "Step 1: Create EAISchemas Project | Microsoft Docs"
+title: "Step 1: Create EAISchemas Project"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9a14ee61-fa27-4f03-997e-42c34a77afee
-caps.latest.revision: 55
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Create EAISchemas Project
 ![Step 1 of 5](../core/media/step-1of5.gif "Step_1of5")  

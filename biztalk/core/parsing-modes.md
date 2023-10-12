@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Parsing Modes"
-title: "Parsing Modes | Microsoft Docs"
+title: "Parsing Modes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components [custom], code samples"
-  - "pipeline components [custom], parsing"
-ms.assetid: b1188720-e5ae-47ae-ab8e-16d7ed08b778
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Parsing Modes
 The parsing mode is an attribute on the schemaInfo record, with two modes: speed and complexity. The Parser Optimization property can be configured within the BizTalk Schema Editor.  

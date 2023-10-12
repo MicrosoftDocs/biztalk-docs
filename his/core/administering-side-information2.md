@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Administering Side Information"
-title: "Administer Side Information | Microsoft Docs"
+title: "Administer Side Information"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0362afd0-f8df-4f3a-824a-fc5948d3f3d5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Administering Side Information
 

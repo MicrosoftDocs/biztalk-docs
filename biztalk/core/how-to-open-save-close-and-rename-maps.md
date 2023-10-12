@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Open, Save, Close, and Rename Maps"
-title: "How to Open, Save, Close, and Rename Maps | Microsoft Docs"
+title: "How to Open, Save, Close, and Rename Maps"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9aa88ca7-a731-4295-8692-6dd36fdf0872
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Open, Save, Close, and Rename Maps
 In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], maps exist as files in the file system with .btm extensions. Nevertheless, it is much more common to work with maps as items in a BizTalk project, from which you perform operations such as opening, saving, and closing maps.  

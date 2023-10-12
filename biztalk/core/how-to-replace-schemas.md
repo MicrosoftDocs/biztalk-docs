@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Replace Schemas"
-title: "How to Replace Schemas | Microsoft Docs"
+title: "How to Replace Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 104e60d3-1303-4e56-b13a-c10ab14ba383
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Replace Schemas
 There may be times when you want to replace either the source or destination schema in an existing map, such as when you receive an updated schema from a trading partner.  

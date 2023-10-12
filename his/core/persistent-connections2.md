@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Persistent Connections"
-title: "Persistent Connections2 | Microsoft Docs"
+title: "Persistent Connections2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 552e8072-56cc-42d6-925d-a702a67af905
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Persistent Connections
 Windows-initiated processing (WIP) supports persistent connections over TCP/IP and SNA for the following programming models:  

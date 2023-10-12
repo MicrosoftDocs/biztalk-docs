@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Two-Way Messaging Scenarios for the Dynamic Resolution Sample"
-title: "Two-Way Messaging Scenarios for the Dynamic Resolution Sample | Microsoft Docs"
+title: "Two-Way Messaging Scenarios for the Dynamic Resolution Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e89792f1-c725-46c4-946c-23211e2f892a
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Two-Way Messaging Scenarios for the Dynamic Resolution Sample
 This topic shows how you can run the two-way messaging scenarios for the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Dynamic Resolution sample.  

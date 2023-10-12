@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Custom Listeners"
-title: "Custom Listeners | Microsoft Docs"
+title: "Custom Listeners"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6cd5fffa-e5d1-4506-a9cf-fcb1dccf0212
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Custom Listeners
 A number of the DRDA Service listeners are replaceable with custom listeners for trace output and package bind output.  

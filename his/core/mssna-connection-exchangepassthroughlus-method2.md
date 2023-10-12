@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_Connection.ExchangePassthroughLus Method"
-title: "MsSna_Connection.ExchangePassthroughLus Method2 | Microsoft Docs"
+title: "MsSna_Connection.ExchangePassthroughLus Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 39bbe411-74e7-4229-a1d0-4145ac1afda0
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_Connection.ExchangePassthroughLus Method
 Returns a value that determines if two LUs are part of a passthrough connection pair.  

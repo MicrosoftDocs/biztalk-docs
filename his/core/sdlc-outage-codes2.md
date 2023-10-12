@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SDLC Outage Codes"
-title: "SDLC Outage Codes2 | Microsoft Docs"
+title: "SDLC Outage Codes2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0445e3f8-1737-445a-a354-8e887c82fb57
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SDLC Outage Codes
 The following table describes Synchronous Data Link Control (SDLC) outage codes.  

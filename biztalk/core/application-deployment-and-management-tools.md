@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Application Deployment and Management Tools"
-title: "Application Deployment and Management Tools | Microsoft Docs"
+title: "Application Deployment and Management Tools"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: de85b52b-7eb7-4cf1-b8b4-41f7488b4d2f
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Application Deployment and Management Tools
 

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid open timeout"
-title: "Invalid open timeout | Microsoft Docs"
+title: "Invalid open timeout"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0047cf43-fcc3-40b4-abeb-bf1b6e7a422b
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid open timeout
 ## Details  

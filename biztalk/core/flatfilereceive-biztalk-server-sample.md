@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: FlatFileReceive (BizTalk Server Sample)"
-title: "FlatFileReceive (BizTalk Server Sample) | Microsoft Docs"
+title: "FlatFileReceive (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 90bd9e8d-6ed9-49c4-8437-c0c8b2a9a78d
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FlatFileReceive (BizTalk Server Sample)
 The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to process a flat file into the equivalent .xml file.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Create receive locations command failed"
-title: "Create receive locations command failed | Microsoft Docs"
+title: "Create receive locations command failed"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f73ff211-af7f-40be-ad7e-7bde7bf75a2d
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create receive locations command failed
 ## Details  

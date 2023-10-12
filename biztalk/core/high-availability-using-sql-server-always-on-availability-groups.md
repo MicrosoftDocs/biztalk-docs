@@ -1,19 +1,12 @@
 ---
-title: High Availability using SQL Server Always On Availability Groups | Microsoft Docs
+title: High Availability using SQL Server Always On Availability Groups
 description: Group the BizTalk Server database on different nodes to get a highly available (HA) solution using SQL Server Always On Available Groups (AG), including the system requirements and limitations. Always On AG requires Windows Server Failover Clustering (WSFC).
 ms.custom: biztalk-2020
 ms.date: 01/14/2020
 ms.prod: biztalk-server
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid: 4511a578-77d2-49ee-99bd-f0406ad625d0
-caps.latest.revision: 10
-author: MandiOhlinger
-ms.author: mandia
-manager: mijacobs
 ---
 # High Availability using SQL Server Always On Availability Groups - BizTalk Server
 

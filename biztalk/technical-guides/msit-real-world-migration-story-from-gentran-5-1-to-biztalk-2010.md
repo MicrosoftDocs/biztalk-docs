@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010"
-title: "MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010 | Microsoft Docs"
+title: "MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 31326e2f-fb86-4b2c-88cd-b9406695038b
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010
 BizTalk Technical Article

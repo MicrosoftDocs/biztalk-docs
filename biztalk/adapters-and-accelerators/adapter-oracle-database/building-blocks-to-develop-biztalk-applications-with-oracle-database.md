@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Building Blocks to develop BizTalk Applications with Oracle Database"
-title: "Building Blocks to develop BizTalk Applications with Oracle Database | Microsoft Docs"
+title: "Building Blocks to develop BizTalk Applications with Oracle Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developing, BizTalk applications"
-  - "run-time tasks"
-  - "design-time tasks"
-ms.assetid: ad9ca856-5569-41ab-8617-ae6db5e3b4d7
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Building Blocks to develop BizTalk Applications with Oracle Database
 Performing operations on an Oracle database by using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] involves two sets of tasks: design-time and run-time.  

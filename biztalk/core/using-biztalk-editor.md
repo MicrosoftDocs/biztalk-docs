@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using BizTalk Editor"
-title: "Using BizTalk Editor | Microsoft Docs"
+title: "Using BizTalk Editor"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 22021272-f028-4db3-ad8a-fb89a5340910
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using BizTalk Editor
 

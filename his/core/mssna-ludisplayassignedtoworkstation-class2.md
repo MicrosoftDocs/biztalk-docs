@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_LuDisplayAssignedToWorkstation Class"
-title: "MsSna_LuDisplayAssignedToWorkstation Class2 | Microsoft Docs"
+title: "MsSna_LuDisplayAssignedToWorkstation Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b80ac0aa-f065-422b-a9ff-4dd93ad97aad
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_LuDisplayAssignedToWorkstation Class
 Associates a display LU with a workstation.  

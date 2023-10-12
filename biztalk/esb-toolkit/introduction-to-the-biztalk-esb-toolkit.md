@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Introduction to the BizTalk ESB Toolkit"
-title: "Introduction to the BizTalk ESB Toolkit | Microsoft Docs"
+title: "Introduction to the BizTalk ESB Toolkit"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "ESBToolkitV2.introduction"
-ms.assetid: 98a957b8-5855-4872-b7e7-58a2e1d6b2b8
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Introduction to the BizTalk ESB Toolkit
 Explains the architecture and contents of the Microsoft [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. The documentation also demonstrates how to apply an Enterprise Service Bus (ESB) architecture pattern to develop enterprise applications that enable flexible, secure, and reusable services and rapid organization of existing services into new end-to-end business processes.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Host Integration Server Components and NLS Support"
-title: "Host Integration Server Components and NLS Support2 | Microsoft Docs"
+title: "Host Integration Server Components and NLS Support2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 725fc34a-392c-4ec1-bc57-deb69b2dd104
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Host Integration Server Components and NLS Support
 The following table lists the conversion methods and types used by the various components in Microsoft Host Integration Server.  

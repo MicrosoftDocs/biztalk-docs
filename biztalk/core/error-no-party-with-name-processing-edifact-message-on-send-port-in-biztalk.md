@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: A failure occurred in processing Edifact message on send port: No Party with name"
-title: "A failure occurred in processing Edifact message on send port: No Party with name | Microsoft Docs"
+title: "A failure occurred in processing Edifact message on send port: No Party with name"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 678baacb-1f21-4081-b788-ef346c3598ca
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # A failure occurred in processing Edifact message on send port: No Party with name
 ## Details  

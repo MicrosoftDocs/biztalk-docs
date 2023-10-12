@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Writing Code that Specifies a Remote Environment"
-title: "Writing Code that Specifies a Remote Environment1 | Microsoft Docs"
+title: "Writing Code that Specifies a Remote Environment1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 28e4b1e3-4ce4-4621-a54a-621a6f5e8e29
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Writing Code that Specifies a Remote Environment
 Applications can set the `SelectionHint` property to specify a remote environment (RE) programmatically. By specifying the RE, the application identifies the CICS or IMS region where transaction programs are carried out when the Transaction Integrator (TI) run-time environment handles calls to the TI component's methods.  

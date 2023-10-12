@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Enable ASP.NET 4.0 for Published Web Services"
-title: "How to Enable ASP.NET 4.0 for Published Web Services | Microsoft Docs"
+title: "How to Enable ASP.NET 4.0 for Published Web Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 58646ff2-77a3-49dc-8593-f6e41d85d4f3
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Enable ASP.NET 4.0 for Published Web Services
 Set the ASP.Net version in IIS.

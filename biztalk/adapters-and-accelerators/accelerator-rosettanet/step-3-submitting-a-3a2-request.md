@@ -1,20 +1,12 @@
 ---
 description: "Learn more about: Step 3: Submitting a 3A2 Request"
-title: "Step 3: Submitting a 3A2 Request | Microsoft Docs"
+title: "Step 3: Submitting a 3A2 Request"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "double action tutorial, submitting requests"
-ms.assetid: 09f22be8-6d7d-48bf-862b-73248bae0506
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Submitting a 3A2 Request
 In this step, you prepare and submit a request using the Partner Interface Process (PIP) for a 3A2 - Request Price and Availability. This PIP enables a buyer organization to obtain information about a certain product, such as price and number of available units. The buyer can then process that information through business rules to determine whether to purchase the product from the supplier.  

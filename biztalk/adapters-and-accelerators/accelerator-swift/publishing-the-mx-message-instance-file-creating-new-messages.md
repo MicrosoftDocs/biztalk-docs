@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Publishing the MX Message Instance File (Creating New Messages)"
-title: "Publishing the MX Message Instance File (Creating New Messages) | Microsoft Docs"
+title: "Publishing the MX Message Instance File (Creating New Messages)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e7e6cdf4-b9db-42be-a92d-10a7471e2c2d
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Publishing the MX Message Instance File (Creating New Messages)
 **To publish the MX message instance file:**  

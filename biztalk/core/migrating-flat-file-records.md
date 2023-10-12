@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Migrate Flat File Records"
-title: "Migrate Flat File Records | Microsoft Docs"
+title: "Migrate Flat File Records"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 75cd5fbc-66c1-4c8b-b81a-1d028e9647b4
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Migrate Flat File Records
 

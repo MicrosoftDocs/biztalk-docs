@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning for Database Performance"
-title: "Plan for Database Performance | Microsoft Docs"
+title: "Plan for Database Performance"
 ms.custom: ""
 ms.date: "11/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7212fa37-88e0-4b5f-af97-c72063357645
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning for Database Performance
 

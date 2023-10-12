@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Messages Represented as XSD Schemas"
-title: "Messages Represented as XSD Schemas | Microsoft Docs"
+title: "Messages Represented as XSD Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Message Assignment shape [Orchestration Designer], maps"
-  - "maps, transforms"
-  - "Expression Editor, assigning maps"
-ms.assetid: 646e84d4-1dcc-4f92-9205-84cb6c7df297
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Messages Represented as XSD Schemas
 A template XML instance of the XSD message type is defined at design time and then stored on disk. At run time, a .NET component picks up the XML from disk and returns it as an XmlDocument. The orchestration code can assign this XmlDocument result to the message instance declared in the orchestration.  

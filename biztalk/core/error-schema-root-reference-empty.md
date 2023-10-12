@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Schema Root Reference Empty"
-title: "Error - Schema Root Reference Empty | Microsoft Docs"
+title: "Error - Schema Root Reference Empty"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.rootRefEmpty"
-ms.assetid: 172e6ad8-6118-40db-9451-92808a3a2051
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Schema Root Reference Empty
 **Error Code**  

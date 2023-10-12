@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Best practices to secure the SAP adapter"
-title: "Best practices to secure the SAP adapter | Microsoft Docs"
+title: "Best practices to secure the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, best practices"
-ms.assetid: e60014b5-ce2f-4fd4-be2a-921d5cd81267
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Best practices to secure the SAP adapter
 This section provides best practices that you should follow to more completely protect sensitive data when you use or develop applications that consume the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].  

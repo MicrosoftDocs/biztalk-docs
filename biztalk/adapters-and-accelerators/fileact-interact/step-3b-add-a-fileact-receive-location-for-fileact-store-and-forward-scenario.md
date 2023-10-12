@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3B: Add a FILEACT Receive Location for the FileAct Store and Forward Scenario"
-title: "Step 3B: Add a FILEACT Receive Location for the FileAct Store and Forward Scenario | Microsoft Docs"
+title: "Step 3B: Add a FILEACT Receive Location for the FileAct Store and Forward Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0f30bb7d-1efb-4350-8809-be35f5634ea0
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3B: Add a FILEACT Receive Location for the FileAct Store and Forward Scenario
 Before you begin this step, you must complete [Step 3A: Add a FILE Receive Location for the FileAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-store-and-forward-scenario.md).  

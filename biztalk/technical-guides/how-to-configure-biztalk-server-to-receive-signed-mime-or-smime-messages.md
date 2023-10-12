@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure BizTalk Server to Receive Signed MIME or SMIME Messages"
-title: "How to Configure BizTalk Server to Receive Signed MIME or SMIME Messages | Microsoft Docs"
+title: "How to Configure BizTalk Server to Receive Signed MIME or SMIME Messages"
 ms.custom: ""
 ms.date: "06/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 50570257-7bb6-4ede-9026-873eefd06483
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure BizTalk Server to Receive Signed MIME or SMIME Messages
 This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to use certificates to receive signed MIME/SMIME messages. The procedure below also applies to configuring the receiving of signed messages over AS2 transport.  

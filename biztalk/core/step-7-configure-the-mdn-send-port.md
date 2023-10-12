@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 7: Configure the MDN Send Port"
-title: "Step 7: Configure the MDN Send Port | Microsoft Docs"
+title: "Step 7: Configure the MDN Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 983033ac-9d32-47c8-9bb8-b4161bcdf183
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 7: Configure the MDN Send Port
 ![Step 7 of 11](../core/media/tut-step7-of-11.gif "Tut_Step7_of_11")  

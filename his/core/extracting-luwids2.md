@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Extracting LUWIDs"
-title: "Extracting LUWIDs2 | Microsoft Docs"
+title: "Extracting LUWIDs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 34a85aaa-a492-4c53-93c9-4461eda005f4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Extracting LUWIDs
 Both LUWIDs for a particular TP can be determined by issuing the [GET_TP_PROPERTIES](./get-tp-properties2.md) verb. The **GET_TP_PROPERTIES** verb returns the TP's unprotected LUWID in the **luw_id** field.  

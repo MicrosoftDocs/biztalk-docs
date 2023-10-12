@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid VersionId"
-title: "Invalid VersionId | Microsoft Docs"
+title: "Invalid VersionId"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 563af6e8-f496-46c9-8b5f-7b941b2d08a5
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid VersionId
 ## Details  

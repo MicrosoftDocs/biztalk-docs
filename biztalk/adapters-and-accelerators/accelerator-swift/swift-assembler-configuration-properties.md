@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: SWIFT Assembler Configuration Properties"
-title: "SWIFT Assembler Configuration Properties | Microsoft Docs"
+title: "SWIFT Assembler Configuration Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "assembler, configuration properties"
-ms.assetid: ddea0103-e80b-42ac-b74d-ec477c606b6c
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SWIFT Assembler Configuration Properties
 The following table provides SWIFT assembler (ASM) properties, descriptions, data types, and value ranges.  

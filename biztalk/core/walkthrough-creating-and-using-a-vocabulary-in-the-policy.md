@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Creating and Using a Vocabulary in the Policy"
-title: "Walkthrough: Creating and Using a Vocabulary in the Policy | Microsoft Docs"
+title: "Walkthrough: Creating and Using a Vocabulary in the Policy"
 ms.custom: ""
 ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2c306a6e-3384-4f43-9c75-c5407cd9aed2
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Creating and Using a Vocabulary in the Policy
 This walkthrough provides step-by-step procedures for creating a vocabulary and using the vocabulary in the **ProcessPurchaseOrder** policy.  

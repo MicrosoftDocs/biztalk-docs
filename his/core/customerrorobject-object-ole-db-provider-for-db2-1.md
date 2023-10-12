@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CustomErrorObject Object (OLE DB Provider for DB2)"
-title: "CustomErrorObject Object (OLE DB Provider for DB2)1 | Microsoft Docs"
+title: "CustomErrorObject Object (OLE DB Provider for DB2)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e74c7b0c-9ece-4dec-bbbf-1ac182813bed
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CustomErrorObject Object (OLE DB Provider for DB2)
 The **CustomErrorObject** object is created by a **Command** object when a command error occurs. The **CustomErrorObject** object is used to retrieve additional information when an error occurs.  

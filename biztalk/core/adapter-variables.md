@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adapter Variables"
-title: "Adapter Variables | Microsoft Docs"
+title: "Adapter Variables"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aeda96bc-5141-4c42-8a29-b0a28bc47aa4
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adapter Variables
 There are a number of variables that any custom adapter needs to handle. Values assigned to these variables influence custom logic that the adapter implements. Transport-specific or application-specific configuration properties can also help to support your solution. The following table lists these common variables. You must decide if you want to support each one in your custom adapter.  

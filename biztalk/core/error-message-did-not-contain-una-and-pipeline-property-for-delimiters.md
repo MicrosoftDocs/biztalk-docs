@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Message did not contain UNA and pipeline property for delimiters was incorrect format"
-title: "Message did not contain UNA and pipeline property for delimiters was incorrect format | Microsoft Docs"
+title: "Message did not contain UNA and pipeline property for delimiters was incorrect format"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b761d820-e09d-4949-bb41-da9e66054c60
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message did not contain UNA and pipeline property for delimiters was incorrect format
 ## Details  

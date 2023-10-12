@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Custom TRMs and ELMs with COMTIContext"
-title: "Custom TRMs and ELMs with COMTIContext2 | Microsoft Docs"
+title: "Custom TRMs and ELMs with COMTIContext2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 041d213f-06c4-4776-86d1-2c63194d9d58
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Custom TRMs and ELMs with COMTIContext
 Transaction Integrator (TI) developers can pass custom formatted transaction request messages (TRMs) or enhanced listener messages (ELMs) from a client program to the CICS system and receive custom formatted TRMs or ELMs.  

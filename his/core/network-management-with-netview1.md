@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Network Management with NetView"
-title: "Network Management with NetView1 | Microsoft Docs"
+title: "Network Management with NetView1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ca88666d-cb53-43f6-b863-c4855cdcfda4
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Network Management with NetView
 This section describes the support that [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] provides for centralized network management.  

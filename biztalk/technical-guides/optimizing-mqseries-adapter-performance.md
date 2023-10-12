@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Optimizing MQSeries Adapter Performance"
-title: "Optimizing MQSeries Adapter Performance | Microsoft Docs"
+title: "Optimizing MQSeries Adapter Performance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1a46455c-a8d2-4427-99bb-4e3c6dbd9566
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Optimizing MQSeries Adapter Performance
 Configure the MQSeries adapter by using the following settings when possible to increase performance.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn about the message schemas for the ReadLOB and UpdateLOB operations that enable you to read or write the LOB data as a stream of base64Binary-encoded data."
-title: "Message Schemas for Special LOB Operations2 | Microsoft Docs"
+title: "Message Schemas for Special LOB Operations2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "LOB data types, message structure of"
-  - "LOB data types, message actions for"
-ms.assetid: 031989d5-3209-41ab-8836-a40539781e74
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Special LOB Operations Message Schemas
 

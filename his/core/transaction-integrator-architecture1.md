@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Transaction Integrator Architecture"
-title: "Transaction Integrator Architecture1 | Microsoft Docs"
+title: "Transaction Integrator Architecture1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dd490ba6-d982-45a7-937d-2fb7b6e56e25
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Transaction Integrator Architecture
 Transaction Integrator (TI) integrates the IBM Customer Information Control System (CICS), Information Management System (IMS) transaction programs (TP), and OS/400 applications with the .NET Framework by doing the following:  

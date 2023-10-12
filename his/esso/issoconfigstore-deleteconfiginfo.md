@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigStore::DeleteConfigInfo"
-title: "ISSOConfigStore::DeleteConfigInfo | Microsoft Docs"
+title: "ISSOConfigStore::DeleteConfigInfo"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f3458abc-448b-4cee-8c7d-5f2ce8d8bca8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigStore::DeleteConfigInfo
 The **DeleteConfigInfo** method deletes the configuration information from the config store.  

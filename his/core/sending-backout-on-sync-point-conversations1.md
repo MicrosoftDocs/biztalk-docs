@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Sending Backout on Sync Point Conversations"
-title: "Sending Backout on Sync Point Conversations1 | Microsoft Docs"
+title: "Sending Backout on Sync Point Conversations1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d499954c-5b2f-43a2-b04d-96a96e9f6438
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Sending Backout on Sync Point Conversations
 To send a Backout, an FMH-7 containing a sense code of 0x08240000 or 0x08240001 is sent on the session. This is done using the [SEND_ERROR](./send-error2.md) or [MC_SEND_ERROR](./mc-send-error2.md) verb. To enable Host Integration Server to send the appropriate sense data, the **SEND_ERROR** and **MC_SEND_ERROR** verbs are modified as follows:  

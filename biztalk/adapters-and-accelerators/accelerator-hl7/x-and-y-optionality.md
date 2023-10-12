@@ -1,24 +1,9 @@
 ---
 description: "Learn more about: &#39;X&#39; and &#39;Y&#39; Optionality"
 title: "&#39;X&#39; and &#39;Y&#39; Optionality"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "segments, Y optionality"
-  - "segments, SegmentDataElements table"
-  - "SegmentDataElements table"
-  - "segments, X optionality"
-ms.assetid: 8a59b407-95a2-45ba-a8d6-db4154c91d7b
-caps.latest.revision: 5
-
-
-
 ---
 # &#39;X&#39; and &#39;Y&#39; Optionality
 The SegmentDataElements table in the HL7 Access database contains several Data Items (fields) that have been set as **Req/Opt = X**, meaning that the HL7 standard does not associate this field with this trigger event, as shown in the following table.  

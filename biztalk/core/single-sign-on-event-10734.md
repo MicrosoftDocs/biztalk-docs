@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10734"
-title: "Single Sign-On: Event 10734 | Microsoft Docs"
+title: "Single Sign-On: Event 10734"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 10185dc8-0356-46c0-8720-40c33ec07ade
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10734
 ## Details  

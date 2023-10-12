@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Recordsets and Datatables"
-title: "Recordsets and Datatables1 | Microsoft Docs"
+title: "Recordsets and Datatables1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bce4a959-5f8c-4e50-a572-07e863cf3f47
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Recordsets and Datatables
 A recordset is an Automation object that is a fixed-size, bounded, or unbounded table that contains simple rows of host data declarations (data types). A datatable is a .NET object that is identical to a recordset in every regard, except that you cannot use the **NewRecordset** function with datatables. After you have a recordset or datatable object, you can call methods on that object to gain access to its rows.  

@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Architecture overview of the BizTalk Adapter for Oracle Database"
-title: "Architecture overview of the BizTalk Adapter for Oracle Database | Microsoft Docs"
+title: "Architecture overview of the BizTalk Adapter for Oracle Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "adapter, and WCF"
-  - "architecture of the Oracle Database adapter"
-  - "ODAC"
-  - "Oracle Data Access Components"
-  - "endpoint"
-  - "adapter, architecture"
-  - "endpoint address"
-  - "ODP.NET"
-  - "Oracle Data Provider for .NET"
-  - "architecture"
-ms.assetid: cc59beb5-327a-4b00-a45c-82cc9d505167
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Architecture overview of the BizTalk Adapter for Oracle Database
 Describes the architecture for the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].

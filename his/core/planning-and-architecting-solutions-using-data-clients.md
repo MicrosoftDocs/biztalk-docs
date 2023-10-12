@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning and Architecting Solutions Using Data Clients"
-title: "Planning and Architecting Solutions Using Data Clients | Microsoft Docs"
+title: "Planning and Architecting Solutions Using Data Clients"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dca14204-a176-425f-b12d-a64328f6ae03
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Planning and Architecting Solutions Using Data Clients
 ## Data Clients

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Stream Flat-File IDOCs in SAP using the WCF Channel Model"
-title: "Stream Flat-File IDOCs in SAP using the WCF Channel Model | Microsoft Docs"
+title: "Stream Flat-File IDOCs in SAP using the WCF Channel Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF channel model, streaming flat-file IDOCs"
-ms.assetid: 5010e215-d8d0-47c8-93a6-20cfdeff2951
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Stream Flat-File IDOCs in SAP using the WCF Channel Model
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports node-value streaming for the SendIdoc and ReceiveIdoc operations. These operations are used to send and receive flat-file (string) IDOCs to and from the adapter. In both of these operations, the data for the entire IDOC is contained in a string under a single node (\<idocData\>). For large IDOCs, streaming the IDOC data between the adapter and your code may save significant memory resources.  

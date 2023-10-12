@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Create New Mappings Wizard: Options"
-title: "Create New Mappings Wizard: Options1 | Microsoft Docs"
+title: "Create New Mappings Wizard: Options1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b3ed498a-89df-402d-980b-5af8ba96a2fb
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Create New Mappings Wizard: Options
 ## UIElement List  

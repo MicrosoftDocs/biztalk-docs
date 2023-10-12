@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Objects the Management Pack Discovers"
-title: "Objects the Management Pack Discovers | Microsoft Docs"
+title: "Objects the Management Pack Discovers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 291e8936-b299-4719-9f7e-edc86f76fcbd
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Objects the Management Pack Discovers
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack discovers the object types described in the following table. For information about discovering objects, see the [Object Discoveries in Operations Manager 2007](/previous-versions//bb381270(v=technet.10)) topic in Operations Manager 2007 R2/2012 online library (<https://go.microsoft.com/fwlink/?LinkId=108505>).

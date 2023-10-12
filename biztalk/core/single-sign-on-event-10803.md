@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10803"
-title: "Single Sign-On: Event 10803 | Microsoft Docs"
+title: "Single Sign-On: Event 10803"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 88aea099-a57f-4458-a385-7e898cab3d31
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10803
 ## Details  

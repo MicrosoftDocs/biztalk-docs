@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Schemas Shortcut Menu"
-title: "Schemas Shortcut Menu2 | Microsoft Docs"
+title: "Schemas Shortcut Menu2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ebiz.his.2006.tidesigner.node.hostfiles.schemas"
-ms.assetid: 0d34192b-8982-4783-bb08-d32fa75cc2dd
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Schemas Shortcut Menu
 When you select the **Schemas** node in the tree view in Host File Designer, the following shortcut menu commands are displayed.  

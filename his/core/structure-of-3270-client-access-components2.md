@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Structure of 3270 Client Access Components"
-title: "Structure of 3270 Client Access Components2 | Microsoft Docs"
+title: "Structure of 3270 Client Access Components2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 80ec95f1-cfb2-4a5d-ac26-e0318feb6cac
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Structure of 3270 Client Access Components
 The components of Host Integration Server that apply to 3270 client access are:  

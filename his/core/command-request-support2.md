@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Command Request Support"
-title: "Command Request Support2 | Microsoft Docs"
+title: "Command Request Support2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 65f740dd-8930-49b9-9add-0e0efa8c440b
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Command Request Support
 The next three tables list the SNA command requests supported by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]. Note that not all commands are supported for every LU-to-LU session type. For example, Bracket Initiation Stopped (BIS) is only supported for use by an APPC LU.  

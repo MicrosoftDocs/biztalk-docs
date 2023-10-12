@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Chunking"
-title: "Chunking2 | Microsoft Docs"
+title: "Chunking2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1f3371b6-4cfb-477c-a2ee-638f13a8771d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Chunking
 Chunking can be thought of as similar to segmentation. (For more information, see [Segment Delivery](../core/segment-delivery1.md).) The distinction is that segmentation is determined by the communications link between the local node and the remote system, whereas chunking is determined by the communications link between the application and the local node.  

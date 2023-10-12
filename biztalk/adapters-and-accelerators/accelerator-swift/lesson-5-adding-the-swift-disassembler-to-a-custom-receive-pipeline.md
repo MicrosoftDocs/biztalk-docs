@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Lesson 5: Adding the SWIFT Disassembler to a Custom Receive Pipeline"
-title: "Lesson 5: Adding the SWIFT Disassembler to a Custom Receive Pipeline | Microsoft Docs"
+title: "Lesson 5: Adding the SWIFT Disassembler to a Custom Receive Pipeline"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive pipelines, adding disassembler"
-  - "custom pipelines"
-  - "disassembler, custom pipelines"
-  - "disassembler, adding to pipelines"
-ms.assetid: 96e26d97-bfab-448f-b7b6-3bc2ec3ccebf
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 5: Adding the SWIFT Disassembler to a Custom Receive Pipeline
 In this lesson, you add the custom SWIFT disassembler (DASM) to your pipeline. A DASM pipeline component is a pipeline component that divides messages in a batch into individual documents.  

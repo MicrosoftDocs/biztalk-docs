@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Fallback Acknowledgement Properties (EDIFACT)"
-title: "Configuring Fallback Acknowledgement Properties (EDIFACT) | Microsoft Docs"
+title: "Configuring Fallback Acknowledgement Properties (EDIFACT)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6062b881-3214-4e68-acbc-1f8c255fd86b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Fallback Acknowledgement Properties (EDIFACT)
 In the fallback agreement, you can specify what type of acknowledgment to return to a party.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Diagnose Problems with the FTP Adapter"
-title: "How to Diagnose Problems with the FTP Adapter | Microsoft Docs"
+title: "How to Diagnose Problems with the FTP Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 499d23d3-b705-4527-9929-147be157e6b3
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Diagnose Problems with the FTP Adapter
 This section contains steps that can be followed to help diagnose problems with the FTP adapter.  

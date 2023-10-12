@@ -1,19 +1,12 @@
 ---
-title: "Use SSO to secure TIBCO EMS | Microsoft Docs"
+title: "Use SSO to secure TIBCO EMS"
 description: Security overview when using the Microsoft BizTalk Adapter for TIBCO Enterprise Message Service in BizTalk Server
 ms.custom: ""
 ms.date: "10/19/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0eccb44b-e9d8-42c2-a575-47f1d1cfe93c
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security in BizTalk Adapter for TIBCO EMS
 

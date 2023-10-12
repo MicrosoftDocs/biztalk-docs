@@ -1,39 +1,12 @@
 ---
 description: "Learn more about: Source and Destination Schemas"
-title: "Source and Destination Schemas | Microsoft Docs"
+title: "Source and Destination Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "destination schemas"
-  - "source schemas, maps"
-  - "XML schemas, defining"
-  - "destination schemas, about destination schemas"
-  - "schemas, destination"
-  - "destination schemas, maps"
-  - "maps, source schemas"
-  - "schemas, Root Reference property"
-  - "Root Reference property, modifying"
-  - "source schemas"
-  - "modifying, Root Reference property"
-  - "maps, Root Reference property"
-  - "source schemas, about source schemas"
-  - "schemas, maps"
-  - "maps, schema requirements"
-  - "schemas, requirements"
-  - "schemas, source schemas"
-  - "maps, destination schemas"
-  - "Root Reference property"
-ms.assetid: 8c805854-9fa1-4ce3-938d-a2e61ba17fa1
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Source and Destination Schemas
 Each BizTalk map uses two schemas: a source schema and a destination schema. A source schema defines the structure of the instance messages from which you are taking data. The destination schema defines the structure of the instance messages the map produces. For example, if you want to map the shipping and billing information from a purchase order to an invoice, you need a schema to define purchase orders for the source schema and a schema defining invoices for the destination schema.  

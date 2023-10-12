@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Rules"
-title: "Rules | Microsoft Docs"
+title: "Rules"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "business rules, actions"
-  - "Business Rules Engine, business rules"
-  - "business rules, about business rules"
-  - "business rules, conditions"
-  - "business rules, facts"
-  - "business rules"
-ms.assetid: b288dd07-33f1-42fe-bbfb-02674ef3b3ca
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Rules
 Business rules are declarative statements that govern the conduct of business processes. A rule consists of a condition and actions. The condition is evaluated, and if it evaluates to **true**, the rule engine initiates one or more actions.  

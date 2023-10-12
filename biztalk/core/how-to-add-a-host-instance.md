@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Add a Host Instance"
-title: "Add a Host Instance | Microsoft Docs"
+title: "Add a Host Instance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 98ba10a6-c5e7-4dec-98f1-4e6ba44c2851
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Add a Host Instance
 

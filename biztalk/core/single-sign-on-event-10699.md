@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10699"
-title: "Single Sign-On: Event 10699 | Microsoft Docs"
+title: "Single Sign-On: Event 10699"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cff26533-e4d7-47b5-92d5-bd8c72fab89a
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10699
 ## Details  

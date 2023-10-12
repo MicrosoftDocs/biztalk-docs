@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: All Group Nodes"
-title: "All Group Nodes | Microsoft Docs"
+title: "All Group Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0e28d98c-746a-44d8-bed2-ba539b8432aa
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # All Group Nodes
 In BizTalk Editor, you can insert an **All Group** node to contain other nodes that will appear zero or one time, in any order. In XML Schema definition (XSD) language, the **All group** has more usage limitations than **Sequence** and **Choice** groups, which translates to few situations within BizTalk Editor where you will be able to create an **All Group** node.  

@@ -1,19 +1,12 @@
 ---
-title: "Prerequisites for the RosettaNet Private Process tutorial in BizTalk Server | Microsoft Docs"
+title: "Prerequisites for the RosettaNet Private Process tutorial in BizTalk Server"
 description: Prerequisites to step through the Private Process tutorial for the RosettaNet accelerator (BTARN) in BizTalk Server
-caps.latest.revision: 7
-author: "MandiOhlinger"
-manager: "anneta"
-
 ms.custom: ""
 ms.date: "08/09/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 89631ce3-f5af-4d30-b22f-6d20f595295f
-ms.author: "mandia"
 ---
 
 # Prepare for the Private Process tutorial

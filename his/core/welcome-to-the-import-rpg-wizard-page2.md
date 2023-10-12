@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Welcome to the Import RPG Wizard Page"
-title: "Welcome to the Import RPG Wizard Page2 | Microsoft Docs"
+title: "Welcome to the Import RPG Wizard Page2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15454"
-ms.assetid: 657d69ac-8c83-420c-8e25-653bcbde861e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Welcome to the Import RPG Wizard Page
 Use the **Welcome to the Import RPG Wizard** page to view the procedure for importing Report Program Generator (RPG) source code and to control whether the welcome page is displayed again the next time the wizard is used.  

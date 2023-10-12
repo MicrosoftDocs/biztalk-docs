@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Request Reject (Category X&#39;08&#39;)"
-title: "Request Reject (Category X&#39;08&#39;)1 | Microsoft Docs"
+title: "Request Reject (Category X&#39;08&#39;)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c573ea9f-971b-4c30-9033-63307dbaa6b1
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Request Reject (Category X&#39;08&#39;)
 This category indicates that the request was delivered to the intended half session, and was understood and supported, but not executed. The following codes are in this category.  

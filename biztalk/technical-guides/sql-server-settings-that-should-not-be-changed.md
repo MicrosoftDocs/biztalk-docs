@@ -1,18 +1,12 @@
 ---
-title: "SQL Server settings not to change | Microsoft Docs"
+title: "SQL Server settings not to change"
 description: Max Degree of Parallelism, Auto create statistics Auto Update statistics, and rebuilding indexes in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4b383bfb-c3d9-47d4-b294-f6be94302734
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SQL Server Settings That Should Not Be Changed
 When setting up [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] during the operational readiness procedures for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you should not make changes to the following settings.

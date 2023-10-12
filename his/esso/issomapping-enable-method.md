@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOMapping.Enable Method"
-title: "ISSOMapping.Enable Method | Microsoft Docs"
+title: "ISSOMapping.Enable Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 68354946-9c9d-41a3-9f7c-24ff40e72538
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOMapping.Enable Method
 The **Enable** method enables the mapping.  

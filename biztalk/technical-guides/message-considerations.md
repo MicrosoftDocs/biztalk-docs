@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Message Considerations"
-title: "Message Considerations | Microsoft Docs"
+title: "Message Considerations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5ca466fa-426c-46f6-a400-747ff51ff8f4
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Considerations
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides an extensive set of capabilities for sending, receiving, transforming, and processing messages. Some of these capabilities include:

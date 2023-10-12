@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: BizTalk Accelerator for SWIFT Programming Guide"
-title: "BizTalk Accelerator for SWIFT Programming Guide | Microsoft Docs"
+title: "BizTalk Accelerator for SWIFT Programming Guide"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developing, programming guide"
-  - "programming guide"
-ms.assetid: b4ef9a7b-2812-4ac0-a59c-f47ba84d2551
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Accelerator for SWIFT Programming Guide
 This section explains concepts and procedures for developers writing code with Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. Use this guide in conjunction with the [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] documentation.  

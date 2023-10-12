@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10759"
-title: "Single Sign-On: Event 10759 | Microsoft Docs"
+title: "Single Sign-On: Event 10759"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5347f3d6-d31a-4c00-a64c-c0b0f680de88
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10759
 ## Details  

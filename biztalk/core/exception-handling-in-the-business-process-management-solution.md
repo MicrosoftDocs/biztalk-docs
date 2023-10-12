@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Exception Handling in the Business Process Management Solution"
-title: "Exception Handling in the Business Process Management Solution | Microsoft Docs"
+title: "Exception Handling in the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "errors, tutorials"
-  - "process management solution tutorial, errors"
-ms.assetid: ac9fcb33-7dac-448e-88b8-04d4d439ea6a
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exception Handling in the Business Process Management Solution
 The business process management solution uses a special exception handling orchestration, as well as the standard BizTalk Server exception handling, and for adapter, pipeline, mapping, and routing failures, the new error reporting feature. This customized system is built around the **ExceptionHandler** orchestration. The solution uses the **ExceptionHandler** orchestration to retry an operation or to retry a call that might succeed after a transient problem.  

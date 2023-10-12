@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Step 1: Modify the vPrev BizTalk Project for Invoking an RFC"
-title: "Step 1: Modify the vPrev BizTalk Project for Invoking an RFC | Microsoft Docs"
+title: "Step 1: Modify the vPrev BizTalk Project for Invoking an RFC"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "migration, modifying previous version of BizTalk project for invoking an RFC"
-  - "migration"
-ms.assetid: 2d4a6cd7-d216-4e0f-8f82-41e044cd325b
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Modify the vPrev BizTalk Project for Invoking an RFC
 ![Step 1 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")

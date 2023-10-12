@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_EventLu3270 Class"
-title: "MsSnaStatus_EventLu3270 Class2 | Microsoft Docs"
+title: "MsSnaStatus_EventLu3270 Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0216eed9-a572-4163-9502-be9308ad49dc
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_EventLu3270 Class
 The **MsSnaStatus_EventLu3270** class describes a change to the **EventLu3270** class.  

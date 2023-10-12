@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating a Remote Environment"
-title: "Creating a Remote Environment1 | Microsoft Docs"
+title: "Creating a Remote Environment1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fbe4fb63-cced-4349-bb32-848c7cee243a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Creating a Remote Environment
 Remote environment (RE) definitions are created and managed from the Remote Environments folder. When the WIP (Windows-initiated processing) Console is first started, the remote environment folder is empty.  

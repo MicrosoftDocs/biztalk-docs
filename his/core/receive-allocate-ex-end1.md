@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: RECEIVE_ALLOCATE_EX_END"
-title: "RECEIVE_ALLOCATE_EX_END1 | Microsoft Docs"
+title: "RECEIVE_ALLOCATE_EX_END1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f113b90c-649b-4e26-8ee7-6a0f7b5ffb04
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # RECEIVE_ALLOCATE_EX_END
 The RECEIVE_ALLOCATE_EX_END verb allows an application to deregister as the attach manager for a given Local APPC LU (lu_alias). This verb must be called for each lu_alias previously passed to the RECEIVE_ALLOCATE_EX request.  

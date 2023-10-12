@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Transaction Set Details Status Report"
-title: "Transaction Set Details Status Report | Microsoft Docs"
+title: "Transaction Set Details Status Report"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d81367c7-c74e-42cb-b856-748962b727ec
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Transaction Set Details Status Report
 This report shows the details for transaction sets in a specific EDI interchange selected from within the Interchange/ACK Status report. To display this status report, right-click an interchange listed in the Query results pane of the Interchange/ACK Status report, and then click **Transaction Set Details**.  

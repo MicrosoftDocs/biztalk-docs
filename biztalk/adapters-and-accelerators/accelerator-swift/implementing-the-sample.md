@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Implementing the Sample"
-title: "Implementing the Sample | Microsoft Docs"
+title: "Implementing the Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cd788fd3-b070-40d5-a3d3-ac8e5208cc47
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Implementing the Sample
 To implement the sample, proceed as follows:  

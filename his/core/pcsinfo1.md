@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: pCSInfo"
-title: "pCSInfo1 | Microsoft Docs"
+title: "pCSInfo1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2e66a5f4-cf65-4abd-b34f-f108e68b04a8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # pCSInfo
 ## Syntax  

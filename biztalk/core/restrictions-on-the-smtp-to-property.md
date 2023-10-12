@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Restrictions on the SMTP To Property"
-title: "Restrictions on the SMTP To Property | Microsoft Docs"
+title: "Restrictions on the SMTP To Property"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [SMTP adapters], restrictions"
-  - "SMTP adapters, restrictions"
-ms.assetid: c876d30e-44ab-462d-8c98-64416ed6dd1f
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Restrictions on the SMTP To Property
 The **To** property is a string that specifies the SMTP address of the recipient of the message. You can list several addresses with a separator that SMTP server supports.  

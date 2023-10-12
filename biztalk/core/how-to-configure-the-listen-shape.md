@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Listen Shape"
-title: "How to Configure the Listen Shape | Microsoft Docs"
+title: "How to Configure the Listen Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Listen shape [Orchestration Designer], about Listen shape"
-  - "Listen shape [Orchestration Designer], configuring"
-  - "Listen shape [Orchestration Designer]"
-  - "Listen shape [Orchestration Designer], branching"
-  - "configuring [Orchestration Designer], Listen shapes"
-ms.assetid: 4765dc0a-a30e-4515-83bc-72b4f37268cf
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Listen Shape
 Listen actions enable applications to wait for one of several messages on one or more ports, or to stop waiting after a specified time-out interval, and branch based upon the results.  

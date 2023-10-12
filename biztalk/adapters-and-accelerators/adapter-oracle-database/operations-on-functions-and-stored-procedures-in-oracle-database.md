@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Operations on functions and stored procedures in Oracle Database"
-title: "Operations on functions and stored procedures in Oracle Database | Microsoft Docs"
+title: "Operations on functions and stored procedures in Oracle Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "REF CURSOR"
-  - "packaged functions and procedures"
-  - "operations, on functions and stored procedures"
-  - "stored procedure"
-  - "RECORD type"
-  - "overloaded functions and procedures"
-ms.assetid: 18072b58-65b2-4da5-9433-ea0da4e2d4f4
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations on functions and stored procedures in Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports Oracle functions, procedures, and packages in the following manner:  

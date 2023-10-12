@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Activity Continuation"
-title: "Activity Continuation | Microsoft Docs"
+title: "Activity Continuation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "continuation tokens"
-  - "activities [BAM], code samples"
-  - "activities [BAM], continuation tokens"
-  - "continuations, activities [BAM]"
-  - "code samples, activities [BAM]"
-ms.assetid: 47d91ae6-77c1-4efb-940f-a7b3a325e5bd
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Activity Continuation
 The BAM activity (also called the business activity) can span multiple heterogeneous applications (for example, a pipeline, two orchestrations, a line-of-business application, and then another pipeline). The BAM infrastructure can correlate the events from multiple applications with a little help from the developer – a concept called "*Continuation*," which is shown in the following figure.  

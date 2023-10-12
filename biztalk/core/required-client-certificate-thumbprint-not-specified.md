@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Required client certificate thumbprint not specified"
-title: "Required client certificate thumbprint not specified | Microsoft Docs"
+title: "Required client certificate thumbprint not specified"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 19307bdb-29d7-4a79-9472-dda24dd8b263
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Required client certificate thumbprint not specified
 ## Details  

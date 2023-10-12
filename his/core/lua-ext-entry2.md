@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA_EXT_ENTRY"
-title: "LUA_EXT_ENTRY2 | Microsoft Docs"
+title: "LUA_EXT_ENTRY2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2bba5da6-711a-4a72-8cce-3a7d68761edd
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA_EXT_ENTRY
 The following structure shows the **LUA_EXT_ENTRY** fields of the [LUA SPECIFIC.SLI_OPEN](../core/lua-specific-sli-open1.md) union member for the [SLI_OPEN](../core/sli-open2.md) verb.  

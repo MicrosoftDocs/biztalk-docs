@@ -1,18 +1,12 @@
 ---
 description: "Learn about the different types of Remote Environment that can be configured to define the characteristics of a non-Windows host environment that receives requests from Windows-initiated processing (WIP) components."
-title: "WIPRemoteEnvs | Microsoft Docs"
+title: "WIPRemoteEnvs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b092a8c7-a5a7-4e98-8d96-2b725d68f1ca
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Remote Environment Types
 

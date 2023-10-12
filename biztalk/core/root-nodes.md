@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Root Nodes"
-title: "Root Nodes | Microsoft Docs"
+title: "Root Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2161f877-835e-434d-a8d1-2426f977d60e
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Root Nodes
 In BizTalk Editor, child nodes of the **Schema** node are known as **Root** nodes. **Root** nodes are a special type of **Record** node, and have a few more properties than regular **Record** nodes. The **Root** node represents the type of document described by the schema, and can be renamed as appropriate. For example, you can rename the **Root** node so that it describes the type of message that the schema represents, such as purchaseOrder, orderAcknowledgment, or shipNotice.  

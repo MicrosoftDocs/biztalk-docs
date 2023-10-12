@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Unable to create binding configuration element for editing"
-title: "Unable to create binding configuration element for editing | Microsoft Docs"
+title: "Unable to create binding configuration element for editing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 71853662-5a4a-417e-8160-c93dbcbea336
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unable to create binding configuration element for editing
 ## Details  

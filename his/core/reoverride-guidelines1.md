@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: REOverride Guidelines"
-title: "REOverride Guidelines1 | Microsoft Docs"
+title: "REOverride Guidelines1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b3663f1f-852b-4cd7-8727-fd936f8557a8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # REOverride Guidelines
 Use the following guidelines for when to use REOverride to set an RE programmatically:  

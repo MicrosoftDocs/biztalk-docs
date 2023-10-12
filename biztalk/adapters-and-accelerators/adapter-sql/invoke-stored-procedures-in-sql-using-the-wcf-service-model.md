@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invoke Stored Procedures in SQL using the WCF Service Model"
-title: "Invoke Stored Procedures in SQL using the WCF Service Model | Microsoft Docs"
+title: "Invoke Stored Procedures in SQL using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4edd2fac-0b54-4406-932e-e3044a66b2e6
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke Stored Procedures in SQL using the WCF Service Model
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] discovers the stored procedures as operations that the adapter clients can invoke on the WCF client to invoke the stored procedure. Based on how the stored procedure returns the result set, the adapter categorizes all the stored procedures as:  

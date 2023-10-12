@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Extract_Conversation_Type (CPI-C)"
-title: "Extract_Conversation_Type (CPI-C)2 | Microsoft Docs"
+title: "Extract_Conversation_Type (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3eff9b34-24be-44b2-8d8b-f517f066e164
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Extract_Conversation_Type (CPI-C)
 The **Extract_Conversation_Type** call (function name **cmect**) returns the conversation type—mapped or basic—of the specified conversation.  

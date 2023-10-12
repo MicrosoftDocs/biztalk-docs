@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Poll Oracle Database using the SELECT statement"
-title: "Poll Oracle Database using the SELECT statement | Microsoft Docs"
+title: "Poll Oracle Database using the SELECT statement"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "polling-based notifications, receiving from Oracle"
-  - "polling query, configuring a"
-ms.assetid: d2689eb9-6f17-498f-8a32-07f43a368833
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Poll Oracle Database using the SELECT statement
 You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive periodic data-change messages by using a SELECT statement to continuously poll the tables and views in Oracle the Oracle database. You can specify a SELECT statement as a polling statement that the adapter executes periodically to poll the Oracle database. Optionally, you can also specify a post-poll PL/SQL code block that the adapter executes if there is a change in data. This block is often used to update a field on the queried records in the target or to move the queried records to another table or view.  

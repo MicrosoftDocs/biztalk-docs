@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installation Guide"
-title: "HIS 2013 Installation Guide download | Microsoft Docs"
+title: "HIS 2013 Installation Guide download"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aec44f21-9e7b-4619-a1d4-0f5ab5eba9be
-caps.latest.revision: 7
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Installation Guide
 This document contains information about the basic installation process for [!INCLUDE[his2013](../includes/his2013-md.md)].

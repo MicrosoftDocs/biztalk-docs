@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Wizards and Dialog Boxes (TI Project)"
-title: "Wizards and Dialog Boxes (TI Project)1 | Microsoft Docs"
+title: "Wizards and Dialog Boxes (TI Project)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cd56b965-c2ec-4ecc-9b25-fd2918642bed
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Wizards and Dialog Boxes (TI Project)
 ## In This Section  

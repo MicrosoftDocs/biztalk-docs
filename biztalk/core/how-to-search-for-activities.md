@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Search for Activities"
-title: "How to Search for Activities | Microsoft Docs"
+title: "How to Search for Activities"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "databases [BAM], searching"
-  - "BAM portal, searching databases"
-ms.assetid: c29c86e1-ef22-4d71-b646-bc2a6f496553
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Search for Activities
 Use the Business Activity Search on the BAM Web portal to search the tracking data, also known as instances, stored in the BAM database.  

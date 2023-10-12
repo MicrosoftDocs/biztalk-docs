@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: What operations are supported by the Oracle E-Business Suite adapter"
-title: "What operations are supported by the Oracle E-Business Suite adapter | Microsoft Docs"
+title: "What operations are supported by the Oracle E-Business Suite adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 64cd124a-5e7f-4ee8-85d3-f9540b25d766
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What operations are supported by the Oracle E-Business Suite adapter
 ## Overview

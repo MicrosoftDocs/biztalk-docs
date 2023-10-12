@@ -1,19 +1,12 @@
 ---
 description: "Learn how to configure a party and business profile for a trading partner by using the BizTalk Server Administration Console."
-title: "Step 4: Configure a Party and Business Profile for Your Trading Partner1 | Microsoft Docs"
+title: "Step 4: Configure a Party and Business Profile for Your Trading Partner1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: db50d0f6-e838-4e92-8548-a63a2c445d55
-caps.latest.revision: 40
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: How to Configure a Party and Business Profile for Your Trading Partner
 

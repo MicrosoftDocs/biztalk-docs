@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Unable to access agreement"
-title: "Unable to access agreement | Microsoft Docs"
+title: "Unable to access agreement"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 72890ee9-54c9-48ed-8c6e-8b329d79c68b
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unable to access agreement
 ## Details  

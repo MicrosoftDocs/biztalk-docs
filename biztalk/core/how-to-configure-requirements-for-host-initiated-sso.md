@@ -1,38 +1,12 @@
 ---
 description: "Learn more about: How to Configure Requirements for Host Initiated SSO"
-title: "How to Configure Requirements for Host Initiated SSO | Microsoft Docs"
+title: "How to Configure Requirements for Host Initiated SSO"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "service accounts, granting privileges [SSO]"
-  - "host initiated SSO, configuring"
-  - "domain function level [SSO]"
-  - "host initiated SSO, Transaction Integrator (TI)"
-  - "SPN [SSO]"
-  - "managing [SSO], granting TCB privileges"
-  - "Transaction Integrator (TI)"
-  - "host initiated SSO, SPN"
-  - "host initiated SSO, TCB privileges"
-  - "configuring, host initiated SSO"
-  - "creating, SPNs [SSO]"
-  - "TCB privileges [SSO]"
-  - "managing [SSO], host initiated"
-  - "host initiated SSO, domain function level"
-  - "service accounts, SSO"
-  - "SSO, host initiated"
-  - "managing [SSO], creating SPNs"
-  - "SSO, service accounts"
-ms.assetid: 91d77c9f-bab2-4f6e-8bce-e31c59cebb20
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Requirements for Host Initiated SSO
 Although Enterprise SSO and host initiated SSO have certain aspects in common, certain platform and Active Directory requirements are unique to host initiated SSO. This topic discusses those requirements, and lists the steps to check or create them on your system.

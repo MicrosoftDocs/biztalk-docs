@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Create the Oracle Database connection URI"
-title: "Create the Oracle Database connection URI | Microsoft Docs"
+title: "Create the Oracle Database connection URI"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "connection URI, basic format of"
-  - "connection URI, database credentials and"
-  - "connection URI, connecting to the Oracle database"
-  - "connection URI"
-ms.assetid: 17d0a6d3-1b0c-43d6-a705-402c09a78ee0
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create the Oracle Database connection URI
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] connection URI contains properties that the adapter uses to establish a connection to the Oracle database. This topic provides information about how to specify the connection URI to connect to the Oracle database using tnsnames.ora and without using tnsnames.ora. It also provides information about using the connection URI to connect to the Oracle database.  

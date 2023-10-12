@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Communication between TPs"
-title: "Communication between TPs2 | Microsoft Docs"
+title: "Communication between TPs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 50223b07-fd3f-4fd7-b951-db1d321efdd0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Communication between TPs
 Various hardware and software elements in the SNA environment are required for two transaction programs (TPs) to communicate with each other. The following figure shows several fundamental elements.  

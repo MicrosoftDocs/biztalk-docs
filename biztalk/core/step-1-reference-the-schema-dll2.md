@@ -1,19 +1,12 @@
 ---
 description: "Learn more how to  reference the schema DLL."
-title: "Step 1: Reference the Schema DLL2 | Microsoft Docs"
+title: "Step 1: Reference the Schema DLL2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1db92227-6164-42b9-b60c-12dd2cae46e2
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Reference the Schema DLL
 In BizTalk, messages are immutable. Therefore, to change a property value you must create and modify a new message. You create and modify the new message by inserting a message assignment shape between the Receive and Send shapes.  

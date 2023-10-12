@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Schema should have segments in the following order ST .... SE"
-title: "Schema should have segments in the following order ST .... SE | Microsoft Docs"
+title: "Schema should have segments in the following order ST .... SE"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8f4d1c6a-7d48-413a-9ef5-a0c49773dc16
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Schema should have segments in the following order ST .... SE
 ## Details  

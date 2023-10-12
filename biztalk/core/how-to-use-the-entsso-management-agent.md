@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Use the ENTSSO Management Agent"
-title: "How to Use the ENTSSO Management Agent | Microsoft Docs"
+title: "How to Use the ENTSSO Management Agent"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9c89b494-db12-4d2a-a030-6acd34489cab
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use the ENTSSO Management Agent
 This version of Enterprise Single Sign-On (SSO) contains a Management Agent (MA) for Microsoft Identity Integration Server (MIIS), which integrates Enterprise SSO with the account synchronization capabilities of MIIS. This enables an MIIS administrator to manage SSO mappings in the SSO Database.  

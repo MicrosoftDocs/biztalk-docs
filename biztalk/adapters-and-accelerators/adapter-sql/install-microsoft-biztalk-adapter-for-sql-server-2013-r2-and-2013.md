@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Install Microsoft BizTalk Adapter for SQL Server - 2013 R2 and 2013"
-title: "Install Microsoft BizTalk Adapter for SQL Server - 2013 R2 and 2013 | Microsoft Docs"
+title: "Install Microsoft BizTalk Adapter for SQL Server - 2013 R2 and 2013"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 56c31d0d-783b-41ee-8265-56c9547e9dca
-caps.latest.revision: 31
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Install Microsoft BizTalk Adapter for SQL Server - 2013 R2 and 2013
 Install the [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)] included with [!INCLUDE[bts2013r2_md](../../includes/bts2013r2-md.md)], or included with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 2013.

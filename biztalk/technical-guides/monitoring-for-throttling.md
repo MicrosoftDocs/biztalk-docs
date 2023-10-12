@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Monitoring for Throttling"
-title: "Monitoring for Throttling | Microsoft Docs"
+title: "Monitoring for Throttling"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3d1d4c72-6942-4572-b27f-c58d37c94062
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Monitoring for Throttling
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] management pack monitors performance counters that indicate the throttling state of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Some key factors to understand about throttling are listed below.

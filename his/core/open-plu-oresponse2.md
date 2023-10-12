@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Open(PLU) OResponse"
-title: "Open(PLU) OResponse2 | Microsoft Docs"
+title: "Open(PLU) OResponse2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5955d0a0-92ee-4766-bac2-2950dc85b490
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Open(PLU) OResponse
 The **Open(PLU) OK Response** message flows from the application to the node. It is used with a primary logical unit (PLU) connection.  

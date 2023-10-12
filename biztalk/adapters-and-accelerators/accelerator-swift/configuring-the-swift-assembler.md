@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Configuring the SWIFT Assembler"
-title: "Configuring the SWIFT Assembler | Microsoft Docs"
+title: "Configuring the SWIFT Assembler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "assembler, configuring"
-  - "configuring, assembler"
-ms.assetid: 76944226-e29b-4a7f-a4ab-3c3d5f13ec51
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring the SWIFT Assembler
 The SWIFT assembler performs the following tasks when you invoke it in a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] send pipeline:  

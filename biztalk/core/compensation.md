@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Compensation"
-title: "Compensation | Microsoft Docs"
+title: "Compensation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "compensations, errors"
-  - "compensations"
-  - "errors, compensations"
-  - "compensations, about compensations"
-  - "compensations, atomic transactions"
-  - "atomic transactions, compensations"
-  - "transactions, compensations"
-ms.assetid: 0a80dd16-fd35-4f45-95b7-52bb9df80cbb
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Compensation
 If an error occurs and you need to undo or reverse the effects of a successfully committed transaction, you can do so by adding compensation code to your orchestration.  

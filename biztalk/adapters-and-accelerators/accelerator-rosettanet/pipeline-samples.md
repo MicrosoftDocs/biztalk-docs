@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Pipeline Samples"
-title: "Pipeline Samples | Microsoft Docs"
+title: "Pipeline Samples"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipelines, examples"
-  - "SDK samples, pipelines"
-  - "examples, pipelines"
-ms.assetid: 1e53658b-1a7a-4dc0-963b-ebd14155c267
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Pipeline Samples
 The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK) includes a send pipeline sample and a receive pipeline sample. This section provides information about the functionality that each sample demonstrates, instructions for building and running the samples, and the results that you can expect.  

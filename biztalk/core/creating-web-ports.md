@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Creating Web Ports"
-title: "Creating Web Ports | Microsoft Docs"
+title: "Creating Web Ports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web services, Web ports"
-  - "Web services, references"
-  - "Web ports"
-  - "ports, Web ports"
-  - "Web ports, about Web ports"
-ms.assetid: 3792ec2b-72e5-4374-90a6-706afc16fb22
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Web Ports
 Web ports are specially configured ports that you use to consume (call) Web services. A Web port can contain multiple operations that represent a mix of one-way (request only) and two-way (request-response) Web methods. Each operation in a Web port represents one method of a Web service.  

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Components of the TPE"
-title: "Components of the TPE | Microsoft Docs"
+title: "Components of the TPE"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Tracking Profile Editor"
-ms.assetid: 1491dbe7-a86b-47ea-9166-e4f88976a082
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Components of the TPE
 This section contains information about the TPE user interface and the functions it performs.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Stored Procedures in a DB2 Database"
-title: "Stored Procedures in a DB2 Database | Microsoft Docs"
+title: "Stored Procedures in a DB2 Database"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e183aea0-2d57-4018-ab65-4fbd7c6f7f28
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Stored Procedures in a DB2 Database
 

@@ -1,33 +1,12 @@
 ---
 description: "Learn more about: Message Validation Engine"
-title: "Message Validation Engine | Microsoft Docs"
+title: "Message Validation Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "message validation engine"
-  - "errors, validating"
-  - "XML validation"
-  - "parsing validation"
-  - "BRE policies, validating"
-  - "errors, messages"
-  - "messages, errors"
-  - "validating, messages"
-  - "validating, BRE policies"
-  - "validating, XML"
-  - "messages, validating"
-  - "validating, errors"
-  - "validating, parsing"
-ms.assetid: 4ba0b75e-665b-4771-b04f-5bc3e90d83f0
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Validation Engine
 One of the most important features provided by [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] is the ability to fully validate SWIFT messages received from back-end systems destined for the SWIFT network, or received from the SWIFT network (sent by trading partners). Validating outbound SWIFT messages guarantees that the messages conform to SWIFT standards and that the SWIFT network will not reject the messages.  

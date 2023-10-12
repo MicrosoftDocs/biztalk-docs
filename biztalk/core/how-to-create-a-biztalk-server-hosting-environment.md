@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Create a BizTalk Server Hosting Environment"
-title: "How to Create a BizTalk Server Hosting Environment | Microsoft Docs"
+title: "How to Create a BizTalk Server Hosting Environment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "hosting environments, creating"
-  - "managing [hosts], hosting environments"
-  - "hosts, environments"
-  - "managing [hosts], creating"
-  - "creating, hosting environment"
-ms.assetid: 6f335139-1121-45ff-88da-5c626b8fff97
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create a BizTalk Server Hosting Environment
 Before you create your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] hosting environment, consider the following recommendations:  

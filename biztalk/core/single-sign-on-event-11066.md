@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11066"
-title: "Single Sign-On: Event 11066 | Microsoft Docs"
+title: "Single Sign-On: Event 11066"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5f32051f-5c53-4644-bebe-3b38e22b619e
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11066
 ## Details  

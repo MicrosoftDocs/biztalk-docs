@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Link Service and the LnkCfg Utility"
-title: "Link Service and the LnkCfg Utility1 | Microsoft Docs"
+title: "Link Service and the LnkCfg Utility1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bc11196a-5cdd-4b94-baa1-03181e46a1f3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Link Service and the LnkCfg Utility
 LnkCfg is a useful command-line utility for deploying and managing link services. The format of the command line for configuring the link service is specified as follows.  

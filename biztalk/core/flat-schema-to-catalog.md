@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Flat Schema to Catalog"
-title: "Flat Schema to Catalog | Microsoft Docs"
+title: "Flat Schema to Catalog"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a0e37afa-2329-4691-9fa1-82b8c7bcd59a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Flat Schema to Catalog
 

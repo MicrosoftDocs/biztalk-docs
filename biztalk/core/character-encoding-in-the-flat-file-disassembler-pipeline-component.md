@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Character Encoding in the Flat File Disassembler Pipeline Component"
-title: "Character Encoding in the Flat File Disassembler Pipeline Component | Microsoft Docs"
+title: "Character Encoding in the Flat File Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "IBaseMessagePart.Charset property"
-  - "XMLNorm.SourceCharset property"
-  - "pipeline components, Flat File Disassembler"
-  - "Flat File Disassembler [pipeline component], character encoding"
-ms.assetid: 0dbe24fb-c431-4edf-8aa9-4c040d6a7b32
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Character Encoding in the Flat File Disassembler Pipeline Component
 The following algorithm is used by the Flat File Disassembler component to determine which encoding to use for processing an incoming message:  

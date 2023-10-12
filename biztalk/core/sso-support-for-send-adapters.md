@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: SSO Support for Send Adapters"
-title: "SSO Support for Send Adapters | Microsoft Docs"
+title: "SSO Support for Send Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 45dc2597-0036-4444-8b35-d18621b003d8
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SSO Support for Send Adapters
 Enterprise Single Sign-On (SSO) provides services to store and transmit encrypted user credentials across local, network, and domain boundaries. When you create a transport adapter, you can leverage SSO APIs to handle the user credentials that a transport adapter uses to access back-end applications.  

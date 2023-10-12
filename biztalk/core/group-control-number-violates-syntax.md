@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Group control number violates syntax"
-title: "Group control number violates syntax | Microsoft Docs"
+title: "Group control number violates syntax"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e173c914-cb5c-4369-ac2f-8f9abee420cb
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Group control number violates syntax
 ## Details  

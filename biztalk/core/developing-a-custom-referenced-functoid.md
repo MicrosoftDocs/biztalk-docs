@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Developing a Custom Referenced Functoid"
-title: "Developing a Custom Referenced Functoid | Microsoft Docs"
+title: "Developing a Custom Referenced Functoid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1e26d726-240c-4dfc-baa2-77451b8dc6c5
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developing a Custom Referenced Functoid
 Custom referenced functoids do not copy implementation code inline into the map. Instead, a reference to the assembly, class, and method is placed in the extension object file associated with the generated style sheet and called at run time.  

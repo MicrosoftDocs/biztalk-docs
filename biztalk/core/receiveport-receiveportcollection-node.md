@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: ReceivePort (ReceivePortCollection Node)"
-title: "ReceivePort (ReceivePortCollection Node) | Microsoft Docs"
+title: "ReceivePort (ReceivePortCollection Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 30ae9cef-4e0f-42ca-ac45-fe1fabdfc7c5
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ReceivePort (ReceivePortCollection Node)
 The ReceivePort node of the ReceivePortCollection node of a binding file contains specific information about a receive port that is exported with the binding file.  

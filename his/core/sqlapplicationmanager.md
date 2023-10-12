@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: sqlApplicationManager"
-title: "sqlApplicationManager | Microsoft Docs"
+title: "sqlApplicationManager"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 62debe8b-309c-4d0d-9eec-fa6bf0b02c39
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # sqlApplicationManager
 The sqlApplicationManager element contains the application settings for managing out-bound SQL client connections.  

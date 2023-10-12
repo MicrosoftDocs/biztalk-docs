@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Tracing SnaBase"
-title: "Tracing SnaBase2 | Microsoft Docs"
+title: "Tracing SnaBase2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1e224e3b-5d28-49f6-9988-4b977f15ee23
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Tracing SnaBase
 The following table details SnaBase Trace Options.  

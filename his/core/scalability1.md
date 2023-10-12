@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Scalability"
-title: "Scalability1 | Microsoft Docs"
+title: "Scalability1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e3bfa2ed-5c01-447b-be47-8847f537c8fd
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Scalability
 The IP-DLC link service supports the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] capacity of 30,000 simultaneous host sessions per server.  

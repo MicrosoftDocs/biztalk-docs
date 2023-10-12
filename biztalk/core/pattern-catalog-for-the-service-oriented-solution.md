@@ -1,37 +1,12 @@
 ---
 description: "Learn more about: Pattern Catalog for the Service Oriented Solution"
-title: "Pattern Catalog for the Service Oriented Solution | Microsoft Docs"
+title: "Pattern Catalog for the Service Oriented Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Calling Pipelines from Code pattern [service solutions]"
-  - "Recipient List pattern [service solutions]"
-  - "filters, design patterns"
-  - "Filter pattern [service solutions]"
-  - "caching, patterns [service solutions]"
-  - "Service Interface pattern [service solutions]"
-  - "Content-Based Routing pattern [service solutions]"
-  - "Inline Invocation of Back-End Processes pattern [service solutions]"
-  - "content-based routing, patterns [service solutions]"
-  - "messages, Translator pattern [service solutions]"
-  - "aggregations, patterns [service solutions]"
-  - "Translator pattern, service solutions"
-  - "Caching pattern [service solutions]"
-  - "Aggregation pattern [service solutions]"
-  - "patterns [service solutions], pattern types"
-  - "back-end processes"
-  - "services, interface pattern [service solutions]"
-ms.assetid: 5d8135c5-d5de-4e61-b3e8-2aa7f6de98c8
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Pattern Catalog for the Service Oriented Solution
 The patterns in the service oriented solution include patterns of BizTalk Server-specific programming practices, as well as the enterprise integration patterns in preceding sections. The list in this section includes both kinds of patterns.  

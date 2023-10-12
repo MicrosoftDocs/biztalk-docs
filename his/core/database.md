@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: database"
-title: "database | Microsoft Docs"
+title: "database"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 91a56382-7113-45c8-bbb7-3165a71c08a0
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # database
 The database element contains the network settings for managing out-bound SQL client connections.  

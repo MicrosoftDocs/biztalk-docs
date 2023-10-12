@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: OutboundTransforms (ReceivePort Node)"
-title: "OutboundTransforms (ReceivePort Node) | Microsoft Docs"
+title: "OutboundTransforms (ReceivePort Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "OutboundTransforms node [binding file]"
-ms.assetid: 6deea062-4eb0-47ed-869c-ed6ec9290ea7
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # OutboundTransforms (ReceivePort Node)
 The OutboundTransforms node of the ReceivePort node of a binding file contains the collection of outbound transforms of a two-way receive port that is exported with the binding file.  

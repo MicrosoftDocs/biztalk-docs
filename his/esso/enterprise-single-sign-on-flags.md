@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Enterprise Single Sign-On Flags"
-title: "Enterprise Single Sign-On Flags | Microsoft Docs"
+title: "Enterprise Single Sign-On Flags"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cece2636-d234-439d-8422-0ba7299acdac
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Enterprise Single Sign-On Flags
 The following flags are used with the Microsoft® Host Integration Server Enterprise Single Sign-On (SSO) methods.  

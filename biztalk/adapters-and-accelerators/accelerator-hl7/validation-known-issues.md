@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: Validation Known Issues"
 title: "Validation Known Issues"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "known issues, validating"
-  - "validating, known issues"
-ms.assetid: 136596f2-ee0f-4ea9-918c-3608f2ee1be3
-caps.latest.revision: 8
-
-
-
 ---
 # Validation Known Issues
 This section contains useful information that may help you avoid validation errors.  

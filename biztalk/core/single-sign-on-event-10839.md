@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10839"
-title: "Single Sign-On: Event 10839 | Microsoft Docs"
+title: "Single Sign-On: Event 10839"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fb82e46c-09ca-4f93-b74b-de155f8c8dfd
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10839
 ## Details  

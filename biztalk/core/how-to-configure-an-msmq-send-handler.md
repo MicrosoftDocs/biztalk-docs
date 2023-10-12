@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Configure an MSMQ Send Handler"
-title: "How to Configure an MSMQ Send Handler | Microsoft Docs"
+title: "How to Configure an MSMQ Send Handler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MSMQ adapters, send handlers"
-  - "configuring [MSMQ adapters], send handlers"
-  - "send handlers, MSMQ adapters"
-ms.assetid: 21917596-f27a-473b-859e-186ab5f4cd94
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure an MSMQ Send Handler
 Use the following procedure to change the global variables for an MSMQ send handler.  

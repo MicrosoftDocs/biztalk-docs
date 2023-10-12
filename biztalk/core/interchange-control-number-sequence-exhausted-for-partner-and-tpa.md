@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interchange control number sequence exhausted for Partner and TPA"
-title: "Interchange control number sequence exhausted for Partner and TPA | Microsoft Docs"
+title: "Interchange control number sequence exhausted for Partner and TPA"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e77c0574-bc51-4690-a7f6-5702f6486f05
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interchange control number sequence exhausted for Partner and TPA
 ## Details  

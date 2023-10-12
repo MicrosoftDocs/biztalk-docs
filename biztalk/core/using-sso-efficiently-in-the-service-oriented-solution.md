@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Using SSO Efficiently in the Service Oriented Solution"
-title: "Using SSO Efficiently in the Service Oriented Solution | Microsoft Docs"
+title: "Using SSO Efficiently in the Service Oriented Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSO, service solutions"
-  - "service solution tutorial, SSO"
-  - "SSO, using from code"
-ms.assetid: 809e0ad3-cc7f-4095-87d1-63031675a47f
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using SSO Efficiently in the Service Oriented Solution
 The service oriented solution uses Enterprise Single Sign-On (SSO) both to store configuration values and to handle credentials for the back-end systems. To reduce latency, the solution uses a local cache for the configuration values. The solution refreshes the cache every five minutes.  

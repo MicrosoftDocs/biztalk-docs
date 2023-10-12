@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure a Range of 3270 LUs"
-title: "How to Configure a Range of 3270 LUs2 | Microsoft Docs"
+title: "How to Configure a Range of 3270 LUs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aac8b376-9f6e-486b-b721-42312294c3a1
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Configure a Range of 3270 LUs
 You can create a consecutively numbered range of logical units (LU). To do so, you must identify the base LU name limited to eight characters on which the numbered range of names will be built.  

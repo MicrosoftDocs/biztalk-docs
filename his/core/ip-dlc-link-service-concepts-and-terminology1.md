@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IP-DLC Link Service Concepts and Terminology"
-title: "IP-DLC Link Service Concepts and Terminology1 | Microsoft Docs"
+title: "IP-DLC Link Service Concepts and Terminology1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 98f9dfd2-87d0-400d-af03-cade72ea3ce9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IP-DLC Link Service Concepts and Terminology
 The following is a brief introduction to the terminology and concepts that are referred to in this section, including APPN and HPR.  

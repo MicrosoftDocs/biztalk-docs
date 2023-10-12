@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Runtime, message repair, FIN response, and messaging"
-title: "Runtime, message repair, FIN response, and messaging | Microsoft Docs"
+title: "Runtime, message repair, FIN response, and messaging"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "architecture, about architecture"
-  - "architecture"
-  - "BizTalk Accelerator for SWIFT, architecture"
-ms.assetid: c7f34517-6663-44a6-b6ea-6d55fdb08caf
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Runtime, message repair, FIN response, and messaging
 

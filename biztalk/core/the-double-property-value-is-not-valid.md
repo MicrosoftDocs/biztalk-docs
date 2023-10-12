@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The double property value is not valid"
-title: "The double property value is not valid | Microsoft Docs"
+title: "The double property value is not valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d5e799d8-5fbb-4262-9d1f-4954ba0e0237
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The double property value is not valid
 ## Details  

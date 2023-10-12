@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Extending BizTalk ESB Toolkit Capabilities with SOA Governance"
-title: "Extending BizTalk ESB Toolkit Capabilities with SOA Governance | Microsoft Docs"
+title: "Extending BizTalk ESB Toolkit Capabilities with SOA Governance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b66a121b-d86f-4f97-a05f-5141ffe719e8
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Extending BizTalk ESB Toolkit Capabilities with SOA Governance
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and is a collection of tools and libraries that extend [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] capabilities of supporting a loosely coupled and dynamic messaging architecture. It functions as middleware that provides tools for rapid mediation between services and their consumers. Enabling maximum flexibility at run time, the [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)] simplifies loosely coupled composition of service endpoints and management of service interactions.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Send Adapter Operations"
-title: "Send Adapter Operations | Microsoft Docs"
+title: "Send Adapter Operations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bf4e0430-e3dc-4884-8411-bbcb579bd21e
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Send Adapter Operations
 Send adapters can perform the following operations:  

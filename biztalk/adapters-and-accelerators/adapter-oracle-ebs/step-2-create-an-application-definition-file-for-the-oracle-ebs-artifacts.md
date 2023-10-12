@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Create an application definition file for the Oracle E-Business Suite artifacts"
-title: "Step 2: Create an application definition file for the Oracle E-Business Suite artifacts | Microsoft Docs"
+title: "Step 2: Create an application definition file for the Oracle E-Business Suite artifacts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2665afde-0337-4795-ab4c-6223d39fdf9c
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Create an application definition file for the Oracle E-Business Suite artifacts
 ![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")

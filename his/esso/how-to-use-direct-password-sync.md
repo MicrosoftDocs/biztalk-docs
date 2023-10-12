@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Use Direct Password Sync"
-title: "How to Use Direct Password Sync | Microsoft Docs"
+title: "How to Use Direct Password Sync"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 100acde9-f482-4812-8fd2-c0c477317d81
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Use Direct Password Sync
 This version of Enterprise Single Sign-On includes the Direct Password Sync from Windows feature. This enables you to bypass a Password Sync Adapter and update the password in the ENTSSO Credential Database directly from Windows.  

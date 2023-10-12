@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AddResource Command: COM Component"
-title: "AddResource Command: COM Component | Microsoft Docs"
+title: "AddResource Command: COM Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 86a4f2fc-bbbe-4b4a-8008-2c79b3ebb6a1
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AddResource Command: COM Component
 To add an unmanaged COM component to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:Com** for the Type parameter. Running this command adds the COM component to the BizTalk Management database. The COM component is also displayed in the BizTalk Administration console, in the Resources folder of the application to which you added it. In addition, the component is listed when you use the [ListApp Command](../core/listapp-command.md).  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The hash algorithm specified in the AS2 message is unsupported"
-title: "The hash algorithm specified in the AS2 message is unsupported | Microsoft Docs"
+title: "The hash algorithm specified in the AS2 message is unsupported"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1b292238-f964-4275-bbfa-e21c9150abf7
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The hash algorithm specified in the AS2 message is unsupported
 ## Details  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Exclusion Condition Violated"
-title: "Exclusion Condition Violated | Microsoft Docs"
+title: "Exclusion Condition Violated"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0e508da6-7edc-45c0-a7ab-f23337dc1b54
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exclusion Condition Violated
 ## Details  

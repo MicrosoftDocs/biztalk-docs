@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Buffer Element Format"
-title: "Buffer Element Format2 | Microsoft Docs"
+title: "Buffer Element Format2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1a54053b-20d4-4682-9853-448892fb0e7a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Buffer Element Format
 The following table lists the common fields that always occur at the start of a buffer element. The **dataru** field contains information specific to the particular message. For details about individual message formats, see [FMI Message Formats](./fmi-message-formats2.md).  

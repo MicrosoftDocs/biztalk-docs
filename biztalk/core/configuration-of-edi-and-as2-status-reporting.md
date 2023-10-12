@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuration of EDI and AS2 Status Reporting"
-title: "Configuration of EDI and AS2 Status Reporting | Microsoft Docs"
+title: "Configuration of EDI and AS2 Status Reporting"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0c7fa76d-0d03-4b74-9a3a-60f4bd0534ff
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuration of EDI and AS2 Status Reporting
 This topic describes the enabling of EDI and AS2 status reporting, and the configuration of status report filters and display columns for EDI, batching, and AS2 status reports.  

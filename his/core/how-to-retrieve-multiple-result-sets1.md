@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Retrieve Multiple Result Sets"
-title: "Retrieve Multiple Result Sets | Microsoft Docs"
+title: "Retrieve Multiple Result Sets"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d79b122e-da1a-459a-8331-154816d7db0a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Retrieve Multiple Result Sets
 `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader` provides the `Microsoft.HostIntegration.MsDb2Client.MsDb2DataReader.NextResult%2A` method to iterate through multiple returned results.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Numeric Range Dimension"
-title: "Numeric Range Dimension | Microsoft Docs"
+title: "Numeric Range Dimension"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "aggregations [BAM], Numeric Range dimension"
-  - "Numeric Range dimension [BAM]"
-ms.assetid: a874ce44-b034-498f-ba58-114028dbef2c
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Numeric Range Dimension
 The numeric range dimension allows aggregations to be categorized based on friendly names of given ranges. For example, a business analyst can define a numeric range dimension named PO Size with the ranges Small for purchase orders between 0-$100, Medium for purchase orders between $100 to $1,000, and Large for purchase orders exceeding $1,000.  

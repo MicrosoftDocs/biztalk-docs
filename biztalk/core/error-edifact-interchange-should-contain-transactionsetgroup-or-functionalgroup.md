@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags"
-title: "Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags | Microsoft Docs"
+title: "Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 34318133-211f-422d-acdf-b841ece5d2b0
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags
 ## Details  

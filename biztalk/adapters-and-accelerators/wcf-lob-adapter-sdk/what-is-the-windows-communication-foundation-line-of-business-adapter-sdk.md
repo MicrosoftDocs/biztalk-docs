@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: What Is the Windows Communication Foundation Line of Business Adapter SDK"
-title: "What Is the Windows Communication Foundation Line of Business Adapter SDK | Microsoft Docs"
+title: "What Is the Windows Communication Foundation Line of Business Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dc690e8f-fd37-44b5-a277-89952e631ae6
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is the Windows Communication Foundation Line of Business Adapter SDK
 Overview of the features and components in the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. This topic also describes the key concepts, including metadata, connection management, and terms to know, such as binding and channel.

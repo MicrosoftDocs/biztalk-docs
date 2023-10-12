@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Receive Polling-based Data-changed Messages in Oracle Database using the WCF Service Model"
-title: "Receive Polling-based Data-changed Messages in Oracle Database using the WCF Service Model | Microsoft Docs"
+title: "Receive Polling-based Data-changed Messages in Oracle Database using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF service model, receiving polling-based messages"
-  - "how to, receive polling-based message"
-  - "polling-based messages, receiving by using the WCF service model"
-ms.assetid: 0324e8bf-d9d1-46f5-b896-b9fc8e61d514
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive Polling-based Data-changed Messages in Oracle Database using the WCF Service Model
 You can configure the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] to receive polling-based data changed messages against an Oracle table or view. To receive data-changed messages, the adapter periodically executes a SQL query against an Oracle table or view followed by an optional PL/SQL code block. The results of the SQL query are then returned by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to your application as a strongly-typed result set in an inbound POLLINGSTMT operation. For more information about the mechanism used to configure and perform polling on an Oracle database using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Receive polling-based data-changed messages in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md). We strongly recommended that you read this topic before proceeding.  

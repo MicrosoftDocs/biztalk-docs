@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Browse, search, and get metadata for SQL operations using the SQL adapter"
-title: "Browse, search, and get metadata for SQL operations using the SQL adapter | Microsoft Docs"
+title: "Browse, search, and get metadata for SQL operations using the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cdd5ca6f-30ff-4d32-a656-bbd54b9d072e
-caps.latest.revision: 30
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Browse, search, and get metadata for SQL operations using the SQL adapter
 This section provides information about how to use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. By using these [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components, you can:  

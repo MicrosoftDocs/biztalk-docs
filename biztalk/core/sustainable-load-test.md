@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Sustainable Load Test"
-title: "Sustainable Load Test | Microsoft Docs"
+title: "Sustainable Load Test"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "sustainable load test"
-  - "LoadGen tool, sustainable load test"
-ms.assetid: a9d752ff-aff1-4445-8af5-8f84609880e2
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sustainable Load Test
 The information in this topic refers to the tests explained in [Test Scenarios for Measuring MST of the Engine](../core/test-scenarios-for-measuring-mst-of-the-engine.md).  
