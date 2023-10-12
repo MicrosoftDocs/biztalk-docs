@@ -1,19 +1,12 @@
 ---
-title: "Set string justification in JD Edwards OneWorld adapter | Microsoft Docs"
+title: "Set string justification in JD Edwards OneWorld adapter"
 description: Update jdearglist file to use the JD Edwards OneWorld adapter in a BizTalk Server orchestration
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1c9b013a-839d-45f1-9da0-c96fd45b25e5
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Set string Justification in Jdearglist
 

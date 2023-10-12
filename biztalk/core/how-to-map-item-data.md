@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Map Item Data"
-title: "How to Map Item Data | Microsoft Docs"
+title: "How to Map Item Data"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "data extraction"
-  - "orchestrations, data extraction"
-  - "orchestrations, tracking profiles"
-  - "tracking profiles, orchestrations"
-  - "tracking profiles, data extraction"
-ms.assetid: ae8b395e-152a-4e08-af31-3c9276f52711
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Map Item Data
 You map item data to define the data extraction from an orchestration.  

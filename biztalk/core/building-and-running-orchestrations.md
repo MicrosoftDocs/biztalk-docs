@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Building and Running Orchestrations"
-title: "Building and Running Orchestrations | Microsoft Docs"
+title: "Building and Running Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "building, orchestrations"
-  - "orchestrations, running"
-  - "orchestrations, building"
-ms.assetid: a58c62eb-40db-4272-9b94-4a1926f108c0
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Building and Running Orchestrations
 After you have designed your orchestration, you can compile and run it to test it for completeness and correctness.  

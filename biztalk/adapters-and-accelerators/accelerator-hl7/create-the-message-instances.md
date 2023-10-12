@@ -1,19 +1,9 @@
 ---
 description: "Learn more about: Create the Message Instances"
 title: "Create the Message Instances"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: d75cb744-99a0-44bc-9a84-d4f8f66fd97e
-caps.latest.revision: 3
-
-
-
 ---
 # Create the Message Instances
 Use the following procedures to create the ADT^A03.txt message file, and to create the message instances that you will need to use when you run the Batching tutorial.  

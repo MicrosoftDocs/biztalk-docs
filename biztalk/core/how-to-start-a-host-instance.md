@@ -1,19 +1,12 @@
 ---
-title: "Start a Host Instance | Microsoft Docs"
+title: "Start a Host Instance"
 description: Use BizTalk Administration to start a host instance in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a96a4362-2147-4b8e-a270-bf9a17477ba3
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Start a Host Instance
 You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or Windows Management Instrumentation (WMI) to start host instances. After you add or stop a host instance, you must start it so that it is running and routing messages to the MessageBox databases.  

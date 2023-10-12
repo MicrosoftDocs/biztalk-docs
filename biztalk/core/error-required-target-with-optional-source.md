@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Required Target with Optional Source"
-title: "Error - Required Target with Optional Source | Microsoft Docs"
+title: "Error - Required Target with Optional Source"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.reqdTargetWithOptionalSource"
-ms.assetid: 3f342011-4577-4682-8324-8296615d5194
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Required Target with Optional Source
 **Error Code**  

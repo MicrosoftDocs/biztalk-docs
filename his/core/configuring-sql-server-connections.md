@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configuring SQL Server Connections"
-title: "Configuring SQL Server Connections | Microsoft Docs"
+title: "Configuring SQL Server Connections"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ee1d6324-e254-4abe-87a7-6290d23067a2
-caps.latest.revision: 11
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configuring SQL Server Connections
 The DRDA Service communicates to upstream local or remote SQL Server databases using the ADO.NET Framework Provider for SQL Server. The underlying SQL Client access SQL Server via an in-memory connection, or across a network using either Named Pipes or TCP/IP. The SQL Client supports optional encryption and failover features to improve security and reliability. The DRDA Service supports optional single sign-on and pooling features to improve security and performance. You can edit the MsDrdaService.exe.config file to instruct the DRDA Service on how to manage the SQL client to SQL Server connections.  

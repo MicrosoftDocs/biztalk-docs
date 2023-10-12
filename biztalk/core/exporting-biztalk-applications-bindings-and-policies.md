@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Exporting BizTalk Applications, Bindings, and Policies"
-title: "Exporting BizTalk Applications, Bindings, and Policies | Microsoft Docs"
+title: "Exporting BizTalk Applications, Bindings, and Policies"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "policies, exporting"
-  - "exporting, policies"
-  - "bindings, exporting"
-  - "exporting, applications"
-  - "applications, exporting"
-  - "exporting, bindings"
-ms.assetid: ac101206-be49-47c9-a354-4f39e8b77acf
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exporting BizTalk Applications, Bindings, and Policies
 This section describes how to export a BizTalk application, bindings, or policies. You can export some or all of the artifacts contained in a BizTalk application, or you can export only its bindings or policies. Exporting an application creates a Windows Installer (.msi) file containing the application artifacts that you selected for export. Exporting bindings or policies creates an .xml file of the bindings or policies. For background information on this process, see [What Happens When Artifacts Are Exported](../core/what-happens-when-artifacts-are-exported.md).  

@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Server Configuration"
-title: "Server Configuration1 | Microsoft Docs"
+title: "Server Configuration1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_Server_Change"
-ms.assetid: 82fd2619-e70d-4ce7-9934-6671fe35d319
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Server Configuration
 **Subdomain Name**  

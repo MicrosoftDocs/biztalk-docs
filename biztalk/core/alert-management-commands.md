@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Alert Management Commands"
-title: "Alert Management Commands | Microsoft Docs"
+title: "Alert Management Commands"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a96d8de7-a918-4737-aa35-4e1abf6bb08f
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Alert Management Commands
 The BAM management utility alert management commands allow you to work with deployed alerts.  

@@ -4,15 +4,6 @@ description: Learn more about the logging process, event monitoring, and service
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
-
-helpviewer_keywords: 
-  - "logging, about logging"
-  - "auditing, about auditing"
-  - "logging"
-  - "auditing"
-ms.assetid: 859ee1f5-aae4-4a47-ab39-8d2b4168a429
-caps.latest.revision: 8
-
 ---
 
 # Logging process, event monitoring, and service debugging

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Operations on PL/SQL APIs"
-title: "Operations on PL-SQL APIs | Microsoft Docs"
+title: "Operations on PL-SQL APIs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d47b894d-1047-48ed-8f8c-865c343a12db
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations on PL/SQL APIs
 

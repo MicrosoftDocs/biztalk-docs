@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring EDIFACT-Specific Agreement Properties"
-title: "Configuring EDIFACT-Specific Agreement Properties | Microsoft Docs"
+title: "Configuring EDIFACT-Specific Agreement Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fe77a4a4-781f-4011-9608-48c2cf51efed
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring EDIFACT-Specific Agreement Properties
 This section describes party property pages that are specific to EDIFACT encoding. An EDIFACT agreement between two business profiles will have the interchange related settings and transaction set related settings. This section provides information on providing values for both the settings.  

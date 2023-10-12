@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning the BizTalk Server Tier"
-title: "Planning the BizTalk Server Tier | Microsoft Docs"
+title: "Planning the BizTalk Server Tier"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aaeab350-9c4e-4a88-a987-3ccf962f1968
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning the BizTalk Server Tier
 This section contains topics with planning recommendations for the application tier of a BizTalk solution.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using Map File Properties for Testing"
-title: "Using Map File Properties for Testing | Microsoft Docs"
+title: "Using Map File Properties for Testing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 47798d09-b31e-4131-b75c-f4c51fd1d464
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Map File Properties for Testing
 

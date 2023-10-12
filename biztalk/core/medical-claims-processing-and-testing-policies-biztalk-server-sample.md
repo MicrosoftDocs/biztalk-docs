@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Medical Claims Processing and Testing Policies (BizTalk Server Sample)"
-title: "Medical Claims Processing and Testing Policies (BizTalk Server Sample) | Microsoft Docs"
+title: "Medical Claims Processing and Testing Policies (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, business rules"
-  - "business rules, examples"
-ms.assetid: c0bdf7b7-3e55-4560-a5a8-00c5b661d14d
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Medical Claims Processing and Testing Policies (BizTalk Server Sample)
 The Medical Claims Processing and Testing Policies sample demonstrates how to create a rule set containing multiple rules that examine facts derived from a database table and the inbound document, and which use .NET-based objects to record the results of the claims processing.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Unable to export service endpoint configuration"
-title: "Unable to export service endpoint configuration | Microsoft Docs"
+title: "Unable to export service endpoint configuration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 795145fa-0ce4-498f-a82e-eb752a5f4764
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unable to export service endpoint configuration
 ## Details  

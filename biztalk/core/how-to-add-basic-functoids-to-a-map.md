@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Add Basic Functoids to a Map"
-title: "How to Add Basic Functoids to a Map | Microsoft Docs"
+title: "How to Add Basic Functoids to a Map"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6a81fb73-cccf-4f74-af92-39e4af13e255
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add Basic Functoids to a Map
 Many functoids are very simple to use. These are referred to here as basic functoids to distinguish them from the functoids in the **Advanced** category. Basic functoids comprise the remaining categories of functoids such as Conversion, Cumulative, Database, Date and Time, Logical, Mathematical, Scientific, and String.  

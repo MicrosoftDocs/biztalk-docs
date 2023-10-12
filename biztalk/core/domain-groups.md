@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Domain Groups in BizTalk"
-title: "Domain Groups | Microsoft Docs"
+title: "Domain Groups"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9adc090e-e18c-46b6-b985-49b200d42966
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Domain Groups in BizTalk
 BizTalk Server supports domain group and user accounts in both single and multiple computer configurations. For multiple computer configurations, you must observe the requirements provided in this section and in the Considerations for Multiserver Environments in the Installation Guide. For more information, see the [installation overview](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).  

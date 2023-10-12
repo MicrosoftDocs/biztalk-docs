@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Number of included transaction sets do not match"
-title: "Number of included transaction sets do not match | Microsoft Docs"
+title: "Number of included transaction sets do not match"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: db958803-4667-4558-81a6-70c62d6fe8bf
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Number of included transaction sets do not match
 ## Details  

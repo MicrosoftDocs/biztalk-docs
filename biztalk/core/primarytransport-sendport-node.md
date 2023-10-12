@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: PrimaryTransport (SendPort Node)"
-title: "PrimaryTransport (SendPort Node) | Microsoft Docs"
+title: "PrimaryTransport (SendPort Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "PrimaryTransport node [binding file]"
-ms.assetid: 22b68d27-f280-4272-84b8-8a50f230228a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # PrimaryTransport (SendPort Node)
 The PrimaryTransport node of the SendPort node of a binding file provides specific information about the primary transport that is bound to a send port exported with the binding file.  

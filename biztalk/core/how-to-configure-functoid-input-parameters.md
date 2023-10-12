@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: How to Configure Functoid Input Parameters"
-title: "How to Configure Functoid Input Parameters | Microsoft Docs"
+title: "How to Configure Functoid Input Parameters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "bts10.mapper.functoid.inputs"
-ms.assetid: 2c8f773a-932c-423d-b3fe-724265304b0a
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Functoid Input Parameters
 Properly configuring the input parameters to the functoids in your map is one of the most important, and potentially error-prone, aspects of using functoids. You can configure the functoid input parameters as follows:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: FindSNAService"
-title: "FindSNAService2 | Microsoft Docs"
+title: "FindSNAService2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 321ac6cd-2e25-4efa-b783-9c76c889dcd0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # FindSNAService
 The **FindSNAService** function is written as a parallel to [CreateSNAService](../core/createsnaservice1.md). It is written to provide an easy way to access the keys for a particular service.  

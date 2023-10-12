@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Differences by Information Type"
-title: "Differences by Information Type1 | Microsoft Docs"
+title: "Differences by Information Type1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 897e4b4a-5483-48f7-81f4-b6b1903c348f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Differences by Information Type
 Differences in the implementation of the **DISPLAY** verb between Host Integration Server and IBM ES for OS/2 are described in this section by information type. For each information type, there is a topic that describes:  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues for the WCF Adapters"
-title: "Known Issues for the WCF Adapters | Microsoft Docs"
+title: "Known Issues for the WCF Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 423c6021-5fb7-48c9-9319-11e7a18c775c
-caps.latest.revision: 54
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues for the WCF Adapters
 This topic describes the known issues for the WCF adapters included with BizTalk Server.

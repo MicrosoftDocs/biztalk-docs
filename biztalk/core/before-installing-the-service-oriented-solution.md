@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Before Installing the Service Oriented Solution"
-title: "Before Installing the Service Oriented Solution | Microsoft Docs"
+title: "Before Installing the Service Oriented Solution"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "service solution tutorial, deployment prerequisites"
-ms.assetid: 865bd21c-e49a-4647-af91-fefee07ee806
-caps.latest.revision: 36
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Before Installing the Service Oriented Solution
 The following prerequisites must be available to install the stub version of the service-oriented solution on a single computer:  

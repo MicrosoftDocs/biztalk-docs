@@ -1,23 +1,12 @@
 ---
 description: "Learn how to add and populate Catch Exception blocks in BizTalk Server."
-title: "How to Add a Catch Exception Block6 | Microsoft Docs"
+title: "How to Add a Catch Exception Block6"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "exception handling, Catch Exception block"
-  - "Catch Exception blocks"
-  - "exceptions, Catch Exception block"
-ms.assetid: 404312dd-773b-44fe-8b65-7de3d0af2f79
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Catch Exception Blocks
 

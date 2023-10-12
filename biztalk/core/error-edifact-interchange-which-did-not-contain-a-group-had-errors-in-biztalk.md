@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error encountered during serialization. The Edifact interchange which did not contain a group had the following errors"
-title: "Error encountered during serialization. The Edifact interchange which did not contain a group had the following errors | Microsoft Docs"
+title: "Error encountered during serialization. The Edifact interchange which did not contain a group had the following errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: af693139-e4cd-4bcb-922c-79caa148d3b7
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error encountered during serialization. The Edifact interchange which did not contain a group had the following errors
 ## Details  

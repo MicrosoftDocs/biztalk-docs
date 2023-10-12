@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Transforms (ReceivePort Node)"
-title: "Transforms (ReceivePort Node) | Microsoft Docs"
+title: "Transforms (ReceivePort Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Transforms node [binding file]"
-ms.assetid: cd32f2fe-b70a-4153-86ec-bb1aa9bad0e4
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Transforms (ReceivePort Node)
 The Transforms node of the ReceivePort node of a binding file contains the collection of inbound transforms of a one way receive port that is exported with the binding file.  

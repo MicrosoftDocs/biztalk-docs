@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure Downstream Connections"
-title: "How to Configure Downstream Connections1 | Microsoft Docs"
+title: "How to Configure Downstream Connections1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9a9dd2ab-6205-46e9-950b-8eaf6bc135b7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Configure Downstream Connections
 You can configure [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] to enable downstream LUs to communicate with the host. Following are the general procedures:  

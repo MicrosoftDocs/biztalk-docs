@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Test Results: Memory Key Performance Indicators"
-title: "Test Results: Memory Key Performance Indicators | Microsoft Docs"
+title: "Test Results: Memory Key Performance Indicators"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 224c40e5-08a7-4d30-b03a-4b6add5cde1f
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Test Results: Memory Key Performance Indicators
 This topic summarizes Memory Key Performance Indicators (KPI) observed during the test scenarios. These tests evaluated available memory as measured by the **\Memory\Available Mbytes** performance monitor counter.  

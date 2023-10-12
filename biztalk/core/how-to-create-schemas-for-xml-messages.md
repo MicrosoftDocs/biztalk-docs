@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Create Schemas for XML Messages"
-title: "How to Create Schemas for XML Messages | Microsoft Docs"
+title: "How to Create Schemas for XML Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a0270293-fe23-42bd-b090-e877d5e9ce0b
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create Schemas for XML Messages
 There are several methods for creating BizTalk message schemas. This topic provides step-by-step instructions for some of those methods.  

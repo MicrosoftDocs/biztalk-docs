@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Use Self-Correlating Direct Bound Ports"
-title: "How to Use Self-Correlating Direct Bound Ports | Microsoft Docs"
+title: "How to Use Self-Correlating Direct Bound Ports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: feb651fa-3e35-4598-b229-335448f6919c
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use Self-Correlating Direct Bound Ports
 Self-correlating direct bound ports are self referential. This means that a self-correlating direct bound port supplies the information that an orchestration can use to send messages back to its enclosing orchestration. When using the self-correlating direct binding, the orchestration engine generates a correlation token on a message that is particular to the orchestration instance. This provides the capability of getting messages back to a particular orchestration instance without using a correlation set.

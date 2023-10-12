@@ -1,18 +1,12 @@
 ---
 description: "Learn about the syntax and attributes of the sqlToDb2 element."
-title: "sqlToDb22 | Microsoft Docs"
+title: "sqlToDb22"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 418b8eb1-dc1a-4d02-8bf3-86cf3bcc003c
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # sqlToDb2 Overview
 

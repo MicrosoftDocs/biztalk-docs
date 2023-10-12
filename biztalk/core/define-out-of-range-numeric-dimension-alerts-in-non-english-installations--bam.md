@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Define Out-of-Range Numeric Dimension Alerts In Non-English Installations"
-title: "How to Define Out-of-Range Numeric Dimension Alerts In Non-English Installations | Microsoft Docs"
+title: "How to Define Out-of-Range Numeric Dimension Alerts In Non-English Installations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7f1e0373-eadf-4c6d-9a38-a34d847f310f
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Define Out-of-Range Numeric Dimension Alerts In Non-English Installations
 When setting alerts that include a condition for a value that is outside the defined numeric range dimension on non-English installations, you must manually modify the BAM definition with the localized version of the string **out of range**.  

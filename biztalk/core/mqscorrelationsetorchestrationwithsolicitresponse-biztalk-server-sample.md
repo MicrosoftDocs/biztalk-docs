@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server Sample)"
-title: "MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server Sample) | Microsoft Docs"
+title: "MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server Sample)"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, MQSeries adapters"
-  - "orchestrations, examples"
-  - "examples, orchestrations"
-  - "examples, messages"
-  - "messages, examples"
-  - "MQSeries adapters, examples"
-ms.assetid: 5127d743-bb79-4e97-a2f3-446892e1bfa0
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server Sample)
 The MQSCorrelationSetOrchestrationWithSolicitResponse sample demonstrates how to use a correlation identifier produced by the MQSeries Server instead of by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

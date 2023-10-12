@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Snacfg LUA"
-title: "Snacfg LUA2 | Microsoft Docs"
+title: "Snacfg LUA2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3d4f0013-c195-4b69-bfc4-830ba81bf32c
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Snacfg LUA
 ## Purpose  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Charset and Separators (EDIFACT)"
-title: "Configuring Charset and Separators (EDIFACT) | Microsoft Docs"
+title: "Configuring Charset and Separators (EDIFACT)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d4764938-0968-4536-9eb6-d600c03a0428
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Charset and Separators (EDIFACT)
 In the partner agreement, you can specify the character set (UNA) that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use to validate party properties when creating the envelope for an outgoing EDIFACT message. You can also specify what separators and terminators (UNB) will be used for the segments in the interchange.  

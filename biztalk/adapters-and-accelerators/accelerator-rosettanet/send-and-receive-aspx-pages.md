@@ -1,37 +1,12 @@
 ---
 description: "Learn more about: Send and Receive ASPX Pages"
-title: "Send and Receive ASPX Pages | Microsoft Docs"
+title: "Send and Receive ASPX Pages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BTARN, ASPX pages"
-  - "ASPX pages, initiator"
-  - "HTTP adapters"
-  - "connections, HTTP adapters"
-  - "connections, single-action"
-  - "ASPX pages, responder"
-  - "single-action connections"
-  - "RNIFSend.aspx"
-  - "connections, asynchronous"
-  - "ASPX pages, about ASPX pages"
-  - "double-action connections"
-  - "connections, synchronous"
-  - "connections, double-action"
-  - "ASPX pages"
-  - "HTTP adapters, connections"
-  - "asynchronous connections"
-  - "RNIFReceive.aspx"
-  - "synchronous connections"
-ms.assetid: 21e52390-35d8-44b1-a5cd-1cd60cfe6e61
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Send and Receive ASPX Pages
 The Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] ASPX pages are the direct interfaces between [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] and the Internet. The two ASPX pages are the receive page (RNIFReceive.aspx) and the send page (RNIFSend.aspx). Each ASPX page is an extension to the corresponding [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] pipeline. The pipeline requires the ASPX page to handle RosettaNet Implementation Framework (RNIF) headers. The pipeline performs most of the HTTP processing; however, each ASPX page performs the HTTP processing of the RNIF headers. The pages augment the functionality in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] HTTP adapter.  

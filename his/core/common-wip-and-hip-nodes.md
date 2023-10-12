@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Common WIP and HIP Nodes"
-title: "Common WIP and HIP Nodes | Microsoft Docs"
+title: "Common WIP and HIP Nodes"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a3e1caac-8ce1-40ec-a42a-61c19969080a
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Common WIP and HIP Nodes
 The following nodes are common to both Host-Initiated Processing and Windows-Initiated Processing.

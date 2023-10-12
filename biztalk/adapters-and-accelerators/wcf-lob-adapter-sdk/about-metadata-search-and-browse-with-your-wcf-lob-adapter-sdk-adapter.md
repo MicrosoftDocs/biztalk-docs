@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: About metadata search and browse with your WCF LOB Adapter SDK adapter"
-title: "About metadata search and browse with your WCF LOB Adapter SDK adapter | Microsoft Docs"
+title: "About metadata search and browse with your WCF LOB Adapter SDK adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1dc529ba-86ce-4f83-a4f8-73f5765308e2
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # About metadata search and browse with your WCF LOB Adapter SDK adapter
 Unlike a static service built using the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)], adapters built using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] can provide dynamic information about the types and operations available in a line-of-business system. Developers can support the following operations:  

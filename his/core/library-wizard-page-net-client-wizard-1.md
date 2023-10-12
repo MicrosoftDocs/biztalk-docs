@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Library Wizard Page (.NET Client Wizard)"
-title: "Library Wizard Page (.NET Client Wizard)1 | Microsoft Docs"
+title: "Library Wizard Page (.NET Client Wizard)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15455"
-ms.assetid: 470c5302-4cf7-4f2f-8d4d-aca4611a012d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Library Wizard Page (.NET Client Wizard)
 Use the **Library** wizard page to identify the .NET client library you are creating.  

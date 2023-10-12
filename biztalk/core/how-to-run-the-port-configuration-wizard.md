@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Run the Port Configuration Wizard"
-title: "How to Run the Port Configuration Wizard | Microsoft Docs"
+title: "How to Run the Port Configuration Wizard"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Port Configuration Wizard [Orchestration Designer], starting"
-  - "Port Configuration Wizard [Orchestration Designer], how to"
-  - "Port Configuration Wizard [Orchestration Designer], about Port Configuration Wizard"
-  - "ports, Port Configuration Wizard [Orchestration Designer]"
-  - "Port Configuration Wizard [Orchestration Designer]"
-ms.assetid: 8035ce32-5ed4-49cb-b6f0-998b0460751e
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Run the Port Configuration Wizard
 You use the Port Configuration Wizard to create and configure a port in Orchestration Designer. A port must have a port type associated with it, and you use the wizard to select an existing port type or to create a new port type. For more information about ports and port types, see [Using Ports in Orchestrations](../core/using-ports-in-orchestrations.md).  

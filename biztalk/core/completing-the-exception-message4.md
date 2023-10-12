@@ -1,22 +1,12 @@
 ---
 description: "Learn how to complete the flow of exception messages in Microsoft BizTalk Server by redirecting a fault message to a monitored folder."
-title: "Completing the Exception Message4 | Microsoft Docs"
+title: "Completing the Exception Message4"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, completing exception flow"
-  - "exceptions, completing message"
-ms.assetid: 689ccfff-d4c3-415f-93df-00785a3882a9
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Completing the Exception Message Flow
 

@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Requirements for Using the BAM Add-In for Excel"
-title: "Requirements for Using the BAM Add-In for Excel | Microsoft Docs"
+title: "Requirements for Using the BAM Add-In for Excel"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "data analysis [BAM], Excel add-in"
-  - "Excel add-in [BAM], add-in"
-  - "BAM, Excel add-in"
-  - "managing [BAM], data analysis"
-  - "data analysis [BAM], real-time data"
-ms.assetid: 628a7ec5-4cfb-4abd-bdff-4e1f75cb5375
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Requirements for Using the BAM Add-In for Excel
 Business analysts use the BAM Add-In for Excel to define the events and data to be tracked, along with the logical groupings and aggregations of the tracked data views that users are able to access.  

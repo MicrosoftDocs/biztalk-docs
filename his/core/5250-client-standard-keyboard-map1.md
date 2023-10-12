@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: 5250 Client Standard Keyboard Map"
-title: "5250 Client Standard Keyboard Map1 | Microsoft Docs"
+title: "5250 Client Standard Keyboard Map1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: db7371c7-9121-4a01-a66f-ffe820192163
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # 5250 Client Standard Keyboard Map
 The following table maps values from the 5250 keyboard to the Enhanced 101 keyboard.  

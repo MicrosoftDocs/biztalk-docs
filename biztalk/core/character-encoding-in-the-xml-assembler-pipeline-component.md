@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Character Encoding in the XML Assembler Pipeline Component"
-title: "Character Encoding in the XML Assembler Pipeline Component | Microsoft Docs"
+title: "Character Encoding in the XML Assembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "IBaseMessagePart.Charset property"
-  - "XMLNorm.SourceCharset property"
-  - "pipeline components, XML Assembler"
-  - "XMLNorm.TargetCharset property"
-  - "Target Charset property"
-  - "XML Assembler [pipeline component], character encoding"
-ms.assetid: c031fbbf-f00f-41ba-8ac9-cec7d625cef6
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Character Encoding in the XML Assembler Pipeline Component
 The XML Assembler pipeline component can produce messages in user-specified character encoding in two ways, as shown in the following table.  

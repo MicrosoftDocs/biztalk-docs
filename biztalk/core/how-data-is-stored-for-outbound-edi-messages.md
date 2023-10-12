@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How Data Is Stored for Outbound EDI Messages"
-title: "How Data Is Stored for Outbound EDI Messages | Microsoft Docs"
+title: "How Data Is Stored for Outbound EDI Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a6e576fc-37fd-417d-ae68-607a0a8bcc0a
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How Data Is Stored for Outbound EDI Messages
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does the following to generate a status report entry for an outbound interchange:  

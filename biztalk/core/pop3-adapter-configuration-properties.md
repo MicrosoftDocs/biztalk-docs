@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: POP3 Adapter Configuration Properties"
-title: "POP3 Adapter Configuration Properties | Microsoft Docs"
+title: "POP3 Adapter Configuration Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, adapters"
-  - "POP3 adapters, receive locations"
-  - "POP3 adapters, code sample"
-  - "POP3 adapters, properties"
-ms.assetid: e30c848d-afff-42f3-8162-c7ea8c7e3b9a
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # POP3 Adapter Configuration Properties
 The following table lists the configuration properties that you can set for a POP3 adapter receive location:  

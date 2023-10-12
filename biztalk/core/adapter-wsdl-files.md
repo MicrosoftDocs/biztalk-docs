@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adapter WSDL Files"
-title: "Adapter WSDL Files | Microsoft Docs"
+title: "Adapter WSDL Files"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4d4b35c0-1e4b-4106-8921-29d14f976d65
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adapter WSDL Files
 In the Add Adapter Metadata Wizard the Web Services Description Language (WSDL) file is selected and input on the **Select Services to Import** page. The wizard reads the WSDL files exposed by the service and selected by the user. It then creates and adds an XSD file and an orchestration in the BizTalk project.  

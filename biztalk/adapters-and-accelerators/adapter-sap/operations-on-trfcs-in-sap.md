@@ -1,33 +1,12 @@
 ---
 description: "Learn more about: Operations on tRFCs in SAP"
-title: "Operations on tRFCs in SAP | Microsoft Docs"
+title: "Operations on tRFCs in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "RFCs, invoking transactional RFCs in an SAP System"
-  - "TID database"
-  - "transactional RFCs"
-  - "tRFCs, receiving inbound iransactional RFC calls from an SAP system"
-  - "tRFCs"
-  - "GUID parameter"
-  - "RFCs, processing inbound"
-  - "RfcConfirmTransID"
-  - "transaction ID (TID)"
-  - "tRFC Operations"
-  - "IDOCS, receiving IDOCs as a tRFC server"
-  - "adapters, operations on tRFCs"
-  - "RFC, invoking an RFC"
-ms.assetid: d6a5c515-d6aa-4b70-9c23-32d1dd94d473
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations on tRFCs in SAP
 Transactional RFCs (tRFCs) are RFCs that are invoked as part of a logical unit of work (LUW). On an SAP system, an LUW contains all of the steps necessary to complete a business or programming task. A tRFC represents a way of invoking an RFC; it is not a unique SAP artifact.  

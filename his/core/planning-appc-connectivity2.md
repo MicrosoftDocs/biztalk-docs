@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning APPC Connectivity"
-title: "Planning APPC Connectivity2 | Microsoft Docs"
+title: "Planning APPC Connectivity2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bb9e39a5-44cf-47d2-9c4e-80b7e2cebac6
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Planning APPC Connectivity
 

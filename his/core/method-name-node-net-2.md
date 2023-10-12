@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Method Name Node (.NET)"
-title: "Method Name Node (.NET)2 | Microsoft Docs"
+title: "Method Name Node (.NET)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15467"
-ms.assetid: 31c93479-31d1-434e-8ae3-4d349028c8ab
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Method Name Node (.NET)
 Use the ***method name*** node to view the list of all the methods parameters.  

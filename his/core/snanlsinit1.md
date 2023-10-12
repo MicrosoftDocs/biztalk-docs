@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SnaNlsInit"
-title: "SnaNlsInit1 | Microsoft Docs"
+title: "SnaNlsInit1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d563fcdc-5cb9-444a-aa79-78e2ef20eba4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SnaNlsInit
 The **SnaNlsInit** function is called to determine if the code page needed is supported by code page translations using SNA National Language Support (SNANLS). This enables an application to determine if the necessary NLS language files containing code page translation tables are installed on the local system.  

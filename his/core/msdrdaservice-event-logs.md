@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsDrdaService Event Logs"
-title: "MsDrdaService Event Logs | Microsoft Docs"
+title: "MsDrdaService Event Logs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 14be169d-4355-458f-ae87-2e82373d9387
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsDrdaService Event Logs
 The DRDA Server logs events to the Microsoft Windows application and service log named “DrdaService”. IT professionals can view this log using the Microsoft Windows Event Viewer. The DRDA Server logs events to the Event Viewer.

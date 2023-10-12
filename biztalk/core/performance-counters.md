@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Performance Counters"
-title: "Performance Counters | Microsoft Docs"
+title: "Performance Counters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "technical reference, performance counters"
-  - "performance, technical reference"
-  - "performance, performance counters"
-ms.assetid: bdc64017-c74e-4cf0-8769-d27e60161439
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Performance Counters
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes performance counters that you can use to detect bottlenecks. These performance counters are described in this section.  

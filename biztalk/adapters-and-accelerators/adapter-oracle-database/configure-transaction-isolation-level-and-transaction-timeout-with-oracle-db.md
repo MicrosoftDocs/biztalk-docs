@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configure transaction isolation level and transaction timeout with Oracle Database"
-title: "Configure transaction isolation level and transaction timeout with Oracle Database | Microsoft Docs"
+title: "Configure transaction isolation level and transaction timeout with Oracle Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4b66e764-2330-441b-89ef-29118f27b366
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure transaction isolation level and transaction timeout with Oracle Database
 While performing inbound operation (Polling) using the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you should appropriately configure the transaction isolation level and the transaction timeout values. To do this:

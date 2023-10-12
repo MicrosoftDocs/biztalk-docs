@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Host Integration Designer"
-title: "Host Integration Designer | Microsoft Docs"
+title: "Host Integration Designer"
 ms.custom: ""
 ms.date: "10/24/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 59a014ba-57ff-43a7-be92-72defe6d2754
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Host Integration Designer
 As in any standard Microsoft Windows application, you can navigate through the design surface by using your keyboard instead of your mouse. The following table describes the available keyboard shortcuts.  

@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Fragmented Inbound Batch"
 title: "Fragmented Inbound Batch"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "batching, fragmenting messages"
-  - "messages, fragmenting"
-  - "fragmenting messages"
-ms.assetid: 5844710e-f662-48a3-bf1a-bc1ba91e678a
-caps.latest.revision: 4
-
-
-
 ---
 # Fragmented Inbound Batch
 You can configure [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to receive a message batch, extract the messages from the batch, and then route the individual messages to the destination system. If you enable fragmentation, the inbound batch fragments into individual messages; otherwise, the batch is processed and routed as a single 'batch' or interchange. You use BTAHL7 Configuration Explorer to enable batching. For more information about enabling batching, see [Configuring Batching](../../adapters-and-accelerators/accelerator-hl7/configuring-batching.md).  

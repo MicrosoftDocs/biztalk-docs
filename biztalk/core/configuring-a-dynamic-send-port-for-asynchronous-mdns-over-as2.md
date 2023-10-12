@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring a Dynamic Send Port for Asynchronous MDNs over AS2"
-title: "Configuring a Dynamic Send Port for Asynchronous MDNs over AS2 | Microsoft Docs"
+title: "Configuring a Dynamic Send Port for Asynchronous MDNs over AS2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 72646c90-89db-4884-824b-6921bb824f8d
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring a Dynamic Send Port for Asynchronous MDNs over AS2
 To send an asynchronous EDIINT/AS2-encoded MDN message over HTTP/HTTPS, create a dynamic HTTP send port with the following configuration:  

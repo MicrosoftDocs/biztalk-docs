@@ -5,13 +5,8 @@ ms.custom: ""
 ms.date: "9/20/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-author: MandiOhlinger
-ms.author: abkumar
-manager: "anneta"
 ---
 
 

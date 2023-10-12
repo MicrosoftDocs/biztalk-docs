@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough (X12): Receiving EDI Interchanges and Sending Back an Acknowledgement"
-title: "Walkthrough (X12): Receiving EDI Interchanges and Sending Back an Acknowledgement | Microsoft Docs"
+title: "Walkthrough (X12): Receiving EDI Interchanges and Sending Back an Acknowledgement"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 25d2b5f3-6bd1-413c-aace-e4dd71f80403
-caps.latest.revision: 45
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough (X12): Receiving EDI Interchanges and Sending Back an Acknowledgement
 This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDI interchanges using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In this solution, an EDI interchange is sent from a trading partner, Fabrikam, to another trading partner, Contoso.  

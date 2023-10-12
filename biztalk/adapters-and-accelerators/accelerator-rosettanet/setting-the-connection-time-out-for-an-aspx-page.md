@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Setting the Connection Time-Out for an ASPX Page"
-title: "Setting the Connection Time-Out for an ASPX Page | Microsoft Docs"
+title: "Setting the Connection Time-Out for an ASPX Page"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ASPX pages, connection time-out"
-  - "connections, time-out"
-ms.assetid: 61d9c996-caf4-48bd-bda7-52f2797a941b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Setting the Connection Time-Out for an ASPX Page
 When you use an ASPX page for synchronous messages, you must increase the connection time-out for the ASPX page so that it can wait for the expected message.  

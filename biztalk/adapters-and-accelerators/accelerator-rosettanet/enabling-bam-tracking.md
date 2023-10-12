@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Enabling BAM Tracking"
-title: "Enabling BAM Tracking | Microsoft Docs"
+title: "Enabling BAM Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM tracking, enabling"
-  - "BAM tracking, disabling"
-ms.assetid: 3fee3315-fba7-4eea-89f3-6a061b450bb8
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Enabling BAM Tracking
 [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] supports enhanced tracking using BizTalk Activity Monitoring (BAM). You enable tracking as part of the global properties of the BTARN configuration. After you enable tracking, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] tracks all messages for all agreements. By default, tracking is enabled.  

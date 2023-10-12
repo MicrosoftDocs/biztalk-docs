@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Reuse adapter bindings in the Siebel adapter"
-title: "Reuse adapter bindings in the Siebel adapter | Microsoft Docs"
+title: "Reuse adapter bindings in the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "binding file, definition"
-  - "adapter bindings, reusing"
-ms.assetid: 1dc17b7a-5397-43f4-b19e-9c50fb0e97ff
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Reuse adapter bindings in the Siebel adapter
 A binding creates a mapping between a logical endpoint, such as an orchestration port or a role link, and a physical endpoint, such as a send and receive port or party. This enables communication between different components of a BizTalk business solution. You can create bindings by using the BizTalk Server Administration console.  

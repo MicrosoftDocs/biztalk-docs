@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Receiving Messages with Session Integrator for LU2"
-title: "Receive Messages with Session Integrator for LU2 | Microsoft Docs"
+title: "Receive Messages with Session Integrator for LU2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4d77ce2b-348f-4cc5-a57d-60973f76c49f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Receiving Messages with Session Integrator for LU2
 After you create an LU2 session, you can retrieve information and messages from the 3270 console through the `Microsoft.HostIntegration.SNA.Session.ScreenData` and `Microsoft.HostIntegration.SNA.Session.SessionDisplay` objects.  

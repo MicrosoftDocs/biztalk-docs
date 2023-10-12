@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Managed Data Provider for Host Files"
-title: "Managed Data Provider for Host Files2 | Microsoft Docs"
+title: "Managed Data Provider for Host Files2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a59564b6-8218-4e5c-be05-c17a6b788c96
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Managed Data Provider for Host Files
 This section contains a discussion about the background and general design principles surrounding the Managed Data Provider for Host Files.  

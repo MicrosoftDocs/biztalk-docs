@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Event Viewer"
-title: "Event Viewer2 | Microsoft Docs"
+title: "Event Viewer2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3561623b-27ac-408c-9639-0413b0176985
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Event Viewer
 Windows Event Logs can tell you the sequence and type of events that led up to a particular state or situation.  

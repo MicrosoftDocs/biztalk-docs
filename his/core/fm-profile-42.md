@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: FM Profile 4"
-title: "FM Profile 42 | Microsoft Docs"
+title: "FM Profile 42"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1269a058-1f6e-41ea-a0eb-1febbd71592b
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # FM Profile 4
 Function management (FM) Profile 4 is supported on primary logical unit-secondary logical unit (PLU-SLU) sessions using LU types 0 or 1. This profile uses the following session rules:  

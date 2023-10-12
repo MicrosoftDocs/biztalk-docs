@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating an Application with the Managed Data Provider for Host Files"
-title: "Creating an Application with the Managed Data Provider for Host Files2 | Microsoft Docs"
+title: "Creating an Application with the Managed Data Provider for Host Files2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3c368678-ac64-4ac2-a33b-a82603a160e2
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Creating an Application with the Managed Data Provider for Host Files
 The following topics describe the basic setup for creating and deploying an application that uses the Managed Data Provider for Host Files.  

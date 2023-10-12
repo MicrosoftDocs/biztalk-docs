@@ -1,23 +1,12 @@
 ---
 description: "Learn how to move the Business Activity Monitoring (BAM) Notification Services database to another server."
-title: "How to Move the BAM Notification Services Databases2 | Microsoft Docs"
+title: "How to Move the BAM Notification Services Databases2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Notification Services Application database [BAM]"
-  - "Notification Services Instance database [BAM]"
-  - "migrating, Notification Services database [BAM]"
-ms.assetid: 4b7f3397-65c9-4c71-8374-8764f4c2e2e3
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Move the BAM Notification Services Databases
 

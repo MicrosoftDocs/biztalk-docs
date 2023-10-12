@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AS2 Message Content Status Reports"
-title: "AS2 Message Content Status Reports | Microsoft Docs"
+title: "AS2 Message Content Status Reports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6244aa59-a80d-450b-ab95-9a5e14c0c40e
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AS2 Message Content Status Reports
 

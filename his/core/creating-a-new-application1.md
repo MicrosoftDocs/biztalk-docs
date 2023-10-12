@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating a New Application"
-title: "Creating a New Application1 | Microsoft Docs"
+title: "Creating a New Application1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7d3bd540-b5f2-4000-aae1-9dc30d3a2574
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Creating a New Application
 Host-initiated processing (HIP) applications represent the execution environment for Windows Server objects that are initiated or driven from host requests. The HIP application execution environment is hosted in and synonymous with a Windows service.  

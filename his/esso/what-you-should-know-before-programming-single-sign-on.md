@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: What You Should Know Before Programming Single Sign-On"
-title: "What You Should Know Before Programming Single Sign-On | Microsoft Docs"
+title: "What You Should Know Before Programming Single Sign-On"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ef8f0417-055c-44e6-91bb-8d1f333b65e4
-caps.latest.revision: 7
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # What You Should Know Before Programming Single Sign-On
 To use this documentation effectively, you should be familiar with the following:  

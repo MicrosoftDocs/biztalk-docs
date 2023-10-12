@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with EDI Security"
-title: "Known Issues with EDI Security | Microsoft Docs"
+title: "Known Issues with EDI Security"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9d7f68bc-8460-4656-b9f2-955337458d78
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with EDI Security
 This topic describes known issues with the security of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI and AS2 solutions.  

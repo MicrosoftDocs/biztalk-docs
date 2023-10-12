@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Icom3270.setCursorPosition Method"
-title: "Icom3270.setCursorPosition Method2 | Microsoft Docs"
+title: "Icom3270.setCursorPosition Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5b59b46b-3231-4025-b9bf-155fd9097d90
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Icom3270.setCursorPosition Method
 The setCursorPosition sets the position of the cursor on the 3270 screen.  

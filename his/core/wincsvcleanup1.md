@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: WinCSVCleanup"
-title: "WinCSVCleanup1 | Microsoft Docs"
+title: "WinCSVCleanup1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 849bc4f3-e51d-49fc-b2da-104453553158
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # WinCSVCleanup
 The **WinCSVCleanup** function terminates and deregisters an application from a Windows® CSV implementation.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Useful Performance Counters"
-title: "Useful Performance Counters2 | Microsoft Docs"
+title: "Useful Performance Counters2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 93e022b8-e7f6-46d7-8de1-fe235db17a6e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Useful Performance Counters
 Performance counters allow you to see where computer resources are being used. The counters described below provide valuable information for evaluating the demand on, and performance of, [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] components.  

@@ -1,25 +1,11 @@
 ---
 description: "Learn more about: Batch Schedule Tab"
 title: "Batch Schedule Tab"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.batchschedule"
-helpviewer_keywords: 
-  - "batching, scheduling"
-  - "Batch Schedule tab [Configuration Explorer]"
-  - "scheduling batching"
-ms.assetid: 3792388b-6af2-41c2-8f41-bdfda7e17b2b
-caps.latest.revision: 6
-
-
-
 ---
 # Batch Schedule Tab
 You use the **Batch Schedule** tab to activate, request, or terminate an outbound batch. Activating an outbound batch consists of two steps: configuring time-based or message count criteria and then starting the outbound batching orchestration.  

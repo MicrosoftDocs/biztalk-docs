@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Publishing Web Services with SOAP Headers"
-title: "Publishing Web Services with SOAP Headers | Microsoft Docs"
+title: "Publishing Web Services with SOAP Headers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SOAP headers, orchestrations"
-  - "SOAP headers, code samples"
-  - "SOAP headers, pipelines"
-  - "SOAP headers, BizTalk Web Services Publishing Wizard"
-  - "pipelines, SOAP headers"
-  - "orchestrations, SOAP headers"
-ms.assetid: c362caff-b75f-4c1b-9013-d2b9c74f5c65
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Publishing Web Services with SOAP Headers
 You add SOAP headers to your Web services when you run the BizTalk Web Services Publishing Wizard. When you publish a Web service that supports SOAP headers, the headers become available to orchestrations and pipeline components as context properties that contain string representations of the SOAP headers.  

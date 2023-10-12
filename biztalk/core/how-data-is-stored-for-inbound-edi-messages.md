@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How Data Is Stored for Inbound EDI Messages"
-title: "How Data Is Stored for Inbound EDI Messages | Microsoft Docs"
+title: "How Data Is Stored for Inbound EDI Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f8cbcb96-c0af-4f41-b844-f0e684a4af7c
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How Data Is Stored for Inbound EDI Messages
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does the following to generate a status report entry for an inbound interchange and the acknowledgment sent in response to it:  

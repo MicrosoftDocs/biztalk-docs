@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Transaction Integrator Performance Guide"
-title: "Transaction Integrator Performance Guide1 | Microsoft Docs"
+title: "Transaction Integrator Performance Guide1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc9a4c31-82e0-4724-9f0b-01ad9dffac2a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Transaction Integrator Performance Guide
 To ensure excellent performance out of the box, Microsoft has run performance tests on Transaction Integrator (TI) to determine its performance and scalability in various deployment situations. This section discusses what was learned about TI.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: User Trailers"
-title: "User Trailers | Microsoft Docs"
+title: "User Trailers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "trailers [SWIFT]"
-  - "SWIFT, trailers"
-ms.assetid: 340d9fc8-467b-4cba-b69f-eb761767deaa
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # User Trailers
 User trailers, except for the CHK trailer, are optional and when present, occur in the following order:  

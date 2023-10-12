@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Direction after Sending a Negative Response"
-title: "Direction after Sending a Negative Response2 | Microsoft Docs"
+title: "Direction after Sending a Negative Response2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 02a78093-3219-40b2-8874-6315fc18fd60
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Direction after Sending a Negative Response
 When an application using half-duplex flip-flop protocol sends a negative response to an outbound chain (or sends a [Status-Acknowledge(Ack)](./status-acknowledge-ack-2.md) to a **DATAFMI** message with **SDI** set) that does not refer to a race, the application must assume an error recovery pending state. The sense codes used for race conditions that do not require the transition to error recovery pending state are listed in the following table.  

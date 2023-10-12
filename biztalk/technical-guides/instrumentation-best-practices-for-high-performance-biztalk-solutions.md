@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Instrumentation Best Practices for High Performance BizTalk Solutions"
-title: "Instrumentation Best Practices for High Performance BizTalk Solutions | Microsoft Docs"
+title: "Instrumentation Best Practices for High Performance BizTalk Solutions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cd16ea1e-055a-429b-912f-bff2b91f0fdb
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Instrumentation Best Practices for High Performance BizTalk Solutions
 To download a copy of this paper, go to [https://go.microsoft.com/fwlink/?LinkId=205874](https://go.microsoft.com/fwlink/?LinkId=205874).

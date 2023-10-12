@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: How to Configure Authentication Options for a Receive Port"
-title: "How to Configure Authentication Options for a Receive Port | Microsoft Docs"
+title: "How to Configure Authentication Options for a Receive Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [receive ports], configuring"
-  - "authenticating, configuring"
-  - "managing [receive ports], authenticating"
-  - "receive ports, configuring"
-  - "configuring, authenticating"
-  - "configuring, receive ports"
-  - "authenticating, receive ports"
-ms.assetid: ce213ef0-ae91-47cf-84bf-0f86cc684bce
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Authentication Options for a Receive Port
 This topic describes how to use the BizTalk Server Administration console to configure message authentication options for a receive port. These options take effect when party resolution authentication is configured. The options are:  

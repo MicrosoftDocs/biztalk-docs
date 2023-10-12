@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: GetActivityName"
-title: "GetActivityName | Microsoft Docs"
+title: "GetActivityName"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 479552fa-1535-4f3d-90ff-4615f14c88b1
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # GetActivityName
 Pushes the name of the current activity onto the stack.  

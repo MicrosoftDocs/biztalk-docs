@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Operations in Windows Workflow Foundation"
-title: "Operations in Windows Workflow Foundation | Microsoft Docs"
+title: "Operations in Windows Workflow Foundation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a048dfc0-26b2-4f20-9d2f-c52f1ab19ac3
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations in Windows Workflow Foundation
 This section contains the custom operations supported by the BAM WF interceptor.

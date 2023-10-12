@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Use Maps in Orchestrations"
-title: "How to Use Maps in Orchestrations | Microsoft Docs"
+title: "How to Use Maps in Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dfd628d8-c163-431d-8ad7-d7d77007c549
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use Maps in Orchestrations
 BizTalk Mapper is a tool that runs within the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment. You use BizTalk Mapper to create and edit maps in which you use links and functoids to define the relationship between an input and an output schema. A link defines a direct data copy of a record or field. Links may directly connect to items in the other schema, or they may form connections to functoids. Functoids perform more complex data manipulations.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configuration Information"
-title: "Configuration Information1 | Microsoft Docs"
+title: "Configuration Information1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c9aae56e-c028-4339-8d47-b7af500cb6ee
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configuration Information
 To obtain information about the Microsoft® Host Integration Server 3270 configuration, the application uses the calls listed in the following table.  

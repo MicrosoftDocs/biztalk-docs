@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Send Errors"
-title: "Send Errors | Microsoft Docs"
+title: "Send Errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3cf61c82-ad48-4555-af53-fb841fd0f503
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Send Errors
 Information for diagnosing and resolving WCF Send errors.  

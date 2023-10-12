@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SNALink Structure (SNADIS)"
-title: "SNALink Structure (SNADIS)2 | Microsoft Docs"
+title: "SNALink Structure (SNADIS)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e2b45021-9d76-4e25-bb1b-3e8432d27a77
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNALink Structure (SNADIS)
 A Host Integration Server SNALink consists of the following:  

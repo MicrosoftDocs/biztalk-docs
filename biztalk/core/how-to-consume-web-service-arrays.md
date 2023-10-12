@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Consume Web Service Arrays"
-title: "How to Consume Web Service Arrays | Microsoft Docs"
+title: "How to Consume Web Service Arrays"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "SOAP adapters, Web services"
-  - "Web services, arrays"
-  - "orchestrations, Web services"
-  - "orchestrations, Web ports"
-ms.assetid: 29ecaaed-aa8a-4cf9-a7c8-4b0d6dd412ac
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Consume Web Service Arrays
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides the ability to consume arrays that are exposed in Web services from a BizTalk Orchestration.

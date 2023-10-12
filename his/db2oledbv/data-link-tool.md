@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Data Link Tool"
-title: "Data Link Tool | Microsoft Docs"
+title: "Data Link Tool"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e94d7c36-bd21-4730-9a91-24cccc9d510f
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Data Link Tool
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Transaction Object (OLE DB Provider for Informix)"
-title: "Transaction Object (OLE DB Provider for Informix) | Microsoft Docs"
+title: "Transaction Object (OLE DB Provider for Informix)"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e7dea3e7-d173-47fe-83cc-5f433d65a8ca
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Transaction Object (OLE DB Provider for Informix)
 The **Transaction** object is created by a **Session** object. The **Transaction** object is used to manage transactions on one or more **Rowset** objects.  

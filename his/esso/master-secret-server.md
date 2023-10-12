@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Master Secret Server"
-title: "Master Secret Server | Microsoft Docs"
+title: "Master Secret Server"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f605a62d-29b9-4465-be78-6554e9f11e5a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Master Secret Server
 The *master secret server* is the Enterprise Single Sign-On (SSO) server that stores the master secret (encryption key). The master secret server generates the master secret when an SSO administrator requests it. The master secret server stores the encrypted master secret in the registry. Only Single Sign-On administrators can access the master secret.  

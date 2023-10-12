@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: RUI"
-title: "RUI2 | Microsoft Docs"
+title: "RUI2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 82511e4e-133d-448a-8bf8-0c0aaa1055aa
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # RUI
 The **RUI** function provides event notification for all Request Unit Interface (RUI) verbs.  

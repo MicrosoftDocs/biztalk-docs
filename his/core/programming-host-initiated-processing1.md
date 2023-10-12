@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Programming Host-Initiated Processing"
-title: "Programming Host-Initiated Processing1 | Microsoft Docs"
+title: "Programming Host-Initiated Processing1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 38c61788-3260-4059-be43-cfc6690c776b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Programming Host-Initiated Processing
 This section discusses various issues you need to understand to program host-initiated processing components and applications.  

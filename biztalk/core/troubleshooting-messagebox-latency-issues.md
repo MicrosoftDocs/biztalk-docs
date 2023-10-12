@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting MessageBox Latency Issues"
-title: "Troubleshooting MessageBox Latency Issues | Microsoft Docs"
+title: "Troubleshooting MessageBox Latency Issues"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e9eb5789-80bd-40d4-8c27-7ae117fd9232
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting MessageBox Latency Issues
 In a perfect world, all messages would be processed and delivered as soon as they were published to the MessageBox database and the MessageBox database would never grow to an excessive size. Any messages in the MessageBox that were no longer referenced would immediately be removed by the SQL agent jobs that periodically clean up the MessageBox database tables.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Service Instance States"
-title: "Service Instance States | Microsoft Docs"
+title: "Service Instance States"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "service instances, states"
-  - "messages, processing"
-  - "states, service instances"
-ms.assetid: 38189538-72b3-49df-810b-e134362e35ef
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Service Instance States
 As a message is processed, the following actions take place:  

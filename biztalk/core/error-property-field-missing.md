@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Property Field Missing"
-title: "Error - Property Field Missing | Microsoft Docs"
+title: "Error - Property Field Missing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.propFieldMissing"
-ms.assetid: 8d07e72b-f876-4a37-8c95-ec7aa0033983
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Property Field Missing
 **Error Code**  

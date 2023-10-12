@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Backing Up the A4SWIFT Database"
-title: "Backing Up the A4SWIFT Database | Microsoft Docs"
+title: "Backing Up the A4SWIFT Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "backing up A4SWIFT database"
-  - "A4SWIFT database, backing up"
-ms.assetid: 53e46380-5be7-4d4c-b04c-d917ab40c07c
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Backing Up the A4SWIFT Database
 You should routinely back up the databases in your BizTalk Server and A4SWIFT system to lower the risks of a catastrophic failure. These databases include those in your BizTalk Server source system, and the A4SWIFT database. In addition to lowering risks, this will also enable you to purge A4SWIFT history files that can grow to a significant size.  

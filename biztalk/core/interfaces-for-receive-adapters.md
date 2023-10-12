@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interfaces for Receive Adapters"
-title: "Interfaces for Receive Adapters | Microsoft Docs"
+title: "Interfaces for Receive Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 00bbe185-6a21-41e8-be1d-c3f0c1a96bde
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interfaces for Receive Adapters
 This section describes the interfaces you need to implement when you develop a receive adapter.  

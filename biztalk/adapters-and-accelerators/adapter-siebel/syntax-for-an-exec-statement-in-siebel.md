@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Syntax for an EXEC Statement in Siebel"
-title: "Syntax for an EXEC Statement in Siebel | Microsoft Docs"
+title: "Syntax for an EXEC Statement in Siebel"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "EXEC statement, syntax for"
-  - "Data Provider for Siebel, EXEC statement"
-ms.assetid: c5534102-bf37-4b39-83ab-e09483744c4d
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Syntax for an EXEC Statement in Siebel
 Using the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], ADO.NET clients can also perform an EXEC operation on the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]. The syntax for the EXEC statement is:  

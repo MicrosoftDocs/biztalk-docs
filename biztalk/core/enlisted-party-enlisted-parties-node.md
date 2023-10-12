@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Enlisted Party (Enlisted Parties Node)"
-title: "Enlisted Party (Enlisted Parties Node) | Microsoft Docs"
+title: "Enlisted Party (Enlisted Parties Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Enlisted Parties node [binding file]"
-ms.assetid: 2ff7b563-17c5-48e9-b33e-62c821188448
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Enlisted Party (Enlisted Parties Node)
 The Enlisted Party node of a binding file contains specific information about an enlisted party associated with a role that is exported with the binding file.  

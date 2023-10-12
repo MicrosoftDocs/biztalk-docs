@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Providing Hot Backup and Load Balancing (3270)"
-title: "Providing Hot Backup and Load Balancing (3270)1 | Microsoft Docs"
+title: "Providing Hot Backup and Load Balancing (3270)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7e5caa04-7527-480d-a6c0-ad468c9e70f8
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Providing Hot Backup and Load Balancing (3270)
 The following diagram shows hot backup across host connections on the same server and across servers.  

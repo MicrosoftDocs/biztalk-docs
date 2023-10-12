@@ -1,19 +1,12 @@
 ---
-title: "BizTalk ESB Toolkit Sample Applications | Microsoft Docs"
+title: "BizTalk ESB Toolkit Sample Applications"
 description: Install the ESB Toolkit sample applications, and get quick links on how to use them in BizTalk Server
-caps.latest.revision: 5
-author: "MandiOhlinger"
-manager: "anneta"
-
 ms.custom: ""
 ms.date: "08/10/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 188f8e1f-26fb-4ea6-8e2e-f2ae3e46ca20
-ms.author: "mandia"
 ---
 
 # BizTalk ESB Toolkit Sample Applications

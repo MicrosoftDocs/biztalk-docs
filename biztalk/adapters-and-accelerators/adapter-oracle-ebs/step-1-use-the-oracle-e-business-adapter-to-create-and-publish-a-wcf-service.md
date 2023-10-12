@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service"
-title: "Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service | Microsoft Docs"
+title: "Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7cd76f6f-600f-4eb5-8eee-8f3604d0fef4
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service
 ![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")

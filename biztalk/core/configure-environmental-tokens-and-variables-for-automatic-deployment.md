@@ -1,18 +1,12 @@
 ---
-title: Create environmental tokens & variables | Microsoft Docs"
+title: Create environmental tokens & variables"
 description: Update the binding file to use environment tokens, and create variables in VSTS to automate deployment of BizTalk Server applications
 ms.custom: "biztalk-2020"
 ms.date: "10/19/2020"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.prod: biztalk-server
 ms.topic: "article"
-ms.assetid: 28bb2d4a-f45c-466d-ba65-0ca8cad0bffd
-caps.latest.revision: 4
-author: "tordgladnordahl"
-ms.author: mandia
-manager: "anneta"
 ---
 
 # Configure environmental tokens and variables for automatic deployment

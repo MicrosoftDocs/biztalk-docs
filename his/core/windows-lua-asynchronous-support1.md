@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Windows LUA Asynchronous Support"
-title: "Windows LUA Asynchronous Support1 | Microsoft Docs"
+title: "Windows LUA Asynchronous Support1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 50d4398d-1886-4330-8e4c-dedc494c5263
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Windows LUA Asynchronous Support
 Asynchronous verb completion returns immediately from issuing an initial verb (before results have been received) so the application can continue with other processes. A program that issues a verb and does not regain control until the operation completes cannot perform any other operations. This synchronous type of operation, called blocking, is not suited to a server application designed to handle multiple requests from many clients.  

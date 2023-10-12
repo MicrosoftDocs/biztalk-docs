@@ -1,18 +1,12 @@
 ---
 description: "Learn about Password Synchronization, that is used to simplify the administration of the Single Sign-On (SSO) credential database."
-title: "Password Synchronization3 | Microsoft Docs"
+title: "Password Synchronization3"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3bfb82d0-77d2-4e53-bd47-e8734e682041
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Password Synchronization
 

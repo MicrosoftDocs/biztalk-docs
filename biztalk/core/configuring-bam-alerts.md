@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Configuring BAM Alerts"
-title: "Configuring BAM Alerts | Microsoft Docs"
+title: "Configuring BAM Alerts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "configuring, alerts"
-  - "alerts, timeout values"
-  - "Notification Services, configuration tips"
-  - "alerts, configuring"
-  - "managing [BAM definitions], configuring alerts"
-ms.assetid: 29327466-c8e9-41e8-bc12-f3ac6b5d3096
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring BAM Alerts
 Administrators can modify certain elements of the BAM alert framework. This topic describes the configuration options available to administrators.

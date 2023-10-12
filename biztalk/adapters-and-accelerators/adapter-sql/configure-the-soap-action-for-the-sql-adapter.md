@@ -1,19 +1,12 @@
 ---
-title: "Configure the SOAP action for the SQL adapter in BizTalk | Microsoft Docs"
+title: "Configure the SOAP action for the SQL adapter in BizTalk"
 description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-SQL adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: acd7f60b-c27f-4988-a67c-e56ef8d38f66
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure the SOAP action for the SQL adapter
 To perform any operation on SQL Server using the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], you must specify a SOAP action. The SOAP action communicates to the adapter what action should be performed. You can specify the SOAP action either from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. However, if you specify the SOAP action from both locations, the action you specified from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] will be overridden.  

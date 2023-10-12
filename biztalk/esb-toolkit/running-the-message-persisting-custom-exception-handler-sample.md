@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the Message Persisting Custom Exception Handler Sample"
-title: "Running the Message Persisting Custom Exception Handler Sample | Microsoft Docs"
+title: "Running the Message Persisting Custom Exception Handler Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a0a4c819-f6bd-4dea-8be9-e3006337665f
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the Message Persisting Custom Exception Handler Sample
 The Message Persisting Custom Exception Handler sample demonstrates a loosely coupled, generic handler that receives fault messages, extracts the Microsoft BizTalk messages they contain, and writes them as disk files to the file system.  

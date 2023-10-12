@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IcomLU0 Members"
-title: "IcomLU0 Members2 | Microsoft Docs"
+title: "IcomLU0 Members2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3cad02c9-6a94-41ac-88c9-3acf7975cbca
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IcomLU0 Members
 The following table shows the IcomLU0 members.  

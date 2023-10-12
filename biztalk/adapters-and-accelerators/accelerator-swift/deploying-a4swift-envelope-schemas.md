@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Deploying A4SWIFT Envelope Schemas"
-title: "Deploying A4SWIFT Envelope Schemas | Microsoft Docs"
+title: "Deploying A4SWIFT Envelope Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, envelope schemas"
-  - "A4SWIFT, deploying envelope schemas"
-  - "envelope schemas"
-  - "schemas, envelope schemas"
-ms.assetid: 6440608c-d30d-4d82-827a-8a4b2738db85
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploying A4SWIFT Envelope Schemas
 You must include envelope schemas in schema projects whenever you set up Message Repair and New Submission. An envelope schema, such as EnvelopeMT103.xsd, is required to write to MRSR site.  

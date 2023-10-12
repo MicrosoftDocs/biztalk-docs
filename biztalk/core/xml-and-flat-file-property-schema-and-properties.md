@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: XML and Flat File Property Schema and Properties"
-title: "XML and Flat File Property Schema and Properties | Microsoft Docs"
+title: "XML and Flat File Property Schema and Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1d917b82-62c6-489f-99a9-97e429b6f7c0
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # XML and Flat File Property Schema and Properties
 The `http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties` namespace contains properties you can use to configure Flat File Assembler and Flat File Disassembler pipeline components. The properties are described in the following table.  

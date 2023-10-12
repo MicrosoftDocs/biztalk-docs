@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Table Member Shortcut Menu"
-title: "Table Member Shortcut Menu2 | Microsoft Docs"
+title: "Table Member Shortcut Menu2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9f8f5f6c-0a90-4846-9619-3a3861a78b85
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Table Member Shortcut Menu
 When you select a table member from the Library tree, the following shortcut menu commands appear:  

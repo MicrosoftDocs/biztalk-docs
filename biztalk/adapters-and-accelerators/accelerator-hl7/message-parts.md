@@ -1,24 +1,9 @@
 ---
 description: "Learn more about: Message Parts"
 title: "Message Parts"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "messages, segments"
-  - "messages, fields"
-  - "messages, message parts"
-  - "segments, messages"
-ms.assetid: 2bb6557e-cd4a-42b7-8bc2-f8b53a59517e
-caps.latest.revision: 3
-
-
-
 ---
 # Message Parts
 An HL7 message contains the following parts: segments, data fields, components, and optionally subcomponents. HL7 messages have the following hierarchical structure:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Library Shortcut Menu"
-title: "Library Shortcut Menu1 | Microsoft Docs"
+title: "Library Shortcut Menu1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f9d7f61c-7211-4033-91cf-3a4b8aee15e9
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Library Shortcut Menu
 When you select the **Library** node in the tree view of HIS Designer, the following shortcut menu commands appear.  

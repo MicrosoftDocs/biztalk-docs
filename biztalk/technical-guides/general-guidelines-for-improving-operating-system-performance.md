@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: General Guidelines for Improving Operating System Performance"
-title: "General Guidelines for Improving Operating System Performance | Microsoft Docs"
+title: "General Guidelines for Improving Operating System Performance"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bc9ca38e-1feb-4f34-a64b-d04566e85db9
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # General Guidelines for Improving Operating System Performance
 The following general guidelines should be followed to improve operating system performance:

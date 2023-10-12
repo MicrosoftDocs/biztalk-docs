@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Add a Receive Location to a Receive Port"
-title: "How to Add a Receive Location to a Receive Port | Microsoft Docs"
+title: "How to Add a Receive Location to a Receive Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, adding to receive ports"
-  - "managing [receive ports], adding receive locations"
-  - "receive ports, adding receive locations"
-  - "adding, receive locations"
-ms.assetid: a71d50dc-629e-4b7f-aa59-6d2274d4cac3
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add a Receive Location to a Receive Port
 This topic describes how to use the BizTalk Server Administration console to add a new receive location to a receive port.  

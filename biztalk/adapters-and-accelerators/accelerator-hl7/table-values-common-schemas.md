@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Table Values Common Schemas"
 title: "Table Values Common Schemas"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "2.X schemas, common schemas"
-  - "2.X schemas, table values"
-  - "common schemas"
-ms.assetid: 2421e150-1bae-43bd-aba3-6322c679b22b
-caps.latest.revision: 3
-
-
-
 ---
 # Table Values Common Schemas
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) generates the **tablevalues_*\<version\>*.xsd** file for each HL7 version, and locates the file at the root of the HL7 version-specific folder. The data type common schema file references the table values common schema file.  

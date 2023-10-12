@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Batch-Related Promoted Properties"
-title: "Batch-Related Promoted Properties | Microsoft Docs"
+title: "Batch-Related Promoted Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "promoted properties, batch related properties"
-  - "batching, promoted properties"
-ms.assetid: 00df1d8f-2f3f-4e3f-9983-37dcf3514fd8
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Batch-Related Promoted Properties
 When the SWIFT disassembler publishes a message that originated from an inbound batch to the MessageBox database, the disassembler marks the message with special Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] promoted properties that are specific to batch messages. These properties provide context information, such as which batch a message originated from, what ordinal position it was in within the batch, which parts A4SWIFT has preserved, and so forth.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Use Performance Counters with the Oracle E-Business Suite adapter"
-title: "Use Performance Counters with the Oracle E-Business Suite adapter | Microsoft Docs"
+title: "Use Performance Counters with the Oracle E-Business Suite adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c7d722b7-8343-4956-81ed-acd5a463a9b1
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use Performance Counters with the Oracle E-Business Suite adapter
 Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] clients can use performance counters to gauge the performance of the adapters. The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup program creates the performance counter category **BizTalk .NET Adapter for Oracle E-Business Suite** along with installing the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  

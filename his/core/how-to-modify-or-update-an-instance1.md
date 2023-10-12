@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Modify or Update an Instance"
-title: "How to Modify or Update an Instance1 | Microsoft Docs"
+title: "How to Modify or Update an Instance1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8965ab22-0221-4dc1-8bae-bf4ffa3a576c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Modify or Update an Instance
 After you have retrieved an instance, you can modify your local copy and update your changes to the server.  

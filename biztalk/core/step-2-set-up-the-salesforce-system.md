@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Set up the Salesforce System"
-title: "Step 2: Set up the Salesforce System | Microsoft Docs"
+title: "Step 2: Set up the Salesforce System"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0a4b09fb-70a7-4eec-b1e3-f05de0e84df1
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Set up the Salesforce System
 In this step, you configure Salesforce to send notifications when an opportunity is successfully closed. Before you can send notifications, you need to perform the following steps:

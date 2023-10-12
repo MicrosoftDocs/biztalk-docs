@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: XML Disassembler and Assembler"
 title: "XML Disassembler and Assembler"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "disassembler, XML"
-  - "assembler, XML"
-ms.assetid: 242a7a96-2342-4ab5-9d3f-1acbcc7ffd14
-caps.latest.revision: 3
-
-
-
 ---
 # XML Disassembler and Assembler
 The XML disassembler and assembler ensure that Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) not only supports HL7-encoded messages, but also supports incoming and/or outgoing XML messages.  

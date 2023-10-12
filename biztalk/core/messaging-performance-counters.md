@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Messaging Performance Counters"
-title: "Messaging Performance Counters | Microsoft Docs"
+title: "Messaging Performance Counters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 162d761a-fe69-45b0-a6af-c5d9f714e0ca
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Messaging Performance Counters
 Performance counters allow you to monitor specific aspects of work performed on the site or system by service. Performance counters can help you identify and troubleshoot server performance issues.  

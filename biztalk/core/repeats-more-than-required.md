@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Repeats more than required"
-title: "Repeats more than required | Microsoft Docs"
+title: "Repeats more than required"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fec52b5b-e95f-479e-8922-dcf17dcefee7
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Repeats more than required
 ## Details  

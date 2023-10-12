@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Optimize the Schema Tree View"
-title: "How to Optimize the Schema Tree View | Microsoft Docs"
+title: "How to Optimize the Schema Tree View"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ab4ad6b5-5bbd-443b-9041-6cddf9d64735
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Optimize the Schema Tree View
 You can use the **Relevance View** in BizTalk Mapper to optimize the source and/or target schema trees. This topic provides instructions about how to perform the operation.  

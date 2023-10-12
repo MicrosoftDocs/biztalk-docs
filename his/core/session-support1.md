@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Session Support"
-title: "Session Support1 | Microsoft Docs"
+title: "Session Support1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dbc6102a-3298-4811-bf0d-b1d5802e8021
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Session Support
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] supports many types of SNA communications sessions:  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: XML Schemas"
-title: "XML Schemas | Microsoft Docs"
+title: "XML Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1ec364e7-866d-4164-be91-be75a40ce878
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # XML Schemas
 An XML schema describes a business document that is represented in XML. Because Microsoft BizTalk Server uses XML as its canonical representation for business documents, inbound and outbound documents do not require any translation. XML schemas can be created in BizTalk Editor using only the basic set of properties that are available within all schemas, and do not require any schema editor extensions to be enabled.  

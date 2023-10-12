@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Mandatory data element missing"
-title: "Mandatory data element missing | Microsoft Docs"
+title: "Mandatory data element missing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 510d54b3-13de-4735-92ec-04fd4b9d460e
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Mandatory data element missing
 ## Details  

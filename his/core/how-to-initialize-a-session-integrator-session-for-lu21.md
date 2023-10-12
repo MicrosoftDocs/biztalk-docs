@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Initialize a Session Integrator Session for LU2"
-title: "Initialize a Session Integrator Session for LU21 | Microsoft Docs"
+title: "Initialize a Session Integrator Session for LU21"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e1873c18-e4c2-4633-abbf-a5873ea8f90e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Initialize a Session Integrator Session for LU2
 The first action that you must perform when you are connecting to an LU2 session for Transaction Integrator is to create and initialize the `Microsoft.HostIntegration.SNA.Session.SessionDisplay` object. As the name implies, `Microsoft.HostIntegration.SNA.Session.SessionDisplay` represents the 3270 display to your application, and is the primary interface that you will use to access the SNA network.  

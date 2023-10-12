@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CPI-C Programmer's Guide"
-title: "CPI-C Programmer's Guide | Microsoft Docs"
+title: "CPI-C Programmer's Guide"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f7933fcf-e1c9-4fcc-b7db-388245ee36ff
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CPI-C Programmer's Guide
 This section of the Host Integration Server Developer's Guide provides information about developing applications with the Common Programming Interface for Communications (CPI-C).  

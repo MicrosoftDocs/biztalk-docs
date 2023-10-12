@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Record-to-Record Linking"
-title: "Record-to-Record Linking | Microsoft Docs"
+title: "Record-to-Record Linking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9a3fa4d7-5689-4f55-af1b-369defa37037
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Record-to-Record Linking
 

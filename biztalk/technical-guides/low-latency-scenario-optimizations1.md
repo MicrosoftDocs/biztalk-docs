@@ -1,18 +1,12 @@
 ---
 description: "Learn about optimizations for low-latency scenarios in BizTalk Server."
-title: "Low-Latency Scenario Optimizations1 | Microsoft Docs"
+title: "Low-Latency Scenario Optimizations1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cd2a891a-ee4b-4542-b3ce-434e2a6474be
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Low-Latency Scenario Optimizations for BizTalk Server
 

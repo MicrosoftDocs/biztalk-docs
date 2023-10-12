@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Mainframe Issues Affecting Transaction Recovery"
-title: "Mainframe Issues Affecting Transaction Recovery2 | Microsoft Docs"
+title: "Mainframe Issues Affecting Transaction Recovery2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3466dd46-a437-4c1c-9a5e-0042fd052146
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Mainframe Issues Affecting Transaction Recovery
 In some situations, TI cannot process new transactions with a remote environment. This can be correct behavior. For example, if TI exception 1227 is returned to a client application or logged in an event, and the HRESULT is 8004D110, it indicates that new transactions with this remote environment cannot be accepted because previous transactions were not resolved after a communications failure.  

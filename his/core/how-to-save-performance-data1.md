@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Save Performance Data"
-title: "How to Save Performance Data1 | Microsoft Docs"
+title: "How to Save Performance Data1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bce915ca-6352-407c-a91c-7da6af23491d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Save Performance Data
 When you capture performance data, you can save the data for future use.  

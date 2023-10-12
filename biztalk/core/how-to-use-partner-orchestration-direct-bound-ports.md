@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Use Partner Orchestration Direct Bound Ports"
-title: "How to Use Partner Orchestration Direct Bound Ports | Microsoft Docs"
+title: "How to Use Partner Orchestration Direct Bound Ports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 19f9987f-79fb-4cb6-bf6e-542f6eea9ce0
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use Partner Orchestration Direct Bound Ports
 Partner orchestration direct bound ports provide the capability of having inter-orchestration communication through ports. You can create two communication patterns: forward partner orchestration direct binding and inverse partner orchestration direct binding. These two patterns provide explicit inter-orchestration communication, which means that there is an intended recipient orchestration when using forward partner orchestration direct binding and an intended sender orchestration when using inverse partner orchestration direct binding.

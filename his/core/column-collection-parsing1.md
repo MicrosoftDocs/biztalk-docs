@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Column Collection Parsing"
-title: "Column Collection Parsing1 | Microsoft Docs"
+title: "Column Collection Parsing1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bd309c5d-4827-42d5-a043-d03618a326ea
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Column Collection Parsing
 The following describes the column collection parsing for the Managed Provider for Host Files and provides a sample parsed column collection.  

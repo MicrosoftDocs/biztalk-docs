@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Sense Data Specific to LU 6.2"
-title: "Sense Data Specific to LU 6.21 | Microsoft Docs"
+title: "Sense Data Specific to LU 6.21"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 719d3c41-002b-4080-87d0-eadd0ad6e1a3
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Sense Data Specific to LU 6.2
 The LU 6.2 sense codes are specified and interpreted by SNA components within [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], and, in general, are presented as return codes and as parameters to specific verbs.  

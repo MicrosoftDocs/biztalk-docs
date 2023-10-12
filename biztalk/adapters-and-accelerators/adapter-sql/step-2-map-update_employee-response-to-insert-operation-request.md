@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Map the UPDATE_EMPLOYEE Response Message to Insert Operation Request Message"
-title: "Step 2: Map the UPDATE_EMPLOYEE Response Message to Insert Operation Request Message | Microsoft Docs"
+title: "Step 2: Map the UPDATE_EMPLOYEE Response Message to Insert Operation Request Message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8d12014a-0147-4227-88fa-0b290eff4cce
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Map the UPDATE_EMPLOYEE Response Message to Insert Operation Request Message
 ![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  

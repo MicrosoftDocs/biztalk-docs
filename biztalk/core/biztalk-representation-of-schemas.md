@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BizTalk Representation of Schemas"
-title: "BizTalk Representation of Schemas | Microsoft Docs"
+title: "BizTalk Representation of Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f0460a37-1f4f-4c0b-91db-bb457f434fe9
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Representation of Schemas
 

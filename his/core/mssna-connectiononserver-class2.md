@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_ConnectionOnServer Class"
-title: "MsSna_ConnectionOnServer Class2 | Microsoft Docs"
+title: "MsSna_ConnectionOnServer Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3711cc4c-9c29-4d2e-a7cb-c485c87eafeb
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_ConnectionOnServer Class
 Associates a connection with a server.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: The BizTalk Server Message"
-title: "The BizTalk Server Message | Microsoft Docs"
+title: "The BizTalk Server Message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, properties"
-  - "messages, about messages"
-ms.assetid: 6048c191-b495-4fdc-b547-e3e322340a49
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The BizTalk Server Message
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is, at its core, a message-handling engine. To understand the details of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], it is important to understand messages and how they are represented, stored, and processed by BizTalk Server. The details of how BizTalk Server works with messages become easier to understand after you have gained an understanding of what a message is.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Union Shortcut Menu"
-title: "Union Shortcut Menu2 | Microsoft Docs"
+title: "Union Shortcut Menu2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1c5119ef-316c-4f30-9839-66bb0b93348b
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Union Shortcut Menu
 When you select a union from the **Union** node in the **Library** tree, the following shortcut menu commands are available:  

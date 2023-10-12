@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Compiling Maps"
-title: "Compiling Maps | Microsoft Docs"
+title: "Compiling Maps"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maps, compiling"
-  - "XSLT, generating"
-  - "maps, validating"
-  - "BizTalk Mapper, compiling"
-  - "BizTalk Mapper, validating"
-ms.assetid: 967181d6-22a9-4a76-ae45-3317c0c6321b
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Compiling Maps
 When you validate maps, the BizTalk Mapper compiler component generates an Extensible Stylesheet Language Transformations (XSLT) style sheet. This creates a compiled map that transforms an instance message defined by the source schema to an instance message defined by the destination schema. Compiling a map enforces the structural rules and transformations specified in the grid pages.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough (AS2): Sending a Non-EDI Message over AS2"
-title: "Walkthrough (AS2): Sending a Non-EDI Message over AS2 | Microsoft Docs"
+title: "Walkthrough (AS2): Sending a Non-EDI Message over AS2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6120b81e-bdd5-44ad-9040-26be88c71258
-caps.latest.revision: 33
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough (AS2): Sending a Non-EDI Message over AS2
 This walkthrough provides a set of step-by-step procedures that creates a solution for sending non-EDI messages over AS2. In this walkthrough, a PIDX message is sent over AS2. This solution uses a two-way send port with an AS2Send send pipeline and an AS2Receive receive pipeline. You can create and test the full solution in this walkthrough on a single computer.  

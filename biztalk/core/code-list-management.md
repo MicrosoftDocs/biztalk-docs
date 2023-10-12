@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Code List Management"
-title: "Code List Management | Microsoft Docs"
+title: "Code List Management"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a924c814-d077-4aea-bacb-bf2e8a3dee01
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Code List Management
 

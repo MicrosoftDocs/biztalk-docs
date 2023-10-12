@@ -1,19 +1,12 @@
 ---
 description: "Learn how to use the BizTalk Server Administration Console to configure a party and business profile for your organization."
-title: "Step 3: Configure a Party and Business Profile for Your Organization1 | Microsoft Docs"
+title: "Step 3: Configure a Party and Business Profile for Your Organization1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 849e5146-a82a-41f2-bb96-089841b2444d
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: How to Configure a Party and Business Profile for Your Organization
 

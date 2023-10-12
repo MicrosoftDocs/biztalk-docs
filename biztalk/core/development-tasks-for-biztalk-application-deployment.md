@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Development Tasks for BizTalk Application Deployment"
-title: "Development Tasks for BizTalk Application Deployment | Microsoft Docs"
+title: "Development Tasks for BizTalk Application Deployment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developing, deploying"
-  - "deploying [applications], developing"
-  - "applications, tasks"
-  - "deploying [applications], warnings"
-  - "applications, developing"
-  - "developing, tasks"
-ms.assetid: b441d4f4-122e-4caf-8381-723c6142b0b6
-caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Development Tasks for BizTalk Application Deployment
 The following are the steps involved in deploying BizTalk assemblies from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into a BizTalk application, completing the application, and preparing it for deployment to the test environment. This deployment scenario is common in a development environment, where a programmer is developing and debugging a particular BizTalk business solution.  

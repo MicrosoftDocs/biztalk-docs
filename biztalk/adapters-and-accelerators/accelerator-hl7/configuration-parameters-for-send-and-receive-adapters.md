@@ -1,24 +1,9 @@
 ---
 description: "Learn more about: Configuration Parameters for Send and Receive Adapters"
 title: "Configuration Parameters for Send and Receive Adapters"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "adapters"
-  - "send adapters"
-  - "configuration parameters [adapters]"
-  - "receive adapters"
-ms.assetid: f24ca8ae-feaf-4e5f-b434-76bc3c1c8ccf
-caps.latest.revision: 10
-
-
-
 ---
 # Configuration Parameters for Send and Receive Adapters
 This section provides configuration parameters for send and receive Minimal Lower Layer Protocol (MLLP) adapters. These parameters fall into two types: block characters and network connection parameters.  

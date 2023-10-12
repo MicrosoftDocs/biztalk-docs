@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10673"
-title: "Single Sign-On: Event 10673 | Microsoft Docs"
+title: "Single Sign-On: Event 10673"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fa1d572a-1e9f-496e-a219-852e7d9228d5
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10673
 ## Details  

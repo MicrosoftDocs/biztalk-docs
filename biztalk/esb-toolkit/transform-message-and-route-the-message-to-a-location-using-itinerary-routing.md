@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to: Transform a Message and Route the Resulting Message to a File Location Using an Itinerary Routing Slip"
-title: "How to: Transform a Message and Route the Resulting Message to a File Location Using an Itinerary Routing Slip | Microsoft Docs"
+title: "Transform a Message and Route the Resulting Message to a File Location Using an Itinerary Routing Slip"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c27749ba-c228-4cd4-827e-e8009a0c999d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to: Transform a Message and Route the Resulting Message to a File Location Using an Itinerary Routing Slip
 ## Goal  

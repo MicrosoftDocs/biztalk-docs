@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_ConnectionChannel Class"
-title: "MsSna_ConnectionChannel Class1 | Microsoft Docs"
+title: "MsSna_ConnectionChannel Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b020bea7-7a14-49ea-bb60-e8be7706bad1
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_ConnectionChannel Class
 A type of SNA connection that uses channel links.  

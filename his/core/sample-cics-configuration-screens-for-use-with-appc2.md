@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Sample CICS Configuration Screens for Use with APPC"
-title: "Sample CICS Configuration Screens for Use with APPC2 | Microsoft Docs"
+title: "Sample CICS Configuration Screens for Use with APPC2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4936e582-d258-461b-8f79-e39961b532f1
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Sample CICS Configuration Screens for Use with APPC
 The following series of screens show how CICS could be configured for independent Advanced Program-to-Program Communications (APPC) through VTAM. In the first screen, the underlined values correspond to values specified in SNA Server Manager.  

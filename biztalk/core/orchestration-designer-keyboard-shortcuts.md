@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Orchestration Designer Keyboard Shortcuts"
-title: "Orchestration Designer Keyboard Shortcuts | Microsoft Docs"
+title: "Orchestration Designer Keyboard Shortcuts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "keyboard shortcuts, Orchestration Designer"
-  - "Orchestration Designer, keyboard shortcuts"
-ms.assetid: 8faccbb0-8796-4caf-b6b7-45be42c1e829
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Orchestration Designer Keyboard Shortcuts
 The Orchestration Designer design surface provides full accessibility using the keyboard. This accessibility begins when you open the design surface, which you can do in Visual Studio by selecting menu options beginning with the **New** option on the **File**menu.  

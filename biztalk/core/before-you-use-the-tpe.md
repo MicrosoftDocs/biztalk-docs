@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Before You Use the TPE"
-title: "Before You Use the TPE | Microsoft Docs"
+title: "Before You Use the TPE"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bc4f8e00-8a40-453f-be4c-1af683ad250c
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Before You Use the TPE
 Before you start working with the Tracking Profile Editor (TPE), we recommend that you understand BizTalk Server and how it works to facilitate communications across different platforms and applications.  

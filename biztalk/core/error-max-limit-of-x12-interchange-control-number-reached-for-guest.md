@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Max limit of acceptable X12 interchange control number has reached for Guest settings"
-title: "Max limit of acceptable X12 interchange control number has reached for Guest settings | Microsoft Docs"
+title: "Max limit of acceptable X12 interchange control number has reached for Guest settings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9737053d-6065-4c88-8dfa-5f69b48e0e82
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Max limit of acceptable X12 interchange control number has reached for Guest settings
 ## Details  

@@ -1,19 +1,12 @@
 ---
-title: "Troubleshoot Operational Issues with the Oracle E-Business Suite adapter | Microsoft Docs"
+title: "Troubleshoot Operational Issues with the Oracle E-Business Suite adapter"
 description: Common issues and resolutions for Oracle EBS adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 667633e0-055a-418a-ab64-d4f6e6c7a898
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshoot Operational Issues with the Oracle E-Business Suite adapter
 This section discusses using troubleshooting techniques to resolve operational errors that you might encounter when using [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].  

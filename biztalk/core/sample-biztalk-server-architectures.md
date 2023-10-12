@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Sample BizTalk Server Architectures"
-title: "Sample BizTalk Server Architectures | Microsoft Docs"
+title: "Sample BizTalk Server Architectures"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "architecture, examples"
-ms.assetid: 3e371771-55cf-4826-89cd-76b5537dd042
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sample BizTalk Server Architectures
 To provide the greatest possible security to your Microsoft® BizTalk® Server environment, it is recommended that you use an architecture where you distribute the BizTalk Servers based on the criticality of the data and services that they contain, and the implication if an attacker compromises the server.  

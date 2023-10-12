@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Step 4: Creating the Contoso 0C4 Trading Partner Agreement"
-title: "Step 4: Creating the Contoso 0C4 Trading Partner Agreement | Microsoft Docs"
+title: "Step 4: Creating the Contoso 0C4 Trading Partner Agreement"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "agreements, creating"
-  - "creating, agreements"
-  - "double action tutorial, creating agreements"
-ms.assetid: de2a943f-945a-4bfc-87f3-dd327d5214ef
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Creating the Contoso 0C4 Trading Partner Agreement
 In this step, you create a trading partner agreement between Contoso and Fabrikam using the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console. You create a new trading partner agreement for the 0C4 Partner Interface Process (PIP).  

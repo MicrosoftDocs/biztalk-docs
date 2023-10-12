@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: System Default Information"
-title: "System Default Information1 | Microsoft Docs"
+title: "System Default Information1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 804fa73e-90a5-4fb2-8a10-6dd4b3bbc062
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # System Default Information
 

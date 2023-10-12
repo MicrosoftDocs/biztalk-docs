@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: XLANG-s Data Types"
-title: "XLANG-s Data Types | Microsoft Docs"
+title: "XLANG-s Data Types"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, expressions"
-  - "Orchestration Designer, managing data"
-  - "Orchestration Designer, variables"
-  - "orchestrations, variables"
-  - "Orchestration Designer, expressions"
-ms.assetid: 5b08aaa6-1533-4bac-a76d-f9162e39bf4f
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # XLANG-s Data Types
 XLANG/s defines standard value types that are reflections of their C# counterparts. These include **Boolean**, **Byte**, **Char**, **Decimal**, **Double**, **Int16**, **Int32**, **Int64**, **SByte**, **Single**, **String**, **UInt16**, **UInt32**, and **UInt64**. XLANG/s supports single-dimensional arrays, but does not support array literals.  

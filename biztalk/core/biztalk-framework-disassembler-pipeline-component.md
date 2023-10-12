@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: BizTalk Framework Disassembler Pipeline Component"
-title: "BizTalk Framework Disassembler Pipeline Component | Microsoft Docs"
+title: "BizTalk Framework Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components, BizTalk Framework Disassembler"
-  - "BizTalk Framework Disassembler [pipeline component]"
-ms.assetid: 48d6c530-5c02-4c70-ad11-0ea6c3c808f8
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Framework Disassembler Pipeline Component
 The BizTalk Framework Disassembler pipeline component parses XML data and determines whether it contains a BizTalk Framework-based messaging payload. The pipeline component saves the message context, and a new message context is created with the BizTalk Framework property that needs to be generated. This property is used to route the message to the BizTalk Framework inbound handler, so it can receive the message to process.  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Use Expression Shape"
-title: "How to Use Expression Shape | Microsoft Docs"
+title: "How to Use Expression Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [Orchestration Designer], Expression shapes"
-  - "Expression shape [Orchestration Designer]"
-  - "Expression shape [Orchestration Designer], configuring"
-  - "Expression shape [Orchestration Designer], about Expression shape"
-ms.assetid: 2d702aa9-b824-4f47-a416-70707ce8ef29
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use Expression Shape
 The **Expression** shape enables you to enter any XLANG/s expression you choose in your orchestration. For example, you can make a .NET call to run an external program, or simply manipulate the values of your orchestration variables.  

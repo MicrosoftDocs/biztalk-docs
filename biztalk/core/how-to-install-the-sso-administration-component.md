@@ -1,19 +1,12 @@
 ---
-title: "Install the SSO Administration Component | Microsoft Docs"
+title: "Install the SSO Administration Component"
 description: Do a custom installation to get SSO Administration, and use ssomanage or SSO administration to enter the server name in BizTalk Server
 ms.custom: ""
 ms.date: "09/27/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 096839e2-7129-498d-92ee-5afeea8dbe0d
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Install the SSO Administration Component
 

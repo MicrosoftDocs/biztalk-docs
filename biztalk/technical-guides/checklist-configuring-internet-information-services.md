@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Configuring Internet Information Services"
-title: "Checklist: Configuring Internet Information Services | Microsoft Docs"
+title: "Checklist: Configuring Internet Information Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 186f82c0-bd50-4c79-a403-8b0d91cc68d6
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Configuring Internet Information Services
 

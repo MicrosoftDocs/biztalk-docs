@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Application Deployment Security Recommendations"
-title: "Application Deployment Security Recommendations | Microsoft Docs"
+title: "Application Deployment Security Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, applications"
-  - "best practices, applications"
-  - "best practices, security"
-  - "security, best practices"
-  - "applications, best practices"
-  - "applications, security"
-ms.assetid: 77902140-8b4c-437c-af4c-10a12b3bc950
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Application Deployment Security Recommendations
 The following are guidelines for deploying BizTalk applications in your environment:  

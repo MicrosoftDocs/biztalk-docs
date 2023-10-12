@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Set the Enterprise Single Sign-On Server"
-title: "How to Set the Enterprise Single Sign-On Server | Microsoft Docs"
+title: "How to Set the Enterprise Single Sign-On Server"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cf1db7d4-ced5-4fef-b438-7292364b88e3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Set the Enterprise Single Sign-On Server
 Every time that you use the command line management utility, ssomanage, you must first point the user to the Single Sign-On (SSO) server that you want to connect to.  

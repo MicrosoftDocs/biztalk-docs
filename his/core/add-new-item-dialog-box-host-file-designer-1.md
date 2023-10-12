@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Add New Item Dialog Box (Host File Designer)"
-title: "Add New Item Dialog Box (Host File Designer)1 | Microsoft Docs"
+title: "Add New Item Dialog Box (Host File Designer)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ebiz.his.2006.tidesigner.wizard.hostfiles"
-ms.assetid: eeb46b1f-4ea8-416b-9b71-1ebd33a9d7ed
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Add New Item Dialog Box (Host File Designer)
 The Add New Item dialog box enables you to add a host file object the currently selected project. There are two panes in the dialog box:  

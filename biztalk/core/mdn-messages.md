@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: MDN Messages"
-title: "MDN Messages | Microsoft Docs"
+title: "MDN Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 16ac6253-0be5-4636-b102-bf5af8956261
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MDN Messages
 The Message Disposition Notification (MDN) is the acknowledgment sent in response to an AS2 message. If an MDN is enabled, the AS2 transmission is not complete until the MDN has been received and verified. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will always attempt to return an MDN to indicate the status of message processing, even if an error occurred in processing the AS2 message.  

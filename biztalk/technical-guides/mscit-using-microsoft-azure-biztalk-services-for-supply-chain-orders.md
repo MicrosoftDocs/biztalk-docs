@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders"
-title: "MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders | Microsoft Docs"
+title: "MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 22091261-cd17-45b2-8746-dc174b52dcff
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders
 **Microsoft Devices & Studios: Using Microsoft Azure BizTalk Services for Supply Chain Orders**

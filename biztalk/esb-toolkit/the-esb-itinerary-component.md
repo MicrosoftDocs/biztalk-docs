@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: The ESB Itinerary Component"
-title: "The ESB Itinerary Component | Microsoft Docs"
+title: "The ESB Itinerary Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 379edc6a-7d53-4338-87a5-47b5238453a4
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The ESB Itinerary Component
 The ESB Itinerary component sets the context properties from the SOAP header sent along with the message to an ESB itinerary on-ramp.  

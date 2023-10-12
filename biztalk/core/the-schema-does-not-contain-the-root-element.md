@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The schema does not contain the root element"
-title: "The schema does not contain the root element | Microsoft Docs"
+title: "The schema does not contain the root element"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: efc33f2b-9e14-4d2e-8c8a-32b7696f80ea
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The schema does not contain the root element
 ## Details  

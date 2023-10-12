@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Creating and Deploying A4SWIFT Pipelines"
-title: "Creating and Deploying A4SWIFT Pipelines | Microsoft Docs"
+title: "Creating and Deploying A4SWIFT Pipelines"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating, pipelines"
-  - "deploying, pipelines"
-  - "pipelines, deploying"
-  - "pipelines, creating"
-ms.assetid: 2a614510-7e15-4e88-9012-fc019d3aefee
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating and Deploying A4SWIFT Pipelines
 Perform the following steps to create and deploy SWIFT pipelines for message repair and new submission, as shown in the following figure.  

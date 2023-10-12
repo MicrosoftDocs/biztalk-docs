@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Operations on Concurrent Programs"
-title: "Operations on Concurrent Programs | Microsoft Docs"
+title: "Operations on Concurrent Programs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bbc40e4c-d5a1-4763-9683-09a744e5b656
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations on Concurrent Programs
 Concurrent programs in Oracle E-Business Suite are surfaced as operations in [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].  Along with the concurrent programs specific to an Oracle application, the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] also surfaces the following three standard operations: Get_Status, Wait_For_Request, and Submit_Request. This implies that if an Oracle application has two concurrent programs, five operations will be exposed: one for each concurrent program, and three for the standard operations.  

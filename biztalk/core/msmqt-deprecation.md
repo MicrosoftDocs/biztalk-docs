@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: MSMQT Deprecation"
-title: "MSMQT Deprecation | Microsoft Docs"
+title: "MSMQT Deprecation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 007d65ce-d2a2-4602-80c8-55b26617f397
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MSMQT Deprecation
 The MSMQT feature has been removed from BizTalk Server. In Orchestration Designer, the MSMQT transport option remains available in the design-time Port Configuration Wizard as shown in the image below when you choose the **Specify now** option for **Port binding**.  

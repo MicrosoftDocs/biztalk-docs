@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invoke Functions and Procedures with RECORD Types in Oracle Database using BizTalk Server"
-title: "Invoke Functions and Procedures with RECORD Types in Oracle Database using BizTalk Server | Microsoft Docs"
+title: "Invoke Functions and Procedures with RECORD Types in Oracle Database using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ccdc150e-055a-47df-af3e-64931946455d
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke Functions and Procedures with RECORD Types in Oracle Database using BizTalk Server
 Oracle RECORD types are used to represent hierarchical information in parameters passed to PL/SQL functions and procedures. The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces RECORD types as complex XML types. For more information about how the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports RECORD Types, see [Operations on Functions and Procedures with RECORD Types in Oracle Database.](../../adapters-and-accelerators/adapter-oracle-database/operations-on-functions-and-procedures-with-record-types-in-oracle-database.md). For information about the XML structure for RECORD Types, see [Message Schemas for RECORD Types](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-record-types.md).  

@@ -1,36 +1,12 @@
 ---
 description: "Learn more about: MQSeries Adapter Properties"
-title: "MQSeries Adapter Properties | Microsoft Docs"
+title: "MQSeries Adapter Properties"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MQXQH_RemoteQName property [MQSeries adapters]"
-  - "MQMD_ReplyToQ property [MQSeries adapters]"
-  - "configuring [MQSeries adapters], properties"
-  - "MQXQH_MsgDesc_ReplyToQMgr property [MQSeries adapters]"
-  - "UserHttpHeaders property [MQSeries adapters]"
-  - "MQMD_CorrelId property [MQSeries adapters]"
-  - "MQXQH_MsgDesc_MsgId property [MQSeries adapters]"
-  - "MQXQH_MsgDesc_ReplyToQ property [MQSeries adapters]"
-  - "SubmissionHandle property [MQSeries adapters]"
-  - "BizTalk_CorrelationID property [MQSeries adapters]"
-  - "MQMD_ReplyToQMgr property [MQSeries adapters]"
-  - "EnableChunkedEncoding property [MQSeries adapters]"
-  - "MQSeries adapters, properties"
-  - "MQXQH_MsgDesc_CorrelId property [MQSeries adapters]"
-  - "MQXQH_RemoteQMgrName property [MQSeries adapters]"
-  - "MQMD_MsgId property [MQSeries adapters]"
-ms.assetid: c3cfbc8c-4c9b-431e-b0b6-4c065a69ce6b
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MQSeries Adapter Properties
 To access MQSeries header properties from a BizTalk orchestration, you must add a reference to the MQSeries.dll assembly to your project. This assembly is located where you installed the MQSeries adapter, for example, [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  

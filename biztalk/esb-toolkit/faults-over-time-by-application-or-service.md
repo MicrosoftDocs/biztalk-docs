@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Faults over Time by Application or Service"
-title: "Faults over Time by Application or Service | Microsoft Docs"
+title: "Faults over Time by Application or Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 51fdbf8a-1e5f-4054-b8b1-e85b5de399c4
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Faults over Time by Application or Service
 This option displays a count of faults over a specified period for a specified set of applications. You can select an application to display a trend chart that shows the number of faults over time for specific services within the application. Selecting a specific service displays a report that lists the faults for that service. You can also export the list of faults as a Microsoft Excel spreadsheet.  

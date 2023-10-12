@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Creating Schemas"
-title: "Creating Schemas | Microsoft Docs"
+title: "Creating Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 20b88194-b400-4ebc-8882-d493fbf30e0f
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Schemas
 You can use BizTalk Editor to create two types of schemas: message schemas and property schemas.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BizTalk Server Project Versioning"
-title: "BizTalk Server Project Versioning | Microsoft Docs"
+title: "BizTalk Server Project Versioning"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dcdd5354-6335-4320-adbf-28ac934c9ce6
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server Project Versioning
 When developing with the [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)], versioning is governed by a standard set of rules that work to minimize the impact of version number changes. Depending on how a [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)]application or component is deployed, dependencies can be handled by an application configuration file, through XCOPY installation, or by other [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] deployment mechanisms. As the following sections will show, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adds additional complexity to versioning and dependencies.  

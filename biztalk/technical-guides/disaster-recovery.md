@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Disaster Recovery"
-title: "Disaster Recovery | Microsoft Docs"
+title: "Disaster Recovery"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 729b3aa0-79dd-4e36-ac5c-4e733afe4156
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Disaster Recovery
 Disaster recovery procedures improve system availability by employing steps to resume operation of a failed system. Disaster recovery differs from fault tolerance in that disaster recovery typically requires manual intervention to restore the failed system whereas a fault-tolerant design can continue to operate without manual intervention if the system encounters a failure condition.  

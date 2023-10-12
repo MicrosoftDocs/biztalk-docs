@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10694"
-title: "Single Sign-On: Event 10694 | Microsoft Docs"
+title: "Single Sign-On: Event 10694"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 75faca65-48d9-45f6-b079-2b612ef3de76
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10694
 ## Details  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Accessing SOAP Headers in Orchestrations"
-title: "Accessing SOAP Headers in Orchestrations | Microsoft Docs"
+title: "Accessing SOAP Headers in Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SOAP headers, orchestrations"
-  - "SOAP headers, properties"
-  - "orchestrations, SOAP headers"
-ms.assetid: 91fe053a-3f16-497c-b4bb-5fb54bec62e5
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Accessing SOAP Headers in Orchestrations
 You can access the SOAP header context properties in orchestrations for defined and unknown SOAP headers. For more information about property schemas and context properties, see [Property Schemas](../core/property-schemas.md).  

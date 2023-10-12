@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Persistence and the Orchestration Engine"
-title: "Persistence and the Orchestration Engine | Microsoft Docs"
+title: "Persistence and the Orchestration Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestration engine, persistence"
-  - "persistence"
-  - "orchestration engine, serialization"
-ms.assetid: 088230ef-13b3-440b-9875-6449f29dd5c6
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Persistence and the Orchestration Engine
 State persistence, its management and restoration form the basis of a lot of fundamental functionalities of the orchestration engine. In particular, persistence is critical to the correct functioning of:  

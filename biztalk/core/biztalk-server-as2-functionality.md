@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BizTalk Server AS2 Functionality"
-title: "BizTalk Server AS2 Functionality | Microsoft Docs"
+title: "BizTalk Server AS2 Functionality"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c16c017e-b68b-483b-a4af-e47eb229de00
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server AS2 Functionality
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes AS2 messages using a combination of core BizTalk Server features and AS2-specific BizTalk Server features. This enables BizTalk Server to perform the processing that is unique to AS2 messaging, while leveraging its core messaging functionality. If EDI documents are transported over AS2, some of the EDI-specific functionality in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will also be used.  

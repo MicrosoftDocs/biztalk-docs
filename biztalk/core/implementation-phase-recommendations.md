@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Implementation Phase Recommendations"
-title: "Implementation Phase Recommendations | Microsoft Docs"
+title: "Implementation Phase Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 04877156-cc32-480b-8410-d26eb073c327
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Implementation Phase Recommendations
 The implementation phase takes the requirements and design phase products and implements them using appropriate technologies. In the case of validation testing, it is during this phase that test cases are completed and automated in preparation for validation testing. Typically, a lot of testing on the early system versions is also performed during this phase, not only to validate the system, but to validate that there are no problems with the test cases themselves.  

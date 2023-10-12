@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: MSMQ Adapter Configuration Properties"
-title: "MSMQ Adapter Configuration Properties | Microsoft Docs"
+title: "MSMQ Adapter Configuration Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MSMQ adapters, receive locations"
-  - "MSMQ adapters, send ports"
-  - "receive locations, adapters"
-  - "MSMQ adapters, properties"
-  - "MSMQ adapters, code sample"
-  - "send ports, adapters"
-ms.assetid: d660d0ce-bff9-4bc5-be1d-38954c2fdbe2
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MSMQ Adapter Configuration Properties
 The following table lists the configuration properties that you can set for an MSMQ adapter receive location:  

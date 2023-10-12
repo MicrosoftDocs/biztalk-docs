@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Secondary CSV Return Codes"
-title: "Secondary CSV Return Codes1 | Microsoft Docs"
+title: "Secondary CSV Return Codes1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c21f4991-53f6-4c7e-b1d4-2f5409a7ef65
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Secondary CSV Return Codes
 ## 00000006  

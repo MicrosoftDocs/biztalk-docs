@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Designating a New Master Secret Server Manually"
-title: "Designating a New Master Secret Server Manually | Microsoft Docs"
+title: "Designating a New Master Secret Server Manually"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3fa44143-8d29-49ba-9c71-96be2c9ded67
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Designating a New Master Secret Server Manually
 Cluster hardware can be expensive. If hardware cost is a concern, you can consider manually designating another Enterprise Single Sign-On (SSO) server to be the master secret server during failure scenarios. Using this option, any other SSO server in the SSO group can be promoted to the master secret server. When the master is down, you can manually promote one of the SSO servers to be the master secret server. The biggest disadvantage of this technique is that you cannot edit the existing deployments, restart the existing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services, or deploy new BizTalk applications until you promote a new master secret server.

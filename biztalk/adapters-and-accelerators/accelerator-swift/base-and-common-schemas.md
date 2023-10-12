@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Base and Common Schemas"
-title: "Base and Common Schemas | Microsoft Docs"
+title: "Base and Common Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "base schemas"
-  - "schemas, common schemas"
-  - "schemas, base schemas"
-  - "common schemas"
-ms.assetid: 60eb24f6-cc4f-4c6d-ab15-9e3a6b4ed376
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Base and Common Schemas
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] has implemented the records and elements that comprise individual message schemas in separate schemas. This approach provides a single location to provide updates for fields and formats, insulating the message schema from such changes.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Add a New MessageBox Database"
-title: "How to Add a New MessageBox Database | Microsoft Docs"
+title: "How to Add a New MessageBox Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adding, MessageBox database"
-  - "MessageBox database, adding"
-  - "managing [MessageBox database], adding"
-ms.assetid: 98d850dc-fe3e-43dd-8b5d-9b8c23c006ae
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add a New MessageBox Database
 You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console to add a new MessageBox database to your BizTalk Server deployment. MessageBox databases are the basis for load-balancing work items across servers that do cooperative processing. To increase the number of messages that your system can process, you may need to add additional MessageBox databases.  

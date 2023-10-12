@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Create or Edit a Process Configuration"
-title: "How to Create or Edit a Process Configuration | Microsoft Docs"
+title: "How to Create or Edit a Process Configuration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "process configuration, modifying"
-  - "process configuration, creating"
-  - "authorization properties"
-  - "non-repudiation, properties"
-  - "creating, process configuration"
-  - "modifying, process configuration"
-ms.assetid: ef6160f1-f2f0-42ff-a516-7818c9d79d26
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create or Edit a Process Configuration
 This topic describes how to create or edit a process configuration.  

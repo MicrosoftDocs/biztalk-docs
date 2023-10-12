@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Upgrade BizTalk Accelerator for SWIFT"
-title: "Upgrade BizTalk Accelerator for SWIFT | Microsoft Docs"
+title: "Upgrade BizTalk Accelerator for SWIFT"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ede2af21-4c7d-4f9e-b255-1ada86eda68d
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Upgrade BizTalk Accelerator for SWIFT
 Upgrade [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-currentversion-firstref-md.md)] on BizTalk Server. 

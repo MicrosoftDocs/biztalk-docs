@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Search for Tracked Service Instances"
-title: "How to Search for Tracked Service Instances | Microsoft Docs"
+title: "How to Search for Tracked Service Instances"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b6337df9-8c2e-4d4a-a64b-cc040f83bd91
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Search for Tracked Service Instances
 You can use the **Query** tab in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to search for all tracked service instances. To locate service instances, you can search on the name and version of the assembly, the start and end times of its lifetime, the name or instance ID of the service class, host name, error code, and the state of the service instance.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ClearAllContext"
-title: "ClearAllContext1 | Microsoft Docs"
+title: "ClearAllContext1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d872296d-863f-436d-9d9c-9d4064f32392
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ClearAllContext
 Use the **ClearAllContext** method to remove all the entries in a TI Context array.  

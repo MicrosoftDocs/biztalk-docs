@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Manage Existing Links"
-title: "How to Manage Existing Links | Microsoft Docs"
+title: "How to Manage Existing Links"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0db213b9-df84-4ebd-a59f-7691774d5031
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Manage Existing Links
 Sometimes you may need to change the source or destination of a link, name or rename a link, or delete a link. This topic provides step-by-step instructions for performing these types of link operations.  

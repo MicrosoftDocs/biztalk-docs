@@ -1,35 +1,12 @@
 ---
 description: "Learn more about: Scaled-Out Sending Hosts"
-title: "Scaled-Out Sending Hosts | Microsoft Docs"
+title: "Scaled-Out Sending Hosts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "hosts, sending"
-  - "FTP adapters, high availability"
-  - "EDI adapters, high availability"
-  - "hosts, high availability"
-  - "hosts, availability"
-  - "Windows SharePoint Services adapters, high availability"
-  - "scaling, hosts"
-  - "hosts, clustering"
-  - "scaling, adapters"
-  - "high availability, hosts"
-  - "clustering, hosts"
-  - "MSMQ adapters, high availability"
-  - "hosts, planning"
-  - "hosts, scaling"
-  - "adapters, scaling"
-ms.assetid: a3d79e0b-8c1e-471c-88e2-623600dfd81a
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scaled-Out Sending Hosts
 A scaled-out sending host makes sure that the sending functionality in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is highly available. If you add multiple computers to a host for sending messages, you can run multiple sending host instances for redundancy and high availability.  

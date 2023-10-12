@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Considerations for BAM Code Maintenance"
-title: "Considerations for BAM Code Maintenance | Microsoft Docs"
+title: "Considerations for BAM Code Maintenance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM, code maintenance"
-  - "BAMInterceptor class"
-ms.assetid: e1f1d8e0-207c-47e1-b9bd-a473c86922ce
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Considerations for BAM Code Maintenance
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: connectionManager"
-title: "connectionManager | Microsoft Docs"
+title: "connectionManager"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7133786c-389f-46e3-8cdc-97a9ae78188f
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # connectionManager
 The connectionManager element contains the network, security and failover settings for managing in-bound DRDA client connections.  

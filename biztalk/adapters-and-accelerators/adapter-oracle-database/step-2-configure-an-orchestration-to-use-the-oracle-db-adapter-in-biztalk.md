@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Configure the Orchestration in BizTalk Server Administration Console to use the Oracle Database adapter"
-title: "Step 2: Configure the Orchestration in BizTalk Server Administration Console to use the Oracle Database adapter | Microsoft Docs"
+title: "Step 2: Configure the Orchestration in BizTalk Server Administration Console to use the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 598b4ab0-ff22-4dfa-aa9c-774c60c90227
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Configure the Orchestration in BizTalk Server Administration Console to use the Oracle Database adapter
 ![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")

@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Browse, search, and get metadata for BAPI operations in SAP"
-title: "Browse, search, and get metadata for BAPI operations in SAP | Microsoft Docs"
+title: "Browse, search, and get metadata for BAPI operations in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAPI operations"
-  - "WCF client, generating for BAPI operations"
-  - "BAPIs, browsing"
-  - "searching, BAPIs"
-  - "browsing, BAPIs"
-  - "BAPIs, searching"
-  - "BAPI operations, generating schema"
-ms.assetid: 2884215a-ddba-40c7-bf9f-bfc7831f90bb
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Browse, search, and get metadata for BAPI operations in SAP
 This section provides instructions on how to browse, search, and retrieve metadata from SAP for BAPI operations using [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. Most of the instructions are same for all three user interface. Wherever applicable, separate procedures are provided for the relevant user interface.  

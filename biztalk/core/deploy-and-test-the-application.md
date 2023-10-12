@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Deploy and test the application"
-title: "Deploy and test the application | Microsoft Docs"
+title: "Deploy and test the application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e2c86d5f-1849-4b7d-8061-23f156245f5b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploy and test the application
 > [!NOTE]

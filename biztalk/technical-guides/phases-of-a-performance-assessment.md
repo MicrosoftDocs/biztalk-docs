@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Phases of a Performance Assessment"
-title: "Phases of a Performance Assessment | Microsoft Docs"
+title: "Phases of a Performance Assessment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 120706f9-9fa1-4f41-bd89-3b9eada940ad
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Phases of a Performance Assessment
 One of the primary goals of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to provide maximum flexibility for accommodating as many processing scenarios as possible. Because of this great flexibility, one of the primary challenges facing developers of a BizTalk solution is to determine how to make best use of the features available in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to meet their business needs. This flexibility also poses a challenge when optimizing the performance of a BizTalk Server solution.  

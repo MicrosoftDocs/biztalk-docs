@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Icom3270 Interface"
-title: "Icom3270 Interface | Microsoft Docs"
+title: "Icom3270 Interface"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ae17ff72-ed3e-48e1-833d-0f2295fe569e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Icom3270 Interface
 The Icom3270 interface allows access to an LU0 session.  

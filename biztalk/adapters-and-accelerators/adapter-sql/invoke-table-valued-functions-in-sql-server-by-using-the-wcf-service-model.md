@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invoke Table-Valued Functions in SQL Server by Using the WCF Service Model"
-title: "Invoke Table-Valued Functions in SQL Server by Using the WCF Service Model | Microsoft Docs"
+title: "Invoke Table-Valued Functions in SQL Server by Using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 48688bcc-36b4-4cc1-b078-17e7a5e1cf8c
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke Table-Valued Functions in SQL Server by Using the WCF Service Model
 You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in a .NET application using the WCF service model to invoke table-valued functions in SQL Server. The adapter exposes the table-valued functions as methods that can be invoked directly on SQL Server. For more information about how the adapter supports scalar functions, see [Execute Table-Valued Functions in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/execute-table-valued-functions-in-sql-server-using-the-sql-adapter.md).  

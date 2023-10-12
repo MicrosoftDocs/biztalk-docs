@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Send_Error (CPI-C)"
-title: "Send_Error (CPI-C)2 | Microsoft Docs"
+title: "Send_Error (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 07fad27b-353e-46ee-a9de-7cc43ba02386
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Send_Error (CPI-C)
 The **Send_Error** call (function name **cmserr**) notifies the partner program that the local program has encountered an application-level error.  

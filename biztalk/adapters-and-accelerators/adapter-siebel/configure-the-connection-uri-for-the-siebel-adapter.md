@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Configure the connection URI for the Siebel adapter"
-title: "Configure the connection URI for the Siebel adapter | Microsoft Docs"
+title: "Configure the connection URI for the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "connection URI, specifying"
-ms.assetid: b89b60e9-0f3b-4305-865e-9d3b40d04648
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure the connection URI for the Siebel adapter
 A connection URI is a connection string to connect to a Siebel system. The connection URI contains various parameters required to establish connection with a Siebel system. You must specify this connection URI both at the design time and the run time. At design time, you must specify the URI to connect to the Siebel system to generate the metadata. At run time, you must specify the URI to connect to the Siebel system to perform operations.  

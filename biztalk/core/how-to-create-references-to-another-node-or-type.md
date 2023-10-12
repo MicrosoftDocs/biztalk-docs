@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Create References to Another Node or Type"
-title: "How to Create References to Another Node or Type | Microsoft Docs"
+title: "How to Create References to Another Node or Type"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c60be9ad-01a9-40e7-b43b-8c3d09bbb32f
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create References to Another Node or Type
 You can use global nodes to create reusable data types—fragments of structure—that you can use throughout the schema wherever that structure is appropriate. You can only use nodes that are direct children of the **Schema** node to create global types.  

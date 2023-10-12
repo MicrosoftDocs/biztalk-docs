@@ -1,18 +1,12 @@
 ---
 description: "Learn how to plan for high availability by recovering functional components that might disrupt availability in a BizTalk Server deployment."
-title: "Planning for High Availability2 | Microsoft Docs"
+title: "Planning for High Availability2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 65271fd5-5294-406f-87f8-3aa394c235a2
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning for High Availability
 

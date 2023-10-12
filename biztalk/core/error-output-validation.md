@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Output Validation"
-title: "Error - Output Validation | Microsoft Docs"
+title: "Error - Output Validation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.outputValidation"
-ms.assetid: 18a251a9-6bd4-4fd1-a774-2ea1b7870891
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Output Validation
 **Error Code**  

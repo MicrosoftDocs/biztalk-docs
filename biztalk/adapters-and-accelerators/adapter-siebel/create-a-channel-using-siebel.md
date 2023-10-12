@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Create a channel using Siebel"
-title: "Create a channel using Siebel | Microsoft Docs"
+title: "Create a channel using Siebel"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "channel programming, creating a channel"
-  - "how to, create a channel"
-  - "creating a channel"
-ms.assetid: 5587cf51-7101-4035-b958-3fe070ba6252
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create a channel using Siebel
 This section demonstrates how to create a channel for direct messaging with Siebel by providing and consuming XML messages.  

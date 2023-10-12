@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Send Ports and Send Port Groups"
-title: "Send Ports and Send Port Groups | Microsoft Docs"
+title: "Send Ports and Send Port Groups"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "send ports, states"
-  - "send port groups"
-  - "send port groups, states"
-  - "send ports, about send ports"
-  - "send ports"
-  - "send port groups, about send port groups"
-  - "states, send ports"
-ms.assetid: 274bdd27-9098-46a2-8762-8b57bbfc95b8
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Send Ports and Send Port Groups
 A *send port* is the location to which Microsoft BizTalk Server sends messages or from which BizTalk Server receives messages. It also provides the technology that BizTalk Server uses to implement the communication action. The name of the port uniquely identifies the location.  

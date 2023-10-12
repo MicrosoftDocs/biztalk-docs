@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10787"
-title: "Single Sign-On: Event 10787 | Microsoft Docs"
+title: "Single Sign-On: Event 10787"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9f50d8f2-01b1-40cc-ab1e-7d601e4793c8
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10787
 ## Details  

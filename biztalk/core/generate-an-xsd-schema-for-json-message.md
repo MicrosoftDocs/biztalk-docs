@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Generate an XSD schema for JSON message"
-title: "Generate an XSD schema for JSON message | Microsoft Docs"
+title: "Generate an XSD schema for JSON message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5453b76c-b282-442f-9eb1-6c2628b38ad5
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Generate an XSD schema for JSON message
 > [!NOTE]

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Use binding files to import or export"
-title: "Use binding files to import or export | Microsoft Docs"
+title: "Use binding files to import or export"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f9a2a82a-f8d4-4ec2-b8c1-be6cda3f993a
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use binding files to import or export
 

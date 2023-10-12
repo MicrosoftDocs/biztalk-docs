@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Develop BizTalk applications using the SAP adapter"
-title: "Develop BizTalk applications using the SAP adapter | Microsoft Docs"
+title: "Develop BizTalk applications using the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BizTalk applications, developing"
-  - "developing, BizTalk applications"
-ms.assetid: 4aa10897-a08e-4fc3-9c1f-40485d204273
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Develop BizTalk applications using the SAP adapter
 Developing BizTalk applications involves creating a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] or [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate XML schema. Once you have generated the schema, you can either use Content-Based Routing (CBR) or create BizTalk orchestrations to send and receive messages that conform to the generated schema.  

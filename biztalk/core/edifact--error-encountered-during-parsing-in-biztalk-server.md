@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error encountered during parsing. The Edifact interchange which did not contain a group had the following errors"
-title: "Error encountered during parsing. The Edifact interchange which did not contain a group had the following errors | Microsoft Docs"
+title: "Error encountered during parsing. The Edifact interchange which did not contain a group had the following errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d6b324fd-f365-41b9-81aa-b6c5c5d3f673
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error encountered during parsing. The Edifact interchange which did not contain a group had the following errors
 ## Details  

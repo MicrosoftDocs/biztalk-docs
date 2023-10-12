@@ -1,18 +1,12 @@
 ---
 description: "Learn about the syntax and attributes of the sqlToDb2 element that defines the direction from SQL Server to DB2."
-title: "sqlToDb21 | Microsoft Docs"
+title: "sqlToDb21"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4fea50df-ec1b-4146-a561-ea4c989624e9
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # About sqlToDb2
 

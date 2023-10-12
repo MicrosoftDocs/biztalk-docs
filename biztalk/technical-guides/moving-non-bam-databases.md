@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Moving Non-BAM Databases"
-title: "Moving Non-BAM Databases | Microsoft Docs"
+title: "Moving Non-BAM Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9e548e72-db0e-4f07-a07a-8d210425dfa5
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Moving Non-BAM Databases
 You can use this procedure to move the primary BizTalk Server databases to another server. This same basic procedure can also be used to move the BizTalk Server databases from a local SQL Server to a remote SQL Server or to a SQL Server cluster. This section describes how to move the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases that are not BAM related.

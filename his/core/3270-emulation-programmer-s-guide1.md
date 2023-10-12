@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: 3270 Emulation Programmer's Guide"
-title: "3270 Emulation Programmer's Guide | Microsoft Docs"
+title: "3270 Emulation Programmer's Guide"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cad93bbc-f27b-4f8a-84d2-27787734f65a
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # 3270 Emulation Programmer's Guide
 

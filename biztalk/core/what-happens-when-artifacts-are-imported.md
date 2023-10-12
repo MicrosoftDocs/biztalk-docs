@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: What Happens When Artifacts Are Imported"
-title: "What Happens When Artifacts Are Imported | Microsoft Docs"
+title: "What Happens When Artifacts Are Imported"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "importing, artifacts"
-  - "artifacts, importing"
-ms.assetid: a83957df-6e16-419a-b693-87985b498cc4
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Happens When Artifacts Are Imported
 This topic describes what happens to artifacts when they are imported. There are three ways to import artifacts, which are covered in this topic:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Programming Models"
-title: "Programming Models2 | Microsoft Docs"
+title: "Programming Models2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 021e2e82-f065-45e1-a10a-e540925bcecd
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Programming Models
 A programming model defines the method(s) used to access and integrate server applications with host applications. A programming model is a combination of:  

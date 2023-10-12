@@ -1,24 +1,9 @@
 ---
 description: "Learn more about: Setting Up a Send Port for Receiving ACKs"
 title: "Setting Up a Send Port for Receiving ACKs"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "send ports, acknowledgements"
-  - "creating, send ports"
-  - "acknowledgements, send ports"
-  - "send ports, creating"
-ms.assetid: bb683e72-36e2-4a8f-acc2-8b37ed23746f
-caps.latest.revision: 6
-
-
-
 ---
 # Setting Up a Send Port for Receiving ACKs
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) can receive acknowledgments (ACK) on a one-way send port. When you set up a new one-way send port for receiving ACKs on the same connection, you must associate that send port with a one-way receive port.  

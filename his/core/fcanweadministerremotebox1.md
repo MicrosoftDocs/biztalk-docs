@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: fCanWeAdministerRemoteBox"
-title: "fCanWeAdministerRemoteBox1 | Microsoft Docs"
+title: "fCanWeAdministerRemoteBox1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e1da613f-3908-495d-9b2f-a90afd06f72d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # fCanWeAdministerRemoteBox
 The **fCanWeAdministerRemoteBox** function is used to determine if the caller has administrative privileges on the remote computer. This utility function is used to construct an integrated link service configuration DLL.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_LuLua Class"
-title: "MsSna_LuLua Class2 | Microsoft Docs"
+title: "MsSna_LuLua Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1eb3b759-5559-41a7-8dd7-3e322ce6981a
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_LuLua Class
 Describes a 3270 LU LUA resource.  

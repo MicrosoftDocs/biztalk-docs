@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10672"
-title: "Single Sign-On: Event 10672 | Microsoft Docs"
+title: "Single Sign-On: Event 10672"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f2422c7d-51bc-4f12-8830-193d71d2bce9
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10672
 ## Details  

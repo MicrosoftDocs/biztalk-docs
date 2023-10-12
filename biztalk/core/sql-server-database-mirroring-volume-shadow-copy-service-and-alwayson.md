@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: SQL Server database mirroring, Volume Shadow Copy service and AlwaysOn"
-title: "SQL Server database mirroring, Volume Shadow Copy service and AlwaysOn | Microsoft Docs"
+title: "SQL Server database mirroring, Volume Shadow Copy service and AlwaysOn"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b965cafc-cd34-4657-975d-0dedffd27333
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SQL Server database mirroring, Volume Shadow Copy service and AlwaysOn
 Microsoft provides software solutions known as SQL Server *database mirroring* and the Windows Volume Shadow Copy Service (VSS) to increase high availability for particular scenarios. SQL Server *database mirroring* increases the probability that a database is available while the Volume Shadow Copy Service (VSS) provides backup and restore functionality for disaster recovery. The use of SQL Server *database mirroring* or the Windows Volume Shadow Copy Service are not supported solutions for ensuring high availability of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.

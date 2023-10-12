@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Receive Inbound tRFC Calls in SAP using the WCF Service Model"
-title: "Receive Inbound tRFC Calls in SAP using the WCF Service Model | Microsoft Docs"
+title: "Receive Inbound tRFC Calls in SAP using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tRFC calls, receiving inbound using the WCF service model"
-  - "WCF service model, receiving inbound tRFC calls"
-ms.assetid: 02dc282b-b659-466a-8bd1-f400a05f71ec
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive Inbound tRFC Calls in SAP using the WCF Service Model
 You can use the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as a transactional RFC (tRFC) server to receive inbound tRFC calls from SAP. For inbound tRFCs, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports multiple tRFCs in the same SAP logical unit of work (LUW).  

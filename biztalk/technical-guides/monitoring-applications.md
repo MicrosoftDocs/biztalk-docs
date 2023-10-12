@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Monitoring Applications"
-title: "Monitoring Applications | Microsoft Docs"
+title: "Monitoring Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4be98ba2-6acd-4dee-b6ea-db71bbd368f0
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Monitoring Applications
 Setting up Microsoft System Center Operations Manager to monitor BizTalk applications typically can be broken down into a progressive four-step process as follows:  

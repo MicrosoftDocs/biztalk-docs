@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Database Failover Support"
-title: "Database Failover Support | Microsoft Docs"
+title: "Database Failover Support"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 09347fdd-2929-4ed9-b0d8-698508663ecd
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Database Failover Support
 You can pass an instance of the **PolicyFetchErrorHandler** delegate as a parameter to overloaded constructors of the **Policy** class. When an error occurs while fetching the policy details from the database, the delegate instance is invoked. You can also use a try-catch block to trap **RuleStoreConnectionException** and **RuleStoreCompatibilityException** exceptions that are raised when the rule engine fails to connect to the Rule Engine database.  

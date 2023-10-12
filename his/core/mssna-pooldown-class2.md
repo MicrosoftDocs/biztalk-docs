@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_PoolDown Class"
-title: "MsSna_PoolDown Class2 | Microsoft Docs"
+title: "MsSna_PoolDown Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4de34bc7-fd6c-409f-ab02-b4ccd65066b8
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_PoolDown Class
 The 3270 LU downstream pool.  

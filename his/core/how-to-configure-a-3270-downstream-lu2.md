@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure a 3270 Downstream LU"
-title: "How to Configure a 3270 Downstream LU2 | Microsoft Docs"
+title: "How to Configure a 3270 Downstream LU2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 33876bcf-2d0e-4900-9f24-2dcc04be3046
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Configure a 3270 Downstream LU
 The following procedure details how to configure a downstream LU.  

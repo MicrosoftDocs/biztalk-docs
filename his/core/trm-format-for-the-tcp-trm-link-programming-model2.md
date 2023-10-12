@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TRM Format for the TCP TRM Link Programming Model"
-title: "TRM Format for the TCP TRM Link Programming Model2 | Microsoft Docs"
+title: "TRM Format for the TCP TRM Link Programming Model2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1e39998e-51c5-429c-aa43-a10c4bfefc99
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TRM Format for the TCP TRM Link Programming Model
 

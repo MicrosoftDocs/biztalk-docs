@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Configuring Message Repair and New Submission"
-title: "Configuring Message Repair and New Submission | Microsoft Docs"
+title: "Configuring Message Repair and New Submission"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Message Repair and New Submission, configuring"
-  - "A4SWIFT, Message Repair and New Submission"
-  - "configuring, Message Repair and New Submission"
-ms.assetid: e3e5e865-109c-469e-8b5b-c2675583d5a5
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Message Repair and New Submission
 You must perform the steps in the following sections to configure the Message Repair and New Submission feature of Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)], as shown in the following figure.  

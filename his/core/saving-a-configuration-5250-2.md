@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Saving a Configuration (5250)"
-title: "Saving a Configuration (5250)2 | Microsoft Docs"
+title: "Saving a Configuration (5250)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 386fcbd8-1357-4793-b83f-44cab2f02835
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Saving a Configuration (5250)
 After you have configured a connection to the host, you can save it. While you are connected to the host application, you cannot open a new or existing configuration.  

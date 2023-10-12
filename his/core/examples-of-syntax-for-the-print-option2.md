@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Examples of Syntax for the /print Option"
-title: "Examples of Syntax for the -print Option2 | Microsoft Docs"
+title: "Examples of Syntax for the -print Option2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 02ba271f-ff56-4a42-8c62-8684d33c6b18
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Examples of Syntax for the /print Option
 The following examples illustrate the use of the **/print** option.  

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Module 5: Adding a Flat File Receive Location and XML Send Port"
-title: "Module 5: Adding a Flat File Receive Location and XML Send Port | Microsoft Docs"
+title: "Module 5: Adding a Flat File Receive Location and XML Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, send ports"
-  - "receive locations, flat files"
-  - "tutorial, creating send ports"
-  - "flat files, receive locations"
-  - "tutorial, creating receive locations"
-  - "send ports, creating"
-ms.assetid: db610c0f-6ff2-4642-9bbd-cffe4b625f3f
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Module 5: Adding a Flat File Receive Location and XML Send Port
 In this module, you add one flat file receive port and location, and one XML send port. You use the receive port and location to receive an MT103 flat file from a file folder. You use the send port to send the MT103 message to an outbound file folder in XML format.  

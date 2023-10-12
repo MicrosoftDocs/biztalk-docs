@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Distributing Digital Certificates"
-title: "Distributing Digital Certificates | Microsoft Docs"
+title: "Distributing Digital Certificates"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "digital signatures"
-  - "security, digital signatures"
-ms.assetid: 3e93a405-3c9b-43f5-bbdf-bec25d43eb45
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Distributing Digital Certificates
 Digital certificates used for digital signing are typically issued and distributed to user workstations by certification authorities (CAs)—either external commercial entities such as VeriSign, or internal CAs hosted in an organization. The types (encryption algorithms and cipher strengths) of digital certificates used may differ from organization to organization. [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] can digitally sign a form using any certificate format that is made up of a private key and has a Digital Signature and/or an Encryption value for the Key Usage attribute. Additionally, the purpose of the certificate should be set as Client Authentication.

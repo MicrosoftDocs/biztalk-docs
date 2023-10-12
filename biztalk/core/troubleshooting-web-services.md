@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting Web Services"
-title: "Troubleshooting Web Services | Microsoft Docs"
+title: "Troubleshooting Web Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c32bf542-dcc6-4727-b31f-52bb19d4b89d
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting Web Services
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes extensive use of Web services for use with the SOAP adapter and when publishing orchestrations as Web services. This topic provides some steps that you can follow to troubleshoot Web services, as well as some common Web services problems and how to resolve those problems.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Password Sync Adapter Properties: Properties"
-title: "Password Sync Adapter Properties: Properties2 | Microsoft Docs"
+title: "Password Sync Adapter Properties: Properties2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1cb2cd1b-dc67-4fe1-bf76-07a032064021
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Password Sync Adapter Properties: Properties
 Use this dialog box to view or change properties for the Password Sync Adapter.  

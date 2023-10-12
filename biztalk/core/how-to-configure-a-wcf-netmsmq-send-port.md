@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure a WCF-NetMsmq Send Port"
-title: "How to Configure a WCF-NetMsmq Send Port | Microsoft Docs"
+title: "How to Configure a WCF-NetMsmq Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 13f55e53-12af-473b-b73f-1c98edadfc28
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a WCF-NetMsmq Send Port
 You can configure a WCF-NetMsmq send port either programmatically or by using the BizTalk Administration console.  

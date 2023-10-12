@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Pipeline Templates"
-title: "Pipeline Templates | Microsoft Docs"
+title: "Pipeline Templates"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipelines, templates"
-  - "Pipeline Designer, templates"
-  - "send pipelines, templates"
-  - "receive pipelines, templates"
-ms.assetid: b9779159-e49d-47fb-aa1c-06be5d604c67
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Pipeline Templates
 In addition to the default pipelines, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes two pipeline templates: a receive pipeline template and a send pipeline template. From a BizTalk project in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], you can add a pipeline template to your project by using the **Add New Item** command on the **Project** menu. Each template has an associated policy file, which determines the pipeline's stages and indicates which pipeline components are allowed in the pipeline. While you cannot reorder the stages in a policy file, you can use Pipeline Designer to reorder the components within a stage.  

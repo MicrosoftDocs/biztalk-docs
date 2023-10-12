@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough (EDIFACT): Receiving EDI Interchanges and Sending Back an Acknowledgement"
-title: "Walkthrough (EDIFACT): Receiving EDI Interchanges and Sending Back an Acknowledgement | Microsoft Docs"
+title: "Walkthrough (EDIFACT): Receiving EDI Interchanges and Sending Back an Acknowledgement"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 02751f0c-8e7e-4879-93e4-8bc475640756
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough (EDIFACT): Receiving EDI Interchanges and Sending Back an Acknowledgement
 This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDIFACT interchanges using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In this solution, an EDIFACT interchange is sent from a trading partner, Fabrikam, to another trading partner, Contoso.  

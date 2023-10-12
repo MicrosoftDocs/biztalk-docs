@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Add a Transaction"
-title: "How to Add a Transaction | Microsoft Docs"
+title: "How to Add a Transaction"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adding, transactions"
-  - "transactions, adding"
-ms.assetid: 25385c20-3025-4cf1-bc1f-ef266e081bad
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add a Transaction
 Follow these steps to add a transaction.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Custom Date-Time Formats"
-title: "Custom Date-Time Formats | Microsoft Docs"
+title: "Custom Date-Time Formats"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b5efbec4-3138-44d7-bc76-f9c21547e1d5
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Custom Date-Time Formats
 

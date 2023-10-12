@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Exceptions"
-title: "Exceptions | Microsoft Docs"
+title: "Exceptions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, errors"
-  - "errors, orchestrations"
-ms.assetid: febf8511-b3b6-46bf-aef0-2d326f1b959e
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exceptions
 Exceptions are raised when an error occurs in your orchestration. BizTalk Server provides various mechanisms for handling (and throwing) exceptions.  

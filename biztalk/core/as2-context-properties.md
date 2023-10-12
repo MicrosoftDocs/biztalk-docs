@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AS2 Context Properties"
-title: "AS2 Context Properties | Microsoft Docs"
+title: "AS2 Context Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b4d63104-f31e-4ed2-b294-ba3ea8a39ae6
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AS2 Context Properties
 Five types of context properties apply to AS2 messages in BizTalk Server:  

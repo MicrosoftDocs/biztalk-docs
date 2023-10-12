@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Architecture of the BizTalk ESB Toolkit"
-title: "Architecture of the BizTalk ESB Toolkit | Microsoft Docs"
+title: "Architecture of the BizTalk ESB Toolkit"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a41674f5-5ea4-4a8f-a270-b67fd6854028
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Architecture of the BizTalk ESB Toolkit
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] consists of a series of interoperating components that support and implement a loosely coupled messaging environment that makes it easier to build message-based enterprise applications. The services and components fall naturally into the following seven categories:  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Syntax for a SELECT Statement in Siebel"
-title: "Syntax for a SELECT Statement in Siebel | Microsoft Docs"
+title: "Syntax for a SELECT Statement in Siebel"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Data Provider for Siebel, searching and sorting data using"
-  - "Data Provider for Siebel, SELECT statement"
-  - "SELECT statement, syntax for"
-ms.assetid: 8528b115-d6f3-420d-8617-0e56dc8922bf
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Syntax for a SELECT Statement in Siebel
 Using the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)], ADO.NET clients can perform a SELECT query on Siebel business components by specifying a WHERE clause that represents a valid Siebel search specification. The syntax for the SELECT statement is:  

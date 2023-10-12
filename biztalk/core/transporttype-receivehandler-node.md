@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: TransportType (ReceiveHandler Node)"
-title: "TransportType (ReceiveHandler Node) | Microsoft Docs"
+title: "TransportType (ReceiveHandler Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "TransportType node [binding file]"
-ms.assetid: d893b3ac-8e2c-41fb-926c-cea23f6f93b3
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # TransportType (ReceiveHandler Node)
 The TransportType node of the ReceiveHandler node of a binding file contains specific information about the adapter associated with a receive handler that is exported with the binding file.  

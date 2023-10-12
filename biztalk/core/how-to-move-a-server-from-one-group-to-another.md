@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Move a Server from One Group to Another"
-title: "How to Move a Server from One Group to Another | Microsoft Docs"
+title: "How to Move a Server from One Group to Another"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "groups, servers"
-  - "groups, moving"
-  - "managing [groups], moving servers"
-  - "servers, moving"
-  - "managing [servers], moving"
-  - "servers, groups"
-ms.assetid: 3f789a62-f597-426b-9cea-74c1fe22b694
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Move a Server from One Group to Another
 A server can only be associated with one BizTalk Server group. To move a server from one group to another, you must first remove the server from the original group by unconfiguring it, and then add the server to the new group.  

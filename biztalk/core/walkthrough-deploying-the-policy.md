@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Deploying the Policy"
-title: "Walkthrough: Deploying the Policy | Microsoft Docs"
+title: "Walkthrough: Deploying the Policy"
 ms.custom: ""
 ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 205760e2-9cd4-496f-93cd-0f93bc5d3231
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Deploying the Policy
 This walkthrough provides step-by-step instructions for deploying the **ProcessPurchaseOrder** policy in the following three ways:  

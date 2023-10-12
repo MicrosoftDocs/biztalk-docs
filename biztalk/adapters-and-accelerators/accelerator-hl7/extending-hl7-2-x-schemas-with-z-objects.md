@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: Extending HL7 2.X Schemas with Z Objects"
 title: "Extending HL7 2.X Schemas with Z Objects"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "2.X schemas, Z objects"
-  - "Z objects, extending 2.X schemas"
-ms.assetid: 0980d919-eb81-4c65-b0f7-f17f7cfef6b3
-caps.latest.revision: 3
-
-
-
 ---
 # Extending HL7 2.X Schemas with Z Objects
 The HL7 organization defines HL7 2.X schemas, and expects all senders and receivers to recognize and use these schemas as the organization defines them. Conforming to the schemas ensures for interoperability. However, the HL7 standard enables you to customize existing HL7 2.X schemas for your specific local purposes. You can also define entirely new schemas and objects. You do so with what the HL7 standard calls Z objects.  

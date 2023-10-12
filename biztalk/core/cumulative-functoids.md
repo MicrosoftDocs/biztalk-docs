@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Cumulative Functoids"
-title: "Cumulative Functoids | Microsoft Docs"
+title: "Cumulative Functoids"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f0549867-e0e4-4cdb-aae0-cadc99088e03
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Cumulative Functoids
 

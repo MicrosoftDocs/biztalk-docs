@@ -1,31 +1,12 @@
 ---
 description: "Learn more about: Orchestration Failures"
-title: "Orchestration Failures | Microsoft Docs"
+title: "Orchestration Failures"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Catch Exception block [Orchestration Designer], suspended orchestrations"
-  - "HAT, Catch Exception block [Orchestration Designer]"
-  - "Catch Exception block [Orchestration Designer], HAT"
-  - "orchestrations, troubleshooting [HAT]"
-  - "orchestrations, errors"
-  - "HAT, Orchestration Debugger"
-  - "Orchestration Debugger"
-  - "errors, orchestrations"
-  - "HAT, troubleshooting orchestrations"
-  - "orchestrations, HAT"
-  - "HAT, orchestrations"
-ms.assetid: d0a799fb-7859-4774-b444-979f22f04215
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Orchestration Failures
 Orchestrations vary in complexity; for example, an orchestration may call a .NET object or construct messages via transform and assignment shape. As a result, it is impossible to list out every possible failure, due to the variety of its content as well as level of customization. However, all failures encountered in orchestrations appear as exceptions.  

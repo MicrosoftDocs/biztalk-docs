@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10725"
-title: "Single Sign-On: Event 10725 | Microsoft Docs"
+title: "Single Sign-On: Event 10725"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 89218d73-bda0-4e98-a578-cd244af79041
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10725
 ## Details  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Configure the binding properties for the SAP adapter"
-title: "Configure the binding properties for the SAP adapter | Microsoft Docs"
+title: "Configure the binding properties for the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "binding properties, specifying at design time"
-  - "binding properties, specifying at run time"
-ms.assetid: 259a5895-c19d-409c-b2fc-bfdf59d5d74b
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure the binding properties for the SAP adapter
 The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces several binding properties that enable you to control some of its behavioral characteristics. This section provides information about setting the binding properties from Visual Studio (design time) and from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console (run time). At design time, you must specify the binding properties to generate schema for specific operations. At run time, you must specify the binding properties as part of the send or receive port for sending or receiving messages from the SAP system.  

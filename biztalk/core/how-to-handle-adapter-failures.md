@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Handle Adapter Failures"
-title: "How to Handle Adapter Failures | Microsoft Docs"
+title: "How to Handle Adapter Failures"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bdceb364-38d6-4aab-a176-bf751da1be25
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Handle Adapter Failures
 In general, adapters should suspend messages that they cannot process. For example, a receive adapter that experiences a submit failure should typically suspend the messages, although this decision depends upon the purpose of the adapter. There are also security considerations around handling failures. For example, if an adapter automatically suspends all failed messages, the adapter might be open to a denial-of-service attack that causes the BizTalk Server Suspended queue to fill up.  Some adapters, such as HTTP, can return a failure code to the client indicating that the request has been rejected. For these types of adapters it often makes sense to return a failure code rather than suspend the message. Typically send adapters only suspend messages after all of the retries have been exhausted for both primary and secondary transports.  

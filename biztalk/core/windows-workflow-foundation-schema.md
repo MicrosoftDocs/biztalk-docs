@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Windows Workflow Foundation Schema"
-title: "Windows Workflow Foundation Schema | Microsoft Docs"
+title: "Windows Workflow Foundation Schema"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dd017df1-1b98-4e4a-83ad-61e8ec4b428d
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Windows Workflow Foundation Schema
 This section contains the schema for the Windows Workflow Foundation interceptor.  

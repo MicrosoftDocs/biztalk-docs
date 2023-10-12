@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Segment repeats less than the minimum allowed number of times"
-title: "Segment repeats less than the minimum allowed number of times | Microsoft Docs"
+title: "Segment repeats less than the minimum allowed number of times"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c8ca6c3d-f923-49bc-b5d9-65dc2d7adab1
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Segment repeats less than the minimum allowed number of times
 ## Details  

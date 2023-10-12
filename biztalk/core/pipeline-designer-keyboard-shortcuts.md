@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Pipeline Designer Keyboard Shortcuts"
-title: "Pipeline Designer Keyboard Shortcuts | Microsoft Docs"
+title: "Pipeline Designer Keyboard Shortcuts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Pipeline Designer, keyboard shortcuts"
-  - "keyboard shortcuts, Pipeline Designer"
-ms.assetid: 1f40da23-2dd8-4d25-9b99-f83b1696ceb7
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Pipeline Designer Keyboard Shortcuts
 You can navigate through the design surface by using your keyboard instead of your mouse. The following table shows the keyboard shortcuts that you can use.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Message part missing element"
-title: "Message part missing element | Microsoft Docs"
+title: "Message part missing element"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b519315f-d51d-4ca3-a0e6-d08bb920c6c5
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message part missing element
 ## Details  

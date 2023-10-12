@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10789"
-title: "Single Sign-On: Event 10789 | Microsoft Docs"
+title: "Single Sign-On: Event 10789"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2821694e-e787-4942-8da5-4492e543b4da
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10789
 ## Details  

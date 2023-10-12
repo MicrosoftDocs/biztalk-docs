@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SPasswordChange Members"
-title: "SPasswordChange Members | Microsoft Docs"
+title: "SPasswordChange Members"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bb323ca5-2253-4195-8d52-f84350ba9218
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SPasswordChange Members
 The following table shows the **SPasswordChange** members.  

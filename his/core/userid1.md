@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: USERID"
-title: "USERID1 | Microsoft Docs"
+title: "USERID1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b6d25db8-ab1f-4fcd-8091-5898607d82aa
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # USERID
 Use the **USERID** keyword, combined with **PASSWORD**, to provide explicit security without the need for a callback. The COMTIContext context name is **USERID**; the value must be a string that contains a valid mainframe security user ID.  

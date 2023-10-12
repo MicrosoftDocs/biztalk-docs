@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4: Create a Sharepoint Application to Access the Adapter"
-title: "Step 4: Create a Sharepoint Application to Access the Adapter | Microsoft Docs"
+title: "Step 4: Create a Sharepoint Application to Access the Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e2d8c398-370a-4c62-961d-0eab6066ad5a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Create a Sharepoint Application to Access the Adapter
 ![Step 4 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")

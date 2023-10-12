@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: Key features in the Siebel Adapter"
-title: "Key features in the Siebel Adapter | Microsoft Docs"
+title: "Key features in the Siebel Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "features, performance-related"
-  - "adapter features, new"
-  - "features, technology-related"
-  - "features, metadata-related"
-  - "adapter features, operations-related"
-  - "adapter features, performance-related"
-  - "features, new"
-  - "features, operations-related"
-  - "adapter features, metadata-related"
-ms.assetid: 4612c9ab-810e-4c69-9168-a25c58682e71
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Key features in the Siebel Adapter
 This section lists the new features in [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].  

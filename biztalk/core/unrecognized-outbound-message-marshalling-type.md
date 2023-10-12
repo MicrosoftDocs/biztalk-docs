@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Unrecognized outbound message marshalling type"
-title: "Unrecognized outbound message marshalling type | Microsoft Docs"
+title: "Unrecognized outbound message marshalling type"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e675112b-12f3-47ff-95f7-ce1a05db120e
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unrecognized outbound message marshalling type
 ## Details  

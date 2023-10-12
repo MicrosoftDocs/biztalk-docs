@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: InterAct Adapter Status Monitoring"
-title: "InterAct Adapter Status Monitoring | Microsoft Docs"
+title: "InterAct Adapter Status Monitoring"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2bbc6a45-8d3a-444e-b760-aef0dfa7218a
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # InterAct Adapter Status Monitoring
 SWIFTNet Link (SNL-C) retains a local status about SWIFTNet store and forward (SnF) sessions acquired on that SNL. To get the information about the session, use SwCall() with the following primitive:  

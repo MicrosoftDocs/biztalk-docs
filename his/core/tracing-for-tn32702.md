@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Tracing for TN3270"
-title: "Tracing for TN32702 | Microsoft Docs"
+title: "Tracing for TN32702"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8d6b4404-8bcd-40e0-b903-284b6d30f06c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Tracing for TN3270
 You can enable or disable tracing for TN3270 using the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Trace application. [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Trace provides API, internal, and message tracing.  

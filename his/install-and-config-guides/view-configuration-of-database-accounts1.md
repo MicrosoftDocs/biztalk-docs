@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: View Configuration of Database Accounts"
-title: "View Configuration of Database Accounts | Microsoft Docs"
+title: "View Configuration of Database Accounts"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1cb4f693-8e2b-4ecf-960c-45c2c280943f
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # View Configuration of Database Accounts
 Use this page to edit the server name and database name for the selected feature.  

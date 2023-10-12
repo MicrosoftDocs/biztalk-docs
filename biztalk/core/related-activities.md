@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Related Activities"
-title: "Related Activities | Microsoft Docs"
+title: "Related Activities"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "activities [BAM], related activities"
-  - "Query Builder [BAM portal], related activities"
-  - "queries [BAM], related activities"
-  - "Query Builder [BAM portal], viewing details"
-  - "queries [BAM], viewing details"
-ms.assetid: 141b7943-d244-4810-aa88-12aa4a2b7658
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Related Activities
 The Related Activities area contains a list of activities that are related to the activity on which the query is based. An example of a related activity for a Purchase Order activity would be multiple Shipment activities, since items on a single purchase order can be delivered in multiple shipments.  

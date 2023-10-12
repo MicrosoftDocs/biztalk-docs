@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: ZZ Field Wizard Page"
-title: "ZZ Field Wizard Page1 | Microsoft Docs"
+title: "ZZ Field Wizard Page1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15415"
-ms.assetid: 2681a1be-36eb-442c-882a-3bbf035a0a9e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ZZ Field Wizard Page
 Use the **ZZ Field** wizard page to select the ZZ fields to exclude from the transaction if the host environment (HE) is IMS.  

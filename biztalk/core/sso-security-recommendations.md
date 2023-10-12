@@ -1,42 +1,12 @@
 ---
 description: "Learn more about: SSO Security Recommendations"
-title: "SSO Security Recommendations | Microsoft Docs"
+title: "SSO Security Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "SSO, deploying"
-  - "Kerberos protocol, SSO"
-  - "deploying, SSO"
-  - "user accounts, SSO"
-  - "deploying, security"
-  - "SQL Server, SSO"
-  - "security, SSO"
-  - "SSO, Kerberos protocol"
-  - "SSO, auditing"
-  - "best practices, deploying"
-  - "SSO, Windows groups"
-  - "SSO, best practices"
-  - "SSO, perimeter network"
-  - "Windows groups, SSO"
-  - "SSO, SQL Server access"
-  - "best practices, security"
-  - "Master Secret server, clustering"
-  - "perimeter networks"
-  - "auditing [SSO]"
-  - "SSO, security"
-  - "SSO, user accounts"
-  - "Master Secret server, best practices"
-ms.assetid: 7ae922b4-fd48-41f4-aaab-419a5e22c753
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SSO Security Recommendations
 With the Enterprise Single Sign-On (SSO) system, users can connect to different systems by using only one set of credentials. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] leverages the SSO system as a store for sensitive information. Although [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] automatically installs whenever you install the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime, you can also install Enterprise Single Sign-On as a stand-alone component, independent of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. For more information about Enterprise Single Sign-On, see [Using SSO](../core/using-sso.md). It is recommended you follow these guidelines for securing and deploying the Enterprise Single Sign-On (SSO) services and resources in your environment.

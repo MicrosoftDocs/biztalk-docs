@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Repairing a Message"
-title: "Repairing a Message | Microsoft Docs"
+title: "Repairing a Message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "repairing messages"
-ms.assetid: 3a61b73b-5433-4249-b580-6194ccb4aebc
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Repairing a Message
 This section describes how to repair a message that has failed validation.  

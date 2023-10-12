@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status Information"
-title: "Status Information2 | Microsoft Docs"
+title: "Status Information2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 24e0d188-21e9-4bf1-9447-3f998692cd16
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status Information
 The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Manager provides several types of status messages that can supplement other performance information.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: System Monitor"
-title: "System Monitor1 | Microsoft Docs"
+title: "System Monitor1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ea09adfe-2c0e-4503-8896-792b68c31fec
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # System Monitor
 This section details the Windows System Monitor.  

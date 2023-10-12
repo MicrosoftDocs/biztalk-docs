@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure a Windows Communication Foundation Application for Interception"
-title: "How to Configure a Windows Communication Foundation Application for Interception | Microsoft Docs"
+title: "How to Configure a Windows Communication Foundation Application for Interception"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 37f2ccde-aa79-470a-ac31-57e4168dc54a
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a Windows Communication Foundation Application for Interception
 You must install the BAM interceptor software and configure your application to use the BAM [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] interceptor service before you can begin collecting BAM activity data. It is assumed that you have successfully installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and its dependencies and have created at least one BizTalk group.  

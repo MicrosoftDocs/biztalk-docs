@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Clear the Application Cache"
-title: "How to Clear the Application Cache | Microsoft Docs"
+title: "How to Clear the Application Cache"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6a897791-d32f-46a4-8c5d-2b2161e92bd9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Clear the Application Cache
 Use the MMC Snap-In or the **purgecache** command to remove the contents of the credential cache (all the information that is associated with the affiliate application) for the specified application on all Single Sign-On (SSO) servers.  

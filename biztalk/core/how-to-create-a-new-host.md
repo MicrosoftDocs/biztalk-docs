@@ -1,20 +1,13 @@
 ---
 description: "Learn more about: Create a New Host"
-title: "Create a New Host | Microsoft Docs"
+title: "Create a New Host"
 descriptions: Use BizTalk Administration to create a new host in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 811e6e57-5c37-471a-aff4-5b2b68c367b1
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create a New Host
 A BizTalk Host is a logical container for items such as adapter handlers, receive locations (including pipelines), and orchestrations. We recommend that you use separate hosts for processing, receiving, and sending messages, and that you use separate hosts for trusted and non-trusted items to facilitate implementing security measures and to improve manageability of the hosts. You can install only one instance of a host per BizTalk server. For more information about hosts, see [Hosts](../core/hosts.md).  

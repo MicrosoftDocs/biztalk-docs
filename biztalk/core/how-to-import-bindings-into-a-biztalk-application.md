@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Import Bindings into a BizTalk Application"
-title: "How to Import Bindings into a BizTalk Application | Microsoft Docs"
+title: "How to Import Bindings into a BizTalk Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "bindings, applications"
-  - "applications, importing"
-  - "applications, bindings"
-  - "bindings, importing"
-ms.assetid: 89841b23-4e1b-46ff-8f00-cdad65d6216d
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Import Bindings into a BizTalk Application
 This topic describes how to use the BizTalk Server Administration console or the command line to import bindings into a BizTalk application from an .xml file. You can also import bindings into a BizTalk group, as described in [How to Import Bindings into a BizTalk Group](../core/how-to-import-bindings-into-a-biztalk-group.md).  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: FileAct Adapter Supporting Information Transfer"
-title: "FileAct Adapter Supporting Information Transfer | Microsoft Docs"
+title: "FileAct Adapter Supporting Information Transfer"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0fc27561-9abb-4496-9db7-f221a6c90738
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FileAct Adapter Supporting Information Transfer
 The FileAct adapter permits the optional transfer of supporting information with files. This information is transferred at the discretion of the application. The adapter does not do any special processing of this information on the originating side except to validate that it is in the correct format. The elements which comprise supporting information include:  

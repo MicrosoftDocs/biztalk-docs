@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Connect to SQL Server in Visual Studio Using Add Adapter Metadata Wizard"
-title: "Connect to SQL Server in Visual Studio Using Add Adapter Metadata Wizard | Microsoft Docs"
+title: "Connect to SQL Server in Visual Studio Using Add Adapter Metadata Wizard"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2169722d-beba-4d96-a54b-54986ece9bf8
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Connect to SQL Server in Visual Studio Using Add Adapter Metadata Wizard
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] is also exposed as a BizTalk adapter and, therefore, you can use the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate schema for the operations you want to perform on SQL Server using the adapter.  

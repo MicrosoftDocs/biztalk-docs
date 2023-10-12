@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Tutorial 1: Enterprise Application Integration"
-title: "Tutorial 1: Enterprise Application Integration | Microsoft Docs"
+title: "Tutorial 1: Enterprise Application Integration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "enterprise application integration tutorial"
-  - "getting started tutorials, integrating enterprise applications"
-  - "enterprise application integration tutorial, about the tutorial"
-ms.assetid: aca5fc97-0fd6-4964-9cf1-482aa4f444b8
-caps.latest.revision: 37
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial 1: Enterprise Application Integration
 

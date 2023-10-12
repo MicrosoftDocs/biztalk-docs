@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Choosing Between Messaging and Orchestration Itinerary Services"
-title: "Choosing Between Messaging and Orchestration Itinerary Services | Microsoft Docs"
+title: "Choosing Between Messaging and Orchestration Itinerary Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 694f929a-c830-4906-8e97-4fbd50e70133
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Choosing Between Messaging and Orchestration Itinerary Services
 Itinerary services can be configured to occur in either the messaging subsystem or the orchestration subsystem of BizTalk Server. These ESB itinerary messaging services are configured to process the message and may be executed in a BizTalk Server pipeline (on-ramp or off-ramp). This option enables the developer to define exactly where in the pipeline the service will execute. Naturally, services configured to process in the orchestration subsystem will be executed in a BizTalk orchestration.  

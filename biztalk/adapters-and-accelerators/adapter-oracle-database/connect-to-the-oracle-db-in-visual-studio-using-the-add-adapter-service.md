@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Connect to the Oracle Database in Visual Studio using the Add Adapter Service Reference"
-title: "Connect to the Oracle Database in Visual Studio using the Add Adapter Service Reference | Microsoft Docs"
+title: "Connect to the Oracle Database in Visual Studio using the Add Adapter Service Reference"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 93e56c1f-adee-4976-bc39-bb9b8102145e
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Connect to the Oracle Database in Visual Studio using the Add Adapter Service Reference
 To connect to the Oracle database using the [!INCLUDE[adapteroracle_short_md](../../includes/adapteroracle-short-md.md)] in a .NET programming solution, you must use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. This topic provides instructions on how to use the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  

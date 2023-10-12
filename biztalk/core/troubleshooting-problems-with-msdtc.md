@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting Problems with MSDTC"
-title: "Troubleshooting Problems with MSDTC | Microsoft Docs"
+title: "Troubleshooting Problems with MSDTC"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f39cde52-da8f-4cc1-bdc5-e4b828891a79
-caps.latest.revision: 36
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting Problems with MSDTC
 Most BizTalk Server runtime operations require Microsoft Distributed Transaction Coordinator (MSDTC) support to ensure that the operations are transactionally consistent. If MSDTC transaction support is not available, then the associated BizTalk Server runtime operations cannot proceed. The components of BizTalk that are commonly affected when MSDTC transaction support is not configured correctly include (but are not limited to) the Single Sign-On Service, BizTalk host instances, and any SQL Server instances that are connected to by BizTalk Server. This section contains information that describes MSDTC related errors and steps that can be followed to diagnose and resolve problems with MSDTC.

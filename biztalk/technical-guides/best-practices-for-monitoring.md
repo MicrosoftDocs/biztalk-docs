@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Best Practices for Monitoring"
-title: "Best Practices for Monitoring | Microsoft Docs"
+title: "Best Practices for Monitoring"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d5b180e2-bdd3-4081-9531-d96be7dabe1a
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Best Practices for Monitoring
 

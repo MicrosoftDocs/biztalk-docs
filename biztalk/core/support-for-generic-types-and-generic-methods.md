@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Support for Generic Types and Generic Methods"
-title: "Support for Generic Types and Generic Methods | Microsoft Docs"
+title: "Support for Generic Types and Generic Methods"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc6b5b51-e084-4828-ad25-9209aa74dc6f
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Support for Generic Types and Generic Methods
 The rule engine supports using specialized generic types and specialized generic methods in a rule. It does not support using generic types and generic methods themselves in a rule. For example, in a business rule you can use **List**\<*int*\>, but not **List**\<T\> (from the **System.Collections.Generic** namespace in the .NET class library). Currently, the Business Rule Composer tool does not support creating rules by using specialized generic types and specialized generic methods. You must create the rules programmatically by using the rule engine object model. The following sample code demonstrates how to use the **List** generic class in a business rule:  

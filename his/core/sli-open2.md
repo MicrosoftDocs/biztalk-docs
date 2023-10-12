@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SLI_OPEN"
-title: "SLI_OPEN2 | Microsoft Docs"
+title: "SLI_OPEN2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6bb743f8-327c-4bdc-82bc-c26057e91212
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SLI_OPEN
 The **SLI_OPEN** verb transfers control of the specified logical unit (LU) to the Microsoft® Windows® logical unit application (LUA) application. **SLI_OPEN** establishes a session between the system services control point (SSCP) and the specified LU, as well as an LU-LU session.  

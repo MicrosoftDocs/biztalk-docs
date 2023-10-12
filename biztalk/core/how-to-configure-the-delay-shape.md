@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Delay Shape"
-title: "How to Configure the Delay Shape | Microsoft Docs"
+title: "How to Configure the Delay Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Delay shape [Orchestration Designer], configuring"
-  - "Delay shape [Orchestration Designer]"
-  - "Delay shape [Orchestration Designer], timeouts"
-  - "Delay shape [Orchestration Designer], about Delay shape"
-  - "configuring [Orchestration Designer], Delay shapes"
-ms.assetid: 727be28d-932a-41d5-af3f-3ee6f7129a17
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Delay Shape
 ![Image that represents the Delay shape.](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")  

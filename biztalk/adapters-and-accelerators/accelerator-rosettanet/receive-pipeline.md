@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Receive Pipeline"
-title: "Receive Pipeline | Microsoft Docs"
+title: "Receive Pipeline"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cd8f03aa-f5c3-49e7-946b-c8c91fe3abc7
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive Pipeline
 This sample provides a working Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] receive pipeline that you can customize for your application.  

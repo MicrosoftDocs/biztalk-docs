@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Lesson 1: Define Schemas and a Map"
-title: "Lesson 1: Define Schemas and a Map | Microsoft Docs"
+title: "Lesson 1: Define Schemas and a Map"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "enterprise application integration tutorial, creating solutions"
-ms.assetid: 4fe7720d-722e-4fa0-a556-477fc66ffa12
-caps.latest.revision: 35
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 1: Define Schemas and a Map
 In this lesson, you create and build the first project in the enterprise application integration (EAI) solution. The project contains two message schemas, and a map.  

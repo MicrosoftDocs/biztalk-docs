@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Start Send Port (BizTalk Server Sample)"
-title: "Start Send Port (BizTalk Server Sample) | Microsoft Docs"
+title: "Start Send Port (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "send ports, examples"
-  - "examples, send ports"
-  - "send ports, starting"
-ms.assetid: 84e54c9e-e9e8-4bb2-a191-20c29e127dae
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Start Send Port (BizTalk Server Sample)
 The Start Send Port sample demonstrates how to start a send port and optionally set the Primary Transport Address when using the FILE adapter.

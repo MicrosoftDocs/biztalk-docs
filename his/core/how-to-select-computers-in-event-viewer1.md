@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Select Computers in Event Viewer"
-title: "How to Select Computers in Event Viewer1 | Microsoft Docs"
+title: "How to Select Computers in Event Viewer1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9cff2172-da2a-4476-9433-571f4925240c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Select Computers in Event Viewer
 In Windows, you can select any computer in your network to view its event logs in Event Viewer.  

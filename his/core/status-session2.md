@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status-Session"
-title: "Status-Session2 | Microsoft Docs"
+title: "Status-Session2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 427736b0-dc9a-4c2c-a97b-9328cdaae4ba
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status-Session
 The **Status-Session** message provides the application with information about changes in the state of a session between the local node and the host. It flows from the node to the application and is used with both system services control point (SSCP) and primary logical unit (PLU) connections.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn about the requirements for Single Sign-On (SSO)."
-title: "Requirements for Single Sign-On | Microsoft Docs"
+title: "Requirements for Single Sign-On"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ae4b5c1f-1718-4628-9159-2fb877498913
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Requirements for Single Sign-On (SSO)
 

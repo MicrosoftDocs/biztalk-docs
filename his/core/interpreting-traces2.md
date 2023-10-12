@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Interpreting Traces"
-title: "Interpreting Traces2 | Microsoft Docs"
+title: "Interpreting Traces2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0b92c67a-1cb7-45d5-a9e6-b08cdfd79ff8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Interpreting Traces
 The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Trace feature provides message, client API, SnaBase, Transaction Integrator, PU 2.1 node, and link service tracing.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting Internet Information Services"
-title: "Troubleshooting Internet Information Services | Microsoft Docs"
+title: "Troubleshooting Internet Information Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f77084f1-5797-42ab-bbf6-fe815144232e
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting Internet Information Services
 Microsoft Internet Information Services (IIS) is used extensively by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] for various functionality including the HTTP, SOAP, and Windows SharePoint Services adapters. This topic describes some known issues that you may encounter with IIS and possible resolutions to these issues.

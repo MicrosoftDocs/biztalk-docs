@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10503"
-title: "Single Sign-On: Event 10503 | Microsoft Docs"
+title: "Single Sign-On: Event 10503"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 04292ae8-8daf-4f5a-837e-fe5dfcd02b10
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10503
 ## Details  

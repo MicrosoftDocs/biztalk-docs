@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Creating Departments and Roles for Message Repair and New Submission"
-title: "Creating Departments and Roles for Message Repair and New Submission | Microsoft Docs"
+title: "Creating Departments and Roles for Message Repair and New Submission"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "departments, creating"
-  - "creating, roles"
-  - "roles, requirements"
-  - "roles, creating"
-  - "creating, departments"
-  - "certificates, messages"
-  - "messages, certificates"
-ms.assetid: 6337bd57-63c5-4d97-b558-ac27d5eb60d7
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Departments and Roles for Message Repair and New Submission
 Message Repair and New Submission involves the following four different operations:  

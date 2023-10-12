@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MC_TEST_RTS_AND_POST"
-title: "MC_TEST_RTS_AND_POST1 | Microsoft Docs"
+title: "MC_TEST_RTS_AND_POST1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: abdcff7f-d83c-42ac-b29e-7601ab4560e8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MC_TEST_RTS_AND_POST
 The **MC_TEST_RTS_AND_POST** verb allows an application, typically a 5250 emulator, to request asynchronous notification when a partner transaction program (TP) requests send direction.  

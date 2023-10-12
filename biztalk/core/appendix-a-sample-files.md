@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Appendix A: Sample Files"
-title: "Appendix A: Sample Files | Microsoft Docs"
+title: "Appendix A: Sample Files"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples"
-ms.assetid: 8d61ea92-a51b-4414-8b51-9b89714bd799
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Appendix A: Sample Files
 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne supports the jdeRequest and jdeResponse XML structures for executing business functions within JD Edwards EnterpriseOne.  

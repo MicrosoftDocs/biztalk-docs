@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with EDI and AS2 Status Reporting"
-title: "Known Issues with EDI and AS2 Status Reporting | Microsoft Docs"
+title: "Known Issues with EDI and AS2 Status Reporting"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1d755dca-a4b6-44be-bc45-88c0b17685a0
-caps.latest.revision: 32
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with EDI and AS2 Status Reporting
 This topic describes known issues with EDI status reporting in BizTalk Server.  

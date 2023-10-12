@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TS Profile 2"
-title: "TS Profile 22 | Microsoft Docs"
+title: "TS Profile 22"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 51e8c91e-3d67-438a-8515-417f5633bcf6
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TS Profile 2
 Transmission service (TS) Profile 2 is supported on primary logical unit-secondary logical unit (PLU-SLU) sessions using LU 0. This profile specifies the following session rules:  

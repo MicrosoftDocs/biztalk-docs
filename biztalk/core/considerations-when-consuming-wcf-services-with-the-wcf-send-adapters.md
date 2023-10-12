@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Considerations When Consuming WCF Services with the WCF Send Adapters"
-title: "Considerations When Consuming WCF Services with the WCF Send Adapters | Microsoft Docs"
+title: "Considerations When Consuming WCF Services with the WCF Send Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "consuming, WCF services"
-  - "best practices, WCF services"
-  - "WCF services, best practices"
-  - "consuming, best practices"
-  - "WCF services, consuming"
-ms.assetid: 8bbcfd99-3495-458d-bd7a-6d170a29dde2
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Considerations When Consuming WCF Services with the WCF Send Adapters
 This topic provides information that you should take into consideration when consuming WCF services with the WCF adapters.

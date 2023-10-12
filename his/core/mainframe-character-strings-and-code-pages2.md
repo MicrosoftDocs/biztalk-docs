@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Mainframe Character Strings and Code Pages"
-title: "Mainframe Character Strings and Code Pages2 | Microsoft Docs"
+title: "Mainframe Character Strings and Code Pages2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 068ddf61-61bd-4313-b1c9-ccea073fb876
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Mainframe Character Strings and Code Pages
 When Transaction Integrator (TI) sends data to a mainframe-based transaction program (TP), the TI run-time environment transforms Unicode strings received as parameters, fields, or columns into mainframe character strings. Likewise, when it receives data from a mainframe TP, the TI run-time environment converts the mainframe character strings into Unicode strings to be returned as output values to the calling client application.  

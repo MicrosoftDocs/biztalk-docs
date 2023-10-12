@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Security with the SQL adapter and BizTalk Server"
-title: "Security with the SQL adapter and BizTalk Server | Microsoft Docs"
+title: "Security with the SQL adapter and BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc439d65-1d7e-4e6e-bb0d-a8cb9f0607b8
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security with the SQL adapter and BizTalk Server
 When you configure a send port or a receive port (location) by using the BizTalk Server Administration console or use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to retrieve message schemas for a BizTalk solution, you must provide credentials for the SQL Server database. It is important to supply these credentials in a secure way to help prevent them from being revealed to potentially malicious actors. This topic discusses how to most securely supply credentials for the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] for BizTalk Server solutions.  

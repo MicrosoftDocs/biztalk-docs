@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Failed Messages and ErrorCollection Objects"
-title: "Failed Messages and ErrorCollection Objects | Microsoft Docs"
+title: "Failed Messages and ErrorCollection Objects"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "failed messages, ErrorCollection objects"
-  - "ErrorCollection objects"
-ms.assetid: 8a2ff3b5-d7a0-4595-8b74-3133e9e3a821
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Failed Messages and ErrorCollection Objects
 In addition to decorating a failed message with promoted properties, Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] publishes the failed message to the MessageBox database with an additional message *part*, called **ErrorSegment**. This error part contains XML representing an **ErrorCollection** object. The A4SWIFT disassembler populates the **ErrorCollection** object during each stage of message processing (parsing, XML validation, and Business Rule Engine (BRE) validation).  

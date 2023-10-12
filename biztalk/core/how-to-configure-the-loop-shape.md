@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Loop Shape"
-title: "How to Configure the Loop Shape | Microsoft Docs"
+title: "How to Configure the Loop Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Loop shape [Orchestration Designer], configuring"
-  - "Loop shape [Orchestration Designer]"
-  - "configuring [Orchestration Designer], Loop shapes"
-  - "Loop shape [Orchestration Designer], about Loop shape"
-ms.assetid: 489adb4d-a8e8-42b4-9b9b-ecff16533788
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Loop Shape
 ![Image that represents the Loop shape.](../core/media/ebiz-orch-loop.gif "ebiz_orch_loop")  

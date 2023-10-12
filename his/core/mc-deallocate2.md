@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MC_DEALLOCATE"
-title: "MC_DEALLOCATE2 | Microsoft Docs"
+title: "MC_DEALLOCATE2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 16d523e1-0109-4e71-ae8f-5090b4dbaf58
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MC_DEALLOCATE
 The **MC_DEALLOCATE** verb deallocates a conversation between two transaction programs (TP).  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Processing an Incoming MDN"
-title: "Processing an Incoming MDN | Microsoft Docs"
+title: "Processing an Incoming MDN"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fd78e84c-4989-47e4-b95b-80582084ddec
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Processing an Incoming MDN
 The AS2 receive pipelines (AS2EDIReceive and AS2Receive) process an incoming MDN based upon the agreement properties for the party as an AS2 message receiver. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] automatically correlates the MDN to the outgoing AS2 message.  

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Understand BizTalk Adapter for mySAP Business Suite"
-title: "Understand BizTalk Adapter for mySAP Business Suite | Microsoft Docs"
+title: "Understand BizTalk Adapter for mySAP Business Suite"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapter features"
-  - "adapters, features"
-  - ".NET Framework Data Provider for mySAP Business Suite"
-  - "Data Provider for SAP"
-  - "features of SAP adapter"
-  - "adapters, about SAP ADO Provider"
-ms.assetid: 136ca828-2724-454b-9d4d-a491d45e1eda
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Understand BizTalk Adapter for mySAP Business Suite
 The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] enables service-oriented programmatic access in order to interact with an external system. The adapters provide the following advantages to clients:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Message Routing Patterns"
-title: "Message Routing Patterns | Microsoft Docs"
+title: "Message Routing Patterns"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d95c5ba0-122f-4793-bfce-a95830dfe094
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Routing Patterns
 Message routing patterns define proven guidelines for routing a message to its target endpoint(s). Routing can be the result of static configuration, or it can be dynamically configured based on a number of criteria and using a number of methods.

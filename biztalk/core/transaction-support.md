@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Transaction Support"
-title: "Transaction Support | Microsoft Docs"
+title: "Transaction Support"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "DataConnection object"
-  - "Business Rules Framework, code samples"
-  - "Business Rules Framework, programming"
-ms.assetid: 84faac2f-6229-4692-9d1a-bf62d87d69bb
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Transaction Support
 The rule engine does not support transactions in general. However, you can update a database in a transactional manner by using the **DataConnection** object as shown in the following steps:  

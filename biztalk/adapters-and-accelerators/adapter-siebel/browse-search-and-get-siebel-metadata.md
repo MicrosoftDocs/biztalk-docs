@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Browse, search, and get Siebel metadata"
-title: "Browse, search, and get Siebel metadata | Microsoft Docs"
+title: "Browse, search, and get Siebel metadata"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "metadata, retrieving"
-  - "metadata, surfacing"
-  - "retrieving, metadata"
-  - "metadata, browsing"
-  - "browsing, metadata"
-  - "metadata, searching"
-  - "searching, metadata"
-ms.assetid: 48fc3bb1-b949-4b8d-ab62-a41cd8c2f0a0
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Browse, search, and get Siebel metadata
 The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces metadata from the Siebel system that describes the message structure for communicating with a Siebel system using the adapter. The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports two interfaces for retrieving metadata.  

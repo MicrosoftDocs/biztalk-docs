@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Step 1: Creating the Contoso Home Organization"
-title: "Step 1: Creating the Contoso Home Organization | Microsoft Docs"
+title: "Step 1: Creating the Contoso Home Organization"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "double action tutorial, creating home organizations"
-  - "creating, home organizations"
-  - "home organizations, creating"
-ms.assetid: 0e7a53b9-ae59-4cd1-88bd-0ada7e65acba
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Creating the Contoso Home Organization
 In this step, you use the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console to create the Contoso home organization.  

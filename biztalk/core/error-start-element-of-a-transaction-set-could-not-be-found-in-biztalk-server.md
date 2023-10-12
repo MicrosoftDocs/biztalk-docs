@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error encountered after processing Transaction Set(s) because the Start element of a Transaction set could not be found"
-title: "Error encountered after processing Transaction Set(s) because the Start element of a Transaction set could not be found | Microsoft Docs"
+title: "Error encountered after processing Transaction Set(s) because the Start element of a Transaction set could not be found"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d5380aee-1632-4cdf-98a1-aff87574ce4f
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error encountered after processing Transaction Set(s) because the Start element of a Transaction set could not be found
 ## Details  

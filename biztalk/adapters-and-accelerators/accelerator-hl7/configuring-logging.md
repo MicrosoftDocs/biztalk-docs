@@ -1,24 +1,9 @@
 ---
 description: "Learn more about: Configuring Logging"
 title: "Configuring Logging"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "configuring, auditing"
-  - "configuring, logging"
-  - "logging, configuring"
-  - "auditing, configuring"
-ms.assetid: cd83acbb-337b-4448-ad43-c0b89c5c3356
-caps.latest.revision: 5
-
-
-
 ---
 # Configuring Logging
 Health care applications require complete logging of messages. Since these applications handle critical, time sensitive and monetary data, logging becomes a critical part of the application. System administrators need to be able to do the following:  

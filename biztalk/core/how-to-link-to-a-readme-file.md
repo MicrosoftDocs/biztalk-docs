@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Link to a Readme File"
-title: "How to Link to a Readme File | Microsoft Docs"
+title: "How to Link to a Readme File"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "linking, readme files"
-  - "applications, readme files"
-  - "linking, applications"
-  - "applications, linking"
-ms.assetid: 7ddbfe77-c8b5-4f90-80ee-8fd5ba57170b
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Link to a Readme File
 This topic describes how to use the BizTalk Server Administration console or the command line to add a Readme.htm file that will appear when a user clicks a link in Add or Remove Programs in Control Panel.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Presentation Header Support in Data Transfers"
-title: "Presentation Header Support in Data Transfers2 | Microsoft Docs"
+title: "Presentation Header Support in Data Transfers2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9c93955c-1e31-4140-8ec4-b7c7b399b117
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Presentation Header Support in Data Transfers
 For basic conversations, Sync Point commands are sent by means of presentation headers (PS) across LU 6.2 conversations using the [SEND_DATA](./send-data1.md) or [MC_SEND_DATA](./mc-send-data1.md) verb. All presentation headers contain length fields that specify a length of 1, which is usually illegal. To support Sync Point conversations, the following modifications are made to the Host Integration Server presentation services component:  

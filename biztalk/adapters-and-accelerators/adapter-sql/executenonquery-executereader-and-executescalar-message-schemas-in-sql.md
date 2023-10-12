@@ -1,19 +1,12 @@
 ---
 description: "Learn about the message schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations used by the Microsoft BizTalk Adapter for SQL Server."
-title: "Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations2 | Microsoft Docs"
+title: "Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 51f8cb98-8da8-40c1-bf87-4aad5a24bba2
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
 

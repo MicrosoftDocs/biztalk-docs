@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Error and Sense Codes"
-title: "Error and Sense Codes2 | Microsoft Docs"
+title: "Error and Sense Codes2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6d9ff853-d599-48f9-b72d-a5b69f05d8b9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Error and Sense Codes
 This section describes the error and sense codes that are reported to the application in the following messages:  

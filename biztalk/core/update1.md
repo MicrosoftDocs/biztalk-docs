@@ -1,26 +1,12 @@
 ---
 description: "Learn how to use the Update function in BizTalk Server to reassert a .NET class or TypedXMLDocument object into the rule engine to be re-evaluated, based on the new data and state."
-title: "Update1 | Microsoft Docs"
+title: "Update1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Update function [Business Rules Engine]"
-  - "Update function [Business Rules Engine], TypedXMLDocument"
-  - "Update function [Business Rules Engine], TypedData table"
-  - "Update function [Business Rules Engine], .NET objects"
-  - ".NET objects"
-  - "Update function [Business Rules Engine], DataConnection"
-ms.assetid: 939e45dc-6433-42f3-a336-8f3c247417ac
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Update Function
 

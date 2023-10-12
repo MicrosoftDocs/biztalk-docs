@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Notes Section"
-title: "Notes Section1 | Microsoft Docs"
+title: "Notes Section1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 95611c38-7ebd-4e04-a154-700fcbfc2df7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Notes Section
 This section contains notes about AS/400 computers, local and remote names, time-outs for 802.2 connections, and adapter and adapter addresses.  

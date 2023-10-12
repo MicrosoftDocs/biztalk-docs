@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Step 2: Create a New Project"
 title: "Step 2: Create a New Project"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "creating, projects"
-  - "projects, creating"
-  - "message enrichment tutorial, projects"
-ms.assetid: 6e994845-53b8-4de8-a64f-32d36f7b5412
-caps.latest.revision: 6
-
-
-
 ---
 # Step 2: Create a New Project
 In this step, you build a new solution by using the Microsoft [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] environment. First, you create a new project (BTAHL7V22Common) that contains the three common schemas (for data types, segments, and table values) that the HL7 V2.2 schemas use, including the schema that you will use for the outgoing HL7 message. Second, you build another new project (BTAHL7V2XCommon) that contains the common standard schema used for headers in HL7 messages (MSH_25_GLO_DEF).  

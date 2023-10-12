@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Get Metadata Using WS-Metadata Exchange in SAP"
-title: "Get Metadata Using WS-Metadata Exchange in SAP | Microsoft Docs"
+title: "Get Metadata Using WS-Metadata Exchange in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "WS-Metadata Exchange"
-  - "how to, retrieve metadata"
-  - "retrieving metadata"
-ms.assetid: 29f85963-ac7f-4e13-96b8-bc2c94a9fcae
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Get Metadata Using WS-Metadata Exchange in SAP
 As a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding, the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes a WS-Metadata Exchange (MEX) endpoint that you can use to retrieve metadata for specific operations from the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].

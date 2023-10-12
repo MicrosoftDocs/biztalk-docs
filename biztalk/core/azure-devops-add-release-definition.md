@@ -1,17 +1,12 @@
 ---
-title: Step 4 - Create release definitions | Microsoft Docs
+title: Step 4 - Create release definitions
 description: In Azure DevOps, create a release definition to deploy the BizTalk Server application
 ms.custom: ""
 ms.date: "9/20/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-author: MandiOhlinger
-ms.author: mandia
-manager: "anneta"
 ---
 
 # Step 4: Create release definition

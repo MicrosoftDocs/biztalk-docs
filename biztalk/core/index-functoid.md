@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Index Functoid"
-title: "Index Functoid | Microsoft Docs"
+title: "Index Functoid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Max Occurs property"
-  - "Index functoids, about Index functoids"
-  - "Index functoids"
-ms.assetid: 0c8ba427-881c-4b1f-92b9-61992d2a29df
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Index Functoid
 The **Index** functoid enables you to select information from a specific record in a series of records. Each **Index** functoid collects information from a single field.  

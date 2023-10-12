@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Tracing"
-title: "Tracing | Microsoft Docs"
+title: "Tracing"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3d538414-8ed2-4feb-91c1-c0ac4e201324
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Tracing
 There are multiple options for tracing, which can help to capture problems in the data consumer application, OLE DB service components, Data Provider, DB2 network client, and DB2 database server.

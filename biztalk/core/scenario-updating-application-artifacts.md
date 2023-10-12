@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Scenario: Updating Application Artifacts"
-title: "Scenario: Updating Application Artifacts | Microsoft Docs"
+title: "Scenario: Updating Application Artifacts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, artifacts"
-  - "updating, artifacts"
-  - "artifacts, examples"
-  - "updating, examples"
-  - "examples, updating"
-  - "artifacts, updating"
-ms.assetid: 76833df3-2330-48af-84d8-731028b192ff
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scenario: Updating Application Artifacts
 There are two basic scenarios for updating the artifacts in an application that has been deployed into a production environment:  

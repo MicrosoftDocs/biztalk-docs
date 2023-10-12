@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Artifacts That Must Be Unique in an Application or Group"
-title: "Artifacts That Must Be Unique in an Application or Group | Microsoft Docs"
+title: "Artifacts That Must Be Unique in an Application or Group"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "groups, artifacts"
-  - "artifacts, requirements"
-  - "applications, artifacts"
-ms.assetid: a758cd74-a962-4e75-aea2-47752ab72a64
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Artifacts That Must Be Unique in an Application or Group
 Certain types of artifacts in a BizTalk group or application must be unique, as follows:  

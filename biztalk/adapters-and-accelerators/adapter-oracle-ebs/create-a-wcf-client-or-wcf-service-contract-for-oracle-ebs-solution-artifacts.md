@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts"
-title: "Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts | Microsoft Docs"
+title: "Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c7ffd857-a177-423a-ae83-685d11b7aec6
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts
 You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] to generate a WCF client class or a WCF service contract (interface) targeted at selected operations on Oracle E-Business Suite artifacts. You can also use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate the WCF client class or WCF service contract; however, the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] exposes the functionality of the ServiceModel Metadata Utility Tool through a standard Microsoft Windows interface. It also provides browse and search capabilities that are not available with the svcutil.exe tool, and it generates a configuration file based on the binding properties that you select when you connect to the Oracle E-Business Suite.

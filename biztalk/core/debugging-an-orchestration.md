@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Debugging an Orchestration"
-title: "Debugging an Orchestration | Microsoft Docs"
+title: "Debugging an Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "debugging, Orchestration Debugger"
-  - "debugging, orchestrations"
-  - "Orchestration Debugger, about Orchestration Debugger"
-  - "Orchestrations Debugger"
-  - "orchestrations, debugging"
-  - "debugging, HAT"
-  - "HAT, debugging"
-ms.assetid: aae99cfd-d3dd-41c8-ae7a-b2733352cd69
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Debugging an Orchestration
 The Orchestration Debugger enables you to track the activity of a single orchestration instance on a shape-by-shape basis. It displays a rendered view of the orchestration created in the Orchestration Designer.  

@@ -1,19 +1,12 @@
 ---
-title: "Install BizTalk Adapter for JD Edwards OneWorld | Microsoft Docs"
+title: "Install BizTalk Adapter for JD Edwards OneWorld"
 description: Quick link to install and configuration overview for BizTalk Adapter for JD Edwards OneWorld in BizTalk Server
 ms.custom: ""
 ms.date: "10/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e870f12d-5c83-4056-8066-0647706a2cfd
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Install BizTalk Adapter for JD Edwards OneWorld
 

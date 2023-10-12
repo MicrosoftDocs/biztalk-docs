@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Submitting Messages Through Receive Locations and InfoPath Forms"
-title: "Submitting Messages Through Receive Locations and InfoPath Forms | Microsoft Docs"
+title: "Submitting Messages Through Receive Locations and InfoPath Forms"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, receive locations"
-  - "receive locations, messages"
-  - "messages, InfoPath forms"
-  - "InfoPath forms, messages"
-ms.assetid: e8676830-3fbc-423f-82f6-03e6a532075f
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Submitting Messages Through Receive Locations and InfoPath Forms
 Receive locations receive messages for submission into [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] applications. You can define receive locations as physical endpoints configured to receive messages using a specified transport protocol. For example, a receive location may be configured to receive files dropped to a particular file system folder using the FILE transport.  

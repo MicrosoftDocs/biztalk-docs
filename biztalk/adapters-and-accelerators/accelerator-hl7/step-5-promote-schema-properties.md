@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Step 5: Promote Schema Properties"
 title: "Step 5: Promote Schema Properties"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "message enrichment tutorial, pomoted properties"
-  - "promoted properties"
-  - "schemas, promoted properties"
-ms.assetid: cb51cece-1b65-4ba2-b8e6-ce8b6694cdb6
-caps.latest.revision: 5
-
-
-
 ---
 # Step 5: Promote Schema Properties
 In this step, you promote schema properties so that a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] orchestration can reference those property values that you create in later steps. Promotion is a mechanism that you use to reference a specific value within a message instance and make it accessible to [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] components such as orchestration or for content-based routing purposes. Additionally, a promoted property is visible by Microsoft IntelliSense in the Expression Editor of [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  

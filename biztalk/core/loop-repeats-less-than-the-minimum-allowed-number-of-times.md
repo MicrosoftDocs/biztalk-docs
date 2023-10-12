@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Loop repeats less than the minimum allowed number of times"
-title: "Loop repeats less than the minimum allowed number of times | Microsoft Docs"
+title: "Loop repeats less than the minimum allowed number of times"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0be21d1d-86da-456b-83e6-c91f1dc9fb48
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Loop repeats less than the minimum allowed number of times
 ## Details  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Capture a Memory Dump of a Process that is Leaking Memory"
-title: "How to Capture a Memory Dump of a Process that is Leaking Memory | Microsoft Docs"
+title: "How to Capture a Memory Dump of a Process that is Leaking Memory"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 67404919-33a6-40ac-b1c4-09841db12fcf
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Capture a Memory Dump of a Process that is Leaking Memory
 The BizTalk process BTSNTSvc.exe is defined as having a memory leak when it fails to release memory that it no longer needs, thereby reducing the amount of available memory over time. The memory usage of the process can be determined by viewing the value under the **Mem Usage** column of the **Processes** tab available in **Task Manager**. If the process continues to consume memory over time without releasing memory then overall system performance will be adversely impacted.  

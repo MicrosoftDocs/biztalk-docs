@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA Primary Return Codes"
-title: "LUA Primary Return Codes2 | Microsoft Docs"
+title: "LUA Primary Return Codes2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 542d42fe-d247-4c32-8226-2c037aee105c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA Primary Return Codes
 ## 0x0000  

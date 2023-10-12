@@ -1,19 +1,12 @@
 ---
-title: "Remove Incomplete Activity Instances | Microsoft Docs"
+title: "Remove Incomplete Activity Instances"
 description: Execute the custom RemoveDanglingInstances SQL script to remove incomplete instances from the BAM Primary Import database in BizTalk Server
 ms.custom: ""
 ms.date: "01/18/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7060578c-6267-487b-8530-efa18f9431ce
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Remove Incomplete Activity Instances
 When a BAM definition file is deployed, five tables are created in the BAM Primary Import database for each activity defined in the definition file. These tables are:  

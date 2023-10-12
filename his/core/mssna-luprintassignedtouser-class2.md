@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_LuPrintAssignedToUser Class"
-title: "MsSna_LuPrintAssignedToUser Class2 | Microsoft Docs"
+title: "MsSna_LuPrintAssignedToUser Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 055513d9-b61e-47b4-8d90-cd4a787b46f6
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_LuPrintAssignedToUser Class
 Associates a print LU with a user.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Describe the WSDL PortType Documentation Schema with the WCF LOB Adapter SDK"
-title: "Describe the WSDL PortType Documentation Schema with the WCF LOB Adapter SDK | Microsoft Docs"
+title: "Describe the WSDL PortType Documentation Schema with the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9dd96eaf-b3b3-49b4-aea9-0ae1e8999d62
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Describe the WSDL PortType Documentation Schema with the WCF LOB Adapter SDK
 The WSDL that the  [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] generates contains additional descriptive information for each portType. The schema for this additional information is described in this topic.  

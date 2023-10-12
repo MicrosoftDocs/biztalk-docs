@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 7: Configure a Send Port to Send the Acknowledgment to Your Trading Partner"
-title: "Step 7: Configure a Send Port to Send the Acknowledgment to Your Trading Partner | Microsoft Docs"
+title: "Step 7: Configure a Send Port to Send the Acknowledgment to Your Trading Partner"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3a082870-894c-4f64-a575-3681d8a5c4ea
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 7: Configure a Send Port to Send the Acknowledgment to Your Trading Partner
 ![Step 7 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-7of9.gif "Step_7of9")  

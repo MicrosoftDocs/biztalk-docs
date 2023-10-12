@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Rule Action Side Effects"
-title: "Rule Action Side Effects | Microsoft Docs"
+title: "Rule Action Side Effects"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Business Rules Engine, side effects"
-ms.assetid: 1ef65014-9c0a-40d3-b941-2a67c20b54d3
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Rule Action Side Effects
 If the execution of an action affects the state of an object or a term used in conditions, that action is considered to have a side effect on the object.  

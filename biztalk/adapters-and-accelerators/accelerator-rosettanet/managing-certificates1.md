@@ -1,21 +1,12 @@
 ---
 description: Describes how to manage certificates in BizTalk Accelerator for RosettaNet (BTARN) in order to secure information. 
-title: Managing Certificates for BizTalk Accelerator | Microsoft Docs
+title: Managing Certificates for BizTalk Accelerator
 ms.custom: ""
 ms.date: 06/08/2017
 ms.prod: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-helpviewer_keywords: 
-  - managing certificates
-  - certificates, managing
-ms.assetid: ffa60e2b-c131-4a49-ad1e-6c8a7271b05c
-caps.latest.revision: 4
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
 ---
 # Managing Certificates for BizTalk Accelerator for RosettaNet (BTARN)
 

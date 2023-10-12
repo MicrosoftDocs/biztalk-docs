@@ -1,23 +1,12 @@
 ---
 description: "Learn about the error messages in the JD Edwards OneWorld system and the possible corrections for the errors that they indicate."
-title: "Error Messages2 | Microsoft Docs"
+title: "Error Messages2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "error messages, JD Edwards OneWorld adapters"
-  - "adapters [JD Edwards OneWorld adapters], error messages"
-  - "JD Edwards OneWorld adapters, error messages"
-ms.assetid: 9fb65d50-83c6-426e-a0d6-674800ecf70f
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error Messages for the JD Edwards OneWorld System
 

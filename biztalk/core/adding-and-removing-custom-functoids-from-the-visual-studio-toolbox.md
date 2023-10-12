@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adding and Removing Custom Functoids from the Visual Studio Toolbox"
-title: "Adding and Removing Custom Functoids from the Visual Studio Toolbox | Microsoft Docs"
+title: "Adding and Removing Custom Functoids from the Visual Studio Toolbox"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 28f798cc-da97-4332-a842-ba87ac7b13b8
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adding and Removing Custom Functoids from the Visual Studio Toolbox
 This topic describes how to add custom functoids to and remove custom functoids from the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: 5250 Access"
-title: "5250 Access1 | Microsoft Docs"
+title: "5250 Access1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 943462e0-0e17-4771-865e-b79f1143bef4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # 5250 Access
 If your enterprise contains IBM System i systems, display sessions are provided through APPC using the 5250 data stream. Host Integration Server computers provide APPC access to an IBM System i using 5250 emulation clients. Clients can only communicate with IBM System i using APPC.  

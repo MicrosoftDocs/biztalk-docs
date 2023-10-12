@@ -1,21 +1,12 @@
 ---
 description: "Learn about creating a CatchExpression to trap exceptions in the back-end system of a basic orchestration."
-title: "Basic Orchestration Design3 | Microsoft Docs"
+title: "Basic Orchestration Design3"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, design"
-ms.assetid: c1df6d0e-51cf-4728-8d55-60eff21611b8
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Design a Basic Orchestration
 

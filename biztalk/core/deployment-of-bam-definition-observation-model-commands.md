@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Deployment of BAM Definition (Observation Model) Commands"
-title: "Deployment of BAM Definition (Observation Model) Commands | Microsoft Docs"
+title: "Deployment of BAM Definition (Observation Model) Commands"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: df7914f3-7a92-4ab2-bd0e-94a2eed4825e
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deployment of BAM Definition (Observation Model) Commands
 The BAM management utility deployment commands allow you to apply, modify, and remove definitions.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Instrumenting a Solution: Step-by-Step API Usage"
-title: "Instrumenting a Solution: Step-by-Step API Usage | Microsoft Docs"
+title: "Instrumenting a Solution: Step-by-Step API Usage"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e9e027ab-1927-4905-8970-8061ac55d591
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Instrumenting a Solution: Step-by-Step API Usage
 This topic describes how to instrument an application using the key BAM API class. In the following code snippets we have simplified the sample code by using constants and by using the minimum code necessary to instrument an application.  

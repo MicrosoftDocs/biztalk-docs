@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Run BAPI Transactions in SAP using BizTalk Server"
-title: "Run BAPI Transactions in SAP using BizTalk Server | Microsoft Docs"
+title: "Run BAPI Transactions in SAP using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 75ff5cf7-5e98-4d74-a13f-4de65c215d41
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run BAPI Transactions in SAP using BizTalk Server
 

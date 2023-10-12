@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Receive (CPI-C)"
-title: "Receive (CPI-C)2 | Microsoft Docs"
+title: "Receive (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 651f4be0-f098-4294-ba9d-790ff0b76d6c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Receive (CPI-C)
 The **Receive** call (function name **cmrcv**) receives any data currently available from the partner program. For Microsoft Windows, run a background thread for all CPI-C communications and preserve the foreground thread for user interface only.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Import-Copy failed as there are active-pending batches"
-title: "Import-Copy failed as there are active-pending batches | Microsoft Docs"
+title: "Import-Copy failed as there are active-pending batches"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 17803f0a-3c70-4a8a-8e8d-7f874ed9ad92
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Import-Copy failed as there are active-pending batches
 ## Details  

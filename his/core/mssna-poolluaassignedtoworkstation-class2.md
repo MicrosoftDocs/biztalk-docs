@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_PoolLuaAssignedToWorkstation Class"
-title: "MsSna_PoolLuaAssignedToWorkstation Class2 | Microsoft Docs"
+title: "MsSna_PoolLuaAssignedToWorkstation Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d989fbb4-3d84-4a58-a909-109ff477d885
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_PoolLuaAssignedToWorkstation Class
 Associates an LUA pool with a workstation.  

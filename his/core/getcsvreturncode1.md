@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: GetCsvReturnCode"
-title: "GetCsvReturnCode1 | Microsoft Docs"
+title: "GetCsvReturnCode1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c9943992-4fae-41c8-871f-da33094662ef
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # GetCsvReturnCode
 The **GetCsvReturnCode** function converts the primary and secondary return codes in the verb control block to a printable string. This function provides a standard set of error strings for use by applications using common service verbs (CSVs).  

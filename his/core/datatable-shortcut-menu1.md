@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: DataTable Shortcut Menu"
-title: "DataTable Shortcut Menu1 | Microsoft Docs"
+title: "DataTable Shortcut Menu1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e74f3836-df66-4ac7-9d75-8e78255ccd0e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # DataTable Shortcut Menu
 When you select a **DataTable** node in the tree view, the following shortcut menu commands are displayed.  

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: What Is the Source Event View?"
-title: "What Is the Source Event View? | Microsoft Docs"
+title: "What Is the Source Event View?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Tracking Profile Editor, Source Event view"
-  - "Source Event view [Tracking Profile Editor]"
-  - "message schemas, Tracking Profile Editor"
-  - "orchestrations, Tracking Profile Editor"
-  - "Tracking Profile Editor, message schemas"
-  - "Tracking Profile Editor, orchestrations"
-ms.assetid: 72e74780-8590-484b-899d-cdc3d2a908be
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is the Source Event View?
 The Event Source View is where the Tracking Profile Editor (TPE) presents the orchestrations or message schemas selected from the assemblies or the context properties which you map to the activity definition.  

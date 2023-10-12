@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tutorial 1: Migrate BizTalk Projects to the SQL adapter"
-title: "Tutorial 1: Migrate BizTalk Projects to the SQL adapter | Microsoft Docs"
+title: "Tutorial 1: Migrate BizTalk Projects to the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0b4d2dbb-e37c-4d70-831f-3bdac3c28c97
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial 1: Migrate BizTalk Projects to the SQL adapter
 The previous version of the SQL adapter that shipped with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] differs from the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in many aspects, including:  

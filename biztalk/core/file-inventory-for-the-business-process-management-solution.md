@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: File Inventory for the Business Process Management Solution"
-title: "File Inventory for the Business Process Management Solution | Microsoft Docs"
+title: "File Inventory for the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "process management solution tutorial, file inventory"
-ms.assetid: 3efb7495-9543-4fe0-8f4b-26c19b3b6db9
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # File Inventory for the Business Process Management Solution
 This section lists subdirectories and source files for the Business Process Management solution. The default installation directory for the Business Process Management solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM. Descriptions before the following tables replace this path with \<Install Directory\>.  

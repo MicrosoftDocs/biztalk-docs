@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Batching (X12)"
-title: "Configuring Batching (X12) | Microsoft Docs"
+title: "Configuring Batching (X12)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2f4f9e7b-262d-488e-9a04-088aad289d70
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Batching (X12)
 Batches define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates and sends an EDI batches to the party.  

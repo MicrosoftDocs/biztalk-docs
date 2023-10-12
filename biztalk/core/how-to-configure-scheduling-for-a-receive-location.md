@@ -1,19 +1,12 @@
 ---
-title: "Configure Scheduling for a Receive Location | Microsoft Docs"
+title: "Configure Scheduling for a Receive Location"
 description: Configure a start date, end date, time zone, add a recurrence for receive locations on BizTalk Server.
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2653e1c3-ddbd-4d3f-be64-2a5fcd7cf267
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "mijacobs"
 ---
 
 # Configure a receive location schedule in BizTalk Server

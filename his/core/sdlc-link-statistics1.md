@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SDLC Link Statistics"
-title: "SDLC Link Statistics1 | Microsoft Docs"
+title: "SDLC Link Statistics1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e1c69e78-db55-4f0d-8172-a222223f2416
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SDLC Link Statistics
 Link statistics are generated when a link is closed or when one of the wrap counters listed later in this section is about to wrap. Whenever a link statistics message is built, all the wrap counters are reset to 0. The cumulative counters are not reset; they provide statistics from the point at which the particular link service was started.  

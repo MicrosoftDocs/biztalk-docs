@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3: Add a Filter for Insert Notifications"
-title: "Step 3: Add a Filter for Insert Notifications | Microsoft Docs"
+title: "Step 3: Add a Filter for Insert Notifications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 53a1e9ef-a179-42a7-b4ae-b1170181053b
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Add a Filter for Insert Notifications
 ![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")  

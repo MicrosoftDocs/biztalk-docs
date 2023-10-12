@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: Providing High Availability for BizTalk Hosts"
-title: "Providing High Availability for BizTalk Hosts | Microsoft Docs"
+title: "Providing High Availability for BizTalk Hosts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, MessageBox database"
-  - "planning, hosts"
-  - "hosts, high availability"
-  - "messages, routing"
-  - "deploying, high availability"
-  - "high availability, hosts"
-  - "hosts"
-  - "hosts, planning"
-  - "MessageBox database"
-ms.assetid: 9583b85c-7cad-4016-8065-5ca7de3f4359
-caps.latest.revision: 47
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Providing High Availability for BizTalk Hosts
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides great flexibility for addressing high availability because you can strategically dedicate logical hosts to run specific areas of functionality such as receiving messages, sending messages or processing orchestrations.  

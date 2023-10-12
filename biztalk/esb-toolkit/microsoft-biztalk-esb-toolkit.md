@@ -1,19 +1,12 @@
 ---
-title: "Microsoft BizTalk ESB Toolkit | Microsoft Docs"
+title: "Microsoft BizTalk ESB Toolkit"
 description: Introduction,  common scenarios, and components of the ESB Toolkit in BizTalk Server
-caps.latest.revision: 14
-author: "MandiOhlinger"
-manager: "anneta"
-
 ms.custom: ""
 ms.date: "08/10/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 17ffaebc-7e33-4de8-8e94-109cd5d16ca0
-ms.author: "mandia"
 ---
 
 # Microsoft BizTalk ESB Toolkit

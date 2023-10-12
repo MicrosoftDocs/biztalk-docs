@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Step 2: Configuring NLB on the Servers"
-title: "Step 2: Configuring NLB on the Servers | Microsoft Docs"
+title: "Step 2: Configuring NLB on the Servers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Network Load Balancing"
-  - "configuring, NLB"
-  - "NLB"
-ms.assetid: 30b2f645-b495-49a5-852b-cf89d25fd2b7
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Configuring NLB on the Servers
 After you have installed the base platform and configured the servers with the proper network settings (see [Step 1: Installing the Base Platform](../../adapters-and-accelerators/accelerator-swift/step-1-installing-the-base-platform.md)), you may need to enable load balancing on BizTalk HTTP front-end servers and the BizTalk Messaging servers. This step is needed only if you have one or more BizTalk HTTP front-end servers installed on a separate computer from one or more BizTalk Messaging servers.  

@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Connection Properties: X.25"
-title: "Connection Properties: X.251 | Microsoft Docs"
+title: "Connection Properties: X.251"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_PU_X25"
-ms.assetid: e74bf072-17a0-4c54-82be-1568bb762eff
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Connection Properties: X.25
 The following tabs are available on the X.25 Connection Properties sheet:  

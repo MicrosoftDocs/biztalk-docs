@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: POP3 Adapter"
-title: "POP3 Adapter | Microsoft Docs"
+title: "POP3 Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "POP3 adapters, about POP3 adapters"
-  - "authenticating, POP3 adapters"
-  - "POP3 adapters"
-  - "POP3 adapters, receive adapters"
-  - "POP3 adapters, authenticating"
-  - "receive adapters, POP3 adapters"
-ms.assetid: 008f7fa7-60c3-4ea3-b90d-821e4029a04c
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # POP3 Adapter
 You use the Post Office Protocol 3 (POP3) adapter to retrieve data from a server that houses POP3 mailboxes into a server running Microsoft BizTalk Server by means of the POP3 protocol.  

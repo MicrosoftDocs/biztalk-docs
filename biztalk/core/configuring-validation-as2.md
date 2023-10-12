@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Validation (AS2)"
-title: "Configuring Validation (AS2) | Microsoft Docs"
+title: "Configuring Validation (AS2)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1ff22dc8-a544-46f9-86fb-f6845e2dfe46
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Validation (AS2)
 In the partner agreement, you must specify the validation settings to validate the inbound AS2 message.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Install the Enterprise Single Sign-On Administration Component"
-title: "How to Install the Enterprise Single Sign-On Administration Component | Microsoft Docs"
+title: "How to Install the Enterprise Single Sign-On Administration Component"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1e28ca64-08a1-4b79-9e90-5073ddf4e7ab
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Install the Enterprise Single Sign-On Administration Component
 You can install the Enterprise Single Sign-On (SSO) Administration component as a stand-alone feature. This is useful if you need to administer the SSO system remotely. The hardware and software requirements are the same as for a typical Enterprise SSO installation.  

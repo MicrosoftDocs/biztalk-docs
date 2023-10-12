@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Inserting Nodes into a Schema"
-title: "Inserting Nodes into a Schema | Microsoft Docs"
+title: "Inserting Nodes into a Schema"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f422a91a-6fdb-4cff-b681-e6f1e3a1a04f
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Inserting Nodes into a Schema
 One of the main types of tasks you will perform in the course of developing a schema is inserting nodes of various types into the schema tree at different locations and depths, thereby creating the structure that will represent the corresponding instance messages. This section describes several ways to insert a node.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOLookup1.GetCredentials Method"
-title: "ISSOLookup1.GetCredentials Method | Microsoft Docs"
+title: "ISSOLookup1.GetCredentials Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0670e766-9722-4c9a-9f12-ea14d885c6c6
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOLookup1.GetCredentials Method
 The **GetCredentials** method retrieves the user credentials for an application.  

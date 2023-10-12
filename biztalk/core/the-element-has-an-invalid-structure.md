@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The element has an invalid structure"
-title: "The element has an invalid structure | Microsoft Docs"
+title: "The element has an invalid structure"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bb94843c-cd21-48e3-ba30-aed0518b4d78
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The element has an invalid structure
 ## Details  

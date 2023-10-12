@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough (X12): Sending Batched EDI Interchanges"
-title: "Walkthrough (X12): Sending Batched EDI Interchanges | Microsoft Docs"
+title: "Walkthrough (X12): Sending Batched EDI Interchanges"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b80ea79b-6112-49bd-90e8-9a0a0e604df8
-caps.latest.revision: 54
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough (X12): Sending Batched EDI Interchanges
 This walkthrough provides a set of step-by-step procedures that creates a solution for sending batched EDI interchanges from one party to another using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

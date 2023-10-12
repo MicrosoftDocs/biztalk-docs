@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: SWIFT Send Adapter Termination"
-title: "SWIFT Send Adapter Termination | Microsoft Docs"
+title: "SWIFT Send Adapter Termination"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 42a335d3-8c4c-4122-9731-b3ec33982b70
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SWIFT Send Adapter Termination
 The adapter must terminate gracefully when the BizTalk service is shutdown. The sequence is shown in the following figure.  

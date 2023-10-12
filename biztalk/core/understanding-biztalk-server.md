@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Understanding BizTalk Server"
-title: "Understanding BizTalk Server | Microsoft Docs"
+title: "Understanding BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 011684a5-0aaf-4355-b6a6-d6fef5993863
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Understanding BizTalk Server
 > [!NOTE]

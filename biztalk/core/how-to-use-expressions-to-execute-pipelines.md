@@ -1,38 +1,12 @@
 ---
 description: "Learn more about: How to Use Expressions to Execute Pipelines"
-title: "How to Use Expressions to Execute Pipelines | Microsoft Docs"
+title: "How to Use Expressions to Execute Pipelines"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ExecuteReceivePipeline() method"
-  - "pipelines, schema resolution"
-  - "ExecuteSendPipeline() method"
-  - "SendPipelineInputMessages class"
-  - "pipelines, restrictions"
-  - "pipelines, errors"
-  - "XLANGPipelineManager class"
-  - "receive pipelines, orchestrations"
-  - "ReceivePipelineOutputMessages class"
-  - "orchestrations, pipelines"
-  - "pipelines, component types"
-  - "send pipelines, orchestrations"
-  - "pipelines, states"
-  - "pipelines, executing"
-  - "Microsoft.XLANGs.Pipeline namespace"
-  - "pipelines, transactional"
-  - "pipelines, orchestrations"
-  - "Message Assignment shape [Orchestration Designer], pipelines"
-ms.assetid: f947fa73-526c-4747-8de7-df557a93056c
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use Expressions to Execute Pipelines
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has the ability to synchronously call a pipeline from within an Orchestration. This enables orchestrations to leverage the message processing encapsulated within a pipeline (either send or receive) against a body of data without having to send that data through the messaging infrastructure.  

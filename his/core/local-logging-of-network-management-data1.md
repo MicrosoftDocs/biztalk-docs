@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Local Logging of Network Management Data"
-title: "Local Logging of Network Management Data1 | Microsoft Docs"
+title: "Local Logging of Network Management Data1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e6736b9b-2d9d-4a16-9326-605938cff374
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Local Logging of Network Management Data
 Data is logged in a Windows Event Log service log file in two ways. First, the data from the alert is logged in a more readable format, using standard log messages. The format is specific to the alert type. For the message numbers used and explanations of the data, see the section in this documentation that relates specifically to that type of alert.  

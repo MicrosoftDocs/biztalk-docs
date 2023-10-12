@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: SSO Affiliate Applications"
-title: "SSO Affiliate Applications | Microsoft Docs"
+title: "SSO Affiliate Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSO, designing applications"
-  - "applications [SSO], application types"
-  - "SSO, application types"
-  - "SSO, application properties"
-  - "applications [SSO], properties"
-  - "applications [SSO]"
-  - "SSO, applications"
-  - "applications [SSO], designing"
-ms.assetid: 002ecf7e-4d52-425a-9498-0e7bd6545047
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SSO Affiliate Applications
 The Enterprise Single Sign-On (SSO) Affiliate applications are logical entities that represent a system or sub-system such as a host, back-end system, or line of business application to which you are connecting using SSO. An affiliate application can represent a back-end system such as a mainframe or UNIX computer. It can also represent an application such as SAP, or a subdivision of the system, such as the "Benefits" or "Pay stub" sub-systems.  

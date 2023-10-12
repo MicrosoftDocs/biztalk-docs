@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Create the Inventory Request Schema"
-title: "Step 2: Create the Inventory Request Schema | Microsoft Docs"
+title: "Step 2: Create the Inventory Request Schema"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0fa9ad9f-b815-4baf-8299-556869b8dde7
-caps.latest.revision: 45
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Create the Inventory Request Schema
 ![Step 2 of 5](../core/media/step-2of5.gif "Step_2of5")  

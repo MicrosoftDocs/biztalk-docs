@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure the XML File"
-title: "How to Configure the XML File | Microsoft Docs"
+title: "How to Configure the XML File"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7ab7cfce-d6a8-4287-a11c-42d5c29ca445
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Configure the XML File
 When you install Enterprise Single Sign-On (SSO), an XML file named ENTSSO.xml is installed in your Extensions directory. By editing the file, you define the configuration for all instances of the ENTSSO Management Agent (MA).  

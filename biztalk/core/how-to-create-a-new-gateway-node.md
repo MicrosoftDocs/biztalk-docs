@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: How to Create a New Gateway Node"
-title: "How to Create a New Gateway Node | Microsoft Docs"
+title: "How to Create a New Gateway Node"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "gateway nodes, creating"
-ms.assetid: e7c5f9a7-a58e-4661-9cb5-2414e31a57a3
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create a New Gateway Node
 Follow these steps to create and configure a new Gateway node in PeopleSoft Enterprise.  

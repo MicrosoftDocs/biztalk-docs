@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Application Integration Programmer&#39;s Reference"
-title: "Application Integration Programmer&#39;s Reference2 | Microsoft Docs"
+title: "Application Integration Programmer&#39;s Reference2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5492f68b-c42f-4b1b-9db4-d7dd6ff00d63
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Application Integration Programmer&#39;s Reference
 This section of the Microsoft Host Integration Server Programmer 's Reference describes the objects, methods, properties, controls, and other interfaces that enable you to integrate Host Integration Server technologies into your application.  

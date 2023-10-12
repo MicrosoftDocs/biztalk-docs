@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Loop Paths"
-title: "Loop Paths | Microsoft Docs"
+title: "Loop Paths"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Looping functoids, paths"
-  - "maps, conditional looping"
-ms.assetid: 4612dc2d-2c39-427d-88ac-65f9e85873c7
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Loop Paths
 An element in a schema is looping if its Max Occurs property is greater than 1. A loop path occurs when you draw a link between a looping element in the source schema and a looping element in the destination schema.  

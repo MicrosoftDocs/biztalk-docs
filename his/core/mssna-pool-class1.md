@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_Pool Class"
-title: "MsSna_Pool Class1 | Microsoft Docs"
+title: "MsSna_Pool Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c721c108-8da3-4998-94a4-cf7fb4b9ddae
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_Pool Class
 Base class for 3270 LU pools.  

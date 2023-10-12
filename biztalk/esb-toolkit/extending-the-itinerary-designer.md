@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Extending the Itinerary Designer"
-title: "Extending the Itinerary Designer | Microsoft Docs"
+title: "Extending the Itinerary Designer"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f26b825b-ebab-4dac-b7ed-0608c79e146a
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Extending the Itinerary Designer
 The Itinerary Designer is a visual domain-specific language (DSL) for Microsoft Visual Studio that enables the graphical modeling of itineraries for use with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. The designer exposes various extension points for which developers can write custom extensions to enable new functionality and/or new configuration options.  

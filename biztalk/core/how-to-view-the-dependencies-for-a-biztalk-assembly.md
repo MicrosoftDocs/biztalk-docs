@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to View the Dependencies for a BizTalk Assembly"
-title: "How to View the Dependencies for a BizTalk Assembly | Microsoft Docs"
+title: "How to View the Dependencies for a BizTalk Assembly"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "viewing, dependencies"
-  - "assemblies, dependencies"
-  - "managing [assemblies], dependencies"
-  - "assemblies, viewing"
-  - "viewing, assemblies"
-  - "managing [assemblies], viewing"
-ms.assetid: 872abc99-8248-4397-9fcb-24a0ba6f4757
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to View the Dependencies for a BizTalk Assembly
 This topic describes how to use the BizTalk Server Administration console to view the list of artifacts that have dependencies on a BizTalk assembly. For background information about dependencies and how they affect application deployment, see [Dependencies and Application Deployment](../core/dependencies-and-application-deployment.md).  

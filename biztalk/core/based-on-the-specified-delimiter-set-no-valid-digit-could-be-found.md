@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Based on the specified delimiter set, no valid Digit could be found"
-title: "Based on the specified delimiter set, no valid Digit could be found | Microsoft Docs"
+title: "Based on the specified delimiter set, no valid Digit could be found"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 08887f7d-8256-4de3-8db9-b890451521ff
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Based on the specified delimiter set, no valid Digit could be found
 ## Details  

@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Warning - Envelope Schema Needs Root Record Node"
-title: "Warning - Envelope Schema Needs Root Record Node | Microsoft Docs"
+title: "Warning - Envelope Schema Needs Root Record Node"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.envelopeSchemaNeedsRoot"
-ms.assetid: 3fbc1571-1270-4c5e-adcf-00633bf46efe
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Warning - Envelope Schema Needs Root Record Node
 **Error Code**  

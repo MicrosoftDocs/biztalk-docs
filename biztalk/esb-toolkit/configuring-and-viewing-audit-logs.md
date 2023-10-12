@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configuring and Viewing Audit Logs"
-title: "Configuring and Viewing Audit Logs | Microsoft Docs"
+title: "Configuring and Viewing Audit Logs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c725bf04-d59f-42c1-b327-b4268421689c
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring and Viewing Audit Logs
 The ESB Management Portal maintains an audit log of actions that help you to monitor usage and track problems. Administrators can specify which events the portal will write to the audit log.  

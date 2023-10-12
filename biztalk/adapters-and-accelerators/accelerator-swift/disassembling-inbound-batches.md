@@ -1,19 +1,12 @@
 ---
-title: "Disassemble Inbound Batches with SWIFT | Microsoft Docs"
+title: "Disassemble Inbound Batches with SWIFT"
 description: Debatch inbound message, and customize schemas for batching using the SWIFT Accelerator in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 11cb5672-1155-4648-b1fd-c9a3bc30e351
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Disassemble Inbound Batches
 

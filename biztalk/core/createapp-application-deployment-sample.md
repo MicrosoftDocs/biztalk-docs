@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: CreateApp (Application Deployment Sample)"
-title: "CreateApp (Application Deployment Sample) | Microsoft Docs"
+title: "CreateApp (Application Deployment Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, examples"
-  - "deploying, .msi file"
-  - "deploying, exporting"
-  - ".msi files, deploying"
-  - "examples, deploying"
-ms.assetid: 825627ee-21d0-4505-9df4-1dadc51335b6
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # CreateApp (Application Deployment Sample)
 This topic explains how to use the CreateApp sample, which demonstrates using the BTSTask command-line tool to deploy and undeploy a BizTalk application. You could use scripts such as those included in this sample to automate your nightly build process to deploy and undeploy BizTalk applications.  

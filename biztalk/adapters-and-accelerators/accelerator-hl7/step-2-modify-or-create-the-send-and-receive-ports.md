@@ -1,19 +1,9 @@
 ---
 description: "Learn more about: Step 2: Modify or Create the Send and Receive Ports"
 title: "Step 2: Modify or Create the Send and Receive Ports"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: 8d96d02c-b75d-4d18-a127-37002c5ff138
-caps.latest.revision: 12
-
-
-
 ---
 # Step 2: Modify or Create the Send and Receive Ports
 You need FILE send and receive ports for the Batch In/Batch Out tutorial. If you clicked the **Launch Tutorial** button at the end of installing the Enterprise Edition of [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] created these ports for you: a send port named Tutorial_BTAHL7Drop, and a receive port named Tutorial_BTAHL7PickUp. If you have these ports, you still need to modify the send port Tutorial_BTAHL7Drop.  

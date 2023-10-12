@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Understand WCF security on the adapter created with the WCF LOB Adapter SDK"
-title: "Understand WCF security on the adapter created with the WCF LOB Adapter SDK | Microsoft Docs"
+title: "Understand WCF security on the adapter created with the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c1ee402b-ffda-42c1-8d85-d7cbe073a307
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Understand WCF security on the adapter created with the WCF LOB Adapter SDK
 The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] extends the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel architecture and relies on the messaging infrastructure and the API that it provides.  A WCF LOB adapter needs to establish a connection to target systems, and hence it is necessary to configure the adapter with authentication and other security information required to make the target system connections.  

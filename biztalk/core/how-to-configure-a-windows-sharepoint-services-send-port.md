@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Configure a Windows SharePoint Services Send Port"
-title: "How to Configure a Windows SharePoint Services Send Port | Microsoft Docs"
+title: "How to Configure a Windows SharePoint Services Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Windows SharePoint Services adapters, send ports"
-  - "configuring [Windows SharePoint Services adapters], send ports"
-  - "send ports, Windows SharePoint Services adapters"
-ms.assetid: 7713d3cc-cd8d-43db-8dac-2a7442632b87
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a Windows SharePoint Services Send Port
 This topic describes how to create and configure a Windows SharePoint Services send port by using the BizTalk Server Administration Console.  

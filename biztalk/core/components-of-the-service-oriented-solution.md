@@ -1,31 +1,12 @@
 ---
 description: "Learn more about: Components of the Service Oriented Solution"
-title: "Components of the Service Oriented Solution | Microsoft Docs"
+title: "Components of the Service Oriented Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "service solution tutorial, pipelines"
-  - "pipelines, service solutions"
-  - "service solution tutorial, assemblies"
-  - "service solution tutorial, components [BizTalk Server]"
-  - "service solution tutorial, client applications"
-  - "assemblies, service solutions"
-  - "orchestrations, service solutions"
-  - "client applications, service solutions"
-  - "back-end systems"
-  - "service solution tutorial, orchestrations"
-  - "service solution tutorial, back-end applications"
-ms.assetid: 97b7b754-abfb-48f9-87bf-7fe171121166
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Components of the Service Oriented Solution
 This section describes the major BizTalk Server components of the Service Oriented Solution. The following diagram shows the major components of the solution:  

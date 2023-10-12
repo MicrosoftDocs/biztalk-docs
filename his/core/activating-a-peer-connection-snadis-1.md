@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Activate a Peer Connection (SNADIS)"
-title: "Activate a Peer Connection (SNADIS) | Microsoft Docs"
+title: "Activate a Peer Connection (SNADIS)"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e3374a4b-829e-4e61-966c-c150893970e5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Activate a Peer Connection (SNADIS)
 

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Composed Message Processor (BizTalk Server Sample)"
-title: "Composed Message Processor (BizTalk Server Sample) | Microsoft Docs"
+title: "Composed Message Processor (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipelines, examples"
-  - "messages, processing"
-  - "messages, aggregated"
-  - "examples, pipelines"
-ms.assetid: a0f87f98-6f5f-4edb-8f65-49d22df5de97
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Composed Message Processor (BizTalk Server Sample)
 The purpose of this sample is to build a composed message processor application that processes individual line items from aggregated messages.  

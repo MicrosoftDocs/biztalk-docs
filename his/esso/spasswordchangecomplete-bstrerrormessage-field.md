@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SPasswordChangeComplete.bstrErrorMessage Field"
-title: "SPasswordChangeComplete.bstrErrorMessage Field | Microsoft Docs"
+title: "SPasswordChangeComplete.bstrErrorMessage Field"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a9dac12d-eb03-41ed-afa1-0adb3073fb37
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SPasswordChangeComplete.bstrErrorMessage Field
 A string containing an error message.  

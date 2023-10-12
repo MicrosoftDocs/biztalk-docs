@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Step 1: Create a Unit Test to Submit Documents to BizTalk Server"
-title: "Step 1: Create a Unit Test to Submit Documents to BizTalk Server | Microsoft Docs"
+title: "Step 1: Create a Unit Test to Submit Documents to BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 688b14e4-bb16-4d12-86b8-37b8b6808472
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Create a Unit Test to Submit Documents to BizTalk Server
 Computer application servers such as BizTalk Server are designed to perform particular tasks on behalf of users. These tasks are initiated as client requests sent to the application server as messages that conform to a standard that the application server understands, via a protocol that the application server understands. For example, clients may initiate processing of email by sending internet e-mail messages to an email server via the SMTP protocol. Likewise, web servers process client HTML or ASP requests, database servers process client SQL requests and BizTalk Server can process client messages formatted in compliance with multiple industry message standards using numerous industry standard protocols. The workload capacity of an application server is typically measured by the number of messages that the application server can process in a given time period. The workload capacity of BizTalk Server is likewise measured as the average number of “documents received per second”, “documents processed per second” and/or “orchestrations completed per second” over an extended period of time, such as a busy workday or even a work week. Visual Studio 2010 load test functionality can simulate a load profile of up to hundreds of users simultaneously accessing a server application. This load testing functionality provides real time metrics for selected key performance indicators as well as the ability to store these metrics in a database for future analysis. This document desribes the use of Visual Studio Test projects for the purpose of load testing a BizTalk Server application, including how to create unit tests, how to create load tests and how to configure load tests to capture performance counter data required to determine the Maximum Sustainable Throughput (MST) of a BizTalk Server application.

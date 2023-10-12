@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Confirmed (CPI-C)"
-title: "Confirmed (CPI-C)2 | Microsoft Docs"
+title: "Confirmed (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3ec1d382-8ef7-4064-a7b7-90203096a54b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Confirmed (CPI-C)
 The **Confirmed** call (function name **cmcfmd**) replies to a confirmation request from the partner program. It informs the partner program that the local program has not detected an error in the received data. Because the program issuing the confirmation request waits for a confirmation, **Confirmed** synchronizes the processing of the two programs.  

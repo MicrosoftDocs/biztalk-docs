@@ -1,19 +1,12 @@
 ---
 description: "Learn about the requirements for using Single Sign-On (SSO) in the Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS)."
-title: "SSO requirements for TIBCO EMS adapter | Microsoft Docs"
+title: "SSO requirements for TIBCO EMS adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 645c7b3f-f860-4c20-b5ca-a8fb93736344
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Requirements for Single Sign-On
 

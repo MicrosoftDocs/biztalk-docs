@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The interchange had a structural error in-before the first functional group"
-title: "The interchange had a structural error in-before the first functional group | Microsoft Docs"
+title: "The interchange had a structural error in-before the first functional group"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 12202148-0a32-464e-8dbd-d01b9ba530eb
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The interchange had a structural error in-before the first functional group
 ## Details  

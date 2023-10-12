@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Administration and Management Programmer's Reference"
-title: "Administration and Management Programmer's Reference | Microsoft Docs"
+title: "Administration and Management Programmer's Reference"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 384acfd0-1b78-4bd7-93ea-ebcb937c0f11
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Administration and Management Programmer's Reference
 Host Integration Server included the following Windows Management Interface (WMI) providers to enable scripted management.  

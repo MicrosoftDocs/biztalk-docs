@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid ReceiverId Qualifier"
-title: "Invalid ReceiverId Qualifier | Microsoft Docs"
+title: "Invalid ReceiverId Qualifier"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 52d60f7e-6f16-424d-91b8-dc8181206249
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid ReceiverId Qualifier
 ## Details  

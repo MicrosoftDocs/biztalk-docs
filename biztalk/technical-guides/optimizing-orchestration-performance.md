@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Optimizing Orchestration Performance"
-title: "Optimizing Orchestration Performance | Microsoft Docs"
+title: "Optimizing Orchestration Performance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 437c7325-f037-451a-8dbd-f8d8c8889e20
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Optimizing Orchestration Performance
 This topic describes best practices for using orchestrations in BizTalk Server solutions. This includes recommendations for:

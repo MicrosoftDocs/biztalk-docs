@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Configure the File adapter"
-title: "Configure the File adapter | Microsoft Docs"
+title: "Configure the File adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "File adapters, configuring"
-  - "configuring [File adapters], about configuring File adapters"
-  - "configuring [File adapters]"
-ms.assetid: 1e0c7e20-80f8-469b-b423-34a2b90f9ec3
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 
 # Configure the File adapter

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Data Stored for EDI Status Reports"
-title: "Data Stored for EDI Status Reports | Microsoft Docs"
+title: "Data Stored for EDI Status Reports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ec66e4d7-2694-499f-a60c-2f80fe643e12
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Data Stored for EDI Status Reports
 Two levels of reporting are available in EDI status reporting: the first if the **Turn ON Reporting** property is selected for an agreement, and the second if the **Store transaction set/payload reporting** property is selected for an agreement. These properties are available in the **General Properties** page of the **General** tab in the **Agreement Properties** dialog box.  

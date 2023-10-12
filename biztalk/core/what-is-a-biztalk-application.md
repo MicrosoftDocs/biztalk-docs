@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: What Is a BizTalk Application?"
-title: "What Is a BizTalk Application? | Microsoft Docs"
+title: "What Is a BizTalk Application?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BizTalk.System application, about BizTalk.System application"
-  - "applications, default"
-  - "BizTalk.System application"
-  - "artifacts, about artifacts"
-  - "applications"
-  - "applications, about applications"
-  - "applications, warnings"
-  - "applications, BizTalk.System"
-  - "what's new, applications"
-  - "BizTalk.System application, warnings"
-ms.assetid: 68b5527c-d5e1-453b-a51b-3fc1a1d5dce2
-caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is a BizTalk Application?
 The BizTalk application is a feature of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that makes it quicker and easier to deploy, manage, and troubleshoot [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solutions. A BizTalk application is a logical grouping of the items, called "artifacts," used in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business solution. Artifacts are described in more detail later in this topic.  

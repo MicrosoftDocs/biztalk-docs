@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDI Group Structural Element"
-title: "EDI Group Structural Element | Microsoft Docs"
+title: "EDI Group Structural Element"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 100a7118-9c02-474e-8685-9e4bb6f52e81
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDI Group Structural Element
 The group contains one or more transaction sets. An EDIFACT group must contain transaction sets of the same type. An X12 group may contain transaction sets of similar type (based on the transaction set – group (GS01-ST01) mapping) or transaction sets of the same type. The table below lists similar X12 transaction sets (ST01), which can occur together in a single group (GS01).  

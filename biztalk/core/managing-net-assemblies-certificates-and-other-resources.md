@@ -1,19 +1,12 @@
 ---
-title: "Manage .NET Assemblies, Certificates, and Other Resources | Microsoft Docs"
+title: "Manage .NET Assemblies, Certificates, and Other Resources"
 description: Links to add binding files, certificates, assemblies, virtual directories, files, and more in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: efe27a11-19d8-4eb3-9f8c-f4336e4c3d66
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Manage .NET Assemblies, Certificates, and Other Resources
 

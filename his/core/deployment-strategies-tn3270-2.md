@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Deployment Strategies (TN3270)"
-title: "Deployment Strategies (TN3270)2 | Microsoft Docs"
+title: "Deployment Strategies (TN3270)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 003c2db3-ea52-4203-81a4-14fb1416e25e
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Deployment Strategies (TN3270)
 This section describes deployment strategies that can be applied if you are providing TN3270 connectivity services including:  

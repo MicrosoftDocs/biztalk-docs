@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Validate Instance Data"
-title: "Validate Instance Data | Microsoft Docs"
+title: "Validate Instance Data"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 19c3ca83-0abf-42ba-8e29-653ff12d5e20
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 
 # Validate Instance Data

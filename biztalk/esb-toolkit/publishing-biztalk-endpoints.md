@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Publishing BizTalk Endpoints"
-title: "Publishing BizTalk Endpoints | Microsoft Docs"
+title: "Publishing BizTalk Endpoints"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c8e8cc81-c6c7-4269-81e3-8725082a0c98
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Publishing BizTalk Endpoints
 You can use the ESB Management Portal to create and publish entries into the currently configured Universal Description, Discovery, and Integration (UDDI) server.  

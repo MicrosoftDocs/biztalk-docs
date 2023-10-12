@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Supporting Modem Status in an SNA Link Service"
-title: "Supporting Modem Status in an SNA Link Service1 | Microsoft Docs"
+title: "Supporting Modem Status in an SNA Link Service1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5c2d7c9f-77d7-49e8-8d5d-d8fc0428c51e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Supporting Modem Status in an SNA Link Service
 The implementation of a link service that supports the modem status requires the following:  

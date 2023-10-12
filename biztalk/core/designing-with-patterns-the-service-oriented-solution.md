@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Designing with Patterns: the Service Oriented Solution"
-title: "Designing with Patterns: the Service Oriented Solution | Microsoft Docs"
+title: "Designing with Patterns: the Service Oriented Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "patterns [service solutions], examples"
-  - "examples, programming patterns"
-  - "patterns [service solutions], designing"
-  - "designing, programming patterns"
-ms.assetid: c196cd9d-2b2d-4548-bc7d-26196f7c2878
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Designing with Patterns: the Service Oriented Solution
 The service-oriented solution shows how to expose a BizTalk application as a service for use by other applications. Presenting an application as a service enables other applications to easily consume the information and use it in the services that they provide.

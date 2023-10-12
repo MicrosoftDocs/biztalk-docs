@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IcomLUO.Online Method"
-title: "IcomLUO.Online Method2 | Microsoft Docs"
+title: "IcomLUO.Online Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 846a73a9-dd66-4518-92be-f638dd92b56f
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IcomLUO.Online Method
 Sets the LU0 session back in an on-line state after a call to Offline.  

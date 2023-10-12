@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Deleting Orphan Attachments"
-title: "Deleting Orphan Attachments | Microsoft Docs"
+title: "Deleting Orphan Attachments"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maintaining databases, deleting orphaned attachments"
-  - "databases, deleting orphaned attachments"
-  - "attachments"
-ms.assetid: 38280464-9c9d-4890-9fc5-4b8031dd3f88
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deleting Orphan Attachments
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] stores attachments for received messages. In certain circumstances, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] saves the attachment, but deletes the associated message from the MessagesToLOB table, resulting in an orphan attachment. This can occur when you submit a message that has an attachment and has a manifest that is not valid, for example, a manifest in which NumberOfAttachments = 0. Periodically, you may want to delete orphan attachments to maintain system performance.  

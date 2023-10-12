@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Syntax for a SELECT Statement in SAP"
-title: "Syntax for a SELECT Statement in SAP | Microsoft Docs"
+title: "Syntax for a SELECT Statement in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SELECT statement, syntax for"
-ms.assetid: 47120d74-bf41-4622-a6bc-7b8ddc959305
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Syntax for a SELECT Statement in SAP
 The following sections describe grammar specifications for implementing SELECT queries against the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]. Notice that in several cases, the syntax is somewhat different from the base Transact-SQL syntax.  

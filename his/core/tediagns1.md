@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: tediagns"
-title: "tediagns1 | Microsoft Docs"
+title: "tediagns1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 893e7050-e121-4715-898b-b1244607efef
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # tediagns
 The diagnostics record tediagns includes a number of tedalert information records.  

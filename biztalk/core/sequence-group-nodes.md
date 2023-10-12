@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Sequence Group Nodes"
-title: "Sequence Group Nodes | Microsoft Docs"
+title: "Sequence Group Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 139c3daa-a682-4bf7-bbb7-b5694ced0431
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sequence Group Nodes
 

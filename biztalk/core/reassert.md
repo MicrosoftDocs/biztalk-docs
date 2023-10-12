@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Reassert"
-title: "Reassert | Microsoft Docs"
+title: "Reassert"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Assert function [Business Rules Engine]"
-ms.assetid: 9cd640a2-bfeb-4c7a-b737-1c92cc122a9c
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Reassert
 To *reassert* means to call the **Assert** function on an object that is already in the engine's working memory. A reassert command is equivalent to issuing a retract command for the object, followed by an assert command.  

@@ -1,43 +1,12 @@
 ---
 description: "Learn more about: Database Structure and Jobs"
-title: "Database Structure and Jobs | Microsoft Docs"
+title: "Database Structure and Jobs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "PurgeSubscriptionsJob_BizTalkMsgBoxDb job"
-  - "MessageBox database, jobs [SQL Server Agent]"
-  - "DTA Purge and Archive (BizTalkDTADb) job"
-  - "TrackedMessages_Copy_BizTalkMsgBoxDb job"
-  - "MessageBox_Message_Cleanup_BizTalkMsgBoxDb job"
-  - "MessageBox_Message_ManageRefCountLog_BizTalkMsgBoxDb job"
-  - "Operations_OperateOnInstances_OnMaster_BizTalkMsgBoxDb job"
-  - "jobs [SQL Server Agent], MessageBox database"
-  - "CleanupBTFExpiredEntriesJob_BizTalkMgmtDb job"
-  - "databases, structure"
-  - "Tracking database, jobs [SQL Server Agent]"
-  - "jobs [SQL Server Agent], Management database"
-  - "Backup BizTalk Server (BizTalkMgmtDb) job"
-  - "databases, SQL Server Agent jobs"
-  - "Business Rules Engine, jobs [SQL Server Agent]"
-  - "jobs, databases"
-  - "Management database, jobs [SQL Server Agent]"
-  - "MessageBox_UpdateStats_BizTalkMsgBoxDb job"
-  - "jobs [SQL Server Agent], Business Rules Engine"
-  - "Rules_Database_Cleanup_BizTalkRuleEngineDb job"
-  - "MessageBox_Parts_Cleanup_BizTalkMsgBoxDb job"
-  - "jobs [SQL Server Agent], Tracking database"
-  - "MessageBox_DeadProcesses_Cleanup_BizTalkMsgBoxDb job"
-ms.assetid: f5f6b17d-0f5e-4821-a7eb-c345234ffc65
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Database Structure and Jobs
 This topic discusses the database structure and database jobs for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

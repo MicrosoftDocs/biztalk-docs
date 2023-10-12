@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Implementing an External Batch Release Mechanism"
-title: "Implementing an External Batch Release Mechanism | Microsoft Docs"
+title: "Implementing an External Batch Release Mechanism"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5633a448-cc29-4931-a3ad-206ae25c989b
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Implementing an External Batch Release Mechanism
 You can trigger the release of a batch using an external release trigger. The release could be automatically triggered by a back-end, line-of-business application upon reaching a certain threshold. This mechanism is in addition to automatically triggering the batch release by a schedule or a count of transaction sets or characters, or manually triggering the batch by clicking the **Override** button in the **Batch Configuration** page of the one-way agreement tab.  

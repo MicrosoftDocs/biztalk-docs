@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Ordered Delivery of Messages with the MSMQ Adapter"
-title: "Ordered Delivery of Messages with the MSMQ Adapter | Microsoft Docs"
+title: "Ordered Delivery of Messages with the MSMQ Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, ordered delivery"
-  - "MSMQ adapters, ordered delivery"
-ms.assetid: e8dafc76-e894-4120-9cea-d014d635850e
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Ordered Delivery of Messages with the MSMQ Adapter
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides an **Ordered Delivery** option for static send ports. Setting the **Ordered Delivery** option on a send port to **True** ensures that BizTalk Server delivers messages to the send port in the same order that they are published to the MessageBox database. To provide end-to-end ordered delivery the following conditions must be met:  

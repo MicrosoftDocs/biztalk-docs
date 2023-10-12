@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with the MSMQ Adapter"
-title: "Known Issues with the MSMQ Adapter | Microsoft Docs"
+title: "Known Issues with the MSMQ Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ce77cdac-79c1-4529-8f09-0fb1f87ca037
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with the MSMQ Adapter
 This section contains information that may help you avoid errors.  

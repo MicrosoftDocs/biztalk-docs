@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Equals"
-title: "Equals | Microsoft Docs"
+title: "Equals"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ac93031a-9d18-443d-9e38-71ef9edd5a30
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Equals
 Removes the top two items from the stack, compares the two items, and then pushes the result onto the stack.  

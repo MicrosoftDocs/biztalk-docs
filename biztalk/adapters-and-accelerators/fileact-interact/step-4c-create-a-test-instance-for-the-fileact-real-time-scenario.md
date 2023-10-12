@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4C: Create a Test Instance for the FileAct Real-Time Scenario"
-title: "Step 4C: Create a Test Instance for the FileAct Real-Time Scenario | Microsoft Docs"
+title: "Step 4C: Create a Test Instance for the FileAct Real-Time Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 80e0cb59-8b4f-4273-a7a4-db3446008061
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4C: Create a Test Instance for the FileAct Real-Time Scenario
 Before you begin this step, you must complete [Step 4B: Start the Send Ports and Receive Ports for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-4b-start-the-send-and-receive-ports-for-the-fileact-real-time-scenario.md).  

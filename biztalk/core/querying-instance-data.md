@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Querying Instance Data"
-title: "Querying Instance Data | Microsoft Docs"
+title: "Querying Instance Data"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM, instance data"
-  - "queries [BAM], instance data"
-ms.assetid: ae4a8854-d5c2-4b36-a0ef-3f74e138306e
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Querying Instance Data
 The data about individual activity instances is available for queries in a dynamically created SQL View in the BAM Primary Import Database.  

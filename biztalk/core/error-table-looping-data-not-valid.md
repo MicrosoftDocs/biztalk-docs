@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Table Looping Data Not Valid"
-title: "Error - Table Looping Data Not Valid | Microsoft Docs"
+title: "Error - Table Looping Data Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.tableLoopingDataNotValid"
-ms.assetid: 19c38e79-bab0-4899-ae24-e1485327e891
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Table Looping Data Not Valid
 **Error Code**  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10507"
-title: "Single Sign-On: Event 10507 | Microsoft Docs"
+title: "Single Sign-On: Event 10507"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b02d8dfa-7655-471e-84af-e58d08c3cefd
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10507
 ## Details  

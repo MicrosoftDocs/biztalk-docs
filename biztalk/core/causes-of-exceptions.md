@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Causes of Exceptions"
-title: "Causes of Exceptions | Microsoft Docs"
+title: "Causes of Exceptions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, errors"
-  - "errors, orchestrations"
-  - "errors, causes"
-ms.assetid: b0422382-d034-4c58-87c6-fc269dbbfe43
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Causes of Exceptions
 Exceptions can be generated within an orchestration in the following ways:  

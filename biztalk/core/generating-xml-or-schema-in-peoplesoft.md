@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Generating XML or Schema in PeopleSoft"
-title: "Generating XML or Schema in PeopleSoft | Microsoft Docs"
+title: "Generating XML or Schema in PeopleSoft"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "generating schemas"
-  - "schemas, generating"
-  - "generating XML"
-  - "XML, generating"
-ms.assetid: adfe2936-0dc2-42d2-b26a-718f8cc57eff
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Generating XML or Schema in PeopleSoft
 The following procedure describes how to use PeopleSoft Enterprise to create an XML file and trigger a PeopleSoft event. To do this, you change something in the PeopleSoft environment. The change activates an XML file, which is sent to the file folder that you set in your orchestration to be monitored. Later, in BizTalk Server, you import the XML and generate a schema.  

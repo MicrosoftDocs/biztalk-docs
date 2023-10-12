@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Ports for the BAM Portal Server"
-title: "Ports for the BAM Portal Server | Microsoft Docs"
+title: "Ports for the BAM Portal Server"
 ms.custom: ""
 ms.date: "01/07/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: df67c31c-a7a3-4bff-9374-0d8a0cf0ad21
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Ports for the BAM Portal Server
 For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

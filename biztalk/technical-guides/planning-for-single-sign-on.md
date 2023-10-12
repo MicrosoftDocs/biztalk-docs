@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning for Single Sign-On"
-title: "Planning for Single Sign-On | Microsoft Docs"
+title: "Planning for Single Sign-On"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7d1bc220-4087-4603-ac15-6bb0c62c59d4
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning for Single Sign-On
 Enterprise Single Sign-On (SSO) is a critical component of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run time cannot function without the SSO service because all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter configuration information is encrypted and stored in the SSO database and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] accesses this information via the SSO service. This adapter configuration information is not accessible if the SSO service is not running on the BizTalk server or if the SSO service does not have access to the SSO master secret server.

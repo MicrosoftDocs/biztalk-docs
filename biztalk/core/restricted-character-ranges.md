@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Restricted Character Ranges"
-title: "Restricted Character Ranges | Microsoft Docs"
+title: "Restricted Character Ranges"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e12213bf-750e-43a2-998a-949fa4255b73
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Restricted Character Ranges
 

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Improving the Performance of the Archiving and Purging Process"
-title: "Improving the Performance of the Archiving and Purging Process | Microsoft Docs"
+title: "Improving the Performance of the Archiving and Purging Process"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "archiving [Tracking database], system performance"
-  - "DTA Purge and Archive job, performance"
-  - "purging, limitations"
-  - "performance, archiving"
-  - "performance, purging"
-  - "purging, system performance"
-ms.assetid: d65da58d-65e0-4f6c-8b15-5d4448049b42
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Improving the Performance of the Archiving and Purging Process
 The amount of data stored in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases can grow very quickly depending on how you have designed your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] scenario, depending on the number and size of messages processed by your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] scenario, and depending on how you have configured tracking. By maintaining your database size at a healthy level, processing is more efficient and the amount of data in your system is normalized at any given time. This provides efficient and consistent performance. By automating this process you free yourself of the burden of manually maintaining your databases.  

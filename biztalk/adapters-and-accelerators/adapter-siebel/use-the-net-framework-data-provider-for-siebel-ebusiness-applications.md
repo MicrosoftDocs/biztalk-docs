@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Use the .NET Framework Data Provider for Siebel eBusiness Applications"
-title: "Use the .NET Framework Data Provider for Siebel eBusiness Applications | Microsoft Docs"
+title: "Use the .NET Framework Data Provider for Siebel eBusiness Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ADO.NET programming, performing operations"
-  - "Data Provider for Siebel, overview"
-ms.assetid: 97fe4f95-c9ae-42f1-a159-1b0e98607b31
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use the .NET Framework Data Provider for Siebel eBusiness Applications
 This section provides instructions on using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]). This section provides information about:  

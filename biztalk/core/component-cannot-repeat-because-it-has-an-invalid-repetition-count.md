@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Component cannot repeat because it has an invalid repetition count"
-title: "Component cannot repeat because it has an invalid repetition count | Microsoft Docs"
+title: "Component cannot repeat because it has an invalid repetition count"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 040d7ea4-60a9-495f-91d7-b5b868957e2d
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Component cannot repeat because it has an invalid repetition count
 ## Details  

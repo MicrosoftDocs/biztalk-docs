@@ -1,31 +1,12 @@
 ---
 description: "Learn more about: A4SWIFT Web Service Security"
-title: "A4SWIFT Web Service Security | Microsoft Docs"
+title: "A4SWIFT Web Service Security"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "IIS security"
-  - "Web service [A4SWIFT]"
-  - "security, transport-level security"
-  - "security, message-level security"
-  - "ASP.NET security"
-  - "A4SWIFT, Web service"
-  - "A4SWIFT, security"
-  - "security, IIS"
-  - "security, ASP.NET"
-  - "security, Web service"
-  - "messages, security"
-ms.assetid: e6c7d275-569f-47f6-81fb-10bcd86ff417
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # A4SWIFT Web Service Security
 The [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]Web service by default is installed in a highly secure hybrid security model. In the IIS/ASP.NET model a trust boundary exists between the Web service, the [!INCLUDE[btsWinSharePointSvcsNoVersion](../../includes/btswinsharepointsvcsnoversion-md.md)] site, and the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]database.  

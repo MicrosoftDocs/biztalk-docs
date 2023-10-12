@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: InterAct Adapter Architecture"
-title: "InterAct Adapter Architecture | Microsoft Docs"
+title: "InterAct Adapter Architecture"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ce7e4b7e-abe4-4db6-b4e0-6f71bd7e5e6f
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # InterAct Adapter Architecture
 This section describes the primitives of InterAct from a functional point of view. The detailed structure, syntax, and usage for the primitives is well-documented in the SWIFT references, and is not repeated here.  

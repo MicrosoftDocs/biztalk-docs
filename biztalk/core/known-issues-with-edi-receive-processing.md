@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with EDI Receive Processing"
-title: "Known Issues with EDI Receive Processing | Microsoft Docs"
+title: "Known Issues with EDI Receive Processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bbb3fd6a-381b-479e-a9f2-7b6371fac39e
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with EDI Receive Processing
 This topic describes known issues with processing in the EDI receive pipeline.  

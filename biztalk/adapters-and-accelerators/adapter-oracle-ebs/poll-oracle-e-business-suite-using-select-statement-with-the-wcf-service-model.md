@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Poll Oracle E-Business Suite using SELECT statement with the WCF service model"
-title: "Poll Oracle E-Business Suite using SELECT statement with the WCF service model | Microsoft Docs"
+title: "Poll Oracle E-Business Suite using SELECT statement with the WCF service model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 521d58e4-73b1-48a8-9a0a-9e733386c1b5
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Poll Oracle E-Business Suite using SELECT statement with the WCF service model
 You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive periodic data-change messages by using a SELECT statement to continuously poll the interface tables, interface views, tables and views in Oracle E-Business Suite. You can specify a SELECT statement as a polling statement that the adapter executes periodically to poll Oracle E-Business Suite. You can also specify a post-poll PL/SQL code block that the adapter executes after the polling statement is executed.

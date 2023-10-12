@@ -4,16 +4,8 @@ description: Learn more about the Acknowledgment tab in BizTalk Server.
 ms.prod: biztalk-server
 ms.topic: article
 ms.date: 06/08/2017
-
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.acknowledgement"
-helpviewer_keywords: 
-  - "acknowledgements, configuring"
-  - "Acknowledgement tab [Configuration Explorer]"
-  - "configuring, acknowledgements"
-ms.assetid: f00d698c-1a33-4885-853f-c6b58d49d937
-caps.latest.revision: 3
-
 ---
 
 # Acknowledgment tab

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Operating System Optimizations"
-title: "Operating System Optimizations | Microsoft Docs"
+title: "Operating System Optimizations"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: af2e77d0-d69b-4ae4-b689-96831fc4deed
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operating System Optimizations
 This topic provides recommendations for optimizing performance of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers used in a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. These optimizations are applied after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has been installed and configured.

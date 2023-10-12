@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Lesson 2: Define the Business Process"
-title: "Lesson 2: Define the Business Process | Microsoft Docs"
+title: "Lesson 2: Define the Business Process"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "enterprise application integration tutorial, defining business processes"
-ms.assetid: 644aa049-4dd7-4392-b97f-31b1f29e12bd
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 2: Define the Business Process
 In this lesson, you create the second project in the Enterprise Application Integration(EAI) solution. This project contains an orchestration.  

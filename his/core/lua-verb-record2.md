@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA_VERB_RECORD"
-title: "LUA_VERB_RECORD2 | Microsoft Docs"
+title: "LUA_VERB_RECORD2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7bb0ed1e-0438-48f7-96f6-0df779a6ae7f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA_VERB_RECORD
 The logical unit application (LUA) verb control block (VCB) structure is as follows:  

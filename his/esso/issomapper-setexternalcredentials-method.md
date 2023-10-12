@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOMapper.SetExternalCredentials Method"
-title: "ISSOMapper.SetExternalCredentials Method | Microsoft Docs"
+title: "ISSOMapper.SetExternalCredentials Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b8066d28-285a-40ce-8cf5-e1be6b113ec1
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOMapper.SetExternalCredentials Method
 The **SetExternalCredentials** method stores a set of external credentials in the Enterprise Single Sign-On (SSO) server database.  

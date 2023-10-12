@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Identifiers (X12)"
-title: "Configuring Identifiers (X12) | Microsoft Docs"
+title: "Configuring Identifiers (X12)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 665698d1-c46c-4149-9715-381b4966dd92
-caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Identifiers (X12)
 In the partner agreement, you must set the X12 authorization and security properties in order to verify that the interchange is not being received by unauthorized recipients.  

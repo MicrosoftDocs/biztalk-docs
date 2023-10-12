@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Optimizing BizTalk Server Performance"
-title: "Optimizing BizTalk Server Performance | Microsoft Docs"
+title: "Optimizing BizTalk Server Performance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 809913f6-63b1-47cd-9961-0e10397108ca
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Optimizing BizTalk Server Performance
 This section provides guidelines for improving BizTalk Server performance. The optimizations listed are applied after BizTalk Server has been installed and configured.  

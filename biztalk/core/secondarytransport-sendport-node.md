@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: SecondaryTransport (SendPort Node)"
-title: "SecondaryTransport (SendPort Node) | Microsoft Docs"
+title: "SecondaryTransport (SendPort Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SecondaryTransport node [binding file]"
-ms.assetid: e4924f63-dd5f-4437-a661-09f12c5d6da6
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SecondaryTransport (SendPort Node)
 The SecondaryTransport node of the SendPort node of a binding file provides specific information about the secondary transport that is bound to a send port exported with the binding file. If a secondary transport is specified, it is used when all retry attempts with the primary transport have been exhausted.  

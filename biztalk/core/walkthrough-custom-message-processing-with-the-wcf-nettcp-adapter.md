@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Custom Message Processing with the WCF-NetTcp Adapter"
-title: "Walkthrough: Custom Message Processing with the WCF-NetTcp Adapter | Microsoft Docs"
+title: "Walkthrough: Custom Message Processing with the WCF-NetTcp Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b56b7492-2ea0-4c63-8f1b-430eb277517d
-caps.latest.revision: 32
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Custom Message Processing with the WCF-NetTcp Adapter
 In this walkthrough a [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] client submits a [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message containing embedded binary JPEG image data to a BizTalk receive location using the WCF-NetTcp adapter. The binary encoded JPEG image gets extracted by using an XPath statement (with Base64 Node encoding) through the **Inbound Message Body** settings in the adapter’s configuration. XPath processing differs from the default method that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses to handle incoming messages. In the default method, the adapter obtains the entire contents of the **Body** element of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message, and then submits it to the BizTalk MessageBox database. XPath message processing extracts specific parts of an incoming [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message to create a custom BizTalk message. In this sample XPath processing locates an XML element named **SendPicture** in the incoming [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] message (which is in XML format). After finding that element, XPath extracts the element's value as a binary Base64 encoded object, and places that binary value into a BizTalk message. The message is published to the MessageBox database, then output to a FILE send port with the help of a send port filter subscription. No orchestrations are used in this sample, and all the processing is done through BizTalk messaging using XPath.

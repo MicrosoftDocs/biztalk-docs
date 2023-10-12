@@ -1,19 +1,12 @@
 ---
-title: "Install the BizTalk Adapter Pack 2016 | Microsoft Docs"
+title: "Install the BizTalk Adapter Pack 2016"
 description: Typical or custom installation of BAP 2016, 32-bit vs 64-bit, install in silent mode
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2f3e1717-8063-4460-bfdc-a933cd58a5c1
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Install the BizTalk Adapter Pack 2016
 Install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] in the following two ways:

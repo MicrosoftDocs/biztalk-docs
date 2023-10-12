@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Character set not supported because the encoding information in UNB1.1 does not match the actual encoding"
-title: "Character set not supported because the encoding information in UNB1.1 does not match the actual encoding | Microsoft Docs"
+title: "Character set not supported because the encoding information in UNB1.1 does not match the actual encoding"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 085ea8e3-e0d8-45bd-9985-6787b00e4d5a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Character set not supported because the encoding information in UNB1.1 does not match the actual encoding
 ## Details  

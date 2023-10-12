@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDI Message Validation"
-title: "EDI Message Validation | Microsoft Docs"
+title: "EDI Message Validation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 71f34561-d280-48bb-b1dd-ce37b87c5023
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDI Message Validation
 EDI data is transmitted as delimited files (without self describing tags) and therefore the encoding rules enforce strict formatting rules to ensure the destination application is able to successfully parse and consume the information for downstream processing.  

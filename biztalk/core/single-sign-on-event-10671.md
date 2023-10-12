@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10671"
-title: "Single Sign-On: Event 10671 | Microsoft Docs"
+title: "Single Sign-On: Event 10671"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 06c5564f-6412-4e83-9bec-03264e992ebe
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10671
 ## Details  

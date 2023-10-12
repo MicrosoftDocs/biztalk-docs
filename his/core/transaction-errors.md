@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Transaction Errors"
-title: "Transaction Errors | Microsoft Docs"
+title: "Transaction Errors"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e557b58e-6469-4ffc-a265-75f6b26ae2ab
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Transaction Errors
 The following table lists transaction error constants, values, SqlState, SqlCode, Hresult and a description of the error.  

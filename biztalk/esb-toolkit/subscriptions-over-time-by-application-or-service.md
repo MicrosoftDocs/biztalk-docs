@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Subscriptions over Time by Application or Service"
-title: "Subscriptions over Time by Application or Service | Microsoft Docs"
+title: "Subscriptions over Time by Application or Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2593f36e-c2f4-4bb4-9b69-a5ee5a636e0d
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Subscriptions over Time by Application or Service
 This option displays a count of alert subscriptions over a specified period for a specified set of applications. You can select an application to display a trend chart showing the number of subscriptions over time for specific services within the application. Selecting a specific service displays a report that lists the subscriptions for that service. You can also export the list of subscriptions as a Microsoft Excel spreadsheet.  

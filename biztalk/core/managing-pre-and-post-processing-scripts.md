@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Manage Pre- and Post-processing Scripts"
-title: "Manage pre- and post-processing Scripts | Microsoft Docs"
+title: "Manage pre- and post-processing Scripts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 107ada12-fef2-4b56-8ff8-228c13761104
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Manage Pre- and Post-processing Scripts
 

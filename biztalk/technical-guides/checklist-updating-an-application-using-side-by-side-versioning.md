@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Updating an Application Using Side-by-Side Versioning"
-title: "Checklist: Updating an Application Using Side-by-Side Versioning | Microsoft Docs"
+title: "Checklist: Updating an Application Using Side-by-Side Versioning"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3adee8da-18d4-4b9e-a22e-148b90d18179
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Updating an Application Using Side-by-Side Versioning
 The following checklist describes the process of deploying an updated version of a BizTalk application that will run side-by-side with an existing version.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOTicket Methods"
-title: "ISSOTicket Methods | Microsoft Docs"
+title: "ISSOTicket Methods"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c7ed9885-87ef-40cc-b043-7cbf805f1b35
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOTicket Methods
 The methods of the **ISSOTicket** interface are listed in the following table. For a complete list of **ISSOTicket** interface members, see [ISSOTicket Members](../esso/issoticket-members.md).  

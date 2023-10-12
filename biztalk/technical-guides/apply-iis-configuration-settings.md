@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Apply IIS Configuration Settings"
-title: "Apply IIS Configuration Settings | Microsoft Docs"
+title: "Apply IIS Configuration Settings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6d638f83-e1c8-4e35-b345-361d5a3093fa
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Apply IIS Configuration Settings
 By default the SOAP, HTTP, and HTTP-based WCF adapters (and .NET in general) open only two concurrent HTTP connections from each BizTalk host instance to any specific destination server. For example, if you have a SOAP send port sending messages to `http://www.contoso.com/SomeWebService.asmx`, then by default each host instance running on each [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will open only two concurrent HTTP connections to **www.contoso.com**, no matter how many messages need to be sent.

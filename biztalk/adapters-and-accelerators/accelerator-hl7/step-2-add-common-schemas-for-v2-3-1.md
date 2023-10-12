@@ -1,19 +1,9 @@
 ---
 description: "Learn more about: Step 2: Add Common Schemas for v2.3.1"
 title: "Step 2: Add Common Schemas for v2.3.1"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: da98fe6c-4776-4cb8-8454-af3128dea4ab
-caps.latest.revision: 4
-
-
-
 ---
 # Step 2: Add Common Schemas for v2.3.1
 In this step, you create a new project based on the BTAHL7231Common Project template. This template contains the three common schemas (for data types, segments, and table values) that Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) uses to validate v2.3.1 message instances. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] uses these common schemas in conjunction with the HL7 v2.3.1 schemas, including the schema that you will use for the individual messages in the incoming batch (ADT^A03).  

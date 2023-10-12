@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Security Features in the Data Provider for Informix"
-title: "Security Features in the Data Provider for Informix | Microsoft Docs"
+title: "Security Features in the Data Provider for Informix"
 ms.custom: ""
 ms.date: "07/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4039f435-619e-4556-b48c-195e294a2fc4
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Security Features in the Data Provider for Informix
 You can use the OLE DB Provider for Informix (Data Provider) to connect Windows data consumer applications to remote IBM Informix relational database management servers. The Data Provider function as a distributed relational database architecture (DRDA) application requester client that supports the DRDA protocol and formats that are compatible with IBM Informix server products functioning as DRDA application servers.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SNADIS Programmer&#39;s Guide"
-title: "SNADIS Programmer&#39;s Guide1 | Microsoft Docs"
+title: "SNADIS Programmer&#39;s Guide1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dc707f56-483e-4de2-99e4-e90e0213738f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNADIS Programmer&#39;s Guide
 This section enables original equipment manufacturers (OEMs) and adapter vendors who are developing their own SNALink software to work with Host Integration Server SNA Services.  

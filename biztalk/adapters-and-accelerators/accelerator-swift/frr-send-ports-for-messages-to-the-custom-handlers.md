@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: FRR Send Ports for Messages to the Custom Handlers"
-title: "FRR Send Ports for Messages to the Custom Handlers | Microsoft Docs"
+title: "FRR Send Ports for Messages to the Custom Handlers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "FRR, send ports"
-  - "custom handlers"
-  - "FRR, custom handlers"
-  - "send ports, FRR"
-  - "send ports, custom handlers"
-ms.assetid: 486d7410-fde1-4a9b-a9c2-64c1ed85ebc0
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FRR Send Ports for Messages to the Custom Handlers
 To enable custom handlers for FRR, you must create a series of FRR send ports, each one of which routes a copy of an original message of a certain type to the custom handlers. These send ports must have the following pipeline components:  

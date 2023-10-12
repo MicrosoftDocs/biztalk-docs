@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsHisTrace_SNAMngAgent Class"
-title: "MsHisTrace_SNAMngAgent Class1 | Microsoft Docs"
+title: "MsHisTrace_SNAMngAgent Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d782ebb5-ac01-4fee-8687-d8c2fd937e45
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsHisTrace_SNAMngAgent Class
 The **MsHisTrace_SNAMngAgent** class contains tracing properties for the SNA Manage Agent.  

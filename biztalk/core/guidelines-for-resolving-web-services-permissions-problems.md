@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Guidelines for Resolving Web Services Permissions Problems"
-title: "Guidelines for Resolving Web Services Permissions Problems | Microsoft Docs"
+title: "Guidelines for Resolving Web Services Permissions Problems"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e29543e9-9b87-437b-ac91-8f1cce01fab4
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Guidelines for Resolving Web Services Permissions Problems
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes extensive use of Web services for use with the SOAP adapter and when publishing orchestrations as Web services. This topic provides some general guidelines for minimizing Web services permissions problems and steps that you can follow to troubleshoot Web services permissions problems that affect [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

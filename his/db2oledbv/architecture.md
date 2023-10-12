@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Architecture"
-title: "Architecture | Microsoft Docs"
+title: "Architecture"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 948b4e9e-cf97-4b3d-99d2-037d7086c3b0
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Architecture
 The Data Provider connects Microsoft SQL Server data consumers to remote IBM DB2 database servers running on a variety of operating systems, including IBM mainframe z/OS and IBM midrange i5/OS. The Data Provider offers cross-platform interoperability capabilities, such as code page conversion and data conversion. The Data Provider offers security and protection features for authentication and data encryption.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Invoking TPs and Host Integration Server Configuration"
-title: "Invoking TPs and Host Integration Server Configuration1 | Microsoft Docs"
+title: "Invoking TPs and Host Integration Server Configuration1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3f2236d4-39bf-4ed7-bd5f-ca241ac78e9f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Invoking TPs and Host Integration Server Configuration
 For Host Integration Server to support the beginning of the invoking process (to accept the TP_STARTED and ALLOCATE verbs issued by an invoking TP), the following parameters must be configured correctly:  

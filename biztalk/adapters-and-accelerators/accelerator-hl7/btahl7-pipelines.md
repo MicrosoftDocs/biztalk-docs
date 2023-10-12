@@ -1,21 +1,9 @@
 ---
 description: "Learn more about: BTAHL7 Pipelines"
 title: "BTAHL7 Pipelines"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "pipelines"
-ms.assetid: 31a39f1d-de9f-4078-ac6f-4f600d48abc6
-caps.latest.revision: 3
-
-
-
 ---
 # BTAHL7 Pipelines
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provides a set of receive and send pipelines for both HL7-encoded and XML-encoded processing. These pipelines enhance BizTalk pipeline processing for health care solutions:  

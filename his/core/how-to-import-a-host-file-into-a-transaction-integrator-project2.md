@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Import a Host File into a Transaction Integrator Project"
-title: "How to Import a Host File into a Transaction Integrator Project2 | Microsoft Docs"
+title: "How to Import a Host File into a Transaction Integrator Project2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 97283c56-06b1-4ad4-b5a8-7a3c2204a09d
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Import a Host File into a Transaction Integrator Project
 Once you have created a library in your Transaction Integrator (TI) project, you can import a Host Definition file. After you import the host definition file, you can modify the interfaces using Host Integration Server (HIS) Designer.  

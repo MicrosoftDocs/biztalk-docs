@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Ports for the Receive and Send Servers"
-title: "Ports for the Receive and Send Servers | Microsoft Docs"
+title: "Ports for the Receive and Send Servers"
 ms.custom: ""
 ms.date: "01/07/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "connection strings"
-  - "servers, sending"
-  - "ports, servers"
-  - "servers, receiving"
-  - "BizTalk Server, service accounts"
-  - "SSO, service accounts"
-ms.assetid: 19cafe74-6676-4779-8ced-de0841dba19f
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Ports for the Receive and Send Servers
 For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

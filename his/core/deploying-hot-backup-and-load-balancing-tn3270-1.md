@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Deploying Hot Backup and Load Balancing (TN3270)"
-title: "Deploying Hot Backup and Load Balancing (TN3270)1 | Microsoft Docs"
+title: "Deploying Hot Backup and Load Balancing (TN3270)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c0dda96d-0d0e-4b10-b219-b6f6a4336602
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Deploying Hot Backup and Load Balancing (TN3270)
 A Windows domain can contain one or more Host Integration Server subdomains. Like 3270 LUs, LUA LUs from multiple servers in different subdomains can be assigned to the TN3270 service. This lets you distribute client sessions among the participating servers in the subdomain, thereby balancing the load.  

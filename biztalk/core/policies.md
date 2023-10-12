@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Policies"
-title: "Policies | Microsoft Docs"
+title: "Policies"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Business Rules Engine, policies"
-  - "policies, about policies"
-  - "policies, deploying"
-  - "policies, Business Rules Engine"
-  - "policies"
-  - "business rules, policies"
-  - "policies, versioning"
-  - "policies, testing"
-  - "policies, creating"
-  - "policies, updating"
-ms.assetid: 2e0ae081-938d-4e2a-947e-1c0ecfebb4b8
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Policies
 A policy is a logical grouping of rules. You compose a version of a policy, save it, test it by applying it to facts, and, when you are satisfied with the results, publish it and deploy it to a production environment.  

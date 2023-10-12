@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Link Definition Information"
-title: "Link Definition Information2 | Microsoft Docs"
+title: "Link Definition Information2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6e93454d-2e8e-4d5b-8339-8f0d2003ddbe
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Link Definition Information
 

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AS2 Sender Utility"
-title: "AS2 Sender Utility | Microsoft Docs"
+title: "AS2 Sender Utility"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0e2a88fc-67fd-4801-a6f8-1e7c92098eaf
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AS2 Sender Utility
 The AS2 Sender utility shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to send an AS2 message to a Web site on a single computer. This utility simulates the sending of an AS2 message from a separate computer.  

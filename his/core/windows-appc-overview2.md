@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Windows APPC Overview"
-title: "Windows APPC Overview2 | Microsoft Docs"
+title: "Windows APPC Overview2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2562e864-c675-40df-9d3e-b85e37739941
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Windows APPC Overview
 The information provided in this guide is source code and executable code compatible with the following implementations of APPC:  

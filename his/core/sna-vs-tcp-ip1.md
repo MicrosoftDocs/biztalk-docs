@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SNA vs. TCP/IP"
-title: "SNA vs. TCP-IP1 | Microsoft Docs"
+title: "SNA vs. TCP-IP1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c7a03022-adbf-421f-b062-ff7b2918f710
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNA vs. TCP/IP
 TCP/IP is not as scalable as SNA with Transaction Integrator (TI), but TCP/IP is more effective in other areas such as file transfer and data access (about 10-15% better on OLEDB tests). In addition, the IBM endorsement of TCP/IP simplifies the corporate networking infrastructure and enables easier interoperability to the Internet.  

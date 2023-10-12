@@ -1,18 +1,12 @@
 ---
 description: "Learn how to install and configure the BizTalk Integration Point that links send ports and receive locations in the Microsoft BizTalk Server to the SOA Service Manager."
-title: "BizTalk Server Integration1 | Microsoft Docs"
+title: "BizTalk Server Integration1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7eafe91d-125a-46a8-8216-d75f07a4abca
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server Integration Overview
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ESB Itinerary Management"
-title: "ESB Itinerary Management | Microsoft Docs"
+title: "ESB Itinerary Management"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f78240de-34da-4751-aceb-b69d81403124
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ESB Itinerary Management
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] offers two distinct options for ESB itinerary management: centralized and decentralized. This section discusses benefits and risks for each of these options.  

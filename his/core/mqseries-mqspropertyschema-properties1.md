@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MQSeries.MQSPropertySchema Properties"
-title: "MQSeries.MQSPropertySchema Properties1 | Microsoft Docs"
+title: "MQSeries.MQSPropertySchema Properties1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8225e869-60d3-425c-98ad-32937303764e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MQSeries.MQSPropertySchema Properties
 The MQSC Adapter exposes the following context properties that are not related to MQSeries Message Descriptor or other MQSeries header structures that can be used in your BizTalk applications. These are part of the MQSeries.dll property schema assembly (MQSeries.MQSPropertySchema) that is deployed in the BizTalk Management database from the server-based MQSeries Adapter. The same property schema is used by the MQSC (client-based) adapter.  

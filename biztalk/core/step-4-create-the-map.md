@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4: Create the Map"
-title: "Step 4: Create the Map | Microsoft Docs"
+title: "Step 4: Create the Map"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2f7f1f6d-0e57-4a65-b91d-c81fcc832961
-caps.latest.revision: 36
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Create the Map
 ![Step 4 of 5](../core/media/step-4of5.gif "Step_4of5")  

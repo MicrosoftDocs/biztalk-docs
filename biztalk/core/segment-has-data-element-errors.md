@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Segment has data element errors"
-title: "Segment has data element errors | Microsoft Docs"
+title: "Segment has data element errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 469622e2-6500-4f55-ab53-f8d89ee0a978
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Segment has data element errors
 ## Details  

@@ -1,22 +1,12 @@
 ---
 description: "Learn how to use the Event Tracing for Windows (ETW) tool to view tracing messages for the Microsoft BizTalk Adapter for JD Edwards OneWorld."
-title: "Using Event Tracing for Windows2 | Microsoft Docs"
+title: "Using Event Tracing for Windows2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ETW"
-  - "Event Tracing for Windows"
-ms.assetid: 88b91b74-2b2e-40e0-a3e9-1ebd6367abe8
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use Event Tracing for Windows
 

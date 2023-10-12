@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: TPE Menu Options"
-title: "TPE Menu Options | Microsoft Docs"
+title: "TPE Menu Options"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Tracking Profile Editor, menu options"
-  - "activities [BAM], importing"
-  - "activities [BAM], definitions"
-ms.assetid: 5179fcb5-6dab-481d-ad89-3868c8b07383
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # TPE Menu Options
 This topic describes the menu options of the Tracking Profile Editor (TPE). The main menus include File, Tools, and Help.  

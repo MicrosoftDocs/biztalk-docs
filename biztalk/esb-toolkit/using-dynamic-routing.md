@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Using Dynamic Routing"
-title: "Using Dynamic Routing | Microsoft Docs"
+title: "Using Dynamic Routing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: caa3a35f-cafa-4524-8b96-f8a333b7ff87
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Dynamic Routing
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] supports dynamic routing of messages using a built-in process and a generic delivery agent; it also supports dynamic routing of messages at the messaging layer using the ESB Dispatcher or ESB Dispatcher Disassemble pipeline components.  

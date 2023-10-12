@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Operations on RFCs in SAP"
-title: "Operations on RFCs in SAP | Microsoft Docs"
+title: "Operations on RFCs in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapters, operations on RFCs"
-  - "adapters, operations on IDOCs"
-  - "RFC, receiving inbound RFC calls from an SAP system"
-  - "RFCs, invoking RFCs on an SAP system"
-  - "adapters, operations on BAPIs"
-  - "RFC client"
-  - "adapters, operations on tRFCs"
-  - "RFC server"
-ms.assetid: ca1b7b00-a9cf-41bc-b87c-2e7ce8cff65c
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations on RFCs in SAP
 You can use the[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] both as an RFC client and as an RFC server. In RFC client scenarios, your application invokes RFCs on the SAP system by invoking RFC operations on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. In RFC server scenarios the SAP system invokes RFCs on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], which, in turn, invokes the RFC as an operation on your application.  

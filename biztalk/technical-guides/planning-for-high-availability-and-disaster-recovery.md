@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning for High Availability and Disaster Recovery"
-title: "Planning for High Availability and Disaster Recovery | Microsoft Docs"
+title: "Planning for High Availability and Disaster Recovery"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a7efba36-6d9c-4ae0-a4f5-893eb5d62a05
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning for High Availability and Disaster Recovery
 Solutions developed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] are often mission-critical enterprise-level applications that require maximum availability. When these solutions are placed into production, costs associated with downtime can be measured in thousands of dollars per second. For this reason, you should employ specific strategies to maximize the high availability and disaster recovery capabilities that are available with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the dependency software and hardware required to support a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution.

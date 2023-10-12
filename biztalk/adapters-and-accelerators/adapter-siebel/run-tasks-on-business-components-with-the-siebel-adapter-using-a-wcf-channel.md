@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Run Operations on Business Components with the Siebel adapter using the WCF Channel Model"
-title: "Run Operations on Business Components with the Siebel adapter using the WCF Channel Model | Microsoft Docs"
+title: "Run Operations on Business Components with the Siebel adapter using the WCF Channel Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "how to, perform operations using the channel"
-  - "performing operations, using the channel"
-ms.assetid: bae74013-38fa-413c-ba91-4e4ba096339e
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run Operations on Business Components with the Siebel adapter using the WCF Channel Model
 This section demonstrates how to perform operations on Siebel using the channel created in [Create a Channel using Siebel](../../adapters-and-accelerators/adapter-siebel/create-a-channel-using-siebel.md).  

@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: How to Specify SSO Administrators and Affiliate Administrators Accounts"
-title: "How to Specify SSO Administrators and Affiliate Administrators Accounts | Microsoft Docs"
+title: "How to Specify SSO Administrators and Affiliate Administrators Accounts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "administrator accounts, SSO"
-  - "enabling, SSO"
-  - "SSO, enabling"
-  - "disabling, SSO"
-  - "SSO, disabling"
-  - "managing [SSO], configuring administrator accounts"
-  - "managing [SSO], enabling"
-  - "managing [SSO], disabling"
-  - "SSO, administrator accounts"
-ms.assetid: 6c300e09-b781-45de-b2da-b1083164a1c0
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Specify SSO Administrators and Affiliate Administrators Accounts
 The Enterprise Single Sign-On (SSO) Administrators and Affiliate Administrators accounts can be host group or individual accounts. You must create these accounts before you configure the SSO system.  

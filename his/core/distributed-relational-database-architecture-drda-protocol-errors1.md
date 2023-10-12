@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Distributed Relational Database Architecture (DRDA) Protocol Errors"
-title: "Distributed Relational Database Architecture (DRDA) Protocol Errors1 | Microsoft Docs"
+title: "Distributed Relational Database Architecture (DRDA) Protocol Errors1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f6fb423f-0401-4346-b1fa-c55a32533583
-caps.latest.revision: 7
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Distributed Relational Database Architecture (DRDA) Protocol Errors
 The following table lists DRDA protocol error constants, values, SqlState, SqlCode and a description of the error. An asterisk (*) indicates not in use.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Solutions to Common Problems"
-title: "Solutions to Common Problems | Microsoft Docs"
+title: "Solutions to Common Problems"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6d4f2dac-e8b8-4a58-8d46-9f0685dad2da
-caps.latest.revision: 14
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Solutions to Common Problems
 You may encounter these common problems when using the DRDA Service.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Managed Provider for DB2 Programmer's Guide"
-title: "Managed Provider for DB2 Programmer's Guide | Microsoft Docs"
+title: "Managed Provider for DB2 Programmer's Guide"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a17358ee-46da-4760-a888-e5ca861d4cb5
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Managed Provider for DB2 Programmer's Guide
 

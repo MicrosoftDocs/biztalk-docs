@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Creating the FRR Send Pipeline"
-title: "Creating the FRR Send Pipeline | Microsoft Docs"
+title: "Creating the FRR Send Pipeline"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "FRR, creating send pipelines"
-  - "creating, send pipelines"
-  - "send pipelines, creating"
-ms.assetid: c6cd2047-ea53-425f-80cc-b02a1deb5292
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating the FRR Send Pipeline
 To perform FIN Response Reconciliation, you need to create a send pipeline that contains the SWIFTAsmFrrMQSeriesHelper pipeline component, in addition to the SWIFT assembler.  

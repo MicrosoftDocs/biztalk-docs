@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Use Debug Diagnostics to Analyze a Memory Dump"
-title: "How to Use Debug Diagnostics to Analyze a Memory Dump | Microsoft Docs"
+title: "How to Use Debug Diagnostics to Analyze a Memory Dump"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 986a91a7-feab-4014-bbd5-e8b966b8b841
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use Debug Diagnostics to Analyze a Memory Dump
 The IIS Diagnostics **Debug Diagnostics Tool** includes a feature that can provide a basic analysis of a captured memory dump file. To perform an analysis of a memory dump file follow these steps.  

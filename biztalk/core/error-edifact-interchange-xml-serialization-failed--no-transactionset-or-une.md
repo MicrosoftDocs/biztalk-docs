@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Edifact interchange Xml serialization failed due to invalid structure, no transactionSet or UNE"
-title: "Edifact interchange Xml serialization failed due to invalid structure, no transactionSet or UNE | Microsoft Docs"
+title: "Edifact interchange Xml serialization failed due to invalid structure, no transactionSet or UNE"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3ce1c219-f2ed-46c1-ae4b-8a4206f7cd01
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Edifact interchange Xml serialization failed due to invalid structure, no transactionSet or UNE
 ## Details  

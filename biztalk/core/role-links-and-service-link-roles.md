@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Role Links and Service Link Roles"
-title: "Role Links and Service Link Roles | Microsoft Docs"
+title: "Role Links and Service Link Roles"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deleting, orchestrations"
-  - "service link roles"
-  - "role links"
-  - "roles, orchestrations"
-  - "roles"
-  - "roles, about roles"
-  - "service link roles, about service link roles"
-  - "orchestrations, roles"
-  - "role links, about role links"
-  - "orchestrations, deleting"
-ms.assetid: 23b4ca34-a1a5-44d4-a50d-661277681c72
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Role Links and Service Link Roles
 A *role* is a collection of port types that either uses a service or implements a service. A role represents the type of interaction that a party can have with one or many orchestrations. Roles provide flexibility and ease of management as the number of parties increase. For example, an orchestration might use the role of a Shipper. The Shipper would have one or two parties associated with it. When the orchestration decides which shipping company to use to ship an item, it compares the prices of the parties in the Shipper role.  

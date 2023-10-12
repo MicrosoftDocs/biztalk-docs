@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10565"
-title: "Single Sign-On: Event 10565 | Microsoft Docs"
+title: "Single Sign-On: Event 10565"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6d279491-dc0d-44c4-a77e-a67498a3481d
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10565
 ## Details  

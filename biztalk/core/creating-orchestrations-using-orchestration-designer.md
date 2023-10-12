@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Creating Orchestrations Using Orchestration Designer"
-title: "Creating Orchestrations Using Orchestration Designer | Microsoft Docs"
+title: "Creating Orchestrations Using Orchestration Designer"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, Orchestration Designer"
-  - "orchestrations, flow"
-  - "orchestrations, creating"
-  - "creating, orchestrations"
-ms.assetid: 622423f0-372d-4f56-bcf1-e5775189ad45
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Orchestrations Using Orchestration Designer
 Orchestration in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] workflow  

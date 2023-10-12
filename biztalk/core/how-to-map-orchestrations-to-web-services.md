@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Map Orchestrations to Web Services"
-title: "How to Map Orchestrations to Web Services | Microsoft Docs"
+title: "How to Map Orchestrations to Web Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, Web services"
-  - "BizTalk Web Services Publishing Wizard, naming conventions"
-  - "Web services, orchestrations"
-  - "orchestrations, naming conventions"
-  - "Web services, naming conventions"
-ms.assetid: e6a58978-c81c-49f3-9428-9bff60f1ded7
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Map Orchestrations to Web Services
 An orchestration can have multiple receive ports. Using the BizTalk Web Services Publishing Wizard, you select receive ports to publish as Web services. The wizard creates one Web service (.asmx file) for each receive port. The wizard can also create one Web service for all of the receive ports if they are the same receive port type (one-way or request/response). Operations become function calls. Each operation in the receive port becomes a Web method. Request operations become input parameters. Response operations become return types.  

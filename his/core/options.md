@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: options"
-title: "options | Microsoft Docs"
+title: "options"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 20e3fe90-c84f-45cb-8f77-8a3eddd32e7e
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # options
 The Options element contains a set of optional attributes used for binding custom static SQL packages  

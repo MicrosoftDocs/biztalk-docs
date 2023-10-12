@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Understanding CPI-C"
-title: "Understanding CPI-C2 | Microsoft Docs"
+title: "Understanding CPI-C2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0f76cc28-051a-45ff-890c-84c1865029ca
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Understanding CPI-C
 Common Programming Interface for Communications (CPI-C) is an application programming interface (API) that uses the LU 6.2 communications architecture. CPI-C comprises a set of C programming language routines that allow applications on computers to communicate with one another to accomplish a processing task, such as copying a file or accessing a remote database.  

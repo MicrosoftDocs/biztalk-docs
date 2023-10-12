@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Utility Functions Used by a Link Service Configuration DLL"
-title: "Utility Functions Used by a Link Service Configuration DLL1 | Microsoft Docs"
+title: "Utility Functions Used by a Link Service Configuration DLL1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 55e34182-e2a9-411b-8cbf-e6afb48a5b2a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Utility Functions Used by a Link Service Configuration DLL
 This section provides a reference for utility functions used by an integrated link service configuration dynamic-link library (DLL).  

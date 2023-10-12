@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Generate the Master Secret"
-title: "How to Generate the Master Secret | Microsoft Docs"
+title: "How to Generate the Master Secret"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Master Secret server, generating"
-  - "managing [Master Secret server], generating"
-ms.assetid: 5512a8ee-bc5b-4fe4-90c7-41e3baaa723b
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Generate the Master Secret
 You must have administrator rights on the master secret server in order to perform this task. In addition, you must perform this task from the master secret server.  

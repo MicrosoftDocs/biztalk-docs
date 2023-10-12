@@ -1,26 +1,9 @@
 ---
 description: "Learn more about: Repeatable Field Segments"
 title: "Repeatable Field Segments"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "segments, repeatable fields"
-  - "QPD"
-  - "Table Row Data (RDT)"
-  - "Query Parameter Definition (QPD)"
-  - "Segments table"
-  - "RDT"
-ms.assetid: 4c31cb56-21e5-4918-aaf6-67e8ceddd74f
-caps.latest.revision: 3
-
-
-
 ---
 # Repeatable Field Segments
 The Segments table in the HL7 Access database contains a column for the last field of segments (ADD, RDT, and QPD) that Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) defines as repeatable (**Last_field_repeatable** = **True**). [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] does not support ADD. However, both RDT and QPD are present to query tables and respond with table values. The following sample demonstrates how [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] handles these columns.  

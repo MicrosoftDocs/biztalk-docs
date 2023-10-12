@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: X12 Transaction Sets 251-503"
-title: "X12 Transaction Sets 251-503 | Microsoft Docs"
+title: "X12 Transaction Sets 251-503"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 06343a9d-038a-40b8-a197-2af35d4a8f2e
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # X12 Transaction Sets 251-503
 This topic lists the X12 documents and versions that are supported by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

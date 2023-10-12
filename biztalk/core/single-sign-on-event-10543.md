@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10543"
-title: "Single Sign-On: Event 10543 | Microsoft Docs"
+title: "Single Sign-On: Event 10543"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 46b1ffda-a6c1-408c-acb4-074183d697bc
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10543
 ## Details  

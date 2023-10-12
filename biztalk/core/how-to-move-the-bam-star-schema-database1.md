@@ -1,22 +1,12 @@
 ---
 description: "Learn how to move the Business Activity Monitoring (BAM) Star Schema database to another server."
-title: "How to Move the BAM Star Schema Database1 | Microsoft Docs"
+title: "How to Move the BAM Star Schema Database1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Star Schema database [BAM], migrating"
-  - "migrating, Star Schema database [BAM]"
-ms.assetid: b4a5f8fc-0dc4-4987-b96f-ecd49bd4dba3
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Move the BAM Star Schema Database
 

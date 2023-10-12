@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_ServiceTN5250.Stop Method"
-title: "MsSnaStatus_ServiceTN5250.Stop Method2 | Microsoft Docs"
+title: "MsSnaStatus_ServiceTN5250.Stop Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 476e5727-f773-4ecc-b9cc-920e5194a413
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_ServiceTN5250.Stop Method
 Stops the service.  

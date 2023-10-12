@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsHisTrace_Event Class"
-title: "MsHisTrace_Event Class2 | Microsoft Docs"
+title: "MsHisTrace_Event Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 498cfa09-f034-410a-b004-408ffad86066
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsHisTrace_Event Class
 The **MsHisTrace_Event** class retrieves error information.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Developing and Configuring BizTalk Server AS2 Solutions"
-title: "Developing and Configuring BizTalk Server AS2 Solutions | Microsoft Docs"
+title: "Developing and Configuring BizTalk Server AS2 Solutions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 62aa76f2-b692-41d9-862a-3e0089635800
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developing and Configuring BizTalk Server AS2 Solutions
 ## Overview

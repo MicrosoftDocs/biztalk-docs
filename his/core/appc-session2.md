@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: APPC Session"
-title: "APPC Session2 | Microsoft Docs"
+title: "APPC Session2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNAPRINT_Session_APPC"
-ms.assetid: a8df5bfa-ac55-4bbf-9f34-d5a92cb60e63
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # APPC Session
 The following tabs are available on the Print Session 3270 Properties sheet:  

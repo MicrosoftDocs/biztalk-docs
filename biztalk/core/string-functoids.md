@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: String Functoids"
-title: "String Functoids | Microsoft Docs"
+title: "String Functoids"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2d73be02-9c93-481f-81e4-39b60bcfa2df
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # String Functoids
 

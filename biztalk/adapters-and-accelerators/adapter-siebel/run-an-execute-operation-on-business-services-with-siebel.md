@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Run an EXECUTE Operation on Business Services with Siebel"
-title: "Run an EXECUTE Operation on Business Services with Siebel | Microsoft Docs"
+title: "Run an EXECUTE Operation on Business Services with Siebel"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "how to, execute business services using ADO.NET Provider"
-  - "performing operations, executing business services using ADO.NET Provider"
-ms.assetid: c8f7888f-72c6-4f20-b592-f233721fbddd
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run an EXECUTE Operation on Business Services with Siebel
 This section demonstrates how to execute an operation on a Siebel business service using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BAM Command-Line Script for Notification Services Configuration Files"
-title: "BAM Command-Line Script for Notification Services Configuration Files | Microsoft Docs"
+title: "BAM Command-Line Script for Notification Services Configuration Files"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6aa4a460-58f9-439d-af28-0a9cb2288236
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BAM Command-Line Script for Notification Services Configuration Files
 Administrators use the ProcessBamNSFiles.vbs script to customize the behavior of SQL Server Notification Services for BAM alerts. You can use the script to obtain the Notification Services application definition file (ADF) and Notification Services configuration file. These files can be modified and then the script can be used to apply the changes.  

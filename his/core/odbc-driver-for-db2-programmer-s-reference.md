@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ODBC Driver for DB2 Programmer's Reference"
-title: "ODBC Driver for DB2 Programmer's Reference | Microsoft Docs"
+title: "ODBC Driver for DB2 Programmer's Reference"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c5f21fcd-4374-42d6-9fbc-6932ded932ba
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ODBC Driver for DB2 Programmer's Reference
 

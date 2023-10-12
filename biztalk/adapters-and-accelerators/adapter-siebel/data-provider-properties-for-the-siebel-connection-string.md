@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Data provider properties for the Siebel connection string"
-title: "Data provider properties for the Siebel connection string | Microsoft Docs"
+title: "Data provider properties for the Siebel connection string"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "conncting, to the Siebel system"
-  - "Data Provider for Siebel, connection string"
-ms.assetid: 8ab0c29e-e06b-4e74-be4e-9aa862a05539
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Data provider properties for the Siebel connection string
 The [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]) uses the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] to access the Siebel system. The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] in turn uses the Siebel COM Data Control library to access the Siebel system. The Siebel COM Data Control comes bundled with the Siebel Web client.  

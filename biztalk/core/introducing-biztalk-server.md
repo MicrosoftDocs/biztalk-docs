@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Introducing BizTalk Server"
-title: "Introducing BizTalk Server | Microsoft Docs"
+title: "Introducing BizTalk Server"
 ms.custom: ""
 ms.date: "01/30/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 06a4a31a-eefe-4b1b-89ca-2cba2b6fa587
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Introducing BizTalk Server
 Tying systems together is expected, and has become the norm. As organizations move toward a service-oriented world, the real goal—creating effective business processes that unite separate systems into a coherent whole—comes within reach.  

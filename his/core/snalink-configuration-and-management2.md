@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SNALink Configuration and Management"
-title: "SNALink Configuration and Management2 | Microsoft Docs"
+title: "SNALink Configuration and Management2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 12c4fe82-8aa1-498e-850a-0d2ac74f79d4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNALink Configuration and Management
 The configuration information for a Host Integration Server system is stored in two forms:  

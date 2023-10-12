@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_ServiceSharedFolder.Stop Method"
-title: "MsSna_ServiceSharedFolder.Stop Method2 | Microsoft Docs"
+title: "MsSna_ServiceSharedFolder.Stop Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b85c8c38-b672-4db4-b546-9cd7123f451f
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_ServiceSharedFolder.Stop Method
 Stops the service.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Move and Copy Nodes"
-title: "How to Move and Copy Nodes | Microsoft Docs"
+title: "How to Move and Copy Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e4f1ec14-c607-4da3-9139-73a61963b819
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Move and Copy Nodes
 You will probably encounter situations where you want to move an existing node to a different location in the schema tree. You might also be able to save time by making a copy of an existing node and then pasting it into a different location in the schema tree. This topic provides step-by-step instructions for performing these tasks.  

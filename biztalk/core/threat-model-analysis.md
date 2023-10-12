@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Threat Model Analysis"
-title: "Threat Model Analysis | Microsoft Docs"
+title: "Threat Model Analysis"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "TMA, about TMA"
-  - "TMA"
-  - "TMA, procedure steps"
-ms.assetid: dfbf46aa-0a35-4925-8718-df8591efc279
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Threat Model Analysis
 A threat model analysis (TMA) is an analysis that helps determine the security risks posed to a product, application, network, or environment, and how attacks can show up. The goal is to determine which threats require mitigation and how to mitigate them.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Manually configure a physical port binding to the Oracle Database Adapter"
-title: "Manually configure a physical port binding to the Oracle Database Adapter | Microsoft Docs"
+title: "Manually configure a physical port binding to the Oracle Database Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, sending to an Oracle database"
-  - "messages, receiving from an Oracle database"
-  - "physical port binding, manually configuring"
-ms.assetid: 6b118236-e9eb-494e-96b2-969c7064943d
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Manually configure a physical port binding to the Oracle Database Adapter
 This section provides information about configuring the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] as a WCF-Custom binding or WCF-OracleDB binding by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. After deploying the adapter, you will be able to send and receive messages from the Oracle database by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. The steps for deploying the adapter vary depending on:  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Move the Master Secret Server"
-title: "How to Move the Master Secret Server | Microsoft Docs"
+title: "How to Move the Master Secret Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [Master Secret server], migrating"
-  - "migrating, Master Secret server"
-  - "Master Secret server, migrating"
-ms.assetid: 2bc5137e-f81d-486d-bb91-7c5981896f79
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Move the Master Secret Server
 This topic documents the steps you can follow to move the master secret from one server to another and the steps you can follow to move the master secret from one server to a Windows Server Cluster.  

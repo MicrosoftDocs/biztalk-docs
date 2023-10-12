@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Key Limitations"
-title: "Key Limitations2 | Microsoft Docs"
+title: "Key Limitations2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2e3b2cdd-24d9-4850-9deb-5898e28c6bc4
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Key Limitations
 The key limitations with the IP-DLC link service implementation are as follows:  

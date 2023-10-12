@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Validate Instance Messages"
-title: "How to Validate Instance Messages | Microsoft Docs"
+title: "How to Validate Instance Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9f6302c6-b56b-4572-aa76-0f4c4599672a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Validate Instance Messages
 After you have constructed a schema, you can check your work by validating a pre-existing instance message that you know is a good representation of such instance messages against the schema.  

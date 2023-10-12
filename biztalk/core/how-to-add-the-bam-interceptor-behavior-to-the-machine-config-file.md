@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Add the BAM Interceptor Behavior to the Machine.config File"
-title: "How to Add the BAM Interceptor Behavior to the Machine.config File | Microsoft Docs"
+title: "How to Add the BAM Interceptor Behavior to the Machine.config File"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2ea09925-264f-4976-8e34-f63bad70f886
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add the BAM Interceptor Behavior to the Machine.config File
 To intercept data in BAM, you must add the BAM interceptor behavior to the Microsoft .NET machine.config file. You can do this in two ways:

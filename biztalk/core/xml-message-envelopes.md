@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: XML Message Envelopes"
-title: "XML Message Envelopes | Microsoft Docs"
+title: "XML Message Envelopes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d01cd85d-7bf7-49fa-aa25-322213bce066
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # XML Message Envelopes
 XML envelopes serve two purposes within XML instance messages sent and received by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  

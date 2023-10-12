@@ -1,24 +1,9 @@
 ---
 description: "Learn more about: Update2XMLSchema Tool"
 title: "Update2XMLSchema Tool"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "2.XML schemas, Update2XMLSchema tool"
-  - "schemas, Update2XMLSchema tool"
-  - "Update2XMLSchema tool"
-  - "Update2XMLSchema tool, syntax"
-ms.assetid: fd861e2f-ebda-427f-bd52-a2f05b7e22da
-caps.latest.revision: 8
-
-
-
 ---
 # Update2XMLSchema Tool
 The Update2XMLSchema tool enables you to modify HL7 2.XML schemas to work with BizTalk Editor. This is necessary because certain HL7 2.XML schemas do not work correctly within Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] without modification. After modifying the schemas, the tool places them in the Schemas folder where [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] is installed, for instance, *\<drive\>*:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\Templates\Schemas.  

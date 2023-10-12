@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigStore::GetConfigInfo"
-title: "ISSOConfigStore::GetConfigInfo | Microsoft Docs"
+title: "ISSOConfigStore::GetConfigInfo"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 38dfe88c-93a8-4b44-8729-9f8b1cafa98c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigStore::GetConfigInfo
 The `GetConfigInfo` method gets the configuration information from the config store.  

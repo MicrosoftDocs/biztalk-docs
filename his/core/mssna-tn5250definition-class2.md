@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_TN5250Definition Class"
-title: "MsSna_TN5250Definition Class2 | Microsoft Docs"
+title: "MsSna_TN5250Definition Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 10936ed6-a32a-46ff-b3c2-326233dc2820
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_TN5250Definition Class
 The definition of a TN5250 session.  

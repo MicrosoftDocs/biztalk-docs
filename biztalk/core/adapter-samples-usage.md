@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Adapter Samples - Usage"
-title: "Adapter Samples - Usage | Microsoft Docs"
+title: "Adapter Samples - Usage"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SDK examples"
-  - "adapters, examples"
-  - "examples, adapters"
-ms.assetid: 8f3d8e5e-d306-4260-ac1a-4c1eacb03d92
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adapter Samples - Usage
 This section provides information about the functionality demonstrated by each adapter sample, instructions for building and running the sample, and the results you can expect.  

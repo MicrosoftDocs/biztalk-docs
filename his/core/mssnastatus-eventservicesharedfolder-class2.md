@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_EventServiceSharedFolder Class"
-title: "MsSnaStatus_EventServiceSharedFolder Class2 | Microsoft Docs"
+title: "MsSnaStatus_EventServiceSharedFolder Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 29f80473-6d46-4be0-8a8c-ad4be5c5e393
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_EventServiceSharedFolder Class
 The **MsSnaStatus_EventServiceSharedFolder** class describes a change to the **EventServiceSharedFolder** class.  

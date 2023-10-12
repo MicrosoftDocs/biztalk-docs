@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with the POP3 Adapter"
-title: "Known Issues with the POP3 Adapter | Microsoft Docs"
+title: "Known Issues with the POP3 Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b6d621a2-4801-44fe-a266-d4c05ac82633
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with the POP3 Adapter
 This section contains information that may help you avoid errors.  

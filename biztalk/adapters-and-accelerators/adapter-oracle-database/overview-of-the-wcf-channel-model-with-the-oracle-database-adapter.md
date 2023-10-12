@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Overview of the WCF channel model with the Oracle Database adapter"
-title: "Overview of the WCF channel model with the Oracle Database adapter | Microsoft Docs"
+title: "Overview of the WCF channel model with the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF channel model, overview"
-ms.assetid: 4712ba62-8360-475c-b2e4-422e499eca21
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Overview of the WCF channel model with the Oracle Database adapter
 To invoke operations on the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)], your code acts as a WCF client and sends outbound operations to the adapter. In the WCF channel model, your code invokes operations on the adapter by sending a request message over a channel.  

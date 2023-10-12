@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Message Schema for Picklist Operations"
-title: "Message Schema for Picklist Operations | Microsoft Docs"
+title: "Message Schema for Picklist Operations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "picklist operations, message schemas for"
-  - "picklist operations, message actions"
-  - "picklist operations, message"
-ms.assetid: c0b62a8c-5a68-47ea-8676-1580601b5ec9
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schema for Picklist Operations
 Picklists are special field types in business components. They represent a collection of values from which a user may pick a single value for assignment. Picklists are of different types. For more information about picklists and their types, refer to Siebel documentation.  

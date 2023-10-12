@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Functoid Properties"
-title: "Functoid Properties | Microsoft Docs"
+title: "Functoid Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "functoids, properties"
-ms.assetid: 2f10acda-66cd-45f2-9861-ef2824e2da18
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Functoid Properties
 

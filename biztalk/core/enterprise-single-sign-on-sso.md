@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Enterprise Single Sign-On (SSO)"
-title: "Enterprise Single Sign-On (SSO) | Microsoft Docs"
+title: "Enterprise Single Sign-On (SSO)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSO, about SSO"
-  - "SSO"
-ms.assetid: beab96f7-f026-4ae1-8462-a165ad76bbec
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Enterprise Single Sign-On (SSO)
 Enterprise Single Sign-On (SSO) provides services to store and transmit encrypted user credentials across local and network boundaries, including domain boundaries. SSO stores the credentials in the SSO database. Because SSO provides a generic single sign-on solution, middleware applications and custom adapters can leverage SSO to securely store and transmit user credentials across the environment. End users do not have to remember different credentials for different applications.  

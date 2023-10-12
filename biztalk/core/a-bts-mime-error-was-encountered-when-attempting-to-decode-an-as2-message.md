@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: A BTS MIME error was encountered when attempting to decode an AS2 message"
-title: "A BTS MIME error was encountered when attempting to decode an AS2 message | Microsoft Docs"
+title: "A BTS MIME error was encountered when attempting to decode an AS2 message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 65cb5ece-78e4-4b83-b126-4d8c588b2c61
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # A BTS MIME error was encountered when attempting to decode an AS2 message
 ## Details  

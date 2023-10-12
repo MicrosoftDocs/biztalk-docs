@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Managing Distributed Navigation of Remote Activities"
-title: "Managing Distributed Navigation of Remote Activities | Microsoft Docs"
+title: "Managing Distributed Navigation of Remote Activities"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7cf6e0c2-ea72-4621-9ca7-fa43e404ec46
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing Distributed Navigation of Remote Activities
 Distributed navigation of remote activities is the process by which a business user navigates to and views activities that exist in separate BAM databases. When you configure the BAM infrastructure to provide distributed navigation, the remote activity is accessible to the business user in the BAM portal. When the user clicks the activity, the activity is opened on the remote BAM portal. At this point the user has been transferred in a transparent and seamless manner to the remote BAM portal and can navigate to the activity search, aggregations, and alert management for the activity as if the activity existed on the user's home data store.  

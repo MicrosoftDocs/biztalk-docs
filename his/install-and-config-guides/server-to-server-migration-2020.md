@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Server to Server migration"
-title: "Host Integration Server server-to-server Migration | Microsoft Docs"
+title: "Host Integration Server server-to-server Migration"
 ms.custom: ""
 ms.date: "5/13/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bc4b1593-9301-423e-b515-a6a59230e78f
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "mijacobs"
 ---
 
 # Server to Server migration

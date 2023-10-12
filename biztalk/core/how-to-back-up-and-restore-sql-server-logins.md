@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Back Up and Restore SQL Server Logins"
-title: "How to Back Up and Restore SQL Server Logins | Microsoft Docs"
+title: "How to Back Up and Restore SQL Server Logins"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 847c3a3d-0d97-415b-893e-4ba173085bae
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Back Up and Restore SQL Server Logins
 Back up and restore SQL Server logins associated with BizTalk Server.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Get started with the BizTalk adapter for SQL"
-title: "Get started with the BizTalk adapter for SQL | Microsoft Docs"
+title: "Get started with the BizTalk adapter for SQL"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3c3b6e36-ddfb-4ede-adf5-b9762231224b
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Get started with the BizTalk adapter for SQL
 

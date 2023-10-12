@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Delete Nodes"
-title: "How to Delete Nodes | Microsoft Docs"
+title: "How to Delete Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8d907767-7794-4e8d-96a1-7e592b85ad53
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Delete Nodes
 There will be times when you want to delete a node in the schema tree. This topic provides step-by-step instructions for this task.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Reuse SAP adapter bindings"
-title: "Reuse SAP adapter bindings | Microsoft Docs"
+title: "Reuse SAP adapter bindings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "binding file, definition"
-  - "adapter bindings, reusing"
-ms.assetid: 5748c22f-20a2-4eb9-ad45-a1bef7290802
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Reuse SAP adapter bindings
 A binding creates a mapping between a logical endpoint (such as an orchestration port or a role link) and a physical endpoint (such as a send and receive port). This enables communication between different components of a BizTalk business solution. You can create bindings by using the BizTalk Server Administration console.  

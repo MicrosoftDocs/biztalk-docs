@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: HIS VSS Writer"
-title: "VSS Writer | Microsoft Docs"
+title: "VSS Writer"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f8d3a7a1-997c-4b92-9ec4-c8ddd96e72b8
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # HIS VSS Writer
 ## Purpose  

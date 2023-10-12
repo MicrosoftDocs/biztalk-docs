@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Managing BAM Alert Execution"
-title: "Managing BAM Alert Execution | Microsoft Docs"
+title: "Managing BAM Alert Execution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "managing [BAM definitions], executing alerts"
-  - "Notification Services, configuration files"
-  - "BAM Management utility"
-  - "alerts, executing"
-ms.assetid: 44bb738e-fa2c-4b32-9e8d-e756d6c3778e
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing BAM Alert Execution
 BAM Alert execution can be modified through three avenues, The BAM Portal, the BAM management utility, and the ProcessBamNSFiles.vbs script.

@@ -1,17 +1,12 @@
 ---
-title: Step 1 - Add Application project and update json | Microsoft Docs
+title: Step 1 - Add Application project and update json
 description: Add the BizTalk Server Application project in Visual Studio, and update the BizTalkServerInventory.json file with the DLLs, binding files, and deployment sequence of your applications - Visual Studio Team Services
 ms.custom: "biztalk-2020"
 ms.date: "9/20/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-author: MandiOhlinger
-ms.author: mandia
-manager: "anneta"
 ---
 
 # Step 1: Add the BizTalk Server Application project in Visual Studio

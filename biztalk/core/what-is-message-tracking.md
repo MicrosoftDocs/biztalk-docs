@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: What is Message Tracking?"
-title: "What is Message Tracking? | Microsoft Docs"
+title: "What is Message Tracking?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "HAT, metadata"
-  - "HAT, messages"
-  - "messages, tracking"
-  - "data, HAT"
-  - "metadata, tracking"
-  - "tracking, metadata"
-  - "HAT, data security"
-  - "tracking, messages"
-  - "configuring [HAT tracking], messages"
-  - "data, security"
-ms.assetid: 51cec59d-b411-4d8f-b771-7b2cf0f38945
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What is Message Tracking?
 A message is an electronic instance of data, as typically exchanged between two running business processes or applications. A message instance is made up of a message body, message properties, and metadata.  

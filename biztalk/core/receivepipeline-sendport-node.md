@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: ReceivePipeline (SendPort Node)"
-title: "ReceivePipeline (SendPort Node) | Microsoft Docs"
+title: "ReceivePipeline (SendPort Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ReceivePipeline node [binding file]"
-ms.assetid: 5305f255-e7a2-4052-bf50-4fb207cfae8d
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ReceivePipeline (SendPort Node)
 The ReceivePipeline node of the SendPort node of a binding file contains specific information about a receive pipeline bound to a two way send port that is exported with the binding file.  

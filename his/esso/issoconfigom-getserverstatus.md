@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigOM.GetServerStatus"
-title: "ISSOConfigOM.GetServerStatus | Microsoft Docs"
+title: "ISSOConfigOM.GetServerStatus"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b4c2da8f-3d05-4466-baf7-031b4015d59d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigOM.GetServerStatus
 The **GetServerStatus** method describes the status of the current server.  

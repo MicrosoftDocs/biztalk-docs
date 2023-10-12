@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: MIME (BizTalk Server Sample)"
-title: "MIME (BizTalk Server Sample) | Microsoft Docs"
+title: "MIME (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "send pipelines, MIME/SMIME Encoder [pipeline component]"
-  - "examples, send pipelines"
-  - "MIME/SMIME Encoder [pipeline component], send pipelines"
-  - "MIME/SMIME Encoder [pipeline component], examples"
-  - "examples, MIME/SMIME Encoder [pipeline component]"
-ms.assetid: f76c720d-3798-4f15-a5f9-885ddf421d57
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MIME (BizTalk Server Sample)
 The MIME sample demonstrates how to perform MIME encoding within a send pipeline.  

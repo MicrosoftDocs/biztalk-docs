@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Floodgate Load Test"
-title: "Floodgate Load Test | Microsoft Docs"
+title: "Floodgate Load Test"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "LoadGen tool, simulating floodgate events"
-  - "performance, floodgate peaks"
-  - "floodgate events [performance]"
-ms.assetid: 937f2478-339b-4ae2-b107-56f3a4bfc579
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Floodgate Load Test
 The information in this topic refers to the tests explained in [Test Scenarios for Measuring MST of the Engine](../core/test-scenarios-for-measuring-mst-of-the-engine.md).  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Defining Routing and Message Transformation Through Multiple Orchestrations Using Itineraries"
-title: "Defining Routing and Message Transformation Through Multiple Orchestrations Using Itineraries | Microsoft Docs"
+title: "Defining Routing and Message Transformation Through Multiple Orchestrations Using Itineraries"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 63141b83-798e-40d0-908d-6b7649923e69
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Defining Routing and Message Transformation Through Multiple Orchestrations Using Itineraries
 In this use case, a message submitted for processing contains an itinerary SOAP header that describes the list of services to execute and their resolution requirements. The itinerary specifies one or more Microsoft BizTalk Server orchestrations through which the message will pass during the processing cycle. Optionally, the itinerary can contain dynamic routing information used to determine endpoints or transformation requirements for the message. Figure 1 illustrates a schematic view of the process.  

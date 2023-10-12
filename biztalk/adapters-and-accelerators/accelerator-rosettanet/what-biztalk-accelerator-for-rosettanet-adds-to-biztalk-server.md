@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: What BizTalk Accelerator for RosettaNet Adds to BizTalk Server"
-title: "What BizTalk Accelerator for RosettaNet Adds to BizTalk Server | Microsoft Docs"
+title: "What BizTalk Accelerator for RosettaNet Adds to BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BizTalk Server, BizTalk Accelerator for RosettaNet"
-  - "BizTalk Accelerator for RosettaNet, BizTalk Server"
-ms.assetid: 614bde3f-c306-4467-9b02-d08157fb4cf3
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What BizTalk Accelerator for RosettaNet Adds to BizTalk Server
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] builds a Microsoft BizTalk Server integration system into a RosettaNet-compliant integration system. It adds everything you must have to implement a RosettaNet-compliant solution.  

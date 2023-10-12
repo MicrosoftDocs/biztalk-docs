@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Security Case Studies: Company A"
-title: "Security Case Studies: Company A | Microsoft Docs"
+title: "Security Case Studies: Company A"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, examples"
-  - "security, architecture"
-  - "architecture, security"
-  - "security, case studies"
-ms.assetid: 9417ecf9-e340-479f-b120-552c62f3b189
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security Case Studies: Company A
 Company A is a major supplier of material and services to the industrial sector. Its business model relies on electronic transactions with key customers and suppliers. Company A uses Microsoft BizTalk Application to manage transactions and communications between internal and external environments.  

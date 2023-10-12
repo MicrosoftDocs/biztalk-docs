@@ -1,33 +1,12 @@
 ---
 description: "Learn more about: Creating a Highly Available BizTalk Server Environment"
-title: "Creating a Highly Available BizTalk Server Environment | Microsoft Docs"
+title: "Creating a Highly Available BizTalk Server Environment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "architecture, high availability"
-  - "architecture, databases"
-  - "databases, architecture"
-  - "performance"
-  - "hosts, multiple"
-  - "hosts, architecture"
-  - "architecture, hosts"
-  - "databases, clustering"
-  - "high availability, designing"
-  - "BizTalk Server, architecture"
-  - "installation, planning"
-  - "clustering, databases"
-  - "installation, availability"
-ms.assetid: 758eb3bd-a25b-4863-a4ca-d7a1635f7542
-caps.latest.revision: 54
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating a Highly Available BizTalk Server Environment
 This section describes how to provide high availability for the data and communications in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] when integrating disparate systems and applications. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] separates the data from the hosts that process the data, enabling you to resolve availability issues by scaling the databases and hosts independently.

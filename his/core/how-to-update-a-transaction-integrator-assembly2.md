@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Update a Transaction Integrator Assembly"
-title: "How to Update a Transaction Integrator Assembly2 | Microsoft Docs"
+title: "How to Update a Transaction Integrator Assembly2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 004c41d8-c0b2-49c5-9768-fda7858c9fe7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Update a Transaction Integrator Assembly
 If you are upgrading your version of Host Integration Server, you may have Transaction Integrator (TI) assemblies that use a previous version of the .NET Framework. Host Integration Server allows you several options on how to upgrade, so that your assemblies use, so that they may be compatible with the newest version of the .NET Framework.  
