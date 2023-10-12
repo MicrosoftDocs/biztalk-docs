@@ -130,7 +130,7 @@ manager: "anneta"
  In this step, you created a test application for the inbound operation exposed by the Echo Adapter developed in [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md). To do this, you created a Visual Studio project, generated a WCF Service, and provided code to host the WCF Service. Finally, you ran the test application.
 
 ## Next Steps
- This is the last step of the tutorial. For more information about Inbound operations, see `Microsoft.ServiceModel.Channels.Common.IInboundHandler`. To see an example SDK that demonstrates how to host a WCF Service that requires authentication, download the echo adapter and test code at [https://go.microsoft.com/fwlink/?LinkID=96184](https://go.microsoft.com/fwlink/?LinkID=96184).
+ This is the last step of the tutorial. For more information about Inbound operations, see `Microsoft.ServiceModel.Channels.Common.IInboundHandler`.
 
 ## See Also
  [Tutorial 2: Consume the Echo Adapter from .NET](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-2-consume-the-echo-adapter-from-net.md)
