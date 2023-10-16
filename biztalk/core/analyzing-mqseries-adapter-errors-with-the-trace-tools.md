@@ -16,7 +16,7 @@ You use the trace tools to analyze messaging failures when you run your applicat
 ## Install the Trace Utility
  To install the BizTalk Adapter Trace Utility, follow these steps:
 
-1.  To download the Tracelog.exe file, visit the Microsoft Platform SDK download Web site at [https://go.microsoft.com/fwlink/?LinkId=21975](https://go.microsoft.com/fwlink/?LinkId=21975).
+1.  To download the Tracelog.exe file, visit the Microsoft Platform SDK download Web site.
 
 2.  Start the Platform SDK Web installation program by clicking the link for the **PSDK-x86.exe** file at the bottom of the Web page.
 

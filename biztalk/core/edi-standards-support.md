@@ -14,7 +14,7 @@ BizTalk Server provides for design- and run-time support for four encoding stand
 |Encoding Standard|Industry Segment|References|
 |-----------------------|----------------------|----------------|
 |UN/EDIFACT|General Industry|[Introducing UN/EDIFACT](https://unece.org/trade/uncefact/introducing-unedifact) (reference to payload)<br /><br /> [ISO 9735-4 encoding rule](https://www.iso.org/obp/ui/#iso:std:iso:9735:-4:ed-2:v1:en) per ISO 9735-4.1|
-|X12|General Industry|[X12.org](https://x12.org/)<br /><br /> [Specifications Development](https://go.microsoft.com/fwlink/?LinkId=77535)|
+|X12|General Industry|[X12.org](https://x12.org/)<br /><br />|
 |EANCOM|Retail|[Standards Website](https://go.microsoft.com/fwlink/?LinkId=92861)|
 |HIPAA X12N|Health Care|[CMS.gov: HIPAA Adopted Standards and Operating Rules](https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/AdoptedStandardsandOperatingRules)<br /><br /> [CMS.gov: HIPAA Adopted Standards and Operating Rules](https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/AdoptedStandardsandOperatingRules)|
 

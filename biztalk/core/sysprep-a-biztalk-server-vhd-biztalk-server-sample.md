@@ -60,7 +60,7 @@ Sysprep creates a snapshot of a virtual machine with [!INCLUDE[btsBizTalkServerN
 
    - Any company details should also be updated in UpdateSqlServerAndInstance.cmd and your Sysprep.xml.
 
-     Alternatively, you can create a Sysprep answer file from scratch using use the [Automated Installation Kit (AIK)](https://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) on Windows Server 2008. Ensure that your \<FirstLogonCommands\> section matches the samples so the BizTalk scripts will run on the first boot.
+     Alternatively, you can create a Sysprep answer file from scratch using use the [Automated Installation Kit (AIK)](https://www.microsoft.com/download/details.aspx?id=10333) on Windows Server 2008. Ensure that your \<FirstLogonCommands\> section matches the samples so the BizTalk scripts will run on the first boot.
 
 #### To run Sysprep
 

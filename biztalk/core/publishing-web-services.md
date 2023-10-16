@@ -13,7 +13,7 @@ Publishing Web services enables you to create a Web service that can submit mess
 
  The BizTalk Web Services Publishing Wizard provides you with two methods to publish Web services: publishing an orchestration as a Web service and publishing schemas as a Web service.
 
- You must install and enable Microsoft Internet Information Services (IIS) and ASP.NET before you can publish Microsoft BizTalk Server orchestrations and schemas as Web services. For information about installing IIS and ASP.NET, see Installing Internet Information Services (IIS) in the BizTalk Server Installation Guide located at [HYPERLINK "https://go.microsoft.com/fwlink/?LinkID=191321" https://go.microsoft.com/fwlink/?LinkID=191321](https://go.microsoft.com/fwlink/?LinkID=191321).
+ You must install and enable Microsoft Internet Information Services (IIS) and ASP.NET before you can publish Microsoft BizTalk Server orchestrations and schemas as Web services. For information, see [How to Enable ASP.NET 4.0 for Published Web Services](biztalk/core/how-to-enable-asp-net-4-0-for-published-web-services).
 
 > [!IMPORTANT]
 >  Before running the BizTalk Web Services Publishing Wizard, you must enable Web services. For more information about enabling Web services for your system, see [Enabling Web Services](../core/enabling-web-services.md).
