@@ -52,7 +52,7 @@ To use ACS for authentication, and get the Issuer Name and Issuer Key values, th
     NamespaceType         : Messaging
     ```
 
-See [New-AzureSBNamespace](/powershell/module/servicemanagement/azure/new-azuresbnamespace?view=azuresmps-4.0.0) for guidance.
+See [New-AzureSBNamespace](/powershell/module/servicemanagement/azure/new-azuresbnamespace) for guidance.
 
 ## Receive messages from Service Bus
 
