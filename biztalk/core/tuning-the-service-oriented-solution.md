@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Tuning the Service Oriented Solution"
-title: "Tuning the Service Oriented Solution | Microsoft Docs"
+title: "Tuning the Service Oriented Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tuning"
-  - "performance, tuning"
-  - "performance, service solutions"
-  - "service solution tutorial, tuning"
-ms.assetid: 55ca4e9f-9f8b-4ef9-9757-0d0edf252504
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tuning the Service Oriented Solution
 The orchestrations collect performance information about many parts of the application through the Business Activity Monitoring (BAM) API. You may find the data helpful in tuning the application. You can also, of course, use the built-in performance counters.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDI Data Element Structural Element"
-title: "EDI Data Element Structural Element | Microsoft Docs"
+title: "EDI Data Element Structural Element"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 775e8b87-b952-46d2-a506-5174d216a9aa
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDI Data Element Structural Element
 The data element is the primary unit of data in the message. Data elements are separated by the data element separator, which is an asterisk by default for X12 and a plus sign by default for EDIFACT. The optionality of data elements is defined as mandatory, optional, or conditional.  

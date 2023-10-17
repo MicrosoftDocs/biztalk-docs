@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Host Integration Server to Host Problems"
-title: "Host Integration Server to Host Problems1 | Microsoft Docs"
+title: "Host Integration Server to Host Problems1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6dfd5db7-14ae-4e07-ac40-94deced07132
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Host Integration Server to Host Problems
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Services cannot connect to a host over the Microsoft Networking (Names Pipes) protocol. High Performance Routing over Internet Protocol (HPR/IP) and TCP/IP (TN3270 and TN5250) are the protocols commonly used to connect from the server to a host. If you cannot get an emulation session at the server itself, check the status of the connection using the SNA Manager. If the status is "Active", but you cannot access an emulation session, there may be a configuration problem.

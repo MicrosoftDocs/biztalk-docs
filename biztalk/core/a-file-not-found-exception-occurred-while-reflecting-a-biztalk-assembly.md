@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: A file not found exception occurred while reflecting a BizTalk assembly"
-title: "A file not found exception occurred while reflecting a BizTalk assembly | Microsoft Docs"
+title: "A file not found exception occurred while reflecting a BizTalk assembly"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 223147eb-785f-4dfc-b2a6-7d50dfaf8092
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # A file not found exception occurred while reflecting a BizTalk assembly
 ## Details  

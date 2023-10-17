@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Install HIS 2013"
-title: "Install HIS 2013 | Microsoft Docs"
+title: "Install HIS 2013"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3a22c1c6-5e59-4720-9e9e-4512608bc82b
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Install HIS 2013
 The following sections provide help for installing and configuring Host Integration Server.  

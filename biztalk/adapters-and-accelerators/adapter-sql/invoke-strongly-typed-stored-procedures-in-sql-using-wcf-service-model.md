@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invoke Strongly-typed Stored Procedures in SQL using WCF Service Model"
-title: "Invoke Strongly-typed Stored Procedures in SQL using WCF Service Model | Microsoft Docs"
+title: "Invoke Strongly-typed Stored Procedures in SQL using WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d56df5f6-b046-4fe4-a5b4-b29906093beb
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke Strongly-typed Stored Procedures in SQL using WCF Service Model
 When you invoke a procedure listed under the **Strongly-Typed Procedures** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], the output is in the form of a strongly-typed result set. This topic provides instructions on how to create a WCF client to invoke stored procedures in SQL Server that return a strongly-typed result set.  

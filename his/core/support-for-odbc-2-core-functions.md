@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Support for ODBC 2 Core Functions"
-title: "Support for ODBC 2 Core Functions | Microsoft Docs"
+title: "Support for ODBC 2 Core Functions"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 80bca9d2-7359-4b9c-b7bf-b381bc0db835
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Support for ODBC 2 Core Functions
 The following table lists the ODBC 2.*x* Core functions that are supported by the Microsoft ODBC Driver for DB2.  

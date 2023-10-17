@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Sample VTAM Parameters Including CPNAME"
-title: "Sample VTAM Parameters Including CPNAME1 | Microsoft Docs"
+title: "Sample VTAM Parameters Including CPNAME1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f8c02ab9-b64d-4fa7-90c9-9d6e80d74b32
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Sample VTAM Parameters Including CPNAME
 The following is a sample of VTAM parameters that might be used for a Token Ring connection to an IBM 9370 host, when identification of the computer running [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] is based on Control Point Name (CPNAME). For this configuration, Format XIDs must be exchanged.  

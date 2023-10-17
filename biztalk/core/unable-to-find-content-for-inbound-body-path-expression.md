@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Unable to find content for inbound body path expression"
-title: "Unable to find content for inbound body path expression | Microsoft Docs"
+title: "Unable to find content for inbound body path expression"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ed294662-a94e-4fbb-b125-878a27107eab
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unable to find content for inbound body path expression
 ## Details  

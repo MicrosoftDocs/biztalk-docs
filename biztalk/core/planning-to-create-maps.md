@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Planning to Create Maps"
-title: "Planning to Create Maps | Microsoft Docs"
+title: "Planning to Create Maps"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maps, planning"
-ms.assetid: e86af976-b989-4e24-80d5-3a9a3ac4e443
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning to Create Maps
 You use maps to convert input messages conforming to one schema into output messages conforming to a different schema. These conversions may be simple or quite complex, involving calculations and consolidation of information.  

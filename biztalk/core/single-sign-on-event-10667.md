@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10667"
-title: "Single Sign-On: Event 10667 | Microsoft Docs"
+title: "Single Sign-On: Event 10667"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 74bbe7e6-af21-434c-9a62-3c3b13ca3307
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10667
 ## Details  

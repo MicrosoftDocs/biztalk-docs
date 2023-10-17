@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: And"
-title: "And | Microsoft Docs"
+title: "And"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 80bd8f1f-edae-476d-b488-78e6c5ee70bf
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # And
 Removes the top two items from the stack, performs a Boolean **AND** of the two items, and then pushes the result onto the stack.  

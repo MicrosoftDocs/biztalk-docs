@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Find Events"
-title: "How to Find Events2 | Microsoft Docs"
+title: "How to Find Events2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8c4b4003-a3ba-4d50-9316-a48aa110ca75
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Find Events
 You can specify what type of event to find based on the following criteria:  

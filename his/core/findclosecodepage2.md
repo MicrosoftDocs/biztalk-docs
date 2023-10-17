@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: FindCloseCodePage"
-title: "FindCloseCodePage2 | Microsoft Docs"
+title: "FindCloseCodePage2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 45a4f0d0-e1f2-4d30-ae35-798dd5bbedb7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # FindCloseCodePage
 The SNA National Language Support (SNANLS) **FindCloseCodePage** function closes the handle allocated by a call to the **FindFirstCodePage** function.  

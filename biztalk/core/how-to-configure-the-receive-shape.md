@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Receive Shape"
-title: "How to Configure the Receive Shape | Microsoft Docs"
+title: "How to Configure the Receive Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "filter expressions, Receive shape [Orchestration Designer]"
-  - "Receive shape [Orchestration Designer], about Receive shape"
-  - "configuring [Orchestration Designer], Receive shapes"
-  - "Receive shape [Orchestration Designer]"
-  - "Receive shape [Orchestration Designer], filter expressions"
-ms.assetid: 15aadee4-fa05-4edd-a191-e4d191c1ea22
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Receive Shape
 ![Image that represents the Receive shape.](../core/media/ebiz-orch-receive.gif "ebiz_orch_receive")  

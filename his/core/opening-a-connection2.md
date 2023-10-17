@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Opening a Connection"
-title: "Opening a Connection2 | Microsoft Docs"
+title: "Opening a Connection2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c8d0c453-d0b9-44fb-8d79-15dfcdc1856a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Opening a Connection
 Before a locality partner index (LPI) connection can be used to transfer data, it needs to be opened. This is performed by sending Open messages, starting with an Open request. The format of an Open message is defined by the interface being used. For example, the 3270 emulator uses the function management interface (FMI) to communicate with the local 2.1 node.  

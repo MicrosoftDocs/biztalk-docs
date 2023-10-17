@@ -1,18 +1,12 @@
 ---
 description: "Learn about the attributes, child elements, parent elements, and syntax of the db2ToSql element."
-title: "db2ToSql3 | Microsoft Docs"
+title: "db2ToSql3"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 389ec810-511d-4f6b-ae52-1aa221b2a8a2
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # db2ToSql
 

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: BTAD_InstallMode"
-title: "BTAD_InstallMode | Microsoft Docs"
+title: "BTAD_InstallMode"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BTAD_InstallMode [environment variable]"
-ms.assetid: b0ca48b8-c672-4704-9a04-2c6f159e57be
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BTAD_InstallMode
 BTAD_InstallMode describes the installation mode for BizTalk application deployment.  

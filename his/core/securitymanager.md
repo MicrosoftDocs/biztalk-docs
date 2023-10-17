@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: securityManager"
-title: "securityManager | Microsoft Docs"
+title: "securityManager"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 11bd7092-21fa-4fb4-833a-904ce2678ae3
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # securityManager
 The securityManager element contains the security settings  

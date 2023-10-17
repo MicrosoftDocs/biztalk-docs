@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Remove Subscribers from an Alert"
-title: "How to Remove Subscribers from an Alert | Microsoft Docs"
+title: "How to Remove Subscribers from an Alert"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "subscriptions, subscribers"
-  - "managing [BAM], deleting alert subscibers"
-  - "alerts, subscribers"
-ms.assetid: d5571863-26e3-4c1b-991f-538cd1fef347
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Remove Subscribers from an Alert
 Administrators use the **remove-subscription** command to remove the specified user as a subscriber from an alert.  

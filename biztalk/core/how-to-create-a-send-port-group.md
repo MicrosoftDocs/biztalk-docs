@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Create a Send Port Group"
-title: "How to Create a Send Port Group | Microsoft Docs"
+title: "How to Create a Send Port Group"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating, send port groups"
-  - "send port groups, creating"
-  - "managing [send port groups], creating"
-ms.assetid: de3e72aa-83f4-4760-9f39-a488f904f1d3
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create a Send Port Group
 This topic describes how to use the BizTalk Server Administration console to create a send port group in a BizTalk application and then add send ports to it. You can add static one-way send ports only to a send port group. A send port group must contain at least one send port to route messages.  

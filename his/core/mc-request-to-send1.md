@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MC_REQUEST_TO_SEND"
-title: "MC_REQUEST_TO_SEND1 | Microsoft Docs"
+title: "MC_REQUEST_TO_SEND1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e4fcbe8c-2b38-49d2-a25b-044f82d43a50
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MC_REQUEST_TO_SEND
 The **MC_REQUEST_TO_SEND** verb notifies the partner transaction program (TP) that the local TP wants to send data.  

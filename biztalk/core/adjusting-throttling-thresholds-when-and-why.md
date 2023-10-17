@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adjusting Throttling Thresholds: When and Why"
-title: "Adjusting Throttling Thresholds: When and Why | Microsoft Docs"
+title: "Adjusting Throttling Thresholds: When and Why"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9afb26c8-e5f4-4b78-9a45-a1263e3cb6ab
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adjusting Throttling Thresholds: When and Why
 When it comes to throttling, one size does not fit all. There are a range of factors that will determine what the optimal settings should be. Out of the box, BizTalk Server provides default values that have been proven through testing to effectively protect a system from things like backlog overages. However, for some scenarios, this may be too aggressive. The following examples illustrate this point.  

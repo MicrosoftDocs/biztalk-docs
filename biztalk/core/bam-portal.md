@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: BAM Portal"
-title: "BAM Portal | Microsoft Docs"
+title: "BAM Portal"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM portal, alerts"
-  - "activities [BAM], searching"
-  - "BAM portal"
-  - "BAM portal, features"
-  - "aggregations [BAM], BAM portal"
-  - "BAM portal, activity searches"
-  - "alerts, Alert Manager"
-  - "BAM portal, about BAM portal"
-  - "BAM, portals"
-  - "BAM portal, aggregations"
-ms.assetid: 593c9637-6b97-4ad8-8af7-2b49325acf10
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BAM Portal
 Business end users use the BAM portal to monitor Key Performance Indicators (KPIs), which measure progress toward a business goal, as well as other information about their business process. Business analysts use the BAM portal to oversee the creation of observation models, which are high-level definitions of the visibility requirements within the business process. Administrators use it for a variety of monitoring activities, including monitoring the health of the business process management system.  

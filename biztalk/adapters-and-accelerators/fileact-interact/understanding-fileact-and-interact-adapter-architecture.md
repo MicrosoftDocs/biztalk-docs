@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Understanding FileAct and InterAct Adapter Architecture"
-title: "Understanding FileAct and InterAct Adapter Architecture | Microsoft Docs"
+title: "Understanding FileAct and InterAct Adapter Architecture"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8f97a7fe-20df-4509-bb6e-53743c3a57df
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Understanding FileAct and InterAct Adapter Architecture
 The SWIFT Adapter is based on the BizTalk Adapter Framework. Using the classifications of adapters within BizTalk Server, the SWIFT adapters, FileAct and InterAct, represent the following:  

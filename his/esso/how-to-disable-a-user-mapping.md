@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Disable a User Mapping"
-title: "How to Disable a User Mapping | Microsoft Docs"
+title: "How to Disable a User Mapping"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 51c745dd-4d39-46e5-88bf-b803ae2e0a1b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Disable a User Mapping
 You can disable a user mapping when you want to turn off all operations associated with a given mapping. You must disable a user mapping before you can remove it.  

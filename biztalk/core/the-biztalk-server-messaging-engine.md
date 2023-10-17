@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The BizTalk Server Messaging Engine"
-title: "The BizTalk Server Messaging Engine | Microsoft Docs"
+title: "The BizTalk Server Messaging Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c0c8d3e6-953d-4a04-adfc-b77ef7173464
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The BizTalk Server Messaging Engine
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Messaging engine enables users to create business processes that spans multiple applications by providing two primary things:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Supported Features"
-title: "Supported Features2 | Microsoft Docs"
+title: "Supported Features2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0a783f6c-10c4-4e57-b8ef-00622501dceb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Supported Features
 This topic lists the features that are supported over the IP-DLC link service.  

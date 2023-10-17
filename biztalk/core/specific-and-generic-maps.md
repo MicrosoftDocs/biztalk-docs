@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Specific and Generic Maps"
-title: "Specific and Generic Maps | Microsoft Docs"
+title: "Specific and Generic Maps"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maps, specific"
-  - "maps, generic"
-ms.assetid: ee26dd13-affb-47c5-961a-f2377129de22
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Specific and Generic Maps
 When you create a map that transforms data, you can create either a *specific* or a *generic* map.  

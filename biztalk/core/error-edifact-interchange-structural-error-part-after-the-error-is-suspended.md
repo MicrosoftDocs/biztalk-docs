@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The interchange had structural error. The part after the error is being suspended"
-title: "The interchange had structural error. The part after the error is being suspended | Microsoft Docs"
+title: "The interchange had structural error. The part after the error is being suspended"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9071825d-7b90-42bf-bcf9-2a15ae36086d
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The interchange had structural error. The part after the error is being suspended
 ## Details  

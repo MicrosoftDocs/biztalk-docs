@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: Resolving Database Errors"
 title: "Resolving Database Errors"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "databases"
-  - "errors, databases"
-ms.assetid: d7b1cc9f-3f3e-464a-8249-1fd03b2b4d76
-caps.latest.revision: 3
-
-
-
 ---
 # Resolving Database Errors
 In the HL7 Access database that the HL7 organization publishes, DataItems and TableValues are two tables linked by table_id and hl7_version. The following database cross-query shows that some data items refer to a table_id, which has no values listed in the table:  

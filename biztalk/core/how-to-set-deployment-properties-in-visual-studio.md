@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Set Deployment Properties in Visual Studio"
-title: "How to Set Deployment Properties in Visual Studio | Microsoft Docs"
+title: "How to Set Deployment Properties in Visual Studio"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a2c6752e-c50d-4dd0-ac07-bf36ca10559c
-caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Set Deployment Properties in Visual Studio
 Before you can deploy a solution from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into a BizTalk application, you must first set project properties. If a solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] contains multiple projects, you must separately configure properties for each project.  

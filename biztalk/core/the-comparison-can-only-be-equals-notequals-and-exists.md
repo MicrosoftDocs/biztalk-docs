@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The Comparison can only be Equals, NotEquals and Exists"
-title: "The Comparison can only be Equals, NotEquals and Exists | Microsoft Docs"
+title: "The Comparison can only be Equals, NotEquals and Exists"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aad902a2-d0dc-4d91-87a7-a6305e2f40e0
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Comparison can only be Equals, NotEquals and Exists
 ## Details  

@@ -1,18 +1,12 @@
 ---
-title: "Publish SOAP endpoints API Management | Microsoft Docs"
+title: "Publish SOAP endpoints API Management"
 description: Expose a BizTalk WCF-Basic HTTP receive location as a SOAP endpoint within API management. You can do this using BizTalk Administration console, or paste your endpoint directly within API Management in the Azure portal.
 ms.custom: "biztalk-2020"
 ms.date: "01/10/2020"
 ms.prod: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a87bfb40-7e6f-46aa-8ac7-db6d13ce7eb2
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 
 # Publish BizTalk WCF-BasicHTTP endpoints in API Management

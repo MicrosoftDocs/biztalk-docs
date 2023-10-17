@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Overview of the WCF service model with the Siebel adapter"
-title: "Overview of the WCF service model with the Siebel adapter | Microsoft Docs"
+title: "Overview of the WCF service model with the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "how to, invoke operations on the Siebel system with a WCF client"
-  - "WCF service model, overview of"
-ms.assetid: 0e812473-0f50-4972-8b07-ec8edc2ef000
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Overview of the WCF service model with the Siebel adapter
 The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] exposes a Siebel system as a WCF service. To perform operations on Siebel system artifacts, for example to invoke a method of a Siebel business service, you invoke an operation on the adapter, which, in turn, performs the operation on the Siebel system. Your code therefore acts as a client to the WCF service presented by the adapter.  

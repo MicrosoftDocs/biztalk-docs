@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Number of included groups do not match"
-title: "Number of included groups do not match | Microsoft Docs"
+title: "Number of included groups do not match"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1d61ac17-92cd-4a5e-81e6-e2c6fc4085bb
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Number of included groups do not match
 ## Details  

@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Schemas Wizard Page (Host Files Library)"
-title: "Schemas Wizard Page (Host Files Library)1 | Microsoft Docs"
+title: "Schemas Wizard Page (Host Files Library)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ebiz.his.2006.tidesigner.wizard.importcobol.structure.hostfiles"
-ms.assetid: e3e46a63-f3c3-45f3-babc-9873fd292854
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Schemas Wizard Page (Host Files Library)
 The Schemas wizard page allows you to select the schema(s) you would like to import from the .Host Integration Designer XML (HIDX) metadata file for encoding and decoding records selected in the previous wizard page.  

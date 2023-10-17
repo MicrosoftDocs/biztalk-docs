@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Create Schemas Using BizTalk Editor"
-title: "Creating Schemas Using BizTalk Editor | Microsoft Docs"
+title: "Creating Schemas Using BizTalk Editor"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 03fac91b-5b67-4baf-968c-294c525d3018
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create Schemas Using BizTalk Editor
 

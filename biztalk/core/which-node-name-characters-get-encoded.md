@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Which Node Name Characters Get Encoded"
-title: "Which Node Name Characters Get Encoded | Microsoft Docs"
+title: "Which Node Name Characters Get Encoded"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 48a581d2-48fa-4c36-b5c2-fe87c328a7f4
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Which Node Name Characters Get Encoded
 XML places some restrictions on the characters that can be used in XML names, such as element names, including some special restrictions on the first character of an XML name. The conceptual goals in determining which characters to allow and which characters to exclude from legal XML names are:  

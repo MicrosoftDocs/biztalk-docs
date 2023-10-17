@@ -1,19 +1,12 @@
 ---
-title: "Software Development Kit for the RosettaNet accelerator in BizTalk Server | Microsoft Docs"
+title: "Software Development Kit for the RosettaNet accelerator in BizTalk Server"
 description: Utilities and samples list in the BTARN SDK for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
-
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 36a1b283-26e1-407e-afc4-8879ef0d1672
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Software Development Kit
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] includes a software development kit (SDK) that includes a full programmer's reference and guide. Additionally, the SDK includes utilities and samples that could make your operations and back-end integration easier.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Host Integration Server and WMI on a Backup Server"
-title: "Host Integration Server and WMI on a Backup Server1 | Microsoft Docs"
+title: "Host Integration Server and WMI on a Backup Server1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: abf52298-6d32-4369-afff-919f4757dbfa
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Host Integration Server and WMI on a Backup Server
 There are some restrictions on using Windows Management Instrumentation (WMI) and Host Integration Server regarding connections to backup servers. The Snabase works to synchronize the information in the COM.CFG configuration file on the primary server across all backup servers. Each backup server has a local copy of the COM.CFG file from this synchronization process. WMI has a limitation that it will not attempt to read the local backup server's copy of COM.CFG if the primary server is alive. This request will always be forwarded to the primary server.  

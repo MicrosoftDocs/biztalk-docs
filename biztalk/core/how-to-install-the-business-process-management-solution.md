@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Install the Business Process Management Solution"
-title: "How to Install the Business Process Management Solution | Microsoft Docs"
+title: "How to Install the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "installing, examples"
-  - "process management solution tutorial, installing"
-  - "process management solution tutorial, deployment prerequisites"
-ms.assetid: 930f3bb1-05e6-4b02-852d-6139aaf341f0
-caps.latest.revision: 61
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Install the Business Process Management Solution
 The following steps describe how to prepare the computer for installing the Business Process Management (BPM) solution, and how to install the solution on this computer.

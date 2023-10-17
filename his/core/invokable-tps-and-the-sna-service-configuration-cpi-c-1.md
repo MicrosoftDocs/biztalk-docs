@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Invokable TPs and the SNA Service Configuration (CPI-C)"
-title: "Invokable TPs and the SNA Service Configuration (CPI-C)1 | Microsoft Docs"
+title: "Invokable TPs and the SNA Service Configuration (CPI-C)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dd01f458-b0f7-4e77-9617-a6d22b3b5a57
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Invokable TPs and the SNA Service Configuration (CPI-C)
 For an SNA service to receive allocation requests from an invoking transaction program (TP) on another system and route those requests to an invokable TP, certain parameters must be configured correctly:  

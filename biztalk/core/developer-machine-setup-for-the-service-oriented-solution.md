@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Developer Machine Setup for the Service Oriented Solution"
-title: "Developer Machine Setup for the Service Oriented Solution | Microsoft Docs"
+title: "Developer Machine Setup for the Service Oriented Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developer servers"
-  - "service solution tutorial, deployment prerequisites"
-  - "service solution tutorial, developer servers"
-ms.assetid: a088696f-c1ee-4578-ac02-af29b6de086b
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developer Machine Setup for the Service Oriented Solution
 Service Oriented Architecture (SOA) is an approach to building distributed systems. The service oriented solution demonstrates how several back-end systems using different protocols can be aggregated into a single service that clients can consume. This solution integrates services with an approach that guarantees delivery and performance characteristics for the service level agreement that you need to satisfy.  

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Adding A4SWIFT Users and Updating Windows Groups"
-title: "Adding A4SWIFT Users and Updating Windows Groups | Microsoft Docs"
+title: "Adding A4SWIFT Users and Updating Windows Groups"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "user accounts, Windows groups"
-  - "Windows groups, user accounts"
-  - "user accounts, creating"
-  - "Windows groups, updating"
-  - "updating Windows groups"
-  - "A4SWIFT, creating user accounts"
-ms.assetid: ddc54457-6499-402c-9cc2-f7b17bbc255f
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adding A4SWIFT Users and Updating Windows Groups
 After you create and install certificates for Message Repair and New Submission roles, you must create [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] users and add [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] users to groups.  

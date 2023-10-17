@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_ServiceTN5250.Start Method"
-title: "MsSna_ServiceTN5250.Start Method1 | Microsoft Docs"
+title: "MsSna_ServiceTN5250.Start Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 80a11a2f-f497-4892-9e19-c7f0029551dd
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_ServiceTN5250.Start Method
 Starts the service.  

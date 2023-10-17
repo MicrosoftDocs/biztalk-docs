@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The TA1 contained in interchange had the following errors"
-title: "The TA1 contained in interchange had the following errors | Microsoft Docs"
+title: "The TA1 contained in interchange had the following errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e2d63fe9-63ef-44b3-8cb9-45a7abf8d0e4
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The TA1 contained in interchange had the following errors
 ## Details  

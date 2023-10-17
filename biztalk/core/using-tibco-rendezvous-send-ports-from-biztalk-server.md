@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using TIBCO Rendezvous Send Ports"
-title: "Using TIBCO Rendezvous Send Ports from BizTalk Server | Microsoft Docs"
+title: "Using TIBCO Rendezvous Send Ports from BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 34e3edf7-cfc5-4c89-8069-63e8784bc9f9
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using TIBCO Rendezvous Send Ports
 A transmit port can send any kind of message. When BizTalk Server sends a message through Microsoft BizTalk Adapter for TIBCO Rendezvous, the adapter generates the message based on message context properties values, or it uses the default and sends it to the specified subject.  

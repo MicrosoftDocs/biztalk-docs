@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Special Security Settings for TCP/IP"
-title: "Special Security Settings for TCP-IP1 | Microsoft Docs"
+title: "Special Security Settings for TCP-IP1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e1474e13-b786-4694-92bd-359d53cb4c6e
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Special Security Settings for TCP/IP
 Two special security settings are available for the TCP/IP protocol for CICS and IMS:  

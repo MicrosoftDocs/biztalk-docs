@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: File Adapter Performance Counters"
-title: "File Adapter Performance Counters | Microsoft Docs"
+title: "File Adapter Performance Counters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 343465b4-6b20-4a24-b4b1-138548c572cc
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # File Adapter Performance Counters
 Performance counters allow you to monitor specific aspects of work performed on the site or system by service. Performance counters can help you identify and troubleshoot server performance issues.  

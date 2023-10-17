@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Define the Business Process"
-title: "Step 2: Define the Business Process | Microsoft Docs"
+title: "Step 2: Define the Business Process"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b37bd9f1-5ee2-434d-950a-cf12967b6fc2
-caps.latest.revision: 49
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Define the Business Process
 ![Step 2 of 4](../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  

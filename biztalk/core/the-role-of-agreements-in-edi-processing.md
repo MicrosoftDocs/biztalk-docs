@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The Role of Agreements in EDI Processing"
-title: "The Role of Agreements in EDI Processing | Microsoft Docs"
+title: "The Role of Agreements in EDI Processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d81b0449-6656-49f7-a781-5fd60031b3d5
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Role of Agreements in EDI Processing
 An organization uses [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to receive EDI messages from, and send EDI messages to, one or more trading partners. The trading partners, in turn define business profiles that are business entities within an organization. How business profiles exchange messages is defined as part of trading partner agreements between two business profiles. For more information, see [Building Blocks of a Trading Partner Management Solution](../core/building-blocks-of-a-trading-partner-management-solution.md).  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11041"
-title: "Single Sign-On: Event 11041 | Microsoft Docs"
+title: "Single Sign-On: Event 11041"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 186aefc4-fbb0-4f79-baa0-a9f4a7abd71a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11041
 ## Details  

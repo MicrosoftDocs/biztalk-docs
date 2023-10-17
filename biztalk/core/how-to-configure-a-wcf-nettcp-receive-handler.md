@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure a WCF-NetTcp Receive Handler"
-title: "How to Configure a WCF-NetTcp Receive Handler | Microsoft Docs"
+title: "How to Configure a WCF-NetTcp Receive Handler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF-NetTcp adapters, global variables"
-  - "receive handlers, WCF-NetTcp adapters"
-  - "configuring [WCF-NetTcp adapters], global variables"
-  - "configuring [WCF-NetTcp adapters], receive handlers"
-ms.assetid: a4a283d1-21de-4d6b-9cb5-f2f9f823903b
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a WCF-NetTcp Receive Handler
 Use the following procedure to configure a WCF-NetTcp receive handler.  

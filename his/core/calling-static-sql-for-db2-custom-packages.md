@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Calling Static SQL for DB2 Custom Packages"
-title: "Calling Static SQL for DB2 Custom Packages | Microsoft Docs"
+title: "Calling Static SQL for DB2 Custom Packages"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fe07d0e6-95e8-4da3-aff7-a3042bd70be5
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Calling Static SQL for DB2 Custom Packages
 ## Package Naming Convention  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Important Network Options on a Client"
-title: "Important Network Options on a Client1 | Microsoft Docs"
+title: "Important Network Options on a Client1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d4aeaa79-48f6-46bf-a186-0fc2615e02c2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Important Network Options on a Client
 For [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] client software, several key options supply the information a client must have for locating Host Integration Server computers. These options specify which protocol the client uses to communicate with Host Integration Server computers if more than one protocol is available on the client, and which domain or server names the client will direct SNA requests to.  

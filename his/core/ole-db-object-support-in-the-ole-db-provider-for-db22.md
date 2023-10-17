@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: OLE DB Object Support in the OLE DB Provider for DB2"
-title: "OLE DB Object Support in the OLE DB Provider for DB22 | Microsoft Docs"
+title: "OLE DB Object Support in the OLE DB Provider for DB22"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 24752459-9a0a-4339-ba10-f6b24ade86f4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # OLE DB Object Support in the OLE DB Provider for DB2
 The following table summarizes the OLE DB version 2.0 objects that are supported by the current version of Microsoft® OLE DB Provider for DB2.  

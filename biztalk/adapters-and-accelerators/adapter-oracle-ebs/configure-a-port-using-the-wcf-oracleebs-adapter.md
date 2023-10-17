@@ -1,19 +1,12 @@
 ---
-title: "Configure a port using the WCF-OracleEBS adapter in BizTalk | Microsoft Docs"
+title: "Configure a port using the WCF-OracleEBS adapter in BizTalk"
 description: Use the WCF-OracleEBS adapter to receive or send messages from Oracle EBS in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6b4c5c10-79a6-48d3-b4ee-dddf837f020b
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure a port using the WCF-OracleEBS adapter
 How to configure WCF-OracleEBS send and receive ports to perform outbound and inbound operations on Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  

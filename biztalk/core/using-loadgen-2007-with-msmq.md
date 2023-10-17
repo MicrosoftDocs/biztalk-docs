@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using LoadGen 2007 with MSMQ"
-title: "Using LoadGen 2007 with MSMQ | Microsoft Docs"
+title: "Using LoadGen 2007 with MSMQ"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e8f23a86-0e6d-478a-87a3-5b02338c9afb
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using LoadGen 2007 with MSMQ
 The Load Generation tool, Loadgen, enables you to simulate heavy loads on a BizTalk Server system.

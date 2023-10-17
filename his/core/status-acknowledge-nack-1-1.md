@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status-Acknowledge(Nack-1)"
-title: "Status-Acknowledge(Nack-1)1 | Microsoft Docs"
+title: "Status-Acknowledge(Nack-1)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 510b2e1d-4ea0-472c-a08d-9823a560e38e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status-Acknowledge(Nack-1)
 The **Status-Acknowledge(Nack-1)** message flows from the node to the application and from the application to the node. It is used with both system services control point (SSCP) and primary logical unit (PLU) connections.  

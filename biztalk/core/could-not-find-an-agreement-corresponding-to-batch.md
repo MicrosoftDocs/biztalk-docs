@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Could not find an Agreement corresponding to batch"
-title: "Could not find an Agreement corresponding to batch | Microsoft Docs"
+title: "Could not find an Agreement corresponding to batch"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4d1c0480-9a6f-481a-9143-e5a55707c3b5
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Could not find an Agreement corresponding to batch
 ## Details  

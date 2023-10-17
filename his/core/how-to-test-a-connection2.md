@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Test a Connection"
-title: "Test a Connection | Microsoft Docs"
+title: "Test a Connection"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2245a24e-2a0f-4b07-a3ac-ed979c20e2c5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Test a Connection
 After you create the appropriate connection string and store it in a file, you can programmatically test the validity of your connection with a call to  `Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.TestConnection%2A`.  

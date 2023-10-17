@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Fail-Safe Environment for ACID Transactions"
-title: "Fail-Safe Environment for ACID Transactions2 | Microsoft Docs"
+title: "Fail-Safe Environment for ACID Transactions2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 750967ce-889e-425d-9561-678e9ebdd55e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Fail-Safe Environment for ACID Transactions
 ACID (atomic, consistent, isolated, and durable) transaction processing using two-phase commit (2PC) generally requires a fail-safe environment. This is an environment that ensures continuation despite hardware failures. This is often called *2PC failover* or *hot backup*.  

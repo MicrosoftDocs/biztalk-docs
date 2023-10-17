@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Any Element Nodes"
-title: "Any Element Nodes | Microsoft Docs"
+title: "Any Element Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c7e30fcf-31bc-4d48-9bc7-0be90e927127
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Any Element Nodes
 In BizTalk Editor, you can use an **Any Element** node to indicate a location within an instance message where unknown elements may appear. This accommodates situations in which you know that some element might appear at a particular location within an instance message, but you do not know the name of the element, or how complicated it might be. If you place an **Any Element** node at the appropriate location within the schema, BizTalk can process such unknown portions of a message. The only requirement is that the corresponding XML is well-formed.  

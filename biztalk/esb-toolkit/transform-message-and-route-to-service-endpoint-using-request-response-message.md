@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to: Transform a Message and Route to a Service Endpoint Using a Request-Response Message Exchange Pattern"
-title: "How to: Transform a Message and Route to a Service Endpoint Using a Request-Response Message Exchange Pattern | Microsoft Docs"
+title: "Transform a Message and Route to a Service Endpoint Using a Request-Response Message Exchange Pattern"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b1e656fb-6c5f-4b2b-a1b6-4c812b78ee22
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to: Transform a Message and Route to a Service Endpoint Using a Request-Response Message Exchange Pattern
 ## Goal  

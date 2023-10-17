@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interceptor Configuration Schema"
-title: "Interceptor Configuration Schema | Microsoft Docs"
+title: "Interceptor Configuration Schema"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: be33b0a4-49ea-48c8-8ae9-b050b6047cda
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interceptor Configuration Schema
 This section contains the common interceptor configuration schema.  

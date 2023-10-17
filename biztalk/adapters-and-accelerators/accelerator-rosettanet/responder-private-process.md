@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Responder Private Process"
-title: "Responder Private Process | Microsoft Docs"
+title: "Responder Private Process"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "line-of-business applications (LOBs)"
-  - "messages, private processes"
-  - "LOBs"
-  - "messages, message flow"
-  - "private processes, responder"
-  - "private processes, message flow"
-ms.assetid: 69b58320-977c-44d2-a7d6-f986213aecf2
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Responder Private Process
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses the responder private process (PrivateResponder.odx) to process service content at a responder computer. This includes the following:  

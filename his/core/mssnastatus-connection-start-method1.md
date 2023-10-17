@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_Connection.Start Method"
-title: "MsSnaStatus_Connection.Start Method1 | Microsoft Docs"
+title: "MsSnaStatus_Connection.Start Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4c77acc0-366f-4382-838a-25cc5f764f3f
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_Connection.Start Method
 Starts the connection.  

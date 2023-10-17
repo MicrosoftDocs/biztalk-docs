@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Considerations for Receiving Database Change Notifications Using the Oracle Database adapter"
-title: "Considerations for Receiving Database Change Notifications Using the Oracle Database adapter | Microsoft Docs"
+title: "Considerations for Receiving Database Change Notifications Using the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 206439b9-0408-4fbb-80e3-cfda2f5a89a5
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Considerations for Receiving Database Change Notifications Using the Oracle Database adapter
 This topic provides some considerations and best practices that you must keep in mind while using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive database notifications from an Oracle database.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOAdmin.CreateFieldInfo Method"
-title: "ISSOAdmin.CreateFieldInfo Method | Microsoft Docs"
+title: "ISSOAdmin.CreateFieldInfo Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b514b686-71fe-4693-8577-2739e1dc19d2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOAdmin.CreateFieldInfo Method
 The **CreateFieldInfo** method creates field information for an application.  

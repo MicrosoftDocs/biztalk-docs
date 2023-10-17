@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: The ESB Fault Processor Pipeline"
-title: "The ESB Fault Processor Pipeline | Microsoft Docs"
+title: "The ESB Fault Processor Pipeline"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a57752b1-8bca-4534-9e5b-7ce721a9490a
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The ESB Fault Processor Pipeline
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] installs a send port named ALL.Exceptions that uses the ESBFaultProcessor send pipeline. Figure 1 shows the properties of the ALL.Exceptions send port.  

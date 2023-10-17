@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: What Is the FileAct Adapter?"
-title: "What Is the FileAct Adapter? | Microsoft Docs"
+title: "What Is the FileAct Adapter?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 05ec8f1e-57f9-4e2d-ab8b-22b5c4b28055
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is the FileAct Adapter?
 The FileAct adapter for SWIFTNet provides connectivity between BizTalk Server and the Society for Worldwide Interbank Financial Telecommunication (SWIFT) Secure IP Network (SIPN) for the transfer of files. The SIPN transfers messages and files over a secure private network which connects financial institutions, financial industry infrastructures, and customers. The FileAct adapter uses the SWIFTNet Link (SNL) application programming interface (API)s to connect to the SIPN.  

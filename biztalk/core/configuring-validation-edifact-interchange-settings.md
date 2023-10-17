@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Validation (EDIFACT-Interchange Settings)"
-title: "Configuring Validation (EDIFACT-Interchange Settings) | Microsoft Docs"
+title: "Configuring Validation (EDIFACT-Interchange Settings)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 55820ebc-fe21-48a3-8985-1bf4184176ac
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Validation (EDIFACT-Interchange Settings)
 This section provides instructions on how to prevent duplicate control numbers from being processed.  

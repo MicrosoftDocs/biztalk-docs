@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter"
-title: "Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter | Microsoft Docs"
+title: "Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e623b6dc-32e5-467c-bb7d-68b7a75723c1
-caps.latest.revision: 46
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter
 

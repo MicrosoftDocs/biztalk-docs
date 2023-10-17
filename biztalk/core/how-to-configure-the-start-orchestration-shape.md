@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Start Orchestration Shape"
-title: "How to Configure the Start Orchestration Shape | Microsoft Docs"
+title: "How to Configure the Start Orchestration Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "configuring [Orchestration Designer], Start Orchestration shapes"
-  - "Start Orchestration shape [Orchestration Designer], parameters"
-  - "Start Orchestration shape [Orchestration Designer], configuring"
-  - "orchestrations, starting"
-  - "Start Orchestration shape [Orchestration Designer]"
-  - "Start Orchestration shape [Orchestration Designer], starting orchestrations"
-  - "Start Orchestration shape [Orchestration Designer], about Star Orchestration shape"
-ms.assetid: 9d01c41e-9bc5-4c1c-a869-b2f0df13036a
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Start Orchestration Shape
 The **Start Orchestration** shape is similar to the **Call Orchestration** shape, but you invoke another orchestration asynchronously with the **Start Orchestration** shape—that is, the flow of control in the invoking orchestration proceeds beyond the invocation, without waiting for the invoked orchestration to finish its work.

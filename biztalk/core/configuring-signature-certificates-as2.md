@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Signature Certificates (AS2)"
-title: "Configuring Signature Certificates (AS2) | Microsoft Docs"
+title: "Configuring Signature Certificates (AS2)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8539e210-1656-4fff-b026-36b81689061f
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Signature Certificates (AS2)
 As part of the settings on this page, you can specify the certificates to be used for signing all outgoing messages and MDN that resolve to this agreement. The settings on this page override the certificate settings provided as part of the BizTalk Group properties. For more information on how certificates are used, see [Configuring Certificates for AS2](../core/configuring-certificates-for-as2.md).  

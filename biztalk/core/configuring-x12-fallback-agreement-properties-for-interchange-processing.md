@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring X12 Fallback Agreement Properties for Interchange Processing"
-title: "Configuring X12 Fallback Agreement Properties for Interchange Processing | Microsoft Docs"
+title: "Configuring X12 Fallback Agreement Properties for Interchange Processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5e7109e7-d343-45d5-9c9a-bc616b0ba3e1
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring X12 Fallback Agreement Properties for Interchange Processing
 X12 interchange processing properties define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the envelope of an X12-encoded interchange received from a party.  

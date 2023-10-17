@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The AS2 Decoder failed processing when validating the MIC value returned in the MDN"
-title: "The AS2 Decoder failed processing when validating the MIC value returned in the MDN | Microsoft Docs"
+title: "The AS2 Decoder failed processing when validating the MIC value returned in the MDN"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3fe2d76d-b0f1-4118-8483-547c2c9fffb7
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The AS2 Decoder failed processing when validating the MIC value returned in the MDN
 ## Details  

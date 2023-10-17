@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interfaces for Send Adapters"
-title: "Interfaces for Send Adapters | Microsoft Docs"
+title: "Interfaces for Send Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 009334b9-2341-4c67-9bcb-885149277fc3
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interfaces for Send Adapters
 This section describes the interfaces you need to implement when you develop a send adapter.  

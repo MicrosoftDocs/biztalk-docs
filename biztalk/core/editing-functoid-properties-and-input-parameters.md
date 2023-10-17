@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Editing Functoid Properties and Input Parameters"
-title: "Editing Functoid Properties and Input Parameters | Microsoft Docs"
+title: "Editing Functoid Properties and Input Parameters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 257f92d7-8196-4c7c-98de-819996270e43
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Editing Functoid Properties and Input Parameters
 Functoid properties can be categorized as follows:  

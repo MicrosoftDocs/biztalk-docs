@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Create an Application Definition File for Siebel Business Component Operations"
-title: "Step 2: Create an Application Definition File for Siebel Business Component Operations | Microsoft Docs"
+title: "Step 2: Create an Application Definition File for Siebel Business Component Operations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 75d34c48-0f2a-42e4-a60b-e04bcf2404e1
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Create an Application Definition File for Siebel Business Component Operations
 ![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")

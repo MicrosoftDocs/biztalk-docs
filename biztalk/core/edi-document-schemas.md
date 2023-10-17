@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDI Document Schemas"
-title: "EDI Document Schemas | Microsoft Docs"
+title: "EDI Document Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fc3a30b8-0686-4c06-985b-13f2c95f8e99
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDI Document Schemas
 Document schemas define the body of an EDI transaction document type.  

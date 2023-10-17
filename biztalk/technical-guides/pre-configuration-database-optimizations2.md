@@ -1,18 +1,12 @@
 ---
 description: "Learn more about the performance optimizations that should be made to Microsoft SQL Server before installing BizTalk Server and configuring the BizTalk Server databases."
-title: "Pre-Configuration Database Optimizations2 | Microsoft Docs"
+title: "Pre-Configuration Database Optimizations2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8c525c3a-249c-4694-b287-a8c35a6aa524
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Pre-Configuration Database Optimizations
 

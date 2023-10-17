@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Best practices to secure the SQL adapter"
-title: "Best practices to secure the SQL adapter | Microsoft Docs"
+title: "Best practices to secure the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e32379d7-800a-49b7-a09a-6b3f04a6e5ef
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Best practices to secure the SQL adapter
 Best practices that you should follow to more completely protect sensitive data when you use or develop applications that consume the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)].  

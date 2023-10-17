@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Customizing Message Repair and New Submission"
-title: "Customizing Message Repair and New Submission | Microsoft Docs"
+title: "Customizing Message Repair and New Submission"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "customizing Message Repair and New Submission"
-  - "Message Repair and New Submission, customizing"
-ms.assetid: aadcef97-f759-4794-bfa5-9d00edb21a21
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Customizing Message Repair and New Submission
 This section describes ways in which you can customize the Message Repair and New Submission feature.  

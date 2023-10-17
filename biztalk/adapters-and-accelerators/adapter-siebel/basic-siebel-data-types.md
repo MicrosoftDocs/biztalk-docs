@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Basic Siebel Data Types"
-title: "Basic Siebel Data Types | Microsoft Docs"
+title: "Basic Siebel Data Types"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Siebel data types, supported"
-ms.assetid: bf86f639-6c45-49db-9e58-79c3ad2c9978
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Basic Siebel Data Types
 This section describes how Siebel data types are supported on the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Display the Credential Database Information"
-title: "How to Display the Credential Database Information | Microsoft Docs"
+title: "How to Display the Credential Database Information"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c04ae538-921a-469e-9a4b-127de110f051
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Display the Credential Database Information
 You can view Single Sign-On (SSO) credential database information by using the ssomanage command.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using Multiple Continuations"
-title: "Using Multiple Continuations | Microsoft Docs"
+title: "Using Multiple Continuations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 01a38087-71ee-40b3-a957-6a2653bd6435
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Multiple Continuations
 Using the Tracking Profile Editor (TPE) in environments in which there are multiple activities requires that you understand the scenario in which the activities are being tracked in order to map the receive ports, orchestrations, and send ports in the proper sequence.  

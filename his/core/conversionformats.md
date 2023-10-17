@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: conversionFormats"
-title: "conversionFormats | Microsoft Docs"
+title: "conversionFormats"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e1658945-94e5-47ed-86dd-f9d9e60a8d05
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # conversionFormats
 The conversionFormats element contains dateMasks, timeMasks, and dateTimeMasks for converting to and from DB2 and SQL Server datetime formats.  

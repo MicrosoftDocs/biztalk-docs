@@ -1,20 +1,12 @@
 ---
 description: "Learn more about: Step 2: Creating the Contoso Partner Organization"
-title: "Step 2: Creating the Contoso Partner Organization | Microsoft Docs"
+title: "Step 2: Creating the Contoso Partner Organization"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "double action tutorial, creating partner organizations"
-ms.assetid: ebb3b166-3781-40b9-89d4-2ca0c83d05f3
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Creating the Contoso Partner Organization
 In this step, you use the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console to create a new trading partner. The trading partner for this tutorial is the Contoso organization.  

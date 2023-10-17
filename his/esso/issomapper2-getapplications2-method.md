@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOMapper2.GetApplications2 Method"
-title: "ISSOMapper2.GetApplications2 Method | Microsoft Docs"
+title: "ISSOMapper2.GetApplications2 Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cd2457b8-8461-4a6f-bedd-f5def73d3cd3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOMapper2.GetApplications2 Method
 The GetApplications2 method retrieves the available applications for a Microsoft Windows user.  

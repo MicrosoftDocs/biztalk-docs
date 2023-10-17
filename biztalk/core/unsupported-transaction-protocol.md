@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Unsupported transaction protocol"
-title: "Unsupported transaction protocol | Microsoft Docs"
+title: "Unsupported transaction protocol"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 11fb2497-9971-4e85-b21a-161734f071e0
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unsupported transaction protocol
 ## Details  

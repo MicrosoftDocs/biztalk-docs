@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How the Message Enrichment Sample Works"
-title: "How the Message Enrichment Sample Works | Microsoft Docs"
+title: "How the Message Enrichment Sample Works"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1188c1c9-b133-4438-b41c-ea6cffcf40fd
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How the Message Enrichment Sample Works
  The Message Enrichment sample demonstrates that it is possible to encapsulate an integration pattern as a generic reusable service. In this case the sample implements the Content Enricher pattern. The Content Enricher pattern generally involves using a transform to prepare a message for transmission to an external service in order to lookup information, and then another transform to incorporate the response into a new message which also contains data from the original message. In order to implement the pattern in a generic fashion, the Message Enrichment sample provides an orchestration-based itinerary service that can use up to two resolvers to configure enrichment of a message using information from an external source.

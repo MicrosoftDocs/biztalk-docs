@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Limitations of BizTalk Adapter for Siebel eBusiness Applications"
-title: "Limitations of BizTalk Adapter for Siebel eBusiness Applications | Microsoft Docs"
+title: "Limitations of BizTalk Adapter for Siebel eBusiness Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "limitations of, Siebel adapter"
-  - "Siebel adapter, limitations of"
-ms.assetid: fda63dd6-bad5-4f6d-8cc1-5855efb6f063
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Limitations of BizTalk Adapter for Siebel eBusiness Applications
 The following are known limitations of the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]:  

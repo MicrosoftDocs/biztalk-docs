@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Network Optimizations"
-title: "Network Optimizations | Microsoft Docs"
+title: "Network Optimizations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9ff0392f-37ae-4ca6-8cc6-d53065de64c5
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Network Optimizations
 In a BizTalk Server environment where the BizTalk Server computer(s) are separate from the SQL Server computer(s), each and every message processed by BizTalk Server requires communication over the network. This communication includes considerable traffic between the BizTalk Server computers and the BizTalk Message Box database(s), the BizTalk Management database(s), the BAM databases, and other databases. In high-load scenarios, this communication can result in considerable network traffic and can become a bottleneck, especially when network settings have not been optimized, not enough network interface cards are installed, or insufficient network bandwidth is available.

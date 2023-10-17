@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10664"
-title: "Single Sign-On: Event 10664 | Microsoft Docs"
+title: "Single Sign-On: Event 10664"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8a47f8e1-b96e-4576-b22a-8490df23239e
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10664
 ## Details  

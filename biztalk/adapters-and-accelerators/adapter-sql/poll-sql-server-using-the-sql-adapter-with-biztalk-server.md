@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Poll SQL Server using the SQL Adapter with BizTalk Server"
-title: "Poll SQL Server using the SQL Adapter with BizTalk Server | Microsoft Docs"
+title: "Poll SQL Server using the SQL Adapter with BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: eef9a4b4-552d-4552-b318-1deab506bad9
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Poll SQL Server using the SQL Adapter with BizTalk Server
 You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive polling-based data-changed messages from SQL Server. You can specify a polling statement that the adapter executes to poll the database. The polling statement can be a SELECT statement or a stored procedure that returns a result set. Based on the type of polling message received, the adapter exposes three different ways of polling:  

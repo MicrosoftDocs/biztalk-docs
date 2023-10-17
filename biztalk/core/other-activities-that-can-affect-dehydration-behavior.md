@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Other Activities That Can Affect Dehydration Behavior"
-title: "Other Activities That Can Affect Dehydration Behavior | Microsoft Docs"
+title: "Other Activities That Can Affect Dehydration Behavior"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ed940448-d3b1-4308-9b38-887904e03bd0
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Other Activities That Can Affect Dehydration Behavior
 The following activities directly or indirectly impact dehydration and overall performance and so should be factored into any testing scenarios.  

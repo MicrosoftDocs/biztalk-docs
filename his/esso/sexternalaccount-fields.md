@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SExternalAccount Fields"
-title: "SExternalAccount Fields | Microsoft Docs"
+title: "SExternalAccount Fields"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 63dd0f9c-6a75-4a72-a443-aa2e3436241d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SExternalAccount Fields
 The fields of the **SExternalAccount** interface are listed in the following table. For a complete list of **SExternal** interface members, see [SExternalAccount Members](../esso/sexternalaccount-members.md).  

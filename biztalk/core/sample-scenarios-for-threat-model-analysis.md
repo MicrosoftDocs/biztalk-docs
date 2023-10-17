@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Sample Scenarios for Threat Model Analysis"
-title: "Sample Scenarios for Threat Model Analysis | Microsoft Docs"
+title: "Sample Scenarios for Threat Model Analysis"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "TMA, security"
-  - "security examples [TMA]"
-  - "TMA, examples"
-  - "examples, TMA"
-ms.assetid: e35d1d7f-a71a-42f5-b1f4-fe3234ba7686
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sample Scenarios for Threat Model Analysis
 This section provides the steps and results of a threat model analysis (TMA) for each usage scenario for the sample architecture identified in [Sample Architectures for Small & Medium-Sized Companies](../core/sample-architectures-for-small-medium-sized-companies.md). The purpose of this section is to show you the steps of a TMA. This helps you understand how a TMA works, and describes for you the potential threats we identified for the sample architecture and how we recommend that you reduce their effect.  

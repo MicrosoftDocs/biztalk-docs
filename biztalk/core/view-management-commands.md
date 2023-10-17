@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: View Management Commands"
-title: "View Management Commands | Microsoft Docs"
+title: "View Management Commands"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 52f25ee3-9bb3-4682-a9ff-cac8c25f58c3
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # View Management Commands
 The BAM Management utility view management commands allow you to work with deployed views.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ExtractNextParameter"
-title: "ExtractNextParameter2 | Microsoft Docs"
+title: "ExtractNextParameter2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c0f07d7d-c197-42ca-b280-4390b4077fd8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ExtractNextParameter
 The **ExtractNextParameter** function is used to get the next parameter from a buffer. This utility function is used to construct an integrated link service configuration DLL.  

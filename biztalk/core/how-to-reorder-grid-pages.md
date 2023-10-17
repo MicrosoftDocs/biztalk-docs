@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: How to Reorder Grid Pages"
-title: "How to Reorder Grid Pages | Microsoft Docs"
+title: "How to Reorder Grid Pages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.mapper.reorderpages"
-ms.assetid: bbf45501-109f-4333-8d1f-1ad47b010db0
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Reorder Grid Pages
 If your map is complex, you can include multiple grid pages, and then rename and reorder them. This topic includes step-by-step instructions to perform these operations.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Creating a Fact Creator"
-title: "Walkthrough: Creating a Fact Creator | Microsoft Docs"
+title: "Walkthrough: Creating a Fact Creator"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 041c8f73-c72e-43fd-8446-144cecdc95ef
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Creating a Fact Creator
 This walkthrough provides step-by-step procedures for creating a fact creator component, **POFactCreator**, which you can use to test the **ProcessPurchaseOrder** policy you created in earlier walkthroughs.  

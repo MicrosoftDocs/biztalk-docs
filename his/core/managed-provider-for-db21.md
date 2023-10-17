@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Managed Provider for DB2"
-title: "Managed Provider for DB21 | Microsoft Docs"
+title: "Managed Provider for DB21"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a51af75f-4b32-4720-ab6a-171afb3b0fa6
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Managed Provider for DB2
 Host Integration Server includes a Managed Provider to access data from a loosely coupled data source: in this case, a DB2 database. The Managed Provider for DB2 uses two central .NET Framework components to implement this capability: the ADO.NET `DataSet` object and the Managed Provider for DB2 itself.  

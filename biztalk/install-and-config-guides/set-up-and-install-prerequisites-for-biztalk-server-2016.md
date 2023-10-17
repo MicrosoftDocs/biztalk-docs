@@ -1,20 +1,12 @@
 ---
-title: Set up and install prerequisites for BizTalk Server 2016 | Microsoft Docs
+title: Set up and install prerequisites for BizTalk Server 2016
 description: Step-by-step instructions to install and configure the required software and settings for BizTalk Server 2016
-author: MandiOhlinger
-manager: anneta
-
 ms.prod: biztalk-server
-
 ms.custom: ""
 ms.date: 01/10/2020
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid: aa70b621-903a-4cfa-9cb0-c6a82ed8f733
-caps.latest.revision: 11
-ms.author: mandia
 ---
 
 # Set up and install prerequisites for BizTalk Server 2016

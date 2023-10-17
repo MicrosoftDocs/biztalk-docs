@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: What Happens When Artifacts Are Exported"
-title: "What Happens When Artifacts Are Exported | Microsoft Docs"
+title: "What Happens When Artifacts Are Exported"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "exporting, artifacts"
-  - "artifacts, exporting"
-ms.assetid: accc9a81-01fb-4da7-a5a5-167835d393a2
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Happens When Artifacts Are Exported
 This topic describes what happens when you export artifacts. There are three ways to export artifacts, which are covered in this topic:  

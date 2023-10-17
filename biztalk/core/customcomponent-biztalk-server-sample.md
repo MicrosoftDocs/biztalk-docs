@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: CustomComponent (BizTalk Server Sample)"
-title: "CustomComponent (BizTalk Server Sample) | Microsoft Docs"
+title: "CustomComponent (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components [custom], examples"
-  - "examples, pipeline components [custom]"
-  - "messages, streamed"
-  - "pipeline components [custom], configuring"
-ms.assetid: ed0da9f5-8cc7-4528-be8c-35b80744fd38
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # CustomComponent (BizTalk Server Sample)
 The CustomComponent sample demonstrates how to create and use a custom pipeline component that modifies a streamed message. This sample also demonstrates the configuration of a custom pipeline component in Pipeline Designer.  

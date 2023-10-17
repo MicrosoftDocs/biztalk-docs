@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Windows-Initiated Processing Console"
-title: "Windows-Initiated Processing Console1 | Microsoft Docs"
+title: "Windows-Initiated Processing Console1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e5cae914-760e-475c-92e1-738376332bd2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Windows-Initiated Processing Console
 The Windows-initiated processing (WIP) console supports the .NET Framework, TCP/IP, and SNA environments, with .NET Framework assemblies having similar capabilities and functioning.  

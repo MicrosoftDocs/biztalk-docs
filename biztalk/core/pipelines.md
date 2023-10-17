@@ -1,32 +1,12 @@
 ---
 description: "Learn more about: Pipelines"
-title: "Pipelines | Microsoft Docs"
+title: "Pipelines"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipelines"
-  - "deploying, pipelines"
-  - "receive pipelines, about receive pipelines"
-  - "pipelines, deploying"
-  - "send pipelines, about send pipelines"
-  - "receive pipelines"
-  - "pipelines, about pipelines"
-  - "send pipelines, stages"
-  - "send pipelines"
-  - "pipelines, receive pipelines"
-  - "pipelines, send pipelines"
-  - "receive pipelines, stages"
-ms.assetid: 76947dd8-728a-4fa3-bd33-7a708ae82cac
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Pipelines
 Pipelines are a component of Microsoft BizTalk Server that provides an implementation of the Pipes and Filters integration pattern. During the receiving and sending of messages, there are business reasons to perform transformations on messages to prepare them to enter or leave BizTalk Server.  

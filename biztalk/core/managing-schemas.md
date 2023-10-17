@@ -1,19 +1,12 @@
 ---
-title: "Manage schemas | Microsoft Docs"
+title: "Manage schemas"
 description: Use BizTalk Administration to work with schemas in BizTalk Server, including showing and hiding properties, view the XSD, enable tracking
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c5632e79-b182-41c9-9138-eb88b44e3172
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Manage Schemas
 

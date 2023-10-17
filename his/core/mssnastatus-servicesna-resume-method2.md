@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_ServiceSna.Resume Method"
-title: "MsSnaStatus_ServiceSna.Resume Method2 | Microsoft Docs"
+title: "MsSnaStatus_ServiceSna.Resume Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9e86d23a-0267-4869-bb4b-7bb6f5db60aa
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_ServiceSna.Resume Method
 Resumes the service.  

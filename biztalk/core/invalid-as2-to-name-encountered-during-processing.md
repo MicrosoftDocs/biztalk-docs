@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid AS2-To name encountered during processing"
-title: "Invalid AS2-To name encountered during processing | Microsoft Docs"
+title: "Invalid AS2-To name encountered during processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 84d848b5-b2a3-460d-85d4-c3576e4e3aaf
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid AS2-To name encountered during processing
 ## Details  

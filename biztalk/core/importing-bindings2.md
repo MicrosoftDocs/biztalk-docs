@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Importing Bindings"
-title: "Importing Bindings2 | Microsoft Docs"
+title: "Importing Bindings2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "bindings, requirements"
-  - "importing, bindings"
-  - "bindings, importing"
-ms.assetid: 9e10bc04-aba8-430a-b8fd-de9399d54f88
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Importing Bindings
 The topics in this section describe how to import bindings into a BizTalk group or application.  

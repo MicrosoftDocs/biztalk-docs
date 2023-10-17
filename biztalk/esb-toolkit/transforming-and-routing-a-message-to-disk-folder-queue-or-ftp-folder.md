@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Transforming and Routing a Message to Disk Folder, Queue, or FTP Folder"
-title: "Transforming and Routing a Message to Disk Folder, Queue, or FTP Folder | Microsoft Docs"
+title: "Transforming and Routing a Message to Disk Folder, Queue, or FTP Folder"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5bfdbc38-6663-4d95-a0ed-57fec0245b9f
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Transforming and Routing a Message to Disk Folder, Queue, or FTP Folder
 In this use case, the ESB transforms a message submitted through the Itinerary Web service or any on-ramp. A dynamic resolution lookup of type FILE, FTP, or queue location determines the map name (for transformation) and the target endpoint for the message, as illustrated in Figure 1.  

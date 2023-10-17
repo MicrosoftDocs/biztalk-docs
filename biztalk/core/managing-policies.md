@@ -1,19 +1,12 @@
 ---
-title: "Manage Policies | Microsoft Docs"
+title: "Manage Policies"
 description: Quick links to import, publish, add, deploy, remove, or export a policy in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f7b3bf92-8868-4c35-953f-61a7f2edff9c
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Manage policies
 

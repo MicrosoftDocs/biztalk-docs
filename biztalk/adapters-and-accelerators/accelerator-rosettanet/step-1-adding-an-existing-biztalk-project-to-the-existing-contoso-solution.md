@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Step 1: Adding an Existing BizTalk Project to the Existing Contoso Solution"
-title: "Step 1: Adding an Existing BizTalk Project to the Existing Contoso Solution | Microsoft Docs"
+title: "Step 1: Adding an Existing BizTalk Project to the Existing Contoso Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "projects, adding to solutions"
-  - "private process tutorial, adding projects to solutions"
-ms.assetid: 9e84d282-01aa-4611-8462-c1acef234042
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Adding an Existing BizTalk Project to the Existing Contoso Solution
 The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK contains a private process orchestration that serves as a good starting point when customizing your own private process. In this step, you add that orchestration to your solution and change the assembly name to avoid conflict with the PrivateResponder orchestration installed during the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] installation. Before you start, open the Contoso solution you created in [Step 1: Creating a New BizTalk Solution for the Contoso Price and Availability Request](../../adapters-and-accelerators/accelerator-rosettanet/step-1-create-new-biztalk-solution-for-contoso-price-and-availability-request.md).  

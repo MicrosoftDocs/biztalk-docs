@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Application Integration (Troubleshooting)"
-title: "Application Integration (Troubleshooting)2 | Microsoft Docs"
+title: "Application Integration (Troubleshooting)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3f5a453a-87ef-4ead-8739-00fa30314895
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Application Integration (Troubleshooting)
 Use the information in this section to troubleshoot problems in your .NET Framework-based client application and Transaction Integrator (TI).  

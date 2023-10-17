@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to List Subscribers to an Alert"
-title: "How to List Subscribers to an Alert | Microsoft Docs"
+title: "How to List Subscribers to an Alert"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "alerts, listing subscribers"
-  - "managing [BAM], listing alert subscribers"
-  - "subscriptions, listing subscribers"
-ms.assetid: 760cc88f-896d-43a3-a4af-b2a836190276
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to List Subscribers to an Alert
 Administrators use the **get-subscriptions** command to list all of the subscribers to a specified alert.  

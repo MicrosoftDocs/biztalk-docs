@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Develop BizTalk applications using the Oracle Database adapter"
-title: "Develop BizTalk applications using the Oracle Database adapter | Microsoft Docs"
+title: "Develop BizTalk applications using the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Content-Based Routing (CBR)"
-  - "BizTalk orchestrations, using orchestrations to perform operations"
-ms.assetid: 65689c83-4a57-4aad-b0e9-f1bad901a7b9
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Develop BizTalk applications using the Oracle Database adapter
 Developing BizTalk applications involves creating a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate XML schema. Once you have generated the schema, you can either use Content-Based Routing (CBR) or create BizTalk orchestrations to send and receive messages that conform to the generated schema.  

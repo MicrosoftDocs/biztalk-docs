@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Overview of the SOA BizTalk Management Point"
-title: "Overview of the SOA BizTalk Management Point | Microsoft Docs"
+title: "Overview of the SOA BizTalk Management Point"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d4c3a30-c50e-4c1c-9f59-d9a364078388
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Overview of the SOA BizTalk Management Point
 The BizTalk Management Point natively integrates with SOA Service Manager and Workbench products. Unlike the typical Web Services Management Point, this implementation is associated with services provided by the Microsoft BizTalk Server environment, expressed in terms of BizTalk Server receive locations and send ports. Because of the arbitrary nature of receive locations and send ports (configured against a variety of BizTalk Server adapters), these services are not necessarily associated with Web services, but they can be treated as Web services in terms of the SOA Service Manager and SOA Workbench.  

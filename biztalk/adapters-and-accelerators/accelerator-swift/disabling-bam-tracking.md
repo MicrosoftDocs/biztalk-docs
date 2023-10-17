@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Disabling BAM Tracking"
-title: "Disabling BAM Tracking | Microsoft Docs"
+title: "Disabling BAM Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "FIN Response Reconciliation, disabling BAM tracking"
-  - "BAM tracking"
-ms.assetid: ea5fef0e-7a96-46f5-81d8-9b1d8a5d24d2
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Disabling BAM Tracking
 By default, BAM tracking is enabled for FIN Response Reconciliation. You can disable it as follows.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Number of Processing Stages"
-title: "Number of Processing Stages | Microsoft Docs"
+title: "Number of Processing Stages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "processing, stages"
-  - "process management solution tutorial, processing stages"
-ms.assetid: 74bd9f8c-99b4-4931-a096-6c54221ab2e5
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Number of Processing Stages
 The solution separates the order process into stages, so that it is possible to modify the process (by replacing stages) without disrupting long-running orders. For more information about how the process was divided into stages, see "Dividing Business Processes" in [Some Design Principles in the Business Process Management Solution](../core/some-design-principles-in-the-business-process-management-solution.md).  

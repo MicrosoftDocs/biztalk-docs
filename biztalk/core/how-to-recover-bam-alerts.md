@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Recover BAM Alerts"
-title: "How to Recover BAM Alerts | Microsoft Docs"
+title: "How to Recover BAM Alerts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 56c477b4-4605-4763-b20a-3baf4529f13f
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Recover BAM Alerts
 As a part of recovering [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], if you are using Business Activity Monitoring (BAM), you must also recover the BAM alerts.  

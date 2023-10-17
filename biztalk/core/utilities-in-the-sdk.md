@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Utilities in the SDK"
-title: "Utilities in the SDK | Microsoft Docs"
+title: "Utilities in the SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "utilities"
-ms.assetid: d1f01164-dca4-47e3-99bf-15eb99ca98a1
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Utilities in the SDK
 This section provides instructions for using several useful utilities included in the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Software Development Kit (SDK).  

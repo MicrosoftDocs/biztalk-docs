@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: Minimum Security User Rights"
-title: "Minimum Security User Rights | Microsoft Docs"
+title: "Minimum Security User Rights"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "security, user accounts"
-  - "permissions, user accounts"
-  - "permissions, roles"
-  - "administrator accounts, permissions"
-  - "roles, permissions"
-  - "permissions, administrator accounts"
-  - "user accounts, permissions"
-  - "user accounts, access control"
-  - "security, permissions"
-ms.assetid: 44b6e7da-8e6c-40c0-a250-52ab422c0adf
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Minimum Security User Rights
 The groups and accounts that BizTalk Server uses have the minimum user rights they need to perform most tasks. Therefore, there are some tasks where you may need more user rights than the ones BizTalk Server automatically has granted the group to which you belong. In this topic:

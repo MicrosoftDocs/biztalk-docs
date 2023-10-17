@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure a Strong Name Assembly Key File"
-title: "How to Configure a Strong Name Assembly Key File | Microsoft Docs"
+title: "How to Configure a Strong Name Assembly Key File"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5778a8ec-f5f7-4ae1-a57e-99f6503f044c
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a Strong Name Assembly Key File
 In the process of deploying a BizTalk solution, [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] first builds the assemblies. The deployment process requires that each assembly is strongly signed. You can strongly sign your assemblies by associating the project with a strong name assembly key file. If you haven't already done so, before deploying a solution from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], use the following procedure to generate a strong name assembly key file and assign it to each project in the solution.  

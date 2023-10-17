@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Policy Test Trace Output Information for Business Rules"
-title: "Policy Test Trace Output Information for Business Rules | Microsoft Docs"
+title: "Policy Test Trace Output Information for Business Rules"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "testing, business rules"
-  - "testing, policies"
-  - "business rules, testing"
-  - "policies, testing"
-ms.assetid: 26ff584e-97a1-4d76-a8a9-a55b4c99231f
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Policy Test Trace Output Information for Business Rules
 This section provides information on the tracking information that is displayed when testing a policy in the Business Rule Composer. Very similar information is seen when viewing tracking results for policy execution using the message event and service instance tracking queries on the Group Hub page.  

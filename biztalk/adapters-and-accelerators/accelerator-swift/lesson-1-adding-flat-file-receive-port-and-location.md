@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Lesson 1: Adding Flat File Receive Port and Location"
-title: "Lesson 1: Adding Flat File Receive Port and Location | Microsoft Docs"
+title: "Lesson 1: Adding Flat File Receive Port and Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, creating"
-  - "creating, receive locations"
-  - "receive ports, creating"
-  - "creating, receive ports"
-ms.assetid: 881f58d8-f541-4a85-b534-cb1ca627c002
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 1: Adding Flat File Receive Port and Location
 The receive port always has an associated receive location that you must configure when you add the receive port. A receive location defines a specific address for an incoming message and the pipeline that you use to process the message.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Configure a Windows SharePoint Services Send Handler"
-title: "How to Configure a Windows SharePoint Services Send Handler | Microsoft Docs"
+title: "How to Configure a Windows SharePoint Services Send Handler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [Windows SharePoint Services adapters], send handlers"
-  - "send handlers, Windows SharePoint Services adapters"
-  - "Windows SharePoint Services adapters, send handlers"
-ms.assetid: 457767d9-6e39-4553-9bbe-212fcb7c04bc
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a Windows SharePoint Services Send Handler
 Use the following procedure to change the host with which the Windows SharePoint Services send handler is associated.  

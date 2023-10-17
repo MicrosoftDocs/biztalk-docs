@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Call Orchestration Shape"
-title: "How to Configure the Call Orchestration Shape | Microsoft Docs"
+title: "How to Configure the Call Orchestration Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Call Orchestration shape [Orchestration Designer], parameters"
-  - "Call Orchestration shape [Orchestration Designer], configuring"
-  - "Call Orchestration shape [Orchestration Designer], about Call Orchestration shapes"
-  - "configuring [Orchestration Designer], Call Orchestration shapes"
-  - "Call Orchestration shape [Orchestration Designer]"
-  - "nonserializable objects"
-  - "orchestrations, nonserializable objects"
-  - "Call Orchestration shape [Orchestration Designer], referencing orchestrations"
-  - "orchestrations, parameters"
-ms.assetid: 718ce2a0-ac08-4662-8b4e-1be279dbc749
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Call Orchestration Shape
 The **Call Orchestration** shape can be used to synchronously call an orchestration that is referenced in another project. This allows for reuse of common orchestration workflow patterns across BizTalk projects. When you invoke another nested orchestration synchronously with the **Call Orchestration** shape the enclosing orchestration waits for the nested orchestration to finish before continuing.  

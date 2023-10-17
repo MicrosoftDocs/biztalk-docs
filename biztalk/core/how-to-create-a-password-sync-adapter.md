@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Create a Password Sync Adapter"
-title: "How to Create a Password Sync Adapter | Microsoft Docs"
+title: "How to Create a Password Sync Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: caa5bd13-efd9-4544-b5df-17d01c6ac5d8
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create a Password Sync Adapter
 A password sync (PS) adapter is an application that uses the Password Sync Helper component to pass notifications to and from Enterprise Single Sign-On (SSO). Note that although the PS Helper component exposes a COM and a .NET Framework interface, your adapter does not necessarily have to be a COM component. You can design your adapter as a stand-alone process, a COM+ application, or a Windows service.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SSO Mappings"
-title: "SSO Mappings | Microsoft Docs"
+title: "SSO Mappings"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d549ab36-3640-4891-aa65-7d09e972c440
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SSO Mappings
 When an Enterprise Single Sign-On (SSO) administrator or an SSO affiliate administrator defines an affiliate application, the administrator can define it either as an application that uses individual mappings, or as an application that uses a group mapping.  

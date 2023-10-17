@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Messaging Property View"
-title: "Messaging Property View | Microsoft Docs"
+title: "Messaging Property View"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Tracking Profile Editor, message schemas"
-  - "message schemas, properties"
-  - "Messaging Property view [Tracking Profile Editor]"
-  - "Tracking Profile Editor, Messaging Property view"
-  - "message schemas, XML messages"
-ms.assetid: 80d040e9-d58b-41d1-b26d-19aff4d3126b
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Messaging Property View
 The Messaging Property view displays the schema of the XML message associated with the property. The view is available from the shortcut menu for some of the shapes in the Orchestration Schedule view.  

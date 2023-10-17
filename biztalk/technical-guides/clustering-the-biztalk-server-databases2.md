@@ -1,18 +1,12 @@
 ---
 description: "Learn how to create and configure a Microsoft SQL Server cluster for the BizTalk Server databases."
-title: "Cluster the Databases | Microsoft Docs"
+title: "Cluster the Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1b68bc3f-c0c4-4050-8ca3-df6dd1927637
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Clustering the BizTalk Server Databases
 

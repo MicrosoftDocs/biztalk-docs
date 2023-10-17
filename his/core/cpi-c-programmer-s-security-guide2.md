@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CPI-C Programmer&#39;s Security Guide"
-title: "CPI-C Programmer&#39;s Security Guide2 | Microsoft Docs"
+title: "CPI-C Programmer&#39;s Security Guide2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3f69c4aa-40d0-40c8-b207-c5ea3b4a0c21
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CPI-C Programmer&#39;s Security Guide
 The following topics discuss security as it applies to the CPI-C section of the Host Integration Server SDK.  

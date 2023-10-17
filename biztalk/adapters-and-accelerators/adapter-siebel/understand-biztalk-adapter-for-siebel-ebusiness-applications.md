@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Understand BizTalk Adapter for Siebel eBusiness Applications"
-title: "Understand BizTalk Adapter for Siebel eBusiness Applications | Microsoft Docs"
+title: "Understand BizTalk Adapter for Siebel eBusiness Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapter features"
-  - "features of Siebel adapters"
-  - "adapters, features"
-  - "adapter, overview"
-ms.assetid: 3249fb74-9ca1-4b81-971d-5151a2e354fe
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Understand BizTalk Adapter for Siebel eBusiness Applications
 The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] enables service-oriented programmatic access in order to interact with an external system. The adapters provide the following advantages to clients:  

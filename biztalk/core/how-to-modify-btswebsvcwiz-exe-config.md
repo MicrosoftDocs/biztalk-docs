@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Modify BTSWebSvcWiz.exe.config"
-title: "How to Modify BTSWebSvcWiz.exe.config | Microsoft Docs"
+title: "How to Modify BTSWebSvcWiz.exe.config"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "Web services, code samples"
-  - "Web services, debugging"
-ms.assetid: 8466e460-faa9-45ea-9586-19174858d194
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Modify BTSWebSvcWiz.exe.config
 You can enable tracing to debug the BizTalk Web Services Publishing Wizard by uncommenting the \<add\> node in the BTSWebSvcWiz.exe.config file. If the trace listener node is uncommented and the *initializeData* parameter is unchanged, BizTalk Server writes the trace file output to the current directory. Alternatively, you can set the trace level of **ApplicationTraceSwitch** and set the path name of the trace file.

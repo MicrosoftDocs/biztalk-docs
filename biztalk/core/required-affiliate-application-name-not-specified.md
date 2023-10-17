@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Required affiliate application name not specified"
-title: "Required affiliate application name not specified | Microsoft Docs"
+title: "Required affiliate application name not specified"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b3e82a39-b052-4702-bfe2-700756a0ee6a
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Required affiliate application name not specified
 ## Details

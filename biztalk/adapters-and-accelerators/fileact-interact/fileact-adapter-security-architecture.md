@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: FileAct Adapter Security Architecture"
-title: "FileAct Adapter Security Architecture | Microsoft Docs"
+title: "FileAct Adapter Security Architecture"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5faeebd6-5287-4ac4-a1db-e3c055d323d2
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FileAct Adapter Security Architecture
 Security for the file transmission and receipt is implemented using the certificate and crypto features inherent in SNL and the SAG.  The management of certificates, etc., is completely outside of the scope of the FileAct Adapter. As long as the associated SNL/SAG instance is registered for the FileAct service with SWIFT and the software properly installed on SNL/SAG, the adapter makes use of the facilities through the SNL APIs. The FileAct Adapter will always set the FACryptoMode to “Advanced” (best practice).  

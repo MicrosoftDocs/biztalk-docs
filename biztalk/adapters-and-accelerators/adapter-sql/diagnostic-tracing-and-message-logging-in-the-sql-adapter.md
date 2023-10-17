@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Diagnostic Tracing and Message Logging in the SQL adapter"
-title: "Diagnostic Tracing and Message Logging in the SQL adapter | Microsoft Docs"
+title: "Diagnostic Tracing and Message Logging in the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d6599b4d-5650-4592-96af-ee43fb36357d
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Diagnostic Tracing and Message Logging in the SQL adapter
 Diagnostic tracing helps to effectively diagnose problems that you might encounter when using the adapters. Adapter clients can activate diagnostic tracing at two levels:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Exception Management Framework"
-title: "Exception Management Framework | Microsoft Docs"
+title: "Exception Management Framework"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2b5aebc0-2467-4f48-a385-056507ed1c1e
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exception Management Framework
 The ESB Exception Management Framework provides a unified message-oriented fault generation mechanism for managing all exceptions that may occur within a BizTalk Server environment. The ESB Exception Management Framework can receive exception messages published through the Exception Publishing Service, in addition to messages from the BizTalk Server Failed Message Routing mechanism.  

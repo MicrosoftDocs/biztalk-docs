@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tutorial 2: Consume the Echo Adapter from .NET"
-title: "Tutorial 2: Consume the Echo Adapter from .NET | Microsoft Docs"
+title: "Tutorial 2: Consume the Echo Adapter from .NET"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9e489c79-51b4-4067-9584-67c67f86aedd
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial 2: Consume the Echo Adapter from .NET
 This section gives the steps for consuming the inbound and outbound operations exposed by the Echo adapter from .NET. The Echo adapter was developed in [Tutorial 1: Develop the Echo Adapter](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md).  

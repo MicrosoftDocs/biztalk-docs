@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ConfigureLinkServiceEx"
-title: "ConfigureLinkServiceEx1 | Microsoft Docs"
+title: "ConfigureLinkServiceEx1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bed9080e-10ae-49c3-8adf-395b2fb812cb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ConfigureLinkServiceEx
 The **ConfigureLinkServiceEx** function is used to add or modify a link service. This function must be exported from a link service configuration dynamic-link library (DLL)  supplied with each link service.  

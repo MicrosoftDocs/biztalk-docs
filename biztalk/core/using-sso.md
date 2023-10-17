@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Using SSO"
-title: "Using SSO | Microsoft Docs"
+title: "Using SSO"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [SSO]"
-  - "SSO, managing"
-ms.assetid: e7245632-9c71-4b1f-836d-a4ea1dd6e5ee
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using SSO
 You can use either the MMC Snap-in or the command line management utility (ssomanage) to manage the SSO system. This includes activities such as updating the SSO database, adding, deleting, and managing applications, and administering user mappings.  

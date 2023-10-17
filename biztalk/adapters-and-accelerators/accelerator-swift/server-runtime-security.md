@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Server Runtime Security"
-title: "Server Runtime Security | Microsoft Docs"
+title: "Server Runtime Security"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "security, server runtime"
-  - "servers, security"
-  - "servers, runtime"
-ms.assetid: 40f5ca3e-d9d3-4543-bd38-82283c343b76
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Server Runtime Security
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair and New Submission governs the flow of SWIFT messages between business users, back-end systems, and SWIFT network endpoints in a secure and deterministic manner. It authenticates messages submitted by business users, validates messages for data and business-rule correctness, and routes messages to back-end systems or for final delivery to the SWIFT network. For more information about digital certificates, see "Encryption and Signing Certificates" on the MSDN Library Web site at [https://go.microsoft.com/fwlink/?linkid=50285](/docs/).

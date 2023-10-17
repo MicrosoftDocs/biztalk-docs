@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOLookup1 Members"
-title: "ISSOLookup1 Members | Microsoft Docs"
+title: "ISSOLookup1 Members"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 95169d46-5dd7-41e8-a636-1fb64b9c8a56
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOLookup1 Members
 The following table shows the ISSOLookup1 member.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: WinCSVStartup"
-title: "WinCSVStartup1 | Microsoft Docs"
+title: "WinCSVStartup1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bd110cf8-eabe-4869-b250-436f1c1c6aef
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # WinCSVStartup
 The **WinCSVStartup** function allows an application to specify the version of Windows CSV required and to retrieve details of the specific Windows CSV implementation. This function must be called by an application to register itself with a Windows CSV implementation before issuing any further Windows CSV calls.  

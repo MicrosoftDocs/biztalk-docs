@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Remote Environment Wizard Page 2 (for LU 6.2 Link) (.NET Client Wizard)"
-title: "Remote Environment Wizard Page 2 (for LU 6.2 Link) (.NET Client Wizard)2 | Microsoft Docs"
+title: "Remote Environment Wizard Page 2 (for LU 6.2 Link) (.NET Client Wizard)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15479"
-ms.assetid: 5d5b49a3-fda4-412a-9fcc-4e1cc796fec0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Remote Environment Wizard Page 2 (for LU 6.2 Link) (.NET Client Wizard)
 Use the **Remote Environment** wizard page to define the default values for the remote environment (RE).  

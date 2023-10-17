@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TCP Enhanced Listener Message User Data"
-title: "TCP Enhanced Listener Message User Data2 | Microsoft Docs"
+title: "TCP Enhanced Listener Message User Data2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 382a1d18-2f9f-4cc4-a7be-dfe76e2ef8dc
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TCP Enhanced Listener Message User Data
 The TCP enhanced listener message (ELM) User Data model allows data and parameters to be passed directly between TI and the server TP.  

@@ -1,21 +1,9 @@
 ---
 description: "Learn more about: Preparing to Use the Batching Tutorial"
 title: "Preparing to Use the Batching Tutorial"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "batching tutorial, pre-requisites"
-ms.assetid: 27ae89ca-63f4-41d4-8228-ddc871ad041e
-caps.latest.revision: 3
-
-
-
 ---
 # Preparing to Use the Batching Tutorial
 Before you can use the Batching tutorial, you must perform the tasks in this section.  

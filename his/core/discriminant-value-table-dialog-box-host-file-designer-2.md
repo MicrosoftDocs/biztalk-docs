@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Discriminant Value Table Dialog Box (Host File Designer)"
-title: "Discriminant Value Table Dialog Box (Host File Designer)2 | Microsoft Docs"
+title: "Discriminant Value Table Dialog Box (Host File Designer)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ebiz.his.2006.tidesigner.dialog.dvt.hostfiles"
-ms.assetid: 51e5ff81-f0ae-4fda-b821-6787c45e9a8b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Discriminant Value Table Dialog Box (Host File Designer)
 Use the **Discriminant Value Table** dialog box to create the logic for determining which union member returns information to the calling procedure. You can open the **Discriminant Value Table** dialog box by viewing the properties of an instanced union member, clicking **DVT**, and then clicking the ellipsis (**…**) button.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOWrapper Methods"
-title: "ISSOWrapper Methods | Microsoft Docs"
+title: "ISSOWrapper Methods"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8b6534a4-0bdd-4e2c-ac10-7472a22a785b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOWrapper Methods
 The following table describes the ISSOWrapper methods.  

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Suspend, Resume, and Terminate Orchestration Instances"
-title: "How to Suspend, Resume, and Terminate Orchestration Instances | Microsoft Docs"
+title: "How to Suspend, Resume, and Terminate Orchestration Instances"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [orchestrations], resuming"
-  - "orchestrations, terminating"
-  - "managing [orchestrations], suspending"
-  - "orchestrations, resuming"
-  - "orchestrations, suspending"
-  - "managing [orchestrations], terminating"
-ms.assetid: 7b373dad-57d5-4696-9b29-a6c351d44fa8
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Suspend, Resume, and Terminate Orchestration Instances
 This topic describes how to suspend, resume, and terminate one or more running service instances of an orchestration by using the BizTalk Server Administration console. A service instance is an instance of an orchestration that BizTalk Server is either processing or that has been serialized into the MessageBox for further processing or tracking.  

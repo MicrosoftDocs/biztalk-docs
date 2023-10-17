@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Role (Roles Node)"
-title: "Role (Roles Node) | Microsoft Docs"
+title: "Role (Roles Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Role node [binding file]"
-ms.assetid: dfe2a579-7090-4d85-87e5-d627598c4ee8
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Role (Roles Node)
 The Role node of the Roles node of a binding file specifies information about a role that is bound to a service that is exported with the binding file.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Creating the FRR Receive Pipeline"
-title: "Creating the FRR Receive Pipeline | Microsoft Docs"
+title: "Creating the FRR Receive Pipeline"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive pipelines, creating"
-  - "FRR, creating receive pipelines"
-  - "creating, receive pipelines"
-ms.assetid: 5884176b-8522-4dd3-8f93-8695858b59ac
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating the FRR Receive Pipeline
 To perform FIN Response Reconciliation, you must create a receive pipeline that contains the SWIFT FRR Decoder and SWIFT FRR CorrelationSet Resolver pipeline components, in addition to the SWIFT disassembler.  

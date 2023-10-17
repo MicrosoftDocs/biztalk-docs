@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOTicket.IssueTicket Method"
-title: "ISSOTicket.IssueTicket Method | Microsoft Docs"
+title: "ISSOTicket.IssueTicket Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 52abb922-7a9b-41c1-b964-a5eafc73da7c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOTicket.IssueTicket Method
 The **IssueTicket** method issues an Enterprise Single Sign-On (SSO) server ticket for authenticating a user on an application.  

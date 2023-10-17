@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Verb Control Block"
-title: "Verb Control Block2 | Microsoft Docs"
+title: "Verb Control Block2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2a8cd73e-c75c-49d2-b94f-5758944f2ce8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Verb Control Block
 The only parameter passed to the **APPC** function is the address of a verb control block (VCB). The VCB is a structure made up of variables that:  

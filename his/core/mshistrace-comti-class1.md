@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsHisTrace_COMTI Class"
-title: "MsHisTrace_COMTI Class1 | Microsoft Docs"
+title: "MsHisTrace_COMTI Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f9340303-8f6a-4fff-9f34-dca17dca6778
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsHisTrace_COMTI Class
 The **MsHisTrace_COMTI** class describes tracing properties for Transaction Integrator (TI).  

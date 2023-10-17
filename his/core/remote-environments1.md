@@ -1,18 +1,12 @@
 ---
 description: "Learn about the Remote Environments that contain definitions for the non-Windows host computers that receive requests from the Windows-initiated processing (WIP) components."
-title: "Remote Environments1 | Microsoft Docs"
+title: "Remote Environments1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b3773c29-f1cc-47fb-b8b4-f5437658845a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Remote Environments
 

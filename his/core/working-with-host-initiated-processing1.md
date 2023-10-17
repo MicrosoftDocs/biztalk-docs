@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Working with Host-Initiated Processing"
-title: "Working with Host-Initiated Processing1 | Microsoft Docs"
+title: "Working with Host-Initiated Processing1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a981f4b2-0393-4615-8848-7978d515dd17
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Working with Host-Initiated Processing
 The topics in this section explain how to use host-initiated processing.  

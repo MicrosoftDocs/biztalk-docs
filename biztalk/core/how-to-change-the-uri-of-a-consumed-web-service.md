@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Change the URI of a Consumed Web Service"
-title: "How to Change the URI of a Consumed Web Service | Microsoft Docs"
+title: "How to Change the URI of a Consumed Web Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web services, modifying"
-  - "Web services, consuming"
-  - "consuming [Web services]"
-  - "modifying, Web services"
-ms.assetid: 907de565-8c99-4d34-939f-fd3dba37dd11
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Change the URI of a Consumed Web Service
 After you deploy your orchestration, BizTalk Server configures a send port for each Web service that the orchestration references. By default, BizTalk uses the URL of the Web service at run time for the same URL for the imported Web service. You can change this URL using BizTalk Server Administration console.  

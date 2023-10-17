@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Node Identification and Signaling Information"
-title: "Node Identification and Signaling Information2 | Microsoft Docs"
+title: "Node Identification and Signaling Information2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9ecbefb3-639c-4769-a2c2-d0974dc3e179
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Node Identification and Signaling Information
 For information about the role an SNALink plays in node identification, see [Incoming Call Support](../core/incoming-call-support-snadis-2.md).  

@@ -1,19 +1,12 @@
 ---
-title: "TIBCO Rendezvous adapter architecture | Microsoft Docs"
+title: "TIBCO Rendezvous adapter architecture"
 description: Learn about the BizTalk Adapter for TIBCO Rendezvous works, including passing messages, in BizTalk Server 
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 174d6ceb-8e1d-4c93-827d-8155cfe47836
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Architecture of the TIBCO Rendezvous adapter
 

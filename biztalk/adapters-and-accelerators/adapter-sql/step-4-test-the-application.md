@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4: Test the Application"
-title: "Step 4: Test the Application | Microsoft Docs"
+title: "Step 4: Test the Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 488b13fa-7a71-4430-bbf5-dbf47ba55562
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Test the Application
 ![Step 4 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")  

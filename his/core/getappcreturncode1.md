@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: GetAppcReturnCode"
-title: "GetAppcReturnCode1 | Microsoft Docs"
+title: "GetAppcReturnCode1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a3abe7c1-14bc-4c02-88b2-382673187510
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # GetAppcReturnCode
 The **GetAppcReturnCode** function converts the primary and secondary return codes in the verb control block to a printable string. This function provides a standard set of error strings for use by APPC applications such as 5250 emulators.  

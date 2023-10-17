@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: SiebelClientFactory class in the Siebel adapter"
-title: "SiebelClientFactory class in the Siebel adapter | Microsoft Docs"
+title: "SiebelClientFactory class in the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SiebelClientFactory"
-  - "Data Provider for Siebel, SiebelClientFactory"
-  - "SiebelClientFactory, supported properties and methods"
-ms.assetid: f3a807d3-a030-47d8-b145-e18075ec353c
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SiebelClientFactory class in the Siebel adapter
 An ADO.NET client accesses the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] using generic ADO.NET classes and interfaces. To enable this feature, the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] inherits the **System.Data.Common.DbProviderFactory** class. The client program consumes the client as follows:  

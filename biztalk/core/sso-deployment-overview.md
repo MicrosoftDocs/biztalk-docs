@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: SSO Deployment Overview"
-title: "SSO Deployment Overview | Microsoft Docs"
+title: "SSO Deployment Overview"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSO, deploying example"
-  - "SSO, deploying"
-  - "deploying, SSO"
-  - "SSO, multiple computers"
-  - "examples, deploying"
-ms.assetid: 6eccee26-c392-41fe-97fb-3afe1685540f
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SSO Deployment Overview
 The system in this example is deployed over three domains, containing the following computers:  

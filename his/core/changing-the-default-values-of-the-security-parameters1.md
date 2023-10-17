@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Changing the Default Values of the Security Parameters"
-title: "Changing the Default Values of the Security Parameters1 | Microsoft Docs"
+title: "Changing the Default Values of the Security Parameters1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4c926357-c90b-4ba0-a582-84d822b8db0d
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Changing the Default Values of the Security Parameters
 By default, the security levels are:  

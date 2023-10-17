@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Optimizing Database Filegroups"
-title: "Optimize Database Filegroups | Microsoft Docs"
+title: "Optimize Database Filegroups"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f7dbed4d-95d6-4a41-a69e-737a6f2f5a82
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Optimizing Database Filegroups
 File input/output (I/O) contention is frequently a limiting factor, or bottleneck, in a production BizTalk Server environment. BizTalk Server is a very database intensive application and in turn, the SQL Server database used by BizTalk Server is very file I/O intensive.

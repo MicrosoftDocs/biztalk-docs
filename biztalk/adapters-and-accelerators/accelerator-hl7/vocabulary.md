@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: Vocabulary"
 title: "Vocabulary"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "messages, vocabulary"
-  - "vocabularies"
-ms.assetid: c5df05dd-4af8-4e48-8509-e692b04adf3c
-caps.latest.revision: 3
-
-
-
 ---
 # Vocabulary
 HL7 Version 2 provides some support for vocabularies for coded elements, but for the most part, provides a structure that transmits codes drawn from local coding systems.  

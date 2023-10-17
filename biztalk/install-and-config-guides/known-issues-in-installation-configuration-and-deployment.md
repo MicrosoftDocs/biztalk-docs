@@ -4,7 +4,6 @@ description: Learn about known issues around installation, configuration, and de
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
-
 ---
 
 # Known issues around installation, configuration, and deployment for BizTalk Server

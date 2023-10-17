@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IcomLUO.Receive Method"
-title: "IcomLUO.Receive Method2 | Microsoft Docs"
+title: "IcomLUO.Receive Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 411053e8-207b-43b0-a9d4-cc8a0abee8fc
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IcomLUO.Receive Method
 Receives outbound data on a LU0 session.  

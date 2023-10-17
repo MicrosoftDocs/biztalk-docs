@@ -1,19 +1,12 @@
 ---
-title: "How to Modify Host Settings | Microsoft Docs"
+title: "How to Modify Host Settings"
 description: Change BizTalk host settings in BizTalk Server Administration to improve performance and throttling
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0759b3a0-560e-4a11-92e6-9de0e15f463b
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Update BizTalk host settings
 

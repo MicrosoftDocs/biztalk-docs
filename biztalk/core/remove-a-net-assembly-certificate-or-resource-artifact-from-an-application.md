@@ -1,38 +1,12 @@
 ---
 description: "Learn more about: How to Remove a .NET Assembly, Certificate, or Other Resource Artifact from an Application"
-title: "How to Remove a .NET Assembly, Certificate, or Other Resource Artifact from an Application | Microsoft Docs"
+title: "How to Remove a .NET Assembly, Certificate, or Other Resource Artifact from an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "virtual directories, deleting"
-  - "managing [.NET assemblies], deleting"
-  - "managing [applications], COM components"
-  - "managing [applications], deleting artifcats"
-  - "managing [certificates], deleting"
-  - "deleting, binding files"
-  - "binding files, deleting"
-  - "managing, COM components"
-  - "COM components, deleting"
-  - "managing [artifacts], deleting"
-  - ".NET assemblies, deleting"
-  - "deleting, virtual directories"
-  - "deleting, definitions [BAM]"
-  - "applications, .NET assemblies"
-  - "certificates, deleting"
-  - "deleting, .NET assemblies"
-  - "deleting, artifacts"
-  - "deleting, certificates"
-ms.assetid: b84eebac-261d-495f-80cd-ddda5bb08bef
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Remove a .NET Assembly, Certificate, or Other Resource Artifact from an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to remove the following resource artifacts from a BizTalk application. Using the procedures in this topic removes the artifact from the BizTalk Management database. It does not remove the artifact from the file system, certificate store, Internet Information Services (IIS), or the Windows registry, if it exists in any of these locations. In addition, if you remove a binding file, the bindings remain unchanged – only the binding file is removed.  

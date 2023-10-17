@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using the Group Hub Page"
-title: "Using the Group Hub Page | Microsoft Docs"
+title: "Using the Group Hub Page"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 50693ccc-a3b2-4ad0-9a05-d60dab404a07
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the Group Hub Page
 Selecting the **BizTalk Group** node in the BizTalk Server Administration Console, displays the BizTalk Server Group Hub page in the details pane. The BizTalk Server Group Hub page is divided into three sections that provide an overall view of the health of your BizTalk Server system:  

@@ -1,20 +1,12 @@
 ---
 description: "Learn more about: Step 4: Submitting a 3A4 Request"
-title: "Step 4: Submitting a 3A4 Request | Microsoft Docs"
+title: "Step 4: Submitting a 3A4 Request"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "double action tutorial, submitting requests"
-ms.assetid: 2d812cbc-51bc-48d5-b0b2-3698d33664ec
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Submitting a 3A4 Request
 In this step, you prepare and submit a request using the Partner Interface Process (PIP) for a 3A4 - Request Purchase Order. This PIP enables a buyer organization to submit a purchase order request to a supplier. Generally, you request the 3A4 - Request Purchase Order after running a product availability query using the 3A2 - Request Price and Availability PIP. The 3A4 PIP is an asynchronous PIP that sends receipt acknowledgements.  

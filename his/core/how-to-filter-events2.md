@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Filter Events"
-title: "How to Filter Events2 | Microsoft Docs"
+title: "How to Filter Events2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 894bc02c-b049-437b-8ca5-287d99dd3aed
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Filter Events
 In Windows, you can specify the type of information you want the event logs to record. The information can include the following:  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Creating Receive/Send Ports"
-title: "Creating Receive-Send Ports | Microsoft Docs"
+title: "Creating Receive-Send Ports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6657c73e-6907-482e-9cb3-31a757d6932c
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Receive/Send Ports
 The steps below provide steps to create send and receive ports.  

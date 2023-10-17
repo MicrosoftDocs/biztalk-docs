@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Responder Public Process"
-title: "Responder Public Process | Microsoft Docs"
+title: "Responder Public Process"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, message flow"
-  - "messages, public processes"
-  - "public processes, message flow"
-  - "public processes, responder"
-ms.assetid: 78d83954-2998-44ac-a527-5e5858c61009
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Responder Public Process
 This public process on the responder receives the RosettaNet Implementation Framework (RNIF) message from the initiator, and responds accordingly.  

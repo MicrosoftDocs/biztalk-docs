@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Add Mass Copy Functoids to a Map"
-title: "How to Add Mass Copy Functoids to a Map | Microsoft Docs"
+title: "How to Add Mass Copy Functoids to a Map"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1cff63fc-8f34-4bd0-8501-a8401bde6349
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add Mass Copy Functoids to a Map
 The **Mass Copy** functoid enables your maps to use schemas that include **any** and **anyAttribute** elements. These elements are, in essence, wildcards provided in the XML Schema definition language to match unknown structures or sets of attributes.  

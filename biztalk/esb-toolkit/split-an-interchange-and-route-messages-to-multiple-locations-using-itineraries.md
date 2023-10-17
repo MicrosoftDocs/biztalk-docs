@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to: Split an Interchange and Route the Resulting Messages to Multiple File Locations Using Distinct Itineraries"
-title: "How to: Split an Interchange and Route the Resulting Messages to Multiple File Locations Using Distinct Itineraries | Microsoft Docs"
+title: "Split an Interchange and Route the Resulting Messages to Multiple File Locations Using Distinct Itineraries"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ccd46bee-e4a1-4846-8bde-b0460bda1e72
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to: Split an Interchange and Route the Resulting Messages to Multiple File Locations Using Distinct Itineraries
 ## Goal  

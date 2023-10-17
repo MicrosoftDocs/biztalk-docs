@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: dateTimeMask"
-title: "dateTimeMask | Microsoft Docs"
+title: "dateTimeMask"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f32c998e-06cc-48e3-9000-77d160739e82
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # dateTimeMask
 The dateTimeMask element contains a db2ToSql or sqlToDb2 to indicate the direction, and a sourceFormat and a targetFormat to specify the mapping.  

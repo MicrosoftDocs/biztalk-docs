@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Supported Configurations"
-title: "Supported Configurations | Microsoft Docs"
+title: "Supported Configurations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 36210c18-4cc1-44ff-a322-91c3c674dc47
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Supported Configurations
 Generally, the supported configurations for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Monitoring Management Pack are outlined in the following locations:

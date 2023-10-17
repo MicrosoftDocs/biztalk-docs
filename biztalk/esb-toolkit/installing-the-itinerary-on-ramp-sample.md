@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing the Itinerary On-Ramp Sample"
-title: "Installing the Itinerary On-Ramp Sample | Microsoft Docs"
+title: "Installing the Itinerary On-Ramp Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ebe08b84-dc12-4501-8677-15a32e4795a3
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing the Itinerary On-Ramp Sample
 The Itinerary On-Ramp sample depends on the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core solution, the Dynamic Resolution sample, and the Resolver Service sample. Installing the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core automatically copies and installs the core assemblies required by this sample to the correct locations. Installing the Dynamic Resolution sample and Resolver Service sample ensures that the Web services and Business Rules Engine policies used by the Itinerary On-Ramp Sample are correctly installed and configured.  

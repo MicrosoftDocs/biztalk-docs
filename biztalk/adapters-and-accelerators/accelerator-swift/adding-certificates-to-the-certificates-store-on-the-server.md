@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Adding Certificates to the Certificates Store on the Server"
-title: "Adding Certificates to the Certificates Store on the Server | Microsoft Docs"
+title: "Adding Certificates to the Certificates Store on the Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "certificates, adding to certificates store"
-  - "certificates store"
-ms.assetid: 075cfae8-dce7-46f7-9539-796f03229ea2
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adding Certificates to the Certificates Store on the Server
 Use the following steps to add certificates to the Other People folder in the Certificates (Local Computer) store on the server computer.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: System-Level Bottlenecks"
-title: "System-Level Bottlenecks | Microsoft Docs"
+title: "System-Level Bottlenecks"
 ms.custom: ""
 ms.date: "06/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0bdff435-76eb-495f-9fb6-1f1acef3921e
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # System-Level Bottlenecks
 This topic describes how to address common system-level bottlenecks that can impact the performance of a BizTalk Server solution.

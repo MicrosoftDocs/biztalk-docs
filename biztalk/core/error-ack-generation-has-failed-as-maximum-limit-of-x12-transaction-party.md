@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error-Ack generation has failed as maximum limit of X12 transaction-party"
-title: "Error-Ack generation has failed as maximum limit of X12 transaction-party | Microsoft Docs"
+title: "Error-Ack generation has failed as maximum limit of X12 transaction-party"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c78a7cef-24ae-4d09-9043-2f53c301302d
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error-Ack generation has failed as maximum limit of X12 transaction-party
 ## Details  

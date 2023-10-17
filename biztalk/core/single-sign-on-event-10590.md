@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10590"
-title: "Single Sign-On: Event 10590 | Microsoft Docs"
+title: "Single Sign-On: Event 10590"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fd8c3804-5c84-403f-881b-e4b101c2323a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10590
 ## Details  

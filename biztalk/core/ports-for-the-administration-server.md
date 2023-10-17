@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Ports for the Administration Server"
-title: "Ports for the Administration Server | Microsoft Docs"
+title: "Ports for the Administration Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ports, administration server"
-  - "administration server"
-ms.assetid: dc0094b2-5ba2-4b8f-84aa-b6232be358ee
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Ports for the Administration Server
 For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Open(STATION) OResponse"
-title: "Open(STATION) OResponse1 | Microsoft Docs"
+title: "Open(STATION) OResponse1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8c49f3b3-f6ee-4ca6-b053-2f8651f17911
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Open(STATION) OResponse
 Flow : DLC ------> NODE  

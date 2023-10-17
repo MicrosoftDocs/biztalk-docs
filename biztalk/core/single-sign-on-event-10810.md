@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10810"
-title: "Single Sign-On: Event 10810 | Microsoft Docs"
+title: "Single Sign-On: Event 10810"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0a2d22ad-d5a8-4d32-af1d-8fa7237fd7ac
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10810
 ## Details  

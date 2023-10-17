@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Processing in the Business Process Management Solution"
-title: "Processing in the Business Process Management Solution | Microsoft Docs"
+title: "Processing in the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "process management solution tutorial, processing"
-  - "processing, process management solutions"
-ms.assetid: 0b26447e-d8f1-4084-aa34-6e7f8ffccea5
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Processing in the Business Process Management Solution
 This section describes how the Business Process Management Solution works: how it processes orders, how it makes use of interrupts, and how it handles exceptions so that actions can be retried.  

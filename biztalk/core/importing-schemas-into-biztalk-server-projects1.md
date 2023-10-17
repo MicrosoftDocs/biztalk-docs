@@ -1,24 +1,12 @@
 ---
 description: "Learn how to import JD Edwards OneWorld schemas into a BizTalk Server project."
-title: "Importing Schemas into BizTalk Server Projects1 | Microsoft Docs"
+title: "Importing Schemas into BizTalk Server Projects1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "importing schemas"
-  - "orchestration variables, messages"
-  - "schemas, importing into BizTalk Server"
-  - "orchestration types, port types"
-ms.assetid: fa640195-a735-4201-a893-48f3405ddcb5
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Import Schemas into BizTalk Server Projects
 

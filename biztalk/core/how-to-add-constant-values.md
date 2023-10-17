@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Add Constant Values"
-title: "How to Add Constant Values | Microsoft Docs"
+title: "How to Add Constant Values"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f46bf66e-caf2-4352-930f-c3c43a5717c3
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add Constant Values
 When testing maps, you will sometimes want to set constant values for use during the test.  

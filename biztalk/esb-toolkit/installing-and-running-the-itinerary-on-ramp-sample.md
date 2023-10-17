@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing and Running the Itinerary On-Ramp Sample"
-title: "Installing and Running the Itinerary On-Ramp Sample | Microsoft Docs"
+title: "Installing and Running the Itinerary On-Ramp Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 85651d6e-2311-45d4-825a-c19323dbbdb2
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing and Running the Itinerary On-Ramp Sample
 The Itinerary On-Ramp sample demonstrates how you can configure the ESB itinerary properties and run one-way and request-response messaging scenarios, such as the following:  

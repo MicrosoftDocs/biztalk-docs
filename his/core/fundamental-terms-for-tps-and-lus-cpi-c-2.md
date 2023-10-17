@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Fundamental Terms for TPs and LUs (CPI-C)"
-title: "Fundamental Terms for TPs and LUs (CPI-C)2 | Microsoft Docs"
+title: "Fundamental Terms for TPs and LUs (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1da98197-7874-41d7-a2e0-0e4f61c4d6eb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Fundamental Terms for TPs and LUs (CPI-C)
 The following terms describe some fundamental characteristics of transaction programs (TPs) communicating through logical units (LUs):  

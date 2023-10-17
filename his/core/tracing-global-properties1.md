@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Tracing Global Properties"
-title: "Tracing Global Properties1 | Microsoft Docs"
+title: "Tracing Global Properties1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "trace_tracing_global_properties_tab"
-ms.assetid: 7ab136bb-1a8c-430e-b460-2563404cd8fb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Tracing Global Properties
 The **Tracing Global Properties** tab has several items that can be modified to adjust how Trace runs. These items include:  

@@ -1,31 +1,12 @@
 ---
 description: "Learn more about: Runtime Validation for the Orchestration Engine"
-title: "Runtime Validation for the Orchestration Engine | Microsoft Docs"
+title: "Runtime Validation for the Orchestration Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "validating, assemblies"
-  - "orchestrations, validating"
-  - "validating, orchestration engine"
-  - "schemas, validating"
-  - "correlations, validating"
-  - "validating, schemas"
-  - "orchestration engine, runtime validation"
-  - "assemblies, validating"
-  - "validating, correlations"
-  - "validating, orchestrations"
-  - "validating"
-ms.assetid: f6085889-05d6-4eba-a528-9d034c4e4225
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Runtime Validation for the Orchestration Engine
 You can configure the orchestration engine to perform various runtime validations that can help you test your orchestration and diagnose configuration or data errors that might arise.  

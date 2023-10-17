@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Common Schema Collections for the Host File System"
-title: "Common Schema Collections for the Host File System1 | Microsoft Docs"
+title: "Common Schema Collections for the Host File System1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c3721784-6aa7-464d-b3c8-488c29ba3abe
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Common Schema Collections for the Host File System
 The common schema collection is the schema collection that is implemented by the Managed Provider for Host Files. You can query the managed provider to determine the list of supported schema collections by calling the `GetSchema` method with no arguments, or with the schema collection name "MetaDataCollections". This returns a `DataTable` object with a list of the supported schema collections, the number of restrictions that they each support, and the number of identifier parts that they use.  

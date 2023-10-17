@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: A failure occurred in processing X12 message on send port: No Party with name"
-title: "A failure occurred in processing X12 message on send port: No Party with name | Microsoft Docs"
+title: "A failure occurred in processing X12 message on send port: No Party with name"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: af059a04-3b7c-48e2-a3bf-48ad62deb139
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # A failure occurred in processing X12 message on send port: No Party with name
 ## Details  

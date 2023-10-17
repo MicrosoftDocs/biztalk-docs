@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Manually configure a physical port binding to the SAP adapter"
-title: "Manually configure a physical port binding to the SAP adapter | Microsoft Docs"
+title: "Manually configure a physical port binding to the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, sending messages to the SAP system"
-  - "physical port binding, manually configuring"
-  - "deploying, receiving messages from the SAP system"
-ms.assetid: c4f547aa-5514-4ca9-809b-d8d395de419c
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Manually configure a physical port binding to the SAP adapter
 Configure the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as a WCF custom binding by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. 

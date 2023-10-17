@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On and BizTalk Adapter for PeopleSoft Enterprise"
-title: "Single Sign-On and BizTalk Adapter for PeopleSoft Enterprise | Microsoft Docs"
+title: "Single Sign-On and BizTalk Adapter for PeopleSoft Enterprise"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "processing HTTP requests"
-  - "Single Sign-On, using with the adapter"
-  - "HTTP requests, processing"
-ms.assetid: d8ad75f1-a83f-4722-a43f-50dc95df2f9d
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On and BizTalk Adapter for PeopleSoft Enterprise
 When you use Single Sign-On (SSO) with Microsoft BizTalk Adapter for PeopleSoft Enterprise, the adapter obtains the credentials from the SSO Credentials database; therefore, you do not have to enter the logon credentials for the server system in the **Transport Properties** dialog box.  

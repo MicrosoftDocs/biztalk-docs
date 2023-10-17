@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Configuring Certificates Imported Using MMC"
-title: "Configuring Certificates Imported Using MMC | Microsoft Docs"
+title: "Configuring Certificates Imported Using MMC"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "decryption certificates"
-  - "certificates, decryption certificates"
-  - "certificates, signing certificates"
-  - "importing certificates"
-  - "signing certificates"
-  - "certificates, importing"
-ms.assetid: 64dbfbcf-6026-4c68-a93a-f483ec52deac
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Certificates Imported Using MMC
 After you have imported certificates using the Certificates snap-in for the Microsoft Management Console (MMC), you must configure their use. This requires configuring the BizTalk Group, the BizTalk Host and Isolated Host service accounts, Partner Interface Processes (PIPs), trading partner agreements, and partners. You must perform the following steps:  

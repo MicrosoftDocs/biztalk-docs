@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating and Managing Remote Environments with TI Manager"
-title: "Creating and Managing Remote Environments with TI Manager1 | Microsoft Docs"
+title: "Creating and Managing Remote Environments with TI Manager1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bcbe82f3-4736-40f8-9767-5df2370d77b4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Creating and Managing Remote Environments with TI Manager
 Use Transaction Integrator (TI) Manager to create and manage remote environments (RE) for each mainframe region.  

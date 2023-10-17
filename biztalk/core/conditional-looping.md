@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Conditional Looping"
-title: "Conditional Looping | Microsoft Docs"
+title: "Conditional Looping"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Looping functoids, conditional"
-  - "Equal functoids"
-  - "maps, conditional looping"
-ms.assetid: eb16efb8-b12c-47d6-afc9-579fc85ea59c
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Conditional Looping
 You can add conditions to a **Looping** functoid by linking the output of a **Looping** functoid and a **Logical** functoid to the same destination record. The destination records are created only when the logical condition is met.  

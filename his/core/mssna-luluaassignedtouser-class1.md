@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_LuLuaAssignedToUser Class"
-title: "MsSna_LuLuaAssignedToUser Class1 | Microsoft Docs"
+title: "MsSna_LuLuaAssignedToUser Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 58518a79-a1c3-45f9-9394-65ab3176e740
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_LuLuaAssignedToUser Class
 Associates an LUA LU with a user.  

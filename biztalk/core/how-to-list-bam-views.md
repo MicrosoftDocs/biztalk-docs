@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to List BAM Views"
-title: "How to List BAM Views | Microsoft Docs"
+title: "How to List BAM Views"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM, views"
-  - "Get-Views command [BAM]"
-  - "managing [BAM definitions], listing views"
-ms.assetid: 8e9624a4-9ce5-4fdb-a044-4300e902e4d3
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to List BAM Views
 Administrators use the **get-views** command to list the BAM views deployed in the BAM Primary Import database on the computer on which the command is run.  

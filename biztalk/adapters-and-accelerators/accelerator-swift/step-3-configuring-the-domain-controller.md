@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Step 3: Configuring the Domain Controller"
-title: "Step 3: Configuring the Domain Controller | Microsoft Docs"
+title: "Step 3: Configuring the Domain Controller"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring, domain controller"
-  - "domain controller"
-ms.assetid: 1c513225-378b-4e57-ba29-7532b6cbcc9a
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Configuring the Domain Controller
 This section describes how to configure the domain controller in your [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] deployment. Specifically, this section describes how to install and configure [!INCLUDE[btsAD](../../includes/btsad-md.md)] by doing the following:  

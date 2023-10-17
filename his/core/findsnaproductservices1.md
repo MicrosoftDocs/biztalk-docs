@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: FindSNAProductServices"
-title: "FindSNAProductServices1 | Microsoft Docs"
+title: "FindSNAProductServices1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f78572a5-a5b6-4920-bf91-170ba54c8b73
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # FindSNAProductServices
 The **FindSNAProductServices** function enumerates all instances of a product. It returns lists of information for the instances that can be used in the script. This function can also be used to determine whether or not a product exists in the registry by analyzing the return status.  

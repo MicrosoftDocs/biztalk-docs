@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: SNA Service Folder"
-title: "SNA Service Folder1 | Microsoft Docs"
+title: "SNA Service Folder1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_Node"
-ms.assetid: e2067e95-f029-48d2-8a65-f22bdf06f144
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNA Service Folder
 This folder contains the SNA service installed on this [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer. Each Host Integration Server computer can have a maximum of four SNA services installed and active at one time.  

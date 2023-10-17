@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Configure the connection URI for the Oracle Database adapter"
-title: "Configure the connection URI for the Oracle Database adapter | Microsoft Docs"
+title: "Configure the connection URI for the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "connection URI, specifying at design time"
-  - "connection URI, specifying at run time"
-ms.assetid: 9f302b67-0bcc-44d1-9517-10d402873540
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure the connection URI for the Oracle Database adapter
 A connection URI is a connection string that contains parameters required to connect to the Oracle database. While using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], you must specify the URI to connect to the Oracle database to generate the metadata. While configuring an orchestration using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you must specify the URI to connect to the Oracle database to perform operations.  

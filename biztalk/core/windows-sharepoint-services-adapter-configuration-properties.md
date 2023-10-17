@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Windows Sharepoint Services Adapter Configuration Properties"
-title: "Windows Sharepoint Services Adapter Configuration Properties | Microsoft Docs"
+title: "Windows Sharepoint Services Adapter Configuration Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "code samples, Windows SharePoint Services adapters"
-  - "Windows SharePoint Services adapters, properties"
-  - "receive locations, adapters"
-  - "Windows SharePoint Services adapters, code sample"
-  - "Windows SharePoint Services adapters, send ports"
-  - "Windows SharePoint Services adapters, receive locations"
-  - "Windows SharePoint Services adapters"
-  - "send ports, adapters"
-ms.assetid: 20b08959-75d3-4613-9cea-582ac2813415
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Windows Sharepoint Services Adapter Configuration Properties
 The following table lists the configuration properties that you can set for a Windows Sharepoint Services adapter receive location:  

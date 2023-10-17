@@ -1,19 +1,12 @@
 ---
-title: "SWIFT error codes in BizTalk Server | Microsoft Docs"
+title: "SWIFT error codes in BizTalk Server"
 description: View the class and validation types for the SWIFT Accelerator in BizTalk Server
 ms.custom: ""
 ms.date: "08/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 03699986-965b-4a28-ab2e-09f110fb4db6
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SWIFT Error Codes
 SWIFT defines many network-imposed validations against the set of financial (FIN) messages. Each validation relates to a type of check against the contents of the message, and is associated with a three-character error code. The first character of the error code implies the class of the problem detected, and is a letter. The remaining two characters denote the detail of the error (when combined with the class) and always appear as a two-digit code.

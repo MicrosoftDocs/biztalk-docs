@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_Connection Class"
-title: "MsSna_Connection Class2 | Microsoft Docs"
+title: "MsSna_Connection Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2265e8a5-4202-4133-82df-cb53363f3d94
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_Connection Class
 Base class for SNA connection.  

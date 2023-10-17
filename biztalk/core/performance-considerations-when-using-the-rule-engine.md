@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Performance Considerations When Using the Rule Engine"
-title: "Performance Considerations When Using the Rule Engine | Microsoft Docs"
+title: "Performance Considerations When Using the Rule Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9e9020c2-5152-40f6-940b-d4ce4081f069
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Performance Considerations When Using the Rule Engine
 This topic discusses how the rule engine performs in various scenarios and with different values for the configuration/tuning parameters.  

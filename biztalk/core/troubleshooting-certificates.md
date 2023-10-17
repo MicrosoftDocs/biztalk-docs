@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting Certificates"
-title: "Troubleshooting Certificates | Microsoft Docs"
+title: "Troubleshooting Certificates"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b7013db6-ebf7-4294-a072-e9b5b0ad0de2
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting Certificates
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can make use of public key infrastructure (PKI) digital certificates for purposes of document encryption and decryption, document signing and verification (non-repudiation) and for party resolution. This topic describes various certification usage scenarios and configuration options and provides some general guidelines for using digital certificates with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

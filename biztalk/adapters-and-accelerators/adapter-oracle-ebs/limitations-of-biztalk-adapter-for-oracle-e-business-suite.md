@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Limitations of BizTalk Adapter for Oracle E-Business Suite"
-title: "Limitations of BizTalk Adapter for Oracle E-Business Suite | Microsoft Docs"
+title: "Limitations of BizTalk Adapter for Oracle E-Business Suite"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 149cee03-43cd-4cb3-a937-6565f5e96ce5
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Limitations of BizTalk Adapter for Oracle E-Business Suite
 ## General Limitations  

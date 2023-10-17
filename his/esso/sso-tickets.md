@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SSO Tickets"
-title: "SSO Tickets | Microsoft Docs"
+title: "SSO Tickets"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 50c09c4d-7a21-481f-90fd-5ad5495ae1b5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SSO Tickets
 In an enterprise environment, where a user interacts with various systems and applications, it is very likely that the environment does not maintain the user context through multiple processes, products, and computers. This user context is crucial to providing single sign-on capabilities because it is necessary to verify who initiated the original request. To overcome this problem, Enterprise Single Sign-On (SSO) provides an SSO ticket (not a Kerberos ticket) that applications can use to obtain the credentials that correspond to the user who made the original request. By default, SSO tickets are not enabled. For more information about enabling tickets, see [How to Configure the Enterprise Single Sign-On Tickets](../esso/how-to-configure-the-enterprise-single-sign-on-tickets.md).  

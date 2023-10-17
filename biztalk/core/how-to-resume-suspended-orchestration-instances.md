@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: How to Resume Suspended Orchestration Instances"
-title: "How to Resume Suspended Orchestration Instances | Microsoft Docs"
+title: "How to Resume Suspended Orchestration Instances"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "instances, resuming [HAT]"
-  - "HAT, resuming orchestrations"
-  - "HAT, resuming pipelines"
-  - "orchestrations, resuming"
-  - "resuming, pipelines"
-  - "resuming, orchestrations"
-  - "HAT, debug mode"
-ms.assetid: da133183-68d9-48d1-9601-8f6d4d5b8898
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Resume Suspended Orchestration Instances
 If you have suspended orchestration instances that are listed as "suspended resumable," you can attempt to resume the orchestration instance from the query results or preview pane. Resuming the orchestration instance will only succeed if the underlying problem that caused the orchestration instance to become suspended has also been fixed.  

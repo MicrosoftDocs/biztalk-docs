@@ -1,19 +1,12 @@
 ---
 description: "Learn how to complete and run a project in BizTalk Explorer."
-title: "Step 3: Complete and Run the Project2 | Microsoft Docs"
+title: "Step 3: Complete and Run the Project2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 04e5b82f-e88c-4a2c-bdda-f986725458e3
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Complete and Run the Project
 

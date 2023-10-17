@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Schema Dependency Not Valid"
-title: "Error - Schema Dependency Not Valid | Microsoft Docs"
+title: "Error - Schema Dependency Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.schemaDependencyNotValid"
-ms.assetid: 431278f0-6cd1-4b3f-8d87-16af4991d354
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Schema Dependency Not Valid
 **Error Code**  

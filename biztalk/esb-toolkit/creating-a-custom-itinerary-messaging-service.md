@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating a Custom Itinerary Messaging Service"
-title: "Creating a Custom Itinerary Messaging Service | Microsoft Docs"
+title: "Creating a Custom Itinerary Messaging Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2de44c21-68ca-4cf1-a117-bcb35af1b4a9
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating a Custom Itinerary Messaging Service
 The itinerary framework that is part of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] supports execution of itinerary steps using classes implementing the **IMessagingService** interface that execute itinerary messaging services. You can implement a custom messaging service when you want the service to be responsible for the following:  

@@ -5,15 +5,8 @@ ms.custom: biztalk-2020
 ms.date: 12/09/2020
 ms.prod: biztalk-server
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid: 72f2a5ac-a1f6-4bdb-8c29-8267ede75b17
-caps.latest.revision: 12
-author: MandiOhlinger
-ms.author: mandia
-manager: mijacobs
 ---
 
 # Install and use the Logic App Adapter on BizTalk Server

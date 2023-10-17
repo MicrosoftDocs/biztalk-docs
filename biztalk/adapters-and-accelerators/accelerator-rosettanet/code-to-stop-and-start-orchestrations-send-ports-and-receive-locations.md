@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically"
-title: "Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically | Microsoft Docs"
+title: "Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, examples"
-  - "examples, orchestrations"
-  - "send ports, examples"
-  - "SDK samples, send ports"
-  - "examples, send ports"
-  - "SDK samples, orchestrations"
-  - "receive locations"
-  - "SDK samples, receive locations"
-  - "examples, receive locations"
-ms.assetid: 1c06e14d-44ec-4292-a2c2-ee2c8d07d948
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically
 This topic provides sample code for programmatically stopping and starting orchestrations, send ports, and receive locations. You can perform these actions on all orchestrations, send ports, and receive locations as a group or individually. You can include this code in a program to perform these actions dynamically. You perform these actions in the graphical user interface at design time in Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], or at run time in the BizTalk Administration console.  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: BizTalk Groups"
-title: "BizTalk Groups | Microsoft Docs"
+title: "BizTalk Groups"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Management database, groups"
-  - "groups"
-  - "groups, Management database"
-  - "groups, about groups"
-ms.assetid: 197cbcf6-c722-4cbb-9642-3cb8a34757e2
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Groups
 

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Read about the BizTalk Adapter for Oracle E-Business Suite binding properties"
-title: "Read about the BizTalk Adapter for Oracle E-Business Suite binding properties | Microsoft Docs"
+title: "Read about the BizTalk Adapter for Oracle E-Business Suite binding properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 767907b3-59e6-4740-bc22-41bed7d88bf1
-caps.latest.revision: 56
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Read about the BizTalk Adapter for Oracle E-Business Suite binding properties
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] surfaces several binding properties. By setting these properties, you can control some of the adapter's behavior. This section describes the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] binding properties. It also shows how you can access them by using .NET programming or by setting properties on a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] physical port binding.

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting BizTalk Server Administration"
-title: "Troubleshooting BizTalk Server Administration | Microsoft Docs"
+title: "Troubleshooting BizTalk Server Administration"
 ms.custom: ""
 ms.date: "11/30/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: "niklase"
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9dfb56b0-352f-4012-b030-087bbcfe09d4
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting BizTalk Server Administration
 This section provides a centralized location for information about common problems encountered while using the BizTalk Server Administration console.

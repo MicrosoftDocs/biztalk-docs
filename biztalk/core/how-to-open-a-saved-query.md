@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: How to Open a Saved Query"
-title: "How to Open a Saved Query | Microsoft Docs"
+title: "How to Open a Saved Query"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Query tab [Administration Console], opening"
-ms.assetid: d1bb7174-edbb-4181-8ebd-a46998033701
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Open a Saved Query
 You can open a saved query directly from the folder where the query is saved or from within the BizTalk Server Administration Console. When you open a query directly from a folder, it opens the appropriate BizTalk Server group in the Administration Console. When you open a query from within the Administration Console, you have the option of running the query on any of the groups listed.  

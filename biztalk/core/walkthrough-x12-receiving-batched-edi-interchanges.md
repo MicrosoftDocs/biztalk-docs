@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough (X12): Receiving Batched EDI Interchanges"
-title: "Walkthrough (X12): Receiving Batched EDI Interchanges | Microsoft Docs"
+title: "Walkthrough (X12): Receiving Batched EDI Interchanges"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1f6e6e96-39ec-469d-a845-1bfdce6cc0bf
-caps.latest.revision: 34
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough (X12): Receiving Batched EDI Interchanges
 This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDI batches using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This solution demonstrates two ways to receive a batched EDI interchange:  

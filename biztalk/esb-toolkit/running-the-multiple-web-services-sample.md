@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the Multiple Web Services Sample"
-title: "Running the Multiple Web Services Sample | Microsoft Docs"
+title: "Running the Multiple Web Services Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b201c7c3-213a-4009-8872-5a4c1cbb8195
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the Multiple Web Services Sample
 The Multiple Web Services sample uses the Windows Forms test client application provided with the Itinerary On-Ramp sample.  

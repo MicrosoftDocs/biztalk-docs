@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Zoned Decimal or Packed Decimal Data Types"
-title: "Zoned Decimal or Packed Decimal Data Types1 | Microsoft Docs"
+title: "Zoned Decimal or Packed Decimal Data Types1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ab963709-3ca8-4c5d-927f-8b801cb9326b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Zoned Decimal or Packed Decimal Data Types
 When it imports a host data declaration, Transaction Integrator (TI) converts Zoned Decimal (COBOL numeric PIC with DISPLAY or no USAGE, or RPG S data type) or Packed Decimal data types to Decimal or Currency Automation data types, respectively. Depending on the development application you are using, there might not be an equivalent for Decimal or Currency data types. If this is the case, use one of the following techniques to ensure that the data type works correctly with TI:  

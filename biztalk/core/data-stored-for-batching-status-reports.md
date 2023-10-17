@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Data Stored for Batching Status Reports"
-title: "Data Stored for Batching Status Reports | Microsoft Docs"
+title: "Data Stored for Batching Status Reports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d55aa0e1-095f-434e-8530-f1a946ad4430
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Data Stored for Batching Status Reports
 When the **Turn ON Reporting** property is selected for an agreement, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will store the status of each batching instance. This property is in available in the **General Properties** page of the **General** tab in the **Agreement Properties** dialog box. The status can be any of the following:  

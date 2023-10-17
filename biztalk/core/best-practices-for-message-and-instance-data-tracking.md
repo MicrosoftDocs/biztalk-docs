@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Best Practices for Message and Instance Data Tracking"
-title: "Best Practices for Message and Instance Data Tracking | Microsoft Docs"
+title: "Best Practices for Message and Instance Data Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "HAT, best practices"
-  - "best practices, HAT"
-ms.assetid: 2ac5c87b-2059-4912-9cec-2ae4eaac56df
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Best Practices for Message and Instance Data Tracking
 Review the following best practices for using historical and tracked data.  

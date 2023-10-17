@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Create Business Rules Using the Business Rule Composer"
-title: "Create Rules Using the Business Rule Composer | Microsoft Docs"
+title: "Create Rules Using the Business Rule Composer"
 ms.custom: ""
 ms.date: "02/01/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0600a2b2-36a2-4496-8ba1-c5f6e2fa4760
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create Business Rules Using the Business Rule Composer
 

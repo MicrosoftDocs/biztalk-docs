@@ -1,19 +1,12 @@
 ---
 description: "Learn how to run Single Sign-On (SSO) projects from Internet Explorer."
-title: "Run SSO Projects with TIBCO EMS | Microsoft Docs"
+title: "Run SSO Projects with TIBCO EMS"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a44a96e8-c83d-42a7-ad25-e2fa48804712
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Run Single Sign-On (SSO) Projects
 

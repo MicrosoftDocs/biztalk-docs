@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure Bindings for an Orchestration"
-title: "Configure Bindings for an Orchestration | Microsoft Docs"
+title: "Configure Bindings for an Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9724a3a0-c217-4f98-b6d9-21f788ce50ba
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Bindings for an Orchestration
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Performing Weekly Maintenance Checks"
-title: "Checklist: Performing Weekly Maintenance Checks | Microsoft Docs"
+title: "Checklist: Performing Weekly Maintenance Checks"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b13e43ba-4bac-4d4b-aaf8-46d60c0561bf
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Performing Weekly Maintenance Checks
 

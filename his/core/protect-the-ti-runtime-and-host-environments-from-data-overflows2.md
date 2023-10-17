@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Protect the TI Runtime and Host Environments from Data Overflows"
-title: "Protect the TI Runtime and Host Environments from Data Overflows2 | Microsoft Docs"
+title: "Protect the TI Runtime and Host Environments from Data Overflows2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 13fa9b00-c95f-457f-84d4-7eb86c7741c1
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Protect the TI Runtime and Host Environments from Data Overflows
 To prevent an attacker from using inbound, unbounded recordsets to launch a denial of service attack on either the Transaction Integrator (TI) runtime or host environment, you should:  

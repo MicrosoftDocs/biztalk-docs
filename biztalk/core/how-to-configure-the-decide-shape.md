@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Decide Shape"
-title: "How to Configure the Decide Shape | Microsoft Docs"
+title: "How to Configure the Decide Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Decide shape [Orchestration Designer]"
-  - "Decide shape [Orchestration Designer], configuring"
-  - "Decide shape [Orchestration Designer], branching"
-  - "configuring [Orchestration Designer], Decide shapes"
-ms.assetid: 70910861-3834-49e7-ab1e-d62730ea2a95
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Decide Shape
 ![Image that represents the Decide shape.](../core/media/ebiz-orch-decide.gif "ebiz_orch_decide")  

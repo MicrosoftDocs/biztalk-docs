@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Test Scenario Server Architecture"
-title: "Test Scenario Server Architecture | Microsoft Docs"
+title: "Test Scenario Server Architecture"
 ms.custom: ""
 ms.date: "12/09/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1e3afb57-c3ff-4314-9605-cf9fe936e63f
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Test Scenario Server Architecture
 This topic provides an overview of the flow of messages between servers during load testing and the distinct server architectures against which the load test was performed.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Data Clients"
-title: "Data Clients | Microsoft Docs"
+title: "Data Clients"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b035d34b-d649-49eb-8ba3-ef7672742161
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Data Clients
 For the most recent version of Microsoft Host Integration Server documentation, see [https://msdn.microsoft.com/library/gg241192.aspx](../index.yml).  

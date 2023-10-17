@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server"
-title: "ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server | Microsoft Docs"
+title: "ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d8def133-cbe1-4648-ae41-6b8ce6640cb3
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes generic SQL Server operations such as **ExecuteNonQuery**, **ExecuteReader**, and **ExecuteScalar**. You can use these operations to execute any SQL statement on a SQL Server database. These operations differ based on the kind of response you get for the SQL statement. For more information about how the adapter supports these operations, see [Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md).  

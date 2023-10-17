@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Use REDEFINES in COBOL"
-title: "How to Use REDEFINES in COBOL1 | Microsoft Docs"
+title: "How to Use REDEFINES in COBOL1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f419b19a-ed95-4c59-a7ec-d216379b85e5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Use REDEFINES in COBOL
 The COBOL import process in Transaction Integrator (TI) Project recognizes the REDEFINES clause in a data description entry and correctly associates the redefining entries with the redefined entry. You must select one of the redefined or redefining clauses as the entry that represents the data that will be transmitted.  

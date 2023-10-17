@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: 0C4 Request to 0C4 Response Map Sample"
-title: "0C4 Request to 0C4 Response Map Sample | Microsoft Docs"
+title: "0C4 Request to 0C4 Response Map Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 21084807-3d96-45e8-b949-032006a13cab
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # 0C4 Request to 0C4 Response Map Sample
 The _0C4RequestMessageTo0C4ResponseMessage.btm sample demonstrates how you can map a 0C4 request message to a 0C4 response message.  

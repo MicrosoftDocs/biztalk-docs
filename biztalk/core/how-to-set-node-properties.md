@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Set Node Properties"
-title: "How to Set Node Properties | Microsoft Docs"
+title: "How to Set Node Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c0c79eac-d9ba-45e2-a6e9-770b2bcb2067
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Set Node Properties
 After inserting a node into a BizTalk schema, you will often need to change the properties of that node from their default values. Each type of node has a distinct set of properties, and within one of those sets, the settings of one property can affect the availability of other properties. For example, before setting the **Default Wrap Character** property of the **Schema** node, you must set the **Default Wrap Character Type** property to either **Character** or **Hexadecimal**, thereby establishing the format in which you intend to represent the former property. Further, neither of these properties is available, nor is the entire **Parse** property category to which they belong, unless **Flat File Extension** is enabled by using the **Schema Editor Extensions** property.  

@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Duplicate Property Field Promotion"
-title: "Error - Duplicate Property Field Promotion | Microsoft Docs"
+title: "Error - Duplicate Property Field Promotion"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.dupPropFieldPromo"
-ms.assetid: 59ac55c3-7613-493c-85a3-3965c250a3bb
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Duplicate Property Field Promotion
 **Error Code**  

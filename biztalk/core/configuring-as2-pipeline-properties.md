@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Configuring AS2 Pipeline Properties"
-title: "Configuring AS2 Pipeline Properties | Microsoft Docs"
+title: "Configuring AS2 Pipeline Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edir2.AS2.pipeline.properties"
-ms.assetid: 7faf6b05-710a-4d00-8c77-590ce9d9f962
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring AS2 Pipeline Properties
 Pipeline properties are used in processing an incoming or outgoing AS2 message when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has not been able to determine the agreement that resolves to the sent or received interchange.  

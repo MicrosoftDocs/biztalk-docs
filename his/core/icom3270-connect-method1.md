@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Icom3270.connect Method"
-title: "Icom3270.connect Method1 | Microsoft Docs"
+title: "Icom3270.connect Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 828a297c-7bb6-47a2-aa1e-3aa558c92318
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Icom3270.connect Method
 The connect method connects a com3270 client to an existing session.  

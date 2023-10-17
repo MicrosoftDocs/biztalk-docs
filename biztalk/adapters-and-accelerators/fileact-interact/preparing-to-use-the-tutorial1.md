@@ -1,19 +1,12 @@
 ---
 description: "Learn how to prepare for using the A4SWIFT adapter end-to-end tutorial."
-title: "Preparing to Use the Tutorial1 | Microsoft Docs"
+title: "Preparing to Use the Tutorial1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d4a792b2-8351-4ae8-9d7c-75420c00af03
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Preparing to Use the Tutorial
 

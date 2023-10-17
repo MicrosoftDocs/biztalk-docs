@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Registering an Adapter"
-title: "Registering an Adapter | Microsoft Docs"
+title: "Registering an Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bc85b96e-7b7b-4131-88ec-87b419a61bc2
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Registering an Adapter
 If you are developing a custom adapter, you can register it with BizTalk Server by modifying and running one of the registry files included with the sample file adapter in the software development kit (SDK). Or, you can use the Adapter Registry Wizard to create a registry file. This wizard is located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Utilities\AdapterRegistryWizard folder.  

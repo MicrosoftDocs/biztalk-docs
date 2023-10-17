@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Send-XID"
-title: "Send-XID1 | Microsoft Docs"
+title: "Send-XID1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1a807798-e4df-4694-8b77-45df2519d5d0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Send-XID
 Flow : NODE ------> DLC (link connection)  

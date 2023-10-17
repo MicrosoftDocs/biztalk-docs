@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Observations and Recommendations"
-title: "Observations and Recommendations | Microsoft Docs"
+title: "Observations and Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 88289080-1a59-4ffc-a0b2-312ec21940c2
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Observations and Recommendations
 ## Test Results Summary

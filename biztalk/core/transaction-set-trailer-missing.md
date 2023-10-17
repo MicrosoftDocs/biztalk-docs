@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Transaction Set Trailer Missing"
-title: "Transaction Set Trailer Missing | Microsoft Docs"
+title: "Transaction Set Trailer Missing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 07753300-fe47-47a6-a947-6abec10c1c90
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Transaction Set Trailer Missing
 ## Details  

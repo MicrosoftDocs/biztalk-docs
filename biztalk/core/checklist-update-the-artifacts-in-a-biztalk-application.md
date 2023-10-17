@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Checklist: Update the Artifacts in a BizTalk Application"
-title: "Checklist: Update the Artifacts in a BizTalk Application | Microsoft Docs"
+title: "Checklist: Update the Artifacts in a BizTalk Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, redeploying"
-  - "updating, applications"
-  - "redeploying"
-  - "checklists, applications"
-  - "updating, checklists"
-  - "updating"
-  - "applications, updating"
-  - "applications, redeploying"
-  - "applications, checklists"
-  - "checklists, redeploying"
-ms.assetid: 07ea4a2b-4ada-4d04-9eec-604b63b77415
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Update the Artifacts in a BizTalk Application
 Follow the steps in this checklist if you want to change or update one or more artifacts in an application that has already been deployed, and then redeploy the application.  

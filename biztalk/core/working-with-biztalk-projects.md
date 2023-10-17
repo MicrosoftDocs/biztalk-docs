@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Working with BizTalk Projects"
-title: "Working with BizTalk Projects | Microsoft Docs"
+title: "Working with BizTalk Projects"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "projects"
-ms.assetid: 694714d2-8f81-47b3-b03a-2ee6235a5e09
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Working with BizTalk Projects
 While many of the principles of creating an application with the BizTalk project system are the same as those of creating applications with other project systems available in Microsoft Visual Studio, there are a few differences, such as the types of project build configurations. This section describes some of the tasks that you might perform when creating an application that runs on Microsoft BizTalk Server.  

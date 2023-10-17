@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: DLC Information Transfer"
-title: "DLC Information Transfer2 | Microsoft Docs"
+title: "DLC Information Transfer2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 50deaf5e-0150-4fba-9a5e-38aa1fa13d9c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # DLC Information Transfer
 When the local node has opened the LINK and STATION LPI connections and received a [Station-Contacted](./station-contacted1.md) message from the SNALink for a remote station, it can exchange data using the data link control (DLC) interface with the physical unit (PU) and associated logical units (LUs) at the remote station.  

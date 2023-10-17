@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Send the Request Message to SQL Server and Receive Response"
-title: "Step 2: Send the Request Message to SQL Server and Receive Response | Microsoft Docs"
+title: "Step 2: Send the Request Message to SQL Server and Receive Response"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 864d2174-d54b-4383-92bf-f6808a2a904b
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Send the Request Message to SQL Server and Receive Response
 ![Step 2 of 2](../../adapters-and-accelerators/adapter-sql/media/step-2of2.gif "Step_2of2")  

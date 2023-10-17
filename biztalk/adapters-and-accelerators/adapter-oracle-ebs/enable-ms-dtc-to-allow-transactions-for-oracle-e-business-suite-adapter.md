@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Enable MS distributed transaction coordinator to allow transactions for Oracle E-Business Suite"
-title: "Enable MS distributed transaction coordinator to allow transactions for Oracle E-Business Suite | Microsoft Docs"
+title: "Enable MS distributed transaction coordinator to allow transactions for Oracle E-Business Suite"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 634538e5-7292-4b3f-85b0-c6db86d0dbd2
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Enable MS distributed transaction coordinator to allow transactions for Oracle E-Business Suite
 Configure MSDTC before you start creating applications that use the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  

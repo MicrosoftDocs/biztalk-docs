@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Field Attribute Nodes"
-title: "Field Attribute Nodes | Microsoft Docs"
+title: "Field Attribute Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9e964c07-53e5-473f-84f2-05af4796cbbe
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Field Attribute Nodes
 

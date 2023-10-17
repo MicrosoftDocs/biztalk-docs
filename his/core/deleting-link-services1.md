@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Deleting Link Services"
-title: "Deleting Link Services1 | Microsoft Docs"
+title: "Deleting Link Services1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8e531b3b-ba52-4123-9141-474379e3a0bb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Deleting Link Services
 As with other link services, you can delete an IP-DLC link service in the MMC snap-in.  

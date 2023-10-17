@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Nil Value Functoid"
-title: "Nil Value Functoid | Microsoft Docs"
+title: "Nil Value Functoid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d0b7fdcc-f77c-4f6d-958f-a4978d94fc73
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Nil Value Functoid
 

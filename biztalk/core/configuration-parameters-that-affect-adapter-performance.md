@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuration Parameters that Affect Adapter Performance"
-title: "Configuration Parameters that Affect Adapter Performance | Microsoft Docs"
+title: "Configuration Parameters that Affect Adapter Performance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 90bbb9fb-0b31-45f0-a54c-7b2025e653b9
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuration Parameters that Affect Adapter Performance
 This section describes configuration settings that can affect the performance of BizTalk Server adapters.

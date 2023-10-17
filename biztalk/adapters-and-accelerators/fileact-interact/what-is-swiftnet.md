@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: What Is SWIFTNet?"
-title: "What Is SWIFTNet? | Microsoft Docs"
+title: "What Is SWIFTNet?"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2b074385-352c-40f4-b73e-1891c627aa4e
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is SWIFTNet?
 As a general purpose, industry-standard solution for the financial industry, SWIFTNet provides an application-independent, single window interface to all the connected applications of all the institutions participating in the global financial community. Actual access is controlled by the business policy decisions of each Service Administrator, not by the technical limitations of the infrastructure.  

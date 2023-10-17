@@ -1,19 +1,12 @@
 ---
-title: "Get started with BizTalk Adapter for TIBCO Enterprise Message Service | Microsoft Docs"
+title: "Get started with BizTalk Adapter for TIBCO Enterprise Message Service"
 description: Adapter features, character encoding, messaginges, install steps, and tutorials for the BizTalk Adapter for TIBCO Enterprise Message Service in BizTalk Server
 ms.custom: ""
 ms.date: "10/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 24eca41d-01c9-4d4f-94ff-d6a8d4ea286d
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Get started with BizTalk Adapter for TIBCO Enterprise Message Service
 

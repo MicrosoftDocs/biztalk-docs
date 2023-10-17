@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10614"
-title: "Single Sign-On: Event 10614 | Microsoft Docs"
+title: "Single Sign-On: Event 10614"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f1f9cd21-3f4b-446f-a4c7-15266973adf1
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10614
 ## Details  

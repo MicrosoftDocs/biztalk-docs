@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How the Dynamic Resolution Sample Works"
-title: "How the Dynamic Resolution Sample Works | Microsoft Docs"
+title: "How the Dynamic Resolution Sample Works"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7789316d-f2c4-4018-a8e8-dd9359f1664f
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How the Dynamic Resolution Sample Works
 The Dynamic Resolution sample uses the ESB Dispatcher Disassembler pipeline component for all the messaging examples described in the previous section.  

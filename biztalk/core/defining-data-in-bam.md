@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Defining Data in BAM"
-title: "Defining Data in BAM | Microsoft Docs"
+title: "Defining Data in BAM"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "aggregations [BAM], dimensions"
-  - "monitoring business activities [BAM], BAM Activity Wizard"
-  - "monitoring business activities [BAM], time intervals"
-  - "aggregations [BAM], measurements"
-  - "monitoring business activities [BAM], views"
-  - "monitoring business activities [BAM], aggregations"
-  - "Excel add-in [BAM], collecting data"
-  - "aggregations [BAM], scheduling"
-  - "monitoring business activities [BAM], milestone groups"
-  - "aggregations [BAM], real-time data"
-ms.assetid: 501a1c08-3979-4a99-94d9-0d1b5ec4266b
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Defining Data in BAM
 You use the BAM Excel Add-in to define the data you want BAM to collect, and define the way in which the data will be shared. You use BAM activities to define the data, and you use BAM views to define the data that other users can see.  

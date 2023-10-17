@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adding the Oracle Database Adapter to BizTalk Server Administration Console"
-title: "Adding the Oracle Database Adapter to BizTalk Server Administration Console | Microsoft Docs"
+title: "Adding the Oracle Database Adapter to BizTalk Server Administration Console"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8d71e161-addc-47d4-9103-3655f3fb0b0d
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adding the Oracle Database Adapter to BizTalk Server Administration Console
 This topic provides instructions on how to add the WCF-OracleDB adapter to the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  

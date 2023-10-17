@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure a 3270 Connection"
-title: "How to Configure a 3270 Connection2 | Microsoft Docs"
+title: "How to Configure a 3270 Connection2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8613e786-db3a-4310-b6aa-615fa678744b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Configure a 3270 Connection
 The following procedure details configuring a 3270 connection.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid Interchange Content"
-title: "Invalid Interchange Content | Microsoft Docs"
+title: "Invalid Interchange Content"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6b2352c3-d233-4d79-be31-b32dde29c8ee
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid Interchange Content
 ## Details  

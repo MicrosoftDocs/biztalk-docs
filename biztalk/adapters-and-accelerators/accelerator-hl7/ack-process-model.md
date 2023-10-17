@@ -4,13 +4,6 @@ description: Learn more about the ACK process model for BizTalk Server.
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
-
-helpviewer_keywords: 
-  - "acknowledgements, process flow"
-  - "ACK process model"
-ms.assetid: 3c6a5eef-57ef-41f7-9782-e1cbc4dd78e1
-caps.latest.revision: 3
-
 ---
 
 # ACK process model

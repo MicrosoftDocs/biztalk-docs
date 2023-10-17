@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: PASSWORD"
-title: "PASSWORD2 | Microsoft Docs"
+title: "PASSWORD2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4e3b9a94-0b42-4792-b50b-38ebaee4505c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # PASSWORD
 Use the **PASSWORD** keyword, combined with **USERID**, to provide explicit security without the need for a callback. The COMTIContext context name is **PASSWORD**; the value must be a string that contains a valid mainframe security password.  

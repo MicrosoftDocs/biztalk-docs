@@ -1,19 +1,12 @@
 ---
-title: "Enable pipeline tracking | Microsoft Docs"
+title: "Enable pipeline tracking"
 description: Track message bodies and events when the pipeline processes messages in BizTalk Server
 ms.custom: ""
 ms.date: "12/13/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4f7f3c4a-4464-4170-a580-b4ce9296a097
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure pipeline tracking in BizTalk Server
 Use the BizTalk Server Administration to configure tracking for a pipeline. You might want to configure tracking for troubleshooting and auditing purposes. You can view message properties, port events, and message events. You can also track message events and port events for messages.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Message cannot be serialized as the schema could not be located"
-title: "Message cannot be serialized as the schema could not be located | Microsoft Docs"
+title: "Message cannot be serialized as the schema could not be located"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 37897c04-650d-4695-846d-b8ba61365647
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message cannot be serialized as the schema could not be located
 ## Details  

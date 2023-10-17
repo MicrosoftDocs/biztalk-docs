@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Service Oriented Solution Reference"
-title: "Service Oriented Solution Reference | Microsoft Docs"
+title: "Service Oriented Solution Reference"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "technical reference, service solution tutorial"
-  - "service solution tutorial, technical reference"
-ms.assetid: fb742016-4214-4f51-a9ee-6874d9cf275a
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Service Oriented Solution Reference
 This section provides lists of the files in the solution and the messages in the orchestrations.  

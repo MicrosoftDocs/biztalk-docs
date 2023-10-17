@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10577"
-title: "Single Sign-On: Event 10577 | Microsoft Docs"
+title: "Single Sign-On: Event 10577"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4563567a-9ee3-4c32-a202-c2521fd95b6a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10577
 ## Details  

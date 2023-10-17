@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: End-to-End Transaction Tracking"
-title: "End-to-End Transaction Tracking | Microsoft Docs"
+title: "End-to-End Transaction Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ebacd2e4-6b5c-4dc4-8361-b5b77042debc
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # End-to-End Transaction Tracking
 Business visibility relates to the ability of operators and users to monitor the flow of traffic through the run-time environment. Enterprises must be able to track the processes and transactions flowing through their systems at each step to ensure that they play their part in contributing to revenue generation. AmberPoint SMS simplifies the measurement and tracking of these messages in Microsoft BizTalk Server. The system allows users to define new units of management that align with end-to-end business process flows, instead of being required to conform to the way developers chose to package and deploy individual service components. Figure 1 shows the screen for defining management units.  

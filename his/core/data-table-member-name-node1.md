@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Data Table Member Name Node"
-title: "Data Table Member Name Node1 | Microsoft Docs"
+title: "Data Table Member Name Node1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15471"
-ms.assetid: 95f2cbd5-d078-4339-8d1d-f8b6c68ad45b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Data Table Member Name Node
 Use the ***data table member name*** node to change the name of the data table member or view its properties.  

@@ -1,45 +1,12 @@
 ---
 description: "Learn more about: Scaled-Out Databases"
-title: "Scaled-Out Databases | Microsoft Docs"
+title: "Scaled-Out Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "performance, databases [BAM]"
-  - "databases [BAM], high availability"
-  - "Archive database [BAM]"
-  - "Analysis database [BAM], high availability"
-  - "high availability, databases [BAM]"
-  - "MessageBox database, master database"
-  - "scaling, databases [BAM]"
-  - "scaling, BizTalk Server"
-  - "MessageBox database, multiple databases"
-  - "MessageBox database, clustering"
-  - "databases [BAM], scaling"
-  - "MessageBox database, routing"
-  - "Tracking database, scaling"
-  - "Primary Import database [BAM], clustering"
-  - "high availability, MessageBox database"
-  - "databases [BAM], performance"
-  - "Star Schema database [BAM]"
-  - "MessageBox database, high availability"
-  - "messages, disabling"
-  - "MSMQT adapters, See MSMQ adapters"
-  - "clustering, Analysis database [BAM]"
-  - "Windows Message Queuing"
-  - "MessageBox database"
-  - "Analysis database [BAM], clustering"
-  - "DTS packages, scheduling"
-ms.assetid: e02edc0d-1c51-4b97-be04-0feb787089ac
-caps.latest.revision: 33
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scaled-Out Databases
 To provide high availability for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, configure two computers that are running SQL Server in a Windows cluster. These computers can run in an active/active or active/passive configuration for redundancy and store data on a shared drive (such as a RAID 1+0 SCSI disk array) or storage area network (SAN).  

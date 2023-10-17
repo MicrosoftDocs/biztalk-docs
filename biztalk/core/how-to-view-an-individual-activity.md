@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to View an Individual Activity"
-title: "How to View an Individual Activity | Microsoft Docs"
+title: "How to View an Individual Activity"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "activities [BAM], viewing"
-  - "BAM portal, activities"
-  - "viewing, activities [BAM portal]"
-ms.assetid: 090b6c81-8093-44d9-b50c-a98702d2fbcd
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to View an Individual Activity
 You view activities in the Business Activity Search Results page of the BAM Web portal. For the steps to search for activities, see [How to Search for Activities](../core/how-to-search-for-activities.md).  

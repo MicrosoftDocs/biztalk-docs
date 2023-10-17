@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Set the Duration on an RTA Window"
-title: "How to Set the Duration on an RTA Window | Microsoft Docs"
+title: "How to Set the Duration on an RTA Window"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [BAM], aggregations"
-  - "aggregations [BAM], time intervals"
-  - "Set-RTAWindow command [BAM]"
-  - "managing [BAM], time intervals"
-ms.assetid: 3042c3f5-be0f-48fb-9831-daa4868b90fe
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Set the Duration on an RTA Window
 Administrators use the **set-rtawindow** command to set the duration for the specified real-time aggregation (RTA).  

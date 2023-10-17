@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Enable Encryption Between Analysis Services and the BAM Primary Import Database"
-title: "How to Enable Encryption Between Analysis Services and the BAM Primary Import Database | Microsoft Docs"
+title: "How to Enable Encryption Between Analysis Services and the BAM Primary Import Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "SQL Server Analysis Services, enabling encryption"
-  - "Primary Import database [BAM], SQL Server Analysis Services"
-  - "Primary Import database [BAM], enabling encryption"
-  - "SQL Server Analysis Services, Primary Import database [BAM]"
-ms.assetid: 8107c557-e57c-4569-9ff7-abcb7a8e5243
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Enable Encryption Between Analysis Services and the BAM Primary Import Database
 Encryption is not enabled by default during an installation or upgrade of BAM. To enable encryption, you must set the UseEncryption flag in the BAM configuration XML file to a value of 1.

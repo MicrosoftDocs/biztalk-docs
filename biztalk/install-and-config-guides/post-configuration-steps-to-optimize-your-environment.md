@@ -1,18 +1,12 @@
 ---
-title: "Post-configuration steps to optimize your environment | Microsoft Docs"
+title: "Post-configuration steps to optimize your environment"
 description: Tasks to complete after you install and configure BizTalk Server, including configure the SQL Agent jobs, install EDI schemas, create hosts and host instances, and more in BizTalk Server
 ms.custom: ""
 ms.prod: biztalk-server
 ms.date: "04/16/2019"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d0fef6ea-e7cc-4ea9-936d-5d638bc43feb
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "niklase"
-manager: "anneta"
 ---
 # Post-configuration steps to optimize your environment
 Post-configuration steps to help improve performance, maintain your BizTalk environment, and install the EDI schemas.

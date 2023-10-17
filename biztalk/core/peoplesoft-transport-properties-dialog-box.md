@@ -1,23 +1,14 @@
 ---
 description: "Learn more about: PeopleSoft Transport Properties Dialog Box"
-title: "PeopleSoft Transport Properties Dialog Box | Microsoft Docs"
+title: "PeopleSoft Transport Properties Dialog Box"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "PeopleSoft"
-helpviewer_keywords: 
-  - "PeopleSoft Transport Properties dialog box"
-ms.assetid: 660f0a0b-e076-4f4e-8b2a-6d976acfc5ce
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # PeopleSoft Transport Properties Dialog Box
 Use the PeopleSoft Transport Properties dialog box to set the adapter-required properties.  

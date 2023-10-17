@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Common Administrative Tasks"
-title: "Common Administrative Tasks4 | Microsoft Docs"
+title: "Common Administrative Tasks4"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "administering, common tasks"
-  - "BizTalk Server, administering"
-  - "tasks, common admistration tasks"
-ms.assetid: 7861f2c2-c178-4539-a976-d7a532c19d85
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Common Administrative Tasks
 The following table provides links to topics useful for deploying and maintaining BizTalk Server system.  

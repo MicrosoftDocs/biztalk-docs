@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Loans Processing Using Business Rules (BizTalk Server Sample)"
-title: "Loans Processing Using Business Rules (BizTalk Server Sample) | Microsoft Docs"
+title: "Loans Processing Using Business Rules (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, business rules"
-  - "business rules, examples"
-ms.assetid: 3e1c80c6-adc1-4a0f-83fd-409ce1b8f21f
-caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Loans Processing Using Business Rules (BizTalk Server Sample)
 The Loans Processing Using Business Rules sample demonstrates how to use a set of rules managed within an orchestration, and how to use a combination of inputs known as facts, to calculate settings for some fields within a document being processed. Facts can be the result of calling a .NET-based assembly, the values retrieved from the XML of the message, or the data retrieved from a database. The sample also demonstrates how you can change the rules at any time, affecting subsequent calculations without the need to redeploy.  

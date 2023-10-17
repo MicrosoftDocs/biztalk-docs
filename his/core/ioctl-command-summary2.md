@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IOCTL Command Summary"
-title: "IOCTL Command Summary2 | Microsoft Docs"
+title: "IOCTL Command Summary2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9196e35f-bc2e-472a-b189-2e18bb743f3b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IOCTL Command Summary
 The parameters to the IOCTL request packet are stored in the following fields in the associated I/O request packet (IRP).  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Perform Transactions with a DB2 Database"
-title: "How to Perform Transactions with a DB2 Database1 | Microsoft Docs"
+title: "How to Perform Transactions with a DB2 Database1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 20df9893-4238-4dce-b943-6e3d93543a92
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Perform Transactions with a DB2 Database
 Transactions are a group of database operations combined into a logical unit of work, and are used to control and maintain the consistency and integrity of each database despite errors that might occur in the system. A transaction consists of a series of SQL SELECT, INSERT, UPDATE, or DELETE statements. If no errors occur during a transaction, all modifications in the transaction become a permanent part of the database. If errors occur, none of the modifications are made to the database.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_LuPassThrough Class"
-title: "MsSna_LuPassThrough Class1 | Microsoft Docs"
+title: "MsSna_LuPassThrough Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6f956df5-cb1b-4562-8377-d2332a2fcb07
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_LuPassThrough Class
 Contains one half of a dowstream LU/pool pair.  

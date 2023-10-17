@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: parameters"
-title: "parameters | Microsoft Docs"
+title: "parameters"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c8ea1161-c7db-4afa-a8b5-02da009b0171
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # parameters
 The Parameters element contains one or more Parameter elements, which define the input and/or output parameters on the SQL statement.  

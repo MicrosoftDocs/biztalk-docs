@@ -1,19 +1,12 @@
 ---
-title: "Configure IIS for an HTTP Receive Location | Microsoft Docs"
+title: "Configure IIS for an HTTP Receive Location"
 description: Create the BTS HTTP Receive application in IIS, and test the application pool settings in BizTalk Server
 ms.custom: ""
 ms.date: "10/10/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1c420f46-01f1-4c9c-9144-d8d2acc8b0c4
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure IIS for an HTTP Receive Location
 The HTTP receive location uses an application within Internet Information Services (IIS). This topic lists the steps to enable the HTTP receive location within IIS. 

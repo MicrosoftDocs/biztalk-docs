@@ -1,33 +1,12 @@
 ---
 description: "Learn more about: Processing the Message"
-title: "Processing the Message | Microsoft Docs"
+title: "Processing the Message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "processing"
-  - "messages, pipelines"
-  - "routing, about routing"
-  - "adapters, about adapters"
-  - "routing, message types"
-  - "processing, messages"
-  - "messages, processing"
-  - "routing"
-  - "messages, routing"
-  - "pipelines, about pipelines"
-  - "message types"
-  - "messages, message types"
-  - "messages, adapters"
-ms.assetid: e6d1f969-20c9-41f6-85cb-46cf92656348
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Processing the Message
 All of the components described so far play a part in the processing of messages as they flow through BizTalk Server. This section provides more detail about how these components interact functionally, beginning with receiving a message. The following figure shows the make-up of a receive port and the flow of a message through the receive process.  

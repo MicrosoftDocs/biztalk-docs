@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Create New Affiliate Application Wizard"
-title: "Create New Affiliate Application Wizard2 | Microsoft Docs"
+title: "Create New Affiliate Application Wizard2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 30349926-2c2c-4cdf-9a33-9d731c06426b
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Create New Affiliate Application Wizard
 Use this wizard to create a new Affiliate Application.  

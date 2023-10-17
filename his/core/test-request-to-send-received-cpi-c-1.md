@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Test_Request_To_Send_Received (CPI-C)"
-title: "Test_Request_To_Send_Received (CPI-C)1 | Microsoft Docs"
+title: "Test_Request_To_Send_Received (CPI-C)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6ce35a2d-838b-49c6-879f-e102adc9c0d8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Test_Request_To_Send_Received (CPI-C)
 The **Test_Request_To_Send_Received** call (function name **cmtrts**) determines whether a request-to-send notification has been received from the partner program.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Template Errors"
-title: "Template Errors | Microsoft Docs"
+title: "Template Errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2a10862c-bffa-4ca5-81a0-df01e8051d23
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Template Errors
 This section contains detailed information for diagnosing and resolving WCF Template errors.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CMDSemWait"
-title: "CMDSemWait1 | Microsoft Docs"
+title: "CMDSemWait1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a89986ef-b59c-4a2b-b8d7-94db83031790
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CMDSemWait
 The **CMDSemWait** function waits until a RAM semaphore is cleared.  

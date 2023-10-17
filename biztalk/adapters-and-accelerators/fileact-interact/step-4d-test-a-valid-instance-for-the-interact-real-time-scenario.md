@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4D: Test a Valid Instance for the InterAct Real-Time Scenario"
-title: "Step 4D: Test a Valid Instance for the InterAct Real-Time Scenario | Microsoft Docs"
+title: "Step 4D: Test a Valid Instance for the InterAct Real-Time Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e163c3ac-a00d-40cf-b1b8-4a38f74ab0e8
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4D: Test a Valid Instance for the InterAct Real-Time Scenario
 Before you begin this step, you must complete [Step 4C: Create a Test Instance for the InterAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-4c-create-a-test-instance-for-the-interact-real-time-scenario.md).  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Export Bindings for an EDI-AS2 Solution"
-title: "How to Export Bindings for an EDI-AS2 Solution | Microsoft Docs"
+title: "How to Export Bindings for an EDI-AS2 Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 856ab630-66c4-4496-884a-fdbe641143c5
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Export Bindings for an EDI-AS2 Solution
 This topic describes how to export the configuration from a computer set up as an EDI and/or AS2 solution. This enables you to set up the same configuration on another computer in an automated fashion. You can export the bindings from an application, group, or assembly.  

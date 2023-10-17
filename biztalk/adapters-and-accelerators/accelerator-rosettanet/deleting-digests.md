@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Deleting Digests"
-title: "Deleting Digests | Microsoft Docs"
+title: "Deleting Digests"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deleting, digests"
-  - "messages, digests"
-  - "digests"
-  - "databases, deleting digests"
-  - "maintaining databases, deleting digests"
-ms.assetid: bcc7cb11-2f6a-4996-ad50-040d41993e09
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deleting Digests
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] stores digests for outgoing messages, so it can validate them against signal content. However, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not delete the digests after validation. Periodically, you may want to delete these digests to maintain system performance.  

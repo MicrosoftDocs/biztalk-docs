@@ -1,19 +1,12 @@
 ---
-title: "Install BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
+title: "Install BizTalk Adapter for JD Edwards EnterpriseOne"
 description: Quick link to install and configuration overview for BizTalk Adapter for JD Edwards EnterpriseOne in BizTalk Server
 ms.custom: ""
 ms.date: "10/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4281c1fc-1473-44f9-9c52-876e34cd3907
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Install BizTalk Adapter for JD Edwards EnterpriseOne
 

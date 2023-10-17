@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configuring Service Encodings"
-title: "Configuring Service Encodings | Microsoft Docs"
+title: "Configuring Service Encodings"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f1f0dc56-dad8-4fcd-9e61-f84699b0942b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configuring Service Encodings
 The DRDA Service maps code pages and supports custom code page conversions using an underlying HIS Encoder component and the Windows National Language Support (NLS) system components.  

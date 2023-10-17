@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Deploying Your Servers"
-title: "Deploying Your Servers | Microsoft Docs"
+title: "Deploying Your Servers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, servers"
-  - "servers, deploying"
-ms.assetid: 6036e42b-59b8-4092-addd-288e9c4b91d6
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploying Your Servers
 This section provides instructions for configuring each of the servers in your [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] deployment. After you configure the network you deploy the software on each server by using the following steps.  

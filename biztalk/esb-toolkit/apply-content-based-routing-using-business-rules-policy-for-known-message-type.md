@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to: Implement Content-Based Routing Using a Business Rules Policy for a Known Message Type"
-title: "How to: Implement Content-Based Routing Using a Business Rules Policy for a Known Message Type | Microsoft Docs"
+title: "Implement Content-Based Routing Using a Business Rules Policy for a Known Message Type"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44451c85-929a-4d13-b0dd-53ea600d0859
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to: Implement Content-Based Routing Using a Business Rules Policy for a Known Message Type
 ## Goal  

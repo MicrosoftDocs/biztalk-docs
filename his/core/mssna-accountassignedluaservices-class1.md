@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_AccountAssignedLuaServices Class"
-title: "MsSna_AccountAssignedLuaServices Class1 | Microsoft Docs"
+title: "MsSna_AccountAssignedLuaServices Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 946797b3-2a9a-444f-b04b-dfacdbb8ed33
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_AccountAssignedLuaServices Class
 Used to query for services on which a specific workstation or user has LUA LUs/pools.  

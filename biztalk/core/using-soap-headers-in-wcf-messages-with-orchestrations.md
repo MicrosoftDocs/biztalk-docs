@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Using SOAP Headers in WCF Messages with Orchestrations"
-title: "Using SOAP Headers in WCF Messages with Orchestrations | Microsoft Docs"
+title: "Using SOAP Headers in WCF Messages with Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "orchestrations, SOAP headers [WCF services]"
-  - "WCF services, orchestrations"
-  - "WCF services, SOAP headers"
-ms.assetid: 31c01e35-a2a6-4ea9-bdf4-6d4311268dbe
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using SOAP Headers in WCF Messages with Orchestrations
 To send the custom SOAP headers with outgoing WCF messages in orchestrations, you use the context property, **WCF.OutboundCustomHeaders**. The WCF adapters send the custom SOAP headers combined with the standard SOAP headers that the WCF infrastructure uses for Web services standards such as WS-Addressing, WS-Security, and WS-AtomicTransaction. When you use the **OutboundCustomHeaders** property, the property must have the \<**headers**\> element as the root element. All of the custom SOAP headers must be placed inside the \<**headers**\> element. If the custom SOAP header value is an empty string, you must assign \<**headers**\>\</**headers**\> or \<**headers**/\> to the **OutboundCustomHeaders** property.

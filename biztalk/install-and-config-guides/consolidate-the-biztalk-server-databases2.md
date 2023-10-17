@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Consolidate the BizTalk Server Databases2"
-title: "Consolidate the BizTalk Server Databases2 | Microsoft Docs"
+title: "Consolidate the BizTalk Server Databases2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d7fc4fe6-3fc2-4164-9f16-90b6f473ba8c
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Consolidate the BizTalk Server Databases2
 A Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation may require the creation of up to 13 separate databases in Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] for use as data stores for various [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] features. Due to the overhead required to manage and maintain these databases, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] accommodates the consolidation of several of these databases into a single database. This section describes how to accomplish [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database consolidation and discusses considerations for implementing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database consolidation.  

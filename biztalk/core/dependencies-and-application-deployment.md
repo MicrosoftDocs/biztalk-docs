@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Dependencies and Application Deployment"
-title: "Dependencies and Application Deployment | Microsoft Docs"
+title: "Dependencies and Application Deployment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying [applications], dependencies"
-  - "assemblies, dependencies"
-  - "artifacts, dependencies"
-  - "applications, dependencies"
-ms.assetid: b78c5a0d-b042-4862-bce7-59469365b369
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Dependencies and Application Deployment
 This topic describes how dependencies between artifacts in two or more BizTalk applications affect application deployment and maintenance.  

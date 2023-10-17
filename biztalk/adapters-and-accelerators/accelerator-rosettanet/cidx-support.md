@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: CIDX Support"
-title: "CIDX Support | Microsoft Docs"
+title: "CIDX Support"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "CIDX, procedures"
-  - "CIDX, about CIDX"
-  - "CIDX, Elemica Exchange Server Provider (ESP)"
-  - "CIDX, PIPs"
-  - "CIDX"
-  - "Elemica Exchange Server Provider (ESP)"
-  - "procedures [CIDX]"
-  - "PIPs, CIDX"
-ms.assetid: 58b75ad3-f6b9-47c0-8dbf-506a3eaf010b
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # CIDX Support
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides support for CIDX (Chemical Industry Data Exchange) XML message exchange. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] supports CIDX Chem eStandards versions 2.0 and 3.0, both of which use the RosettaNet Implementation Framework (RNIF) 1.1.

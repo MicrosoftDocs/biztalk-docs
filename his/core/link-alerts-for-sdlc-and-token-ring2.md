@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Link Alerts for SDLC and Token Ring"
-title: "Link Alerts for SDLC and Token Ring2 | Microsoft Docs"
+title: "Link Alerts for SDLC and Token Ring2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0f49395d-690f-4bdf-8e92-49276b258c3a
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Link Alerts for SDLC and Token Ring
 When a Synchronous Data Link Control (SDLC) or Token Ring connection fails, [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] logs diagnostic information, called link alerts, about the connection failure. The alerts are logged in a log file that can be viewed using the Windows Event Log service. To find a Host Integration Server log, in the Event Log service, on the Log menu, make sure Application is selected. Under the "Source" heading, the application log file will have a name starting with "SNA."  

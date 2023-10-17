@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Run a Query Using the SELECT Command in SAP"
-title: "Run a Query Using the SELECT Command in SAP | Microsoft Docs"
+title: "Run a Query Using the SELECT Command in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SELECT command, performing a query"
-  - "query, performing by using the SELECT command"
-ms.assetid: 6f03243c-ef50-4a4a-8fe6-4e525bd7efe3
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run a Query Using the SELECT Command in SAP
 The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] exposes the SAP system as an ADO.NET data source. With the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)], you can query SAP artifacts by executing a SELECT statement.  

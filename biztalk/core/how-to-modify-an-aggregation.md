@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Modify an Aggregation"
-title: "How to Modify an Aggregation | Microsoft Docs"
+title: "How to Modify an Aggregation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "aggregations [BAM], modifying"
-  - "BAM portal, aggregations"
-ms.assetid: dd5ce211-32d3-4e1d-8ee0-1225ec2c45fb
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Modify an Aggregation
 You use PivotTable reports in Office Web Components the same way you use PivotTable reports in Excel. You can add and remove rows, columns, and filters to generate views of the aggregated data on which you can create alerts.  

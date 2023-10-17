@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Run ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations using the SQL adapter"
-title: "Run ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations using the SQL adapter | Microsoft Docs"
+title: "Run ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations using the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3fda0544-a028-4a95-aae6-1f6a90764c5d
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations using the SQL adapter
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the following operations at the root level:

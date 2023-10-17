@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Operations on Interface Tables and Interface Views"
-title: "Operations on Interface Tables and Interface Views | Microsoft Docs"
+title: "Operations on Interface Tables and Interface Views"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6c7f3453-848f-42df-b092-725d9ff466cf
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations on Interface Tables and Interface Views
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] surfaces a set of standard operations (Select, Insert, Update, and Delete) for each interface table, and the Select operation for each interface view in Oracle E-Business Suite. By using these operations, you can perform the SELECT, INSERT, UPDATE, and DELETE statements qualified by a WHERE clause on the target interface table, and the SELECT statement qualified by a WHERE clause on the target interface view. These operations are also called data manipulation language (DML) operations.  

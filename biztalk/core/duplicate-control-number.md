@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Duplicate Control Number"
-title: "Duplicate Control Number | Microsoft Docs"
+title: "Duplicate Control Number"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 331ad173-29b3-427c-8104-60d80c580a5a
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Duplicate Control Number
 ## Details  

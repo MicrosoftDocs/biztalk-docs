@@ -1,19 +1,12 @@
 ---
-title: Administrative and performance tools | Microsoft Docs
+title: Administrative and performance tools
 description: Common tools to manage tasks, performance, and tracing in BizTalk Server
 ms.custom: biztalk-2020
 ms.date: 01/10/2020
 ms.prod: biztalk-server
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid: 932814f7-2ab3-45cb-8bbc-eaf00fcb24a0
-caps.latest.revision: 28
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
 ---
 # Administrative and performance tools
 

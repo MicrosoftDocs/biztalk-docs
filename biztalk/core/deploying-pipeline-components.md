@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Deploying Pipeline Components"
-title: "Deploying Pipeline Components | Microsoft Docs"
+title: "Deploying Pipeline Components"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, pipeline components [custom]"
-  - "pipeline components [custom], deploying"
-ms.assetid: 98b47fbf-62c0-4012-a406-58c4d56b305a
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploying Pipeline Components
 All the .NET pipeline component assemblies (native and custom) must be located in the \<*installation directory*\>\Pipeline Components folder to be executed by the server. If the pipeline with a custom component will be deployed across several servers, the component's binaries must be present in the specified folder on every server.  

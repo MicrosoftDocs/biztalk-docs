@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status-Control(...) Negative-Acknowledge-2"
-title: "Status-Control(...) Negative-Acknowledge-21 | Microsoft Docs"
+title: "Status-Control(...) Negative-Acknowledge-21"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fc6e230e-f6a1-48c1-beb0-664fd5280d0e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status-Control(...) Negative-Acknowledge-2
 The **Status-Control(...) Negative-Acknowledge-2** message flows from the node to the application. It is used with a primary logical unit (PLU) connection.  

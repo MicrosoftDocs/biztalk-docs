@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Protecting the TI .NET Assembly from Unauthorized Access"
-title: "Protect the TI .NET Assembly from Unauthorized Access | Microsoft Docs"
+title: "Protect the TI .NET Assembly from Unauthorized Access"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 37b0ad05-29d5-4a7f-8336-c9af6e89f033
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Protecting the TI .NET Assembly from Unauthorized Access
 

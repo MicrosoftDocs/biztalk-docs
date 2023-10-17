@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOWrapper.ShutdownAdapter Method"
-title: "ISSOWrapper.ShutdownAdapter Method | Microsoft Docs"
+title: "ISSOWrapper.ShutdownAdapter Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 23f0668f-9c57-4f3d-b032-924d5f53e3cb
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOWrapper.ShutdownAdapter Method
 Indicates to the ENTSSO service that the adapter is shutting down.  

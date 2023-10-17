@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Update the Properties of an Affiliate Application"
-title: "How to Update the Properties of an Affiliate Application | Microsoft Docs"
+title: "How to Update the Properties of an Affiliate Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [SSO applications], updating properties"
-  - "applications [SSO], properties"
-ms.assetid: b06eefdd-a5ca-4a32-93d7-72246e31a2e4
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Update the Properties of an Affiliate Application
 You can use the MMC Snap-In or this command to update one or more application properties, as specified by the XML file. You must be an Affiliate Administrator to perform this task. The following is an example XML file that lists the fields you can update.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using .NET Assembly as a Data Source"
-title: "Using .NET Assembly as a Data Source | Microsoft Docs"
+title: "Using .NET Assembly as a Data Source"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f2b60ac9-84f7-4522-80dd-6bb68f5f0c60
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using .NET Assembly as a Data Source
 This topic discusses how to use a .NET assembly as a data source, and how to access members of a .NET class from rules.  

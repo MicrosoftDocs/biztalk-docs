@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ErrorObject Object (OLE DB Provider for DB2)"
-title: "ErrorObject Object (OLE DB Provider for DB2)1 | Microsoft Docs"
+title: "ErrorObject Object (OLE DB Provider for DB2)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc0f12e5-cccb-417a-880e-59e167158559
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ErrorObject Object (OLE DB Provider for DB2)
 The **ErrorObject** object is created by any interface on any DB2 OLE DB object. The **ErrorObject** object is used to retrieve additional information when an error occurs.  

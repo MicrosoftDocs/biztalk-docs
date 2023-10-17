@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Open(SSCP) Response"
-title: "Open(SSCP) Response1 | Microsoft Docs"
+title: "Open(SSCP) Response1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f1ebb6b1-4a53-4663-9fef-24827d179e6e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Open(SSCP) Response
 The **Open(SSCP) Response** message flows from the node to the application. It is used with an system services control point (SSCP) connection.  

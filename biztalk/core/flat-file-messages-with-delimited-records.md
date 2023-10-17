@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Flat File Messages with Delimited Records"
-title: "Flat File Messages with Delimited Records | Microsoft Docs"
+title: "Flat File Messages with Delimited Records"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7ad7119b-4e39-43df-9dba-a04382eb6db2
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Flat File Messages with Delimited Records
 Delimited records within a flat file instance message contain nested records and/or individual fields (items of data) that are separated by a predefined character or set of characters. The fields are parsed according to these separating delimiters. For example, consider the following delimited records from a flat file instance message, which contain two line items from a hypothetical purchase order:  

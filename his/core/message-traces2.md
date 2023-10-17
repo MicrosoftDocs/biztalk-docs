@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Message Traces"
-title: "Message Traces2 | Microsoft Docs"
+title: "Message Traces2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7b76596f-91bb-447f-9c21-2f9b45ffb31f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Message Traces
 The following table details Message traces.  

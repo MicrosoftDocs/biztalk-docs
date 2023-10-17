@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configure transaction properties and application context with the Oracle E-Business Suite adapter"
-title: "Configure transaction properties and application context with the Oracle E-Business Suite adapter | Microsoft Docs"
+title: "Configure transaction properties and application context with the Oracle E-Business Suite adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4fd0a3c6-d452-49e8-846d-4a4307a4354a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure transaction properties and application context with the Oracle E-Business Suite adapter
 The topics in this section describe how to perform various operations using the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].  

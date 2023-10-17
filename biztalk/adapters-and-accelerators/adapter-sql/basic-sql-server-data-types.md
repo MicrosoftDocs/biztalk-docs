@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Basic SQL Server Data Types"
-title: "Basic SQL Server Data Types | Microsoft Docs"
+title: "Basic SQL Server Data Types"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f744fe14-4134-486d-b060-9ac2d5f21c56
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Basic SQL Server Data Types
 This topic describes how the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]surfaces basic SQL Server data types.  

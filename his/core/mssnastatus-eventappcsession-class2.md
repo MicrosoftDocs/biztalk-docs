@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_EventAppcSession Class"
-title: "MsSnaStatus_EventAppcSession Class2 | Microsoft Docs"
+title: "MsSnaStatus_EventAppcSession Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c7fc7d6f-6799-4772-910c-7ff1171c80a3
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_EventAppcSession Class
 The **MsSnaStatus_EventAppcSession** class describes a change to the **EventAppcSession** class.  

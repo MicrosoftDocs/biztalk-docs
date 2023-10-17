@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: GetActivityType"
-title: "GetActivityType | Microsoft Docs"
+title: "GetActivityType"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 65a5aae3-9688-4c49-a78e-1d9c1cc85fea
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # GetActivityType
 Pushes the name of the current activity type onto the stack.  

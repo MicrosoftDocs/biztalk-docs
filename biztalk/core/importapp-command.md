@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: ImportApp Command"
-title: "ImportApp Command | Microsoft Docs"
+title: "ImportApp Command"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e8ee5a78-1e8f-4290-b70a-36f2f888a1d6
-caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ImportApp Command
 Imports the artifacts contained in an .msi file into a BizTalk application. If the application does not already exist, it is created.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: HIS 2020 - What's New, Release Notes, System Requirements, and Installation"
-title: "HIS 2020 - What's New, Release Notes, System Requirements, and Installation | Microsoft Docs"
+title: "HIS 2020 - What's New, Release Notes, System Requirements, and Installation"
 ms.custom: ""
 ms.date: "5/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ebd6725d-4d90-42d5-b33d-c2b008a0eedf
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # HIS 2020 - What's New, Release Notes, System Requirements, and Installation
 

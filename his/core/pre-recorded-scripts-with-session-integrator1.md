@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Pre-Recorded Scripts with Session Integrator"
-title: "Pre-Recorded Scripts with Session Integrator1 | Microsoft Docs"
+title: "Pre-Recorded Scripts with Session Integrator1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fd8c2d14-5c5f-4e46-bcba-d90e67e67841
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Pre-Recorded Scripts with Session Integrator
 The **SessionDisplayScript** class allows users to use a script created in the Host Integration Server 3270 client and play it programmatically.  

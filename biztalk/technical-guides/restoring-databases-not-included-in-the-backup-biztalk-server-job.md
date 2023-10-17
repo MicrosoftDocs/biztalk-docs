@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Restoring Databases Not Included in the Backup BizTalk Server Job"
-title: "Restoring Databases Not Included in the Backup BizTalk Server Job | Microsoft Docs"
+title: "Restoring Databases Not Included in the Backup BizTalk Server Job"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c7141980-d4a6-4409-be9b-c94a7f733376
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Restoring Databases Not Included in the Backup BizTalk Server Job
 This section describes how to restore databases that are part of the overall BizTalk solution but are not backed up by the Backup BizTalk Server job. All databases that are part of a BizTalk solution will be backed up by using the Backup BizTalk Server job except for the following:  

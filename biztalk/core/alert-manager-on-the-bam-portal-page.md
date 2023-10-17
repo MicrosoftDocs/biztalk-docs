@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Alert Manager on the BAM Portal Page"
-title: "Alert Manager on the BAM Portal Page | Microsoft Docs"
+title: "Alert Manager on the BAM Portal Page"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM portal, alerts"
-  - "alerts, creating"
-  - "Alert Manager page [BAM portal]"
-ms.assetid: 9e2a17e5-94f8-48ea-b704-44168fab6981
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Alert Manager on the BAM Portal Page
 Business users, developers, and business analysts use the Alert Manager on the BAM portal page to create or edit an alert.  

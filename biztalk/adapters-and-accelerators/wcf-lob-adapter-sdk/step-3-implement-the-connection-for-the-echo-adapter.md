@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3: Implement the Connection for the Echo Adapter"
-title: "Step 3: Implement the Connection for the Echo Adapter | Microsoft Docs"
+title: "Step 3: Implement the Connection for the Echo Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dc223901-3ad3-4e71-8672-fea6bb4efe65
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Implement the Connection for the Echo Adapter
 ![Step 3 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-3of9.gif "Step_3of9")  

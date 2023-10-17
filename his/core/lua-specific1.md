@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA_SPECIFIC"
-title: "LUA_SPECIFIC1 | Microsoft Docs"
+title: "LUA_SPECIFIC1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 91a15c99-350e-4e27-88d0-1eeac97bb5fd
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA_SPECIFIC
 The following union shows the specific data structure that is included for functions that use the **LUA_SPECIFIC** part of a verb control block. The only logical unit application (LUA) verbs that use this union are [RUI_BID](./rui-bid1.md),[SLI_BID](./sli-bid2.md),[SLI_OPEN](../core/sli-open2.md), and [SLI_SEND](./sli-send2.md).  

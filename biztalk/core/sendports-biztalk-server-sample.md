@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: SendPorts (BizTalk Server Sample)"
-title: "SendPorts (BizTalk Server Sample) | Microsoft Docs"
+title: "SendPorts (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b84f96a2-b749-4fe0-be15-e4dd13eff66f
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SendPorts (BizTalk Server Sample)
 The SendPorts sample demonstrates how to enumerate and manage send ports by using the **Microsoft.BizTalk.ExplorerOM** administration classes.

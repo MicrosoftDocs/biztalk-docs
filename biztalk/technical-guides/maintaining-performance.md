@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Maintaining Performance"
-title: "Maintaining Performance | Microsoft Docs"
+title: "Maintaining Performance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ae7e63ed-4e28-45b1-ab00-be9f9488a2e6
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Maintaining Performance
 This section provides information that is intended to help you resolve performance issues discovered during your routine maintenance checks. You can also use the tools and techniques described here proactively, to identify potential problems before they become critical issues.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Active Directory Administration"
-title: "Active Directory Administration2 | Microsoft Docs"
+title: "Active Directory Administration2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 26ce1089-4b42-484d-8fd3-2328bcbb8a8d
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Active Directory Administration
 You can administer [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Active Directory participation using the Configuration Tool.  

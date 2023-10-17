@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Namespace Management"
-title: "Namespace Management | Microsoft Docs"
+title: "Namespace Management"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4638c47c-3cdd-43af-aa00-da98e7293503
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Namespace Management
 BizTalk Editor provides support for namespaces. An XML namespace is a collection of names that can be used as element or attribute names in an XML message. The namespace qualifies element and attribute names to avoid conflicts between the same element and attribute names that might be defined elsewhere within the same schema.  

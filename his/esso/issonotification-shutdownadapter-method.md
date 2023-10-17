@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSONotification.ShutdownAdapter Method"
-title: "ISSONotification.ShutdownAdapter Method | Microsoft Docs"
+title: "ISSONotification.ShutdownAdapter Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c5110a66-ca8c-4866-a7c3-4ab4e8684561
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSONotification.ShutdownAdapter Method
 Indicates that the password sync adapter is shutting down.  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Configuring the SWIFT Disassembler or Assembler"
-title: "Configuring the SWIFT Disassembler or Assembler | Microsoft Docs"
+title: "Configuring the SWIFT Disassembler or Assembler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "assembler, configuring"
-  - "configuring, disassembler"
-  - "disassembler, configuring"
-  - "configuring, assembler"
-ms.assetid: 56e421f2-0292-40af-b878-0cba1b034e19
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring the SWIFT Disassembler or Assembler
 After you add the SWIFT disassembler or SWIFT assembler to a custom pipeline, you must configure it to provide the functionality you want for the particular scenario (such as enabling/disabling dynamic message type discovery, inbound debatching, XML validation, Business Rule Engine (BRE) validation, and so on). You must configure the SWIFT disassembler and assembler during development time before you compile and deploy the custom pipelines that invoke them. To configure the SWIFT disassembler/assembler, select the component in Pipeline Designer and edit the configuration properties in the Properties window.  

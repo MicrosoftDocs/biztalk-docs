@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Refresh a Resource"
-title: "How to Refresh a Resource | Microsoft Docs"
+title: "How to Refresh a Resource"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [resources], refreshing"
-  - "refreshing resources"
-  - "resources, refreshing"
-ms.assetid: d6ff7c9d-8aaf-42a4-b1a3-00c05f6ac869
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Refresh a Resource
 This topic describes how to use the BizTalk Server Administration console to refresh a resource artifact. This updates the artifact information in the BizTalk Management database. Another way to do this is by adding the artifact to the application using the BTSTask [AddResource Command](../core/addresource-command.md) with the overwrite option.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Resolve Transactions Manually"
-title: "How to Resolve Transactions Manually1 | Microsoft Docs"
+title: "How to Resolve Transactions Manually1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: df22f0ba-a8e6-4444-840a-33c626fde6be
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Resolve Transactions Manually
 The following procedures describe how to resolve a transaction manually when it cannot be committed or aborted by the system due to a resynchronization failure following restoration of services between the Windows and IBM LU 6.2 systems. Such resynchronization failures can occur, for example, if CICS makes a heuristic decision to commit or abort a transaction. CICS versions prior to 5 will do this. Typically, TI and Microsoft Distributed Transaction Coordinator (DTC) will automatically resolve all in-doubt transactions when service between the systems is restored. However, if resynchronization and recovery cannot be automatically achieved for any reason, you can resolve transactions manually by using one of the following procedures.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: OLE DB Interface Support in the OLE DB Provider for DB2"
-title: "OLE DB Interface Support in the OLE DB Provider for DB21 | Microsoft Docs"
+title: "OLE DB Interface Support in the OLE DB Provider for DB21"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c3dac35d-f7c4-4e96-b1db-f105fa5a06fb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # OLE DB Interface Support in the OLE DB Provider for DB2
 The following table summarizes the OLE DB version 2.0 interfaces that are supported by the current version of Microsoft OLE DB Provider for DB2.  

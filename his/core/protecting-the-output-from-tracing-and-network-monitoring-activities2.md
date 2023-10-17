@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Protecting the Output from Tracing and Network Monitoring Activities"
-title: "Protect the Tracing and Network Monitoring output | Microsoft Docs"
+title: "Protect the Tracing and Network Monitoring output"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 21048daf-1093-4c91-a08d-20811ae93312
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Protecting the Output from Tracing and Network Monitoring Activities
 

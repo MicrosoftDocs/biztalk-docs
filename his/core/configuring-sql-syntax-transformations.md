@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configure SQL Syntax Transformations"
-title: "Configure SQL Syntax Transformations | Microsoft Docs"
+title: "Configure SQL Syntax Transformations"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44d13965-dfd6-425b-a16c-4652bfb5334b
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configure SQL Syntax Transformations
 The DRDA Service will utilize a set of SQL command syntax transformers. The primary SQL transformer is within the MsDrdaService.exe and is referred to as the SQL parser, providing core transformations for most commonly required syntax. The secondary SQL transformer is within the SQL Server database .NET CLR (Common Language Runtime), where the MsDrdaService setup program will install optional DB2 to SQL Server mapped functions. The DRDA Service supports **STRIP**, **TRANSLATE**, **HEX**, and **CHAR** mapped CLR functions.  

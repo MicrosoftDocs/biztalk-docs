@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: BtarnClean"
-title: "BtarnClean | Microsoft Docs"
+title: "BtarnClean"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BtarnClean utility"
-  - "assemblies, undeploying"
-  - "BTARN, deleting artifacts"
-  - "orchestrations, unenlisting"
-  - "ports, stopping"
-  - "orchestrations, stopping"
-  - "ports, deleting"
-  - "BTARN, BtarnClean utility"
-ms.assetid: fbecbb88-9b18-4b4b-a286-0bfa783f2320
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BtarnClean
 You use the BtarnClean utility to clean Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] artifacts off a computer. This includes the following actions:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: The ESB Exception API Members"
-title: "The ESB Exception API Members | Microsoft Docs"
+title: "The ESB Exception API Members"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8a095549-7e5d-4a7c-96d2-8fc6ca3efd63
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The ESB Exception API Members
 The **ESB.ExceptionHandling** assembly exposes public methods to create fault messages and to manage and retrieve them for processing, as described in the following table.  

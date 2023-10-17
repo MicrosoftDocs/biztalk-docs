@@ -1,25 +1,11 @@
 ---
 description: "Learn more about: Batch Definition Tab"
 title: "Batch Definition Tab"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.batchdefinition"
-helpviewer_keywords: 
-  - "Batch Definition tab [Configuration Explorer]"
-  - "batching, configuring"
-  - "configuring, batching"
-ms.assetid: fe8685ef-5de5-4337-8691-8e4094056ace
-caps.latest.revision: 4
-
-
-
 ---
 # Batch Definition Tab
 You use the **Batch Definition** tab to enable inbound batching, batch in/batch out batching, and select available schemas for outbound batching.  

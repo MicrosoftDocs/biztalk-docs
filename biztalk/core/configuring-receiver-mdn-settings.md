@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Receiver MDN Settings"
-title: "Configuring Receiver MDN Settings | Microsoft Docs"
+title: "Configuring Receiver MDN Settings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: eae6431d-a2b9-4889-a29c-720e801a644e
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Receiver MDN Settings
 As part of receiver MDN settings, you can specify the properties that govern MDN generation based on the AS2 message header.  

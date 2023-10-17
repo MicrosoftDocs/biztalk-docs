@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Find Method"
-title: "Find Method | Microsoft Docs"
+title: "Find Method"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Find method"
-ms.assetid: 676827a6-82af-4922-bf9e-aca5bd23624b
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Find Method
 Used to return a list of keys that satisfy the supplied partial search keys. Note that for a component interface that has only one instance, that is, there is no key, the `Find()` function is not generated. See also [Get Method](../core/get-method.md).  

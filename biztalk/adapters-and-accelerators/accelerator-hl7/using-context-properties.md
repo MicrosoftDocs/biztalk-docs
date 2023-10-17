@@ -1,24 +1,9 @@
 ---
 description: "Learn more about: Using Context Properties"
 title: "Using Context Properties"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "messages, context properties"
-  - "messages, promoted properties"
-  - "promoted properties, context properties"
-  - "context properties, messages"
-ms.assetid: 306127a9-df03-4aaf-8dd8-76df51eb193d
-caps.latest.revision: 5
-
-
-
 ---
 # Using Context Properties
 The BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) Messaging Engine and its components use context properties internally. Changing the values set by the engine for some context properties is not recommended, because it may affect the execution logic of the engine. However, you can change a large number of properties not set by the engine. You can use the context properties for creation of filter expressions on send ports (for more information, see [Setting Filter Expressions on Send Ports](../../adapters-and-accelerators/accelerator-hl7/setting-filter-expressions-on-send-ports.md)). You can also use context properties in filter expressions for orchestrations. The properties are available for filter expressions as long as a project has a reference to the global properties schemas (which [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] creates when you use one of the common templates).  

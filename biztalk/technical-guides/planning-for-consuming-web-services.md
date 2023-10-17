@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning for Consuming Web Services"
-title: "Planning for Consuming Web Services | Microsoft Docs"
+title: "Planning for Consuming Web Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 24863069-929b-4b0b-9643-073965fb5532
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning for Consuming Web Services
 Planning for Web services can be divided into two categories, planning for publishing Web services and planning for consuming Web services. This topic describes the considerations for consuming Web services. For information about publishing Web services, see [Planning for Publishing Web Services1](../technical-guides/planning-for-publishing-web-services1.md).

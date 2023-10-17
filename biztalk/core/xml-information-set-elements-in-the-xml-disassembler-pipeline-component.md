@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: XML Information Set Elements in the XML Disassembler Pipeline Component"
-title: "XML Information Set Elements in the XML Disassembler Pipeline Component | Microsoft Docs"
+title: "XML Information Set Elements in the XML Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XML Disassembler [pipeline component], information set"
-  - "XML Disassembler [pipeline component], processing instructions"
-  - "pipeline components, XML Disassembler"
-ms.assetid: cc82344c-6c4b-4154-a662-0b7ae5caad30
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # XML Information Set Elements in the XML Disassembler Pipeline Component
 The XML Disassembler handles XML information set elements as follows.  

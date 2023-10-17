@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MQSC Adapter Features"
-title: "MQSC Adapter Features | Microsoft Docs"
+title: "MQSC Adapter Features"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b2c43fab-5da3-4e81-ae14-5091649f6d83
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MQSC Adapter Features
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOLookup2 Methods"
-title: "ISSOLookup2 Methods | Microsoft Docs"
+title: "ISSOLookup2 Methods"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e62eb8a5-3485-4b71-b197-0dfaaf965c29
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOLookup2 Methods
 The methods of the **ISSOLookup2** interface are listed in the following table. For a complete list of **ISSOLookup2** interface members, see [ISSOLookup2 Members](../esso/issolookup2-members.md).  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Cluster the Master Secret Server"
-title: "How to Cluster the Master Secret Server | Microsoft Docs"
+title: "How to Cluster the Master Secret Server"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 011e4b8a-27c8-44a7-85a5-f99e81877ec1
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Cluster the Master Secret Server
 It is strongly recommended that you follow the instructions in this section to cluster the Enterprise Single Sign-On (SSO) service on the master secret server successfully.  

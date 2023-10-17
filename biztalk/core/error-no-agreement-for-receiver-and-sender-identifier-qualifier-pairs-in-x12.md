@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs"
-title: "A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs | Microsoft Docs"
+title: "A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 72ae7926-f5c1-42f4-8c29-11f34c138dd4
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs
 ## Details  

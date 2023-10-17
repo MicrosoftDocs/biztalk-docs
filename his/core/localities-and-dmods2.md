@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Localities and DMODs"
-title: "Localities and DMODs2 | Microsoft Docs"
+title: "Localities and DMODs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: efe7cb5e-3543-45e8-b17b-4a0503f9252b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Localities and DMODs
 A Base and the components within it are called a locality. The Host Integration Server system consists of one or more communicating localities, all running Host Integration Server executable programs within the local area network (LAN) Manager domain. For each Host Integration Server system, there is a single configuration file.  

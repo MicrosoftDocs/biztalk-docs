@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Outbound Pacing"
-title: "Outbound Pacing1 | Microsoft Docs"
+title: "Outbound Pacing1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d243691-edf3-434b-8c96-6e5dc0e173a3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Outbound Pacing
 If the application has enough resources to handle outbound data as fast as the network can provide it (for example, a screen), or if a higher level protocol (for example, immediate request mode) constrains the data flow, the application need not be involved in pacing, and it is possible for the local node to handle outbound pacing transparently.  

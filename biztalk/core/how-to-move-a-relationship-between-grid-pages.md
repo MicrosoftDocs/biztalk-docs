@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: How to Move a Relationship Between Grid Pages"
-title: "How to Move a Relationship Between Grid Pages | Microsoft Docs"
+title: "How to Move a Relationship Between Grid Pages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.mapper.movetopage"
-ms.assetid: 185add4d-c876-44b6-b6e0-71c15a9b7c26
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Move a Relationship Between Grid Pages
 Large maps include many sets of functoids and links, which can make it difficult for you to identify the links joining multiple functoids. In such a scenario, you might want to move a similar set of functoids and links to a different grid page to make the map more readable. This topic provides step-by-step instructions to perform the operation.  

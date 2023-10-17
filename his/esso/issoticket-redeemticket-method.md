@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOTicket.RedeemTicket Method"
-title: "ISSOTicket.RedeemTicket Method | Microsoft Docs"
+title: "ISSOTicket.RedeemTicket Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7ae88939-36b2-429d-aa3f-66a0f16c9226
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOTicket.RedeemTicket Method
 The **RedeemTicket** method redeems an Enterprise Single Sign-On (SSO) server ticket that was previously issued with the **IssueTicket** method.  

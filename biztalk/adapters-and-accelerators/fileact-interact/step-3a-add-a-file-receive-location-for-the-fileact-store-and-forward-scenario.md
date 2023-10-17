@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3A: Add a FILE Receive Location for the FileAct Store and Forward Scenario"
-title: "Step 3A: Add a FILE Receive Location for the FileAct Store and Forward Scenario | Microsoft Docs"
+title: "Step 3A: Add a FILE Receive Location for the FileAct Store and Forward Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 67ecbf4a-a2b4-4534-8ca1-3bfbb6a697bf
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3A: Add a FILE Receive Location for the FileAct Store and Forward Scenario
 Before you begin this step, you must complete [Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-fileact-store-and-forward.md).  

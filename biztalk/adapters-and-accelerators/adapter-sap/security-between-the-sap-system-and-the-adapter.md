@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Security between the SAP system and the adapter"
-title: "Security between the SAP system and the adapter | Microsoft Docs"
+title: "Security between the SAP system and the adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Secure Network Communications"
-  - "SNC"
-  - "security, user name password credentials"
-  - "security, for inbound scenarios"
-  - "security considerations, between SAP system and adapter"
-  - "user name password credentials"
-ms.assetid: fa21df0b-a364-4a52-8c38-49c5ee6267cc
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security between the SAP system and the adapter
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports either SAP Secure Network Communications (SNC) or user name password credentials to help secure communication between it and the SAP server. User name password credentials only provide authorization for the connection to the SAP system; they do not provide any security on the data exchanged over the connection. You cannot use both SNC and user name password credentials simultaneously.  

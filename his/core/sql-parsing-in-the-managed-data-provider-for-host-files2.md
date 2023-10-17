@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SQL Parsing in the Managed Data Provider for Host Files"
-title: "SQL Parsing in the Managed Data Provider for Host Files | Microsoft Docs"
+title: "SQL Parsing in the Managed Data Provider for Host Files"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5067ae76-8b40-4a13-9d9f-5a218ad3c39e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SQL Parsing in the Managed Data Provider for Host Files
 

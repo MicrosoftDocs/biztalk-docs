@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: OLE DB Interface Support in the OLE DB Provider for Informix"
-title: "OLE DB Interface Support in the OLE DB Provider for Informix | Microsoft Docs"
+title: "OLE DB Interface Support in the OLE DB Provider for Informix"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bcc30a34-7488-4013-b6d0-c692a352f107
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # OLE DB Interface Support in the OLE DB Provider for Informix
 The following table summarizes the OLE DB version 2.8 interfaces that are supported by the current version of Microsoft OLE DB Provider for Informix.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Client-Based BizTalk Adapter for WebSphere MQ Programmer&#39;s Guide"
-title: "Client-Based BizTalk Adapter for WebSphere MQ Programmer&#39;s Guide1 | Microsoft Docs"
+title: "Client-Based BizTalk Adapter for WebSphere MQ Programmer&#39;s Guide1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f2858d23-10fe-4cb4-a8dc-0f968a37fe78
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Client-Based BizTalk Adapter for WebSphere MQ Programmer&#39;s Guide
 This section discusses how to use the client-based BizTalk Adapter for WebSphere MQ.  

@@ -1,19 +1,9 @@
 ---
 description: "Learn more about: Step 7: Create and Configure a Source Party"
 title: "Step 7: Create and Configure a Source Party"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: d8788a9c-ae6f-461b-82e5-f4276d1d5e0c
-caps.latest.revision: 7
-
-
-
 ---
 # Step 7: Create and Configure a Source Party
 In this step, you create and configure a source party, and assign send ports to enable message header transformations for the outgoing message.  

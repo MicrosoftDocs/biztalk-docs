@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Increasing Availability for BizTalk Server"
-title: "Increasing Availability for BizTalk Server | Microsoft Docs"
+title: "Increasing Availability for BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 72d9ce5e-d775-4f8e-b1a4-bf3c7c05f571
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Increasing Availability for BizTalk Server
 This section describes ways you can increase the availability of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.  

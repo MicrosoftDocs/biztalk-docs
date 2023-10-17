@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Configuring EDI Pipeline Properties"
-title: "Configuring EDI Pipeline Properties | Microsoft Docs"
+title: "Configuring EDI Pipeline Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edir2.edi.pipeline.properties"
-ms.assetid: 1b6229b6-a8b0-4824-86bd-39021844c5a8
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring EDI Pipeline Properties
 Pipeline properties are used in processing an incoming or outgoing EDI interchange when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is unable to determine the agreement that the incoming or outgoing interchange resolves to. In some cases, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the pipeline property to process the interchange; in others, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] use the fallback agreement. For more information, see [How Validation of an EDI Interchange Is Configured](../core/how-validation-of-an-edi-interchange-is-configured.md).  

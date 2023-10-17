@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4: Configure the BizTalk Server Solution"
-title: "Step 4: Configure the BizTalk Server Solution | Microsoft Docs"
+title: "Step 4: Configure the BizTalk Server Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d60e6a82-51af-41e5-a755-5f337492ba2f
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Configure the BizTalk Server Solution
 In the previous step, you created and deployed a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application to receive Salesforce notification into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and insert the details into an on-premise SQL Server database. In this step, we’ll configure the application in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. Configuring the application primarily involves creating physical ports corresponding to the logical ports we created in the orchestration. It also involves binding the physical port to the logical ports. We’ll perform the following steps to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application:  

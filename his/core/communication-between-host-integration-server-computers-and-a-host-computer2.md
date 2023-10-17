@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Communication Between Host Integration Server Computers and a Host Computer"
-title: "Communication Between Host Integration Server Computers and a Host Computer2 | Microsoft Docs"
+title: "Communication Between Host Integration Server Computers and a Host Computer2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2e61ad50-e58e-4491-8178-348dddc4de8a
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Communication Between Host Integration Server Computers and a Host Computer
 Within the context of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], a connection is the data communication path between a Host Integration Server computer and an IBM host (mainframe or AS/400). A connection corresponds to a physical unit (PU) definition on a mainframe or an APPC controller definition on an AS/400. The connection is what makes it possible for a personal computer on the LAN to communicate with a host by means of a Host Integration Server computer. 

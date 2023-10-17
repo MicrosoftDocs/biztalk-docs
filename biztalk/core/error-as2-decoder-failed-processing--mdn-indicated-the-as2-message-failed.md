@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The AS2 Decoder failed processing because the MDN indicated the AS2 message failed processing"
-title: "The AS2 Decoder failed processing because the MDN indicated the AS2 message failed processing | Microsoft Docs"
+title: "The AS2 Decoder failed processing because the MDN indicated the AS2 message failed processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2bce620a-f336-435e-b7c3-3db060f2819d
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The AS2 Decoder failed processing because the MDN indicated the AS2 message failed processing
 ## Details  

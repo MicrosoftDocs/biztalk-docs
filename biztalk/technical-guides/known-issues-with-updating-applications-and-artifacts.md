@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Known Issues with Updating Applications and Artifacts"
-title: "Known Issues with Updating Applications and Artifacts | Microsoft Docs"
+title: "Known Issues with Updating Applications and Artifacts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 220ea03c-d453-40cc-8ddb-18a96f8ddfe5
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with Updating Applications and Artifacts
 ## Updating an Application

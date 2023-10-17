@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AS2 Messages"
-title: "AS2 Messages | Microsoft Docs"
+title: "AS2 Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1fac8418-3c07-4513-94aa-e7a25087d789
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AS2 Messages
 This topic describes an AS2 message, including its structure, its context properties, and its headers.

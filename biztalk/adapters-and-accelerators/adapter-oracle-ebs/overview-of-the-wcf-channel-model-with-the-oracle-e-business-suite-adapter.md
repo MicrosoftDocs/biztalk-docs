@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Overview of the WCF channel model with the Oracle E-Business Suite adapter"
-title: "Overview of the WCF channel model with the Oracle E-Business Suite adapter | Microsoft Docs"
+title: "Overview of the WCF channel model with the Oracle E-Business Suite adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3afd2a97-5734-4c25-87a3-702d8461898b
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Overview of the WCF channel model with the Oracle E-Business Suite adapter
 To invoke operations on the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)], your code acts as a WCF client and sends outbound operations to the adapter. In the WCF channel model, your code invokes operations on the adapter by sending a request message over a channel.

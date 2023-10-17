@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: CPI-C Symbolic Name: Security Settings"
-title: "CPI-C Symbolic Name: Security Settings1 | Microsoft Docs"
+title: "CPI-C Symbolic Name: Security Settings1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cpic_security_settings"
-ms.assetid: a4c1b872-36e3-427e-b2c9-7065076dceec
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CPI-C Symbolic Name: Security Settings
 Specify a User ID and Password  

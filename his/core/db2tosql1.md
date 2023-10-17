@@ -1,18 +1,12 @@
 ---
 description: "Learn about the attributes, child elements, and parent elements of the db2ToSql element that defines the direction from DB2 to SQL Server."
-title: "db2ToSql1 | Microsoft Docs"
+title: "db2ToSql1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: eb4c004f-8677-4b84-a7a7-959f9b302cd0
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # About db2ToSql
 

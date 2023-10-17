@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Step 5: Modifying the Contoso Private Process Orchestration"
-title: "Step 5: Modifying the Contoso Private Process Orchestration | Microsoft Docs"
+title: "Step 5: Modifying the Contoso Private Process Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "private processes, orchestrations"
-  - "private process tutorial, modifying private process orchestration"
-ms.assetid: a5430db8-e5f0-48a6-abb9-e268d8ec2ec4
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 5: Modifying the Contoso Private Process Orchestration
 In this step, you modify the private process orchestration to integrate with the Enterprise Resource Planning (ERP) system for Contoso. The ERP system for Contoso uses internally defined schemas for product price and availability. By customizing the private process for the 3A2 - Price and Availability Partner Interface Process (PIP), you will be able to integrate with the ERP system by using schema-mapping information.  

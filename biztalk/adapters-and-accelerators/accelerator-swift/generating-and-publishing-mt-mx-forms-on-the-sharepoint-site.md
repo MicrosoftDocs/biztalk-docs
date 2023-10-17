@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Generating and Publishing MT/MX Forms on the SharePoint Site"
-title: "Generating and Publishing MT-MX Forms on the SharePoint Site | Microsoft Docs"
+title: "Generating and Publishing MT-MX Forms on the SharePoint Site"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4adf7117-11ad-4a8e-8d6a-fd78c5e496a3
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Generating and Publishing MT/MX Forms on the SharePoint Site
 **To generate and publish MT/MX forms on a SharePoint site:**  

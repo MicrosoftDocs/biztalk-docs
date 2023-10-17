@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Creating a Pipeline Project"
-title: "Creating a Pipeline Project | Microsoft Docs"
+title: "Creating a Pipeline Project"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b584e3ab-e824-4977-b4ed-4fc197a6cf7a
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating a Pipeline Project
 To create a pipeline project:  

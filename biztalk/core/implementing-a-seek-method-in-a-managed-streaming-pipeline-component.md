@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Implementing a Seek Method in a Managed Streaming Pipeline Component"
-title: "Implementing a Seek Method in a Managed Streaming Pipeline Component | Microsoft Docs"
+title: "Implementing a Seek Method in a Managed Streaming Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline interfaces, IStream interface"
-  - "pipeline components [custom], code samples"
-  - "IStream interface"
-  - "Seek method"
-ms.assetid: 2e546c41-822d-4e22-a8f6-8959072ef3d2
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Implementing a Seek Method in a Managed Streaming Pipeline Component
 The native **IStream** interface does not provide a method to check the current stream position, so the messaging engine uses the following **Seek** method.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Network Integration Programmer's Reference"
-title: "Network Integration Programmer's Reference | Microsoft Docs"
+title: "Network Integration Programmer's Reference"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4a1c2ce4-2c67-4252-8a8e-9c3189ab7a4b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Network Integration Programmer's Reference
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Invoking TPs (CPI-C)"
-title: "Invoking TPs (CPI-C)2 | Microsoft Docs"
+title: "Invoking TPs (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 212388b4-9c9c-4f5a-be1b-200746078203
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Invoking TPs (CPI-C)
 An invoking transaction program (TP) can be located on any system on the SNA network. An invoking TP identifies itself by issuing [Initialize_Conversation](./initialize-conversation-cpi-c-1.md), which specifies the name of the invoking TP and the symbolic destination name to be used. A local logical unit (LU) alias can be specified for the invoking TP by using a registry or environment variable, as shown in the following table.  

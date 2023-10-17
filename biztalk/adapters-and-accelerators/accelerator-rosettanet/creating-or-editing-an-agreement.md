@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating or Editing an Agreement"
-title: "Creating or Editing an Agreement | Microsoft Docs"
+title: "Creating or Editing an Agreement"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4bbe4b57-d6ec-4448-9c80-2aecd98e0dc7
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating or Editing an Agreement
 This topic describes how to create or edit a trading partner agreement. A trading partner agreement configures the relationship between two trading partners, including their identities; the Partner Interface Process (PIP); the action, signal, and sync URLs; and the associated protocols.  

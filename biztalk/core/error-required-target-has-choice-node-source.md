@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Required Target Has Choice Node Source"
-title: "Error - Required Target Has Choice Node Source | Microsoft Docs"
+title: "Error - Required Target Has Choice Node Source"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.reqdTargetHasChoiceNodeSource"
-ms.assetid: 5b5af999-d100-4e5d-a959-c8b11d574d3b
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Required Target Has Choice Node Source
 **Error Code**  

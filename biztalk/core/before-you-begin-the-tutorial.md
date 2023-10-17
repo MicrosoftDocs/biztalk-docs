@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Before You Begin the Tutorial"
-title: "Before You Begin the Tutorial | Microsoft Docs"
+title: "Before You Begin the Tutorial"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b77a49ba-9e15-4754-b8b9-7b7af6e6db0f
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Before You Begin the Tutorial
 Before you begin the tutorial, you must install BizTalk Server on a single computer, and also install the tutorial files. The tutorial does not provide instructions for a multicomputer environment. If you are working in a distributed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, you must take that into consideration when you perform the steps in the tutorials.  

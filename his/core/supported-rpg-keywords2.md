@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Supported RPG Keywords"
-title: "Supported RPG Keywords2 | Microsoft Docs"
+title: "Supported RPG Keywords2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 92da4efc-cdd2-4625-bb05-2631569e90d5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Supported RPG Keywords
 Transaction Integrator (TI) supports the following Report Program Generator (RPG) keywords:  

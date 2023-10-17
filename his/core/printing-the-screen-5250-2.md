@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Printing the Screen (5250)"
-title: "Printing the Screen (5250)2 | Microsoft Docs"
+title: "Printing the Screen (5250)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 35ca7d1e-a98e-40c3-aed1-d9a7638fea28
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Printing the Screen (5250)
 After you have established a connection to the host, you can print the information in the active window.  

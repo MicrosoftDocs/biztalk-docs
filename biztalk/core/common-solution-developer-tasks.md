@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Common Solution Developer Tasks"
-title: "Common Solution Developer Tasks | Microsoft Docs"
+title: "Common Solution Developer Tasks"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3439e185-bce1-4df9-848f-c96f08b66604
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Common Solution Developer Tasks
 Solution developers design and develop BizTalk Server solutions using BizTalk Server development tools and technologies as well as the Microsoft .NET Framework.  

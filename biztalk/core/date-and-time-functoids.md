@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Date and Time Functoids"
-title: "Date and Time Functoids | Microsoft Docs"
+title: "Date and Time Functoids"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2e2d49f5-1aaf-4e4d-8da1-e8605304dccb
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Date and Time Functoids
 

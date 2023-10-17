@@ -1,19 +1,12 @@
 ---
 description: "Learn how to configure the construct message shape."
-title: "Task 4: Configure the Construct Message Shape2 | Microsoft Docs"
+title: "Task 4: Configure the Construct Message Shape2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 43a7b912-0293-41be-b992-309eca550801
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Task 4: Configure the Construct Message Shape
 The Construct Messages hold messages assignments with the instructions for the Begin, Edit, and End Doc code.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting non-WCF Line of Business Adapters"
-title: "Troubleshooting non-WCF Line of Business Adapters | Microsoft Docs"
+title: "Troubleshooting non-WCF Line of Business Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4d5f7877-656f-406e-9edb-d6b9a0705b02
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting non-WCF Line of Business Adapters
 ## “Failed to retrieve” error  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Secure programming with the Siebel adapter"
-title: "Secure programming with the Siebel adapter | Microsoft Docs"
+title: "Secure programming with the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security considerations, when programming on the adapter"
-  - "credentials, best practices for setting in code"
-  - "credentials, protecting when using the Add Adapter Service Reference Visual Studio Plug-in"
-  - "security, best practices for setting credentials in code"
-ms.assetid: 8c2b6b36-7bd9-4678-a9c2-450e818f607a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Secure programming with the Siebel adapter
 ## How Do I Protect Credentials When I Use the Add Adapter Service Reference Visual Studio Plug-in?  

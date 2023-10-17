@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOAdmin Interface (COM)"
-title: "ISSOAdmin Interface (COM) | Microsoft Docs"
+title: "ISSOAdmin Interface (COM)"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7f61afda-9a9c-46c4-abfa-af22b638c532
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOAdmin Interface (COM)
 The **ISSOAdmin** interface provides administration functions for the Enterprise Single Sign-On (SSO) server database.  

@@ -1,39 +1,12 @@
 ---
 description: "Learn more about: FRR Orchestration"
-title: "FRR Orchestration | Microsoft Docs"
+title: "FRR Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, promoted properties"
-  - "orchestrations, message subscriptions"
-  - "promoted properties, messages"
-  - "FRR, orchestrations"
-  - "subscriptions, messages"
-  - "orchestrations, reconciliation time-out"
-  - "messages, message/response correlation"
-  - "message/response correlation"
-  - "promoted properties, FIN Response Reconciliation"
-  - "orchestrations, FRR"
-  - "outbound messages"
-  - "FIN Response Reconciliation, promoted properties"
-  - "direct bindings"
-  - "reconciliation time-out"
-  - "bindings, direct"
-  - "messages, subscriptions"
-  - "subscriptions, orchestrations"
-  - "messages, outbound"
-  - "MessageBox database"
-ms.assetid: ea8d31c2-ac3b-44ac-8064-d008da4f7f72
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FRR Orchestration
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] implements FRR through the FRR orchestration. The orchestration determines whether the Correlation Token of the FIN response matches the message ID of the original message. It processes the message in parallel with the send functions performed by the send port that sends the message to SAA, and with the receive functions performed by the receive location that receives the message from SAA.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Categorize the Adapter and Connection Properties"
-title: "Step 2: Categorize the Adapter and Connection Properties | Microsoft Docs"
+title: "Step 2: Categorize the Adapter and Connection Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 45b3dc64-2078-4008-878b-501f727f4a11
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Categorize the Adapter and Connection Properties
 ![Step 2 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-2of9.gif "Step_2of9")  

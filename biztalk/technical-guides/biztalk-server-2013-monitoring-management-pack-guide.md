@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: BizTalk Server 2013 Monitoring Management Pack Guide"
-title: "BizTalk Server 2013 Monitoring Management Pack Guide | Microsoft Docs"
+title: "BizTalk Server 2013 Monitoring Management Pack Guide"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d54d4ace-0da6-454f-8311-9fe9471540b4
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server 2013 Monitoring Management Pack Guide
 ## Document Version  

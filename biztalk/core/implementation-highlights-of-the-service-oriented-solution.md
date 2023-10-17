@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Implementation Highlights of the Service Oriented Solution"
-title: "Implementation Highlights of the Service Oriented Solution | Microsoft Docs"
+title: "Implementation Highlights of the Service Oriented Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "service solution tutorial, performance"
-  - "performance, service solutions"
-  - "service solution tutorial, implementing"
-ms.assetid: 3dbd8dfd-45b7-4290-ba07-b0c5e6264629
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Implementation Highlights of the Service Oriented Solution
 A solution solves a particular problem in a specific context. The Service Oriented solution is no exception and is specific to Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the scenario. For more information about the Woodgrove Bank scenario, see [Understanding the Service Oriented Solution](../core/understanding-the-service-oriented-solution.md).  

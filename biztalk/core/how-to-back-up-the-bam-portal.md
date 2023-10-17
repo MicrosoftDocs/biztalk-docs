@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Back Up the BAM Portal"
-title: "How to Back Up the BAM Portal | Microsoft Docs"
+title: "How to Back Up the BAM Portal"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8cea02e6-e387-4048-a1f3-d7c3c562f470
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Back Up the BAM Portal
 If you are using Business Activity Monitoring (BAM), you must back up the BAM portal as part of backing up your BizTalk server. If you are not using BAM, this procedure is optional.

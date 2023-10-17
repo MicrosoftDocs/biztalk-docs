@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Integration Gateway and HTTP Output Connector"
-title: "How to Configure the Integration Gateway and HTTP Output Connector | Microsoft Docs"
+title: "How to Configure the Integration Gateway and HTTP Output Connector"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Integration Gateway"
-  - "gateway nodes, creating"
-  - "HTTP Output Connector"
-ms.assetid: a02ee533-07a8-42fa-a72a-7e5359b18f40
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Integration Gateway and HTTP Output Connector
 Follow these steps to configure the Integration Gateway and HTTP Output Connector.  

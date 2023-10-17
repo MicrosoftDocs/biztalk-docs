@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Compiling and Testing Maps"
-title: "Compiling and Testing Maps | Microsoft Docs"
+title: "Compiling and Testing Maps"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b6644b82-0887-4289-88c1-92f16411b052
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Compiling and Testing Maps
 After you have developed your map, the next step is to validate and test it. This section provides step-by-step instructions for validating and testing maps.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Changing BAM Runtime Settings"
-title: "Changing BAM Runtime Settings | Microsoft Docs"
+title: "Changing BAM Runtime Settings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "runtime, settings [BAM]"
-  - "managing [BAM], modifying runtime settings"
-ms.assetid: 25f53c20-c3af-40d7-9bf2-7eeee9cc3f5e
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Changing BAM Runtime Settings
 In general, you configure the BAM Runtime components when you install Microsoft® BizTalk Server. You may want to change the BAM Runtime settings, for example to scale up your system or if you have password expiration policy.  

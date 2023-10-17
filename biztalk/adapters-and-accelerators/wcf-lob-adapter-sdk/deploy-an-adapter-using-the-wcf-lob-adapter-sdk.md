@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Deploy an adapter using the WCF LOB adapter SDK"
-title: "Deploy an adapter using the WCF LOB adapter SDK | Microsoft Docs"
+title: "Deploy an adapter using the WCF LOB adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 376b4dcf-2d2c-4872-a394-67edc0c3d088
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploy an adapter using the WCF LOB adapter SDK
 To deploy an adapter, you must install the adapter assembly into the global assembly cache (GAC), and then register the adapter in the machine.config file.  

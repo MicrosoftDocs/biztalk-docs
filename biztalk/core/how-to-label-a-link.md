@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Label a Link"
-title: "How to Label a Link | Microsoft Docs"
+title: "How to Label a Link"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5fb81763-8b50-4334-88a8-efad1c5d82d9
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Label a Link
 Labels are helpful to document the purpose of a functoid or a link in a map. You can use the **Label** property to name a link. This is useful when your map contains big schema structures and identifying the inputs and output links to a functoid becomes difficult.  

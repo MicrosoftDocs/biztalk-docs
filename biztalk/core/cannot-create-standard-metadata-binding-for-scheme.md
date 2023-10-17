@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Cannot create standard metadata binding for scheme"
-title: "Cannot create standard metadata binding for scheme | Microsoft Docs"
+title: "Cannot create standard metadata binding for scheme"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ce441c3e-0f6e-46ed-90cf-825dbf89d910
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Cannot create standard metadata binding for scheme
 ## Details  

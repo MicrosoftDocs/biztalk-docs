@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Secure your Oracle Database applications"
-title: "Secure your Oracle Database applications | Microsoft Docs"
+title: "Secure your Oracle Database applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapter, security"
-  - "authorization"
-  - "data protection"
-  - "adapter, data protection"
-  - "authentication"
-  - "security"
-ms.assetid: c5f18b0a-1c8e-44c6-ba7e-470fa186f636
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Secure your Oracle Database applications
 ## Data protection and security overview

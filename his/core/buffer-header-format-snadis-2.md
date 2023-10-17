@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Buffer Header Format (SNADIS)"
-title: "Buffer Header Format (SNADIS)2 | Microsoft Docs"
+title: "Buffer Header Format (SNADIS)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c5f9fa06-027d-4e48-be65-2a5a92c34ad9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Buffer Header Format (SNADIS)
 This topic lists the common fields that always occur at the start of a buffer header. These are followed by further fields specific to the particular message. For details about individual message formats, see [SNADIS Message Formats](./snadis-message-formats2.md).  

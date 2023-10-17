@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Identifiers (EDIFACT)"
-title: "Configuring Identifiers (EDIFACT) | Microsoft Docs"
+title: "Configuring Identifiers (EDIFACT)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 097292f2-1aa5-42e4-aeee-c7d4cbdae17c
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Identifiers (EDIFACT)
 In the partner agreement, you must set the recipient reference password, in order to verify that the interchange is not being received by unauthorized recipients.  

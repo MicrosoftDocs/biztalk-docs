@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using BaseFunctoid"
-title: "Using BaseFunctoid | Microsoft Docs"
+title: "Using BaseFunctoid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fb26a54d-20bf-4302-a5cb-b38e4091002b
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using BaseFunctoid
 All custom functoids must derive from the **BaseFunctoid** class. You must first override the constructor and make a set of calls that tell BizTalk Mapper about your custom functoid. Then you need to write the functoid logic.  

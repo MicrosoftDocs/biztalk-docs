@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configure dispatcher-initiated or adapter-initiated transactions with the WCF LOB Adapter SDK"
-title: "Configure dispatcher-initiated or adapter-initiated transactions with the WCF LOB Adapter SDK | Microsoft Docs"
+title: "Configure dispatcher-initiated or adapter-initiated transactions with the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 85b9ef8d-3922-4838-a41a-32db5e005dc0
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure dispatcher-initiated or adapter-initiated transactions with the WCF LOB Adapter SDK
 ## Inbound Transactions  

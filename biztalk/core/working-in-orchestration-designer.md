@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: Working in Orchestration Designer"
-title: "Working in Orchestration Designer | Microsoft Docs"
+title: "Working in Orchestration Designer"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, saving"
-  - "deleting, orchestrations"
-  - "projects, orchestrations"
-  - "orchestrations, properties"
-  - "orchestrations, creating"
-  - "creating, orchestrations"
-  - "naming conventions, orchestrations"
-  - "orchestrations, naming conventions"
-  - "orchestrations, deleting"
-ms.assetid: 13e72b41-d9b6-4508-9a44-b3c7c1804f36
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Working in Orchestration Designer
 After you have started a BizTalk project, you can create new orchestrations and add existing orchestrations to the project. See the following procedures to create and save an orchestration, to add an existing orchestration to a project or remove one from it, to change the name of an orchestration, and to set orchestration properties.  

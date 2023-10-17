@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Processing in the Order Processing Stages"
-title: "Processing in the Order Processing Stages | Microsoft Docs"
+title: "Processing in the Order Processing Stages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 698005da-1ba8-4972-83db-f5ae45fd6a83
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Processing in the Order Processing Stages
 The Business Process Management solution includes two stages, the **CableOrder1** and **CableOrder2** orchestrations, that perform the order processing actions. For more information about how the order process was divided into stages, see [Number of Processing Stages](../core/number-of-processing-stages.md).  

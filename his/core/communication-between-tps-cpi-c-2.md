@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Communication Between TPs (CPI-C)"
-title: "Communication Between TPs (CPI-C)2 | Microsoft Docs"
+title: "Communication Between TPs (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 168dc57e-d179-4fda-9a5b-c4da9ba26799
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Communication Between TPs (CPI-C)
 Various hardware and software elements in the SNA environment are required for two transaction programs (TPs) to communicate with each other. The following figure illustrates several fundamental elements.  

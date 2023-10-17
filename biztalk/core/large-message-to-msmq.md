@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Large Message to MSMQ"
-title: "Large Message to MSMQ | Microsoft Docs"
+title: "Large Message to MSMQ"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1fb87b46-5656-42c0-be99-8ab66e51bb4d
-caps.latest.revision: 35
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Large Message to MSMQ
 The Large Message to MSMQ sample demonstrates how to send an .xml document larger than 4 megabytes (MB) from Message Queuing (also known as MSMQ) to the BizTalk MSMQ adapter by using the **MQSendLargeMessage** API implemented by MQRTLarge.dll.  

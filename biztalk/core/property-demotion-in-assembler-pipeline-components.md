@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Property Demotion in Assembler Pipeline Components"
-title: "Property Demotion in Assembler Pipeline Components | Microsoft Docs"
+title: "Property Demotion in Assembler Pipeline Components"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XML Assembler [pipeline component], properties"
-  - "pipeline components, properties"
-  - "BizTalk Framework Assembler [pipeline component], properties"
-  - "XML Assembler [pipeline component], about XML Assembler"
-  - "Flat File Assembler [pipeline component], properties"
-ms.assetid: c5275638-d594-4b0d-a818-b7a9460b41a6
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Property Demotion in Assembler Pipeline Components
 You can use property demotion to copy a property value from the message context into the message content or to its header or trailer. You accomplish property demotion by using an XPath expression specified in the document or in the header and trailer schema.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Connection Initialization Details"
-title: "Connection Initialization Details2 | Microsoft Docs"
+title: "Connection Initialization Details2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 143e294d-904a-44d7-a50b-3002cbfc45dc
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Connection Initialization Details
 For an overview, refer to the topic [Connection Initialization Overview](../core/connection-initialization-overview1.md).  

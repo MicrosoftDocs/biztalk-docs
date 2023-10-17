@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure a WCF-Custom Receive Handler"
-title: "How to Configure a WCF-Custom Receive Handler | Microsoft Docs"
+title: "How to Configure a WCF-Custom Receive Handler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0208a7aa-6e42-43b7-a934-27ef4409b4ec
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a WCF-Custom Receive Handler
 You must configure the receive handler properties if you want the [!INCLUDE[wcfadapter_short](../includes/wcfadapter-short-md.md)] to look up the custom behavior extensions from locations other than machine.config.

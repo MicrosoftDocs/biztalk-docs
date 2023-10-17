@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDI Structural Validation"
-title: "EDI Structural Validation | Microsoft Docs"
+title: "EDI Structural Validation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 87086614-5616-441d-915c-2979c63c6e2f
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDI Structural Validation
 EDI specifications for both X12 and EDIFACT encoding define specific rules and conventions for the structure of EDI interchanges. The EDI Disassembler in the EDIReceivePipeline verifies that the envelope of each received message complies with these structural rules. The EDISendPipeline builds each message to be sent in accordance with these rules and validates the envelope before sending.  

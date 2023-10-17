@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Invoke a Function in Oracle Database using the WCF Channel Model"
-title: "Invoke a Function in Oracle Database using the WCF Channel Model | Microsoft Docs"
+title: "Invoke a Function in Oracle Database using the WCF Channel Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "channel programming, executing a function"
-  - "WCF channel model, invoking a function"
-  - "how to, execute a function using a channel"
-  - "executing a function, using a channel"
-ms.assetid: 6c15c352-3086-44f6-b265-4c7a7aee47ff
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke a Function in Oracle Database using the WCF Channel Model
 This section demonstrates how to execute a function in an Oracle database using the channel created in [Create a Channel using Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/create-a-channel-using-oracle-database.md).  

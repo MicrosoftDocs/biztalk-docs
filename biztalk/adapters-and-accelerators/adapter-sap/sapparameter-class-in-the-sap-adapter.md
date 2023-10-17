@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: SAPParameter class in the SAP adapter"
-title: "SAPParameter class in the SAP adapter | Microsoft Docs"
+title: "SAPParameter class in the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SAPParameter, supported methods, classes, and constructors"
-ms.assetid: 60053393-ad22-4c99-abae-e538d43c8e18
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SAPParameter class in the SAP adapter
 The following section lists the methods and properties for the **SAPParameter** class. This is derived from **System.Data.Common.DbParameter**.  

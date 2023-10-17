@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Browse, search, and get Oracle E-Business Suite metadata"
-title: "Browse, search, and get Oracle E-Business Suite metadata | Microsoft Docs"
+title: "Browse, search, and get Oracle E-Business Suite metadata"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b516c6e9-dbb3-4977-bb27-aa039e021912
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Browse, search, and get Oracle E-Business Suite metadata
 The metadata that [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] surfaces from Oracle E-Business Suite and the underlying Oracle database describes the message structure for communicating with Oracle E-Business Suite using the adapter. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] supports two interfaces for retrieving metadata.  

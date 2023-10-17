@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Preserving a Batched Interchange"
-title: "Preserving a Batched Interchange | Microsoft Docs"
+title: "Preserving a Batched Interchange"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 907e07f3-1f3e-485e-a82d-b28eb7658e0a
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Preserving a Batched Interchange
 This topic describes how to configure an agreement for processing a batched EDI interchange as a single document without splitting the transaction sets from the interchange.  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Schema Resolver Component (BizTalk Server Sample)"
-title: "Schema Resolver Component (BizTalk Server Sample) | Microsoft Docs"
+title: "Schema Resolver Component (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Flat File Disassembler [pipeline component], examples"
-  - "examples, schemas"
-  - "schemas, examples"
-  - "examples, Flat File Disassembler [pipeline component]"
-ms.assetid: 9ef68988-c4ee-42d5-83b5-a5c978b2007d
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Schema Resolver Component (BizTalk Server Sample)
 The Schema Resolver Component sample demonstrates how to extend the functionality of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] flat file disassembler component.  

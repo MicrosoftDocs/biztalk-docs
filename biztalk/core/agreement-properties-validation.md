@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Agreement Properties Validation"
-title: "Agreement Properties Validation | Microsoft Docs"
+title: "Agreement Properties Validation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9d565c26-37ef-4aee-aebb-3152880242a1
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Agreement Properties Validation
 Agreement properties include checks for duplicate control numbers for interchanges, groups, or transaction sets. The EDI receive pipeline will perform these validations only if they are enabled in agreement properties. These validations include:  

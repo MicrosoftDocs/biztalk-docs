@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Transactional Adapter (BizTalk Server Sample)"
-title: "Transactional Adapter (BizTalk Server Sample) | Microsoft Docs"
+title: "Transactional Adapter (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 31a13377-cc89-4763-ad1b-508a16fc9708
-caps.latest.revision: 36
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Transactional Adapter (BizTalk Server Sample)
 The Transactional Adapter sample demonstrates how to create and use an explicit Microsoft Distributed Transaction Coordinator (MSDTC) transaction against a database during processing of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] message.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn about the Objects node that is used to identify the Transaction Integrator (TI) Meta Data Assembly for the Windows-initiated processing (WIP) call."
-title: "WIPObjects node | Microsoft Docs"
+title: "WIPObjects node"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b2469e03-9b36-47c8-8eb2-d28f95bc43d6
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Objects Node
 

@@ -1,19 +1,12 @@
 ---
-title: "Implement Design Patterns in Orchestrations | Microsoft Docs"
+title: "Implement Design Patterns in Orchestrations"
 description: Aggregator, content-based routing, dynamic router, error handling, message broker, and more design patterns in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f62ba955-018a-40e7-b303-497acc906019
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Implement Design Patterns in Orchestrations
 This section discusses the common patterns of BizTalk Server programming as well as enterprise integration patterns. You can leverage a single pattern or combine multiple patterns to design your business process and then implement the design by using shapes in BizTalk Orchestration Designer.  

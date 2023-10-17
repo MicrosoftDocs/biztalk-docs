@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Potential Benefits of Deploying a BizTalk Server Solution to a Hyper-V Virtualized Environment"
-title: "Potential Benefits of Deploying a BizTalk Server Solution to a Hyper-V Virtualized Environment | Microsoft Docs"
+title: "Potential Benefits of Deploying a BizTalk Server Solution to a Hyper-V Virtualized Environment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 588c70f0-68f0-4e58-8f3d-aa6834397bd4
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Potential Benefits of Deploying a BizTalk Server Solution to a Hyper-V Virtualized Environment
 This topic describes some of the benefits of deploying your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution to a Hyper-V virtualized environment.

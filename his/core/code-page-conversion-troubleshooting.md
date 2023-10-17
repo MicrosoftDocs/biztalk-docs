@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Code Page Conversion Troubleshooting"
-title: "Code Page Conversion Troubleshooting | Microsoft Docs"
+title: "Code Page Conversion Troubleshooting"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9da679d9-1b62-41e1-928d-653e40df8445
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Code Page Conversion Troubleshooting
 

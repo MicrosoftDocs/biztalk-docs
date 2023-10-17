@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing the BizTalk Operations Sample"
-title: "Installing the BizTalk Operations Sample | Microsoft Docs"
+title: "Installing the BizTalk Operations Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 57c982c2-f796-4c63-9bca-7e8965779850
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing the BizTalk Operations Sample
 

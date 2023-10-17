@@ -1,19 +1,12 @@
 ---
-title: "Troubleshooting and known issues using the SWIFT accelerator in BizTalk Server | Microsoft Docs"
+title: "Troubleshooting and known issues using the SWIFT accelerator in BizTalk Server"
 description: SWIFT error codes, common issues and resolutions for the A4SWIFT in BizTalk Server
 ms.custom: ""
 ms.date: "08/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 03902c73-f027-479c-980b-100195354241
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting and known issues
 This section provides a centralized location for information related to troubleshooting Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].  

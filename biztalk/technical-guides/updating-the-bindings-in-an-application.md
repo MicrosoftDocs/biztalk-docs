@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Updating the Bindings in an Application"
-title: "Updating the Bindings in an Application | Microsoft Docs"
+title: "Updating the Bindings in an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fe4ee4d8-67bf-4137-94e2-8274107c8ed6
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Updating the Bindings in an Application
 When you update an assembly in an application, its bindings are often overwritten or else the assembly may not be bound at all, forcing you to manually reconfigure bindings. To avoid this, you can use a binding file to update the same version of the assembly or update an assembly with a newer version.

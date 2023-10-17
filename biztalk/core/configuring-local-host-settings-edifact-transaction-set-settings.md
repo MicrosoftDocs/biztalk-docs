@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Local Host Settings (EDIFACT-Transaction Set Settings)"
-title: "Configuring Local Host Settings (EDIFACT-Transaction Set Settings) | Microsoft Docs"
+title: "Configuring Local Host Settings (EDIFACT-Transaction Set Settings)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9f7c9cb9-7b4b-41de-a3f3-c0519b18673c
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Local Host Settings (EDIFACT-Transaction Set Settings)
 To process an incoming interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] must determine the schema that it needs to use in processing and validating the interchange. This consists of determining the target namespace associated with the schema, and determining the schema to be used. In this page of the party agreement, you enter the properties to be used in determining the target namespace. How BizTalk Server determines the schema is described in [Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages](../core/agreement-resolution-schema-discovery-and-authorization-for-received-edi.md).  

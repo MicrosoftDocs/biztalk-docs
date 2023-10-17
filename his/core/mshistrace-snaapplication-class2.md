@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsHisTrace_SNAApplication Class"
-title: "MsHisTrace_SNAApplication Class2 | Microsoft Docs"
+title: "MsHisTrace_SNAApplication Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 577820f7-a423-4210-a38e-9e09b40fe28e
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsHisTrace_SNAApplication Class
 The **MsHisTrace_SNAApplication** class contains tracing properties for any application that runs on top of Host Integration Server.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing the Exception Management Samples"
-title: "Installing the Exception Management Samples | Microsoft Docs"
+title: "Installing the Exception Management Samples"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 46431a8a-29d1-488d-9b16-fedaba2300d9
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing the Exception Management Samples
 This section describes the process for installing the ESB Exception Management samples into the Microsoft BizTalk Server GlobalBank.ESB application. You can install the ESB Exception Management samples using the install scripts included with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. This section contains the following topics:  

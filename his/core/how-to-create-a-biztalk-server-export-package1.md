@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Create a BizTalk Server Export Package"
-title: "How to Create a BizTalk Server Export Package1 | Microsoft Docs"
+title: "How to Create a BizTalk Server Export Package1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f31fb1b4-92f4-47ba-bb38-71ee45937a99
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Create a BizTalk Server Export Package
 After you finish testing your BizTalk application in your development environment, you can put the associated dependencies into an export package. After you create the export package, you can then move your BizTalk application to a staging or live server.  

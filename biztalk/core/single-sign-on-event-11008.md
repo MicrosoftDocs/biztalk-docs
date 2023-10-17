@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11008"
-title: "Single Sign-On: Event 11008 | Microsoft Docs"
+title: "Single Sign-On: Event 11008"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d7e11dbc-7596-45fa-ae54-a6e79498e60e
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11008
 ## Details  

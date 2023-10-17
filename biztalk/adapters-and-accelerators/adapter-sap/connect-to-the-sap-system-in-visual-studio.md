@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Connect to the SAP System in Visual Studio"
-title: "Connect to the SAP System in Visual Studio | Microsoft Docs"
+title: "Connect to the SAP System in Visual Studio"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SAP system, connecting to"
-  - "Add Adapter Service Reference Visual Studio Plug-in"
-  - "Consume Adapter Service BizTalk Project Add-in"
-ms.assetid: 5fc356b1-05e8-4235-bb04-5ef6192c5291
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Connect to the SAP System in Visual Studio
 This section provides information about how to use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  

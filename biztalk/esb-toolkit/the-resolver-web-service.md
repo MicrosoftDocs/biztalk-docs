@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: The Resolver Web Service"
-title: "The Resolver Web Service | Microsoft Docs"
+title: "The Resolver Web Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 236cff15-562a-41d5-bfdc-d250186fb616
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Resolver Web Service
 The Resolver Web service is a gateway into the ESB dynamic resolution mechanism. [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes two versions of this service: an ASP.NET (ASMX) version and a Windows Communication Foundation (WCF) version. The service names are **ESB.ResolverServices** and **ESB.ResolverServices.WCF**, respectively, and the services expose the following methods:  

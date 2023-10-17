@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Opening the PLU Connection"
-title: "Opening the PLU Connection1 | Microsoft Docs"
+title: "Opening the PLU Connection1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aaeeb598-ac6c-4899-8770-598ef42ad58e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Opening the PLU Connection
 The opening of the primary logical unit (PLU) connection is closely associated with the establishment of the PLU session. The local node opens the PLU connection when it receives a **BIND** command from the host for a logical unit (LU) for which an application has previously opened a system services control point (SSCP) connection. Possible sequences are:  

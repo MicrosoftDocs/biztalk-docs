@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Optional Nodes"
-title: "Optional Nodes | Microsoft Docs"
+title: "Optional Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "testing, BizTalk Mapper"
-  - "maps, testing"
-  - "testing, maps"
-  - "BizTalk Mapper, testing"
-  - "maps, optional nodes"
-ms.assetid: 7dcd203e-fb23-438a-87d1-42323acd87cc
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Optional Nodes
 Using optional nodes will produce a warning when you test your map. There are two conditions in which a source node may be considered optional:  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Simple Type Derivation Using the Union Mechanism"
-title: "Simple Type Derivation Using the Union Mechanism | Microsoft Docs"
+title: "Simple Type Derivation Using the Union Mechanism"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e51ae390-78f5-4fb9-9163-2a8023aea1ec
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Simple Type Derivation Using the Union Mechanism
 When you derive a new simple type from an existing simple type by using the union mechanism, you are specifying that the value for this attribute or element can be of more than one type, according to a list of types that you specify. For example, you can specify that an attribute or element value is either a date, a time, or a date/time value.  

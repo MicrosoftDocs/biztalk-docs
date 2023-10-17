@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Deploy a New Version of an Application to Run Side-by-side with an Existing Version"
-title: "How to Deploy a New Version of an Application to Run Side-by-side with an Existing Version | Microsoft Docs"
+title: "How to Deploy a New Version of an Application to Run Side-by-side with an Existing Version"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1677c6a5-2c4c-4d70-ab83-f7e0bb3aaf6e
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Deploy a New Version of an Application to Run Side-by-side with an Existing Version
 How to deploy a new version of an application that will run side-by-side with an existing version. 

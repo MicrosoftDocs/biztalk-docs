@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Developing Custom Adapters"
-title: "Developing Custom Adapters | Microsoft Docs"
+title: "Developing Custom Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44765fbb-b24d-43b6-a40c-d28e319b90a5
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developing Custom Adapters
 To exchange messages with external systems, applications, and entities, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the concept of an adapter. Adapters are COM or [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] components that transfer messages to and from business end. points (such as file systems, databases, and custom business applications) by using various communication protocols. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides native adapters that support various protocols. These include:

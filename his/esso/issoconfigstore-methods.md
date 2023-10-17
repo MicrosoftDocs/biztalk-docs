@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigStore Methods"
-title: "ISSOConfigStore Methods | Microsoft Docs"
+title: "ISSOConfigStore Methods"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ba981da4-cc00-4304-8eac-393e28849ed3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigStore Methods
 The methods of the **ISSOConfigStore** interface are listed in the following table. For a complete list of **ISSOConfigStore** interface members, see [ISSOConfigStore Members](../esso/issoconfigstore-members.md).  

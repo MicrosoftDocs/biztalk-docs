@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Types of Client Logons"
-title: "Types of Client Logons1 | Microsoft Docs"
+title: "Types of Client Logons1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cbad90fa-d163-4459-a86d-4b5fbc630404
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Types of Client Logons
 The number of logons required for establishing an SNA session from a client varies, depending mostly on what client/server protocol the client computer is using. The following list describes the logons:  

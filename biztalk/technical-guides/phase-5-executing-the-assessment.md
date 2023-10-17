@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Phase 5: Executing the Assessment"
-title: "Phase 5: Executing the Assessment | Microsoft Docs"
+title: "Phase 5: Executing the Assessment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3d40fc64-b6cb-448b-8ea1-a6ad7302ab8b
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Phase 5: Executing the Assessment
 The Execute phase is where the performance data is generated through automated load testing and where performance bottlenecks are discovered and addressed. This phase has an iterative process whereby performance bottlenecks are reduced or eliminated by testing, evaluating performance, optimizing, and testing again.  

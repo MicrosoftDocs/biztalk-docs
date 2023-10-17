@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Remove BAM Activities"
-title: "How to Remove BAM Activities | Microsoft Docs"
+title: "How to Remove BAM Activities"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [BAM definitions], deleting activities"
-  - "activities [BAM], deleting"
-  - "deleting, activities [BAM]"
-  - "Remove-Activity command [BAM]"
-ms.assetid: 6c4643dc-84df-487d-aad0-590d1a6a5107
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Remove BAM Activities
 Administrators use the **remove-activity** command to remove the specified activity from the BAM Primary Import database.  

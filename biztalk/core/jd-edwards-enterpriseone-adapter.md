@@ -1,19 +1,12 @@
 ---
-title: "JD Edwards EnterpriseOne Adapter | Microsoft Docs"
+title: "JD Edwards EnterpriseOne Adapter"
 description: Install, step through tutorials, learn the architecture, use SSO security, create your applications, import the binding file, and add exception handling when using the BizTalk Adapter for J.D. Edwards EnterpriseOne in BizTalk Server
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 97f0f87a-59c3-4503-8da6-d6967dab820a
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # JD Edwards EnterpriseOne Adapter
 Microsoft BizTalk Adapter for J.D. Edwards EnterpriseOne enables you to use JD Edwards EnterpriseOne business functions within BizTalk Server. The following sections discuss setting up the adapter to access JD Edwards EnterpriseOne-specific information.  

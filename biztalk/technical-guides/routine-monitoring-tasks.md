@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Routine Monitoring Tasks"
-title: "Routine Monitoring Tasks | Microsoft Docs"
+title: "Routine Monitoring Tasks"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c2f9f56a-c839-4108-933d-69b00a1e3817
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Routine Monitoring Tasks
 Performing the following monitoring tasks on a regularly scheduled basis will assist you in keeping your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] applications and infrastructure operationally ready.

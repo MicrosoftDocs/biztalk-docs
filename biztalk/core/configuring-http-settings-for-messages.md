@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring HTTP Settings for Messages"
-title: "Configuring HTTP Settings for Messages | Microsoft Docs"
+title: "Configuring HTTP Settings for Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3ed400f1-561d-4812-adf1-20e4300fd048
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring HTTP Settings for Messages
 As part of message-related HTTP settings, you can specify the properties expected by the Web server that receives AS2 messages.  

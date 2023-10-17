@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Invoke Operations on the Oracle Database Using the WCF Channel Model"
-title: "Invoke Operations on the Oracle Database Using the WCF Channel Model | Microsoft Docs"
+title: "Invoke Operations on the Oracle Database Using the WCF Channel Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "invoking operations, using the WCF channel model"
-  - "WCF channel model, invoking operations"
-  - "invoking operations"
-  - "operations, invoking"
-ms.assetid: 6dd95c18-8f78-46d0-8845-b74890614c33
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke Operations on the Oracle Database Using the WCF Channel Model
 You can invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] by using an **IRequestChannel** or **IOutputChannel** shape to send messages to the adapter. The basic pattern is to create a channel factory for the required channel shape by using a binding (**OracleDBBinding**) and an endpoint created from a connection URI. You then create a **Message** instance that represents a SOAP message that conforms to the message schema for your target operation. You can then send this **Message** to the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] by using a channel created from the channel factory. If you are using an **IRequestChannel**, you receive a response. If there is a problem executing the operation on the Oracle database, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] throws a **Microsoft.ServiceModel.Channels.Common.TargetSystemException**.

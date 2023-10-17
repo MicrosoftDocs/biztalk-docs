@@ -1,19 +1,12 @@
 ---
-title: "Enable the WCF Extensibility Points with the WCF Adapters | Microsoft Docs"
+title: "Enable the WCF Extensibility Points with the WCF Adapters"
 description: Install assemblies, configure machine.config, add extension to BizTalk Admin, create receive location to enable WCF extensibility points for the WCF adapters in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0c2af105-5272-4a6a-95d2-066312ab788e
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Enable the WCF Extensibility Points with the WCF Adapters
 Enable three WCF extensibility points—behavior extension, binding element extension, and binding extension—with the WCF-Custom and WCF-CustomIsolated adapters. To do so, you first install the assemblies implementing the WCF extensibility points in the global assembly cache (GAC), then modify the machine.config file on your computers, and then configure the WCF-Custom or the WCF-CustomIsolated adapter by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  

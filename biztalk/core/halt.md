@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Halt"
-title: "Halt | Microsoft Docs"
+title: "Halt"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Halt function [Business Rules Engine]"
-ms.assetid: 468ba6dd-2bb2-4787-a824-1f5455508efd
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Halt
 You can use the **Halt** function to halt the current rule engine execution. The **Halt** function takes one parameter of type `Boolean`. If you specify the value for the parameter as `true`, the rule engine also clears the agenda that contains the pending candidate rules.  

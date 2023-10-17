@@ -1,19 +1,12 @@
 ---
-title: "Import or export BizTalk settings using BTSTask | Microsoft Docs"
+title: "Import or export BizTalk settings using BTSTask"
 description: Use ImportSettings or ExportSettings BTSTask commands to move settings from an environment to another in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e3fdd8c9-3534-4c11-8acc-6cb6f5bf0989
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use BTSTask to import or export BizTalk settings
 

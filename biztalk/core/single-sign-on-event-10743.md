@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10743"
-title: "Single Sign-On: Event 10743 | Microsoft Docs"
+title: "Single Sign-On: Event 10743"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a2908bc9-1fac-4ab9-869f-0c5512864da4
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10743
 ## Details  

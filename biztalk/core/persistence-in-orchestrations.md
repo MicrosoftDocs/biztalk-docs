@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Persistence in Orchestrations"
-title: "Persistence in Orchestrations | Microsoft Docs"
+title: "Persistence in Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, persistence"
-  - "persistence"
-  - "BizTalk Server Orchestration Engine"
-ms.assetid: 2f79d294-f7df-4d84-ba76-50618506b6c6
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Persistence in Orchestrations
 The orchestration engine saves the entire state of an orchestration instance at various persistence points to allow rehydration of the orchestration instance. The state includes any .NET-based components that may be used in the orchestration, in addition to messages and variables. The engine stores state at the following persistence points:  

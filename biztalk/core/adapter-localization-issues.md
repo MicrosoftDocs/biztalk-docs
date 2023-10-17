@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adapter Localization Issues"
-title: "Adapter Localization Issues | Microsoft Docs"
+title: "Adapter Localization Issues"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3d200ce9-1a60-455b-88b0-6ec86092a786
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adapter Localization Issues
 The following topics cover localization issues that you may encounter when developing custom adapters.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Deploying an Assembly"
-title: "Deploying an Assembly | Microsoft Docs"
+title: "Deploying an Assembly"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 65f8ee21-0e52-4a74-b114-864a3069659c
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploying an Assembly
 Deploying an assembly builds the assembly and imports it, along with the orchestrations, pipelines, schemas, and maps (artifacts) that it contains into the local BizTalk Management database. Initially, this is done in the development environment.

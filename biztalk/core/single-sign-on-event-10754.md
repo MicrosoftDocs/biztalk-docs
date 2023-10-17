@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10754"
-title: "Single Sign-On: Event 10754 | Microsoft Docs"
+title: "Single Sign-On: Event 10754"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 535ee36b-b92e-4852-bf9b-9c363a80b584
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10754
 ## Details  

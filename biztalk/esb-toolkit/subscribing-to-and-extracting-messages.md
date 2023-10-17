@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Subscribing to and Extracting Messages"
-title: "Subscribing to and Extracting Messages | Microsoft Docs"
+title: "Subscribing to and Extracting Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4e7fbc17-44d6-4cc5-a266-b54256e7b453
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Subscribing to and Extracting Messages
 Orchestration can contain code to subscribe to and extract messages from an ESB fault message. For example, the following code uses the **GetMessage** and **GetException** methods to extract two strongly typed messages and the **System.Exception** object from an ESB fault message.  

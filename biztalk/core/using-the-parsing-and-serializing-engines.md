@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Using the Parsing and Serializing Engines"
-title: "Using the Parsing and Serializing Engines | Microsoft Docs"
+title: "Using the Parsing and Serializing Engines"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "parsing engine"
-  - "pipeline components [custom], engines"
-  - "serialization engine"
-  - "pipeline components [custom], assembling"
-  - "pipeline components [custom], parsing"
-ms.assetid: a9d19703-b074-402a-971a-b2a6cd5d0724
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the Parsing and Serializing Engines
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes a parsing and serializing engine to simplify the process of parsing and serializing flat file documents.  

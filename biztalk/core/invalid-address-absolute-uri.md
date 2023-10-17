@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid address (absolute uri)"
-title: "Invalid address (absolute uri) | Microsoft Docs"
+title: "Invalid address (absolute uri)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5db292ad-9105-492d-a6c5-a7108159901a
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid address (absolute uri)
 ## Details  

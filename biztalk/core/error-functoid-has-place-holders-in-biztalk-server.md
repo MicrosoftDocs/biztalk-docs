@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error- The &quot;{0}&quot; functoid has place holders. Replace these with appropriate links or constants."
-title: "Error- The &quot;{0}&quot; functoid has place holders. Replace these with appropriate links or constants. | Microsoft Docs"
+title: "Error- The &quot;{0}&quot; functoid has place holders. Replace these with appropriate links or constants."
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e0efeae7-906b-413f-95e8-947014d64d03
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error- The &quot;{0}&quot; functoid has place holders. Replace these with appropriate links or constants.
 **Error Code**  

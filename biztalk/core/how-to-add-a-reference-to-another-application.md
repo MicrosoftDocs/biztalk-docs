@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: How to Add a Reference to Another Application"
-title: "How to Add a Reference to Another Application | Microsoft Docs"
+title: "How to Add a Reference to Another Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "applications, referencing"
-ms.assetid: 6a177560-ee1f-403a-a68a-ade409a39a35
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add a Reference to Another Application
 This topic describes how to use the BizTalk Server Administration console to add a reference from one application to another application. You can also add a reference to the other application when you import your application by using the Import Wizard, as described in [How to Import a BizTalk Application](../core/how-to-import-a-biztalk-application.md).  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_LogInUserAndGroups Class"
-title: "MsSna_LogInUserAndGroups Class2 | Microsoft Docs"
+title: "MsSna_LogInUserAndGroups Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6c2fd9ba-5bc4-4ca6-81ac-38877fed34fe
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_LogInUserAndGroups Class
 Enumerates the configured user and groups for a logged-on user.  

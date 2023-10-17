@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: Testing Your Installation"
 title: "Testing Your Installation"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "testing installation"
-  - "installing, testing installation"
-ms.assetid: db27a75c-db7f-46ff-b8ef-2624ff18dcc8
-caps.latest.revision: 7
-
-
-
 ---
 # Testing Your Installation
 You can set up your [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] installation for testing either by manually running through the end-to-end tutorial or by executing the end-to-end tutorial program. To exercise the program, either click the **Launch Tutorial** button during setup or execute EndToEndTutorial.exe in the C:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial folder (after running installation and configuration). Either of these automated actions will perform the same setup steps that you would manually perform by running through the tutorial. The end-to-end tutorial program does the following:  

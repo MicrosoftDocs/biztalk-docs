@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Creating BizTalk Projects"
-title: "Creating BizTalk Projects | Microsoft Docs"
+title: "Creating BizTalk Projects"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 52980c93-04f7-429b-834c-b77395812863
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating BizTalk Projects
 The steps below highlight the steps required to create BizTalk projects.  

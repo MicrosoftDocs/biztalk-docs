@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Step 1: Creating a Certification Authority"
-title: "Step 1: Creating a Certification Authority | Microsoft Docs"
+title: "Step 1: Creating a Certification Authority"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "certificates, creating"
-  - "double action tutorial, creating certificates"
-  - "creating, certificates"
-ms.assetid: b6ecd534-6b03-4336-8337-33ec18a0802a
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Creating a Certification Authority
 In this topic, you install the Certificate Services [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] component. You use it to generate the certificates that you need to promote secure communication between the Contoso and Fabrikam organizations. Each trading partner will have a private encryption certificate for communication and a private signature certificate for identification purposes. Additionally, the partners will share their public key certificates with each other to promote secure communication when implementing the 3A2 Partner Interface Process (PIP).  

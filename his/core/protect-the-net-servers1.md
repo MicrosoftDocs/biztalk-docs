@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Protect the .NET Servers"
-title: "Protect the .NET Servers1 | Microsoft Docs"
+title: "Protect the .NET Servers1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fe8600ff-a1ff-4b81-aa3d-b002959a98fb
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Protect the .NET Servers
 To prevent an attacker from spoofing their identity, tampering with the data on the host, elevating their privileges, accessing restricted data, or denying service, you should:  

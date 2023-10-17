@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: APPC TP Verbs"
-title: "APPC TP Verbs2 | Microsoft Docs"
+title: "APPC TP Verbs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7ba45e83-818a-4cb3-81b5-5ee5355500a1
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # APPC TP Verbs
 This section describes the Advanced Program-to-Program Communications (APPC) transaction program (TP) verbs. The description of each verb provides:  

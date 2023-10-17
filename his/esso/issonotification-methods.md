@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSONotification Methods"
-title: "ISSONotification Methods | Microsoft Docs"
+title: "ISSONotification Methods"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 91797293-fc2f-403a-bd92-b947f3948367
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSONotification Methods
 The method of the **ISSONotification** interface is listed in the following table. For a complete list of **ISSONotification** interface members, see [ISSONotification Members](../esso/issonotification-members.md).  

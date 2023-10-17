@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid or missing trailing ASN.1 CMS compressed structure bytes during decompression processing"
-title: "Invalid or missing trailing ASN.1 CMS compressed structure bytes during decompression processing | Microsoft Docs"
+title: "Invalid or missing trailing ASN.1 CMS compressed structure bytes during decompression processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7b73ce58-d827-4ffc-b2d7-78836298efc8
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid or missing trailing ASN.1 CMS compressed structure bytes during decompression processing
 ## Details  

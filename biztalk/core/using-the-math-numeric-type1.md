@@ -1,27 +1,12 @@
 ---
 description: "Learn about the MATH_NUMERIC type, exponents, invalid values, precision for operations, and currency values in JD Edwards EnterpriseOne business functions."
-title: "Using the MATH_NUMERIC Type1 | Microsoft Docs"
+title: "Using the MATH_NUMERIC Type1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapters [JD Edwards EnterpriseOne adapters], currency"
-  - "JD Edwards EnterpriseOne adapters, exponents"
-  - "adapters [JD Edwards EnterpriseOne adapters], exponents"
-  - "MATH_NUMERIC type"
-  - "currency, values [JD Edwards EnterpriseOne adapters]"
-  - "JD Edwards EnterpriseOne adapters, currency"
-  - "exponents, values [JD Edwards EnterpriseOne adapters]"
-ms.assetid: 2a302216-f0a6-4afb-8f7d-bb1475ea1c57
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use the MATH_NUMERIC Type
 

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Installing and Configuring BizTalk Server on the Orchestration Servers"
-title: "Installing and Configuring BizTalk Server on the Orchestration Servers | Microsoft Docs"
+title: "Installing and Configuring BizTalk Server on the Orchestration Servers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BizTalk Server, installing on orchestration server"
-  - "orchestration server, installing BizTalk Server"
-ms.assetid: 72376a80-1377-4058-9478-fee668b804d0
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing and Configuring BizTalk Server on the Orchestration Servers
 This section describes how to install and configure BizTalk Server to be used as the orchestration server for running the Message Repair/New Submission orchestration and the FIN Repair and Reconciliation orchestration.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Overdrive Load Test"
-title: "Overdrive Load Test | Microsoft Docs"
+title: "Overdrive Load Test"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d16d0a8-4255-4f5a-86a2-26cc11bb9a70
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Overdrive Load Test
 The information in this topic refers to the tests explained in [Test Scenarios for Measuring MST of the Engine](../core/test-scenarios-for-measuring-mst-of-the-engine.md).

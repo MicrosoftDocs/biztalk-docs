@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Operations Checklists"
-title: "Operations Checklists | Microsoft Docs"
+title: "Operations Checklists"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3a5c625a-6087-4054-a143-f0b56684a780
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations Checklists
 This section contains checklists for deploying and maintaining [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

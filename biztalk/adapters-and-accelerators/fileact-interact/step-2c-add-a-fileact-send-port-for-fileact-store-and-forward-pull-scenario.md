@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2C: Add a FILEACT Send Port for the FileAct Store and Forward (Pull) Scenario"
-title: "Step 2C: Add a FILEACT Send Port for the FileAct Store and Forward (Pull) Scenario | Microsoft Docs"
+title: "Step 2C: Add a FILEACT Send Port for the FileAct Store and Forward (Pull) Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8743a868-9625-477b-a7da-673bfa262723
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2C: Add a FILEACT Send Port for the FileAct Store and Forward (Pull) Scenario
 Before you begin this step, you must complete [Step 2B: Add FILE Send Ports to Capture the Sw:HandleFileRequest and Sw:HandleSnFRequest Messages for the FileAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports--get-sw-handlefilerequest-and-sw-handlesnfrequest.md).  

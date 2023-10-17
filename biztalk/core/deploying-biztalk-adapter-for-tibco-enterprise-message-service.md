@@ -1,19 +1,12 @@
 ---
-title: "Import bindings for TIBCO EMS | Microsoft Docs"
+title: "Import bindings for TIBCO EMS"
 description: Deploy your BizTalk Adapter for TIBCO Enterprise Message Service applications using Import Bindings feature in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 69dae448-4ec6-4a56-a628-bb447bc21b62
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploy TIBCO EMS ports and assemblies
 

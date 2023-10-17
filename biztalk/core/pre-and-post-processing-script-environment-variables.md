@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Pre- and Post-processing Script Environment Variables"
-title: "Pre- and Post-processing Script Environment Variables | Microsoft Docs"
+title: "Pre- and Post-processing Script Environment Variables"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "scripts, post-processing"
-  - "scripts, pre-processing"
-  - "scripts, variables"
-ms.assetid: 4185fb68-b00d-4875-82fd-a040905f84e7
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Pre- and Post-processing Script Environment Variables
 The topics in this section describe the environment variables that pre- and post-processing scripts can access.  

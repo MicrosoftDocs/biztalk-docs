@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing and Configuring Digital Certificates"
-title: "Installing and Configuring Digital Certificates | Microsoft Docs"
+title: "Installing and Configuring Digital Certificates"
 ms.custom: ""
 ms.date: "06/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 38b2bb4b-1e44-4cc2-aee7-5f1d332c0250
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing and Configuring Digital Certificates
 This section provides procedures for managing digital certificates used with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Lesson 2: Submitting an MT103 Message That Is Not Valid"
-title: "Lesson 2: Submitting an MT103 Message That Is Not Valid | Microsoft Docs"
+title: "Lesson 2: Submitting an MT103 Message That Is Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, invalid messages"
-  - "submitting, invalid messages"
-  - "submitting, MT103 messages"
-  - "MT103 messages"
-  - "messages, MT103 messages"
-ms.assetid: 4b070ae1-c400-421a-b2f6-b7b1f22c0e41
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 2: Submitting an MT103 Message That Is Not Valid
 In this lesson, you submit an MT103 message that is not valid and then you troubleshoot the resulting error using your System Tools.  

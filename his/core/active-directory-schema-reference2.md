@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Active Directory Schema Reference"
-title: "Active Directory Schema Reference2 | Microsoft Docs"
+title: "Active Directory Schema Reference2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3a307041-9697-4bb3-a5d6-77ec2b5ff3c2
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Active Directory Schema Reference
 The Active Directory schema contains formal definitions of every object class that can be created in an Active Directory forest. The schema also contains formal definitions of every attribute that can exist on an Active Directory object. The Active Directory global catalog contains replicas of all the objects for the forest, along with a subset of the attributes for each object. This topic contains the following sections:  

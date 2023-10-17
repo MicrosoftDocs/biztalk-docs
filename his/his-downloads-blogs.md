@@ -4,7 +4,6 @@ description: Download editions, management packs, SDKs, best practices analyzer,
 ms.prod: host-integration-server
 ms.topic: conceptual
 ms.date: 01/25/2018
-
 ---
 
 # Popular downloads

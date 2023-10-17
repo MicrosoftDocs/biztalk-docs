@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Atomic Transactions"
-title: "Atomic Transactions | Microsoft Docs"
+title: "Atomic Transactions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "atomic transactions"
-  - "scopes, examples"
-  - "transactions, orchestrations"
-  - "orchestrations, transactions"
-  - "transactions, isolation levels"
-  - "transactions, ACID concept"
-  - "transactions, examples"
-  - "transactions, atomic"
-  - "scopes, transactions"
-  - "scopes"
-ms.assetid: 5030e1fd-943f-42bc-9296-4f315bd5f733
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Atomic Transactions
 BizTalk orchestrations can be designed to run discrete pieces of work, following the classic 'ACID' concept of a transaction. These discrete or atomic units of work, when performed, move the business process from one consistent state to a new, consistent and durable state that is isolated from other units of work. This is typically done by using the **Scope** construct that encapsulates the units of work with the transactional semantics. The entire orchestration can also be defined as an atomic transaction without the use of scopes. The scopes, however, cannot be marked as transactional unless the orchestration itself is marked as a long running or atomic transaction type. Atomic transactions guarantee that any partial updates are rolled back automatically in the event of a failure during the transactional update, and that the effects of the transaction are erased (except for the effects of any .NET calls that are made in the transaction). Atomic transactions in BizTalk orchestrations are similar to distributed transaction coordinator (DTC) transactions in that they are generally short-lived and have the four "ACID" attributes (atomicity, consistency, isolation, and durability):  

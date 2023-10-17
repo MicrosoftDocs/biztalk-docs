@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Using the Exception Management Framework"
-title: "Using the Exception Management Framework | Microsoft Docs"
+title: "Using the Exception Management Framework"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b69c9c01-e7e4-4788-8fe2-43d32075155d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the Exception Management Framework
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] uses exceptions to communicate failures (for example, a non-deployed map or rules that do not return a map name) for dynamic transformations and routing. When a transformation or routing process fails, the ESB creates an exception message and submits it through a direct-bound port to the Message Box database. The ESB also implements a send port named ALL.Exceptions that subscribes to and retrieves exception messages and publishes them to the ESB Management Portal.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: WinAsyncAPPCEx"
-title: "WinAsyncAPPCEx1 | Microsoft Docs"
+title: "WinAsyncAPPCEx1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bd7ae6e8-c0a2-4d0e-a8a8-e70ff89623ac
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # WinAsyncAPPCEx
 The **WinAsyncAPPCEx** function provides an asynchronous entry point for all of the APPC verbs. Use this function instead of the blocking versions of the verbs to allow multiple sessions to be handled on the same thread using events. This verb is only supported on Microsoft Windows and uses Win32® events.  

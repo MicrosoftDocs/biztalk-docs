@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Settings to Check for All Connection Types"
-title: "Settings to Check for All Connection Types2 | Microsoft Docs"
+title: "Settings to Check for All Connection Types2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7e3f00ed-2660-4642-8eae-be3d5a04aa4a
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Settings to Check for All Connection Types
 When you are configuring a new [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] connection or troubleshooting an existing connection, regardless of the connection type, the identifiers must match between the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer and the host. The type of identifier (ID or name) is as follows:  

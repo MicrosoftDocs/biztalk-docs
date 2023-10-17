@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Deploying and Exporting an Application"
-title: "Deploying and Exporting an Application | Microsoft Docs"
+title: "Deploying and Exporting an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4106a0a7-878d-4052-8eca-02d546233048
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploying and Exporting an Application
 This section contains detailed information about how to perform the steps involved in deploying a BizTalk application. The topics in this section support the following checklists:
