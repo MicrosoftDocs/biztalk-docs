@@ -26,7 +26,7 @@ You use the BizTalk project system to create part or all of a Microsoft [!INCLUD
 
 - **Pipelines.** A pipeline performs a variety of operations to prepare incoming or outgoing messages for further processing. Pipeline Designer enables you to implement such operations as encryption and decryption, compression, reformatting, and validation. For more information about Pipeline Designer, see [Creating Pipelines Using Pipeline Designer](../core/creating-pipelines-using-pipeline-designer.md).
 
-  BizTalk projects are compatible with Team Foundation Server (TFS). For more information about designing, developing, and deploying solutions within BizTalk Server in conjunction with TFS, see [Developing Integration Solutions using BizTalk Server and Team Foundation Server](https://www.microsoft.com/downloads/details.aspx?FamilyID=ed7bd0ee-1385-4041-8f2a-354594ee88f3&DisplayLang=en).
+  BizTalk projects are compatible with Team Foundation Server (TFS).
 
 > [!IMPORTANT]
 >  TFS Build exposes a property called “MSBuild Platform” that can have 3 values – “Auto”, “x86” and “x64”. To ensure successful build, the value of the above property must be set to x86.

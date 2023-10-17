@@ -126,7 +126,7 @@ The BAM portal can be configured to work in a network load balancing (NLB) clust
 
 12. Set the read ACLs for the AppPool user on WebServices by running SubInACL, a command-line tool that enables administrators to obtain security information about files, registry keys, and services, and to transfer this information from user to user, from local or global group to group, and from domain to domain.
 
-13. Download SubInAcl from [https://go.microsoft.com/fwlink/?LinkId=61990](https://go.microsoft.com/fwlink/?LinkId=61990).
+13. Download SubInAcl.
 
 14. Open a command prompt. To do this, click **Start**, click **Run**, type **cmd**, and then click **OK**.
 

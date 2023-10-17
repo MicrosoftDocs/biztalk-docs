@@ -15,7 +15,7 @@ This topic describes how to install the Trace Log tool and how to enable BizTalk
 
 #### To install the Trace Log tool (tracelog.exe)
 
-1. Download the Trace Log tool from the [Microsoft® Windows® Software Development Kit Update for Windows Vista](https://go.microsoft.com/fwlink/?LinkId=128279) Web site.
+1. Download the Trace Log tool from the [Microsoft® Windows® Software Development Kit Update for Windows Vista](https://www.microsoft.com/download/details.aspx?id=14477) Web site.
 
    > [!NOTE]
    >  Install this version (6.0) of the SDK even if you are running [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]. If you install the **Windows SDK for Windows Server 2008 and .NET Framework 3.5** version (v. 6.1), it will not install the Trace Log tool.
