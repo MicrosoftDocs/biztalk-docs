@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Network Integration (Troubleshooting)"
-title: "Network Integration (Troubleshooting)1"
+title: "Network Integration (Troubleshooting)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 87702ec9-159d-4653-9ca5-82b6ea7efa55
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Network Integration (Troubleshooting)
 ## In This Section  

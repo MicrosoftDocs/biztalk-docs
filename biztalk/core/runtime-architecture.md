@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Runtime Architecture"
-title: "Runtime Architecture"
+title: "Runtime Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "runtime, architecture"
+  - "architecture, runtime"
+  - "runtime"
+ms.assetid: feff9a84-f19b-44c9-8d05-8e6015bb1ef9
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Runtime Architecture
 Before reviewing more detailed information about the various components in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], it is important that you have an understanding of how the components fit into the overall architecture of the product. The BizTalk Server runtime is built on a publish/subscribe architecture in which a message is published into the system, and then received by one or more active subscribers. Different flavors of this architecture exist, but the model implemented in BizTalk Server is often called *content-based publish/subscribe*.  

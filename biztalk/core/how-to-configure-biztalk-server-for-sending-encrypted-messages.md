@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Configure BizTalk Server for Sending Encrypted Messages"
-title: "How to Configure BizTalk Server for Sending Encrypted Messages"
+title: "How to Configure BizTalk Server for Sending Encrypted Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fb751d7c-49cd-46f0-9630-254cf06c497e
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure BizTalk Server for Sending Encrypted Messages
 The following procedure lists the steps that you have to follow to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send encrypted messages.  

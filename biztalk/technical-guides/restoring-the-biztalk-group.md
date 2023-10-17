@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Restoring the BizTalk Group"
-title: "Restoring the BizTalk Group"
+title: "Restoring the BizTalk Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 14a9af44-d6de-49c7-9600-21ece389727f
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Restoring the BizTalk Group
 The BizTalk group is represented by the set of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] and [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Analysis Services databases, SSIS packages, and SQL Agent Jobs. This section describes the process for restoring the BizTalk group.  

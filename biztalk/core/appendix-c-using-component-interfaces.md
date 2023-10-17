@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Appendix C: Using Component Interfaces"
-title: "Appendix C: Using Component Interfaces"
+title: "Appendix C: Using Component Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Enterprise Integration Points"
+  - "EIP"
+  - "component interfaces"
+ms.assetid: 2e3bc5ef-24ea-4e09-8e95-31feefaf5536
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Appendix C: Using Component Interfaces
 The topics in this section describe how to create new component interfaces—and how to modify existing component interfaces—for use with Microsoft BizTalk Adapter for PeopleSoft Enterprise. They also describe how to apply security to those component interfaces and how to test them.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: FRR Receive Location for Messages from the Back-End Application"
-title: "FRR Receive Location for Messages from the Back-End Application"
+title: "FRR Receive Location for Messages from the Back-End Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "FRR, receive locations"
+  - "receive locations, FRR"
+ms.assetid: da0ad616-800f-493f-822f-eca1224722ab
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # FRR Receive Location for Messages from the Back-End Application
 To enable FIN response reconciliation (FRR), you must set up an FRR receive location that receives messages from the back-end application and routes them to the BizTalk MessageBox for consumption by the FRR orchestration. The receive location routes a message through a custom FRR receive pipeline that you must create with the following pipeline components:  

@@ -1,12 +1,29 @@
 ---
 description: "Learn how to use the Event Tracing for Windows (ETW) tool to view tracing messages for the Microsoft BizTalk Adapter for PeopleSoft Enterprise."
-title: "Using Event Tracing for Windows5"
+title: "Using Event Tracing for Windows5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "ETW"
+  - "events, Event Tracing for Windows"
+  - "controller application"
+  - "ETW components"
+  - "consumer application"
+  - "Provider"
+  - "Event Tracing for Windows"
+  - "Event Tracing for Windows, components"
+  - "BTAPeopleSoftTrace command"
+ms.assetid: 330ef84b-5e2a-4b79-85a9-72271eb489d2
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Event Tracing for Windows
 

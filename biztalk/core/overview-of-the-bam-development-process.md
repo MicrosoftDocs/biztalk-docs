@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Overview of the BAM Development Process"
-title: "Overview of the BAM Development Process"
+title: "Overview of the BAM Development Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 098db3f6-2a61-4cc8-88c7-2299c2e2a55e
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Overview of the BAM Development Process
 This topic describes the development process and the database and tables that store BAM data.

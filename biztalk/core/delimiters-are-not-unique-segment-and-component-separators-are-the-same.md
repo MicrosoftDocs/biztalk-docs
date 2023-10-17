@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Delimiters are not unique, segment and component separators are the same"
-title: "Delimiters are not unique, segment and component separators are the same"
+title: "Delimiters are not unique, segment and component separators are the same | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 13c41899-02af-4678-a4ad-f3dc48c1fdfb
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Delimiters are not unique, segment and component separators are the same
 ## Details  

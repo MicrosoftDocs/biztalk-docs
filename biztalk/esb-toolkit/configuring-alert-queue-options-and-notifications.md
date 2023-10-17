@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring Alert Queue Options and Notifications"
-title: "Configuring Alert Queue Options and Notifications"
+title: "Configuring Alert Queue Options and Notifications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f78afbf9-6e27-4887-8424-f265fbd8448a
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Alert Queue Options and Notifications
 The ESB Management Portal uses the ESB Alert Service to generate alerts as fault messages arrive at the portal, and it uses the ESB Notification Service to queue and send alert notifications to users that subscribe to alerts. You can edit the settings used by these services in the ESB Management Portal.  

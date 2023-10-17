@@ -1,10 +1,16 @@
 ---
-title: Update center for Host Integration Server
+title: Update center for Host Integration Server | Microsoft Docs
 description: See all the available cumulative updates and service packs available for HIS and OLE DB Provider for DB2
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.author: "mandia"
 ---
 
 

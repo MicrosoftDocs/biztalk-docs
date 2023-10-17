@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Name Conflict Dialog Box"
-title: "Name Conflict Dialog Box2"
+title: "Name Conflict Dialog Box2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15447"
+ms.assetid: 26f9c350-eaa7-455f-9f78-2fc1072318e0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Name Conflict Dialog Box
 Use the **Name Conflict** dialog box to rename what you are copying.  

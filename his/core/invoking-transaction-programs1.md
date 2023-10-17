@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Invoking Transaction Programs"
-title: "Invoking Transaction Programs1"
+title: "Invoking Transaction Programs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f537012c-a9f1-4bf4-8047-78e5db0d213a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Invoking Transaction Programs
 An invoking TP initiates a conversation with other TPs. An invoking TP can be located on any system on the SNA network.  

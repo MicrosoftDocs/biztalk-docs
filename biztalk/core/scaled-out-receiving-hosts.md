@@ -1,12 +1,45 @@
 ---
 description: "Learn more about: Scaled-Out Receiving Hosts"
-title: "Scaled-Out Receiving Hosts"
+title: "Scaled-Out Receiving Hosts | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapters, receive adapters"
+  - "high availability"
+  - "HTTP adapters, scaling"
+  - "receive adapters, scaling"
+  - "POP3 adapters, scaling"
+  - "MSMQ adapters, scaling"
+  - "EDI adapters, scaling"
+  - "Web services, scaling"
+  - "hosts, multiple"
+  - "MQSeries adapters, scaling"
+  - "adapters, Windows SharePoint Services"
+  - "scaling, hosts"
+  - "scaling, adapters"
+  - "SAP adapters"
+  - "FTP adapters"
+  - "scaling, receive adapters"
+  - "hosts, receiving"
+  - "adapters, Web services"
+  - "hosts, scaling"
+  - "SOAP adapters, scaling"
+  - "adapters, scaling"
+  - "SQL adapters, scaling"
+  - "Web services, adapters"
+  - "File adapters, scaling"
+  - "clustering"
+ms.assetid: 94f35426-37fa-4ad2-8e35-d82fdca02262
+caps.latest.revision: 54
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scaled-Out Receiving Hosts
 When a host contains a receiving item, such as a receive location or pipeline, it acts as a security boundary, and the message decoding and decrypting occurs in a pipeline within the host. To make the receiving hosts highly available, you must have two or more [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers that are running instances of each receiving host. By scaling out the receiving hosts you can guarantee availability for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployments that are messaging intensive. While these deployments might perform minimal processing for orchestrations, they can route many messages of varying types with great speed and reliability.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Metadata and the WCF Service Model with Siebel"
-title: "Metadata and the WCF Service Model with Siebel"
+title: "Metadata and the WCF Service Model with Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "WCF service model, metadata"
+  - "metadata, and the WCF service model"
+ms.assetid: 3aca1835-fb9e-4841-a920-078da0b3fe76
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Metadata and the WCF Service Model with Siebel
 In the WCF service model, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutile.exe) to generate a proxy class—the WCF client class—through which your code can invoke operations on the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].

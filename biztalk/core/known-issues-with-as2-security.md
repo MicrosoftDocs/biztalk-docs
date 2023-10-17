@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Known Issues with AS2 Security"
-title: "Known Issues with AS2 Security"
+title: "Known Issues with AS2 Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b291e000-630d-49a1-8e19-f76c4dfee294
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Known Issues with AS2 Security
 This topic describes known issues with the security of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] AS2 solutions.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Icom3270.getScreenData Method"
-title: "Icom3270.getScreenData Method1"
+title: "Icom3270.getScreenData Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: facb2786-0983-4956-b151-1ab8cecaca2a
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Icom3270.getScreenData Method
 The getScreenData method extracts the data contents of the 3270 screen.  

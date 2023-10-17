@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Working in Itinerary Designer"
-title: "Working in Itinerary Designer"
+title: "Working in Itinerary Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 06742cb8-f6d6-46e2-adc0-6be9a3d6a447
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working in Itinerary Designer
 After you create a Microsoft Visual C# project, you can create new itinerary models and add existing itineraries to the project. The following steps describe how to create a new itinerary, add an existing itinerary model, or change the name of an itinerary.  

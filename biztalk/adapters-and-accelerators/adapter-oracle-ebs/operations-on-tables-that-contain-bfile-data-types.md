@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Operations on Tables That Contain BFILE Data Types"
-title: "Operations on Tables That Contain BFILE Data Types"
+title: "Operations on Tables That Contain BFILE Data Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0d7ebeb9-c2d6-4024-a169-263b947eeeb1
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Operations on Tables That Contain BFILE Data Types
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] supports the BFILE data type in tables and stored procedures. 

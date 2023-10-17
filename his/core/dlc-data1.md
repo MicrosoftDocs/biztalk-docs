@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: DLC-Data"
-title: "DLC-Data1"
+title: "DLC-Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4c60c871-fec0-4497-ac4c-a645f5bea8c3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # DLC-Data
 Flow : DLC \<------> NODE  

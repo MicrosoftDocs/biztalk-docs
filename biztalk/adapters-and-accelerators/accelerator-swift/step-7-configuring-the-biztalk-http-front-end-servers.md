@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Step 7: Configuring the BizTalk HTTP Front-End Servers"
-title: "Step 7: Configuring the BizTalk HTTP Front-End Servers"
+title: "Step 7: Configuring the BizTalk HTTP Front-End Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring, HTTP servers"
+  - "HTTP server, configuring"
+ms.assetid: 6b7e0b48-bb20-42f4-84a5-092ff3a02741
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 7: Configuring the BizTalk HTTP Front-End Servers
 This section provides guidelines on configuring the Web servers in your [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] deployment.  

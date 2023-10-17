@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: ReceivePorts (BizTalk Server Sample)"
-title: "ReceivePorts (BizTalk Server Sample)"
+title: "ReceivePorts (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c403005d-5e0e-4015-b138-6318e03192af
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ReceivePorts (BizTalk Server Sample)
 The ReceivePorts sample demonstrates how to create a new receive port by using the **ExplorerOM** administrative classes.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connecting to SAP in Visual Studio Using Consume Adapter Service Add-in"
-title: "Connecting to SAP in Visual Studio Using Consume Adapter Service Add-in"
+title: "Connecting to SAP in Visual Studio Using Consume Adapter Service Add-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b4f7d57a-fd88-4420-b893-49f42b449597
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connecting to SAP in Visual Studio Using Consume Adapter Service Add-in
 The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] is installed when you install WCF LOB Adapter SDK. The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] loads all the WCF-Custom bindings installed on the computer. To connect to SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in a BizTalk project, you must use the **sapbinding**.  

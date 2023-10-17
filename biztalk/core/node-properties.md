@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Node Properties"
-title: "Node Properties"
+title: "Node Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 366080f0-c21a-467d-8051-fd280264c5c3
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Node Properties
 

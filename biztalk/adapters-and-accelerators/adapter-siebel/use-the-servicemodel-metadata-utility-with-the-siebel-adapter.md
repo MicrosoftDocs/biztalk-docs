@@ -1,12 +1,19 @@
 ---
-title: "Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for Siebel eBusiness Applications"
+title: "Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for Siebel eBusiness Applications | Microsoft Docs"
 description: Use svcutil.exe for a non-default binding, or to create a WCF Client Class or WCF Service Contract with Siebel adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 03d16481-cc8b-4e28-a33c-92e48a9a7e8f
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for Siebel eBusiness Applications
 You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a WCF client class for operations that the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] exposes. After you run svcutil.exe to generate a WCF client class, you can include the generated file in your code and create instances of the WCF client class to perform operations on the Siebel system.

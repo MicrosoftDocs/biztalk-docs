@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SharePoint as a data source - HIS"
-title: "SharePoint data source"
+title: "SharePoint data source | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5beab066-e347-4fc6-b100-7124dd18d9c4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SharePoint as a data source - HIS
 

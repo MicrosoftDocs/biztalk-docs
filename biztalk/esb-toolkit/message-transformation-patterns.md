@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Message Transformation Patterns"
-title: "Message Transformation Patterns"
+title: "Message Transformation Patterns | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aef41642-d33b-4878-be65-ef336530647f
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Transformation Patterns
 Message transformation patterns define proven guidelines for transforming messages for additional processing or to match the expected document format of the service to which the message will be sent. A message may require transformation because the structure of the received message is not in the expected standard or because the message must be converted from a non-standard format to XML.

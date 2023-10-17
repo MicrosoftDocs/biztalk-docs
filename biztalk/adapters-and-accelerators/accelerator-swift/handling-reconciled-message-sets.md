@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Handling Reconciled Message Sets"
-title: "Handling Reconciled Message Sets"
+title: "Handling Reconciled Message Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SAA"
+  - "messages, reconciled sets"
+ms.assetid: 05cd0cf6-f0fd-4cbe-83c6-1ed5f2da8822
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Handling Reconciled Message Sets
 When SAA returns a response to [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] records the response in the MessageBox, and matches the response or responses to the original message. You can implement custom application behavior using this information. To do so, develop custom handlers that implement customer-specific reactions to reconciled message/response sets. You can create custom handlers that do the following:  

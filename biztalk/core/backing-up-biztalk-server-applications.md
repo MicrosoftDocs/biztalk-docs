@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Backing Up BizTalk Server Applications"
-title: "Backing Up BizTalk Server Applications"
+title: "Backing Up BizTalk Server Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b51e3ae6-08ed-48ca-8977-13f46144a5fa
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Backing Up BizTalk Server Applications
 To ensure that you can recover your BizTalk Server system after a hardware failure, it is important to have good backups. As a part of keeping backups, it is a good idea to export your BizTalk applications to a remote server and to back up these applications.  

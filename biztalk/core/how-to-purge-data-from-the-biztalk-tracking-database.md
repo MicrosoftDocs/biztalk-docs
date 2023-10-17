@@ -1,12 +1,19 @@
 ---
-title: "Purge Data from the BizTalk Tracking Database"
+title: "Purge Data from the BizTalk Tracking Database | Microsoft Docs"
 description: Configure the dtasp_PurgeTrackingDatabase stored procedure to purge the tracking database (BizTalkDTADB) in BizTalk Server
 ms.custom: ""
 ms.date: "10/11/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cdf12866-442d-4c1f-b10f-ebf8d665d521
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Purge Data from the BizTalk Tracking Database
 When you purge data from the BizTalk Tracking (BizTalkDTADb) database, the DTA Purge and Archive job purges different types of tracking information such as message and service instance information, orchestration event information, and rules engine tracking data from the BizTalk Tracking (BizTalkDTADb) database.  

@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: Troubleshooting Batching"
 title: "Troubleshooting Batching"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "batching, troubleshooting"
+  - "troubleshooting, batching"
+ms.assetid: f47e1a16-47fd-4bd8-8dad-fcdba31a833e
+caps.latest.revision: 4
+
+
+
 ---
 # Troubleshooting Batching
 Addresses issues related to [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] batching.  

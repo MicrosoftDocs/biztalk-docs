@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Running the Transformation Service Sample"
-title: "Running the Transformation Service Sample"
+title: "Running the Transformation Service Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 42064d32-5ec5-4219-a338-c5769969b958
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Running the Transformation Service Sample
 You can execute the Transformation Service sample using any tool or utility that can execute Web service methods. Or, you can create your own test client that invokes the Transformation Web service.

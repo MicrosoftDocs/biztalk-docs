@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: WinAPPCUnhookBlockingHook"
-title: "WinAPPCUnhookBlockingHook2"
+title: "WinAPPCUnhookBlockingHook2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0677c18b-5a74-4a67-a2bb-26a11bd159e9
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # WinAPPCUnhookBlockingHook
 The **WinAPPCUnhookBlockingHook** function removes any previous blocking hook that has been installed and reinstalls the default blocking mechanism.  

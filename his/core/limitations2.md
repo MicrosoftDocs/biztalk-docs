@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Limitations"
-title: "Limitations2"
+title: "Limitations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 56eac5d8-b71d-4fd8-8461-62657070dbea
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Limitations
 The following describes the limitations on SQL statements for the Managed Provider for Host Files.  

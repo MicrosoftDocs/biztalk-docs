@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Known Issues with the BAM WCF and WF Interceptors"
-title: "Known Issues with the BAM WCF and WF Interceptors"
+title: "Known Issues with the BAM WCF and WF Interceptors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f2407809-1f71-41a9-b305-722a7f86af5b
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Known Issues with the BAM WCF and WF Interceptors
 This section provides information about known issues that you may experience when using the BAM interceptors for Windows Workflow Foundation or Windows Communication Foundation.  

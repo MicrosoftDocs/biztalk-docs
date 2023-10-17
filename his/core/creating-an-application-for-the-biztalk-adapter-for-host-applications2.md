@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating an Application for the BizTalk Adapter for Host Applications"
-title: "Creating an Application for the BizTalk Adapter for Host Applications2"
+title: "Creating an Application for the BizTalk Adapter for Host Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 63e6f869-fa58-48f0-abd5-6e71a2f9cd5f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Creating an Application for the BizTalk Adapter for Host Applications
 The following list describes the steps that you must follow to create an application that uses the BizTalk Adapter for Host Applications:  

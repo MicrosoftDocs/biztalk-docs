@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOMapper.GetFieldInfo Method"
-title: "ISSOMapper.GetFieldInfo Method"
+title: "ISSOMapper.GetFieldInfo Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 25999dd2-b48a-4920-8c48-ef96270f10f3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOMapper.GetFieldInfo Method
 The **GetFieldInfo** method retrieves the field information for an application.  

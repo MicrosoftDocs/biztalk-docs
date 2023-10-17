@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LUA VCB Format"
-title: "LUA VCB Format1"
+title: "LUA VCB Format1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c844def2-0911-4f09-8ef5-67fe7e5281c4
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LUA VCB Format
 The logical unit application (LUA) verb control block (VCB) is called [LUA_VERB_RECORD](../core/lua-verb-record2.md). It is a structure with two parts:  

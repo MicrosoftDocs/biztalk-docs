@@ -1,12 +1,18 @@
 ---
 description: "View a list of steps and suggestions for how to avoid disk contention between the MessageBox and BizTalk Tracking databases in a BizTalk Server system."
-title: "How to Avoid Disk Contention2"
+title: "How to Avoid Disk Contention2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 37bdf6bd-cb34-4540-819e-908d83a22d40
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Avoid Disk Contention
 

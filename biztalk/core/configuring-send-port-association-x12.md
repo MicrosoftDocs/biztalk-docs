@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Send Port Association (X12)"
-title: "Configuring Send Port Association (X12)"
+title: "Configuring Send Port Association (X12) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 496beb0a-fabf-416e-bc3c-d8537097b50e
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Send Port Association (X12)
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses send port association to resolve an agreement for an outgoing EDI interchange. An EDI interchange is resolved to an agreement by matching the send port that subscribed to the message with the send port associated with an agreement. This topic provides instructions on how to associate send ports to an agreement.  

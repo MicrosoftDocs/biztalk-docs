@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Closing a Connection (SNADIS)"
-title: "Closing a Connection (SNADIS)1"
+title: "Closing a Connection (SNADIS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d005f479-f7fd-4f77-b4f4-82e8941f6821
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Closing a Connection (SNADIS)
 The local node closes a connection to a remote station:  

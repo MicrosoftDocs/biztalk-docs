@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configure the Oracle client for the E-Business Suite adapter"
-title: "Configure the Oracle client for the E-Business Suite adapter"
+title: "Configure the Oracle client for the E-Business Suite adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 842b6ecc-5334-4cc0-af10-baa7f692ad23
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the Oracle client for the E-Business Suite adapter
 > [!IMPORTANT]

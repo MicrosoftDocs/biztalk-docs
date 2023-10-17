@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Transactional request-response receive location is not supported"
-title: "Transactional request-response receive location is not supported"
+title: "Transactional request-response receive location is not supported | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6c89b619-280c-4ab5-b6aa-06b14a075f8e
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Transactional request-response receive location is not supported
 ## Details  

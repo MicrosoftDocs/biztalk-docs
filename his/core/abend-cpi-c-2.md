@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ABEND (CPI-C)"
-title: "ABEND (CPI-C)2"
+title: "ABEND (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 48b2fa39-3cea-47c0-9c41-c37acc25b872
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ABEND (CPI-C)
 The following ABEND conditions, indicated by *return_code*, cause the conversation to change to RESET state:  

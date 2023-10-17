@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Collecting Exceptions and Routing Messages for Repair and Resubmit"
-title: "Collecting Exceptions and Routing Messages for Repair and Resubmit"
+title: "Collecting Exceptions and Routing Messages for Repair and Resubmit | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5a61658a-0bac-4802-b506-02e61a3d2a9b
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Collecting Exceptions and Routing Messages for Repair and Resubmit
 In this use case, a custom exception handler picks up a fault message received through a Web service and routes it to a disk file in a format compatible with an InfoPath template included with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. The user can open the file using Microsoft InfoPath, edit the message contents, and resubmit the message for processing, as illustrated in Figure 1.  

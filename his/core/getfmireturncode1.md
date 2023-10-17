@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: GetFmiReturnCode"
-title: "GetFmiReturnCode1"
+title: "GetFmiReturnCode1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6383b568-6918-4e60-8379-873239056f44
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # GetFmiReturnCode
 The **GetFmiReturnCode** function converts link status and error codes to a printable string. This function provides a standard set of error strings for use by Function Management Interface (FMI) applications.  

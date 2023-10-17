@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Remote LU Properties: General"
-title: "Remote LU Properties: General1"
+title: "Remote LU Properties: General1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_LU_AppcRemote"
+ms.assetid: c3d34725-49e6-42a9-a203-099d59f17182
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Remote LU Properties: General
 **Connection**  

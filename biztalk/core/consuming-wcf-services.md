@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Consuming WCF Services"
-title: "Consuming WCF Services"
+title: "Consuming WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "consuming, WCF services"
+  - "WCF services, consuming"
+ms.assetid: ca6c0514-c1df-43ad-8f02-df117271b0b5
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Consuming WCF Services
 Consuming WCF services enables you to add existing WCF services to your business process. You can aggregate several WCF services into a single orchestration.  

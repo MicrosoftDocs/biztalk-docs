@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 4A: Start the SWIFTNet Service for the FileAct Store and Forward Scenario"
-title: "Step 4A: Start the SWIFTNet Service for the FileAct Store and Forward Scenario"
+title: "Step 4A: Start the SWIFTNet Service for the FileAct Store and Forward Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3837523e-26d8-4ebf-b5a2-0db33ff59bf4
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 4A: Start the SWIFTNet Service for the FileAct Store and Forward Scenario
 Before you begin this step, you must complete [Step 3D: Add a FILEACT Send Port for the FileAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3d-add-a-fileact-send-port-for-the-fileact-store-and-forward-scenario.md).  

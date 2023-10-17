@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: X12 Transaction Sets 100-250"
-title: "X12 Transaction Sets 100-250"
+title: "X12 Transaction Sets 100-250 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2139fa48-f011-4485-8588-210121a92c2e
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # X12 Transaction Sets 100-250
 This topic lists the X12 transaction sets and versions that are supported by BizTalk Server.  

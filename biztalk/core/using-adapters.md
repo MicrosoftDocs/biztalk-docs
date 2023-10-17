@@ -1,12 +1,19 @@
 ---
-title: "Adapters list"
+title: "Adapters list | Microsoft Docs"
 description: "Learn more about: Available adapters in BizTalk Server"
 ms.custom: ""
 ms.date: "11/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: afdfa70e-5929-4746-99b4-e76274aa5c88
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Available adapters in BizTalk Server
 

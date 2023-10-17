@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Disable SSO"
-title: "How to Disable SSO"
+title: "How to Disable SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "disabling, SSO"
+  - "SSO, disabling"
+  - "managing [SSO], disabling"
+ms.assetid: 0fe4f87a-d7c2-4af6-afee-1065bc4a5285
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Disable SSO
 You can disable the entire Single Sign-On system by using either the MMC Snap-In or the command line.  

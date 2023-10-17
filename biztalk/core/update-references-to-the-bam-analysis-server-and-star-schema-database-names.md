@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: How to Update References to the BAM Analysis Server and Star Schema Database Names"
-title: "How to Update References to the BAM Analysis Server and Star Schema Database Names"
+title: "How to Update References to the BAM Analysis Server and Star Schema Database Names | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "restoring [BAM], Analysis database"
+  - "Analysis database [BAM], restoring"
+  - "restoring, BAM"
+  - "restoring [BAM], updating references"
+  - "BAM, restoring"
+  - "Analysis database [BAM], updating references"
+ms.assetid: cbe5e500-0a25-427e-bc76-1eae24b3e5f3
+caps.latest.revision: 29
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Update References to the BAM Analysis Server and Star Schema Database Names
 If you backed up your BAMAnalysis and BAMStarSchema databases, in the event of a system or data failure you can restore that backup to a different computer and you can rename the backup.  

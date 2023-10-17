@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Configure the SWIFT Adapter for the FileAct Real-Time Scenario"
-title: "Step 1: Configure the SWIFT Adapter for the FileAct Real-Time Scenario"
+title: "Step 1: Configure the SWIFT Adapter for the FileAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: afc52c63-9f83-4e90-9269-e90834b792bf
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Configure the SWIFT Adapter for the FileAct Real-Time Scenario
 Before you begin this step, you must complete [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md).  

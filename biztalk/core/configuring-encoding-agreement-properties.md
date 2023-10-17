@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Configuring Encoding Agreement Properties"
-title: "Configuring Encoding Agreement Properties"
+title: "Configuring Encoding Agreement Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.admin.ediagreement.properties"
+ms.assetid: 0cb1146e-177c-42fa-b1d8-a834229c2af9
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Encoding Agreement Properties
 A Trading Partner Agreement (TPA) is a definitive and binding agreement between two trading partners for transacting messages over a specific B2B Protocol. In simpler terms, a TPA is an understanding between two business profiles to use a specific message encoding protocol (X12 or EDIFACT) or a specific transport protocol (AS2) while exchanging B2B messages with each other. In addition to agreeing upon the encoding and transport protocol, an agreement can be used to customize how the messages will be formed and delivered.  

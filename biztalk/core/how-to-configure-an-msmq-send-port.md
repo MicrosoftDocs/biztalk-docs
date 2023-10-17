@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Configure an MSMQ Send Port"
-title: "How to Configure an MSMQ Send Port"
+title: "How to Configure an MSMQ Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MSMQ adapters, send ports"
+  - "send ports, MSMQ adapters"
+  - "configuring [MSMQ adapters], send ports"
+ms.assetid: 37313d45-8148-4aaf-a3f2-ea05b3b8b448
+caps.latest.revision: 29
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure an MSMQ Send Port
 You can set MSMQ send port adapter variables in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. If properties are not set for the send port, the default send handler values set in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console are used.  

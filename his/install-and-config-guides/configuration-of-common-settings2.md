@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configure Common Settings"
-title: "Configure Common Settings"
+title: "Configure Common Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8031d42f-1641-4ec5-aa7d-460ccb409102
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configure Common Settings
 

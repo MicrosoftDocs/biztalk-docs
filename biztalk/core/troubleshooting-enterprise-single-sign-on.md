@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Troubleshooting Enterprise Single Sign-On"
-title: "Troubleshooting Enterprise Single Sign-On"
+title: "Troubleshooting Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cb54af9f-a6ef-46c1-b987-2019cff3f837
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting Enterprise Single Sign-On
 This topic describes information about common problems you may encounter while using Enterprise Single Sign-On (SSO).  

@@ -1,12 +1,19 @@
 ---
 description: "Learn how to identify and resolve issues that you might experience while using Microsoft BizTalk Adapter for JD Edwards EnterpriseOne."
-title: "Troubleshoot the JD Edwards EnterpriseOne adapter"
+title: "Troubleshoot the JD Edwards EnterpriseOne adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f5a55e52-039a-4aea-8251-b697fd061ddc
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshoot the Adapter
 

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid close timeout"
-title: "Invalid close timeout"
+title: "Invalid close timeout | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b4510329-9fd9-428f-91a3-d72723e9a5e4
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid close timeout
 ## Details  

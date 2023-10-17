@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Receive Pipelines"
-title: "Receive Pipelines"
+title: "Receive Pipelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "receive pipelines, about receive pipelines"
+  - "receive pipelines, message flow"
+  - "receive pipelines"
+  - "messages, receive pipelines"
+  - "messages, message flow"
+  - "pipelines, receive pipelines"
+  - "receive pipelines, stages"
+ms.assetid: ee75c1d4-00b7-4177-bca3-1447a39d2238
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive Pipelines
 The following figure shows the message processing workflow, highlighting the receive pipeline.  

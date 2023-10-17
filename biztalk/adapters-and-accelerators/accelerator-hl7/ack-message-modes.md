@@ -4,6 +4,15 @@ description: Learn more about ACK message modes for BizTalk Server.
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
+
+helpviewer_keywords: 
+  - "message modes, ACK messages"
+  - "messages, acknowledgements"
+  - "acknowledgements, message modes"
+  - "ACK message modes"
+ms.assetid: ab4a9470-dab2-46d4-8d0a-54dc12f2fa90
+caps.latest.revision: 3
+
 ---
 
 # ACK message modes

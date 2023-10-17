@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Connecting Servers"
-title: "Connecting Servers2"
+title: "Connecting Servers2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 51818b01-3cc0-442a-84d8-9d7ef4904703
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Connecting Servers
 After you have determined a suitable deployment model and subdomain configuration, you must choose how to connect [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers to the host system, to client workstations, and to other [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers.  

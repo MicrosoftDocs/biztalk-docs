@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Logical Unit Sense Codes"
-title: "Logical Unit Sense Codes1"
+title: "Logical Unit Sense Codes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f9cf1d99-6411-4b0d-8915-a0bb90535d51
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Logical Unit Sense Codes
 This section lists the sense codes used by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  

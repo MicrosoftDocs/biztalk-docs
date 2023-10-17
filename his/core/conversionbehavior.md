@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: conversionBehavior"
-title: "conversionBehavior"
+title: "conversionBehavior | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d1cadabe-e027-4b1b-a2fb-01d03b672ba4
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # conversionBehavior
 The conversionBehavior element is for use by Transaction Integrator only. The DRDA Service does not require this element.  

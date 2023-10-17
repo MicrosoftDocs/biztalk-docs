@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Message Schemas for BAPI Operations"
-title: "Message Schemas for BAPI Operations"
+title: "Message Schemas for BAPI Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BAPI operations, message schemas for"
+  - "BAPI operations, message structure for"
+  - "BAPI operations, message actions for"
+ms.assetid: ef4d88e8-f31a-4b68-a303-6885b6f8c083
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Schemas for BAPI Operations
 The following sections describe the message schemas and message actions used to invoke BAPIs on the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as methods of business objects. You can also invoke BAPIs as RFC operations on the adapter. For more information about the messages used to invoke RFCs, see [Message Schemas for RFC Operations](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md). Regardless of how you invoke a BAPI on the adapter, the adapter always invokes the BAPI as an RFC on the SAP system. For an overview of how the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports BAPIs, see [Operations on BAPIs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The Orchestration Design Surface"
-title: "The Orchestration Design Surface"
+title: "The Orchestration Design Surface | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c5fb190b-60d7-45e4-9883-7b3d2ed6b0c0
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The Orchestration Design Surface
 The Orchestration Design Surface is a visual designer that you can use to create a BizTalk Orchestration, and is the central component of Orchestration Designer. It is a canvas that you can drag shapes onto from the Toolbox, and then configure the shapes. As a Visual Studio editor window, it occupies the main window area used by other Visual Studio editor windows.  

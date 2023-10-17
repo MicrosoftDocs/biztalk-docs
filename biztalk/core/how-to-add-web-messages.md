@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Add Web Messages"
-title: "How to Add Web Messages"
+title: "How to Add Web Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, Web messages"
+  - "Web messages, creating"
+  - "Web services, Web messages"
+ms.assetid: a67b810c-4966-49e0-9fe6-0ac2974528e0
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Web Messages
 You create Web message variables in the Orchestration View window. You must set the message type for the Web message to a Web message type.  

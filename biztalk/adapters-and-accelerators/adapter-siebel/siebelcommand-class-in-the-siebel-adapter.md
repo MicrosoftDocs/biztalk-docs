@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: SiebelCommand class in the Siebel adapter"
-title: "SiebelCommand class in the Siebel adapter"
+title: "SiebelCommand class in the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SiebelCommand"
+  - "Data Provider for Siebel, SiebelCommand"
+  - "SiebelCommand, supported methods and properties"
+ms.assetid: 7cba0e47-634b-4878-b480-80fbcbbf5c90
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SiebelCommand class in the Siebel adapter
 After establishing a connection with the Siebel system, the [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] parses the Siebel command strings and command parameters provided by the ADO.NET client and maps the command into a WCF request message. The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] then sends the request to the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] and obtains the response XML and the body contents from the adapter. The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] then uses the `XMLDataReader` to retrieve the relational data from the XML body.  

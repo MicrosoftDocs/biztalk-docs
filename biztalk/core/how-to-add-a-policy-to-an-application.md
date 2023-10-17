@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Add a Policy to an Application"
-title: "How to Add a Policy to an Application"
+title: "How to Add a Policy to an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [policies], adding to applications"
+  - "policies, applications"
+  - "applications, policies"
+  - "policies, adding to applications"
+ms.assetid: 93b3ce5e-8c63-4c64-9bdc-1747541ba9a8
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add a Policy to an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to add a policy to a BizTalk application. When using the administration console, you can add more than one policy at a time. Adding a policy to an application makes it available for use by that application as well as any other applications that reference it.  

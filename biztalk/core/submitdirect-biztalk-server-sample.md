@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: SubmitDirect (BizTalk Server Sample)"
-title: "SubmitDirect (BizTalk Server Sample)"
+title: "SubmitDirect (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapters, receive adapters"
+  - "receive adapters, examples"
+  - "examples, receive adapters"
+ms.assetid: 3540368b-cf46-4c83-a87b-94aec9cd1b36
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SubmitDirect (BizTalk Server Sample)
 The SubmitDirect sample demonstrates how to programmatically submit one-way and request/response messages to Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] from .NET-based applications. The sample demonstrates the use of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] APIs for adapters. It also provides a receive adapter, named Submit, that can be used to submit messages to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

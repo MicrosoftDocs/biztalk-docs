@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TN3270 Access"
-title: "TN3270 Access2"
+title: "TN3270 Access2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5b03ff24-bd52-44c2-b29e-df55ee9e8abb
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TN3270 Access
 TN3270 is a type of Telnet service that allows access to mainframe computers over a TCP/IP network. Users can connect to mainframes using a TN3270 client and the TN3270 service provided with Host Integration Server.  

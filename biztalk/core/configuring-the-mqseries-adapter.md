@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Configuring the MQSeries Adapter"
-title: "Configuring the MQSeries Adapter"
+title: "Configuring the MQSeries Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring [MQSeries adapters]"
+  - "MQSeries adapters, configuring"
+ms.assetid: 73290678-a0da-42e6-b86e-389bc71afec3
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring the MQSeries Adapter
 This section describes how to configure the MQSeries adapter.  

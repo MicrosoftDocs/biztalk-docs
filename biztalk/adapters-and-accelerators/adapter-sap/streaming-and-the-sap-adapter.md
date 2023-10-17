@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Streaming and the SAP Adapter"
-title: "Streaming and the SAP Adapter"
+title: "Streaming and the SAP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "streaming, support in WCF service model"
+  - "streaming, node-value"
+  - "streaming, node"
+  - "streaming, support in BizTalk Server"
+  - "streaming, and the SAP adapter"
+  - "streaming, support in WCF channel model"
+ms.assetid: 9fa1788b-f21b-4dec-be14-27dd8080a9d4
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Streaming and the SAP Adapter
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports message streaming between itself and a client application. With the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] operations are invoked and responses are returned by exchanging SOAP messages. A SOAP message body is composed of XML nodes.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: SendMSMQMessage"
-title: "SendMSMQMessage"
+title: "SendMSMQMessage | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MSMQ adapters, examples"
+  - "examples, MSMQ adapters"
+ms.assetid: 398bc396-0c66-4d55-886a-0d9bdab6476f
+caps.latest.revision: 26
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SendMSMQMessage
 The SendMSMQMessage sample demonstrates how to send a message to an MSMQ port from a .NET-based application. It also provides instructions about how to configure Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to use an MSMQ receive location.  

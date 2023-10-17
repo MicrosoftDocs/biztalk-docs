@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Effective Date Properties"
-title: "Effective Date Properties"
+title: "Effective Date Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "effective-dated items"
+  - "getHistoryItems parameter"
+  - "Effective Date"
+  - "EFFDT"
+  - "planned items, scheduling and tracking"
+ms.assetid: 0d9a153c-7ea5-41cf-9e4e-055e1c18f64b
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Effective Date Properties
 PeopleSoft Enterprise provides the ability to schedule and keep track of planned items by using a special property called Effective Date (abbreviated EFFDT). Such items are either in effect or merely planned, depending on whether their date is before or after the PeopleSoft current date.  

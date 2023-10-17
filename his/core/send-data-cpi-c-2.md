@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Send_Data (CPI-C)"
-title: "Send_Data (CPI-C)2"
+title: "Send_Data (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 859def19-967a-4999-8b7c-0378d0a3cb68
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Send_Data (CPI-C)
 The **Send_Data** call (function name **cmsend**) puts data in the send buffer of the local logical unit (LU) for transmission to the partner program.  

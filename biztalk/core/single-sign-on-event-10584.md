@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10584"
-title: "Single Sign-On: Event 10584"
+title: "Single Sign-On: Event 10584 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8af9377d-b4fd-48a6-961a-3629b3db644a
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10584
 ## Details  

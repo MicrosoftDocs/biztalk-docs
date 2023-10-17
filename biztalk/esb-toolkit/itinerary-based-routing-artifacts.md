@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Itinerary-Based Routing Artifacts"
-title: "Itinerary-Based Routing Artifacts"
+title: "Itinerary-Based Routing Artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cff38ab7-5a16-42cc-9065-075e9db7acd3
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Itinerary-Based Routing Artifacts
 The itinerary-based routing capabilities of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] include a set of key artifacts defined in multiple assemblies. The following tables list these artifacts by category to assist developers when working with and extending the itinerary-based routing implementation with additional ESB itinerary service implementations.  

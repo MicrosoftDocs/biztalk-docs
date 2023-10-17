@@ -1,12 +1,19 @@
 ---
-title: "TIBCO Enterprise Message Service Adapter"
+title: "TIBCO Enterprise Message Service Adapter | Microsoft Docs"
 description: Install, step through tutorials, learn the architecture, use SSO security, create your applications, import the binding file, and add exception handling when using the BizTalk Adapter for TIBCO EMS in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 362556d2-295c-4496-a429-ad7ecc44db76
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # TIBCO Enterprise Message Service Adapter
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service enables you to publish and subscribe to queues and topics managed by TIBCO EMS using btsBizTalkServerNoVersion.  The following sections discuss getting started, creating applications, and more.  

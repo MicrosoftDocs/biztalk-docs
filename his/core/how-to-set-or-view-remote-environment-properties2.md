@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Set or View Remote Environment Properties"
-title: "How to Set or View Remote Environment Properties2"
+title: "How to Set or View Remote Environment Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 426d6895-62d4-4b69-a9e3-8686843b3bff
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Set or View Remote Environment Properties
 Basic information about a remote environment (RE) is displayed on an item's property sheet. Property sheets are available for the following items:  

@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Remove SSO"
-title: "How to Remove SSO"
+title: "How to Remove SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Master Secret server, deleting"
+  - "SSO, deleting"
+  - "deleting, SSO"
+  - "deleting, Master Secret server"
+ms.assetid: 0e1ad8e3-0938-4f36-b85b-4631d0eeb8c9
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Remove SSO
 If you remove BizTalk Server, Enterprise Single Sign-On (SSO) is no longer configured unless a dependent product is using it. However, it is not removed. You must remove SSO separately. You can also restore configuration information including the master secret to reuse existing data. For more information, see [How to Restore the Master Secret](../core/how-to-restore-the-master-secret.md).  

@@ -1,12 +1,19 @@
 ---
-title: "Create TIBCO Rendezvous adapter send artifacts"
+title: "Create TIBCO Rendezvous adapter send artifacts | Microsoft Docs"
 description: Create a send port, configure the transport properties to send messages to TIBCO Rendezvous from BizTalk 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ad996c4f-e6ed-4582-a768-0cb1ad25b1d8
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create TIBCO Rendezvous Send Handlers
 This section explains how to create a schema to use TIBCO Rendezvous in a BizTalk Server orchestration.  

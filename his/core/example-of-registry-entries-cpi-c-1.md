@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Example of Registry Entries (CPI-C)"
-title: "Example of Registry Entries (CPI-C)"
+title: "Example of Registry Entries (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3dcf6fb5-f0fd-4124-8b91-96982883ca6f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Example of Registry Entries (CPI-C)
 For an autostarted invokable transaction program (TP) called **BounceTP** and running as a service, the following registry entries might be added to a client computer. The entries would be added to **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services**, under the subkeys shown in bold type.  

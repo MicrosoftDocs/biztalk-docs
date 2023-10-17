@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Using IPv6 Addressing with BizTalk Adapters"
-title: "Using IPv6 Addressing with BizTalk Adapters"
+title: "Using IPv6 Addressing with BizTalk Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 93cd2ead-5e87-47ac-8f78-d56b80afd34e
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using IPv6 Addressing with BizTalk Adapters
 BizTalk Server adapters support the use of IPv6 addressing. This topic describes the nomenclature that should be used to specify an IPv6 address for a UNC path, the nomenclature for specifying a literal IPv6 address, and the use of IPv6 scope identifiers with the HTTP and SOAP adapters.

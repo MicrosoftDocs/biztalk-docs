@@ -1,9 +1,19 @@
 ---
 description: "Learn more about: Step 8B: Configure Party Information for the HI System"
 title: "Step 8B: Configure Party Information for the HI System"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+ms.assetid: 96338c05-1440-416e-a56a-6f5b19b55a60
+caps.latest.revision: 3
+
+
+
 ---
 # Step 8B: Configure Party Information for the HI System
 In this step, you configure the party information for the HI System.  

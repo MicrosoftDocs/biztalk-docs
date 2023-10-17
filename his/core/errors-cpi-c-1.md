@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Errors (CPI-C)"
-title: "Errors (CPI-C)1"
+title: "Errors (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d3bdc7d0-bbff-4b5e-bb91-85f7f400f7c6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Errors (CPI-C)
 The following table summarizes state changes that occur when a data transmission error is encountered.  

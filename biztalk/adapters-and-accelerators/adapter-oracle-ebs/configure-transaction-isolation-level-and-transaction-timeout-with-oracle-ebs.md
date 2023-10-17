@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configure transaction isolation level and transaction timeout with Oracle E-Business Suite"
-title: "Configure transaction isolation level and transaction timeout with Oracle E-Business Suite"
+title: "Configure transaction isolation level and transaction timeout with Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: db3d64ad-037d-486a-bdde-45c8199613f1
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure transaction isolation level and transaction timeout with Oracle E-Business Suite
 While performing inbound operations (Polling and Notification) using the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you should appropriately configure the transaction isolation level and the transaction timeout values. To do this:

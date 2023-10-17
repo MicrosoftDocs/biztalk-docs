@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Deploying Published Web Services on a Non-Visual Studio Computer"
-title: "Deploying Published Web Services on a Non-Visual Studio Computer"
+title: "Deploying Published Web Services on a Non-Visual Studio Computer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Web services, publishing"
+  - "deploying, Web services"
+  - "Web services, planning"
+  - "Web services, deploying"
+ms.assetid: e9f8e801-21f3-4458-b05c-206b72868916
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Deploying Published Web Services on a Non-Visual Studio Computer
 To deploy your published Web service on a computer that does not have [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] installed, you need to create a Web setup project, distribute the Web setup package (.msi file), install the package on the non-[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] computer, and configure the installed Web service.  

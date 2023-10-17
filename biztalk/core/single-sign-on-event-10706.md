@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10706"
-title: "Single Sign-On: Event 10706"
+title: "Single Sign-On: Event 10706 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d73db77e-5bb6-431c-a8ca-5682d7ab3d6a
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10706
 ## Details  

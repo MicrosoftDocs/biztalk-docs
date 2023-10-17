@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to: Route a Single Message to Multiple Recipients Using an Itinerary Routing Slip"
-title: "Route a Single Message to Multiple Recipients Using an Itinerary Routing Slip"
+title: "How to: Route a Single Message to Multiple Recipients Using an Itinerary Routing Slip | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 42c30493-4fe1-4fd5-8bc7-af091535b091
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to: Route a Single Message to Multiple Recipients Using an Itinerary Routing Slip
 ## Goal  

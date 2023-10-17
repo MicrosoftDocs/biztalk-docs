@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: MQSeries Adapter Custom Headers"
-title: "MQSeries Adapter Custom Headers"
+title: "MQSeries Adapter Custom Headers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MQSeries adapters, custom headers"
+ms.assetid: b0e18203-a33f-4d50-8483-396699cdff23
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # MQSeries Adapter Custom Headers
 Because of the header structures used in MQSeries messages, you must manage any custom headers you want to use. Custom headers must be part of the message body to avoid interfering with the processing of the MQSeries headers. Make sure that you avoid demoting any one of the automatically promoted properties. For more information about automatically promoted properties, see [MQSeries Adapter Properties](../core/mqseries-adapter-properties.md).  

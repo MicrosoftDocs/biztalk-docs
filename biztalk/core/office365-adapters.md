@@ -1,12 +1,17 @@
 ---
-title: "Use the Office 365 Outlook Email adapter"
+title: "Use the Office 365 Outlook Email adapter | Microsoft Docs"
 description: Overview of sending and receiving messages using the Office 365 Outlook adapters in BizTalk Server, including Email, Calendar, and Contacts
 ms.custom: ""
 ms.date: "03/05/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+author: "MandiOhlinger"
+ms.author: "ribarua"
+manager: mijacobs
 ---
 
 # Office 365 Outlook adapters in BizTalk

@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Apply and Remove a Tracking Profile"
-title: "How to Apply and Remove a Tracking Profile"
+title: "How to Apply and Remove a Tracking Profile | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deleting, tracking profiles"
+  - "tracking profiles, testing"
+  - "tracking profiles, deleting"
+  - "testing, tracking profiles"
+ms.assetid: 77cef14b-c390-4da7-a383-b3abe414a168
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Apply and Remove a Tracking Profile
 Once you have created or modified the tracking profile, the next step is to apply it to a test database and verify the result through integration testing. You can apply the tracking profile from within Tracking Profile Editor (TPE) itself or by using the command line.  

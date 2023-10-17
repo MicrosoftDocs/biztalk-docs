@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Configuring the HTTP Adapter"
-title: "Configuring the HTTP Adapter"
+title: "Configuring the HTTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "HTTP adapters, configuring"
+  - "configuring [HTTP adapters]"
+ms.assetid: 504683a6-5f5d-4be5-929e-4742974e716a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring the HTTP Adapter
 This section describes how to configure an HTTP adapter.  

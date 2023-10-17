@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Use performance counters with the WCF LOB Adapter SDK"
-title: "Use performance counters with the WCF LOB Adapter SDK"
+title: "Use performance counters with the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6b928eaf-2ab6-40a6-a1dd-804d4e89541e
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use performance counters with the WCF LOB Adapter SDK
 You can use the performance tool to automatically collect performance data from local or remote computers that are running the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. You can define start and stop times for automatic log generation, manage multiple logging sessions from a single console window, and set an alert on a computer that enables a message to be sent or a log to be started when your criteria are met. This topic discusses the performance counters for the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].  

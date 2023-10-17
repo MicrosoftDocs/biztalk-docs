@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: column"
-title: "column"
+title: "column | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 86f0f22f-1bbf-4d78-9c64-4e332b39fbf7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # column
 Defines the columns in the  element.  

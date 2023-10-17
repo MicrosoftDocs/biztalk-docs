@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid outbound XML template"
-title: "Invalid outbound XML template"
+title: "Invalid outbound XML template | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0f29bb60-8c04-4921-84bf-c629540a1c83
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid outbound XML template
 ## Details  

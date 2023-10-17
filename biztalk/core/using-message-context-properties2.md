@@ -1,12 +1,19 @@
 ---
 description: "Learn how you can use Microsoft BizTalk message context properties to control a JD Edwards OneWorld connection session."
-title: "Using Message Context Properties2"
+title: "Using Message Context Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a550acd5-8c30-42d0-97e2-659060937b44
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Message Context Properties
 

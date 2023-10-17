@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Closing the SSCP Connection"
-title: "Closing the SSCP Connection2"
+title: "Closing the SSCP Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 29cce4c0-62d0-4fad-8dd3-60e15843ff1d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Closing the SSCP Connection
 To close the system services control point (SSCP) connection, an application sends a [Close(SSCP) Request](./close-sscp-request2.md) to the local node, which responds with a [Close(SSCP) Response](./close-sscp-response1.md). The **Close(SSCP) Request** is unconditional. The **Close(SSCP) Response** always reports that the connection was successfully closed. The **Close(SSCP) Response** is provided so that applications can determine when outstanding data and status messages on the session have been delivered.  

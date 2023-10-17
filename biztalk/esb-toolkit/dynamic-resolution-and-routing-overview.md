@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Dynamic Resolution and Routing Overview"
-title: "Dynamic Resolution and Routing Overview"
+title: "Dynamic Resolution and Routing Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a9a32491-132b-4b25-ac8c-4a927052f0be
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Dynamic Resolution and Routing Overview
 The ESB Resolver classes support run-time resolution of the following:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: One-Way Messaging Scenarios for the Dynamic Resolution Sample"
-title: "One-Way Messaging Scenarios for the Dynamic Resolution Sample"
+title: "One-Way Messaging Scenarios for the Dynamic Resolution Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 38237840-e957-4298-84c9-700ec72f2bc5
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # One-Way Messaging Scenarios for the Dynamic Resolution Sample
 This topic shows how you can run the one-way messaging scenarios for the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Dynamic Resolution sample.  

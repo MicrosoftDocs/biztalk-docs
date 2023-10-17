@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Initialize_Conversation (CPI-C)"
-title: "Initialize_Conversation (CPI-C)1"
+title: "Initialize_Conversation (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8b51a11a-2456-4778-8a5c-9b0e78bb0ecf
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Initialize_Conversation (CPI-C)
 The **Initialize_Conversation** call (function name **cminit**) is issued by the invoking program to obtain an 8-byte conversation identifier and to set the initial values for the conversations characteristics.  

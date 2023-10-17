@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid Component Element Separator"
-title: "Invalid Component Element Separator"
+title: "Invalid Component Element Separator | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 738a1107-86e6-4475-a61d-ed1d9ab7e5d2
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid Component Element Separator
 ## Details  

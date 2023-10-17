@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Message Schemas for Procedures and Functions"
-title: "Message Schemas for Procedures and Functions"
+title: "Message Schemas for Procedures and Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4acfb29e-8774-4eb7-ba10-2dcb93d2b41a
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Schemas for Procedures and Functions
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces SQL Server database stored procedures and scalar and table valued functions as operations. This section describes the message structure and actions used to invoke procedures and functions.  

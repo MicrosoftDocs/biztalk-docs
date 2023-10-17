@@ -1,12 +1,19 @@
 ---
-title: "Visual Studio project templates"
+title: "Visual Studio project templates | Microsoft Docs"
 description: Describes the .btproj, BPEL, and .btaproj Visual Studio templates used by BizTalk Server
 ms.custom: ""
 ms.date: "11/07/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c2b3d494-db80-4314-afcd-d08d5a26e211
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Server Project Templates
 

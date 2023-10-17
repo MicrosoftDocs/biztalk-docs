@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Supported .NET Aggregate Data Types"
-title: "Supported .NET Aggregate Data Types1"
+title: "Supported .NET Aggregate Data Types1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a04e500f-9a1b-4003-98b3-2b7f31278805
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Supported .NET Aggregate Data Types
 **Datatable**  

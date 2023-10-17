@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Could not get the database or the server names"
-title: "Could not get the database or the server names"
+title: "Could not get the database or the server names | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0590f43b-0aec-491f-bca5-c50ab12552a5
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Could not get the database or the server names
 ## Details  

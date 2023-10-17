@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Host Instance Service Properties in Services"
-title: "Host Instance Service Properties in Services"
+title: "Host Instance Service Properties in Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8b317161-83a9-42d5-b24f-48ff1e54b94a
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Host Instance Service Properties in Services
 ## Host Instance Service Properties in Services

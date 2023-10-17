@@ -1,12 +1,37 @@
 ---
 description: "Learn more about: What Is BAM?"
-title: "What Is BAM?"
+title: "What Is BAM? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "aggregations [BAM], monitoring"
+  - "profiles, monitoring"
+  - "monitoring, alerts"
+  - "KPIs, BAM"
+  - "BAM, alerts"
+  - "profiles"
+  - "BAM, KPIs"
+  - "BAM"
+  - "alerts, monitoring"
+  - "BAM, aggregations"
+  - "BAM, about BAM"
+  - "monitoring, profiles"
+  - "KPIs, monitoring"
+  - "monitoring, KPIs"
+  - "alerts, BAM"
+  - "monitoring, BAM"
+  - "profiles, BAM"
+ms.assetid: 5160026a-1ffe-457e-8b75-35ed9bb3457c
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is BAM?
 Business Activity Monitoring (BAM) is a collection of tools that allow you to manage aggregations, alerts, and profiles to monitor relevant business metrics (called Key Performance Indicators, or KPIs). It gives you end-to-end visibility into your business processes, providing accurate information about the status and results of various operations, processes, and transactions so you can address problem areas and resolve issues within your business.  

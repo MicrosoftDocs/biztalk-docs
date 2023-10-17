@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Could not find Business Identities corresponding to batch"
-title: "Could not find Business Identities corresponding to batch"
+title: "Could not find Business Identities corresponding to batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1c9baf11-e9c6-482d-a47d-aa99852939bf
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Could not find Business Identities corresponding to batch
 ## Details  

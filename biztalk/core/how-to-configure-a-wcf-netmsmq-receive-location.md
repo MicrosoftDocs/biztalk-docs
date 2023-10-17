@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Configure a WCF-NetMsmq Receive Location"
-title: "How to Configure a WCF-NetMsmq Receive Location"
+title: "How to Configure a WCF-NetMsmq Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f82b323b-9870-42fb-9992-c23dca909b4d
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure a WCF-NetMsmq Receive Location
 You can configure a WCF-NetMsmq receive location either programmatically or by using the BizTalk Administration console.

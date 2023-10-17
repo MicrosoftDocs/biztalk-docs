@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Service Management Patterns"
-title: "Service Management Patterns"
+title: "Service Management Patterns | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2fea915c-0074-472e-909b-fbbd88d7359c
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Service Management Patterns
 ## Repair and Resubmit  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Troubleshoot Performance Issues with the SAP adapter"
-title: "Troubleshoot Performance Issues with the SAP adapter"
+title: "Troubleshoot Performance Issues with the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "troubleshooting, performance"
+  - "performance, troubleshooting"
+ms.assetid: 7e8e9fec-0edf-4c67-837c-0e271b2ffe68
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshoot Performance Issues with the SAP adapter
 This section discusses using troubleshooting techniques to resolve performance issues that you might encounter when using [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].  

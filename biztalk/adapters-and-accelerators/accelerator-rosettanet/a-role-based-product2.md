@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: A Role-Based Product"
-title: "A Role-Based Product2"
+title: "A Role-Based Product2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BTARN, tools"
+  - "tools, BizTalk Server"
+  - "BizTalk Server, tools"
+  - "tools, BTARN"
+ms.assetid: 5805fb09-aac7-4cc8-9cc1-daf0f2ec93da
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # A Role-Based Product
 Microsoft BizTalk Server and Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provide features and tools in the environment appropriate for the role of the user. These features and tools enable rapid development, deployment, operations, management, and business use.  

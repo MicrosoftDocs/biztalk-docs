@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Adapter Property Page Keyboard Shortcuts"
-title: "Adapter Property Page Keyboard Shortcuts"
+title: "Adapter Property Page Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapters, keyboard shortcuts"
+  - "Adapter property page"
+  - "keyboard shortcuts, Adapter property page"
+ms.assetid: cc1b0fc5-82f3-4ef6-9557-191a4a460efe
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Property Page Keyboard Shortcuts
 As in any standard Microsoft Windows application, you can use keyboard shortcuts in the adapter property pages to access commands that are otherwise available by using menus. The following table describes the available keyboard shortcuts.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOWrapper.InitializeAdapter Method"
-title: "ISSOWrapper.InitializeAdapter Method"
+title: "ISSOWrapper.InitializeAdapter Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a1e916c5-22f7-47c6-ac31-45ae870e48aa
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOWrapper.InitializeAdapter Method
 Initializes the password sync adapter to the ENTSSO system.  

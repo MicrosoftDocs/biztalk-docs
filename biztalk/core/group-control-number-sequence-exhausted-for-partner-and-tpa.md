@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Group control number sequence exhausted for Partner and TPA"
-title: "Group control number sequence exhausted for Partner and TPA"
+title: "Group control number sequence exhausted for Partner and TPA | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cf341f8d-02ec-4618-a980-c8ac90654b1a
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Group control number sequence exhausted for Partner and TPA
 ## Details  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Browse and search metadata using the WCF LOB Adapter SDK"
-title: "Browse and search metadata using the WCF LOB Adapter SDK"
+title: "Browse and search metadata using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fbb4add7-6cc8-4b93-b559-471b6e31c01a
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Browse and search metadata using the WCF LOB Adapter SDK
 This section provides information about how to expose browse and search functionality with an adapter by implementing IMetadataBrowseHandler and IMetadataSearchHandler, respectively.  

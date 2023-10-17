@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Use the Mapping Wizard"
-title: "How to Use the Mapping Wizard"
+title: "How to Use the Mapping Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 35b96cea-ead7-43de-8411-62d2c7d6620e
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use the Mapping Wizard
 This version of Enterprise Single Sign-On includes the Mapping Wizard, which allows you to easily create mappings for affiliate applications.  

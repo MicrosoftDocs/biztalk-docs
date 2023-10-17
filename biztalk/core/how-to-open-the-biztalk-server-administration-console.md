@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Open the BizTalk Server Administration Console"
-title: "How to Open the BizTalk Server Administration Console"
+title: "How to Open the BizTalk Server Administration Console | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Administration Console [BizTalk Server], refreshing"
+  - "Administration Console [BizTalk Server], opening"
+  - "Administration Console [BizTalk Server], sorting columns"
+ms.assetid: b95a3d1b-18b8-43df-a35f-dc7a55764480
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Open the BizTalk Server Administration Console
 You can use the following procedures to open the BizTalk Server Administration Console, and to sort or refresh the data displayed in the details pane.  

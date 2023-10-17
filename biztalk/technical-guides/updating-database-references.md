@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Updating Database References"
-title: "Updating Database References"
+title: "Updating Database References | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 72d9de25-d47d-4e6c-8883-07ac944e4727
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Updating Database References
 This section describes how to update references to various [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Analysis Services databases and BAM databases after the databases have been restored.  

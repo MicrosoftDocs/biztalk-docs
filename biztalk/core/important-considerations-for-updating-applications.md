@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Important Considerations for Updating Applications"
-title: "Important Considerations for Updating Applications"
+title: "Important Considerations for Updating Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "updating, applications"
+  - "applications, planning"
+  - "applications, updating"
+  - "planning, applications"
+  - "planning, updating"
+  - "updating, planning"
+ms.assetid: e7690bdf-943d-4bb6-b8cd-a6841b722d40
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Important Considerations for Updating Applications
 The following are important issues to consider before updating an application, especially one that is running in a production environment.  

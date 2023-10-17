@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Tools for Testing"
-title: "Tools for Testing"
+title: "Tools for Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a9b71f02-86df-4b03-bd2c-4d4d2014db02
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tools for Testing
 The table below lists tools that you can use to perform the testing associated with operational readiness of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

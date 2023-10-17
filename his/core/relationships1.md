@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Relationships"
-title: "Relationships1"
+title: "Relationships1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a7e90b64-f3ad-4803-b073-463b807c0559
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Relationships
 A configured Windows-initiated processing (WIP) environment is established by defining a set of WIP elements and then relating them in a manner that enables the client/client program, .NET Framework and the WIP Runtime to do the following:  

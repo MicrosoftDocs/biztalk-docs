@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Sample Architecture: File Adapter"
-title: "Sample Architecture: File Adapter"
+title: "Sample Architecture: File Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, security"
+  - "architecture, examples"
+  - "File adapters, security"
+  - "security, examples"
+  - "security, architecture"
+  - "examples, architecture"
+  - "architecture, security"
+  - "File adapters, architecture examples"
+ms.assetid: fdcbba0c-e301-46ce-8940-d617232cafbd
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample Architecture: File Adapter
 This topic describes the sample architecture when you use the File adapter to send and receive messages.  

@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: How to Remove a Server from a Group"
-title: "How to Remove a Server from a Group"
+title: "How to Remove a Server from a Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "groups, servers"
+  - "managing [groups], deleting servers"
+  - "servers, deleting"
+  - "deleting, groups"
+  - "servers"
+  - "managing [servers], deleting from groups"
+  - "groups, deleting"
+  - "servers, groups"
+  - "deleting, servers"
+ms.assetid: 85596e18-fa17-4f44-bc20-2e4cb578e109
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Remove a Server from a Group
 A server can only be associated with one BizTalk group. If a server already belongs to another group, you must first remove that server from its current group before you can add it to a new group.  

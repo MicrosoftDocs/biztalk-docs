@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Understand BizTalk Adapter for Oracle E-Business Suite"
-title: "Understand BizTalk Adapter for Oracle E-Business Suite"
+title: "Understand BizTalk Adapter for Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 77a3f0a8-fc64-42cd-bb7c-0a6f527622e4
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Understand BizTalk Adapter for Oracle E-Business Suite
 ## BizTalk Adapter Pack features

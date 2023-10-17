@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: GetServiceContractCallPoint"
-title: "GetServiceContractCallPoint"
+title: "GetServiceContractCallPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: be03d100-0cba-4b80-8056-b582a2cd74ce
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # GetServiceContractCallPoint
 Pushes the name of the current service contract call point onto the stack.  

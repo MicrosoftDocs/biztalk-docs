@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: What's New in HIS 2020"
-title: "What's New in HIS 2020"
+title: "What's New in HIS 2020 | Microsoft Docs"
 ms.custom: ""
 ms.date: 5/4/2020
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6f50d11f-8026-48d8-a13b-5ebf86369222
+caps.latest.revision: 15
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # What's New in HIS 2020
 Read about what's new in Host Integration Server 2020.  

@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Scaling Out the SQL Server Tier"
-title: "Scaling Out the SQL Server Tier"
+title: "Scaling Out the SQL Server Tier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "scaling, MessageBox database"
+  - "scaling, scaling out"
+  - "SQL Server, scaling"
+  - "MessageBox database, scaling"
+  - "scaling, strategies"
+ms.assetid: d5b2ebba-401e-4fde-8818-407fa626043a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scaling Out the SQL Server Tier
 For each BizTalk group, you add one Master MessageBox database. All the subsequent MessageBox databases that you add are called secondary MessageBoxes. The Master MessageBox handles all subscriptions and message routing. It can also publish messages. Secondary MessageBox databases will only publish messages when specifically configured to do so.  

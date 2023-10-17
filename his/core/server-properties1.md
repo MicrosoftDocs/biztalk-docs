@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Server Properties"
-title: "Server Properties1"
+title: "Server Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a0c1adfb-2f27-4546-afe7-7cee6a28ea7b
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Server Properties
 Use these topics to view and configure Server properties.  

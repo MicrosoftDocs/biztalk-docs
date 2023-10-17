@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Rule Engine Configuration and Tuning Parameters"
-title: "Rule Engine Configuration and Tuning Parameters"
+title: "Rule Engine Configuration and Tuning Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "troubleshooting, registry keys"
+  - "registry keys"
+  - "Business Rules Engine, registry keys"
+  - "troubleshooting, business rules"
+  - "validating, business rules"
+  - "business rules, validating"
+ms.assetid: cb0bcffe-bbc6-4495-84d2-2a822c3413b3
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Rule Engine Configuration and Tuning Parameters
 The following table contains a list of registry keys that may be useful for configuration validation and troubleshooting. These registry keys are stored under **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BusinessRules\3.0**.  

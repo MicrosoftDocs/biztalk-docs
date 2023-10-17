@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating an Application with Host Integration Server Designer"
-title: "Creating an Application with Host Integration Server Designer1"
+title: "Creating an Application with Host Integration Server Designer1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fa0b06f6-92d2-4dca-83b9-5e30d56e270d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Creating an Application with Host Integration Server Designer
 Using the tools for Host Integration Server (HIS) Designer in Visual Studio, you can create an application that uses Transaction Integrator (TI) to communicate with a remote mainframe.  

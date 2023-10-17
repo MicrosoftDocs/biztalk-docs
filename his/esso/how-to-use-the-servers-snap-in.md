@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Use the Servers Snap-In"
-title: "How to Use the Servers Snap-In"
+title: "How to Use the Servers Snap-In | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 99b0c548-5a27-4762-b110-3065eaa82528
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Use the Servers Snap-In
 This version of Enterprise Single Sign-On (SSO) includes the ENTSSO Servers Snap-In, which allows you to view, monitor, and perform certain actions on your ENTSSO Server through the Windows interface.  

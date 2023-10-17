@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Setting the FRR Delay Time-Out"
-title: "Setting the FRR Delay Time-Out"
+title: "Setting the FRR Delay Time-Out | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "FIN Response Reconciliation, configuring delay time-out"
+ms.assetid: 62209bf6-56c8-483a-96d5-328bffc8b680
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Setting the FRR Delay Time-Out
 You must configure the FRR orchestration to time out after some duration, so it will not wait for the FNN response indefinitely. If the time-out duration expires, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] publishes the timed-out messages to a custom time-out handler.  

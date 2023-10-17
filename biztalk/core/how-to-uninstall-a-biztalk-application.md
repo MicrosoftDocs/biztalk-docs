@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Uninstall a BizTalk Application"
-title: "How to Uninstall a BizTalk Application"
+title: "How to Uninstall a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [applications], uninstalling"
+  - "applications, uninstalling"
+  - "uninstalling, applications"
+  - "undeploying, uninstalling"
+ms.assetid: ab721c6e-194e-4b8a-bfd1-d0139d284373
+caps.latest.revision: 28
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Uninstall a BizTalk Application
 This topic describes how to use the Add or Remove Programs control panel or the BTSTask command-line tool to uninstall a BizTalk application. These are the only supported methods for uninstalling an application. If you installed multiple .msi files for this application, for example to update the application, double-clicking the .msi file or using msiexec may not completely uninstall the application and are therefore not supported uninstallation methods.  

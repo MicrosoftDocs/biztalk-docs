@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Delete an Affiliate Application"
-title: "How to Delete an Affiliate Application"
+title: "How to Delete an Affiliate Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ec290d38-0220-4bf2-b596-2d6453e51c8d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Delete an Affiliate Application
 Use the MMC Snap-In or the **deleteapps** command to delete the specified affiliate application from the Credential database.  

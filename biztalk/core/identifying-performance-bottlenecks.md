@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Identifying Performance Bottlenecks"
-title: "Identifying Performance Bottlenecks"
+title: "Identifying Performance Bottlenecks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "performance, bottlenecks"
+ms.assetid: d8b93243-e383-4c21-9c08-073a0d4f79be
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Identifying Performance Bottlenecks
 Ideally, when a system is running at almost full capacity (optimal utilization of available resources), sustainable throughput can be achieved, lowering total cost of ownership (TCO).  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 2: Update and Deploy the Tutorial Solution"
-title: "Step 2: Update and Deploy the Tutorial Solution"
+title: "Step 2: Update and Deploy the Tutorial Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d03adfdd-1160-4e8c-a564-3acb2ecd0476
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Update and Deploy the Tutorial Solution
 ![Step 2 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-2of9.gif "Step_2of9")  

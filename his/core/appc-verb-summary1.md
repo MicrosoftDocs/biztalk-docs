@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: APPC Verb Summary"
-title: "APPC Verb Summary"
+title: "APPC Verb Summary | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aa56da55-c86a-4d3b-9aee-4a8095890c9e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # APPC Verb Summary
 This section briefly describes each APPC verb, grouped by function.  

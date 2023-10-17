@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Dynamic Send Port Handler is Configurable"
-title: "Dynamic Send Port Handler is Configurable"
+title: "Dynamic Send Port Handler is Configurable | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5eb8f5ef-af95-4b2e-9a43-6f1240b25855
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Dynamic Send Port Handler is Configurable
 When creating a Dynamic Send Port, an adapter Send Handler is configurable for *every* installed adapter. Consider the following scenario:

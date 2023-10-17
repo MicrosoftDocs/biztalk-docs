@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How Validation of an EDI Interchange Is Configured"
-title: "How Validation of an EDI Interchange Is Configured"
+title: "How Validation of an EDI Interchange Is Configured | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6e698b21-e234-4d7d-b101-742eff68155c
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How Validation of an EDI Interchange Is Configured
 If the process to look up an agreement determines the agreement to which an incoming or outgoing interchange resolves to, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the agreement properties (not pipeline properties) to determine how validation is performed. If no agreement resolves to an interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses some fallback agreement properties and some pipeline properties in performing validation.  

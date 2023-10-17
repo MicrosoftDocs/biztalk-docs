@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Best practices to secure the Siebel adapter"
-title: "Best practices to secure the Siebel adapter"
+title: "Best practices to secure the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security best practices, for consuming the Siebel adapter with BizTalk Server"
+  - "security best practices, for connection between the Siebel adapter and Siebel system"
+  - "best practices, security"
+  - "security, best practices"
+  - "security best practices, for hosting the Siebel adapter in IIS"
+  - "security best practices, for WCF diagnostic tracing and message logging"
+  - "security best practices, for consuming the Siebel adapter with programming solutions"
+ms.assetid: da89fcc5-2705-4198-8df6-64b2c532ef41
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Best practices to secure the Siebel adapter
 This section provides best practices that you should follow to more completely protect sensitive data when you use or develop applications that consume the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].  

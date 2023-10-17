@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Context Property View"
-title: "Context Property View"
+title: "Context Property View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Tracking Profile Editor, message schemas"
+  - "Context Property view [Tracking Profile Editor]"
+  - "Tracking Profile Editor, Context Property view"
+  - "message schemas, XML messages"
+ms.assetid: 17a21b86-995c-4dc2-9a3c-1309837d0b9b
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Context Property View
 The Context Property view displays the schema of the XML message associated with the property. The view is available from the shortcut menu for some of the shapes in the Orchestration Schedule view.  

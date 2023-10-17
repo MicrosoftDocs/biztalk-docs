@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Compiler Options for 3270 Applications"
-title: "Compiler Options for 3270 Applications1"
+title: "Compiler Options for 3270 Applications1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b6e14f7f-f1e9-4963-81c3-bfe56b6dd102
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Compiler Options for 3270 Applications
 When compiling the 3270 client application, the compiler options listed in the following table are required.  

@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Children of XSLT Scripting Functoid Generate Code"
-title: "Error - Children of XSLT Scripting Functoid Generate Code"
+title: "Error - Children of XSLT Scripting Functoid Generate Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.xsltScriptingChildrenGenCode"
+ms.assetid: 9cdac362-177f-445e-904b-aa6a9b1eb46f
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Children of XSLT Scripting Functoid Generate Code
 **Error Code**  

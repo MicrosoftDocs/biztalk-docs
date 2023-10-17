@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Template (Application Deployment Sample)"
-title: "Template (Application Deployment Sample)"
+title: "Template (Application Deployment Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying, examples"
+  - "scripts, deploying"
+  - "deploying, scripts"
+  - "examples, deploying"
+ms.assetid: 7e77ff8e-b2bc-4d38-b5fd-329d6d54221f
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Template (Application Deployment Sample)
 This topic describes how to use the Template sample for application deployment.  

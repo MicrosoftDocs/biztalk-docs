@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Important Security Notes for the Business Rule Engine"
-title: "Important Security Notes for the Business Rule Engine"
+title: "Important Security Notes for the Business Rule Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "business rules, store administrator"
+  - "Business Rule Composer, security"
+  - "business rules, security"
+  - "Denial of Service attacks"
+ms.assetid: 8972127a-5569-4b32-bc09-e9265efe9514
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Important Security Notes for the Business Rule Engine
 This topic summarizes known security issues in Microsoft BizTalk Server and the steps you must take to mitigate the security risks.  

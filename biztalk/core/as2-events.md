@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AS2 Events"
-title: "AS2 Events"
+title: "AS2 Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c9de140d-8961-4c19-a2e5-14631016541f
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AS2 Events
 The following table lists event messages that may be posted in the event log during AS2 processing.  

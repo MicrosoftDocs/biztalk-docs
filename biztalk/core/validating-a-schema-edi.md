@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Validating a Schema (EDI)"
-title: "Validating a Schema (EDI)"
+title: "Validating a Schema (EDI) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c6175460-2dcf-4fef-b770-02f0a058bf93
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Validating a Schema (EDI)
 You can validate an EDI schema at design time. To do so, you use the XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment. The validate-schema operation validates the schema based on EDI rules. You do not have to designate an input message instance to validate a schema.  

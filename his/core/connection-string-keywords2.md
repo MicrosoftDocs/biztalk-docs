@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Connection String Keywords"
-title: "Connection String Keywords2"
+title: "Connection String Keywords2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2b5d3573-2b13-4655-a0c0-bfc4b87bcffe
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Connection String Keywords
 The format of a connection string is a semicolon-delimited list of key/value parameter pairs:  

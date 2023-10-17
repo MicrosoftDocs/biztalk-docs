@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: How to Create Service Accounts for New Hosts and Host Instances"
-title: "How to Create Service Accounts for New Hosts and Host Instances"
+title: "How to Create Service Accounts for New Hosts and Host Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Configuration Manager, service accounts"
+  - "Windows groups, service accounts"
+  - "Configuration Manager"
+  - "service accounts, Windows groups"
+  - "hosts, service accounts"
+  - "service accounts, hosts"
+  - "service accounts, Configuration Manager"
+  - "service accounts, creating"
+  - "creating, service accounts"
+ms.assetid: cef97f4a-8db1-41b6-9614-608c2fbf59a9
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create Service Accounts for New Hosts and Host Instances
 The Configuration Manager configures the necessary Windows groups and user accounts when you install and configure BizTalk Server on a single computer.  

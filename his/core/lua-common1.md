@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LUA_COMMON"
-title: "LUA_COMMON1"
+title: "LUA_COMMON1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8c9f6ebc-d2a7-41d1-b0ef-dbb0d949d380
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LUA_COMMON
 The following structure lists the common data structure parameters used by all the logical unit application (LUA) verbs.  

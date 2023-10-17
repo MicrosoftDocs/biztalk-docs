@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Information Worker Technologies"
-title: "Information Worker Technologies"
+title: "Information Worker Technologies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 772c3087-8493-4288-9a49-49f45a608fe1
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Information Worker Technologies
 The Microsoft BizTalk Server engine provides support for automated business processes that span multiple applications. But once those processes have been created, the information workers that use them—business people, not developers—have other requirements. They might need to monitor various business-related aspects of the process, for example, or work with trading partners in various ways.  

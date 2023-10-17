@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Creating a .NET Application to Test a Published Web Service"
-title: "Creating a .NET Application to Test a Published Web Service"
+title: "Creating a .NET Application to Test a Published Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "testing, Web services"
+  - "Web services, testing"
+ms.assetid: 94b2223b-45d7-4b86-b4ec-87cc027d7e2a
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating a .NET Application to Test a Published Web Service
 To test your published Web service, you can create an ASP.NET Web client application that consumes your published Web service. The [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection contains a valuable walkthrough for creating an ASP.NET Web client application. You can use the walkthrough to test your published Web service.

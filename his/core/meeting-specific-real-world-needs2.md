@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Meeting Specific Real-World Needs"
-title: "Meeting Specific Real-World Needs2"
+title: "Meeting Specific Real-World Needs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 77b70fe4-521e-4e9c-b5a1-def8d1191834
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Meeting Specific Real-World Needs
 The topics in this section show you how to use Transaction Integrator (TI) together with COM+ to meet specific real-world application integration needs.  

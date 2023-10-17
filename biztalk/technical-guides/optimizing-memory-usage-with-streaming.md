@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Optimizing Memory Usage with Streaming"
-title: "Optimizing Memory Usage with Streaming"
+title: "Optimizing Memory Usage with Streaming | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f8ba8820-65b4-4161-9f7a-3ae3d39e3d11
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Optimizing Memory Usage with Streaming
 This topic provides recommendations for using streaming patterns to minimize message memory footprints when sending or receiving large messages with a WCF transport or when loading messages in orchestrations.

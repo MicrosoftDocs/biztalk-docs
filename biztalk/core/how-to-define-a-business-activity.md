@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Define a Business Activity"
-title: "How to Define a Business Activity"
+title: "How to Define a Business Activity | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "business activities, creating [Excel add-in]"
+  - "monitoring business activities [BAM], creating business activities [Excel add-in]"
+  - "monitoring business activities [BAM], Excel add-in"
+ms.assetid: 305e3718-46b4-45df-bd52-f7ae36621576
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Define a Business Activity
 To indicate the data you need to collect for reports, you must define a BAM activity. This contains a list of the important milestones and data items you want BAM to track. Use the BAM Excel add-in to create an activity as shown in the following procedure.  

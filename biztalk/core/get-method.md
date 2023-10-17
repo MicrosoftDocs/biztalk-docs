@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Get Method"
-title: "Get Method"
+title: "Get Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Get method"
+ms.assetid: 0e621077-f0ef-495c-ba6b-0c6154f48113
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get Method
 Used to retrieve properties based on the input key parameters (key1, key2, … keyn). The output parameter is a structure containing the properties of the record that matches the key parameters. If the component interface has only one instance (that is, there is no key), the Get function does not contain any key parameter. Also see [Find Method](../core/find-method.md).  

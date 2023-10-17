@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Adapter Interfaces"
-title: "Adapter Interfaces"
+title: "Adapter Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e7398aeb-7c1c-400e-a552-d0ab39e55a0b
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Interfaces
 There are three interfaces that custom adapters must implement, and two interfaces that are optional.  

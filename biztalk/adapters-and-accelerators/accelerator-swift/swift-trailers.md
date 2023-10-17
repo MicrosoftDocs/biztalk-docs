@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: SWIFT Trailers"
-title: "SWIFT Trailers"
+title: "SWIFT Trailers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SWIFT Trailer schema"
+  - "schemas, SWIFT"
+  - "trailers [SWIFT]"
+  - "SWIFT, trailers"
+ms.assetid: b6d64584-0514-4c87-98c0-33755efc4695
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFT Trailers
 Each SWIFT message has one or more trailers as required by the message exchange and security requirements. System trailers, if applicable, follow user trailers. Each trailer within the Trailer Block appears within a subblock delimited by further pairs of curly brackets. Each subblock begins with three letters denoting the trailer type, followed by a colon.  

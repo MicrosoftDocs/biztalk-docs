@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create a Connection String"
-title: "Create a Connection String"
+title: "Create a Connection String | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 97f95be2-ec26-4c03-9db3-cda3d645a1ed
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create a Connection String
 

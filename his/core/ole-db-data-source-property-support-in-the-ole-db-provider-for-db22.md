@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: OLE DB Data Source Property Support in the OLE DB Provider for DB2"
-title: "OLE DB Data Source Property Support in the OLE DB Provider for DB22"
+title: "OLE DB Data Source Property Support in the OLE DB Provider for DB22 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 14422717-3031-4ddf-8e8c-34df0ce80a83
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # OLE DB Data Source Property Support in the OLE DB Provider for DB2
 The following table summarizes the standard OLE DB version 2.0 data source properties from the DBPROP_DATASOURCE property set that are supported by the version of Microsoft OLE DB Provider for DB2 included with Host Integration Server.  

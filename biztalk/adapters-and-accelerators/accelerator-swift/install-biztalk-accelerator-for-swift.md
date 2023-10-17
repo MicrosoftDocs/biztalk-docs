@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Install BizTalk Accelerator for SWIFT"
-title: "Install BizTalk Accelerator for SWIFT"
+title: "Install BizTalk Accelerator for SWIFT | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "documentation"
+ms.assetid: 8d492248-fde6-4fd8-be6b-e86ac7d0808b
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install BizTalk Accelerator for SWIFT
 

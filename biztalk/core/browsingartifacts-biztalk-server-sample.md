@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BrowsingArtifacts (BizTalk Server Sample)"
-title: "BrowsingArtifacts (BizTalk Server Sample)"
+title: "BrowsingArtifacts (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b63c0833-3445-4361-a8eb-63837017edf8
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BrowsingArtifacts (BizTalk Server Sample)
 The BrowsingArtifacts sample demonstrates how to enumerate BizTalk artifacts and attributes.

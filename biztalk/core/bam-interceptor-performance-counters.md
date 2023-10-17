@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BAM Interceptor Performance Counters"
-title: "BAM Interceptor Performance Counters"
+title: "BAM Interceptor Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b9b64ae1-4d94-4c3c-add1-fa020713be5c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM Interceptor Performance Counters
 Performance counters allow you to monitor specific aspects of work performed by the BAM interceptors. Performance counters can help you identify and troubleshoot server performance issues.  

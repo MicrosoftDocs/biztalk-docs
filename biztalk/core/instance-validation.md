@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Instance Validation"
-title: "Instance Validation"
+title: "Instance Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f906f2e9-2bf9-448b-927f-dd2d7d9b2272
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Instance Validation
 BizTalk Editor invokes the **IInstanceValidator.ValidateInstance** method of an extension when the following conditions are met:  

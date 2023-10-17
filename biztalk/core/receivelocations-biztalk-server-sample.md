@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: ReceiveLocations (BizTalk Server Sample)"
-title: "ReceiveLocations (BizTalk Server Sample)"
+title: "ReceiveLocations (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 87d75941-3973-4166-91b0-f1192b25a804
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ReceiveLocations (BizTalk Server Sample)
 The ReceiveLocations sample demonstrates how to create receive locations in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment by using the **ExplorerOM** administration objects. For more information about receive locations in general, see [Receive Locations](../core/receive-locations.md).

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: InfoPath Security"
-title: "InfoPath Security"
+title: "InfoPath Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security, InfoPath forms"
+  - "InfoPath forms, security"
+ms.assetid: 6ed7b5cc-9801-45a5-8fdb-e5d56dd36435
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # InfoPath Security
 Microsoft [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)] [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] 2007 uses XML Signatures to let you digitally sign a form using a digital certificate. XML Signatures defines a standard for XML-based digital signatures that you use to help secure the data contained in XML documents. XML Signatures is a standard governed by the World Wide Web Consortium (W3C).  

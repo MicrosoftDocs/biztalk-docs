@@ -1,12 +1,18 @@
 ---
-title: "Distributed and ad hoc queries"
+title: "Distributed and ad hoc queries | Microsoft Docs"
 description: Process distributed queries or ad hoc name queries, and create a link server for Host Integration Server (HIS)
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 050d2e9a-bada-4bda-af41-fe233e47eae2
+caps.latest.revision: 6
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Query Processor
   

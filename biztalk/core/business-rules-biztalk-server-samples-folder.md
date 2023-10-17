@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Business Rules (BizTalk Server Samples Folder)"
-title: "Business Rules (BizTalk Server Samples Folder)"
+title: "Business Rules (BizTalk Server Samples Folder) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, business rules"
+  - "SDK examples"
+  - "business rules, examples"
+ms.assetid: d5c19d43-6688-4138-88b1-6e933ccbd14b
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Business Rules (BizTalk Server Samples Folder)
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several business rules samples in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each business rules sample, instructions for building and running the sample, and the results you can expect.  

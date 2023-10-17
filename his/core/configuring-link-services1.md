@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring Link Services"
-title: "Configuring Link Services1"
+title: "Configuring Link Services1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fefdbb8e-d4dd-4311-b2b7-0ebc3add6f5a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring Link Services
 By default, when [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] is installed, all the software files required by all standard link services are copied to the server. After the link services are installed, they must be configured for your host environment.  

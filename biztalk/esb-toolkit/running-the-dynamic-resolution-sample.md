@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Running the Dynamic Resolution Sample"
-title: "Running the Dynamic Resolution Sample"
+title: "Running the Dynamic Resolution Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c933839f-13e6-4b49-9838-2773e3f99b64
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Running the Dynamic Resolution Sample
 To execute one of the use case examples, you import the appropriate Microsoft BizTalk binding file into the GlobalBank.ESB BizTalk application and then either drop a suitable message into the sample input folder or call the sample Web service. The Dynamic Resolution sample supports two main scenarios:  

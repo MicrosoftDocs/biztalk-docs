@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Command-Line Interface"
-title: "Command-Line Interface2"
+title: "Command-Line Interface2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 73ef2a45-646e-4cc7-90a0-a730da44b1b6
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Command-Line Interface
 In addition to the graphical user interfaces provided by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Setup and the SNA Manager, Host Integration Server offers a command-line interface. The command-line interface can be useful in certain situations, such as when you want to view a configuration setting quickly without starting the graphical interface, or when you want to store configuration commands in a command file so that they can be carried out easily in the future.  

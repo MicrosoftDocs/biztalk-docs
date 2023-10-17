@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure a 5250 Remote APPC LU"
-title: "How to Configure a 5250 Remote APPC LU1"
+title: "How to Configure a 5250 Remote APPC LU1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ca4eea71-2324-4483-b546-a79b56accf17
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure a 5250 Remote APPC LU
 The following procedure details configuring a 5250 remote APPC LU.  

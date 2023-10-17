@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Run the 5250 Client Demonstration"
-title: "How to Run the 5250 Client Demonstration2"
+title: "How to Run the 5250 Client Demonstration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 13981e98-08ed-4fc6-a890-2d4d05b7529b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Run the 5250 Client Demonstration
 The following procedure details running the 5250 demonstration.  

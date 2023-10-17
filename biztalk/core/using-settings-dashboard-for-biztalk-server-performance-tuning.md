@@ -1,12 +1,19 @@
 ---
-title: "Using Settings Dashboard for BizTalk Server Performance Tuning"
+title: "Using Settings Dashboard for BizTalk Server Performance Tuning | Microsoft Docs"
 description: Use Settings Dashboard in BizTalk Server Adminstration to update group, host, and host instance settings 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3bb1ddac-1e8f-4928-9c70-8326ae64a734
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use Settings Dashboard for BizTalk Server Performance Tuning
 

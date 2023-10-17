@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Lesson 3: Adding SWIFT Schemas to a Project"
-title: "Lesson 3: Adding SWIFT Schemas to a Project"
+title: "Lesson 3: Adding SWIFT Schemas to a Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "schemas, adding to projects"
+  - "projects"
+ms.assetid: e17ef4b8-f060-44cc-b988-0f9f54deab90
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 3: Adding SWIFT Schemas to a Project
 Now that you have a solution and a new project, you can add items to the project. The first item you add is a schema for an MT103 SWIFT Payment message. When you select the Schema template, BizTalk Editor starts.  

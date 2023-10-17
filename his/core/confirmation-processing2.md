@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Confirmation Processing"
-title: "Confirmation Processing2"
+title: "Confirmation Processing2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2eccd60f-ae01-4ab8-a35b-d30524016f12
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Confirmation Processing
 The sequence of events for confirmation processing is as follows:  

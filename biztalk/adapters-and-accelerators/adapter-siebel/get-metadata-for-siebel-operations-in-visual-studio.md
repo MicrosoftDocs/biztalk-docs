@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Get Metadata for Siebel Operations in Visual Studio"
-title: "Get Metadata for Siebel Operations in Visual Studio"
+title: "Get Metadata for Siebel Operations in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "metadata, retrieving for Siebel operations in Visual Studio"
+ms.assetid: 63643942-6497-4891-ad7d-34b1df9acbc1
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get Metadata for Siebel Operations in Visual Studio
 The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] provides two [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components that you can use to help you develop solutions using the adapter.  

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: CallOrchestration (BizTalk Server Sample)"
-title: "CallOrchestration (BizTalk Server Sample)"
+title: "CallOrchestration (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, examples"
+  - "orchestrations, calling"
+  - "examples, orchestrations"
+ms.assetid: 0c4194f0-c1e2-419a-8a1a-a3c96e8d2667
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # CallOrchestration (BizTalk Server Sample)
 The CallOrchestration sample demonstrates how to call one BizTalk orchestration from another orchestration.  

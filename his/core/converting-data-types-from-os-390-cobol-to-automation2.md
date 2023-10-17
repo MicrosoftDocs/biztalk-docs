@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Converting Data Types from OS/390 COBOL to Automation"
-title: "Converting Data Types from OS-390 COBOL to Automation2"
+title: "Converting Data Types from OS-390 COBOL to Automation2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 32d0c822-78a1-48ce-927d-730afa4a846d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Converting Data Types from OS/390 COBOL to Automation
 Use the tables in this topic as a guide when you set up the way you want Transaction Integrator (TI) to handle conversions from COBOL data types to Automation data types. For more information about the specific data types, see [Supported TI Data Types](../core/supported-ti-data-types2.md).  

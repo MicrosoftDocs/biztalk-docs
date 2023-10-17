@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Step 3: Create a SharePoint Application to Retrieve Data from SAP"
-title: "Step 3: Create a SharePoint Application to Retrieve Data from SAP"
+title: "Step 3: Create a SharePoint Application to Retrieve Data from SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "SSO application, creating an"
+  - "Business Data Catalog Definition Editor"
+  - "application definition file, importing"
+  - "Web Part"
+  - "SSP"
+  - "Web Part page, creating a"
+  - "Shared Services Provider, creating a"
+ms.assetid: 7158caec-9dc0-477c-9db3-179e634e5196
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Create a SharePoint Application to Retrieve Data from SAP
 ![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")

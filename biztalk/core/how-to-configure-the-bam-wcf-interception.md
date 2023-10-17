@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Configure the BAM WCF Interception"
-title: "How to Configure the BAM WCF Interception"
+title: "How to Configure the BAM WCF Interception | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d85aa130-3219-4df1-8974-a44a51a15002
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure the BAM WCF Interception
 To configure BAM for WCF interception, you must modify the interceptor configuration file to access the proper assembly manifest for your event sources.  

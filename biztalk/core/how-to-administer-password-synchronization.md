@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: How to Administer Password Synchronization"
-title: "How to Administer Password Synchronization"
+title: "How to Administer Password Synchronization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Password Synchronization [SSO], applications"
+  - "Password Synchronization [SSO], notifications"
+  - "applications, Password Synchronization [SSO]"
+  - "SSOPS command line utility [SSO]"
+  - "administering, Password Synchronization [SSO]"
+  - "Password Synchronization [SSO], adapters"
+  - "Password Synchronization [SSO], administering"
+  - "notifications [SSO]"
+  - "Password Synchronization [SSO], SSOPS command line utility"
+ms.assetid: e5568cc2-7530-452c-9902-d7ffcad66088
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Administer Password Synchronization
 You can administer Password Synchronization through either the MMC Snap-In or the command line.  

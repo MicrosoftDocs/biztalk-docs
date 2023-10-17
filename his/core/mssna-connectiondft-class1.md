@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_ConnectionDft Class"
-title: "MsSna_ConnectionDft Class1"
+title: "MsSna_ConnectionDft Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8e6a33ad-184c-4b46-a027-da384b04ed10
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_ConnectionDft Class
 A type of SNA connection that uses DFT over a coaxial cable.  

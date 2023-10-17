@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error encountered during parsing. The X12 functional group in the interchange had the following errors"
-title: "Error encountered during parsing. The X12 functional group in the interchange had the following errors"
+title: "Error encountered during parsing. The X12 functional group in the interchange had the following errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a2229c83-89bd-491f-9504-4afbf0084297
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error encountered during parsing. The X12 functional group in the interchange had the following errors
 ## Details  

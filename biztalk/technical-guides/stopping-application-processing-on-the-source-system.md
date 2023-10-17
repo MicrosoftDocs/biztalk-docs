@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Stopping Application Processing on the Source System"
-title: "Stopping Application Processing on the Source System"
+title: "Stopping Application Processing on the Source System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cde5fc62-4bc2-4ef0-81bc-c7d39ff36cb6
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Stopping Application Processing on the Source System
 Application processing should be stopped when the source [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime servers are still able to participate in document processing using the existing database servers. In this scenario, processing activity must be stopped so that a consistent restore operation can be completed.  

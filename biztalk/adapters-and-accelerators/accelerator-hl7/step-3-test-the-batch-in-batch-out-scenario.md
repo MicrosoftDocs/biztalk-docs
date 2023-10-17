@@ -1,9 +1,19 @@
 ---
 description: "Learn more about: Step 3: Test the Batch In/Batch Out Scenario"
 title: "Step 3: Test the Batch In-Batch Out Scenario"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+ms.assetid: c487d39d-b2be-41d4-963e-d0ee9ba169fb
+caps.latest.revision: 7
+
+
+
 ---
 # Step 3: Test the Batch In/Batch Out Scenario
 In this step, you test the Batch In/Batch Out tutorial by dropping a test instance of the batch in/batch out message into a folder. The send port that you set up will send the message, the receive port will receive it, and the receive pipeline will process it and drop it into the destination folder.  

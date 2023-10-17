@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Screening Routers and Internet Firewalls"
-title: "Screening Routers and Internet Firewalls1"
+title: "Screening Routers and Internet Firewalls1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b764d512-5a28-484b-baf5-429801d63bd2
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Screening Routers and Internet Firewalls
 You can configure destination port numbers in Host Integration Server for End-user and Administrator clients using TCP/IP.  

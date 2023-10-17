@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Static Design-Time Adapter Configuration"
-title: "Static Design-Time Adapter Configuration"
+title: "Static Design-Time Adapter Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 332723a4-e39d-43f5-af4d-bf9f56496535
+caps.latest.revision: 28
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Static Design-Time Adapter Configuration
 The design-time part of the adapter is responsible for defining all the available properties and for validating user input. In a static design-time configuration the adapter uses the default user interface (UI) for displaying and editing its properties.  

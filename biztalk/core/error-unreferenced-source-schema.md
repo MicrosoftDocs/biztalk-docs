@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Unreferenced Source Schema"
-title: "Error - Unreferenced Source Schema"
+title: "Error - Unreferenced Source Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.unrefdSourceSchema"
+ms.assetid: 069c6c1e-7e96-4936-b920-8b075c6e39b3
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Unreferenced Source Schema
 **Error Code**  

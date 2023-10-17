@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Receipt-Delivery-Option value is invalid"
-title: "Receipt-Delivery-Option value is invalid"
+title: "Receipt-Delivery-Option value is invalid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0eed306b-0912-4694-a55c-976128117c02
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receipt-Delivery-Option value is invalid
 ## Details  

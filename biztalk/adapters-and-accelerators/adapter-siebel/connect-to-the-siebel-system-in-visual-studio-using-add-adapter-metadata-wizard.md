@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connect to the Siebel System in Visual Studio Using Add Adapter Metadata Wizard"
-title: "Connect to the Siebel System in Visual Studio Using Add Adapter Metadata Wizard"
+title: "Connect to the Siebel System in Visual Studio Using Add Adapter Metadata Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e0a82fcc-b3ac-4936-9210-03c99d3741d7
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connect to the Siebel System in Visual Studio Using Add Adapter Metadata Wizard
 The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] is also exposed as a BizTalk adapter and hence, you can use the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate schema for the operations you want to perform on the Siebel system using the adapter.  

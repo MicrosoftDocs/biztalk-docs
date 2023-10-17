@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: TIBCO Rendezvous Concepts"
-title: "TIBCO Rendezvous concepts"
+title: "TIBCO Rendezvous concepts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 36060091-57dc-4125-8dca-23058d813deb
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # TIBCO Rendezvous Concepts
 

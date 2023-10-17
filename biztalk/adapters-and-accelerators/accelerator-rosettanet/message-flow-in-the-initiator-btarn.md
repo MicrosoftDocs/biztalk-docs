@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Message Flow in the Initiator BTARN"
-title: "Message Flow in the Initiator BTARN"
+title: "Message Flow in the Initiator BTARN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Accelerator for RosettaNet, message flow"
+  - "BTARN, components"
+  - "messages, message flow"
+  - "initiator BTARN"
+ms.assetid: 315f3d4c-5e40-4b8e-b135-9da98dc2db1e
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Flow in the Initiator BTARN
 Message flow on an initiator computer starts with receiving a message from the back-end line-of-business application, in its proprietary format. It involves converting that message to a RosettaNet Implementation Framework (RNIF)-compliant message, and then sending the message over the Internet to the responder computer.  

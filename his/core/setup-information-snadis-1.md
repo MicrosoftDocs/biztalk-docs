@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Setup Information (SNADIS)"
-title: "Setup Information (SNADIS)1"
+title: "Setup Information (SNADIS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f24560cb-ffa4-478b-9372-de0bdf9c2245
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Setup Information (SNADIS)
 This section describes the integrated link service installation provided with Host Integration Server.  

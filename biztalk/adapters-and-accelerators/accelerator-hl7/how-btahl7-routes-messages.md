@@ -1,9 +1,24 @@
 ---
 description: "Learn more about: How BTAHL7 Routes Messages"
 title: "How BTAHL7 Routes Messages"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "routing, about routing"
+  - "routing, messages"
+  - "messages, routing"
+  - "BTAHL7, message routing"
+ms.assetid: 555696c7-6023-44eb-b13d-cf7527bbc92f
+caps.latest.revision: 7
+
+
+
 ---
 # How BTAHL7 Routes Messages
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) leverages the message processing capabilities of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], but also extends it in several ways that are specific to HL7 messaging requirements.  

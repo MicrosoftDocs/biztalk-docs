@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Host and Automation Data"
-title: "Host and Automation Data1"
+title: "Host and Automation Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ea6fac7b-220c-47c7-ba65-ee6acf62225b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Host and Automation Data
 The topics in this section cover issues around working with Windows-based Automation data and COBOL-based mainframe data.  

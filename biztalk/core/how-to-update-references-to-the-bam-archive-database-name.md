@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: How to Update References to the BAM Archive Database Name"
-title: "How to Update References to the BAM Archive Database Name"
+title: "How to Update References to the BAM Archive Database Name | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Archive database [BAM], restoring"
+  - "restoring, BAM"
+  - "restoring [BAM], Archive database"
+  - "restoring [BAM], updating references"
+  - "Archive database [BAM], updating references"
+  - "BAM, restoring"
+ms.assetid: a0b8543e-6fc1-412e-b74e-683352d9c49e
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Update References to the BAM Archive Database Name
 If you backed up your BAMArchive databases, in the event of a system or data failure you can restore that backup and rename it.  

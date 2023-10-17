@@ -1,12 +1,19 @@
 ---
-title: "Microsoft BizTalk Adapter for mySAP Business Suite documentation"
+title: "Microsoft BizTalk Adapter for mySAP Business Suite documentation | Microsoft Docs"
 description: Get started, architecture, security, develop apps, message schemas, and troubleshoot the mySAP adapter in BizTalk Adapter Pack
 ms.custom: ""
 ms.date: "08/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 26b728d7-f1e9-470a-aba5-10c9f53e2d2b
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Microsoft BizTalk Adapter for mySAP Business Suite documentation
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] includes a variety of resources to help you understand how the adapter works, how to create applications that use the adapter, describes the different connection options, learn to create applications, and more.

@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Walkthrough: Deploying a Basic BizTalk Application"
-title: "Walkthrough: Deploying a Basic BizTalk Application"
+title: "Walkthrough: Deploying a Basic BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying, tutorials"
+  - "tutorials, deploying"
+  - "tutorials, applications"
+  - "applications, tutorials"
+ms.assetid: 21b67153-0f8c-406a-a224-fc792b16192f
+caps.latest.revision: 69
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough: Deploying a Basic BizTalk Application
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes features that simplify managing and deploying BizTalk business solutions. It now provides a BizTalk application container for the items in a business solution, such as orchestrations, schemas, maps, pipelines, schemas, and .NET assemblies. You can manage, modify, deploy, and install all of the items in an application as a single unit. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also includes wizards to help automate application deployment tasks. For background information, see [Application Deployment and Management Features](../core/application-deployment-and-management-features.md) and [Application Deployment and Management Tools](../core/application-deployment-and-management-tools.md).  

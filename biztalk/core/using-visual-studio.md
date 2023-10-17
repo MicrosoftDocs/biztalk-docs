@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Using Visual Studio"
-title: "Using Visual Studio"
+title: "Using Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Visual Studio"
+ms.assetid: 1ef68df2-5205-4d96-9e0f-0ae78800a121
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Visual Studio
 Within the BizTalk project system, you can use many of the tools available in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], as well as tools designed specifically for creating applications that run on Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This topic describes some of the common procedures that you can use to create an application that runs on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

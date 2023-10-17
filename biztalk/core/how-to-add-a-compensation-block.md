@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Add a Compensation Block"
-title: "How to Add a Compensation Block"
+title: "How to Add a Compensation Block | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "compensations, compensation blocks"
+  - "compensation blocks, adding"
+ms.assetid: 1bdeed92-3144-44ef-ad0d-1c6976f46a36
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add a Compensation Block
 If you do not add your own compensation, the runtime engine performs a default compensation that invokes the compensations of any nested transactions within the current transaction. It first invokes the compensation of the most recently completed transaction, and works backward until all nested transactions have been compensated.  

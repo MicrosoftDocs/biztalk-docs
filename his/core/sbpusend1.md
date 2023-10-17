@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: sbpusend"
-title: "sbpusend1"
+title: "sbpusend1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d318009d-e9df-4753-85b2-28107ea532ab
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # sbpusend
 The **sbpusend** function sends a message from an application to a partner on an LPI connection.  

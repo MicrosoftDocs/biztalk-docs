@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Configure the Party Resolution Pipeline Component"
-title: "How to Configure the Party Resolution Pipeline Component"
+title: "How to Configure the Party Resolution Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "authenticating, Partner Management"
+  - "Party Resolution [pipeline component], configuring"
+  - "Partner Management, authenticating"
+  - "pipeline components, Party Resolution"
+ms.assetid: 0ebd30f7-3a6b-4457-8e30-80bf81fbd28d
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure the Party Resolution Pipeline Component
 The Party Resolution pipeline component is used to map the user security ID and the certificate subject for the client to a BizTalk Server party. The mapping is used to enforce authentication of the parties who send messages to BizTalk Server. For more information about partner management, see[Create an Agreement](managing-agreements.md).  

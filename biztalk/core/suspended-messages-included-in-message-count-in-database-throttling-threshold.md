@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Suspended Messages are Included in the Message Count in Database Throttling Threshold"
-title: "Suspended Messages are Included in the Message Count in Database Throttling Threshold"
+title: "Suspended Messages are Included in the Message Count in Database Throttling Threshold | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9eb708bb-6d6d-4494-8b8d-67aa44800a20
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Suspended Messages are Included in the Message Count in Database Throttling Threshold
 By default the host **Message count in DB** throttling threshold is set to a value of 50,000, which will trigger a throttling condition under the following circumstances:  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Change the Tracking QueryTimeout Value"
-title: "How to Change the Tracking QueryTimeout Value"
+title: "How to Change the Tracking QueryTimeout Value | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "queries [HAT], time-out limits"
+  - "HAT, time-out limits"
+ms.assetid: abc26f37-6537-42fa-81ff-bc8b758b4e10
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Change the Tracking QueryTimeout Value
 By default, message and service instance tracking will time out if a query runs longer than 60 seconds. You can change the timeout value in the registry to enable queries to run longer than 60 seconds.  

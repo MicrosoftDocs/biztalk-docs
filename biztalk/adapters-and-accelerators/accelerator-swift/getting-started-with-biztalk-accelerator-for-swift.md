@@ -1,14 +1,24 @@
 ---
 description: "Learn more about: Getting started with BizTalk Accelerator for SWIFT"
-title: "Getting started with BizTalk Accelerator for SWIFT"
+title: "Getting started with BizTalk Accelerator for SWIFT | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "a4swift.configuration.gettingstarted"
+helpviewer_keywords:
+  - "getting started"
+  - "BizTalk Accelerator for SWIFT, getting started"
+ms.assetid: 5f4ad849-a94d-4035-a24d-9ba059ee35a3
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Getting started with BizTalk Accelerator for SWIFT
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides a set of schemas, rules, and associated tools to assist you in the integration of SWIFT messaging with your internal applications. A4SWIFT requires MicrosoftBizTalk Server, and uses [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] components and features to implement schemas, parsing, validation, rules processing, and orchestration. A4SWIFT also implements debatching of files containing multiple financial (FIN) messages, message repair and new submission, and FIN response reconciliation.

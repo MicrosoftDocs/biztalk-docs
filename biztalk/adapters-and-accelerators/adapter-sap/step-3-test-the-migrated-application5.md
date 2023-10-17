@@ -1,12 +1,22 @@
 ---
 description: "Learn the prerequisites and steps to test a migrated application in BizTalk using the SAP adapter."
-title: "Step 3: Test the Migrated Application5"
+title: "Step 3: Test the Migrated Application5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "migration, testing the migrated application (Receive IDOC)"
+  - "migration"
+ms.assetid: 3ad15069-1556-4c0a-8bfd-86704d40c586
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Testing the Migrated Application
 

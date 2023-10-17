@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Enabling EDI and AS2 Status Reports"
-title: "Enabling EDI and AS2 Status Reports"
+title: "Enabling EDI and AS2 Status Reports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aa40fbad-51ad-40e0-9fe3-68e54beb11a5
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Enabling EDI and AS2 Status Reports
 This topic describes how to configure the EDI and AS2 status reports in the **Group Overview** page of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.  

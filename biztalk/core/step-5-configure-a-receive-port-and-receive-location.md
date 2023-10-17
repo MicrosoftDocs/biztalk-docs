@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 5: Configure a Receive Port and Receive Location"
-title: "Step 5: Configure a Receive Port and Receive Location"
+title: "Step 5: Configure a Receive Port and Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 43fc8d12-5fde-4ddf-a7f0-770f078ba66b
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 5: Configure a Receive Port and Receive Location
 ![Step 5 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-5of9.gif "Step_5of9")  

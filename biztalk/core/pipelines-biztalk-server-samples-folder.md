@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Pipelines (BizTalk Server Samples Folder)"
-title: "Pipelines (BizTalk Server Samples Folder)"
+title: "Pipelines (BizTalk Server Samples Folder) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, examples"
+  - "SDK examples"
+  - "examples, pipelines"
+ms.assetid: d1b6d984-ac0d-4149-99fd-93d3b6ed316c
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Pipelines (BizTalk Server Samples Folder)
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several pipeline samples in its software development kit (SDK). This section provides detailed information about the functionality that each pipeline sample demonstrates, instructions for building and running the sample, and the results you can expect.  

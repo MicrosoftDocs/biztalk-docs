@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Accessibility for People with Disabilities"
-title: "Accessibility for People with Disabilities"
+title: "Accessibility for People with Disabilities | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fa1fcb16-4eaa-47b0-a18a-7c1f5fbf6fe2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Accessibility for People with Disabilities
 

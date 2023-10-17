@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Using Functoids to Create More Complex Mappings"
-title: "Using Functoids to Create More Complex Mappings"
+title: "Using Functoids to Create More Complex Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7d53e3a3-5ccd-4733-8c2f-3101e41fca61
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Functoids to Create More Complex Mappings
 

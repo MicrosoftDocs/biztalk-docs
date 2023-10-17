@@ -1,12 +1,19 @@
 ---
-title: "Configure the SOAP action for Siebel adapter in BizTalk"
+title: "Configure the SOAP action for Siebel adapter in BizTalk | Microsoft Docs"
 description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-Siebel adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f22a4691-0355-4f08-a14e-e90a3c987ac0
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the SOAP action for Siebel
 To perform any operation on the Siebel system using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], adapter users must specify a SOAP action. The SOAP action communicates to the adapter what action should be performed. You can specify the SOAP action either at design time or at run time. However, if you specify the SOAP action both at design time and run time, the action you specified at design time will be overridden.  

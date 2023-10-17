@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SQL Server Replication (Troubleshooting)"
-title: "SQL Server Replication (Troubleshooting)1"
+title: "SQL Server Replication (Troubleshooting)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cd95c5eb-8b39-4b3e-bf1e-2f8ba7496c12
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SQL Server Replication (Troubleshooting)
 

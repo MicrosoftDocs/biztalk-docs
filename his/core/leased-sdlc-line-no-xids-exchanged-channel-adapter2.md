@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Leased SDLC Line (No XIDs Exchanged), Channel Adapter"
-title: "Leased SDLC Line (No XIDs Exchanged), Channel Adapter2"
+title: "Leased SDLC Line (No XIDs Exchanged), Channel Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4d7d61d4-b66c-466d-8e57-3aabcbc931fe
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Leased SDLC Line (No XIDs Exchanged), Channel Adapter
 For a connection to a host computer using a leased synchronous data link control (SDLC) line, the SNALink receives a set normal response mode (SNRM) when the end-to-end connection is established. The SNALink responds with an unnumbered acknowledgement (UA) and informs the local node that the connection is ready for data transfer. This is done with the [Request-Open-Station](./request-open-station2.md) message with the Rcv-Set-Mode flag set.  

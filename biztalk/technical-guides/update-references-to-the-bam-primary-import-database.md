@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Update References to the BAM Primary Import Database"
-title: "Update References to the BAM Primary Import Database"
+title: "Update References to the BAM Primary Import Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3da3b545-0d81-491b-bc37-0a980a7814b6
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Update References to the BAM Primary Import Database
 If you backed up your BAM Primary Import database in the event of a system or data failure, you can restore that backup to a different computer and rename the backup.

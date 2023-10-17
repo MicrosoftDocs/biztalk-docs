@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3: Create a SharePoint Application to Retrieve Data from Siebel"
-title: "Step 3: Create a SharePoint Application to Retrieve Data from Siebel"
+title: "Step 3: Create a SharePoint Application to Retrieve Data from Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 86bde531-2daf-452b-b3e6-5481d66f72e7
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Create a SharePoint Application to Retrieve Data from Siebel
 ![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")

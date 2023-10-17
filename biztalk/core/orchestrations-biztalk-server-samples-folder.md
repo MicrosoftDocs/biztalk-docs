@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Orchestrations (BizTalk Server Samples Folder)"
-title: "Orchestrations (BizTalk Server Samples Folder)"
+title: "Orchestrations (BizTalk Server Samples Folder) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, examples"
+  - "examples, orchestrations"
+  - "SDK examples"
+ms.assetid: f70f8d67-763f-4e3c-b233-c7156026b514
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Orchestrations (BizTalk Server Samples Folder)
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several orchestration samples in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by these orchestration samples, instructions for building and running the samples, and the results you can expect. The samples listed below are sorted by complexity, that is, HelloWorld is the most basic sample in the list. Samples later in the list might be based upon functionalities shown in samples earlier in the list.  

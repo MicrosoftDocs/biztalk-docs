@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: sepdburl"
-title: "sepdburl2"
+title: "sepdburl2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: adb900f9-fc48-49c4-a42e-e0d7bf8207ae
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # sepdburl
 The application calls the **sepdburl** function to release a buffer.  

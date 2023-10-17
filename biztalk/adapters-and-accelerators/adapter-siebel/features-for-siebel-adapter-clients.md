@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Features for Siebel adapter clients"
-title: "Features for Siebel adapter clients"
+title: "Features for Siebel adapter clients | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapter features"
+  - "features, of the adapter"
+ms.assetid: 11792629-a692-4378-b522-d33484ee8acb
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Features for Siebel adapter clients
 In addition to the features discussed throughout the topics of [Overview of BizTalk Adapter for Siebel eBusiness Applications](../../adapters-and-accelerators/adapter-siebel/overview-of-biztalk-adapter-for-siebel-ebusiness-applications.md), the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] provides the following features that are useful for adapter clients:  

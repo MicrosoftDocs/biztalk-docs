@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: SWIFT Disassembler Configuration Properties"
-title: "SWIFT Disassembler Configuration Properties"
+title: "SWIFT Disassembler Configuration Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "disassembler, configuration properties"
+ms.assetid: 610cc68f-521f-4a9f-9f81-823a2fe55eb1
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFT Disassembler Configuration Properties
 The following table provides SWIFT disassembler (DASM) properties, descriptions, data types, and value ranges.  

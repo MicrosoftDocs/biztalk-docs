@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_LuPrintAssignedToWorkstation Class"
-title: "MsSna_LuPrintAssignedToWorkstation Class1"
+title: "MsSna_LuPrintAssignedToWorkstation Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 62522684-dfc0-4f5c-9dc8-9b26d50cc580
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_LuPrintAssignedToWorkstation Class
 Associates a print LU with a workstation.  

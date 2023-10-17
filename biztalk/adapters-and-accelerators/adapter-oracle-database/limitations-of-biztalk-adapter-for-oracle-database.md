@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Limitations of BizTalk Adapter for Oracle Database"
-title: "Limitations of BizTalk Adapter for Oracle Database"
+title: "Limitations of BizTalk Adapter for Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapter, limitations of"
+ms.assetid: eab4ddea-f986-43c2-82bb-b9fe37961a5b
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Limitations of BizTalk Adapter for Oracle Database
 ## General  

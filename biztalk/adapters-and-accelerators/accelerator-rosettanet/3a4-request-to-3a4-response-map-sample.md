@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: 3A4 Request to 3A4 Response Map Sample"
-title: "3A4 Request to 3A4 Response Map Sample"
+title: "3A4 Request to 3A4 Response Map Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7fd9c901-0ead-43e8-ac58-2825f5c39ca9
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # 3A4 Request to 3A4 Response Map Sample
 The _3A4RequestMessageTo3A4ResponseMessage.btm sample demonstrates how you can map a 3A4 request message to a 3A4 response message.  

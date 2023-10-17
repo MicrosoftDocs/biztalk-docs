@@ -1,12 +1,18 @@
 ---
-title: "Security overview of your deployment"
+title: "Security overview of your deployment | Microsoft Docs"
 description: Quick links about security, encryption, user groups in your BizTalk Server deployment
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a1c5a000-9f6b-49db-bd87-8c694240a192
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Securing Your BizTalk Server Deployment
 The topics in this section provide the links about configuring firewall ports, Internet protocol security (IPSec), and secure sockets layer (SSL) security after you have installed and configured BizTalk.

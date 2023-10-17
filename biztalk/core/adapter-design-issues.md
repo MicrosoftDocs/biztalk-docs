@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Adapter Design Issues"
-title: "Adapter Design Issues"
+title: "Adapter Design Issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2e5568be-a046-40ff-a94a-eda086457564
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Design Issues
 Adapter configuration is stored in the Single Sign-On (SSO) database when the user makes configuration changes during design time. At run time the Messaging Engine retrieves the adapter's configuration and delivers it to the adapter. Four types of configuration information are delivered to adapters:  

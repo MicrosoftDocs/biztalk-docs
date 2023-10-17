@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: MQSeries Adapter High Availability"
-title: "MQSeries Adapter High Availability"
+title: "MQSeries Adapter High Availability | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "performance, MQSeries adapters"
+  - "MQSeries adapters, availability"
+  - "MQSeries adapters, performance"
+  - "high availability, MQSeries adapters"
+ms.assetid: 4339b10b-b35d-47c0-b78a-c60207e06c8e
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # MQSeries Adapter High Availability
 You can improve availability in the following ways when you use the adapter:

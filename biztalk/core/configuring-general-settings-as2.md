@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring General Settings (AS2)"
-title: "Configuring General Settings (AS2)"
+title: "Configuring General Settings (AS2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8592c52e-5156-418c-9c49-7478f73c372e
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring General Settings (AS2)
 As part of the general settings, you specify agreement name, the protocol it will use (AS2), the parties and profiles that the agreement is between, and whether to have reporting enabled for all messages processed through the agreement. You can also specify the party contact information as part of the agreement.  

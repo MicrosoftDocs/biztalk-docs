@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Preparing Applications for Disaster Recovery"
-title: "Preparing Applications for Disaster Recovery"
+title: "Preparing Applications for Disaster Recovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0ef93099-aa6b-424a-a4ce-87d855c6afe3
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Preparing Applications for Disaster Recovery
 BizTalk applications (binaries and configuration artifacts such as receive locations and send ports) are deployed to the production BizTalk group when the group is restored at the disaster recovery site. This configuration may have to be altered depending on whether there are configuration locations such as receive locations and send ports that are production-specific.  

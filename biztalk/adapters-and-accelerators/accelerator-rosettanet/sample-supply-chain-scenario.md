@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Sample Supply Chain Scenario"
-title: "Sample Supply Chain Scenario"
+title: "Sample Supply Chain Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "supply chains, examples"
+  - "examples, supply chains"
+ms.assetid: 1837a2c8-b1d4-4e1f-a196-a48b13b22662
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample Supply Chain Scenario
 One of the most fundamental processes in the high-technology supply chain is the exchange of purchase-order request and response messages. A buyer issues a purchase order, and a supplier acknowledges, at the line level, whether they accept or reject the order, or whether the order is pending.  

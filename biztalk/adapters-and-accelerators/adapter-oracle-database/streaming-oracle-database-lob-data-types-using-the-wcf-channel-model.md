@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Streaming Oracle Database LOB Data Types Using the WCF Channel Model"
-title: "Streaming Oracle Database LOB Data Types Using the WCF Channel Model"
+title: "Streaming Oracle Database LOB Data Types Using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "streaming, Oracle LOB data types"
+  - "WCF channel model, streaming Oracle LOB data types"
+ms.assetid: 513a7cb8-495d-4019-bce1-b5babca3629f
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Streaming Oracle Database LOB Data Types Using the WCF Channel Model
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports end-to-end streaming of LOB data for certain operations. The sections in this topic describe how to implement streaming for LOB data when you use the WCF channel model.  

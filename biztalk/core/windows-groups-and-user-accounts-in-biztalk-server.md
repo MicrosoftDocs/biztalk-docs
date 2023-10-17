@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Windows Groups and User Accounts in BizTalk Server"
-title: "Windows Groups and User Accounts in BizTalk Server"
+title: "Windows Groups and User Accounts in BizTalk Server | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/14/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a01603bd-4105-4691-819d-de43b00b40f3
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "mijacobs"
 ---
 
 # Windows Groups and User Accounts in BizTalk Server

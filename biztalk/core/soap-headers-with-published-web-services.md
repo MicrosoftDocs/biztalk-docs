@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: SOAP Headers with Published Web Services"
-title: "SOAP Headers with Published Web Services"
+title: "SOAP Headers with Published Web Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Web services, publishing"
+  - "SOAP headers, publishing"
+  - "Web services, SOAP headers"
+  - "SOAP headers, Web services"
+ms.assetid: 4fe54745-51dd-4425-882f-3f256a4ba393
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SOAP Headers with Published Web Services
 You can add SOAP headers to your published Web services. In the BizTalk Web Services Publishing Wizard on the **Web Services Properties** page, you can check the **Add SOAP headers** box to add SOAP headers to your published Web services.  

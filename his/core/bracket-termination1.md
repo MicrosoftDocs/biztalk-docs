@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Bracket Termination"
-title: "Bracket Termination1"
+title: "Bracket Termination1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aec6f71c-ea29-4337-9b18-a0554be48858
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Bracket Termination
 The local node supports bracket termination rule one (conditional) and bracket termination rule two (unconditional), as specified in the **BIND** request. Some sessions only allow bracket termination by one session partner. This is a **BIND** option, supplied in the bind information control block (BICB) on [Open(PLU) OK Confirm](./open-plu-oconfirm1.md)), and it is the application's responsibility to determine if (and when) it should request bracket termination.  

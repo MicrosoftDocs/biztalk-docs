@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The Resolver Class"
-title: "The Resolver Class"
+title: "The Resolver Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b9ebd6c2-fd86-471a-bc50-b1b89f701fab
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The Resolver Class
 The **Resolver** class is a simple structure that exposes a name/value pair. The Resolver Web service returns a generic collection of instances of this class from its methods.  

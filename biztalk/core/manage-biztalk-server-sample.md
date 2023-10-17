@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Manage (BizTalk Server Sample)"
-title: "Manage (BizTalk Server Sample)"
+title: "Manage (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SSO, examples"
+  - "utilities, SSOMANAGE"
+  - "examples, SSO"
+  - "SSOMANAGE command line utility"
+ms.assetid: f738e344-4d81-4557-b399-68b59c413245
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Manage (BizTalk Server Sample)
 The Manage Single Sign-On (SSO) sample demonstrates how to construct .xml files that you can use with the ssomanage.exe command-line utility to perform the following types of administration operations:  

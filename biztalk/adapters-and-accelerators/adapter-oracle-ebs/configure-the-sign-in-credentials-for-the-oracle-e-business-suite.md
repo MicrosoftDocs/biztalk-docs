@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configure the sign-in credentials for the Oracle E-Business Suite"
-title: "Configure the sign-in credentials for the Oracle E-Business Suite"
+title: "Configure the sign-in credentials for the Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 743ced51-706b-4788-b5a8-e0ed8ffb3b48
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the sign-in credentials for the Oracle E-Business Suite
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]requires the adapter clients to provide client credentials. The adapter uses these credentials to authenticate the user with the Oracle E-Business Suite and to establish a connection.  

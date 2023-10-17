@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Remove a Map from an Application"
-title: "How to Remove a Map from an Application"
+title: "How to Remove a Map from an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications, maps"
+  - "deleting, maps"
+  - "managing [maps], deleting"
+  - "managing [maps], applications"
+ms.assetid: 27d9bb08-36f0-46ff-ae9a-2247be6e3f96
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Remove a Map from an Application
 This topic describes how to use the BizTalk Server Administration console to remove a map from a BizTalk application. You might want to remove a map after deploying a new version of the map. For more information and important considerations for updating application artifacts, see [Updating BizTalk Applications](../core/updating-biztalk-applications.md).  

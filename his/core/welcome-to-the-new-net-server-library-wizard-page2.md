@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Welcome to the New .NET Server Library Wizard Page"
-title: "Welcome to the New .NET Server Library Wizard Page2"
+title: "Welcome to the New .NET Server Library Wizard Page2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15451"
+ms.assetid: b149b898-9f07-4cf2-bbc3-88316aa93885
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Welcome to the New .NET Server Library Wizard Page
 Use the **Welcome to the New .NET Server Library Wizard** page to view the definition of a .NET server library and to control whether the welcome page is displayed again the next time the wizard is used.  

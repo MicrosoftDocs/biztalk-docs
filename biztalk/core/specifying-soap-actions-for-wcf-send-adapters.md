@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Specifying SOAP Actions for WCF Send Adapters"
-title: "Specifying SOAP Actions for WCF Send Adapters"
+title: "Specifying SOAP Actions for WCF Send Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "send adapters, mapping"
+  - "send adapters, WCF services"
+  - "mapping, send adapters"
+  - "mapping, WCF send adapters"
+ms.assetid: fa9878eb-65b5-4ccc-b727-ff7e09ba6302
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Specifying SOAP Actions for WCF Send Adapters
 You can set the **WCF.Action** context property in the WCF send adapter transport properties dialog box or in the orchestration **Expression** shapes. If you set the **WCF.Action** context property in the orchestration, you need to leave the **Action** field blank in the WCF adapter transport properties dialog box for the static send ports. If you also specify an action in the static send ports, the **WCF.Action** context property you set in the orchestration will be overridden.  

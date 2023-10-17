@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Microsoft Concurrent Server"
-title: "Microsoft Concurrent Server2"
+title: "Microsoft Concurrent Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c44192e-c482-4d5e-91bc-1bf56864eb53
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Microsoft Concurrent Server
 The MSCS transaction (program mscmtics.cbl) samples support both the Standard and the Enhanced Listener. The transaction program can be started by either the Enhanced or Standard Listener.  

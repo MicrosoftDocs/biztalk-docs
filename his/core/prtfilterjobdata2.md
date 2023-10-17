@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: PrtFilterJobData"
-title: "PrtFilterJobData2"
+title: "PrtFilterJobData2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7e47a6be-666b-44df-a4af-8dda022fe7e2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # PrtFilterJobData
 The **PrtFilterJobData** function is called to give the user DLL the opportunity to manipulate the printer data before it is printed. This allows the DLL to provide custom processing for print data sent to the print server.  

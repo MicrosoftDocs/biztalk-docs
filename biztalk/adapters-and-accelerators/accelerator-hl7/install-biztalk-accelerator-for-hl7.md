@@ -1,9 +1,19 @@
 ---
 title: "Install BizTalk Accelerator for HL7"
 description: See the system requirements to install the HL7 accelerator on BizTalk Server
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+ms.assetid: 52347742-f858-47bb-bc73-1a6095ea9e8e
+caps.latest.revision: 6
+
+
+
 ---
 # Install BizTalk Accelerator for HL7
 

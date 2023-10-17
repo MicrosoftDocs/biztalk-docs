@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Registry Settings Page"
-title: "Registry Settings Page"
+title: "Registry Settings Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1f964200-516a-48e7-aa95-e3df968bc743
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Registry Settings Page
 Figure 1 shows the Registry Settings page, where you can modify the settings the portal uses when it interacts with the Universal Description, Discovery, and Integration (UDDI) service.  

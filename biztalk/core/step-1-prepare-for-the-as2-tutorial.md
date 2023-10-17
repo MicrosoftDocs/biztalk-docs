@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Prepare for the AS2 Tutorial"
-title: "Step 1: Prepare for the AS2 Tutorial"
+title: "Step 1: Prepare for the AS2 Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3421c33b-0ccd-4e9d-b1c3-b161278e4d98
+caps.latest.revision: 39
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Prepare for the AS2 Tutorial
 ![Step 1 of 11](../core/media/tut-step1-of-11.gif "Tut_Step1_of_11")  

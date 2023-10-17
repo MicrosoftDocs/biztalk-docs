@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TEST_RTS"
-title: "TEST_RTS2"
+title: "TEST_RTS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c42e5292-3efa-4314-8e73-244f41d40b98
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TEST_RTS
 The **TEST_RTS** verb determines whether a request-to-send notification has been received from the partner transaction program (TP).  

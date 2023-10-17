@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Pass a Custom TRM"
-title: "How to Pass a Custom TRM2"
+title: "How to Pass a Custom TRM2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0bb2602e-1387-48b3-b7e3-7d8dc3e3904e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Pass a Custom TRM
 The following code example demonstrates passing a custom transaction request message (TRM).  

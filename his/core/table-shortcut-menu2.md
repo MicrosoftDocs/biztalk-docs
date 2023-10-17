@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Table Shortcut Menu"
-title: "Table Shortcut Menu2"
+title: "Table Shortcut Menu2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ebiz.his.2006.tidesigner.node.hostfile.table"
+ms.assetid: 609c348a-eafc-462a-90b2-02dc8d0a4e7f
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Table Shortcut Menu
 When you select a table from the **Table** node in the **Library** tree, the following shortcut menu commands are available:  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring X12-Specific Agreement Properties"
-title: "Configuring X12-Specific Agreement Properties"
+title: "Configuring X12-Specific Agreement Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: be712d12-43e0-4191-8bce-a2ac87789701
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring X12-Specific Agreement Properties
 This section describes agreement property pages that are specific to X12 encoding. An X12 agreement between two business profiles will have the interchange related settings and transaction set related settings. This section provides information on providing values for both the settings.  

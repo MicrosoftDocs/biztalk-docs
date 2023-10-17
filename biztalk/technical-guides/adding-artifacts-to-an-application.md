@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Adding Artifacts to an Application"
-title: "Adding Artifacts to an Application"
+title: "Adding Artifacts to an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a9b5e92e-2e55-41d7-9959-f62753bbeb04
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adding Artifacts to an Application
 You can add and configure artifacts, such as send and receive ports, receive locations, and orchestrations, by using the Administration console. You can also generate binding files and add them to the application if you want to apply different bindings for the different environments that you will import the application into.

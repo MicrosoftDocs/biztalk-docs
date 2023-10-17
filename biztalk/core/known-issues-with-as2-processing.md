@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Known Issues with AS2 Processing"
-title: "Known Issues with AS2 Processing"
+title: "Known Issues with AS2 Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 941111d8-b394-4648-a675-e4a8f118a84b
+caps.latest.revision: 40
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Known Issues with AS2 Processing
 This section contains topics that describe known issues with BizTalk Server AS2 solutions.  

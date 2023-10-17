@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: CBR (BizTalk Server Sample)"
-title: "CBR (BizTalk Server Sample)"
+title: "CBR (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: add16683-4090-4854-8d6e-923b58937e9d
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # CBR (BizTalk Server Sample)
 The CBR sample demonstrates using the **ExplorerOM** administrative objects to add and configure new send ports for content-based routing of BizTalk messages.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Run the 5250 Client"
-title: "How to Run the 5250 Client2"
+title: "How to Run the 5250 Client2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8a5fa784-eb69-4bbe-a442-cb84d0b1af5d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Run the 5250 Client
 The following procedure details running the 3270 Client application.  

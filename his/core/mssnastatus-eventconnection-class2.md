@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_EventConnection Class"
-title: "MsSnaStatus_EventConnection Class2"
+title: "MsSnaStatus_EventConnection Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e06b3c9c-277c-481b-a118-57cbc029cf9f
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_EventConnection Class
 The **MsSnaStatus_EventConnection** class describes a change to the **EventConnection** class.  

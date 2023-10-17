@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: Batching Known Issues"
 title: "Batching Known Issues"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "batching, known issues"
+  - "known issues, batching"
+ms.assetid: 25c645eb-845d-483a-8f77-398e7dfe0c8f
+caps.latest.revision: 5
+
+
+
 ---
 # Batching Known Issues
 This section contains useful information that may help you avoid batching errors.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Managing IP-DLC Link Service Connections"
-title: "Managing IP-DLC Link Service Connections1"
+title: "Managing IP-DLC Link Service Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7a773f42-96dc-42f3-b34b-aef56979d20b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Managing IP-DLC Link Service Connections
 This section gives procedures for creating, configuring, viewing, and deleting IP-DLC link service connections.  

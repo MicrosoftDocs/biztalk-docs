@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Understanding the Business Process Management Solution"
-title: "Understanding the Business Process Management Solution"
+title: "Understanding the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "process management solutions, resources"
+  - "process management solutions, applications"
+  - "process management solution tutorial, background information"
+  - "process management solutions, about process management solutions"
+  - "applications, process management solutions"
+ms.assetid: fa6ad8d2-08d7-4770-9394-835f99bfd146
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Understanding the Business Process Management Solution
 The solution described in this section presents one way to implement a business process management application. In an ideal business process manager, the parts of the solution representing the business process—the business rules, communicating with specific backend systems, sending response messages—are separate from the infrastructure supporting the process.  

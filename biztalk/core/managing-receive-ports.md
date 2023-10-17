@@ -1,12 +1,19 @@
 ---
-title: "Manage receive ports"
+title: "Manage receive ports | Microsoft Docs"
 description: Quick links to work with receive ports in BizTalk Server, including creating, adding a receive location, configure maps, and enable tracking
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 561649b1-66f5-4895-b7a0-92d0a01bfbfb
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Manage Receive Ports
 

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Link Records Automatically"
-title: "How to Link Records Automatically"
+title: "How to Link Records Automatically | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dc2926c7-07c2-45d1-afde-d3f894f6b88d
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Link Records Automatically
 The BizTalk Mapper provides you with just-in-time assistance, through a shortcut menu, when you create links between two record elements of source and destination schemas. This topic provides information about how to use the shortcut menu to perform the linking operations.  

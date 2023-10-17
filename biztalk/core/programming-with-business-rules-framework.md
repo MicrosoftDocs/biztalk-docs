@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Programming with Business Rules Framework"
-title: "Programming with Business Rules Framework"
+title: "Programming with Business Rules Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Business Rules Framework, programming"
+ms.assetid: f0022287-0909-4a94-bd7b-e166c33ceced
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Programming with Business Rules Framework
 This section covers BRE programmer related tasks such as executing policies programmatically and creating a fact retriever component.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: HIS 2013 - What's New, Install, and Configure"
-title: "HIS 2013 - What's New, Install, and Configure"
+title: "HIS 2013 - What's New, Install, and Configure | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/24/2016"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af91a018-e5b3-41b1-9c21-375480ced52b
+caps.latest.revision: 11
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # HIS 2013 - What's New, Install, and Configure
 Use these topics to see what's new , and to install and configure HIS.  

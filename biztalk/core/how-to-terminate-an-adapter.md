@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Terminate an Adapter"
-title: "How to Terminate an Adapter"
+title: "How to Terminate an Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dfba2b61-b89f-41cd-a014-4e96daec6516
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Terminate an Adapter
 The following topics provide guidance on the proper shutdown of an adapter.  

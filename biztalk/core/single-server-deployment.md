@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Single-Server Deployment"
-title: "Single-Server Deployment"
+title: "Single-Server Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Windows SharePoint Services adapters, deploying"
+  - "configuring [Windows SharePoint Services adapters], customizing"
+  - "deploying, Windows SharePoint Services adapters"
+  - "Windows SharePoint Services adapters, installing"
+  - "Windows SharePoint Services adapters, configuring"
+  - "configuring [Windows SharePoint Services adapters], single-server deployment"
+  - "Windows SharePoint Services adapters, single-server deployment"
+ms.assetid: 94ba8241-9a30-46ca-b962-721e2d00f420
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single-Server Deployment
 This topic discusses single-server setup and deployment considerations for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Windows SharePoint Services.  

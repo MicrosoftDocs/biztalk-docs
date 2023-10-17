@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Configure a WCF-WSHttp Send Handler"
-title: "How to Configure a WCF-WSHttp Send Handler"
+title: "How to Configure a WCF-WSHttp Send Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF-WSHttp adapters, global variables"
+  - "configuring [WCF-WSHttp adapters], send handlers"
+  - "configuring [WCF-WSHttp adapters], global variables"
+  - "send handlers, WCF-WSHttp adapters"
+ms.assetid: b2c30edb-8f7b-4d3c-812b-5b877c47fda1
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure a WCF-WSHttp Send Handler
 Use the following procedure to configure the WCF-WSHttp send handler.  

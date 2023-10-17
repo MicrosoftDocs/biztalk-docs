@@ -1,12 +1,38 @@
 ---
 description: "Learn more about: Considerations for Running Adapter Handlers within a Clustered Host"
-title: "Considerations for Running Adapter Handlers within a Clustered Host1"
+title: "Considerations for Running Adapter Handlers within a Clustered Host1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/17/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "high availability"
+  - "receive adapters, clustering"
+  - "clustering, POP3 adapters"
+  - "FTP adapters, clustering"
+  - "clustering, receive adapters"
+  - "NLB system"
+  - "MSMQ send handler"
+  - "MSMQ receive handler"
+  - "clustering, FTP adapters"
+  - "handlers [adapters], best practices"
+  - "hosts, clustering"
+  - "MSMQ adapters"
+  - "clustering, MSMQ adapters"
+  - "adapters, best practices"
+  - "adapters, handlers"
+  - "POP3 adapters, clustering"
+  - "MSMQ adapters, clustering"
+  - "clustering"
+ms.assetid: ee66663c-4f4d-4515-9df1-aacf4fc72be4
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Considerations for Running Adapter Handlers within a Clustered Host
 BizTalk host cluster support is available to provide high availability for the following integrated BizTalk adapters: the FTP adapter, the SFTP adapter, the MSMQ adapter, and the POP3 adapter. Host cluster support is also provided so that there is high availability for running a single instance of an adapter for purposes of ordered delivery.  

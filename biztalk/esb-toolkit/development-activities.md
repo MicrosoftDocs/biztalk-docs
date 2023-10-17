@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Development Activities"
-title: "Development Activities"
+title: "Development Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1617fa8c-6560-4c1e-aa8a-8ce558a8db04
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Development Activities
 This section describes development activities for [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] scenarios that use the Itinerary Designer and contains the following topics:  

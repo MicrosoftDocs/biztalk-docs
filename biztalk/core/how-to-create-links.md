@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Create Links"
-title: "How to Create Links"
+title: "How to Create Links | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 670b831f-be03-4612-93d5-a894f7bb3c11
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create Links
 Creating a link from a **Record** or **Field** node in a source schema to a **Record** or **Field** node in a destination schema is the most basic activity in creating maps. This topic provides step-by-step instructions for several variations of this activity, including creating links to and from functoids. For additional information about working with functoids, see [Using Functoids to Create More Complex Mappings](../core/using-functoids-to-create-more-complex-mappings.md).  

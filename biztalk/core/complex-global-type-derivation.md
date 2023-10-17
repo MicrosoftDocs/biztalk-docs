@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Complex Global Type Derivation"
-title: "Complex Global Type Derivation"
+title: "Complex Global Type Derivation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fbf429d0-64f4-4c43-a5f7-e8af050803b9
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Complex Global Type Derivation
 There are two types of inheritance in XSD: extension and restriction. BizTalk Editor provides access to this XSD functionality by using the following two **Record** node properties:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LUs and Sessions"
-title: "LUs and Sessions2"
+title: "LUs and Sessions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b9ddf455-7722-42e5-8652-787698fb9dbd
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LUs and Sessions
 The following figure shows the SNA components required for logical unit application (LUA) communications.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: System Requirements"
-title: "Host Integration Server 2016 system requirements"
+title: "Host Integration Server 2016 system requirements | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/10/2020
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af7d5928-5e99-4c03-afc0-16330e5f207c
+caps.latest.revision: 9
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 
 # System Requirements for Host Integration Server 2016

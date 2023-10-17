@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsHisTrace_TN3270 Class"
-title: "MsHisTrace_TN3270 Class2"
+title: "MsHisTrace_TN3270 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1ff05ae9-2463-4ab7-b6ad-b7c5bea478d9
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsHisTrace_TN3270 Class
 The **MsHisTrace_TN3270** class contains tracing properties for the TN3270 service.  

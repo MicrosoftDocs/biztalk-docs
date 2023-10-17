@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Identify Bottlenecks in the BAM Primary Import Database"
-title: "How to Identify Bottlenecks in the BAM Primary Import Database"
+title: "How to Identify Bottlenecks in the BAM Primary Import Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0372f1f1-d892-4f7d-b6c4-e0f2b5a02f1c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Identify Bottlenecks in the BAM Primary Import Database
 To identify bottlenecks in the Business Activity Monitoring (BAM) database, perform the following steps:

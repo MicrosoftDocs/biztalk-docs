@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SendPort (SendPortCollection Node)"
-title: "SendPort (SendPortCollection Node)"
+title: "SendPort (SendPortCollection Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5cf7a6f9-9240-48b9-b196-8838afd4f41e
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SendPort (SendPortCollection Node)
 The SendPort node of a binding file contains specific information about a send port that is exported with the binding file.  

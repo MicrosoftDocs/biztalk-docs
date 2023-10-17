@@ -1,12 +1,21 @@
 ---
 description: "Learn about the support  for message versioning in the Microsoft BizTalk Adapter for mySAP Business Suite."
-title: "Message Versioning Support1"
+title: "Message Versioning Support1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "message versioning, support for"
+ms.assetid: 650b966e-9fa6-4af8-a061-7852a892717a
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Support for Message Versioning
 

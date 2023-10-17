@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Overview of the WCF service model with the SAP adapter"
-title: "Overview of the WCF service model with the SAP adapter"
+title: "Overview of the WCF service model with the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF service model, overview of using"
+ms.assetid: 02a4b43e-ade0-4dba-b8f6-074bca7cbe5c
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Overview of the WCF service model with the SAP adapter
 When you consume operations that the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces, your code acts either as a client or a service to the adapter.  

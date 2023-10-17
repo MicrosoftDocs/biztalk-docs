@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_PrintSession Class"
-title: "MsSna_PrintSession Class2"
+title: "MsSna_PrintSession Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c13682d-4764-402c-856f-e740be557565
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_PrintSession Class
 A base class for a print session on a Print service.  

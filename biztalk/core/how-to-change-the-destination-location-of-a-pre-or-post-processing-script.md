@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Change the Destination Location of a Pre- or Post-processing Script"
-title: "How to Change the Destination Location of a Pre- or Post-processing Script"
+title: "How to Change the Destination Location of a Pre- or Post-processing Script | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "scripts, file locations"
+  - "scripts, modifying"
+  - "managing [scripts], modifying"
+  - "managing [scripts], file locations"
+ms.assetid: 4a4fdaef-099f-4c29-9815-12404c7a2212
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Change the Destination Location of a Pre- or Post-processing Script
 This topic describes how to use the BizTalk Server Administration console to change the destination location of a pre- or post-processing script. This is the location to which the script is copied when the application is installed. You might want to change the destination location when deploying an application into a different environment.  

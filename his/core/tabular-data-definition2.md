@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Tabular Data Definition"
-title: "Tabular Data Definition2"
+title: "Tabular Data Definition2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8af7848f-fabf-4f3d-8653-84c13bd16a4d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Tabular Data Definition
 In many cases, the input or output data that Transaction Integrator (TI) handles might be in tabular or array format. TI allows you to define this type of data as one of the following formats:  

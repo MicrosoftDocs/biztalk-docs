@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Operations on Synonyms in Oracle Database"
-title: "Operations on Synonyms in Oracle Database"
+title: "Operations on Synonyms in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 608e8c36-ac78-4d7d-aca4-be552505fc2b
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Operations on Synonyms in Oracle Database
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] allows you to perform operations on synonyms. A synonym is an alias or friendly name for the database objects (such as tables, views, stored procedures, functions, and packages). For more information about synonyms in Oracle, see [https://go.microsoft.com/fwlink/?LinkId=138058](https://go.microsoft.com/fwlink/?LinkId=138058).

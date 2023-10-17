@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Managing Aggregations"
-title: "Managing Aggregations"
+title: "Managing Aggregations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [BAM], aggregations"
+  - "aggregations [BAM], managing"
+ms.assetid: 54b11cec-1bc4-4c40-a8f8-9f3a40f3161f
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Managing Aggregations
 Aggregations are cumulative operations against a data set to derive a generally representative characteristic or description for that data set. This section describes how to manage different elements of an aggregation, such as indexes, activities, and real-time aggregations (RTAs).  

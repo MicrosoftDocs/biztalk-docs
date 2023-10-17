@@ -1,12 +1,19 @@
 ---
-title: "Configure a port using the WCF-custom adapter and Siebel adapter in BizTalk"
+title: "Configure a port using the WCF-custom adapter and Siebel adapter in BizTalk | Microsoft Docs"
 description: Create WCF-custom send and receive ports to use the Siebel eBusiness Applications adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 53c5ee07-36ae-474b-9241-8b53c9066ca1
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure a port using the WCF-custom adapter and Siebel adapter
 This topic provides instructions on how to configure WCF-Custom send ports to perform outbound operations on a Siebel system using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  

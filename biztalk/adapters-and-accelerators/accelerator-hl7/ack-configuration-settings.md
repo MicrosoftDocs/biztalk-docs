@@ -4,6 +4,13 @@ description: Learn more about ACK configuration settings for BizTalk Server.
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
+
+helpviewer_keywords: 
+  - "acknowledgements, configuring"
+  - "configuring, acknowledgements"
+ms.assetid: 46e92560-7b1e-4d53-9de8-8ded4de90695
+caps.latest.revision: 4
+
 ---
 
 # ACK Configuration Settings

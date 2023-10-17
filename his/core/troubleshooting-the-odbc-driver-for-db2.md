@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Troubleshooting the ODBC Driver for DB2"
-title: "Troubleshooting the ODBC Driver for DB2"
+title: "Troubleshooting the ODBC Driver for DB2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6634aaef-6647-4454-8659-f030b53610ee
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Troubleshooting the ODBC Driver for DB2
 The Windows 2000 Event Viewer can be a useful tool for troubleshooting data access in some cases. The ODBC Driver for DB2 does not issue events. However, when SNA (APPC/LU 6.2) is used for the network transport for the ODBC Driver for DB2, the low-level SNA APPC transport issues events on the SNA connection.  

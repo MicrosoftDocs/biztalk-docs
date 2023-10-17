@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Poll SQL Server using the SQL Adapter with WCF Service Model"
-title: "Poll SQL Server using the SQL Adapter with WCF Service Model"
+title: "Poll SQL Server using the SQL Adapter with WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: eef2e868-bd51-4393-b091-f67299b4759d
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Poll SQL Server using the SQL Adapter with WCF Service Model
 You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive polling-based data-changed messages from SQL Server. You can specify a polling statement that the adapter executes to poll the database. The polling statement can be a SELECT statement or a stored procedure that returns a result set. Based on the type of polling message received, the adapter exposes different polling operations:  

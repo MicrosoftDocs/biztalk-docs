@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Delete a Host Instance"
-title: "Delete a Host Instance"
+title: "Delete a Host Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 35a06480-0962-4bdc-add2-56f979a2f1c9
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Delete a Host Instance
 

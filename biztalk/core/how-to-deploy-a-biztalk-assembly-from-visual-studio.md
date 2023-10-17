@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Deploy a BizTalk Assembly from Visual Studio"
-title: "How to Deploy a BizTalk Assembly from Visual Studio"
+title: "How to Deploy a BizTalk Assembly from Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 69d70c52-3e71-4eb2-876e-b467c7ca24b7
+caps.latest.revision: 39
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Deploy a BizTalk Assembly from Visual Studio
 This topic provides instructions on using [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer or the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command prompt to deploy the BizTalk assemblies from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into a BizTalk application. Although you can deploy a single assembly from the project level (such as by right-clicking the project and clicking Deploy) or deploy all of the assemblies in the solution at once from the solution level (such as by right-clicking the solution and clicking Deploy), we strongly recommend deploying all of the assemblies at once from the solution level.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid address (relative uri)"
-title: "Invalid address (relative uri)"
+title: "Invalid address (relative uri) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9a953f3e-3768-4e61-8f25-ea958a5a701a
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid address (relative uri)
 ## Details  

@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Translating the Patterns of the Service Oriented Solution"
-title: "Translating the Patterns of the Service Oriented Solution"
+title: "Translating the Patterns of the Service Oriented Solution | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "patterns [service solutions], translating patterns to orchestration shapes"
+  - "artifacts, patterns"
+  - "orchestrations, patterns"
+  - "patterns [process management solutions], connections"
+  - "patterns [service solutions], orchestration boundaries"
+  - "patterns [process management solutions], translating patterns to orchestrations"
+  - "orchestrations, boundaries"
+  - "patterns [service solutions], translating patterns to artifacts"
+ms.assetid: ff17cc41-2a7b-4304-b5bd-96b1174cea7f
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Translating the Patterns of the Service Oriented Solution
 This section describes how the solution translates the pattern diagram into BizTalk Server artifacts.  

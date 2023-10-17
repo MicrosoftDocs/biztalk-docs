@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Viewing Tracked Message and Instance Data"
-title: "Viewing Tracked Message and Instance Data"
+title: "Viewing Tracked Message and Instance Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "monitoring, HAT"
+  - "HAT, about HAT"
+ms.assetid: e3cc7bef-90c7-4375-9f6c-7df00391132e
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Viewing Tracked Message and Instance Data
 You can use historical and tracked data to help troubleshoot your BizTalk Server applications. For example, system administrators can use historical and tracked data to:  

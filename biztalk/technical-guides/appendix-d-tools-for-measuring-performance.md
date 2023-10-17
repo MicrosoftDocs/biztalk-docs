@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Appendix D: Tools for Measuring Performance"
-title: "Appendix D: Tools for Measuring Performance"
+title: "Appendix D: Tools for Measuring Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 024f4a08-f3fd-4786-8549-0da5463c0bb9
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Appendix D: Tools for Measuring Performance
 This topic describes several tools that can be used to monitor and evaluate the performance of a BizTalk Server environment.  

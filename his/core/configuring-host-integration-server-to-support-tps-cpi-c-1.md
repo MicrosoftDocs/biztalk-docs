@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring Host Integration Server to Support TPs (CPI-C)"
-title: "Configuring Host Integration Server to Support TPs (CPI-C)1"
+title: "Configuring Host Integration Server to Support TPs (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8a7fd25b-f6eb-4f19-b511-65703185b28f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring Host Integration Server to Support TPs (CPI-C)
 The following topics describe how the Host Integration Server configuration works with invoking and invokable transaction programs (TPs.)  

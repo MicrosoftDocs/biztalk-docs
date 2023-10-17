@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Assign LUs to Configured Users"
-title: "How to Assign LUs to Configured Users2"
+title: "How to Assign LUs to Configured Users2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9b3fa206-5071-479a-a7f5-b734c5406c1c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Assign LUs to Configured Users
 Although [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] uses the User accounts of the Windows Active Directory directory service, users must be configured to use Host Integration Server resources such as LUs.  

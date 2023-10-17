@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: sepdchnk"
-title: "sepdchnk2"
+title: "sepdchnk2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a060a491-78ba-4882-bd76-641c344bb5d6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # sepdchnk
 The **sepdchnk** function gets the function management interface (FMI) chunk size. The application calls this function to obtain the chunk size that should be used on the FMI. For more information on FMI chunking, see [Pacing and Chunking](./pacing-and-chunking1.md).  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LUA Multiple Processes and Multiple Sessions"
-title: "LUA Multiple Processes and Multiple Sessions1"
+title: "LUA Multiple Processes and Multiple Sessions1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b7e6a607-2c2a-4e50-a749-d3ae36c953a7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LUA Multiple Processes and Multiple Sessions
 Two processes cannot use the same logical unit application (LUA) session. Only the process that issues [RUI_INIT](./rui-init1.md) can use the session that is started by the verb. Before another process can use LUA, it must issue **RUI_INIT** to obtain a new session. However, different threads of the same process can issue verbs for the same LUA session.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn how to configure the HTTP receive adapter, an Internet Information Services (IIS) ISAPI extension that is hosted in the IIS process and submits messages to BizTalk Server."
-title: "How to Configure the HTTP Receive Adapter2"
+title: "How to Configure the HTTP Receive Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "HTTP receive adapter, configuring"
+  - "configuring HTTP receive adapter"
+ms.assetid: dd26fd57-90d8-4ffe-b56f-8de55ecc6f68
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure the HTTP Receive Adapter
 

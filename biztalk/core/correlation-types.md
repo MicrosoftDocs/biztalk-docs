@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Correlation Types"
-title: "Correlation Types"
+title: "Correlation Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "correlation sets, correlation types"
+  - "correlation types, correlation sets"
+  - "correlation types"
+  - "validating, correlation types"
+  - "correlation types, about correlation types"
+  - "correlation types, validating"
+ms.assetid: 1aa5ca5c-c37d-4091-9f5d-331a6b202d4e
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Correlation Types
 Each correlation set is based on a **correlation type**, which is simply a list of properties. These properties might be data properties, which are found in the message itself, or context properties, which describe details of the system or messages that are unrelated to the data being conveyed in the message.  

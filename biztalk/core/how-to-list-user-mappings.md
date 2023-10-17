@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to List User Mappings"
-title: "How to List User Mappings"
+title: "How to List User Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [SSO maps], listing maps"
+  - "maps [SSO], listing maps"
+ms.assetid: f9b73785-3a59-45c8-9e88-d2d16b5a46aa
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to List User Mappings
 Use this command to list all the existing mappings for the specified user.  

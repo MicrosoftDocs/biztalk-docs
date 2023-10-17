@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Overview of the WCF channel model with the SQL adapter"
-title: "Overview of the WCF channel model with the SQL adapter"
+title: "Overview of the WCF channel model with the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a5e5f77c-c922-4039-92c7-38d2b7638459
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Overview of the WCF channel model with the SQL adapter
 To invoke operations on the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)], your code acts as a WCF client and sends outbound operations to the adapter. In the WCF channel model, your code invokes operations on the adapter by sending a request message over a channel.  

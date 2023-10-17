@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Running the SQL Adapter Sample"
-title: "Running the SQL Adapter Sample"
+title: "Running the SQL Adapter Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 13566d08-7a59-4065-b0d7-19ae2765555e
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Running the SQL Adapter Sample
 The SQL Adapter sample uses a Windows Forms test client application provided with the Itinerary On-Ramp sample.  

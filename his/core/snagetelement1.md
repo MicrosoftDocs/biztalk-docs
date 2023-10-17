@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SNAGetElement"
-title: "SNAGetElement1"
+title: "SNAGetElement1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 40961ec9-29f2-4083-b088-a220c950e686
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SNAGetElement
 The **SNAGetElement** function is called by an application to get a buffer element to append to an existing buffer.  

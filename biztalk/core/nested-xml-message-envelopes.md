@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Nested XML Message Envelopes"
-title: "Nested XML Message Envelopes"
+title: "Nested XML Message Envelopes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e880cef1-4e73-4bce-a06e-8c4d23bc5a8c
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Nested XML Message Envelopes
 XML envelopes can be nested to create complex document structures. Nested XML envelopes can occur in two forms, known as flexible and canonical. The following example shows the flexible form of enveloped documents, in which documents and envelopes (shown in bold type) can appear at the same level within an enclosing envelope.  

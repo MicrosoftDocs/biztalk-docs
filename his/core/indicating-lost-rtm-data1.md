@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Indicating Lost RTM Data"
-title: "Indicating Lost RTM Data1"
+title: "Indicating Lost RTM Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dd0ca965-fcea-4461-b701-1c5a61c575d6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Indicating Lost RTM Data
 When [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] sends response time monitor (RTM) data to the host, it can indicate to the host that RTM data may have been lost, that is, some host response times were not included in the RTM data sent to the host. This indication is sent when:  

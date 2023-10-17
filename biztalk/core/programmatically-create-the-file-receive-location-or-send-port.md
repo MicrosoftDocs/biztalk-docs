@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Programmatically create the File receive location or send port"
-title: "Programmatically create the File receive location or send port"
+title: "Programmatically create the File receive location or send port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 558a414c-60bc-4f62-9397-a023ed4937fb
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Programmatically create the File receive location or send port
 How to create a File receive port and send port programmatically. To use the [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], go to [Configure the File adapter](../core/configure-the-file-adapter.md).

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: X12 997 Acknowledgment"
-title: "X12 997 Acknowledgment"
+title: "X12 997 Acknowledgment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 62a352fb-635c-4f0e-9844-4b250159333d
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # X12 997 Acknowledgment
 The X12 997 functional acknowledgment reports the status of a received interchange. It reports each error encountered while processing the received document. BizTalk EDI Receive pipeline always generates a 4010 compliant 997; however, EDI Receive pipeline and EDI Send pipelines can also validate a 5010 compliant 997.  

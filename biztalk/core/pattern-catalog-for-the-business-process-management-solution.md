@@ -1,12 +1,39 @@
 ---
 description: "Learn more about: Pattern Catalog for the Business Process Management Solution"
-title: "Pattern Catalog for the Business Process Management Solution"
+title: "Pattern Catalog for the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Canonical Message pattern [process management solutions]"
+  - "Nested Scopes pattern [process management solutions]"
+  - "Filter pattern [process management solutions]"
+  - "Per-Instance Pipeline Configuration pattern [process management solutions]"
+  - "Translator pattern, process management solutions"
+  - "patterns [process management solutions], pattern types"
+  - "Interruptible Orchestration pattern [process management solutions]"
+  - "Decoupled Orchestration pattern [process management solutions]"
+  - "Code Retry and Exception Handling pattern [process management solutions]"
+  - "Process Manager pattern [process management solutions]"
+  - "Asynchronous Reply pattern [process management solutions]"
+  - "Custom Exceptions pattern [process management solutions]"
+  - "Message Broker pattern [process management solutions]"
+  - "Coordination Using Delivery Notification pattern [process management solutions]"
+  - "Convoy pattern [process management solutions]"
+  - "Versioning pattern [process management solutions]"
+  - "Error Routing pattern [process management solutions]"
+  - "Application Reference pattern [process management solutions]"
+  - "Inverse Direct Partner Binding pattern [process management solutions]"
+ms.assetid: 246b109e-6006-404d-88b9-e6324ce3473c
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Pattern Catalog for the Business Process Management Solution
 The patterns in the business process management solution include common patterns of programming BizTalk Server, as well as the enterprise integration patterns in preceding sections. The list in this section includes both kinds of patterns.  

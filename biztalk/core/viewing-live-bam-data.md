@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Viewing Live BAM Data"
-title: "Viewing Live BAM Data"
+title: "Viewing Live BAM Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "data, real-time data [BAM]"
+  - "BAM, real-time data"
+ms.assetid: 23e6561e-b570-49f4-bc4c-f4fbfde6fc81
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Viewing Live BAM Data
 Following are the different ways you can view live BAM data.  

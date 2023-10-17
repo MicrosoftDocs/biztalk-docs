@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Client to Host Integration Server Problems"
-title: "Client to Host Integration Server Problems2"
+title: "Client to Host Integration Server Problems2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5eb7f3ac-3dd9-44f1-bb70-cd32dd087934
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Client to Host Integration Server Problems
 When you are troubleshooting an issue between the workstation and the HIS server computer, the first step is to verify that the client workstation computer can connect to other network resources on the Windows 2008 Server that has Host Integration Server installed. If you cannot map a network drive at the workstation, then you should troubleshoot this problem as a workstation to Windows 2008 Server issue.  

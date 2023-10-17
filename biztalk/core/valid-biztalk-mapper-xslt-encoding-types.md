@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Valid BizTalk Mapper XSLT Encoding Types"
-title: "Valid BizTalk Mapper XSLT Encoding Types"
+title: "Valid BizTalk Mapper XSLT Encoding Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "grid properties"
+  - "Code Page property"
+  - "XSLT Encoding property [grid pages]"
+  - "Schema node"
+  - "XSLT, encoding types [BizTalk Mapper]"
+  - "BizTalk Mapper, XSLT encoding"
+ms.assetid: 922b46cb-7bc8-4267-bf52-e5f0262b8da1
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Valid BizTalk Mapper XSLT Encoding Types
 BizTalk Mapper supports different types of Extensible Stylesheet Language Transformations (XSLT) encoding. You use the **XSLT Encoding** grid property to set the XSLT encoding type that you prefer. The following list shows the encoding formats that are available in the drop-down list associated with the **XSLT Encoding** grid property:  

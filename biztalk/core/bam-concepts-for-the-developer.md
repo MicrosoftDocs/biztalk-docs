@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BAM Concepts for the Developer"
-title: "BAM Concepts for the Developer"
+title: "BAM Concepts for the Developer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c26d0aed-821c-4e1f-9cc9-9375a2ba28de
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM Concepts for the Developer
 As a BAM developer, you need to be familiar with important BAM concepts, such as activities, continuations, and references. You should also understand the differences between tracking and transactional processing.  

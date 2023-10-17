@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Undeploying BizTalk Applications"
-title: "Undeploying BizTalk Applications"
+title: "Undeploying BizTalk Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "undeploying, applications"
+  - "applications, undeploying"
+  - "managing [applications], undeploying"
+  - "undeploying"
+ms.assetid: 424ada20-d023-4952-8a36-75f0327d87d5
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Undeploying BizTalk Applications
 You must undeploy a BizTalk application to remove it from your BizTalk group and host computers. This section describes the following tasks involved in undeploying an application:  

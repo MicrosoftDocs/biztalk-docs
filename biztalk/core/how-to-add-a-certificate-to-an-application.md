@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: How to Add a Certificate to an Application"
-title: "How to Add a Certificate to an Application"
+title: "How to Add a Certificate to an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications, certificates"
+  - "managing [certificates], adding to applications"
+  - "certificates, applications"
+  - "managing [applications], certificates"
+  - "managing [certificates], applications"
+  - "managing [resources], certificates"
+ms.assetid: 7c615002-6627-4134-9c2b-bf1c89d626c2
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add a Certificate to an Application
 This topic describes how to use the command line to add a certificate to a BizTalk application. This option is not available in the BizTalk Server Administration console. You add a certificate to a BizTalk application so that you can transport the certificate from one BizTalk group to another, packaged with an application. You use certificates to verify identities and to establish secure links for send ports and receive locations. For more information, see [How to Assign a Certificate to a Send Port](../core/how-to-assign-a-certificate-to-a-send-port.md) and [How to Assign a Certificate to a Receive Location](../core/how-to-assign-a-certificate-to-a-receive-location.md).  

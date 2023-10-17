@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Defining Business Processes"
-title: "Defining Business Processes"
+title: "Defining Business Processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e5e0fdfe-e298-4f32-a7c5-d081b926a206
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Defining Business Processes
 The exchange of messages between different systems is a necessary part of solving the problems that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] addresses. The real goal, however, is to define and execute business processes based on the applications. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] engine uses orchestrations to define the logic of these business processes. To create and evaluate groups of business rules, it uses the Business Rule Engine. This section describes both orchestrations and the Business Rule Engine.  

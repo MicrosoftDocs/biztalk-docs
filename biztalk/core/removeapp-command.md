@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: RemoveApp Command"
-title: "RemoveApp Command"
+title: "RemoveApp Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 323290ae-8498-4ad6-9b06-a1d54640250e
+caps.latest.revision: 26
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # RemoveApp Command
 Removes (deletes) from the BizTalk Management database a BizTalk application as well as all of the artifacts it contains. This does not uninstall the application. For instructions on doing this, see [How to Uninstall a BizTalk Application](../core/how-to-uninstall-a-biztalk-application.md).  

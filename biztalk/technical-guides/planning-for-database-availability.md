@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Planning for Database Availability"
-title: "Planning for Database Availability"
+title: "Planning for Database Availability | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6aa74257-4159-46f6-b538-f7e9083d74ad
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Planning for Database Availability
 The BizTalk Server Messaging engine ensures that business processes are reliable and durable by persisting process state and business data to a SQL Server database known as the BizTalk Messagebox database. Because the reliability and durability of the persisted data is only as good as the underlying data store, planning for high availability of the BizTalk Server databases is critically important.  

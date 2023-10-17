@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: BAM Security Recommendations"
-title: "BAM Security Recommendations"
+title: "BAM Security Recommendations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "security, BAM"
+  - "managing [BAM], security"
+  - "BAM, security"
+ms.assetid: 73613123-c1ed-477a-9f5c-342b2573c975
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM Security Recommendations
 We recommend that you follow these guidelines for securing and deploying BAM in your environment:

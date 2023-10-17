@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Map Single Sign-On Credentials"
-title: "How to Map Single Sign-On Credentials"
+title: "How to Map Single Sign-On Credentials | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e847bde9-7a4c-4b81-8ad6-6a7cf23d19a1
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Map Single Sign-On Credentials
 When you know that you have affiliated applications in your Enterprise Single Sign-On database, you can map the credentials for a user to that application. Mapping the credentials of the current user to an affiliated application requires that you use a combination of the `ISSOMapper` and `ISSOMapping` interfaces.  

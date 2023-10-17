@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Keypad Menu (5250)"
-title: "Keypad Menu (5250)"
+title: "Keypad Menu (5250) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ae10bc29-2f4d-40a5-824b-3fd0ca62c560
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Keypad Menu (5250)
 Standard 5250 function keys can be selected from the Keypad menu. The direct keyboard mapping is displayed in the right-most column of the menu.  

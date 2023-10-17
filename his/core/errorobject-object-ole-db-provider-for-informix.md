@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ErrorObject Object (OLE DB Provider for Informix)"
-title: "ErrorObject Object (OLE DB Provider for Informix)"
+title: "ErrorObject Object (OLE DB Provider for Informix) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2e372167-698b-4340-b475-c282e41d1f37
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ErrorObject Object (OLE DB Provider for Informix)
 The **ErrorObject** object is created by any interface on any Informix OLE DB object. The **ErrorObject** object is used to retrieve additional information when an error occurs.  

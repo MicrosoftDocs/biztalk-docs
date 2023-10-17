@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: BIND Example"
-title: "BIND Example1"
+title: "BIND Example1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9702d460-3767-4933-9341-8e9541a9649c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # BIND Example
 The following example illustrates checking the incoming BIND image using these features of SLI_OPEN.  

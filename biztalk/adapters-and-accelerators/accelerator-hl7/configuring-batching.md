@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: Configuring Batching"
 title: "Configuring Batching"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "batching, configuring"
+  - "configuring, batching"
+ms.assetid: 33c72d5e-31dd-44a8-8418-1faab3239e8e
+caps.latest.revision: 8
+
+
+
 ---
 # Configuring Batching
 You use [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer to create batch, batch in/batch out batching, and to select available schemas for outbound batching.  

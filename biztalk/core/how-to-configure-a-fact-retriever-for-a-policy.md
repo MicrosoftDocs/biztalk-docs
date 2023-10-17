@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Configure a Fact Retriever for a Policy"
-title: "How to Configure a Fact Retriever for a Policy"
+title: "How to Configure a Fact Retriever for a Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Business Rule Composer, policies"
+  - "Business Rule Composer, facts"
+  - "policies, facts"
+ms.assetid: a7bcf3e5-3f28-4f0e-b112-8c97dee072a1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure a Fact Retriever for a Policy
 You can store facts that do not change frequently, and then before the first execution cycle of your host application, you can retrieve these facts from storage, present them once to the rule engine for caching, and reuse them over multiple execution cycles.  

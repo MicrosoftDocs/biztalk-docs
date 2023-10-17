@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Create a WCF Adapter for BizTalk Server"
-title: "How to Create a WCF Adapter for BizTalk Server"
+title: "How to Create a WCF Adapter for BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7ddaeb72-d263-4291-bd79-485fc736e6e7
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create a WCF Adapter for BizTalk Server
 There are three parts to creating a BizTalk [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] adapter.  

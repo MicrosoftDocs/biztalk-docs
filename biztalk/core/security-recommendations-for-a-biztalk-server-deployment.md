@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Security Recommendations for a BizTalk Server Deployment"
-title: "Security Recommendations for a BizTalk Server Deployment"
+title: "Security Recommendations for a BizTalk Server Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "deploying, security"
+  - "Windows Server 2003 Security Configuration Wizard (SCW)"
+  - "user accounts, security"
+  - "permissions"
+  - "access control"
+  - "security, deploying"
+  - "channel level encryption"
+  - "security, permissions"
+ms.assetid: 033fff11-d989-46ba-83ed-5063f7cd7818
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security Recommendations for a BizTalk Server Deployment
 This section contains high-level, feature-agnostic recommendations to secure your Microsoft BizTalk Server environment.

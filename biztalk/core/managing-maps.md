@@ -1,12 +1,19 @@
 ---
-title: "Manage maps"
+title: "Manage maps | Microsoft Docs"
 description: Links to work with maps in BizTalk Server, including viewing and removing maps 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0e8e3057-5a9f-4b6b-b6ee-c71b7e6a51ac
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Manage Maps
 

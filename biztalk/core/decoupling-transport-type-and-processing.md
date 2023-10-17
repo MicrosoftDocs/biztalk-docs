@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Decoupling Transport Type and Processing"
-title: "Decoupling Transport Type and Processing"
+title: "Decoupling Transport Type and Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "transport types, decoupling processing"
+  - "processing, decoupling transport types"
+  - "transport types"
+  - "transport types, service solutions"
+  - "service solution tutorial, MQSeries adapters"
+  - "processing, service solutions"
+  - "service solution tutorial, decoupling transport type and processing"
+  - "correlations, MQSeries adapters"
+  - "MQSeries adapters, correlations"
+  - "MQSeries adapters, service solutions"
+ms.assetid: 0b2c733a-e2c7-42ff-a733-f712fde38f7e
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Decoupling Transport Type and Processing
 In a service oriented solution, a clear line often exists between the business processing and the specifics of transmitting and receiving messages. This enables you to change the business process or the messaging part of the solution independently.  

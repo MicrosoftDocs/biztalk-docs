@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Enable an Affiliate Application"
-title: "How to Enable an Affiliate Application"
+title: "How to Enable an Affiliate Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 051bc35f-55e6-4811-9559-b1bb66a570ce
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Enable an Affiliate Application
 You can use the MMC Snap-In or the **enableapp** command to enable the specified affiliate application.  

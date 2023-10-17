@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Create a 3270 Display LU"
-title: "How to Create a 3270 Display LU1"
+title: "How to Create a 3270 Display LU1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6e763444-a7e5-4826-b90c-b334795f0294
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create a 3270 Display LU
 The following procedure details how to create a display LU.  

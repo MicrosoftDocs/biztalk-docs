@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Lesson 1: Submitting a Sample Flat File"
-title: "Lesson 1: Submitting a Sample Flat File"
+title: "Lesson 1: Submitting a Sample Flat File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "testing, flat files"
+  - "submitting, flat files"
+  - "flat files, testing"
+  - "flat files, submitting"
+ms.assetid: 3064246d-19d5-48c5-af13-3ea075355147
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 1: Submitting a Sample Flat File
 You submit a sample flat file to test your solution.  

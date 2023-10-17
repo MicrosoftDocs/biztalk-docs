@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_PrintSession.Pause Method"
-title: "MsSnaStatus_PrintSession.Pause Method2"
+title: "MsSnaStatus_PrintSession.Pause Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 60b5516f-7c50-43c4-9cd8-b2921ee13899
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_PrintSession.Pause Method
 Pauses the print session.  

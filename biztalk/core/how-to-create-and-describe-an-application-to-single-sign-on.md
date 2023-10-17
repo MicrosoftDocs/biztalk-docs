@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Create and Describe an Application to Single Sign-On"
-title: "How to Create and Describe an Application to Single Sign-On"
+title: "How to Create and Describe an Application to Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7d717885-b132-4ba0-a93b-03377ac5eb97
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create and Describe an Application to Single Sign-On
 A common administrative task that you might need to perform is adding an affiliate application into the Enterprise Single Sign-On (SSO) database. Adding an affiliate application to the Enterprise SSO database enables you to associate users and credentials with the affiliated application.  

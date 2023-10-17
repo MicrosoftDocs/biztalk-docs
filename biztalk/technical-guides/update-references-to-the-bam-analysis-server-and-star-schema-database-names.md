@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Update References to the BAM Analysis Server and Star Schema Database Names"
-title: "Update References to the BAM Analysis Server and Star Schema Database Names"
+title: "Update References to the BAM Analysis Server and Star Schema Database Names | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 319caa26-1292-4453-a316-efca4fbffdb6
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Update References to the BAM Analysis Server and Star Schema Database Names
 If you backed up your BAM Analysis database, in the event of a system or data failure you can restore that backup to a different computer and you can rename the backup.  

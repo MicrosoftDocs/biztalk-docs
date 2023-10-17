@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Receive location for metadata not found"
-title: "Receive location for metadata not found"
+title: "Receive location for metadata not found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3c397fb5-f400-4cff-85b9-5bf0d2069557
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive location for metadata not found
 ## Details  

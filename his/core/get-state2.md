@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: GET_STATE"
-title: "GET_STATE2"
+title: "GET_STATE2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4d3f49cd-d227-4149-90a4-777510657307
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # GET_STATE
 The **GET_STATE** verb returns the state of a particular conversation.  

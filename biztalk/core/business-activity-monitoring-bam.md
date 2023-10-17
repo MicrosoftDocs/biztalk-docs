@@ -1,12 +1,36 @@
 ---
 description: "Learn more about: Business Activity Monitoring (BAM)"
-title: "Business Activity Monitoring (BAM)"
+title: "Business Activity Monitoring (BAM) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BAM, tools"
+  - "utilities, Tracking Profile Deployment Utility"
+  - "BAM, deployment process"
+  - "BAM"
+  - "BAM, presentation layers"
+  - "BAM, Tracking Profile Deployment utility"
+  - "BAM, about BAM"
+  - "BAM, data storage"
+  - "BAM Management utility"
+  - "Tracking Profile Deployment utility"
+  - "BAM, runtime process"
+  - "BAM, design time"
+  - "BAM, data insertion"
+  - "BAM, data consumption"
+  - "BAM, BAM Management utility"
+  - "BAM, processing"
+ms.assetid: a8ad48b1-6891-4bbb-b125-27d224e49293
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Business Activity Monitoring (BAM)
 The following diagram illustrates the architecture for the Business Activity Monitoring (BAM) feature.  

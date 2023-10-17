@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Service and Control Schemas"
-title: "EDI Service and Control Schemas"
+title: "EDI Service and Control Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4866571b-b12d-446c-8d27-a72fe7e479ef
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Service and Control Schemas
 Control schemas are required to process message envelopes (header control schemas) and acknowledgments. These schemas are deployed in Microsoft.BizTalk.Edi.BaseArtifacts.dll by the setup program. These schemas do not have to be added to BizTalk projects because they are deployed in BaseArtifacts.dll. You need to add a reference to the BaseArtifacts.dll assembly to the project containing your schemas for these schemas to be used.  

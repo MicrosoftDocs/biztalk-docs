@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Test Results: SQL Server Key Performance Indicators"
-title: "Test Results: SQL Server Key Performance Indicators"
+title: "Test Results: SQL Server Key Performance Indicators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2459ee6d-7a75-4338-ba5c-f42ab673ab87
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Test Results: SQL Server Key Performance Indicators
 This topic summarizes SQL Server Key Performance Indicators (KPI) observed during the test scenarios. These tests evaluated the following SQL Server KPI:

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Message Schemas for RFC Operations"
-title: "Message Schemas for RFC Operations"
+title: "Message Schemas for RFC Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "RFC operations, message structure for"
+  - "RFC operations, message actions for"
+ms.assetid: 50cd9b28-2e66-4c76-9d19-f0da6e7b8e10
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Schemas for RFC Operations
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces SAP Remote Function Calls (RFC) as operations. This topic contains information about the message schemas and message actions used for RFC operations. The message structure is the same for inbound and outbound RFC operations. For an overview of the RFC operations that the adapter supports, see [Operations on RFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-rfcs-in-sap.md).  

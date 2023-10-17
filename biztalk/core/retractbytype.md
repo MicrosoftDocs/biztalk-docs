@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: RetractByType"
-title: "RetractByType"
+title: "RetractByType | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "RetractByType function [Business Rules Engine], TypedXMLDocument"
+  - "RetractByType function [Business Rules Engine]"
+  - "RetractByType function [Business Rules Engine], .NET objects"
+  - "RetractByType function [Business Rules Engine], TypedData table"
+  - "RetractByType function [Business Rules Engine], DataConnection"
+  - ".NET objects"
+ms.assetid: e8867553-ee3c-46be-84cd-d5373eaf3337
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # RetractByType
 The **RetractByType** function retracts all instances of a specified type in the working memory, whereas the **Retract**function retracts only specific items of a certain type. The following paragraphs describe how the **RetractByType** function works with entities of different types.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SWIFT Send Adapter Dynamic Send"
-title: "SWIFT Send Adapter Dynamic Send"
+title: "SWIFT Send Adapter Dynamic Send | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 105972fe-9dc0-480a-a4d1-2ec682fa7ad9
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFT Send Adapter Dynamic Send
 The send adapter dynamic send mode pulls messages from the queue. The URI for dynamic send is:  

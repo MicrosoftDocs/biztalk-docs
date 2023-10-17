@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unable to merge operations"
-title: "Unable to merge operations"
+title: "Unable to merge operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c2741790-2c27-4dc5-9299-680e170f0366
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unable to merge operations
 ## Details  

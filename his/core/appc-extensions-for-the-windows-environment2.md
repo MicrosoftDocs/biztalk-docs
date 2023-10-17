@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: APPC Extensions for the Windows Environment"
-title: "APPC Extensions for the Windows Environment2"
+title: "APPC Extensions for the Windows Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 13212873-293f-4fbf-a192-87b9cf945e7e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # APPC Extensions for the Windows Environment
 This section describes API extensions to Windows Advanced Program-to-Program Communications (APPC) that allow asynchronous communication. Asynchronous communication occurs when a function returns before the request completes. The application is notified later when the request is completed.  

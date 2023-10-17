@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Capture a Memory Dump of a BizTalk Process"
-title: "How to Capture a Memory Dump of a BizTalk Process"
+title: "How to Capture a Memory Dump of a BizTalk Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8053fcf3-b331-4245-b3c3-21290463e0c0
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Capture a Memory Dump of a BizTalk Process
 Under certain circumstances it may be necessary to capture a memory dump of a process running on a BizTalk Server to perform an in depth analysis of the process. Situations that may require analysis of a memory dump include the following:

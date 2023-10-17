@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Validation of Outgoing EDI Messages"
-title: "Validation of Outgoing EDI Messages"
+title: "Validation of Outgoing EDI Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 491303c0-b585-409e-a289-a2f6f9f82469
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Validation of Outgoing EDI Messages
 When the EDI send pipeline processes a message to be sent, it performs a series of validations on the envelope and message data. Some of these processes are always performed; some are performed only if you enable them. These validations include the following:  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Support for Oracle User-Defined Types"
-title: "Support for Oracle User-Defined Types2"
+title: "Support for Oracle User-Defined Types2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3d4b9980-fa5b-4340-a62f-e4a4f98603dc
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Support for Oracle User-Defined Types
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] supports performing operations on artifacts in Oracle E-Business Suite and the underlying database that contain Oracle User-Defined Types (UDTs). The UDTs can be present in the following artifacts:

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create New Mappings Wizard: Welcome"
-title: "Create New Mappings Wizard: Welcome1"
+title: "Create New Mappings Wizard: Welcome1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d9688928-5e1c-4df2-af7a-9b71ec850f17
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create New Mappings Wizard: Welcome
 Use this page to enter basic information about the Affiliate Application.  

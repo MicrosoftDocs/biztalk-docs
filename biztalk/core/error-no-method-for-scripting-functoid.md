@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - No Method for Scripting Functoid"
-title: "Error - No Method for Scripting Functoid"
+title: "Error - No Method for Scripting Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.noMethodForScriptingFunctiod"
+ms.assetid: 8e844626-2878-4ac2-9e8e-240bd32921ac
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - No Method for Scripting Functoid
 **Error Code**  

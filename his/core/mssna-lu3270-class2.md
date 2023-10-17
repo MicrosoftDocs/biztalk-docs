@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_Lu3270 Class"
-title: "MsSna_Lu3270 Class2"
+title: "MsSna_Lu3270 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 130a2b61-6965-465a-9032-7aa74c9de749
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_Lu3270 Class
 Describes the base class for a 3270 LU resource.  

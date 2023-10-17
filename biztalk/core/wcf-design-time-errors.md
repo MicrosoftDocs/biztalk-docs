@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: WCF Design-Time  Errors"
-title: "WCF Design-Time  Errors"
+title: "WCF Design-Time  Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1327906a-6524-4937-830c-844d5fc81dc6
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # WCF Design-Time  Errors
 This section contains detailed information for diagnosing and resolving WCF design-time configuration errors.  

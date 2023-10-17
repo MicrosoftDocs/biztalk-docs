@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Module 3: Adding a Pipeline Project"
-title: "Module 3: Adding a Pipeline Project"
+title: "Module 3: Adding a Pipeline Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tutorial, creating pipelines"
+  - "projects, pipelines"
+  - "pipelines, adding to projects"
+ms.assetid: 38bf1629-df29-4bea-840b-60b354b06430
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Module 3: Adding a Pipeline Project
 In this module, you add a new project to your solution that contains your custom send and receive pipelines. Because you are working with SWIFT messages, which are flat file in nature, you cannot use the default pipelines that are included with Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].  

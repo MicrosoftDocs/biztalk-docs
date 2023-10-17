@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: DLC Flow Control"
-title: "DLC Flow Control1"
+title: "DLC Flow Control1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e4367c75-9068-4c5f-9c9a-04472166908a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # DLC Flow Control
 The flow of data messages at the data link control (DLC) interface for each link station is flow controlled. For each direction of flow, there is an initial credit of messages that can be transmitted.  

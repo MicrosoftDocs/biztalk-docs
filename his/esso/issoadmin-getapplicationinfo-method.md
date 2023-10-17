@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOAdmin.GetApplicationInfo Method"
-title: "ISSOAdmin.GetApplicationInfo Method"
+title: "ISSOAdmin.GetApplicationInfo Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2358ba56-5af6-49dc-8229-c1a9899c9ac1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOAdmin.GetApplicationInfo Method
 The **GetApplicationInfo** method gets the application information from the Enterprise Single Sign-On (SSO) server database.  

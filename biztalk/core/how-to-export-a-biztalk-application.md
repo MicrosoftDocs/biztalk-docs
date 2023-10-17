@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: How to Export a BizTalk Application"
-title: "How to Export a BizTalk Application"
+title: "How to Export a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security, exporting"
+  - "exporting, warnings"
+  - "exporting, applications"
+  - "applications, exporting"
+  - "applications, security"
+  - "applications, warnings"
+  - "exporting, security"
+ms.assetid: a1d6ffca-3d29-44c7-a811-6cf8b42e23f6
+caps.latest.revision: 50
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Export a BizTalk Application
 This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or the command line to export an application. Exporting a BizTalk application generates a Windows Installer (.msi) file that contains the application and any of its artifacts that you select to export. The default option is to select all of the application's artifacts, but you can select a subset of them. You can then import the .msi file into another BizTalk group to add the artifacts to an existing application in the new group, update the artifacts in an existing application, or create a new application in the group that contains the artifacts being imported. For more information, see [How to Import a BizTalk Application](../core/how-to-import-a-biztalk-application.md). You also use the .msi file to install the application on the computers that will run it, as described in [How to Install a BizTalk Application](../core/how-to-install-a-biztalk-application.md). If the application includes file-based artifacts, you must also install it before it can begin functioning.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Error Extractor Sample Class"
-title: "Error Extractor Sample Class"
+title: "Error Extractor Sample Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Error Extractor Sample class"
+  - "errors, Error Extractor Sample class"
+ms.assetid: d0d59b21-d80a-4466-a77a-1d3b7df1bc2a
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error Extractor Sample Class
 The Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] disassembler serializes errors to an XML object, and attaches the XML object to the error section of a multipart message. The disassembler then publishes the failed message to the MessageBox database just as it would a valid message. Therefore, failed messages carry error details into the MessageBox database. You can use the Error Extractor Sample Class to extract the error details from a failed message, and generate one file that has the error details and another file that has the original message.  

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Set the SSO Server Using the Client Utility"
-title: "How to Set the SSO Server Using the Client Utility"
+title: "How to Set the SSO Server Using the Client Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications [SSO], selecting servers"
+  - "managing [SSO applications], selecting servers"
+  - "SSOClient [SSO], selecting servers"
+ms.assetid: a0f1038c-60c9-4e9d-a730-1ecfa036743b
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Set the SSO Server Using the Client Utility
 Each time you use ssoclient, you must first point the user to the correct Single Sign-On server that contains their configuration information.  

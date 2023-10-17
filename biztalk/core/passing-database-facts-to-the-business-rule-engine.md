@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Passing Database Facts to the Business Rule Engine"
-title: "Passing Database Facts to the Business Rule Engine"
+title: "Passing Database Facts to the Business Rule Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 62285bbe-ee64-4c26-b48e-55f666dc1304
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Passing Database Facts to the Business Rule Engine
 When you use the Business Rule Composer tool to test a policy that requires a DataConnection/TypedDataTable object as a fact, a DataConnection/TypedDataTable object is automatically created for you and asserted into the Business Rule Engine's working memory. Additionally, any database updates by the policy are committed automatically.  

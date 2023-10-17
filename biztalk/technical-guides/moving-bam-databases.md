@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Moving BAM Databases"
-title: "Moving BAM Databases"
+title: "Moving BAM Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d6babac0-304e-4485-b4c5-6221814b4468
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Moving BAM Databases
 This section describes how to move the BAM-related [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases from one [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer to another.  

@@ -1,12 +1,19 @@
 ---
-title: "Messages and Message Schemas for BizTalk Adapter for mySAP Business Suite"
+title: "Messages and Message Schemas for BizTalk Adapter for mySAP Business Suite | Microsoft Docs"
 description: XML structure of messages and data types used by the mySAP adapter for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 75ea5c27-8297-47bf-bcfd-503870349189
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Messages and Message Schemas for BizTalk Adapter for mySAP Business Suite
 

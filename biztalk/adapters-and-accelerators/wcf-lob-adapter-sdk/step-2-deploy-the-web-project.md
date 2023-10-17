@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 2: Deploy the Web Project"
-title: "Step 2: Deploy the Web Project"
+title: "Step 2: Deploy the Web Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cb775a89-2e2d-43e5-94ae-f75c1756dbd7
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Deploy the Web Project
 ![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")  

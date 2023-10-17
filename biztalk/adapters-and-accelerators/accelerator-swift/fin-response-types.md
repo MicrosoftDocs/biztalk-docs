@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: FIN Response Types"
-title: "FIN Response Types"
+title: "FIN Response Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, response types"
+  - "deploying, schemas"
+  - "FIN Response Reconciliation, message types"
+  - "FRR, deploying schemas"
+  - "schemas, deploying"
+  - "FIN Response Reconciliation, response types"
+  - "messages, message types"
+  - "response types [FIN Response Reconciliation]"
+ms.assetid: a6ef2f20-08ab-40d3-a0a5-cc4048ce0987
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # FIN Response Types
 FIN Response Reconciliation (FRR) reconciles responses to any Category 0 to 9 SWIFT FIN message. In response to one of these FIN messages, the SWIFT FIN application always sends at least one, and possibly more than one, acknowledgment (ACK) or negative acknowledgment (NAK). The following table shows the message types of the outbound and inbound (response) messages processed by FRR.  

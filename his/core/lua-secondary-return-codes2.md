@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LUA Secondary Return Codes"
-title: "LUA Secondary Return Codes2"
+title: "LUA Secondary Return Codes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 19d69c5a-c50a-424e-9a87-0e8b9a3fba76
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LUA Secondary Return Codes
 ## 0x00000000  

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Architecture overview of the BizTalk Adapter for Siebel eBusiness Applications"
-title: "Architecture overview of the BizTalk Adapter for Siebel eBusiness Applications"
+title: "Architecture overview of the BizTalk Adapter for Siebel eBusiness Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "architecture of Siebel adapter"
+  - "Siebel COM Data Control"
+  - "adapters, architecture"
+ms.assetid: b048937f-207b-4c64-8837-7bfeecedfa03
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Architecture overview of the BizTalk Adapter for Siebel eBusiness Applications
 Describes the architecture of end-to-end solutions that use the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] to operate on a Siebel system, and also the internal architecture of the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Developing a Probing Pipeline Component"
-title: "Developing a Probing Pipeline Component"
+title: "Developing a Probing Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipeline components [custom], probing"
+  - "IProbeMessage interface"
+  - "pipeline interfaces, IProbeMessage"
+ms.assetid: c3da467d-5270-4c7f-9c38-ce9989bf1b63
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Developing a Probing Pipeline Component
 Any pipeline component (general, assembling, or disassembling) can implement the `IProbeMessage` interface if it must support message probing functionality. A probing component is used in the pipeline stages that have **FirstMatch** execution mode. In such stages, the BizTalk Messaging Engine gives the beginning part of the message to the component to determine if the component recognizes the format of the message. If the component recognizes the format, the entire message is given to the component for processing.  

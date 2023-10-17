@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SSCP Connection"
-title: "SSCP Connection1"
+title: "SSCP Connection1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f042db12-a645-4120-9f4e-1d9ac3975afb
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SSCP Connection
 The system services control point (SSCP) connection of the application to the local node provides access to the SSCP session between the Microsoft® Host Integration Server secondary logical unit (LU) and the host SSCP.  

@@ -1,12 +1,19 @@
 ---
-title: "Create TIBCO EMS receive artifacts"
+title: "Create TIBCO EMS receive artifacts | Microsoft Docs"
 description: Create the receive port, and set the transport properties to use the TIBCO Enterprise Message Service adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e1307e3c-0237-4f19-a642-58e694fe95d0
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create TIBCO EMS receive artifacts
 

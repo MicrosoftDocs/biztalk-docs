@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Working with Convoy Scenarios"
-title: "Working with Convoy Scenarios"
+title: "Working with Convoy Scenarios | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1028ab37-7ead-41a6-a186-53e5344d1a28
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working with Convoy Scenarios
 A *convoy* exists any time that multiple single messages must be related to achieve the required result. There are two main types of convoys: sequential and parallel.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Readme and privacy in the WCF LOB Adapter SDK"
-title: "Readme and privacy in the WCF LOB Adapter SDK"
+title: "Readme and privacy in the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 539a88f9-ce59-46e6-8c9a-418484eabff4
+caps.latest.revision: 29
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Readme and privacy in the WCF LOB Adapter SDK
 The Windows Communication Foundation (WCF) Line of Business (LOB) Adapter Software Development Kit (SDK)  

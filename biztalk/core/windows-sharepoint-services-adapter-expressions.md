@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Windows SharePoint Services Adapter Expressions"
-title: "Windows SharePoint Services Adapter Expressions"
+title: "Windows SharePoint Services Adapter Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "macros, Windows SharePoint Services adapters"
+  - "configuring [Windows SharePoint Services adapters], supported macros"
+  - "configuring [Windows SharePoint Services adapters], expressions"
+  - "Windows SharePoint Services adapters, expressions"
+ms.assetid: 15e3afb2-0ef8-41b4-b3ec-de84af738c12
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Windows SharePoint Services Adapter Expressions
 This topic describes the format and the meaning of the strings that can be specified as values for the **File NameProperty Source** properties of the Windows SharePoint Services adapter. It also describes the related context properties, **WSS.Filename** and **WSS.ConfigPropertiesXml**. These expressions allow you to easily define the file name value, or custom Windows SharePoint Service column value, based on literals as well as values extracted from the message or the BizTalk system.  

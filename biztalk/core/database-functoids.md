@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Database Functoids"
-title: "Database Functoids"
+title: "Database Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 77bc9390-cdb5-42ff-8b28-6265c51c79fc
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Database Functoids
 **Database** functoids extract data from a database for use in an output instance message. 

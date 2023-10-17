@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Operations on Functions and Stored Procedures"
-title: "Operations on Functions and Stored Procedures1"
+title: "Operations on Functions and Stored Procedures1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1e6bdaa7-ed3c-43bc-bed5-70fe43f9c2d1
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Operations on Functions and Stored Procedures
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] supports Oracle functions and procedures.

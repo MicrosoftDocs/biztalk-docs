@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Best Practices for Maintaining Performance"
-title: "Best Practices for Maintaining Performance"
+title: "Best Practices for Maintaining Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e60c8bfd-c1c6-4ecb-8df3-a07d03b352c4
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Best Practices for Maintaining Performance
 This topic points you to the best practices that you should follow when resolving performance issues with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.  

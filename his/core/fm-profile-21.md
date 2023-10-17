@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: FM Profile 2"
-title: "FM Profile 21"
+title: "FM Profile 21 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: db27e6f7-b41d-4575-87ea-eaa94a230bfe
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # FM Profile 2
 Function management (FM) Profile 2 is supported on primary logic unit-secondary logic unit (PLU-SLU) sessions using LU 0. This profile uses the following session rules:  

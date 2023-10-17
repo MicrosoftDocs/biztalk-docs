@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Audit Log Page"
-title: "Audit Log Page"
+title: "Audit Log Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9970cf9e-4e48-4952-aea2-967a151d2cdf
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Audit Log Page
 Figure 1 shows the Audit Log page. This page displays a list of audited events.  

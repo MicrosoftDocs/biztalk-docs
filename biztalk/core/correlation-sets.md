@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Correlation Sets"
-title: "Correlation Sets"
+title: "Correlation Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "correlation sets, inspecting"
+  - "correlation sets, about correlation sets"
+  - "correlation sets, passing as parameters"
+  - "messages, correlation sets"
+  - "correlation sets"
+  - "correlation sets, following correlation sets"
+  - "correlation sets, initializing"
+ms.assetid: 528dcd6c-d364-4bb8-8deb-cd4a0791867f
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Correlation Sets
 You can achieve this sort of correlation of messages with orchestration instances by defining correlation sets. A correlation set is a set of properties *with specific values*. This is different from a correlation type, which is simply a list of properties. If an incoming message does not have all of these properties, with matching values for each, correlation will fail and the message will not be received by the orchestration instance.  

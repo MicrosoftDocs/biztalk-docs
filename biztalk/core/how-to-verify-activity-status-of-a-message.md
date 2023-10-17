@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Verify Activity Status of a Message"
-title: "How to Verify Activity Status of a Message"
+title: "How to Verify Activity Status of a Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "activities, verifying status"
+  - "PeopleSoft Integration Broker"
+  - "verifying message status in PeopleSoft"
+  - "messages, verifying status"
+ms.assetid: b8cee6f9-0f65-4228-a87a-3f3aca6182bf
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Verify Activity Status of a Message
 You use the PeopleSoft Integration Broker to create a PeopleSoft HTTP Host and Port where PeopleSoft sends events. You make sure that the message is active and routed by following these steps.  

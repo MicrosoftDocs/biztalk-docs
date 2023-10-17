@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Deploying an Application"
-title: "Checklist: Deploying an Application"
+title: "Checklist: Deploying an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5e699ac3-7998-48d6-96b7-2f8f1a3d52e5
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Deploying an Application
 This topic describes the steps involved in deploying a BizTalk application and its artifacts in a production environment. It demonstrates how to deploy an application in the development environment, export it into an .msi file, and then import it into the production environment from the .msi file.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Confirming Receipt of Data and Reporting Errors"
-title: "Confirming Receipt of Data and Reporting Errors1"
+title: "Confirming Receipt of Data and Reporting Errors1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: df9ce965-016f-4422-be5d-7c336f8cf172
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Confirming Receipt of Data and Reporting Errors
 The following calls confirm receipt of data or report an error:  

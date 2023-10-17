@@ -1,12 +1,18 @@
 ---
 description: "Learn how to use Transaction Integrator (TI) in a non Distributed Program Link (DPL) environment."
-title: "TI in a Non-DPL Environment3"
+title: "TI in a Non-DPL Environment3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a9e72743-8cf7-4600-b440-117935c2903c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TI in a Non-DPL Environment
 

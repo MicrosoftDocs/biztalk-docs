@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: Step 1: Create and Deploy Header and Acknowledgment Schemas"
 title: "Step 1: Create and Deploy Header and Acknowledgment Schemas"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "end-to-end tutorial, header schemas"
+  - "header schemas"
+ms.assetid: 3ff013a4-6c67-4bac-be97-81b2dc5b6119
+caps.latest.revision: 8
+
+
+
 ---
 # Step 1: Create and Deploy Header and Acknowledgment Schemas
 You use the header schema to validate the header (MSH segment) of the message instance. You use the acknowledgment schema to generate the acknowledgment for the message instance. This process is common across all schemas versions of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 2.X.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Complete composite operations on Oracle E-Business Suite"
-title: "Complete composite operations on Oracle E-Business Suite"
+title: "Complete composite operations on Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 886d066d-2ec8-41b4-bdd5-d8afcb5e3e58
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Complete composite operations on Oracle E-Business Suite
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform composite operations on Oracle database. A composite operation can include:  

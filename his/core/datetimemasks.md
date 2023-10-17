@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: dateTimeMasks"
-title: "dateTimeMasks"
+title: "dateTimeMasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 99e6b9f2-3753-4217-872e-bd957d7b2636
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # dateTimeMasks
 The DRDA Service will process string literal timestamp values within DB2 and SQL Server TIMESTAMP, DATETIME2 (6), CHAR (26), and VARCHAR (26) data types, to convert from DB2 timestamp format to SQL Server datetime2 (6) format, and to convert from SQL Server datetime2 (6) format to DB2 timestamp format. The dateTimeMasks contains one or more dateTimeMask elements to define timestamp-datetime mappings.  

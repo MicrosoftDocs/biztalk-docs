@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: How to Configure Tracking for a Receive Port"
-title: "How to Configure Tracking for a Receive Port"
+title: "How to Configure Tracking for a Receive Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [receive ports], configuring"
+  - "configuring [HAT tracking], receive ports"
+  - "tracking, receive ports"
+  - "receive ports, tracking"
+  - "configuring, tracking"
+  - "receive ports, configuring"
+  - "tracking, configuring"
+  - "HAT, receive ports"
+  - "configuring, receive ports"
+  - "managing [receive ports], tracking"
+ms.assetid: dd569e84-cb1c-4191-912a-0c2eb2781a85
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure Tracking for a Receive Port
 This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure tracking for a receive port, such as options to view message bodies and promoted properties.. This helps you monitor the health of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementation and identify any bottlenecks. The tracking settings that you configure apply to all of the instances of the receive port.  

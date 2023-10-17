@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to List Affiliate Applications"
-title: "How to List Affiliate Applications"
+title: "How to List Affiliate Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 064a26e0-082b-40a4-a254-3a10f213fe65
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to List Affiliate Applications
 Use the **listapps** command to list all the affiliate applications. If the user is a member of the Application Administrators account, this command only displays the application for which the user is an administrator.  

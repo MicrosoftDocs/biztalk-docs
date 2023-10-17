@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: State Monitoring Definitions"
-title: "State Monitoring Definitions"
+title: "State Monitoring Definitions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aa2c8247-5e25-4624-9f0d-c7fe621ffba2
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # State Monitoring Definitions
 State monitoring helps answer the question of whether a monitored computer is healthy at a given time from the perspective of a particular application. System Center Operations Manager (SCOM) updates the status of different managed entities exposed to the user and presents the status as part of the state monitoring view.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3: Create an Application Definition File"
-title: "Step 3: Create an Application Definition File"
+title: "Step 3: Create an Application Definition File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 843fafdb-571e-4da4-ad04-7dc7f23e03ac
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Create an Application Definition File
 ![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")

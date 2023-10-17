@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Generating an Outgoing MDN"
-title: "Generating an Outgoing MDN"
+title: "Generating an Outgoing MDN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 12d7da1c-0d3c-42d4-9388-29f499353d13
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Generating an Outgoing MDN
 The AS2 receive pipelines generate an MDN (Message Disposition Notification) response for an incoming message. This is performed by the EDI Disassembler pipeline component in the AS2EDIReceive receive pipeline (in response to an EDI-encoded message) or the AS2 Disassembler pipeline component in the AS2Receive receive pipeline (in response to a non-EDI-encoded message).  

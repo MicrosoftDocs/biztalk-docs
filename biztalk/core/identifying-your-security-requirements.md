@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Identifying Your Security Requirements"
-title: "Identifying Your Security Requirements"
+title: "Identifying Your Security Requirements | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "security, configuring"
+  - "planning, security"
+  - "security, planning"
+ms.assetid: 5a12c959-59b5-4d44-b2f4-e1ed7053ffd5
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Identifying Your Security Requirements
 The answers to the following questions help you plan the best way to deploy BizTalk Server in your environment.

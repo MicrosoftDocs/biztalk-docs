@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Configure a POP3 Receive Location"
-title: "How to Configure a POP3 Receive Location"
+title: "How to Configure a POP3 Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "receive locations, POP3 adapters"
+  - "POP3 adapters, receive locations"
+  - "configuring [POP3 adapters], receive locations"
+ms.assetid: 259cd105-733a-4f87-be30-c02e6bd0f457
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure a POP3 Receive Location
 You can set POP3 receive location adapter variables in the BizTalk Server Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Server Administration console are used.  

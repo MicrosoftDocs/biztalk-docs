@@ -1,12 +1,18 @@
 ---
-title: "BizTalk Server What's New, Installation, Configuration, and Upgrade"
+title: "BizTalk Server What's New, Installation, Configuration, and Upgrade | Microsoft Docs"
 description: Introduction to what's new, and installing and configuring BizTalk Server 2016 and BizTalk Server 2013 R2 and 2013
 ms.custom: "biztalk-2020"
 ms.prod: biztalk-server
 ms.date: "01/10/2020"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 67ea76f3-017b-4fb5-b944-f86905e15c87
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Server What's New, Install, Configuration, and Upgrade
 Read about what's new, and how to install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. 

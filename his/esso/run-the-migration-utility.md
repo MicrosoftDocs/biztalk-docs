@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Run the Migration Utility"
-title: "Run the Migration Utility"
+title: "Run the Migration Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d17de9db-0f58-43eb-b5d6-b3d1f2400bd9
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Run the Migration Utility
 You can migrate your existing host security data into the new Single Sign-On (SSO) environment by using the hissomig.exe command-line utility. Migration is essentially a two-step process:  

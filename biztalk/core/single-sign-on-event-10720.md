@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10720"
-title: "Single Sign-On: Event 10720"
+title: "Single Sign-On: Event 10720 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1878f658-e89d-499c-b61d-0a894234fa6a
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10720
 ## Details  

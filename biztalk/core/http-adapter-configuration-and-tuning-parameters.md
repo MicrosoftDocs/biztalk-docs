@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: HTTP Adapter Configuration and Tuning Parameters"
-title: "HTTP Adapter Configuration and Tuning Parameters"
+title: "HTTP Adapter Configuration and Tuning Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "HTTP adapters, parameters"
+  - "configuring [HTTP adapters], parameters"
+  - "HTTP adapters, tuning"
+  - "RequestQueueSize key [HTTP adapters]"
+  - "HttpReceiveThreadsPerCpu key [HTTP adapters]"
+  - "HttpOutTimeoutInterval key [HTTP adapters]"
+  - "HttpOutInflightSize key [HTTP adapters]"
+  - "configuring [HTTP adapters], tuning"
+  - "DisableChunkEncoding key [HTTP adapters]"
+  - "HttpOutCompleteSize key [HTTP adapters]"
+ms.assetid: c8989a88-722a-40b5-94cf-4b6840add02e
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # HTTP Adapter Configuration and Tuning Parameters
 Several configuration and tuning parameters are accessible for the HTTP adapter through registry key entries and through the modification of the BTSNTSvc.exe.config file that is located in the root BizTalk Server installation directory.  

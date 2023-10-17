@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: X12 interchange Xml serialization failed due to invalid structure. Looking for TransactionSet or GE, but not found"
-title: "X12 interchange Xml serialization failed due to invalid structure. Looking for TransactionSet or GE, but not found"
+title: "X12 interchange Xml serialization failed due to invalid structure. Looking for TransactionSet or GE, but not found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d058fdbb-6be5-499f-86f7-0eb8a85c5fb2
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # X12 interchange Xml serialization failed due to invalid structure. Looking for TransactionSet or GE, but not found
 ## Details  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SEND_CONVERSATION"
-title: "SEND_CONVERSATION2"
+title: "SEND_CONVERSATION2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 93038595-1cf5-4736-9c75-9bc5f1ab5352
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SEND_CONVERSATION
 The **SEND_CONVERSATION** verb allocates a session between the local logical unit (LU) and partner LU, sends data on the session, and then deallocates the session.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Trace Viewer"
-title: "Trace Viewer1"
+title: "Trace Viewer1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fd2b95d3-9e83-4b8c-ba3a-a99923fbac1a
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Microsoft Host Integration Server Trace Viewer
 Microsoft Host Integration Server Trace Viewer is graphical user interface to create, view and analyze trace results when trying to diagnose a problem.  

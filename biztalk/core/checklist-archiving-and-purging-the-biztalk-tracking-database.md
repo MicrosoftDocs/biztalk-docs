@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Checklist: Archiving and Purging the BizTalk Tracking Database"
-title: "Checklist: Archiving and Purging the BizTalk Tracking Database"
+title: "Checklist: Archiving and Purging the BizTalk Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "archiving [Tracking database], checklist"
+  - "checklists, purging [Tracking database]"
+  - "purging, checklist"
+  - "checklists, archiving [Tracking database]"
+ms.assetid: dccbf471-2add-498e-b292-287d9a94161b
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Archiving and Purging the BizTalk Tracking Database
 

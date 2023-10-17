@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The Signing Certificate has not been configured for AS2 party"
-title: "The Signing Certificate has not been configured for AS2 party"
+title: "The Signing Certificate has not been configured for AS2 party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 82928a39-3acf-447b-a0e8-f7c25b6f38dc
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The Signing Certificate has not been configured for AS2 party
 ## Details  

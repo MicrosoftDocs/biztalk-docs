@@ -1,14 +1,22 @@
 ---
 description: "Learn more about: Recordset Column Properties"
-title: "Recordset Column Properties1"
+title: "Recordset Column Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15433"
+helpviewer_keywords: 
+  - "15433"
+ms.assetid: bbbe57e5-4781-4428-bfd9-4128d591051f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Recordset Column Properties
 Use the **Recordset Column** properties page to set COBOL and design properties on a recordset column.  

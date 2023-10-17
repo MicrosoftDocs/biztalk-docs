@@ -1,12 +1,18 @@
 ---
 description: "Learn about known issues with the Microsoft BizTalk Server that may help you avoid errors."
-title: "Known Issues2"
+title: "Known Issues2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 709c19ea-1138-49f8-8898-c2d2c60c3923
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Known Issues for BizTalk Server
 

@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Configuring the WCF Adapters"
-title: "Configuring the WCF Adapters"
+title: "Configuring the WCF Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "NetTcpBinding [WCF adapters]"
+  - "configuring [WCF adapters]"
+  - "WCF adapters, pre-defined bindings"
+  - "configuring [WCF adapters], about configuring WCF adapters"
+  - "WsHttpBinding [WCF adapters]"
+  - "BasicHttpBinding [WCF adapters]"
+  - "NetNamedPipeBinding [WCF adapters]"
+  - "NetMsmqBinding [WCF adapters]"
+  - "bindings, pre-defined [WCF adapters]"
+  - "WCF adapters, configuring"
+ms.assetid: af01e2d4-303d-407a-b853-dd90b0246a8a
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring the WCF Adapters
 The BizTalk Adapters for Windows Communication Foundation (WCF) allow  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to communicate with WCF-based applications. The BizTalk WCF adapters include five physical adapters that represent the WCF predefined bindings—**BasicHttpBinding**, **WsHttpBinding**, **NetTcpBinding**, **NetNamedPipeBinding**, and **NetMsmqBinding**. The WCF adapters for the predefined bindings are provided to enable you to easily configure necessary information for most application requirements.  

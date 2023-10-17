@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Configuring the WCF-Custom Adapter"
-title: "Configuring the WCF-Custom Adapter"
+title: "Configuring the WCF-Custom Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring [WCF-Custom adapters]"
+  - "WCF-Custom adapters, configuring"
+ms.assetid: c63aa2b1-96a1-40fa-8124-c88398e71dec
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring the WCF-Custom Adapter
 This section describes how to configure a WCF-Custom adapter.  

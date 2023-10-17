@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Method Shortcut Menu"
-title: "Method Shortcut Menu2"
+title: "Method Shortcut Menu2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3726c152-0a74-4484-8d01-6137779b88dd
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Method Shortcut Menu
 When you select a method in the tree view in HIS Designer, the following context menu commands are available.  

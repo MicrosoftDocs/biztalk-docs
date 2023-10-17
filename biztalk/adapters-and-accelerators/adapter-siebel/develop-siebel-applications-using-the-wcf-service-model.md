@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Develop Siebel applications using the WCF Service Model"
-title: "Develop Siebel applications using the WCF Service Model"
+title: "Develop Siebel applications using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF service model, developing applications by using"
+  - "WCF service model, performing operations"
+  - "proxy programming, performing operations"
+  - "WCF service model, advantages of using"
+ms.assetid: df5627b9-c80d-4a75-a20a-a0be119735a2
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop Siebel applications using the WCF Service Model
 [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] provides a programming model called the WCF service model, which, in part, helps address some of the limitations of another programming model—the WCF channel model.  

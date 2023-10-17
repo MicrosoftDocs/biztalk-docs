@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Protect the HIP Listener"
-title: "Protect the HIP Listener2"
+title: "Protect the HIP Listener2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 418fb4e0-2751-4c3e-b0a1-41cec8de95a8
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Protect the HIP Listener
 To prevent an attacker from spoofing their identity, tampering with the data, or denying service, you should run the HIP services in valid Windows privileged account.  

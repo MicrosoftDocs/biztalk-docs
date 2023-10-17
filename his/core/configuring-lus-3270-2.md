@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring LUs (3270)"
-title: "Configuring LUs (3270)2"
+title: "Configuring LUs (3270)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 09446cd9-de96-4d1b-9450-8bece1cacd78
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring LUs (3270)
 This section provides information detailing configuring logical units (LU).  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Unit Testing"
-title: "Unit Testing"
+title: "Unit Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c40e5b82-dbb2-4767-8286-88e2de4129f3
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unit Testing
 BizTalk Server introduces a unit testing feature that can be enabled on the **Deployment** property page of a BizTalk project. The following screenshot shows this project setting accessed from Project Designer when you right-click a project and click **Properties**.

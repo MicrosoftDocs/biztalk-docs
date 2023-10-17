@@ -1,12 +1,18 @@
 ---
-title: "Enterprise Single Sign-On"
+title: "Enterprise Single Sign-On | Microsoft Docs"
 description: Configure SSO affiliate applications, mapping, filter, and use the password sync adapter - Host Integration Server (HIS)
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b8dd04ee-ddb1-441c-84e2-5d378d4f2695
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Use Enterprise Single Sign-On with HIS
   

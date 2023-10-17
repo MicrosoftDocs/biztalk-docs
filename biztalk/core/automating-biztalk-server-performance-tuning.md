@@ -1,12 +1,19 @@
 ---
-title: "Automating BizTalk Server Performance Tuning"
+title: "Automating BizTalk Server Performance Tuning | Microsoft Docs"
 description: Use BTSTask to import or export performance settings between environments in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 07ff73b5-25d9-4f3f-9a4b-127c0b843741
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Automate BizTalk Server Performance Tuning
 

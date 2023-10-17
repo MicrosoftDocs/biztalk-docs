@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Lesson 1: Adding XML Receive Port and Location"
-title: "Lesson 1: Adding XML Receive Port and Location"
+title: "Lesson 1: Adding XML Receive Port and Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "receive locations, creating"
+  - "creating, receive locations"
+  - "receive ports, creating"
+  - "creating, receive ports"
+ms.assetid: 252bc080-3820-44cc-8749-715869f3f684
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 1: Adding XML Receive Port and Location
 A receive port is a logical grouping of similar receive locations. A receive location defines a specific address (such as a URL or file location) for an incoming message and the pipeline that is used to process the message.  

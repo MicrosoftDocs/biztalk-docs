@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Session Object (OLE DB Provider for Informix)"
-title: "Session Object (OLE DB Provider for Informix)"
+title: "Session Object (OLE DB Provider for Informix) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a155b1b1-1ab0-43bd-9040-9ff41a39bc3d
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Session Object (OLE DB Provider for Informix)
 The **Session** object is created by a **DataSource** object. The **Session** object is used to create one or more **Rowset** objects.  

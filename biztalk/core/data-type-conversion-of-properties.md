@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Data Type Conversion of Properties"
-title: "Data Type Conversion of Properties"
+title: "Data Type Conversion of Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MQSeries adapters, data type conversion"
+  - "MQBYTE property [MQSeries adapters]"
+  - "MQLONG property [MQSeries adapters]"
+  - "MQCHAR property [MQSeries adapters]"
+  - "configuring [MQSeries adapters], data type conversion"
+ms.assetid: 5b81eab0-f7a1-42f3-b212-a211b2893fd5
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Data Type Conversion of Properties
 Header properties in an MQSeries message are data structures contained in the message itself. The MQSeries adapter automatically validates and converts certain values in MQSeries message headers when sending and receiving messages.  

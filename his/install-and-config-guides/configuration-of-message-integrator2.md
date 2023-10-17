@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configure Message Integrator"
-title: "Message Integrator Configuration"
+title: "Message Integrator Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 174028e5-e2dd-4b51-8399-da627261268a
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configure Message Integrator
 Select **Enable WAS Listener of WebSphere MQ** to make configuration changes on this page.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10530"
-title: "Single Sign-On: Event 10530"
+title: "Single Sign-On: Event 10530 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4bb37305-26fe-46a7-958d-3ed7f6876a7b
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10530
 ## Details  

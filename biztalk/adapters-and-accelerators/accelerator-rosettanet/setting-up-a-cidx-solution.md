@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Setting Up a CIDX Solution"
-title: "Setting Up a CIDX Solution"
+title: "Setting Up a CIDX Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "CIDX, process configuration"
+  - "creating, CIDX solutions"
+  - "CIDX, connecting to Elemica network"
+  - "agreements, CIDX"
+  - "process configuration, CIDX"
+  - "CIDX, agreements"
+  - "PIPs, importing for CIDX"
+  - "CIDX, PIPs"
+  - "CIDX, creating solutions"
+  - "CIDX, importing PIPs"
+  - "PIPs, CIDX"
+ms.assetid: 7f1f159f-3b09-4efd-907b-9a75f7f3ecd1
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Setting Up a CIDX Solution
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] support for CIDX (Chemical Industry Data Exchange) XML message exchange (CIDX Chem eStandards versions 2.0 and 3.0). This topic describes how to set up a CIDX solution by doing the following:

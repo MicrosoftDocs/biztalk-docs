@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CPI-C Calls in C Programs (CPI-C)"
-title: "CPI-C Calls in C Programs (CPI-C)2"
+title: "CPI-C Calls in C Programs (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0ae3220c-7377-4660-91ba-0db84113e1d4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CPI-C Calls in C Programs (CPI-C)
 This implementation of Common Programming Interface for Communications (CPI-C) is available to programs written in Microsoft® C version 6 or later.  

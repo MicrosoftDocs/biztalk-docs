@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Edifact interchange should have contained UNA or UNB as the first segment"
-title: "Edifact interchange should have contained UNA or UNB as the first segment"
+title: "Edifact interchange should have contained UNA or UNB as the first segment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cc43fd17-31d0-48df-93cd-524b40034764
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Edifact interchange should have contained UNA or UNB as the first segment
 ## Details  

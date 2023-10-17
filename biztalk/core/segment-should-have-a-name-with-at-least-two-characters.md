@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Segment should have a name with at least two characters"
-title: "Segment should have a name with at least two characters"
+title: "Segment should have a name with at least two characters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f80bbc4a-151a-4094-8640-1944e8812730
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Segment should have a name with at least two characters
 ## Details  

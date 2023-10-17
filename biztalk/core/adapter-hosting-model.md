@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Adapter Hosting Model"
-title: "Adapter Hosting Model"
+title: "Adapter Hosting Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cf9a8e6b-8c8d-47ec-b2a3-aed58206121d
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Hosting Model
 In general BizTalk adapters are hosted in the BizTalk service, Btsntsvc.exe. This means that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] manages the lifetime of the adapter. There are also situations, described below, where other processes manage the adapter.  

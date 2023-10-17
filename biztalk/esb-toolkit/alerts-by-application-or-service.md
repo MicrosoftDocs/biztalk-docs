@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Alerts by Application or Service"
-title: "Alerts by Application or Service"
+title: "Alerts by Application or Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6fcfca81-05bb-4f2a-84be-94560b84e746
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Alerts by Application or Service
 This option displays an aggregate view of all the alerts generated for a specified set of applications over a specified time. Selecting a specific service displays a report that lists the alerts for that specific service. You can export the list of alerts as a Microsoft Excel spreadsheet.  

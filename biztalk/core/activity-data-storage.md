@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Activity Data Storage"
-title: "Activity Data Storage"
+title: "Activity Data Storage | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "performance, BAM"
+  - "databases [BAM], performance"
+  - "activities [BAM], peformance"
+  - "databases [BAM], partitioning"
+  - "BAM, performance"
+ms.assetid: 1f736599-3d16-496e-a459-8b0507d57fcb
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Activity Data Storage
 This topic describes activity data storage, the performance problems caused by the growth of activity tables over time, and how BAM solves these performance problems with separate tables for activities in progress and completed activities. This topic also describes the online window for querying data, and how you can use partitioning in BAM for higher performance.  

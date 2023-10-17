@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Receive Locations"
-title: "Receive Locations"
+title: "Receive Locations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "receive locations, properties"
+  - "receive locations, about receive locations"
+  - "receive locations"
+  - "receive locations, receive location types"
+ms.assetid: be5f7e5d-b63f-42f6-985e-895ba3912d34
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive Locations
 Creating a receive location involves specifying an address at which inbound messages arrive and the messaging pipeline that processes the message received at that address. Only administrators can create and enable receive locations.  

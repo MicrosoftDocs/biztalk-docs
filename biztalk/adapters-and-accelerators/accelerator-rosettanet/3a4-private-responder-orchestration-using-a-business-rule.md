@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: 3A4 Private Responder Orchestration Using a Business Rule"
-title: "3A4 Private Responder Orchestration Using a Business Rule"
+title: "3A4 Private Responder Orchestration Using a Business Rule | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 33d87952-def6-4202-b535-3d80171332eb
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # 3A4 Private Responder Orchestration Using a Business Rule
 The PIP3A4PrivateResponder.odx sample is a private-process orchestration that demonstrates how to implement a Partner Interface Process (PIP)-specific responder private process incorporating a business rule. For more information about this process, see [Defining a Business Rule for a Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/defining-a-business-rule-for-a-private-process-orchestration.md).  

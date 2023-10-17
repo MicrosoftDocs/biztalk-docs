@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Installing Data Provider Version 6.0"
-title: "Installing Data Provider Version 6.0"
+title: "Installing Data Provider Version 6.0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "2/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aa049933-0871-47ce-9b9e-c9f707120c52
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Installing Data Provider Version 6.0
 This topic provides instructions to install the Data Provider Version 6.0.

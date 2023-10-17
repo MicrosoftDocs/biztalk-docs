@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Support for 3270 Single Sign-On"
-title: "Support for 3270 Single Sign-On2"
+title: "Support for 3270 Single Sign-On2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8a0d0a65-1bb7-4ebf-9c8f-952bc912138e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Support for 3270 Single Sign-On
 This section describes the support for Single Sign-On for 3270 display sessions that is available in Microsoft Host Integration Server.  

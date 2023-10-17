@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Local Host Settings (EDIFACT-Interchange Settings)"
-title: "Configuring Local Host Settings (EDIFACT-Interchange Settings)"
+title: "Configuring Local Host Settings (EDIFACT-Interchange Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f1cf8696-d1f4-49aa-aa0a-ecf66f55e01d
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Local Host Settings (EDIFACT-Interchange Settings)
 The local host settings govern how the EDI interchanges are processed. The settings on this page can be divided into two categories – receiver’s settings (for incoming interchanges) and sender’s settings (for outgoing interchanges). As part of the receiver’s settings, you can specify whether an incoming batch will be split into transaction sets or preserved. If preserved, you can specify whether BizTalk Server suspends the interchange or transaction set if an error occurs. As part of the sender’s settings, you can specify how the control numbers are generated for outgoing messages.  

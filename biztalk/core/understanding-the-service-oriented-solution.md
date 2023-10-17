@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Understanding the Service Oriented Solution"
-title: "Understanding the Service Oriented Solution"
+title: "Understanding the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "service solution tutorial, background information"
+  - "service solutions, about service solutions"
+  - "service solution tutorial, about service solution tutorial"
+  - "Service Oriented Architecture (SOA)"
+ms.assetid: 56a2ad90-74bb-489a-ab1d-900f3bea3d64
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Understanding the Service Oriented Solution
 The service oriented solution presents a credit balance reporting application designed as a service. The application, in turn, uses three backend applications, exposed as services themselves, to get the information needed for the credit balance.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Close(PLU) Response"
-title: "Close(PLU) Response2"
+title: "Close(PLU) Response2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9842a61d-2312-4765-bff5-9fe8dc459908
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Close(PLU) Response
 The **Close(PLU) Response** message flows from the node to the application and from the application to the node. It is used with a primary logical unit (PLU) connection.  

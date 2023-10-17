@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SNALinkDispatchProc"
-title: "SNALinkDispatchProc2"
+title: "SNALinkDispatchProc2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 90e16c6d-3ff9-460c-a710-72912ce0c55b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SNALinkDispatchProc
 The **SNALinkDispatchProc** function is the link dispatcher function. The Base calls this function whenever one of the following events occurs:  

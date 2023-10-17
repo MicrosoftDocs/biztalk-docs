@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Factors that Affect Maximum Sustainable Performance"
-title: "Factors that Affect Maximum Sustainable Performance"
+title: "Factors that Affect Maximum Sustainable Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "maximum sustainable throughput (MST), maintenance"
+  - "monitoring, maximum sustainable thoughput (MST)"
+  - "maintaining, maximum sustainable thoughput (MST)"
+  - "maximum sustainable throughput (MST), monitoring"
+  - "maximum sustainable throughput (MST), load patterns"
+  - "maximum sustainable throughput (MST), sustainable load test"
+  - "sustainable performance"
+ms.assetid: 99b99655-bc77-425c-a133-204781d7c430
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Factors that Affect Maximum Sustainable Performance
 Maximum sustainable throughput is directly impacted by a wide range of factors such as available server resources, the type of features used in the solution, message size, and overall message load. There are other factors to be considered though that may not be immediately obvious. The following factors should also be considered when estimating maximum sustainable performance:  

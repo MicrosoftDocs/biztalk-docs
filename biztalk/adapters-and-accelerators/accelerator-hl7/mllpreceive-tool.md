@@ -1,9 +1,23 @@
 ---
 description: "Learn more about: MllpReceive Tool"
 title: "MllpReceive Tool"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "MLLP-encoded messages, send adapters"
+  - "MllpReceive tool"
+  - "MLLP-encoded messages, MllpReceive tool"
+ms.assetid: 7069444b-1412-40bf-b567-fa86f76cd007
+caps.latest.revision: 6
+
+
+
 ---
 # MllpReceive Tool
 You can use the MllpReceive tool to receive data from an MLLP send port.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10549"
-title: "Single Sign-On: Event 10549"
+title: "Single Sign-On: Event 10549 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1a18eb63-700c-4f49-acc4-890abe2a00ff
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10549
 ## Details  

@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Map Components"
-title: "Map Components"
+title: "Map Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "file types, maps"
+  - "BizTalk Mapper, output"
+  - "maps, file type"
+  - "maps, file contents"
+  - "BizTalk Mapper, file type"
+  - "maps, components"
+ms.assetid: be438d21-80a8-49d8-bd08-d85618ab23de
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Map Components
 Map files (having a .btm extension) store most of the components of a map. Items stored in the file include:  

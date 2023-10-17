@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Simple Type Derivation"
-title: "Simple Type Derivation"
+title: "Simple Type Derivation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d43932a0-039c-4211-82c0-087bae186145
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Simple Type Derivation
 XML Schema definition (XSD) language provides several mechanisms for defining variations of simple types, based on derivations of existing simple types, as follows:  

@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Assert"
-title: "Assert"
+title: "Assert | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Assert function [Business Rules Engine], .NET objects"
+  - "Assert function [Business Rules Engine], TypedXMLDocument"
+  - "Assert function [Business Rules Engine]"
+  - "Assert function [Business Rules Engine], examples"
+  - "Assert function [Business Rules Engine], TypedData table"
+  - "Assert function [Business Rules Engine], DataConnection"
+  - ".NET objects"
+ms.assetid: e9989214-3c10-4691-9c38-f6fe64e511ed
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Assert
 *Assertion* is the process of adding object instances into the Business Rule engine's working memory. The engine processes each instance according to the conditions and actions that are written against the type of the instance, using the match-conflict resolution-action phases.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invoke request sets in Oracle E-Business Suite using the WCF service model"
-title: "Invoke request sets in Oracle E-Business Suite using the WCF service model"
+title: "Invoke request sets in Oracle E-Business Suite using the WCF service model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bb6ec551-c069-4133-add5-2ba83d20405d
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invoke request sets in Oracle E-Business Suite using the WCF service model
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] enables you to execute request sets in Oracle E-Business Suite. Request sets are divided into one or more stages, and each stage contains a set of reports and concurrent programs. For more information about how the adapter supports request sets, see [Operations on Request Sets](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-request-sets.md).  

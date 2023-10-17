@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BAM WF Interceptor"
-title: "BAM WF Interceptor"
+title: "BAM WF Interceptor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0e459084-cb72-4a75-9f5f-f1fd5fd80d17
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM WF Interceptor
 The BAM WF interceptor provides comprehensive support for tracking data within your WF application.  

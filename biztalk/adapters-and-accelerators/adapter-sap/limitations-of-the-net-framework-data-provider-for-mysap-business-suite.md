@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Limitations of the .NET Framework Data Provider for mySAP Business Suite"
-title: "Limitations of the .NET Framework Data Provider for mySAP Business Suite"
+title: "Limitations of the .NET Framework Data Provider for mySAP Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Data Provider for SAP, limitations of"
+  - ".NET Framework Data Provider for mySAP Business Suite, limitations of"
+ms.assetid: 462e627d-41da-4456-bc62-e8cf7296f5b4
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Limitations of the .NET Framework Data Provider for mySAP Business Suite
 The following are known limitations of the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]):  

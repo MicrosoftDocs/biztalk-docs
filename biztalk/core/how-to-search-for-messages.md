@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Search for Messages"
-title: "How to Search for Messages"
+title: "How to Search for Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, viewing"
+  - "messages, searching"
+  - "Query tab [Administration Console], searching"
+  - "Query tab [Administration Console], messages"
+ms.assetid: c751d23f-913a-4325-81da-a36d61c07e8b
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Search for Messages
 You can use the **Query** tab in the BizTalk Server Administration Console to search for a specific class of messages.  

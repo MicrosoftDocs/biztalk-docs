@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Request-Open-Station"
-title: "Request-Open-Station2"
+title: "Request-Open-Station2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 028dd1de-2965-4865-a400-34d1353d9f45
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Request-Open-Station
 Flow : DLC ------> NODE (link connection)  

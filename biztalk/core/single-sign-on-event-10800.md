@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10800"
-title: "Single Sign-On: Event 10800"
+title: "Single Sign-On: Event 10800 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e3239f66-0551-4dbe-ba99-abe041eeaddd
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10800
 ## Details  

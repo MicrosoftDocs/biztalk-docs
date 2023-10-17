@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Help with the Command-Line Interface"
-title: "Help with the Command-Line Interface1"
+title: "Help with the Command-Line Interface1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dab6e0ec-c9fa-4820-bb78-3ae0ced0c9e9
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Help with the Command-Line Interface
 To see the syntax for a particular **snacfg** command, follow the command with the **/?** option.  

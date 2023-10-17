@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configure the BizTalk Framework Assembler Pipeline Component"
-title: "Configure the Framework Assembler Pipeline"
+title: "Configure the Framework Assembler Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2fd51047-b9dd-4b98-a968-45d69148664e
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the BizTalk Framework Assembler Pipeline Component
   

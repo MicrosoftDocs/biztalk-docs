@@ -1,12 +1,20 @@
 ---
 description: "Learn more about: Step 1: Creating the Fabrikam Home Organization"
-title: "Step 1: Creating the Fabrikam Home Organization"
+title: "Step 1: Creating the Fabrikam Home Organization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "double action tutorial, creating home organizations"
+ms.assetid: ff715718-9f84-4737-a367-22e36321ccf6
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Creating the Fabrikam Home Organization
 In this step, you use the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console to create the Fabrikam home organization.  

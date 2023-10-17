@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Deploy a Custom Adapter"
-title: "How to Deploy a Custom Adapter"
+title: "How to Deploy a Custom Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f17b336c-6232-4889-ab7e-92b83fab0f5f
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Deploy a Custom Adapter
 A complete adapter installation process consists of the following steps:  

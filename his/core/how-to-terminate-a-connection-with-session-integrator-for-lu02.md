@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Terminate a Connection with Session Integrator for LU0"
-title: "How to Terminate a Connection with Session Integrator for LU02"
+title: "How to Terminate a Connection with Session Integrator for LU02 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 512a6db7-f025-4bcf-bdcd-28c2182a4920
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Terminate a Connection with Session Integrator for LU0
 After you finish sending and receiving information over the LU0 session, you must terminate your connection. Ending a session with Session Integrator consists primarily of calling `SessionLU0.Disconnect`.  

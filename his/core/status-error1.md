@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-Error"
-title: "Status-Error1"
+title: "Status-Error1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e33465b9-b45f-4ca7-8ef6-62e6442ee756
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-Error
 The **Status-Error** message is used to report request reject and response header (RH) usage error conditions in outbound SNA request/response units (RUs) to the application. It flows from the node to the application and is used with both system services control point (SSCP) and primary logical unit (PLU) connections.  

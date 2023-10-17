@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Scripting Using External Assemblies"
-title: "Scripting Using External Assemblies"
+title: "Scripting Using External Assemblies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Scripting functoids, warnings"
+  - "Scripting functoids, external assemblies"
+ms.assetid: 0bdf6adc-91b9-462e-8fd0-9cb48bfa7817
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scripting Using External Assemblies
 Scripting with external assemblies is the preferred way to use scripting in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. External assemblies provide several advantages:  

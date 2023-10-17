@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuration of Advanced Network Properties"
-title: "Configure Advanced Network Properties"
+title: "Configure Advanced Network Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6ccadbc7-0464-4733-8cf8-3ebb50b10813
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuration of Advanced Network Properties
 ## UIElement List  

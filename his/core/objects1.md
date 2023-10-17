@@ -1,12 +1,18 @@
 ---
 description: "Learn about the metadata definitions for the Client Proxy objects that were created through the Application Integrator Designer."
-title: "Objects1"
+title: "Objects1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6255e6bb-10ec-4b56-a494-058ff4cdb3c1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Objects Metadata Definitions
 

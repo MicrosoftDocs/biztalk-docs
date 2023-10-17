@@ -1,9 +1,21 @@
 ---
 description: "Learn more about: Troubleshooting Other Issues"
 title: "Troubleshooting Other Issues"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "troubleshooting"
+ms.assetid: 1f115f64-45ce-445d-ab18-092f4a6a232c
+caps.latest.revision: 8
+
+
+
 ---
 # Troubleshooting Other Issues
 Addresses other issues related to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  

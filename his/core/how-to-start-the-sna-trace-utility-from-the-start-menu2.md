@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Start the SNA Trace Utility from the Start Menu"
-title: "How to Start the SNA Trace Utility from the Start Menu2"
+title: "How to Start the SNA Trace Utility from the Start Menu2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 48219650-9b11-48af-802c-df6266738ef7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Start the SNA Trace Utility from the Start Menu
 The following procedure details how to start the SNA Trace Utility from the Windows Start menu.  

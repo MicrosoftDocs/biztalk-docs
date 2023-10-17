@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Precedence of Accounts in Determining Default LUs"
-title: "Precedence of Accounts in Determining Default LUs2"
+title: "Precedence of Accounts in Determining Default LUs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 61361beb-5d80-4cb4-be55-f2708422b2c9
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Precedence of Accounts in Determining Default LUs
 When user and group account memberships overlap, the highest-priority account that contains a default local APPC LU determines that LU for the user, and the highest-priority account that contains a default remote APPC LU determines that LU for the user. Accounts are prioritized as follows:  

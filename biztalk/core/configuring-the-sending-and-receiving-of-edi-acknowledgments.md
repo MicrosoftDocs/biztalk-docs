@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring the Sending and Receiving of EDI Acknowledgments"
-title: "Configuring the Sending and Receiving of EDI Acknowledgments"
+title: "Configuring the Sending and Receiving of EDI Acknowledgments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3db1c9f7-bafa-4659-a3c4-0faa56606081
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring the Sending and Receiving of EDI Acknowledgments
 To configure the sending of an EDI acknowledgment in response to a received interchange, you need to do the following:  

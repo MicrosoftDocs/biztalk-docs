@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Support for Nullable Types"
-title: "Support for Nullable Types"
+title: "Support for Nullable Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9a5ea191-09d5-47ab-a197-390fbbcf6306
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Support for Nullable Types
 The rule engine supports using nullable types in a business rule. You can use nullable types in .NET class bindings, XML bindings, and database bindings. Currently, the Business Rule Composer tool does not support using nullable types in a business rule. You can use the nullable types when creating rules programmatically.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Define a Transactional SNA CICS or SNA IMS Remote Environment"
-title: "How to Define a Transactional SNA CICS or SNA IMS Remote Environment2"
+title: "How to Define a Transactional SNA CICS or SNA IMS Remote Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7b26eea7-dd97-466e-a52e-c0cf7231daed
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Define a Transactional SNA CICS or SNA IMS Remote Environment
 A transactional SNA CICS or SNA IMS remote environment (RE) is one that supports Sync Level 2 to enable two-phase commit (2PC). Note that none of the TCP/IP REs support 2PC because TCP/IP does not support Sync Level 2 or any other 2PC mechanism.  

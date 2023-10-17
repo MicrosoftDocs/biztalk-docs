@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create Filter Wizard: Basic"
-title: "Create Filter Wizard: Basic1"
+title: "Create Filter Wizard: Basic1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 367fdfbe-e3a0-4cdd-b070-d5a567097540
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create Filter Wizard: Basic
 Set these properties according to any restrictions on your host system.  

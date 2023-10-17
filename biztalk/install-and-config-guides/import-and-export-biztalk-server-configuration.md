@@ -1,12 +1,19 @@
 ---
-title: "Import and Export BizTalk Server Configuration"
+title: "Import and Export BizTalk Server Configuration | Microsoft Docs"
 description: Steps to apply, import, export or unconfigure the components, and update the databases and service accounts in BizTalk Server
 ms.custom: ""
 ms.date: "08/14/2017"
 ms.prod: "biztalk-server"
+
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c6206ed8-d087-44cc-8ab5-da5d8a28e09a
+caps.latest.revision: 40
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Import and Export BizTalk Server Configuration
 The BizTalk Server Configuration provides a high-level analysis on the configuration state of the features you have installed on the local machine. The tool allows you to configure and unconfigure features, configure security settings, and import and export configurations.  

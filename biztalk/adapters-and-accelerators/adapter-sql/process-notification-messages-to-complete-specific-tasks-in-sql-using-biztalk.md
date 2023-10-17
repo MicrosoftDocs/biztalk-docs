@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Process notification messages to complete specific tasks in SQL using BizTalk Server"
-title: "Process notification messages to complete specific tasks in SQL using BizTalk Server"
+title: "Process notification messages to complete specific tasks in SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8538cb89-1cca-45ad-b6f4-041e117963ff
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Process notification messages to complete specific tasks in SQL using BizTalk Server
 You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive notifications for changes to SQL Server database tables. However, the adapter only sends you a notification that some records were inserted, updated, or deleted in a certain database table. Any post-processing on those records must be handled by the client applications themselves. This topic presents a scenario-based description on how to process the records in the table based on the kind of notification received from the SQL Server database.  

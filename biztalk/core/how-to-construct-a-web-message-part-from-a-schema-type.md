@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Construct a Web Message Part from a Schema Type"
-title: "How to Construct a Web Message Part from a Schema Type"
+title: "How to Construct a Web Message Part from a Schema Type | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, Web messages"
+  - "Web messages, schema types"
+  - "Web messages, creating"
+  - "Transform shape [Orchestration Designer]"
+  - "Web messages, Transform shape [Orchestration Designer]"
+ms.assetid: 4452ade6-b10f-4564-bffc-18114896aeeb
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Construct a Web Message Part from a Schema Type
 You create a Web message part from a schema type by using a **Transform** shape. Alternatively, you can create a Web message part from a schema type by using a .NET helper class to set the parts. For more information on creating message types by using a .NET class, see [Constructing Messages in User Code](../core/constructing-messages-in-user-code.md).  

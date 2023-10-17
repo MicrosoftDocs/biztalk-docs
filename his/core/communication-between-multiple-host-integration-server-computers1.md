@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Communication Between Multiple Host Integration Server Computers"
-title: "Communication Between Multiple Host Integration Server Computers1"
+title: "Communication Between Multiple Host Integration Server Computers1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: acdb3dc1-9c1e-4acd-a8dc-229c9e4f5d24
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Communication Between Multiple Host Integration Server Computers
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers communicate with each other using mail slot or datagram broadcast messages. They use the SnaBase service to keep track of names of servers, client computers, and available transaction programs (TPs), which are the programs used for communication through Advanced Program-to-Program Communications (APPC) or Common Programming Interface for Communications (CPI-C).  

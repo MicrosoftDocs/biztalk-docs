@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connect to SQL Server in Visual Studio using the SQL adapter"
-title: "Connect to SQL Server in Visual Studio using the SQL adapter"
+title: "Connect to SQL Server in Visual Studio using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 62fc2c01-6e4d-4b3b-8581-1d57436ef4e9
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connect to SQL Server in Visual Studio using the SQL adapter
 This section provides instructions about how to use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  

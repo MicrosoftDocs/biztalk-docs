@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Executing an Itinerary Service"
-title: "Executing an Itinerary Service"
+title: "Executing an Itinerary Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7d86d228-da28-494f-85c7-4225b54f9b98
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Executing an Itinerary Service
 An ESB itinerary can contain any itinerary service that may be implemented as orchestration or messaging to perform the following tasks:  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Use Message Context Properties"
-title: "How to Use Message Context Properties"
+title: "How to Use Message Context Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, building"
+  - "building, insufficient configuration"
+ms.assetid: 6ca95017-74e0-42d7-befa-93e0c1e1ecd1
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use Message Context Properties
 System properties are mostly used internally by BizTalk Messaging Engine and its components. In general, changing the values set by the engine for those properties is not recommended, because it may affect the execution logic of the engine. However, there are a large number of properties that you can change.  

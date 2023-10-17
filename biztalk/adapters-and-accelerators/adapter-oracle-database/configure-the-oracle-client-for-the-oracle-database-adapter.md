@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Configure the Oracle Client for the Oracle Database adapter"
-title: "Configure the Oracle Client for the Oracle Database adapter"
+title: "Configure the Oracle Client for the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "net service name"
+  - "tnsnames.ora"
+  - "configuring, the Oracle client"
+  - "connect descriptor"
+  - "Oracle client, configuring"
+  - "Oracle Net Configuration Assistant"
+  - "Oracle Net Configuration Assistant, using the"
+ms.assetid: 2d4c0f20-b3a6-453f-a9b3-65fd5a38c020
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the Oracle Client for the Oracle Database adapter
 > [!IMPORTANT]

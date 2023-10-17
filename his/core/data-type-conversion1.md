@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data Type Conversion"
-title: "Data Type Conversion1"
+title: "Data Type Conversion1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 46739014-e868-407c-ae6d-c5b7fc656c97
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Type Conversion
 The Transaction Integrator (TI) run-time environment automatically converts data types between host-based COBOL or Report Program Generator (RPG) data types and the COM-based Automation data types that a Windows-based programming language like Visual Basic uses. The automatic conversion is based on information that you define in TI Project when you design and create a TI component (type library). This information is stored with the TI component and used by the TI runtime to convert the parameters of a method from the representation understandable by a COM-based or .NET-based programming language into the representation understandable by a host transaction program (TP).  

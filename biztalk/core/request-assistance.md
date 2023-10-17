@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Request Assistance"
-title: "Request Assistance"
+title: "Request Assistance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Query Builder [BAM portal], technical assistance"
+  - "BAM, technical assistance"
+  - "queries [BAM], technical assistance"
+  - "Query Builder [BAM portal], viewing details"
+  - "queries [BAM], viewing details"
+ms.assetid: d41de170-f497-47dc-896d-e79c04f0649b
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Request Assistance
 When you require assistance from your systems administrator or other support person with your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementation, you can use the **Assistance** button at the bottom of the **Results** detail page to place an assistance request.  

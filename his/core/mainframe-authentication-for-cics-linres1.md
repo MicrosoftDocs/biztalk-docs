@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Mainframe Authentication for CICS LINREs"
-title: "Mainframe Authentication for CICS LINREs1"
+title: "Mainframe Authentication for CICS LINREs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: de9de8d0-d058-4e1b-9b07-8e1673d50422
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Mainframe Authentication for CICS LINREs
 If you use a CICS LINK LU 6.2 remote environment (RE), you must use resource-level authentication.  

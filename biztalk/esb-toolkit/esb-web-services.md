@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ESB Web Services"
-title: "ESB Web Services"
+title: "ESB Web Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c122ecdd-344a-4f76-9c73-bf692d479c09
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ESB Web Services
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] contains the following Web services:  

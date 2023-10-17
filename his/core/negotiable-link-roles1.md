@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Negotiable Link Roles"
-title: "Negotiable Link Roles1"
+title: "Negotiable Link Roles1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b0af0bd4-bec7-4b0e-b064-124c6072cd22
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Negotiable Link Roles
 The following figure shows the sequence of messages for a peer connection where both the local and remote ends are configured as negotiable. Because the remote node identifier is larger (numerically) than the local node identifier, the remote station will become primary.  

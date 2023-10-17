@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Help Secure Component Interfaces"
-title: "How to Help Secure Component Interfaces"
+title: "How to Help Secure Component Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "component interfaces, helping to secure"
+  - "security, component interfaces"
+ms.assetid: 03b2af44-78e7-4fdc-bfa3-7697b2a60986
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Help Secure Component Interfaces
 Before you can start testing a component interface, you must set up security for it. The following procedure describes how to configure component interface security for PeopleSoft Version 8.4, but you can use the procedure for Version 8.1.  

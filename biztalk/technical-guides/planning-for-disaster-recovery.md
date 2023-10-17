@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Planning for Disaster Recovery"
-title: "Planning for Disaster Recovery"
+title: "Planning for Disaster Recovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a33e8875-cfde-4a60-9dab-fc6bb3ac4f1c
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Planning for Disaster Recovery
 This topic provides guidance to application teams for disaster recovery requirements and procedures for BizTalk Server. Microsoft BizTalk Server stores configuration and processing information in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. BizTalk Server high availability and disaster recovery is achieved through the high availability and disaster recovery capabilities of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].

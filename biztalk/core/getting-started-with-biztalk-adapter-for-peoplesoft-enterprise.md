@@ -1,12 +1,19 @@
 ---
-title: "Get started with BizTalk Adapter for PeopleSoft Enterprise"
+title: "Get started with BizTalk Adapter for PeopleSoft Enterprise | Microsoft Docs"
 description: Install and step through a tutorial for the BizTalk Adapter for PeopleSoft Enterprise in BizTalk Server
 ms.custom: ""
 ms.date: "10/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: df537bd5-351e-46d3-9234-20dd30efc4ef
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get started with BizTalk Adapter for PeopleSoft Enterprise
 

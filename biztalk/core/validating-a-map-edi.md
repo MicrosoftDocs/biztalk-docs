@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Validating a Map (EDI)"
-title: "Validating a Map (EDI)"
+title: "Validating a Map (EDI) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: caf58ecf-ed10-4c13-8d7d-e007b9158b0e
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Validating a Map (EDI)
 You can validate a map at design time. To do so, you use the XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment. This operation generates a file containing the underlying XSLT of the map and a file containing extension objects.  

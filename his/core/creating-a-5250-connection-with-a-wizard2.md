@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating a 5250 Connection with a Wizard"
-title: "Creating a 5250 Connection with a Wizard2"
+title: "Creating a 5250 Connection with a Wizard2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 11e4e6b3-4853-4420-b4f9-7424ea826f89
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Creating a 5250 Connection with a Wizard
 The following procedure details using a wizard to create a 5250 connection.  

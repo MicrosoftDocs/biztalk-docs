@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Glossary"
-title: "Glossary"
+title: "Glossary | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2de64458-169e-4051-8b4b-5aa6cab5d0f4
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Glossary
 **3270**  

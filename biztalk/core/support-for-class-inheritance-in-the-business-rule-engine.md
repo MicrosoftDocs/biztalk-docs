@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Support for Class Inheritance in the Business Rule Engine"
-title: "Support for Class Inheritance in the Business Rule Engine"
+title: "Support for Class Inheritance in the Business Rule Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "code samples, Business Rules Engine"
+  - "Business Rules Engine, inheritance"
+  - "Business Rules Engine, code samples"
+  - "Business Rules Engine, examples"
+  - "examples, Business Rules Engine"
+ms.assetid: 50871f34-ccbe-4f77-8feb-5694e1b14837
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Support for Class Inheritance in the Business Rule Engine
 One of the key features of Object Oriented Programming (OOP) languages is inheritance. Inheritance is the ability to use all of the functionality of an existing class, and extend those capabilities without rewriting the original class.  

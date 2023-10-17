@@ -1,12 +1,35 @@
 ---
 description: "Learn more about: Planning Your Platform for Fault Tolerance"
-title: "Planning Your Platform for Fault Tolerance"
+title: "Planning Your Platform for Fault Tolerance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "backing up, BizTalk Server"
+  - "MessageBox database, fault tolerance"
+  - "clustering, fault tolerance"
+  - "SQL Server RAID"
+  - "databases [BAM], fault tolerance"
+  - "BizTalk Server, planning"
+  - "fault tolerance"
+  - "clustering, fail-overs"
+  - "planning, fault tolerance"
+  - "Primary Import database [BAM]"
+  - "BizTalk Server, backing up"
+  - "fault tolerance, planning"
+  - "planning, BizTalk Server"
+  - "Primary Import database [BAM], fault tolerance"
+  - "fail-over clustering"
+ms.assetid: 512ed6b8-db1e-434a-8009-63e952cf5500
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Planning Your Platform for Fault Tolerance
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is built on the Microsoft Windows and Microsoft SQL Server platforms. The ability of BizTalk Server to survive or recover from a disaster depends on the ability of the underlying platform to survive or recover.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Run an Insert Operation on a Table in SQL using the WCF Channel Model"
-title: "Run an Insert Operation on a Table in SQL using the WCF Channel Model"
+title: "Run an Insert Operation on a Table in SQL using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3df95d78-3a9c-48c0-81ab-1f3206c5e3f7
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run an Insert Operation on a Table in SQL using the WCF Channel Model
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] discovers a set of basic Insert, Select, Update, and Delete operations on SQL Server database tables and views. By using these operations, you can perform simple SQL Insert, Select, Update, and Delete statements qualified by a Where clause on a target table or view. This topic provides instructions on how to perform an Insert operation on a SQL Server database table using the WCF channel model.  

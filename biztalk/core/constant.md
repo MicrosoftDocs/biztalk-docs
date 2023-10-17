@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Constant"
-title: "Constant"
+title: "Constant | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0af49bf5-e7de-41da-ac27-70301b8ee4d4
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Constant
 Pushes a single constant value onto the stack.  

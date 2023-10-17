@@ -1,9 +1,19 @@
 ---
 description: "Learn more about: Step 5: Create a Send Port to Deliver Messages"
 title: "Step 5: Create a Send Port to Deliver Messages"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+ms.assetid: f56ad7a7-5c77-4191-a001-691e5e0652a1
+caps.latest.revision: 7
+
+
+
 ---
 # Step 5: Create a Send Port to Deliver Messages
 In this step, you create and configure a port for sending the individual messages contained in the received batch. Later in the tutorial, you will enable fragmentation for the originating party (Tutorial_BatchSource) in [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer. As a result, the BizTalk integration engine will fragment the batch into individual messages, and [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] will send those messages over the send port that you create in this step.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid Date"
-title: "Invalid Date"
+title: "Invalid Date | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a41da9c5-9dcf-44cd-be5b-922e6c267ec3
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid Date
 ## Details  

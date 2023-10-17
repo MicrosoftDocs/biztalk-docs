@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Creating a Well-Formed Message Instance from a PIP"
-title: "Creating a Well-Formed Message Instance from a PIP"
+title: "Creating a Well-Formed Message Instance from a PIP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "message templates"
+  - "PIPs, message templates"
+ms.assetid: fed3698c-25d9-40ca-878a-60171f425bec
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating a Well-Formed Message Instance from a PIP
 This topic describes how to produce a well-formed message instance. You can generate a template for a message instance from the Partner Interface Process (PIP). After doing this, you have to modify that template, so that it is well formed, before adding your data.  

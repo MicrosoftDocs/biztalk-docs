@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Planning Message Security"
-title: "Planning Message Security"
+title: "Planning Message Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "planning, security"
+  - "security, messages"
+  - "security, planning"
+  - "messages, security"
+ms.assetid: c0f93515-a822-425c-9155-270a179d6b61
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Planning Message Security
 Based on the security policies in your company, you may want to consider the questions in the following table to determine the level of security that you must implement in your BizTalk Server environment. The answers to these questions will determine the security features that you need for messaging.  

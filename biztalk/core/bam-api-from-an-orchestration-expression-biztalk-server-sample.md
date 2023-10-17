@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BAM API from an Orchestration Expression (BizTalk Server Sample)"
-title: "BAM API from Orchestration Expression sample"
+title: "BAM API from Orchestration Expression sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 341bc333-9bfc-484c-b431-9a71f9188792
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM API from an Orchestration Expression (BizTalk Server Sample)
 This sample demonstrates how to:  

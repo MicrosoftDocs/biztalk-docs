@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Execute a Custom Itinerary Scenario"
-title: "Execute a Custom Itinerary Scenario"
+title: "Execute a Custom Itinerary Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6fd69e29-e853-4b16-9966-29ab98dd5bea
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Execute a Custom Itinerary Scenario
 You can use the Itinerary Test Client application execute custom itinerary scenarios.  

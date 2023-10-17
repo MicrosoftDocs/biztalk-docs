@@ -1,12 +1,19 @@
 ---
-title: "Overview of creating an RFC in an SAP to use with the SAP adapter in BizTalk"
+title: "Overview of creating an RFC in an SAP to use with the SAP adapter in BizTalk | Microsoft Docs"
 description: Create an RFC, RFC destination, and send an RFC from SAP system - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 35937183-fc1e-49cd-8a75-8f62effe0013
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create and send an RFC in SAP
 Lists high-level tasks to complete on the SAP system to create an RFC. Each task may involve very detailed procedures. As a result, we recommend contacting your SAP administrator to complete these tasks, or refer to the SAP guidance.  

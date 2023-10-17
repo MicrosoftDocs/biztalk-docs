@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Simple Type Derivation Using the Restriction Mechanism"
-title: "Simple Type Derivation Using the Restriction Mechanism"
+title: "Simple Type Derivation Using the Restriction Mechanism | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e4ca712e-9563-4917-9bfc-1033a36773e8
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Simple Type Derivation Using the Restriction Mechanism
 

@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: BizTalk Editor Errors"
-title: "BizTalk Editor Errors"
+title: "BizTalk Editor Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Editor, error messages"
+  - "troubleshooting, BizTalk Editor"
+  - "BizTalk Editor, troubleshooting"
+  - "troubleshooting, error messages [BizTalk Editor]"
+  - "error messages, BizTalk Editor"
+ms.assetid: d044af11-708a-4365-a105-dd19a2c610a4
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Editor Errors
 This section provides supplemental information about compilation messages associated with BizTalk Editor. You can access this information using the F1 key when one of the relevant messages is selected in the Task List window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. For conceptual and procedural information about BizTalk Editor, see [Creating Schemas Using BizTalk Editor](../core/creating-schemas-using-biztalk-editor.md).  

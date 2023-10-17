@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Security with the SAP adapter and BizTalk Server"
-title: "Security with the SAP adapter and BizTalk Server"
+title: "Security with the SAP adapter and BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "credentials, protecting"
+  - "Enterprise Single Sign-On"
+  - "security, when using BizTalk Server"
+  - "security, protecting credentials"
+  - "SSO"
+ms.assetid: 702cd0f9-d8e1-4dad-8774-b552481d5390
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security with the SAP adapter and BizTalk Server
 When you configure a send port or a receive port (location) by using the BizTalk Server Administration console or use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to retrieve message schemas for a BizTalk solution, you must provide credentials for the SAP system. It is important to supply these credentials in a secure way to help prevent them from being revealed to potentially malicious actors. This topic discusses how to most securely supply credentials for the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] for BizTalk Server solutions.  

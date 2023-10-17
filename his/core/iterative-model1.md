@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Iterative Model"
-title: "Iterative Model1"
+title: "Iterative Model1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 98198cdc-7b8b-47ef-841f-45138f564d6a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Iterative Model
 In the Iterative model, the Listener and Server portions of the application coexist in the same CICS or IMS TP, so the TP holds the socket until all application processing has been completed. The Iterative model uses this sequence:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Upgrading from Host Integration Server 2000 or SNA Server 4.0"
-title: "Upgrading from Host Integration Server 2000 or SNA Server 4.0"
+title: "Upgrading from Host Integration Server 2000 or SNA Server 4.0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7bd636a9-cdad-4773-b3b8-d7904eab85f4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Upgrading from Host Integration Server 2000 or SNA Server 4.0
 Older versions of Host Integration Server, such as Host Integration Server 2000 and SNA Server 4.0, provided both Single Sign-On and password synchronization through their host security feature. This feature was based around the host security domain, which contained user mappings to map credentials between Windows and host systems.  

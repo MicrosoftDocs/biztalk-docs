@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Assemblies and Artifacts Installed by the Exception Management Samples"
-title: "Assemblies and Artifacts Installed by the Exception Management Samples"
+title: "Assemblies and Artifacts Installed by the Exception Management Samples | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af580992-73d4-4b16-a1cc-fa819b441fca
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Assemblies and Artifacts Installed by the Exception Management Samples
 The following table lists the assemblies and other artifacts installed for the ESB Exception Management sample.  

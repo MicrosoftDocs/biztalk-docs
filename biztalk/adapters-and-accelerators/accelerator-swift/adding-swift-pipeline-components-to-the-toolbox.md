@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Adding SWIFT Pipeline Components to the Toolbox"
-title: "Adding SWIFT Pipeline Components to the Toolbox"
+title: "Adding SWIFT Pipeline Components to the Toolbox | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "toolbox, adding pipelines"
+  - "pipelines, adding to toolbox"
+ms.assetid: 3821c10e-ef9b-4657-b934-cff6d096f654
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adding SWIFT Pipeline Components to the Toolbox
 You must add the SWIFT pipeline components to the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Toolbox, so that you can create custom pipelines using these components. This is required to create pipelines for either Message Repair and New Submission or FIN Response Reconciliation.  

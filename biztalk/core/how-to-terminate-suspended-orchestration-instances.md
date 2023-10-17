@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: How to Terminate Suspended Orchestration Instances"
-title: "How to Terminate Suspended Orchestration Instances"
+title: "How to Terminate Suspended Orchestration Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, terminating [HAT]"
+  - "messages, saving [HAT]"
+  - "HAT, saving messages"
+  - "HAT, terminating pipelines"
+  - "HAT, terminiating orchestrations"
+  - "orchestrations, terminating [HAT]"
+ms.assetid: b5d44cce-b05c-47f9-9015-5b10c2312bf1
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Terminate Suspended Orchestration Instances
 You can terminate any suspended orchestration instances or ports from the Query results or preview pane in the BizTalk Server Administration Console.  

@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: LUA LU Properties: General"
-title: "LUA LU Properties: General2"
+title: "LUA LU Properties: General2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "his_srvconfig_KJAR"
+ms.assetid: 208e95de-012c-4103-8b90-9f1f7db9cc03
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LUA LU Properties: General
 After assigning or viewing an LUA LU, in the **LUA LU Properties** box, supply information according to the following list.  

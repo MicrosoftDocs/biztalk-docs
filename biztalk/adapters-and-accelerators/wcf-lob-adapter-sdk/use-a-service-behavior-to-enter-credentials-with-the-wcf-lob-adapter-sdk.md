@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Use a service behavior to enter credentials with the WCF LOB Adapter SDK"
-title: "Use a service behavior to enter credentials with the WCF LOB Adapter SDK"
+title: "Use a service behavior to enter credentials with the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9b203cfa-6331-4498-b656-8cd8339f8613
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use a service behavior to enter credentials with the WCF LOB Adapter SDK
 Many times, adapter consumers will be required to pass credentials to the target line of business system. To provide this functionality, you will need to provide a WCF service behavior.  

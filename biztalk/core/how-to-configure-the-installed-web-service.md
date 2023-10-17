@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Configure the Installed Web Service"
-title: "How to Configure the Installed Web Service"
+title: "How to Configure the Installed Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Web services, configuring"
+  - "deploying, Web services"
+  - "Web services, deploying"
+ms.assetid: 5a281daa-9e1c-47b0-9002-66ea18ed6caf
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure the Installed Web Service
 After you install the Web service files, you must configure BizTalk Server to receive messages from the Web service.  

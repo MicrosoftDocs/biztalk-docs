@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Create a New Occurrence of an Existing Record, Field Element, or Field Attribute Node"
-title: "How to Create a New Occurrence of an Existing Record, Field Element, or Field Attribute Node"
+title: "How to Create a New Occurrence of an Existing Record, Field Element, or Field Attribute Node | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 02380f68-056c-47c4-a0d6-61d599a4685d
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create a New Occurrence of an Existing Record, Field Element, or Field Attribute Node
 You can create new instances of an existing **Record**, **Field Element**, or **Field Attribute** node such that subsequent modifications to any instance are reflected in all instances.  

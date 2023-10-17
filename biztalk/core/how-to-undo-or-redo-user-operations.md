@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Undo or Redo User Operations"
-title: "How to Undo or Redo User Operations"
+title: "How to Undo or Redo User Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1cb3708e-a9c2-4795-aba0-9c6d9635e08c
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Undo or Redo User Operations
 The support for undo/redo is yet another usability aid provided by the BizTalk Mapper. If you are not satisfied with modifications you have made, or if you have made a change by mistake, you can use undo to gradually come back to an earlier "untouched" state, and resume from there. Redo allows you to reapply the editing actions that have been undone. This topic provides information about the operations that you can undo/redo.  

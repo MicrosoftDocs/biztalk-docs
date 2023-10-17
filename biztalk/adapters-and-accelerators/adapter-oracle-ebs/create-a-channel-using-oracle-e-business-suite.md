@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Create a channel using Oracle E-Business Suite"
-title: "Create a channel using Oracle E-Business Suite"
+title: "Create a channel using Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d18b7c2f-a43e-4499-ba94-4955dd5fe641
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create a channel using Oracle E-Business Suite
 In the WCF channel model, you invoke operations on the Oracle E-Business Suite and receive the results by exchanging SOAP messages with the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] over a WCF channel.  

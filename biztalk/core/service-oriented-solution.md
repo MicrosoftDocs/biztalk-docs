@@ -1,12 +1,41 @@
 ---
 description: "Learn more about: Service Oriented Solution"
-title: "Service Oriented Solution"
+title: "Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "service solutions"
+  - "tutorials, legacy applications"
+  - "business solutions, back-end systems"
+  - "service solution tutorial"
+  - "tutorials, services"
+  - "Web services, tutorials"
+  - "Web services, business solutions"
+  - "tutorials, applications"
+  - "applications, tutorials"
+  - "applications, services"
+  - "legacy applications, tutorials"
+  - "service solutions, business solutions"
+  - "tutorials, Web services"
+  - "tutorials, service solutions"
+  - "business solutions, totorials"
+  - "business solutions, legacy applications"
+  - "back-end systems"
+  - "tutorials, business solutions"
+  - "legacy applications, business solutions"
+  - "business solutions, Web services"
+  - "business solutions, service solutions"
+ms.assetid: ce7cdf8d-ecaf-4a6a-9536-a9cf5d7f874f
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Service Oriented Solution
 The service oriented solution shows how to present a BizTalk application as a service that is available as a Web service and in forms accessible to legacy applications. The solution also shows how to communicate with back-end processes as Web services, as well as how to aggregate responses from multiple back-end systems.  

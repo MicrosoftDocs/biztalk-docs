@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Monitoring the Service Oriented Solution with BAM"
-title: "Monitoring the Service Oriented Solution with BAM"
+title: "Monitoring the Service Oriented Solution with BAM | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "monitoring, service solutions"
+  - "service solution tutorial, monitoring"
+  - "OrchestrationEventStream object"
+ms.assetid: 9b251580-9371-490e-9218-0ce3f6b00fa6
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Monitoring the Service Oriented Solution with BAM
 The solution monitors activity in all versions of the **CustomerService** orchestration using the Business Activity Monitoring (BAM) API. More specifically, it uses the new **OrchestrationEventStream** object.  

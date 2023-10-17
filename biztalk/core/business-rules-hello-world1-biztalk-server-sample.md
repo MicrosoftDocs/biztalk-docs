@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Business Rules Hello World1 (BizTalk Server Sample)"
-title: "Business Rules Hello World1 (BizTalk Server Sample)"
+title: "Business Rules Hello World1 (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, business rules"
+  - "business rules, examples"
+ms.assetid: 0623ad20-96cc-430e-bb36-35431a5d17ee
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Business Rules Hello World1 (BizTalk Server Sample)
 The Business Rules Hello World1 sample demonstrates how to create a BizTalk rule set, save it to a file (SampleRuleSet.xml), load it, and run it based on a sample set of facts. The sample rule set contains a simple rule that involves an XML element, and .NET-based objects (properties and members) as terms in rule definition.  

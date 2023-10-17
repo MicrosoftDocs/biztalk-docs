@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Service for DRDA Trace Listeners"
-title: "Service for DRDA Trace Listeners"
+title: "Service for DRDA Trace Listeners | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a6dfc697-aa81-4ee7-b311-b63e702c4bd8
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Service for DRDA Trace Listeners
 You can troubleshoot problems with the DRDA Service by understanding looking at trace output, the Windows event log entries, and understanding solutions to common problems.  

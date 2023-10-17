@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Miscellaneous Troubleshooting"
-title: "Miscellaneous Troubleshooting"
+title: "Miscellaneous Troubleshooting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "troubleshooting"
+ms.assetid: 6ebc1867-b5d3-46de-b3bd-69e570ed2b2c
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Miscellaneous Troubleshooting
 ## Leading zeroes validation is not performed for fields that use the CheckLeadingZeroesInElement method to validate a field in the message Validation Policy.  

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Message Editor Pipeline Component"
-title: "Message Editor Pipeline Component"
+title: "Message Editor Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, Message Editor Pipeline Component"
+  - "Message Editor Pipeline Component"
+  - "messages, editing"
+  - "pipelines, Message Editor Pipeline Component"
+ms.assetid: f2b22dea-54e8-410b-868f-2978139f438b
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Editor Pipeline Component
 This component lets you edit automatically any part of a multipart message within a send or receive pipeline. You add this component to an existing pipeline to set up the replacement as part of typical processing.  

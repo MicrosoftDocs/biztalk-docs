@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Segment Not In Proper Sequence"
-title: "Segment Not In Proper Sequence"
+title: "Segment Not In Proper Sequence | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6f0c0fdc-10d9-4b77-a80d-b2b8571e7665
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Segment Not In Proper Sequence
 ## Details  

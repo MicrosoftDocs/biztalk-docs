@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - XML Input File Does Not Exist"
-title: "Error - XML Input File Does Not Exist"
+title: "Error - XML Input File Does Not Exist | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.xmlInputFileDoesNotExist"
+ms.assetid: d222e615-60c8-46f5-a8de-fc59650978c7
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - XML Input File Does Not Exist
 **Error Code**  

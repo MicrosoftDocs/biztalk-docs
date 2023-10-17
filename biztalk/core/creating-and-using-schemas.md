@@ -1,12 +1,19 @@
 ---
-title: "Create and use Schemas in TIBCO"
+title: "Create and use Schemas in TIBCO | Microsoft Docs"
 description: Use BizTalk Editor to create a schema for the BizTalk Adapter for TIBCO Enterprise Message Service, and set the target namespace in your schema for BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3927b0b3-db3b-4494-b003-d930af734e58
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create and use TIBCO schemas
 

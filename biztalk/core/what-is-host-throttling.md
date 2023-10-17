@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: What Is Host Throttling?"
-title: "What Is Host Throttling?"
+title: "What Is Host Throttling? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "host throttling, outbound"
+  - "host throttling, inbound"
+  - "host throttling, about host throttling"
+ms.assetid: 36d1818b-c8a2-4f23-bfb3-c034ee242f69
+caps.latest.revision: 29
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is Host Throttling?
 Most of the processing that takes place on a BizTalk server occurs within a logical entity known as a BizTalk Server host instance, which is a process running as a Windows service or an isolated host process on the BizTalk server. To manage the use of resources by a host instance process, BizTalk Server utilizes an adjustable throttling mechanism that governs the flow and processing of messages through a host instance.  

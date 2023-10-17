@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: No matching transform found for DocType in Send Port"
-title: "No matching transform found for DocType in Send Port"
+title: "No matching transform found for DocType in Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 23f62ac7-3849-49fe-a765-2be72880a4c9
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # No matching transform found for DocType in Send Port
 ## Details  

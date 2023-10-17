@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring General Party Properties"
-title: "Configuring General Party Properties"
+title: "Configuring General Party Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bbabf7e5-6388-4900-ad47-cf5d5af396b5
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring General Party Properties
 A party or trading partner represents a participating organization in a business relationship. Party properties contain the following information:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Server Status"
-title: "Server Status1"
+title: "Server Status1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cc8fabed-8cdb-4ef5-a542-2f388beb39b7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Server Status
 You can view the status of servers in a given subdomain, including the number of active users, and you can view the properties for a server to gather status information. There are six status types on the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Manager:  

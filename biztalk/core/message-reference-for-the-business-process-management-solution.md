@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Message Reference for the Business Process Management Solution"
-title: "Message Reference for the Business Process Management Solution"
+title: "Message Reference for the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "process management solution tutorial, message reference"
+ms.assetid: 0595817e-da5d-426a-9ee1-0c5d04334de6
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Reference for the Business Process Management Solution
 This section lists the messages and message types used by each orchestration in the solution.  

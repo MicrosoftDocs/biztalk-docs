@@ -1,12 +1,21 @@
 ---
 description: "Learn about the error messages in the PeopleSoft Enterprise system's component interfaces and the possible corrections for the errors that they indicate."
-title: "Error Messages3"
+title: "Error Messages3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "error messages"
+ms.assetid: 10ea12bb-eacb-477a-bc88-28f999e60a02
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error Messages
 

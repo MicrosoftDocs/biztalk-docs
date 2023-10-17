@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10600"
-title: "Single Sign-On: Event 10600"
+title: "Single Sign-On: Event 10600 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5cab2c98-d576-488c-aba5-093b34489bb7
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10600
 ## Details  

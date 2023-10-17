@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Icom3270.sendKey Method"
-title: "Icom3270.sendKey Method1"
+title: "Icom3270.sendKey Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f161e0b6-080e-43f3-9f49-eaf014a31a89
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Icom3270.sendKey Method
 The sendKey method sends one or more keystrokes to the Host session.  

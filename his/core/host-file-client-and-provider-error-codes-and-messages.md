@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Host File Client and Provider Error Codes and Messages"
-title: "Host File Client and Provider Error Codes and Messages"
+title: "Host File Client and Provider Error Codes and Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cf84e451-41d5-4881-95fa-30a6349aafc9
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Host File Client and Provider Error Codes and Messages
 The following table lists the Host File client and provider error codes, error message text, description and recommend action.  

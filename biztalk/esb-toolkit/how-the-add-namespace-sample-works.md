@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How the Add Namespace Sample Works"
-title: "How the Add Namespace Sample Works"
+title: "How the Add Namespace Sample Works | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c76a90a9-5898-43b3-98af-ff546dd97153
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How the Add Namespace Sample Works
 The first, second, and fourth tests use the **Add Namespace** component located in the NamespaceSampleReceivePipeline pipeline. It takes as input a document with no namespace on the root node, such as the following:  

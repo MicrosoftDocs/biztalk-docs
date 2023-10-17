@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: How to Create Policies and Rules"
-title: "How to Create Policies and Rules"
+title: "How to Create Policies and Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, business rules"
+  - "policies, rules"
+  - "policies, predicates"
+  - "business rules, creating"
+  - "creating, policies"
+  - "policies, logical operators"
+  - "policies, examples"
+  - "policies, default actions"
+  - "policies"
+  - "policies, arguments"
+  - "policies, creating"
+ms.assetid: 59f06a67-edde-443b-9fbb-55ec4429837a
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create Policies and Rules
 You can create rules with conditions that are logical groupings of logical operators (**AND**, **OR**, and **NOT**) applied to predicates (built-in or user-defined functions or operators) that take arguments (built-in or user-defined fact references). You can also right-click **Conditions** or logical operators and select a logical operator or built-in predicate from the context menu.  

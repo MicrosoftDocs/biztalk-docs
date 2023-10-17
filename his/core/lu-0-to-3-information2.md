@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LU 0 to 3 Information"
-title: "LU 0 to 3 Information2"
+title: "LU 0 to 3 Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5a8d5a8d-ce69-4937-aa11-30babc39e92e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LU 0 to 3 Information
 

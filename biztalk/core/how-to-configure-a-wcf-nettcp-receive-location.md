@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Configure a WCF-NetTcp Receive Location"
-title: "How to Configure a WCF-NetTcp Receive Location"
+title: "How to Configure a WCF-NetTcp Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 937862ca-14cb-4eda-8176-38c15423679e
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure a WCF-NetTcp Receive Location
 You can configure a WCF-NetTcp receive location either programmatically or by using the BizTalk Administration console.

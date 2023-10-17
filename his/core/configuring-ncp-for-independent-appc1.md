@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring NCP for Independent APPC"
-title: "Configuring NCP for Independent APPC1"
+title: "Configuring NCP for Independent APPC1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 15ff08c8-ffae-42de-b9fd-321194518ba8
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring NCP for Independent APPC
 Parameters on Network Control Program (NCP) must match Advanced Program-to-Program Communications (APPC) parameters on [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]. To configure the needed parameters, consult with the host administrator for the matching NCP parameters.  

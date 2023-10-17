@@ -1,12 +1,34 @@
 ---
 description: "Learn more about: Properties for Reliable Messaging with the MSMQ Adapter"
-title: "Properties for Reliable Messaging with the MSMQ Adapter"
+title: "Properties for Reliable Messaging with the MSMQ Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MSMQ adapters, properties"
+  - "queues, MSMQ adapters"
+  - "MSMQ adapters, dead letters"
+  - "queues, failures [MSMQ adapters]"
+  - "MSMQ adapters, impersonation"
+  - "MSMQ adapters, remote queues"
+  - "queues"
+  - "reliability, MSMQ adapters"
+  - "impersonation, MSMQ adapters"
+  - "MSMQ adapters, queue failures"
+  - "clustering, MSMQ adapters"
+  - "queues, remote"
+  - "MSMQ adapters, reliability"
+  - "MSMQ adapters, clustering"
+ms.assetid: 34bfe028-b2aa-4816-a437-3679d19dffb2
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Properties for Reliable Messaging with the MSMQ Adapter
 You can improve the reliability of sending and receiving messages with the MSMQ adapter by the way you configure the MSMQ adapter. This topic discusses using several configuration properties for reliable messaging.  

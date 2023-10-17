@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CICS and VTAM Sample Definitions for LU 6.2"
-title: "CICS and VTAM Sample Definitions for LU 6.21"
+title: "CICS and VTAM Sample Definitions for LU 6.21 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b1bbc153-a25d-461b-9b02-748ece9d89cb
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CICS and VTAM Sample Definitions for LU 6.2
 This topic presents sample definitions for CICS (version 1.6) and VTAM (version 3.2) for [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer connections to an IBM host system for LU 6.2 operation.  

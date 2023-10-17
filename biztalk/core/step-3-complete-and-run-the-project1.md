@@ -1,12 +1,19 @@
 ---
 description: "Learn how to test an orchestration by completing and running a project in BizTalk Explorer."
-title: "Step 3: Complete and Run the Project1"
+title: "Step 3: Complete and Run the Project1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3e70bfdc-11ef-446b-9326-f4791f6c2c87
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: How to Complete and Run the Project
 

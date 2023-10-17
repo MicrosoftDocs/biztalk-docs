@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Select Item Wizard Page"
-title: "Select Item Wizard Page2"
+title: "Select Item Wizard Page2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15422"
+ms.assetid: 31fa3784-b5ed-488c-b659-42283c3f811f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Select Item Wizard Page
 Use the **Select Item** wizard page to create a new method or rewrite an existing method in your interface. Enter the identifying information for the method.  

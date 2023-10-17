@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Snacfg User"
-title: "Snacfg User1"
+title: "Snacfg User1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e53fb049-0f84-4a46-96cb-9e3a504ef291
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Snacfg User
 ## Purpose  

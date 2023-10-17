@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Macros"
-title: "Macros2"
+title: "Macros2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 297e2ce8-b730-445a-b86b-605cc211474b
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Macros
 The 3270 Client provides macros for ease in using host function keys.  

@@ -1,12 +1,19 @@
 ---
-title: "Configure an EDI and AS2 Status Report"
+title: "Configure an EDI and AS2 Status Report | Microsoft Docs"
 description: Create the EDI or AS2 status report query expression, and select the data you want displayed in the report for in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6490864d-f1e6-4932-aefb-c332a595aad7
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure an EDI and AS2 Status Report
 After you have enabled EDI or AS2 status reports, you display the status report you want from the **EDI Status Reports** or **EDIINT Status Reports** section of the **Group Hub** tab of the **Group Overview** page in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console. When you display a status report, you will see a default set of data. You can configure the following aspects of the status reports:  

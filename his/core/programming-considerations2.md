@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Programming Considerations"
-title: "Programming Considerations2"
+title: "Programming Considerations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 595a64ad-f786-4b9c-92bd-56db67413ac6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Programming Considerations
 This topic summarizes information about developing transaction programs (TPs) using APPC on Windows operating systems:  

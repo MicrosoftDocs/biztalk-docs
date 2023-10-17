@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Troubleshoot Issues with the Data Provider for SAP"
-title: "Troubleshoot Issues with the Data Provider for SAP"
+title: "Troubleshoot Issues with the Data Provider for SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Data Provider for SAP, troubleshooting"
+  - "troubleshooting, Data Provider for SAP"
+ms.assetid: 6fe9baed-0404-4f15-b76e-88cc11c5ff46
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshoot Issues with the Data Provider for SAP
 This section discusses using troubleshooting techniques to resolve operational errors that you might encounter when using [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)].  

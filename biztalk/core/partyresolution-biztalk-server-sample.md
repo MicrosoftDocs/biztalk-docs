@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: PartyResolution (BizTalk Server Sample)"
-title: "PartyResolution (BizTalk Server Sample)"
+title: "PartyResolution (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, parties"
+  - "orchestrations, examples"
+  - "parties, examples"
+  - "parties, orchestrations"
+  - "examples, routing"
+  - "orchestrations, parties"
+  - "examples, orchestrations"
+  - "examples, messages"
+  - "routing, messages"
+  - "messages, routing"
+ms.assetid: 220e6bc5-6f04-4f37-b0d0-f11c2cc14422
+caps.latest.revision: 33
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # PartyResolution (BizTalk Server Sample)
 The PartyResolution sample demonstrates how to use BizTalk orchestrations with party resolution to route messages to one of two possible recipients.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Fallback Envelope Properties (EDIFACT-Transaction Set Settings)"
-title: "Configuring Fallback Envelope Properties (EDIFACT-Transaction Set Settings)"
+title: "Configuring Fallback Envelope Properties (EDIFACT-Transaction Set Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b56a5a93-35ac-4293-b00e-28dcd89dfa2a
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Fallback Envelope Properties (EDIFACT-Transaction Set Settings)
 In the **Envelopes** page of the **Transaction Set Settings** section, you define how BizTalk Server generates the UNG segments for an EDIFACT-encoded interchange that it sends to the party.  

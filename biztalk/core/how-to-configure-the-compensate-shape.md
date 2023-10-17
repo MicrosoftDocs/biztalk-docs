@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Configure the Compensate Shape"
-title: "How to Configure the Compensate Shape"
+title: "How to Configure the Compensate Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Compensate shape [Orchestration Designer], about Compensate shape"
+  - "Compensate shape [Orchestration Designer]"
+  - "compensations, Compensate shape [Orchestration Designer]"
+  - "configuring [Orchestration Designer], Compensate shape"
+  - "Compensate shape [Orchestration Designer], configuring"
+ms.assetid: 9f06289e-4d11-4864-9851-c210276865a7
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure the Compensate Shape
 If you are using nested transactions in your orchestration, you can add a **Compensate** shape in the compensation block or an exception block of a transaction scope. This enables your orchestration to explicitly perform compensation on a nested transaction. You specify which transaction you would like to be compensated in the **Compensate** shape, and any compensation code in the nested transaction will be run, provided the transaction committed successfully.  

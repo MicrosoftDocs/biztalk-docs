@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Connection Properties: Channel"
-title: "Connection Properties: Channel1"
+title: "Connection Properties: Channel1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_PU_CHANNEL"
+ms.assetid: 5289c8d5-6718-48cb-88e4-d3174df83ae9
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Connection Properties: Channel
 The following tabs are available on the Channel Connection Properties sheet:  

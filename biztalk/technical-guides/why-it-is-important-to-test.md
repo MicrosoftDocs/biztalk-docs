@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Why It Is Important to Test"
-title: "Why It Is Important to Test"
+title: "Why It Is Important to Test | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ce91aca5-56d3-4fb8-abe2-af0039804706
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Why It Is Important to Test
 This topic provides an overview of the mindset that leads to insufficient testing, describes the risks associated with failing to test BizTalk solutions, and contrasts the pitfalls of manual testing with the benefits of automated testing.

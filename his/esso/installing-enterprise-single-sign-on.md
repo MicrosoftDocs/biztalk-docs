@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Installing Enterprise Single Sign-On"
-title: "Installing Enterprise Single Sign-On"
+title: "Installing Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e989d367-0963-4894-a3d5-395375889e58
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Installing Enterprise Single Sign-On
 The following sections contain information about the installation of the Enterprise Single Sign-On feature. Because of this feature's complex relationships to other features and systems, and because of its importance to system security, you should read this section carefully before you install Enterprise Single Sign-On.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Certificate not found"
-title: "Certificate not found"
+title: "Certificate not found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 629b199f-1884-4e88-beaa-a2e5c5e792e9
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Certificate not found
 ## Details  

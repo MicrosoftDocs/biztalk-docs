@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: WCF Adapters Security Recommendations"
-title: "WCF Adapters Security Recommendations"
+title: "WCF Adapters Security Recommendations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "WCF adapters, security"
+  - "security, WCF adapters"
+ms.assetid: bbaaca56-9ad5-4122-a8e9-6e975d308230
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # WCF Adapters Security Recommendations
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the WCF adapters to publish (receive) and consume (send) WCF services. We recommend that you follow these guidelines for securing and deploying the WCF adapters in your environment.

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Limitations of BizTalk Adapter for mySAP Business Suite"
-title: "Limitations of BizTalk Adapter for mySAP Business Suite"
+title: "Limitations of BizTalk Adapter for mySAP Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapters, limitations of"
+  - "IDOC, sending an IDOC to an SAP system"
+ms.assetid: 1ca1e0cf-7ae7-4a8b-8363-e5f3746e8e26
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Limitations of BizTalk Adapter for mySAP Business Suite
 

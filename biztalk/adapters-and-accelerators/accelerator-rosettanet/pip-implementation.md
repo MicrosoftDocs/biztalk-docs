@@ -1,12 +1,33 @@
 ---
 description: "Learn more about: PIP Implementation"
-title: "PIP Implementation"
+title: "PIP Implementation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "PIPs"
+  - "PIPs, element-level constraints"
+  - "Document Type Definitions (DTDs)"
+  - "PIPs, schemas"
+  - "examples, schemas"
+  - "schemas, examples"
+  - "PIPs, about PIPs"
+  - "element-level constraints"
+  - "PIPs, DTDs"
+  - "schemas, PIPs"
+  - "XML Schema Definition files (XSDs)"
+  - "Partner Interface Processes (PIPs)"
+  - "DTDs, XSDs"
+  - "schemas, XSDs"
+ms.assetid: 0d964223-e0b6-4377-b26a-5fdc89ec81f4
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # PIP Implementation
 RosettaNet Partner Interface Processes (PIPs) define business processes between trading partners in a supply chain. Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides a set of PIPs out-of-the-box and you can create additional PIPs. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] supports all PIPs defined by the RosettaNet organization.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid address scheme"
-title: "Invalid address scheme"
+title: "Invalid address scheme | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0b059289-654e-40d6-a092-2a685e6e10f7
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid address scheme
 ## Details  

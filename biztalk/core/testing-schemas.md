@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Testing Schemas"
-title: "Testing Schemas"
+title: "Testing Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c2e28b7c-9d0c-4336-8bee-4599d41a57f4
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Testing Schemas
 After you have created your schema, you may want to validate that it describes the XML structure you intend it to describe. You can perform the following three operations on your schema to validate it:  

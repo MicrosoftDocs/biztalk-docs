@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Scenario 2: Sizing the Tracking Database  for Messages in Orchestrations"
-title: "Scenario 2: Sizing the Tracking Database  for Messages in Orchestrations"
+title: "Scenario 2: Sizing the Tracking Database  for Messages in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Tracking database, database size"
+ms.assetid: d1cfb8b9-d4e2-4069-8db3-18f72358652b
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scenario 2: Sizing the Tracking Database  for Messages in Orchestrations
 Let's look at an example that includes an orchestration. The following figure displays the entire business process. In this scenario, a message comes into BizTalk Server, is sent through an orchestration, is changed within the orchestration, and is then sent out through a send port.  

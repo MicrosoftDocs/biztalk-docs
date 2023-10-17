@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Disassembler and Assembler Promoted Properties"
-title: "Disassembler and Assembler Promoted Properties"
+title: "Disassembler and Assembler Promoted Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "disassembler, promoted properties"
+  - "promoted properties, assembler"
+  - "promoted properties, disassembler"
+  - "assembler, promoted properties"
+ms.assetid: 342b0250-bdf7-45ce-8964-3aeda89989b1
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Disassembler and Assembler Promoted Properties
 The Disassembler and Assembler properties fall into two categories: routing properties, for routing and filtering; and runtime properties, for internal processing.  

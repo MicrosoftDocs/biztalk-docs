@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Configuring Remote Debugging for Orchestrations"
-title: "Configuring Remote Debugging for Orchestrations"
+title: "Configuring Remote Debugging for Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Microsoft.XLANGs.BizTalk.Client.dll.config, code sample"
+  - "BTSNTSvc.exe.config, code sample"
+  - "orchestrations, debugging"
+  - "building, debugging"
+  - "building, code sample"
+ms.assetid: 722efaec-d160-48dc-b94b-0733c9904d98
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Remote Debugging for Orchestrations
 You can completely configure remote debugging between client and server. The client configuration is specified in Microsoft.XLANGs.BizTalk.Client.dll.config. The server configuration is specified in BTSNTSvc.exe.config. The following is a listing of the default configuration for each.  

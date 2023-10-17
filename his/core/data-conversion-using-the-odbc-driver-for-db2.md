@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data Conversion Using the ODBC Driver for DB2"
-title: "Data Conversion using DB2 ODBC Driver"
+title: "Data Conversion using DB2 ODBC Driver | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9148450a-f72f-45ed-8041-08318bf781ef
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Conversion Using the ODBC Driver for DB2
 The design of ODBC APIs is similar to other ISAM APIs. The APIs are handle-based. After opening a file, the application can determine the buffer size required to store a row, use the cursor APIs to move, and optionally retrieve one or more rows of data using the row-level binding.  

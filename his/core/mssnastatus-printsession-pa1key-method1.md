@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_PrintSession.PA1Key Method"
-title: "MsSnaStatus_PrintSession.PA1Key Method1"
+title: "MsSnaStatus_PrintSession.PA1Key Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e6150c73-524a-4194-b8ca-afa37f077c07
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_PrintSession.PA1Key Method
 Simulates pressing the PA1 key.  

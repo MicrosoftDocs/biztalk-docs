@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_EventServicePrint Class"
-title: "MsSnaStatus_EventServicePrint Class2"
+title: "MsSnaStatus_EventServicePrint Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a0ec31ef-1dfa-4908-b7a5-8111a80db4af
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_EventServicePrint Class
 The **MsSnaStatus_EventServicePrint** class describes a change to the **EventServicePrint** class.  

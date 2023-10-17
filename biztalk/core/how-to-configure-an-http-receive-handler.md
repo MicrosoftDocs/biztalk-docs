@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: How to Configure an HTTP Receive Handler"
-title: "How to Configure an HTTP Receive Handler"
+title: "How to Configure an HTTP Receive Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "permissions, receive handlers"
+  - "configuring [HTTP adapters], permissions"
+  - "HTTP adapters, receive handlers"
+  - "receive handlers, permissions"
+  - "configuring [HTTP adapters], receive handlers"
+  - "permissions, HTTP adapters"
+  - "receive handlers, HTTP adapters"
+  - "HTTP adapters, permissions"
+ms.assetid: c295489e-dbbb-44f7-bddb-d3cdfe302cf5
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure an HTTP Receive Handler
 Use the following procedure to configure the properties for an HTTP receive handler.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Configure BizTalk Server for Receiving Encrypted Messages"
-title: "How to Configure BizTalk Server for Receiving Encrypted Messages"
+title: "How to Configure BizTalk Server for Receiving Encrypted Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bd1e7e4c-f80c-468e-aa86-7c18406feead
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure BizTalk Server for Receiving Encrypted Messages
 The following procedure lists the steps that you have to follow to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to receive encrypted messages.  

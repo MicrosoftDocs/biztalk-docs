@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Background Information for Sample Scenarios"
-title: "Background Information for Sample Scenarios"
+title: "Background Information for Sample Scenarios | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security examples [TMA], background information"
+  - "DFD"
+  - "TMA, examples"
+ms.assetid: f9518fe7-9892-44f5-8e05-fe48bdb5161a
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Background Information for Sample Scenarios
 This topic contains background information for the scenarios in this section.  

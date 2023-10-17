@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Developing a Custom Cumulative Functoid"
-title: "Developing a Custom Cumulative Functoid"
+title: "Developing a Custom Cumulative Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8ea2c5fa-ed50-4b76-aee9-0d4adf9e6d8c
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Developing a Custom Cumulative Functoid
 Use a custom cumulative functoid to perform accumulation operations for values that occur multiple times within an instance message.  

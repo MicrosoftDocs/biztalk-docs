@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unknown or unexpected binding element"
-title: "Unknown or unexpected binding element"
+title: "Unknown or unexpected binding element | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 56021ff3-5abf-46ab-90bb-4531ccc9abd0
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unknown or unexpected binding element
 ## Details  

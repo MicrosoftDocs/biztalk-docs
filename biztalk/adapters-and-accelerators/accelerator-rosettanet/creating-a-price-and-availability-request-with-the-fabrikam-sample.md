@@ -1,12 +1,20 @@
 ---
 description: "Learn more about: Creating a Price and Availability Request with the Fabrikam Sample"
-title: "Creating a Price and Availability Request with the Fabrikam Sample"
+title: "Creating a Price and Availability Request with the Fabrikam Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "private process tutorial, creating requests"
+ms.assetid: 6e4f4589-8f01-4b9e-93ee-c9371f32e04a
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating a Price and Availability Request with the Fabrikam Sample
 In this step, you create a 3A2 Price and Availability request using the LOBWebApplication tool.  

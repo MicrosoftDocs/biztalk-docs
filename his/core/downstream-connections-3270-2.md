@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Downstream Connections (3270)"
-title: "Downstream Connections (3270)2"
+title: "Downstream Connections (3270)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 64e99e7c-4e17-44fd-bce7-90377b51cb7e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Downstream Connections (3270)
 A downstream connection enables a remote computer without a direct connection to the host computer to pass information back and forth using Host Integration Server as the gateway. To the downstream system, there appears to be a direct connection to the host. Host Integration Server accomplishes this by passing information back and forth between the downstream system and the host.  

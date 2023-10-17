@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Obtaining and Creating Certificates"
-title: "Obtaining and Creating Certificates1"
+title: "Obtaining and Creating Certificates1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6c660a45-e2ee-4b4c-a941-b829baa0f7d6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Obtaining and Creating Certificates
 It is recommended that you use the Microsoft Certificate Services and certification authorities to manage certificates.  

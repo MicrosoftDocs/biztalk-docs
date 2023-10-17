@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Remove Deployed Artifacts"
-title: "How to Remove Deployed Artifacts"
+title: "How to Remove Deployed Artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [BAM definitions], undeploying artifacts"
+  - "Remove-All command"
+  - "undeploying, artifacts [BAM]"
+  - "artifacts, undeploying [BAM]"
+ms.assetid: 90135965-d18e-4a71-9877-d2b0c3caf59f
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Remove Deployed Artifacts
 Administrators use the **remove-all** command to remove artifacts deployed in the BAM Primary Import database. The supplied BAM definition is either an XML file or an Excel Workbook containing information about the artifacts to be removed.  

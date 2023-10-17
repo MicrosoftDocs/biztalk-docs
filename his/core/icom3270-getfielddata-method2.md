@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Icom3270.getFieldData Method"
-title: "Icom3270.getFieldData Method2"
+title: "Icom3270.getFieldData Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7b3075e0-8fb2-4ff4-b132-60a64d53d490
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Icom3270.getFieldData Method
 Extracts the data contents of the specified field.  

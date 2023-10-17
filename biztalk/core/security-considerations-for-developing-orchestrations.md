@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Security Considerations for Developing Orchestrations"
-title: "Security Considerations for Developing Orchestrations"
+title: "Security Considerations for Developing Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security, orchestrations"
+  - "messages, subscriptions"
+  - "orchestrations, security"
+  - "messages, security"
+ms.assetid: a29b2018-4a8f-49ad-a817-6f279db3f801
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security Considerations for Developing Orchestrations
 When designing your orchestrations, you should consider potential security issues.  

@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Key Features in BizTalk Adapter for Oracle Database"
-title: "Key Features in BizTalk Adapter for Oracle Database"
+title: "Key Features in BizTalk Adapter for Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "features, operations-related"
+  - "adapters, new and deprecated features"
+  - "features, technology-related"
+  - "features, new and deprecated"
+  - "features, performance-related"
+  - "features, metadata-related"
+ms.assetid: 7e79714c-1472-4721-a693-5be2a9a0cd1f
+caps.latest.revision: 26
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Key Features in BizTalk Adapter for Oracle Database
 This section lists the new and deprecated features in [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  

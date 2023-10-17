@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOMapper2 Members"
-title: "ISSOMapper2 Members"
+title: "ISSOMapper2 Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4ba62821-f591-4ca7-83c2-330a957ba742
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOMapper2 Members
 The following table shows the ISSOMapper2 methods.  

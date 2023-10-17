@@ -1,12 +1,19 @@
 ---
-title: "Enterprise single sign-on overview"
+title: "Enterprise single sign-on overview | Microsoft Docs"
 description: Read about affilicate applications, using SSO tickets to process messages, and adminster SSO in BizTalk Server
 ms.custom: ""
 ms.date: "10/11/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d2aaab59-8cf7-4848-b71a-e7c8682dd3bd
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Enterprise Single Sign-On Overview
 A business process that relies on several different applications may have to cross several different security domains. Accessing an application on a Microsoft Windows system may require one set of security credentials, while accessing an application on an IBM mainframe may require different credentials, such as an RACF username and password. Dealing with this profusion of credentials is difficult for users, and it can be even harder for automated processes. To address this problem, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes Enterprise Single Sign-On.  

@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Using SOAP Headers in Pipeline Components"
-title: "Using SOAP Headers in Pipeline Components"
+title: "Using SOAP Headers in Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SOAP headers, code samples"
+  - "SOAP headers, creating"
+  - "SOAP headers, pipelines"
+  - "SOAP headers, properties"
+  - "pipelines, SOAP headers"
+  - "Web services, SOAP headers"
+  - "creating, SOAP headers"
+ms.assetid: 5b4a8902-e8f5-44a4-88f7-17f47a9deecd
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using SOAP Headers in Pipeline Components
 To access the SOAP header context properties in pipeline components, you use a combination of the context property name and target namespace as discussed in [Using SOAP Headers in Orchestrations](../core/using-soap-headers-in-orchestrations.md).  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unable to import client endpoint configuration"
-title: "Unable to import client endpoint configuration"
+title: "Unable to import client endpoint configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8375e153-ed1c-4bf4-b461-ac026a4b3478
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unable to import client endpoint configuration
 ## Details  

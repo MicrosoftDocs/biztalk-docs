@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Messages"
-title: "Messages"
+title: "Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, headers"
+  - "messages, acknowledgements"
+  - "messages, persisting"
+  - "messages"
+  - "examples, message headers"
+  - "properties"
+  - "message headers"
+  - "EMS messages"
+ms.assetid: 65bb3431-7186-4d4c-b004-932cdf070e73
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Messages
 An Enterprise Message Service (EMS) message, like a JMS message, contains three separate parts: header, properties, and body. The header is the only required part of an EMS message. This topic describes how messages are treated in Microsoft BizTalk Adapter for TIBCO Enterprise Message Service.  

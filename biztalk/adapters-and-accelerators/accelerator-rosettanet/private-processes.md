@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Private Processes"
-title: "Private Processes"
+title: "Private Processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "private processes, trading partners"
+  - "private processes, about private processes"
+  - "private processes, orchestrations"
+  - "private processes"
+  - "orchestrations, private-process orchestrations"
+  - "trading partners, private processes"
+  - "BTARN, private processes"
+  - "business processes, private processes"
+ms.assetid: 0c5895eb-22c1-431f-a769-ae6ca05d1e45
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Private Processes
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implements business processes that are internal to an organization as private processes. Public processes handle business processes that involve integration with trading partners. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] isolates service-content processing and back-end integration (in the private process) from RosettaNet Implementation Framework (RNIF) handling (in the public process).  

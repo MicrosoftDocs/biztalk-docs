@@ -1,9 +1,19 @@
 ---
 description: "Learn more about: Step 1: Configure and Enable the BatchControlPort Receive Port"
 title: "Step 1: Configure and Enable the BatchControlPort Receive Port"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+ms.assetid: be248a05-e740-497a-b112-8ba3a57b020b
+caps.latest.revision: 6
+
+
+
 ---
 # Step 1: Configure and Enable the BatchControlPort Receive Port
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) setup creates a receive port, the batch control port, to handle the messages that the batch orchestration uses to start, stop, and time batches. These messages include the batch activation, batch termination, and batch timer messages. In this step, you configure the receive pipeline for the batch control port, and enable the port.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TCP/IP Clients"
-title: "TCP-IP Clients2"
+title: "TCP-IP Clients2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 387e6b33-d5c3-4ab0-93f7-a4f340c2b657
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TCP/IP Clients
 The following figure shows how a TCP/IP client computer can connect to the mainframe.  

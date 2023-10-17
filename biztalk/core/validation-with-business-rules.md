@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Validation with Business Rules"
-title: "Validation with Business Rules"
+title: "Validation with Business Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "validating, process management solutions"
+  - "process management solution tutorial, validating"
+  - "business rules, validating"
+  - "process management solution tutorial, business rules"
+ms.assetid: a67f3781-629a-4157-9a27-3b73d7a5a3a8
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Validation with Business Rules
 A common way to do validation is to construct a set of business rules using the Business Rules Framework. Then you use the Call Rules shape in the orchestration where you want to perform validation.  

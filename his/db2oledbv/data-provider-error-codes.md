@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data Provider Error Codes"
-title: "Data Provider Error Codes"
+title: "Data Provider Error Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3d3b55b3-028d-4870-81ba-67df6384c26f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Provider Error Codes
 The Data Provider returns errors in the form of SQLSTATE, SQLCODE, Reason Code, and Error Text, formatted as part of the OLE DB IErrorInfo interface. The Data Provider connects to the DB2 database server using the Distributed Relational Database Architecture (DRDA) protocol and formats. The Data Provider returns DRDA protocol issues in SQLSTATE HY000 or 08S01, with associated SQLCODE errors and text. The following table list DRDA errors. For additional information on DRDA protocol issues, you can refer to the DRDA protocol documentation published by The Open Group ([http://www.opengroup.org](http://www.opengroup.org)). You can download DRDA V5 Vol. 3: Distributed Data Management Architecture, publication number C114, from the [Open Group bookstore](https://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409) ([https://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409)).

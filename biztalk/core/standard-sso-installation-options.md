@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Standard SSO Installation Options"
-title: "Standard SSO Installation Options"
+title: "Standard SSO Installation Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "installing, SSO"
+  - "SSO, installing"
+ms.assetid: 59aeb503-f369-4145-8a3c-ab60e9ed31a8
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Standard SSO Installation Options
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] leverages the Enterprise Single Sign-On (SSO) capabilities for securely storing credentials to enable single sign-on scenarios.  

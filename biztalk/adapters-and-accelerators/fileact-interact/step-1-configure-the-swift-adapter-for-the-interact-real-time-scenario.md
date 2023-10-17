@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Configure the SWIFT Adapter for the InterAct Real-Time Scenario"
-title: "Step 1: Configure the SWIFT Adapter for the InterAct Real-Time Scenario"
+title: "Step 1: Configure the SWIFT Adapter for the InterAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6f4d3e08-611a-4af1-a3e3-957ace3b74e6
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Configure the SWIFT Adapter for the InterAct Real-Time Scenario
 The following steps explain how to configure the send handler for the Interact adapter. Before you begin the procedure, you must complete the requirements listed in [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md).  

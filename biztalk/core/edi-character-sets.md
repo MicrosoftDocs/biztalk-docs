@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Character Sets"
-title: "EDI Character Sets"
+title: "EDI Character Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 57fae748-d66e-4ecf-be00-70147078ef93
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Character Sets
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses a character set to validate an entire EDI interchange. The character sets used for an X12-encoded message and an EDIFACT- or KEDIFACT-encoded message are determined in different ways.  

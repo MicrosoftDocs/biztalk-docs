@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configure a client binding for the Oracle E-Business Suite"
-title: "Configure a client binding for the Oracle E-Business Suite"
+title: "Configure a client binding for the Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1347cbca-5567-43f8-a75e-a23b108692bc
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure a client binding for the Oracle E-Business Suite
 After you have generated the WCF client class, you can create a WCF client (instance) and invoke its methods to consume the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].  

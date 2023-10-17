@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: OS/400 Distributed Program Calls"
-title: "OS-400 Distributed Program Calls1"
+title: "OS-400 Distributed Program Calls1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 98c71dbb-83ec-435c-ac3b-fea01f5bca60
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # OS/400 Distributed Program Calls
 The OS/400 Remote Command and Distributed Program Calls (DPC) programming model allows most AS/400 applications to interact with TI in request-reply fashion (client-initiated only) with minimum modifications. DPC is a documented protocol that supports program to program integration on an AS/400, which can be accessed easily from PC based applications using the TCP/IP networking protocol.  

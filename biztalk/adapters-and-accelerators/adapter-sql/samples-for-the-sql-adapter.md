@@ -1,12 +1,19 @@
 ---
-title: "SQL adapter samples"
+title: "SQL adapter samples | Microsoft Docs"
 description: SQL WCF adapter samples that can be used with BizTalk Server, WCF service model, and WCF channel model 
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f2438696-bc51-46df-81ca-00c17a52736e
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Samples for the SQL adapter
 

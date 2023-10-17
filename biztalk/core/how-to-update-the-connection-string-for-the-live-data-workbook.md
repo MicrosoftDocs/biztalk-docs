@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Update the Connection String for the Live Data Workbook"
-title: "How to Update the Connection String for the Live Data Workbook"
+title: "How to Update the Connection String for the Live Data Workbook | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9d2702fb-637c-46db-8b62-08ae15f983ba
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Update the Connection String for the Live Data Workbook
 When you move the BAM Primary Import database to another server, the connection string in a BAM live data workbook must be updated to point to the new server. You use the BAM Add-in for Excel to make this update.  

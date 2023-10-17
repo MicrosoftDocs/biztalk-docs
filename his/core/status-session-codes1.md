@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-Session Codes"
-title: "Status-Session Codes1"
+title: "Status-Session Codes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ffc48e83-cf39-47f6-9b6f-408a5fc85162
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-Session Codes
 For the status codes used on [Status-Session](./status-session2.md) messages, the following table lists:  

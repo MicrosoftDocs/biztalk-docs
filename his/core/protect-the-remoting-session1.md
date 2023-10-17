@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Protect the Remoting Session"
-title: "Protect the Remoting Session1"
+title: "Protect the Remoting Session1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ba6ec78f-4ca5-446e-a9e7-5a8210dc4980
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Protect the Remoting Session
 To prevent an attacker from tampering with the remote session or denying service, you should do the following:  

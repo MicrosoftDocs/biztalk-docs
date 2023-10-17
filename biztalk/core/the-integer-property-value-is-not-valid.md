@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The integer property value is not valid"
-title: "The integer property value is not valid"
+title: "The integer property value is not valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 31d4e9a7-4336-40f1-997a-9f79d86b26d2
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The integer property value is not valid
 ## Details  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Importing Certificates"
-title: "Importing Certificates"
+title: "Importing Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "importing certificates"
+  - "certificates, importing"
+ms.assetid: c2576f89-b5de-4250-9c54-74c8a218bb39
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Importing Certificates
 This section describes how to import certificates, including where to import them from, where to store them, and what tools to use to import them.  

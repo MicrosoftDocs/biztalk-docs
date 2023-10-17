@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Protect the Raw User Data"
-title: "Protect the Raw User Data1"
+title: "Protect the Raw User Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 69f0018a-0d34-4802-8964-17fa43c7ba8a
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Protect the Raw User Data
 To prevent an attacker from reading data packets on the network and either tampering with the data or disclosing the data, or to prevent an attacker from denying service, you should:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Integrated Link Service Setup on Host Integration Server"
-title: "Integrated Link Service Setup on Host Integration Server2"
+title: "Integrated Link Service Setup on Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9f75c0ab-fc00-4c42-bc95-3dd6cbec9aaf
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Integrated Link Service Setup on Host Integration Server
 In Host Integration Server, the SNA Manager supports installation and configuration of link services. Host Integration Server uses the Microsoft System Installer (MSI) and MSI packages for the installation of the Host Integration Server software. Link services from independent hardware vendors (IHVs) are not included in the main Host Integration Server MSI packages. IHV link services are installed using a separate IHV-provided MSI package. For an example of this process, install the DLC, 802.2, or IBM Synchronous Data Link Control (SDLC) link service in Host Integration Server.  

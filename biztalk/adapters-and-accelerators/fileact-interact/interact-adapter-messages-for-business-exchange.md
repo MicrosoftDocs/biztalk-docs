@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: InterAct Adapter Messages for Business Exchange"
-title: "InterAct Adapter Messages for Business Exchange"
+title: "InterAct Adapter Messages for Business Exchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3b443b8a-4e56-47f1-8d91-5c807fd54ccc
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # InterAct Adapter Messages for Business Exchange
 There are four messages in the InterAct adapter end-to-end cycle. These messages are SWIFTNet primitives. The first and last messages comprise the client-side primitives, SwInt:ExchangeRequest and SwInt:ExchangeResponse. The middle two messages comprise the server-side primitives, SwInt:HandleRequest and SwInt:HandleResponse.  

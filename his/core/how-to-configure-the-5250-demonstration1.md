@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure the 5250 Demonstration"
-title: "How to Configure the 5250 Demonstration1"
+title: "How to Configure the 5250 Demonstration1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ef94aa13-3036-46f7-8dd4-347db2f0978e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure the 5250 Demonstration
 Use the following procedure to configure the 5250 (AS/400) Demonstration link service.  

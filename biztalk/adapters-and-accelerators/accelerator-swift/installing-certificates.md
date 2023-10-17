@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Installing Certificates"
-title: "Installing Certificates"
+title: "Installing Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "certificates, installing"
+  - "installing, certificates"
+ms.assetid: 7525f771-623c-420f-99ca-c834e819829d
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Installing Certificates
 To send, repair, or submit messages, you must have the proper certificates installed. This topic describes how to add certificates. In a production environment, see your IT department for certificates.  

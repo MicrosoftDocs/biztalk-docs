@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configure the XML Assembler Pipeline Component in BizTalk Server"
-title: "How to Configure the XML Assembler Pipeline Component"
+title: "How to Configure the XML Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/13/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6d883819-a1d4-4ad0-b08f-fcd7583134d6
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "mijacobs"
 ---
 
 # Configure the XML Assembler Pipeline Component in BizTalk Server

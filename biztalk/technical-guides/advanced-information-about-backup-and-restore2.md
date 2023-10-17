@@ -1,12 +1,18 @@
 ---
 description: "Learn advanced information and details of the backup and restore processes of BizTalk Server, including information about marked transactions, full backups, and logs."
-title: "Advanced Information About Backup and Restore2"
+title: "Advanced Information About Backup and Restore2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aa6a3527-4889-40ae-aacb-b8ea75be0329
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Advanced Information About Backup and Restore
 

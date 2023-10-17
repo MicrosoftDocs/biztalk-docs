@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Server Configuration Properties"
-title: "Server Configuration Properties1"
+title: "Server Configuration Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_Server"
+ms.assetid: a6fced4d-bcc3-4553-83c9-7eddab2f536a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Server Configuration Properties
 **Name**  

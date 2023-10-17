@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Considerations When Using DataConnection"
-title: "Considerations When Using DataConnection"
+title: "Considerations When Using DataConnection | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Retract function [Business Rules Engine], DataConnection"
+  - "RetractByType function [Business Rules Engine], DataConnection"
+  - "Business Rules Engine, DataConnection tips"
+  - "Assert function [Business Rules Engine], DataConnection"
+  - "Update function [Business Rules Engine], DataConnection"
+ms.assetid: 1b4c8aa5-053f-43d7-9f5f-050383405fed
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Considerations When Using DataConnection
 Consider the following when using DataConnection with the Business Rule Engine.  

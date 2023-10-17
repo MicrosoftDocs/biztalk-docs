@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOConfigDB.CreateDatabase Method"
-title: "ISSOConfigDB.CreateDatabase Method"
+title: "ISSOConfigDB.CreateDatabase Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5ada766a-e127-44b3-8de2-7e2689d4fc19
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOConfigDB.CreateDatabase Method
 The CreateDatabase method creates a SQL database for SSO.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring EDI Properties"
-title: "Configuring EDI Properties"
+title: "Configuring EDI Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 469e36db-6a74-470c-b28b-c204c82e954a
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring EDI Properties
 This section describes how to define EDI agreement properties, both for X12- and EDIFACT-encoded messages.  

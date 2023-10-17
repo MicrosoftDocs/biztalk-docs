@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 4: Test Your SharePoint Application"
-title: "Step 4: Test Your SharePoint Application1"
+title: "Step 4: Test Your SharePoint Application1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f7ded5a5-88d5-40aa-814b-70bc0a7dcfa3
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 4: Test Your SharePoint Application
 ![Step 4 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")  

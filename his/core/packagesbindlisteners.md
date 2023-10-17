@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: packagesBindListeners"
-title: "packagesBindListeners"
+title: "packagesBindListeners | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a3e3adff-b953-4946-b7fb-fab0e9d75085
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # packagesBindListeners
 The packageBindListeners element contains one or more packageBindListener elements to instruct the DRDA Server to send bind package with bind SQL statement output to optional custom bind listeners.  

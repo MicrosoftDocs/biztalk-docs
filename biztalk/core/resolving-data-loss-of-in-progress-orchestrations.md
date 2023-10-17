@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Resolving Data Loss of In-Progress Orchestrations"
-title: "Resolving Data Loss of In-Progress Orchestrations"
+title: "Resolving Data Loss of In-Progress Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "data loss, MessageBox database"
+  - "data recovery"
+  - "data loss, recovery"
+  - "data loss, orchestrations"
+  - "data recovery, MessageBox database"
+  - "data recovery, orchestrations"
+  - "data loss, data recovery"
+  - "orchestrations, data recovery"
+  - "orchestrations, data loss"
+ms.assetid: dc6f1fd2-1976-40f2-ab57-41c7db40705e
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Resolving Data Loss of In-Progress Orchestrations
 MessageBox databases contain the state of orchestrations that are currently in progress. Although there is no way to tell exactly what data has been lost from the MessageBox databases, there are some steps you can take to gather information about the lost data:  

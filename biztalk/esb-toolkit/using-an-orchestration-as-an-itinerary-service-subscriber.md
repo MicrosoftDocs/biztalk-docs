@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Using an Orchestration as an Itinerary Service Subscriber"
-title: "Using an Orchestration as an Itinerary Service Subscriber"
+title: "Using an Orchestration as an Itinerary Service Subscriber | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 278564f1-de9f-4fbf-8c7f-09b3e607c28b
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using an Orchestration as an Itinerary Service Subscriber
 Orchestrations can also act as itinerary services. To participate in an itinerary, you must first design the orchestration as direct-bound; to do this, use a filter subscription similar to that of the send port in the previous topic, [Using a Send Port as an Itinerary Service Subscriber](../esb-toolkit/using-a-send-port-as-an-itinerary-service-subscriber.md). Figure 1 shows an example of a filter expression for a suitable orchestration to pick up any message that meets the following conditions:  

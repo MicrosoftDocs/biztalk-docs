@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: COMTIContext Keywords"
-title: "COMTIContext Keywords1"
+title: "COMTIContext Keywords1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d8ab1460-7342-422a-b187-5101550dbfe5
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # COMTIContext Keywords
 Use the COMTIContext keywords as commands to override the contents of a transaction request message (TRM).  

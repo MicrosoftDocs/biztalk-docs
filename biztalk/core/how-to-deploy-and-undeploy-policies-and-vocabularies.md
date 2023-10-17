@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Deploy and Undeploy Policies and Vocabularies"
-title: "How to Deploy and Undeploy Policies and Vocabularies"
+title: "How to Deploy and Undeploy Policies and Vocabularies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying, policies"
+  - "policies, deploying"
+  - "deploying, vocabularies"
+  - "policies, undeploying"
+  - "vocabularies, deploying"
+ms.assetid: 9a7e3310-54b7-482c-8210-b4b11fde4c49
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Deploy and Undeploy Policies and Vocabularies
 You can use the Rule Engine Deployment Wizard to deploy or undeploy a policy.  

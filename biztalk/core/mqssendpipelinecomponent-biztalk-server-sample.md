@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: MQSSendPipelineComponent (BizTalk Server Sample)"
-title: "MQSSendPipelineComponent (BizTalk Server Sample)"
+title: "MQSSendPipelineComponent (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, MQSeries adapters"
+  - "pipelines, examples"
+  - "MQSeries adapters, examples"
+  - "examples, pipelines"
+ms.assetid: ac709e45-524b-45ab-9673-060790ecbed2
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # MQSSendPipelineComponent (BizTalk Server Sample)
 This sample demonstrates how to write a pipeline component that reads a set of MQSeries property values from an XML file and applies them to a message.  

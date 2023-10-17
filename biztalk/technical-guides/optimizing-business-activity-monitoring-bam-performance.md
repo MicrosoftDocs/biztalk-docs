@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Optimizing Business Activity Monitoring (BAM) Performance"
-title: "Optimizing Business Activity Monitoring (BAM) Performance"
+title: "Optimizing Business Activity Monitoring (BAM) Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c9ed29b2-0be6-4a37-be68-9476832fd49f
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Optimizing Business Activity Monitoring (BAM) Performance
 This topic describes Business Activity Monitoring (BAM) performance factors.

@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: LOBWebApplication"
-title: "LOBWebApplication"
+title: "LOBWebApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Windows SharePoint Services, LOBWebApplication"
+  - "ASPX pages, LOBWebApplication utility"
+  - "virtual servers"
+  - "ASPX pages, submitting actions"
+  - "LOBWebApplication"
+  - "ASPX pages, response messages"
+  - "LOBWebApplication utility"
+ms.assetid: 2d578efd-72a9-4621-9274-30792bf94b6c
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # LOBWebApplication
 You use the LOBWebApplication utility to submit an action or response message from an ASPX page to a trading partner, simulating an actual line-of-business Web application.  

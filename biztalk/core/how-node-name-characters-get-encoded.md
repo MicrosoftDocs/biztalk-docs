@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How Node Name Characters Get Encoded"
-title: "How Node Name Characters Get Encoded"
+title: "How Node Name Characters Get Encoded | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6462856b-7a52-40c9-9aff-c0579130eec9
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How Node Name Characters Get Encoded
 If you use a character that is not allowed in a node name, BizTalk Editor prompts you, asking if you want to proceed with the disallowed character or characters encoded (**OK** or **Cancel**). If you proceed, each disallowed character is encoded as follows:  

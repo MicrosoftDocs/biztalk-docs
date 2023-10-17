@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MC_RECEIVE_AND_POST"
-title: "MC_RECEIVE_AND_POST2"
+title: "MC_RECEIVE_AND_POST2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 21c225d3-ec01-4f12-9dd3-ccdc79b6d71a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MC_RECEIVE_AND_POST
 The **MC_RECEIVE_AND_POST** verb receives application data and status information asynchronously. This allows the local transaction program (TP) to proceed with processing while data is still arriving at the local logical unit (LU).  

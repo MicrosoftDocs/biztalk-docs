@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: InterAct Adapter Security Architecture"
-title: "InterAct Adapter Security Architecture"
+title: "InterAct Adapter Security Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a4924b8c-1fda-4a0c-b9be-8f2ccba38013
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # InterAct Adapter Security Architecture
 Security for the message transmission and receipt is implemented using the certificate and crypto features inherent in SWIFTNet Link (SNL) and the SWIFTAlliance Gateway (SAG). SWIFT recommends that services designed for InterAct to apply an “end-to-end” signature—that is, to sign both request and response messages.  

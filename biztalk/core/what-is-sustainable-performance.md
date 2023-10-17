@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: What Is Sustainable Performance?"
-title: "What Is Sustainable Performance?"
+title: "What Is Sustainable Performance? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "reliability, sustainable performance"
+  - "performance, goals"
+  - "performance, sustainable performance"
+  - "planning, performance"
+  - "performance, planning"
+  - "sustainable performance"
+ms.assetid: 4b18b976-7714-431f-8976-f40a1016d5f3
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is Sustainable Performance?
 When planning for and estimating system sustainability, it is critical to think in terms of sustainability over the long term. The primary considerations are:  

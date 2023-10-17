@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Reference Additional BAM Primary Import Databases"
-title: "How to Reference Additional BAM Primary Import Databases"
+title: "How to Reference Additional BAM Primary Import Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ea80b32c-f2cb-4aca-89f4-d5b72e1ba021
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Reference Additional BAM Primary Import Databases
 Administrators use the **enable-reference** command to reference additional BAM Primary Import databases. You reference multiple BAM Primary Import databases to facilitate viewing distributed BAM activities.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error encountered during serialization. The Edifact transaction set contained in functional group is being suspended with following errors"
-title: "Error encountered during serialization. The Edifact transaction set contained in functional group is being suspended with following errors"
+title: "Error encountered during serialization. The Edifact transaction set contained in functional group is being suspended with following errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 24b76086-334b-45fb-85f8-82e3335daac4
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error encountered during serialization. The Edifact transaction set contained in functional group is being suspended with following errors
 ## Details  

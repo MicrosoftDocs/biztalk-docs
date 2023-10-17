@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: Step 11: Create Orchestration Variables"
 title: "Step 11: Create Orchestration Variables"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "orchestrations, variables"
+  - "message enrichment tutorial, orchestrations"
+ms.assetid: 3d1f792d-fe74-4373-86fa-3debda55e732
+caps.latest.revision: 5
+
+
+
 ---
 # Step 11: Create Orchestration Variables
 In this step, you create the orchestration variables for the message instances sent and received by the orchestration.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Upgrade to BizTalk Server 2016"
-title: "Upgrade to BizTalk Server 2016"
+title: "Upgrade to BizTalk Server 2016 | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.prod: biztalk-server
 ms.date: "12/30/2022"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 975ec82b-ed27-4545-8e4a-0e567507c9ba
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Upgrade to BizTalk Server 2016

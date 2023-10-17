@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Considerations for Receiving Query Notifications Using the SQL adapter"
-title: "Considerations for Receiving Query Notifications Using the SQL adapter"
+title: "Considerations for Receiving Query Notifications Using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0142f385-3d55-41a7-a50e-dda94b96d0a4
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Considerations for Receiving Query Notifications Using the SQL adapter
 This topic provides some considerations and best practices to keep in mind while using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive query notifications from a SQL Server database.  

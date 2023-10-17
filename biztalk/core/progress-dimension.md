@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Progress Dimension"
-title: "Progress Dimension"
+title: "Progress Dimension | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "aggregations [BAM], progress dimensions"
+  - "Progress dimension [BAM]"
+ms.assetid: 472fcbf6-502f-4c81-bf48-f7eec98e391b
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Progress Dimension
 Use a progress dimension to group BAM activities by milestones they have reached. This is best illustrated by an example.  

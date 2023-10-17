@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connect to SQL Server in Visual Studio Using Add Adapter Service Reference Plug-in"
-title: "Connect to SQL Server in Visual Studio Using Add Adapter Service Reference Plug-in"
+title: "Connect to SQL Server in Visual Studio Using Add Adapter Service Reference Plug-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3fc3b824-d20b-4531-81f3-89b4a1ff3216
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connect to SQL Server in Visual Studio Using Add Adapter Service Reference Plug-in
 To connect to SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in a .NET programming solution, you must use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. This topic provides instructions on how to use the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  

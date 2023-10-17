@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Receive-Side Processing of an Incoming Non-EDI Message over AS2"
-title: "Receive-Side Processing of an Incoming Non-EDI Message over AS2"
+title: "Receive-Side Processing of an Incoming Non-EDI Message over AS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fee10cba-8b1a-4d2c-b9d9-efbb74c3f461
+caps.latest.revision: 31
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive-Side Processing of an Incoming Non-EDI Message over AS2
 The AS2 pipelines shipped with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be used to process an EDI message or a non-EDI message over AS2 transport. Different pipelines are used for the two different types of payloads. You use the AS2EdiReceive pipeline to process an incoming EDI message over AS2, and the AS2Send pipeline to return the associated MDN (if enabled). You use the AS2Receive pipeline to process an incoming non-EDI message over AS2, and the AS2Send pipeline to return the associated MDN (if enabled). The non-EDI message can be any binary payload.  

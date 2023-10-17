@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: AS/400 Definition Properties"
-title: "AS-400 Definition Properties1"
+title: "AS-400 Definition Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_AS400TN"
+ms.assetid: ccb6fc38-ca11-4089-b085-a7eef713585c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # AS/400 Definition Properties
 The following tabs are available on the AS/400 Definition Properties:  

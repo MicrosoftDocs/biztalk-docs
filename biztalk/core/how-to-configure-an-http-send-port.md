@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Configure an HTTP Send Port"
-title: "How to Configure an HTTP Send Port"
+title: "How to Configure an HTTP Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "send ports, HTTP adapters"
+  - "HTTP adapters, send ports"
+  - "configuring [HTTP adapters], send ports"
+ms.assetid: 29c6868c-4570-4375-9494-08c07220eeb3
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure an HTTP Send Port
 You can configure an HTTP send port either programmatically or by using the BizTalk Server Administration console.  

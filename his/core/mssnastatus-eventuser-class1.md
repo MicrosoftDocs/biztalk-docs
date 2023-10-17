@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_EventUser Class"
-title: "MsSnaStatus_EventUser Class1"
+title: "MsSnaStatus_EventUser Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e4492e7f-fd9d-4bc2-9f66-b9347b3da2dc
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_EventUser Class
 The **MsSnaStatus_EventUser** class describes a change to the **EventUser** class.  

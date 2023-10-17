@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Updating an Existing Configuration with a Binding File"
-title: "Updating an Existing Configuration with a Binding File"
+title: "Updating an Existing Configuration with a Binding File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "binding files, updating"
+  - "binding files, rules"
+  - "artifacts, binding files"
+  - "binding files, unbinding"
+  - "binding files, customizing"
+  - "artifacts, updating"
+ms.assetid: 11580e59-7147-42d0-a976-f6b5e6933d24
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Updating an Existing Configuration with a Binding File
 Information in a binding file supersedes existing configuration information. If the name of an artifact in a binding file matches the name of an artifact in your existing configuration, the artifact in the binding file will update the artifact in your existing configuration when you import the binding file.  

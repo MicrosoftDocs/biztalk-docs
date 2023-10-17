@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Testing Operational Readiness"
-title: "Checklist: Testing Operational Readiness"
+title: "Checklist: Testing Operational Readiness | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ecdf2609-ba77-4756-a949-ab4e10c54313
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Testing Operational Readiness
 Testing for operational readiness is a vital procedure that is often overlooked or is performed only minimally. Thorough testing is a critical requirement of any enterprise-level application, and a solution developed using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is no exception. At a minimum, you should perform the following testing before moving a BizTalk solution into production:  

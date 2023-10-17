@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Snacfg Server"
-title: "Snacfg Server1"
+title: "Snacfg Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 42ae3bab-2e40-41ad-8df1-5fb17f96d409
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Snacfg Server
 ## Purpose  

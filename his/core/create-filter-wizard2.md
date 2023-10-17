@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create Filter Wizard"
-title: "Create Filter Wizard2"
+title: "Create Filter Wizard2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5a98d577-614e-4828-8cc8-a0d8647d2235
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create Filter Wizard
 Use this wizard to create and configure Password Filters.  

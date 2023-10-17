@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: BtarnConfig"
-title: "BtarnConfig"
+title: "BtarnConfig | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BTARN, exporting configuration data"
+  - "BTARN, BtarnConfig utility"
+  - "BtarnConfig utility"
+  - "BTARN, importing configuration data"
+ms.assetid: 8c95be2a-7df5-47fb-ae2d-64fa27e2811a
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BtarnConfig
 You use the BtarnConfig utility to import configuration data into, or export configuration data from, a Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] environment. This configuration data is the data that you set by using the BTARN Management Console, including process configuration settings, home organizations, partners, and agreements.  

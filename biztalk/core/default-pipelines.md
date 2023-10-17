@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: Default Pipelines"
-title: "Default Pipelines"
+title: "Default Pipelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, PassThruTransmit"
+  - "pipelines, PassThruReceive"
+  - "pipelines, XMLTransmit"
+  - "pipelines, StsReceive"
+  - "pipelines, StsSend"
+  - "pipelines, StsFileReceive"
+  - "Microsoft.BizTalk.KwTpm.StsDefaultPipelines.EnvSchema XML envelope"
+  - "pipelines, XMLReceive"
+  - "pipelines, backward compatibility"
+  - "Microsoft.BizTalk.DefaultPipelines assembly"
+  - "pipelines, default"
+ms.assetid: 7d82bb2c-c7f1-44a1-9e1b-89b0bb806845
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Default Pipelines
 When you create a new application, the default pipelines are created and deployed by default and appear in the Microsoft.BizTalk.DefaultPipelines assembly in the \References folder for every BizTalk project. The default pipelines cannot be modified in Pipeline Designer. These pipelines can be selected when configuring a send port or receive location in BizTalk Explorer. This topic describes the default pipelines and when to use them.  

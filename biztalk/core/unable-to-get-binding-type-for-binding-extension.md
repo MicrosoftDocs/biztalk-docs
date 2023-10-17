@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unable to get binding type for binding extension"
-title: "Unable to get binding type for binding extension"
+title: "Unable to get binding type for binding extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5a7cfc81-7439-48f9-8cac-42b2419ecd9d
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unable to get binding type for binding extension
 ## Details  

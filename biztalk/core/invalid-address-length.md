@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid address length"
-title: "Invalid address length"
+title: "Invalid address length | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e8e16eb6-e77e-4361-ac91-0730004c4433
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid address length
 ## Details  

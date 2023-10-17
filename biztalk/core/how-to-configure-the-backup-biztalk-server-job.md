@@ -1,12 +1,19 @@
 ---
-title: "Configure the Backup BizTalk Server Job"
+title: "Configure the Backup BizTalk Server Job | Microsoft Docs"
 description: "Learn more about: Configure the Backup BizTalk Server Job"
 ms.custom: ""
 ms.date: "11/22/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 026622c9-fcb4-4db0-af48-1379feb30372
+caps.latest.revision: 42
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the Backup BizTalk Server Job
 After you install and configure BizTalk Server, configure the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job to back up your data. 

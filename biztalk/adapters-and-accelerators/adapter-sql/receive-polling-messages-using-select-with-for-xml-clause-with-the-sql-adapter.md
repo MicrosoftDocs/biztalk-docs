@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server"
-title: "Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server"
+title: "Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 65c629c1-9ef7-4aa1-8ec1-f94a3cb41cb0
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server
 You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive periodic data-change messages for SQL Server tables or views by using SELECT statements or stored procedures that include a FOR XML clause. You can specify these statements as polling statement that the adapter executes to poll the database. The polling statement can be a SELECT statement or a stored procedure that returns a result set.

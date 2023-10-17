@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Emphasize Map Items"
-title: "How to Emphasize Map Items"
+title: "How to Emphasize Map Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a2732b36-ca57-4566-ba26-da27a3082f32
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Emphasize Map Items
 In the BizTalk Mapper, when you select a map item, all the associated links and functoids are emphasized. This is useful in maps with many links, where it is difficult to identify a relationship and the related schema items.  

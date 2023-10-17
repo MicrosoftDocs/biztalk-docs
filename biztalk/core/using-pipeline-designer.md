@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Using Pipeline Designer"
-title: "Using Pipeline Designer"
+title: "Using Pipeline Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Pipeline Designer, how to"
+  - "pipelines, Pipeline Designer"
+ms.assetid: bdb2f5c7-f8a2-4bd6-a8d8-8b7a64f97bd0
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Pipeline Designer
 Pipeline Designer is a graphical editor, hosted in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], which enables you to create new pipelines; view the pipeline templates included with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]; move pipeline components within a pipeline; and configure pipelines, stages, and pipeline components.  

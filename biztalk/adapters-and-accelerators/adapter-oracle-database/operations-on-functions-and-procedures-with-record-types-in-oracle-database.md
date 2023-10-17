@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Operations on Functions and Procedures with RECORD Types in Oracle Database"
-title: "Operations on Functions and Procedures with RECORD Types in Oracle Database"
+title: "Operations on Functions and Procedures with RECORD Types in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "RECORD type"
+ms.assetid: 28ecb76c-de82-43df-83cc-917c482417b3
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Operations on Functions and Procedures with RECORD Types in Oracle Database
 Oracle RECORD types are used to represent hierarchical information in parameters passed to PL/SQL functions and procedures. The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces RECORD types as complex XML types. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports the following kinds of RECORD types:  

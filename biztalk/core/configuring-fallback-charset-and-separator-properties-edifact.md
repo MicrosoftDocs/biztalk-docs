@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Fallback Charset and Separator Properties (EDIFACT)"
-title: "Configuring Fallback Charset and Separator Properties (EDIFACT)"
+title: "Configuring Fallback Charset and Separator Properties (EDIFACT) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9eadc9c1-ebec-42f5-a9ca-06cb28bebcdf
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Fallback Charset and Separator Properties (EDIFACT)
 In the fallback agreement, you can specify the character set (UNA) that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use to validate party properties when creating the envelope for an outgoing EDIFACT message. You can also specify what separators and terminators (UNB) will be used for the segments in the interchange.  

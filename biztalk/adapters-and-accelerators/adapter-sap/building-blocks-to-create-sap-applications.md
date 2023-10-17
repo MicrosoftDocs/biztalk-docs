@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Building blocks to create SAP applications"
-title: "Building blocks to create SAP applications"
+title: "Building blocks to create SAP applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "design-time tasks"
+  - "run-time tasks"
+  - "developing, fundamentals of (BizTalk applications)"
+ms.assetid: 591a5597-5e7d-44b0-8bee-e1c987c5e6c3
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Building blocks to create SAP applications
 Performing operations on an SAP system using [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] involves two set of activities: design-time activities and run-time activities. To perform operations on an SAP system by using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must perform a set of design-time and run-time tasks using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console respectively. This section provides an overview of these tasks. All the topics in this section, which demonstrate how to perform specific operations on an SAP system using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], are modeled on these high-level tasks.  

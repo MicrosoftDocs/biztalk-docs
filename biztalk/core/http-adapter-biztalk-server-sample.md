@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: HTTP Adapter (BizTalk Server Sample)"
-title: "HTTP Adapter (BizTalk Server Sample)"
+title: "HTTP Adapter (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "HTTP adapters, examples"
+  - "examples, HTTP adapters"
+ms.assetid: f3bd8172-15c4-42fa-aa17-e4bed9d4aba4
+caps.latest.revision: 32
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # HTTP Adapter (BizTalk Server Sample)
 The HTTP Adapter sample demonstrates how to implement the request/response and solicit/response communication paradigms used in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

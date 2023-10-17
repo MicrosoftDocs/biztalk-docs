@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: About BizTalk Message Context Properties"
-title: "About BizTalk Message Context Properties"
+title: "About BizTalk Message Context Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bc700e43-a44c-482b-b91c-9f1d997a486a
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # About BizTalk Message Context Properties
 When a document is received by a BizTalk Server adapter, the adapter creates a BizTalk message for the document. The BizTalk message contains the document that was received as well as a message context. The message context is a container for various properties that are used by BizTalk Server when processing the document. Each property in the Message Context is composed of three things, a name, a namespace, and a value. For example, the following message context property describes the Interchange ID for a document:  

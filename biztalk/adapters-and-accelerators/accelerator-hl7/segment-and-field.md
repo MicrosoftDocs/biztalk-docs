@@ -1,9 +1,23 @@
 ---
 description: "Learn more about: Segment and Field"
 title: "Segment and Field"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "messages, segments"
+  - "messages, fields"
+  - "segments, messages"
+ms.assetid: e68864e6-590c-47f3-8c9e-81831aec2642
+caps.latest.revision: 3
+
+
+
 ---
 # Segment and Field
 A segment table defines an HL7 segment. Each segment definition follows the pattern shown below.  

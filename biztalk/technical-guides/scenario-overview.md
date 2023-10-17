@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Scenario Overview"
-title: "Scenario Overview"
+title: "Scenario Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ac14328d-c373-49da-a899-4b3ca7d6dc0a
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scenario Overview
 

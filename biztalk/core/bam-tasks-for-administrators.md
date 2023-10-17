@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BAM Tasks for Administrators"
-title: "BAM Tasks for Administrators"
+title: "BAM Tasks for Administrators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2d9ae9a6-50fa-4f82-8e48-8dffa55c127f
+caps.latest.revision: 33
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM Tasks for Administrators
 This topic describes typical tasks that BAM administrators undertake in managing the BAM infrastructure.

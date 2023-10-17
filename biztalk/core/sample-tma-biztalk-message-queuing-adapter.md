@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Sample TMA: BizTalk Message Queuing Adapter"
-title: "Sample TMA: BizTalk Message Queuing Adapter"
+title: "Sample TMA: BizTalk Message Queuing Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security examples [TMA], MSMQ adapters"
+  - "architecture, examples"
+  - "MSMQ adapters, TMA"
+  - "DFD, MSMQ adapters"
+  - "MSMQ adapters, data flow"
+ms.assetid: 15b4a540-2fcd-4668-b4b4-757f23ebd83e
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample TMA: BizTalk Message Queuing Adapter
 This topic presents the threat model analysis (TMA) for the BizTalk Message Queuing adapter scenario for the sample architecture.  

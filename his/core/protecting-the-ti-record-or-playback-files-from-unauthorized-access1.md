@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Protecting the TI Record or Playback Files from Unauthorized Access"
-title: "Protect the TI Record or Playback Files from Unauthorized Access"
+title: "Protect the TI Record or Playback Files from Unauthorized Access | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aab5d30d-8bf9-4d26-b1a9-f8fc0e71f9a8
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Protecting the TI Record or Playback Files from Unauthorized Access
 

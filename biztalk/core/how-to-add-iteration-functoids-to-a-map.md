@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Add Iteration Functoids to a Map"
-title: "How to Add Iteration Functoids to a Map"
+title: "How to Add Iteration Functoids to a Map | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1eaea929-e352-447d-b119-bd69b6b24e6c
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Iteration Functoids to a Map
 The **Iteration** functoid outputs the index of the current record in a looping structure, beginning at 1 for the first record, 2 for the second record, and so on.  

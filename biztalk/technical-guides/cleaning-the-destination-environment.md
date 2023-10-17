@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Cleaning the Destination Environment"
-title: "Cleaning the Destination Environment"
+title: "Cleaning the Destination Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8585853b-e625-48c3-a241-81ebf1be0e1e
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Cleaning the Destination Environment
 If the restore job encounters error conditions that cannot be resolved, clean the destination environment so that it can start from an empty environment. Running the stored procedure **sp_LogShippingClean** located in the master database on the destination [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance will “clean” the destination environment. This procedure drops all databases and deletes the last restored data set for the specified source.  

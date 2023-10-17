@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Message Flow in the Responder BTARN"
-title: "Message Flow in the Responder BTARN"
+title: "Message Flow in the Responder BTARN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Accelerator for RosettaNet, message flow"
+  - "BTARN, components"
+  - "messages, message flow"
+  - "responder BTARN"
+ms.assetid: 66de8694-a248-47e8-9483-9eedf2324b33
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Flow in the Responder BTARN
 Message flow on a responder computer starts with receiving a message over the Internet from the initiator computer. It involves converting that message from a RosettaNet Implementation Framework (RNIF)-compliant message to a message in the proprietary format of the back-end application, and then routing the message to the line-of-business application.  

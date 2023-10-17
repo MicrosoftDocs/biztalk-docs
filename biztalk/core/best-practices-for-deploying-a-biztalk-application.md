@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Best Practices for Deploying a BizTalk Application"
-title: "Best Practices for Deploying a BizTalk Application"
+title: "Best Practices for Deploying a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "best practices, deploying"
+  - "best practices, applications"
+  - "applications, best practices"
+  - "deploying, best practices"
+ms.assetid: 97ebf479-0dc5-4e95-b409-d3b6ad3d60d0
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Best Practices for Deploying a BizTalk Application
 This topic describes best practices for deploying a BizTalk application.

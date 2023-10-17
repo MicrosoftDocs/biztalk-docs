@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views"
-title: "Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views"
+title: "Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4fff9cd3-26c0-4d5c-8162-3fd7966a5020
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces Insert, Update, Delete, and Select operations for each table and view in the SQL Server database. These operations perform the appropriate SQL statement qualified by a WHERE clause. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] uses strongly-typed records and record sets in these operations.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Archive and Purge the BizTalkDTADb Database"
-title: "Archive and Purge the Tracking Database"
+title: "Archive and Purge the Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7014cf31-86e8-4829-8055-056442329009
+caps.latest.revision: 37
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Archive and Purge the BizTalkDTADb Database
 

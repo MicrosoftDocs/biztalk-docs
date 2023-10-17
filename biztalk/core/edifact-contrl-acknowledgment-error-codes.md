@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDIFACT CONTRL Acknowledgment Error Codes"
-title: "EDIFACT CONTRL Acknowledgment Error Codes"
+title: "EDIFACT CONTRL Acknowledgment Error Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d0c5ab75-d83d-4c3e-a054-8fe079219b61
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDIFACT CONTRL Acknowledgment Error Codes
 This topic lists the error codes used within the segments of an EDIFACT CONTRL acknowledgment. For more information about these segments, see [EDIFACT CONTRL Acknowledgment](../core/edifact-contrl-acknowledgment.md).  

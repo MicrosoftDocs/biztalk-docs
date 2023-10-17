@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How To Use REOverride to Specify a Remote Environment"
-title: "How To Use REOverride to Specify a Remote Environment2"
+title: "How To Use REOverride to Specify a Remote Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 46eef5d7-0e21-4baa-b45a-1317f963a3db
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How To Use REOverride to Specify a Remote Environment
 To programmatically specify an RE, the application uses the managed context entry.  The context property must be set to true  on the method from within designer.  

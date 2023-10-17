@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: DeleteParty (BizTalk Server Sample)"
-title: "DeleteParty (BizTalk Server Sample)"
+title: "DeleteParty (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "examples, parties"
+  - "parties, examples"
+  - "deleting, parties"
+  - "examples, administering"
+  - "parties, deleting"
+  - "administering, examples"
+ms.assetid: 8161af7d-76ef-4df5-81c8-f0f5c81df9a8
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # DeleteParty (BizTalk Server Sample)
 The DeleteParty sample demonstrates how to delete a specified party.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Receive Oracle Database change notifications incrementally using BizTalk Server"
-title: "Receive Oracle Database change notifications incrementally using BizTalk Server"
+title: "Receive Oracle Database change notifications incrementally using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 17cef39f-a1aa-4f46-993f-620008f3890d
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive Oracle Database change notifications incrementally using BizTalk Server
 > [!IMPORTANT]

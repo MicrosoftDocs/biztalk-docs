@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Custom Type Converter for Adapter Configuration"
-title: "Custom Type Converter for Adapter Configuration"
+title: "Custom Type Converter for Adapter Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 60e94dde-d29d-43ff-84b0-b2ba86851151
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Custom Type Converter for Adapter Configuration
 Like the custom editor, the custom type converter overrides the **System.ComponentModel.TypeConverter** class of one of its children. Here, the converter adds formatting to the value to be persisted but does not appear on the property page. The **ConvertFrom** method adds square brackets around the string value and the **ConvertTo** method removes them.  

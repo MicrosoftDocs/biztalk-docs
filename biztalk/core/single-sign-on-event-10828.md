@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10828"
-title: "Single Sign-On: Event 10828"
+title: "Single Sign-On: Event 10828 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e01c0372-48e4-4f8a-8ce7-7c3aa927dce5
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10828
 ## Details  

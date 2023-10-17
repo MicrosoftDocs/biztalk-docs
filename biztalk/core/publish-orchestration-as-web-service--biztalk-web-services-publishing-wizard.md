@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service"
-title: "How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service"
+title: "How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "Web services, publishing"
+  - "BizTalk Web Services Publishing Wizard, publishing"
+  - "BizTalk Web Services Publishing Wizard"
+  - "Web services, orchestrations"
+  - "BizTalk Web Services Publishing Wizard, orchestrations"
+  - "BizTalk Web Services Publishing Wizard, about BizTalk Web Services Publishing Wizard"
+  - "orchestrations, publishing"
+ms.assetid: d990f8e4-88ce-4718-8a94-63796b8d92dc
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service
 You use the BizTalk Web Services Publishing Wizard to publish an orchestration as a Web service.

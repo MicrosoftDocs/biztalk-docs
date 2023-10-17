@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SSCP Session Status"
-title: "SSCP Session Status2"
+title: "SSCP Session Status2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 56dbec2f-aad8-4a81-a2f3-68bb917433a1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SSCP Session Status
 While the system services control point (SSCP) connection is open, the local node reports the initial state and any subsequent changes of state of the SSCP session to the application using [Status-Session](./status-session2.md) messages. There are four distinct **Status-Session** status codes that can occur for the SSCP connection:  

@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: SelectiveBindingImport (Application Deployment Sample)"
-title: "SelectiveBindingImport (Application Deployment Sample)"
+title: "SelectiveBindingImport (Application Deployment Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "binding files, importing"
+  - "examples, applications"
+  - "binding files, examples"
+  - "examples, importing"
+  - "applications, binding files"
+  - "applications, examples"
+  - "applications, importing"
+  - "deploying, scripts"
+  - "examples, binding files"
+ms.assetid: 963bfc80-8cc4-4d90-96b4-e85ae04405cf
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SelectiveBindingImport (Application Deployment Sample)
 This topic explains how to use the SelectiveBindingImport sample. You can use this sample script to apply different bindings to an application when you import the application into different destination environments. You can use this approach when you want to import the bindings from binding files that are stored on a network share.  

@@ -1,9 +1,23 @@
 ---
 description: "Learn more about: Message Modes"
 title: "Message Modes"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "message modes, about message modes"
+  - "messages, message modes"
+  - "message modes, HL7 messages"
+ms.assetid: 2d832b67-6f0e-45e1-95ac-cb80b74a7831
+caps.latest.revision: 3
+
+
+
 ---
 # Message Modes
 There are two basic concepts that underlie all HL7 messages. These concepts address different ways in which independent systems that exchange data can interact, and provide a structure that supports the requirements of interoperability over time within a distributed health care system. The concepts listed below define the underlying themes behind the HL7 design:  

@@ -1,12 +1,19 @@
 ---
-title: "Microsoft BizTalk Accelerator for RosettaNet documentation"
+title: "Microsoft BizTalk Accelerator for RosettaNet documentation | Microsoft Docs"
 description: Quick links to install, get started, learn, programming and tools, administration, and troubleshooting the RosettaNet accelerator (BTARN) in BizTalk Server
+caps.latest.revision: 7
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
 ms.date: "08/09/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 04c3a612-6cbc-4595-af81-dec3261803af
+ms.author: "mandia"
 ---
 
 # Microsoft BizTalk Accelerator for RosettaNet documentation

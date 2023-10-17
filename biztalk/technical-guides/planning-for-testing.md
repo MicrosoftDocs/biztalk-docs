@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Planning for Testing"
-title: "Planning for Testing"
+title: "Planning for Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ca2f5f29-9eea-4f4d-9781-75c231db4605
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Planning for Testing
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] testing can be divided into several categories including unit testing, functional testing, load testing, and availability testing. This topic describes unit and load testing and how to plan for each.

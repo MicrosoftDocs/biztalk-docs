@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: The MessageBox Database"
-title: "The MessageBox Database"
+title: "The MessageBox Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, MessageBox database"
+  - "messages, suspended messages"
+  - "MessageBox database, messages"
+  - "MessageBox database, about MessageBox database"
+  - "MessageBox database, suspended messages"
+  - "suspended messages"
+  - "MessageBox database"
+  - "suspended messages, MessageBox database"
+ms.assetid: f89eb02c-1b83-4127-8a91-e78fb4a1f96e
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The MessageBox Database
 The heart of the publish/subscribe engine in Microsoft BizTalk Server is the MessageBox database. The MessageBox is made up of two components: one or more Microsoft SQL Server databases and the Messaging Agent. The SQL Server database provides the persistence store for many things including messages, message parts, message properties, subscriptions, orchestration state, tracking data, host queues for routing, and others. The BizTalk Server group may have one or more MessageBox databases into which it publishes messages and from which subscribers to those messages extract messages.  

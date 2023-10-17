@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Instantiating and Initializing a Send Adapter"
-title: "Instantiating and Initializing a Send Adapter"
+title: "Instantiating and Initializing a Send Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f10e6507-3351-4173-95f5-48546ca5f5c4
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Instantiating and Initializing a Send Adapter
 By default, send adapters are not instantiated until the first message is delivered to them, a process known as "lazy creation." The default lazy creation approach helps to conserve system resources. After the send adapter is created, it is cached and lives until the BizTalk Server service is stopped.  

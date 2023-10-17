@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10564"
-title: "Single Sign-On: Event 10564"
+title: "Single Sign-On: Event 10564 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e523c97a-608e-4bf4-8747-cfa0cce10acf
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10564
 ## Details  

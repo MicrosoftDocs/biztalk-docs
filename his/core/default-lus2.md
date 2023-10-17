@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Default LUs"
-title: "Default LUs2"
+title: "Default LUs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 028bc723-82c5-4095-a899-2868272f7ae8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Default LUs
 Any LU can be configured to be in a pool of default local LUs available for use by invoking transaction programs (TPs).  

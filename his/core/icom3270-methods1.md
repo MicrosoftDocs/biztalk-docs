@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Icom3270 Methods"
-title: "Icom3270 Methods1"
+title: "Icom3270 Methods1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b28d466b-064d-4248-966f-433708c6011e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Icom3270 Methods
 The methods of the Icom3720 interfaces are listed in the following table. For a complete list of the IcomLU0 members, see [Icom3270 Members](../core/icom3270-members1.md).  

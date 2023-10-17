@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Loopback Tutorial"
-title: "Loopback Tutorial"
+title: "Loopback Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "loopbacks, tutorial"
+  - "loopback tutorial, about the loopback tutorial"
+  - "loopback tutorial"
+  - "tutorials, loopback tutorial"
+ms.assetid: 0f69c1f1-4039-4949-8eed-127ceabbc3cc
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Loopback Tutorial
 This tutorial contains detailed steps that describe how you can use Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] to simulate a process implementation between the home and partner organization on a single computer.  

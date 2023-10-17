@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring Date Time Conversions"
-title: "Configuring Date Time Conversions"
+title: "Configuring Date Time Conversions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 60270aa0-2d8e-407c-9a11-ede2aa42e3e0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring Date Time Conversions
 The DRDA Service will format string literal date time values from source and into target formats when processing dynamic and static SQL statements, for specific date time and character data types. The **conversionFormats** element contains dateMasks, timeMasks, and dateTimeMasks for converting to and from DB2 and SQL Server datetime formats.  

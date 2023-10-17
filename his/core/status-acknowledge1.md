@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-Acknowledge"
-title: "Status-Acknowledge1"
+title: "Status-Acknowledge1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 66c96c0a-c95c-47a7-a99d-2bb844d3eecf
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-Acknowledge
 **Status-Acknowledge** messages flow between the application and the local node as part of the outbound and inbound data acknowledgment protocols. For a detailed description of outbound and inbound acknowledgment protocols, see [Data Flow](./data-flow1.md).  

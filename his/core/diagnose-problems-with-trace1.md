@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Diagnose Problems with Trace"
-title: "Diagnose Problems with Trace1"
+title: "Diagnose Problems with Trace1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d9ab10d2-f34e-4680-bad1-ea539359b053
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Diagnose Problems with Trace
 The following table shows examples of possible difficulties and the types of tracing that may be useful.  

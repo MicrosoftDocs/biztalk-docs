@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Install the BizTalk Adapter Pack 2016"
-title: "How to install the BizTalk Adapter Pack 2016"
+title: "How to install the BizTalk Adapter Pack 2016 | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/16/2021"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 23c74470-6336-49be-95c3-32b5c279e0ab
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to install the BizTalk Adapter Pack 2016
 ## Overview

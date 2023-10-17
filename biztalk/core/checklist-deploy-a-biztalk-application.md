@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Checklist: Deploy a BizTalk Application"
-title: "Checklist: Deploy a BizTalk Application"
+title: "Checklist: Deploy a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "checklists, deploying"
+  - "applications, deploying"
+  - "deploying [applications], checklists"
+  - "checklists, applications"
+  - "applications, checklists"
+ms.assetid: 0f936475-eea7-49b0-a4ea-9488b4ce3847
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Deploy a BizTalk Application
 

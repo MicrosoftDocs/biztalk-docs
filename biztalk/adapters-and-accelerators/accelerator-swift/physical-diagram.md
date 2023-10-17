@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Physical Diagram"
-title: "Physical Diagram"
+title: "Physical Diagram | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying, network configuration"
+ms.assetid: 4291727b-8687-496a-8f03-0da4b3201967
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Physical Diagram
 A typical deployment has clustered BizTalk Server computers for messaging (sending and receiving), BizTalk Server computers for executing the business process (orchestration), BizTalk Server computers for accessing the InfoPath templates (MRSR site), and clustered SQL Server computers. The following deployment ensures a secure environment from both the intranet and Internet users.  

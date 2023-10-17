@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Browse, search, and get SAP metadata"
-title: "Browse, search, and get SAP metadata"
+title: "Browse, search, and get SAP metadata | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "metadata"
+  - "adapters, surfacing metadata"
+  - "TRFC"
+  - "RFC"
+  - "metadata, browsing, searching, retrieving"
+  - "adapters, operations"
+  - "BAPI"
+  - "IDOC"
+ms.assetid: 5f0d7c1f-d6e1-4c56-8d8e-1f5d537aa3ce
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Browse, search, and get SAP metadata
 The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces metadata from the SAP system. This metadata describes the message structure for communicating with an SAP system using the adapter. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports two interfaces for retrieving metadata.  

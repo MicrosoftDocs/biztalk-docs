@@ -1,9 +1,25 @@
 ---
 description: "Learn more about: Creating a WMI Sink for Auditing and Logging Events"
 title: "Creating a WMI Sink for Auditing and Logging Events"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "WMI sink"
+  - "auditing, WMI sink"
+  - "WMI sink, auditing"
+  - "logging, WMI sink"
+  - "WMI sink, logging"
+ms.assetid: 5feb1e98-32ed-4505-878e-274028d50c3c
+caps.latest.revision: 3
+
+
+
 ---
 # Creating a WMI Sink for Auditing and Logging Events
 You can use the following sample code to create a [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Management Instrumentation (WMI) sink to monitor auditing and logging events:  

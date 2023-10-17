@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Working with Breakpoints"
-title: "Working with Breakpoints"
+title: "Working with Breakpoints | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Orchestration Debugger, breakpoints"
+  - "Orchestration Debugger, suspended orchestrations"
+  - "Orchestration Debugger, Message Flow view"
+  - "Orchestration Debugger, service options"
+  - "Message Flow view [Orchestration Debugger]"
+ms.assetid: aad1a2b0-d705-49cd-85f7-b0ab2e473bcc
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working with Breakpoints
 You can set breakpoints by attaching to a suspended orchestration, or by setting a breakpoint on a class.  

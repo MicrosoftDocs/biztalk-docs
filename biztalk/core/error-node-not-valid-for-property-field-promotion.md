@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Node Not Valid For Property Field Promotion"
-title: "Error - Node Not Valid For Property Field Promotion"
+title: "Error - Node Not Valid For Property Field Promotion | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.nodeNotValidForPropFieldProm"
+ms.assetid: ee386309-d134-4e5f-b9fe-f7cb6cca2819
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Node Not Valid For Property Field Promotion
 **Error Code**  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to resize the schema picker, and expand and collapse the schema trees"
-title: "How to resize the schema picker, and expand and collapse the schema trees"
+title: "How to resize the schema picker, and expand and collapse the schema trees | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 267ea17d-54fe-4031-a044-719606489f24
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to resize the schema picker, and expand and collapse the schema trees
 When developing BizTalk maps, you are likely to need to expand and collapse the source and destination schema trees to expose or to hide the various schema nodes. This topic provides step-by-step instructions to resize the schema picker, and to expand and collapse the schema tree.  

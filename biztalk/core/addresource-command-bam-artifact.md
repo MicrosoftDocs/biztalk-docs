@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AddResource Command: BAM Artifact"
-title: "AddResource Command: BAM Artifact"
+title: "AddResource Command: BAM Artifact | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a9de7a82-9b06-4d50-9678-73140e80d0af
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AddResource Command: BAM Artifact
 To add a BAM artifact to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:Bam** for the Type parameter. Running this command adds the BAM artifact file to the BizTalk Management database. The BAM artifact is also displayed in the BizTalk Server Administration console, in the Resources folder of the application to which you added it. In addition, the file is listed when you use the [ListApp Command](../core/listapp-command.md).  

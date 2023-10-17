@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Install the Enterprise Single Sign-On Client Utility"
-title: "How to Install the Enterprise Single Sign-On Client Utility"
+title: "How to Install the Enterprise Single Sign-On Client Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b517ce65-85c8-419d-851b-cf025d3b0e4e
+caps.latest.revision: 6
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Install the Enterprise Single Sign-On Client Utility
 The stand-alone Single Sign-On (SSO) client utility (ssoclient.exe) enables end users to configure their client mappings in the credential database. You can install the client utility from a self-extracting file (SSOClientInstall.exe), which is installed with the SSO administration feature. Administrators can also make the installer package available to client users by placing a copy of the installer package on a network share.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create Filter Wizard: Advanced"
-title: "Create Filter Wizard: Advanced2"
+title: "Create Filter Wizard: Advanced2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 250cda85-7c7c-45cb-8358-2d7dee0fb6e2
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create Filter Wizard: Advanced
 Set these properties according to any restrictions on your host system.  

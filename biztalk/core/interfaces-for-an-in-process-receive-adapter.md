@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Interfaces for an In-Process Receive Adapter"
-title: "Interfaces for an In-Process Receive Adapter"
+title: "Interfaces for an In-Process Receive Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4ed668d9-7512-4026-a8f3-df05aeed4df6
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Interfaces for an In-Process Receive Adapter
 The Messaging Engine instantiates and configures in-process adapters, passing in the transport proxy to allow the adapter to access its functionality. To enable configuration and binding to the transport proxy, adapters must implement the following configuration interfaces:  

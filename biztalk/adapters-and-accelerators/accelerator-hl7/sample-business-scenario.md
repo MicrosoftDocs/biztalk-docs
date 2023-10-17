@@ -1,9 +1,24 @@
 ---
 description: "Learn more about: Sample Business Scenario"
 title: "Sample Business Scenario"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "BTAHL7, business example"
+  - "examples, business processes"
+  - "health care organizations, business example"
+  - "business processes, example"
+ms.assetid: 54bfbe45-4638-4488-bbd8-c642926a35d3
+caps.latest.revision: 5
+
+
+
 ---
 # Sample Business Scenario
 Health care processes are often complex and involve many systems. An example is the process that occurs when a patient enters a hospital, and a physician sends the patient for a lab test. Involved in this procedure are five parties:  

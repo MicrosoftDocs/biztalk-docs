@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Ambiguous certificate reference"
-title: "Ambiguous certificate reference"
+title: "Ambiguous certificate reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a7a6a60d-97e6-4c60-86be-83efb4a50f99
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Ambiguous certificate reference
 ## Details  

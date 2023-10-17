@@ -1,12 +1,19 @@
 ---
 description: "Learn how to create Messages by filling in the Identifier and MessageType>Schema."
-title: "Task 2: Create the Messages2"
+title: "Task 2: Create the Messages2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2db67595-bcb6-455b-ad81-07b4426b7ea4
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Task 2: Create the Messages
 

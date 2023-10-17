@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AddResource Command: BizTalk Binding"
-title: "AddResource Command: BizTalk Binding"
+title: "AddResource Command: BizTalk Binding | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 69c732d3-82c8-4615-b68f-ed29b54ebbf3
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AddResource Command: BizTalk Binding
 To add a binding file to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:BizTalkBinding** for the **Type** parameter. When you add a binding file, you can specify a deployment environment for it. When you later import the application, you can select this deployment environment to apply the bindings. You can add any number of binding files to a BizTalk application, each one customized for a different deployment environment. You add multiple binding files by running this command for each file to add.  

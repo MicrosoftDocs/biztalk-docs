@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unsupported security algorithm suite"
-title: "Unsupported security algorithm suite"
+title: "Unsupported security algorithm suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 11696fed-c3a8-4b11-8249-9f99f7abc8f2
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unsupported security algorithm suite
 ## Details  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: SAPConnection class in the SAP adapter"
-title: "SAPConnection class in the SAP adapter"
+title: "SAPConnection class in the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SAPConnection, supported methods, classes, and constructors"
+ms.assetid: a700602d-8135-4f67-a38b-770357d4e28b
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SAPConnection class in the SAP adapter
 The following section lists the methods and properties for the **SAPConnection** class. This represents an ADO.NET connection to the SAP application server.  

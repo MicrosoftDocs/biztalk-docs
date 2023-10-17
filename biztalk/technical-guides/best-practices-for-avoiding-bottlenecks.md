@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Best Practices for Avoiding Bottlenecks"
-title: "Best Practices for Avoiding Bottlenecks"
+title: "Best Practices for Avoiding Bottlenecks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 81da2e31-dce0-43fb-841f-e65ff99e80a7
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Best Practices for Avoiding Bottlenecks
 While the default settings in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provide optimal performance for many hardware and software configurations, in some scenarios it may be beneficial to modify the settings or deployment configuration. When configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], consider the following performance guidelines:  

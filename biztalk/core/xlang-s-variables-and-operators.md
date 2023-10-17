@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: XLANG-s Variables and Operators"
-title: "XLANG-s Variables and Operators"
+title: "XLANG-s Variables and Operators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 02512789-2cb9-4ba9-aa78-e59b248e6b24
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # XLANG-s Variables and Operators
 This section discusses the variables and operators used in the XLANG/s language.  

@@ -1,12 +1,20 @@
 ---
 description: "Learn more about: Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query/Response Scenario"
-title: "Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query-Response Scenario using BizTalk Explorer"
+title: "Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query-Response Scenario using BizTalk Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "private process tutorial, creating ports"
+ms.assetid: e0b12a96-e799-47ac-8293-7de10662bdf0
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query/Response Scenario
 In this step, you create send ports using the SQL adapter provided by BizTalk Server. You use the SQL port for sending and receiving the 3A2 Price and Availability response to and from the ERP system for Contoso.  

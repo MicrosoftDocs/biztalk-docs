@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Assign a Different Code Page to a Remote Environment"
-title: "How to Assign a Different Code Page to a Remote Environment2"
+title: "How to Assign a Different Code Page to a Remote Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ae52a594-18c9-4dc5-acb4-43b80942aa05
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Assign a Different Code Page to a Remote Environment
 Use a remote environment (RE) to describe each CICS or IMS mainframe environment. Use Transaction Integrator (TI) Manager to create, modify, and delete REs.  

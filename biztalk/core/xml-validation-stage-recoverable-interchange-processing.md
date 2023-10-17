@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: XML Validation Stage (Recoverable Interchange Processing)"
-title: "XML Validation Stage (Recoverable Interchange Processing)"
+title: "XML Validation Stage (Recoverable Interchange Processing) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1ed00971-d85b-4adb-86c4-c56de7ba7c67
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # XML Validation Stage (Recoverable Interchange Processing)
 The **XML validator** pipeline component processes an interchange in two modes:  

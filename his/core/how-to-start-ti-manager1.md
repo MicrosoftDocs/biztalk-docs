@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Start TI Manager"
-title: "How to Start TI Manager1"
+title: "How to Start TI Manager1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6e65d569-2312-4a0d-84af-8b2205bd51bf
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Start TI Manager
 You can start TI (Transaction Integrator) Manager many different ways:  

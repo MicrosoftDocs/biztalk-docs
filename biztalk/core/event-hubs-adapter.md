@@ -1,12 +1,17 @@
 ---
-title: "Use the Event Hubs adapter"
+title: "Use the Event Hubs adapter | Microsoft Docs"
 description: Send and receive messages using the Azure Event Hubs adapter in BizTalk Server
 ms.custom: ""
 ms.date: "11/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Event Hub adapter in BizTalk

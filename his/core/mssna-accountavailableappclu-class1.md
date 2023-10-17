@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_AccountAvailableAppcLu Class"
-title: "MsSna_AccountAvailableAppcLu Class1"
+title: "MsSna_AccountAvailableAppcLu Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3873292c-918f-48ae-a65d-ce21820814f8
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_AccountAvailableAppcLu Class
 For the logged-on user account and workstation, the assigned APPC LU resources.  

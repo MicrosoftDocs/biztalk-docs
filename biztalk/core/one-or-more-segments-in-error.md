@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: One or more segments in error"
-title: "One or more segments in error"
+title: "One or more segments in error | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4ee86667-e72a-4f1b-8d5c-15ca710dbe5d
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # One or more segments in error
 ## Details  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Role of the Base"
-title: "Role of the Base1"
+title: "Role of the Base1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a5bb7a62-0e26-42ec-9b6f-ad67131b9b64
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Role of the Base
 The Base is a part of each Host Integration Server gateway component, such as the local 2.1 node or a link service that provides the operating environment for the core functions of that component. It passes messages between components and provides functions common to all components, such as diagnostic tracing.  

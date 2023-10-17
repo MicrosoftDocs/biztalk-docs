@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Keyboard Shortcuts Specific to Port Connectors"
-title: "Keyboard Shortcuts Specific to Port Connectors"
+title: "Keyboard Shortcuts Specific to Port Connectors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "keyboard shortcuts, Orchestration Designer"
+  - "Orchestration Designer, keyboard shortcuts"
+ms.assetid: 140d156f-b294-47ad-9b7c-931a31959d31
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Keyboard Shortcuts Specific to Port Connectors
 The following keyboard shortcuts are specific to Port Connectors.  

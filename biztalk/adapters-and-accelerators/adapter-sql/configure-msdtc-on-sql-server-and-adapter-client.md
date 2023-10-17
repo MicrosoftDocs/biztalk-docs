@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configure MSDTC on SQL Server and adapter client"
-title: "Configure MSDTC on SQL Server and adapter client"
+title: "Configure MSDTC on SQL Server and adapter client | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2c87f455-a8c4-4169-bf18-695926136df1
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Configure MSDTC on SQL Server and adapter client

@@ -1,12 +1,18 @@
 ---
 description: "Learn about security in the DRDA Service that connects IBM DB2 DRDA Application Requester client programs to Microsoft SQL Server databases."
-title: "Security1"
+title: "Security1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 99a850c3-75d6-4427-a993-b4a15bbe603e
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Security
 

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: High Availability for BizTalk Hosts"
-title: "High Availability for BizTalk Hosts"
+title: "High Availability for BizTalk Hosts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3153f7f7-7e82-4b0c-9b48-e9f871de285d
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # High Availability for BizTalk Hosts
 BizTalk Server provides great flexibility in addressing high availability because you can strategically dedicate logical hosts to run specific areas of functionality, such as receiving and sending messages or processing orchestrations, that can be physically deployed to multiple servers.

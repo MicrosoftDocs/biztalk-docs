@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Back Up the Master Secret"
-title: "How to Back Up the Master Secret"
+title: "How to Back Up the Master Secret | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [Master Secret server], backing up"
+  - "backing up, Master Secret server"
+  - "Master Secret server, backing up"
+ms.assetid: 22c23f66-b7df-4379-8a9f-065406ba8aa8
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Back Up the Master Secret
 You can back up the master secret from the master secret server onto an NTFS file system or removable media, such as a floppy disk.  

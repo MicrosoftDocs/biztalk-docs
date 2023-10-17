@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Get Metadata in SAP using IMetadataRetrievalContract"
-title: "Get Metadata in SAP using IMetadataRetrievalContract"
+title: "Get Metadata in SAP using IMetadataRetrievalContract | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "how to, search metadata"
+  - "searching metadata"
+  - "how to, browse metadata"
+  - "browsing metadata"
+ms.assetid: 0944fc39-9ee5-4702-8b52-e0bc87f202c6
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get Metadata in SAP using IMetadataRetrievalContract
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes an **IMetadataRetrievalContract**endpoint that you can use to browse and search for SAP system artifacts and to retrieve metadata in the form of a Web Services Description Language (WSDL) document for operations.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AddResource Command"
-title: "AddResource Command"
+title: "AddResource Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7b09bd8d-5e07-4443-b626-60401a158540
+caps.latest.revision: 33
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AddResource Command
 The topics in this section provide reference information about the parameters of the AddResource command. The parameters that you use with this command vary according to the type of artifact that you want to add. To obtain complete lists of artifact types, use the **ListTypes** command, as described in [ListTypes Command](../core/listtypes-command.md).  

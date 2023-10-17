@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Get Metadata Programmatically from SAP"
-title: "Get Metadata Programmatically from SAP"
+title: "Get Metadata Programmatically from SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "IMetadataRetrievalContract endpoint"
+  - "metadata, retrieving programmatically"
+  - "WS-Metadata Exchange (MEX) endpoint"
+ms.assetid: 8d75332e-c103-4bd5-a9a2-56d21747a04e
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get Metadata Programmatically from SAP
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] is a custom WCF binding that exposes an SAP system as a WCF service. The adapter exposes the SAP system as a self-describing service; that is, a service that is capable of publishing metadata about the operations that it supports. Metadata describes the logical interface to a WCF service; that is, the service contract, messages, and message schemas that must be used to interact with the service.  

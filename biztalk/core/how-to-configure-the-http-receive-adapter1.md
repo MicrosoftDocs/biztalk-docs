@@ -1,12 +1,22 @@
 ---
 description: "Learn how to configure the HTTP receive adapter that receives and submits messages to BizTalk Server."
-title: "How to Configure the HTTP Receive Adapter1"
+title: "How to Configure the HTTP Receive Adapter1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "HTTP receive adapter, configuring"
+  - "configuring HTTP receive adapter"
+ms.assetid: e7dbfed3-9dd8-49c9-90b6-a655d7c5446f
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the HTTP Receive Adapter
 

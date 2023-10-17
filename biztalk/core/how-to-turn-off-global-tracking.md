@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Turn Off Global Tracking"
-title: "How to Turn Off Global Tracking"
+title: "How to Turn Off Global Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: eae3059a-cbdd-47c4-84cd-edfb5480b9fa
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Turn Off Global Tracking
 By default, global tracking is enabled when you install BizTalk Server. The BizTalk Tracking (BizTalkDTADb) database grows in size as [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes data on your system. If the size of the BizTalk Tracking database causes poor disk performance, you can purge the data from the Tracking database. If you are having performance issues that are momentarily addressed by purging the BizTalk tracking database, and you want to configure BizTalk to no longer collect tracking information, you may want to consider turning off global tracking.  

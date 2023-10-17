@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: ExportParties Command"
-title: "ExportParties Command"
+title: "ExportParties Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b421c8ed-d505-48ba-9d1d-8519c9d51750
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ExportParties Command
 Exports all the parties and agreements to an XML bindings file.

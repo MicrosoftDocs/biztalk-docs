@@ -1,12 +1,19 @@
 ---
-title: "Metadata Node IDs for the SQL adapter in BizTalk Adapter Pack"
+title: "Metadata Node IDs for the SQL adapter in BizTalk Adapter Pack | Microsoft Docs"
 description: Metadata, search, retrieval nodes types and IDs used in SQL components that are exposed in SQL Server adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8601a328-5380-4577-a121-c926e0fd3140
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Node types and IDs for the SQL Server adapter
 

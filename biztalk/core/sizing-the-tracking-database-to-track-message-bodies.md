@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Sizing the Tracking Database to Track Message Bodies"
-title: "Sizing the Tracking Database to Track Message Bodies"
+title: "Sizing the Tracking Database to Track Message Bodies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Tracking database, database size"
+  - "message variables [Tracking database], MsgNum"
+  - "HAT, ports"
+  - "Tracking database, messages"
+  - "tracking, orchestrations"
+  - "tracking, messages"
+  - "HAT, orchestrations"
+  - "tracking, ports"
+ms.assetid: ee75e530-f15d-4ceb-ba67-0b0b24d9df6b
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sizing the Tracking Database to Track Message Bodies
 If you plan to track the message bodies in the BizTalk Tracking database, then you will also need to account for the size of these bodies in your calculation. Use the following equation:  

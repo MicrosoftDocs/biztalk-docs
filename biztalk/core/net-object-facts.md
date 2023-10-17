@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: .NET Object Facts"
-title: ".NET Object Facts"
+title: ".NET Object Facts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "facts, .NET objects"
+  - "Business Rule Composer, .NET object facts"
+  - ".NET objects"
+ms.assetid: 68323022-8359-44ce-a60c-191850785822
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # .NET Object Facts
 In the Business Rule Composer, you can specify a .NET assembly as a data source. You can subsequently select a class or class member from the assembly, and drag it onto a vocabulary definition or rule.  

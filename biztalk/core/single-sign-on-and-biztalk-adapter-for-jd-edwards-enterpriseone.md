@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Single Sign-On and BizTalk Adapter for JD Edwards EnterpriseOne"
-title: "Single Sign-On and BizTalk Adapter for JD Edwards EnterpriseOne"
+title: "Single Sign-On and BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "JD Edwards EnterpriseOne adapters, Single Sign-On"
+  - "Single Sign-On, JD Edwards EnterpriseOne adapters"
+  - "adapters [JD Edwards EnterpriseOne adapters], Single Sign-On"
+ms.assetid: efcc3a2d-18a6-4090-9e95-143fb7a356b2
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On and BizTalk Adapter for JD Edwards EnterpriseOne
 When you use Single Sign-On (SSO) with Microsoft   Adapter for JD Edwards EnterpriseOne, the adapter obtains the credentials from the SSO Credentials database. Therefore, you do not need to enter the logon credentials for the server system in the **Transport Properties** dialog box.  

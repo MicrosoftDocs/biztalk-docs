@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Performing Weekly Performance Checks"
-title: "Checklist: Performing Weekly Performance Checks"
+title: "Checklist: Performing Weekly Performance Checks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c36fe78d-1be8-49f2-97ce-b6d0cadffab8
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Performing Weekly Performance Checks
 This topic lists best practices that you should follow on a weekly basis when to avoid performance issues with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: System Resource Costs on Hyper-V"
-title: "System Resource Costs on Hyper-V"
+title: "System Resource Costs on Hyper-V | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9f25a76c-1c41-41c0-b28d-d7473dbe1cd1
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # System Resource Costs on Hyper-V
 ## System Resource Costs Associated with Running a Guest Operating System on Hyper-V

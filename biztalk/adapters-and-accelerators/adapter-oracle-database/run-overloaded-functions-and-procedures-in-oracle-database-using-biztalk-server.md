@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Invoke Overloaded Functions and Procedures in Oracle Database using BizTalk Server"
-title: "Invoke Overloaded Functions and Procedures in Oracle Database using BizTalk Server"
+title: "Invoke Overloaded Functions and Procedures in Oracle Database using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "overloaded functions and procedures, invoking by using BizTalk Server"
+ms.assetid: a3d76361-6b0c-415a-b4f9-31939abfdc36
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invoke Overloaded Functions and Procedures in Oracle Database using BizTalk Server
 Stored procedures and functions can be overloaded in an Oracle database. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports overloaded functions and procedures by changing the target namespace of the operation. For example, the message structure for two overloaded procedures looks like:  

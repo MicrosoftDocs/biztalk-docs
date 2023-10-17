@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Functional Group Version Not Supported"
-title: "Functional Group Version Not Supported"
+title: "Functional Group Version Not Supported | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 715e6585-a07a-4060-a15b-0c9603fbef19
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Functional Group Version Not Supported
 ## Details  

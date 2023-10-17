@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Prepare Your Computer for Installation"
-title: "Prepare Your Computer for Installation"
+title: "Prepare Your Computer for Installation | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 53df7a2f-638b-4921-a97f-736760248526
+caps.latest.revision: 32
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Prepare Your Computer for Installation
 This topic lists the steps to prepare your computer by installing and configuring all software prerequisites, and then creating accounts and setting permissions.

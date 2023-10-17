@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Copying and Pasting Displayed Information (5250)"
-title: "Copying and Pasting Displayed Information (5250)2"
+title: "Copying and Pasting Displayed Information (5250)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3b474df6-16d3-40fb-978e-7ba13882f990
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Copying and Pasting Displayed Information (5250)
 The 5250 Client allows you to make a copy of the information in the display, so that you can use that information in other applications. To do this, select a portion of the displayed information, and then copy it to the Windows Clipboard. After copying information to the Clipboard, you can change to a different application and transfer the information into that application.  

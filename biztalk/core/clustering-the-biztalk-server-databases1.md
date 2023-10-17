@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Clustering the BizTalk Server Databases"
-title: "Clustering the BizTalk Server Databases1"
+title: "Clustering the BizTalk Server Databases1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "clustering, how to"
+  - "clustering, SQL Servers"
+  - "SQL Server, clustering"
+  - "BizTalk Server Configuration Wizard"
+  - "high availability, databases"
+  - "clustering, BizTalk Server Configuration Wizard"
+  - "clustering, databases"
+  - "clustering, prerequisites"
+ms.assetid: 9a1ed843-483b-4a56-961b-bc6801a07b64
+caps.latest.revision: 32
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Cluster the BizTalk Server Databases
 

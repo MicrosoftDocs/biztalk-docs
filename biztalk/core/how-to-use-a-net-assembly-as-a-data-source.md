@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: How to Use a .NET Assembly as a Data Source"
-title: "How to Use a .NET Assembly as a Data Source"
+title: "How to Use a .NET Assembly as a Data Source | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Business Rule Composer, data sources"
+ms.assetid: 14dbec48-acc9-4c3c-bd7f-737dabf29543
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use a .NET Assembly as a Data Source
 You can specify a .NET assembly as a data source. You can subsequently select a class or class member from the assembly, and drag it onto a vocabulary definition or rule.  

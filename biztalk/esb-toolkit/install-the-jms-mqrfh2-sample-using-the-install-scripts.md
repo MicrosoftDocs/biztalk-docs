@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Install the JMS MQRFH2 Sample Using the Install Scripts"
-title: "Install the JMS MQRFH2 Sample Using the Install Scripts"
+title: "Install the JMS MQRFH2 Sample Using the Install Scripts | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 785f3e32-83b4-406a-af1b-9499115fbb8f
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install the JMS MQRFH2 Sample Using the Install Scripts
 This section describes how you can install the JMS MQRFH2 sample using the install scripts provided with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  

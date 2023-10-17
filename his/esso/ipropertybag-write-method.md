@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: IPropertyBag.Write Method"
-title: "IPropertyBag.Write Method"
+title: "IPropertyBag.Write Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6ba41d83-f462-4994-adb7-baeb11633789
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # IPropertyBag.Write Method
 Writes the specified Single Sign-on property.  

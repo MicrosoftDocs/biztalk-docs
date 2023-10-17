@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Set_Processing_Mode (CPI-C)"
-title: "Set_Processing_Mode (CPI-C)2"
+title: "Set_Processing_Mode (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 06f24196-7c68-442e-a932-a28ab1f7dc3d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Set_Processing_Mode (CPI-C)
 The **Set_Processing_Mode** call (function name **cmspm**) specifies for the conversation whether subsequent calls will be returned when the operation they have requested is complete (blocking) or immediately after the operation is initiated (nonblocking).  

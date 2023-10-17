@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Code a Transaction Integrator Application"
-title: "How to Code a Transaction Integrator Application2"
+title: "How to Code a Transaction Integrator Application2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 319669d1-6eed-4eba-8859-67d865ab47a8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Code a Transaction Integrator Application
 Once you have deployed a Transaction Integrator (TI) component, you can write code against that component. Once you are finished writing your code, you can test your code, and if necessary modify the interface to the TI component.  

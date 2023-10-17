@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Warning - Promoted Field XPath Not Found"
-title: "Warning - Promoted Field XPath Not Found"
+title: "Warning - Promoted Field XPath Not Found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.promoFieldXPathNotFound"
+ms.assetid: 21b8c240-5d6f-499d-8211-6e3f2ce2a79c
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Warning - Promoted Field XPath Not Found
 **Error Code**  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Creating and Configuring the Contoso Solution"
-title: "Creating and Configuring the Contoso Solution"
+title: "Creating and Configuring the Contoso Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "double action tutorial, creating solutions"
+  - "double action tutorial, configuring solutions"
+ms.assetid: 25370624-b27f-4f6c-a813-801ac4f81b8f
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating and Configuring the Contoso Solution
 This section of the tutorial details the steps that you have to follow for the Contoso organization. The Contoso organization represents the manufacturer and therefore acts as the Responder to all incoming Partner Interface Process (PIP) requests. In this tutorial, you create partner agreements for four PIPs and build and deploy an orchestration to send an appropriate response based on the PIP type.  

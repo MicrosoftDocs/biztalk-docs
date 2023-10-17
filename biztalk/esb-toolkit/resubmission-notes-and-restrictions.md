@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Resubmission Notes and Restrictions"
-title: "Resubmission Notes and Restrictions"
+title: "Resubmission Notes and Restrictions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 391064a9-1d61-4b10-97ab-d93b37d1ae23
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Resubmission Notes and Restrictions
 The following notes and restrictions apply to the resubmission process:  

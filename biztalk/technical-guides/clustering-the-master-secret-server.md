@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Clustering the Master Secret Server"
-title: "Clustering the Master Secret Server"
+title: "Clustering the Master Secret Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 14aa3622-8462-4ed9-abde-40090d4f96ff
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Clustering the Master Secret Server
 The BizTalk Server application service maintains a hard-coded dependency upon the Enterprise Single Sign-On (SSO) service that is installed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The SSO service must be able to communicate with the master secret server to start. We recommend that you cluster the SSO service on the master secret server to provide fault tolerance for the master secret server. For more information, see [High-Availability SSO Installation Options](https://go.microsoft.com/fwlink/?LinkId=156838) (<https://go.microsoft.com/fwlink/?LinkId=156838>) in BizTalk Server Help.

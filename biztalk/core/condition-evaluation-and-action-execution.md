@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Condition Evaluation and Action Execution"
-title: "Condition Evaluation and Action Execution"
+title: "Condition Evaluation and Action Execution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Action stage [Business Rules Engine]"
+  - "examples, business rules"
+  - "Business Rules Engine, policies"
+  - "Match stage [Business Rules Engine]"
+  - "business rules, examples"
+  - "Business Rules Engine, algorithm"
+  - "Business Rules Engine, examples"
+  - "conflict resolution [Business Rules Engine]"
+  - "Business Rules Engine, stages"
+ms.assetid: dcaa32c2-3403-4f54-92e2-128686bfc193
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Condition Evaluation and Action Execution
 The Business Rules Framework provides a highly efficient inference engine capable of linking rules to .NET objects, XML documents, or database tables.  

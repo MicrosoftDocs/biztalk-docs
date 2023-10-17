@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Management Services Information"
-title: "Management Services Information2"
+title: "Management Services Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 37aee1be-febb-484a-b4cd-1063015dd252
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Management Services Information
 

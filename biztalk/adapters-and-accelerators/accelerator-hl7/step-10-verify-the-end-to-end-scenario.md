@@ -1,9 +1,21 @@
 ---
 description: "Learn more about: Step 10: Verify the End-to-End Scenario"
 title: "Step 10: Verify the End-to-End Scenario"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "end-to-end tutorial, verifying solution"
+ms.assetid: 24b74ba6-e303-4ab1-8a93-25a430e4894d
+caps.latest.revision: 6
+
+
+
 ---
 # Step 10: Verify the End-to-End Scenario
 In this step, you verify the end-to-end scenario for this tutorial.  

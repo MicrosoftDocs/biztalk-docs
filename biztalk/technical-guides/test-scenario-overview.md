@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Test Scenario Overview"
-title: "Test Scenario Overview"
+title: "Test Scenario Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cde553ad-2540-40d9-a74b-928fee873c31
+caps.latest.revision: 32
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Test Scenario Overview
 This topic provides an overview of the test application; a description of the testing methodology used, and lists the key performance indicators (KPIs) captured during load testing.

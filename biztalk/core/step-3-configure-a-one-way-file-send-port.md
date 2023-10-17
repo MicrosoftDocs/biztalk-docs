@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3: Configure a One-way FILE Send Port"
-title: "Step 3: Configure a One-way FILE Send Port"
+title: "Step 3: Configure a One-way FILE Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c52c6b6b-6f9c-48f2-8732-450fe3a15eae
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Configure a One-way FILE Send Port
 In this step you configure a one-way FILE send port that consumes the response message received from the REST interface and copies it to a file location.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Import COBOL Wizard"
-title: "Import COBOL Wizard2"
+title: "Import COBOL Wizard2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 048899d6-3b73-4a8c-91ca-3a55be842cc3
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Import COBOL Wizard
 The **Import COBOL Wizard** allows you to select a COBOL copy book and use it for designing the component in the designer. This wizard is rather complex, as there are multiple options and paths to follow.  

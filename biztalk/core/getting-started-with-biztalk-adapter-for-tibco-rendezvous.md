@@ -1,12 +1,19 @@
 ---
-title: "Get started with BizTalk Adapter for TIBCO Rendezvous"
+title: "Get started with BizTalk Adapter for TIBCO Rendezvous | Microsoft Docs"
 description: Messages, concepts, schema generation, limitations, installation, and tutorials for TIBCO Rendezvous adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ebbde0bc-86e5-49fd-abc7-a61acbb3ab2e
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get started with BizTalk Adapter for TIBCO Rendezvous
 

@@ -1,12 +1,18 @@
 ---
-title: "Hardware capacity planning"
+title: "Hardware capacity planning | Microsoft Docs"
 description: Sessions, server load, fault tolerance, and deployment options to plan for your hardware and capacity using Host Integration Server (HIS)
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0273cf83-6118-4f04-8971-7addaab9c614
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Hardware capacity planning
 The capacity planning for Host Integration Server, SNA Gateway needs to take into consideration several factors.  They can be divided into four areas; total number of sessions, server load, fault tolerance and deployment model.  

@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Best practices to secure the Oracle Database adapter"
-title: "Best practices to secure the Oracle Database adapter"
+title: "Best practices to secure the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security, best practices for connection between the Oracle Database adapter and the Oracle database"
+  - "security, best practices for WCF diagnostic tracing and message logging"
+  - "security, best practices for hosting the Oracle Database adapter in IIS"
+  - "credentials"
+  - "security, best practices"
+  - "security"
+  - "security, best practices for consuming the Oracle Database adapter with BizTalk Server"
+  - "security, protecting sensitive data"
+  - "user name password credential"
+  - "security, best practices for consuming the Oracle Database adapter with programming solutions"
+ms.assetid: 689e8442-91c9-4fe0-a0a0-ce5f5a98ab38
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Best practices to secure the Oracle Database adapter
 This section provides best practices that you should follow to more completely protect sensitive data when you use or develop applications that consume the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  

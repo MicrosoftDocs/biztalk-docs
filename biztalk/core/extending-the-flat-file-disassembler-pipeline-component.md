@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Extending the Flat File Disassembler Pipeline Component"
-title: "Extending the Flat File Disassembler Pipeline Component"
+title: "Extending the Flat File Disassembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipeline components, code sample"
+  - "pipeline components [custom], flat file documents"
+  - "pipeline components [custom], disassembling"
+ms.assetid: 4bcc746a-696a-4e5c-be01-f8409fce21fa
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Extending the Flat File Disassembler Pipeline Component
 

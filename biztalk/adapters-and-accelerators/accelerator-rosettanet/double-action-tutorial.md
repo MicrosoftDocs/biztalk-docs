@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Double Action Tutorial"
-title: "Double Action Tutorial"
+title: "Double Action Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tutorials, PIPs"
+  - "double action tutorial, about the tutorial"
+  - "trading partners, tutorials"
+  - "double action tutorial"
+  - "tutorials, trading partners"
+  - "PIPs, tutorials"
+  - "tutorials, double action tutorial"
+ms.assetid: b692c043-82ef-46f4-8683-7ae1fd6e4421
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Double Action Tutorial
 This tutorial covers an end-to-end solution using Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The tutorial details the steps that you have to follow to implement a RosettaNet-compliant solution by creating a trading partner scenario between two fictitious companies: Contoso, the supplier organization, and Fabrikam, the buyer organization.  

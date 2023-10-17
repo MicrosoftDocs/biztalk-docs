@@ -1,12 +1,19 @@
 ---
-title: "Create TIBCO Rendezvous adapter receive artifacts"
+title: "Create TIBCO Rendezvous adapter receive artifacts | Microsoft Docs"
 description: Create a send port, configure the transport properties to receive messages from BizTalk Adapter for TIBCO Rendezvous in BizTalk 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2d617a97-c165-46bb-b5a7-b66f0c1ff9f2
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create TIBCO Rendezvous Receive artifacts
 Creating notifications or events is similar to creating other calls in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This section explains how to create a receive location to listen for TIBCO Rendezvous messages.  

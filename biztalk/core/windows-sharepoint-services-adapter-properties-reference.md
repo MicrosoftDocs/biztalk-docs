@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Windows SharePoint Services Adapter Properties Reference"
-title: "Windows SharePoint Services Adapter Properties Reference"
+title: "Windows SharePoint Services Adapter Properties Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c64c43ac-05bb-427c-987a-71663ae8e43d
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Windows SharePoint Services Adapter Properties Reference

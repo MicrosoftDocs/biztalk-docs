@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring EDI Batches"
-title: "Configuring EDI Batches"
+title: "Configuring EDI Batches | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8be06e5c-603a-4f93-b018-105314666157
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring EDI Batches
 The topics in this section describe how to receive a split or preserved batched interchange, how to send a preserved interchange over an XML pipeline, and how to implement an external batch release mechanism.  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Developer Tools"
-title: "Developer Tools"
+title: "Developer Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "developer tools"
+ms.assetid: 1abdbbba-c934-4be2-8277-612f95c2f065
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Developer Tools
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes the BizTalk project system design environment for designing, organizing, and building the various elements of BizTalk applications.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Error Codes for Open(SSCP) Error Response"
-title: "Error Codes for Open(SSCP) Error Response2"
+title: "Error Codes for Open(SSCP) Error Response2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9242ee90-114c-4d99-9cd5-7e889e58ae7e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Error Codes for Open(SSCP) Error Response
 The following table gives the values for error code 1 and error code 2 that can be returned on the **Open(SSCP) Error Response**.  

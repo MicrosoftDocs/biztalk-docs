@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MC_RECEIVE_AND_WAIT"
-title: "MC_RECEIVE_AND_WAIT2"
+title: "MC_RECEIVE_AND_WAIT2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4a64f995-ff06-4382-ae0c-c502feec7843
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MC_RECEIVE_AND_WAIT
 The **MC_RECEIVE_AND_WAIT** verb receives any data that is currently available from the partner transaction program (TP). If no data is currently available, the local TP waits for data to arrive.  

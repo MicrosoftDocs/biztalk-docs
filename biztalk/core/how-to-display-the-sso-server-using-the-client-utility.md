@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Display the SSO Server Using the Client Utility"
-title: "How to Display the SSO Server Using the Client Utility"
+title: "How to Display the SSO Server Using the Client Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications [SSO], viewing servers"
+  - "managing [SSO applications], viewing servers"
+  - "SSOClient [SSO], viewing servers"
+ms.assetid: af79ad96-6d94-48e0-9c80-6f0e38a3b8ac
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Display the SSO Server Using the Client Utility
 Use this command to display the Single Sign-On Server to which the user is currently pointing.  

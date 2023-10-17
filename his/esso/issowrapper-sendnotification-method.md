@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOWrapper.SendNotification Method"
-title: "ISSOWrapper.SendNotification Method"
+title: "ISSOWrapper.SendNotification Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3adccdf6-540e-472e-9d4d-d417ad376388
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOWrapper.SendNotification Method
 Sends a notification from the adapter to the ENTSSO service.  

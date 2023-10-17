@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Transaction Programs that Run for a Long Time"
-title: "Transaction Programs that Run for a Long Time2"
+title: "Transaction Programs that Run for a Long Time2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1f1c7650-7bca-4efd-a110-b6b8492b6bf4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Transaction Programs that Run for a Long Time
 Several special considerations apply when a transaction program (TP) runs for a long time. The topics in this section address these considerations.  

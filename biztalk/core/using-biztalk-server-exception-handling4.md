@@ -1,12 +1,19 @@
 ---
-title: "Add Exception Handling to TIBCO Rendezvous"
+title: "Add Exception Handling to TIBCO Rendezvous | Microsoft Docs"
 description: Overview of handling exceptions for your orchestrations that use the TIBCO Rendezvous adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/24/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 887b1653-33a5-4a22-a6ae-c5df67a868b4
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Server Exception Handling Overview
 

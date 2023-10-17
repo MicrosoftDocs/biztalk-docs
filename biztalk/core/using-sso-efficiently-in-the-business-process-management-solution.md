@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Using SSO Efficiently in the Business Process Management Solution"
-title: "Using SSO Efficiently in the Business Process Management Solution"
+title: "Using SSO Efficiently in the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "SSO, process management solutions"
+  - "SSO, configuration values"
+  - "caching, configuration values [SSO]"
+  - "SSO, caching"
+  - "process management solution tutorial, SSO"
+ms.assetid: 39fbc42d-caa4-4003-a13b-5cde578eb5e1
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using SSO Efficiently in the Business Process Management Solution
 Like the Service Oriented solution, the Business Process Management solution uses Enterprise Single Sign-On (SSO) to store configuration values such as the number of order processing stages. It uses the secret store because it is present whenever BizTalk is installed, SSO caches the configuration information so that the values are readily available, and it can protect information such as database connection strings and passwords. For all of these reasons, the secret store is a good place for the configuration information even if Single Sign-On weren't being used for managing connections to the backend applications.

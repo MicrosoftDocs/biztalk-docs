@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: About the Data Provider for Siebel"
-title: "About the Data Provider for Siebel"
+title: "About the Data Provider for Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Data Provider for Siebel, overview"
+ms.assetid: 461fe4d8-75f2-49d5-9fc2-3baab4ccf13f
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # About the Data Provider for Siebel
 ## Overview

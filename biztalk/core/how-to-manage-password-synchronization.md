@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: How to Manage Password Synchronization"
-title: "How to Manage Password Synchronization"
+title: "How to Manage Password Synchronization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Password Synchronization [SSO], managing"
+  - "managing [SSO], disabling features"
+  - "managing [SSO], enabling features"
+  - "Password Synchronization [SSO], SSOMANAGE command line utility"
+  - "SSO database, SSOMANAGE command line utility"
+  - "managing, Password Synchronization [SSO]"
+  - "SSO database, database settings"
+  - "SSOMANAGE command line utility"
+ms.assetid: 033e63f2-e5b0-4400-99c3-145679d9b84e
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Manage Password Synchronization
 Use the MMC Snap-in or the SSOMANAGE command line utility to enable or disable SSO features, and to display current SSO database settings.  

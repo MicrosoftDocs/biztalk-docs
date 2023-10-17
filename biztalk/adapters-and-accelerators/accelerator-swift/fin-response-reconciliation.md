@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: FIN Response Reconciliation"
-title: "FIN Response Reconciliation"
+title: "FIN Response Reconciliation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "ACKs"
+  - "FRR"
+  - "FIN Response Reconciliation"
+  - "SAA"
+  - "NAKs"
+  - "FRR, about FRR"
+  - "acknowledgements"
+  - "FIN Response Reconciliation, about FIN Response Reconciliation"
+  - "FIN Response Reconciliation, acknowledgements"
+ms.assetid: 987b932b-e487-4ca8-acd0-410d71df8e6d
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # FIN Response Reconciliation
 The FIN Response Reconciliation (FRR) feature of [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] reconciles a FIN response with the corresponding original message sent by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]. This establishes the status of the original message, and enables [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] to take steps based upon that status. Without reconciliation, this would not be possible. [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] would know that it successfully (or unsuccessfully) sent the original message to SAA, and it would have the response that it received from SAA, indicating the status of the transmission, but it would not be able to make the connection between the two. FRR establishes that connection.  

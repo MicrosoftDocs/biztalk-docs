@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Develop Oracle E-Business Suite applications using the WCF Service Model"
-title: "Develop Oracle E-Business Suite applications using the WCF Service Model"
+title: "Develop Oracle E-Business Suite applications using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1cf3430d-12e9-437c-b398-d978faa4da2b
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop Oracle E-Business Suite applications using the WCF Service Model
 [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] provides a programming model called the WCF service model to connect to the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]. The service model was added to WCF to address, in part, some of the limitations of the WCF channel programming model.  

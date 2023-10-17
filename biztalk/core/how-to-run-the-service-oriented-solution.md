@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Run the Service Oriented Solution"
-title: "How to Run the Service Oriented Solution"
+title: "How to Run the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "service solution tutorial, client applications"
+  - "service solution tutorial, starting solution"
+  - "service solution tutorial, sending requests"
+  - "service solution tutorial, SOAP transports"
+ms.assetid: 764a5ddc-e571-41d8-9e2f-6d0fb3361b2f
+caps.latest.revision: 31
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Run the Service Oriented Solution
 The following steps describe how to run and validate the service oriented solution on a single computer. After starting the Payment Tracker simulator, you can send requests using either the SOAP or MQSeries transport (with separate procedures for the adapter and inline versions of the service oriented solution).  

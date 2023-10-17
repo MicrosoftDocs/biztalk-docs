@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Sample TMA: FTP Adapter"
-title: "Sample TMA: FTP Adapter"
+title: "Sample TMA: FTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "architecture, examples"
+  - "examples, FTP adapters"
+  - "security examples [TMA], FTP adapters"
+  - "FTP adapters, TMA"
+  - "DFD, FTP adapters"
+ms.assetid: c648f84a-c83a-44f0-adc9-a3f98b597506
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample TMA: FTP Adapter
 This topic presents the threat model analysis (TMA) for the FTP adapter scenario for the sample architecture.  

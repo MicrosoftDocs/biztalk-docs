@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Optimizing IIS Performance"
-title: "Optimizing IIS Performance"
+title: "Optimizing IIS Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6722a2ee-3704-4aaa-9b0d-cef97bcb9a04
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Optimizing IIS Performance
 ## Apply IIS configuration options to improve IIS performance

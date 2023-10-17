@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: There are no batch elements to send and an empty message cannot be sent as it is not configured for party"
-title: "There are no batch elements to send and an empty message cannot be sent as it is not configured for party"
+title: "There are no batch elements to send and an empty message cannot be sent as it is not configured for party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0752079a-173e-4de3-96f4-e5de01b799b5
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # There are no batch elements to send and an empty message cannot be sent as it is not configured for party
 ## Details  

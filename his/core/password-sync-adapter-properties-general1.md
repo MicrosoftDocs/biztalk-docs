@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Password Sync Adapter Properties: General"
-title: "Password Sync Adapter Properties: General1"
+title: "Password Sync Adapter Properties: General1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 74875bee-107a-47ee-bbed-e29528a2ea15
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Password Sync Adapter Properties: General
 Use this dialog box to view or change the general properties for the Password Sync Adapter.  

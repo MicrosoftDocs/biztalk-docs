@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Prerequisites for the Development Activities"
-title: "Prerequisites for the Development Activities"
+title: "Prerequisites for the Development Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 54c91405-f9a4-4676-b5c5-fe90b3b51b45
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Prerequisites for the Development Activities
 This section describes how to prepare your environment to complete the steps in the development activities that are included as part of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. Complete the following setup before you attempt any of the procedures in the development activities:  

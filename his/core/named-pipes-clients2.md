@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Named Pipes Clients"
-title: "Named Pipes Clients2"
+title: "Named Pipes Clients2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4e160d2e-6a32-4ba7-84c1-b8bbead5e3de
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Named Pipes Clients
 ![Image that shows how a Microsoft Networking client can connect to the mainframe.](../core/media/ref11.gif "ref11")  

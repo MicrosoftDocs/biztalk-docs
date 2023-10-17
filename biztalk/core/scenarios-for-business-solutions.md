@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Scenarios for Business Solutions"
-title: "Scenarios for Business Solutions"
+title: "Scenarios for Business Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "business solutions, tutorials"
+  - "tutorials, applications"
+  - "applications, tutorials"
+  - "applications, business solutions"
+  - "tutorials, business solutions"
+  - "solutions, tutorials"
+ms.assetid: f6239905-a1bf-4223-bdca-6677f2d6049b
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scenarios for Business Solutions
 This section describes two complete, model BizTalk applications. Each application represents a particular business pattern and demonstrates other constituent integration patterns.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Transaction Object (OLE DB Provider for DB2)"
-title: "Transaction Object (OLE DB Provider for DB2)1"
+title: "Transaction Object (OLE DB Provider for DB2)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 54cbd428-4acd-4c0a-b751-6602cc4c5bb1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Transaction Object (OLE DB Provider for DB2)
 The **Transaction** object is created by a **Session** object. The **Transaction** object is used to manage transactions on one or more **Rowset** objects.  

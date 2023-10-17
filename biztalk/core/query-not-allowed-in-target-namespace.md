@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Query not allowed in target namespace"
-title: "Query not allowed in target namespace"
+title: "Query not allowed in target namespace | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5d0475fe-2a44-415e-9995-dcb77e0d945d
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Query not allowed in target namespace
 ## Details  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Using a Pipeline Component to Select an Existing Itinerary"
-title: "Using a Pipeline Component to Select an Existing Itinerary"
+title: "Using a Pipeline Component to Select an Existing Itinerary | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b93c5cb6-071f-485d-b0bb-22f95bafa3d0
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using a Pipeline Component to Select an Existing Itinerary
 ## ESB Itinerary Selector Pipeline Component  

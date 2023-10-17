@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: This instance is outside the Batching Service window for the partner"
-title: "This instance is outside the Batching Service window for the partner"
+title: "This instance is outside the Batching Service window for the partner | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0e420d75-11fd-4221-9d97-814ca6e48c81
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # This instance is outside the Batching Service window for the partner
 ## Details  

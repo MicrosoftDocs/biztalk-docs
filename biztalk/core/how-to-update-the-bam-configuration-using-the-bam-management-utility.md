@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Update the BAM Configuration Using the BAM Management Utility"
-title: "How to Update the BAM Configuration Using the BAM Management Utility"
+title: "How to Update the BAM Configuration Using the BAM Management Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 714a834e-1879-4019-9b54-e511705bd67a
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Update the BAM Configuration Using the BAM Management Utility
 Administrators can use the BAM Management utility to update an existing BAM installation.  

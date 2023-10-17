@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Lesson 6: Creating a Custom Send Pipeline"
-title: "Lesson 6: Creating a Custom Send Pipeline"
+title: "Lesson 6: Creating a Custom Send Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "custom pipelines"
+  - "send pipelines, custom pipelines"
+ms.assetid: 73a3a546-1e43-4b93-87d3-9bfb32685a57
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 6: Creating a Custom Send Pipeline
 In this lesson, you create a custom send pipeline using BizTalk Pipeline Designer. A send pipeline is a pipeline you run on messages before [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] sends the messages to their destination.  

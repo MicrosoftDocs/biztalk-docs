@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Read the installation known issues"
-title: "Read the installation known issues"
+title: "Read the installation known issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 245379f2-4048-4803-83ea-38dc23eb1a81
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Read the installation known issues
 [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] have known issues listed in the following sections.  

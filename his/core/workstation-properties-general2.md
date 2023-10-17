@@ -1,15 +1,21 @@
 ---
 description: "Learn more about: Workstation Properties: General"
-title: "Workstation Properties: General2"
+title: "Workstation Properties: General2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_Workstation"
   - "SNA_Folder_Workstation"
+ms.assetid: 6110c90b-3642-4a29-a0fe-01c462d9c5cd
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Workstation Properties: General
 **Workstation ID**  

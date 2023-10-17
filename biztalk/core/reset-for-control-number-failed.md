@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Reset for Control number failed"
-title: "Reset for Control number failed"
+title: "Reset for Control number failed | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 64e83c07-1569-4433-b882-a26784b7bb0f
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Reset for Control number failed
 ## Details  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: UPDATE Statement"
-title: "UPDATE Statement1"
+title: "UPDATE Statement1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b9fcdf21-60e9-4be2-84a0-de21804e5e08
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # UPDATE Statement
 The following describes the `UPDATE` statement for the Managed Provider for Host Files and provides a sample `UPDATE` statement.  

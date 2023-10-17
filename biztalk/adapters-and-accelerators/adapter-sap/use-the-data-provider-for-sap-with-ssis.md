@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Use the Data Provider for SAP with SSIS"
-title: "Use the Data Provider for SAP with SSIS"
+title: "Use the Data Provider for SAP with SSIS | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Data Provider for SAP, using with SSIS"
+  - "SSIS, Data Provider for SAP"
+ms.assetid: e8c50cc1-ac25-4993-9aee-7fd88268d65d
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use the Data Provider for SAP with SSIS
 You can use the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] along with SQL Server Integration Service (SSIS) to import data from an SAP system into SQL Server database tables, flat files, or other compatible destination types. You can create an SSIS package that can be executed to import data from an SAP system.  

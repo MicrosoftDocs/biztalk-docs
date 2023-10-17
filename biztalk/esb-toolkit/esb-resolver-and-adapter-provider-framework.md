@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ESB Resolver and Adapter Provider Framework"
-title: "ESB Resolver and Adapter Provider Framework"
+title: "ESB Resolver and Adapter Provider Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c82c2247-1f0a-48bd-98c2-9c816f4d68d7
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ESB Resolver and Adapter Provider Framework
 The Resolver and Adapter Provider Framework provides a comprehensive, pluggable architecture for dynamically resolving endpoint information and BizTalk Server map types. It uses extensible components, which allow developers to change the behavior to suit their own requirements and extend the mechanism to support alternative resolution and routing methods.  

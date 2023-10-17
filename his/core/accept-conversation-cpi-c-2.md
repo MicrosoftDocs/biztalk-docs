@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Accept_Conversation (CPI-C)"
-title: "Accept_Conversation (CPI-C)"
+title: "Accept_Conversation (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7d3282c5-04b7-42dd-91ea-b204f7ba47e5
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Accept_Conversation (CPI-C)
 The **Accept_Conversation** call (function name **cmaccp**) is issued by the invoked program to accept the incoming conversation and set certain conversation characteristics. For a list of initial conversation characteristics, see [Initial Conversation Characteristics](initial-conversation-characteristics1.md).  

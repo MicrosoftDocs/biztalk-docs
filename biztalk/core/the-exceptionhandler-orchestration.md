@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: The ExceptionHandler Orchestration"
-title: "The ExceptionHandler Orchestration"
+title: "The ExceptionHandler Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "errors, systems"
+  - "errors, applications"
+  - "applications, errors"
+  - "orchestrations, errors [process management solutions]"
+  - "process management solution tutorial, errors"
+ms.assetid: ac154e76-9dfe-433a-948b-e098df705fe5
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The ExceptionHandler Orchestration
 The Business Process Management solution uses two kinds of exceptions: system exceptions and application exceptions. System exceptions include things like resource errors—a network connection failing, for example. There is a chance that such a problem may resolve itself after an interval so that the solution retries all operations that produce system exceptions. Application exceptions are produced by things less likely to resolve themselves, such as logical errors or some form of inconsistency. The solution uses the **ExceptionHandlerOrch** orchestration to process both system and application errors.  

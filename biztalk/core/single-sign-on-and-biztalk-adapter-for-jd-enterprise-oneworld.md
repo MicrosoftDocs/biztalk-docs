@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Single Sign-On and BizTalk Adapter for JD Enterprise OneWorld"
-title: "Single Sign-On and BizTalk Adapter for JD Enterprise OneWorld"
+title: "Single Sign-On and BizTalk Adapter for JD Enterprise OneWorld | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Single Sign-On"
+ms.assetid: 44fea3a4-8073-4b64-94e5-1eacbae845d9
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On and BizTalk Adapter for JD Enterprise OneWorld
 Single Sign-On (SSO) credentials are obtained from the SSO credentials database; therefore, you do not need to enter the server system's logon credentials in the **Transport Properties** window.  

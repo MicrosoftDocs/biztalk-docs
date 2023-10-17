@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Monitoring Policies and Usage Information"
-title: "Monitoring Policies and Usage Information"
+title: "Monitoring Policies and Usage Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c0d2fd0-e65f-4c96-a5f5-81c9afc9c04e
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Monitoring Policies and Usage Information
 The SOA Service Manager provides a mechanism that allows you to create and edit monitoring policies. For example, Figure 1 shows the screen for applying a policy template and activating monitoring for an application.

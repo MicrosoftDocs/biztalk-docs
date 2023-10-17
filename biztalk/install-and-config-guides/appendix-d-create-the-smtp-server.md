@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Appendix D: Create the SMTP Server"
-title: "Appendix D: Create the SMTP Server"
+title: "Appendix D: Create the SMTP Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f7441ba9-a498-42ec-a04d-7f2731407373
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Appendix D: Create the SMTP Server
 Create the SMTP Server used by SQL Server Database Mail.

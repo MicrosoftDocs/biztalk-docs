@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Install the SQL adapter"
-title: "Install the SQL adapter"
+title: "Install the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 10cd44e0-d93e-47ed-b36f-4bd4481753c1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install the SQL adapter
 ## Install options

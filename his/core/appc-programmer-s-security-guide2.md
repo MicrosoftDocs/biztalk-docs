@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: APPC Programmer&#39;s Security Guide"
-title: "APPC Programmer&#39;s Security Guide2"
+title: "APPC Programmer&#39;s Security Guide2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9ff7d5f5-2198-440d-8e6b-8814f2ec5575
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # APPC Programmer&#39;s Security Guide
 The following topics discuss security as it applies to the APPC section of the Microsoft Host Integration Server SDK.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: GetOperationName"
-title: "GetOperationName"
+title: "GetOperationName | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f858269c-d412-43e3-85e1-398afa9375ab
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # GetOperationName
 Pushes the name of the current operation onto the stack.  

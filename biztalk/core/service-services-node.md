@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Service (Services Node)"
-title: "Service (Services Node)"
+title: "Service (Services Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Service node [binding file]"
+ms.assetid: 19e977b4-55bd-453f-9053-5590b9553b07
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Service (Services Node)
 The Service node of a binding file contains information about a service exported with the binding file. The service node also contains nodes that describe the ports and roles associated with the service and a node that describes the host associated with the service.  

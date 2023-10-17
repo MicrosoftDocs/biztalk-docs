@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Avoiding Data Translation"
-title: "Avoiding Data Translation1"
+title: "Avoiding Data Translation1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 419b2582-3f70-4c67-8ccd-695f351afb22
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Avoiding Data Translation
 In some circumstances, you may want the Transaction Integrator runtime to pass untranslated data to or from the mainframe. To do this, set up an array of PIC X Untranslated bytes.  

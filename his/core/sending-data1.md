@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sending Data"
-title: "Sending Data1"
+title: "Sending Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c0930eca-b52f-40de-803b-1542b93049ef
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sending Data
 The following calls are used to send data to the partner program:  

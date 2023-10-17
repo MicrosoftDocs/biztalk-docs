@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: MQSCorrelationSetOrchestration (BizTalk Server Sample)"
-title: "MQSCorrelationSetOrchestration (BizTalk Server Sample)"
+title: "MQSCorrelationSetOrchestration (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, MQSeries adapters"
+  - "orchestrations, examples"
+  - "examples, orchestrations"
+  - "examples, messages"
+  - "messages, examples"
+  - "MQSeries adapters, examples"
+ms.assetid: fcda65d0-e3ec-4ead-978d-3904903b8762
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # MQSCorrelationSetOrchestration (BizTalk Server Sample)
 The MQSCorrelationSetOrchestration sample demonstrates how to use the MQSeries correlation identifier for correlating messages sent to an MQSeries queue back to a running orchestration. The orchestration sets the MQSeries correlation identifier and message identifier values using the **MQMD_CorrelId** and **MQMD_MsgID** properties. The MQSeries Queue Manager copies the MessageID value to the CorrelationID property of the message.  

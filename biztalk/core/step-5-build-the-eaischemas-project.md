@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 5: Build the EAISchemas Project"
-title: "Step 5: Build the EAISchemas Project"
+title: "Step 5: Build the EAISchemas Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c20cd368-7446-4861-8d71-5bc25ce408a2
+caps.latest.revision: 41
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 5: Build the EAISchemas Project
 ![Step 5 of 5](../core/media/step-5of5.gif "Step_5of5")  

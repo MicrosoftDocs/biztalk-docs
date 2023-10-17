@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Session Integrator for LU0"
-title: "Session Integrator for LU0"
+title: "Session Integrator for LU0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0941eb05-dd62-4e7f-bacc-c46c1575b878
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Session Integrator for LU0
 This section describes how to create an application by using Session Integrator over an LU0 connection.  

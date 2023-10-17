@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10854"
-title: "Single Sign-On: Event 10854"
+title: "Single Sign-On: Event 10854 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d8faed9d-5c7e-4b99-bcd9-ea5f670d5e72
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10854
 ## Details  

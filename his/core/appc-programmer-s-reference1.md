@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: APPC Programmer's Reference"
-title: "APPC Programmer's Reference"
+title: "APPC Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 92efac1c-9c64-4ca9-accf-cb66ac013857
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # APPC Programmer's Reference
 

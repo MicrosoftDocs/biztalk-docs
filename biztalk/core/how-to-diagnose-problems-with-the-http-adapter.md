@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Diagnose Problems with the HTTP Adapter"
-title: "How to Diagnose Problems with the HTTP Adapter"
+title: "How to Diagnose Problems with the HTTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 91f818dd-11fa-4ea4-b904-e8e00b3e49b4
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Diagnose Problems with the HTTP Adapter
 This section contains steps that can be followed to help diagnose problems with the HTTP adapter.

@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Relationship Nodes"
-title: "Relationship Nodes"
+title: "Relationship Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "definition files [BAM], relationships"
+  - "definition files [BAM], Tracking Profile Editor"
+  - "Relationship nodes [Tracking Profile Editor]"
+  - "activities [BAM], relationships"
+  - "activities [BAM], Tracking Profile Editor"
+  - "Tracking Profile Editor, node descriptions"
+  - "Tracking Profile Editor, definition files [BAM]"
+ms.assetid: 74090133-24d1-4aba-a4fc-f12d19c881fb
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Relationship Nodes
 Relationship folders are used whenever an activity definition file contains more than one activity. The names of the folders match the name of the associated activity. You form the link by matching the name of the relationship folder to the activity ID of the related activity and by matching the values for the data items. You define each relationship using a separate node.  

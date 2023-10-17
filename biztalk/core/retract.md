@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Retract"
-title: "Retract"
+title: "Retract | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Retract function [Business Rules Engine], TypedData table"
+  - "Retract function [Business Rules Engine], TypedXMLDocument"
+  - "Retract function [Business Rules Engine]"
+  - "Retract function [Business Rules Engine], DataConnection"
+  - "Retract function [Business Rules Engine], .NET objects"
+  - ".NET objects"
+ms.assetid: 24b6b894-6810-4497-a122-8c91f0b2e816
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Retract
 You can use the **Retract** function to remove objects from the Business Rule Engine's working memory. The following paragraphs describe the behavior associated with retracting entities of different types from the rule engine's working memory.  

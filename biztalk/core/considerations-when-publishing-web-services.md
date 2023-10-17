@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Considerations When Publishing Web Services"
-title: "Considerations When Publishing Web Services"
+title: "Considerations When Publishing Web Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "schemas, publishing"
+  - "Web services, planning"
+  - "Web services, schemas"
+  - "schemas, Web services"
+ms.assetid: 3ace0260-a1cb-4e59-a820-36ee7d5cceda
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Considerations When Publishing Web Services
 This topic provides information that you should consider before you publish your Web services.

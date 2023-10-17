@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Tutorial 1: Presenting Data From a Siebel System on a SharePoint Site"
-title: "Tutorial 1: Presenting Data From a Siebel System on a SharePoint Site"
+title: "Tutorial 1: Presenting Data From a Siebel System on a SharePoint Site | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9dd06f75-75d1-4fad-8f34-51c97c7790e3
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tutorial 1: Presenting Data From a Siebel System on a SharePoint Site
 This tutorial provides detailed instructions on using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with Microsoft Office SharePoint Server to present business data from a Siebel system on a SharePoint portal. To demonstrate how to use the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with Office SharePoint Server, we create an application in Office SharePoint Server to retrieve a list of customer accounts from the Siebel repository using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  

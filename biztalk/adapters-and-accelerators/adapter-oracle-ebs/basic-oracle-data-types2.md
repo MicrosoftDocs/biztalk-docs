@@ -1,12 +1,19 @@
 ---
-title: "Basic Oracle Data Types in the Oracle EBS adapter in BizTalk"
+title: "Basic Oracle Data Types in the Oracle EBS adapter in BizTalk | Microsoft Docs"
 description: Data and XSD types, safe typing, and validation in the Oracle e-Business Suite in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 008bf621-8b4e-450d-b354-ee26b91592f2
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Basic Oracle Data Types
 This topic describes how the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] surfaces basic Oracle data types.  

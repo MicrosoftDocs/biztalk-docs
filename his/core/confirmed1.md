@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CONFIRMED"
-title: "CONFIRMED1"
+title: "CONFIRMED1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e1623202-f982-48ad-b2e9-be8e92a6bc25
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CONFIRMED
 The **CONFIRMED** verb responds to a confirmation request from the partner transaction program (TP). It informs the partner TP that the local TP has not detected an error in the received data. Because the TP issuing the confirmation request waits for a confirmation, **CONFIRMED** synchronizes the processing of the two TPs.  

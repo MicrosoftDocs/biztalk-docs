@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Empty Node Values in Source Instance Messages"
-title: "Empty Node Values in Source Instance Messages"
+title: "Empty Node Values in Source Instance Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 76f9d7c8-5a82-41e9-9077-7b1ddd80a837
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Empty Node Values in Source Instance Messages
 There may be times when you do not want content in all of the schema nodes when you test a map.  

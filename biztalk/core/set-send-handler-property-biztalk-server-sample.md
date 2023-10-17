@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Set Send Handler Property (BizTalk Server Sample)"
-title: "Set Send Handler Property (BizTalk Server Sample)"
+title: "Set Send Handler Property (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "SMTP adapters, examples"
+  - "examples, SMTP adapters"
+  - "send handlers, properties"
+ms.assetid: eb6ae2f2-528f-44ec-bca4-f37006893ff2
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Set Send Handler Property (BizTalk Server Sample)
 The Set Send Handler Property sample demonstrates how to set the XML configuration information for a Simple Mail Transfer Protocol (SMTP) send handler.

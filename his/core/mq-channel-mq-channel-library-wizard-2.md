@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: MQ Channel (MQ Channel Library Wizard)"
-title: "MQ Channel (MQ Channel Library Wizard)2"
+title: "MQ Channel (MQ Channel Library Wizard)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "mqb_mqi_channels_tab"
+ms.assetid: 53c055da-8059-4373-9aa3-cb6931c13ab8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MQ Channel (MQ Channel Library Wizard)
 Specify information for the MQ channel to connect to the host.  

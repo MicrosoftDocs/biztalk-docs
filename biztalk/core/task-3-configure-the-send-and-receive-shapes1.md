@@ -1,12 +1,19 @@
 ---
 description: "Learn how to configure Send and Receive shapes that will be used in a BizTalk orchestration."
-title: "Task 3: Configure the Send and Receive Shapes1"
+title: "Task 3: Configure the Send and Receive Shapes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7e258d22-755b-48a4-9f9e-e9398f6b68b1
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Task 3: How to Configure the Send and Receive Shapes
 

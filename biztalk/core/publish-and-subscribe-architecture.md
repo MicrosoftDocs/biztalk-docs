@@ -1,12 +1,37 @@
 ---
 description: "Learn more about: Publish and Subscribe Architecture"
-title: "Publish and Subscribe Architecture"
+title: "Publish and Subscribe Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "publish/subscribe architecture, publishers"
+  - "architecture, publish/subscribe"
+  - "publishing, publish/subscribe architecture"
+  - "publish/subscribe architecture, about publish/subscribe architecture"
+  - "creating, subscriptions"
+  - "publish/subscribe architecture, Messaging Engine"
+  - "routing, publishing"
+  - "Messaging Engine, publishing"
+  - "publish/subscribe architecture, subscribers"
+  - "publish/subscribe architecture"
+  - "subscriptions, publish/subscribe architecture"
+  - "publish/subscribe architecture, creating subscriptions"
+  - "subscriptions, creating"
+  - "Messaging Engine, subscribing"
+  - "publishing, routing"
+  - "Messaging Engine, publish/subscribe architecture"
+  - "publish/subscribe architecture, events"
+ms.assetid: 5ed36c1f-077d-468f-a99e-60f97377cef6
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Publish and Subscribe Architecture
 In a publish/subscribe design, you have three components:  

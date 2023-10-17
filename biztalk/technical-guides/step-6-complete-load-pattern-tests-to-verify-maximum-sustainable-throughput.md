@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Step 6: Perform Constant Load Pattern Tests to Verify Maximum Sustainable Throughput"
-title: "Step 6: Perform Constant Load Pattern Tests to Verify Maximum Sustainable Throughput"
+title: "Step 6: Perform Constant Load Pattern Tests to Verify Maximum Sustainable Throughput | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dd790354-be9f-4278-bd15-493eac8970c9
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 6: Perform Constant Load Pattern Tests to Verify Maximum Sustainable Throughput
 When load testing a BizTalk Server solution using Visual Studio 2010, a constant load pattern test should be performed once the approximate Maximum Sustainable Throughput (MST) of the solution is determined as described in [Step 5: Perform Step Load Pattern Tests to Determine Maximum Sustainable Throughput](../technical-guides/step-5-complete-step-load-tests-to-determine-maximum-sustainable-throughput.md). This should be done to confirm that the MST is in fact sustainable over time and also so as to create a baseline load test moving forward to evaluate the effects of any performance tuning applied to the BizTalk Server application or environment.  

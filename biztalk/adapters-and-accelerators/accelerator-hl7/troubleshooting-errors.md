@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: Troubleshooting Errors"
 title: "Troubleshooting Errors"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "errors, troubleshooting"
+  - "troubleshooting, errors"
+ms.assetid: 08cc95a3-4be9-450f-a015-e031011158f7
+caps.latest.revision: 6
+
+
+
 ---
 # Troubleshooting Errors
 This section addresses issues related to [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generated errors.  

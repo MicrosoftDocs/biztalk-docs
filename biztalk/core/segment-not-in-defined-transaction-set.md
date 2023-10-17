@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Segment Not In Defined Transaction set"
-title: "Segment Not In Defined Transaction set"
+title: "Segment Not In Defined Transaction set | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 914e333f-96e4-4094-880d-51a5f25915c3
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Segment Not In Defined Transaction set
 ## Details  

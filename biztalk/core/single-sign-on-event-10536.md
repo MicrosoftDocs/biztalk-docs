@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10536"
-title: "Single Sign-On: Event 10536"
+title: "Single Sign-On: Event 10536 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d493a45b-c4ed-40fc-8803-b3ca12f9795b
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10536
 ## Details  

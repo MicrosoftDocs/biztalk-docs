@@ -1,12 +1,22 @@
 ---
 description: "Learn about the message schemas for polling operations used by the Microsoft BizTalk Adapter for Oracle Database."
-title: "Message Schemas for the Polling Operations2"
+title: "Message Schemas for the Polling Operations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "POLLINGSTMT operation, message actions for"
+  - "POLLINGSTMT operation, message structure for"
+ms.assetid: b82edcc2-9437-4c7b-ba2b-7b966fff3f15
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Polling Operations Message Schemas
 

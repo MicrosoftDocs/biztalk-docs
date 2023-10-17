@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Nested Positional and Delimited Records"
-title: "Nested Positional and Delimited Records"
+title: "Nested Positional and Delimited Records | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d1688f04-d3c7-492c-82f7-a734bec0e409
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Nested Positional and Delimited Records
 In the flat file formats supported by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], some combinations of positional and delimited records are allowed and others are disallowed. The following combinations are allowed:  

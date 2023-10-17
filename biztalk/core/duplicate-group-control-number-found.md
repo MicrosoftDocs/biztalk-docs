@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Duplicate group control number found"
-title: "Duplicate group control number found"
+title: "Duplicate group control number found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1badc033-42fd-4992-ad36-b53047ba7817
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Duplicate group control number found
 ## Details  

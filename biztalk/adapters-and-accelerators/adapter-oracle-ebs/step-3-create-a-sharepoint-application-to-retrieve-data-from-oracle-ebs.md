@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite"
-title: "Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite"
+title: "Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: eaa16011-9284-4ccf-8132-9c1e14cc6aa7
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite
 ![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")

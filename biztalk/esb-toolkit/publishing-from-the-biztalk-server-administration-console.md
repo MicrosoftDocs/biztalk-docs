@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Publishing from the BizTalk Server Administration Console"
-title: "Publishing from the BizTalk Server Administration Console"
+title: "Publishing from the BizTalk Server Administration Console | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b78b1981-b227-4cf5-9435-6fc57963552a
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Publishing from the BizTalk Server Administration Console
 If you want to manage endpoint publishing through the BizTalk Server Administration Console instead of the ESB Management Portal, you can do so by entering a Universal Description, Discovery, and Integration (UDDI) moniker in the description field of the endpoints to publish to UDDI. The following is an example moniker.  

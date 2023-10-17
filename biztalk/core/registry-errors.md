@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Registry Errors"
-title: "Registry Errors"
+title: "Registry Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9a5bf2cd-f807-4083-8687-4416a2ee2908
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Registry Errors
 Information for diagnosing and resolving WCF Registry errors.  

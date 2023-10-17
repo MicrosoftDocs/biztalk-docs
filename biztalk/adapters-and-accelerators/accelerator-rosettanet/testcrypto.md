@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: TestCrypto"
-title: "TestCrypto"
+title: "TestCrypto | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, TestCrypto utility"
+  - "troubleshooting, TestCrypto utility"
+  - "TestCrypto utility"
+ms.assetid: 02768794-64ac-4d99-930c-738bed9626c5
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # TestCrypto
 You use the TestCrypto utility to troubleshoot failures in decrypting messages. The utility indicates whether decryption fails. If the decryption succeeds, the utility indicates what the certificate is, and displays the decrypted message.  

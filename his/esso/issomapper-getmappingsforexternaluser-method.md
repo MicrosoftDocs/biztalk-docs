@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOMapper.GetMappingsForExternalUser Method"
-title: "ISSOMapper.GetMappingsForExternalUser Method"
+title: "ISSOMapper.GetMappingsForExternalUser Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6757b74d-7eca-4338-9a0d-c47871b7bd00
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOMapper.GetMappingsForExternalUser Method
 The **GetMappingsForExternalUser** method retrieves the mappings for an external user.  

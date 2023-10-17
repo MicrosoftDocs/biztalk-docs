@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Using BizTalk Mapper Commands"
-title: "Using BizTalk Mapper Commands"
+title: "Using BizTalk Mapper Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 34fea0fb-0609-4571-be49-6ee3f03afe2a
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using BizTalk Mapper Commands
 When BizTalkMapper becomes active, it adds a menu called **BizTalk** to the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. This menu provides access to the BizTalk Mapper commands and their functionality. When BizTalk Mapper is active, the **BizTalk** menu provides the commands that are specific to editing BizTalk maps.  

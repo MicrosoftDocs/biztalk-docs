@@ -1,9 +1,24 @@
 ---
 description: "Learn more about: Step 9: Validate and Build the Map Project"
 title: "Step 9: Validate and Build the Map Project"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "validating, maps"
+  - "message enrichment tutorial, maps"
+  - "maps, building"
+  - "maps, validating"
+ms.assetid: 10716b0b-702c-48bb-85a9-d58d8f33b68b
+caps.latest.revision: 3
+
+
+
 ---
 # Step 9: Validate and Build the Map Project
 In this step, you use the **Validate Map** command to determine if the map contains any internal inconsistencies, or has other issues that would prevent it from being used effectively for mapping schemas. You also build the project to generate an assembly that contains the resources (schemas and the map) that you created. This also ensures that there are no compile errors in the work that you have completed so far.  

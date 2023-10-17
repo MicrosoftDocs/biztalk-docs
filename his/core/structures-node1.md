@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Structures Node"
-title: "Structures Node1"
+title: "Structures Node1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f71cda01-af19-476c-ad9f-db0354cee247
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Structures Node
 Use the **Structures** node to view a list of all the **Structures** in an assembly.  

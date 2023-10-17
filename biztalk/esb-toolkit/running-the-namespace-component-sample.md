@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Running the Namespace Component Sample"
-title: "Running the Namespace Component Sample"
+title: "Running the Namespace Component Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a2f334a8-06de-4a56-a41a-3df088bf4a72
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Running the Namespace Component Sample
 The Namespace Component sample application contains four receive location/send port pairs. Each pair represents a test. The following are the four tests:  

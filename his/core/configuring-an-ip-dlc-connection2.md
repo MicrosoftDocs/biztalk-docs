@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Configuring an IP-DLC Connection"
-title: "Configuring an IP-DLC Connection2"
+title: "Configuring an IP-DLC Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "his_ip_dlc_managing_ip_dlc_link_service_connections_kmdz"
+ms.assetid: 4ccd47be-df34-4e22-a748-dc92edbff933
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring an IP-DLC Connection
 As with other connections, configuration requires setting parameters on the **Connection** properties dialog box. It is recommended that you read this section before beginning the configuration process, so that you can gather all the necessary information before you start.

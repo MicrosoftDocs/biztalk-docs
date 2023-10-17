@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The certificate used for signing a message cannot be located in the local certificate store"
-title: "The certificate used for signing a message cannot be located in the local certificate store"
+title: "The certificate used for signing a message cannot be located in the local certificate store | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2ff3c7a2-954c-4c62-a7b2-06f7a38d61b3
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The certificate used for signing a message cannot be located in the local certificate store
 ## Details  

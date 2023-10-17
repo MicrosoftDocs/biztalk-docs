@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Generating an Outgoing AS2 Message"
-title: "Generating an Outgoing AS2 Message"
+title: "Generating an Outgoing AS2 Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 288c8101-9a96-4f98-ae18-df43c7cdb3a0
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Generating an Outgoing AS2 Message
 The AS2EDISend and AS2Send send pipelines generate an outbound message as follows. Each pipeline uses the properties in the one-way agreement tab of the **Agreement Properties** dialog box to generate the outgoing AS2 message.  

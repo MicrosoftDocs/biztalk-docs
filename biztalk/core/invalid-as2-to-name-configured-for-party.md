@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid AS2-To name configured for Party"
-title: "Invalid AS2-To name configured for Party"
+title: "Invalid AS2-To name configured for Party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a203e5f2-d1d9-433f-b2bb-d679bb8fea58
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid AS2-To name configured for Party
 ## Details  

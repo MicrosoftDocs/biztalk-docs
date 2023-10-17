@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Running the Repair and Resubmit Custom Exception Handler Sample"
-title: "Running the Repair and Resubmit Custom Exception Handler Sample"
+title: "Running the Repair and Resubmit Custom Exception Handler Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7363c440-44aa-4d08-8290-72787d17ac60
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Running the Repair and Resubmit Custom Exception Handler Sample
 The Repair and Resubmit Custom Exception Handler sample demonstrates an extremely effective technique for integrating human intervention into ESB and Microsoft BizTalk–based application processes and implements a useful design pattern. The sample code integrates seamlessly into the ESB exception management system.  

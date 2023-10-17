@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BAM Interceptor Error Messages"
-title: "BAM Interceptor Error Messages"
+title: "BAM Interceptor Error Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 270dd5b7-33bf-4847-86f1-8798d63421b8
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM Interceptor Error Messages
 When using the WF or WCF BAM interceptors, you may experience issues ranging from an invalid interceptor configuration file to runtime issues extracting context properties or trying to track events from the reply of a one-way WCF operation.  

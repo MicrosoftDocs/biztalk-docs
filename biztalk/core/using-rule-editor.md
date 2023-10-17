@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Using Rule Editor"
-title: "Using Rule Editor"
+title: "Using Rule Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Rule Editor [Business Rule Composer], about Rule Editor"
+  - "Rule Editor [Business Rule Composer], Conditions Editor"
+  - "Business Rule Composer, Rule Editor"
+  - "Rule Editor [Business Rule Composer], Actions Editor"
+  - "Rule Editor [Business Rule Composer]"
+ms.assetid: 6559a8d1-6caf-4c6e-ac80-acaa4eb57938
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Rule Editor
 Use the Rule Editor to view and edit conditions in the Conditions Editor and actions in the Actions Editor for the selected rule.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Upgrade an Orchestration"
-title: "How to Upgrade an Orchestration"
+title: "How to Upgrade an Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ef3f032f-28a1-4d52-9d85-d5748c9e9682
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Upgrade an Orchestration
 How to update an orchestration that is running in a production environment when the orchestration handles long-running transactions or is waiting for a response from a solicit-response port.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Enabling Error Reporting"
-title: "Enabling Error Reporting"
+title: "Enabling Error Reporting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1131bbd5-7ab3-4422-b6df-747c722f0b2c
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Enabling Error Reporting
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to select whether you want to display enhanced errors and warnings in the Windows Event Viewer.  

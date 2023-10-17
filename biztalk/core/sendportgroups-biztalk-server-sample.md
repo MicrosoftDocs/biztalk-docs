@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SendPortGroups (BizTalk Server Sample)"
-title: "SendPortGroups (BizTalk Server Sample)"
+title: "SendPortGroups (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4510aa31-16c3-475a-98aa-b590e13ae189
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SendPortGroups (BizTalk Server Sample)
 The SendPortGroups sample demonstrates how to enumerate and manage send port groups by using the **Microsoft.BizTalk.ExplorerOM** administration classes.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3B: Add an INTERACT Receive Location for the InterAct Real-Time Scenario"
-title: "Step 3B: Add an INTERACT Receive Location for the InterAct Real-Time Scenario"
+title: "Step 3B: Add an INTERACT Receive Location for the InterAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 59780635-e1b6-4e74-a89a-73ec26d6c670
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3B: Add an INTERACT Receive Location for the InterAct Real-Time Scenario
 Complete [Step 3A: Add a FILE Receive Location for the InterAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-interact-real-time-scenario.md) before you begin this step.

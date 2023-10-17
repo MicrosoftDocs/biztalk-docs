@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Install the Dynamic Resolution Sample Using the Install Scripts"
-title: "Install the Dynamic Resolution Sample Using the Install Scripts"
+title: "Install the Dynamic Resolution Sample Using the Install Scripts | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 644b6403-9883-4256-80d5-37881a87ed0e
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install the Dynamic Resolution Sample Using the Install Scripts
 This section describes how you can install the Dynamic Resolution sample from the install scripts provided with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  

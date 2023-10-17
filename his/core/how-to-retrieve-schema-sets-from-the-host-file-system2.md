@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Retrieve Schema Sets from the Host File System"
-title: "How to Retrieve Schema Sets from the Host File System2"
+title: "How to Retrieve Schema Sets from the Host File System2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 27b4f55f-8a87-47f8-bc3a-f5642f4f997c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Retrieve Schema Sets from the Host File System
 When a `HostFileConnection` is open, you can retrieve schema information about the target data by using the `GetSchema` method. `GetSchema` returns a `DataTable` object populated with the rows and columns that contain the schema information of the target of the current connection.  

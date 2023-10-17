@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error encountered during instance generation--field can repeat but repetition delimiter has not been defined"
-title: "Error encountered during instance generation--field can repeat but repetition delimiter has not been defined"
+title: "Error encountered during instance generation--field can repeat but repetition delimiter has not been defined | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c7a6783c-cb35-4ce8-9164-ec34ae500de1
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error encountered during instance generation--field can repeat but repetition delimiter has not been defined
 ## Details  

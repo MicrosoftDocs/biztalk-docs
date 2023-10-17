@@ -1,11 +1,27 @@
 ---
 description: "Learn more about: Global Settings Tab"
 title: "Global Settings Tab"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.globalsettings"
+helpviewer_keywords: 
+  - "configuring, auditing"
+  - "configuring, logging"
+  - "logging, configuring"
+  - "Global Settings tab [Configuration Explorer]"
+  - "auditing, configuring"
+ms.assetid: 057189f7-9072-4841-950f-371ba1f73a15
+caps.latest.revision: 6
+
+
+
 ---
 # Global Settings Tab
 You use the **Global Settings** tab to configure the logging store used by [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  

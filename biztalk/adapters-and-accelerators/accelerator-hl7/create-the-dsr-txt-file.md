@@ -1,9 +1,19 @@
 ---
 description: "Learn more about: Create the DSR.txt File"
 title: "Create the DSR.txt File"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+ms.assetid: b6947af7-c5ce-4ee6-9fe9-5c1094d0aee0
+caps.latest.revision: 6
+
+
+
 ---
 # Create the DSR.txt File
 Use the following procedure to create the response DSR.txt message file. You will use this file later to verify the tutorial scenario.  

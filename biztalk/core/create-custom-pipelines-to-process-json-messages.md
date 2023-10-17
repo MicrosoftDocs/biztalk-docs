@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Create custom pipelines to process JSON messages"
-title: "Create custom pipelines to process JSON messages"
+title: "Create custom pipelines to process JSON messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b04faad1-b14b-4146-82c7-88a38d2a46a5
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create custom pipelines to process JSON messages
 > [!NOTE]

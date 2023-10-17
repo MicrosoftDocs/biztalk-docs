@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Introduction to APPC"
-title: "Introduction to APPC2"
+title: "Introduction to APPC2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 811f8522-6cc2-4931-8637-dcbf4820440f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Introduction to APPC
 This section introduces the fundamental concepts of Advanced Program-to-Program Communications (APPC) in a distributed processing environment. These concepts include the following:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Performing Load and Throughput Testing"
-title: "Performing Load and Throughput Testing"
+title: "Performing Load and Throughput Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2ff86ebd-a77f-4e29-bfea-0306e88bbf67
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Performing Load and Throughput Testing
 You should make available an environment that matches your production environment for performance and stress testing. This environment should have all standard services installed and running, such as monitoring agents and antivirus software.

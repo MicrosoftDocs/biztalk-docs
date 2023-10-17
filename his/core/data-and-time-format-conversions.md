@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data and Time Format Conversions"
-title: "Data and Time Format Conversions"
+title: "Data and Time Format Conversions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 02540779-14a9-4de8-8d7f-780f3f034a63
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data and Time Format Conversions
 The DRDA Service converts to and from DB2 and SQL Server date time formats based on a defined set of format masks in the MsDrdaService.exe.config file—to support interoperability between DB2, SQL Server, ISO and string literal datetime values. See the Operations book for more information on date masks, time masks, and datetime masks.  

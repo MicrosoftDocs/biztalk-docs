@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Schemas"
-title: "EDI Schemas"
+title: "EDI Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f4aacda6-4110-4b72-a57e-eaa807050f9a
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Schemas
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI and AS2 uses the following types of schemas to process incoming messages and generate outgoing messages:  

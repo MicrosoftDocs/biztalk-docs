@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsHisTrace_Global Class"
-title: "MsHisTrace_Global Class2"
+title: "MsHisTrace_Global Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8405e56a-f83b-4fbc-b8f8-7aa901629197
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsHisTrace_Global Class
 The **MsHisTrace_Global** class contains the global settings for Microsoft® Host Integration Server tracing.  

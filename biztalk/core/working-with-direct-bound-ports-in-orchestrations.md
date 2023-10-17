@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Working with Direct Bound Ports in Orchestrations"
-title: "Working with Direct Bound Ports in Orchestrations"
+title: "Working with Direct Bound Ports in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 03a37ac0-5131-4d37-b60b-56763c460463
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working with Direct Bound Ports in Orchestrations
 There are three types of direct bound ports: MessageBox, self-correlating, and partner orchestration.  

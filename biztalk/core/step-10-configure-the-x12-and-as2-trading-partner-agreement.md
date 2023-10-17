@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 10: Configure the X12 and AS2 Trading Partner Agreement"
-title: "Step 10: Configure the X12 and AS2 Trading Partner Agreement"
+title: "Step 10: Configure the X12 and AS2 Trading Partner Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8fcdb3af-727a-4d20-9dcf-cf162e7d3398
+caps.latest.revision: 46
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 10: Configure the X12 and AS2 Trading Partner Agreement
 ![Step 10 of 11](../core/media/tut-step10-of-11.gif "Tut_Step10_of_11")  

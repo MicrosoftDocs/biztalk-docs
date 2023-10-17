@@ -1,12 +1,19 @@
 ---
 description: "Learn how to use the Update element to extract data from an event and import it into the related Business Activity Monitoring (BAM) activity."
-title: "Update2"
+title: "Update2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 770c9ebb-df3a-428f-be18-b36535352f8d
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Update
 

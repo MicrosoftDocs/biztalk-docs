@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Common Errors"
-title: "Common Errors"
+title: "Common Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4fe48a8e-def0-4a00-aa7f-9a49ae555351
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Common Errors
 This topic lists out common error messages you may encounter while creating maps using BizTalk Mapper.

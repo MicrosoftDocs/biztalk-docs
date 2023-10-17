@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: How to Customize General Settings in BizTalk Mapper"
-title: "How to Customize General Settings in BizTalk Mapper"
+title: "How to Customize General Settings in BizTalk Mapper | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.mapper.options.general"
+ms.assetid: 461acefb-8620-46fa-bdf1-de96f819e382
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Customize General Settings in BizTalk Mapper
 You can change the default settings of certain view options in a map. These settings would be available to you whenever you open Visual Studio. This topic provides information on such options.  

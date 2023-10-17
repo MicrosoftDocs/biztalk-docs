@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Activity and ActivityID Nodes"
-title: "Activity and ActivityID Nodes"
+title: "Activity and ActivityID Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "ActivityID nodes [Tracking Profile Editor]"
+  - "Activity nodes [Tracking Profile Editor]"
+  - "Tracking Profile Editor, node descriptions"
+  - "activities [BAM], definitions"
+ms.assetid: 94d4130a-53c5-4cd5-916a-4a6bd9acbf23
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Activity and ActivityID Nodes
 Activity and ActivityID nodes are used to contain and identify an activity definition. The Activity node is the parent folder for the items in the activity definition. All data items and business event nodes are subordinate to and contained within the associated activity node. The name of the Activity node should reflect the name of the activity itself.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SPasswordChange.psaOldExternalPassword Field"
-title: "SPasswordChange.psaOldExternalPassword Field"
+title: "SPasswordChange.psaOldExternalPassword Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af597c0b-0f55-4d13-97cb-3d8f0b58986c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SPasswordChange.psaOldExternalPassword Field
 A string containing the new external credentials.  

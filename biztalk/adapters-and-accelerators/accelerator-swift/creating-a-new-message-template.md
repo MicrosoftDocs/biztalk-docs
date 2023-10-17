@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Creating a New Message Template"
-title: "Creating a New Message Template"
+title: "Creating a New Message Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, templates"
+  - "templates, creating"
+  - "creating, templates"
+ms.assetid: 8c601d2b-b7a5-4ac4-9d98-fd9960038340
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating a New Message Template
 You can create a new message template from an existing template. This enables a creator to create a new message instance on a custom form, such as a copy of a standard SWIFT form that already has some data entered into it. Using the new template, the creator does not have to enter all of the data required when using an empty form.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn about the sqlToDb2 element that defines the direction from SQL Server to DB2."
-title: "sqlToDb23"
+title: "sqlToDb23 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0a0deee0-85ef-4f38-b554-bd595e3b993a
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # sqlToDb2
 

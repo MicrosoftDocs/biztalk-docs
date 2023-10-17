@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Restore Applications and Enable Processing"
-title: "How to Restore Applications and Enable Processing"
+title: "How to Restore Applications and Enable Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 83144965-a51a-481a-afd6-7f573b69badb
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Restore Applications and Enable Processing
 Configure the applications in the BizTalk group and enable application processing after following the steps described in the topic [How to Update the Runtime Computers](../technical-guides/how-to-update-the-runtime-computers.md).  

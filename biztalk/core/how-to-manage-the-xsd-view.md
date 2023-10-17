@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Manage the XSD View"
-title: "How to Manage the XSD View"
+title: "How to Manage the XSD View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3245ebf0-6128-47b4-8e88-ea06ececbc15
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Manage the XSD View
 Management tasks with respect to the XSD view can be divided into three categories: changing its size, changing its background color and font, and changing its refresh characteristics.  

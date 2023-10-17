@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unable to access party using send port"
-title: "Unable to access party using send port"
+title: "Unable to access party using send port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ffacba77-76e8-4f03-be26-134a9999d6c1
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unable to access party using send port
 ## Details  

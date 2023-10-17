@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring General Party Properties (AS2)"
-title: "Configuring General Party Properties (AS2)"
+title: "Configuring General Party Properties (AS2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c9a4dbd0-8849-403a-af82-58ee0b10f85a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring General Party Properties (AS2)
 A party or trading partner represents a participating organization in a business relationship. Party properties contain the following information:  

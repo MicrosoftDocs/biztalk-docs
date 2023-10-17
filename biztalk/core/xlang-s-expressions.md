@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: XLANG-s Expressions"
-title: "XLANG-s Expressions"
+title: "XLANG-s Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a477ee2c-7fd7-43bd-a194-0d68d79613fc
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # XLANG-s Expressions
 An expression is a sequence of operators and operands. This topic illustrates the syntax that XLANG/s supports for various expressions.  

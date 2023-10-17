@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Analyzing Fault Trends Using Charts and Reports"
-title: "Analyzing Fault Trends Using Charts and Reports"
+title: "Analyzing Fault Trends Using Charts and Reports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6f46dddb-bb9b-498d-bef3-ad9664f6c8ec
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Analyzing Fault Trends Using Charts and Reports
 This section describes the charts and reports that the ESB Management Portal generates. These charts and reports provide valuable detail and trend information for faults, alerts, and message resubmission. You can view the following:  

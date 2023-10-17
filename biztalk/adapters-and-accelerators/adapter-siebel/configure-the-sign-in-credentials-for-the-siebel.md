@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Configure the sign in credentials for the Siebel"
-title: "Configure the sign in credentials for the Siebel"
+title: "Configure the sign in credentials for the Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "how to, specify credentials for the Siebel system at run time"
+  - "credentials, specifying"
+  - "how to, specify credentials for the Siebel system at design time"
+ms.assetid: a9fef2ba-c38e-44f7-84a3-b6a95d4dc210
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the sign in credentials for the Siebel
 The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] requires the adapter clients to provide client credentials. The adapter uses these credentials to authenticate the user with the Siebel system and to establish a connection.  

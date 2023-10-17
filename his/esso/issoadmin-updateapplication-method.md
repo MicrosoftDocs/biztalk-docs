@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOAdmin.UpdateApplication Method"
-title: "ISSOAdmin.UpdateApplication Method"
+title: "ISSOAdmin.UpdateApplication Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 36f95210-aac3-425d-ab27-cc7822921613
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOAdmin.UpdateApplication Method
 The **UpdateApplication** method updates the application information in the Enterprise Single Sign-On (SSO) server database.  

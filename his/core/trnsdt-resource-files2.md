@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TrnsDT Resource Files"
-title: "TrnsDT Resource Files2"
+title: "TrnsDT Resource Files2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4ca79887-b1a3-4e66-a845-ae340bd61b85
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TrnsDT Resource Files
 The **TrnsDt** API uses a series of resource files that contain the necessary translation tables, which are listed in the following table.  

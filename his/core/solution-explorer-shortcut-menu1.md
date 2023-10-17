@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Solution Explorer Shortcut Menu"
-title: "Solution Explorer Shortcut Menu1"
+title: "Solution Explorer Shortcut Menu1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0e72e91f-04ed-4e7c-b9e3-e9d8d944b9af
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Solution Explorer Shortcut Menu
 When you select a Transaction Integrator-compatible file in Solution Explorer, the appropriate context-sensitive, or shortcut menu commands are displayed.  

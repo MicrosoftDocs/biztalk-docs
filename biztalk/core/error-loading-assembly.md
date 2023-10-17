@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error loading assembly"
-title: "Error loading assembly"
+title: "Error loading assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 600973e0-3142-455f-9afa-74430af31e38
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error loading assembly
 ## Details  

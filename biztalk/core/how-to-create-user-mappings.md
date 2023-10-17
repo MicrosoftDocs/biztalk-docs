@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Create User Mappings"
-title: "How to Create User Mappings"
+title: "How to Create User Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "maps [SSO], creating"
+  - "managing [SSO maps], creating user maps"
+ms.assetid: c2e9f0db-920b-4d89-8e1e-5dc92805fd23
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create User Mappings
 Use this command to create one or more user mappings, as specified in the XML file. The following is an example XML file.  

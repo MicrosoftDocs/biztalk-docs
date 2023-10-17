@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: PartnerManagement (BizTalk Server Sample)"
-title: "PartnerManagement (BizTalk Server Sample)"
+title: "PartnerManagement (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 83e2a84f-ab25-4a7c-b8d7-0ba2dfa93095
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # PartnerManagement (BizTalk Server Sample)
 The PartnerManagement sample demonstrates how to manage parties in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment by using the **ExplorerOM** administration objects.

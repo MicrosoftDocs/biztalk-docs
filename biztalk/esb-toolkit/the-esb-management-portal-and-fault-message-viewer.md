@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The ESB Management Portal and Fault Message Viewer"
-title: "The ESB Management Portal and Fault Message Viewer"
+title: "The ESB Management Portal and Fault Message Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c4a1636c-2e45-4ee5-92c2-81c976582da3
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The ESB Management Portal and Fault Message Viewer
 A major component of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is a Web-based portal that provides a wide range of exception management and alert notification features; in addition, it acts as a useful configuration management and Universal Description, Discovery, and Integration (UDDI) registration interface. Figure 1 shows the home page of the portal, which provides an overview of the health of the currently running applications.  

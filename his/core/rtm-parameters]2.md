@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: RTM Parameters]"
-title: "RTM Parameters]2"
+title: "RTM Parameters]2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a20e5877-4949-418f-8ee2-861185fdf7c3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # RTM Parameters]
 The [Status-RTM](./status-rtm1.md) message is sent to the application by the local node to indicate the Response Time Monitor (RTM) parameters being used by the host. The host can specify the following parameters:  

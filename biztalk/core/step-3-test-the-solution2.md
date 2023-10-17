@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3: Test the Solution"
-title: "Step 3: Test the Solution2"
+title: "Step 3: Test the Solution2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 30dbc7c9-3c5f-4953-b26f-5c41141c22ad
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Test the Solution
 ![Step 3 of 3](../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")  

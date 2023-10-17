@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ADAPTERPERFDATA"
-title: "ADAPTERPERFDATA2"
+title: "ADAPTERPERFDATA2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 21c956b2-7fec-40c1-a6d8-f026a8c9897e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ADAPTERPERFDATA
 The **ADAPTERPERFDATA** structure groups all of the [ADAPTERCOUNTER](../core/adaptercounter2.md) structures for an SNA link service together into a single block. It also has a few fields used internally by the SNA Perfmon code. The SNA link driver should not change the first three members of this structure.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: ListApps Command"
-title: "ListApps Command"
+title: "ListApps Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7a5eb0af-e153-4639-a6c0-56c951827c7c
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ListApps Command
 Prints to the console the name and description of all of the BizTalk applications in the specified BizTalk Management database.  

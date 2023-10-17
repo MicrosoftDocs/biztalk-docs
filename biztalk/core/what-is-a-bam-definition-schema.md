@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: What Is a BAM Definition Schema?"
-title: "What Is a BAM Definition Schema?"
+title: "What Is a BAM Definition Schema? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "definitions [BAM], schemas"
+  - "schemas, definitions [BAM]"
+  - "code samples, definition schemas [BAM]"
+  - "definitions [BAM], code samples"
+ms.assetid: 2eefe513-6593-409f-936f-7760e924f605
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is a BAM Definition Schema?
 The BAM definition schema defines the structure of the observation model created by the business analyst.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create New Mappings Wizard: Files Location"
-title: "Create New Mappings Wizard: Files Location1"
+title: "Create New Mappings Wizard: Files Location1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6397af1a-580c-4953-8284-841bfb383ddd
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create New Mappings Wizard: Files Location
 ## UIElement List  

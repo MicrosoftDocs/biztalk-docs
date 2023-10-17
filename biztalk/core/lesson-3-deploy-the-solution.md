@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Lesson 3: Deploy the Solution"
-title: "Lesson 3: Deploy the Solution"
+title: "Lesson 3: Deploy the Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "enterprise application integration tutorial, deploying solutions"
+ms.assetid: b2f50fe7-7636-45bf-a09b-776065dd8a33
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 3: Deploy the Solution
 The first step in deploying EAISolution is to add assemblies to the BizTalk Management database and the global assembly cache.  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: XLANG-s Language"
-title: "XLANG-s Language"
+title: "XLANG-s Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, properties"
+ms.assetid: 97b62f17-5a8d-4d87-8563-1f6d941f027f
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # XLANG-s Language
 XLANG/s was designed to use Internet standards such as XML, XSD, and Web Services Description Language (WSDL), and has embedded support for working with .NET-based objects and messages. XLANG/s can be viewed as a messaging language with some of the expression capabilities of C#. However, code is not portable between XLANG/s and C#.  

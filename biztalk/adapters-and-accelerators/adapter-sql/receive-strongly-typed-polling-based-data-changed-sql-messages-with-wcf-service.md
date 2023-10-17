@@ -1,12 +1,19 @@
 ---
-title: "Receive Strongly-typed Polling-based Data-changed Messages from SQL Server Using WCF Service Model"
+title: "Receive Strongly-typed Polling-based Data-changed Messages from SQL Server Using WCF Service Model | Microsoft Docs"
 description: Use a .NET application to configure typed polling, or strongly-typed polling using WCF Service with the WCF-SQL adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/09/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b55eda71-1226-43f2-bc2f-e6b35563210b
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive Strongly-typed Polling-based Data-changed Messages from SQL Server Using WCF Service Model
 You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive strongly-typed polling messages from SQL Server. You can specify a polling statement that the adapter executes to poll the database. The polling statement can be a SELECT statement or a stored procedure that returns a result set. You must use strongly-typed polling in a scenario where you want to receive a strongly-typed result set. For more information on how the adapter supports strongly-typed polling, see [Support for Inbound Calls Using Polling](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-inbound-calls-using-polling.md).

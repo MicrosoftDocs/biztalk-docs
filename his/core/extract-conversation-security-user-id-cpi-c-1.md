@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Extract_Conversation_Security_User_ID (CPI-C)"
-title: "Extract_Conversation_Security_User_ID (CPI-C)1"
+title: "Extract_Conversation_Security_User_ID (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ce2941e6-aaf7-498e-b30c-64ac322059f3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Extract_Conversation_Security_User_ID (CPI-C)
 The **Extract_Conversation_Security_User_ID** call (function name **cmecsu**) returns the user identifier being used in a specified conversation.  

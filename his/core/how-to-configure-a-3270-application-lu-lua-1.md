@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure a 3270 Application LU (LUA)"
-title: "How to Configure a 3270 Application LU (LUA)1"
+title: "How to Configure a 3270 Application LU (LUA)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 614136ba-2f92-4614-ad95-34a61195aaee
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure a 3270 Application LU (LUA)
 The following procedure details how to configure an application LU (LUA).  

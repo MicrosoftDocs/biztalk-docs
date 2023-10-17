@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Using Schemas"
-title: "Using Schemas"
+title: "Using Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipeline components [custom], examples"
+  - "pipeline components [custom], code samples"
+  - "pipeline components [custom], schemas"
+ms.assetid: 07e60532-1032-422d-865e-0bd65c45dab6
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Schemas
 This section contains code examples for common tasks associated with using schemas.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Instance Message Processing Using Distinguished Fields"
-title: "Instance Message Processing Using Distinguished Fields"
+title: "Instance Message Processing Using Distinguished Fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6b8f3f77-5385-4294-b441-bcb28bdc51b4
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Instance Message Processing Using Distinguished Fields
 Promoting properties by using the **Distinguished Field** mechanism does not require the creation of a property schema. As with all property promotion, you use the **Promote Properties** dialog box, which is accessible by using the **Promote Properties** property of the **Schema** node in message schemas, or by using the **Promote &#124; Show Promotions** command on the **BizTalk** or shortcut menus.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Generate Instance Messages"
-title: "How to Generate Instance Messages"
+title: "How to Generate Instance Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ff74c67a-7e73-4153-9ec4-e6e50464ee92
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Generate Instance Messages
 After you have constructed a schema, one way to check your work is to generate a sample instance message from the schema. In many ways, looking at an instance message is much more straightforward than looking at either the schema tree or the XML Schema definition (XSD) language representation of the schema. This is because the schema needs to describe all of the possible variations of the corresponding instance messages, and a specific instance message just needs to convey some data by using the format specified by the schema. The generated instance message is a sample and may not show all of the structures defined by the corresponding schema.  

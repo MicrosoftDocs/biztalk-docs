@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Interchange Aggregation Report"
-title: "Interchange Aggregation Report"
+title: "Interchange Aggregation Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4619e8d0-9e9e-4d19-a67a-ac1058a0579b
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Interchange Aggregation Report
 This report provides one record that indicates the number of EDI interchanges that share the same EDI encoding type, sender party, receiver party, and direction. This report does not provide details about the individual interchanges.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Create the 3270 Demonstration"
-title: "How to Create the 3270 Demonstration1"
+title: "How to Create the 3270 Demonstration1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d188621b-73b5-4685-b7e5-2a021875ad61
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create the 3270 Demonstration
 The following procedure details creating the Continuous 3270 Demonstration.  

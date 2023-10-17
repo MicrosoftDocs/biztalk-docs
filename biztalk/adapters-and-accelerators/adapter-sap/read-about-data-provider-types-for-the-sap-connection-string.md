@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Read about Data Provider types for the SAP Connection String"
-title: "Read about Data Provider types for the SAP Connection String"
+title: "Read about Data Provider types for the SAP Connection String | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "Data Provider for SAP, connection string"
+  - "ADO, connection string"
+ms.assetid: 7a46eaae-604f-4bae-924b-9f6d43a6e8a0
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Read about Data Provider types for the SAP Connection String
 To establish connectivity to an SAP system, ADO.NET clients must specify the SAP connection properties in the form of a connection string. The format for the SAP ADO connection string looks like:

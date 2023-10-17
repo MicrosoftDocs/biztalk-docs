@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Detect Configuration Issues for a Functoid"
-title: "How to Detect Configuration Issues for a Functoid"
+title: "How to Detect Configuration Issues for a Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 32afc333-934c-4ffb-b1b5-61af07157200
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Detect Configuration Issues for a Functoid
 While working with maps, you might encounter issues with configuration of a functoid and/or link. The BizTalk Mapper uses a visualization mechanism to help quickly identify problems associated with a functoid configuration. This visual indication renders as a warning annotation on the functoid icon (for e.g. ![Functoid IntelliSense](../core/media/mapper-functoidintellisense.gif "Mapper_FunctoidIntelliSense")) in the relationship view. This topic provides information about how to detect the configuration issues for a functoid.  

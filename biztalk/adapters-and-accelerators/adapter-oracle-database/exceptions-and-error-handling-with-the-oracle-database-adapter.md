@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Exceptions and error handling with the Oracle Database adapter"
-title: "Exceptions and error handling with the Oracle Database adapter"
+title: "Exceptions and error handling with the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "exception, LOB"
+  - "exception, inner"
+  - "exceptions, error handling"
+  - "error handling, exceptions"
+ms.assetid: df9a1244-63cd-438e-8a06-99383fbeba2c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Exceptions and error handling with the Oracle Database adapter
 This section lists the exceptions that the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] throws. These can contain:  

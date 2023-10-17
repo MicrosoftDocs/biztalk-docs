@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Agreement Resolution for Outgoing AS2 Messages"
-title: "Agreement Resolution for Outgoing AS2 Messages"
+title: "Agreement Resolution for Outgoing AS2 Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 578d7565-534c-4c13-b473-975f347f3a9b
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Agreement Resolution for Outgoing AS2 Messages
 When an AS2 send pipeline processes an outgoing EDIINT/AS2-encoded message over HTTP/HTTPS transport, it determines the agreement that the message will resolve to. It will then use those agreement properties to process the outgoing message. The send pipeline will use the following criteria to determine the agreement (in order of priority):  

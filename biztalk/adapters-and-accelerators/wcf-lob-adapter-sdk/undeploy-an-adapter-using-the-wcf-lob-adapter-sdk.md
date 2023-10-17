@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Undeploy an adapter using the WCF LOB adapter SDK"
-title: "Undeploy an adapter using the WCF LOB adapter SDK"
+title: "Undeploy an adapter using the WCF LOB adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 98f9a124-9e63-4451-af0e-ffee752fbeac
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Undeploy an adapter using the WCF LOB adapter SDK
 To undeploy an adapter from a computer, the user needs to perform the following two tasks:  

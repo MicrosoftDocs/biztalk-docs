@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Backing Up Databases"
-title: "Backing Up Databases"
+title: "Backing Up Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0524a8f0-15a3-4731-a7bd-c0c935fff6c8
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Backing Up Databases
 Because[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses distributed transactions across multiple databases, the Backup BizTalk Server job creates synchronized backups of all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases. This is accomplished by using marked transactions with the “Full” database recovery model. This is required for the backups to be transactionally consistent across databases. For more information, see ["Marked Transactions, Full Backups, and Log Backups"](../core/marked-transactions-full-backups-and-log-backups.md) (<https://go.microsoft.com/fwlink/?LinkId=151565>) in the BizTalk Server documentation.

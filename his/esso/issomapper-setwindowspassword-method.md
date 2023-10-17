@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOMapper.SetWindowsPassword Method"
-title: "ISSOMapper.SetWindowsPassword Method"
+title: "ISSOMapper.SetWindowsPassword Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e1fe0fc9-4eef-462a-96a9-b4f4a0ae9882
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOMapper.SetWindowsPassword Method
 The **SetWindowsPassword** method sets the Microsoft Windows password. This method is not currently implemented.  

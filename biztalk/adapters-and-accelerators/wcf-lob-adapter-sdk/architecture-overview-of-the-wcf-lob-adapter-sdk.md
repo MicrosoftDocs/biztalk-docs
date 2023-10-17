@@ -1,12 +1,19 @@
 ---
-title: "Architecture overview of the WCF LOB Adapter SDK"
+title: "Architecture overview of the WCF LOB Adapter SDK | Microsoft Docs"
 description: Introduction to handlers, channel implementation, connection management, metadata, and using WSDL in the WCF LOB Adapter SDK
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dbd9b63c-54a4-4f63-b3a8-8600f6009a74
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Architecture overview of the WCF LOB Adapter SDK
 The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is built on top of the WCF Channel Model and provides design-time and run-time extensions for adapter developers to create adapters to line-of-business systems that have large and dynamic metadata. An adapter created using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is surfaced to the consumer as a custom WCF binding. The following figure shows the internal architecture and main components of WCF LOB Adapter SDK.  

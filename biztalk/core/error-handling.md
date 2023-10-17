@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Error Handling"
-title: "Error Handling"
+title: "Error Handling | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Messaging Engine, errors"
+  - "errors, Messaging Engine"
+  - "errors, messages"
+  - "messages, errors"
+ms.assetid: ebc889cc-eeac-483c-baf3-407a218f6d14
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error Handling
 The pathway that a message follows through the BizTalk Server messaging subsystem encompasses several points of processing and transfer. At each point along this pathway, failures can occur in both BizTalk Server infrastructure and application-provided elements such as custom pipeline components and orchestrations.  

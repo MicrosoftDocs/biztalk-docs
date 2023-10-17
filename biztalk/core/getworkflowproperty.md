@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: GetWorkflowProperty"
-title: "GetWorkflowProperty"
+title: "GetWorkflowProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c9d3029e-3267-46bc-ba2e-1c6fa1f2e931
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # GetWorkflowProperty
 Pushes the extracted property from the root activity of the workflow onto the stack.  

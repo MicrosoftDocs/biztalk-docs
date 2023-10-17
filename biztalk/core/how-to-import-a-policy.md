@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Import a Policy"
-title: "How to Import a Policy"
+title: "How to Import a Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "policies, requirements"
+  - "importing, policies"
+  - "policies, importing"
+  - "managing [policies], importing"
+ms.assetid: 92f6ef18-279f-416d-b13e-8b9642539d27
+caps.latest.revision: 29
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Import a Policy
 This topic describes how to use the BizTalk Server Administration console to import a policy into a BizTalk group or the BTSTask command-line tool to import a policy into a BizTalk application.  

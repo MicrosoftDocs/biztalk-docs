@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: How to Manage the BizTalk Server Administrators Group"
-title: "How to Manage the BizTalk Server Administrators Group"
+title: "How to Manage the BizTalk Server Administrators Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Administrators group, user accounts"
+  - "BizTalk Administrators group"
+  - "user accounts, BizTalk Administrators group"
+  - "Windows Management Instrumentation (WMI), administering"
+  - "BizTalk Administrators group, privileges"
+  - "security, BizTalk Administrators group"
+  - "Administration Console [BizTalk Server], security"
+  - "Administration Console [BizTalk Server], administering"
+  - "BizTalk Administrators group, about BizTalk Administrators group"
+ms.assetid: 60ea689b-0b93-4fcc-b49c-6436e7be473f
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Manage the BizTalk Server Administrators Group
 The BizTalk Server Administrators group has the fewest privileges necessary to perform administrative tasks. You add users to the BizTalk Server Administrators group so that they can perform administrative tasks by using the BizTalk Server Administration Console or the WMI provider. You also remove users from the BizTalk Server Administrators group when they no longer need to perform administrative tasks by using the BizTalk Server Administration Console or the WMI provider.  

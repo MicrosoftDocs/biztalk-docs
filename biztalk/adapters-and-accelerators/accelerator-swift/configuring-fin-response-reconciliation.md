@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Configuring FIN Response Reconciliation"
-title: "Configuring FIN Response Reconciliation"
+title: "Configuring FIN Response Reconciliation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "FIN Response Reconciliation, configuring"
+  - "configuring, FIN Response Reconciliation"
+ms.assetid: dc934530-76ff-4cdb-b182-46f9ea0343b7
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring FIN Response Reconciliation
 You must perform the steps in the following sections to configure the Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] FIN Response Reconciliation (FRR) feature, as shown in the following figure.  

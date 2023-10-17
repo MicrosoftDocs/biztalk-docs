@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Defining an SNA Remote Environment"
-title: "Defining an SNA Remote Environment1"
+title: "Defining an SNA Remote Environment1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: de91cbed-d195-4d52-a13e-7d06b7edd56d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Defining an SNA Remote Environment
 You can define an SNA (APPC/LU 6.2) remote environment (RE) instance to fit each of the following three mainframe-based programming models:  

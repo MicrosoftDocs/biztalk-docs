@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOMapper.GetMappingsForWindowsUser Method"
-title: "ISSOMapper.GetMappingsForWindowsUser Method"
+title: "ISSOMapper.GetMappingsForWindowsUser Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5efe1743-195e-4d14-a7dd-b015307c39a0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOMapper.GetMappingsForWindowsUser Method
 The **GetMappingsForWindowsUser** method retrieves the mappings for a Microsoft Windows user.  

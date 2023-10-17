@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: XSLT Transform Component (BizTalk Server Sample)"
-title: "XSLT Transform Component (BizTalk Server Sample)"
+title: "XSLT Transform Component (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipeline components [custom], examples"
+  - "examples, pipeline components [custom]"
+  - "XSLT, examples"
+  - "examples, XSLT"
+ms.assetid: 9152e897-4db9-4924-b37e-fd9e908dbef1
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # XSLT Transform Component (BizTalk Server Sample)
 The XSLT Transform Component sample demonstrates how to write a custom pipeline component to transform an XML message using XSLT.  

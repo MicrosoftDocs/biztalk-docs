@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Run the 3270 Client"
-title: "How to Run the 3270 Client2"
+title: "How to Run the 3270 Client2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 288238e7-a022-469e-80b9-a28e863422e8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Run the 3270 Client
 The following procedure details running the 3270 Client application.  

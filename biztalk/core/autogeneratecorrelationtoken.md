@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AutoGenerateCorrelationToken"
-title: "AutoGenerateCorrelationToken"
+title: "AutoGenerateCorrelationToken | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a24357c9-34e5-4caa-b41c-19551cfe81f9
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AutoGenerateCorrelationToken
 Automatically generates a correlation token and places it onto the stack.  

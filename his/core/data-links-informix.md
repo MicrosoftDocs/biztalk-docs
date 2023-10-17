@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data Links (Informix)"
-title: "Data Links (Informix)"
+title: "Data Links (Informix) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c312f4ae-cb34-4076-9681-06770c5272c9
+caps.latest.revision: 8
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Links (Informix)
 Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog to configure connections to IBM Informix database servers. Data Links can save a data source definition as an OLE DB universal data link (UDL) file, which allows the user to share configurations between applications, users, and computers.

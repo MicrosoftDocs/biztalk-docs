@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Single Sign-On Support for the WCF Adapters"
-title: "Single Sign-On Support for the WCF Adapters"
+title: "Single Sign-On Support for the WCF Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "WCF adapters, Single Sign-On"
+  - "Single Sign-On, WCF adapters"
+ms.assetid: 70a33d87-50bd-41de-9084-68dd66b0dbf9
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On Support for the WCF Adapters
 You can configure Enterprise Single Sign-On (SSO) for use with a WCF receive location or send port by using the BizTalk Administration console. This topic describes how SSO works with the WCF adapters.

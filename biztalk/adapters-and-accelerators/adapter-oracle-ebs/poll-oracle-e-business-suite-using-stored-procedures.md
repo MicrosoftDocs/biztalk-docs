@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Poll Oracle E-Business Suite using stored procedures"
-title: "Poll Oracle E-Business Suite using stored procedures"
+title: "Poll Oracle E-Business Suite using stored procedures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e9e89dfe-f33a-436b-94c6-be78e84d5efd
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Poll Oracle E-Business Suite using stored procedures
 You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive periodic data-change messages by using stored procedures to continuously poll the Oracle database. You can specify a stored procedure as a polling statement that the adapter executes periodically to poll the Oracle database.  

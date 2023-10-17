@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_PrintSession.PA2Key Method"
-title: "MsSnaStatus_PrintSession.PA2Key Method2"
+title: "MsSnaStatus_PrintSession.PA2Key Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 114c8aa9-2802-4e79-9745-c5a0a796dfe7
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_PrintSession.PA2Key Method
 Simulates pressing the PA2 key.  

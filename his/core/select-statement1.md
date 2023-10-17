@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SELECT Statement"
-title: "SELECT Statement1"
+title: "SELECT Statement1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: db425439-7158-413f-b4d5-767e63d7e13e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SELECT Statement
 The following describes the `SELECT` statement parsing used in the Managed Provider for Host Files and provides sample `SELECT` statements.  

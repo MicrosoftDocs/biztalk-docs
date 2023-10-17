@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure the 3270 Demonstration"
-title: "How to Configure the 3270 Demonstration2"
+title: "How to Configure the 3270 Demonstration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3637f288-a621-41d5-991f-9ac7f248bed6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure the 3270 Demonstration
 Use the following procedure to configure the 3270 Demonstration link service.  

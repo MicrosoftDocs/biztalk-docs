@@ -1,12 +1,19 @@
 ---
-title: "Develop your SQL applications in BizTalk Server"
+title: "Develop your SQL applications in BizTalk Server | Microsoft Docs"
 description: Create SQL adapter applications using WCF, or in BizTalk Server with the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fac4b5b0-2980-4784-a081-e795654292ed
+caps.latest.revision: 39
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop your SQL applications
 

@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Import Bindings into a BizTalk Group"
-title: "How to Import Bindings into a BizTalk Group"
+title: "How to Import Bindings into a BizTalk Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "groups, importing"
+  - "importing, bindings"
+  - "groups, bindings"
+  - "bindings, groups"
+ms.assetid: 38da14fb-3522-4274-a633-2ff24e4bd574
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Import Bindings into a BizTalk Group
 This topic describes how to use the BizTalk Server Administration console or the command line to import bindings into a BizTalk group from an .xml file. For instructions on exporting the bindings from a BizTalk group into an .xml file that you can import, see [How to Export Bindings for a BizTalk Group](../core/how-to-export-bindings-for-a-biztalk-group.md).  

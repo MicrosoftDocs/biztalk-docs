@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Step 7: Building and Deploying the LOBWebApplication SDK Sample"
-title: "Step 7: Building and Deploying the LOBWebApplication SDK Sample"
+title: "Step 7: Building and Deploying the LOBWebApplication SDK Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "double action tutorial, building solutions"
+  - "double action tutorial, deploying solutions"
+ms.assetid: f61de666-ebda-4831-9669-598e9284e4c1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 7: Building and Deploying the LOBWebApplication SDK Sample
 In this step, you create the line-of-business (LOB) application that Fabrikam uses to submit Partner Interface Process (PIP) requests to Contoso. You can find the LOBWebApplication project in the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK folder. To run the Web application, you have to create a Microsoft Internet Information Services (IIS) virtual directory, and then build the LOBWebApplication project.  

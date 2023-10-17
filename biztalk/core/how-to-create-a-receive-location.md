@@ -1,14 +1,25 @@
 ---
 description: "Learn more about: How to Create a Receive Location"
-title: "How to Create a Receive Location"
+title: "How to Create a Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.admin.procedure.createreceivelocation"
+helpviewer_keywords: 
+  - "receive locations, creating"
+  - "managing [receive locations], creating"
+  - "creating, receive locations"
+ms.assetid: ec0202cf-0e69-4ae2-aba6-8cd2c3c77e82
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create a Receive Location
 This topic describes how to use the BizTalk Server Administration console to create a new receive location and specify the receive port to which it belongs. A receive location is an address where inbound messages arrive as well as the messaging pipeline that processes messages received at that address.  

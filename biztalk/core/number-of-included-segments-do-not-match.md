@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Number of included segments do not match"
-title: "Number of included segments do not match"
+title: "Number of included segments do not match | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c868de02-fda7-4d84-be50-2c08cde0450c
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Number of included segments do not match
 ## Details  

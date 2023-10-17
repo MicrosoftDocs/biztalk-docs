@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Identifying Lost Tracking Data"
-title: "Identifying Lost Tracking Data"
+title: "Identifying Lost Tracking Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "data loss, HAT"
+  - "reporting tools"
+  - "Orchestration Debugger"
+  - "Tracking database, data loss"
+  - "HAT, data loss"
+  - "HAT, Operation View tool"
+  - "HAT, reporting tools"
+  - "Operation View tool, MessageBox database"
+  - "MessageBox database, Operation View tool"
+  - "Operation View tool, data loss"
+ms.assetid: 1ac13e2c-cd5e-437e-b924-d4547931874e
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Identifying Lost Tracking Data
 You can use the BizTalk Server Administration console to help identify which tracking data has been lost as a result of a hardware failure. You can use the BizTalk Server Administration console for live or archived data.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for party settings"
-title: "Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for party settings"
+title: "Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for party settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bcbb6374-0403-42b0-892b-b35157a2c74a
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for party settings
 ## Details  

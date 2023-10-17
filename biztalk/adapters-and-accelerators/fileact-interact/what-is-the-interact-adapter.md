@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: What Is the InterAct Adapter?"
-title: "What Is the InterAct Adapter?"
+title: "What Is the InterAct Adapter? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a09063df-c6c4-41b9-96a1-e5059777fa72
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is the InterAct Adapter?
 The InterAct Adapter for SWIFTNet provides connectivity between BizTalk Server and the SWIFT Secure IP Network (SIPN) for the transfer of messages. The SIPN transfers messages and files over a secure private network which interconnects financial institutions, financial industry infrastructures, and customers. The InterAct adapter uses the SWIFTNet Link (SNL) application programming interface (API)s to connect to the SIPN.  

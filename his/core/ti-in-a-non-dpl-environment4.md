@@ -1,12 +1,18 @@
 ---
 description: "Learn how to use Transaction Integrator (TI) to invoke a mainframe transaction program (TP) that uses COBOL commands to transfer data."
-title: "TI in a Non-DPL Environment4"
+title: "TI in a Non-DPL Environment4 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2b02b2ae-0488-47bd-8803-641107d31001
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Transaction Integrator (TI) in a Non-DPL Environment
 

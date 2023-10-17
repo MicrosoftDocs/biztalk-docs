@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Install Microsoft BizTalk Adapter for SQL Server - 2016"
-title: "Install Microsoft BizTalk Adapter for SQL Server - 2016"
+title: "Install Microsoft BizTalk Adapter for SQL Server - 2016 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bcc6b94e-1cac-4b90-8567-05b33caa9bf3
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install Microsoft BizTalk Adapter for SQL Server - 2016
 Install the [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)] included with [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)].

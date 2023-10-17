@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Security for Sending and Receiving Messages"
-title: "Security for Sending and Receiving Messages"
+title: "Security for Sending and Receiving Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, receiving"
+  - "messages, sending"
+  - "messages, processing"
+  - "security, messages"
+  - "security, message processing"
+  - "messages, security"
+ms.assetid: 9bcd01e4-245a-4f4c-b65c-89d7cd3d1b68
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security for Sending and Receiving Messages
 The following figure shows what happens to a message as BizTalk Server receives it, processes it, and sends it to another application or partner.  

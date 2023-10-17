@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Step 2: Configure the Orchestration in BizTalk Server Administration Console"
-title: "Step 2: Configure the Orchestration in BizTalk Server Administration Console1"
+title: "Step 2: Configure the Orchestration in BizTalk Server Administration Console1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "orchestration, configruing in BizTalk Server Administration console"
+  - "WCF-Custom port, creating"
+  - "migration"
+ms.assetid: fb057bce-5702-4ea0-8ed5-e299d3a78a11
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Configure the Orchestration in BizTalk Server Administration Console
 ![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")

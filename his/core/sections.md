@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: sections"
-title: "sections"
+title: "sections | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d77b1b58-8869-4379-9284-ed28b96dd75e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # sections
 Sections is a collection of package elements.  

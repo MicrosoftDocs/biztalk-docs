@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Test and Debug an Adapter"
-title: "How to Test and Debug an Adapter"
+title: "How to Test and Debug an Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cf6563ea-b4ea-4617-b3da-d31250d002ab
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Test and Debug an Adapter
 Debugging run-time problems often requires a multifaceted approach. Data must be gathered from multiple sources such as software tracing, performance counters, event log entries, Windows Management Instrumentation (WMI) events, and debugging source code to determine the cause of problems or software bugs.  

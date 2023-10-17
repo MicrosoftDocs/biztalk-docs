@@ -1,13 +1,21 @@
 ---
-title: Supported Line-of-Business (LOB) and Enterprise systems
+title: Supported Line-of-Business (LOB) and Enterprise systems | Microsoft Docs
 description: Details of Line-of-Business (LOB) and Enterprise systems supported by BizTalk Server 2020
+author: msjaydeep
+ms.author: jaah
+manager: mijacobs
 ms.date: 08/10/2022
 ms.topic: conceptual
 ms.prod: biztalk-server
+
 # optional metadata
+
 #ROBOTS:
+
 ms.reviewer: 
 ms.suite:
+ms.tgt_pltfrm:
+ms.assetid: 
 ms.custom: biztalk-2020
 ---
 

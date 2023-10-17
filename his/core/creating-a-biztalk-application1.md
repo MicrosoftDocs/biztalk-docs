@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating a BizTalk Application"
-title: "Creating a BizTalk Application1"
+title: "Creating a BizTalk Application1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f2044943-b2ef-4407-be1a-500fc581e76a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Creating a BizTalk Application
 After you have created a BizTalk project and added the Transaction Integrator (TI) schema, you can start to create your BizTalk application. For more information, see the BizTalk Server documentation.  

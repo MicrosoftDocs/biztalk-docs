@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Basic and Mapped Conversations Compared"
-title: "Basic and Mapped Conversations Compared2"
+title: "Basic and Mapped Conversations Compared2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 038b39cc-de37-472a-b69c-dc5bd58d99c6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Basic and Mapped Conversations Compared
 The following table offers some guidelines for choosing between basic and mapped conversations for your TPs. For definitions of basic and mapped conversations, see [Fundamental Terms for TPs and LUs](../core/fundamental-terms-for-tps-and-lus2.md).  

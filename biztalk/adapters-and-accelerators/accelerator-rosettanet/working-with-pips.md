@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Working with PIPs"
-title: "Working with PIPs"
+title: "Working with PIPs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "PIPs, developing"
+  - "developing, PIPs"
+ms.assetid: c1f62589-bcd5-459e-aab4-debf68cbb6c2
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working with PIPs
 The topics in this section describe how to work with Partner Interface Processes (PIPs). PIPs define business processes between trading partners, providing common business-process definitions for all RosettaNet message exchanges. PIPs specify the service content of messages.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_PoolOnServer Class"
-title: "MsSna_PoolOnServer Class2"
+title: "MsSna_PoolOnServer Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3466db92-fc0c-428b-94a7-c581a2e3ad04
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_PoolOnServer Class
 Associates a pool with a server.  

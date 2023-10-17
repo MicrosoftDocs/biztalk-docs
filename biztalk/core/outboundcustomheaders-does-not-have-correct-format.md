@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: OutboundCustomHeaders does not have correct format"
-title: "OutboundCustomHeaders does not have correct format"
+title: "OutboundCustomHeaders does not have correct format | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6097762b-01c9-48b8-8cee-ccd6b11d28d4
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # OutboundCustomHeaders does not have correct format
 ## Details  

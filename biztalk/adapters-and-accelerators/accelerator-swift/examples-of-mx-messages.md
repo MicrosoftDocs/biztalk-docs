@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Examples of MX Messages"
-title: "Examples of MX Messages"
+title: "Examples of MX Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b592034f-2dd3-40e4-8f0b-eb6d65c38fff
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Examples of MX Messages
 Command Lines to generate the solution (InfoPath form template) for the Different MX messages  

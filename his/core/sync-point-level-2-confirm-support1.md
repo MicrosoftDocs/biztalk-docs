@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sync Point Level 2 Confirm Support"
-title: "Sync Point Level 2 Confirm Support1"
+title: "Sync Point Level 2 Confirm Support1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b81e05ca-5e55-475b-933b-b98a4f96f7b1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sync Point Level 2 Confirm Support
 The current APPC implementation in Host Integration Server supports conversations with **synclevel** of AP_NONE, AP_CONFIRM_SYNC_LEVEL, or AP_SYNCPT. The [DEALLOCATE](./deallocate2.md), [MC_DEALLOCATE](./mc-deallocate2.md), [PREPARE_TO_RECEIVE](./prepare-to-receive2.md), and [MC_PREPARE_TO_RECEIVE](./mc-prepare-to-receive1.md) verbs specify a **type** member indicating the synchronization level required. This parameter is interpreted as follows:  

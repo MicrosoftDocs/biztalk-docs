@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Adapter Design-Time Configuration"
-title: "Adapter Design-Time Configuration"
+title: "Adapter Design-Time Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f5e7b63c-6e17-4c54-9bbf-6964668a2420
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Design-Time Configuration
 An adapter contains both a run-time and a design-time component. The run-time component is not visible to a user. It is transparently responsible for the transmission, receipt, and processing of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] messages.  

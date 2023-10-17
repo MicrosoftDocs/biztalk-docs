@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How To Use a Persistent Connection"
-title: "How To Use a Persistent Connection2"
+title: "How To Use a Persistent Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3017728b-3a1b-43cc-9ea4-32b4ebe45021
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How To Use a Persistent Connection
 The following topic describes how to use a persistent connection with Windows-Initiated Processing (WIP)  

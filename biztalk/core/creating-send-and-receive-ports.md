@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Creating Send and Receive Ports"
-title: "Creating Send and Receive Ports"
+title: "Creating Send and Receive Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "JD Edwards OneWorld adapters, receive ports"
+  - "adapters [JD Edwards OneWorld adapters], receive ports"
+  - "creating, receive ports [JD Edwards OneWorld adapters]"
+  - "send ports, creating [JD Edwards OneWorld adapters]"
+  - "adapters [JD Edwards OneWorld adapters], send ports"
+  - "adapters [JD Edwards OneWorld adapters], transport properties"
+  - "JD Edwards OneWorld adapters, send ports"
+  - "JD Edwards OneWorld adapters, transport properties"
+  - "receive ports, creating [JD Edwards OneWorld adapters]"
+  - "creating, send ports [JD Edwards OneWorld adapters]"
+ms.assetid: fb4ca8b1-40d9-4beb-a791-554086f8ca98
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating Send and Receive Ports
 Use the following procedures to create [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] send and receive ports for BizTalk Adapter for JD Edwards OneWorld.  

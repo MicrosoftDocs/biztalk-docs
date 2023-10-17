@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Modify and Update a Transaction Integrator Interface"
-title: "How to Modify and Update a Transaction Integrator Interface2"
+title: "How to Modify and Update a Transaction Integrator Interface2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5374b1e6-2631-4992-ae34-9c107e3dd7c2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Modify and Update a Transaction Integrator Interface
 Once you have imported a host definition file, you can modify and update the interface. Optionally, if you did not start with a host definition file, you can create a new TI interface using the available tools.  

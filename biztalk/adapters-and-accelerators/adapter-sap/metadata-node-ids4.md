@@ -1,12 +1,19 @@
 ---
-title: "Metadata Node IDs for the mySAP adapter in BizTalk Adapter Pack"
+title: "Metadata Node IDs for the mySAP adapter in BizTalk Adapter Pack | Microsoft Docs"
 description: Metadata, search, retrieval nodes types and IDs used in SAP components that are exposed in mySAP adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 46385060-f56a-4e06-9122-b75808776716
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Node types and IDs for the SAP adapter
 

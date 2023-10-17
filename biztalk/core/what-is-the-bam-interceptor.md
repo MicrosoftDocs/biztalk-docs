@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: What Is the BAM Interceptor?"
-title: "What Is the BAM Interceptor?"
+title: "What Is the BAM Interceptor? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BAM Interceptor object"
+  - "BAM, collecting data"
+  - "BAM, Interceptor object"
+  - "data, collecting [BAM]"
+ms.assetid: e0213c4e-e2f4-4bb0-bd27-e5810f7e39d9
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is the BAM Interceptor?
 ## Overview 

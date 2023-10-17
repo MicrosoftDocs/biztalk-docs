@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Message References in User Code"
-title: "Message References in User Code"
+title: "Message References in User Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5a1584be-35fd-4dc2-a5a9-559300e67e0e
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message References in User Code
 When a message is constructed, a representation of the message is in the MessageBox database and another representation is in memory on the computer. If you make the message assignment by passing a message reference to a .NET object or to an external assembly, and then the .NET object or the external assembly modifies the representation in memory on the computer, the BizTalk Orchestration Engine is not aware of the modification.  

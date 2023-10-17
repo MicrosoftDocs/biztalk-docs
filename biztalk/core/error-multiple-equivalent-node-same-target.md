@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Multiple Equivalent Node Same Target"
-title: "Error - Multiple Equivalent Node Same Target"
+title: "Error - Multiple Equivalent Node Same Target | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.multipleEquivNodeSameTarget"
+ms.assetid: d8ca9f94-1d87-41bb-9479-6a01a5b6702d
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Multiple Equivalent Node Same Target
 **Error Code**  

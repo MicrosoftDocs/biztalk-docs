@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How the Itinerary On-Ramp Sample Works"
-title: "How the Itinerary On-Ramp Sample Works"
+title: "How the Itinerary On-Ramp Sample Works | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6f4f318c-b955-4a3d-88db-c0d324b63b21
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How the Itinerary On-Ramp Sample Works
 The sample Itinerary Test Client application builds a set of SOAP headers that contain the itinerary that you create using the controls in the client application window, loads the specified message file from disk, appends the itinerary headers to the message, and submits it to the ESB through an Itinerary on-ramp for processing. If the itinerary generates a response, the application collects the response and displays it in the application window.  

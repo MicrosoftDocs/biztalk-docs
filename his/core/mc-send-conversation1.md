@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MC_SEND_CONVERSATION"
-title: "MC_SEND_CONVERSATION1"
+title: "MC_SEND_CONVERSATION1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dabd0fba-9206-4a19-b269-62de51bb4d97
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MC_SEND_CONVERSATION
 The **MC_SEND_CONVERSATION** verb allocates a session between the local logical unit (LU) and partner LU, sends data on the session, and then deallocates the session.  

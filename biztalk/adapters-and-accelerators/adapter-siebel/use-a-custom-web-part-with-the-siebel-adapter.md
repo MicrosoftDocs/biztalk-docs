@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Use a Custom Web Part with the Siebel adapter"
-title: "Use a Custom Web Part with the Siebel adapter"
+title: "Use a Custom Web Part with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ee3a6c04-6523-483c-bdf4-ce0ac47cda87
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use a Custom Web Part with the Siebel adapter
 This section provides information about using a custom Web Part with Microsoft Office SharePoint Server. To use a custom Web Part, you must do the following:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Link Characteristics"
-title: "Link Characteristics2"
+title: "Link Characteristics2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d580655b-a24f-47dc-b294-e0f9106249d8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Link Characteristics
 Before the driver can transfer any data, it needs information about the link. This includes the following:  

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: FRR Processing"
-title: "FRR Processing"
+title: "FRR Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "FRR, processing"
+  - "FRR, components"
+  - "FRR, process flow"
+ms.assetid: 8b064d18-5ee7-44fd-95d1-9a0d66f1ad1a
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # FRR Processing
 The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] FIN Response Reconciliation (FRR) feature correlates FIN messages from the SWIFT Alliance Access (SAA) with the original message from [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] that the SAA message responds to. Whenever [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] sends an original message, FRR caches a copy of any message that is bound for SWIFT and that has not failed processing. It then monitors the MessageBox for response messages returned by SAA to [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], and picks up any ACK/NAK messages that corresponds to the cached message copy.  

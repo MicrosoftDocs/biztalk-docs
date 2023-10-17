@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: MQSeries Adapter Deployment Options"
-title: "MQSeries Adapter Deployment Options"
+title: "MQSeries Adapter Deployment Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MQSeries adapters, deploying"
+  - "deploying, MQSeries adapters"
+ms.assetid: d9380aff-40ea-419b-88e2-1e2ec3f023cb
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # MQSeries Adapter Deployment Options
 The MQSeries adapter gives you great flexibility in configuring your hardware. There are at least three main patterns of use:  

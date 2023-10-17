@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: 3270 Client Standard Keyboard Map"
-title: "3270 Client Standard Keyboard Map2"
+title: "3270 Client Standard Keyboard Map2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c9428121-69da-450c-8212-a8903ca62516
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # 3270 Client Standard Keyboard Map
 The following table maps values from the 3270 keyboard to the Enhanced 101 keyboard.  

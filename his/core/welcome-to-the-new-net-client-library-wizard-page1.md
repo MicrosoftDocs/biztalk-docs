@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Welcome to the New .NET Client Library Wizard Page"
-title: "Welcome to the New .NET Client Library Wizard Page1"
+title: "Welcome to the New .NET Client Library Wizard Page1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15401"
+ms.assetid: 72b20241-87a6-4e06-88c2-825621af7ee4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Welcome to the New .NET Client Library Wizard Page
 Use the **Welcome to the New .NET Client Library Wizard** page to view the definition of a .NET client library and to control whether the welcome page is displayed again the next time the wizard is used.  

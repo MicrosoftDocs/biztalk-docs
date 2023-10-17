@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Transaction Set Settings (X12)"
-title: "Configuring Transaction Set Settings (X12)"
+title: "Configuring Transaction Set Settings (X12) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fba46c23-0e2e-4f85-ac66-dff809a4c49c
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Transaction Set Settings (X12)
 X12 transaction set settings define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the transaction sets being exchanged between two parties.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Issuing a CSV"
-title: "Issuing a CSV1"
+title: "Issuing a CSV1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 522f14ee-ebea-4d1b-9b84-f7cb01df10a2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Issuing a CSV
 The procedure for issuing a CSV is shown in the following sample code that uses [CONVERT](./convert2.md).  

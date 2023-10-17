@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Develop Oracle Database applications using the WCF Service Model"
-title: "Develop Oracle Database applications using the WCF Service Model"
+title: "Develop Oracle Database applications using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "performing operations, by using the WCF service model"
+  - "developing applications, by using the WCF service model"
+  - "WCF service model, using to develop applications"
+ms.assetid: 3f2c60b2-4835-492d-8c3c-ed35d3e4c517
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop Oracle Database applications using the WCF Service Model
 At the lowest level, the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] presents a programming model in which clients invoke operations on a service by exchanging SOAP messages over a channel established between client and service endpoints. This model, known as the WCF channel model, exposes data types and methods that enable you to operate directly on the WCF channel architecture. The WCF channel model provides you with direct control over the contents of the SOAP messages you create and over the way both your application and the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] consume them; however, creating well-formed SOAP messages to send over a channel and validating the reply messages returned can be a detailed and exacting task.

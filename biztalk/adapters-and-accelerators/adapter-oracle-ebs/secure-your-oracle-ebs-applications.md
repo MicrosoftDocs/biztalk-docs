@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Secure your Oracle EBS applications"
-title: "Secure your Oracle EBS applications"
+title: "Secure your Oracle EBS applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 76147120-57a8-4959-a0ff-77d04dee06a6
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Secure your Oracle EBS applications
 Oracle E-Business applications deal with sensitive business information such as customer account details. Applications that use the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] to access and modify this information either locally or across a distributed network might inadvertently expose it to access by unauthorized actors, unless efforts are made to protect and secure the data during transmission. Data protection and security are usually thought of in the following terms:  

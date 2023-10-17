@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: bDeleteService"
-title: "bDeleteService1"
+title: "bDeleteService1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a6230aab-6bcb-46cd-8c9d-0e35aeb6b166
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # bDeleteService
 The **bDeleteService** function is used to delete a service on a computer for a link service. This utility function is used to construct an integrated link service configuration dynamic-link library (DLL).  

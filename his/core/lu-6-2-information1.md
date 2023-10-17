@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LU 6.2 Information"
-title: "LU 6.2 Information1"
+title: "LU 6.2 Information1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b8bab4dc-80a0-424d-8550-85c7ec5f449a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LU 6.2 Information
 

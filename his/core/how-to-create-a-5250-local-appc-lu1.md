@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Create a 5250 Local APPC LU"
-title: "How to Create a 5250 Local APPC LU1"
+title: "How to Create a 5250 Local APPC LU1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 67822c29-10b5-4f53-8d45-ae92878f94a8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create a 5250 Local APPC LU
 The following procedure details creating a 5250 local APPC LU manually.  

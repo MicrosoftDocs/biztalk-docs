@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: File Inventory for the Service Oriented Solution"
-title: "File Inventory for the Service Oriented Solution"
+title: "File Inventory for the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "service solution tutorial, file inventory"
+ms.assetid: 32c25372-31e1-4059-b4ed-f12e62f315d5
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # File Inventory for the Service Oriented Solution
 This section lists subdirectories and source files for the Service Oriented solution. The default installation directory for the Service Oriented solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\SO. Descriptions before the following tables replace this path with \<Install Directory\>.  

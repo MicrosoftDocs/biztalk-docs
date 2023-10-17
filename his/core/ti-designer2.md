@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TI Designer"
-title: "TI Designer2"
+title: "TI Designer2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2af1434f-1eb3-46b1-96d7-f7e4c0c07d93
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TI Designer
 TI Designer is a design-time development tool that is hosted inside, and uses the graphical user interface, of Microsoft Visual Studio. You use TI Designer to set the rules for mapping and resolving data types between a Windows resource (such as .NET Framework or BizTalk Server) and an IBM batch or online transaction program.  

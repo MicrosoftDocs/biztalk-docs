@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: SWIFT Schema Naming Conventions"
-title: "SWIFT Schema Naming Conventions"
+title: "SWIFT Schema Naming Conventions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "naming conventions [schemas]"
+  - "schemas, naming conventions"
+ms.assetid: 3c1f2519-2575-4178-89c1-e97333c1e6bd
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFT Schema Naming Conventions
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] includes schemas for Society for Worldwide Interbank Financial Telecommunication (SWIFT) FIN messages that were created using BizTalk Editor. These schemas conform to the following conventions throughout:  

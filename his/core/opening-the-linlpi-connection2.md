@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Opening the LINLPI Connection"
-title: "Opening the LINLPI Connection2"
+title: "Opening the LINLPI Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 52257831-10cb-4fdb-9ab8-0879366fd4ef
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Opening the LINLPI Connection
 The local node attempts to activate a connection:  

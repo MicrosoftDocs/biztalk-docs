@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Windows CSV Overview"
-title: "Windows CSV Overview2"
+title: "Windows CSV Overview2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: eabeec74-ad30-4991-828e-57243df45743
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Windows CSV Overview
 Common service verbs (CSVs) are a set of programming functions provided by Host Integration Server. The CSVs provide convert, log, trace, and transfer services to applications.  

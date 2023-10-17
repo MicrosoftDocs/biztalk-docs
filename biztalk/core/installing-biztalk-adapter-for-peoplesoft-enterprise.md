@@ -1,12 +1,19 @@
 ---
-title: "Install BizTalk Adapter for PeopleSoft Enterprise"
+title: "Install BizTalk Adapter for PeopleSoft Enterprise | Microsoft Docs"
 description: Quick link to install and configuration overview for BizTalk Adapter for PeopleSoft Enterprise in BizTalk Server
 ms.custom: ""
 ms.date: "10/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a60b7e03-daea-4cb8-8ff2-f66dc1034eba
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install BizTalk Adapter for PeopleSoft Enterprise
 

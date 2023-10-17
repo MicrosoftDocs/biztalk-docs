@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Field Position Calculation"
-title: "Field Position Calculation"
+title: "Field Position Calculation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7e315f09-f2c9-49cc-8d2f-0f4f2d48fd45
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Field Position Calculation
 

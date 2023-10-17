@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Action Errors"
-title: "Action Errors"
+title: "Action Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 87cf0a5b-d1dd-4807-9660-e8a8b7012b40
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Action Errors
 This section contains detailed information for diagnosing and resolving WCF Action errors.  

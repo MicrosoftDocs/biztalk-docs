@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CPI-C Considerations for Windows"
-title: "CPI-C Considerations for Windows2"
+title: "CPI-C Considerations for Windows2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 64eaf87a-824c-4a46-b39c-332033956348
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CPI-C Considerations for Windows
 This topic summarizes information you should keep in mind when you develop programs based on Windows operating systems.  

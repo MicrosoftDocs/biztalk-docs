@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Managing User Mappings for Host Initiated SSO"
-title: "Managing User Mappings for Host Initiated SSO"
+title: "Managing User Mappings for Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aadecc5b-8e66-4a39-a612-c1d2de8eab03
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 
 # Managing User Mappings for Host Initiated SSO

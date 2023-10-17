@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Transaction Integrator Basic Functions"
-title: "Transaction Integrator Basic Functions1"
+title: "Transaction Integrator Basic Functions1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f3825d27-c27d-443a-bfce-af2af23885f2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Transaction Integrator Basic Functions
 In current Internet-driven, graphical user interface (GUI) computing environments, users usually prefer to access mainframe online transaction processing (OLTP) applications using the same interfaces that they use to access the Internet or their organizations intranet, instead of by using traditional green screen, dumb terminal access methods. Transaction Integrator (TI) provides any application that is compatible with Windows Server access to transactions and data in CICS, IMS, OS/400 applications. By providing this access, TI reduces the time and effort involved in programming specialized interfaces for mainframe computers.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Start the SNA Trace Utility from the SNA Manager"
-title: "How to Start the SNA Trace Utility from the SNA Manager1"
+title: "How to Start the SNA Trace Utility from the SNA Manager1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1bd91911-1d4d-437d-8baf-b3d108141db1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Start the SNA Trace Utility from the SNA Manager
 The following procedure details how to start the SNA Trace Utility from the SNA Manager  

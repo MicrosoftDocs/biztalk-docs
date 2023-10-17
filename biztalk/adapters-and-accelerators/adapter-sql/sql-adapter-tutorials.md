@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SQL Adapter Tutorials"
-title: "SQL Adapter Tutorials"
+title: "SQL Adapter Tutorials | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ecebca37-b26a-49d5-ae19-2936c8010d50
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SQL Adapter Tutorials
 The first of the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] tutorials contains detailed instructions on how to migrate BizTalk projects created using the previous version of the SQL adapter to use the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. The other [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] contains, scenario-based, step-by-step instructions on performing operations on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  

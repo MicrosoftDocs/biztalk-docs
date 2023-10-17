@@ -4,6 +4,7 @@ description: See all the available cumulative updates and service packs availabl
 ms.prod: host-integration-server
 ms.topic: conceptual
 ms.date: 07/20/2022
+
 ---
 
 # Update Center

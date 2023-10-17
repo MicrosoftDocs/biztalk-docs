@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: PrivateResponder Sample"
-title: "PrivateResponder Sample"
+title: "PrivateResponder Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3137fadd-9582-4cc6-acfb-c44aca636950
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # PrivateResponder Sample
 The PrivateResponder.odx sample contains the code for the responder private process installed by Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. This generic private process sends and receives RNIF service-content messages from the default SQL adapter-based send and receive ports.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Custom Adapter Configuration Designer"
-title: "Custom Adapter Configuration Designer"
+title: "Custom Adapter Configuration Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d9b231c3-3948-4db8-b4f0-d9c21c31b168
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Custom Adapter Configuration Designer
 You need to build the custom designers into a .NET class library. You may incorporate them into the DLL for the adapter or build a separate DLL. After you build a designer assembly, you must reference it through decorations, just like a description or a category. The reference includes a specification of the assembly and a fully qualified class name to use.  

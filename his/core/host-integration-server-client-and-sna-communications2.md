@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Host Integration Server Client and SNA Communications"
-title: "Host Integration Server Client and SNA Communications2"
+title: "Host Integration Server Client and SNA Communications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 12e64359-c62f-4492-98b2-9766dfa44c74
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Host Integration Server Client and SNA Communications
 When an application on a client computer makes a call to one of our SNA APIs, the client computer must direct a resource location request to the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer that is its sponsor server. 

@@ -1,12 +1,19 @@
 ---
-title: "Steps to restart the services, or shut down"
+title: "Steps to restart the services, or shut down | Microsoft Docs"
 description: Start, Stop, Pause, Resume, or Restart BizTalk Server services, or shut down the BizTalk Server computer
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3d6449ba-2892-49c6-a697-847608d10ec5
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Restart BizTalk services, or shut down the BizTalk Server
 

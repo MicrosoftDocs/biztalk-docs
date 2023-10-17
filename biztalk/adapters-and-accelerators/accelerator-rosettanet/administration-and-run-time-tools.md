@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Administration and Run-Time Tools"
-title: "Administration and Run-Time Tools"
+title: "Administration and Run-Time Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Windows performance monitors"
+  - "BizTalk Explorer"
+  - "Business Rule Engine (BRE)"
+  - "BTARN Management Console"
+  - "BizTalk Administration Console"
+ms.assetid: bca6d504-25b2-41ba-acc2-38867035ac40
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Administration and Run-Time Tools
 Microsoft BizTalk Server and Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provide a set of tools for performing administrative and run-time tasks, such as deployment, configuration management, administration, business-rule management, and monitoring. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see MicrosoftBizTalk Server Help.  

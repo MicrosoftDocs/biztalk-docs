@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Get started with the Oracle Database adapter"
-title: "Get started with the Oracle Database adapter"
+title: "Get started with the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapters, about"
+  - "data adapter"
+  - "LOB adapter"
+ms.assetid: ed5b3510-11c4-4b10-bf85-c4066f3f80df
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get started with the Oracle Database adapter
 This section provides an overview of the adapter, prerequisites, and topics for users who are new to Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. It discusses the features of [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] and the different operations that can be performed on the Oracle database using the adapter.  

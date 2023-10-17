@@ -1,12 +1,19 @@
 ---
-title: "Message Mapping in TIBCO Rendezvous"
+title: "Message Mapping in TIBCO Rendezvous | Microsoft Docs"
 description: Message fields and message mapping to XML in the BizTalk Adapter for TIBCO Rendezvous
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 62793bec-f076-425c-b25e-c4be5bd93cc8
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Mapping in TIBCO Rendezvous
 TIBCO Rendezvous messages are composed of header information and a set of message fields. The header information is directly mapped to message context properties.  

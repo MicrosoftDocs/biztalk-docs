@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SStatus Members"
-title: "SStatus Members"
+title: "SStatus Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e8f5948c-1b49-473f-80a0-bd45e932bf13
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SStatus Members
 The following table shows the **SStatus** members.  

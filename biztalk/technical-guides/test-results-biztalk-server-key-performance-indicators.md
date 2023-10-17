@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Test Results: BizTalk Server Key Performance Indicators"
-title: "Test Results: BizTalk Server Key Performance Indicators"
+title: "Test Results: BizTalk Server Key Performance Indicators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 902cdfc1-21ab-4f56-b97b-2f8979514b11
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Test Results: BizTalk Server Key Performance Indicators
 This topic summarizes BizTalk Server Key Performance Indicators (KPI) observed during the test scenarios. Specifically these tests evaluated throughput as measured by the "**BizTalk:Messaging/Documents processed/Sec**" performance monitor counter, and latency, as measured by the Visual studio client response time.

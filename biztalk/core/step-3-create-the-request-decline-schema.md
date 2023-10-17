@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3: Create the Request Decline Schema"
-title: "Step 3: Create the Request Decline Schema"
+title: "Step 3: Create the Request Decline Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e1ce166c-1be1-4ef4-9d00-3da7038d4ada
+caps.latest.revision: 39
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Create the Request Decline Schema
 ![Step 3 of 5](../core/media/step-3of5.gif "Step_3of5")  

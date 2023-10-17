@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_ServiceSharedFolder Class"
-title: "MsSna_ServiceSharedFolder Class1"
+title: "MsSna_ServiceSharedFolder Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d40832d7-da91-465d-934f-abd002ad3bb0
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_ServiceSharedFolder Class
 Describes a service for AS/400 file access.  

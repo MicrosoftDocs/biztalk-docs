@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Cancel_Conversation (CPI-C)"
-title: "Cancel_Conversation (CPI-C)2"
+title: "Cancel_Conversation (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 962d1db2-1ff9-4f3a-967b-4f6e601f2743
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Cancel_Conversation (CPI-C)
 The **Cancel_Conversation** call (function name **cmcanc**) cancels any outstanding operation on a conversation (an operation returned with CM_OPERATION_INCOMPLETE) and the conversation itself.  

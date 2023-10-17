@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Supported Adapter XSD Element Types"
-title: "Supported Adapter XSD Element Types"
+title: "Supported Adapter XSD Element Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 00691a9e-434f-4baa-9a01-b6f452758ab3
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Supported Adapter XSD Element Types
 The following table lists the elements supported by the Adapter Framework. When defining a new element in your configuration schema, use any of the following types to replace `string` in the following example:  

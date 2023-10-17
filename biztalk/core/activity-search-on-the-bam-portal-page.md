@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Activity Search on the BAM Portal Page"
-title: "Activity Search on the BAM Portal Page"
+title: "Activity Search on the BAM Portal Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "activities [BAM], searching"
+  - "Activity Search page [BAM portal]"
+  - "BAM portal, activity searches"
+ms.assetid: 24a5111c-026f-4f77-8a17-65955aafd24c
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Activity Search on the BAM Portal Page
 Business end users, developers, and business analysts can use the BAM portal page when they need to perform searches against BAM data to find specific cases of a particular process. These processes are defined as BAM activities. A BAM activity represents a unit of work in a business, such as a purchase order or loan application.  

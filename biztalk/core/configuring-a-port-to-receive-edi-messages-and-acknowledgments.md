@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring a Port to Receive EDI Messages and Acknowledgments"
-title: "Configuring a Port to Receive EDI Messages and Acknowledgments"
+title: "Configuring a Port to Receive EDI Messages and Acknowledgments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c043e648-b7f5-40aa-b7b5-0172fbea7b31
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring a Port to Receive EDI Messages and Acknowledgments
 To receive an EDI interchange, you can create either a one-way receive port or a request-response (two-way) receive port to receive the interchange.  

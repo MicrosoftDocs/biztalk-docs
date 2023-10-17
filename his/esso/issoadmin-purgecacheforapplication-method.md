@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOAdmin.PurgeCacheForApplication Method"
-title: "ISSOAdmin.PurgeCacheForApplication Method"
+title: "ISSOAdmin.PurgeCacheForApplication Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e1784f5a-365e-4c65-8d67-6ebc7ff25d91
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOAdmin.PurgeCacheForApplication Method
 The **PurgeCacheForApplication** method purges the cached credentials for an application on all Enterprise Single Sign-On (SSO) servers.  

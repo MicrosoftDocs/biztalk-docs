@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data Types"
-title: "Data Types2"
+title: "Data Types2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3c0f2e38-d764-41ed-94d3-a0d63650e2fb
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Types
 The Transaction Integrator (TI) run-time environment manages the process of converting host data types used by a host-based transaction program (TP) to and from the Automation data and data types used by a Microsoft Visual Basic or other Windows-based programming language.  

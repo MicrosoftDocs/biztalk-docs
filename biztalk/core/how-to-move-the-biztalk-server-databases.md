@@ -1,12 +1,19 @@
 ---
-title: "Move the BizTalk Server Databases"
+title: "Move the BizTalk Server Databases | Microsoft Docs"
 description: Steps to move the BizTalk Server databases to a new server, including stopping services and using SQL Server Agent jobs
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ec302e6d-c89d-4fe7-849f-97b5566e8ba4
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Move the BizTalk Server Databases
 

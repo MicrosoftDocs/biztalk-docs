@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: How to Import a BizTalk Application"
-title: "How to Import a BizTalk Application"
+title: "How to Import a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying, planning"
+  - "planning, importing"
+  - "importing, applications"
+  - "applications, planning"
+  - "planning, deploying"
+  - "applications, importing"
+  - "importing, planning"
+ms.assetid: 51169f35-d572-4612-9104-a59908e24874
+caps.latest.revision: 70
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Import a BizTalk Application
 This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console or the command line import a BizTalk application into a BizTalk group. Importing a BizTalk application registers the artifacts in the BizTalk Management database and writes the data of the artifacts to the appropriate BizTalk databases. For details, see [What Happens When Artifacts Are Imported](../core/what-happens-when-artifacts-are-imported.md). Importing an application does not install the application. You must install an application that includes file-based artifacts before it can run.  

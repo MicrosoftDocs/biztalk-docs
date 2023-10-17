@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Port Configuration Errors"
-title: "Port Configuration Errors"
+title: "Port Configuration Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 92eae0d8-a0c4-4f8c-b91a-fd98b9f6931a
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Port Configuration Errors
 Information for diagnosing and resolving WCF Port Configuration errors.  

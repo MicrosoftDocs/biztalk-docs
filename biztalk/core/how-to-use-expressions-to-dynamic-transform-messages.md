@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Use Expressions to Dynamic Transform Messages"
-title: "How to Use Expressions to Dynamic Transform Messages"
+title: "How to Use Expressions to Dynamic Transform Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 48387d97-9312-4df5-b614-727ea9035bf8
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use Expressions to Dynamic Transform Messages
 You can use expressions to dynamic transform messages in your orchestration. XLANG exposes a transform method that can be called from within a **Message Assignment** shape inside of a **Construct Message** shape. This is the same method that is called when a **Transform** shape is used, but allows you to programmatically transform the messages using the map you designated within the orchestration. This is useful when you are doing type-agnostic message processing. For example, if you have a business process that needs to choose from a series of maps to transform inbound messages based on the parameters provided by the received inbound messages, you can achieve this by using the transform method in the Expression shape while maintaining your overall business process intact.  

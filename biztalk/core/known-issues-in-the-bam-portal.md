@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Known Issues in the BAM Portal"
-title: "Known Issues with BAM Portal"
+title: "Known Issues with BAM Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e681e910-c664-479c-86f3-a6ae0ec97775
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Known Issues in the BAM Portal
 This topic contains information to help you identify and resolve issues that can occur while you are using the BAM portal.  

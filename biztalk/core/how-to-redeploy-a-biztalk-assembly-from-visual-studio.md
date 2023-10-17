@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Redeploy a BizTalk Assembly from Visual Studio"
-title: "How to Redeploy a BizTalk Assembly from Visual Studio"
+title: "How to Redeploy a BizTalk Assembly from Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5c4bb627-48de-4874-bb25-af2c513dbc51
+caps.latest.revision: 41
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Redeploy a BizTalk Assembly from Visual Studio
 In the process of developing an assembly, you often need to deploy, test, modify, and redeploy it repeatedly. In previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], if you wanted to redeploy an assembly without changing the version number, you first needed to manually stop, unenlist, and unbind artifacts contained in the assembly in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and then remove the assembly from the BizTalk Management (configuration) database. In addition, after redeploying the assembly, you needed to bind, enlist, and start its artifacts in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

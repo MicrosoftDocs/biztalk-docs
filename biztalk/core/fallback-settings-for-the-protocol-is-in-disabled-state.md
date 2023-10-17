@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Fallback Settings for the Protocol is in Disabled state"
-title: "Fallback Settings for the Protocol is in Disabled state"
+title: "Fallback Settings for the Protocol is in Disabled state | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f14a5e46-1028-4250-af7b-8137fa927d7e
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Fallback Settings for the Protocol is in Disabled state
 ## Details  

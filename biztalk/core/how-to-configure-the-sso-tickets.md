@@ -1,12 +1,23 @@
 ---
-title: "Configure the SSO Tickets"
+title: "Configure the SSO Tickets | Microsoft Docs"
 description: Use SSO Administrations or a command line to to allow and validate Enterprise Single sign-on tickets at the system level, and for affiliate applications in BizTalk Server.
 ms.custom: ""
 ms.date: "01/08/2019"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [SSO], configuring tickets"
+  - "SSO, tickets"
+  - "tickets [SSO], configuring"
+ms.assetid: 32f0384b-ac79-4cce-b3f5-f4f8a73a673a
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Configure the SSO Tickets in BizTalk Server

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Support for LUA Single Sign-On"
-title: "Support for LUA Single Sign-On1"
+title: "Support for LUA Single Sign-On1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6449c984-5f07-4958-9707-782d5340eb4c
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Support for LUA Single Sign-On
 This section describes the logical unit application (LUA) support for Single Sign-On using 3270 display sessions that is available in Host Integration Server.  

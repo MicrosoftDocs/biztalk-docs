@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On Interface"
-title: "Single Sign-On Interface"
+title: "Single Sign-On Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e2e3c2d3-a7e9-4a45-965d-bfe4bf200c34
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On Interface
 

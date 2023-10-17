@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Promoting Properties"
-title: "Promoting Properties"
+title: "Promoting Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "properties, promoting"
+  - "promoting properties"
+  - "promoting properties, about promoting properties"
+ms.assetid: e1825028-7dd9-4eae-a383-4db12a83a402
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Promoting Properties
 Promotion of properties involves either promoting **Field Element** or **Field Attribute** nodes in a schema to be **Distinguished Fields** or **Property Fields**. You can also promote **Record** nodes as **Property Fields** if they have simple content (**Content Type** property of the **Record** node set to **SimpleContent**). This section provides step-by-step instructions for promoting nodes as either **Distinguished Fields** or as **Property Fields**.  

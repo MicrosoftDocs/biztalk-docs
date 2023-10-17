@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Measuring Maximum Sustainable Tracking Throughput"
-title: "Measuring Maximum Sustainable Tracking Throughput"
+title: "Measuring Maximum Sustainable Tracking Throughput | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 35605427-0217-4bdd-8b4a-3e68b3f5f452
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Measuring Maximum Sustainable Tracking Throughput
 After you deploy a line of business solution onto the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] platform, you should track and monitor the system to understand the following:  

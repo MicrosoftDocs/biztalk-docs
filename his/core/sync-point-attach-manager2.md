@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sync Point Attach Manager"
-title: "Sync Point Attach Manager2"
+title: "Sync Point Attach Manager2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af51cb71-f79e-42ad-85a0-ebed90c3e7c1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sync Point Attach Manager
 Instead of issuing separate [RECEIVE_ALLOCATE](./receive-allocate1.md) verbs for each possible transaction name, a Sync Point implementation may instead register as the Sync Point Attach Manager for Host Integration Server. It does so by issuing a **RECEIVE_ALLOCATE** verb specifying a TP name consisting of all 0x00s.  

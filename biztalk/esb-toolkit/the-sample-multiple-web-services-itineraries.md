@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The Sample Multiple Web Services Itineraries"
-title: "The Sample Multiple Web Services Itineraries"
+title: "The Sample Multiple Web Services Itineraries | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3f67a4c6-b547-4261-ab3f-db78603ac588
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The Sample Multiple Web Services Itineraries
 The following table lists all the predefined itinerary files included with the Multiple Web Services sample. These are located in the \Source\Samples\MultipleWebServices\Itineraries folder.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SWIFTNet Client and Server"
-title: "SWIFTNet Client and Server"
+title: "SWIFTNet Client and Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 89d9f54f-af16-4f14-bbe4-8306758320d8
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFTNet Client and Server
 SWIFT uses the terms client and server to describe sending and receiving. A SWIFT client is a process that calls the SWIFTNet Link (SNL) to initiate communication over SWIFTNet. In BizTalk Server, this is called the send adapter. A SWIFT server is a program that is called by the SNL when traffic comes in over SWIFTNet. In BizTalk Server, this is called the receive adapter.  

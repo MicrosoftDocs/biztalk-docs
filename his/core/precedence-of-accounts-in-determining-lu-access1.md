@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Precedence of Accounts in Determining LU Access"
-title: "Precedence of Accounts in Determining LU Access1"
+title: "Precedence of Accounts in Determining LU Access1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9446d298-27c9-4042-b7eb-3d3defee9910
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Precedence of Accounts in Determining LU Access
 When user and group account memberships overlap, the highest-priority account that contains a 3270 LU or pool determines the access the user gets. Accounts are prioritized as follows:  

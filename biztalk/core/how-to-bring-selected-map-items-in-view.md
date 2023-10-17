@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Bring Selected Map Items in View"
-title: "How to Bring Selected Map Items in View"
+title: "How to Bring Selected Map Items in View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3e287b22-5738-428a-aa35-cced877e51ea
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Bring Selected Map Items in View
 With earlier versions of BizTalk Mapper, if a map comprised big schemas, you had to manually scroll the source schema pane, the grid page, and the target schema pane to bring all the relevant map items into a single view. The BizTalk Mapper with BizTalk Server allows you to bring all the relevant map items of the selected functoid/link into a single view by automatically scrolling the grid page. This topic provides information about how to perform the operation.  

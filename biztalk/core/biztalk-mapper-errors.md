@@ -1,14 +1,27 @@
 ---
 description: "Learn more about: BizTalk Mapper Errors"
-title: "BizTalk Mapper Errors"
+title: "BizTalk Mapper Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.intro"
+helpviewer_keywords: 
+  - "troubleshooting, BizTalk Mapper"
+  - "BizTalk Mapper, troubleshooting"
+  - "troubleshooting, error messages [BizTalk Mapper]"
+  - "error messages, BizTalk Mapper"
+  - "BizTalk Mapper, error messages"
+ms.assetid: 6aefa7ca-56ba-4c3f-aae6-6d98d891079c
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Mapper Errors
 This section provides supplemental information about compilation messages associated with BizTalk Mapper. You can access this information using the F1 key when one of the relevant messages is selected in the Task List window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. For conceptual and procedural information for BizTalk Mapper, see [Creating Maps Using BizTalk Mapper](../core/creating-maps-using-biztalk-mapper.md).  

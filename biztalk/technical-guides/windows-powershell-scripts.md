@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Windows PowerShell Scripts"
-title: "Windows PowerShell Scripts"
+title: "Windows PowerShell Scripts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9848e3ed-8686-4bb8-b8f5-7e3111a83177
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Windows PowerShell Scripts
 This topic contains Windows PowerShell scripts that can be run on the computers in a BizTalk Server environment to apply registry settings described in this guide.  

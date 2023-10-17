@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Add Subscribers to an Alert"
-title: "How to Add Subscribers to an Alert"
+title: "How to Add Subscribers to an Alert | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "subscriptions, subscribers"
+  - "subscriptions"
+  - "managing [BAM], adding alert subscribers"
+ms.assetid: c76a117d-4516-4f48-995c-7e018dbba755
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Subscribers to an Alert
 Administrators use the **add-subscription** command to add a subscriber to a specified alert.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Support Issues"
-title: "EDI Support Issues"
+title: "EDI Support Issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a67361c9-7dbc-4e26-906c-95e54ae88962
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Support Issues
 This section describes how BizTalk Server supports EDI and AS2 processing.  

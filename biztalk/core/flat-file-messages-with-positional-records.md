@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Flat File Messages with Positional Records"
-title: "Flat File Messages with Positional Records"
+title: "Flat File Messages with Positional Records | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 72c17c25-3847-458e-a43e-0dbdc42db749
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Flat File Messages with Positional Records
 Positional records within a flat file instance message contain individual fields (items of data) that are each of a predefined length. The fields are parsed according to these lengths. For example, consider the following positional record from a flat file instance message, which contains a ship to address (the first line shows the number of characters reserved for each field).  

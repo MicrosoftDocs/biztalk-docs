@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Extending BizTalk Editor"
-title: "Extending BizTalk Editor"
+title: "Extending BizTalk Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 77c93ab2-0a9b-4c9d-81e5-3871fc8e6e13
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Extending BizTalk Editor
 BizTalk Editor is designed to allow extensions that support alternative instance message formats. In fact, the XML format is the only format that is built into BizTalk Editor. Even support for flat file formats, which is included in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], is implemented as a BizTalk Editor extension, thereby serving as a good example of the type of functionality that can be added by such extensions.  

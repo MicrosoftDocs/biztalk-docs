@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Administration Console Keyboard Shortcuts"
-title: "Administration Console Keyboard Shortcuts"
+title: "Administration Console Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "Administration Console [BizTalk Server], keyboard shortcuts"
+  - "keyboard shortcuts, Administration Console [BizTalk Server]"
+ms.assetid: b443b9be-975c-47c7-a7b6-08aee45c29a2
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Administration Console Keyboard Shortcuts
 By using the following keyboard shortcuts you can quickly accomplish many common tasks in the BizTalk Administration console.

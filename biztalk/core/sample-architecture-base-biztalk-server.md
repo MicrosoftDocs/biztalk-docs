@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Sample Architecture: Base BizTalk Server"
-title: "Sample Architecture: Base BizTalk Server"
+title: "Sample Architecture: Base BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "architecture, examples"
+  - "IPSec"
+  - "BizTalk Server, examples"
+  - "security, examples"
+  - "security, architecture"
+  - "IPSec, about IPSec"
+  - "BizTalk Server, architecture"
+  - "architecture, security"
+ms.assetid: 7ccc1ef3-670f-423f-b6ca-3d56b9bbeabf
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample Architecture: Base BizTalk Server
 This topic discusses the base sample architecture. It describes the components in a BizTalk Server deployment that are adapter-independent. We recommend that any BizTalk Server deployment have at least these components.

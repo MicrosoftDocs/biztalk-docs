@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Planning Client/Server Communication"
-title: "Planning Client-Server Communication2"
+title: "Planning Client-Server Communication2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b597635b-713b-4e9b-a6fc-8273b5444287
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Planning Client/Server Communication
 

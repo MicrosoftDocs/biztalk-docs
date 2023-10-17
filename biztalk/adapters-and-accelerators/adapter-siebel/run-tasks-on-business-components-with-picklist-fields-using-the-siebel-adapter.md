@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Run Operations on Business Components with Picklist Fields Using BizTalk Server and the Siebel adapter"
-title: "Run Operations on Business Components with Picklist Fields Using BizTalk Server and the Siebel adapter"
+title: "Run Operations on Business Components with Picklist Fields Using BizTalk Server and the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "how to, perform operations with picklist fields by using BizTalk Server"
+  - "business components, performing operations with picklist fields by using BizTalk Server"
+ms.assetid: b62d32fa-903a-442b-951b-2343ef719bd0
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run Operations on Business Components with Picklist Fields Using BizTalk Server and the Siebel adapter
 A Siebel picklist field type constitutes a collection of possible values from which client may specify a certain value to be passed onto the Siebel system. In other words, a picklist field contains a list of accepted values for a field. For more information about picklist and their types, refer to Siebel documentation. For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports operations on business components with picklist fields, see [Operations on Business Components in Siebel](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md).  

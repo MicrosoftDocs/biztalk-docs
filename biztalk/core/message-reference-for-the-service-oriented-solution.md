@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Message Reference for the Service Oriented Solution"
-title: "Message Reference for the Service Oriented Solution"
+title: "Message Reference for the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "service solution tutorial, message reference"
+ms.assetid: 47b56d83-799d-444d-b7ef-c2db56a0e470
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Reference for the Service Oriented Solution
 This section lists the messages and message types used by each orchestration in the solution. The messages and types are listed by version of the application.  

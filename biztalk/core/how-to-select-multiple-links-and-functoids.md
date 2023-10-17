@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Select Multiple Links and Functoids"
-title: "How to Select Multiple Links and Functoids"
+title: "How to Select Multiple Links and Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f9ae50cb-c212-48f3-9dfb-74df282645c5
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Select Multiple Links and Functoids
 When you want to perform a similar operation on a group of functoids and/or links in a map, you can select that group of functoids and/or links all at the same time. This topic provides information about how to perform this operation.  

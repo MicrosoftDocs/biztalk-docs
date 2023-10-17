@@ -1,12 +1,18 @@
 ---
 description: "Learn how to configure Network Integration including Client Protocol and Active Directory support."
-title: "Configure Network Integration"
+title: "Configure Network Integration | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 96f04b21-b46d-4156-8680-e0065d5ff0a9
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configure Network Integration
 

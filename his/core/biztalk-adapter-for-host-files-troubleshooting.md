@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: BizTalk Adapter for Host Files Troubleshooting"
-title: "BizTalk Adapter for Host Files Troubleshooting"
+title: "BizTalk Adapter for Host Files Troubleshooting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6122beab-32af-4f48-b214-53cfdcda86fd
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # BizTalk Adapter for Host Files Troubleshooting
 **Send Port Updategram**  

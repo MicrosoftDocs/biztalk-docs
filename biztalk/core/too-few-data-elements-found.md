@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Too few data elements found"
-title: "Too few data elements found"
+title: "Too few data elements found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d6eca6c1-73ee-4b9a-be84-461051eda963
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Too few data elements found
 ## Details  

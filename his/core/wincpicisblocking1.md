@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: WinCPICIsBlocking"
-title: "WinCPICIsBlocking1"
+title: "WinCPICIsBlocking1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d881cef9-bf0d-4d7a-845b-ae91727ce5c3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # WinCPICIsBlocking
 The **WinCPICIsBlocking** function determines if a task is executing while waiting for a previous blocking call to finish.  

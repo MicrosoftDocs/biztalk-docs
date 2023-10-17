@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: RECEIVE_AND_POST"
-title: "RECEIVE_AND_POST1"
+title: "RECEIVE_AND_POST1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: afb7e043-4c9f-4438-9a23-f3c1b4308bc9
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # RECEIVE_AND_POST
 The **RECEIVE_AND_POST** verb receives application data and status information asynchronously. This allows the local transaction program (TP) to proceed with processing while data is still arriving at the local logical unit (LU).  

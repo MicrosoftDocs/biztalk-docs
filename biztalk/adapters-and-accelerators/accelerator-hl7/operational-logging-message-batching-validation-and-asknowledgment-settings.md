@@ -1,9 +1,24 @@
 ---
 description: "Learn more about: Operational logging, message batching, validation and asknowledgment settings"
 title: "Operational logging, message batching, validation and asknowledgment settings"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "BTAHL7, administering"
+  - "managing"
+  - "BTAHL7, managing"
+  - "administering"
+ms.assetid: c7376de4-4e1d-47e2-acf7-0a32e7a4b073
+caps.latest.revision: 6
+
+
+
 ---
 # Operational logging, message batching, validation and asknowledgment settings
 Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] encompasses a server and series of tools for enterprise application integration (EAI), automating business processes, and facilitating interactions with business partners. Built on the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] platform, BTAHL7 promotes medical application integration for any facility using the HL7 standard. HL7 contains standards for exchanging, integrating, and retrieving electronic information in clinical practice and management.  

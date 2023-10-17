@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Multiserver Deployment"
-title: "Multiserver Deployment"
+title: "Multiserver Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring [Windows SharePoint Services adapters], multi-server deployment"
+  - "planning, Windows SharePoint Services adapters"
+  - "Windows SharePoint Services adapters, deploying"
+  - "Windows SharePoint Services adapters, multi-server deployment"
+  - "deploying, Windows SharePoint Services adapters"
+  - "Windows SharePoint Services adapters, installing"
+ms.assetid: 0c6e2aa0-e873-461b-8101-9b0988019597
+caps.latest.revision: 28
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Multiserver Deployment
 This topic discusses multiserver setup and deployment considerations for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapter for Windows SharePoint Services.  

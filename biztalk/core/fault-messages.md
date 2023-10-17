@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Fault Messages"
-title: "Fault Messages"
+title: "Fault Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "error messages"
+  - "ports, error messages"
+  - "Catch Exception block [Orchestration Designer], error messages"
+  - "error messages, receiving"
+  - "messages, errors"
+  - "error messages, sending"
+ms.assetid: 33d62260-b5e0-4d14-b2d2-996733d588e7
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Fault Messages
 Request-response ports can have fault messages associated with them, so that if something goes wrong after a request is sent, the responding service can communicate the error to the requester, in lieu of the response.  

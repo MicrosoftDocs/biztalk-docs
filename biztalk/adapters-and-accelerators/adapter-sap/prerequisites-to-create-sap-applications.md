@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Prerequisites to create SAP applications"
-title: "Prerequisites to create SAP applications"
+title: "Prerequisites to create SAP applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 51ae9569-4081-4142-9ee2-8ae0069e9d90
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Prerequisites to create SAP applications
 This section provides information about tasks that you must perform before developing BizTalk applications using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. The section also lists some BizTalk Server tools that are used to develop BizTalk applications.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Restrictions on the SMTP Host Property"
-title: "Restrictions on the SMTP Host Property"
+title: "Restrictions on the SMTP Host Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring [SMTP adapters], restrictions"
+  - "SMTP adapters, restrictions"
+ms.assetid: 6dbdb6dc-0062-4444-a4c8-6e2a7900f533
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Restrictions on the SMTP Host Property
 The SMTP host property is a string that specifies the SMTP server that the SMTP adapter will use to send messages from the BizTalk server.  

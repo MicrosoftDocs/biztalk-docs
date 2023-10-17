@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: DEFINE_TRACE"
-title: "DEFINE_TRACE1"
+title: "DEFINE_TRACE1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f23202bc-d2e7-4ca5-8f75-aefdf0bec3a0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # DEFINE_TRACE
 

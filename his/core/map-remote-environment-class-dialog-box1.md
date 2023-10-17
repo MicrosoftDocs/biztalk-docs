@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Map Remote Environment Class Dialog Box"
-title: "Map Remote Environment Class Dialog Box1"
+title: "Map Remote Environment Class Dialog Box1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15449"
+ms.assetid: 963516b2-c79f-4524-9eb6-e86105449bc2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Map Remote Environment Class Dialog Box
 Use the **Map Remote Environment Class** dialog box to update the definition of a remote environment (RE) class that is no longer supported or does not conform to Transaction Integrator (TI) requirements.  

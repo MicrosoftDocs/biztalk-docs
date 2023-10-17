@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Bottlenecks in the BizTalk Server Tier"
-title: "Bottlenecks in the BizTalk Server Tier"
+title: "Bottlenecks in the BizTalk Server Tier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3ad36897-4e4a-43b9-9cb7-0bf22bd954fb
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Bottlenecks in the BizTalk Server Tier
 

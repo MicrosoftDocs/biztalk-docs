@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Adapter Groups and Group Adapters"
-title: "Adapter Groups and Group Adapters"
+title: "Adapter Groups and Group Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af504bd5-d041-48db-81d7-51ddb9ab3a63
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Adapter Groups and Group Adapters
 An *adapter group* is an administration mechanism that you can use to collect and organize a set of adapters. In contrast, a *group adapter* is a component that services all adapters in an adapter group. For example, you might write a set of adapters that all use the same COM component to transmit password synchronizations over TCP/IP. Your set of adapters is called the adapter group, whereas the component that services them all is called a group adapter. Adapter groups are described in the configuration store. You can retrieve information and updates on an adapter group by using `ISSOPSAdapter.ReceiveNotification`.  

@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: How to Create a Query in Activity Search"
-title: "How to Create a Query in Activity Search"
+title: "How to Create a Query in Activity Search | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Query Builder [BAM portal], creating queries"
+  - "queries [BAM], saving"
+  - "queries [BAM], creating"
+  - "queries [BAM], executing"
+  - "Query Builder [BAM portal], executing queries"
+  - "Query Builder [BAM portal], opening queries"
+  - "Query Builder [BAM portal], saving queries"
+  - "queries [BAM], opening"
+ms.assetid: 7940e47d-10e4-4eb1-b4e6-a8b98461e3a8
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create a Query in Activity Search
 Business end users and other users who need to receive notification of events and status pertaining to their business use queries to create activity searches on which to base alerts.  

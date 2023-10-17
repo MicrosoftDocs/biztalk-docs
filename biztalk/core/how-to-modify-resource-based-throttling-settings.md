@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: How to Modify Resource Based Throttling Settings"
-title: "How to Modify Resource Based Throttling Settings"
+title: "How to Modify Resource Based Throttling Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Bts10.settings.HostResource"
+ms.assetid: 5f8b32a8-d8cc-4045-a8be-0de0bbadcce4
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Modify Resource Based Throttling Settings
 Using the Settings Dashboard, you can modify the resource based throttling configuration settings of a given host, across the BizTalk Group. These settings apply to all host instances assigned to the given host. This topic provides the step-by-step procedure to modify these settings.  

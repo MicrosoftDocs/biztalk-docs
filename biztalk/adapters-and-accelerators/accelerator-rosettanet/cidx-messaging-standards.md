@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: CIDX Messaging Standards"
-title: "CIDX Messaging Standards"
+title: "CIDX Messaging Standards | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "CIDX, RosettaNet"
+  - "RosettaNet, CIDX"
+ms.assetid: 6f70fa56-1fc3-4016-ac9e-6af18026292a
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # CIDX Messaging Standards
 CIDX (Chemical Industry Data Exchange) operates as a standards organization that supports and maintains the Chem eStandards for standardized message exchange. Companies in the chemical industry use these standards for their industry-specific messaging needs.  

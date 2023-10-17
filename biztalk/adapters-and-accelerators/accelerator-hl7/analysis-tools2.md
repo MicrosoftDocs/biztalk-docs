@@ -1,9 +1,26 @@
 ---
 description: "Learn about analysis tools provided by Microsoft BizTalk Server including BizTalk Business Activity Monitoring (BAM), BizTalk Business Activity Services (BAS), and BizTalk Human Workflow Services (HWS)."
 title: "Analysis Tools2"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "BAS"
+  - "Business Activity Monitoring (BAM)"
+  - "BAM"
+  - "Business Activity Services (BAS)"
+  - "Human Workflow Services (HWS)"
+  - "HWS"
+ms.assetid: 31a6548b-0df8-4c9a-a215-fb74c7e8ab8a
+caps.latest.revision: 5
+
+
+
 ---
 # About Analysis Tools
 

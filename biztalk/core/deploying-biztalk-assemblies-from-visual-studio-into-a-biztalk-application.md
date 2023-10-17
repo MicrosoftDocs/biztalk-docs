@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application"
-title: "Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application"
+title: "Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: accef4b8-acdf-4043-8fd7-2db9ea752074
+caps.latest.revision: 36
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application
 Deploy and redeploy BizTalk assemblies from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into a BizTalk application. You may want to do this to test the functionality of the assemblies that you have been developing and package them for handoff.  

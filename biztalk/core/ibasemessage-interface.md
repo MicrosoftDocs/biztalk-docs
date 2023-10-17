@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: IBaseMessage Interface"
-title: "IBaseMessage Interface"
+title: "IBaseMessage Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 10bfb95c-aef5-46ba-ba0e-9961833f27a3
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # IBaseMessage Interface
 When a receive adapter accepts an incoming data packet through its protocol, it uses the **IBaseMessage** interface to create a message to pass to the Messaging Engine. All messages are represented by using this interface.  

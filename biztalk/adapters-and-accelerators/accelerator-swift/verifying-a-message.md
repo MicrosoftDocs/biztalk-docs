@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Verifying a Message"
-title: "Verifying a Message"
+title: "Verifying a Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, verifying"
+  - "verifying, messages"
+ms.assetid: df2b72bb-4dc1-4fdd-8f63-35fc73a12151
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Verifying a Message
 This section describes how to verify a message that has been repaired.  

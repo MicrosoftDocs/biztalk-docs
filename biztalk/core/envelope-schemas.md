@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Envelope Schemas"
-title: "Envelope Schemas"
+title: "Envelope Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af296c30-95dc-4fef-9aa3-bea2f2cd8caf
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Envelope Schemas
 

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Send Data"
-title: "Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Send Data"
+title: "Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Send Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1912d594-3839-4e04-bc40-93bd7cc0b309
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Send Data
 You can use the BizTalk Adapter for TIBCO Enterprise Message Service (EMS) to send data to a TIBCO system. This walkthrough describes an SDK sample that illustrates this.  

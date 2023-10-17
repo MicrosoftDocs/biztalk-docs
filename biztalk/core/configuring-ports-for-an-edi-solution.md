@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Ports for an EDI Solution"
-title: "Configuring Ports for an EDI Solution"
+title: "Configuring Ports for an EDI Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 94445da5-9ee0-4006-a8c2-3919f128a575
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Ports for an EDI Solution
 To receive and send EDI messages and acknowledgments, create the following receive and send ports:  

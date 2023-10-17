@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How the EDI Assembler Works"
-title: "How the EDI Assembler Works"
+title: "How the EDI Assembler Works | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c3785870-08ab-4fc2-8f7e-7c5a37639a7a
+caps.latest.revision: 33
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How the EDI Assembler Works
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performs most processing of EDI-encoded interchanges to be sent in the EDI Send Pipeline (`Microsoft.BizTalk.DefaultPipelines.EDISendPipeline`). This pipeline includes the EDI assembler pipeline component, which performs the following processing:  

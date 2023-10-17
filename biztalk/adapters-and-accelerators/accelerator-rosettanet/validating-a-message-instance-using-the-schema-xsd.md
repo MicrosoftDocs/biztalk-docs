@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Validating a Message Instance Using the Schema XSD"
-title: "Validating a Message Instance Using the Schema XSD"
+title: "Validating a Message Instance Using the Schema XSD | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "schema XSD"
+  - "validating, messages"
+  - "messages, validating"
+  - "schemas, XSDs"
+ms.assetid: c4cbf6b4-130d-4e0f-840b-c8008fafac0b
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Validating a Message Instance Using the Schema XSD
 This topic describes how to validate a message instance using one of the schema XSD files that Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] has built into the RNPIPs assembly file.  

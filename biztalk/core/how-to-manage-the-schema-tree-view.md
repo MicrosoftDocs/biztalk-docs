@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Manage the Schema Tree View"
-title: "How to Manage the Schema Tree View"
+title: "How to Manage the Schema Tree View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 97fb7a88-e38a-4abb-93bc-a5be1bd091e6
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Manage the Schema Tree View
 Management tasks with respect to the schema tree view can be divided into four categories: changing its size, changing its background color and font, changing its use of warning dialogs, and expanding and collapsing its tree structure. This topic provides step-by-step instructions for these various tasks.  

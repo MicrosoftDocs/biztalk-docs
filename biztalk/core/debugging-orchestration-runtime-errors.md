@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Debugging Orchestration Runtime Errors"
-title: "Debugging Orchestration Runtime Errors"
+title: "Debugging Orchestration Runtime Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7be9ee5a-b9fa-428b-8b92-0fa0f801c724
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Debugging Orchestration Runtime Errors
 This section contains a set of questions and answers designed to help you resolve runtime issues with your orchestrations.  

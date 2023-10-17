@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Expanded Information About Message Formats for Open(LINK) Request with SDLC"
-title: "Expanded Information About Message Formats for Open(LINK) Request with SDLC1"
+title: "Expanded Information About Message Formats for Open(LINK) Request with SDLC1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ca0e0307-f3a0-472d-86e4-dbe37fae9c46
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Expanded Information About Message Formats for Open(LINK) Request with SDLC
 The following list supplements the information found in the table in [Open(LINK) Request](../core/open-link-request1.md). The timers described in the lists are used by a synchronous data link control (SDLC) link service to determine when to retry communication and when to generate outages. Generally, after the time interval specified by the time-out (usually 1000 milliseconds), the communication is retried. The cycle of time-out and retry is repeated until the retry limit is reached. Then an [Outage](../core/outage2.md) message is sent by the SDLC link service.  

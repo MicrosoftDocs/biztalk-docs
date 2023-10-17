@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Troubleshooting Log Shipping"
-title: "Troubleshooting Log Shipping"
+title: "Troubleshooting Log Shipping | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e46ecb42-6bf1-4cb1-8771-a3d39cb23ce0
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting Log Shipping
 This section describes troubleshooting scenarios related to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping.  

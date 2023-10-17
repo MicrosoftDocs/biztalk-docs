@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Host Integration Server Designer UI"
-title: "Host Integration Server Designer UI1"
+title: "Host Integration Server Designer UI1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f700d7ae-81a8-4d9c-9acf-9cae1b8855c3
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Host Integration Server Designer UI
 Host Integration Server Designer (HIS Designer) is a graphical user interface that you can use to create Transaction Integrator (TI) components, which are annotated assemblies. You can use HIS Designer to export or import the COBOL and RPG data declarations used in mainframe CICS, IMS programs or OS 400 programs. You can use HIS Designer as a standalone program. It does not require connectivity to the mainframe.  

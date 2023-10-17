@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Optimizing Operating System Performance"
-title: "Optimizing Operating System Performance"
+title: "Optimizing Operating System Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 44975fb4-2bdd-4fde-b6fc-2b2ea9d036b9
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Optimizing Operating System Performance
 This section provides recommendations for optimizing performance of the BizTalk Server computers used in a production BizTalk Server environment. The optimizations listed in this section are applied after BizTalk Server has been installed and configured.

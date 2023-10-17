@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Working with Grid Pages"
-title: "Working with Grid Pages"
+title: "Working with Grid Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 14a27bbf-3761-49dd-be6f-f311857e38c2
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working with Grid Pages
 Creating maps for many business documents can involve numerous links and functoids, often enough to make the grid complex and difficult to understand. The solution to this potential complexity is the introduction of pages to the grid. You can isolate different aspects of your mapping into different pages, and then view and work with those pages separately.  

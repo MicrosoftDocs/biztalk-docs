@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Common Service Verbs"
-title: "Common Service Verbs1"
+title: "Common Service Verbs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2d2fde76-6d80-4e28-9343-5abdb9fca5cf
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Common Service Verbs
 This section describes each of the common service verbs (CSVs) and provides:  

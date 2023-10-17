@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AS2 Message and Correlated MDN Status Report"
-title: "AS2 Message and Correlated MDN Status Report"
+title: "AS2 Message and Correlated MDN Status Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 48ed0ee3-c844-4cb9-a84d-32b719ab8fab
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AS2 Message and Correlated MDN Status Report
 This report shows all AS2 messages that are processed by the AS2 send and receive pipelines, and the MDNs correlated to those interchanges.  

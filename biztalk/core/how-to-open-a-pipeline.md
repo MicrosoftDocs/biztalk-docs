@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: How to Open a Pipeline"
-title: "How to Open a Pipeline"
+title: "How to Open a Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, opening"
+ms.assetid: ea9bb905-4363-4a46-ad04-855d6d9dc1b7
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Open a Pipeline
 Opening a pipeline file causes Pipeline Designer to appear with the defined pipeline and its stages in the design area. In addition, the Pipeline Designer Toolbox and the Properties window will appear if they are not already open.  

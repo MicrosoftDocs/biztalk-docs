@@ -1,9 +1,19 @@
 ---
 description: "Learn more about: Create the Tutorial Folder"
 title: "Create the Tutorial Folder"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+ms.assetid: d9c15efe-f5b0-4fb2-a77b-54d4cc0c49db
+caps.latest.revision: 6
+
+
+
 ---
 # Create the Tutorial Folder
 Create the following folder using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer:  

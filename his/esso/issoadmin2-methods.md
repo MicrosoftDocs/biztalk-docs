@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOAdmin2 Methods"
-title: "ISSOAdmin2 Methods"
+title: "ISSOAdmin2 Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 74cd8b15-852d-414c-b30d-4592217edfcf
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOAdmin2 Methods
 The following table shows the `IISOAdmin2` methods.  

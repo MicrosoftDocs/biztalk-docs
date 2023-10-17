@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_AccountAssigned3270 Class"
-title: "MsSna_AccountAssigned3270 Class2"
+title: "MsSna_AccountAssigned3270 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 142523b7-d3ad-4ca6-9c3a-4270a89cfa0c
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_AccountAssigned3270 Class
 This is used to query for 3270 LUs assigned to a specific workstation or user.  

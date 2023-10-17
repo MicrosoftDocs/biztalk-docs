@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOMapper Methods"
-title: "ISSOMapper Methods"
+title: "ISSOMapper Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cacd7532-9e3a-464a-a6d0-a284ca67406a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOMapper Methods
 The methods of the **ISSOMapper** interface are listed in the following table. For a complete list of **ISSOMapper** interface members, see [ISSOMapper Members](../esso/issomapper-members.md).  

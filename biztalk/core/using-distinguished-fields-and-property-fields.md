@@ -1,12 +1,19 @@
 ---
-title: "Using Distinguished Fields and Property Fields"
+title: "Using Distinguished Fields and Property Fields | Microsoft Docs"
 description: Read about the differences between Distinguished fields, property fields, and property sets. Distinguished fields use the path in the message field, property fields uses the message name and the schema namespace, and property sets assign the context properties of a message (a property set) to the context properties of another message in BizTalk Server
 ms.custom: ""
 ms.date: "05/02/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 264ee15e-be9a-4ba2-9c61-a1570b20378e
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Distinguished Fields and Property Fields
 Distinguished fields are message data of special interest that you use primarily to make decisions or to manipulate data in your orchestration.  

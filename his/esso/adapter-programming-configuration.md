@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Adapter Programming Configuration"
-title: "Adapter Programming Configuration"
+title: "Adapter Programming Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a9292d25-6a4e-49c9-a3ad-a194680b324f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Adapter Programming Configuration
 Every type of password sync adapter has different configuration requirements, depending on what non-Windows system you design the adapter for. Like affiliate applications, you can use the Enterprise Single Sign-On configuration store to store configuration properties centrally and more securely.  

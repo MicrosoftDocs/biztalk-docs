@@ -1,12 +1,32 @@
 ---
 description: "Learn more about: Understand the BizTalk Adapter for Oracle Database"
-title: "Understand the BizTalk Adapter for Oracle Database"
+title: "Understand the BizTalk Adapter for Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF LOB Adapter SDK"
+  - "features of Oracle database adapter"
+  - "table"
+  - "adapter client"
+  - "service model"
+  - "WCF"
+  - "artifacts"
+  - "database tables"
+  - "adapters, features"
+  - "Windows Communication Foundation"
+  - "adapter features"
+  - "channel model"
+ms.assetid: a8691957-0430-4cba-83f8-b60c21a86849
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Understand the BizTalk Adapter for Oracle Database
 The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] enables service-oriented programmatic access in order to interact with an external system. The adapters provide the following advantages to clients:  

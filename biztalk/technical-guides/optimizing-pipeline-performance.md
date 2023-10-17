@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Optimizing Pipeline Performance"
-title: "Optimizing Pipeline Performance"
+title: "Optimizing Pipeline Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b5137747-0dcf-4c96-90a7-01afb92f56a6
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Optimizing Pipeline Performance
 This topic describes guidelines for optimizing performance of pipelines in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution.

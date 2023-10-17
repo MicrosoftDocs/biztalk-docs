@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Run Operations on Business Components with the Siebel adapter using the WCF Service Model"
-title: "Run Operations on Business Components with the Siebel adapter using the WCF Service Model"
+title: "Run Operations on Business Components with the Siebel adapter using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF service model, performing operations on business components"
+  - "how to, perform operations using the proxy"
+  - "business components, performing operations by using the WCF service model"
+  - "performing operations, using the proxy"
+ms.assetid: 7a5fdc95-6159-4f43-aac5-4e2f84e9138b
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run Operations on Business Components with the Siebel adapter using the WCF Service Model
 You can create a WCF client that targets a Siebel business component. You can then use the WCF client to perform Insert, Update, Query, Delete, Associate, Dissociate, and child record query operations on the business component on the Siebel system. Siebel business objects are surfaced under the Business Objects node in the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. The business components that compose each business object are surfaced under the node corresponding to that object. You can follow the steps in [Overview of the WCF Service Model with the Siebel Adapter](../../adapters-and-accelerators/adapter-siebel/overview-of-the-wcf-service-model-with-the-siebel-adapter.md) to generate a WCF client for a business component that targets specific operations and use the client to invoke these operations on the business component.  

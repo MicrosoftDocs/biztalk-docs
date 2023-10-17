@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Importing JD Edwards OneWorld Schemas into BizTalk Server Projects"
-title: "Importing JD Edwards OneWorld Schemas into BizTalk Server Projects"
+title: "Importing JD Edwards OneWorld Schemas into BizTalk Server Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "generating schemas"
+  - "importing schemas"
+  - "schemas, generating"
+  - "schemas, importing into BizTalk Server projects"
+ms.assetid: 5bcaa276-8c76-4212-b373-de86e3008a69
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Importing JD Edwards OneWorld Schemas into BizTalk Server Projects
 This topic discusses browsing a JD Edwards OneWorld server and importing the schemas into a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project.  

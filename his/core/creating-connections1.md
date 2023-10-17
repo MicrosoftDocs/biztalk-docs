@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating Connections"
-title: "Creating Connections1"
+title: "Creating Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 55e4bab3-bcf7-425e-867c-13f006f17582
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Creating Connections
 With [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], you can create connections with wizards or manually. Host Integration Server provides you with three wizards to aid you in installing and configuring connections to your host environment (HE).  

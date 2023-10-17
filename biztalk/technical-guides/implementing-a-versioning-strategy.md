@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Implementing a Versioning Strategy"
-title: "Implementing a Versioning Strategy"
+title: "Implementing a Versioning Strategy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0a3c7af6-6277-4667-8f14-e6d1cb9e99d4
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Implementing a Versioning Strategy
 Versioning is the act of updating the implementation of an artifact and incrementing its version number.

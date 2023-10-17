@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Use Direct Password Sync"
-title: "How to Use Direct Password Sync"
+title: "How to Use Direct Password Sync | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d1334c2f-2020-46ea-a98c-f7688813e38c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use Direct Password Sync
 This version of Enterprise Single Sign-On includes the Direct Password Sync from Windows feature. This enables you to bypass a Password Sync Adapter and update the password in the SSO Database directly from Windows.  

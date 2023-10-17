@@ -1,9 +1,23 @@
 ---
 description: "Learn more about: Configuring Message Acknowledgments"
 title: "Configuring Message Acknowledgments"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "acknowledgements, configuring"
+  - "messages, acknowledgements"
+  - "configuring, acknowledgements"
+ms.assetid: 6ebcfc32-0a0b-4388-938f-6569a2014b91
+caps.latest.revision: 6
+
+
+
 ---
 # Configuring Message Acknowledgments
 You use the [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer **Acknowledgment** tab to specify the acknowledgment properties for inbound and generated acknowledgments.  

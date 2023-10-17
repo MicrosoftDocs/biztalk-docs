@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_AppcMode Class"
-title: "MsSna_AppcMode Class2"
+title: "MsSna_AppcMode Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a6c10368-5687-4eac-960c-518cc2466a8d
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_AppcMode Class
 Contains an APPC Mode definition.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Command Object (OLE DB Provider for DB2)"
-title: "Command Object (OLE DB Provider for DB2)2"
+title: "Command Object (OLE DB Provider for DB2)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 20fe7649-0b05-43c3-b78f-ff4f95f82338
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Command Object (OLE DB Provider for DB2)
 The **Command** object is created by an OLE DB consumer, or by a service provider on behalf of a consumer. A **Command** object is used to execute a distributed relational database architecture (DRDA)-specific command on a remote DB2 database server operating as a DRDA application server. The **Command** object supports executing Structured Query Language (SQL) commands when connected to remove DRDA application servers.  

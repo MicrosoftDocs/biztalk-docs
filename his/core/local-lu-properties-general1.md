@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Local LU Properties: General"
-title: "Local LU Properties: General1"
+title: "Local LU Properties: General1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_LU_AppcLocal"
+ms.assetid: 7b4087aa-b3d8-4531-86a4-03c257457151
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Local LU Properties: General
 Local APPC LUs can be independent or dependent.  

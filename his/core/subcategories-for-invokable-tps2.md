@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Subcategories for Invokable TPs"
-title: "Subcategories for Invokable TPs2"
+title: "Subcategories for Invokable TPs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d596df4c-0252-423d-a845-bd5bf17d8033
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Subcategories for Invokable TPs
 The following figure shows subcategories for invokable TPs.  

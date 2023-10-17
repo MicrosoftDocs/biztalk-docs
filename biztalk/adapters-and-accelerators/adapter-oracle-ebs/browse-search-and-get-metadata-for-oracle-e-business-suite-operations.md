@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Browse, search, and get metadata for Oracle E-Business Suite operations"
-title: "Browse, search, and get metadata for Oracle E-Business Suite operations"
+title: "Browse, search, and get metadata for Oracle E-Business Suite operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 05a0656c-84d0-4f25-9571-90a9df587b8c
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Browse, search, and get metadata for Oracle E-Business Suite operations
 This section provides information about how to use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] and the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. By using these [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components, you can:  

@@ -1,12 +1,18 @@
 ---
-title: "MC_RECEIVE_IMMEDIATE2"
+title: "MC_RECEIVE_IMMEDIATE2 | Microsoft Docs"
 description: See the syntax for the MC_RECEIVE_IMMEDIATE verb from the partner transaction program in Host Integration Server.
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5329f15a-254e-44d2-a0b9-c8cc7aa60cda
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MC_RECEIVE_IMMEDIATE
 The **MC_RECEIVE_IMMEDIATE** verb receives any data currently available from the partner transaction program (TP). If no data is available, the local TP does not wait. To avoid blocking the conversation, issue [MC_RECEIVE_AND_WAIT](../core/mc-receive-and-wait2.md) in conjunction with [WinAsyncAPPC](../core/winasyncappc1.md). The following structure describes the verb control block (VCB) used by the **MC_RECEIVE_IMMEDIATE** verb.  

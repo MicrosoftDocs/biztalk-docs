@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: How to Build Orchestrations"
-title: "How to Build Orchestrations"
+title: "How to Build Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "building, orchestrations"
+  - "building, solutions"
+  - "building, projects"
+  - "solutions, building"
+  - "projects, building"
+  - "orchestrations, building"
+ms.assetid: f12d5da0-fbae-4f0e-85bf-1ca2e9bf7d62
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Build Orchestrations
 After you have completed an orchestration drawing, you build your BizTalk project into an assembly that encapsulates an executable orchestration.  

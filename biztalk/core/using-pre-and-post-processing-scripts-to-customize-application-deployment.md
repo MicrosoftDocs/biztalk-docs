@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Using Pre- and Post-processing Scripts to Customize Application Deployment"
-title: "Using Pre- and Post-processing Scripts to Customize Application Deployment"
+title: "Using Pre- and Post-processing Scripts to Customize Application Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "customizing, applications"
+  - "applications, customizing"
+  - "scripts, applications"
+  - "scripts, customizing"
+ms.assetid: 47627394-d594-491b-9098-38c5d028a378
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Pre- and Post-processing Scripts to Customize Application Deployment
 The topics in this section describe how to create pre- or post-processing scripts to perform actions when an application is imported, installed, or uninstalled. Pre-processing scripts perform an action or set of actions before application import or installation starts, and after uninstallation completes. Post-processing scripts perform an action or set of actions after application import or installation completes, or before uninstallation starts.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Read the installation and configuration known issues"
-title: "Read the installation and configuration known issues"
+title: "Read the installation and configuration known issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c58d9dcb-7835-4181-a6cb-203c5d138e6a
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Read the installation and configuration known issues
   

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Troubleshooting Performance Issues"
-title: "Troubleshooting Performance Issues3"
+title: "Troubleshooting Performance Issues3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7a348c4b-7df2-43e9-810c-1f538a97d7e1
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting Performance Issues
 This section contains general guidelines for diagnosing and resolving performance problems related to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and its dependencies. These guidelines may also be used preemptively, to identify potential problems before they become critical issues.

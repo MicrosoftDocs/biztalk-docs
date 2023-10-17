@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10742"
-title: "Single Sign-On: Event 10742"
+title: "Single Sign-On: Event 10742 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ba62f878-ed12-421f-81ea-9285b2624fe9
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10742
 ## Details  

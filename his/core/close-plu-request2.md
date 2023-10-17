@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Close(PLU) Request"
-title: "Close(PLU) Request2"
+title: "Close(PLU) Request2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 404e8ab3-7bd2-4791-83f0-357f0c1fd1ad
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Close(PLU) Request
 The **Close(PLU) Request** message flows from the node to the application and from the application to the node. It is used with a primary logical unit (PLU) connection.  

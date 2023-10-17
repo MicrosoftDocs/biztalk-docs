@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Create the Request Message for Insert Operation on Purchase_Order Table"
-title: "Step 1: Create the Request Message for Insert Operation on Purchase_Order Table"
+title: "Step 1: Create the Request Message for Insert Operation on Purchase_Order Table | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fde018d8-9d9a-42ea-8ee9-e3632450b9d7
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Create the Request Message for Insert Operation on Purchase_Order Table
 ![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Enable Automatic Archive Validation"
-title: "How to Enable Automatic Archive Validation"
+title: "How to Enable Automatic Archive Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "validating, archives [Tracking database]"
+  - "archiving [Tracking database], validating archive"
+ms.assetid: 406ca54a-6b1f-4bdb-9bad-bea5ea0f6e66
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Enable Automatic Archive Validation
 Archive validation enables you to validate the archives as they are created. Before you can enable automatic archive validation, you must set up a secondary database server, also called a validation server. Because the archiving process is a simple backup, it is possible that the actual image stored on the disk can be corrupted due to a hardware issue.  

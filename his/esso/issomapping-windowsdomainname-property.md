@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOMapping.WindowsDomainName Property"
-title: "ISSOMapping.WindowsDomainName Property"
+title: "ISSOMapping.WindowsDomainName Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0f322599-53ad-4ba2-9169-badc646351ce
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOMapping.WindowsDomainName Property
 The **WindowsDomainName** property specifies the Microsoft Windows domain name.  

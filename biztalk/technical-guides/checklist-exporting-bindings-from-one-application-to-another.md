@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Exporting Bindings from One Application to Another"
-title: "Checklist: Exporting Bindings from One Application to Another"
+title: "Checklist: Exporting Bindings from One Application to Another | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 152924e6-da64-4db9-a852-bdb4e79687fb
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Exporting Bindings from One Application to Another
 This topic describes the steps involved in transferring the bindings of one application to another application in either a development or production environment. This process is similar to the process of deploying an application using an .msi file. However, when you deploy an application using an .msi file, the process will automatically create the application. When you transfer the bindings from one application to another, on the other hand, the destination application must already exist.  

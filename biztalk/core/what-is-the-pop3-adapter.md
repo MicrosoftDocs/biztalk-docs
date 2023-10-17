@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: What Is the POP3 Adapter?"
-title: "What Is the POP3 Adapter?"
+title: "What Is the POP3 Adapter? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "POP3 adapters, availability"
+  - "authenticating, POP3 adapters"
+  - "POP3 adapters, data duplication"
+  - "data duplication"
+  - "POP3 adapters, receive adapters"
+  - "high availability, POP3 adapters"
+  - "POP3 adapters, supported platforms"
+  - "POP3 adapters, authenticating"
+  - "POP3 adapters, algorithims"
+  - "receive adapters, POP3 adapters"
+ms.assetid: 05e9598b-cdfe-4216-b6bf-1b84f8ddfeae
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is the POP3 Adapter?
 This section describes the POP3 receive adapter.

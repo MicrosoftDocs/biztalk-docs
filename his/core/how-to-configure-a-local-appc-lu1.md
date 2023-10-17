@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure a Local APPC LU"
-title: "How to Configure a Local APPC LU1"
+title: "How to Configure a Local APPC LU1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cc3089bb-ec42-4b43-a10e-fd771237c758
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure a Local APPC LU
 The following procedure details how to configure a local APPC LU.  

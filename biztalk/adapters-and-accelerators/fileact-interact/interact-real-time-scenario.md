@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: InterAct Real-Time Scenario"
-title: "InterAct Real-Time Scenario"
+title: "InterAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dc73c84b-3361-41b0-b1b3-dc3c2ab31ccc
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # InterAct Real-Time Scenario
 In this scenario, you will configure the InterAct adapter to process messages in real time. You can use in SWIFT solutions scenarios such as cash reporting. For more information, see the SWIFT Web site at [https://go.microsoft.com/fwlink/?LinkId=100479](https://go.microsoft.com/fwlink/?LinkId=100479).

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The interchange had structural error. A likely cause is invalid segment terminator due to missing Carriage Line and-or Line Feed seperators"
-title: "The interchange had structural error. A likely cause is invalid segment terminator due to missing Carriage Line and-or Line Feed seperators"
+title: "The interchange had structural error. A likely cause is invalid segment terminator due to missing Carriage Line and-or Line Feed seperators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 035e37d5-d4a8-49d0-8d75-3bcf2426cac7
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The interchange had structural error. A likely cause is invalid segment terminator due to missing Carriage Line and-or Line Feed seperators
 ## Details  

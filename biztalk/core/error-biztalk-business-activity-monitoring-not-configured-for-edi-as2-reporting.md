@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BizTalk Business Activity Monitoring has not been configured for EDI-AS2 status reporting"
-title: "BizTalk Business Activity Monitoring has not been configured for EDI-AS2 status reporting"
+title: "BizTalk Business Activity Monitoring has not been configured for EDI-AS2 status reporting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2f46c1c8-2771-4b16-8fb1-71952792ac4a
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Business Activity Monitoring has not been configured for EDI-AS2 status reporting
 ## Details  

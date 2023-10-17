@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11054"
-title: "Single Sign-On: Event 11054"
+title: "Single Sign-On: Event 11054 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 59dc801d-fc78-4561-8a26-9d815c86d842
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 11054
 ## Details  

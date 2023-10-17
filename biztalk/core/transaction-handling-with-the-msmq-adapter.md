@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Transaction Handling with the MSMQ Adapter"
-title: "Transaction Handling with the MSMQ Adapter"
+title: "Transaction Handling with the MSMQ Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "MSMQ adapters, transaction handling"
+  - "transactions, MSMQ adapters"
+ms.assetid: 2e5dd0da-3852-48bf-9372-b019ecab23be
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Transaction Handling with the MSMQ Adapter
 This section discusses how transactions work in receiving and sending.

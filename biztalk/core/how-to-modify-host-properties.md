@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Update Host Properties"
-title: "How to Modify Host Properties"
+title: "How to Modify Host Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e5df9d7f-b6c2-4bb7-a845-284e6323e3d6
+caps.latest.revision: 28
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Update Host Properties
 

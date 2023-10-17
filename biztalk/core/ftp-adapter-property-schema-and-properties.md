@@ -1,12 +1,37 @@
 ---
 description: "Learn more about: FTP Adapter Property Schema and Properties"
-title: "FTP Adapter Property Schema and Properties"
+title: "FTP Adapter Property Schema and Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring [FTP adapters], schemas"
+  - "FTP adapters, properties"
+  - "BeforePut property [FTP adapters]"
+  - "PassiveMode property [FTP adapters]"
+  - "configuring [FTP adapters], properties"
+  - "UserName property, FTP adapters"
+  - "SSOAffiliateApplication property [FTP adapters]"
+  - "AfterPut property [FTP adapters]"
+  - "ReceivedFileName property [FTP adapters]"
+  - "RepresentationType property [FTP adapters]"
+  - "SpoolingFolder property [FTP adapters]"
+  - "FTP adapters, schemas"
+  - "CommandLogFileName property [FTP adapters]"
+  - "AllocateStorage property [FTP adapters]"
+  - "schemas, FTP adapters"
+  - "Password property [FTP adapters]"
+  - "MaxConnections property [FTP adapters]"
+ms.assetid: 677fdb61-c2b0-4df2-a826-840113e61e8b
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # FTP Adapter Property Schema and Properties
 The following table contains the properties in the FTP adapter property schema.  

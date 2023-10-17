@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The BizTalk Operations Web Service"
-title: "The BizTalk Operations Web Service"
+title: "The BizTalk Operations Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af38815f-f643-4598-9148-6499071d12e4
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The BizTalk Operations Web Service
 The Microsoft BizTalk Operations Web service exposes information about the objects and messages in BizTalk Server. The service name is **ESB.BizTalkOperationsService**, and the service exposes a wide range of methods that return items such as a list of hosts, orchestrations, applications, and the BizTalk application status.

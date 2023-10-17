@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Lesson 2: Adding an XML Send Port"
-title: "Lesson 2: Adding an XML Send Port"
+title: "Lesson 2: Adding an XML Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "send ports, XML ports"
+  - "XML ports"
+ms.assetid: 03b2ee43-7874-4ef9-b716-8e16e96d8382
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 2: Adding an XML Send Port
 You use a send port to define how you want the messages sent. In this lesson, you create a send port to define how XML messages should be sent.  

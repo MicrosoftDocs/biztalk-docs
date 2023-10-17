@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Infrastructure Management Commands"
-title: "Infrastructure Management Commands"
+title: "Infrastructure Management Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a2f1a88c-19fc-4384-b6bb-f95962a32921
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Infrastructure Management Commands
 The BAM Management (BM) utility configuration commands allow you get and update the BAM configuration.  

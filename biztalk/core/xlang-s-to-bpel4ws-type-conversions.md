@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: XLANG-s to BPEL4WS Type Conversions"
-title: "XLANG-s to BPEL4WS Type Conversions"
+title: "XLANG-s to BPEL4WS Type Conversions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "XLANG/s"
+  - "XLANG/s, warning"
+  - "XLANG/s, BPEL4WS"
+  - "XLANG/s, converting"
+ms.assetid: a35d4dba-9344-43c8-86e6-a373a4452579
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # XLANG-s to BPEL4WS Type Conversions
 The following tables detail the conversions between various XLANG/s constructs and BPEL4WS constructs.  

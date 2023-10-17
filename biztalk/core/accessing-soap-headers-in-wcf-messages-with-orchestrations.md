@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Accessing SOAP Headers in WCF Messages with Orchestrations"
-title: "Accessing SOAP Headers in WCF Messages with Orchestrations"
+title: "Accessing SOAP Headers in WCF Messages with Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "orchestrations, SOAP headers [WCF services]"
+  - "orchestrations, WCF services"
+  - "WCF services, SOAP headers"
+  - "SOAP headers, WCF messages"
+ms.assetid: fe02fb02-18d6-4fc6-89e0-b06bdbfa5cb4
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Accessing SOAP Headers in WCF Messages with Orchestrations
 To access the SOAP header values of incoming WCF messages in orchestrations, you use the context property **WCF.InboundHeaders**. The WCF adapters copy custom SOAP headers and standard SOAP headers in the inbound messages to the **WCF.InboundHeaders** property. The WCF adapters also allow you to select the properties you would like to promote or write to the context properties programmatically. See [SOAP Headers with Published WCF Services](../core/soap-headers-with-published-wcf-services.md) for more details.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The certificate used for signing a message has been revoked"
-title: "The certificate used for signing a message has been revoked"
+title: "The certificate used for signing a message has been revoked | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f822235a-8ad8-4b63-94de-9b7f9361a071
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The certificate used for signing a message has been revoked
 ## Details  

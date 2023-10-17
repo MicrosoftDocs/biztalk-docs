@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Use Web Services in Orchestrations"
-title: "How to Use Web Services in Orchestrations"
+title: "How to Use Web Services in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a46f2c31-7cd0-427c-b21b-5a98b9e232d1
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use Web Services in Orchestrations
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Web services. BizTalk Server enables the reuse and aggregation of all your existing Web services within your orchestrations. You can also publish (expose) your orchestrations as Web services to separate the Web service logic from the business process logic.

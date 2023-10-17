@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Testing Tasks for BizTalk Application Deployment"
-title: "Testing Tasks for BizTalk Application Deployment"
+title: "Testing Tasks for BizTalk Application Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying [applications], testing"
+  - "testing, deploying"
+  - "testing, tasks"
+ms.assetid: fb043755-6d01-4ceb-b189-5a5f286c2b37
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Testing Tasks for BizTalk Application Deployment
 The following are the steps involved in deploying the artifacts of a BizTalk application to a test environment for testing and debugging.  

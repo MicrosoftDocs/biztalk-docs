@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Retrieving Schema Information"
-title: "Retrieve Schema Information"
+title: "Retrieve Schema Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8750c87b-939a-478c-b7f8-455e5bd3aa20
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Retrieving Schema Information
 

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Use the Data Provider for SAP to Create a Report Server Project"
-title: "Use the Data Provider for SAP to Create a Report Server Project"
+title: "Use the Data Provider for SAP to Create a Report Server Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5fe985b5-ba67-4179-a31c-4f41106c32be
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use the Data Provider for SAP to Create a Report Server Project
 You must create a Report Server project, using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], to generate reports for the data available in an SAP system. This topic provides instructions on how to create a Report Server project.  

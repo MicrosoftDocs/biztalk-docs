@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Password Synchronization"
-title: "Password Synchronization2"
+title: "Password Synchronization2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SSO, passwords"
+  - "passwords, synchronizing [SSO]"
+  - "managing [SSO], synchronizing passwords"
+  - "Password Synchronization [SSO]"
+  - "Password Synchronization [SSO], about Password Synchronization"
+  - "SSO database, passwords"
+ms.assetid: 6d4970e0-ac73-4fca-ab8f-6c8a6f3a6ec0
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Password Synchronization
 The purpose of Password Synchronization is to simplify administration of the SSO database, and to keep passwords in sync across user directories.  

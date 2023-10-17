@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Manually Purge Data from the BizTalk Tracking Database"
-title: "How to Manually Purge Data from the BizTalk Tracking Database"
+title: "How to Manually Purge Data from the BizTalk Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Tracking database, purging"
+  - "purging, manually"
+  - "purging, warnings"
+ms.assetid: f350d850-5034-4166-940c-8d10b7b445fb
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Manually Purge Data from the BizTalk Tracking Database
 The DTA Archive and Purge SQL Server Agent job reduces the need to manually purge data from the BizTalk Tracking (BizTalkDTADb) database due to continuous purging of the database and compaction of stored tracking data. You might need to manually purge data if your BizTalk Tracking (BizTalkDTADb) database has grown so much that sustained performance degradation is occurring and the DTA Archive and Purge job is unable to keep up with the database growth.  

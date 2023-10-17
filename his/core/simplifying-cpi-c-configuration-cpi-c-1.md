@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Simplifying CPI-C Configuration (CPI-C)"
-title: "Simplifying CPI-C Configuration (CPI-C)1"
+title: "Simplifying CPI-C Configuration (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 83177f25-1d10-45a8-8d1f-754a5b1f3ccc
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Simplifying CPI-C Configuration (CPI-C)
 There are several features in Host Integration Server that can simplify configuration for Common Programming Interface for Communications (CPI-C):  

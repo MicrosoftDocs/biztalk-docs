@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Cannot merge operations due to name collision"
-title: "Cannot merge operations due to name collision"
+title: "Cannot merge operations due to name collision | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 81ddb8b7-6f7e-420c-b7c3-921c0e305326
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Cannot merge operations due to name collision
 ## Details  

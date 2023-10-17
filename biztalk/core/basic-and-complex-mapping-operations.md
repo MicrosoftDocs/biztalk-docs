@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Basic and Complex Mapping Operations"
-title: "Basic and Complex Mapping Operations"
+title: "Basic and Complex Mapping Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: da864b48-6255-4847-9a6f-13e489e8658d
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Basic and Complex Mapping Operations
 BizTalk Mapper provides solutions for a variety of mapping scenarios ranging from simple parent-child tree-type operations to detailed, complex operations involving looping records and hierarchies. The complexity of a mapping scenario depends on your preferences and business needs—XML Schema definition (XSD) language gives you considerable flexibility in defining structured formats. Almost all mapping scenarios fall into one of two categories: basic mapping and complex mapping.  

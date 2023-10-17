@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Managing the BAM Event Bus Service"
-title: "Managing the BAM Event Bus Service"
+title: "Managing the BAM Event Bus Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MessageBox database, migrating data"
+  - "Primary Import database [BAM], migrating data"
+  - "migrating, data [BAM]"
+  - "managing [BAM], Event Bus Service"
+  - "Event Bus Service [BAM], managing"
+  - "Tracking Data Decode Service (TDDS)"
+ms.assetid: 556e7fe2-4a7d-46f6-8e55-f41be4e666dc
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Managing the BAM Event Bus Service
 The BAM Event Bus Service, also known as the Tracking Data Decode Service (TDDS), processes tracking data (streams) stored in a source database and persists that data in such a way that it is easy to query it at a later date.  

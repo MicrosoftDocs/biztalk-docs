@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 7: Implement the Synchronous Outbound Handler for the Echo Adapter"
-title: "Step 7: Implement the Synchronous Outbound Handler for the Echo Adapter"
+title: "Step 7: Implement the Synchronous Outbound Handler for the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4da4d987-03c4-4817-850b-4c5ca2ba7e62
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 7: Implement the Synchronous Outbound Handler for the Echo Adapter
 ![Step 7 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-7of9.gif "Step_7of9")  

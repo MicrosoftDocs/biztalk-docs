@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_Lu3270ToActiveUser Class"
-title: "MsSnaStatus_Lu3270ToActiveUser Class2"
+title: "MsSnaStatus_Lu3270ToActiveUser Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 16643023-926a-4564-b98b-7750138ee211
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_Lu3270ToActiveUser Class
 The **MsSnaStatus_Lu3270ToActiveUser** class represents an association between a User connection and a 3270 type LU.  

@@ -1,12 +1,36 @@
 ---
 description: "Learn more about: Using Ports in Orchestrations"
-title: "Using Ports in Orchestrations"
+title: "Using Ports in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "send ports, receiving"
+  - "ports, configuring manually"
+  - "send ports, messages"
+  - "ports, creating"
+  - "ports, messages"
+  - "creating, ports"
+  - "send ports, sending"
+  - "ports, operations"
+  - "configuring, ports"
+  - "ports, deleting"
+  - "deleting, ports"
+  - "orchestrations, ports"
+  - "Port Configuration Wizard [Orchestration Designer]"
+  - "ports"
+  - "ports, about ports"
+  - "ports, configuring"
+ms.assetid: 968b2d1b-e233-4eb0-8254-9ec6b7642cdf
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Ports in Orchestrations
 Ports specify how your orchestration will send messages to and receive messages from other business processes. Each port has a type, a direction, and a binding, which together determine the direction of communication, the pattern of communication, the location to or from which the message is sent or received, and how the communication takes place.  

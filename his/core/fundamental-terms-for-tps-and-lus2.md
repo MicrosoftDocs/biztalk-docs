@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Fundamental Terms for TPs and LUs"
-title: "Fundamental Terms for TPs and LUs2"
+title: "Fundamental Terms for TPs and LUs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1f978e45-55de-43f5-a0b7-374130dfa669
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Fundamental Terms for TPs and LUs
 The following terms describe some fundamental characteristics of transaction programs (TPs) communicating through logical units (LUs):  

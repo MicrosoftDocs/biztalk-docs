@@ -4,6 +4,13 @@ description: Learn more about acknowledgment error conditions in BizTalk Acceler
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
+
+helpviewer_keywords: 
+  - "acknowledgements, errors"
+  - "errors, acknowledgements"
+ms.assetid: 605c7fa0-2365-4cb6-92fb-6df570905ca8
+caps.latest.revision: 3
+
 ---
 
 # Acknowledgment error conditions in BizTalk Accelerator for HL7

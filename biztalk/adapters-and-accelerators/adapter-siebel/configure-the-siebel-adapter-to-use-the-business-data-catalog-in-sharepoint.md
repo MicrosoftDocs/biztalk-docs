@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configure the Siebel Adapter to Integrate the Siebel System with the Business Data Catalog and SharePoint"
-title: "Configure the Siebel Adapter to Integrate the Siebel System with the Business Data Catalog and SharePoint"
+title: "Configure the Siebel Adapter to Integrate the Siebel System with the Business Data Catalog and SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 49b575e8-5f33-4e6e-a914-95d357671ab5
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the Siebel Adapter to Integrate the Siebel System with the Business Data Catalog and SharePoint
 The [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] includes the [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)], which generates a WCF service for specific LOB artifacts. This WCF service is hosted in a hosting environment such as Microsoft Internet Information Services (IIS). The Business Data Catalog Definition Editor uses the URL where the WCF service is hosted to get the Web Services Description Language (WSDL) for the WCF service. Using the WSDL, the Business Data Catalog Definition Editor extracts the methods available to the WCF service. These methods can be used to establish entities and the association between the entities.  

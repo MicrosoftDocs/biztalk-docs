@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Command Object (OLE DB Provider for Informix)"
-title: "Command Object (OLE DB Provider for Informix)"
+title: "Command Object (OLE DB Provider for Informix) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 65def2bf-cb8a-4cb4-b598-032f3054f98e
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Command Object (OLE DB Provider for Informix)
 The **Command** object is created by an OLE DB consumer, or by a service provider on behalf of a consumer. A **Command** object is used to execute a distributed relational database architecture (DRDA)-specific command on a remote Informix database server operating as a DRDA application server. The **Command** object supports executing Structured Query Language (SQL) commands when connected to remove DRDA application servers.  

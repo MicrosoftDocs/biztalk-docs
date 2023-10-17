@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Common Issues with the BAM Interceptors"
-title: "Common Issues with the BAM Interceptors"
+title: "Common Issues with the BAM Interceptors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a32145e2-1367-4576-9103-86c9182c11a8
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Common Issues with the BAM Interceptors
 This topic discusses the following common problems that can arise when using BAM interceptors:  

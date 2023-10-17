@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Troubleshoot performance issues with the Oracle Database adapter"
-title: "Troubleshoot performance issues with the Oracle Database adapter"
+title: "Troubleshoot performance issues with the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "performance issues, troubleshooting"
+  - "troubleshooting, performance issues"
+ms.assetid: 2035cd2e-ce87-419b-aada-61d257671623
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshoot performance issues with the Oracle Database adapter
 This section discusses using troubleshooting techniques to resolve performance issues that you might encounter when using [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  

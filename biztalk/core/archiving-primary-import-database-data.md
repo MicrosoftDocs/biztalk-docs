@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Archiving Primary Import Database Data"
-title: "Archiving Primary Import Database Data"
+title: "Archiving Primary Import Database Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Primary Import database [BAM], archiving data"
+  - "archived data, BAM"
+  - "managing [BAM], archiving data"
+  - "data, archiving [BAM]"
+ms.assetid: 4a014a59-0578-41fa-9441-8b582f54bbe8
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Archiving Primary Import Database Data
 An administrator can specify the time window for archiving activity instance data in the primary import database. You use the OnlineWindowTimeUnit and OnlineWindowTimeLength properties in the BAM_Metadata_Activities table in the BAMPrimaryImport database.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Lesson 1: Adding a Pipelines Project to the Solution"
-title: "Lesson 1: Adding a Pipelines Project to the Solution"
+title: "Lesson 1: Adding a Pipelines Project to the Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "projects, adding pipelines"
+  - "pipelines, adding to projects"
+ms.assetid: ae058b52-e2ea-406c-9f9f-6cb1b72413d2
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 1: Adding a Pipelines Project to the Solution
 In this lesson, you add a new BizTalk project for SWIFT pipelines to the solution so you can customize your send and receive pipelines.  

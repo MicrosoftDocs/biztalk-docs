@@ -1,12 +1,18 @@
 ---
-title: "RECEIVE_IMMEDIATE1"
+title: "RECEIVE_IMMEDIATE1 | Microsoft Docs"
 description: See the syntax for the RECEIVE_IMMEDIATE verb from the partner transaction program in Host Integration Server.
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5402ba5e-1801-4393-a056-5a9f576b1645
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # RECEIVE_IMMEDIATE
 The **RECEIVE_IMMEDIATE** verb receives any data currently available from the partner transaction program (TP). If no data is available, the local TP does not wait. To avoid blocking the conversation, the Microsoft Windows operating system can issue [RECEIVE_AND_WAIT](../core/receive-and-wait2.md) in conjunction with [WinAsyncAPPC](../core/winasyncappc1.md).  

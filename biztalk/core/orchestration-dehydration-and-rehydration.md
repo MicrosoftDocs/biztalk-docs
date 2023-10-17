@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Orchestration Dehydration and Rehydration"
-title: "Orchestration Dehydration and Rehydration"
+title: "Orchestration Dehydration and Rehydration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 57d7c0bf-a707-4ebd-afab-e75dd80c3c34
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Orchestration Dehydration and Rehydration
 When many long-running business processes are running at the same time, memory and performance are potential issues. The orchestration engine addresses these issues by "dehydrating" and "rehydrating" orchestration instances.  

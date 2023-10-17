@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MC_CONFIRM"
-title: "MC_CONFIRM2"
+title: "MC_CONFIRM2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1075d033-a6e7-4c85-9ba8-a22b47969017
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MC_CONFIRM
 The **MC_CONFIRM** verb sends the contents of the local logical unit's (LU) send buffer and a confirmation request to the partner transaction program (TP).  

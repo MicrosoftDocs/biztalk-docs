@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: How to Add Orchestration Variables"
-title: "How to Add Orchestration Variables"
+title: "How to Add Orchestration Variables | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, variables"
+ms.assetid: c387cd56-5443-4de2-bbda-be34b95cbe71
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Orchestration Variables
 The Orchestration View window enables you to manage an orchestration's properties (also known as **Service** properties), parameters, ports, messages, and other variables. In addition to ports and messages, you can create integer variables, Boolean variables, string variables, or variables of a .NET class.  

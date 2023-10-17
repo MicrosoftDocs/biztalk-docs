@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unrecognized segment ID"
-title: "Unrecognized segment ID"
+title: "Unrecognized segment ID | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a00fe451-0a84-4dca-980c-682243fc9804
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unrecognized segment ID
 ## Details  

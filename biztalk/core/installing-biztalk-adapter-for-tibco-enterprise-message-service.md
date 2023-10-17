@@ -1,12 +1,19 @@
 ---
-title: "Install BizTalk Adapter for TIBCO Enterprise Message Service"
+title: "Install BizTalk Adapter for TIBCO Enterprise Message Service | Microsoft Docs"
 description: Quick link to install and configuration overview for BizTalk Adapter for TIBCO Enterprise Message Service in BizTalk Server
 ms.custom: ""
 ms.date: "10/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cdf1d943-5630-49d7-ae19-86e03a1f708b
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install BizTalk Adapter for TIBCO Enterprise Message Service
 

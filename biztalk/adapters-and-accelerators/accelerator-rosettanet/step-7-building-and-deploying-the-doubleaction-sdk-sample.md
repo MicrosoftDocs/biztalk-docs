@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Step 7: Building and Deploying the DoubleAction SDK Sample"
-title: "Step 7: Building and Deploying the DoubleAction SDK Sample"
+title: "Step 7: Building and Deploying the DoubleAction SDK Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "double action tutorial, building solutions"
+  - "deploying, solutions"
+  - "building solutions"
+  - "double action tutorial, deploying solutions"
+ms.assetid: f67f8aee-1004-48ee-a6fd-881097382888
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 7: Building and Deploying the DoubleAction SDK Sample
 The DoubleAction.odx sample shows how to implement an orchestration to generate responses automatically for the double-action Partner Interface Processes (PIPs) 0C2, 0C4, 3A2, and 3A4. You can extend this sample project to support additional double-action PIPs.  

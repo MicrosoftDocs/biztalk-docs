@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Key Performance Indicators"
-title: "Key Performance Indicators"
+title: "Key Performance Indicators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 298d639a-7adf-4f04-b097-a17f4c77ee50
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Key Performance Indicators
 This topic provides test results that the BizTalk Server product group observed when using the following scale-out methods:  

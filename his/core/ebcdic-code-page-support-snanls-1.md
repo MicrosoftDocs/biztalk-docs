@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: EBCDIC Code Page Support (SNANLS)"
-title: "EBCDIC Code Page Support (SNANLS)1"
+title: "EBCDIC Code Page Support (SNANLS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cd02fb8e-68f8-4844-930f-518df5c99356
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # EBCDIC Code Page Support (SNANLS)
 The following table shows the EBCDIC code pages and character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in Host Integration Server.  

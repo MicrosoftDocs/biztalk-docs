@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: MSMQ Adapter Architecture"
-title: "MSMQ Adapter Architecture"
+title: "MSMQ Adapter Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "architecture, MSMQ adapters"
+  - "MSMQ adapters, architecture"
+ms.assetid: acecc2a4-0670-487e-be39-28a24c8c3f16
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # MSMQ Adapter Architecture
 The MSMQ adapter lets you take advantage of Microsoft Message Queuing (also known as MSMQ) features that are otherwise unavailable in BizTalk Server.

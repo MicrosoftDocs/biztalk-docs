@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: REOverride"
-title: "REOverride2"
+title: "REOverride2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9fc54faa-b720-4fb3-9846-1b2e869586f8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # REOverride
 Use the **REOverride** keyword to override the type library assignment of the method call to a remote environment (RE) and to assign the call to a newly specified RE. The COMTIContext context name is **REOverride**; the value must be a valid remote environment name.  

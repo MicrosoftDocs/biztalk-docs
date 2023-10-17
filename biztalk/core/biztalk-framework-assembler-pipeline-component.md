@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: BizTalk Framework Assembler Pipeline Component"
-title: "BizTalk Framework Assembler Pipeline Component"
+title: "BizTalk Framework Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipeline components, BizTalk Framework Assembler"
+  - "BizTalk Framework Assembler [pipeline component]"
+ms.assetid: 116dff8d-b7f8-4564-a7fb-6440682683dc
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Framework Assembler Pipeline Component
 The BizTalk Framework is one approach for doing exactly-once guaranteed delivery using over-the-wire transport protocols such as HTTP or SMTP. This framework has existed since 1998, and can be thought of as a precursor to pending standards initiatives based on Web services, specifically WSReliable. Typically, the problem of guaranteed exactly-once delivery of data has been the domain of technologies like Message Queuing (also known as MSMQ). However, such technologies usually require common software at the two endpoints of a data flow, and also do nothing to address the use of open transport protocols based on public networks, for example, data that flows across enterprise boundaries by using the Internet.  

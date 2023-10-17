@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Character Tables"
-title: "Character Tables2"
+title: "Character Tables2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 73f87cfa-eb80-4d03-ad99-dc3718ef798f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Character Tables
 This section provides tables that show the ASCII, ANSI, and IBM extended character sets.  

@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Components of the MQSeries Adapter"
-title: "Components of the MQSeries Adapter"
+title: "Components of the MQSeries Adapter | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MQSeries adapters, BizTalk component"
+  - "MQSeries adapters, components"
+  - "MQSeries components, MQSeries adapters"
+  - "BizTalk components"
+  - "MQSeries adapters, MQSeries component"
+ms.assetid: 923974cb-371d-47dc-99a7-2f7b93f60ada
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Components of the MQSeries Adapter
 The MQSeries adapter uses two components to facilitate document transfer between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and MQSeries Server for Windows.  

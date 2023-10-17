@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Receiving Messages (SNADIS)"
-title: "Receiving Messages (SNADIS)2"
+title: "Receiving Messages (SNADIS)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7e68a82d-bafa-4c8a-ba3a-8c0bd7aa4a1d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Receiving Messages (SNADIS)
 The Base calls the SNALink dispatcher function [SNALinkDispatchProc](./snalinkdispatchproc2.md) when a message is available for it.  

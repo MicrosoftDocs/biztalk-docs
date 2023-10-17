@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Changing Conversation States (CPI-C)"
-title: "Changing Conversation States (CPI-C)2"
+title: "Changing Conversation States (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d91c93ea-24c6-482d-b6c0-0d9d00e48c27
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Changing Conversation States (CPI-C)
 A change in the conversation state can result from:  

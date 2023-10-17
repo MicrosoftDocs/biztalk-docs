@@ -1,12 +1,20 @@
 ---
 description: "Learn more about: Setting Up CIDX eStandards Message Exchange"
-title: "Setting Up CIDX eStandards Message Exchange"
+title: "Setting Up CIDX eStandards Message Exchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "CIDX, configuring message exchange"
+ms.assetid: 90468459-cef7-436b-8c0b-3a7455a091c3
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Setting Up CIDX eStandards Message Exchange
 This topic describes how to set up Chemical Data Exchange (CIDX) eStandards message exchange. CIDX requires that you set the following three properties:  

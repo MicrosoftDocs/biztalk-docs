@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: EncryptionCert (ReceiveLocation Node)"
-title: "EncryptionCert (ReceiveLocation Node)"
+title: "EncryptionCert (ReceiveLocation Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "EncryptionCert node [binding file]"
+ms.assetid: 04dc4021-8cd9-45e7-8339-8f22e29f4be6
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EncryptionCert (ReceiveLocation Node)
 The EncryptionCert node of the ReceiveLocation node of a binding file contains information about the encryption certificate used with a receive location that is exported with the binding file.  

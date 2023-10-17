@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SPasswordChange.bstrExternalAccount Field"
-title: "SPasswordChange.bstrExternalAccount Field"
+title: "SPasswordChange.bstrExternalAccount Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 406d13d3-f375-4b16-9247-961ab45b5abb
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SPasswordChange.bstrExternalAccount Field
 A string describing the external account.  

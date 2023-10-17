@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: .NET Framework Library Nodes"
-title: ".NET Framework Library Nodes2"
+title: ".NET Framework Library Nodes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 58f8f586-0c20-4d85-9c21-1286039548c7
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # .NET Framework Library Nodes
 When you view a .NET library (.dll for client and .tim for server) from within a TI Project, the Visual Studio design environment displays the objects in the library in a tree view in the left pane and list view in the right pane. Double-click the node to expand the node and right-click the node to display a shortcut menu.  

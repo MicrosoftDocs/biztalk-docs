@@ -1,12 +1,19 @@
 ---
-title: "Messages and Message Schemas for BizTalk Adapter for SQL Server"
+title: "Messages and Message Schemas for BizTalk Adapter for SQL Server | Microsoft Docs"
 description: XML structure of messages and data types used by the SQL Server adapter for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e95c6342-5420-4fb8-9b41-7c87d27b5b68
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Messages and Message Schemas for BizTalk Adapter for SQL Server
 

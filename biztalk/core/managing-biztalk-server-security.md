@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Managing BizTalk Server Security"
-title: "Managing BizTalk Server Security"
+title: "Managing BizTalk Server Security | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Server, security"
+  - "security, user accounts"
+  - "security, passwords"
+  - "certificates, security"
+  - "security, certificates"
+  - "security, BizTalk Server"
+  - "passwords, security"
+  - "user accounts, security"
+ms.assetid: adc89b0a-9846-4c99-b0fc-a32fc56ed769
+caps.latest.revision: 31
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "mijacobs"
 ---
 
 # Managing BizTalk Server Security

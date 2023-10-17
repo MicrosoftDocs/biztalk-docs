@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Non-APPC LU Status"
-title: "Non-APPC LU Status1"
+title: "Non-APPC LU Status1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2ca97bcb-38ff-44ff-b77a-30815dd17a92
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Non-APPC LU Status
 The status of a non-Advanced Program-to-Program Communications (APPC) logical unit (LU) can be:  

@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: How to Configure the MIME-SMIME Decoder Pipeline Component"
-title: "How to Configure the MIME-SMIME Decoder Pipeline Component"
+title: "How to Configure the MIME-SMIME Decoder Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, attachments"
+  - "pipeline components, MIME/SMIME Decoder"
+  - "MIME/SMIME Decoder [pipeline component], configuring"
+  - "messages, verifying"
+  - "messages, decoding"
+  - "messages, digital signatures"
+  - "messages, security"
+ms.assetid: bfd44893-f1c3-4524-abc6-f820b8c0ef07
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure the MIME-SMIME Decoder Pipeline Component
 The MIME/SMIME Decoder pipeline component is used for decoding and decrypting MIME/SMIME encoded messages and for verifying digital signatures of signed messages. This component is useful when secured document interchange is needed between external partners and BizTalk Server. This component can also be used for receiving messages with attachments.  

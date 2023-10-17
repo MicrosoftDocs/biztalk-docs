@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project"
-title: "Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project"
+title: "Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "assemblies, creating strong-names"
+  - "strong-named assemblies"
+ms.assetid: 2aacbf38-8b1d-46ea-89ae-5207327bedc1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project
 In this lesson, you create a strong name upon which the BizTalk assemblies are compiled and deployed. A strong-named assembly provides several security benefits:  

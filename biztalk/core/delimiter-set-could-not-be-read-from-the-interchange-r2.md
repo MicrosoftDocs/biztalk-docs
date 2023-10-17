@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Delimiter set could not be read from the interchange (R2)"
-title: "Delimiter set could not be read from the interchange (R2)"
+title: "Delimiter set could not be read from the interchange (R2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 17bdd32e-d43f-4f59-af27-5d3054fd5432
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Delimiter set could not be read from the interchange (R2)
 ## Details  

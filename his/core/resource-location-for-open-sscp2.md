@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Resource Location for Open SSCP"
-title: "Resource Location for Open SSCP2"
+title: "Resource Location for Open SSCP2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 912d4609-f866-437a-889a-3776f09568d3
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Resource Location for Open SSCP
 When attempting to find a free logical unit (LU) across more than one local node, the application does not need to know which local node owns the LU. The DL-BASE is responsible for finding a suitable local node, using the mechanism described. The description is intended to assist in interpreting traces of the message flows involved, and is not needed to write an application  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: A BitwiseAnd comparison cannot be done for this XSD type"
-title: "A BitwiseAnd comparison cannot be done for this XSD type"
+title: "A BitwiseAnd comparison cannot be done for this XSD type | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 82bc2351-c002-458a-9d35-5fdcc91c6a0e
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # A BitwiseAnd comparison cannot be done for this XSD type
 ## Details  

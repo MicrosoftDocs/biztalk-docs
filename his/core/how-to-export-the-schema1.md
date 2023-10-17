@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Export the Schema"
-title: "How to Export the Schema1"
+title: "How to Export the Schema1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c19925ac-e39e-4679-b3c5-46496101398d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Export the Schema
 After you associate the interface with the mainframe environment, you must deploy the schema. Deploying the schema exposes an artifact from Visual Studio to BizTalk Server.  

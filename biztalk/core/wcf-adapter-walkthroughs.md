@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: WCF Adapter Walkthroughs"
-title: "WCF Adapter Walkthroughs"
+title: "WCF Adapter Walkthroughs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "WCF adapters, tutorials"
+  - "tutorials, WCF adapters"
+ms.assetid: 84262b2b-e91a-477c-984f-863f9cd11f6b
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # WCF Adapter Walkthroughs
 The walkthroughs in this section will help you learn how to use the WCF adapters in  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. These walkthroughs provide step-by-step instructions for performing a task by using the WCF adapters, or for using a feature of the adapters.

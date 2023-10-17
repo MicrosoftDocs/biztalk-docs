@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Dynamic Message Type Discovery and Schema Resolution"
-title: "Dynamic Message Type Discovery and Schema Resolution"
+title: "Dynamic Message Type Discovery and Schema Resolution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "dynamic schema resolution"
+  - "disassembler, code sample"
+  - "schemas, dynamic resolution"
+  - "assembler, message types"
+  - "disassembler, message types"
+  - "code samples, disassembler"
+ms.assetid: 5f71d3df-a37e-4ef2-9055-b614656203e9
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Dynamic Message Type Discovery and Schema Resolution
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] enables dynamic message type discovery and schema resolution in both the SWIFT disassembler and assembler.  

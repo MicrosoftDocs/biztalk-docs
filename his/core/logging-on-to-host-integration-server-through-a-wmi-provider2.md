@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Logging on to Host Integration Server Through a WMI Provider"
-title: "Logging on to Host Integration Server Through a WMI Provider2"
+title: "Logging on to Host Integration Server Through a WMI Provider2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1ab927a6-09fa-4a00-90d9-2ebb7840a43a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Logging on to Host Integration Server Through a WMI Provider
 The first step that you must perform when you create a WMI application or script is to log on to WMI and set the security for your application. You can perform this action either by using the **SWbemLocator** locator object, or with a moniker.  

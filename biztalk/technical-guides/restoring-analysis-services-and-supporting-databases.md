@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Restoring Analysis Services and Supporting Databases"
-title: "Restoring Analysis Services and Supporting Databases"
+title: "Restoring Analysis Services and Supporting Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 490ad0fb-7805-4ebc-9bc5-117d52d7c3a8
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Restoring Analysis Services and Supporting Databases
 There are two [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Analysis Services databases that must be restored in a disaster recovery scenario:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Display Monitor Thresholds"
-title: "How to Display Monitor Thresholds"
+title: "How to Display Monitor Thresholds | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 88d88b15-0691-49d9-b116-1a2ae95bead9
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Display Monitor Thresholds
 To display monitor thresholds, use the script described in this section. This script works for the majority of monitors. It creates a .csv file that includes the columns described in the following table, and can be viewed using Office Excel.  

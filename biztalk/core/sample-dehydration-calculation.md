@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Sample Dehydration Calculation"
-title: "Sample Dehydration Calculation"
+title: "Sample Dehydration Calculation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4da41d0d-10ee-4f64-97d1-3cfa9da153f7
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample Dehydration Calculation
 Here is an example of a sample calculation, using private bytes, to determine if BizTalk will dehydrate or not. It uses the default configured values, and some example run-time values.  

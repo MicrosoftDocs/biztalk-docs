@@ -1,12 +1,19 @@
 ---
-title: "Update Group Settings"
+title: "Update Group Settings | Microsoft Docs"
 description: Change the performance settings of the group using BizTalk Server Administration
 ms.custom: "biztalk-2020"
 ms.date: "02/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fe0cbeb8-23d6-45cf-8535-c989914f5124
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Update the BizTalk group settings

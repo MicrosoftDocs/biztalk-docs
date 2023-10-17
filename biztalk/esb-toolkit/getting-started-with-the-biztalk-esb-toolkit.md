@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Getting Started with the BizTalk ESB Toolkit"
-title: "Getting Started with the BizTalk ESB Toolkit"
+title: "Getting Started with the BizTalk ESB Toolkit | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 59fee2fc-6689-445a-aaf7-2b0aafa71db5
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Getting Started with the BizTalk ESB Toolkit
 This topic explains the concepts for the design and operation of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] components and services used to build ESB-enabled solutions. This topic includes the following topic sections:  

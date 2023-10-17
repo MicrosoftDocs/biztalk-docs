@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Security between the SQL Server and the adapter"
-title: "Security between the SQL Server and the adapter"
+title: "Security between the SQL Server and the adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c4b0fd11-6753-4f52-9be7-3b6fa330fb8b
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security between the SQL Server and the adapter
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] is compatible with the standard methods, such as SSO and IPSEC used to secure data exchanges with the database server. Unsecured data exchanges can expose data to unauthorized actors. For information about security issues with SQL Server, see [Security Considerations for SQL Server](/sql/sql-server/install/security-considerations-for-a-sql-server-installation) in the SQL documentation.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: WMI Programming Considerations"
-title: "WMI Programming Considerations2"
+title: "WMI Programming Considerations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9ec4dfa4-1fa6-41ea-8cb8-e14b3bab5c2c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # WMI Programming Considerations
 To use this guide effectively, you should be familiar with the following:  

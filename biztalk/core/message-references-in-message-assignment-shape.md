@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Message References in Message Assignment Shape"
-title: "Message References in Message Assignment Shape"
+title: "Message References in Message Assignment Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, code samples"
+  - "code samples, messages"
+  - "messages, objects"
+ms.assetid: 428f7eb8-001e-4147-b1c8-f9bb6f3a80f9
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message References in Message Assignment Shape
 When you first assign a .NET-based object to a message or message part, that message holds and maintains a reference to the object.  

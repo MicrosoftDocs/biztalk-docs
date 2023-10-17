@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Record Count Functoid"
-title: "Record Count Functoid"
+title: "Record Count Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Max Occurs property"
+  - "Record Count functoids"
+ms.assetid: e6aab13f-afbe-4401-abbe-020570e2ff16
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Record Count Functoid
 The **Record Count** functoid counts records in the input instance message.  

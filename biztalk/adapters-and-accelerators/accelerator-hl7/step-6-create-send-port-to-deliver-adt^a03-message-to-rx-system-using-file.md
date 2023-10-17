@@ -1,9 +1,23 @@
 ---
 description: "Learn more about: Step 6: Create a Send Port to Deliver the ADT^A03 Message to the RX System Using the File Adapter"
 title: "Step 6: Create a Send Port to Deliver the ADT^A03 Message to the RX System Using the File Adapter"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "end-to-end tutorial, send ports"
+  - "creating, send ports"
+  - "send ports, creating"
+ms.assetid: 66c4b524-c8ff-43b5-9c44-6d7bc759ae2c
+caps.latest.revision: 9
+
+
+
 ---
 # Step 6: Create a Send Port to Deliver the ADT^A03 Message to the RX System Using the File Adapter
 

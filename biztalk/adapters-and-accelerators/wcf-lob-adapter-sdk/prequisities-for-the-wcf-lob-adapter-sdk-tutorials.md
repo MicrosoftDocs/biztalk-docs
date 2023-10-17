@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Prequisities for the WCF LOB Adapter SDK tutorials"
-title: "Prequisities for the WCF LOB Adapter SDK tutorials"
+title: "Prequisities for the WCF LOB Adapter SDK tutorials | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b7d47ac1-1605-4c6d-a331-8583771dca28
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Prequisities for the WCF LOB Adapter SDK tutorials
 This section provides details about the concepts you should be familiar with to get the most out of the tutorials, as well as the software required to complete them.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3B: Add an INTERACT Receive Location for the InterAct Store and Forward Scenario"
-title: "Step 3B: Add an INTERACT Receive Location for the InterAct Store and Forward Scenario"
+title: "Step 3B: Add an INTERACT Receive Location for the InterAct Store and Forward Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: da077518-b2ee-4b5f-88d0-fe73af2baa7a
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3B: Add an INTERACT Receive Location for the InterAct Store and Forward Scenario
 Complete [Step 3A: Add a FILE Receive Location for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-interact-store-and-forward-scenario.md) before you begin this step.

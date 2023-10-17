@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Monitoring Host Instances"
-title: "Monitoring Host Instances"
+title: "Monitoring Host Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4e7c6b80-7371-46ea-bf9c-82acb22012a3
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Monitoring Host Instances
 This topic describes monitoring BizTalk host instances using Microsoft System Center Operations Manager.  

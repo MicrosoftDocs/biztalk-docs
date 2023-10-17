@@ -1,11 +1,21 @@
 ---
 description: "Learn more about: MLLP Transport Properties Dialog Box UI Help"
 title: "MLLP Transport Properties Dialog Box UI Help"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
 f1_keywords: 
   - "btahl7.mllp.transportproperties"
+ms.assetid: 2a41aaeb-a91d-4d89-ac8a-1cfe48ab4cd4
+caps.latest.revision: 7
+
+
+
 ---
 # MLLP Transport Properties Dialog Box UI Help
 You use the **MLLP Transport Properties** dialog box to configure parameters for send and receive Minimal Lower Layer Protocol (MLLP) adapters. You can set the network connection parameters in the MLLP Transport Properties for either a send port or receive location using the MLLP transport type.  

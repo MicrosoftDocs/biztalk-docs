@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Performing Availability Testing"
-title: "Performing Availability Testing"
+title: "Performing Availability Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 10b543dd-ba85-40da-8c6f-485eddb59158
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Performing Availability Testing
 You should test your system for disaster recovery to verify its ability to recover from various levels of failure, ranging from small-scale failures (such as a network card failure) to the loss of a production server. Your disaster recovery testing should include the following steps:

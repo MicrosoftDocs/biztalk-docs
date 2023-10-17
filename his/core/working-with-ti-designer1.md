@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Working with TI Designer"
-title: "Working with TI Designer1"
+title: "Working with TI Designer1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7efe60ae-0e57-4fde-bbfa-25dc03881810
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Working with TI Designer
 Microsoft Visual Studio provides a graphical user interface for creating, viewing, and editing the objects used by the host-initiated processing (HIP) and Windows-initiated processing (WIP) environments in Transaction Integrator (TI). TI objects are created and edited within a TI Project, one of several project types supported by the Visual Studio design environment.  

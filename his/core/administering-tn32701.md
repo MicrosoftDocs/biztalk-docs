@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Administering TN3270"
-title: "Administering TN32701"
+title: "Administering TN32701 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d7b9aec1-472a-480c-bf08-fe74cb0a62d1
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Administering TN3270
 Using SNA Manager, you can view client addresses, LU names, and the state of each defined client computer. The session status information is useful if you need to stop, pause, or modify TN3270.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Collecting Exceptions and Persisting the Payload Using the ESB Exception Processor"
-title: "Collecting Exceptions and Persisting the Payload Using the ESB Exception Processor"
+title: "Collecting Exceptions and Persisting the Payload Using the ESB Exception Processor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 52650eed-e760-4ade-bc3f-2b5b2a1c43ff
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Collecting Exceptions and Persisting the Payload Using the ESB Exception Processor
 In this use case, either the exception handler for an orchestration publishes an ESB fault message to the BizTalk Server Message Box or the BizTalk Failed Message Routing mechanism generates a fault message. A send port, preconfigured with the ESB Exception Encoder pipeline component, subscribes to both of the fault message types. It processes the fault messages and then persists them as disk files that you can view using InfoPath, as illustrated in Figure 1.  

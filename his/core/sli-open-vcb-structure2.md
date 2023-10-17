@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SLI_OPEN VCB Structure"
-title: "SLI_OPEN VCB Structure2"
+title: "SLI_OPEN VCB Structure2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 48a259fa-cd88-41e3-acd7-a489f8872f7f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SLI_OPEN VCB Structure
 The following structure shows the **SLI_OPEN** fields of the **LUA SPECIFIC** union member for the [SLI_OPEN](../core/sli-open2.md) verb.  

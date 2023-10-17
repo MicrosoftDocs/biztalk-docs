@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Functoid Variable Input Mismatch"
-title: "Error - Functoid Variable Input Mismatch"
+title: "Error - Functoid Variable Input Mismatch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.functoidVariableInputMismatch"
+ms.assetid: fda3066b-d0de-4f61-b78f-4726f6796e1f
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Functoid Variable Input Mismatch
 **Error Code**  

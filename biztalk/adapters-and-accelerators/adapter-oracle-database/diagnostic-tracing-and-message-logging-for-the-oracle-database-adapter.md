@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Diagnostic tracing and message logging for the Oracle Database adapter"
-title: "Diagnostic tracing and message logging for the Oracle Database adapter"
+title: "Diagnostic tracing and message logging for the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tracing"
+  - "message logging"
+  - "tracing, within the adapter"
+  - "tracing, between the adapter client and the adapter"
+ms.assetid: 971d34e4-5609-42c6-85b9-d9b1989fc47d
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Diagnostic tracing and message logging for the Oracle Database adapter
 Diagnostic tracing helps to effectively diagnose problems that you might encounter when using the adapters. This topic provides information about the following two types of tracing supported with [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]:  

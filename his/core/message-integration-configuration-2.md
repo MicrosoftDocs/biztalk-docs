@@ -1,12 +1,18 @@
 ---
-title: "Message Integration"
+title: "Message Integration | Microsoft Docs"
 description: Configure BizTalk artifacts using the WebSphere MQ adapter, create a custom pipeline to do built-in transformation, and create WCF solutions for WebSphere MQ - Host Integration Server (HIS)
 ms.custom: ""
 ms.date: "01/04/2018"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3cc088aa-14ce-4a62-93f2-6ebfc580edef
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Get started with message integration - HIS
   

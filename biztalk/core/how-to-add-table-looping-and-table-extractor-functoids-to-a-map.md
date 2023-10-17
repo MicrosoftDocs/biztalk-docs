@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Add Table Looping and Table Extractor Functoids to a Map"
-title: "How to Add Table Looping and Table Extractor Functoids to a Map"
+title: "How to Add Table Looping and Table Extractor Functoids to a Map | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3c837ab8-55db-471a-af26-9fbd0497d7d4
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Table Looping and Table Extractor Functoids to a Map
 The **Table Looping** and **Table Extractor** functoids are used together. The **Table Looping** functoid has an internal table you configure. For each input record or field, the **Table Looping** functoid outputs the rows of the table, one at a time. The **Table Extractor** functoid extracts the desired item from a row and passes it on to the output instance message.  

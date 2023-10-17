@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: SWIFT Disassembler"
-title: "SWIFT Disassembler"
+title: "SWIFT Disassembler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "disassembler"
+  - "messages, receive pipelines"
+  - "receive pipelines, messages"
+ms.assetid: 42641550-0c88-4535-b5d5-b90acb30a6d3
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFT Disassembler
 An inbound receive pipeline processes all messages submitted to an [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] application (received at a receive location).  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Key Messages and Fields"
-title: "Key Messages and Fields"
+title: "Key Messages and Fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "process management solution tutorial, processing"
+  - "processing, processing logic"
+ms.assetid: 77db0706-dfdc-48b0-8ca4-bae7ab2d7641
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Key Messages and Fields
 This section briefly describes key messages and fields handled by the **OrderBroker** and **OrderManager** orchestrations. For a complete list of messages in the application, see [Message Reference for the Business Process Management Solution](../core/message-reference-for-the-business-process-management-solution.md).  

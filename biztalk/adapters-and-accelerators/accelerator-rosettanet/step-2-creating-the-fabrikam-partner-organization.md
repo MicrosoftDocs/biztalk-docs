@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Step 2: Creating the Fabrikam Partner Organization"
-title: "Step 2: Creating the Fabrikam Partner Organization"
+title: "Step 2: Creating the Fabrikam Partner Organization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, trading partners"
+  - "double action tutorial, creating partner organizations"
+  - "trading partners, partner organization"
+ms.assetid: 4d2ddc4c-2275-4faf-9a36-8a912cc06527
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Creating the Fabrikam Partner Organization
 In this step, you use the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console to create a new trading partner. The trading partner for this tutorial is the Fabrikam organization.  

@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Importing Certificates Using MMC"
-title: "Importing Certificates Using MMC"
+title: "Importing Certificates Using MMC | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "certificates, public keys"
+  - "certificates, private keys"
+  - "importing certificates"
+  - "public keys"
+  - "private keys"
+  - "certificates, importing"
+ms.assetid: 58fb1711-e295-4aa6-902e-e28e4a2cd921
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Importing Certificates Using MMC
 This topic describes how to import a digital certificate that Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses to authenticate a trading partner, decrypt an incoming message, or encrypt or sign an outgoing message.  

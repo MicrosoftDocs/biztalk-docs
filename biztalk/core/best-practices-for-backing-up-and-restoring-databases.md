@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Best Practices for Backing Up and Restoring Databases"
-title: "Best Practices for Backing Up and Restoring Databases"
+title: "Best Practices for Backing Up and Restoring Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "best practices, maintaining"
+  - "restoring, best practices"
+  - "best practices, backing up"
+  - "backing up, restoring"
+  - "backing up, best practices"
+  - "maintaining, best practices"
+  - "best practices, restoring"
+ms.assetid: 649ca56b-3cc1-49ad-9f74-ba1521e65ee1
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Best Practices for Backing Up and Restoring Databases
 Review the following best practices to help ensure that you can backup and restore your BizTalk Server databases.  

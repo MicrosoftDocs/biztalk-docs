@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Major Elements Affecting Overall Performance"
-title: "Major Elements Affecting Overall Performance1"
+title: "Major Elements Affecting Overall Performance1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0cfacd3d-d95b-4865-ab75-dd05f8ba5804
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Major Elements Affecting Overall Performance
 Several factors contribute to the total user response time, often called the *response time budget*. To analyze the total system response time more easily, divide the response time into the parts of the system that play a major role in the total response time budget. The following figure shows the main divisions.  

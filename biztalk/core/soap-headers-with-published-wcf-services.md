@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: SOAP Headers with Published WCF Services"
-title: "SOAP Headers with Published WCF Services"
+title: "SOAP Headers with Published WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "publishing, SOAP headers [WCF services]"
+  - "SOAP headers, WCF services"
+  - "WCF services, SOAP headers"
+ms.assetid: 5564a57e-e241-4595-a959-4289c8502410
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SOAP Headers with Published WCF Services
 The WCF receive adapters can copy all the SOAP header values in the inbound messages to the **InboundHeaders** property, or they can write or promote specified values to the BizTalk message context. The adapters can work with both custom SOAP headers and standard SOAP headers that the WCF infrastructure uses, such as WS-Addressing, WS-Security, and WS-AtomicTransaction. The **InboundHeaders** context property is in the target namespace `http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties`, and contains string representations of the SOAP header values in inbound messages.

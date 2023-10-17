@@ -1,12 +1,19 @@
 ---
-title: "Microsoft BizTalk Accelerator for SWIFT documentation"
+title: "Microsoft BizTalk Accelerator for SWIFT documentation | Microsoft Docs"
 description: Quick links to install, configure, deploy, get started, secure, develop, and troubleshooting the SWIFT accelerator in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a742cd84-a159-461b-a410-6e75a45e7d8b
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Microsoft BizTalk Accelerator for SWIFT documentation
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] is an add-in to Microsoft BizTalk Server, and leverages the open standards-based tools and run-time facilities of BizTalk Server to implement support for Society for Worldwide Interbank Financial Telecommunication (SWIFT) message formats.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Troubleshoot Installation Issues with the Siebel adapter"
-title: "Troubleshoot Installation Issues with the Siebel adapter"
+title: "Troubleshoot Installation Issues with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "troubleshooting, installation"
+  - "installation, troubleshooting"
+ms.assetid: f9f066d9-37b6-4a18-9f60-d0931ea91a18
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshoot Installation Issues with the Siebel adapter
 The Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation copies the product binaries on the computer and registers the bindings for each adapter. This section discusses troubleshooting techniques to resolve installation errors.  

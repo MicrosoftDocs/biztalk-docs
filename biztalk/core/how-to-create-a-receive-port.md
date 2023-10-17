@@ -1,14 +1,25 @@
 ---
 description: "Learn more about: How to Create a Receive Port"
-title: "How to Create a Receive Port"
+title: "How to Create a Receive Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.admin.procedure.createreceiveport"
+helpviewer_keywords: 
+  - "receive ports, creating"
+  - "managing [receive ports], creating"
+  - "creating, receive ports"
+ms.assetid: 23fae441-be80-4759-b3d6-74787a40e65b
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create a Receive Port
 This topic describes how to use the BizTalk Server Administration console to create a receive port. A receive port is a logical grouping of similar receive locations through which services interact with external partners by receiving data.  

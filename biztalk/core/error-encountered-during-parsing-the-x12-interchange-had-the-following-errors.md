@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error encountered during parsing. The X12 interchange had the following errors"
-title: "Error encountered during parsing. The X12 interchange had the following errors"
+title: "Error encountered during parsing. The X12 interchange had the following errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c1085d4-75ef-4f63-84c9-287a4a61274a
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error encountered during parsing. The X12 interchange had the following errors
 ## Details  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring BizTalk Server Log Shipping"
-title: "Configuring BizTalk Server Log Shipping"
+title: "Configuring BizTalk Server Log Shipping | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bcef31f7-30d1-4ada-b627-2a5c9ec7e43e
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring BizTalk Server Log Shipping
 You use the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job to back up all of the databases in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] source system, except for some databases used by Business Activity Monitoring (BAM). The source system is the server or group of servers that contain live data. Because some of the BAM databases have different backup and restore requirements, these databases are backed up and restored using other methods.

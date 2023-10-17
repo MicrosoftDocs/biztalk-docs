@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SNA Modem Status Interface"
-title: "SNA Modem Status Interface1"
+title: "SNA Modem Status Interface1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cfe34420-4043-44a1-9822-694c77f3e339
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SNA Modem Status Interface
 This section describes the interface to the modem status used by Synchronous Data Link Control (SDLC) and X.25 SNALinks that Host Integration Server supplies. This interface provides a set of simulated modem lights to show modem status. The modem status interface is intended primarily for the Microgate cards with internal modems, but can be used with any SDLC or X.25 link service to show the modem status.  

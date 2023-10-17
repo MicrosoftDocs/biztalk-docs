@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Short-Term Facts vs. Long-Term Facts"
-title: "Short-Term Facts vs. Long-Term Facts"
+title: "Short-Term Facts vs. Long-Term Facts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "facts, short-term"
+  - "facts, long-term"
+  - "short-term facts"
+  - "business rules, facts"
+  - "long-term facts"
+ms.assetid: de020b20-1012-498a-969e-4adc4549918c
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Short-Term Facts vs. Long-Term Facts
 Two types of facts are asserted into the working memory of the rule engine—short-term facts and long-term facts.  

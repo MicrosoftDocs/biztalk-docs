@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Using Role Links in Orchestrations"
-title: "Using Role Links in Orchestrations"
+title: "Using Role Links in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "role links"
+  - "roles, links"
+  - "roles"
+  - "roles, about roles"
+  - "role links, about role links"
+  - "role links, properties"
+  - "role links, initializing"
+ms.assetid: 0cf85544-12c9-4541-8925-61a6e946cce0
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Role Links in Orchestrations
 Role links are a form of abstraction for the interactions between your orchestration and your trading partners. Role links enable you to dynamically choose which trading partner to interact with based on trading partner resolution, message content, or the results of a database lookup while maintaining your overall business process intact.  

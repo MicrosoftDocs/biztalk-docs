@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Correlating an Incoming Transaction Set with an Outgoing Batch"
-title: "Correlating an Incoming Transaction Set with an Outgoing Batch"
+title: "Correlating an Incoming Transaction Set with an Outgoing Batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2fbe40f8-7379-42be-b8a7-070ce8a7ce26
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Correlating an Incoming Transaction Set with an Outgoing Batch
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to correlate an EDI transaction set submitted to the Batching Orchestration with an outgoing batch. You do so by correlating a status reporting entry for the transaction set submitted to the Batching Orchestration (the BTSInterchangeID) to a status reporting entry for the orchestration (ActivityID). This correlation is performed using entries in the BusinessMessageJournal BAM activity. These entries are created by the Batching Orchestration when a batch element is received.  

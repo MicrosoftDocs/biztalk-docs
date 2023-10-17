@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Compensation (BizTalk Server Sample)"
-title: "Compensation (BizTalk Server Sample)"
+title: "Compensation (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, examples"
+  - "examples, orchestrations"
+  - "compensations, examples"
+  - "examples, compensations"
+  - "compensations, orchestrations"
+ms.assetid: 9d10c7be-6a4c-44cc-bf29-78ecdf147bd1
+caps.latest.revision: 32
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Compensation (BizTalk Server Sample)
 The Compensation sample demonstrates how to use the **Compensate** shape in an orchestration.  

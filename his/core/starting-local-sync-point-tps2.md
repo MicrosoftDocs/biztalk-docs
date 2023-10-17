@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Starting Local Sync Point TPs"
-title: "Starting Local Sync Point TPs2"
+title: "Starting Local Sync Point TPs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b16cb478-a9e5-4b2e-b8fa-d9f5af5b3e7b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Starting Local Sync Point TPs
 Local TPs are created by issuing the [TP_STARTED](./tp-started2.md) verb to Host Integration Server. The **TP_STARTED** verb has been modified by adding the new verb control block (VCB) member **syncpoint_rqd** to allow a TP to specify that it requires Sync Point services.  

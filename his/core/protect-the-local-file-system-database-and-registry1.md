@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Protect the Local File System, Database, and Registry"
-title: "Protect the Local File System, Database, and Registry1"
+title: "Protect the Local File System, Database, and Registry1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b101b7c6-5daa-4019-8782-797a6d7ebeaf
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Protect the Local File System, Database, and Registry
 To prevent an attacker from spoofing their identity, accessing restricted data, or tampering with the data, you should do the following:  

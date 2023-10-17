@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Overview of the WCF channel model with the SAP adapter"
-title: "Overview of the WCF channel model with the SAP adapter"
+title: "Overview of the WCF channel model with the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF channel model, overview"
+  - "WCF channel model, creating messages for the SAP adapter"
+ms.assetid: 6192d637-efac-4580-8880-b5bae9d16f31
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Overview of the WCF channel model with the SAP adapter
 To invoke RFCs, tRFCs, or BAPIs on an SAP system, or to send IDOCS to an SAP system, your code acts as a WCF client and sends outbound operations to the adapter. In the WCF channel model, your code invokes operations on the adapter by sending a request message over a channel.  

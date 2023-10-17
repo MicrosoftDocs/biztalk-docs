@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_PoolLuaAssignedToUser Class"
-title: "MsSna_PoolLuaAssignedToUser Class2"
+title: "MsSna_PoolLuaAssignedToUser Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 91c14ccb-34a6-42ac-a046-b69a09a76cd4
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_PoolLuaAssignedToUser Class
 Associates a pool LUA with a user.  

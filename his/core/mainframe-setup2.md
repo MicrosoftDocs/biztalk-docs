@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Mainframe Setup"
-title: "Mainframe Setup2"
+title: "Mainframe Setup2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 70cbb477-03ea-4d8d-8348-a7858a715089
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Mainframe Setup
 The primary purpose of the BizTalk Adapter for Host Applications is to connect to an application that is running on a remote mainframe. Therefore, the first step in writing your BizTalk application is to confirm that the host mainframe is, in fact, running the specified application, and that you can access the mainframe from your system.  

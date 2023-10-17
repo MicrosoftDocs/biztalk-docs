@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Flat File Schemas"
-title: "Flat File Schemas"
+title: "Flat File Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8009fba7-85f0-4795-9284-5b4e94b3fc72
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Flat File Schemas
 

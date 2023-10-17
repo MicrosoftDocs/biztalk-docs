@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: BACKOUT Verb Issued Locally"
-title: "BACKOUT Verb Issued Locally1"
+title: "BACKOUT Verb Issued Locally1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6c0cb890-3466-4233-8540-8b3b9eb030f3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # BACKOUT Verb Issued Locally
 ![Image that shows how the BACKOUT verb is issued locally.](../core/media/appc2db.gif "appc2db")  

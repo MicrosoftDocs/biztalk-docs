@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-Control Message"
-title: "Status-Control Message1"
+title: "Status-Control Message1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 64314dd7-bc04-4cec-86bf-572319b4021b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-Control Message
 **Status-Control** messages provide access to session control and data flow control protocols on the primary logical unit (PLU) session using the PLU connection. They are not used on the other connections. **Status-Control** messages map directly to the equivalent SNA session control and data flow control request/response units (RUs).  

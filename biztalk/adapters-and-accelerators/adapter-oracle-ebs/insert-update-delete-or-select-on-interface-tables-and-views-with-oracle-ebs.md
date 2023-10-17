@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Insert, update, delete, or select on interface tables and interface views with Oracle E-Business Suite"
-title: "Insert, update, delete, or select on interface tables and interface views with Oracle E-Business Suite"
+title: "Insert, update, delete, or select on interface tables and interface views with Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 85f42431-80fb-49be-86d1-bb21eee5e4f5
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Insert, update, delete, or select on interface tables and interface views with Oracle E-Business Suite
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]surfaces a set of standard operations such as Insert, Update, Delete, Select on interface tables and views. This topic provides instructions on how to perform these operations using the adapter. For more information about how the adapter supports these operations, see [Operations on Interface Tables and Interface Views](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-interface-tables-and-interface-views.md). For information about the structure of the SOAP message for these operations, see [Message Schemas for Insert, Update, Delete, and Select Operations](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-insert-update-delete-and-select-operations.md).  

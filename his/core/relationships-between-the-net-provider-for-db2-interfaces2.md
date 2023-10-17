@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Relationships between the .NET Provider for DB2 Interfaces"
-title: "Relationships between the .NET Provider for DB2 Interfaces2"
+title: "Relationships between the .NET Provider for DB2 Interfaces2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b8cf03a4-345d-4370-9e5e-4ee1fa967632
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Relationships between the .NET Provider for DB2 Interfaces
 The Managed Provider for DB2 interfaces interact in different ways—with the exception of MsDb2DataAdapter, the remaining classes adhere to a rigid parent/child relationship:  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: View the Reports for SAP"
-title: "View the Reports for SAP"
+title: "View the Reports for SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0932ffc5-cde0-4d14-822f-713b760c3f12
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # View the Reports for SAP
 After you have created the report, you can view it either using Visual Studio or host it on the Report Server on Internet Information Services (IIS) and access over the network. This topic provides instructions on how to view reports both in Visual Studio and using IIS.  

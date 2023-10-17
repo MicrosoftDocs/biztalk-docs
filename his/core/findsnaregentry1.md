@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: FindSNARegEntry"
-title: "FindSNARegEntry1"
+title: "FindSNARegEntry1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f6f132fc-5594-4bb6-91e2-63f8d9daddee
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # FindSNARegEntry
 The **FindSNARegEntry** function is written as a parallel to [CreateSNARegEntry](../core/createsnaregentry2.md). When called, it attempts to open all of the necessary registry keys and return open handles to them.  

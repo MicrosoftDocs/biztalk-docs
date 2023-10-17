@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SNALink Configuration Information"
-title: "SNALink Configuration Information1"
+title: "SNALink Configuration Information1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9830c689-c55e-4f83-818f-94a0d6183051
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SNALink Configuration Information
 The configuration information for all SNALinks on a computer is stored hierarchically, referenced by the SNALink name.  

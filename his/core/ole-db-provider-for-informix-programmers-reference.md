@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: OLE DB Provider for Informix Programmers Reference"
-title: "OLE DB Provider for Informix Programmers Reference"
+title: "OLE DB Provider for Informix Programmers Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7a6bc432-27ef-4413-979c-c9805f7b9493
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # OLE DB Provider for Informix Programmers Reference
 The following table summarizes the OLE DB version 2.8 objects that are supported by the current version of Microsoft® OLE DB Provider for Informix.  

@@ -1,12 +1,20 @@
 ---
 description: "Learn more about: Step 2: Submitting a 0C4 Query"
-title: "Step 2: Submitting a 0C4 Query"
+title: "Step 2: Submitting a 0C4 Query | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "double action tutorial, submitting requests"
+ms.assetid: ce50b892-c87c-414a-94c5-b40947fec68f
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Submitting a 0C4 Query
 In this step, you prepare and submit a request using the Partner Interface Process (PIP) for a 0C4 - Synchronous Test Query. RosettaNet defines this PIP to make sure a successful synchronous communication channel is working correctly between two different organizations. Because this PIP has a synchronous communication pattern, [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] does not send receipt acknowledgements. This PIP follows the same pattern as other synchronous double action PIPs, such as PIP 2A9 - Query Technical Product Information.  

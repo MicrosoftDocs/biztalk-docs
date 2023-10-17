@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10558"
-title: "Single Sign-On: Event 10558"
+title: "Single Sign-On: Event 10558 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 84637b67-09df-4c1e-b9f2-85a738ba0d7a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10558
 ## Details  

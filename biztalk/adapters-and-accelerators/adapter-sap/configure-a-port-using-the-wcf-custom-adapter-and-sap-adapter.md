@@ -1,12 +1,19 @@
 ---
-title: "Configure a port using the WCF-custom adapter and SAP adapter in BizTalk"
+title: "Configure a port using the WCF-custom adapter and SAP adapter in BizTalk | Microsoft Docs"
 description: Create a WCF-Custom port to send or receive messages from SAP using the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e3962456-e9ac-4575-8266-b35e892dd428
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure a port using the WCF-custom adapter and SAP adapter
 This topic provides instructions on how to configure WCF-Custom send and receive ports to perform outbound and inbound operations on SAP system using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  

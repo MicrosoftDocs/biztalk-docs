@@ -1,14 +1,25 @@
 ---
 description: "Learn how to use the BizTalk Server Administration console to create a send port."
-title: "How to Create a Send Port2"
+title: "How to Create a Send Port2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.admin.procedure.createsendport"
+helpviewer_keywords: 
+  - "managing [send ports], creating"
+  - "creating, send ports"
+  - "send ports, creating"
+ms.assetid: 7f0d07b8-1ac5-4032-bb08-2f7e05185f86
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create a Send Port
 

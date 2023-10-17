@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Portal Faults Page"
-title: "Portal Faults Page"
+title: "Portal Faults Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b11e3492-da1a-43f3-acf8-3775b5cbc2c5
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Portal Faults Page
 Figure 1 shows the Faults page. This page displays the main properties of each fault, and it provides sorting and filtering capabilities that support detailed analysis of faults over a range of criteria, such as error type and time. A link for each fault allows you to view more details in the Fault Message Viewer.  

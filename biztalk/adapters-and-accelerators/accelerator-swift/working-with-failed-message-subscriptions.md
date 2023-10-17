@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Working with Failed Message Subscriptions"
-title: "Working with Failed Message Subscriptions"
+title: "Working with Failed Message Subscriptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "failed messages, subscriptions"
+  - "failed messages, developing"
+  - "developing, failed message subscriptions"
+ms.assetid: 8dee0aa8-53bf-40be-866b-f1b83960dc99
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working with Failed Message Subscriptions
 When the Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] disassembler processes (parses and validates) a message, it promotes properties for that message. These promoted properties provide information about the correctness and validity of the message, as well as batch-related information if A4SWIFT received the message as part of an inbound batch. For a complete list of these properties, see [A4SWIFT_* Promoted Properties](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md).  

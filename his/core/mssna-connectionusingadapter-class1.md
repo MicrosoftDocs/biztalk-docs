@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_ConnectionUsingAdapter Class"
-title: "MsSna_ConnectionUsingAdapter Class1"
+title: "MsSna_ConnectionUsingAdapter Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9be6e0e1-de26-40a9-90cf-ce3bcac0a1eb
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_ConnectionUsingAdapter Class
 Associates a connection with an adapter.  

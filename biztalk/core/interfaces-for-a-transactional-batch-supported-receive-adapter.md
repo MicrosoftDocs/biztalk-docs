@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Interfaces for a Transactional Batch-Supported Receive Adapter"
-title: "Interfaces for a Transactional Batch-Supported Receive Adapter"
+title: "Interfaces for a Transactional Batch-Supported Receive Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5289e8b8-4447-4196-9f7c-5e60c6598d8d
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Interfaces for a Transactional Batch-Supported Receive Adapter
 A receive adapter creates and controls transactions when the transactional submission of messages is required.  

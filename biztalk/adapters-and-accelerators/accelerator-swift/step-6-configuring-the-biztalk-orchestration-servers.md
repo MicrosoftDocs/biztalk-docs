@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Step 6: Configuring the BizTalk Orchestration Servers"
-title: "Step 6: Configuring the BizTalk Orchestration Servers"
+title: "Step 6: Configuring the BizTalk Orchestration Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "orchestration server, configuring"
+  - "configuring, orchestration servers"
+ms.assetid: 1eb38fac-264d-4730-b16b-572dbb6fabd9
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 6: Configuring the BizTalk Orchestration Servers
 This section provides guidelines on configuring the BizTalk Orchestration servers.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Test Outbound Handler of the Echo Adapter"
-title: "Step 1: Test Outbound Handler of the Echo Adapter"
+title: "Step 1: Test Outbound Handler of the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ad4a8164-a584-436f-b20b-4c884f6e2b37
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Test Outbound Handler of the Echo Adapter
 ![Step 1 of 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")  

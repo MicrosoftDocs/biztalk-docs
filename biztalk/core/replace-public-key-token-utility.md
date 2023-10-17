@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Replace Public Key Token Utility"
-title: "Replace Public Key Token Utility"
+title: "Replace Public Key Token Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Replace Public Key Token Utility"
+  - "utilities, Replace Public Key Token Utility"
+  - "public key token"
+ms.assetid: ed8673b9-af06-4bd7-b8b7-7371e4dd0fed
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Replace Public Key Token Utility
 This utility can be used to replace either a public key token or variable in a file with a public key token derived from a strong name assembly key (.snk) file.  

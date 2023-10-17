@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Manually Purge Data from the MessageBox Database in a Test Environment"
-title: "How to Manually Purge Data from the MessageBox Database in a Test Environment"
+title: "How to Manually Purge Data from the MessageBox Database in a Test Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 398991a9-344a-487a-a817-dfc97d48ebe6
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Manually Purge Data from the MessageBox Database in a Test Environment
 When running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a development or test environment, data that is stored in the MessageBox database is not usually business critical "live" data and therefore may be deleted. In these scenarios, you may need a "quick and dirty" method for purging data from the MessageBox database. Follow the procedures in this topic to manually purge data from the MessageBox database using the bts_CleanupMsgbox stored procedure.  

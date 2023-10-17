@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Clients Running Windows"
-title: "Clients Running Windows"
+title: "Clients Running Windows | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: df09f0b6-3621-473c-b3a1-8bae02c2c660
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Clients Running Windows
 On clients running Microsoft Windows, invokable TPs are configured through the Windows registry.  

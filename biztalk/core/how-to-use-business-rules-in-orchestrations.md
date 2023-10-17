@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Use Business Rules in Orchestrations"
-title: "How to Use Business Rules in Orchestrations"
+title: "How to Use Business Rules in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "atomic transactions, business rules"
+  - "Call Rules shape [Orchestration Designer], business rules"
+  - "business rules, orchestrations"
+  - "orchestrations, business rules"
+ms.assetid: d20473c2-267f-4a44-93c3-df6ef655020c
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use Business Rules in Orchestrations
 You can create an instance of a Business Rules policy and execute it in your orchestration. To do this, add a Call Rules shape inside an atomic transaction scope, and configure a policy on it.

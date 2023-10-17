@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AddResource Command: Policy"
-title: "AddResource Command: Policy"
+title: "AddResource Command: Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f5effcbe-bf53-4741-8d5e-227620d4d84d
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AddResource Command: Policy
 To add a policy to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:Rules** for the Type parameter. Running this command adds the policy to the BizTalk Management database. The policy is also displayed in the BizTalk Server Administration console, in the Policies folder of the application to which you added it. In addition, the policy is listed when you use the [ListApp Command](../core/listapp-command.md).  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: BAM DTS Packages"
-title: "BAM DTS Packages"
+title: "BAM DTS Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "DTS packages, BAM"
+  - "BAM, DTS packages"
+ms.assetid: bba70d81-6ddf-4f1f-a1f7-d5a5bf453bae
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM DTS Packages
 An administrator can update parameters for the following BAM DTS packages:  

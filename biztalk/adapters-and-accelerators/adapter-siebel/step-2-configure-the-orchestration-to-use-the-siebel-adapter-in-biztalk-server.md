@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 2: Configure the Orchestration in BizTalk Server Administration Console with the Siebel adapter"
-title: "Step 2: Configure the Orchestration in BizTalk Server Administration Console with the Siebel adapter"
+title: "Step 2: Configure the Orchestration in BizTalk Server Administration Console with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 41338723-055d-46b4-acee-6969ea79fac0
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Step 2: Configure the Orchestration in BizTalk Server Administration Console with the Siebel adapter

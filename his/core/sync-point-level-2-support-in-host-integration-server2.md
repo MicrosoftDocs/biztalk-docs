@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sync Point Level 2 Support in Host Integration Server"
-title: "Sync Point Level 2 Support in Host Integration Server2"
+title: "Sync Point Level 2 Support in Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 77c8159f-cd3a-4347-b93f-1dddbe54cb93
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sync Point Level 2 Support in Host Integration Server
 The following topics describe additions to Host Integration Server that enable Sync Point Level 2 support to the LU 6.2 protocol stack.  

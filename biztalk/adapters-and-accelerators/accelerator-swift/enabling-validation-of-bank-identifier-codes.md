@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Enabling Validation of Bank Identifier Codes"
-title: "Enabling Validation of Bank Identifier Codes"
+title: "Enabling Validation of Bank Identifier Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Bank Identifier Code (BIC), enabling"
+ms.assetid: d268a892-f304-44cb-b590-28ef359c8d99
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Enabling Validation of Bank Identifier Codes
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] schemas ensure that the Bank Identifier Codes (BICs) specified in the SWIFT interchange document conform to the SWIFT-defined BIC data format. A4SWIFT also supports validating the BICs against a customer-specified BIC list in a database.  
