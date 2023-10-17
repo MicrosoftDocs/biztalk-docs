@@ -21,7 +21,7 @@ ms.topic: "article"
 
 ## Prerequisites
 
--   You must have the Business Data Catalog Definition Editor installed as part of the Microsoft Office SharePoint Server 2007 SDK. You can download the SDK from [https://go.microsoft.com/fwlink/?LinkId=104130](https://go.microsoft.com/fwlink/?LinkId=104130).
+-   You must have the Business Data Catalog Definition Editor installed as part of the Microsoft Office SharePoint Server 2007 SDK.
 
 -   You should have published the WCF service, as described in [Step 1: Publish the Siebel Business Component Operations as a WCF Service](../../adapters-and-accelerators/adapter-siebel/step-1-publish-the-siebel-business-component-operations-as-a-wcf-service.md).
 
