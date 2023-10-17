@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Prerequisites to create Siebel applications"
-title: "Prerequisites to create Siebel applications"
+title: "Prerequisites to create Siebel applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2c08f853-7f72-4e08-aa63-debdab68c972
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Prerequisites to create Siebel applications
 What you must do before developing BizTalk applications using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]. The topic also lists some BizTalk Server tools that are used to develop BizTalk applications.  

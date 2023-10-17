@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: How to Use the Role Link Wizard"
-title: "How to Use the Role Link Wizard"
+title: "How to Use the Role Link Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "links [roles]"
+  - "Role Link Wizard [Orchestration Designer]"
+  - "roles, links"
+  - "Orchestration Designer, Role Link Wizard"
+  - "role links, Role Link Wizard [Orchestration Designer]"
+  - "links [roles], about links"
+ms.assetid: ddc33d87-c08d-4193-9483-4644ef302853
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use the Role Link Wizard
 The Role Link Wizard enables you to create a new role link or modify an existing one. You can use it to set or view the name, type, and access restriction of the role link, as well as the implements role and the uses role that compose the role link type. To understand how role links work, see [Using Role Links in Orchestrations](../core/using-role-links-in-orchestrations.md).  

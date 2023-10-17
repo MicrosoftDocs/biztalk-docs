@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Debug Maps"
-title: "How to Debug Maps"
+title: "How to Debug Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d1ee1e26-fced-4126-b48a-71007043424d
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Debug Maps
 The **Debug Map** feature is useful in identifying and fixing complex mapping issues. This topic provides step-by-step instructions for debugging maps using the inline XSLT debugger.  

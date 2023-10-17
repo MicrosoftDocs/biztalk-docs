@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Admin-WMI (BizTalk Server Samples Folder)"
-title: "Admin-WMI (BizTalk Server Samples Folder)"
+title: "Admin-WMI (BizTalk Server Samples Folder) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "administering, WMI"
+  - "examples, Windows Management Instrumentation (WMI)"
+  - "Windows Management Instrumentation (WMI), administering"
+  - "Windows Management Instrumentation (WMI), examples"
+  - "examples, administering"
+  - "administering, examples"
+ms.assetid: 39e2a6fe-2781-4be2-a152-f5e9960a0faa
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Admin-WMI (BizTalk Server Samples Folder)
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several Microsoft Windows Management Instrumentation (WMI) administration samples in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each WMI administration sample, instructions for building and running the sample, and the results you can expect.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Ports for the Processing Servers"
-title: "Ports for the Processing Servers"
+title: "Ports for the Processing Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/07/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "servers, processing"
+  - "ports, processing servers"
+ms.assetid: 0207b68f-8769-4674-aadc-b3a67b6f210b
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Ports for the Processing Servers
 For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SNALink Initialization"
-title: "SNALink Initialization1"
+title: "SNALink Initialization1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b24d1b4b-cca1-4be0-bc70-36c69e1a2832
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SNALink Initialization
 When the SNALink is loaded into memory, the Base/DMOD performs all initialization required by the Host Integration Server system, including announcing availability of the new SNALink to other Host Integration Server components.  

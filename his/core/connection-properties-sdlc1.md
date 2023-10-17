@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Connection Properties: SDLC"
-title: "Connection Properties: SDLC1"
+title: "Connection Properties: SDLC1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_PU_SDLC"
+ms.assetid: 98b1d149-cf20-4ccb-8997-26fa2be4a6b2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Connection Properties: SDLC
 The following tabs are available on the SDLC Connection Properties sheet:  

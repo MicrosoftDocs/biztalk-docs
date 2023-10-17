@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Set Schema File and Schema Item Properties"
-title: "Set Schema File and Schema Item Properties"
+title: "Set Schema File and Schema Item Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1dc21bfe-e1a3-4d59-abca-d93df95749a1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Set Schema File and Schema Item Properties
 Both schema file properties and item properties are set in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window. This topic describes the steps required to examine and/or set schema file/item properties.  

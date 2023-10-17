@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10563"
-title: "Single Sign-On: Event 10563"
+title: "Single Sign-On: Event 10563 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c944cc4-7fe0-41cc-9608-ee954e8222e0
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10563
 ## Details  

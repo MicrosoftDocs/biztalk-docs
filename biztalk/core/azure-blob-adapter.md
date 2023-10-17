@@ -1,14 +1,23 @@
 ---
-title: "Use the Azure Blob adapter"
+title: "Use the Azure Blob adapter | Microsoft Docs"
 description: Send and receive messages using the Azure Blob adapter in BizTalk Server.
+author: "Elvis-Shi"
+ms.author: "elsh"
+manager: "mijacobs"
 ms.date: "01/13/2020"
 ms.topic: conceptual
 ms.prod: biztalk-server
+
 # optional metadata
+
 #ROBOTS:
+
 ms.reviewer: 
 ms.suite:
+ms.tgt_pltfrm:
+ms.assetid: 
 ms.custom: "biztalk-2020"
+
 ---
 
 # Azure Blob storage adapter in BizTalk Server

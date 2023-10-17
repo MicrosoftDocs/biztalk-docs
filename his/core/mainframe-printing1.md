@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Mainframe Printing"
-title: "Mainframe Printing1"
+title: "Mainframe Printing1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 94ca44be-4103-4b97-b5ef-1b83ca408a3b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Mainframe Printing
 Mainframe printing supports both LU 1 and LU 3 data streams. It also includes pass-through support from the host for Intelligent Printer Data Stream (IPDS). Using IPDS, mainframe print jobs can be printed on LAN printers without changing either the print job or the host application.  

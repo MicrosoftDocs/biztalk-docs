@@ -1,12 +1,22 @@
 ---
 description: "Learn how to test a migrated application in BizTalk by receiving a flat-file IDOC using the WCF-based SAP adapter."
-title: "Step 3: Test the Migrated Application2"
+title: "Step 3: Test the Migrated Application2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "migration, testing the migrated application (Send IDOC)"
+  - "migration"
+ms.assetid: 8dc0d127-71ce-4668-a3bf-c893a8f6848d
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: How to Test the Migrated Application
 

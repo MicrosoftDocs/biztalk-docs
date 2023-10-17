@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Support for Inbound Calls Using Polling"
-title: "Support for Inbound Calls Using Polling"
+title: "Support for Inbound Calls Using Polling | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ae02a93a-808f-4774-a2c4-efdf39a4d49a
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Support for Inbound Calls Using Polling
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] enables client programs to receive messages from Oracle E-Business Suite informing them of changes to data in Oracle E-Business Suite. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] supports receiving "polling-based" messages wherein the adapter executes a specified SQL statement, stored procedure, function or a procedure within a package, retrieves the data, and provides the result to the client at regular intervals of time.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Generating and Setting LUWIDs]"
-title: "Generating and Setting LUWIDs]2"
+title: "Generating and Setting LUWIDs]2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0224bb2f-fd5f-463f-a354-084804dbe64e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Generating and Setting LUWIDs]
 The unit-of-work identifier (LUWID) is used to identify conversations that are part of a single Sync Point transaction. All conversations with the same LUWID are committed (or backed out) at the same time.  

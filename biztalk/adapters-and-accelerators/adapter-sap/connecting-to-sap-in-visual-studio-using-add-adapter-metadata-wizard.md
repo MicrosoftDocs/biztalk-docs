@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connecting to SAP in Visual Studio Using Add Adapter Metadata Wizard"
-title: "Connecting to SAP in Visual Studio Using Add Adapter Metadata Wizard"
+title: "Connecting to SAP in Visual Studio Using Add Adapter Metadata Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a442837b-e7d8-4edb-9c5e-5603d4c58fe5
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connecting to SAP in Visual Studio Using Add Adapter Metadata Wizard
 The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] is also exposed as a BizTalk adapter and hence, you can use the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate schema for the operations you want to perform on an SAP system using the adapter.  

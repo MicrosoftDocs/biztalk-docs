@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Oracle E-Business Suite adapter FAQs"
-title: "Oracle E-Business Suite adapter FAQs"
+title: "Oracle E-Business Suite adapter FAQs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4f7fe4e0-ddd5-402f-bbbc-b320850eaf3b
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Oracle E-Business Suite adapter FAQs
 The following are some frequently asked questions (FAQs) related to [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]. Also see [Frequently asked questions for the BizTalk Adapter Pack](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.yml).

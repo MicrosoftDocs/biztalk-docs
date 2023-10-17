@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Adding Certificates to the Certificates Store on the Client"
-title: "Adding Certificates to the Certificates Store on the Client"
+title: "Adding Certificates to the Certificates Store on the Client | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "certificates, adding to certificates store"
+  - "certificates store"
+ms.assetid: 9e2722ee-dd6f-4b14-9796-2f2157e8cad2
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adding Certificates to the Certificates Store on the Client
 Use the following steps to add certificates to the Personal folder in the certificates store on each client computer. The certificates must be added to the Personal folder in the Certificates - Current User store.  

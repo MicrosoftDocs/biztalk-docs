@@ -1,12 +1,19 @@
 ---
-title: "SAP adapter samples"
+title: "SAP adapter samples | Microsoft Docs"
 description: mySAP WCF adapter samples that can be used with BizTalk Server, WCF service model, WCF channel model, and the Data Provider for SAP
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4654c458-83be-417f-ae54-5c3a8f6ab81f
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Samples for the SAP adapter
 Samples for [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] are categorized into:  

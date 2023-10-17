@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Configuring the Windows SharePoint Services Adapter"
-title: "Configuring the Windows SharePoint Services Adapter"
+title: "Configuring the Windows SharePoint Services Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Windows SharePoint Services adapters, configuring"
+  - "configuring [Windows SharePoint Services adapters]"
+ms.assetid: 69c35596-40c8-4f48-bbb9-532303d35986
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring the Windows SharePoint Services Adapter
 The topics in this section describe how to configure the Windows SharePoint Services adapter.  

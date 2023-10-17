@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Metadata and the WCF Service Model with the SQL adapter"
-title: "Metadata and the WCF Service Model with the SQL adapter"
+title: "Metadata and the WCF Service Model with the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4353ce67-f0e8-4f96-b1d9-95deeee7f3e6
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Metadata and the WCF Service Model with the SQL adapter
 In the WCF service model, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutile.exe) to do the following:  

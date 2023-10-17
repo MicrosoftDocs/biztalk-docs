@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Certificates for AS2"
-title: "Configuring Certificates for AS2"
+title: "Configuring Certificates for AS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c160f294-7529-4e0a-876c-5827feaed067
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Certificates for AS2
 To help secure AS2 data transfer using encryption and digital signatures, you must have the appropriate certificates installed, in addition to the appropriate AS2 configuration on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This topic describes the certificates required, how to configure them, and common issues with them.

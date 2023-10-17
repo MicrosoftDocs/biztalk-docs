@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11019"
-title: "Single Sign-On: Event 11019"
+title: "Single Sign-On: Event 11019 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5ec07b00-d567-4518-89eb-340e4f92429b
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 11019
 ## Details  

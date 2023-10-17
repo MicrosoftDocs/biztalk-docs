@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid SenderId"
-title: "Invalid SenderId"
+title: "Invalid SenderId | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: be8055ab-8aba-49ac-ad33-fb33d4ff3e8b
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid SenderId
 ## Details  

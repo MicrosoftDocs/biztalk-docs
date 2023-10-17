@@ -1,12 +1,19 @@
 ---
-title: "Configure the DTA Purge and Archive Job"
+title: "Configure the DTA Purge and Archive Job | Microsoft Docs"
 description: Set the DTA Purge and Archive job parameters in SQL Server Agent to maintain the Tracking database in BizTalk Server
 ms.custom: ""
 ms.date: "10/11/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 156ccf9b-284f-4b96-a395-92936e8cebcf
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the DTA Purge and Archive Job
 Before you can archive or purge data from the BizTalk Tracking (BizTalkDTADb) database, you must configure the DTA Purge and Archive (BizTalkDTADb) job. This job is configured to call the dtasp_BackupAndPurgeTrackingDatabase store procedure, which uses six parameters you must configure.  

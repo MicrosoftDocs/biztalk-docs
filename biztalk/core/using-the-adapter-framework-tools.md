@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Using the Adapter Framework Tools"
-title: "Using the Adapter Framework Tools"
+title: "Using the Adapter Framework Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 65357570-1d34-400a-831e-0422f6960ad4
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using the Adapter Framework Tools
 The BizTalk Adapter Framework uses the following tools and views to manage and develop custom adapters:  

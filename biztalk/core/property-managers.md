@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Property Managers"
-title: "Property Managers"
+title: "Property Managers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 823352a0-e397-464a-a163-1dbf8feea8d7
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Property Managers
 Property Managers allow an extension to add custom properties (generally as XSD annotations) to elements and attributes in the XSD representation of the schema, as well as extending the Properties window to include the custom properties associated with the extension.  

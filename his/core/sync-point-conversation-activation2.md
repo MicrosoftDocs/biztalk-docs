@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sync Point Conversation Activation"
-title: "Sync Point Conversation Activation2"
+title: "Sync Point Conversation Activation2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0051e381-34fc-4ce7-af48-faa04ad1f01b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sync Point Conversation Activation
 This section discusses support for Sync Point conversation activation in Host Integration Server.  

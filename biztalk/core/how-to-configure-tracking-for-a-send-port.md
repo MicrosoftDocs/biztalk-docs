@@ -1,12 +1,19 @@
 ---
-title: "Enable tracking on a Send Port"
+title: "Enable tracking on a Send Port | Microsoft Docs"
 description: Turn on message body tracking and track message properties on a send port in BizTalk Server
 ms.custom: ""
 ms.date: "12/13/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f32e97b0-244c-4acc-8f3f-b18cdb9ec0da
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure send port tracking in BizTalk Server
 Use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure tracking for a send port, such as options to view message bodies and promoted properties. This helps you monitor the health of your BizTalk implementation and identify any bottlenecks. The tracking settings that you configure apply to all of the instances of the send port.  

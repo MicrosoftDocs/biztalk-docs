@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data for Host Files"
-title: "Data for Host Files"
+title: "Data for Host Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 76b5f548-5bd9-4e0c-8edf-841a4fe98d23
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data for Host Files
 ## Platform Compatibility  

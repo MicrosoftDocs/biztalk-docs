@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: How to Configure MQSeries Adapter Receive Locations and Send Ports"
-title: "How to Configure MQSeries Adapter Receive Locations and Send Ports"
+title: "How to Configure MQSeries Adapter Receive Locations and Send Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MQSeries adapters, receive ports"
+  - "receive ports, MQSeries adapters"
+  - "MQSeries adapters, send ports"
+  - "configuring [MQSeries adapters], send ports"
+  - "configuring [MQSeries adapters], receive ports"
+  - "send ports, MQSeries adapters"
+  - "configuring [MQSeries adapters], receive locations"
+  - "MQSeries adapters, receive locations"
+  - "receive locations, MQSeries adapters"
+ms.assetid: 552aacde-9ec0-4459-b369-073676b6f926
+caps.latest.revision: 29
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure MQSeries Adapter Receive Locations and Send Ports
 You can configure the MQSeries adapter for both receive locations and send ports.  

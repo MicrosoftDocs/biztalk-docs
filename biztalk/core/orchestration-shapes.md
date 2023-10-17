@@ -1,12 +1,47 @@
 ---
 description: "Learn more about: Orchestration Shapes"
-title: "Orchestration Shapes"
+title: "Orchestration Shapes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Delay shape [Orchestration Designer]"
+  - "Loop shape [Orchestration Designer]"
+  - "Throw Exception shape [Orchestration Designer]"
+  - "Expression shape [Orchestration Designer]"
+  - "Decide shape [Orchestration Designer]"
+  - "Receive shape [Orchestration Designer]"
+  - "Compensate shape [Orchestration Designer]"
+  - "orchestrations, shapes"
+  - "Suspend shape [Orchestration Designer]"
+  - "Send shape [Orchestration Designer]"
+  - "Group shape [Orchestration Designer]"
+  - "Listen shape [Orchestration Designer]"
+  - "shapes, about shapes"
+  - "Construct Message shape [Orchestration Designer]"
+  - "Parallel Actions shape [Orchestration Designer]"
+  - "Call Rules shape [Orchestration Designer]"
+  - "Start Orchestration shape [Orchestration Designer]"
+  - "Transform shape [Orchestration Designer]"
+  - "Message Assignment shape [Orchestration Designer]"
+  - "Role Link shape [Orchestration Designer]"
+  - "Call Orchestration shape [Orchestration Designer]"
+  - "Port shape [Orchestration Designer]"
+  - "shapes"
+  - "Scope shape [Orchestration Designer]"
+  - "Terminate shape [Orchestration Designer]"
+  - "Orchestration Designer, shapes"
+  - "Insufficient Configuration Smart Tag [Orchestration Designer]"
+ms.assetid: a1d03baa-a267-499d-94fc-700b3e959458
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Orchestration Shapes
 Orchestration Designer is a visual tool for creating orchestrations. It provides several shapes that you can place on the design surface as visual representations of underlying actions, and they can help you to efficiently design and implement an orchestration.  

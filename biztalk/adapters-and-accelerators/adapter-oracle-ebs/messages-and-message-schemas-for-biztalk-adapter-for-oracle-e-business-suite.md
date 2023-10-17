@@ -1,12 +1,19 @@
 ---
-title: "Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite"
+title: "Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite | Microsoft Docs"
 description: XML structure of messages and data types used by the Oracle EBS adapter for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4434b4d4-fbe0-4692-81a5-9883c9a77cf6
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite
 

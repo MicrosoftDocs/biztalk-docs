@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Publish WCF Services"
-title: "Publish WCF Services"
+title: "Publish WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 70b7851b-77c1-4ab3-a61f-e7165ceb56fb
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Publish WCF Services
 An orchestration can be published as a WCF service in BizTalk Server to be called by WCF clients.  

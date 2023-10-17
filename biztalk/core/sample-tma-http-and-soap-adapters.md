@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Sample TMA: HTTP and SOAP Adapters"
-title: "Sample TMA: HTTP and SOAP Adapters"
+title: "Sample TMA: HTTP and SOAP Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "architecture, examples"
+  - "DFD, HTTP adapters"
+  - "security examples [TMA], SOAP adapters"
+  - "SOAP adapters, examples"
+  - "security examples [TMA], HTTP adapters"
+  - "examples, HTTP adapters"
+  - "DFD, SOAP adapter"
+  - "examples, SOAP adapters"
+  - "SOAP adapters, TMA"
+  - "HTTP adapters, TMA"
+ms.assetid: d9a40cff-92a1-4bc9-ae45-3a5857f70222
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample TMA: HTTP and SOAP Adapters
 This topic presents the threat model analysis (TMA) for the HTTP and SOAP (Web services) adapter scenario for the sample architecture. The following figure shows the sample architecture for the HTTP and SOAP adapters scenario.

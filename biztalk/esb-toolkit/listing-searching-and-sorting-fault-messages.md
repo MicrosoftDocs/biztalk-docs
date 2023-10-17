@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Listing, Searching, and Sorting Fault Messages"
-title: "Listing, Searching, and Sorting Fault Messages"
+title: "Listing, Searching, and Sorting Fault Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 850b9682-8eba-4a3f-8508-d3eefcd715b7
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Listing, Searching, and Sorting Fault Messages
 You can use the Home page of the ESB Management Portal to obtain an overall view of the status of the applications executing within Microsoft BizTalk Server. The Faults page can be used to query for fault messages, based on a range of criteria.  

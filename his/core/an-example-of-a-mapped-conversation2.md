@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: An Example of a Mapped Conversation"
-title: "Mapped Conversation Example"
+title: "Mapped Conversation Example | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 13cb8205-33bb-4a4a-b330-25e309bfe6ca
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # An Example of a Mapped Conversation
 For background information about mapped conversations, see [Basic and Mapped Conversations Compared](../core/basic-and-mapped-conversations-compared2.md).  

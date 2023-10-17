@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Windows SharePoint Services 4.0 Support"
-title: "Windows SharePoint Services 4.0 Support"
+title: "Windows SharePoint Services 4.0 Support | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 84be7aa0-2ff2-4e40-9c39-5cb89549c636
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Windows SharePoint Services 4.0 Support
 The Windows SharePoint Services adapter for BizTalk Server provides feature/functionality parity with the Windows SharePoint Services adapter for [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]. The Windows SharePoint Services adapter for BizTalk Server also supports the following functionality available with Windows SharePoint Services 4.0:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create New Mappings Wizard: External User Name"
-title: "Create New Mappings Wizard: External User Name2"
+title: "Create New Mappings Wizard: External User Name2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5320cc8b-f536-4d1f-be6f-aaca4599de00
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create New Mappings Wizard: External User Name
 This page collects information to generate an external account name based on the Windows account name.  

@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: BizTalk Accelerator for HL7 Components"
 title: "BizTalk Accelerator for HL7 Components"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "components"
+  - "BTAHL7, components"
+ms.assetid: 1dc23c9a-b11d-4931-ade8-9bfcf8a53b6d
+caps.latest.revision: 3
+
+
+
 ---
 # BizTalk Accelerator for HL7 Components
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) components include HL7 and XML disassemblers, HL7 and XML assemblers, receive and send ports, pipelines, and a batch orchestration. These components fit into the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] system to provide a seamless health care solution.  

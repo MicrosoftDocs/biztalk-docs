@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Making and Testing a Connection"
-title: "Make and Test a Connection"
+title: "Make and Test a Connection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0259f166-fde1-42e2-841e-b3e170396369
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Making and Testing a Connection
 Procedures used to make successful connections. Several steps are required to connect your host system to [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  

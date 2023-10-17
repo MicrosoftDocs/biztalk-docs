@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Types of Pipeline Components"
-title: "Types of Pipeline Components"
+title: "Types of Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, components"
+ms.assetid: 9b493758-6b0f-4223-94bb-8f077ee735a9
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Types of Pipeline Components
 Three types of pipeline components are included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]: general, assembling, and disassembling. Any of these three types can also implement probing functionality. This topic describes each type of component and the stages in which each component is generally used.  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Mapping (Mappings Node)"
-title: "Mapping (Mappings Node)"
+title: "Mapping (Mappings Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Mapping node [binding file]"
+ms.assetid: bc54c476-505c-4020-b7df-1d19f86329aa
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Mapping (Mappings Node)
 The Mapping node of a binding file describes the mapping between a party port and role port type operation for the enlisted party.  

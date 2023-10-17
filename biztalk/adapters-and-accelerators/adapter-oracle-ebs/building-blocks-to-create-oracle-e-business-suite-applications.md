@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Building blocks to create Oracle E-Business Suite applications"
-title: "Building blocks to create Oracle E-Business Suite applications"
+title: "Building blocks to create Oracle E-Business Suite applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 483a52d4-1aaf-46b1-bb42-9f91bf678346
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Building blocks to create Oracle E-Business Suite applications
 To perform operations on Oracle E-Business Suite by using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you must perform a set of design-time and run-time tasks using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console respectively. This section provides an overview of these tasks. All the topics in this section, which demonstrate how to perform specific operations on Oracle E-Business Suite using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], are modeled on these high-level tasks.  

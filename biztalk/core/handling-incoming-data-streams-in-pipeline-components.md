@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Handling Incoming Data Streams in Pipeline Components"
-title: "Handling Incoming Data Streams in Pipeline Components"
+title: "Handling Incoming Data Streams in Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a1b7c4f7-99ba-4bfa-89ab-1fabfe0845d1
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Handling Incoming Data Streams in Pipeline Components
 The following considerations should be made when writing custom disassembler code for pipeline components in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

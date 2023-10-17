@@ -1,9 +1,23 @@
 ---
 description: "Learn more about: How Messages Flow through BTAHL7"
 title: "How Messages Flow through BTAHL7"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "messages, message processing"
+  - "messages, message flow"
+  - "BTAHL7, message flow"
+ms.assetid: dd4599af-500d-4e52-85b2-8b6a28fd3f0a
+caps.latest.revision: 9
+
+
+
 ---
 # How Messages Flow through BTAHL7
 When you install Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) on top of MicrosoftBizTalk Server, you add [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] components to the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] architecture. The following figure shows the combined system, which provides an architectural overview of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)].  

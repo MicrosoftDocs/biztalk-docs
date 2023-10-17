@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Session Integrator for LU2 Code Example"
-title: "Session Integrator for LU2 Code Example2"
+title: "Session Integrator for LU2 Code Example2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2d6a8230-3bd3-412e-8710-c8445c584196
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Session Integrator for LU2 Code Example
 The following code is from the 3270 application in the samples directory of the Host Integration Server SDK.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Scientific Functoids"
-title: "Scientific Functoids"
+title: "Scientific Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0311b7dc-1955-45af-b858-681faccc939b
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scientific Functoids
 

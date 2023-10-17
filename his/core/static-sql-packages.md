@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Static SQL Packages"
-title: "Static SQL Packages"
+title: "Static SQL Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 151eae35-7a8e-4666-a1f7-85ad7a104760
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Static SQL Packages
 The DRDA Service supports both dynamic and static SQL statement execution. The DRDA Server will process dynamic SQL statements, for example the DRDA commands EXCSQLIMM (Execute Immediate SQL Statement) and EXCSQLSTT (Execute SQL Statement), by converting a basic set of ANSI SQL 92 Entry-Level DB2 syntax to Microsoft SQL Server T-SQL syntax. The DRDA Service will process static SQL statements in two steps: (1) bind-time and (2) run-time.  

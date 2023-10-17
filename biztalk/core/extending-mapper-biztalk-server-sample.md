@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Extending Mapper (BizTalk Server Sample)"
-title: "Extending Mapper (BizTalk Server Sample)"
+title: "Extending Mapper (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Mapper, examples"
+  - "XML tools"
+  - "BizTalk Mapper, extending"
+  - "examples, BizTalk Mapper"
+  - "examples, XML tools"
+ms.assetid: 6010a13f-b715-4766-ad91-5aa9b98589e3
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Extending Mapper (BizTalk Server Sample)
 The Extending Mapper sample demonstrates how to use and extend BizTalk Mapper. The sample includes several [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] map files (.btm), each of which illustrates different features of BizTalk Mapper.  

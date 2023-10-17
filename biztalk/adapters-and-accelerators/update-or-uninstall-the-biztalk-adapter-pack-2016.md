@@ -1,12 +1,19 @@
 ---
-title: "Update or uninstall the BizTalk Adapter Pack 2016"
+title: "Update or uninstall the BizTalk Adapter Pack 2016 | Microsoft Docs"
 description: Use the setup wizard or msiexec to change or uninstall BAP 2016 included with BizTalk Server; including remove the bindings and remove the custom RFCs
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d3d6c001-1005-4d7b-a143-eaa37b48f898
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Update or uninstall the BizTalk Adapter Pack 2016
 How to change or uninstall the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].

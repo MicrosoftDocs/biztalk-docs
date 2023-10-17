@@ -1,9 +1,28 @@
 ---
 description: "Learn more about: BTAHL72XML Processing"
 title: "BTAHL72XML Processing"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "2.XML messages, processing"
+  - "acknowledgements, 2.XML messages"
+  - "2.XML messages, message modes"
+  - "message modes, 2.XML message"
+  - "2.XML messages"
+  - "validating, 2.XML messages"
+  - "2.XML messages, acknowledgements"
+  - "2.XML messages, validating"
+ms.assetid: 2f12cb44-816c-4773-9db0-9cbc3d1b1aee
+caps.latest.revision: 4
+
+
+
 ---
 # BTAHL72XML Processing
 The following components in Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) process HL7 2.XML (XML-encoded) messages:  

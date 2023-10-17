@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: CorrelationID"
-title: "CorrelationID"
+title: "CorrelationID | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b4faf210-7e7f-450d-8bb1-84d3d31c3022
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # CorrelationID
 The `CorrelationID` element is used to specify a correlation ID for a message.  

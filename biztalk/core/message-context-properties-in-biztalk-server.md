@@ -1,12 +1,19 @@
 ---
-title: "Use TIBCO EMS message Context Properties"
+title: "Use TIBCO EMS message Context Properties | Microsoft Docs"
 description: Use the TIBCO Enterprise Message System message descriptor fields in a BizTalk Server orchestration
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 163ac2cf-0e2d-4780-b398-baa825f92b00
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Context Properties in TIBCO EMS
 

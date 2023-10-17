@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOAdmin Members"
-title: "ISSOAdmin Members"
+title: "ISSOAdmin Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9bbf2f04-52f2-4711-8cf2-97d729047a4b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOAdmin Members
 The following table shows the IISOAdmin members.  

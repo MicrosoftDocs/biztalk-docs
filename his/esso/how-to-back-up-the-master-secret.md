@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Back Up the Master Secret"
-title: "How to Back Up the Master Secret"
+title: "How to Back Up the Master Secret | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0841c52a-7b15-45f8-9900-f5c9e3abd90b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Back Up the Master Secret
 You can back up the master secret from the master secret server onto an NTFS file system or removable media, such as a floppy disk.  

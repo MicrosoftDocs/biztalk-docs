@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Unrecognized Messages in the XML Disassembler Pipeline Component"
-title: "Unrecognized Messages in the XML Disassembler Pipeline Component"
+title: "Unrecognized Messages in the XML Disassembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Allow Unrecognized Messages property"
+  - "XMLNorm.AllowUnrecognizedMessage property"
+  - "pipeline components, XML Disassembler"
+  - "XML Disassembler [pipeline component], unrecognized messages"
+ms.assetid: 5a6be3a8-0bac-426a-bf0b-5091191091de
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unrecognized Messages in the XML Disassembler Pipeline Component
 The XML Disassembler component may handle a message as "unrecognized" in the following cases:  

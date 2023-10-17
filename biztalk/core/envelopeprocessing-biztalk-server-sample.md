@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: EnvelopeProcessing (BizTalk Server Sample)"
-title: "EnvelopeProcessing (BizTalk Server Sample)"
+title: "EnvelopeProcessing (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, envelopes"
+  - "flat files, processing"
+  - "examples, flat files"
+  - "examples, messages"
+  - "examples, envelopes"
+  - "envelopes, messages"
+  - "flat files, examples"
+  - "envelopes, examples"
+ms.assetid: b4cd979b-c7b4-446c-be29-c9f3169afa1f
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EnvelopeProcessing (BizTalk Server Sample)
 The EnvelopeProcessing sample demonstrates how to process messages and message envelopes in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] pipelines. Further, it shows how to process flat file messages into XML messages.  

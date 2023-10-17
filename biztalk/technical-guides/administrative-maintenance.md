@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Administrative Maintenance"
-title: "Administrative Maintenance"
+title: "Administrative Maintenance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 67cdf9d7-5448-40c5-8c5f-eae0e281d22c
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Administrative Maintenance
 This section provides information about how you can resolve administration issues with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system. These issues may be discovered by the routine maintenance checks that are performed in the [Routine Maintenance Checklists](../technical-guides/routine-maintenance-checklists.md) section.

@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Scripting Using Inline C#, JScript .NET, and Visual Basic .NET"
-title: "Scripting Using Inline C#, JScript .NET, and Visual Basic .NET"
+title: "Scripting Using Inline C#, JScript .NET, and Visual Basic .NET | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Scripting functoids, JScript"
+  - "Scripting functoids, warnings"
+  - "Scripting functoids, Visual Basic .NET"
+  - "Scripting functoids, inline C#"
+  - "Scripting functoids, .NET"
+ms.assetid: dda60024-58bd-483f-a750-31b21059eded
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scripting Using Inline C#, JScript .NET, and Visual Basic .NET
 Inline scripts are convenient for custom code that you are unlikely to use elsewhere in your application.  

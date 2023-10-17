@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Change the Behavior of a Single Sign-On Interface"
-title: "How to Change the Behavior of a Single Sign-On Interface"
+title: "How to Change the Behavior of a Single Sign-On Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d6baf852-9ae1-4861-9cba-58231453a9d6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Change the Behavior of a Single Sign-On Interface
 Many of the objects in the Enterprise Single Sign-On (SSO) object model expose the IPropertyBag interface, which allows you to modify the behavior of the specified object. If you call QueryInterface on an SSO object, you can retrieve the IPropertyBag interface and use it to change the behavior of your current object.  

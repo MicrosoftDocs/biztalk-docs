@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: What Happens When Artifacts Are Added and Removed"
-title: "What Happens When Artifacts Are Added and Removed"
+title: "What Happens When Artifacts Are Added and Removed | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, artifacts"
+  - "artifacts, deleting"
+  - "artifacts, creating"
+  - "deleting, artifacts"
+ms.assetid: 811166ba-3ff4-4224-9d84-a2f4ed31bf4d
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Happens When Artifacts Are Added and Removed
 This topic describes what happens when you add artifacts to an application. You can add file-based artifacts to an application by using the BizTalk Server Administration console or the BTSTask command-line tool. File-based artifacts include the following types:  

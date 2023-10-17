@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Assemblies and Artifacts Installed by the JMS MQRFH2 Component Sample"
-title: "Assemblies and Artifacts Installed by the JMS MQRFH2 Component Sample"
+title: "Assemblies and Artifacts Installed by the JMS MQRFH2 Component Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 270d4442-ffcc-45fc-a326-3975f2440bf2
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Assemblies and Artifacts Installed by the JMS MQRFH2 Component Sample
 The following table lists the assemblies and artifacts installed by the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] JMS MQRFH2 Component sample.  

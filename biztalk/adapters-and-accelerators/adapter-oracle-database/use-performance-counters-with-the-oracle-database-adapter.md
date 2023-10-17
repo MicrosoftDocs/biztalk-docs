@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Use performance counters with the Oracle Database adapter"
-title: "Use performance counters with the Oracle Database adapter"
+title: "Use performance counters with the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "performance counters, using"
+  - "performance counter, LOB Time Cumulative"
+  - "performance counters, enabling"
+  - "performance counters, and the WCF LOB Adapter SDK"
+ms.assetid: beb80896-7594-411e-a83c-169d5278e2ce
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use performance counters with the Oracle Database adapter
 Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] clients can use performance counters to gauge the performance of the adapters. The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup program creates the performance counter category **BizTalk .NET Adapter for Oracle DB** along with installing the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].

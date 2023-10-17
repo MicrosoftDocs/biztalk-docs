@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Prerequisites to create SQL applications using the SQL adapter"
-title: "Prerequisites to create SQL applications using the SQL adapter"
+title: "Prerequisites to create SQL applications using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fb3a8963-88a8-4db0-a740-eb54b041931c
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Prerequisites to create SQL applications using the SQL adapter
 What you must do before developing BizTalk applications using the [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)]. The topic also lists some BizTalk Server tools that are used to develop BizTalk applications.  

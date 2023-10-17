@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Updating an Orchestration Using Side-by-Side Versioning"
-title: "Checklist: Updating an Orchestration Using Side-by-Side Versioning"
+title: "Checklist: Updating an Orchestration Using Side-by-Side Versioning | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 97f66987-0269-4dfe-a648-7b68412e86fe
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Updating an Orchestration Using Side-by-Side Versioning
 Changes to orchestrations can be more involved than changes to other artifacts, such as maps. If you have short-lived orchestrations, then a simple update may be sufficient. But if you have long-running orchestrations or cannot terminate existing instances, then side-by-side versioning will be your only option.

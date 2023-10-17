@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: GetActivityEvent"
-title: "GetActivityEvent"
+title: "GetActivityEvent | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6fe824c9-4cea-44da-b830-5520d67988e0
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # GetActivityEvent
 Pushes the name of the current activity event onto the stack.

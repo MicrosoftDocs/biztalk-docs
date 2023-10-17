@@ -1,12 +1,18 @@
 ---
-title: "Prerequisites for the RosettaNet Double Action tutorial in BizTalk Server"
+title: "Prerequisites for the RosettaNet Double Action tutorial in BizTalk Server | Microsoft Docs"
 description: Prerequisites to step through the Double Action tutorial for the RosettaNet accelerator (BTARN) in BizTalk Server
 ms.custom: ""
 ms.date: "08/09/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1ce8a122-cd16-450a-84bd-bb6beee7af40
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Prepare for the Double Action tutorial
 

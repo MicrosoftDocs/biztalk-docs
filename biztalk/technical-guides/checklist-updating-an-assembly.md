@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Updating an Assembly"
-title: "Checklist: Updating an Assembly"
+title: "Checklist: Updating an Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5afcb78a-333b-46ff-8681-42362ce5aaad
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Updating an Assembly
 The following checklist describes the process of updating one or more artifacts in an application that has already been deployed, and then redeploying the application.

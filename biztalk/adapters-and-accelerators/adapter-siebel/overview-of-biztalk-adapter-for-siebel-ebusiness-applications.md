@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Overview of BizTalk Adapter for Siebel eBusiness Applications"
-title: "Overview of BizTalk Adapter for Siebel eBusiness Applications"
+title: "Overview of BizTalk Adapter for Siebel eBusiness Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "overview, adapter"
+  - "adapter, overview of"
+  - "adapter, overview"
+ms.assetid: 41ab7d42-7096-45ef-9763-a5ccf88eb652
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Overview of BizTalk Adapter for Siebel eBusiness Applications
 The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] exposes the Siebel system as a WCF service. Adapter clients can perform operations on the Siebel system by exchanging SOAP messages with the adapter. The adapter consumes the WCF message and makes appropriate calls to the Siebel system to perform the operation. The adapter returns the response from the Siebel system back to the client in the form of SOAP messages.  

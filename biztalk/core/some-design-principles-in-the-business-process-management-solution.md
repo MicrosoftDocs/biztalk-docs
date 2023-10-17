@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Some Design Principles in the Business Process Management Solution"
-title: "Some Design Principles in the Business Process Management Solution"
+title: "Some Design Principles in the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "business processes, design principals"
+  - "designing, design principals"
+  - "process management solution tutorial, dividing business processes"
+  - "patterns [process management solutions], design principals"
+ms.assetid: 688b970f-8e64-4a47-bcc5-bdb9c5195902
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Some Design Principles in the Business Process Management Solution
 This topic begins with general guidelines about dividing business processes into stages. It then goes on to consider the structure of some of the solution's orchestrations, assemblies, and applications in connection with these guidelines and the business requirements. For more information about the business requirements, see "Business Requirements" in [Understanding the Business Process Management Solution](../core/understanding-the-business-process-management-solution.md).  

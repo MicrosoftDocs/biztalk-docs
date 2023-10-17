@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Using a Send Port as an Itinerary Service Subscriber"
-title: "Using a Send Port as an Itinerary Service Subscriber"
+title: "Using a Send Port as an Itinerary Service Subscriber | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 898b461c-4d0d-4703-a8ca-7f52f3f15f70
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using a Send Port as an Itinerary Service Subscriber
 As an example of how to use a send port as an itinerary service subscriber, Figure 1 shows the filter conditions for a dynamic one-way sent port that picks up messages that meet the following conditions:  

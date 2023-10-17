@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Links in Maps"
-title: "Links in Maps"
+title: "Links in Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "functoid types, Looping"
+  - "Looping functoids"
+  - "maps, links"
+  - "BizTalk Mapper, links"
+ms.assetid: 3db77b8d-7b86-4c00-99a0-0513aff9b56b
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Links in Maps
 Links specify the basic function of copying data from an element or attribute in an input instance message to an element or attribute in an output instance. You create links between records and fields in the source and destination schemas at design time. This drives the creation, at run time, of an output instance message conforming to the destination schema from an input instance message conforming to the source schema.  

@@ -1,12 +1,24 @@
 ---
 description: "Learn how to add a Scope shape for exception handling in BizTalk Server."
-title: "How to Add a Scope Shape1"
+title: "How to Add a Scope Shape1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Scope shapes, adding"
+  - "Scope shapes, Catch Exception blocks"
+  - "Catch Exception blocks, Scope shapes"
+  - "adding, Scope shapes"
+ms.assetid: dfe039d1-4c4a-4e21-ae03-7ca534aafec3
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Add a Scope Shape
 

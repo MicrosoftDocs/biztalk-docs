@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure Certificates with an MSMQ Adapter"
-title: "How to Configure Certificates with an MSMQ Adapter"
+title: "How to Configure Certificates with an MSMQ Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 922a171d-705f-4465-acda-212aa3797c57
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure Certificates with an MSMQ Adapter
 The MSMQ send adapter can help secure a connection with servers that accept or require client certificates. If a client certificate is specified, the MSMQ send adapter uses the certificate when connecting with servers that require or accept client certificates. If the client certificate is not specified and the destination server requires client certificates, the sender is not authenticated and the MSMQ send adapter fails to send the message and follows the standard retry logic.  

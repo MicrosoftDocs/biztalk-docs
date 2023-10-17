@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Troubleshooting Host Initiated SSO"
-title: "Troubleshooting Host Initiated SSO"
+title: "Troubleshooting Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8293a599-5969-4566-8a90-7b654357c595
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Troubleshooting Host Initiated SSO
 The primary method of troubleshooting host initiated Single Sign-On (SSO) is tracing.

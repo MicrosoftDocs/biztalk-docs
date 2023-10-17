@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ESB Management Portal"
-title: "ESB Management Portal"
+title: "ESB Management Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b702d03a-2e0a-4c46-a785-c0aeae35a5f0
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ESB Management Portal
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes a comprehensive Web-based exception and fault message management framework that promotes consistent handling of both system and business exceptions. The included portal serves as a sample of how a portal application can provide metrics and visibility into ESB activities.  

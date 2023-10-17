@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Develop your BizTalk applications"
-title: "Develop your BizTalk applications"
+title: "Develop your BizTalk applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3f124ec8-95d9-4c20-bdbe-3d086b594e95
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop your BizTalk applications
 This section contains information for developers who are tasked with creating BizTalk applications. Once these applications are created, they are usually managed by an administrator, using information found in the Operations and Administrative Tasks.  

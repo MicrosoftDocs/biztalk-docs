@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11009"
-title: "Single Sign-On: Event 11009"
+title: "Single Sign-On: Event 11009 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d5f06f8c-1614-4538-83e6-689657135776
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 11009
 ## Details  

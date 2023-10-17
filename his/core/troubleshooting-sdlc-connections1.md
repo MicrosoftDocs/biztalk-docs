@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Troubleshooting SDLC Connections"
-title: "Troubleshooting SDLC Connections1"
+title: "Troubleshooting SDLC Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cb5357cc-31f6-41a6-8385-9416eeebe299
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Troubleshooting SDLC Connections
 To begin troubleshooting an SDLC connection, it is helpful to look at two simple indicators of activity: the server and connection status shown in SNA Manager, and the modem lights. Event logs also provide important information. The following table outlines some ways to interpret symptoms of a nonfunctioning SDLC connection.  

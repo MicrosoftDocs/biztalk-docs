@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Initial Conversation Characteristics"
-title: "Initial Conversation Characteristics1"
+title: "Initial Conversation Characteristics1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 99bc34b9-e870-46be-a4c2-605624e7e417
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Initial Conversation Characteristics
 Common Programming Interface for Communications (CPI-C) maintains a set of internal values called characteristics for each conversation. Some characteristics affect the overall operation of the conversation, such as the conversation type. Others affect the behavior of specific calls, such as the receive type.  

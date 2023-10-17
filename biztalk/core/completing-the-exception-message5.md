@@ -1,12 +1,21 @@
 ---
 description: "Learn how to complete the flow of exception messages in Microsoft BizTalk Server by creating a Send shape to redirect a fault message to a monitored folder."
-title: "Completing the Exception Message5"
+title: "Completing the Exception Message5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "exceptions, completing the flow"
+ms.assetid: 4aad3ff6-66d7-41e4-9079-a32149ad0a30
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Completing the Exception Message
 

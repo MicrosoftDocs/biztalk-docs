@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_ConnectionSdlc Class"
-title: "MsSna_ConnectionSdlc Class1"
+title: "MsSna_ConnectionSdlc Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a31bd556-76b0-43e0-9d0b-131674090d03
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_ConnectionSdlc Class
 A type of SNA connection that uses SDLC protocol over dial-up or leased lines.  

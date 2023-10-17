@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: SAPCommand class in the SAP adapter"
-title: "SAPCommand class in the SAP adapter"
+title: "SAPCommand class in the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SAPCommand, supported methods, classes, and constructors"
+ms.assetid: 55ad334e-1cc3-47c1-8764-be0f4e93f8b5
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SAPCommand class in the SAP adapter
 This command represents a SQL query to be executed on the SAP backend. The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] currently supports SELECT and EXEC statements only. SELECT statements enable extraction of data from a single SAP table, and EXEC statements enable users to execute RFCs on the SAP server.  

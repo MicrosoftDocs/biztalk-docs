@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring Application Encodings"
-title: "Configuring Application Encodings"
+title: "Configuring Application Encodings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6cf07eea-7342-4b6d-afd2-2a30c662bfcc
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring Application Encodings
 The DRDA Service converts base code pages and maps code points using an underlying HIS Encoder component and the Windows National Language Support (NLS) system components. The **applicationEncodings** element contains **applicationEncoding** elements for specifying default application-level encoding schemes on a per-database basis.  

@@ -1,12 +1,19 @@
 ---
-title: "Message Schemas for Query Notification using the SQL adapter in BizTalk"
+title: "Message Schemas for Query Notification using the SQL adapter in BizTalk | Microsoft Docs"
 description: Use the SQL adapter to receive query notifications from a SQL Server database in BizTalk
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b5183655-64d4-4767-a923-0a575e3708cd
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Schemas for Query Notification
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces the Notification operation to receive query notifications from the SQL Server database.  

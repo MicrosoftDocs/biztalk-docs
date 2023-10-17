@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-Error Message"
-title: "Status-Error Message1"
+title: "Status-Error Message1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b9c3a7c8-26b3-44e9-a2a1-9a1039e6dfd0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-Error Message
 [Status-Error](./status-error1.md) messages flow from the local node to the application to report request reject and response header (RH) usage error conditions for:  

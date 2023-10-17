@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Validation of Received EDI Messages"
-title: "Validation of Received EDI Messages"
+title: "Validation of Received EDI Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c56a3c0-042e-4611-8131-d51098064f0f
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Validation of Received EDI Messages
 When the EDI receive pipeline processes an incoming message, it performs a series of validations on the envelope and message data. Some of these processes are always performed; some are performed only if you enable them. These validations include the following:  

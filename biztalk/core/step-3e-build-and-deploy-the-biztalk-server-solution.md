@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3e: Build and Deploy the BizTalk Server Solution"
-title: "Step 3e: Build and Deploy the BizTalk Server Solution"
+title: "Step 3e: Build and Deploy the BizTalk Server Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bbfc382b-ed4a-4401-9343-be1bffd747c9
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3e: Build and Deploy the BizTalk Server Solution
 In this topic, we’ll deploy the two [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] projects (**BtsSalesforceIntegration** and **CustomPipeline**) that we created in the earlier steps.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: hostIntegration.drdaAs.drdaService"
-title: "hostIntegration.drdaAs.drdaService"
+title: "hostIntegration.drdaAs.drdaService | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4e5f5039-adbd-4033-9ef6-d00420fecea9
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # hostIntegration.drdaAs.drdaService
 The hostIntegration.drdaAs.drdaService is the main portion of the MsDrdaService.exe.config file and contains a services element.  

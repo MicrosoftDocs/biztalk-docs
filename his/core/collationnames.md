@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: collationNames"
-title: "collationNames"
+title: "collationNames | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 026b9aa2-85af-41a9-9dbf-9e7e810cb1e8
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # collationNames
 The collationNames element can contain one or more collationName elements to instruct the DRDA Service to convert from a DB2 collation-name value to a SQL Server collation_name value, when transforming a DB2 SELECT statement with ORDER BY COLLATION_KEY (collation-name) clause into a SQL Server SELECT statement with ORDER BY COLLATE (collation_name) clause.  

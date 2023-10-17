@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsHisTrace_ExtendedStatus Class"
-title: "MsHisTrace_ExtendedStatus Class2"
+title: "MsHisTrace_ExtendedStatus Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9e01aaab-c3ac-4c50-9d50-d4431b171388
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsHisTrace_ExtendedStatus Class
 The **MsHisTrace_ExtendedStatus** class returns error information.  

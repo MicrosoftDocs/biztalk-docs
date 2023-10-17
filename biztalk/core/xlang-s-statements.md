@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: XLANG-s Statements"
-title: "XLANG-s Statements"
+title: "XLANG-s Statements | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 620d0452-a8da-4285-b8b2-5a932ffcde28
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # XLANG-s Statements
 XLANG/s statements generally fall into one of two categories: simple statements that act on their own, such as **receive** or **send**, and complex statements that contain or group either simple statements or other complex statements, such as **scope**, **parallel**, and **listen**. Each statement is corresponding to an orchestration shape in the BizTalk Orchestration Designer. XLANG/s defines the following statements:  

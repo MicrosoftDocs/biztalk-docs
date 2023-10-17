@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Dehydration Default Properties"
-title: "Dehydration Default Properties"
+title: "Dehydration Default Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 68c59def-d73b-4880-9884-ccbe5d982f4b
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Dehydration Default Properties
 Following are the names of the dehydration properties and their default values. These properties are configurable in [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] or as XML in the BizTalk configuration file (BTSNTSvc.exe.config or BTSNTSvc64.exe.config). The values in the BizTalk configuration file are applied first. Then, the [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] settings are applied. The dehydration properties are read when all host instances containing an orchestration start.  

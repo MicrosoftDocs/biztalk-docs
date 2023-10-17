@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MODEM_STATUS"
-title: "MODEM_STATUS1"
+title: "MODEM_STATUS1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a03fcbc8-000c-4266-ae44-edcf82fa4bcb
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MODEM_STATUS
 A **MODEM_STATUS** structure for each SNA link contains status information used by the SNA Modem Status interface.  

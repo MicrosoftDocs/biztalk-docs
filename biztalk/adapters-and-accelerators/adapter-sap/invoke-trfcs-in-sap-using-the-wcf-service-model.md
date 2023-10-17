@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Invoke tRFCs in SAP using the WCF Service Model"
-title: "Invoke tRFCs in SAP using the WCF Service Model"
+title: "Invoke tRFCs in SAP using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tRFCs, invoking by using the WCF service model"
+  - "WCF service model, invoking tRFCs"
+ms.assetid: 456fa869-2f1a-42e0-adbf-86bfe0876846
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invoke tRFCs in SAP using the WCF Service Model
 Transactional Remote Function Calls (tRFCs) guarantee a *one-time* execution of an RFC on an SAP system. You can invoke any of the RFCs surfaced by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] as a tRFC. Invoking a tRFC in the WCF service model is similar to invoking an RFC with the following differences:  

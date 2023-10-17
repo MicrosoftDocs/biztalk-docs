@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Message Box Performance Counters"
-title: "Message Box Performance Counters"
+title: "Message Box Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5eafbd7b-f5fc-4942-a975-18154e6a7ee2
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Box Performance Counters
 Performance counters allow you to monitor specific aspects of work performed on the site or system by service. Performance counters can help you identify and troubleshoot server performance issues.  

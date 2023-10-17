@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Security Enhancements"
-title: "Security Enhancements"
+title: "Security Enhancements | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security"
+ms.assetid: 660a73f7-902d-4150-b95f-0c2c3be00eab
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security Enhancements
 Each step of this deployment guide has been designed as a secure deployment for your Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] installation.  

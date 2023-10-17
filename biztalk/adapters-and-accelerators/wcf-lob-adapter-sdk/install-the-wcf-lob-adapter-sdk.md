@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Install the WCF LOB Adapter SDK"
-title: "Install the WCF LOB Adapter SDK"
+title: "Install the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 41b9b34b-3fbb-480f-a335-a218eab33693
+caps.latest.revision: 40
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install the WCF LOB Adapter SDK
 Install and configure the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]. 

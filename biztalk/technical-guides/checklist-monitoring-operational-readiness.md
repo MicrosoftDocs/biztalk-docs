@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Monitoring Operational Readiness"
-title: "Checklist: Monitoring Operational Readiness"
+title: "Checklist: Monitoring Operational Readiness | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ef77ccc2-1d39-4e78-8fea-5c17d05c8174
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Monitoring Operational Readiness
 This topic lists the steps that you should follow when monitoring a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.  

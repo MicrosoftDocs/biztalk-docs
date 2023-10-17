@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Starting the New Remote Environment Wizard"
-title: "Starting the New Remote Environment Wizard1"
+title: "Starting the New Remote Environment Wizard1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ffd990eb-a6e5-49b0-b367-99648e52e507
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Starting the New Remote Environment Wizard
 You can use the **New Remote Environment Wizard** to define the characteristics of the environment that receives request from the Windows system.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Set Label and Comment on Multiple Links and Functoids"
-title: "How to Set Label and Comment on Multiple Links and Functoids"
+title: "How to Set Label and Comment on Multiple Links and Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2b554a19-2bd4-4dbc-b5cb-567b98c07024
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Set Label and Comment on Multiple Links and Functoids
 You can set a common label and/or a comment for multiple functoids and/or links. This topic provides details about how to perform this operation.  

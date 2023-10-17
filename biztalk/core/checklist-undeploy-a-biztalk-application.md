@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Checklist: Undeploy a BizTalk Application"
-title: "Checklist: Undeploy a BizTalk Application"
+title: "Checklist: Undeploy a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying, undeploying"
+  - "undeploying, applications"
+  - "undeploying, checklists"
+  - "checklists, undeploying"
+  - "checklists, applications"
+  - "applications, undeploying"
+  - "applications, checklists"
+ms.assetid: 5bf9c142-b912-48c3-bfa8-13fe5243b7b8
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Undeploy a BizTalk Application
 

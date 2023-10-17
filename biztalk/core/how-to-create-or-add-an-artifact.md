@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Create or Add an Artifact"
-title: "How to Create or Add an Artifact"
+title: "How to Create or Add an Artifact | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, artifacts"
+  - "artifacts, creating"
+  - "applications, artifacts"
+ms.assetid: fea7487c-b5fa-457f-8c74-a20ea3a6df85
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create or Add an Artifact
 After you create a BizTalk application, you can add file-based artifacts (for example BizTalk assemblies, .NET assemblies, scripts, and certificates) from the file system or add policies from the Rule Engine database. You can also create send ports, send port groups, receive locations, and receive ports within the application. Creating or adding artifacts adds them to the BizTalk Management database. You can then deploy the application and its artifacts as a single entity, as described in [Deploying BizTalk Applications](../core/deploying-biztalk-applications.md).  

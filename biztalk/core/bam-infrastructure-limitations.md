@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BAM Infrastructure Limitations"
-title: "BAM Infrastructure Limitations"
+title: "BAM Infrastructure Limitations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e33d2f6c-8d26-4a76-810e-85d810cfdbee
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM Infrastructure Limitations
 The BAM infrastructure has the following design limitations for this release of BizTalk Server:  

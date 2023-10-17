@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-Control (ACKLUA) Message"
-title: "Status-Control (ACKLUA) Message1"
+title: "Status-Control (ACKLUA) Message1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f92bc05e-80ea-41f4-bf7d-f68e5e7a5e15
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-Control (ACKLUA) Message
 When a logical unit application (LUA) application sends a **Status-Control** message inbound to the local node, the LUA verb used to send the message cannot complete until the local node acknowledges the message. Because of this, the local node will always respond to the LUA application after it has completed its send checking of the inbound message. If the inbound message passes the local node's send checks, and the corresponding SNA message will be sent to the host, the local node sends a [Status-Control(...) ACKLUA](./status-control-acklua1.md) message to the application to indicate this. Note that the **ACKLUA** message does not imply that the SNA message was successfully sent to the host, or that the host received it.  

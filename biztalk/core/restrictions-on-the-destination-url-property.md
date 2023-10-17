@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Restrictions on the Destination URL Property"
-title: "Restrictions on the Destination URL Property"
+title: "Restrictions on the Destination URL Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring [HTTP adapters], restrictions"
+  - "HTTP adapters, restrictions"
+ms.assetid: 982a5122-e43d-4730-a8b9-ceb1ff88638c
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Restrictions on the Destination URL Property
 The destination URL is a string that specifies the address of the HTTP server where you want to send messages using the HTTP protocol.  

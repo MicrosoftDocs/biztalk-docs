@@ -1,12 +1,34 @@
 ---
 description: "Learn more about: Best Practices for Managing Windows Groups and User Accounts"
-title: "Best Practices for Managing Windows Groups and User Accounts"
+title: "Best Practices for Managing Windows Groups and User Accounts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "best practices, Windows groups"
+  - "authenticating, best practices"
+  - "Windows groups, security"
+  - "best practices, user accounts"
+  - "best practices, security"
+  - "security, best practices"
+  - "user accounts, security"
+  - "authenticating, security"
+  - "Windows groups, best practices"
+  - "best practices, authenticating"
+  - "user accounts, best practices"
+  - "hosts, security"
+  - "hosts, best practices"
+  - "best practices, hosts"
+ms.assetid: 0c4a141e-97ce-434a-8e45-a56c634bbd6c
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Best Practices for Managing Windows Groups and User Accounts
 This section contains best practices and tips for managing security for Windows groups and user accounts.  

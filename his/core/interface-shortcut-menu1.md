@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Interface Shortcut Menu"
-title: "Interface Shortcut Menu1"
+title: "Interface Shortcut Menu1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: df12d6c8-dd4f-4075-9251-bf7bcd34150a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Interface Shortcut Menu
 When you select the **Interface** node in the tree view of HIS Designer, the following shortcut menu commands are available:  

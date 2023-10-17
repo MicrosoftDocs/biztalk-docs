@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: How to Modify Group Properties"
-title: "How to Modify Group Properties"
+title: "How to Modify Group Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "modifying, groups"
+  - "configuring, groups"
+  - "groups, configuring"
+  - "managing [groups], properties"
+  - "groups, modifying"
+  - "managing [groups], modifying"
+  - "groups, properties"
+ms.assetid: 59e0853d-81b0-43f9-85bf-099868e25fad
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Modify Group Properties
 You can use this procedure to configure global properties for your BizTalk Server group so that you can select a signing certificate, modify the cache refresh interval, and determine how BizTalk Server will handle large messages. For more information about BizTalk Server group properties, see [BizTalk Groups](../core/biztalk-groups.md).  

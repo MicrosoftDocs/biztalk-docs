@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Set_Fill (CPI-C)"
-title: "Set_Fill (CPI-C)1"
+title: "Set_Fill (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a87b0634-3469-437f-acf5-758d9abd192f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Set_Fill (CPI-C)
 The **Set_Fill** call (function name **cmsf**) specifies whether programs will receive data in the form of logical records or as a specified length of data. This call is allowed only in basic conversations.  

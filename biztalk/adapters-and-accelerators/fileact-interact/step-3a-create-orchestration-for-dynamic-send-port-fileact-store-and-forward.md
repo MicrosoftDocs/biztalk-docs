@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3A: Create an orchestration for dynamic send port for FileAct Store and Forward (Pull) Scenario"
-title: "Step 3A: Create an orchestration for dynamic send port for FileAct Store and Forward (Pull) Scenario"
+title: "Step 3A: Create an orchestration for dynamic send port for FileAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5675d476-ad36-4bbc-8e87-786edc9c805d
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3A: Create an orchestration for dynamic send port for FileAct Store and Forward (Pull) Scenario
 Before you begin the steps in this section, you must complete the steps in the [Step 2C: Add a FILEACT Send Port for the FileAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-2c-add-a-fileact-send-port-for-fileact-store-and-forward-pull-scenario.md) section.  

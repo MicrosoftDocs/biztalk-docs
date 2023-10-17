@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Fallback Envelope Properties (EDIFACT-Interchange Settngs)"
-title: "Configuring Fallback Envelope Properties (EDIFACT-Interchange Settngs)"
+title: "Configuring Fallback Envelope Properties (EDIFACT-Interchange Settngs) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8826041e-02fa-4086-a774-d44a388f42b1
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Fallback Envelope Properties (EDIFACT-Interchange Settngs)
 This section provides instructions on how to configure the envelope for outgoing EDIFACT messages.  

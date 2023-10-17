@@ -1,12 +1,18 @@
 ---
-title: "Performance Tools"
+title: "Performance Tools | Microsoft Docs"
 description: Investigate BizTalk Server performance issues using BizUnit, IOMeter, Orchestration profiler, Log Parser, LoadGen, and SQL tools
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6d26c17a-3eb9-41a5-b0dc-31b974bf3d9b
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Performance Tools
 This topic provides information on tools you can use to evaluate the performance of a BizTalk Server solution. The tools described in this topic have different purposes; some are designed to evaluate end-to-end performance while others focus on evaluating performance of a particular aspect of a BizTalk Server solution.

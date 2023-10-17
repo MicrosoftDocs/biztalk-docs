@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Considerations for Working with BAM APIs"
-title: "Considerations for Working with BAM APIs"
+title: "Considerations for Working with BAM APIs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dd8ccf63-6989-4ad6-a193-cf3043e9a466
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Considerations for Working with BAM APIs
 When using an  "Microsoft.BizTalk.Bam.EventObservation.EventStream" object, such as DirectEventStream, BufferedEventStream, MessagingEventStream, or OrchestrationEventStream, BAM captures milestones such that they are automatically recorded in Coordinated Universal Time (UTC) format (this is also referred to as Greenwich Mean Time). When you send date/times to BAM using the APIs they are received in the format sent with no conversion to UTC format. You should take the following considerations into account when you are developing your BAM solutions:  

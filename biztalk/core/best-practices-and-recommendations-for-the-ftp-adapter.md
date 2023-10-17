@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Best practices and recommendations for the FTP Adapter"
-title: "Best practices and recommendations for the FTP Adapter"
+title: "Best practices and recommendations for the FTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "best practices, FTP adapters"
+  - "FTP adapters, best practices"
+ms.assetid: f73b2016-d48c-48d8-9ba0-96e26b694d1e
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Best practices and recommendations for the FTP Adapter
 Read about the best practices, security recommendations, and enhancements for the FTP adapter.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Set_Conversation_Security_Type (CPI-C)"
-title: "Set_Conversation_Security_Type (CPI-C)1"
+title: "Set_Conversation_Security_Type (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bc5c4d49-9b1c-4934-bb31-3d569947416b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Set_Conversation_Security_Type (CPI-C)
 The **Set_Conversation_Security_Type** call (function name **cmscst**) is issued by the invoking program to specify the information the partner logical unit (LU) requires to validate access to the invoked program.  

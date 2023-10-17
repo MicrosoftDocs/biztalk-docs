@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: IMS Components"
-title: "IMS Components2"
+title: "IMS Components2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1b237458-0338-4560-93cd-ed19f59e7722
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # IMS Components
 The information management system (IMS) provides a transaction program (TP) Monitor with an integrated TP Manager and hierarchical database. Both the TP Monitor and the database can coordinate transactions with non-IMS TP Monitors and databases.  

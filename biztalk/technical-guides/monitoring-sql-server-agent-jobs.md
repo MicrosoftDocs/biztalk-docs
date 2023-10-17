@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Monitoring SQL Server Agent Jobs"
-title: "Monitoring SQL Server Agent Jobs"
+title: "Monitoring SQL Server Agent Jobs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 60d0a377-c86d-429b-9e48-c37bd5b0f912
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Monitoring SQL Server Agent Jobs
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes multiple SQL Server Agent jobs that perform important functions to keep your servers operational and healthy. You should monitor the health of these jobs and ensure that they are running without errors.

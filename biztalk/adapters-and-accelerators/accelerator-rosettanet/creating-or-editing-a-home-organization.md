@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Creating or Editing a Home Organization"
-title: "Creating or Editing a Home Organization"
+title: "Creating or Editing a Home Organization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "home organizations, about home organizations"
+  - "home organizations, modifying"
+  - "creating, home organizations"
+  - "modifying, home organizations"
+  - "home organizations"
+  - "home organizations, creating"
+ms.assetid: b54afb84-2f16-4516-8701-b03301476362
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating or Editing a Home Organization
 This topic describes how to create or edit a home organization. The home organization configuration describes and classifies the organization, sets the non-repudiation of origin period, and provides contact information.  

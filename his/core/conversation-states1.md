@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Conversation States"
-title: "Conversation States1"
+title: "Conversation States1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7b52ce78-16ae-4957-b97f-53656ee49c82
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Conversation States
 The state of the conversation (as viewed by a particular TP) governs which APPC verbs the TP can issue at a particular time. For example, a TP cannot issue [MC_SEND_DATA](./mc-send-data1.md) if the conversation is not in SEND state for that TP.  

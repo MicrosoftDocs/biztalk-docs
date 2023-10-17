@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Examples of MT Messages"
-title: "Examples of MT Messages"
+title: "Examples of MT Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 629042cc-b941-4c58-b0dd-ede056caf573
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Examples of MT Messages
 **Commands to generate the solution (InfoPath form template) for the Different MT messages:**  

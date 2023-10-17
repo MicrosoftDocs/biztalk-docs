@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: JMS MQRFH2 Sample Dependencies and Strong Key Name Definition"
-title: "JMS MQRFH2 Sample Dependencies and Strong Key Name Definition"
+title: "JMS MQRFH2 Sample Dependencies and Strong Key Name Definition | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a3a5cdce-dcdf-48df-91a5-8cf2afce9255
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # JMS MQRFH2 Sample Dependencies and Strong Key Name Definition
 The Visual Studio project ESB.JMS.PipelineComponents depends on the following folder:  

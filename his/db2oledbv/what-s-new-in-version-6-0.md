@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: What's New in Version 6.0"
-title: "What's New in Version 6.0"
+title: "What's New in Version 6.0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "2/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 92f37b38-9b89-470d-9a94-6c8494eee3de
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # What's New in Version 6.0
 The Microsoft OLE DB Provider for DB2 version 6.0 offers the following improvements:  

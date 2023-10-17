@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Creating or Editing a Process Configuration"
-title: "Creating or Editing a Process Configuration"
+title: "Creating or Editing a Process Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "process configuration, modifying"
+  - "process configuration, creating"
+  - "creating, process configuration"
+  - "modifying, process configuration"
+ms.assetid: 39cc2c93-0986-48d3-8c6f-4280ec9af4e0
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating or Editing a Process Configuration
 This section describes how to create or edit a process configuration to implement a Partner Interface Process (PIP) in Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. A RosettaNet PIP defines a business-process dialog between two trading partners. In [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)], to create a PIP with a partner, you must first create a process configuration. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] uses this profile to store all configuration characteristics of the PIP. You can then use this configuration to create an agreement with the partner.  

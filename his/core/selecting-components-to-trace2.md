@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Selecting Components to Trace"
-title: "Selecting Components to Trace2"
+title: "Selecting Components to Trace2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1f82ee67-8d65-4955-9459-83f8ee2b1ee7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Selecting Components to Trace
 Before you can begin tracing files, you need to decide on the Host Integration Server components to trace.  

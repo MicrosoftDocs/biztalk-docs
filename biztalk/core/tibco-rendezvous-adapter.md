@@ -1,12 +1,19 @@
 ---
-title: "TIBCO Rendezvous Adapter"
+title: "TIBCO Rendezvous Adapter | Microsoft Docs"
 description: Install, step through tutorials, learn the architecture, use SSO security, create your applications, import the binding file, and add exception handling when using the BizTalk Adapter for TIBCO Rendezvous in BizTalk Server
 ms.custom: ""
 ms.date: "10/24/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0528954d-11b4-449b-8057-30d463104fef
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # TIBCO Rendezvous Adapter
 Microsoft BizTalk Adapter for TIBCO Rendezvous enables you to use TIBCO Rendezvous business functions within BizTalk Server. The following sections discuss setting up the adapter to access TIBCO Rendezvous-specific information.  

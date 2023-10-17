@@ -1,12 +1,19 @@
 ---
-title: "Configure a port using the WCF-OracleDB adapter in BizTalk"
+title: "Configure a port using the WCF-OracleDB adapter in BizTalk | Microsoft Docs"
 description: Create WCF-OracleDB send and receive ports to use the Oracle DB adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e9eafefb-9b30-4801-9be9-6034ae0d3b7d
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure a port using the WCF-OracleDB adapter
 How to configure WCF-OracleDB send and receive ports to perform outbound and inbound operations on the Oracle database using the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  

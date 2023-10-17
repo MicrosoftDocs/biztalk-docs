@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Defining Dependent LUs"
-title: "Defining Dependent LUs1"
+title: "Defining Dependent LUs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a2e88ca6-ed70-4138-a7f0-9fce4c832f94
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Defining Dependent LUs
 You can configure dependent LUs (both 3270 and LUA) as you would with any other link service.  

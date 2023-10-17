@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Run operations on tables with large object data types in Oracle Database"
-title: "Run operations on tables with large object data types in Oracle Database"
+title: "Run operations on tables with large object data types in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "operations, performing on tables"
+  - "operations, performing on LOB data"
+ms.assetid: 74276b85-daf1-4d0f-92f9-46d5c27a95a6
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run operations on tables with large object data types in Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] provides support for the Oracle large object (LOB) data types:  

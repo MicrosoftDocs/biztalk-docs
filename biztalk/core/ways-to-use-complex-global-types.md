@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Ways to Use Complex Global Types"
-title: "Ways to Use Complex Global Types"
+title: "Ways to Use Complex Global Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ddea1c7b-eb0e-4521-8576-0ea6f9460847
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Ways to Use Complex Global Types
 After you have converted a complex type to a global complex type, it becomes available for reuse in other locations within your schema. For more information about defining a complex type and then converting it to a global complex type, see [Complex Global Type Definition and Naming](../core/complex-global-type-definition-and-naming.md).  

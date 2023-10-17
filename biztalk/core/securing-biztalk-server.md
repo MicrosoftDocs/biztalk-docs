@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Securing BizTalk Server"
-title: "Securing BizTalk Server"
+title: "Securing BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Server, security"
+  - "security, SSO"
+  - "security, BizTalk Server"
+  - "SSO, security"
+ms.assetid: e4052e6a-dd91-40e9-a42a-7d1b1b2567d5
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Securing BizTalk Server
 This section provides information about managing security, configuring user rights, and implementing Enterprise Single Sign-On in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

@@ -1,9 +1,19 @@
 ---
 description: "Learn more about: Step 3: Create and Configure a Destination Party"
 title: "Step 3: Create and Configure a Destination Party"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+ms.assetid: 8746f115-9f69-4593-9943-9ccda45cd900
+caps.latest.revision: 8
+
+
+
 ---
 # Step 3: Create and Configure a Destination Party
 In this step, you create and configure a destination party for the Create-Batch scenario. You also select the messages that [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] batches and the batch schedules, as defined for that party. You schedule the batch send time as one hour after copying the files into the folder. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] batches any messages received thereafter with a frequency of one hour.  

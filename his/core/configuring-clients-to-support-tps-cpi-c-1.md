@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configure Clients to Support TPs (CPI-C)"
-title: "Configure Clients to Support TPs (CPI-C)"
+title: "Configure Clients to Support TPs (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b02b239d-04a2-4707-a8fa-d26222019d3d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configure Clients to Support TPs (CPI-C)
 

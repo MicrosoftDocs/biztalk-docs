@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The comparison operator is not valid"
-title: "The comparison operator is not valid"
+title: "The comparison operator is not valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8383230d-9bf6-4bc5-9300-4cfd0ad38f28
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The comparison operator is not valid
 ## Details  

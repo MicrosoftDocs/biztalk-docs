@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Connections and the SnaCfg Utility"
-title: "Connections and the SnaCfg Utility1"
+title: "Connections and the SnaCfg Utility1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2897a23d-5516-47d6-ad32-adcda1cfe223
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Connections and the SnaCfg Utility
 SnaCfg is a useful command-line utility for deploying and managing SNA Server configurations.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Phase 1: Scoping the Assessment"
-title: "Phase 1: Scoping the Assessment"
+title: "Phase 1: Scoping the Assessment | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 667c3669-7314-4562-84bc-fbb1be1f0314
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Phase 1: Scoping the Assessment
 This topic describes the aspects of the scope phase of a BizTalk Server performance assessment.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOConfigSS.RestoreSecret Method"
-title: "ISSOConfigSS.RestoreSecret Method"
+title: "ISSOConfigSS.RestoreSecret Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a5cca54e-330e-4b2c-94c7-57f789af7a63
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOConfigSS.RestoreSecret Method
 The **RestoreSecret** method restores master secrets from the password protected backup file.  

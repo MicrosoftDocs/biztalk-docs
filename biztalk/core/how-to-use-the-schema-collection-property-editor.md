@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Use the Schema Collection Property Editor"
-title: "How to Use the Schema Collection Property Editor"
+title: "How to Use the Schema Collection Property Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "schemas, Schema Collection Property Editor"
+  - "Schema Collection Property Editor"
+  - "pipelines, Schema Collection Property Editor"
+ms.assetid: 1f0c0710-8a7c-4076-ab87-e6b8b9a928a8
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use the Schema Collection Property Editor
 You use the Schema Collection Property Editor to select schemas for your pipeline component.  

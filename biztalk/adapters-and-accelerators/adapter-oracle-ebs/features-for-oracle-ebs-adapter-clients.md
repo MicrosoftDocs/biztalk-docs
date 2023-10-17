@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Features for Oracle EBS adapter clients"
-title: "Features for Oracle EBS adapter clients"
+title: "Features for Oracle EBS adapter clients | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 50256fb7-5f0c-4b32-87e6-98f49da0b360
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Features for Oracle EBS adapter clients
 

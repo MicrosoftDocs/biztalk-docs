@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data Source Wizard (Host Files)"
-title: "Data Source Wizard (Host Files)2"
+title: "Data Source Wizard (Host Files)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4227cd29-e270-4f68-a2dd-8c50a7b70aa9
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Source Wizard (Host Files)
 You can use the Data Source Wizard to guide you through the steps to configure and save data source information that is required to connect the Data Provider for Host Files (Data Provider) to remote IBM host file system servers. Consumer Tools, such as Visual Studio and BizTalk Server, will load the Data Source Wizard for use in defining and re-configuring connections to IBM host file system servers. The Data Source Wizard helps to simplify configuring and testing network connections, working with packages, defining character string code page conversions, working with security and encryption, and validating and saving the configuration.

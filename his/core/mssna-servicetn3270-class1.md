@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_ServiceTN3270 Class"
-title: "MsSna_ServiceTN3270 Class1"
+title: "MsSna_ServiceTN3270 Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b4824a0d-6b5d-4ad5-a690-4ebd7f160fdb
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_ServiceTN3270 Class
 Enables clients to connect to a host via the TN3270 protocol.  

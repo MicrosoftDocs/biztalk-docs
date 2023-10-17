@@ -1,12 +1,19 @@
 ---
-title: "SOA Governance Integration with the ESB Toolkit in BizTalk Server"
+title: "SOA Governance Integration with the ESB Toolkit in BizTalk Server | Microsoft Docs"
 description: List of challenges with SOA-based system and third party integration with ESB Toolkit in BizTalk Server
+caps.latest.revision: 3
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
 ms.date: "08/10/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ccb5ac2d-cd90-414d-a6c7-045a8fe9450b
+ms.author: "mandia"
 ---
 
 # SOA Governance Integration

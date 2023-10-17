@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MC_POST_ON_RECEIPT"
-title: "MC_POST_ON_RECEIPT1"
+title: "MC_POST_ON_RECEIPT1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dc9f6d9f-4c02-4a1d-8e82-b2a5da7e8eef
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MC_POST_ON_RECEIPT
 The **MC_POST_ON_RECEIPT** verb allows the application to register to receive a notification when data or status arrives at the local logical unit (LU) without actually receiving it at the same time. This verb can only be issued while in RECEIVE state and it never causes a change in conversation state.  

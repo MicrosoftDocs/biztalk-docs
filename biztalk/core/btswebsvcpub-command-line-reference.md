@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BTSWebSvcPub Command-Line Reference"
-title: "BTSWebSvcPub Command-Line Reference"
+title: "BTSWebSvcPub Command-Line Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5e19dd4d-9f2c-4a17-9437-8701e1c274fb
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BTSWebSvcPub Command-Line Reference
 This topic provides reference information for the BTSWebSvcPub command-line tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. You can use BTSWebSvcPub to create Web services (.asmx) for publishing orchestrations through Web services as follows:  

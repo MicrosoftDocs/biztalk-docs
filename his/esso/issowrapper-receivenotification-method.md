@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOWrapper.ReceiveNotification Method"
-title: "ISSOWrapper.ReceiveNotification Method"
+title: "ISSOWrapper.ReceiveNotification Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 105890d8-6d21-49e0-8e08-430cea64a018
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOWrapper.ReceiveNotification Method
 Receives a notification to the adapter from the ENTSSO service.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The ResolverDictionary Class"
-title: "The ResolverDictionary Class"
+title: "The ResolverDictionary Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 46deb8a0-0523-4a5c-ac6b-45c506de7a72
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The ResolverDictionary Class
 The **ResolverDictionary** class is a **Dictionary**-based class that can store instances of the **Resolver** class as **String** name/value pairs. When creating instances of the **ResolverDictionary** class, you must provide a reference to an existing **Dictionary** instance. The **ResolverDictionary** class provides the data that the **Resolver** class uses when it performs run-time resolution.  

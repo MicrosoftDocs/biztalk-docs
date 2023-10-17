@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Troubleshooting Windows SharePoint Services"
-title: "Troubleshooting Windows SharePoint Services"
+title: "Troubleshooting Windows SharePoint Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9acf9a0d-2c92-4227-80f8-b2d0cca0c232
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting Windows SharePoint Services
 Microsoft [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] is used by the Windows SharePoint Services adapter. This topic describes some known issues that may be encountered with Windows SharePoint Services and possible resolutions to these issues.

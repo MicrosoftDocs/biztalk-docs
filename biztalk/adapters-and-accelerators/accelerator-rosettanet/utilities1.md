@@ -1,12 +1,21 @@
 ---
 description: "Learn how to use the utilities included in the Microsoft BizTalk Accelerator for RosettaNet (BTARN) Software Development Kit (SDK)."
-title: "Utilities1"
+title: "Utilities1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "utilities"
+  - "developing, utilities"
+ms.assetid: 6391c652-dd89-4d45-80f4-24adea0281ce
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Utilities
 

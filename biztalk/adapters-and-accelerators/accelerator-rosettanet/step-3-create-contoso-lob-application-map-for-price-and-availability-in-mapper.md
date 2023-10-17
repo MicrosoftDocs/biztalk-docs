@@ -1,12 +1,20 @@
 ---
 description: "Learn more about: Step 3: Creating the Contoso LOB Application Maps for the Price and Availability Project Using BizTalk Mapper"
-title: "Step 3: Creating the Contoso LOB Application Maps for the Price and Availability Project Using BizTalk Mapper"
+title: "Step 3: Creating the Contoso LOB Application Maps for the Price and Availability Project Using BizTalk Mapper | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "private process tutorial, creating LOB maps"
+ms.assetid: a947e0ac-f0cb-4be9-85a8-09daf3675b1a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Creating the Contoso LOB Application Maps for the Price and Availability Project Using BizTalk Mapper
 In this step, you create two maps that define the transformation required to successfully exchange messages between the two trading partners. For this scenario, the Contoso ERP system has already standardized on a message format for a Price and Availability request. The two maps will map the request and response messages from the trading partner, Fabrikam, to and from those internally defined Contoso messages, respectively.  

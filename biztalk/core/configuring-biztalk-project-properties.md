@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Configuring BizTalk Project Properties"
-title: "Configuring BizTalk Project Properties"
+title: "Configuring BizTalk Project Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "projects, property pages"
+  - "projects, configuring"
+ms.assetid: 2cd8bbf0-1cba-462a-8e26-a761dc067765
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Configuring BizTalk Project Properties

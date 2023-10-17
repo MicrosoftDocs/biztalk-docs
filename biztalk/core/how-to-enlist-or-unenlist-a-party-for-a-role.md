@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Enlist or Unenlist a Party for a Role"
-title: "How to Enlist or Unenlist a Party for a Role"
+title: "How to Enlist or Unenlist a Party for a Role | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [role links], enlisting"
+  - "enlisting, role links"
+  - "role links, unenlisting"
+  - "role links, enlisting"
+  - "managing [role links], unenlisting"
+ms.assetid: 06fc2a64-3add-400c-9f9d-fab22fdf5366
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Enlist or Unenlist a Party for a Role
 This topic describes how to use the BizTalk Server Administration console to enlist or unenlist a party for a role. Enlisting a party for a role assigns the party to the role and unenlisting the party removes the party from the role.  

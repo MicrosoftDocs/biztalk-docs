@@ -5,8 +5,15 @@ ms.custom: ""
 ms.date: "08/15/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3a08aa85-3a45-4a8c-bdb5-5615ca097ce1
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Manage the BAM portal
 

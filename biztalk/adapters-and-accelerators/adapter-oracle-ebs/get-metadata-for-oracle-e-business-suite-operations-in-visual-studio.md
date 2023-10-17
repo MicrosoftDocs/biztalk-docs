@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Get metadata for Oracle E-Business Suite operations in Visual Studio"
-title: "Get metadata for Oracle E-Business Suite operations in Visual Studio"
+title: "Get metadata for Oracle E-Business Suite operations in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 87d7f731-cd0f-4970-a3cd-072f09312989
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get metadata for Oracle E-Business Suite operations in Visual Studio
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] provides three [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components that you can use to help you develop solutions using the adapter:  

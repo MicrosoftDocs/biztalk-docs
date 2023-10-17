@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Import Siebel Data Using SQL Server Management Studio"
-title: "Import Siebel Data Using SQL Server Management Studio"
+title: "Import Siebel Data Using SQL Server Management Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "SQL Server Management Studio, importing data by using"
+  - "how to, import data by using SQL Server Management Studio"
+ms.assetid: 67da7f7b-37ea-4a31-89ef-a9f6974ff976
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Import Siebel Data Using SQL Server Management Studio
 This section provides information about how to use SQL Server Management Studio to import data from a Siebel system into a SQL Server database. It also provides instructions on how to create and execute an SSIS package to import this data.

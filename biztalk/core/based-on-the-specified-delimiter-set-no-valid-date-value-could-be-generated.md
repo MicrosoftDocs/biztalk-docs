@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Based on the specified delimiter set, no valid Date value could be generated"
-title: "Based on the specified delimiter set, no valid Date value could be generated"
+title: "Based on the specified delimiter set, no valid Date value could be generated | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cdd157c0-9a0d-421b-8350-aa1263126ca0
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Based on the specified delimiter set, no valid Date value could be generated
 ## Details  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Migrate from the MSMQT Adapter to the MSMQ Adapter"
-title: "Migrate from the MSMQT Adapter to MSMQ Adapter"
+title: "Migrate from the MSMQT Adapter to MSMQ Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/07/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 97126f70-0be5-4a2f-bcba-173fd932b6de
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Migrate from the MSMQT Adapter to the MSMQ Adapter
 This topic discusses points to consider regarding end-to-end ordered delivery, transactional consistency, high availability, and scalability before migrating solutions from the BizTalk Message Queuing (MSMQT) adapter to the Message Queuing (MSMQ) adapter. For purposes of this topic ordered delivery, transactional consistency, high availability, and scalability are defined as follows:  

@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: How BizTalk Server Implements Host Throttling"
-title: "How BizTalk Server Implements Host Throttling"
+title: "How BizTalk Server Implements Host Throttling | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "host throttling, rate based throttling"
+  - "host throttling, outbound"
+  - "host throttling, algorithm"
+  - "host throttling, components"
+  - "host throttling, inbound"
+  - "host throttling, resource based throttling"
+  - "host throttling, user controlled throttling"
+  - "host throttling, strategies"
+ms.assetid: 46d3c3de-66b9-4c8a-8369-e68563fc9c40
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How BizTalk Server Implements Host Throttling
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] host throttling mechanism continually monitors for a throttling condition, calculates the severity of the throttling condition, and applies host throttling progressively depending on the calculated severity. The throttling mechanism is self tuning and the default configuration options are suitable for the majority of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processing scenarios. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] host throttling exposes several configurable options that can be used to tune throttling for specific scenarios. For information about changing these configuration options, see [How to Modify Host Settings](../core/how-to-modify-host-settings.md).  

@@ -1,12 +1,19 @@
 ---
-title: "Oracle EBS adapter samples"
+title: "Oracle EBS adapter samples | Microsoft Docs"
 description: Oracle Enterprise Business Suite WCF adapter samples that can be used with BizTalk Server, WCF service model, and WCF channel model 
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 12f19f13-3b01-40d6-b12c-811f99841040
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Samples for the Oracle EBS adapter
 Samples for [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] are categorized into:  

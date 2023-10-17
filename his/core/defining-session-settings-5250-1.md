@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Defining Session Settings (5250)"
-title: "Defining Session Settings (5250)1"
+title: "Defining Session Settings (5250)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 84e88daa-dbf1-40bb-a6ec-5c7eee8e66ef
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Defining Session Settings (5250)
 Before you can connect to an AS/400 system, you must define the settings you will need for your 5250 session such as the Local LU Alias, Remote APPC LU Alias, Host Code Page, and Display Size. You can also change the Device Name, although this is generally not necessary.  

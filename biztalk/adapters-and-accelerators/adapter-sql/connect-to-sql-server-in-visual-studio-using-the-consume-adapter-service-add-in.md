@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connect to SQL Server in Visual Studio using the Consume Adapter Service Add-in"
-title: "Connect to SQL Server in Visual Studio using the Consume Adapter Service Add-in"
+title: "Connect to SQL Server in Visual Studio using the Consume Adapter Service Add-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5d4fa2bd-ac9e-41b1-8fea-e6a41cbfd1a2
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connect to SQL Server in Visual Studio using the Consume Adapter Service Add-in
 The [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] is installed when you install [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] loads all the WCF-Custom bindings installed on the computer. To connect to SQL Server using the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in a BizTalk project, you must use the **sqlbinding**.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Buffer Header Format"
-title: "Buffer Header Format1"
+title: "Buffer Header Format1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f35a2174-afbb-4ff0-9454-0b64f400f82a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Buffer Header Format
 The following table lists the common fields that always occur at the start of a buffer header. These are followed by further fields specific to the particular message. For details about individual message formats, see [FMI Message Formats](./fmi-message-formats2.md).  

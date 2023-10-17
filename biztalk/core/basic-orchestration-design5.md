@@ -1,12 +1,22 @@
 ---
 description: "Learn more about basic orchestration design, including how to create a CatchExpression to redirect an exception in the back-end system."
-title: "Basic Orchestration Design5"
+title: "Basic Orchestration Design5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, design"
+  - "exception handling, orchestration design"
+ms.assetid: 0941d617-e30c-4ca7-852f-193e16781ca7
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Basic Orchestration Design
 When you create a basic orchestration in BizTalk Adapter for PeopleSoft Enterprise, you receive XML into the receive port of your orchestration. The XML is then sent to the back-end system to be processed. In the back-end system, an exception might occur that would stop the orchestration and generate a fault. The fault that is produced provides information that the orchestration was not completed. This is not helpful in debugging the cause of the error.  

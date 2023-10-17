@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Partial Backup Sets"
-title: "Partial Backup Sets"
+title: "Partial Backup Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7b9f15c0-4d31-4322-ac0a-8efdeed6f71e
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Partial Backup Sets
 When backing up the databases on the source system, problems may occur that result in a partial backup set. When this occurs, the Master.dbo.bts_LogShippingHistory table will contain a 0 in the **SetComplete** column for all records in the set.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOConfigStore Members"
-title: "ISSOConfigStore Members"
+title: "ISSOConfigStore Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aef39c08-333c-4b54-8fc6-912cf8fe19ec
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOConfigStore Members
 The following table shows the ISSOConfigStore members.  

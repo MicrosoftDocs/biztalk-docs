@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Design of the ESB Exception Management Framework"
-title: "Design of the ESB Exception Management Framework"
+title: "Design of the ESB Exception Management Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cfc2688c-c01c-4244-9e35-3d482135d8b7
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Design of the ESB Exception Management Framework
 Consistent and re-usable patterns for managing exceptions are a core consideration of any development project; they help to maximize maintainability and make it easier to support the application after deployment.  

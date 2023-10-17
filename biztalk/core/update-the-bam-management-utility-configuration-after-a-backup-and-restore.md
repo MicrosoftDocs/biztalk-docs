@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Update the BAM Management Utility Configuration After a Backup and Restore"
-title: "How to Update the BAM Management Utility Configuration After a Backup and Restore"
+title: "How to Update the BAM Management Utility Configuration After a Backup and Restore | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7b27062b-546f-4030-983b-15d793912690
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Update the BAM Management Utility Configuration After a Backup and Restore
 When the server\database name combination changes as the result of a change in your BizTalk Server environment such as a backup and restore sequence, you must update the BAM management utility configuration file (bm.exe.config) to reflect these name changes.  

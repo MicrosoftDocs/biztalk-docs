@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid scheme"
-title: "Invalid scheme"
+title: "Invalid scheme | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3bb3e70a-d23c-45e9-bde5-edae6731e58a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid scheme
 ## Details  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connect to SQL Server using Windows Authentication with the SQL adapter"
-title: "Connect to SQL Server using Windows Authentication with the SQL adapter"
+title: "Connect to SQL Server using Windows Authentication with the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 45c54b2a-e056-496f-9f10-f19b6a3ca1a6
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connect to SQL Server using Windows Authentication with the SQL adapter
 The [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)] enables adapter clients to use Windows Authentication to establish a connection with SQL Server. To use Windows Authentication, adapter clients must enter an empty user name and password. 

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error encountered after processing Transaction Set(s) because DocType was not set"
-title: "Error encountered after processing Transaction Set(s) because DocType was not set"
+title: "Error encountered after processing Transaction Set(s) because DocType was not set | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a323658c-77d8-4059-aa15-d88c08e5450d
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error encountered after processing Transaction Set(s) because DocType was not set
 ## Details  

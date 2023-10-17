@@ -1,11 +1,24 @@
 ---
 description: "Learn more about: MSH Map Tab"
 title: "MSH Map Tab"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.mshmap"
+helpviewer_keywords: 
+  - "MSH Map tab [Configuration Explorer]"
+  - "messages, message headers"
+ms.assetid: 2c9d81bd-1abc-463d-87d7-0bea77182432
+caps.latest.revision: 3
+
+
+
 ---
 # MSH Map Tab
 You use the **MSH Map** tab to enable message header transformations for inbound messages.  

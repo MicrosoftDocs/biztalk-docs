@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Plan and design your adapter using the WCF LOB Adapter SDK"
-title: "Plan and design your adapter using the WCF LOB Adapter SDK"
+title: "Plan and design your adapter using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2dfbfa6c-2f87-40bb-93d4-6fbb37a235c5
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Plan and design your adapter using the WCF LOB Adapter SDK
 

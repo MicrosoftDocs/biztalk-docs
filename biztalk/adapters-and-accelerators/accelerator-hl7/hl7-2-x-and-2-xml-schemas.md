@@ -1,9 +1,40 @@
 ---
 description: "Learn more about: HL7 2.X and 2.XML Schemas"
 title: "HL7 2.X and 2.XML Schemas"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "schemas, schema types"
+  - "HL7-encoded messages"
+  - "2.X schemas"
+  - "schemas, HL7 organization"
+  - "BTAHL7, HL7 schemas"
+  - "HL7, 2.XML schemas"
+  - "Update2XMLSchema tool"
+  - "schemas, common schemas"
+  - "2.X schemas, about 2.X schemas"
+  - "2.X schemas, compatibility"
+  - "2.XML schemas, compatibility"
+  - "messages, HL7-encoded messages"
+  - "HL7 Schema Selector"
+  - "schemas, 2.XML schemas"
+  - "2.XML schemas"
+  - "2.XML schemas, about 2.XML schemas"
+  - "HL7, 2.X schemas"
+  - "schemas, compatibility"
+  - "common schemas"
+  - "schemas, 2.X schemas"
+ms.assetid: 02532d72-1948-48d8-a8ef-6b5a814eb573
+caps.latest.revision: 8
+
+
+
 ---
 # HL7 2.X and 2.XML Schemas
 The HL7 organization publishes two sets of schemas: HL7 2.X schemas, used for HL7-encoded messages, and HL7 2.XML schemas, used for XML-encoded messages.  

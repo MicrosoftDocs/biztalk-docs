@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3: Create the BizTalk Server Solution in Visual Studio"
-title: "Step 3: Create the BizTalk Server Solution in Visual Studio"
+title: "Step 3: Create the BizTalk Server Solution in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a4da3333-e430-4caf-bc29-44a60ebac385
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3: Create the BizTalk Server Solution in Visual Studio
 In this section, we look at creating the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution for receiving opportunity notifications from Salesforce, querying Salesforce to get additional information about the opportunity, and finally inserting that information into an on-premise SQL Server database. This section is further categorized according to each of these broader steps.  

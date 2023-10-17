@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Receiver Message Tracking (NRR)"
-title: "Configuring Receiver Message Tracking (NRR)"
+title: "Configuring Receiver Message Tracking (NRR) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ce30737a-341b-45be-81a0-a7336219185e
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Receiver Message Tracking (NRR)
 As part of the settings on this page, you can specify whether the inbound messages and their acknowledgements (MDNs) are stored in the non-repudiation database. For more information, see [AS2 Processing in BizTalk Server](../core/as2-processing-in-biztalk-server.md).  

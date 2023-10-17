@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: How to Configure Password Synchronization"
-title: "How to Configure Password Synchronization"
+title: "How to Configure Password Synchronization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Password Synchronization [SSO], replay files"
+  - "Password Synchronization [SSO], maximum age"
+  - "SSOCONFIG command line utility"
+  - "Password Synchronization [SSO], SSOCONFIG command line utility"
+  - "Password Synchronization [SSO], configuring"
+  - "configuring, Password Synchronization [SSO]"
+ms.assetid: 04000dfc-02b9-4d50-babe-8bc8a07a33b7
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure Password Synchronization
 Use the SSOCONFIG command line utility to configure your password synchronization settings.  

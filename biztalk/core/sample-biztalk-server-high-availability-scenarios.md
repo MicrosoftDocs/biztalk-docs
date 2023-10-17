@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Sample BizTalk Server High Availability Scenarios"
-title: "Sample BizTalk Server High Availability Scenarios"
+title: "Sample BizTalk Server High Availability Scenarios | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "architecture, small distributions"
+  - "examples, high availability"
+  - "architecture, examples"
+  - "high availability, examples"
+  - "examples, architecture"
+  - "databases, clustering"
+  - "architecture, medium distributions"
+  - "scaling"
+  - "architecture, large distributions"
+ms.assetid: ad9e3f57-1a23-41c2-82c9-dc8e1b29ed4d
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample BizTalk Server High Availability Scenarios
 This topic describes the scenarios in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that provide high availability through scaled-out tiers of hosts. By separating areas of functionality into different hosts and tiers in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], administrators can provide redundancy for each host and scale them independently of other hosts. To provide high availability for each functional area, you create separate hosts for each primary function—receiving, processing, sending, and tracking—and cluster the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases and the Enterprise Single Sign-On master secret server.

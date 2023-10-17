@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Dynamic Data Web"
-title: "Dynamic Data Web1"
+title: "Dynamic Data Web1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5a6492dd-2628-49e6-8a55-78ed43d05ffc
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Dynamic Data Web
 This walkthrough demonstrates how you can create a basic Web site that uses ASP.NET Dynamic Data and a WCF Data Service. Dynamic Data enables you to create a data-driven Web site with little or no coding. WCF Data Services enables you to create and consume Open Data Protocol (OData) services in your application. You can use the Entity Provider for DB2 to generate Dynamic Data and WCF Data Services to access information stored in an IBM DB2 relational database. For more information, see [ASP.NET Dynamic Data Content Map](/previous-versions/aspnet/cc488545(v=vs.100)) (https://go.microsoft.com/fwlink/?LinkId=199029) and [WCF Data Services](/previous-versions/dotnet/framework/data/wcf/) (https://go.microsoft.com/fwlink/?LinkId=199030).

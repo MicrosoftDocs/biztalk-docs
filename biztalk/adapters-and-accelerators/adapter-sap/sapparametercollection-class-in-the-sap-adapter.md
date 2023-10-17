@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: SAPParameterCollection class in the SAP adapter"
-title: "SAPParameterCollection class in the SAP adapter"
+title: "SAPParameterCollection class in the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SAPParameterCollection, supported methods and classes"
+ms.assetid: fd09355b-95f4-4d49-a643-b13058e63d74
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SAPParameterCollection class in the SAP adapter
 The following section lists the methods and properties for the **SAPParameterCollection** class. This is derived from **System.Data.Common.DbParameterCollection**.  

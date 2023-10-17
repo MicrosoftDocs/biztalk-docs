@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Sample TMA: Enterprise Single Sign-On"
-title: "Sample TMA: Enterprise Single Sign-On"
+title: "Sample TMA: Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "security examples [TMA], SSO"
+  - "architecture, examples"
+  - "SSO, examples"
+  - "SSO, TMA"
+  - "DFD, SSO"
+  - "examples, SSO"
+  - "examples, TMA"
+ms.assetid: c2c15b1b-54f3-4d1a-b3d8-6679abd41ccb
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample TMA: Enterprise Single Sign-On
 This topic presents the threat model analysis (TMA) for the Enterprise Single Sign-On scenario for the sample architecture.

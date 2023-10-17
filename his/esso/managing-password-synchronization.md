@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Managing Password Synchronization"
-title: "Managing Password Synchronization"
+title: "Managing Password Synchronization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0f27eb2b-0ab3-40de-ae6f-741b98f31ce9
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Managing Password Synchronization
 Use the SSOMANAGE command-line utility to enable or disable Single Sign-On (SSO) features, and to display current SSO database settings.  

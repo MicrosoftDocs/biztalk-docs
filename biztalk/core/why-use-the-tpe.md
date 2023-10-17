@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Why Use the TPE?"
-title: "Why Use the TPE?"
+title: "Why Use the TPE? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8a198e0a-517e-4254-ac2b-177f49ef0174
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Why Use the TPE?
 Business processes such as ordering, invoicing, and inventory tracking are the fundamental actions of e-commerce. Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables knowledge workers to gather specific or aggregated real-time information about the state of a business process. For example, they can find out why a specific customer order was processed but not shipped, or how many units of a product were sold and shipped in the previous 48-hour period.  

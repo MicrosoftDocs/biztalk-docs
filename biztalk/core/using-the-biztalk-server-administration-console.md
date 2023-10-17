@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Using the BizTalk Server Administration Console"
-title: "Using the BizTalk Server Administration Console"
+title: "Using the BizTalk Server Administration Console | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af00d9de-0f94-407b-b6f4-4da63a0867a0
+caps.latest.revision: 42
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using the BizTalk Server Administration Console
 The BizTalk Server Administration Console is a Microsoft Management Console (MMC) that you can use to manage and monitor BizTalk Server, and that you can use to deploy and manage your BizTalk Server applications.  

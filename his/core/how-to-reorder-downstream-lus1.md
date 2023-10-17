@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Reorder Downstream LUs"
-title: "How to Reorder Downstream LUs1"
+title: "How to Reorder Downstream LUs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a75a8d60-6f8e-4a1b-8eb4-b2b698bbea90
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Reorder Downstream LUs
 An administrator might create a downstream LU called DOWNLU3, and then realize that two additional LUs are needed. After creating the LUs, with the names DOWNLU2 and DOWNLU4, the LUs would be associated with the listed LU numbers.  

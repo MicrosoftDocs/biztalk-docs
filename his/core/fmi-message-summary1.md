@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: FMI Message Summary"
-title: "FMI Message Summary1"
+title: "FMI Message Summary1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ea7ec569-240b-4c7c-9926-40b26ca46621
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # FMI Message Summary
 This section lists each of the messages used at the function management interface (FMI) and gives a reference to a topic in the section where each message is described. The formats of the messages are given in [FMI Message Formats](./fmi-message-formats2.md).  

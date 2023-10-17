@@ -1,12 +1,27 @@
 ---
 description: "Learn about the basic data types used by the business function interface methods in Microsoft BizTalk Adapter for JD Edwards OneWorld that provide exclusive access to JD Edwards OneWorld business functions."
-title: "Basic Types1"
+title: "Basic Types1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "JD Edwards OneWorld adapters, data types"
+  - "JD Edwards OneWorld adapters, business functions"
+  - ".NET Framework, mapping [JD Edwards OneWorld adapters]"
+  - "adapters [JD Edwards OneWorld adapters], data types"
+  - "adapters [JD Edwards OneWorld adapters], .NET Framework"
+  - "JD Edwards OneWorld adapters, .NET Framework"
+  - "adapters [JD Edwards OneWorld adapters], business functions"
+ms.assetid: d306ea1b-fb74-4fa3-9681-405252928df1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Basic Data Types
 

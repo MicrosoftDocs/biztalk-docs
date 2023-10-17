@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Remove a Certificate from a Receive Location"
-title: "How to Remove a Certificate from a Receive Location"
+title: "How to Remove a Certificate from a Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "certificates, receive locations"
+  - "receive locations, certificates"
+  - "managing [receive locations], certificates"
+ms.assetid: 717d41bf-4260-4df4-9d0a-07243bb9b12c
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Remove a Certificate from a Receive Location
 This topic describes how to use the BizTalk Server Administration console to remove a security certificate from a receive location. When you do this, the receive location will no longer encrypt messages; messages will be sent in clear text. Removing a certificate from a receive location does not remove it from the certificate store.  

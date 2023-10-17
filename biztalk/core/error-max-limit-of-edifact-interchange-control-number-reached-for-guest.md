@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Max limit of acceptable Edifact interchange control number has reached for Guest settings"
-title: "Max limit of acceptable Edifact interchange control number has reached for Guest settings"
+title: "Max limit of acceptable Edifact interchange control number has reached for Guest settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a5d2dcc0-61fd-47c9-9339-8a85319c5398
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Max limit of acceptable Edifact interchange control number has reached for Guest settings
 ## Details  

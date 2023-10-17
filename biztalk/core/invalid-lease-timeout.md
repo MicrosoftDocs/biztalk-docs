@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid lease timeout"
-title: "Invalid lease timeout"
+title: "Invalid lease timeout | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 81b7b2a0-e9e6-4165-88bc-f712b5cbacb6
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid lease timeout
 ## Details  

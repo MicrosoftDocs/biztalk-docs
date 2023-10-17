@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Project Planning Recommendations by Phase"
-title: "Project Planning Recommendations by Phase"
+title: "Project Planning Recommendations by Phase | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "planning, performance"
+  - "performance, planning"
+ms.assetid: 422f05e3-5ad4-4f47-9be3-c229a20a6ef3
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Project Planning Recommendations by Phase
 There are a number of software development lifecycle models in existence today, each with their own approaches, benefits, and limitations. The goal of this section is to provide a set of recommendations that will help you plan appropriately for a successful [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] development project.  

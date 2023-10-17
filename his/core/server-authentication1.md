@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Server Authentication"
-title: "Server Authentication1"
+title: "Server Authentication1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 94ae37a9-9d9a-4ac9-84b9-99932d47dd8e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Server Authentication
 For server authentication, the server requires a valid certificate with the following properties:  

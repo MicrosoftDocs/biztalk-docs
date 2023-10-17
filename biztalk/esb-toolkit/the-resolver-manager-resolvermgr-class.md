@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The Resolver Manager (ResolverMgr) Class"
-title: "The Resolver Manager (ResolverMgr) Class"
+title: "The Resolver Manager (ResolverMgr) Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 89fa551d-0aca-4777-adbc-2bc46ab8664a
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The Resolver Manager (ResolverMgr) Class
 The Transform and Routing messaging services use the **ResolverMgr** class to perform resolution. The ESB dynamic transformation and dynamic delivery agents also use the **ResolverManager** class to perform just-in-time (JIT) resolution.  

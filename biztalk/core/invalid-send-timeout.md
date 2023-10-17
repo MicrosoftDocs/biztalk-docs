@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid send timeout"
-title: "Invalid send timeout"
+title: "Invalid send timeout | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 01c63cd8-e978-4dd6-ba12-d0c0ad07b8c7
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid send timeout
 ## Details  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Defining a Custom BAM View for Message Repair and New Submission Data"
-title: "Defining a Custom BAM View for Message Repair and New Submission Data"
+title: "Defining a Custom BAM View for Message Repair and New Submission Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BAM views"
+  - "Message Repair and New Submission, BAM views"
+ms.assetid: 76a6e78d-9b11-4b43-a500-a9d7666ee468
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Defining a Custom BAM View for Message Repair and New Submission Data
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Setup provides a BAM definition file that defines a business activity and a business view. You can deploy the BAM definition file to use that view, or you can create a custom view that you can add to the BAM definition file.  

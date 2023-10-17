@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Using the Unit Testing Feature with Schemas and Maps"
-title: "Using the Unit Testing Feature with Schemas and Maps"
+title: "Using the Unit Testing Feature with Schemas and Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 29bcb159-ffdb-44b9-a3ff-565973d41797
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using the Unit Testing Feature with Schemas and Maps
 This topic demonstrates how to use the unit testing feature to add a unit test for the schemas and map in the HelloWorld orchestration example.

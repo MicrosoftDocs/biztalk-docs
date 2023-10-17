@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Running the Designer Extensibility Sample"
-title: "Running the Designer Extensibility Sample"
+title: "Running the Designer Extensibility Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 05ac3b50-5bf2-4566-8654-472391476d1f
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Running the Designer Extensibility Sample
 The Designer Extensibility sample uses two sample extenders to demonstrate how you can provide design-time configuration options for custom resolvers and for itinerary services.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Install and configure HIS 2016"
-title: "Install HIS 2016"
+title: "Install HIS 2016 | Microsoft Docs"
 ms.custom: ""
 ms.date: 6/13/2018
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 80c18554-aa15-463e-a139-13f25db7d571
+caps.latest.revision: 8
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "mijacobs"
 ---
 
 # Install and configure HIS 2016

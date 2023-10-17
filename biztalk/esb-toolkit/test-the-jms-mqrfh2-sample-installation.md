@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Test the JMS MQRFH2 Sample Installation"
-title: "Test the JMS MQRFH2 Sample Installation"
+title: "Test the JMS MQRFH2 Sample Installation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 965e985d-f0fe-4b0f-b01b-cf98d1e2f6a4
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Test the JMS MQRFH2 Sample Installation
 You can check for successful installation and operation of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] JMS MQRFH2 sample before you execute any of the sample scenarios.  

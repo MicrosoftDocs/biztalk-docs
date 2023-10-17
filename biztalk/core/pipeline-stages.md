@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: Pipeline Stages"
-title: "Pipeline Stages"
+title: "Pipeline Stages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, properties"
+  - "CATID_AssemblingSerializer component category"
+  - "CATID_Encoder component category"
+  - "pipelines, stages"
+  - "CATID_DisassemblingParser component category"
+  - "CATID_Validate component category"
+  - "ComponentCategory class attribute"
+  - "CATID_Decoder component category"
+  - "CATID_Any component category"
+  - "CATID_PartyResolver component category"
+  - "Execution Mode property"
+ms.assetid: ac50c48c-6ed5-4322-95cc-af55df6bcd1c
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Pipeline Stages
 This topic discusses the **Execution Mode** property and stage affinity.  

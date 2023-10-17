@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Transaction set control number sequence exhausted for Partner and TPA"
-title: "Transaction set control number sequence exhausted for Partner and TPA"
+title: "Transaction set control number sequence exhausted for Partner and TPA | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 67f194ca-3e0f-4ad4-8bc8-88aa7e5193a7
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Transaction set control number sequence exhausted for Partner and TPA
 ## Details  

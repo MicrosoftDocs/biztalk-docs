@@ -1,12 +1,18 @@
 ---
-title: "Application Integration"
+title: "Application Integration | Microsoft Docs"
 description: Get started with transaction integrator architecture, using the TI designer and configuring WIP and HIP, using single sign-on for security, common issues and resolutions, and the development tools and data types - Host Integration Server (HIS) 
 ms.custom: ""
 ms.date: "01/04/2018"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8c7b4814-ee96-49a5-a925-5efbc7194f0d
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Get started with application integration - HIS
 

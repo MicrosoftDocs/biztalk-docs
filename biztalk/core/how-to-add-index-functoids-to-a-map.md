@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Add Index Functoids to a Map"
-title: "How to Add Index Functoids to a Map"
+title: "How to Add Index Functoids to a Map | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bbfccfcc-c333-422f-b40b-13ca4152e588
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Index Functoids to a Map
 The **Index** functoid enables you to select information from a specific record in a series of looping records. Each **Index** functoid selects information from a single field.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connecting Systems"
-title: "Connecting Systems"
+title: "Connecting Systems | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4c4895e5-7272-415f-a0de-905256fa0a43
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connecting Systems
 The effective exchange of messages across different software on different machines is an absolute requirement for integration. Given the diversity of communication styles that exist, BizTalk Server must support a variety of protocols and message formats. As described next, a significant portion of the engine is devoted to making this communication work. One important fact to keep in mind, however, is that the engine works only with XML documents internally. Whatever format a message arrives in, it must be converted to an XML document after it is received. Similarly, if the recipient of a document can’t accept that document as XML, the engine converts it into the format expected by the target.  

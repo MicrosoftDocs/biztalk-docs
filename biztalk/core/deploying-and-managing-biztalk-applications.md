@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Deploying and Managing BizTalk Applications"
-title: "Deploying and Managing BizTalk Applications"
+title: "Deploying and Managing BizTalk Applications | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications, managing"
+  - "Administration Console [BizTalk Server], applications"
+  - "bts06.deployment.application"
+  - "managing, applications"
+ms.assetid: d933ad2b-702b-48df-8ef6-a5702d0521e2
+caps.latest.revision: 49
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Deploying and Managing BizTalk Applications
 This section provides information about managing BizTalk applications, including how to deploy, modify, update, and undeploy them. BizTalk applications provide a way to view and manage the items, called "artifacts," that make up a BizTalk business solution. Examples of artifacts are BizTalk assemblies, .NET assemblies, schemas, maps, bindings, and certificates.  

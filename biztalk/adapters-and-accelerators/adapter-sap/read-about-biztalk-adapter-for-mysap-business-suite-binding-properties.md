@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Read about BizTalk Adapter for mySAP Business Suite binding properties"
-title: "Read about BizTalk Adapter for mySAP Business Suite binding properties"
+title: "Read about BizTalk Adapter for mySAP Business Suite binding properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "binding properties, setting"
+  - "binding properties"
+ms.assetid: 9cb83c1c-2f04-4f9e-8471-7f6db918da0d
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Read about BizTalk Adapter for mySAP Business Suite binding properties
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces several binding properties that enable you to control some of its run-time and design-time behavior. This section describes these binding properties and provides links to topics that explain how you can set them.  

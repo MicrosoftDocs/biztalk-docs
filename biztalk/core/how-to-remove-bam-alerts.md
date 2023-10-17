@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Remove BAM Alerts"
-title: "How to Remove BAM Alerts"
+title: "How to Remove BAM Alerts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [BAM definitions], deleting alerts"
+  - "Remove-Alerts command [BAM]"
+  - "alerts, deleting"
+ms.assetid: 9deb0ab2-a22f-477d-af31-35410d04fc6c
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Remove BAM Alerts
 Administrators use the **remove-alerts** command to remove all the alerts from a specified view.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring CICS for TCP/IP"
-title: "Configuring CICS for TCP-IP2"
+title: "Configuring CICS for TCP-IP2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 031cd7a3-2958-41cc-9b29-ba97c077097d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring CICS for TCP/IP
 ## CICS TCP/IP Platform Requirements  

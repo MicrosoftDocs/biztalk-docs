@@ -1,12 +1,19 @@
 ---
-title: "Managing BizTalk Server Performance Settings"
+title: "Managing BizTalk Server Performance Settings | Microsoft Docs"
 description: Use Settings Dashboard to update the BizTalk group, host, and host instances setting in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ca56a981-a255-4c4d-82f8-a57d390e425e
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Manage BizTalk Server Performance Settings
   

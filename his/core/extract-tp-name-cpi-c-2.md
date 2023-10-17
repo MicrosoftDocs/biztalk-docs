@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Extract_TP_Name (CPI-C)"
-title: "Extract_TP_Name (CPI-C)2"
+title: "Extract_TP_Name (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 33185e69-d6a7-46d6-8db1-826483b58926
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Extract_TP_Name (CPI-C)
 The **Extract_TP_Name** call (function name **cmetpn**) returns the *TP_name* characteristic.  

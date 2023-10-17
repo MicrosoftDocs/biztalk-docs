@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Response Time Monitor Data"
-title: "Response Time Monitor Data1"
+title: "Response Time Monitor Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e79b1f42-7f17-48cc-a58a-d5307450f3cc
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Response Time Monitor Data
 For a 3270 display application, the local node maintains statistics on host response times—the time it takes the host to respond after the 3270 user presses ENTER or an AID key to send data to the host. These statistics can then be sent to the host for analysis.  

@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Inbound Message Authentication"
-title: "Inbound Message Authentication"
+title: "Inbound Message Authentication | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, authenticating"
+  - "processing, inbound messages"
+  - "messages, inbound"
+  - "processing, security"
+  - "security, messages"
+  - "inbound messages"
+ms.assetid: 34c06283-667d-4498-8544-dea6e87f276f
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Inbound Message Authentication
 BizTalk Server can authenticate the sender of a message (either by using the certificate information or Windows integrated security) in order to validate the identity of the sender of the message. The following figure shows the security features in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that you can use to authenticate inbound messages.  

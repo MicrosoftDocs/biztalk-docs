@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to List Changes to the BAM Infrastructure"
-title: "How to List Changes to the BAM Infrastructure"
+title: "How to List Changes to the BAM Infrastructure | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "definitions [BAM], listing infrastructure changes"
+  - "managing [BAM definitions], listing infrastructure changes"
+  - "Get-Changes command [BAM]"
+  - "infrastructure, listing changes [BAM]"
+ms.assetid: 3feacd7d-6f42-4626-835b-0dc3befc9fd6
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to List Changes to the BAM Infrastructure
 Administrators use the **get-changes** command of the BAM Management utility to list current information about a deployed BAM definition. You can also use the get-changes command to list current deployment artifacts in the BAM Primary Import database.  

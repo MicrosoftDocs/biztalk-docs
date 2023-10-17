@@ -1,12 +1,18 @@
 ---
-title: "Hardware and Software Requirements for BizTalk Server 2013 and 2013 R2"
+title: "Hardware and Software Requirements for BizTalk Server 2013 and 2013 R2 | Microsoft Docs"
 description: Software prerequisites and supported version lists to install BizTalk Server 2013 and 2013 R2
 ms.custom: ""
 ms.date: "10/09/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b15dd23c-c899-43fb-b2da-f8ac55c055bf
+caps.latest.revision: 34
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Hardware and Software Requirements for BizTalk Server 2013 and 2013 R2

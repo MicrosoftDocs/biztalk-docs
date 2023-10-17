@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: What Is an Activity View?"
-title: "What Is an Activity View?"
+title: "What Is an Activity View? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "activities [BAM], Activity view [Tracking Profile Editor]"
+  - "activities [BAM], definitions"
+  - "Tracking Profile Editor, Activity view"
+  - "Activity view [Tracking Profile Editor]"
+ms.assetid: ae6bcdc8-e426-4148-b83d-08a1a5e99ca3
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is an Activity View?
 An activity view contains the imported BAM activity definition that you create with the BAM Add-In for Excel. The BAM activity definition is an abstract of your trace requirements for your business process. An activity can span multiple orchestrations and ports. You import the activity definition once and map it to each orchestration or messaging artifact that fulfills some part of the definition.  

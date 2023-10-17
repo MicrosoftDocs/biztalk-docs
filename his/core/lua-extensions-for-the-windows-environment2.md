@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LUA Extensions for the Windows Environment"
-title: "LUA Extensions for the Windows Environment2"
+title: "LUA Extensions for the Windows Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 45acc3ec-057b-4f87-8ca4-750e1698e431
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LUA Extensions for the Windows Environment
 The extensions described in this section are designed for Microsoft® Windows®. They provide support for programming compatibility and optimum application performance in 32-bit operating environments. These extensions are supported on Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012.  

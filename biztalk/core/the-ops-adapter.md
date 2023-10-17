@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: The Ops Adapter"
-title: "The Ops Adapter"
+title: "The Ops Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapters, Ops adapters"
+  - "Ops adapters, about Ops adapters"
+  - "Ops adapters"
+  - "process management solution tutorial, Ops adapters"
+  - "process management solution tutorial, errors"
+ms.assetid: 7f747a5f-14af-4e4c-bc29-f083f8f00bd0
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The Ops Adapter
 The design of the solution is to pass, where possible, problematic messages and errors to operations systems that make a decision about fixing the error or terminating the order. The Ops adapter, combined with the new error reporting feature, handles many of these cases.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Phase 2: Planning the Assessment"
-title: "Phase 2: Planning the Assessment"
+title: "Phase 2: Planning the Assessment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fd67e9fb-afc9-48c7-91c9-eea5b66423a7
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Phase 2: Planning the Assessment
 The Plan phase of a performance assessment largely consists of setting up specific milestones for the completion of the deliverables identified during the Scope phase. The Plan phase is the “when” to the Scope phase’s “what.” Third-party software and physical logistics are “how” and “where” aspects that should also be considered during the planning phase as these aspects may require additional lead time to implement.

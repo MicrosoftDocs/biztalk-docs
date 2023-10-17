@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Transaction Set duplicate control number found"
-title: "Transaction Set duplicate control number found"
+title: "Transaction Set duplicate control number found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1b2779a0-b365-4c4b-81c7-8f9284748b6e
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Transaction Set duplicate control number found
 ## Details  

@@ -1,12 +1,19 @@
 ---
-title: "Microsoft BizTalk Adapter for Oracle Database documentation"
+title: "Microsoft BizTalk Adapter for Oracle Database documentation | Microsoft Docs"
 description: Get started, architecture, security, develop apps, message schemas, and troubleshoot the Oracle Database adapter in BizTalk Adapter Pack
 ms.custom: ""
 ms.date: "08/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9308cbde-9d4d-4c1f-9532-cce0f7726327
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Microsoft BizTalk Adapter for Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] documentation includes a variety of resources that can help you learn to develop, administer, and use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].  

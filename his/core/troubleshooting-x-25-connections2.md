@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Troubleshooting X.25 Connections"
-title: "Troubleshooting X.25 Connections2"
+title: "Troubleshooting X.25 Connections2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1b19b805-ce10-40da-9b7c-d88470c87b98
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Troubleshooting X.25 Connections
 The following table outlines some ways to interpret symptoms of a nonfunctioning X.25 connection.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Processing JSON messages using BizTalk Server"
-title: "Processing JSON messages using BizTalk Server"
+title: "Processing JSON messages using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c6db1421-9478-477c-8645-09eefba06246
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Processing JSON messages using BizTalk Server
 > [!NOTE]

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Pipeline Components"
-title: "Pipeline Components"
+title: "Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, components"
+  - "pipeline components"
+ms.assetid: fd7061e0-a9cd-4f6f-a149-9f01fb9d23cb
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Pipeline Components
 The Visual Studio Toolbox is populated with several standard BizTalk Server components that you can use to create a pipeline.  

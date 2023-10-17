@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: MLLP Adapter Known Issues"
 title: "MLLP Adapter Known Issues"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "MLLP adapters, known issues"
+  - "known issues, MLLP adapters"
+ms.assetid: 66af8fcc-981a-4a77-80b7-84824bfae608
+caps.latest.revision: 9
+
+
+
 ---
 # MLLP Adapter Known Issues
 This section contains useful information that may help you avoid Minimal Lower Layer Protocol (MLLP) adapter errors.  

@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Configuring SSO"
-title: "Configuring SSO"
+title: "Configuring SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SSO, command line utilities"
+  - "configuring, SSO"
+  - "SSO, interfaces"
+  - "SSOConfig [SSO]"
+  - "SSO, configuring"
+  - "SSOClient [SSO]"
+  - "SSO, tools"
+  - "SSOManage [SSO]"
+ms.assetid: 6f755735-9b48-4771-beec-ced844f3d532
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring SSO
 You can configure Enterprise Single Sign-On by using command line utilities, UI tools, or COM or Microsoft .NET interfaces.  

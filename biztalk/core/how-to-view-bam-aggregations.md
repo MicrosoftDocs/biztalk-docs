@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to View BAM Aggregations"
-title: "How to View BAM Aggregations"
+title: "How to View BAM Aggregations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "aggregations [BAM], viewing aggregations"
+  - "viewing, aggregations [BAM]"
+ms.assetid: aa697f16-ac47-46f9-98a5-a951961d0413
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to View BAM Aggregations
 BAM aggregations are defined by the business analyst in Excel using the Excel add-in.  

@@ -1,12 +1,23 @@
 ---
 description: "Learn about the analysis tools for business analysts and information workers provided by Microsoft BizTalk Server."
-title: "Analysis Tools1"
+title: "Analysis Tools1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Business Activity Monitoring (BAM)"
+  - "BAM"
+  - "Human Workflow Services (HWS)"
+  - "HWS"
+ms.assetid: 95aa60c8-a5b2-45f4-9c0e-66a47d2b59c5
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Analysis Tools
 

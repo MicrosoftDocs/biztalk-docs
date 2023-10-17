@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to View the References of an Application"
-title: "How to View the References of an Application"
+title: "How to View the References of an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications, viewing"
+  - "applications, referencing"
+ms.assetid: 5f1026e1-c73e-495d-8160-9ba68f38b9d8
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to View the References of an Application
 This topic describes how to use the BizTalk Server Administration console to view the list of applications to which the current application has references. For more information about adding references, see [How to Add a Reference to Another Application](../core/how-to-add-a-reference-to-another-application.md). You can also view the list of applications that have references to this application.  

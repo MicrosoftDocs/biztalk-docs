@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Mass Copy Functoid"
-title: "Mass Copy Functoid"
+title: "Mass Copy Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "anyAttribute node"
+  - "Mass Copy functoids, about Mass Copy functoids"
+  - "any node"
+  - "Mass Copy functoids"
+ms.assetid: 228ff569-2e21-4e81-b564-6936241cdf6b
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Mass Copy Functoid
 The **Mass Copy** functoid enables your maps to use schemas that include **any** and **anyAttribute** elements. These elements are, in essence, wildcards provided in the XML Schema definition language to match unknown structures or attributes.  

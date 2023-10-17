@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The ESB Failed Orchestration Exception Routing Mechanism"
-title: "The ESB Failed Orchestration Exception Routing Mechanism"
+title: "The ESB Failed Orchestration Exception Routing Mechanism | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aa05f44b-7fb2-48fd-886d-c6d179904e6d
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The ESB Failed Orchestration Exception Routing Mechanism
 The ESB Failed Orchestration Exception Routing mechanism provides the following features:  

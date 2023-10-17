@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter"
-title: "Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter"
+title: "Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 115c908f-777b-4c51-85ea-71d639b01775
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter
 In this section, we’ll enhance the orchestration to process the incoming opportunity notification, extract the opportunity name from the notification, and use that to create a request query to send to Salesforce. This retrieves specific details about the products associated with the opportunity. The query response from Salesforce is received back into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. To achieve this, we’ll perform the following steps:

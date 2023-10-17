@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Creating an A4SWIFT Send Port"
-title: "Creating an A4SWIFT Send Port"
+title: "Creating an A4SWIFT Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, send ports"
+  - "send ports, creating"
+ms.assetid: d1ee18f8-a6aa-4cd5-9e65-fb2e0fa2d0c2
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating an A4SWIFT Send Port
 You must create a send port to enable [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] to send a message to the SWIFT network, as shown in the following figure. This send port will send flat file messages to an outbound file folder. This send port is designed to work with the Message Repair and New Submission feature.  

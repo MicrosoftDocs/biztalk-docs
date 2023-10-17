@@ -1,12 +1,19 @@
 ---
 description: "Create enterprise SSO Affiliate Applications for the PeopleSoft Enterprise adapter in BizTalk Server"
-title: "Create affiliate applications for PeopleSoft Enterprise"
+title: "Create affiliate applications for PeopleSoft Enterprise | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 95151163-5aaf-4683-afb7-02949ccda3e1
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating Affiliate Applications for PeopleSoft Enterprise
 The following steps show how to start using affiliate applications and Single Sign-On (SSO).  

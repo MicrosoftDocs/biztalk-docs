@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Guidelines for Implementing Active Directory Permissions on Multi Server BizTalk Installations"
-title: "Guidelines for Implementing Active Directory Permissions on Multi Server BizTalk Installations"
+title: "Guidelines for Implementing Active Directory Permissions on Multi Server BizTalk Installations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 315e25c4-b21d-4b5f-a1d2-1e2777b57f9e
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Guidelines for Implementing Active Directory Permissions on Multi Server BizTalk Installations
 This topic describes guidelines for creating Active Directory Organizational Units, which consist of the user accounts and groups that you use in a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation.  

@@ -1,12 +1,19 @@
 ---
-title: "Microsoft BizTalk Adapter for SQL Server documentation"
+title: "Microsoft BizTalk Adapter for SQL Server documentation | Microsoft Docs"
 description: Get started, architecture, security, develop apps, message schemas, and troubleshoot the SQL adapter in BizTalk Adapter Pack
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1979ca70-9075-4fdb-b4b4-0749c92b792f
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Microsoft BizTalk Adapter for SQL Server documentation
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] includes a variety of resources to help you understand how the adapter works, how to create applications that use the adapter, describes the different connection options, learn to create applications, and more.

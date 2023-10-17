@@ -1,12 +1,18 @@
 ---
 description: "Learn about the Objects node that is used to match a Transaction Integrator (TI) Host Initiated Processing (HIP) Assembly to the correct HIP Implementation code."
-title: "Objects"
+title: "Objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 868ebe8f-338f-406c-9183-f4c69cea8834
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Objects
 

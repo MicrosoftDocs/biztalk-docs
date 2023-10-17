@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Signing, Compression, and Encryption in AS2 Transport"
-title: "Configuring Signing, Compression, and Encryption in AS2 Transport"
+title: "Configuring Signing, Compression, and Encryption in AS2 Transport | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bc3537a7-c065-4a33-a375-29e7902b5ffa
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Signing, Compression, and Encryption in AS2 Transport
 You can configure digital signatures, signature verification, encryption, and decryption from within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console. This configuration requires that you set the appropriate properties for the AS2 pipelines and BizTalk parties.  

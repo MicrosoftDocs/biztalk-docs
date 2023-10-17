@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Complex Type Derivation Using the Extension Mechanism"
-title: "Complex Type Derivation Using the Extension Mechanism"
+title: "Complex Type Derivation Using the Extension Mechanism | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7125fb5b-f77a-47c9-8000-f2332940df89
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Complex Type Derivation Using the Extension Mechanism
 A complex type derived by extension is a functional superset of its base data type. As the name implies, its base data type is the basis for the type being defined, where the differences from the base type are additive. This topic provides an example in which the two elements **ShippingAddress** and **BillingAddress** are based on the complex global type **GlobalAddrType**. **ShippingAddress** is simply defined to be of type **GlobalAddrType**, whereas **BillingAddress** is defined to extend the type **GlobalAddrType**. At the end of the example, an additional element is added to **BillingAddress**, named **Department**, with a type of string and a default value of Accounts Payable.  

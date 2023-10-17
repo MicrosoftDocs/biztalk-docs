@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Custom RFCs Used by the Provider in SAP"
-title: "Custom RFCs Used by the Provider in SAP"
+title: "Custom RFCs Used by the Provider in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Z_EXTRACT_DATA_OO, limitations related to"
+  - "RFC, Z_EXTRACT_DATA_OO"
+  - "Z_EXTRACT_DATA_OO"
+  - "Z_EXTRACT_DATA_OO, best practice"
+  - "Z_EXTRACT_DATA_OO, security issue"
+ms.assetid: 95661f4c-0431-40ca-8a53-3fbe359b8afd
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Custom RFCs Used by the Provider in SAP
 The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] provides the following custom RFCs that it internally uses to perform operations on the SAP system.  

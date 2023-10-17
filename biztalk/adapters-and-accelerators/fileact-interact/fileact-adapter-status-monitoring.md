@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: FileAct Adapter Status Monitoring"
-title: "FileAct Adapter Status Monitoring"
+title: "FileAct Adapter Status Monitoring | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 15833004-4276-4975-a0e7-8fff3c82576b
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # FileAct Adapter Status Monitoring
 The possible states of a file transfer and the transitions between those states are illustrated in the following figure.  

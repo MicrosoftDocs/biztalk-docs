@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Create the LU1 Print Demonstration"
-title: "How to Create the LU1 Print Demonstration2"
+title: "How to Create the LU1 Print Demonstration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 05758698-756e-4b9e-a3c2-0b5b30bbce74
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create the LU1 Print Demonstration
 The following procedure details creating the LU1 Print Demonstration.  

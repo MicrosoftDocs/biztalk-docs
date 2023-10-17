@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Guidelines for Resolving IIS Permissions Problems"
-title: "Guidelines for Resolving IIS Permissions Problems"
+title: "Guidelines for Resolving IIS Permissions Problems | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "troubleshooting"
+ms.assetid: d9793a90-3aa3-46ab-a317-6d1e0fbfc1ef
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Guidelines for Resolving IIS Permissions Problems
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes extensive use of Microsoft Internet Information Services (IIS) for Web services support and for use with the HTTP, SOAP, and Windows SharePoint Services adapters.

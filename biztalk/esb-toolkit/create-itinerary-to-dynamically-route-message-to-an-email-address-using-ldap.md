@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to: Create an Itinerary to Dynamically Route a Message to an Email Address Using an LDAP Query"
-title: "Create an Itinerary to Dynamically Route a Message to an Email Address Using an LDAP Query"
+title: "How to: Create an Itinerary to Dynamically Route a Message to an Email Address Using an LDAP Query | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6d9929dd-5e45-4b0d-90df-52a35e68b0ba
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to: Create an Itinerary to Dynamically Route a Message to an Email Address Using an LDAP Query
 ## Goal  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Issuing an APPC Verb"
-title: "Issuing an APPC Verb1"
+title: "Issuing an APPC Verb1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f3819c4d-570c-4a2a-a9b5-422b2f6bbe41
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Issuing an APPC Verb
 The following procedure is required to issue a blocking APPC verb. In the sample code, the verb issued is **MC_SEND_DATA**.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Support for APPC Automatic Logon"
-title: "Support for APPC Automatic Logon2"
+title: "Support for APPC Automatic Logon2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3ebf9e8c-bee3-4ed2-8de1-0a5a069d015c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Support for APPC Automatic Logon
 This section describes the support for automatic logon for Advanced Program-to-Program Communications (APPC) applications available in Host Integration Server. This feature requires specific configuration by the network administrator.  

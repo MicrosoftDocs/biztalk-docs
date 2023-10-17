@@ -1,12 +1,19 @@
 ---
-title: "Troubleshoot operational issues with the Oracle Database adapter"
+title: "Troubleshoot operational issues with the Oracle Database adapter | Microsoft Docs"
 description: Common issues and resolutions for Oracle Database adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2fb83245-2b6a-48cc-8601-b923bb009a58
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshoot operational issues with the Oracle Database adapter
 Troubleshooting techniques to resolve operational errors that you may experience using [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].

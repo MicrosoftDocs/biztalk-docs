@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: RNIF Message Processing"
-title: "RNIF Message Processing"
+title: "RNIF Message Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "RosettaNet Implementation Framework (RNIF)"
+  - "RosettaNet, about RosettaNet"
+  - "RNIF"
+  - "RNIF, non-repudiation"
+  - "RNIF, BizTalk Accelerator for RosettaNet"
+  - "non-repudiation"
+  - "RNIF, about RNIF"
+  - "BizTalk Accelerator for RosettaNet, RNIF"
+  - "RosettaNet"
+ms.assetid: 994f15bc-765c-4220-8ab1-176919e9e821
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # RNIF Message Processing
 The RosettaNet organization defines message exchange in the RosettaNet Implementation Framework (RNIF) specifications. RNIF defines how integration systems will transport messages. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] fully implements the RNIF specifications, adding that functionality to what Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] natively provides out-of-the-box.  

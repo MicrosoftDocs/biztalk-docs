@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Configure Transactional Properties on an Orchestration"
-title: "How to Configure Transactional Properties on an Orchestration"
+title: "How to Configure Transactional Properties on an Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "atomic transactions"
+  - "orchestrations, transactions"
+  - "transactions, long-running"
+  - "orchestrations, configuring"
+  - "transactions, atomic"
+ms.assetid: 8eec6019-4d96-4ed6-8a90-9403738d8af4
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure Transactional Properties on an Orchestration
 An orchestration can be treated as an atomic transaction, a long-running transaction, or neither.  

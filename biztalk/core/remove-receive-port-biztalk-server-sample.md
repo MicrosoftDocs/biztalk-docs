@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Remove Receive Port (BizTalk Server Sample)"
-title: "Remove Receive Port (BizTalk Server Sample)"
+title: "Remove Receive Port (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "receive ports, examples"
+  - "deleting, receive ports"
+  - "examples, receive ports"
+  - "receive ports, deleting"
+ms.assetid: de97d914-b8e8-4365-8041-3b455c351f86
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Remove Receive Port (BizTalk Server Sample)
 The Remove Receive Port sample demonstrates how to remove one or more receive ports.

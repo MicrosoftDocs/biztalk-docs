@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Run an insert operation on an interface table in Oracle E-Business Suite using the WCF channel model"
-title: "Run an insert operation on an interface table in Oracle E-Business Suite using the WCF channel model"
+title: "Run an insert operation on an interface table in Oracle E-Business Suite using the WCF channel model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8a2e5ee3-552b-40a2-aaa6-5391347f1146
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run an insert operation on an interface table in Oracle E-Business Suite using the WCF channel model
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] discovers a set of Insert, Select, Update, and Delete operations on Oracle E-Business Suite interface tables. By using these operations, you can perform simple Insert, Select, Update, and Delete statements qualified by a Where clause on a target interface table. This topic provides instructions on how to perform an Insert operation on an interface table using the WCF channel model.  

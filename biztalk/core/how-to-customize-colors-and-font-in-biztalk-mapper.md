@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: How to Customize Colors and Font in BizTalk Mapper"
-title: "How to Customize Colors and Font in BizTalk Mapper"
+title: "How to Customize Colors and Font in BizTalk Mapper | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.mapper.options.colors"
+ms.assetid: 494e4d70-8159-4721-9378-85bfc3c3d6f2
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Customize Colors and Font in BizTalk Mapper
 You can change the colors associated with various types of links and the color of selected objects in the Grid view. You can also change the font used to display the schema tree nodes. This topic provides step-by-step instructions for making such changes.  

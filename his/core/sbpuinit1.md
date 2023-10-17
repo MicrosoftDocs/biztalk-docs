@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: sbpuinit"
-title: "sbpuinit1"
+title: "sbpuinit1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e7e4f07d-4776-49dc-acfc-5f0e9173e3af
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # sbpuinit
 The **sbpuinit** function initializes the DL-BASE.  

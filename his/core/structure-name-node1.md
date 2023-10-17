@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Structure Name Node"
-title: "Structure Name Node1"
+title: "Structure Name Node1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15473"
+ms.assetid: d882e52d-7012-4e6e-9bdd-3ce2a32fe3ce
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Structure Name Node
 Use the ***structure name*** node to view a list of structure member names and their properties.  

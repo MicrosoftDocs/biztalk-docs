@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Disable Alerts"
-title: "How to Disable Alerts"
+title: "How to Disable Alerts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "alerts, disabling"
+  - "managing [BAM definitions], disabling alerts"
+  - "Disable-Alerts command [BAM]"
+ms.assetid: c5938bc2-1043-4633-8cad-02caf442f2e8
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Disable Alerts
 Administrators use the **disable-alerts** command to disable all of the alerts on the specified view.  

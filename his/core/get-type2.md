@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: GET_TYPE"
-title: "GET_TYPE2"
+title: "GET_TYPE2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5c3dbe9b-ca16-45cc-bbca-c747a29d594f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # GET_TYPE
 The **GET_TYPE** verb returns the conversation type (basic or mapped) of a particular conversation so the transaction program (TP) can decide whether to use basic or mapped conversation verbs.  

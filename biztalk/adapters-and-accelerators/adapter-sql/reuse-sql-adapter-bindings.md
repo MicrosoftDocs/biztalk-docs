@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Reuse SQL adapter bindings"
-title: "Reuse SQL adapter bindings"
+title: "Reuse SQL adapter bindings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8bc8140f-1d40-492c-bce1-b85e992b3567
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Reuse SQL adapter bindings
 A binding creates a mapping between a logical endpoint (such as an orchestration port or a role link) and a physical endpoint (such as a send and receive port). This enables communication between different components of a BizTalk business solution. You can create bindings by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  

@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Nested Class Name Collision"
-title: "Error - Nested Class Name Collision"
+title: "Error - Nested Class Name Collision | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.nestedClassNameCollision"
+ms.assetid: dd636d25-d0c1-41be-a2ba-b38ea97b973d
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Nested Class Name Collision
 **Error Code**  

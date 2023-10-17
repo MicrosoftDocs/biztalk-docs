@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Validation (EDIFACT-Transaction Set Settings)"
-title: "Configuring Validation (EDIFACT-Transaction Set Settings)"
+title: "Configuring Validation (EDIFACT-Transaction Set Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 81b30a78-3a4b-4827-9b0a-af9ad3e865a3
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Validation (EDIFACT-Transaction Set Settings)
 The transaction set validation settings define how BizTalk Server validates the transaction sets received from a party. As part of validation settings you can specify which type of validation BizTalk Server will perform on an incoming interchange  

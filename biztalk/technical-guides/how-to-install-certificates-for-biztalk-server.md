@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Install Certificates for BizTalk Server"
-title: "How to Install Certificates for BizTalk Server"
+title: "How to Install Certificates for BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 70a89595-8828-4872-b78b-77e9b0b048b8
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Install Certificates for BizTalk Server
 To help secure data transfer on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must add the appropriate certificate to the appropriate certificate store, and associate the certificates with the appropriate BizTalk artifacts. This topic describes how to display the Certificates Management Console interface for the Local Computer and Current User certificate stores, and how to install the appropriate certificate in the appropriate store.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Paths and DMODs (SNADIS)"
-title: "Paths and DMODs (SNADIS)1"
+title: "Paths and DMODs (SNADIS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f4772aed-51c5-4a59-870a-14269b6facd3
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Paths and DMODs (SNADIS)
 Dynamic Access Modules (DMODs) are responsible for the communication between localities. When the DMODs in two localities can successfully pass messages between them, a path is said to exist between the two localities. A path must exist between two localities before a connection can exist between partners in those localities.  

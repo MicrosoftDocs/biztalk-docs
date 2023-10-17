@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: What Happens When You Deploy an Assembly from Visual Studio"
-title: "What Happens When You Deploy an Assembly from Visual Studio"
+title: "What Happens When You Deploy an Assembly from Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 421df529-1ddb-4f49-a40a-c06f2a434ffc
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Happens When You Deploy an Assembly from Visual Studio
 This topic describes what happens when you deploy assemblies from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into a BizTalk application on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11016"
-title: "Single Sign-On: Event 11016"
+title: "Single Sign-On: Event 11016 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3963b706-168d-438d-a068-637f8a6b7b0c
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 11016
 ## Details  

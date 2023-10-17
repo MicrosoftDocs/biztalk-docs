@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Schema Member Shortcut Menu"
-title: "Schema Member Shortcut Menu1"
+title: "Schema Member Shortcut Menu1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ebiz.his.2006.tidesigner.node.hostfiles.schemamember"
+ms.assetid: a3736604-feee-4b7e-aaf7-22f46d749b37
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Schema Member Shortcut Menu
 When you select a union member from the Library tree, the following shortcut menu commands appear:  

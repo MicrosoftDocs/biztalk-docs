@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Context Properties"
-title: "EDI Context Properties"
+title: "EDI Context Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d6a408af-daf5-4e9e-afb3-9fd1795e8c16
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Context Properties
 The message context properties in the EDI global property schema are publicly exposed so you can use them in operations such as message routing. These context properties are defined in PropertySchema.xsd in the Microsoft.BizTalk.Edi.BaseArtifacts assembly. The namespace for the properties is `http://schemas.microsoft.com/ Edi/PropertySchema`. If they are promoted, these message context properties are available as Edi.\<*Property Name*\> in the **Filters** page of the **Send Port Properties Dialog Box** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].

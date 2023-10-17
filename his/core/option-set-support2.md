@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Option Set Support"
-title: "Option Set Support2"
+title: "Option Set Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 41f8df23-bcbb-4917-9073-fac64b160aa7
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Option Set Support
 The following table lists the option sets supported by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]. The reference numbers are those specified in IBM documentation.  

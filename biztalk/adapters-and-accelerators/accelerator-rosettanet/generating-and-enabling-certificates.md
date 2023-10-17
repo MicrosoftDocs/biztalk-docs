@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Generating and Enabling Certificates"
-title: "Generating and Enabling Certificates"
+title: "Generating and Enabling Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "certificates, enabling"
+  - "private process tutorial, creating certificates"
+  - "private process tutorial, enabling certificates"
+ms.assetid: a36d9725-d57c-499d-948d-558096709d67
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Generating and Enabling Certificates
 This tutorial uses certificates to sign and encrypt messages sent by the Contoso and Fabrikam organizations. If you have already completed the Double Action Tutorial, you may skip this step and move on to [Creating the Contoso Solution](../../adapters-and-accelerators/accelerator-rosettanet/creating-the-contoso-solution.md). To generate and use certificates for this tutorial, follow the procedures in the following topics:  

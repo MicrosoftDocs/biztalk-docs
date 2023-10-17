@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TP Name Not Unique; Local LU Alias Unspecified"
-title: "TP Name Not Unique; Local LU Alias Unspecified2"
+title: "TP Name Not Unique; Local LU Alias Unspecified2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5ee1a60e-3972-4fb1-a136-8aef23e525f0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TP Name Not Unique; Local LU Alias Unspecified
 If it does not matter on which system an invokable TP runs, use the same name for multiple invokable TPs, but do not specify an LU alias in the registry or environment variables for the TPs. In such a situation, there are no associated aliases in the list of available invokable TP names on a Host Integration Server computer. Thus, a request received from an invoking TP cannot cause a mismatch on the LU alias, and will match according to the TP name.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn how to identify bottlenecks in the MessageBox database using the SQL-Server-Agent Service to monitor growth in the Spool, Application queue, and TrackingData tables."
-title: "How to Identify Bottlenecks in the MessageBox Database2"
+title: "How to Identify Bottlenecks in the MessageBox Database2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 10b2eb1e-541c-457d-9735-ac6fb069b209
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Identify Bottlenecks in the MessageBox Database
 

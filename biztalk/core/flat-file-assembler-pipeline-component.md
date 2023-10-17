@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Flat File Assembler Pipeline Component"
-title: "Flat File Assembler Pipeline Component"
+title: "Flat File Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipeline components, Flat File Assembler"
+  - "Flat File Assembler [pipeline component]"
+ms.assetid: 3c851771-55b2-4d21-9291-d707dd66837c
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Flat File Assembler Pipeline Component
 A Flat File Assembler combines individual documents into a batch and optionally adds a header or trailer (or both) to it. For more information about flat files, see [Flat File Messages with Delimited Records](../core/flat-file-messages-with-delimited-records.md). Also see [Flat File Messages with Positional Records](../core/flat-file-messages-with-positional-records.md).  

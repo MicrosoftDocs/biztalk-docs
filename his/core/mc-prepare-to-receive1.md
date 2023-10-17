@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MC_PREPARE_TO_RECEIVE"
-title: "MC_PREPARE_TO_RECEIVE1"
+title: "MC_PREPARE_TO_RECEIVE1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f98928e3-d11a-4cc9-88bf-4550980762cb
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MC_PREPARE_TO_RECEIVE
 The **MC_PREPARE_TO_RECEIVE** verb changes the state of the conversation for the local transaction program (TP) from SEND to RECEIVE.  

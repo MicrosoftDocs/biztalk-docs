@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Parameter Name Node (.NET)"
-title: "Parameter Name Node (.NET)1"
+title: "Parameter Name Node (.NET)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15468"
+ms.assetid: dcf44507-fcb0-41c5-ad77-9f40cf7105ac
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Parameter Name Node (.NET)
 Use the ***parameter name*** node to change the name of the parameter or view its properties.  

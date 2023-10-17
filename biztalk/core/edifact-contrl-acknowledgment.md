@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDIFACT CONTRL Acknowledgment"
-title: "EDIFACT CONTRL Acknowledgment"
+title: "EDIFACT CONTRL Acknowledgment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 95e1c244-d700-48d3-9416-032ead6d4d6d
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDIFACT CONTRL Acknowledgment
 The CONTRL acknowledgment (ACK) serves as both technical and functional acknowledgment for EDIFACT-encoded messages. As a technical acknowledgment, the CONTRL message indicates receipt of an interchange. As a functional acknowledgment, the CONTRL message indicates acceptance or rejection of the received interchange, group, or message, with a list of errors or unsupported functionality.  

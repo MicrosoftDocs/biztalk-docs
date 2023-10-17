@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: User Management"
-title: "User Management1"
+title: "User Management1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 971dddff-1ecc-4805-b449-81fd54a1c4da
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # User Management
 Although [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] uses the User accounts of the Microsoft Windows Active Directory directory service, users must be configured to use [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] resources such as LUs.  

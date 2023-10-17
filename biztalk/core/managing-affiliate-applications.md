@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Managing Affiliate Applications"
-title: "Managing Affiliate Applications"
+title: "Managing Affiliate Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [SSO applications]"
+  - "applications [SSO], managing"
+  - "SSO, applications"
+ms.assetid: 9bc6b120-6849-476a-b3af-c18bf2fa0197
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Managing Affiliate Applications
 This section provides information about how to create and configure affiliate applications.  

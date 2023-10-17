@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: Certificate Stores that BizTalk Server Uses"
-title: "Certificate Stores that BizTalk Server Uses"
+title: "Certificate Stores that BizTalk Server Uses | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "public key certificates"
+  - "certificate stores, warnings"
+  - "private key certificates"
+  - "certificates, private key"
+  - "Other People stores [certificates]"
+  - "certificate stores, Personal store"
+  - "Personal store [certificates]"
+  - "certificate stores, Windows stores"
+  - "certificates, public key"
+  - "certificates, certificate stores"
+  - "certificate stores"
+ms.assetid: 29b65913-be3b-45d9-9865-02e52e4370f4
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Certificate Stores that BizTalk Server Uses
 BizTalk Server uses two types of certificate stores, the Other People certificate store for public keys, and the Personal certificate store for each host instance service account for the private key.  

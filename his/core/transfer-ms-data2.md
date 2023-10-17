@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TRANSFER_MS_DATA"
-title: "TRANSFER_MS_DATA2"
+title: "TRANSFER_MS_DATA2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4eb8badf-799f-45e2-8e44-7fdcbecda742
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TRANSFER_MS_DATA
 The **TRANSFER_MS_DATA** verb builds an SNA request unit containing Network Management Vector Transport (NMVT) data. The verb can send the NMVT data to NetView for centralized problem diagnosis and resolution. The data is logged in the local audit file.  

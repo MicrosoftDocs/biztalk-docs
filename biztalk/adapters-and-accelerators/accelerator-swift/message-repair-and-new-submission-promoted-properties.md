@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Message Repair and New Submission Promoted Properties"
-title: "Message Repair and New Submission Promoted Properties"
+title: "Message Repair and New Submission Promoted Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "promoted properties, Message Repair and New Submission"
+  - "Message Repair and New Submission, promoted properties"
+ms.assetid: e980c905-d07f-4fc2-89ca-05e597410733
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Repair and New Submission Promoted Properties
 The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair and New Submission reconciliation includes the following promoted properties.  

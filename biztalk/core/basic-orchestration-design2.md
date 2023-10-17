@@ -1,12 +1,21 @@
 ---
 description: "Learn more about basic orchestration design, including how to use the Event Viewer Log to view an exception in the back-end system."
-title: "Basic Orchestration Design2"
+title: "Basic Orchestration Design2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, design"
+ms.assetid: fcdcb232-6a8f-41f3-b863-3b9e2cda28e3
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create a Basic Orchestration
 When you create a basic orchestration, you receive XML in the receive port of your orchestration. The XML is sent to the back-end system to be processed. In the back-end system, an exception might occur that could stop the orchestration. The exception that is produced provides information that the orchestration was not completed.  

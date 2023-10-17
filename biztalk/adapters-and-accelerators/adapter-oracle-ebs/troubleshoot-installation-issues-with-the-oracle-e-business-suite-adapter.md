@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Troubleshoot Installation Issues with the Oracle E-Business Suite adapter"
-title: "Troubleshoot Installation Issues with the Oracle E-Business Suite adapter"
+title: "Troubleshoot Installation Issues with the Oracle E-Business Suite adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 09b3af20-ab87-44e8-8ded-c19432552be7
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshoot Installation Issues with the Oracle E-Business Suite adapter
 Installation of the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] copies the product binaries on the computer and registers the bindings for each adapter. This section discusses using troubleshooting techniques to resolve installation errors.

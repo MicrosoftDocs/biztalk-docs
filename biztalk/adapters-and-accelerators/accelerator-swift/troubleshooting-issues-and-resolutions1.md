@@ -1,12 +1,22 @@
 ---
 description: "Learn about symptoms, possible causes, and solutions for issues related to running Microsoft BizTalk Accelerator for SWIFT (A4SWIFT)."
-title: "Troubleshooting: Issues and Resolutions1"
+title: "Troubleshooting: Issues and Resolutions1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "troubleshooting"
+  - "BizTalk Accelerator for SWIFT, troubleshooting"
+ms.assetid: dbbca7e3-91b3-4508-af2f-264c1e23d234
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting: Issues and Resolutions
 

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 4A: Start the SWIFTNet Service for the FileAct Store and Forward (Pull) Scenario"
-title: "Step 4A: Start the SWIFTNet Service for the FileAct Store and Forward (Pull) Scenario"
+title: "Step 4A: Start the SWIFTNet Service for the FileAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cd89cb07-aa25-43c4-afb1-7139ac7cdba9
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 4A: Start the SWIFTNet Service for the FileAct Store and Forward (Pull) Scenario
 Before you begin this step, you must complete [Step 3B: Bind the orchestration with dynamic send port for FileAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-3b-bind-orchestration-with-dynamic-send-for-fileact-store-and-forward.md).  

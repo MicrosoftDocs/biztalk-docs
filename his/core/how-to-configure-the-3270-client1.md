@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure the 3270 Client"
-title: "How to Configure the 3270 Client1"
+title: "How to Configure the 3270 Client1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f15c00d0-8877-43b2-ae06-fa307a6718bb
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure the 3270 Client
 The following procedure details configuring the 3270 Client application.  

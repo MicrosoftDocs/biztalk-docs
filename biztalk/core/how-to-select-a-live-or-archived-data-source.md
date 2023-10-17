@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: How to Select a Live or Archived Data Source"
-title: "How to Select a Live or Archived Data Source"
+title: "How to Select a Live or Archived Data Source | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Management database, archived data"
+  - "Management database, real-time data"
+  - "HAT, real-time data"
+  - "archived data, Management database"
+  - "HAT, archived data"
+  - "real-time data, HAT"
+  - "real-time data, Management database"
+  - "archived data, HAT"
+ms.assetid: e2325823-22e1-4a1a-865b-15757b215b29
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Select a Live or Archived Data Source
 BizTalktracking enables you to access both archived and live data. You select a live or archived data source from the main **BizTalk Server Administration** node BizTalk Server Administration Console.  The default source is live data, retrieved from the BizTalk Management database. If you choose to work with archived data, you must select the appropriate server/s and database/s with which to work.  

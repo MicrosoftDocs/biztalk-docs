@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Message Schemas for the SQLEXECUTE Operation"
-title: "Message Schemas for the SQLEXECUTE Operation"
+title: "Message Schemas for the SQLEXECUTE Operation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SQLEXECUTE operations, message schemas for"
+ms.assetid: 744645f4-0674-44e0-bf8d-8df70086b0f1
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Schemas for the SQLEXECUTE Operation
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces strongly-typed metadata for artifacts present in the LOB system and exposes standard operations on these artifacts. However, there are scenarios where an application might require the execution of an arbitrary SQL statement that is driven by the business logic in the application. For example, you may want to:  

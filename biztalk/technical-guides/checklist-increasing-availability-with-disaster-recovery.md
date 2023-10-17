@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Increasing Availability with Disaster Recovery"
-title: "Checklist: Increasing Availability with Disaster Recovery"
+title: "Checklist: Increasing Availability with Disaster Recovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0b315110-206a-4fa7-9bde-abab1429c83b
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Increasing Availability with Disaster Recovery
 This topic describes the steps that you should follow to increase availability of a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment using disaster recovery. Disaster recovery is typically implemented after providing high availability with fault tolerance and/or load balancing.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Transaction Set List (EDIFACT)"
-title: "Configuring Transaction Set List (EDIFACT)"
+title: "Configuring Transaction Set List (EDIFACT) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b03ace75-70bf-47c9-9a94-df813d7cab1e
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Transaction Set List (EDIFACT)
 BizTalk Server enables you to define a list of transaction sets that must always be included or excluded while processing an EDI interchange. This section provides instructions on how to create the transaction set list.  

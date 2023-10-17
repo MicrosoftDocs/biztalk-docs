@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Add New Item Dialog Box (Visual Studio)"
-title: "Add New Item Dialog Box (Visual Studio)1"
+title: "Add New Item Dialog Box (Visual Studio)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e633bba0-0628-4688-80b3-bc6c1c12f201
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Add New Item Dialog Box (Visual Studio)
 The **Add New Item** dialog box enables you to add an item to the currently selected project. There are two panes in the dialog box:  

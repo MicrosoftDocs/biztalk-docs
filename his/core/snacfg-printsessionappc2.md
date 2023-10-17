@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Snacfg PrintSessionAPPC"
-title: "Snacfg PrintSessionAPPC2"
+title: "Snacfg PrintSessionAPPC2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c8eef1e4-3e49-4a00-a297-df7e64bc273a
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Snacfg PrintSessionAPPC
 ## Purpose  

@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Using XPaths in Message Assignments"
-title: "Using XPaths in Message Assignments"
+title: "Using XPaths in Message Assignments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "XPaths, XPath function"
+  - "XPaths, messages"
+  - "code samples, XPaths"
+  - "messages, XPaths"
+  - "XPath function"
+  - "XPaths, code samples"
+  - "XPaths, nodes"
+ms.assetid: f2e12409-bb77-4315-b03b-5c7736ae51d5
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using XPaths in Message Assignments
 You can use the **xpath** function to assign an XPath value to a message part, or to assign a value to an XPath that refers to a message part. For more information on assigning to messages and message parts, see [Constructing Messages](../core/constructing-messages.md).  

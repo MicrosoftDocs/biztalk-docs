@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to List the Properties of an Affiliate Application"
-title: "How to List the Properties of an Affiliate Application"
+title: "How to List the Properties of an Affiliate Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fac15775-39d0-470e-b9d2-21b2d02e1de7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to List the Properties of an Affiliate Application
 The **displayapp** command shows the following information about the affiliate application. For more information about the properties for an affiliate application, see [SSO Affiliate Applications](../esso/sso-affiliate-applications.md).  

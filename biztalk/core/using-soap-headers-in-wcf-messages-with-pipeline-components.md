@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Using SOAP Headers in WCF Messages with Pipeline Components"
-title: "Using SOAP Headers in WCF Messages with Pipeline Components"
+title: "Using SOAP Headers in WCF Messages with Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "pipeline components, SOAP headers"
+  - "SOAP headers, pipeline components"
+  - "SOAP headers, WCF services"
+  - "WCF services, SOAP headers"
+ms.assetid: b02f2913-4948-4de9-bc59-73bab40aa1a0
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using SOAP Headers in WCF Messages with Pipeline Components
 You can set the custom SOAP headers with the WCF adapters in pipeline components. You use a combination of the context property name, **OutboundCustomHeaders**, and the target namespace `http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties`. When you use the **OutboundCustomHeaders** property, the property must have the \<**headers**\> element as the root element. All of the custom SOAP headers must be placed inside the \<**headers**\> element. If the custom SOAP header value is an empty string, you must assign \<**headers**\>\</**headers**\> or \<**headers**/\> to the **OutboundCustomHeaders** property. For more information about how to use SOAP headers with the WCF adapters, see the SDK sample, Using Custom SOAP Headers with the WCF Adapters, from [https://go.microsoft.com/fwlink/?LinkId=79960](https://go.microsoft.com/fwlink/?LinkId=79960).

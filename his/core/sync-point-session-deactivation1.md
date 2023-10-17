@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sync Point Session Deactivation"
-title: "Sync Point Session Deactivation1"
+title: "Sync Point Session Deactivation1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e9dccc14-8bb3-489b-9e3b-b7eda8053192
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sync Point Session Deactivation
 A Sync Point implementation needs to determine whether it has lost connectivity to a partner when establishing Sync Point conversations so that it can know whether or not to resynchronize. To obtain this information, Host Integration Server provides a new APPC verb, [GET_LU_STATUS](./get-lu-status2.md) that reports the status of a particular remote LU. The information returned by this verb is as follows:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Record and Play Logon Scripts"
-title: "How to Record and Play Logon Scripts2"
+title: "How to Record and Play Logon Scripts2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 120d8fcf-b6fd-4e5f-989d-07634bc5424a
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Record and Play Logon Scripts
 The 3270 logon scripts make it easy for users and administrators to automate the logon procedure. You can use a script provided by your system administrator, or create your own. You can run the logon script at any time. The logon script feature enables Single Sign-On to host applications for the 3270 Host Integration Server clients and 3270 weblets, provided your host security administrator has enabled account password synchronization.  

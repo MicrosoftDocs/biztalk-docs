@@ -1,11 +1,19 @@
 ---
-title: Install, configure, or upgrade Microsoft BizTalk Accelerator for RosettaNet (BTARN)
+title: Install, configure, or upgrade Microsoft BizTalk Accelerator for RosettaNet (BTARN) | Microsoft Docs
 description: Overview of the install, configure, upgrade, uninstall, and troubleshoot of the RosettaNet accelerator in BizTalk Server
+caps.latest.revision: 2
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c984fbad-43a6-459d-9583-d0acf77e0ef8
+ms.author: "mandia"
 ms.date: "08/09/2017"
 ---
 

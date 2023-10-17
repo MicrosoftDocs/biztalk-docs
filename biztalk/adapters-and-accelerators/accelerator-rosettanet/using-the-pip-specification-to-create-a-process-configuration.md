@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Using the PIP Specification to Create a Process Configuration"
-title: "Using the PIP Specification to Create a Process Configuration"
+title: "Using the PIP Specification to Create a Process Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "PIPs, PIP settings"
+  - "PIPs, PIP secifications"
+  - "process configuration, PIPs"
+  - "PIPs, process configuration"
+ms.assetid: 64f0f5fb-f880-4ef1-95d7-2575b8d0bcff
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using the PIP Specification to Create a Process Configuration
 After you download a Partner Interface Process (PIP) from the RosettaNet organization (from RosettaNet.org), the download package includes a PIP specification document. This document contains guidance on what settings to use when you create a process configuration in the [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Management Console.  

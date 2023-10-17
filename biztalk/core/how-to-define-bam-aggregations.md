@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Define BAM Aggregations"
-title: "How to Define BAM Aggregations"
+title: "How to Define BAM Aggregations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security, BAM"
+  - "aggregations [BAM], creating"
+  - "Excel add-in [BAM], security"
+  - "Excel add-in [BAM], creating aggregations"
+  - "managing [BAM], creating aggregations"
+ms.assetid: a5ef3a15-b1de-4099-8e94-64af4b5ec746
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Define BAM Aggregations
 BAM supports two types of data aggregation:  

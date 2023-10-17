@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Set map compilation and output settings"
-title: "How to Specify XSLT Output Settings"
+title: "How to Specify XSLT Output Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4c541432-fd4e-41cc-8bcc-f570ce5df439
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Set map compilation and output settings
 Set the map properties in the BizTalk mapper. 

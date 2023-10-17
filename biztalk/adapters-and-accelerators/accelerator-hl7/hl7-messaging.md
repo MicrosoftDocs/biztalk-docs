@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: HL7 Messaging"
 title: "HL7 Messaging"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "messages, HL7 messaging"
+  - "HL7, messaging"
+ms.assetid: cc6fa1b3-9707-4590-a78b-0c2e855f65d2
+caps.latest.revision: 3
+
+
+
 ---
 # HL7 Messaging
 The primary purpose of Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) is to process health care messages that conform to the HL7 standard. To introduce you to HL7 messaging, this section provides information about the HL7 standard, basic HL7 message modes, message types, and how [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] triggers HL7 messages.  

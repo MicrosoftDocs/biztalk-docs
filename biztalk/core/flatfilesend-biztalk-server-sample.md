@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: FlatFileSend (BizTalk Server Sample)"
-title: "FlatFileSend (BizTalk Server Sample)"
+title: "FlatFileSend (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 52dd0018-e272-40db-a26a-509d444d7106
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # FlatFileSend (BizTalk Server Sample)
 The FlatFileSend sample demonstrates how you can use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to process an XML file into the equivalent flat file.  

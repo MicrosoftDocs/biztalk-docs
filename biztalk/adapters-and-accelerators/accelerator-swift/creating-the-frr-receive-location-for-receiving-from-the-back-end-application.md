@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Creating the FRR Receive Location for Receiving from the Back-End Application"
-title: "Creating the FRR Receive Location for Receiving from the Back-End Application"
+title: "Creating the FRR Receive Location for Receiving from the Back-End Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "receive locations, creating"
+  - "creating, receive locations"
+  - "FRR, creating receive locations"
+ms.assetid: 78bd8084-ddec-4066-a474-ab5b1a0a849f
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating the FRR Receive Location for Receiving from the Back-End Application
 To perform FIN Response Reconciliation, you need to create a receive location that receives a message from the back-end application into [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)].  

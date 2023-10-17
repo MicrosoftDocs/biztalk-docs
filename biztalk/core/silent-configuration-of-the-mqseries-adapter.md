@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Silent Configuration of the MQSeries Adapter"
-title: "Silent Configuration of the MQSeries Adapter"
+title: "Silent Configuration of the MQSeries Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "silent configuration [MQSeries adapters]"
+  - "configuring [MQSeries adapters], silent configuration"
+  - "MQSeries adapters, silent configuration"
+ms.assetid: 6fdf556b-5c0e-4f8b-ae1c-fe06fd77e102
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Silent Configuration of the MQSeries Adapter
 You can use the MQSAgent COM+ Configuration Wizard from the command line to perform a silent configuration. You can also use the command-line version of the wizard to remove the MQSAgent. The wizard reads configuration information from an XML file.  

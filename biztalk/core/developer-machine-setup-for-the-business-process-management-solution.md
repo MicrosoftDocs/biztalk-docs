@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Developer Machine Setup for the Business Process Management Solution"
-title: "Developer Machine Setup for the Business Process Management Solution"
+title: "Developer Machine Setup for the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "developer servers"
+  - "process management solution tutorial, developer servers"
+  - "process management solution tutorial, deploying"
+ms.assetid: cf975323-53ec-45a8-9f68-80ad423f298b
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Developer Machine Setup for the Business Process Management Solution
 The Business Process Management (BPM) solution shows one way to construct a process manager in a BizTalk application. The solution uses a component to select and control the sequence of stages in order processing. The solution takes an order—which may be for new service, an upgrade, or termination of service—logs it, and acknowledges the order before passing it on for processing. The processing consists of one or more stages that handle the order. Finally, the solution returns a response to the original order request.  

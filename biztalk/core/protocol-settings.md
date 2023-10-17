@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Protocol Settings"
-title: "Protocol Settings"
+title: "Protocol Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 224a9837-5c85-4511-b6d9-c8fda63a27d1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Protocol Settings
 ## Overview

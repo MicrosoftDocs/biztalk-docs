@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Writing AS2 Context Properties for Outbound Party Resolution"
-title: "Writing AS2 Context Properties for Outbound Party Resolution"
+title: "Writing AS2 Context Properties for Outbound Party Resolution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 808d63d9-076d-4eed-8420-aee12b130fee
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Writing AS2 Context Properties for Outbound Party Resolution
 Agreement resolution of outbound AS2 message can be performed using the AS2To context property or the AS2To property in the `Http.UserHttpHeaders` context property. However, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not write the AS2To property to the context upon receiving an AS2 message. If you want to perform agreement resolution on the AS2To or UserHttpHeaders context property, you have to write a custom orchestration or a custom pipeline component to do so. This is required only if the send port is not linked to the agreement.  

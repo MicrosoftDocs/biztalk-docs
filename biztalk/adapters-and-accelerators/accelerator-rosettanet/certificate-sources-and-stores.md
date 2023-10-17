@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Certificate Sources and Stores"
-title: "Certificate Sources and Stores"
+title: "Certificate Sources and Stores | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "certificates, certificate storage"
+  - "importing certificates"
+  - "certificates, certificate sources"
+  - "certificates, importing"
+ms.assetid: 3e98fb56-4368-46f3-9329-c44fed11f4fb
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Certificate Sources and Stores
 This topic describes where to import certificates from, and where to store certificates.  

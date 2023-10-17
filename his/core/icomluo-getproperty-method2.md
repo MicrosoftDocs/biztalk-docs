@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: IcomLUO.GetProperty Method"
-title: "IcomLUO.GetProperty Method2"
+title: "IcomLUO.GetProperty Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4ec9e26f-a0c0-4ec5-8a36-6d6cbd91e5e7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # IcomLUO.GetProperty Method
 Extracts both pre-defined and application-specific properties for the session.  

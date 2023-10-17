@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Windows CSV Considerations]"
-title: "Windows CSV Considerations]2"
+title: "Windows CSV Considerations]2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4b83b1aa-6221-4872-968a-a2f20fee0e5c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Windows CSV Considerations]
 The following Microsoft® Windows® extensions are of particular importance and should be reviewed before using Windows CSV:  

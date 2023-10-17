@@ -4,6 +4,7 @@ description: Learn how to install BAP 2013 R2 and BAP 2013 included with BizTalk
 ms.prod: biztalk-server
 ms.topic: how-to
 ms.date: 12/09/2015
+
 ---
 
 # Install BizTalk Adapter Pack 2013 R2 and 2013

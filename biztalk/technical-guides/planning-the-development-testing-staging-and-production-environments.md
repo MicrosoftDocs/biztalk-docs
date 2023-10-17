@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Planning the Development, Testing, Staging, and Production Environments"
-title: "Planning the Development, Testing, Staging, and Production Environments"
+title: "Planning the Development, Testing, Staging, and Production Environments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6c83a42d-117f-4a24-a669-b3e4e1c9a056
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Planning the Development, Testing, Staging, and Production Environments
 This topic discusses the environments used in the release management process for a BizTalk solution. As with any enterprise software solution, you should follow established software release management guidelines when you develop and release a BizTalk solution. This process should include the following distinct stages:

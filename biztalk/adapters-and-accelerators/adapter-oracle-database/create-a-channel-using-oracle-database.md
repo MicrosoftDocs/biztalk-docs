@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Create a channel using Oracle Database"
-title: "Create a channel using Oracle Database"
+title: "Create a channel using Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating a channel"
+  - "WCF channel model, creating a channel"
+  - "how to, create a channel"
+  - "channel programming, creating a channel"
+ms.assetid: a30156a0-5a5a-4418-be17-2e23c3716fc1
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create a channel using Oracle Database
 In the WCF channel model, you invoke operations on the Oracle database and receive the results of a polling query by exchanging SOAP messages with the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] over a WCF channel.  

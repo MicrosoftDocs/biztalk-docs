@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TI TCP/IP Load Balancing"
-title: "TI TCP-IP Load Balancing2"
+title: "TI TCP-IP Load Balancing2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0e7a19d1-637c-4f5d-a2ad-513d3b54f88e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TI TCP/IP Load Balancing
 Transaction Integrator (TI) can load balance TCP/IP ports when you have configured TI for CICS and IMS TCP/IP remote environments. To enable load balancing, supply multiple TCP port numbers when you create the remote environment; this enables connections to redundant CICS or IMS regions on a single host system. The following figure shows the TI TCP port load balancing solution.  

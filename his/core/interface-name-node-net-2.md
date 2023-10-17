@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Interface Name Node (.NET)"
-title: "Interface Name Node (.NET)2"
+title: "Interface Name Node (.NET)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15466"
+ms.assetid: 86d967fc-162c-47c1-b608-4ad8057b1464
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Interface Name Node (.NET)
 Use the ***interface name*** node to view the list of all the methods in a component.  

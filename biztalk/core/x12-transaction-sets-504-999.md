@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: X12 Transaction Sets 504-999"
-title: "X12 Transaction Sets 504-999"
+title: "X12 Transaction Sets 504-999 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c658823b-8069-4528-b5b5-a347f68ba207
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # X12 Transaction Sets 504-999
 This topic lists the X12 documents and versions that are supported by BizTalk Server.  

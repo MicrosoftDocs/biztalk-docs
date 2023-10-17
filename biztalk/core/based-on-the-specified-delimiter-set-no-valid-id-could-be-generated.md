@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Based on the specified delimiter set, no valid ID could be generated"
-title: "Based on the specified delimiter set, no valid ID could be generated"
+title: "Based on the specified delimiter set, no valid ID could be generated | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4ab5f018-b56f-4e3c-97e4-f9ea4258f6d9
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Based on the specified delimiter set, no valid ID could be generated
 ## Details  

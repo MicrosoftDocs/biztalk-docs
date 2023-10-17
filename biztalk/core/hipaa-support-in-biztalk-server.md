@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: HIPAA Support in BizTalk Server"
-title: "HIPAA Support in BizTalk Server"
+title: "HIPAA Support in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d1ad8c64-6375-4364-80ce-440db943c222
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # HIPAA Support in BizTalk Server
 This topic provides a brief overview of HIPAA and how [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] supports HIPAA.  

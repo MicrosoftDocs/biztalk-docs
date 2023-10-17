@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Properties Related to BizTalk Server"
-title: "Properties Related to BizTalk Server"
+title: "Properties Related to BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring [MQSeries adapters], properties"
+  - "CompleteMessage property [MQSeries adapters]"
+  - "SSOAffiliateApplication property [MQSeries adapters]"
+  - "Ordered property [MQSeries adapters]"
+  - "TransactionSupported property [MQSeries adapters]"
+  - "BizTalk_CorrelationID property [MQSeries adapters]"
+  - "SegmentationAllowed property [MQSeries adapters]"
+  - "DynamicReceive property [MQSeries adapters]"
+  - "MQSeries adapters, properties"
+  - "DataConversion property [MQSeries adapters]"
+ms.assetid: c27d7f9c-8198-4624-9952-054ba8ea1c7c
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Properties Related to BizTalk Server
 The MQSeries adapter assigns values to some context properties that are not directly related to MQSeries but are still useful in your applications.  

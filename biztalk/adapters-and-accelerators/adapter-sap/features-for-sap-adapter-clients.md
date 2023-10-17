@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Features for SAP adapter clients"
-title: "Features for SAP adapter clients"
+title: "Features for SAP adapter clients | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "dynamic ports"
+  - "adapters, features"
+  - "XML data streaming"
+  - "performance counters"
+  - "adapters, support for dynamic ports in BizTalk Server"
+  - "adapters, support for message versioning"
+  - "adapters, support for XML data streaming"
+  - "adapters, support for performance counters"
+  - "adapters, support for configuring adapters using binding properties"
+ms.assetid: 9003c2c1-931d-405e-9a58-660032195af7
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Features for SAP adapter clients
 In addition to the features discussed throughout the topics of [Architecture overview of BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/architecture-overview-of-the-biztalk-adapter-for-mysap-business-suite.md), the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] also provides the following features that are useful for adapter clients.  

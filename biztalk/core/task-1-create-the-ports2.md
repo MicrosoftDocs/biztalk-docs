@@ -1,12 +1,19 @@
 ---
 description: "Learn how to create ports for receiving and sending messages, Requests,  and Responses."
-title: "Task 1: Create the Ports2"
+title: "Task 1: Create the Ports2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 097504c3-67de-4a0b-99a5-648121aff1e5
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Task 1: Create the Ports
 

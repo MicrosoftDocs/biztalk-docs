@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Reference"
-title: "Reference"
+title: "Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b916c55a-c84c-4008-8927-f8e584c36fe9
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Reference
 The **Reference** element can be used to add one or more relationships to a BAM activity. This is useful when you want to attach a pointer like a primary key, ID, or URL to a related message. For example, you might store a reference to a Shipment Batch in a Purchase Order activity.

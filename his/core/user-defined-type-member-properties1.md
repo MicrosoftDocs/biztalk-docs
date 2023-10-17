@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: User-Defined Type Member Properties"
-title: "User-Defined Type Member Properties1"
+title: "User-Defined Type Member Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15435"
+ms.assetid: d7698e6c-ce36-4ce4-a7a7-507c2d6d97d1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # User-Defined Type Member Properties
 Use the **User-Defined Type Member** properties page to set array, COBOL, host, design, and recordset properties on user-defined type members.  

@@ -1,9 +1,21 @@
 ---
 description: "Learn more about: REF_I12 in V2.XML 2.4"
 title: "REF_I12 in V2.XML 2.4"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "REF_I12 schema"
+ms.assetid: 95f40b75-a176-4fc6-b9ad-65721d456ea4
+caps.latest.revision: 3
+
+
+
 ---
 # REF_I12 in V2.XML 2.4
 You must manually change the following code in the REF_I12 schema in V2.XML 2.4 after running the Update2XMLSchema tool:  

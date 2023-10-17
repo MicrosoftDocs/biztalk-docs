@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Invoke Functions and Procedures in Oracle Database using the WCF Service Model"
-title: "Invoke Functions and Procedures in Oracle Database using the WCF Service Model"
+title: "Invoke Functions and Procedures in Oracle Database using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "how to, invoke functions and procedures using the WCF service model"
+  - "WCF service model, invoking functions and procedures"
+ms.assetid: 806fc803-3640-42d6-bdf9-53b08f9c7c50
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invoke Functions and Procedures in Oracle Database using the WCF Service Model
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces procedures, functions, and packages as operations. In the WCF service model these operations are represented as methods on a WCF client. The WCF service model and the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:  

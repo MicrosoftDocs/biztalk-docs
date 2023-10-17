@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Running the BizTalk Operations Sample"
-title: "Running the BizTalk Operations Sample"
+title: "Running the BizTalk Operations Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e91d4e57-ba94-4730-8c5a-4c96902f313f
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Running the BizTalk Operations Sample
 The Microsoft BizTalk Operations sample uses a Windows Forms test client application to execute methods of the BizTalk Operations Web service and display the results. You can open the test client project to run it and to examine the code to see how you can use the BizTalk Operations Web service in your own service-oriented architecture (SOA) and ESB applications.  

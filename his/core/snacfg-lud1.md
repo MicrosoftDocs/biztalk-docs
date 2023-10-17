@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Snacfg LUD"
-title: "Snacfg LUD1"
+title: "Snacfg LUD1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ce03c1c9-322f-4fb1-8381-4e8f829d3114
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Snacfg LUD
 ## Purpose  

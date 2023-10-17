@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ApplicationAdapter"
-title: "ApplicationAdapter"
+title: "ApplicationAdapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2f9b876b-cd37-4e24-a476-186adc155ac0
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ApplicationAdapter
 The ApplicationAdapter sample demonstrates how to send notifications from the public and private processes (responder or initiator) when you receive a message. You can customize the sample with whatever additional functionality you want.  

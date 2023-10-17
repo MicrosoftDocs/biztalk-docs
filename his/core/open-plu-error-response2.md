@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Open(PLU) Error Response"
-title: "Open(PLU) Error Response2"
+title: "Open(PLU) Error Response2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 37a047e2-666a-4557-95f4-44312210f8fa
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Open(PLU) Error Response
 The **Open(PLU) Error Response** message flows from the application to the node. It is used with a primary logical unit (PLU) connection.  

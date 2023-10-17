@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Use the Siebel Adapter with SharePoint"
-title: "Use the Siebel Adapter with SharePoint"
+title: "Use the Siebel Adapter with SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9f659b80-ec62-4797-adc3-b43cb0d79506
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use the Siebel Adapter with SharePoint
 Most line-of-business (LOB) applications have proprietary interfaces that are accessible to relatively few people with the required subject matter expertise. However, because information workers need relevant information at all levels in an organization, the subject matter experts have to export required data into more familiar applications, like Microsoft Excel, for information workers to consume the information.  

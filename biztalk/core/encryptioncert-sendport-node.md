@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: EncryptionCert (SendPort Node)"
-title: "EncryptionCert (SendPort Node)"
+title: "EncryptionCert (SendPort Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "EncryptionCert node [binding file]"
+ms.assetid: 83dff67e-1b3c-4c3d-91a2-d826a498635f
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EncryptionCert (SendPort Node)
 The EncryptionCert node of the SendPort node of a binding file contains information about the encryption certificate used with a send port that is exported with the binding file.  

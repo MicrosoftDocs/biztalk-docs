@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Orchestration Engine Performance Counters"
-title: "Orchestration Engine Performance Counters"
+title: "Orchestration Engine Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dcaf7517-da4a-4ed0-a3bb-7e9b73931bff
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Orchestration Engine Performance Counters
 The orchestration engine maintains several performance counters that you can examine with Performance Monitor to see how many orchestration instances and transactions are being processed by the engine over time.  

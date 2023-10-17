@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_TN3270Session Class"
-title: "MsSna_TN3270Session Class1"
+title: "MsSna_TN3270Session Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6fc63bc2-9be9-4350-9981-5af72820fddd
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_TN3270Session Class
 Describes the part of the TN3270 session that specifies client configuration.  

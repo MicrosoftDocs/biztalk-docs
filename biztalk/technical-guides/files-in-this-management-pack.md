@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Files in This Management Pack"
-title: "Files in This Management Pack"
+title: "Files in This Management Pack | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 690bfac3-ef0a-49c9-942c-96bda2e24d09
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Files in This Management Pack
 To monitor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must first download the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack from [System Center Management Pack Catalog](https://www.microsoft.com/download/details.aspx?id=39617) (<https://www.microsoft.com/download/details.aspx?id=39617>). The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack includes the following files:

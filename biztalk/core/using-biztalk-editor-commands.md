@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Use BizTalk Editor Commands"
-title: "Using BizTalk Editor Commands"
+title: "Using BizTalk Editor Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e216ae5d-5bad-48ef-87d1-8aa8ee20179b
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use BizTalk Editor Commands
 

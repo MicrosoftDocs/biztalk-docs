@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: WCF Run-Time Errors"
-title: "WCF Run-Time Errors"
+title: "WCF Run-Time Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c5591bd4-aa15-4c7a-903e-fc73b880692f
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # WCF Run-Time Errors
 Information for diagnosing and resolving WCF run-time events.  

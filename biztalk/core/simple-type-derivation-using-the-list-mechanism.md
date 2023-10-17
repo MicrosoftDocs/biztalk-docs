@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Simple Type Derivation Using the List Mechanism"
-title: "Simple Type Derivation Using the List Mechanism"
+title: "Simple Type Derivation Using the List Mechanism | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 14f3c7b7-7585-4297-9177-2deaef8355f0
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Simple Type Derivation Using the List Mechanism
 When you derive a new simple type from an existing simple type by using the list mechanism, you are specifying that the value for this attribute or element can be a space-separated list of values of the specified type. For example, you can specify that an attribute or element value is a space-separated list of integers.  

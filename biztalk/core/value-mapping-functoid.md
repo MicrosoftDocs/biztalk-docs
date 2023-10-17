@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Value Mapping Functoid"
-title: "Value Mapping Functoid"
+title: "Value Mapping Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Value Mapping functoids"
+  - "functoids, empty tags"
+  - "Concatenate functoids"
+ms.assetid: 3dd626fb-3bf6-4ede-9fd2-ddae5a54d178
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Value Mapping Functoid
 The **Value Mapping** functoid returns the value of its second parameter if its first parameter is true. A common use of the functoid is to change the attributes of a field into the attributes of a record. To flatten a portion of an input message by converting multiple records into a single record, use the [Value Mapping (Flattening) Functoid](../core/value-mapping-flattening-functoid.md).  

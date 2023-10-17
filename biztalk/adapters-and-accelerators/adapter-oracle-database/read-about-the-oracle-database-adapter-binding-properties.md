@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Read about the Oracle Database adapter binding properties"
-title: "Read about the Oracle Database adapter binding properties"
+title: "Read about the Oracle Database adapter binding properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "binding properties"
+  - "binding properties, setting"
+  - "adapter, binding properties"
+ms.assetid: d626136e-c6c1-4352-94fc-3c034c423ef4
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Read about the Oracle Database adapter binding properties
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces several binding properties. By setting these properties, you can control some of the adapter's behavior. This section describes the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] binding properties. It also shows how you can access them by using .NET programming or by setting properties on a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] physical port binding.

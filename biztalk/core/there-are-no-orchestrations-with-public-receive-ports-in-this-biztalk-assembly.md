@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: There are no orchestrations with public receive ports in this BizTalk assembly"
-title: "There are no orchestrations with public receive ports in this BizTalk assembly"
+title: "There are no orchestrations with public receive ports in this BizTalk assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fb901d49-ce3c-4bc6-806a-eb5964d32bb4
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # There are no orchestrations with public receive ports in this BizTalk assembly
 ## Details  

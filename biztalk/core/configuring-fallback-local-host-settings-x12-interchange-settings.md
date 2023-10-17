@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Fallback Local Host Settings (X12-Interchange Settings)"
-title: "Configuring Fallback Local Host Settings (X12-Interchange Settings)"
+title: "Configuring Fallback Local Host Settings (X12-Interchange Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b552fa2b-1154-491f-9bcf-aaba3b8f343f
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Fallback Local Host Settings (X12-Interchange Settings)
 The local host settings govern how the EDI interchanges are processed. The settings on this page can be divided into two categories – receiver’s settings (for incoming interchanges) and sender’s settings (for outgoing interchanges). As part of the receiver’s settings, you can specify how the ST02 will be generated, the acknowledgement control number. As part of the sender’s settings, you can specify how the control numbers are generated for outgoing messages.  

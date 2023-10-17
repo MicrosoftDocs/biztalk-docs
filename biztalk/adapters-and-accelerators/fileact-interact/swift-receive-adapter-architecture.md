@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SWIFT Receive Adapter Architecture"
-title: "SWIFT Receive Adapter Architecture"
+title: "SWIFT Receive Adapter Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 16f32689-0b70-4389-8596-991fd776f185
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFT Receive Adapter Architecture
 In BizTalk Server, the receive adapter is hosted within its own memory space, which means a separate process is created to run the host. This host is spawned by defining a subsystem in the SWIFTNet Link (SNL) configuration.  

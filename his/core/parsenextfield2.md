@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ParseNextField"
-title: "ParseNextField2"
+title: "ParseNextField2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c2ae562-9c1c-4fe1-812d-cbcf1b397226
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ParseNextField
 The **ParseNextField** function is used to parse and return the next field from string. This utility function is used to construct an integrated link service configuration DLL.  

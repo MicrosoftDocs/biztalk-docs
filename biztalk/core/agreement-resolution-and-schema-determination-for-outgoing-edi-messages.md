@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Agreement Resolution and Schema Determination for Outgoing EDI Messages"
-title: "Agreement Resolution and Schema Determination for Outgoing EDI Messages"
+title: "Agreement Resolution and Schema Determination for Outgoing EDI Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e37aeb9d-1e95-464d-bb71-73653c1d4674
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Agreement Resolution and Schema Determination for Outgoing EDI Messages
 To generate an EDI message to a trading partner, the EDI send pipeline must do the following:  

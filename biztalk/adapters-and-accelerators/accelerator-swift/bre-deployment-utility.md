@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: BRE Deployment Utility"
-title: "BRE Deployment Utility"
+title: "BRE Deployment Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BRE Deployment utility"
+  - "deploying, BRE Deployment utility"
+ms.assetid: 5b04592c-ea1e-4ded-8ca4-dcd051d6375e
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BRE Deployment Utility
 You can use the BRE Deployment Utility to publish and deploy the Business Rule Engine (BRE) vocabularies and policies required for a SWIFT schema. Publishing and deploying these vocabularies and policies is required to enable BRE validation for the message type.  

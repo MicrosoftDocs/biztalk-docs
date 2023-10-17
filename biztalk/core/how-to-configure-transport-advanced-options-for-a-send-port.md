@@ -1,12 +1,20 @@
 ---
 description: "Learn more about: Configure Transport Advanced Options for a Send Port"
-title: "How to Configure Transport Advanced Options for a Send Port"
+title: "How to Configure Transport Advanced Options for a Send Port | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+ms.assetid: b0033e09-3c18-4e53-a470-e12978e61ba1
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "mijacobs"
 ---
 
 # Configure Transport Advanced Options for a Send Port

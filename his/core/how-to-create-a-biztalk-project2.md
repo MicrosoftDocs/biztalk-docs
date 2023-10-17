@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Create a BizTalk Project"
-title: "How to Create a BizTalk Project2"
+title: "How to Create a BizTalk Project2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 77122cbb-9d1f-4412-812a-234e465e1916
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create a BizTalk Project
 After you create an XSD file for your application, you create a BizTalk project to contain the application. After you create the BizTalk project, you can add the XSD file as a standard item, and then use it to create your BizTalk application.  

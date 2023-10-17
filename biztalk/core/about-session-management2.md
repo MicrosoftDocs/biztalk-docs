@@ -1,12 +1,19 @@
 ---
 description: "Learn how to manage the pool of connection sessions for calls to the JD Edwards EnterpriseOne server using message context properties in the Microsoft BizTalk Adapter for JD Edwards EnterpriseOne."
-title: "About Session Management2"
+title: "About Session Management2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b3ecdb4f-d384-42ac-9776-e7ad14d5f151
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # About Session Management
 The Microsoft BizTalk Adapter for JD Edwards EnterpriseOne creates a connection session to send a call to the JD Edwards EnterpriseOne server. When the call terminates, the session is put in a pool to be re-used by a subsequent call. The adapter creates multiple connection sessions to handle concurrent calls to the JD Edwards EnterpriseOne server. The pool is periodically cleaned to remove sessions that are no longer necessary.  

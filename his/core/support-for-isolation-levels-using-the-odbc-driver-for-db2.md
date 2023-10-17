@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Support for Isolation Levels Using the ODBC Driver for DB2"
-title: "Support for Isolation Levels Using the ODBC Driver for DB2"
+title: "Support for Isolation Levels Using the ODBC Driver for DB2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f56fed1d-d603-4dfa-9e33-ef96a4da8964
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Support for Isolation Levels Using the ODBC Driver for DB2
 The Microsoft ODBC Driver for DB2 provides flexibility in dealing with issues of isolation levels and transaction state. The ODBC **SQLSetConnectAttr** function is used to set the isolation level that is to be used for a connection. This function would be called with the attribute parameter set to SQL_ATTR_TXN_ISOLATION and the *ValuePtr* parameter pointing to an integer value indicating the isolation level requested. This integer value is a 32-bit bitmask that sets the transaction isolation level for the current connection.  

@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Requirements and Limitations for Expressions"
-title: "Requirements and Limitations for Expressions"
+title: "Requirements and Limitations for Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Expression Editor, about Expression Editor"
+  - "Expression Editor, requirements"
+  - "Orchestration Designer, Expression Editor"
+  - "Expression Editor, limitations"
+  - "Expression Editor"
+  - "Expression Editor, Orchestration Designer"
+ms.assetid: 1e0353d3-c2f3-4c10-86e3-8620e62dd0d5
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Requirements and Limitations for Expressions
 BizTalk Expression Editor in Orchestration Designer is a standard Visual Studio text editor, which means it offers IntelliSense. You use BizTalk Expression Editor to enter an expression in textual form.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Monitoring BizTalk Server"
-title: "Monitoring BizTalk Server2"
+title: "Monitoring BizTalk Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 11c7181e-6281-44f2-ac63-69b705df5545
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Monitoring BizTalk Server
 This section describes essential tasks for monitoring BizTalk applications and infrastructure. Monitoring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a regular basis and resolving any issues that you find helps to keep your BizTalk applications accessible. The goal of monitoring is to minimize the amount of time that an issue goes undetected and therefore, unresolved. Additionally, you can use monitoring to help detect situations that might cause an issue.  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: TransportType"
-title: "TransportType"
+title: "TransportType | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "TransportType node [binding file]"
+ms.assetid: 64eb00be-47c9-473f-aec6-03cb7f948e3b
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # TransportType
 The TransportType node of the SendHandler node of a binding file contains specific information about the adapter associated with a send handler that is exported with the binding file.  

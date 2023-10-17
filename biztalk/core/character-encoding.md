@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Character Encoding"
-title: "Character Encoding"
+title: "Character Encoding | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0a0c21c8-3318-4533-9734-89302527cb67
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Character Encoding
 TIBCO Enterprise Message Service (EMS) supports different character encoding in the messages transmitted to EMS by BizTalk Adapter for TIBCO EMS. Messages are encoded using the default UTF-8 encoding. When receiving messages, the adapter determines the encoding of the message and converts the appropriate strings to UTF-8 before providing the message to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. All character conversions use the Microsoft .NET Framework classes; therefore the adapter supports the character conversions provided by this same framework.  

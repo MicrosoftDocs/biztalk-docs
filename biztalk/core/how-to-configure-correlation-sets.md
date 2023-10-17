@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: How to Configure Correlation Sets"
-title: "How to Configure Correlation Sets"
+title: "How to Configure Correlation Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "correlation sets, send activities"
+  - "correlation sets, assigning correlation types"
+  - "correlation types, correlation sets"
+  - "correlation sets, receive activities"
+  - "configuring, correlation sets"
+  - "correlation sets, configuring"
+  - "correlation types, assigning"
+ms.assetid: 060bf2ba-c173-4dca-a8c4-4c5341e5ceaa
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure Correlation Sets
 To configure your correlation set, you can select an existing correlation type, create a new correlation type, or modify an existing correlation type.  

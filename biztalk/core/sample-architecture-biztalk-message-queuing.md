@@ -1,12 +1,32 @@
 ---
 description: "Learn more about: Sample Architecture: BizTalk Message Queuing"
-title: "Sample Architecture: BizTalk Message Queuing"
+title: "Sample Architecture: BizTalk Message Queuing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, security"
+  - "Message Queuing binary protocol"
+  - "architecture, examples"
+  - "security, examples"
+  - "security, architecture"
+  - "examples, architecture"
+  - "MSMQ adapters, security"
+  - "architecture, security"
+  - "MSMQ adapters, architecture examples"
+  - "servers, Windows Message Queuing"
+  - "Windows Message Queuing"
+  - "message queuing adapters"
+ms.assetid: a660c798-1c45-4759-a6c8-f11550683a31
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample Architecture: BizTalk Message Queuing
 This topic describes the sample architecture when you use the BizTalk Message Queuing adapter to send and receive messages.  

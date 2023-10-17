@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CPI-C Call Summary"
-title: "CPI-C Call Summary2"
+title: "CPI-C Call Summary2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4fc4298f-c4a6-4e4d-9aa9-317592db8a2a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CPI-C Call Summary
 This section briefly describes each Common Programming Interface for Communications (CPI-C) call. The features provided by a CPI-C call can be broader than this section indicates. The calls are grouped in categories according to the function they perform. There are calls that start and stop a conversation, send and receive data, get information, and get side information.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ADAPTERCOUNTER"
-title: "ADAPTERCOUNTER2"
+title: "ADAPTERCOUNTER2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a3bd325a-4a6e-4f4d-bce9-52bd4fc06577
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ADAPTERCOUNTER
 The **ADAPTERCOUNTER** structure represents an individual SNA Perfmon event that can be monitored, such as the total bytes transmitted. All of the data needed to display a single Perfmon event is stored in this structure.  

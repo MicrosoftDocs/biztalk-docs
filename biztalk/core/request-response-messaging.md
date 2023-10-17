@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Request-Response Messaging"
-title: "Request-Response Messaging"
+title: "Request-Response Messaging | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "request/response messaging, about request/response messaging"
+  - "SOAP adapters, message processing"
+  - "SOAP adapters, request/response messaging"
+  - "request/response messaging"
+  - "patterns, messages"
+  - "messages, request/response messaging"
+  - "request/response messaging, processing"
+  - "request/response messaging, SOAP adapters"
+  - "messages, patterns"
+ms.assetid: 1a2f79b5-1f44-4191-8ce1-b3c9043be4f4
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Request-Response Messaging
 In a request/response messaging pattern, one party sends a request message and the receiving party returns a response message. Two typical examples of request/response processing are the interaction that a browser has with a Web server using the HTTP adapter, and Web service processing using the Simple Object Access Protocol (SOAP) adapter. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], both the request and the response messages are handled in a typical publish/subscribe fashion. This is an important consideration to understand when you performance-tune a BizTalk application, because a system requiring high throughput might be configured differently than one requiring low latency for individual messages.  

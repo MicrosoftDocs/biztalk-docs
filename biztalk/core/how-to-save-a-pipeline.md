@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: How to Save a Pipeline"
-title: "How to Save a Pipeline"
+title: "How to Save a Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, saving"
+ms.assetid: f46cc835-e353-4661-83dc-70ee3be2dea8
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Save a Pipeline
 Saving a pipeline stores information about the pipeline configuration to a .btp file, which specifies:  

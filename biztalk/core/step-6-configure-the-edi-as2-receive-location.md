@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 6: Configure the EDI-AS2 Receive Location"
-title: "Step 6: Configure the EDI-AS2 Receive Location"
+title: "Step 6: Configure the EDI-AS2 Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 167f8ba2-d38b-4088-863b-2bd90c2a12a2
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 6: Configure the EDI-AS2 Receive Location
 ![Step 6 of 11](../core/media/tut-step6-of-11.gif "Tut_Step6_of_11")  

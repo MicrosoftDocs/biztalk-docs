@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Security Considerations for Activities"
-title: "Security Considerations for Activities"
+title: "Security Considerations for Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2fc49afd-a1c3-4ac7-8b89-11be667221e2
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security Considerations for Activities
 The security roles you use when intercepting the WCF adapter are the same as those used for other BAM solutions. The additional considerations for intercepting the WCF adapter involve selecting the correct user and event writer role to use.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Restoring Production from a Warm Backup"
-title: "Restoring Production from a Warm Backup"
+title: "Restoring Production from a Warm Backup | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2bda14b8-b3cc-4a5e-a353-fca5885fd594
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Restoring Production from a Warm Backup
 If the source system becomes unreliable, it is possible to restore the databases from the destination to the source. Perform the following procedure to restore databases from the destination to the source.  

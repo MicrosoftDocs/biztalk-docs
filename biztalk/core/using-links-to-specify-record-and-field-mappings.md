@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Using Links to Specify Record and Field Mappings"
-title: "Using Links to Specify Record and Field Mappings"
+title: "Using Links to Specify Record and Field Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1c669d93-e088-459e-8f45-87c359874a7e
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Links to Specify Record and Field Mappings
 In BizTalk Mapper, a link is the way you associate a data item in the source schema with a data item in the destination schema. Typically, in a completed map there are many links between the source schema and the destination schema. All together the links specify how the data in the source instance messages will be transformed into a semantically equivalent, but syntactically distinct, destination instance messages.  

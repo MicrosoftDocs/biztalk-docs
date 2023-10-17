@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: CreateEx Method"
-title: "CreateEx Method"
+title: "CreateEx Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "CreateEx method"
+ms.assetid: b62bbe25-b24d-42a7-a44c-c83521a6f0a6
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # CreateEx Method
 Creates a new record using a set of unique keys and specified properties.  

@@ -1,12 +1,18 @@
 ---
-title: "Monitor SQL Server Performance"
+title: "Monitor SQL Server Performance | Microsoft Docs"
 description: Monitor BizTalk Server databases using performance tools, Activity Monitor, and Data collection
 ms.custom: ""
 ms.date: "11/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 020fa764-968e-467c-b146-d069f5606a0f
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Monitor SQL Server Performance
 SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design. [Tools for Performance Monitoring and Tuning](/sql/relational-databases/performance/performance-monitoring-and-tuning-tools) describes these tools. 

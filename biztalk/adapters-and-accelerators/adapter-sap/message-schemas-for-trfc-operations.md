@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Message Schemas for tRFC Operations"
-title: "Message Schemas for tRFC Operations"
+title: "Message Schemas for tRFC Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tRFC operations, message structure for"
+  - "tRFC operations, message schemas for"
+  - "tRFC operations, message actions for"
+ms.assetid: 0e269555-f0a1-40ae-a1b5-d8c4981e730f
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Schemas for tRFC Operations
 Transactiostructnal Remote Function Calls (tRFCs) are used to execute RFC calls in a logical unit of work (LUW). The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports multiple tRFCs per LUW for inbound tRFC calls. For outbound (client) tRFC calls, the adapter can support only a single tRFC in an LUW; it therefore for creates an LUW on SAP for each client tRFC call. For more information about how the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports tRFC operations, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md). This section describes the message schemas and actions for tRFC operations.  

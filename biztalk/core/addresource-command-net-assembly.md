@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AddResource Command: .NET Assembly"
-title: "AddResource Command: .NET Assembly"
+title: "AddResource Command: .NET Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ef6ec298-35fe-4845-9549-685993d2c659
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AddResource Command: .NET Assembly
 To add a .NET assembly (which includes managed COM or COM+ components) to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:Assembly** for the Type parameter. Running this command adds the assembly to the BizTalk Management database. The assembly is also displayed in the BizTalk Administration console, in the Resources folder of the application to which you added it. In addition, the assembly is listed when you use the [ListApp Command](../core/listapp-command.md).  

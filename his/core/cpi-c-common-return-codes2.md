@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CPI-C Common Return Codes"
-title: "CPI-C Common Return Codes2"
+title: "CPI-C Common Return Codes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 19d2152b-5026-41c7-a063-3f73e84fadc0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CPI-C Common Return Codes
 This section describes the return codes for Common Programming Interface for Communications (CPI-C) calls. The return codes are listed in integer order.  

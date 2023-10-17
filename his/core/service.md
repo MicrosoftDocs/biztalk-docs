@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: service"
-title: "service"
+title: "service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f4c0258d-5968-498f-a720-26353f123ea9
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # service
 The service element defines the configuration for the DrdaService1 service.  

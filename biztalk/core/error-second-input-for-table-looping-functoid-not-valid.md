@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Second Input for Table Looping Functoid Not Valid"
-title: "Error - Second Input for Table Looping Functoid Not Valid"
+title: "Error - Second Input for Table Looping Functoid Not Valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.secondInputForTableLoopingNotValid"
+ms.assetid: 22771f36-5969-40b1-a957-3ca67e19c3fd
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Second Input for Table Looping Functoid Not Valid
 **Error Code**  

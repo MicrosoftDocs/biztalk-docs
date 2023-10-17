@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Step 2: Configure a WCF-Custom One-way Send Port"
-title: "Step 2: Configure a WCF-Custom One-way Send Port"
+title: "Step 2: Configure a WCF-Custom One-way Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "WCF-Custom one-way send port, configuring"
+  - "migration"
+ms.assetid: ae13222e-42e7-45a7-9b2a-0a6779b21736
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Configure a WCF-Custom One-way Send Port
 ![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")

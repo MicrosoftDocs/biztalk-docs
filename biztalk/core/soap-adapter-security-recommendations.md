@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: SOAP Adapter Security Recommendations"
-title: "SOAP Adapter Security Recommendations"
+title: "SOAP Adapter Security Recommendations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "SOAP adapters, security"
+  - "security, SOAP adapters"
+ms.assetid: f869bd82-df93-45e1-b747-b538820253fb
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SOAP Adapter Security Recommendations
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the SOAP adapter to publish (receive) and consume (send) Web services. For more information about the SOAP adapter, see [SOAP Adapter](../core/soap-adapter.md). For more information about Web services, see [Using Web Services](../core/using-web-services.md). It is recommended you follow these guidelines for securing and deploying the SOAP adapter in your environment.

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Create a connection to the Siebel system"
-title: "Create a connection to the Siebel system"
+title: "Create a connection to the Siebel system | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "connecting, to the Siebel system"
+ms.assetid: 5810eeb1-6e26-4620-a731-fb352eebea2e
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create a connection to the Siebel system
 The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding. As such, it enables communication to a Siebel system through a WCF endpoint address. In WCF the endpoint address identifies the network location of a service and is typically expressed as a Uniform Resource Identifier (URI). The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] expresses this location as a connection URI, which contains properties that the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] uses to establish a connection to the Siebel system. You must specify a connection URI when you:  

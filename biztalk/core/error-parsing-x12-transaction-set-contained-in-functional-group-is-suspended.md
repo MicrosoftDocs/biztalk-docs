@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error encountered during parsing. The X12 transaction set contained in functional group is being suspended with following errors"
-title: "Error encountered during parsing. The X12 transaction set contained in functional group is being suspended with following errors"
+title: "Error encountered during parsing. The X12 transaction set contained in functional group is being suspended with following errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 51c6fa8e-d81c-4ccb-93b4-852ab184c4e9
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error encountered during parsing. The X12 transaction set contained in functional group is being suspended with following errors
 ## Details  

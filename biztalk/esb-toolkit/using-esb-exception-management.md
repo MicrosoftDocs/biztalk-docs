@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Using ESB Exception Management"
-title: "Using ESB Exception Management"
+title: "Using ESB Exception Management | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: de6ce411-2d34-4fd8-9644-6fbc9cec266d
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using ESB Exception Management
 Errors and exceptions can occur in a range of contexts and during a number of different processing stages in an ESB. This section provides information about handling exceptions and describes how you can publish details through the ESB Management Portal.  

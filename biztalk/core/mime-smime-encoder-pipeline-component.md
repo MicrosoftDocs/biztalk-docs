@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: MIME-SMIME Encoder Pipeline Component"
-title: "MIME-SMIME Encoder Pipeline Component"
+title: "MIME-SMIME Encoder Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipeline components, MIME/SMIME Encoder"
+  - "MIME/SMIME Encoder [pipeline component]"
+  - "BTS.EncryptionCert property"
+ms.assetid: 397505e6-47d0-4b63-9197-814ee4388369
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # MIME-SMIME Encoder Pipeline Component
 The MIME/SMIME Encoder component can be placed into the Encode stage of a send pipeline. It supports 7bit, 8bit, binary, quoted-printable, base64, and UUencode encoding. Localized data character set changes do not affect the encoding.  

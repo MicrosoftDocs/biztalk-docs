@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_LuAppcLocal Class"
-title: "MsSna_LuAppcLocal Class1"
+title: "MsSna_LuAppcLocal Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b64091e9-d601-44a2-8b39-c0af7a958b9f
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_LuAppcLocal Class
 An APPC local LU resource.  

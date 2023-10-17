@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Second Input to Cumulative Functoid Not Valid"
-title: "Error - Second Input to Cumulative Functoid Not Valid"
+title: "Error - Second Input to Cumulative Functoid Not Valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.secondInputToCumulativeNotValid"
+ms.assetid: e41a58a7-e0a2-4284-bd19-279578a8915d
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Second Input to Cumulative Functoid Not Valid
 **Error Code**  

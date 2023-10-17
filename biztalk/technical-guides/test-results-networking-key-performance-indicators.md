@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Test Results: Networking Key Performance Indicators"
-title: "Test Results: Networking Key Performance Indicators"
+title: "Test Results: Networking Key Performance Indicators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9bdbc2df-9d19-4ae8-b540-ec1b9a7cdbe9
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Test Results: Networking Key Performance Indicators
 This topic summarizes Network Key Performance Indicators (KPI) observed during the test scenarios. These tests evaluated Network Performance as measured by the **\Network Interface(\*)\Bytes Total/sec** performance monitor counter and by measuring the **SQL Network Interface\Bytes Total/sec (Avg )** returned by the VSTS 2008 Load Test Controller.  

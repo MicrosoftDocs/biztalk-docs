@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The X12 Transaction set had a mismatched count in SE01"
-title: "The X12 Transaction set had a mismatched count in SE01"
+title: "The X12 Transaction set had a mismatched count in SE01 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a90079f5-5939-40b6-9756-d7943240c125
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The X12 Transaction set had a mismatched count in SE01
 ## Details  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Develop SAP applications using the WCF Channel Model"
-title: "Develop SAP applications using the WCF Channel Model"
+title: "Develop SAP applications using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF channel model, developing applications by using"
+ms.assetid: 1ce70c8b-5eeb-4585-97af-b0a7b4398dac
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop SAP applications using the WCF Channel Model
 You can use the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] channel model to consume the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] by sending XML messages directly over a channel instance created with the SAP Binding.  

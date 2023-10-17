@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Install BizTalk Server 2013 and 2013 R2"
-title: "Install BizTalk Server 2013 and 2013 R2"
+title: "Install BizTalk Server 2013 and 2013 R2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3b4665ea-6f2c-477f-98ec-1cebef05ad4a
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install BizTalk Server 2013 and 2013 R2
 Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

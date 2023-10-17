@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Max limit of acceptable X12 functional group control number has reached for Guest settings"
-title: "Max limit of acceptable X12 functional group control number has reached for Guest settings"
+title: "Max limit of acceptable X12 functional group control number has reached for Guest settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 05cba774-fa35-4694-aa34-d7151f8cd75c
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Max limit of acceptable X12 functional group control number has reached for Guest settings
 ## Details  

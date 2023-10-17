@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The Resolver and Adapter Provider Framework"
-title: "ESB Resolver and Adapter Provider Framework overview"
+title: "ESB Resolver and Adapter Provider Framework overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/16/2021"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fb7ea42e-b32c-40a8-b36b-c349f56f6edd
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The Resolver and Adapter Provider Framework
 The Resolver and Adapter Provider Framework supports itinerary, transformation, and endpoint resolution and routing. The framework can dynamically resolve endpoints and set outbound adapter properties. After a resolver component resolves an endpoint (for example, using Universal Description, Discovery, and Integration [UDDI] to look up an outbound Web service endpoint), an adapter provider component sets specific properties of registered BizTalk Server adapters. For example, the WCF-BasicHttp adapter provider is responsible for setting the BizTalk-specific message context properties for the endpoint URI that will use the specific BizTalk adapter; the FTP adapter provider is responsible for setting the properties specific to the FTP adapter.  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Configure a physical port binding using a port binding file to Oracle Database"
-title: "Configure a physical port binding using a port binding file to Oracle Database"
+title: "Configure a physical port binding using a port binding file to Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "physical port binding, configuring by using a port binding file"
+ms.assetid: 154d219e-c6f3-4f70-9ac5-d9345f5260e9
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure a physical port binding using a port binding file to Oracle Database
 When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata for an Oracle database artifact, other than the schema files, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also generates a port binding file. You can import this binding file into your BizTalk application to create a physical send or receive port. For instructions on importing binding files, see [Reuse Oracle Database Adapter bindings](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md). If you import this binding file, you do not have to manually create a physical send or receive port.  

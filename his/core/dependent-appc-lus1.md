@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Dependent APPC LUs"
-title: "Dependent APPC LUs1"
+title: "Dependent APPC LUs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5fda0005-f612-4495-9645-ae0fb5d665ad
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Dependent APPC LUs
 A dependent local APPC LU requires the support of a mainframe to communicate with a remote TP. Dependent APPC LUs cannot be used to communicate with an AS/400 computer.  

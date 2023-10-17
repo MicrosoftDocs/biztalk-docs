@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Encryption and Signing Certificates"
-title: "Encryption and Signing Certificates"
+title: "Encryption and Signing Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "certificates, security"
+  - "security, certificates"
+  - "security, messages"
+  - "certificates, encryption"
+  - "encryption certificates, messages"
+  - "messages, encryption"
+  - "messages, certificates"
+  - "security, encryption"
+ms.assetid: 3c3f9de5-4156-4133-8d5e-c30b142b6d61
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Encryption and Signing Certificates
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] relies heavily on the security provided by certificates. By using certificates for encryption and digital signatures, BizTalk Server can send and receive data that can be trusted, and can help ensure that the data it processes is secure. For both encryption and digital signatures, there is a public key certificate and a private key certificate. For encryption, the sender of the message uses the receiver's public key certificate to encrypt the message, while the receiver of the message (BizTalk Server) uses its private key to decrypt the message. For digital signatures, the sender of the message uses a private key certificate to sign the message, and the receiver of the message (BizTalk Server) uses the public key certificate of the sender to verify the signature.

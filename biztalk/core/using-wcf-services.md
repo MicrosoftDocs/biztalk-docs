@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Using WCF Services"
-title: "Using WCF Services"
+title: "Using WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF services"
+  - "Windows Communication Foundation (WCF)"
+ms.assetid: 34fe5e4c-6a92-4627-b2aa-e8b58a708320
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using WCF Services
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Windows Communication Foundation (WCF). [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to reuse and aggregate all your existing WCF services within your orchestrations. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also implements support for native adapters in WCF services. Native adapter support provides scalability, fault tolerance, and tracking capabilities for WCF services without requiring you to write code. For information about the WCF adapters, see [WCF Adapters](../core/wcf-adapters.md).  

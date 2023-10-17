@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SOAP Adapter Performance Counters"
-title: "SOAP Adapter Performance Counters"
+title: "SOAP Adapter Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 40b54d4e-0a2e-483f-982a-97ab9fb59202
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SOAP Adapter Performance Counters
 Performance counters allow you to monitor specific aspects of work performed on the site or system by service. Performance counters can help you identify and troubleshoot server performance issues.  

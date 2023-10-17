@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Sample Architecture: FTP Adapter"
-title: "Sample Architecture: FTP Adapter"
+title: "Sample Architecture: FTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, security"
+  - "architecture, examples"
+  - "independent software vendor (ISV)"
+  - "security, examples"
+  - "security, architecture"
+  - "examples, architecture"
+  - "architecture, security"
+  - "FTP adapters, security"
+  - "FTP adapters, architecture examples"
+ms.assetid: 13fc1086-6acc-483c-be83-4ff6a60cd2bc
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample Architecture: FTP Adapter
 This topic describes the sample architecture when you use the FTP adapter to send and receive messages.  

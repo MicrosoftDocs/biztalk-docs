@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TS Profile 4"
-title: "TS Profile 42"
+title: "TS Profile 42 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2c6928ff-c199-4f7f-839b-c69d1015fe18
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TS Profile 4
 Transmission service (TS) Profile 4 is supported on logical unit-logical unit (LU-LU) sessions using LU types 0 or 1. This profile specifies the following session rules:  

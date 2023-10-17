@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Set_Mode_Name (CPI-C)"
-title: "Set_Mode_Name (CPI-C)2"
+title: "Set_Mode_Name (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 33b257c7-511f-4dc4-89ad-598121f8eb36
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Set_Mode_Name (CPI-C)
 The **Set_Mode_Name** call (function name **cmsmn**) is issued by the invoking program to specify the mode name for a conversation. This call overrides the system-defined mode name derived from the side information when the [Initialize_Conversation](../core/initialize-conversation-cpi-c-1.md) call was issued. This call cannot be issued after [Allocate](../core/allocate-cpi-c-2.md)has been issued. Issuing this call has no effect on the side information itself.  

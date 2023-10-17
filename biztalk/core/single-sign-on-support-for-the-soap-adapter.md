@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Single Sign-On Support for the SOAP Adapter"
-title: "Single Sign-On Support for the SOAP Adapter"
+title: "Single Sign-On Support for the SOAP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SSO, SOAP adapters"
+  - "SOAP adapters, SharePoint Portal Server"
+  - "SOAP adapters, SSO"
+  - "SharePoint Portal server"
+ms.assetid: c7bf755c-c37d-4b19-9817-a7f42e1e9656
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On Support for the SOAP Adapter
 You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure Enterprise Single Sign-On (SSO) for use with the SOAP receive location or send port. This topic describes how SSO works with the SOAP adapter.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Assembling a Batched EDI Interchange"
-title: "Assembling a Batched EDI Interchange"
+title: "Assembling a Batched EDI Interchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 18f64595-935e-4d52-9ec2-5edf7c2b9e83
+caps.latest.revision: 45
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Assembling a Batched EDI Interchange
 To assemble individual transaction-set batch elements into an EDI interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI and AS2 does the following:  

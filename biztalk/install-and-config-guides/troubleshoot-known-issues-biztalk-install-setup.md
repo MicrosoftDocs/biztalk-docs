@@ -4,6 +4,7 @@ description: Known issues and common problems and resolutions when installing an
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 11/30/2017
+
 ---
 
 # Troubleshoot BizTalk Server Setup

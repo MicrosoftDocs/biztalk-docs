@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step3: Create an orchestration with  dynamic send port for the InterAct Store and Forward (Pull) Scenario"
-title: "Step3: Create an orchestration with  dynamic send port for the InterAct Store and Forward (Pull) Scenario"
+title: "Step3: Create an orchestration with  dynamic send port for the InterAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bbc97cc6-e818-43a1-8224-49b2842bd777
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step3: Create an orchestration with  dynamic send port for the InterAct Store and Forward (Pull) Scenario
 Before you begin the steps in this section, you must complete the steps in the [Step 2C: Add an INTERACT Send Port for the InterAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-2c-add-interact-send-port-for-interact-store-and-forward-pull-scenario.md) section.  

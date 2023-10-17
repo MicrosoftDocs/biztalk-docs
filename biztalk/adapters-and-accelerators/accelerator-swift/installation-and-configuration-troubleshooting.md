@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Installation and Configuration Troubleshooting"
-title: "Installation and Configuration Troubleshooting"
+title: "Installation and Configuration Troubleshooting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "installing, troubleshooting"
+  - "configuring, troubleshooting"
+  - "troubleshooting, configuring"
+  - "troubleshooting, installing"
+ms.assetid: 25a2f6c5-c049-4042-8e38-4f7a2556e066
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Installation and Configuration Troubleshooting
 ## Setup is unable to deploy the RuntimeSchemas assembly  

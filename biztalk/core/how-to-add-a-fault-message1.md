@@ -1,12 +1,24 @@
 ---
 description: "Learn how to add a fault message to a port in the back-end system of a BizTalk Server to capture exceptions."
-title: "How to Add a Fault Message1"
+title: "How to Add a Fault Message1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "exceptions, adding messages"
+  - "fault messages, adding"
+  - "adding, fault messages"
+  - "faults, adding messages"
+ms.assetid: 9d21de6b-c1a5-46e9-a9dc-d6aa7b5fe34b
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Add a Fault Message
 

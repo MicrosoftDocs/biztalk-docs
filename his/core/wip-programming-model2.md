@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: WIP Programming Model"
-title: "WIP Programming Model2"
+title: "WIP Programming Model2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 29ec253a-759d-414a-a9a3-ef43d8bff039
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # WIP Programming Model
 The programming models provide a synchronous bridge between the component object model (COM) or the .NET Framework and the mainframe transaction-programming model. Consequently, Transaction Integrator (TI) has no APIs that a developer must use.  

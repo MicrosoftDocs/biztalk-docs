@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Validation (X12-Interchange Settings)"
-title: "Configuring Validation (X12-Interchange Settings)"
+title: "Configuring Validation (X12-Interchange Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fdad7016-1d66-4d11-b620-c28368f00133
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Validation (X12-Interchange Settings)
 X12 interchange validation generation settings define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] checks for duplicate control numbers in the received interchange.  

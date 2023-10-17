@@ -1,12 +1,19 @@
 ---
-title: "What's New in BizTalk Server 2013 and 2013 R2"
+title: "What's New in BizTalk Server 2013 and 2013 R2 | Microsoft Docs"
 description: Complete list of new features and changes in BizTalk Server 2013 R2 and 2013
+caps.latest.revision: 67
+author: "MandiOhlinger"
+manager: "anneta"
+
 ms.custom: ""
 ms.date: "08/10/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bdb841f7-4aa9-45c9-a6f1-d527089fcc09
+ms.author: "mandia"
 ---
 
 # What's New in BizTalk Server 2013 and 2013 R2

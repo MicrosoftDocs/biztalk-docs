@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configure Collation Mappings"
-title: "Configure Collation Mappings"
+title: "Configure Collation Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c2dc1d81-0412-4f5e-822a-e23e229ce243
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configure Collation Mappings
 SQL Server may collate query results in a different order than what is expected by the DRDA client program. For example, an IT professional may configure a SQL Server database to use an ANSI collation and a DB2 for z/OS database to use EBCDIC collation.  

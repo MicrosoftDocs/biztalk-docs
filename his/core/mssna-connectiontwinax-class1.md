@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_ConnectionTwinax Class"
-title: "MsSna_ConnectionTwinax Class1"
+title: "MsSna_ConnectionTwinax Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bc737ce0-d897-48f5-93ed-9075e8d257a1
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_ConnectionTwinax Class
 A type of SNA connection that uses a Twinax cable.  

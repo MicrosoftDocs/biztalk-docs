@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Production Tasks for BizTalk Application Deployment"
-title: "Production Tasks for BizTalk Application Deployment"
+title: "Production Tasks for BizTalk Application Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying [applications], assemblies"
+  - "applications, deploying"
+  - "assemblies, warnings"
+  - "deploying [applications], warnings"
+  - "deploying [applications], tasks"
+  - "assemblies, deploying"
+  - "deploying [applications], production"
+ms.assetid: e77d8921-42ef-4c51-aab2-66c086aad955
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Production Tasks for BizTalk Application Deployment
 The following are the steps involved in deploying a BizTalk application to your production environment.  

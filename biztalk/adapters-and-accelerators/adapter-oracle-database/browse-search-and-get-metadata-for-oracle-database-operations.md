@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: Browse, search, and get metadata for Oracle Database operations"
-title: "Browse, search, and get metadata for Oracle Database operations"
+title: "Browse, search, and get metadata for Oracle Database operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF client, generating a"
+  - "operations, browsing for"
+  - "metadata, browsing"
+  - "browse, for operations"
+  - "schema, generating"
+  - "metadata, retrieving"
+  - "browse, metadata"
+  - "retrieve, metadata"
+  - "operations, searching for"
+  - "WCF service contract, generating a"
+  - "metadata, browsing, searching, and retrieving"
+ms.assetid: 65bd59e0-771d-40fe-966c-8cc8a629ce47
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Browse, search, and get metadata for Oracle Database operations
 This section provides information about how to use [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. By using these [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components, you can:  

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Change the Default Application"
-title: "How to Change the Default Application"
+title: "How to Change the Default Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications, default"
+  - "applications, modifying"
+  - "modifying, applications"
+ms.assetid: cfa5e88f-0bbb-4edd-a840-722dcdcce266
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Change the Default Application
 This topic describes how to change the default application by editing the properties of an application in the BizTalk Server Administration console. You can also change the default application by creating a new application and specifying it as the default application, as described in [How to Create an Application](../core/how-to-create-an-application.md).  

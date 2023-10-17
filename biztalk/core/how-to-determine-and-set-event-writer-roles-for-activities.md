@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Determine and Set Event Writer Roles for Activities"
-title: "How to Determine and Set Event Writer Roles for Activities"
+title: "How to Determine and Set Event Writer Roles for Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 73bfe8ff-167a-4bf0-ab87-3926290d52d8
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Determine and Set Event Writer Roles for Activities
 BAM provides two modes of security when writing events on activities. You can grant permissions to write events on individual activities or you can grant permissions to write events on all deployed activities.  

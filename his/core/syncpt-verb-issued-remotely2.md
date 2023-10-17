@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SYNCPT Verb Issued Remotely"
-title: "SYNCPT Verb Issued Remotely2"
+title: "SYNCPT Verb Issued Remotely2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9f5cd9c1-8cf7-4e44-bc49-b9f2b0de4b58
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SYNCPT Verb Issued Remotely
 ![Image that shows a SYNCPT verb issued remotely.](../core/media/appc2da.gif "appc2da")  

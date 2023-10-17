@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Getting Started with the FileAct and InterAct Adapters"
-title: "Getting Started with the FileAct and InterAct Adapters"
+title: "Getting Started with the FileAct and InterAct Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7d0b07f1-38b2-4d51-8168-04b0f80b8b15
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Getting Started with the FileAct and InterAct Adapters
 The Society for Worldwide Interbank Financial Telecommunication (SWIFT) supplies secure messaging services and interface software to wholesale financial entities.  

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Use Performance Counters with the Siebel adapter"
-title: "Use Performance Counters with the Siebel adapter"
+title: "Use Performance Counters with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "performance counters, troubleshooting"
+  - "troubleshooting, performance counters"
+  - "performance counters, using"
+ms.assetid: 7930e8f6-5099-4a9c-b38a-13c9902635a6
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use Performance Counters with the Siebel adapter
 [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] clients can use the performance counters to gauge the performance of the adapters. The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup program creates the performance counter category "[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]" along with the Adapter Pack installation.  

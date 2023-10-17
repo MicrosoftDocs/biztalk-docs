@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Marked Transactions, Full Backups, and Log Backups"
-title: "Marked Transactions, Full Backups, and Log Backups"
+title: "Marked Transactions, Full Backups, and Log Backups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "backing up, transaction logs"
+  - "backing up, full backups"
+  - "transaction logs"
+  - "backing up, backup jobs"
+ms.assetid: a383a16d-1e40-4b0b-a515-f1cb90bfb4d2
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Marked Transactions, Full Backups, and Log Backups
 The Backup BizTalk Server Job creates synchronized backups of all BizTalk Server databases by using full database backups and transaction log backups, in conjunction with a type of transaction known as a *marked transaction*. Marked transactions are transactions that place a mark into the transaction log of all databases participating in the transaction. The marked transaction blocks new distributed transactions from starting, waits for the distributed transactions that are currently running to complete, and then executes to place the mark.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: System Main"
-title: "System Main2"
+title: "System Main2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0ea1cfbd-22ce-4a5c-ba74-770fe534d1d0
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # System Main
 The information on this page applies to the overall Enterprise Single Sign-On (SSO) system.  

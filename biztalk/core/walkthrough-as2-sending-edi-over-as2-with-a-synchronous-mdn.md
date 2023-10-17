@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Walkthrough (AS2): Sending EDI over AS2 with a Synchronous MDN"
-title: "Walkthrough (AS2): Sending EDI over AS2 with a Synchronous MDN"
+title: "Walkthrough (AS2): Sending EDI over AS2 with a Synchronous MDN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 21891d29-eb22-4b31-9258-14b72ae675dc
+caps.latest.revision: 34
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough (AS2): Sending EDI over AS2 with a Synchronous MDN
 This walkthrough provides a set of step-by-step procedures that creates a solution for sending EDI messages over AS2, with a synchronous MDN. You can create and test the full solution in this walkthrough on a single computer.  

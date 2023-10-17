@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Receive IDOCs from SAP in a Transactional Context using BizTalk Server"
-title: "Receive IDOCs from SAP in a Transactional Context using BizTalk Server"
+title: "Receive IDOCs from SAP in a Transactional Context using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "transactional context"
+  - "IDOCs, receiving in a transactional context using BizTalk Server"
+ms.assetid: 6a01bb82-7292-4b70-8ad7-996d389a9365
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive IDOCs from SAP in a Transactional Context using BizTalk Server
 Receiving IDOC in a transactional context is similar to receiving tRFCs in a transactional context. In such a case, the IDOC received from the SAP system contains a TID as part of the *\<TransactionalRfcOperationIdentifier\>* element. This TID is persisted in a SQL database by the adapter. If the ABAP code in the SAP system that sends the IDOC has a "COMMIT WORK" statement, the TID is deleted from the SQL database after a response is sent back to the SAP system.  

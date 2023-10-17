@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connect to the Oracle E-Business Suite in Visual Studio"
-title: "Connect to the Oracle E-Business Suite in Visual Studio"
+title: "Connect to the Oracle E-Business Suite in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e290ea7e-03f3-49d4-9f18-1e539d727d9c
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connect to the Oracle E-Business Suite in Visual Studio
 This section provides information about how to use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  

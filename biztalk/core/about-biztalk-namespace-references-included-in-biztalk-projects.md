@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: About BizTalk Namespace References Included in BizTalk Projects"
-title: "About BizTalk Namespace References Included in BizTalk Projects"
+title: "About BizTalk Namespace References Included in BizTalk Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "System.Xml namespace"
+  - "Microsoft.BizTalk.GlobalPropertySchemas namespace"
+  - "namespaces, System.Xml namespace"
+  - "System namespace"
+  - "namespaces, System namespace"
+  - "namespaces, Microsoft.BizTalk.GlobalPropertySchemas namespace"
+  - "Microsoft.BizTalk.DefaultPipelines namespace"
+  - "projects, namespaces"
+  - "namespaces, warnings"
+  - "namespaces, Microsoft.BIzTalk.DefaultPipelines namespace"
+  - "namespaces"
+ms.assetid: cb642eac-7307-44f8-bbba-3ae364e11ea2
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # About BizTalk Namespace References Included in BizTalk Projects
 When you add a new BizTalk project, the following namespaces are included by default:  

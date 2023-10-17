@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Base/DMOD and SNALink Entry Point Summary"
-title: "Base-DMOD and SNALink Entry Point Summary1"
+title: "Base-DMOD and SNALink Entry Point Summary1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ffaa5264-1dae-404b-a77c-c2b5f373d0b5
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Base/DMOD and SNALink Entry Point Summary
 The following tables show entry points divided into the categories SNALink, buffer management, and Base/DMOD, and listed in alphabetic order within each category.  

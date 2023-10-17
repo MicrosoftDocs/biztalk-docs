@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_TN5250SessionIPFilter Class"
-title: "MsSna_TN5250SessionIPFilter Class1"
+title: "MsSna_TN5250SessionIPFilter Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e3e6d553-43bb-4917-8ea3-2a25c0642678
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_TN5250SessionIPFilter Class
 Contains the IP address or name assigned to a TN5250 session.  

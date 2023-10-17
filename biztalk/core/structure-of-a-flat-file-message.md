@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Structure of a Flat File Message"
-title: "Structure of a Flat File Message"
+title: "Structure of a Flat File Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 00f2adf6-a47c-498b-b5ae-c6bd55bafceb
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Structure of a Flat File Message
 In the context of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], a flat file instance message is a text file that can contain three logical parts: a header, a body, and a trailer, in that order. Both the header and the trailer are optional. The following example shows a flat file instance message that consists of all three parts, with the body shown in bold type.  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Invoke Functions and Procedures in Oracle Database using BizTalk Server"
-title: "Invoke Functions and Procedures in Oracle Database using BizTalk Server"
+title: "Invoke Functions and Procedures in Oracle Database using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "functions and procedures, invoking by using BizTalk Server"
+ms.assetid: 35f2c40e-1151-4941-9030-16464fc1caf8
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invoke Functions and Procedures in Oracle Database using BizTalk Server
 Adapter clients can invoke functions and procedures in an Oracle database by using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces procedures, functions, and packages as operations. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] also enables adapter clients to invoke:  

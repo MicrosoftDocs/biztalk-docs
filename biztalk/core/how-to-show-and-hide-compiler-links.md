@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Show and Hide Compiler Links"
-title: "How to Show and Hide Compiler Links"
+title: "How to Show and Hide Compiler Links | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 66bfd9de-c4d2-46ee-854f-cf7c7cd07368
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Show and Hide Compiler Links
 When you compile a map, BizTalk Mapper creates additional links, known as compiler links to account for all linking needed in the map. Some of these links are only implied by the links you created. When you compile, or test, a map, the final line in the Visual Studio Output window allows you to show or hide these additional compiler links in the main window. By default, the compiler links appear as red dashed lines.  

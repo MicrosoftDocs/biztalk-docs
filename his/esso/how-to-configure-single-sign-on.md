@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure Single Sign-On"
-title: "How to Configure Single Sign-On"
+title: "How to Configure Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 13f7e5a5-1fec-4c8f-bbf1-e0821c2e97a6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure Single Sign-On
 Before accessing Enterprise Single Sign-On, you should make sure that Enterprise Single Sign-On is set correctly for the current user. For most configurations, you use one of two interfaces. `ISSOAdmin` is the general administration interface that enables you to create new affiliation applications. However, by using ISSOAdmin.GetGlobalInfo and ISSOAdmin.UpdateGlobalInfo, you can set a variety of flags and administration values. One possible task, as described in the following procedure, is to ensure that SSO ticketing has been enabled.  

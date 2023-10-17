@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: ExecuteReader, ExecuteScalar, or ExecuteNonQuery operations in SQL using WCF Service Model"
-title: "ExecuteReader, ExecuteScalar, or ExecuteNonQuery operations in SQL using WCF Service Model"
+title: "ExecuteReader, ExecuteScalar, or ExecuteNonQuery operations in SQL using WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 62f166af-b657-491b-b20d-1ae7886f27ce
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ExecuteReader, ExecuteScalar, or ExecuteNonQuery operations in SQL using WCF Service Model
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes generic SQL Server operations such as **ExecuteNonQuery**, **ExecuteReader**, and **ExecuteScalar**. You can use these operations to execute any SQL statement on a SQL Server database. These operations differ based on the kind of response you get for the SQL statement. For more information about how the adapter supports these operations, see [Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-executenonquery-executereader-and-executescalar-operations.md).  

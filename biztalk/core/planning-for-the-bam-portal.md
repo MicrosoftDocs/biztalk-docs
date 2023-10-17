@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Planning for the BAM Portal"
-title: "Planning for the BAM Portal"
+title: "Planning for the BAM Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "BAM portal, security"
+  - "BAM portal, prerequisites"
+  - "BAM portal, deploying"
+  - "developing, BAM portal"
+  - "planning, BAM portal"
+  - "BAM portal, planning"
+  - "BAM portal, developing"
+  - "deploying, BAM portal"
+  - "security, BAM portal"
+ms.assetid: 8a8bd331-c5a8-4d8b-9e93-96e6cd581a1d
+caps.latest.revision: 36
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Planning for the BAM Portal
 This topic describes items that you should consider when planning your Business Activity Monitoring (BAM) portal deployment.

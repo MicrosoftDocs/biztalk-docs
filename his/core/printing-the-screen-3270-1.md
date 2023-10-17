@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Printing the Screen (3270)"
-title: "Printing the Screen (3270)1"
+title: "Printing the Screen (3270)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e410e451-cf74-42aa-ba80-3d96bb9fe090
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Printing the Screen (3270)
 After you have established a connection to the host, you can print the information in the active window.  

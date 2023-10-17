@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Preserving a Received Batched EDI Interchange"
-title: "Preserving a Received Batched EDI Interchange"
+title: "Preserving a Received Batched EDI Interchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 10d21b9b-9684-422a-8948-8bd71a4d5a10
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Preserving a Received Batched EDI Interchange
 > [!NOTE]

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 2: Create Messages for BizTalk Orchestrations"
-title: "Step 2: Create Messages for BizTalk Orchestrations"
+title: "Step 2: Create Messages for BizTalk Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 47a4fb98-6085-4aeb-ab39-2f2c3858d4e0
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Create Messages for BizTalk Orchestrations
 ![Step 2 of 2](../../adapters-and-accelerators/adapter-sql/media/step-2of2.gif "Step_2of2")  

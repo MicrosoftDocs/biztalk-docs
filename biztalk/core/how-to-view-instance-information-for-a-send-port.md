@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to View Instance Information for a Send Port"
-title: "How to View Instance Information for a Send Port"
+title: "How to View Instance Information for a Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "send ports, viewing"
+  - "managing [send ports], viewing"
+  - "viewing, send ports"
+ms.assetid: 37cf6561-5341-4a05-b531-33ab0334966e
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to View Instance Information for a Send Port
 This topic describes how to use the BizTalk Server Administration console to view a list of the running service instances of a send port. A service instance is an instance of the send port service that is created when a message is sent to the send port. When you follow the procedure in this topic, instance information displays in the Group Overview page for the send port.  

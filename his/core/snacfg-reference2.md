@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Snacfg Reference"
-title: "Snacfg Reference2"
+title: "Snacfg Reference2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5a309a9f-ef20-4629-9b04-ecd24ce0eea4
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Snacfg Reference
 The following sections reference specific areas of Snacfg.  

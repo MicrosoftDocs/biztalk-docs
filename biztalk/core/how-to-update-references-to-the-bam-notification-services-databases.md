@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: How to Update References to the BAM Notification Services Databases"
-title: "How to Update References to the BAM Notification Services Databases"
+title: "How to Update References to the BAM Notification Services Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Notification Services Application database [BAM], restoring"
+  - "Notification Services Application database [BAM], updating references"
+  - "restoring, BAM"
+  - "NS$instance_name service Notification Services Application database [BAM], NS$instance_name service"
+  - "restoring [BAM], updating references"
+  - "BAM, restoring"
+  - "restoring [BAM], Notification Services Application database"
+  - "restoring [BAM], NS$instance_name service"
+ms.assetid: b007fdc2-2e74-4eef-b4c3-43689e9f2180
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Update References to the BAM Notification Services Databases
 After you perform the steps necessary to restore the Business Activity Monitoring (BAM) Notification Services databases to the destination system, you must re-register the Notification Service on all computers in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group that are running Notification Services (NSservice.exe). This enables Notification Services to connect to the databases in their new location.  

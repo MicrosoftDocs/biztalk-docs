@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Scheduled Aggregations"
-title: "Scheduled Aggregations"
+title: "Scheduled Aggregations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BAM, aggregations"
+  - "scheduling, aggregations [BAM]"
+  - "aggregations [BAM], scheduling"
+ms.assetid: 4e2da2eb-b1fc-4b27-98d6-564e6df719e1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scheduled Aggregations
 BAM bases scheduled aggregations on dynamically generated OLAP cubes and Data Transformation Services (DTS) packages. The data in scheduled aggregations represents a snapshot of your business activities when you start your DTS package. To achieve this, the first step of the DTS package for analysis is a call to the stored procedure **bam_Metadata_BeginAnalysis** that will retrieve a snapshot consisting of:  

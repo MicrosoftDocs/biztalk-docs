@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: OLE DB Provider-Specific Property Support in the OLE DB Provider for Informix"
-title: "OLE DB Provider-Specific Property Support in the OLE DB Provider for Informix"
+title: "OLE DB Provider-Specific Property Support in the OLE DB Provider for Informix | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ffa71e57-270d-4a4d-8d56-929a5b8c6142
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # OLE DB Provider-Specific Property Support in the OLE DB Provider for Informix
 The following table summarizes the provider-specific OLE DB version 2.8 properties in the DBPROPSET_DBINIT property set that are supported by the version of Microsoft OLE DB Provider for Informix included with Host Integration Server.  

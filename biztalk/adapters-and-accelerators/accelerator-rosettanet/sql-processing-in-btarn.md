@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: SQL Processing in BTARN"
-title: "SQL Processing in BTARN"
+title: "SQL Processing in BTARN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "line-of-business applications (LOBs)"
+  - "LOBs"
+  - "SQL processing"
+  - "messages, message flow"
+  - "BTARN, SQL processing"
+ms.assetid: cfaf804f-3803-438e-a22e-50f487fe21c3
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SQL Processing in BTARN
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses a SQL adapter to route a message from the line-of-business (LOB) application. It uses a SQL send port to route a message to the LOB application.  

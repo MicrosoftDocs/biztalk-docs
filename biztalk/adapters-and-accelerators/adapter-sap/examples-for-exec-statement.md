@@ -1,12 +1,19 @@
 ---
-title: "Examples for EXEC Statement in mySAP adapter in BizTalk"
+title: "Examples for EXEC Statement in mySAP adapter in BizTalk | Microsoft Docs"
 description: EXEC examples and samples using the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ad2691f4-34bb-423c-9b3e-4abe2d55ddac
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Examples for EXEC Statement
 This topic shows example syntax for various EXEC statements.

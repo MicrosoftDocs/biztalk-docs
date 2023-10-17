@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Consume a WCF LOB Adapter SDK adapter in a BizTalk Server project"
-title: "Consume a WCF LOB Adapter SDK adapter in a BizTalk Server project"
+title: "Consume a WCF LOB Adapter SDK adapter in a BizTalk Server project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 041f14cc-d00f-450d-b1e9-40a3e423c510
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Consume a WCF LOB Adapter SDK adapter in a BizTalk Server project
 This topic describes how to consume an adapter built using the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] from [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)].  

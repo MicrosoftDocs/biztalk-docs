@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: PREPARE_TO_RECEIVE"
-title: "PREPARE_TO_RECEIVE2"
+title: "PREPARE_TO_RECEIVE2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1b7f05d7-cddd-40c5-a1fc-51b8b607400d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # PREPARE_TO_RECEIVE
 The **PREPARE_TO_RECEIVE** verb changes the state of the conversation for the local transaction program (TP) from SEND to RECEIVE.  

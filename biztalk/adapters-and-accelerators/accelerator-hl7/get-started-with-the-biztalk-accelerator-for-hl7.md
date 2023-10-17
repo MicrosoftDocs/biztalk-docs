@@ -1,11 +1,25 @@
 ---
 description: "Learn more about: Get started with the BizTalk Accelerator for HL7"
 title: "Get started with the BizTalk Accelerator for HL7"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
 f1_keywords: 
   - "btahl7.configurationexplorer.gettingstarted"
+helpviewer_keywords: 
+  - "BizTalk Accelerator for HL7"
+  - "BizTalk Accelerator for HL7, getting started"
+  - "getting started"
+ms.assetid: e842d501-2037-4fd6-a518-d29b25877250
+caps.latest.revision: 9
+
+
+
 ---
 # Get started with the BizTalk Accelerator for HL7
 Using the Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)], you can develop business processes between your health care computer systems. By using [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], developers, IT professionals, and interface analysts can work in a common environment to develop end-to-end integrated BTAHL7-based solutions across health care applications.  

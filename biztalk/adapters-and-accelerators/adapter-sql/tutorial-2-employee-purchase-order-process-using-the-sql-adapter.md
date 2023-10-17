@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Tutorial 2: Employee - Purchase Order Process using the SQL adapter"
-title: "Tutorial 2: Employee - Purchase Order Process using the SQL adapter"
+title: "Tutorial 2: Employee - Purchase Order Process using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: eeb4dd1e-209a-47eb-9c0e-a138e02f0ff2
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tutorial 2: Employee - Purchase Order Process using the SQL adapter
 In this tutorial, you are automating the process where the Purchases department that places an equipment order every time a new employee joins the organization. Both employee details and purchase order details are maintained in **Employee** and **Purchase_Order** tables respectively, in a SQL Server database. The Purchases department is informed by updating the Purchase_Order table in the SQL Server database and by sending an e-mail. Within the process, the following actions occur:  

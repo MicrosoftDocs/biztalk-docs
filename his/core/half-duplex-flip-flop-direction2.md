@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Half-Duplex Flip-Flop Direction"
-title: "Half-Duplex Flip-Flop Direction2"
+title: "Half-Duplex Flip-Flop Direction2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3d5bba82-4006-47f2-8e16-081f9615de1c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Half-Duplex Flip-Flop Direction
 The **BIND** used to establish the session carries information about the initial state of the bracket and direction machines. This can be specified in the **BIND** if either of the following conditions are satisfied:  

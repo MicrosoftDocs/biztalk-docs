@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Monitoring SQL Servers"
-title: "Checklist: Monitoring SQL Servers"
+title: "Checklist: Monitoring SQL Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5dea6db0-5347-497c-b07d-6a339e409f0a
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Monitoring SQL Servers
 This topic describes the steps that should be followed to monitor [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] in a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.

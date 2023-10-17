@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Using Dynamic Transformation"
-title: "Using Dynamic Transformation"
+title: "Using Dynamic Transformation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e1e4aac7-242a-41b6-8df4-4881371f44d1
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Dynamic Transformation
 ## Overview  

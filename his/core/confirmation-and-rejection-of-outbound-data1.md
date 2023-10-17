@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Confirmation and Rejection of Outbound Data"
-title: "Confirmation and Rejection of Outbound Data1"
+title: "Confirmation and Rejection of Outbound Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: df1af558-7eb1-447e-9366-345ae13f7412
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Confirmation and Rejection of Outbound Data
 The local node sends chains of data from the host to the application with their **ACKRQD** field set as follows:  

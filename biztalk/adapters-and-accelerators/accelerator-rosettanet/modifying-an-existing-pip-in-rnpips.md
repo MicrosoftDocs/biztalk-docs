@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Modifying an Existing PIP in RNPIPs"
-title: "Modifying an Existing PIP in RNPIPs"
+title: "Modifying an Existing PIP in RNPIPs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "RNPIPs"
+  - "modifying, PIPs"
+  - "PIPs, modifying"
+  - "assemblies, RNPIPs"
+ms.assetid: f2ed25c4-1979-4691-9315-e7568e7cca8b
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Modifying an Existing PIP in RNPIPs
 This topic describes how to change and re-deploy one of the Partner Interface Process (PIP) schemas installed by Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] setup. You deploy the schema as part of the RNPIPs assembly.  

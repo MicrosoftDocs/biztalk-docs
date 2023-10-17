@@ -1,12 +1,19 @@
 ---
-title: "Create PeopleSoft adapter send artifacts"
+title: "Create PeopleSoft adapter send artifacts | Microsoft Docs"
 description: Create the send port, send the transport properties, and update Max Concurrent Calls to send messages to PeopleSoft using the PeopleSoft Enterprise adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/19/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ce67da59-26a6-44a2-929c-ed3acb21d407
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create PeopleSoft send artifacts
 Microsoft BizTalk Adapter for PeopleSoft Enterprise accesses PeopleSoft and explores available components or processes SOAP requests. This topic shows you how to create the send artifacts in BizTalk Server Administration to use the PeopleSoft adapter.

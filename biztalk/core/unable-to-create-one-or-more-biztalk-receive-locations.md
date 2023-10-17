@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unable to create one or more BizTalk receive locations"
-title: "Unable to create one or more BizTalk receive locations"
+title: "Unable to create one or more BizTalk receive locations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b564f87b-34ba-400e-9a71-bd66081fc1b8
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unable to create one or more BizTalk receive locations
 ## Details  

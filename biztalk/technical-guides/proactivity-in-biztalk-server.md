@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Proactivity in BizTalk Server"
-title: "Proactivity in BizTalk Server"
+title: "Proactivity in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b924ddae-0e7f-4058-b308-7ea9537fb45f
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Proactivity in BizTalk Server
 BizTalk Technical Article

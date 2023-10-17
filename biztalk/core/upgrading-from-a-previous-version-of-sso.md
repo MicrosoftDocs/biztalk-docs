@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Upgrading from a Previous Version of SSO"
-title: "Upgrading from a Previous Version of SSO"
+title: "Upgrading from a Previous Version of SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "upgrading, SSO"
+  - "SSO, upgrading"
+ms.assetid: 78b99d99-9a10-4453-9db5-ae1bacd7de50
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Upgrading from a Previous Version of SSO
 If you are installing the Enterprise Single Sign-on feature and you already have a previous version deployed on your computer (for example, from Microsoft BizTalk Server 2009), you must complete the steps below.  

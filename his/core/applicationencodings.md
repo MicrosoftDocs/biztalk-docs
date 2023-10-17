@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: applicationEncodings"
-title: "applicationEncodings"
+title: "applicationEncodings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 525fc42d-a621-48a0-8e1a-cbde7f841e99
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # applicationEncodings
 The applicationEncodings element contains applicationEncoding elements for specifying default application-level encoding schemes on a per-database basis.  

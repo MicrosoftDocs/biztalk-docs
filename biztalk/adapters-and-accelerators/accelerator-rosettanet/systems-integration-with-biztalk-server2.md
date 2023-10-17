@@ -1,12 +1,18 @@
 ---
-title: "Systems Integration with BizTalk Server"
+title: "Systems Integration with BizTalk Server | Microsoft Docs"
 description: BizTalk Server includes the ability to integrate messages using XML, automate business processes using maps and orchestration, and work with systems using different protocols, such as FTP, HTTP, SMTP, SOAP, and SQL.
 ms.custom: ""
 ms.date: "06/08/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5ba3dda1-efdb-4a2b-bb3a-825d76696f15
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Systems Integration with BizTalk Server
 BizTalk Server is an integration server that uses a [publish and subscribe architecture](../../core/publish-and-subscribe-architecture.md). It's designed for eBusiness applications that [use adapters](../../core/using-adapters.md) to receive and send messages, implement [business processes through orchestration](../../core/defining-business-processes.md), and include [management and tracking](../../core/management-and-tracking-architecture.md) of these different parts. BizTalk Server also includes [trading partner management](../../core/trading-partner-management-using-biztalk-server.md) for business-to-business messaging, [high availability](../../core/planning-for-high-availability3.md) to maximize uptime, a development platform to [create your own components](../../core/developing-custom-components.md), an administration console to [manage your artifacts](../../core/operational-and-administrative-tasks-in-your-biztalk-environment.md), and business activity monitoring to manage [aggregations, alerts, and profiles](../../core/using-business-activity-monitoring.md). This technology stack provides a range of functionality and features for developing, implementing, operating, and maintaining your solution.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3 (For Azure): Create a Service Bus Queue"
-title: "Step 3 (For Azure): Create a Service Bus Queue"
+title: "Step 3 (For Azure): Create a Service Bus Queue | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b7192c3c-4ebf-49c4-b8ce-46a6e9fb5f4a
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3 (For Azure): Create a Service Bus Queue
 In this topic, you create a Service Bus Queue to which the X12 sales order is sent after it is processed and transformed using the EDI agreement.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: An AS2 message was received that did not contain the AS2-To header"
-title: "An AS2 message was received that did not contain the AS2-To header"
+title: "An AS2 message was received that did not contain the AS2-To header | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 343a9b41-fcd9-4508-ac65-9b6e05ec6496
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # An AS2 message was received that did not contain the AS2-To header
 ## Details  

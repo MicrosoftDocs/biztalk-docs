@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Data Table Name Node"
-title: "Data Table Name Node2"
+title: "Data Table Name Node2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15470"
+ms.assetid: 29b6a0ec-f0e2-4615-a47c-669a68c8f6b8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Table Name Node
 Use the ***data table name*** node to view a list of the data table column names and their properties.  

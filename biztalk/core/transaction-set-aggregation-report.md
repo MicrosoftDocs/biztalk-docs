@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Transaction Set Aggregation Report"
-title: "Transaction Set Aggregation Report"
+title: "Transaction Set Aggregation Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a6e1417e-e0c6-4d30-aab5-d9bfe14cd4b8
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Transaction Set Aggregation Report
 This report provides a single record that shows the number of EDI transaction sets that share the same Transaction Set ID, EDI encoding type, sender party, receiver party, and direction. This report does not provide details about the individual transaction sets.  

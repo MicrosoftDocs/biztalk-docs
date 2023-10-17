@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Audit Policies"
-title: "Audit Policies2"
+title: "Audit Policies2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 312017e8-3973-4345-adfe-a8ca6cd95bc1
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Audit Policies
 Auditing security events and then placing entries in the computers security log can track selected activities of users. Use the audit policy to determine the types of security events that are logged.  

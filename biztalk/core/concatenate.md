@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Concatenate"
-title: "Concatenate"
+title: "Concatenate | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e21a773d-a9cc-4a6f-b548-46badcd92aab
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Concatenate
 Removes the top two items from the stack, concatenates them, and then pushes the result onto the stack.  

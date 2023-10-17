@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Deployment Overview"
-title: "Deployment Overview1"
+title: "Deployment Overview1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6baae608-dd20-4087-aad0-60e2c79e90ab
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Deployment Overview
 The system in this example is deployed over three domains, and contains the following computers:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Host Integration Server DLC Header Files"
-title: "Host Integration Server DLC Header Files1"
+title: "Host Integration Server DLC Header Files1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8f2ae857-d09a-4430-8ab3-0651332651a8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Host Integration Server DLC Header Files
 The following files are required to build a Host Integration Server SNALink:  

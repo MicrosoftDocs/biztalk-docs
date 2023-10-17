@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_LuLuaAssignedToWorkstation Class"
-title: "MsSna_LuLuaAssignedToWorkstation Class2"
+title: "MsSna_LuLuaAssignedToWorkstation Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d6bfd353-d7dc-4d16-aecb-30bfae54de41
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_LuLuaAssignedToWorkstation Class
 Associates an LUA LU with a workstation.  

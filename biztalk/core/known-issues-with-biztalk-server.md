@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Known Issues with BizTalk Server"
-title: "Known Issues with BizTalk Server"
+title: "Known Issues with BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1aa5fb60-e8db-4cd2-88be-3c71b7b1d44d
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Known Issues with BizTalk Server
 This topic lists some known issues with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

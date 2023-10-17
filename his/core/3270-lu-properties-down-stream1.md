@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: 3270 LU Properties: Down Stream"
-title: "3270 LU Properties: Down Stream1"
+title: "3270 LU Properties: Down Stream1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_LU_Down"
+ms.assetid: e067d050-a262-4fe2-8939-23be8d6cca1a
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # 3270 LU Properties: Down Stream
 **Enter the LU Number for LUs on 802.2, SDLC, or X.25.**  

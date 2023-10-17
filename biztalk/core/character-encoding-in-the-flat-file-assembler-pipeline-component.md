@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Character Encoding in the Flat File Assembler Pipeline Component"
-title: "Character Encoding in the Flat File Assembler Pipeline Component"
+title: "Character Encoding in the Flat File Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Flat File Assembler [pipeline component], character encoding"
+  - "IBaseMessagePart.Charset property"
+  - "pipeline components, Flat File Assembler"
+  - "Codepage property"
+  - "XMLNorm.SourceCharset property"
+  - "XMLNorm.TargetCharset property"
+  - "Target Charset property"
+ms.assetid: 0cf3c0fd-f036-4190-83ce-9064ef4e823c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Character Encoding in the Flat File Assembler Pipeline Component
 The Flat File Assembler can produce messages in user-specified character encoding. You can specify the character encoding at several levels:  

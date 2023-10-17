@@ -1,12 +1,19 @@
 ---
-title: "Develop your Oracle Database applications in BizTalk Server"
+title: "Develop your Oracle Database applications in BizTalk Server | Microsoft Docs"
 description: Create Oracle DB applications using WCF, or in BizTalk Server with the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d4a685b2-ac17-4949-bc77-001f56450847
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop your Oracle Database applications
 

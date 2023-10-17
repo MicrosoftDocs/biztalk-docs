@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Tutorial 4: Migrating an SAP Receive IDOC BizTalk Project"
-title: "Tutorial 4: Migrating an SAP Receive IDOC BizTalk Project"
+title: "Tutorial 4: Migrating an SAP Receive IDOC BizTalk Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "migration, SAP Receive IDOC BizTalk project"
+  - "migrating, SAP Receive IDOC BizTalk project"
+  - "migration"
+ms.assetid: 74b667d8-2d8c-4c15-9dd2-f13521404b85
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tutorial 4: Migrating an SAP Receive IDOC BizTalk Project
 The previous version of the SAP adapter that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in many aspects, including:  

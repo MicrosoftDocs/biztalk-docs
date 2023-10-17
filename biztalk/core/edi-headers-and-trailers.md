@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Headers and Trailers"
-title: "EDI Headers and Trailers"
+title: "EDI Headers and Trailers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5cf1dae3-9570-413d-a85d-94dcbb561906
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Headers and Trailers
 The parts of an EDI interchange are delimited by headers and trailers that must conform to the X12 or EDIFACT standards. The interchange control header and trailer occur just once; the functional group and transaction set headers and trailers are repeated if the transaction sets and groups are batched within the interchange. Each of the headers and trailers consists of a series of data elements that contain information about the content that the header and trailer contain.  

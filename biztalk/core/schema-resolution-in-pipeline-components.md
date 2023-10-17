@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Schema Resolution in Pipeline Components"
-title: "Schema Resolution in Pipeline Components"
+title: "Schema Resolution in Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, schema resolution"
+  - "pipeline components, schema resolution"
+  - "schemas, pipeline components"
+ms.assetid: 35a79a6f-788b-4ca1-8483-36dcba5ae580
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Schema Resolution in Pipeline Components
 Pipeline disassembler and assembler components use XSD schemas to process messages. The schemas contain information such as the list of promoted properties, distinguished fields, annotations for flat file messages, and annotations for XML envelopes.  

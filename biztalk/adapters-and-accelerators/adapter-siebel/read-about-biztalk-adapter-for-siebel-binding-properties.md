@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Read about BizTalk Adapter for Siebel Binding Properties"
-title: "Read about BizTalk Adapter for Siebel Binding Properties"
+title: "Read about BizTalk Adapter for Siebel Binding Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "binding properties, setting"
+  - "binding properties, adapter"
+  - "how to, set binding properties"
+ms.assetid: 48c77a2d-091c-40e0-aaf3-dc2ec34c55f2
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Read about BizTalk Adapter for Siebel Binding Properties
 The [!INCLUDE[adaptersiebel_md](../../includes/adaptersiebel-md.md)] surfaces several binding properties that enable you to control some of its run-time and design-time behavior. This section describes these binding properties and provides links to topics that explain how you can set them.  

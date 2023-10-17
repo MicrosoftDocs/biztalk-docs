@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Execute a PeopleSoft Enterprise Sample Get"
-title: "Executing a PeopleSoft Enterprise Sample Get"
+title: "Executing a PeopleSoft Enterprise Sample Get | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: eb54f14c-3fce-44d6-91bb-cb1ca38a20da
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Execute a PeopleSoft Enterprise Sample Get
 The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system by using the PeopleSoft adapter. This adapter is included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

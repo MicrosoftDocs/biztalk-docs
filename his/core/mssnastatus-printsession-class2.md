@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_PrintSession Class"
-title: "MsSnaStatus_PrintSession Class2"
+title: "MsSnaStatus_PrintSession Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7115d8cc-32d9-40e7-ba79-f8836ce9c2b2
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_PrintSession Class
 The **MsSnaStatus_PrintSession** class represents an SNA Print session status.  

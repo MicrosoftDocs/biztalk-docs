@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Execute a JD Edwards OneWorld Sample Query"
-title: "Execute a JD Edwards OneWorld Sample Query"
+title: "Execute a JD Edwards OneWorld Sample Query | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b060d383-a2df-472f-90cc-e79078b0bcfd
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Execute a JD Edwards OneWorld Sample Query

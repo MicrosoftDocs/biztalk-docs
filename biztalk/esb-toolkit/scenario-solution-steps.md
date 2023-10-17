@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Scenario Solution Steps"
-title: "Scenario Solution Steps"
+title: "Scenario Solution Steps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 77751c15-9b67-4587-8bc8-2be65f13d339
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scenario Solution Steps
 The ESB Exception Management Framework provides a simple solution for handling an exception when an invoice message contains invalid data that causes an error during processing, as described earlier in this topic. The following is one approach you could take:  

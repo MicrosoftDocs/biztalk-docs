@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Manage Role Links"
-title: "Managing Role Links"
+title: "Managing Role Links | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b8860e11-3d2c-450f-a7d2-cc116478999c
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Manage Role Links
 

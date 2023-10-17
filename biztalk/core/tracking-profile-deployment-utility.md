@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Tracking Profile Deployment Utility"
-title: "Tracking Profile Deployment Utility"
+title: "Tracking Profile Deployment Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1d631b7c-a40f-4cee-88a4-3d932ab7fde0
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tracking Profile Deployment Utility
 Developers use the bttdeploy utility to apply tracking profiles to and remove them from the BAM infrastructure. Using the bttdeploy utility is functionally equivalent to clicking the Apply Tracking Profile menu option in the Tracking Profile Editor (TPE).  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How the Scatter-Gather Sample Works"
-title: "How the Scatter-Gather Sample Works"
+title: "How the Scatter-Gather Sample Works | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5ccfacb7-4fd2-4a1a-bece-27eedd86bbe9
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How the Scatter-Gather Sample Works
 The sample application builds a set of SOAP headers containing the itinerary loaded from the Scatter-Gather itinerary file, loads the specified message file from disk, appends the itinerary headers to the message, and submits it to the ESB through an on-ramp for processing. If the itinerary generates a response, the application collects this and displays it in the application window.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Set application context"
-title: "Set application context"
+title: "Set application context | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e9697155-70c0-4173-80d2-d02d103c397b
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Set application context
 In [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)], setting application context is mandatory for some Oracle E-Business Suite artifacts (interface tables, interface views, concurrent programs, and request sets) before you can perform operations on them. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] does not allow you to perform operations on these artifacts until you have set the application context. However, for artifacts in the underlying Oracle database, it is up to the user whether they want to set the application context or not.  

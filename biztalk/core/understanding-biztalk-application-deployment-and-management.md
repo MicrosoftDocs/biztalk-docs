@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: Understanding BizTalk Application Deployment and Management"
-title: "Understanding BizTalk Application Deployment and Management"
+title: "Understanding BizTalk Application Deployment and Management | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying [applications]"
+  - "managing [applications], deploying"
+  - "applications, deploying"
+  - "deploying, what's new"
+  - "applications, managing"
+  - "what's new, deploying"
+  - "deploying [applications], what's new"
+  - "managing [applications], what's new"
+  - "applications, what's new"
+  - "what's new, applications"
+  - "managing, applications"
+ms.assetid: 4bc1677d-24a2-4f55-83b2-6dfc39767072
+caps.latest.revision: 33
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Understanding BizTalk Application Deployment and Management
 This section introduces the new application deployment and management features of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and provides background information that will help you understand how to use these features to deploy and manage BizTalk applications.  

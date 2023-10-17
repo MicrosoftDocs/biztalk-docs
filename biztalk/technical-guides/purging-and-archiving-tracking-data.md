@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Purging and Archiving Tracking Data"
-title: "Purging and Archiving Tracking Data"
+title: "Purging and Archiving Tracking Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 14094fda-3fd9-4d45-9bbb-cd9377c2cbad
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Purging and Archiving Tracking Data
 It is important to configure and enable the DTA Purge and Archive SQL Agent job. This job archives and purges old data from the BizTalk Tracking (DTA) database. This is essential for a healthy [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system. A large Tracking database will begin to affect the performance of the tracking host and any other processes that query the Tracking database. If the tracking data is not purged from the Tracking database, the database will continue to grow.

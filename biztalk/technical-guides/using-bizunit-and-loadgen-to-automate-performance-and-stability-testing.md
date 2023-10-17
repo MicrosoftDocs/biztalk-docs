@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Using BizUnit and LoadGen to Automate Performance and Stability Testing"
-title: "Using BizUnit and LoadGen to Automate Performance and Stability Testing"
+title: "Using BizUnit and LoadGen to Automate Performance and Stability Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 73c2a97a-6256-4010-8374-433017cb15d4
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using BizUnit and LoadGen to Automate Performance and Stability Testing
 This topic provides information about how to use the Microsoft BizTalk LoadGen 2007 tool with BizUnit to automate performance and stability testing of a BizTalk Server solution.

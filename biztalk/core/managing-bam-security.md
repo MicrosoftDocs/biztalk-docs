@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Managing BAM Security"
-title: "Managing BAM Security"
+title: "Managing BAM Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security, BAM"
+  - "managing [BAM], security"
+ms.assetid: 21749ae3-b42a-43c2-b85e-1f958bd78170
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Managing BAM Security
 This section provides information about BAM security. It includes procedures for managing user accounts for BAM views and managing subscriptions to alerts.  

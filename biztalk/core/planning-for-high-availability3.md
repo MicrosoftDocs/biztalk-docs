@@ -1,12 +1,24 @@
 ---
 description: "Learn about the guidance for increasing availability of a BizTalk Server environment in order to maximize the uptime of a BizTalk Server solution."
-title: "Planning for High Availability3"
+title: "Planning for High Availability3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "architecture, high availability"
+  - "high availability"
+  - "planning, high availability"
+  - "high availability, architecture"
+ms.assetid: 16feada0-b0b1-4e58-9477-fbd1aae2f51e
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Plan for High Availability
 

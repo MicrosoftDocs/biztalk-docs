@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10777"
-title: "Single Sign-On: Event 10777"
+title: "Single Sign-On: Event 10777 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2f0aafe2-5f6e-4231-88b2-c6b374ef8106
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10777
 ## Details  

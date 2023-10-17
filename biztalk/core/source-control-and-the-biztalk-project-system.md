@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Source Control and the BizTalk Project System"
-title: "Source Control and the BizTalk Project System"
+title: "Source Control and the BizTalk Project System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "Microsoft Source Code Control Interface (MSSCCI)"
+  - "projects, security"
+  - "security, projects"
+ms.assetid: 0f5c2f4d-5e16-4277-b750-60813a3ff964
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Source Control and the BizTalk Project System
 Source control is a mechanism in which a central piece of software stores and tracks file versions and controls who can access the files. When you use source control, you can:

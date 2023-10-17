@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: 3270 Client"
-title: "3270 Client2"
+title: "3270 Client2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a2624d58-376d-4873-be97-4fa3867abcaf
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # 3270 Client
 The Microsoft Host Integration Server 3270 Client enables your personal computer (PC) to access IBM hosts on the Systems Network Architecture (SNA) network. With the Host Integration Server 3270 Client, you can establish a single logical unit (LU) for your SNA session. You can connect to the following host application environments:  

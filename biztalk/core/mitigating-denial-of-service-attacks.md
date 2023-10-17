@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Mitigating Denial of Service Attacks"
-title: "Mitigating Denial of Service Attacks"
+title: "Mitigating Denial of Service Attacks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "IPSec, message protection"
+  - "messages, size"
+  - "security, configuring"
+  - "Authentication Required property"
+  - "security, Internet Information Services (IIS) Lockdown Tool"
+  - "security, Denial of Service attacks"
+  - "discretionary access control lists (DACLs)"
+  - "IPSec, data protection"
+  - "Internet Information Services (IIS) Lockdown Tool"
+  - "Denial of Service attacks"
+ms.assetid: f39c0d0a-b890-4c48-874d-5cafbc71473c
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Mitigating Denial of Service Attacks
 It is recommended to use the following mitigation techniques to help protect your BizTalk servers and services against Denial of Service attacks. You must decide which of these mitigation techniques are appropriate for your environment.

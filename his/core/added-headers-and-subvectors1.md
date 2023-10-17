@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Added Headers and Subvectors"
-title: "Added Headers and Subvectors1"
+title: "Added Headers and Subvectors1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ec9e18e4-3375-43d9-a5fd-39f5c765332e
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Added Headers and Subvectors
 The following table lists Added Headers and Subvectors.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: BizTalk Server resources"
-title: "Getting BizTalk Server Assistance"
+title: "Getting BizTalk Server Assistance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "help for BizTalk Server"
+  - "BizTalk Server, getting help"
+ms.assetid: 99d23c71-18c6-4342-b5d7-3426dc44835e
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # BizTalk Server resources

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Configuration Information"
-title: "Configuration Information"
+title: "Configuration Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Call Rules shape [Orchestration Designer], planning"
+  - "Call Rules shape [Orchestration Designer], configuring"
+ms.assetid: aa4924c6-4270-473b-aa0a-6d8b18375a39
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuration Information
 This topic describes how to configure the **Call Rules** shape.  

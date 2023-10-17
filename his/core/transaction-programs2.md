@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Transaction Programs"
-title: "Transaction Programs2"
+title: "Transaction Programs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c09f0f8b-19b0-4d10-8e7a-06dea8dda7c1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Transaction Programs
 The part of an application that initiates or responds to APPC communications is called a transaction program (TP). TPs use APPC to exchange data with other TPs on a peer-to-peer basis.  

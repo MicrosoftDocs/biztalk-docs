@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Troubleshooting Tools and Tips"
-title: "Troubleshooting Tools and Tips1"
+title: "Troubleshooting Tools and Tips1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d7c09834-a103-4719-b00c-cb175a48997d
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Troubleshooting Tools and Tips
 Using the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] management console, SNA Manager, you can view the status and properties of services, connections, 3270 sessions, APPC sessions, LUA sessions and the number of active users. Server status information includes Active, Inactive, Pending, Stopping, Active [Out of Date] or Error. If the server is active, the number of licensed users and licensed sessions is also shown  

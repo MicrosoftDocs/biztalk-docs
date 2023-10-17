@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Maps"
-title: "Maps"
+title: "Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "maps, schemas"
+  - "maps, about maps"
+  - "schemas, maps"
+  - "maps"
+ms.assetid: 37a983f8-680c-4b32-926d-0bb26e167fd3
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Maps
 Maps consist of several underlying components and depend on schemas that you have already created. These schemas in turn rely on XML Schema definition (XSD) language. This section provides an overview of BizTalk maps.  

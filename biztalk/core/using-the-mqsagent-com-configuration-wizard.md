@@ -1,14 +1,25 @@
 ---
 description: "Learn more about: Using the MQSAgent COM+ Configuration Wizard"
-title: "Using the MQSAgent COM+ Configuration Wizard"
+title: "Using the MQSAgent COM+ Configuration Wizard | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.mqsagent.wizard"
+helpviewer_keywords: 
+  - "MQSeries adapters, MQSAgent COM+ Configuration Wizard"
+  - "configuring [MQSeries adapters], MQSAgent COM+ Configuration Wizard"
+  - "MQSAgent COM+ Configuration Wizard"
+ms.assetid: f106700a-7f57-4c83-9344-6525fc10544d
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using the MQSAgent COM+ Configuration Wizard
 The MQSAgent COM+ Configuration Wizard configures the MQSAgent, the COM+ application (MQSeries component) part of the adapter. The wizard sets the application identity of the component, and the role name and users included in the role. The name of the MQSAgent COM+ component created with the MQSAgent COM+ Configuration Wizard is **MQSAgent2**.  

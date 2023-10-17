@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10815"
-title: "Single Sign-On: Event 10815"
+title: "Single Sign-On: Event 10815 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cf4ebb92-f0fa-499c-9bda-0cde726ec98e
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10815
 ## Details  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Insert a Record, Field Element, or Field Attribute Node"
-title: "How to Insert a Record, Field Element, or Field Attribute Node"
+title: "How to Insert a Record, Field Element, or Field Attribute Node | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c26f2281-f1b8-4788-8593-8d6ad29a53f0
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Insert a Record, Field Element, or Field Attribute Node
 **Record** nodes (including the **Root** node), **Field Attribute** nodes, and **Field Element** nodes are unique in that they can be renamed so that their names represent the names of the actual, custom-named elements in a corresponding instance message. For example, if you name a **Record** node FullName, at the corresponding location in an instance message an XML element named FullName is expected. If that **Record** node named FullName has a child **Field Attribute** node named RequireFullMiddleName (with its **Min Occurs** and **Max Occurs** properties set to **1**), the **FullName** element in a corresponding instance message will need to have an attribute named **RequireFullMiddleName** associated with it.  

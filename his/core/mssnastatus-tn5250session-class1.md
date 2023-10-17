@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_TN5250Session Class"
-title: "MsSnaStatus_TN5250Session Class1"
+title: "MsSnaStatus_TN5250Session Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b2e9e4c5-9c2c-466c-8f6c-6fbcbfee591d
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_TN5250Session Class
 The **MsSnaStatus_TN5250Session** class represents a TN5250 session status.  

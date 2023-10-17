@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Troubleshooting BizTalk Server Permissions"
-title: "Troubleshooting BizTalk Server Permissions"
+title: "Troubleshooting BizTalk Server Permissions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e47bd1fc-2edf-4525-97dd-4bd9d3e2d6ff
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting BizTalk Server Permissions
 Permissions problems in BizTalk Server typically fall into one of the following categories:  

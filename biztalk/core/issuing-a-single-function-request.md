@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Issuing a Single-Function Request"
-title: "Issuing a Single-Function Request"
+title: "Issuing a Single-Function Request | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "single-function requests"
+  - "business functions, executing with single-function call"
+  - "examples, single-function requests"
+ms.assetid: 7448c1a7-be88-4ea7-a357-03cd7024729a
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Issuing a Single-Function Request
 The following example, GetEffectiveAddress, is a single-function call to JD Edwards EnterpriseOne, and the result of this request is a standard response document. In a single-function request, only one callMethod within the XML object is specified.  

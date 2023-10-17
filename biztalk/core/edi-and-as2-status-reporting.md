@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI and AS2 Status Reporting"
-title: "EDI and AS2 Status Reporting"
+title: "EDI and AS2 Status Reporting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a9e58b29-9be0-41d6-ad35-1aae28e1a784
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI and AS2 Status Reporting
 EDI status reporting enables operations personnel to track the status of EDI and AS2 transmissions. If enabled, status reports provide comprehensive status of a document exchange transaction, including an interchange and any acknowledgments correlated to the interchange. These reports provide data on receipt, validation, batching, and acknowledgment processing of EDI and AS2 messages.  

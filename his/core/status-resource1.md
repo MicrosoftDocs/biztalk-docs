@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-Resource"
-title: "Status-Resource1"
+title: "Status-Resource1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b45c81ca-255f-404f-a2b9-221e7cd1413b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-Resource
 The **Status-Resource** message is used to provide a simple flow control mechanism between the local node and the application to prevent the application from exhausting its resources. It flows from the application to the node, and is used with a primary logical unit (PLU) connection.  

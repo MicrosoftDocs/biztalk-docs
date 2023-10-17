@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: QueryContextInfo"
-title: "QueryContextInfo1"
+title: "QueryContextInfo1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9a8e9616-7857-4c82-a462-e872cfc4ff60
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # QueryContextInfo
 Use the **QueryContextInfo** method to acquire a count of the entries in a TI Context array, the names of the context entries, and the data types of the context entries.  

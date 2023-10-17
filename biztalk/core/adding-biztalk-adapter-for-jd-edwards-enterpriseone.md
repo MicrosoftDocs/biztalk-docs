@@ -1,12 +1,19 @@
 ---
-title: "Add BizTalk Adapter for JD Edwards EnterpriseOne"
+title: "Add BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
 description: Add the JD Edwards EnterpriseOne to BizTalk Administration, create the send port, configure the transport properties, and use the XMLReceive and XMLTransmit pipelines when using JD Edwards EnterpriseOne adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: baecebcd-c324-40aa-bacf-876f45b6c37f
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Add JD Edwards EnterpriseOne artifacts in BizTalk Administration
 Microsoft BizTalk Adapter for J.D.Edwards EnterpriseOne contains both the Receive Handler and Send Handler folders. The folders contain BizTalkServerApplication. BizTalk Adapter for J.D.Edwards EnterpriseOne is creatable; it runs in-process with BizTalk Server and does not run in an isolated host process.  

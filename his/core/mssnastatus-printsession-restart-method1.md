@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_PrintSession.Restart Method"
-title: "MsSnaStatus_PrintSession.Restart Method1"
+title: "MsSnaStatus_PrintSession.Restart Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f5ef32ff-4001-45b2-8c98-f578cbc5e36e
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_PrintSession.Restart Method
 Restarts the print session.  

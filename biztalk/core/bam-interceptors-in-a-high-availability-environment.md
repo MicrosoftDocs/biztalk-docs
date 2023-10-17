@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BAM Interceptors in a High Availability Environment"
-title: "BAM Interceptors in a High Availability Environment"
+title: "BAM Interceptors in a High Availability Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 555c8200-949f-4c7d-8041-5ba4b6cbaed5
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM Interceptors in a High Availability Environment
 This topic describes the failover processes for the BAM WF interceptor and the BAM WCF interceptor in a high availability environment during a SQL Server failover.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Sending an AS2 Message over a FILE Send Port"
-title: "Sending an AS2 Message over a FILE Send Port"
+title: "Sending an AS2 Message over a FILE Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8c5ce9ff-fd73-4d5f-9b16-387c1e520c3a
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sending an AS2 Message over a FILE Send Port
 AS2 messages are normally sent over an HTTP adapter. You can, however, send AS2 messages over a FILE adapter if you create custom components. This topic describes how such a solution would work and provides sample code for the solution.  

@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Component Interface User-Defined Methods"
-title: "Component Interface User-Defined Methods"
+title: "Component Interface User-Defined Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "component interfaces, user-defined methods"
+  - "user-defined methods, component interface"
+  - "custom component interfaces, limitations"
+  - "collection limitations"
+  - "custom methods, samples"
+  - "samples, custom methods"
+  - "component interfaces, limitations for custom CI"
+ms.assetid: e4b15889-35ff-44aa-819d-eade9690bdd6
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Component Interface User-Defined Methods
 Microsoft BizTalk Adapter for PeopleSoft Enterprise supports user-defined methods in component interfaces. The signatures are of the form:  

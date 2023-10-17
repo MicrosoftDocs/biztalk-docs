@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: ReceiveLocationTransportType (ReceiveLocation Node)"
-title: "ReceiveLocationTransportType (ReceiveLocation Node)"
+title: "ReceiveLocationTransportType (ReceiveLocation Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "ReceiveLocationTransportType node [binding file]"
+ms.assetid: 375076c3-d5e6-4c25-b054-b452e29717e0
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ReceiveLocationTransportType (ReceiveLocation Node)
 The ReceiveLocationTransportType node of the ReceiveLocation node of a binding file contains specific information about the adapter associated with a transport that is exported with the binding file.  

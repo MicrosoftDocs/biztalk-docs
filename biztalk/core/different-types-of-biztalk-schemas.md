@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Different Types of BizTalk Schemas"
-title: "Different Types of BizTalk Schemas"
+title: "Different Types of BizTalk Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ad8847d3-6f0e-4982-b4a8-92a5f39a4b48
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Different Types of BizTalk Schemas
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports the following four types of schemas:  

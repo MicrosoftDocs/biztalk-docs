@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Lesson 8: Building and Deploying the Assembly"
-title: "Lesson 8: Building and Deploying the Assembly"
+title: "Lesson 8: Building and Deploying the Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "building assemblies"
+  - "deploying, assemblies"
+  - "assemblies, building"
+  - "assemblies, deploying"
+ms.assetid: 74c9dfbd-8365-4600-8885-a9d9c3490dd5
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 8: Building and Deploying the Assembly
 In this lesson, you build and deploy the pipeline project to generate an assembly that contains the pipelines you created in the previous steps. This lesson ensures there are no compilation errors in the work you have created so far.  

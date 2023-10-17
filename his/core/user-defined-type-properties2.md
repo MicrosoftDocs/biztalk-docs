@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: User-Defined Type Properties"
-title: "User-Defined Type Properties2"
+title: "User-Defined Type Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15434"
+ms.assetid: 75b7ffe0-1c86-4ae8-9f35-9a0544d3ec46
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # User-Defined Type Properties
 Use the **User-Defined Type** properties page to set design and host definition properties on user-defined types (UDTs).  

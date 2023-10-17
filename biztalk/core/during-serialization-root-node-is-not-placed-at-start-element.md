@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: During serialization root node is not placed at start element"
-title: "During serialization root node is not placed at start element"
+title: "During serialization root node is not placed at start element | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9ea4aa6f-0f9c-4b7b-b7f6-24a5ce954048
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # During serialization root node is not placed at start element
 ## Details  

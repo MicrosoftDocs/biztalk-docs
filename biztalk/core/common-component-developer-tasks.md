@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Common Component Developer Tasks"
-title: "Common Component Developer Tasks"
+title: "Common Component Developer Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b74e258f-2b4f-4e2f-b068-680f7d9546e8
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Common Component Developer Tasks
 Component developers design and develop advanced BizTalk Server components that are later used in BizTalk Server solutions.  

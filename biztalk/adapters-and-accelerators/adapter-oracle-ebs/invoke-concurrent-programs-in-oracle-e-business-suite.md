@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invoke concurrent programs in Oracle E-Business Suite"
-title: "Invoke concurrent programs in Oracle E-Business Suite"
+title: "Invoke concurrent programs in Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 85c55a35-bee4-4b50-8b00-e4198ad4c2af
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invoke concurrent programs in Oracle E-Business Suite
 Oracle E-Business Suite exposes concurrent programs that you can execute to perform specific operations on Oracle applications. Each Oracle application has a set of standard concurrent programs (that are same across all operations) and certain concurrent programs that are specific to an Oracle application. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes all concurrent programs as operations that adapter clients can invoke. For more information on how the adapter supports concurrent programs, see [Operations on Concurrent Programs](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-concurrent-programs.md). For information about the structure of SOAP messages for invoking concurrent programs, see [Message Schemas for Concurrent Programs](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-concurrent-programs.md).  

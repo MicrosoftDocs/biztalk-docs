@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Host Integration Server Support"
-title: "Host Integration Server Support2"
+title: "Host Integration Server Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6e842e47-50a7-4540-a4cd-10c4765423bc
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Host Integration Server Support
 This section explains how [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] works in Systems Network Architecture (SNA) networks. The following information is included:  

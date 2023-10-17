@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create New Affiliate Application Wizard: Options"
-title: "Create New Affiliate Application Wizard: Options1"
+title: "Create New Affiliate Application Wizard: Options1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c94ab7e9-13fe-4568-a5ac-67edd7dbfe06
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create New Affiliate Application Wizard: Options
 Specify options for the new Affiliate Application.  

@@ -1,12 +1,23 @@
 ---
 description: "Learn about the basic data types used by the business function interface methods in Microsoft BizTalk Adapter for JD Edwards EnterpriseOne that provide exclusive access to JD Edwards EnterpriseOne business functions."
-title: "Basic Types2"
+title: "Basic Types2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "JD Edwards EnterpriseOne adapters, data types"
+  - "adapters [JD Edwards EnterpriseOne adapters], data types"
+  - "data types, JD Edwards EnterpriseOne adapters"
+ms.assetid: 96a70f0d-f7f8-4e3b-9511-59b330910ead
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Basic Types
 

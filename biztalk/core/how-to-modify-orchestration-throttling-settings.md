@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: How to Modify Orchestration Throttling Settings"
-title: "How to Modify Orchestration Throttling Settings"
+title: "How to Modify Orchestration Throttling Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Bts10.settings.HostOrchestration"
+ms.assetid: 30086994-cb55-4ff7-9940-df197e5e35ce
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Modify Orchestration Throttling Settings
 Using the BizTalk Settings Dashboard, you can modify the orchestration throttling configuration settings of a given host, across the BizTalk Group. These settings apply to all host instances assigned to the given host. This topic provides the step-by-step procedure to modify these settings.  

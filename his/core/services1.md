@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: services"
-title: "services"
+title: "services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 23c75b2d-95c4-43d6-a01e-d09be4745036
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # services
 The services element contains the specifications for all services the application hosts.  

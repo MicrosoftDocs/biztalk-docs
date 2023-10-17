@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Performing Monthly Performance Checks"
-title: "Checklist: Performing Monthly Performance Checks"
+title: "Checklist: Performing Monthly Performance Checks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fa103777-af4d-480d-abc7-3c4718f493c1
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Performing Monthly Performance Checks
 This topic lists best practices that you should follow on a monthly basis to avoid performance issues with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.

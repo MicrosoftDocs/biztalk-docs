@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Using Transactions and Handling Exceptions"
-title: "Using Transactions and Handling Exceptions"
+title: "Using Transactions and Handling Exceptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "transactions, orchestrations"
+  - "orchestrations, transactions"
+  - "orchestrations, errors"
+  - "transactions"
+  - "errors, orchestrations"
+  - "transactions, BizTalk Server Orchestration Engine"
+  - "errors, Scope shape [Orchestration Designer]"
+  - "Scope shape [Orchestration Designer], errors"
+  - "Scope shape [Orchestration Designer], transactions"
+ms.assetid: bb38f5eb-6641-4e7c-8e2a-c474fc739999
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Transactions and Handling Exceptions
 When you design an orchestration, you should consider carefully where problems might occur and how best to deal with them. Many orchestrations have several potential points of failure. Problems can arise for any number of other reasons; for example, a server might go down or a message might be badly formatted.

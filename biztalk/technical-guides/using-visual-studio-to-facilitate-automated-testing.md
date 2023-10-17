@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Using Visual Studio to Facilitate Automated Testing"
-title: "Using Visual Studio to Facilitate Automated Testing"
+title: "Using Visual Studio to Facilitate Automated Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 78f622af-08d5-480c-bd5e-f1db52e8d490
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Visual Studio to Facilitate Automated Testing
 Visual Studio 2010 provides powerful load test functionality that can simulate a load profile of up to hundreds of users simultaneously accessing a server application. This load testing functionality provides real time metrics for selected key performance indicators as well as the ability to store these metrics in a database for future analysis. This section describes the use of Visual Studio Load testing to evaluate the performance of a BizTalk Server application.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Retrieve Connection Information"
-title: "How to Retrieve Connection Information2"
+title: "How to Retrieve Connection Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 517ae082-6425-4ce1-84bb-54ac0731ac84
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Retrieve Connection Information
 Another common task you may want to perform with Windows Management Instrumentation (WMI) for Host Integration Server is retrieving information regarding a connection.  

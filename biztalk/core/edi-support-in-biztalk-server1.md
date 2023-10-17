@@ -1,12 +1,19 @@
 ---
 description: "Learn about the Electronic Data Interchange (EDI) and how it is supported in BizTalk Server."
-title: "EDI Support in BizTalk Server1"
+title: "EDI Support in BizTalk Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7cddab7a-99ef-4dbb-bb74-9e3d03df3996
+caps.latest.revision: 37
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Overview of EDI Support in BizTalk Server
 

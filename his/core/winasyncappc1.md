@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: WinAsyncAPPC"
-title: "WinAsyncAPPC1"
+title: "WinAsyncAPPC1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ceb62f30-4b7b-471f-87c3-76b4e1a2dbde
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # WinAsyncAPPC
 The **WinAsyncAPPC** function provides an asynchronous entry point for all of the APPC verbs. Use this function instead of the blocking versions of the verbs if you run your application and want to use message posting using Windows handles for asynchronous verb completion.  

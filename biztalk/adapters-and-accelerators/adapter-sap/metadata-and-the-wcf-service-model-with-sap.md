@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Metadata and the WCF Service Model with SAP"
-title: "Metadata and the WCF Service Model with SAP"
+title: "Metadata and the WCF Service Model with SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1900cf66-a0d0-46f4-896b-7f6de3b51875
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Metadata and the WCF Service Model with SAP
 In the WCF service model, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].or the ServiceModel Metadata Utility Tool (svcutile.exe) to generate proxy classes through which your code can either:  

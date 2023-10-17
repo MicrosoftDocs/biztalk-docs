@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: About the .NET Framework Data Provider for mySAP Business Suite"
-title: "About the .NET Framework Data Provider for mySAP Business Suite"
+title: "About the .NET Framework Data Provider for mySAP Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SSIS"
+  - "EXEC query"
+  - "SELECT query"
+  - "SAPDiscoveredObjects.xml"
+  - "SQL Server Integration Services"
+  - ".NET Framework Data Provider for mySAP Business Suite"
+  - "Data Provider for SAP"
+  - "custom RFC"
+  - "Visual Studio DDEX plug-in"
+ms.assetid: 4832f789-c1d8-4c5d-a49d-b1da6b7d4bd4
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # About the .NET Framework Data Provider for mySAP Business Suite
 This section provides information about the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) and its features. For instructions about how to use the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], see [Use the .NET Framework Data Provider for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/use-the-net-framework-data-provider-for-mysap-business-suite.md).  

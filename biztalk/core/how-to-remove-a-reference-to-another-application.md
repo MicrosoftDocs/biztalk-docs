@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: How to Remove a Reference to Another Application"
-title: "How to Remove a Reference to Another Application"
+title: "How to Remove a Reference to Another Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications, references"
+ms.assetid: cc867706-7c56-4386-b7ec-9fd7cf6c83a4
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Remove a Reference to Another Application
 This topic describes how to use the BizTalk Server Administration console to remove a reference from one application to another application. You remove a reference when you no longer need to use an artifact in the current application that exists in another application in the same BizTalk group. For more information on adding references, see [How to Add a Reference to Another Application](../core/how-to-add-a-reference-to-another-application.md).  

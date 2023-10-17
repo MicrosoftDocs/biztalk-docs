@@ -1,12 +1,18 @@
 ---
 description: "Learn how to configure the Data Provider to maximize performance."
-title: "Performance1"
+title: "Performance1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: da1c83cf-bd12-4ef0-b0ef-74514c6d7ab2
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Performance
 

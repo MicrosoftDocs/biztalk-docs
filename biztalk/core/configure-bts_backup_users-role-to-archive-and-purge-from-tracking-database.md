@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: How to Configure the BTS_BACKUP_USERS Role for Archiving and Purging Data from the BizTalk Tracking Database"
-title: "How to Configure the BTS_BACKUP_USERS Role for Archiving and Purging Data from the BizTalk Tracking Database"
+title: "How to Configure the BTS_BACKUP_USERS Role for Archiving and Purging Data from the BizTalk Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "purging, BTS_BACKUP_USERS role"
+  - "Tracking database, purging"
+  - "BTS_BACKUP_USERS role"
+  - "DTA Purge and Archive job"
+  - "archiving [Tracking database], BTS_BACKUP_USERS role"
+  - "archiving [Tracking database], DTA Purge and Archive job"
+  - "Tracking database, BTS_BACKUP_USERS role"
+  - "Tracking database, archiving"
+  - "purging, DTA Purge and Archive job"
+ms.assetid: c27aad2a-5788-4236-b5eb-ca730bf79851
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure the BTS_BACKUP_USERS Role for Archiving and Purging Data from the BizTalk Tracking Database
 The DTA Purge and Archive (BizTAlkDTADb) job normally runs using the credentials of the logged-on SQL Server Agent service account user. For added security, however, you can configure the DTA Purge and Archive (BizTalkDTADb) job to run using the credentials of an account which is a member of the BTS_BACKUP_USERS role. This helps to prevent elevation of privileges by running SQL Server Agent jobs under accounts with essential permissions.  

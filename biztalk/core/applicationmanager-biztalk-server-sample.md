@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: ApplicationManager (BizTalk Server Sample)"
-title: "ApplicationManager (BizTalk Server Sample)"
+title: "ApplicationManager (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 51ebe7a8-a0ca-4d2a-bf40-ec6421ba5a95
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # ApplicationManager (BizTalk Server Sample)
 The ApplicationManager sample demonstrates how to start or stop a  BizTalk application by using the administration objects.

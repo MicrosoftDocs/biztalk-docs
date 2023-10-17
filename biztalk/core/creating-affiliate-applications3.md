@@ -1,12 +1,25 @@
 ---
 description: "Learn how to create Enterprise Single Sign-On (SSO) tickets and enable affiliate application XML."
-title: "Creating Affiliate Applications3"
+title: "Creating Affiliate Applications3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "affiliate applications"
+  - "Single Sign-On, creating tickets"
+  - "tickets, creating Single Sign-On"
+  - "affiliate applications, creating"
+  - "SSO tickets"
+ms.assetid: 800644fd-2286-4e59-894b-260f584dd29f
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating Affiliate Applications
 

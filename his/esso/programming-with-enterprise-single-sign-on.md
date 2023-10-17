@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Programming with Enterprise Single Sign-On"
-title: "Programming with Enterprise Single Sign-On"
+title: "Programming with Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e54862d2-9902-45ff-8950-2425acfb99f7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Programming with Enterprise Single Sign-On
 Enterprise Single Sign-On (SSO) is a technology implemented in the Enterprise Single Sign-On service (ENTSSO) that enables users to access multiple remote services without having to work their way through additional sign-on screens.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid Version Identifier"
-title: "Invalid Version Identifier"
+title: "Invalid Version Identifier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 504b0b16-7d23-45ef-ae2a-ce1962b83f34
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid Version Identifier
 ## Details  

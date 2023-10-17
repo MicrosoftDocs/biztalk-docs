@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Optimizing Business Rule Engine (BRE) Performance"
-title: "Optimizing Business Rule Engine (BRE) Performance"
+title: "Optimizing Business Rule Engine (BRE) Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c271b059-174d-4e8b-88b5-c3f408a97f1f
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Optimizing Business Rule Engine (BRE) Performance
 The following factors should be considered when implementing the Business Rule Engine (BRE) in a BizTalk Server solution:  

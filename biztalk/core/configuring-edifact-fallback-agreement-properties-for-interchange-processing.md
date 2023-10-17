@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring EDIFACT Fallback Agreement Properties for Interchange Processing"
-title: "Configuring EDIFACT Fallback Agreement Properties for Interchange Processing"
+title: "Configuring EDIFACT Fallback Agreement Properties for Interchange Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 933b0c97-d397-4722-b00f-a42c7f2cfab2
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring EDIFACT Fallback Agreement Properties for Interchange Processing
 EDIFACT interchange processing properties define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the envelope of an EDIFACT-encoded interchange received from a party.  

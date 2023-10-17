@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Step 7: Create a Sample LOB Message"
-title: "Step 7: Create a Sample LOB Message"
+title: "Step 7: Create a Sample LOB Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, LOB"
+  - "loopback tutorial, creating LOB message"
+  - "creating, LOB messages"
+  - "LOBs, creating messages"
+ms.assetid: 3023bbc0-5bc4-4e5a-a345-c3253874f0d3
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 7: Create a Sample LOB Message
 In this step, you use the LOB Application utility to create a sample line-of-business (LOB) message.  

@@ -1,12 +1,24 @@
 ---
 description: "Learn how to add a message for exception handling to a port in the back-end system of a BizTalk Server."
-title: "How to Add a Message for an Exception2"
+title: "How to Add a Message for an Exception2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "exceptions, adding messages"
+  - "messages, exceptions"
+  - "exception handling, adding messages"
+  - "fault messages, adding"
+ms.assetid: 9d8a3801-78cd-4c18-8deb-3fbe4a49a2f9
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Add a Message for Exception Handling
 

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Known Issues with EDI Acknowledgments"
-title: "Known Issues with EDI Acknowledgments"
+title: "Known Issues with EDI Acknowledgments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a769a78e-8a49-4aa4-899e-e9f54fdd5f37
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Known Issues with EDI Acknowledgments
 This topic describes known issues with EDI acknowledgments in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

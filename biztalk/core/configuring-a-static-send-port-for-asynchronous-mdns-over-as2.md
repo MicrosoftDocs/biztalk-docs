@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring a Static Send Port for Asynchronous MDNs over AS2"
-title: "Configuring a Static Send Port for Asynchronous MDNs over AS2"
+title: "Configuring a Static Send Port for Asynchronous MDNs over AS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cc43e767-d9d7-4b02-b3fc-0cfdfd6e61c4
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring a Static Send Port for Asynchronous MDNs over AS2
 This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send an asynchronous EDIINT/AS2-encoded MDN message over a static send port. This configuration includes creating the static send port and if required, setting up an encryption certificate to be used by the send port.  

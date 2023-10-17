@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Updating an Artifact"
-title: "Updating an Artifact"
+title: "Updating an Artifact | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 40feab57-4286-4bdf-8f52-25d02b3fa60c
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Updating an Artifact
 Dependencies between artifacts in two or more BizTalk applications can have a significant effect on application deployment and maintenance. An artifact is dependent on another when it needs to use that artifact in order to function properly, for example an orchestration that needs to use a specific pipeline in order to transmit messages correctly.

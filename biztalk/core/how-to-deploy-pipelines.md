@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: How to Deploy Pipelines"
-title: "How to Deploy Pipelines"
+title: "How to Deploy Pipelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "IReceiveLocation interface"
+  - "IReceivePort interface"
+  - "deploying, pipelines"
+  - "pipelines, deploying"
+  - "pipelines, compiling"
+  - "SendPipelineData method"
+  - "pipelines, configuring"
+  - "pipelines, code sample"
+  - "ReceivePipelineData property"
+  - "Validate method"
+  - "ISendPort interface"
+ms.assetid: 7a56c753-a0d4-48ed-a61d-e454bc9cd507
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Deploy Pipelines
 Pipelines are compiled and deployed as part of the solution build and deploy process. The compiler calls the **Validate** method on each component, allowing the components to return compile errors on the configured information. After building, the pipeline is deployed in the same assembly with the rest of the solution when the solution is deployed.  

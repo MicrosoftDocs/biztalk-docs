@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Adapter Framework Configuration Schema Decoration Tags"
-title: "Adapter Framework Configuration Schema Decoration Tags"
+title: "Adapter Framework Configuration Schema Decoration Tags | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3d5d7f6b-2273-45a6-ba9d-43201760cf22
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Framework Configuration Schema Decoration Tags
 You can use the tags described in this topic within the configuration schema files to display and organize data on the adapter property pages.  

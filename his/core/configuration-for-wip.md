@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuration for WIP"
-title: "WIP Configuration"
+title: "WIP Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1fc623fa-910a-4089-9c81-111402dad2fc
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuration for WIP
 The TI Configuration Tool provides assistance in creating an app.config file for use with TI WIP applications. The app.config file can contain information about the TI WIP Objects and the Remote Environments to be used with the objects. The HIS 2016 SDK contains a WIP projected named ApplicationIntegrationStarterGuide with a readme file that steps through the process of creating an app.config file using the TI Configuration Tool.

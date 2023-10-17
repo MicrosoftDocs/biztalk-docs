@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configure the sign in credentials for the SQL adapter"
-title: "Configure the sign in credentials for the SQL adapter"
+title: "Configure the sign in credentials for the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9c20e177-0e64-4df3-a3dd-dca3fcf314db
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the sign in credentials for the SQL adapter
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] requires the adapter clients to provide client credentials. The adapter uses these credentials to authenticate the user with SQL Server and to establish a connection.  

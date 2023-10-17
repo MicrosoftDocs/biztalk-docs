@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data Type Conversions"
-title: "Data Type Conversions"
+title: "Data Type Conversions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 58cdcdbb-f557-4f84-b703-aaf1e20c5183
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Type Conversions
 ## CHAR and VARCHAR  

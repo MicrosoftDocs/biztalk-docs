@@ -1,12 +1,21 @@
 ---
 description: "Learn about the support  for message versioning in the Microsoft BizTalk Adapter for Siebel eBusiness Applications."
-title: "Message Versioning Support2"
+title: "Message Versioning Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "message versioning, support for"
+ms.assetid: 5b7b9202-9f45-450e-918f-b26a03711aab
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Versioning Support
 

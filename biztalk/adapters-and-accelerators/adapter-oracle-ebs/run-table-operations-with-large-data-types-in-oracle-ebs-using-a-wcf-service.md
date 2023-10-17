@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Complete operations on tables with large data types in Oracle E-Business Suite using the WCF service model"
-title: "Complete operations on tables with large data types in Oracle E-Business Suite using the WCF service model"
+title: "Complete operations on tables with large data types in Oracle E-Business Suite using the WCF service model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 93ba3191-d234-424a-b2da-dcf384df4985
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Complete operations on tables with large data types in Oracle E-Business Suite using the WCF service model
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform operations on interface tables and views with large data types such as BLOB, CLOB, NCLOB, and BFILE.  

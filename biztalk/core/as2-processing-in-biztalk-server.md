@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AS2 Processing in BizTalk Server"
-title: "AS2 Processing in BizTalk Server"
+title: "AS2 Processing in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0027d3db-24a5-459d-9f4e-a75f49d31d82
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AS2 Processing in BizTalk Server
 This topic provides an overview of receive-side and send-side processing of AS2 messages, and how trading partner agreements can help achieve AS2 messaging.  

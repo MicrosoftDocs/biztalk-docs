@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LUA Synchronous and Asynchronous Verb Completion"
-title: "LUA Synchronous and Asynchronous Verb Completion2"
+title: "LUA Synchronous and Asynchronous Verb Completion2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 15d75b51-33ab-44fb-b751-4ef4ce1cc5a3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LUA Synchronous and Asynchronous Verb Completion
 Logical unit application (LUA) verbs can complete execution either synchronously or asynchronously.  

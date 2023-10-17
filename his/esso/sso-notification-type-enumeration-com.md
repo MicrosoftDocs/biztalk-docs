@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SSO_NOTIFICATION_TYPE Enumeration (COM)"
-title: "SSO_NOTIFICATION_TYPE Enumeration (COM)"
+title: "SSO_NOTIFICATION_TYPE Enumeration (COM) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0de34815-36b9-4efb-88c9-5329e5fe4355
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SSO_NOTIFICATION_TYPE Enumeration (COM)
 Specifies the different notification types used for Enterprise Single Sign-On (SSO).  

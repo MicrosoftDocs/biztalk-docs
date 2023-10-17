@@ -1,9 +1,45 @@
 ---
 description: "Learn more about: BTAHL72X Flat File Processing"
 title: "BTAHL72X Flat File Processing"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "ACKs"
+  - "2.X messages, disassembler"
+  - "property promotion, MSH-header schemas"
+  - "disassembler, validating messages"
+  - "HL7, errors"
+  - "2.X messages, validating headers"
+  - "acknowledgements, generating"
+  - "assembler, validating messages"
+  - "messages, multi-part messages"
+  - "property promotion, property schemas"
+  - "generating aknowledgements"
+  - "messages, 2.X messages"
+  - "schemas, MSH-header schemas"
+  - "2.X messages, validating message bodies"
+  - "2.X messages"
+  - "schemas, property schemas"
+  - "message modes, 2.X messages"
+  - "errors, HL7 error format"
+  - "flat files"
+  - "validating, messages"
+  - "schemas, property promotion"
+  - "headers, validating"
+  - "2.X messages, message modes"
+  - "2.X messages, header validation"
+  - "2.X messages, parsing flat files"
+ms.assetid: c92e2f70-0bfa-4bc8-8044-4a6e62cabee3
+caps.latest.revision: 4
+
+
+
 ---
 # BTAHL72X Flat File Processing
 The following components in Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) process HL7 2.X (HL7-encoded) messages:  

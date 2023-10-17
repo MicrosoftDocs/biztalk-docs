@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Transaction Set Settings (EDIFACT)"
-title: "Configuring Transaction Set Settings (EDIFACT)"
+title: "Configuring Transaction Set Settings (EDIFACT) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 61fffde2-022e-4df5-b2af-36e1129da82c
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Transaction Set Settings (EDIFACT)
 EDIFACT transaction set properties define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] process the transaction sets being exchanged between two parties.  

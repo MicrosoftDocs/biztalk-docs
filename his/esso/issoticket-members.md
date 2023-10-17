@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOTicket Members"
-title: "ISSOTicket Members"
+title: "ISSOTicket Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0fc767cd-9791-4b23-bbe7-73ad5971071c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOTicket Members
 The following table shows the **ISSOTicket** members.  

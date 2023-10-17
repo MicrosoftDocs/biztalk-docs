@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Deploy the Projects"
-title: "Step 1: Deploy the Projects"
+title: "Step 1: Deploy the Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0467c140-1f4c-4cfa-b46f-dc1d0f8755d4
+caps.latest.revision: 44
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Deploy the Projects
 ![Step 1 of 3](../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  

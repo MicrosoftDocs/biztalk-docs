@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Host Groups"
-title: "Host Groups"
+title: "Host Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0d92478b-b3a2-4c5a-925e-5495ee481e82
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Host Groups
 

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: GET_LU_STATUS"
-title: "GET_LU_STATUS2"
+title: "GET_LU_STATUS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aa453759-b105-4ffb-a1c1-9ee93ededb6d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # GET_LU_STATUS
 The **GET_LU_STATUS** verb returns the status of a particular logical unit (LU). This conversation verb is only available when Sync Point conversations are supported.  

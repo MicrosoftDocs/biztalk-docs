@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Message Batches"
-title: "Message Batches"
+title: "Message Batches | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5f893d16-2670-4463-9a89-6f5be912a045
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Batches
 When your adapter has a group of messages that need to be processed at one time, you should batch these messages to optimize performance. Programmatically, message batches are collections of messages with an associated operation. By grouping messages in a batch rather than submitting each message individually, you optimize the use of resources and processing tasks. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses batching to:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOConfigDB.GetDBInfo Method"
-title: "ISSOConfigDB.GetDBInfo Method"
+title: "ISSOConfigDB.GetDBInfo Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 905f7f73-289a-47f8-aed2-16212ccfcb2a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOConfigDB.GetDBInfo Method
 The GetDBInfo method retrieves information about the specified database.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Install BizTalk Server 2020"
-title: "Install BizTalk Server 2020"
+title: "Install BizTalk Server 2020 | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/14/2020"
 ms.prod: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8f5ac913-0734-45b2-8e25-1db146d81858
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "mijacobs"
 ---
 
 # Install BizTalk Server 2020

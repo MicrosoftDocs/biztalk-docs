@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Cannot determine scheme"
-title: "Cannot determine scheme"
+title: "Cannot determine scheme | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2cc6e50b-33f5-4a88-b35d-075fdf8d79b2
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Cannot determine scheme
 ## Details  

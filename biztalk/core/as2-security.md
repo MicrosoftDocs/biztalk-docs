@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AS2 Security"
-title: "AS2 Security"
+title: "AS2 Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d15cb27f-e57f-4aa4-be72-4f1f14175fd9
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AS2 Security
 The native AS2 feature of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to help secure AS2 messages using encryption keys, digital signatures, and certificates. This requires the correct configuration of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and the correct configuration of certificates.  

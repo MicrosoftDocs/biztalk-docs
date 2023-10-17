@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Request_To_Send (CPI-C)"
-title: "Request_To_Send (CPI-C)1"
+title: "Request_To_Send (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fcb31fcb-59be-4bc8-8909-7df877cc8923
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Request_To_Send (CPI-C)
 The **Request_To_Send** call (function name **cmrts**) notifies the partner program that the local program wants to send data.  

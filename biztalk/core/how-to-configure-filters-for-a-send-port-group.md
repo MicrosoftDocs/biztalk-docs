@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: How to Configure Filters for a Send Port Group"
-title: "How to Configure Filters for a Send Port Group"
+title: "How to Configure Filters for a Send Port Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "filters, configuring"
+  - "filters, send port groups"
+  - "send port groups, filters"
+  - "send port groups, configuring"
+  - "configuring, send port groups"
+  - "managing [send port groups], filters"
+  - "managing [send port groups], configuring"
+ms.assetid: 4c4bb408-5146-4740-a1d4-0ee72ec123fb
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure Filters for a Send Port Group
 This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure one or more filters for a send port group. You can use filters to create simple messaging or content-based routing (CBR) applications. A filter sets conditions for message properties or fields that determine which messages are routed to the send port group. A filter does not filter the messages that an orchestration routes to the send port group.  

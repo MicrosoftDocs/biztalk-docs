@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Communication Pattern Errors"
-title: "Communication Pattern Errors"
+title: "Communication Pattern Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 06656073-9bae-4d6f-98ae-2714a72ee79c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Communication Pattern Errors
 Information for diagnosing and resolving WCF Communication Pattern errors.  

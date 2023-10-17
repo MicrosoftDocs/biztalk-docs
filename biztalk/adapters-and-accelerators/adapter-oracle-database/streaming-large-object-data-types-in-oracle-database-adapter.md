@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Streaming large object data types in Oracle Database adapter"
-title: "Streaming large object data types in Oracle Database adapter"
+title: "Streaming large object data types in Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "streaming, support in the WCF service model"
+  - "streaming, support for"
+  - "streaming, support in BizTalk Server"
+  - "streaming, support in the WCF channel model"
+ms.assetid: c6cbe870-6794-4bf1-90c1-db65a242e8fe
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Streaming large object data types in Oracle Database adapter
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports streaming for Oracle large object (LOB) data types. With the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] operations are invoked and responses are returned by exchanging SOAP messages. A SOAP message body is composed of XML nodes.  

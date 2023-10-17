@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Allocate (CPI-C)"
-title: "Allocate (CPI-C)2"
+title: "Allocate (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3381c8c2-6d01-4f89-b023-03fcc2e5c7a0
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Allocate (CPI-C)
 The **Allocate** call (function name **cmallc**) is issued by the invoking program to allocate a conversation with the partner program, using the current conversation characteristics. CPI-C can also allocate a session between the local logical unit (LU) and partner LU if one does not already exist.  

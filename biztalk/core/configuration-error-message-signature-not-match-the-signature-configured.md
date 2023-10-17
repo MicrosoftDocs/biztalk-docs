@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuration error. The message signature doesn&#39;t match the signature configured for this party"
-title: "Configuration error. The message signature doesn&#39;t match the signature configured for this party"
+title: "Configuration error. The message signature doesn&#39;t match the signature configured for this party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7cea0016-12e8-4ee8-ac44-11024b5e74ef
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuration error. The message signature doesn&#39;t match the signature configured for this party
 ## Details  

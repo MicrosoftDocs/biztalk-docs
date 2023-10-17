@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Investigate Bottlenecks"
-title: "How to Investigate Bottlenecks"
+title: "How to Investigate Bottlenecks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7ca22d07-d5fe-4dfb-8b52-3be3a95b0d6f
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Investigate Bottlenecks
 This topic describes a recommended process for how to investigate bottlenecks.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CheckForExistingLinkService"
-title: "CheckForExistingLinkService1"
+title: "CheckForExistingLinkService1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d1f141c8-7252-4301-b636-0c4a4eeda224
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CheckForExistingLinkService
 The **CheckForExistingLinkService** function is used to check to see if a link service of this type exists with this title. This utility function is used to construct an integrated link service configuration DLL.  

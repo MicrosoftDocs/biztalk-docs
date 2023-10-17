@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Secure programming with the Oracle EBS adapter"
-title: "Secure programming with the Oracle EBS adapter"
+title: "Secure programming with the Oracle EBS adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 35b494f8-cb21-45c2-9bb4-097ba59ec52c
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Secure programming with the Oracle EBS adapter
 ## How Do I Protect Credentials When I Use the Add Adapter Service Reference Visual Studio Plug-in?

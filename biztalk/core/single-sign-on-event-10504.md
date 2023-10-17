@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10504"
-title: "Single Sign-On: Event 10504"
+title: "Single Sign-On: Event 10504 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cc381b7e-c78c-439a-9822-8d531a9a2430
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10504
 ## Details  

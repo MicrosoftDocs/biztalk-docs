@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Handling Transactions"
-title: "Handling Transactions"
+title: "Handling Transactions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1d360742-e969-4651-b364-9edc6a93b8d4
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Handling Transactions
 ## Transacted Receivers  

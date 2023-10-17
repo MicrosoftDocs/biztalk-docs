@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: OEM PC Code Page Support (SNANLS)"
-title: "OEM PC Code Page Support (SNANLS)1"
+title: "OEM PC Code Page Support (SNANLS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aaf8b40b-9ef3-4b94-9f2e-7898ae882e07
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # OEM PC Code Page Support (SNANLS)
 The following table shows the OEM PC code pages and character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in Host Integration Server.  

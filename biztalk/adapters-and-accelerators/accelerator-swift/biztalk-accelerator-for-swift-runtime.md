@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: BizTalk Accelerator for SWIFT Runtime"
-title: "BizTalk Accelerator for SWIFT Runtime"
+title: "BizTalk Accelerator for SWIFT Runtime | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "runtime, architecture"
+  - "developing, components"
+  - "architecture, topology"
+  - "messages, message flow diagram"
+  - "runtime, components"
+  - "SWIFT runtime"
+  - "architecture, runtime architecture"
+  - "SWIFT network"
+  - "A4SWIFT, network"
+  - "topology"
+ms.assetid: c0f59760-7d7d-4b22-a7dc-54e563971d4a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Accelerator for SWIFT Runtime
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides functionality in two forms: development materials and runtime components. Development materials include XSD schemas, validation rules and policies, and sample code. Runtime components include the custom SWIFT disassembler, the custom SWIFT assembler, the Message Repair and New Submission orchestration (MrsrRepair.odx), and the FIN Response Reconciliation orchestration (FrrMain.odx). For more information on Message Repair and New Submission, see [Message Repair and New Submission](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission.md). For more information on FRR, see [FIN Response Reconciliation](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation.md).  

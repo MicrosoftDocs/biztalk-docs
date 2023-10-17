@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10783"
-title: "Single Sign-On: Event 10783"
+title: "Single Sign-On: Event 10783 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 75209987-2241-47ae-8d7c-2e94aae722f3
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10783
 ## Details  

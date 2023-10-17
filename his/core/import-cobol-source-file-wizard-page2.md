@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Import COBOL Source File Wizard Page"
-title: "Import COBOL Source File Wizard Page2"
+title: "Import COBOL Source File Wizard Page2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15406"
+ms.assetid: 3e53356d-a32f-475f-a0e0-b8247cb8a8c8
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Import COBOL Source File Wizard Page
 Use the **Import COBOL Source File** wizard page to identify the COBOL source file.  

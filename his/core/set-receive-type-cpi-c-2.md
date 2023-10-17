@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Set_Receive_Type (CPI-C)"
-title: "Set_Receive_Type (CPI-C)2"
+title: "Set_Receive_Type (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 42bec64b-48b4-4c6d-92d3-dd8d434434cc
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Set_Receive_Type (CPI-C)
 The **Set_Receive_Type** call (function name **cmsrt**) specifies how the program will receive data on subsequent [Receive](../core/receive-cpi-c-2.md) calls. It overrides the default receive type established by the [Initialize_Conversation](../core/initialize-conversation-cpi-c-1.md) or [Accept_Conversation](../core/accept-conversation-cpi-c-2.md) call. By default, the program waits for data to arrive if it is not available when the **Receive** call is issued.  

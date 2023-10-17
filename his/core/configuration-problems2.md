@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuration Problems"
-title: "Configuration Problems2"
+title: "Configuration Problems2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b162a411-e4ed-4a75-9c66-f76cd0230e45
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuration Problems
 ## In This Section  

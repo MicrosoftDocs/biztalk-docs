@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Configuring Native Pipeline Components"
-title: "Configuring Native Pipeline Components"
+title: "Configuring Native Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Pipeline Designer, pipeline components"
+  - "pipeline components, configuring"
+  - "Pipeline Designer, code sample"
+  - "IPersistPropertyBag interface"
+ms.assetid: a3332a60-8cd6-43fa-9ecf-e1e54e71fef7
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Native Pipeline Components
 Pipeline components can expose their own custom properties at design time. Any public property defined in the component will be rendered in Pipeline Designer providing that read and write accessors for that property are implemented. Pipeline Designer will display the component properties in accordance with their declaration; for example, if the property is declared as read-only, it will be displayed as such in Pipeline Designer.  

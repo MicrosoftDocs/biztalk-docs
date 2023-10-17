@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Best Practices for BizTalk Server Settings"
-title: "Best Practices for BizTalk Server Settings"
+title: "Best Practices for BizTalk Server Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e62024e1-f502-45a8-932f-edd8460bcf5f
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Best Practices for BizTalk Server Settings
 This topic lists best practices that you should follow as you perform operational readiness procedures for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

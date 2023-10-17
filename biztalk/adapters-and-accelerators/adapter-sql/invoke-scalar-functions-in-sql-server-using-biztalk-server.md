@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invoke Scalar Functions in SQL Server using BizTalk Server"
-title: "Invoke Scalar Functions in SQL Server using BizTalk Server"
+title: "Invoke Scalar Functions in SQL Server using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 70bb7be9-ae31-4505-9406-f9d4744b65e7
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invoke Scalar Functions in SQL Server using BizTalk Server
 You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to invoke scalar functions in SQL Server. The adapter exposes the scalar functions as operations that can be invoked directly on SQL Server. For more information about how the adapter supports scalar functions, see [Execute Scalar Functions in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/execute-scalar-functions-in-sql-server-using-the-sql-adapter.md). For information about the structure of the SOAP message for invoking scalar functions, see [Message Schemas for Procedures and Functions](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md).  

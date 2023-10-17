@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Secondary APPC Return Codes"
-title: "Secondary APPC Return Codes2"
+title: "Secondary APPC Return Codes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1a257181-e527-4b2c-bf5d-c0007b34f474
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Secondary APPC Return Codes
 

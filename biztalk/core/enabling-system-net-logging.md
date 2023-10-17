@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Enabling System.Net Logging"
-title: "Enabling System.Net Logging"
+title: "Enabling System.Net Logging | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5eea50b9-1f46-45fc-a327-585adb4583a0
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Enabling System.Net Logging
 You can enable logging for the `System.Net` and `System.Net.Sockets`[!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] namespace for the BTSNtSvc.exe service. This will cause a detailed log file to be created containing information that may help you identify issues with your BizTalk Server installation.

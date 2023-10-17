@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: What Is a Tracking Profile?"
-title: "What Is a Tracking Profile?"
+title: "What Is a Tracking Profile? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tracking profiles, about tracking profiles"
+  - "tracking profiles, Tracking Profile Editor"
+  - "Tracking Profile Editor, tracking profiles"
+  - "tracking profiles"
+ms.assetid: b579bdc4-7c69-4fa0-bbc1-f98170c13d4f
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is a Tracking Profile?
 A profile is a set of characteristics that define a business process. A tracking profile contains the mapping of these characteristics from an activity to orchestrations and ports. A tracking profile is a file with a .btt file name extension.  

@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Scenario: Deploying a New Application"
-title: "Scenario: Deploying a New Application"
+title: "Scenario: Deploying a New Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, applications"
+  - "applications, deploying"
+  - "deploying [applications], examples"
+  - "applications, examples"
+  - "examples, deploying"
+ms.assetid: 6d34a626-9fd4-4c33-a067-b66333eec01f
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scenario: Deploying a New Application
 This topic describes the scenario of deploying an application into a new environment where it has not been deployed before; for example, deploying an application that has been configured in a staging environment into a production environment.  

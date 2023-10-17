@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: What Is the MQSeries Adapter?"
-title: "What Is the MQSeries Adapter?"
+title: "What Is the MQSeries Adapter? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "MQSeries adapters, about MQSeries adapters"
+  - "MQSeries adapters"
+ms.assetid: fd3dfa9a-344a-46e5-a342-bc56da7c1c50
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is the MQSeries Adapter?
 With the MQSeries adapter you can send and receive messages to MQSeries systems using Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

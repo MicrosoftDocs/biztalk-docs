@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Edit XPath Selector to Process Multiple Records"
-title: "How to Edit XPath Selector to Process Multiple Records"
+title: "How to Edit XPath Selector to Process Multiple Records | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Business Rules Framework, editing multiple records"
+  - "Business Rules Framework, code samples"
+  - "Business Rules Framework, programming"
+ms.assetid: ef7e1f8d-2e29-4cef-b558-0090648bffc0
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Edit XPath Selector to Process Multiple Records
 Separate child TypedXmlDocuments are created when a TypedXmlDocument is asserted into the engine; see [Assert](../core/assert.md). The engine determines which child TypedXmlDocuments to create based on the XPath selectors defined in the rules. When you build rules in the Composer, the XPath Selector value defaults to the node above the node selected in the XML Schemas tab in the Facts Explorer. The XPath Field value defaults to the selected node itself, relative to its parent node.  

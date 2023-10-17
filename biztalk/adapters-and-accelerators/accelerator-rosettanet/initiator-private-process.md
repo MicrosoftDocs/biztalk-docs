@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Initiator Private Process"
-title: "Initiator Private Process"
+title: "Initiator Private Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "line-of-business applications (LOBs)"
+  - "messages, private processes"
+  - "erros"
+  - "LOBs"
+  - "messages, message flow"
+  - "private processes, initiator"
+  - "private processes, message flow"
+  - "private processes, errors"
+ms.assetid: 8444a5c8-445a-4bbd-a793-a16816fcb397
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Initiator Private Process
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses the initiator private process (PrivateInitiator.odx) to process service content at an initiator computer. This includes the following:  

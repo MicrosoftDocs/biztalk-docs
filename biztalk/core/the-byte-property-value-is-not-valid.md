@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The byte property value is not valid"
-title: "The byte property value is not valid"
+title: "The byte property value is not valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e8599688-9f05-4983-8850-9ac1479ce9cc
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The byte property value is not valid
 ## Details  

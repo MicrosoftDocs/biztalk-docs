@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Run Composite Operations on Oracle Database using BizTalk Server"
-title: "Run Composite Operations on Oracle Database using BizTalk Server"
+title: "Run Composite Operations on Oracle Database using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bf47d95e-cdf1-4c9b-a15a-7cf123d0ea6d
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run Composite Operations on Oracle Database using BizTalk Server
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] enables adapter clients to perform composite operations on Oracle database. A composite operation can include:  

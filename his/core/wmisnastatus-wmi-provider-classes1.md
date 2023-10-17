@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: WmiSnaStatus WMI Provider Classes"
-title: "WmiSnaStatus WMI Provider Classes1"
+title: "WmiSnaStatus WMI Provider Classes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e17d9658-eff3-4cba-995d-9b1d855b113d
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # WmiSnaStatus WMI Provider Classes
 The Microsoft® Host Integration Server SNA Status provider supplies information regarding the SNA service status. As an instance and method provider, the WmiSnaStatus provider implements the standard **IWbemProviderInit** interface and the following **IWbemServices** methods:  

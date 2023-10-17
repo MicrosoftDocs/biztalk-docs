@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Common Event Filter Patterns"
-title: "Common Event Filter Patterns"
+title: "Common Event Filter Patterns | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fc80168b-25bd-4228-b84c-d38bf4e2fe4a
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Common Event Filter Patterns
 As you work with the BAM Interceptor for Windows Workflow Foundation (WF), you will likely notice that there are a set of common filter patterns that you will use frequently in your interceptor configuration files. While some of these filter patterns will be unique to your applications and environments, many patterns can be used across environments and in diverse applications.  

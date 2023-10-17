@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Applications and Tools"
-title: "Applications and Tools1"
+title: "Applications and Tools1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 86a27e92-0376-4589-a2db-a0556a117f2e
+caps.latest.revision: 6
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Applications and Tools
 Microsoft [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] includes several applications and tools to assist you in managing your environment. The following sections describe how to set up tracing on a Host Integration Server computer, and how to view trace files for information on the activity between components. They also discuss the performance-monitoring counters that provide basic stress testing for Host Integration Server.  

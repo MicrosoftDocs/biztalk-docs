@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Status Report Data Stores"
-title: "Status Report Data Stores"
+title: "Status Report Data Stores | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6cd40ce8-1ac6-43b4-9cef-7cd045e8893c
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Status Report Data Stores
 Status reporting tracking data is stored in the BAM Primary Import database. A number of tables in this database are used for EDI and AS2 message data, including tables starting with dbo.bam_AS2, dbo.bam.batching, dbo.bam.InterchangeStatusActivity, and others. Status data is stored in the Primary Import even if EDI reporting is disabled. You will only be to view and query this data in the status reporting UI if status reporting is activated.  

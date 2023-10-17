@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Performance Counters on Transaction Integrator"
-title: "Performance Counters on Transaction Integrator2"
+title: "Performance Counters on Transaction Integrator2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: be96cf87-2a20-4279-8bee-f922ad4fd744
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Performance Counters on Transaction Integrator
 The following performance counters are available for Transaction Integrator.  

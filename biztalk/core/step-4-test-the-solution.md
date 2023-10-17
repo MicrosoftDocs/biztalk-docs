@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 4: Test the Solution"
-title: "Step 4: Test the Solution"
+title: "Step 4: Test the Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 60c39521-eee2-49f7-a9f9-2dfb9ab468e9
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 4: Test the Solution
 In this topic you test the solution by dropping a dummy request message in the folder you associated with the FILE receive port. As explained in, you drop a dummy request message only to invoke the **WCF-WebHttp** send port. You can create a dummy request message like the following:  

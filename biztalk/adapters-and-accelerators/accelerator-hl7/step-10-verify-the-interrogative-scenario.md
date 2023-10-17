@@ -1,9 +1,21 @@
 ---
 description: "Learn more about: Step 10: Verify the Interrogative Scenario"
 title: "Step 10: Verify the Interrogative Scenario"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "interrogative tutorial, verifying solution"
+ms.assetid: 1f28800b-4a1d-4f29-8123-5cdea4b4a365
+caps.latest.revision: 6
+
+
+
 ---
 # Step 10: Verify the Interrogative Scenario
 In this step, you verify the end-to-end scenario for this tutorial.  

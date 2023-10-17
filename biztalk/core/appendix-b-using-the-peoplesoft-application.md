@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Appendix B: Using the PeopleSoft Application"
-title: "Appendix B: Using the PeopleSoft Application"
+title: "Appendix B: Using the PeopleSoft Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "PeopleSoft, using"
+  - "using PeopleSoft application"
+ms.assetid: 36475836-1d23-4bb4-a3c1-cdd3fff28476
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Appendix B: Using the PeopleSoft Application
 This section describes using different areas of PeopleSoft that could be useful in your orchestration testing.  

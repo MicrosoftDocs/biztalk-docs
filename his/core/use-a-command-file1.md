@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Use a Command File"
-title: "Use a Command File1"
+title: "Use a Command File1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e8397f7c-199c-49e3-88b8-003150853045
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Use a Command File
 If you want to run a series of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] configuration commands, you can remove the word **snacfg** from each command, place the new commands in a file called a command file, then use a single **snacfg** command to run the entire command file. This is similar to the way a batch file works; however, a command file opens and closes the configuration file fewer times than a batch file. When a command file is run, the configuration file is opened only once, at the beginning. Then all the commands are carried out, and the configuration file is closed. In contrast, when a batch file containing **snacfg** commands is run, the configuration file is opened and closed multiple times, once for every command in the file.  

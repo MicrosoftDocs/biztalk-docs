@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Denying Access to Host Integration Server"
-title: "Denying Access to Host Integration Server2"
+title: "Denying Access to Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 42590b2e-b0d1-4bb0-b43b-8969d8a0a410
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Denying Access to Host Integration Server
 You can use one of two methods to deny a user or group the ability to use Host Integration Server. Either remove the user or group from the list of those who have permissions, or assign No Access to the user or group.  

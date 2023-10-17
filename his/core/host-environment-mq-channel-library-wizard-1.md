@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Host Environment (MQ Channel Library Wizard)"
-title: "Host Environment (MQ Channel Library Wizard)1"
+title: "Host Environment (MQ Channel Library Wizard)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bc8b2560-3947-4064-8e6c-1d07778abd23
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Host Environment (MQ Channel Library Wizard)
 Use this page to identify the data format characteristics of the host.  

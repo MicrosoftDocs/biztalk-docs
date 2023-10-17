@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Too Many Data Inputs to Node"
-title: "Error - Too Many Data Inputs to Node"
+title: "Error - Too Many Data Inputs to Node | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.tooManyDataInputsToNode"
+ms.assetid: 176805f0-2d6d-4072-b866-132b98c7e4b5
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Too Many Data Inputs to Node
 **Error Code**  

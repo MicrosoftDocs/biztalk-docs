@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Snacfg TN5Session"
-title: "Snacfg TN5Session2"
+title: "Snacfg TN5Session2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2c58dff3-3491-4fea-a8ec-c062c2845fa4
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Snacfg TN5Session
 ## Purpose  

@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Application Deployment (BizTalk Server Samples Folder)"
-title: "Application Deployment (BizTalk Server Samples Folder)"
+title: "Application Deployment (BizTalk Server Samples Folder) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying, examples"
+  - "SDK examples"
+  - "applications, examples"
+  - "examples, deploying"
+ms.assetid: a583476e-7736-4804-8c85-8f951f757bfe
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Application Deployment (BizTalk Server Samples Folder)
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several application deployment samples in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each sample, instructions for building and running the sample, and the results you can expect.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Mandatory Segment Missing"
-title: "Mandatory Segment Missing"
+title: "Mandatory Segment Missing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8e459a22-8de5-426a-a46a-1d0ab72b532d
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Mandatory Segment Missing
 ## Details  

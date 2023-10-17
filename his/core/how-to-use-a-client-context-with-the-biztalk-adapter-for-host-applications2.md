@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to use a Client Context with the BizTalk Adapter for Host Applications"
-title: "How to use a Client Context with the BizTalk Adapter for Host Applications2"
+title: "How to use a Client Context with the BizTalk Adapter for Host Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5177751a-4cc5-40c3-a517-12a45f325e4e
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to use a Client Context with the BizTalk Adapter for Host Applications
 For Host Integration Server, the client context is a set of values that allow overriding configuration values for the remote host. These keywords can be used with the BizTalk Host Application Adapter y by modifying the **ClientContext** keyword in the XML file associated with your BizTalk project, or through Orchestration or custom pipeline.  The following overrides are supported (USERID, PASSWORD, RecvTimeOut, SendTimeOut, PortOverride, IPAddress, TPNameOverride, ProgNameOverride, IMS_LTERM, LIbNameOverride, OverrideSourceTP and REOverride).  Though for security only the following are allowed to be passed in with the XML doc  (USERID, PASSWORD, RecvTimeOut, SendTimeOut, PortOverride  and REOverride).  

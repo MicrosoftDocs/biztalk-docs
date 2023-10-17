@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to View the Schema Definition (XSD) of a Schema"
-title: "How to View the Schema Definition (XSD) of a Schema"
+title: "How to View the Schema Definition (XSD) of a Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "schemas, viewing"
+  - "managing [schemas], viewing"
+  - "viewing, schema definitions"
+  - "schemas, schema definition (XSD)"
+  - "managing [schemas], schema definition (XSD)"
+ms.assetid: 21b6d9e6-5737-4334-9fe6-15ae01f90c0d
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to View the Schema Definition (XSD) of a Schema
 This topic describes how to use the BizTalk Server Administration console to view the schema definition (XSD) of a schema. You might want to do this to troubleshoot schema validation errors or validate that the correct schema is deployed.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn how to configure Enterprise Single Sign-On (SSO) using command-line utilities, user interface (UI) tools, or COM or Microsoft .NET Framework interfaces."
-title: "Configuring Enterprise Single Sign-On1"
+title: "Configuring Enterprise Single Sign-On1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f1d096a3-b456-454f-a45e-1c96bf2db94b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring Enterprise Single Sign-On
 

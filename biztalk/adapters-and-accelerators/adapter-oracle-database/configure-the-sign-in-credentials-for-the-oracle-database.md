@@ -1,14 +1,24 @@
 ---
 description: "Learn more about: Configure the sign in credentials for the Oracle Database"
-title: "Configure the sign in credentials for the Oracle Database"
+title: "Configure the sign in credentials for the Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Enter the credentials"
+helpviewer_keywords: 
+  - "credentials, specifying at run time"
+  - "credentials, specifying at design time"
+ms.assetid: d8f62829-ce77-4d82-a411-2eeefb6fe75a
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure the sign in credentials for the Oracle Database
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] requires the adapter clients to provide client credentials. The adapter uses these credentials to authenticate the user with the Oracle database and to establish a connection.  

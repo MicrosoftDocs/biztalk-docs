@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Icom3270.createSession Method"
-title: "Icom3270.createSession Method2"
+title: "Icom3270.createSession Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2a70c8f2-1770-433b-849e-34bc5ef856e6
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Icom3270.createSession Method
 The creaetSession method creates a new 3270 session.  

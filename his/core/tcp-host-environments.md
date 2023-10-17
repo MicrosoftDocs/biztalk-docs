@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TCP Host Environments"
-title: "TCP Host Environments"
+title: "TCP Host Environments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8af32e71-b377-48bb-9daa-8a7de779fe8d
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TCP Host Environments
 TCP Host Environment(s) must be defined for each host endpoint that will make a call to a HIP Service via TCP/IP. The HIP Service identifies the incoming call via the incoming IP address.  If an incoming call is received from an unknown address, the TI runtime will not respond to the request and will log an event in the application event log to indicate an unknown host attempted to make a call.

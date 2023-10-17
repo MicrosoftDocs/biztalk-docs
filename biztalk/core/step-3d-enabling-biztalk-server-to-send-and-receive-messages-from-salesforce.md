@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3d: Enabling BizTalk Server to Send and Receive Messages from Salesforce"
-title: "Step 3d: Enabling BizTalk Server to Send and Receive Messages from Salesforce"
+title: "Step 3d: Enabling BizTalk Server to Send and Receive Messages from Salesforce | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 470c4a72-1e97-4493-8958-33a13f793ffd
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3d: Enabling BizTalk Server to Send and Receive Messages from Salesforce
 We must authenticate with Salesforce while sending messages using the REST interface. The authentication methods for REST calls supported by Salesforce are not available out of the box with the WCF-WebHttp adapter, which we’ll use to invoke Salesforce’s REST interface. So, we’ll create a custom WCF endpoint behavior and then attach it to WCF-WebHttp send adapter that we’ll configure to invoke the Salesforce REST interface.

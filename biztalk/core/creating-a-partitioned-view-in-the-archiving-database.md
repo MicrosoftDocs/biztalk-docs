@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Creating a Partitioned View in the Archiving Database"
-title: "Creating a Partitioned View in the Archiving Database"
+title: "Creating a Partitioned View in the Archiving Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "databases, partitioning"
+  - "partitioning"
+  - "Archive database [BAM], partitioning"
+ms.assetid: f9ef7480-2e37-4477-92c8-b5686ae9b54b
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating a Partitioned View in the Archiving Database
 

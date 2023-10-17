@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Managing Affiliate Applications"
-title: "Managing Affiliate Applications"
+title: "Managing Affiliate Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 92bd94d3-a3a1-4129-aa5d-b23aa41530a7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Managing Affiliate Applications
 This section provides information on how to create and configure affiliate applications.  

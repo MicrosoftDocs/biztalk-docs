@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Publishing WCF Services with the Isolated WCF Receive Adapters"
-title: "Publishing WCF Services with the Isolated WCF Receive Adapters"
+title: "Publishing WCF Services with the Isolated WCF Receive Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "receive adapters, WCF services"
+  - "publishing, WCF services"
+  - "WCF services, receive adapters"
+  - "WCF services, publishing"
+ms.assetid: 62ebf373-075c-4c98-8130-ac2cf06e4a70
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Publishing WCF Services with the Isolated WCF Receive Adapters
 The BizTalk Windows Communication Foundation (WCF) adapters allow [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to communicate with WCF-based applications. The BizTalk WCF adapters include seven physical adapters. Each adapter, except the WCF-CustomIsolated adapter, consists of send and receive adapters.

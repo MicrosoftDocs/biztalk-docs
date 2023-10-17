@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Specification of Field Positions within Positional Records"
-title: "Specification of Field Positions within Positional Records"
+title: "Specification of Field Positions within Positional Records | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 33c2eee3-ec30-46c5-a143-a3d2e2f265a6
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Specification of Field Positions within Positional Records
 To define a positional record, you must provide information about the positions and lengths of the fields within that record. If the record contains subrecords, the positions and lengths of the fields in the subrecord are rolled up to contribute to the information about the containing record.  

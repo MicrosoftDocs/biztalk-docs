@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Secure programming with the Oracle Database adapter"
-title: "Secure programming with the Oracle Database adapter"
+title: "Secure programming with the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "credentials"
+  - "adapter, security considerations when programming on"
+  - "credentials, setting in code"
+  - "credentials, protecting"
+  - "security"
+ms.assetid: 06213c14-42b8-4d4a-b238-0aedbc27ab6a
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Secure programming with the Oracle Database adapter
 ## How Do I Protect Credentials When I Use the Add Adapter Service Reference Visual Studio Plug-in?  

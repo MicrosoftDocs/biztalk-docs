@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring for Disaster Recovery"
-title: "Configuring for Disaster Recovery"
+title: "Configuring for Disaster Recovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: acdafe68-c8bf-4064-afca-6dfd22d15052
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring for Disaster Recovery
 The BizTalk Server Log Shipping feature extends the existing Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job. BizTalk Server Log Shipping eliminates the need to manually restore a series of backup sets produced by the backup job, and reduces downtime in the event of a system failure. BizTalk Server Log Shipping is a critical component for BizTalk disaster recovery procedures.  

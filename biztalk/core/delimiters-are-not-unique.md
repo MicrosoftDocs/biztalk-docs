@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Delimiters are not unique"
-title: "Delimiters are not unique"
+title: "Delimiters are not unique | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1c37cc55-8923-4124-9004-91ee5093df9c
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Delimiters are not unique
 ## Details  

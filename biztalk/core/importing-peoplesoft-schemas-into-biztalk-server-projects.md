@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Import PeopleSoft Schemas into BizTalk Server Projects"
-title: "Import PeopleSoft schemas into Visual Studio"
+title: "Import PeopleSoft schemas into Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 411f25f4-4431-44e4-84cf-5c515b3e32db
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Import PeopleSoft Schemas into BizTalk Server Projects
 When you have created the PeopleSoft Enterprise system, you can browse the server and import schemas into a BizTalk Server project.  

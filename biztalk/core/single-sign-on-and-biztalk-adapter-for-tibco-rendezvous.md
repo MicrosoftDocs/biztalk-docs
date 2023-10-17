@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On and BizTalk Adapter for TIBCO Rendezvous"
-title: "Single Sign-On and BizTalk Adapter for TIBCO Rendezvous"
+title: "Single Sign-On and BizTalk Adapter for TIBCO Rendezvous | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 52e698bb-38ba-4a12-b15a-d1581061d62f
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On and BizTalk Adapter for TIBCO Rendezvous
 

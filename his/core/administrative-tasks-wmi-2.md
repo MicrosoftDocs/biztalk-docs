@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Administrative Tasks (WMI)"
-title: "Administrative Tasks (WMI)2"
+title: "Administrative Tasks (WMI)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 80250217-51fe-46ba-9069-c249e98a1338
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Administrative Tasks (WMI)
 Using the Windows Management Instrumentation (WMI) providers for Host Integration Server, you can administer a variety of components on Host Integration Server. However, any administration you perform on Host Integration Server through WMI is performed through the following tasks:  

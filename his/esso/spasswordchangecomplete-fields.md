@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SPasswordChangeComplete Fields"
-title: "SPasswordChangeComplete Fields"
+title: "SPasswordChangeComplete Fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d717acd4-c15b-4421-a390-c43c7dcb7cd3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SPasswordChangeComplete Fields
 The fields of the **SPasswordChangeComplete** interface is listed in the following table. For a complete list of **SExternal** interface members, see [SPasswordChangeComplete Members](../esso/spasswordchangecomplete-members.md).  

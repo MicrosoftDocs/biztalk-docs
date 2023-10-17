@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Record Size in Tracking Databases"
-title: "Record Size in Tracking Databases"
+title: "Record Size in Tracking Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Tracking database, database size"
+ms.assetid: be7a891b-2674-49a3-a8e0-6aa11a918bf2
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Record Size in Tracking Databases
 To help you plan your hardware requirements for BizTalk, the following table shows the expected record size for various event records in the Tracking database.  

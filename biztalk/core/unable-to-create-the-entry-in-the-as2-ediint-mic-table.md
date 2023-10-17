@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unable to create the entry in the AS2 EDIINT MIC table"
-title: "Unable to create the entry in the AS2 EDIINT MIC table"
+title: "Unable to create the entry in the AS2 EDIINT MIC table | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a1c75d70-e39e-4465-b32b-db646c059c9b
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unable to create the entry in the AS2 EDIINT MIC table
 ## Details  

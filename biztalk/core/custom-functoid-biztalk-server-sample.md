@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Custom Functoid (BizTalk Server Sample)"
-title: "Custom Functoid (BizTalk Server Sample)"
+title: "Custom Functoid (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "functoids, customizing"
+  - "examples, functoids"
+  - "functoids, examples"
+  - "XML tools"
+  - "examples, XML tools"
+ms.assetid: 9f1eb260-ff62-46f5-a517-57f4e9172b35
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Custom Functoid (BizTalk Server Sample)
 The Custom Functoid sample demonstrates how to write a custom functoid for BizTalk Mapper. You can add the functoid to the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox. The functoid will be displayed in the Toolbox when BizTalk Mapper is in focus.  

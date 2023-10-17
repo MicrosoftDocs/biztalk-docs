@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Configure an SMTP Send Port"
-title: "How to Configure an SMTP Send Port"
+title: "How to Configure an SMTP Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring [SMTP adapters], send ports"
+  - "send ports, SMTP adapters"
+  - "SMTP adapters, send ports"
+ms.assetid: b2291378-718d-4d1a-9d54-cd34c1b2e000
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure an SMTP Send Port
 You can configure an SMTP send port either programmatically or by using the BizTalk Server Administration console.  

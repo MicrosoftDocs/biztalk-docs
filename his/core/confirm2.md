@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CONFIRM"
-title: "CONFIRM2"
+title: "CONFIRM2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 45f75964-1e09-4cdf-a621-b7d76252234b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CONFIRM
 The **CONFIRM** verb sends the contents of the local logical unit's (LU) send buffer and a confirmation request to the partner transaction program (TP).  

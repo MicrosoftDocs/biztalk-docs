@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Too many data elements"
-title: "Too many data elements"
+title: "Too many data elements | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5000577d-5748-4e81-a394-86b2a780d70f
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Too many data elements
 ## Details  

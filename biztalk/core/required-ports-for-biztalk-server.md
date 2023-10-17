@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Required Ports for BizTalk Server"
-title: "Required Ports for BizTalk Server"
+title: "Required Ports for BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a11cec7a-de97-47f9-9153-0be82d694fab
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Required Ports for BizTalk Server
 For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).

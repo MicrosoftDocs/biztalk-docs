@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Application Deployment Tasks"
-title: "Application Deployment Tasks"
+title: "Application Deployment Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications, deploying"
+  - "applications, tasks"
+  - "deploying [applications], tasks"
+ms.assetid: 8cb29292-9868-41fa-9f2c-d1c20dfdddbb
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Application Deployment Tasks
 The topics in this section provide details about the following tasks involved in each phase of the application deployment process for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  

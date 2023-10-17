@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Services"
-title: "Services"
+title: "Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 188d7c7f-7862-413a-9c69-60635e941171
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Services
 Under the Services Node the definitions for how to handle incoming traffic are created. There are seven different service types that are processed by the HIP runtime.

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Single Sign-On Interface"
-title: "Single Sign-On Interface"
+title: "Single Sign-On Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4ae99984-81a7-4351-b2b5-3f0bacc4ca7a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Single Sign-On Interface
 The following table describes the COM and .NET Framework interfaces that make up the Single Sign-On interface.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BizTalk Server Message Context Properties (Send Handlers)"
-title: "BizTalk Server Message Context Properties (Send Handlers)"
+title: "BizTalk Server Message Context Properties (Send Handlers) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a065ba89-9fdb-47dc-9021-fb95cf347cdc
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Server Message Context Properties (Send Handlers)
 In addition to the message payload, the supplementary information that a message contains must be accessible from the BizTalk Server orchestration at run time.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Merging XML Documents"
-title: "Merging XML Documents"
+title: "Merging XML Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "XML, documents"
+  - "process management solution tutorial, merging XML documents"
+ms.assetid: 444c983a-397a-4342-85e1-80bb152986d9
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Merging XML Documents
 One of the messages that the **OrderBroker** orchestration creates is one to update the SQL Server history database. This message contains fields from the order message as well as the original order message. The original order appears in this message a string. This matches the data type for the order history in the database.  

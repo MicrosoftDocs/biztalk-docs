@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Network Analyzer"
-title: "Network Analyzer2"
+title: "Network Analyzer2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: af37fec2-f49e-4c52-a2e9-0b00b4dd854b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Network Analyzer
 A network analyzer, is an important tool for checking the load and throughput on the network as well as verifying that there are no mismatched configurations in the test environment.  

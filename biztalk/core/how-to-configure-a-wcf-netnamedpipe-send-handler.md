@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Configure a WCF-NetNamedPipe Send Handler"
-title: "How to Configure a WCF-NetNamedPipe Send Handler"
+title: "How to Configure a WCF-NetNamedPipe Send Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF-NetNamedPipe adapters, global adapters"
+  - "configuring [WCF-NetNamedPipe adapters], global adapters"
+  - "send handlers, WCF-NetNamedPipe adapters"
+  - "configuring [WCF-NetNamedPipe adapters], send handlers"
+ms.assetid: 1f281649-d09f-44eb-8af5-1f83233fab60
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure a WCF-NetNamedPipe Send Handler
 Use the following procedure to configure a WCF-NetNamedPipe send handler.  

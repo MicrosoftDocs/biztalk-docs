@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: RosettaNet and CIDX Messaging Standards"
-title: "RosettaNet and CIDX Messaging Standards"
+title: "RosettaNet and CIDX Messaging Standards | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "messaging standards"
+  - "CIDX, messaging standards"
+  - "RosettaNet, messaging standards"
+ms.assetid: 3e9c090b-9425-41ae-ae86-d39ca2abfb63
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # RosettaNet and CIDX Messaging Standards
 The primary purpose of Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] is to process messages that conform to the RosettaNet or Chemical Industry Data Exchange (CIDX) messaging standards. This section provides information about the two major RosettaNet standards: the RosettaNet Implementation Framework (RNIF) and Partner Interface Processes (PIPs). It also provides information about the CIDX Chem eStandards.

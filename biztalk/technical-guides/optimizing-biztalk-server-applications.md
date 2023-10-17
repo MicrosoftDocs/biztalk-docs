@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Optimizing BizTalk Server Applications"
-title: "Optimizing BizTalk Server Applications"
+title: "Optimizing BizTalk Server Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 289f8eab-9e32-4bc0-93b9-c6528fbd0240
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Optimizing BizTalk Server Applications
 This section describes methods for optimizing performance of BizTalk Server applications.  

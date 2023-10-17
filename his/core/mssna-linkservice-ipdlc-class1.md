@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_LinkService_IpDlc Class"
-title: "MsSna_LinkService_IpDlc Class1"
+title: "MsSna_LinkService_IpDlc Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f6d39c28-a6d4-4e73-ab5f-4b840a3e1c7c
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_LinkService_IpDlc Class
 The **MsSna_LinkService_IpDlc** class represents the SNA IP-DLC link service.  

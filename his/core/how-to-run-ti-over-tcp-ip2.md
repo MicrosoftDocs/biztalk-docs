@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Run TI Over TCP/IP"
-title: "Run TI Over TCP-IP2"
+title: "Run TI Over TCP-IP2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5c2d5f38-00ce-4992-9043-111d17d6da78
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Run TI Over TCP/IP
 

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Installation Error Message"
-title: "Installation Error Message"
+title: "Installation Error Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "installation, error message"
+  - "error messages, installation"
+ms.assetid: 593b033f-03da-43ae-a948-f87aa5e4bccd
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Installation Error Message
 After you install Microsoft BizTalk Adapter for TIBCO Enterprise Message Service, defining a send or receive location for it might result in the following error:  

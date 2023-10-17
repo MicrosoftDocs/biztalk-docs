@@ -1,12 +1,21 @@
 ---
 description: "Exception handling in the orchestration designer in BizTalk Server"
-title: "Basic Orchestration Design"
+title: "Basic Orchestration Design | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, design"
+ms.assetid: fd2e1d89-6230-4634-8a33-1cda26fd55f5
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # About Basic Orchestration Design
 When you create a basic orchestration, you receive XML into the receive port of your orchestration. The XML is sent to the back-end system to be processed. In the back-end system, an exception could occur that could stop the orchestration and generate a fault. The exception that is produced, provides information that the orchestration did not complete.  

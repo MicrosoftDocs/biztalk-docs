@@ -1,5 +1,6 @@
 ---
 # required metadata
+
 title: Use XSL Transform (Grid Property)
 description: Use XSL Transform (Grid Property)
 author: Elvis-Shi
@@ -9,7 +10,9 @@ ms.date: 01/14/2020
 ms.topic: reference
 ms.prod: biztalk-server
 # optional metadata
+
 #ROBOTS:
+
 ms.reviewer: 
 ms.suite:
 ms.tgt_pltfrm:

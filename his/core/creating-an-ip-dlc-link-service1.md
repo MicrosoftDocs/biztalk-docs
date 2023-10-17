@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating an IP-DLC Link Service"
-title: "Creating an IP-DLC Link Service1"
+title: "Creating an IP-DLC Link Service1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e123f9b6-2f95-4173-9c0f-0c7db185e9b1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Creating an IP-DLC Link Service
 You create and configure an IP-DLC link service as you would create any other link service.  

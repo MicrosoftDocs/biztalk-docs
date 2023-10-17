@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sync Point Session Activation"
-title: "Sync Point Session Activation2"
+title: "Sync Point Session Activation2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d747d592-b572-4d17-a7df-b976ef90b8b0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sync Point Session Activation
 If Host Integration Server is to support Sync Point conversations, this must be specified at session activation time. The configuration of Host Integration Server is modified to allow the system administrator to specify which (if any) local LUs will be used for Sync Point conversations.  

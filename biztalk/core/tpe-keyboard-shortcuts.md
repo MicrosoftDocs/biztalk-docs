@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: TPE Keyboard Shortcuts"
-title: "TPE Keyboard Shortcuts"
+title: "TPE Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "keyboard shortcuts, Tracking Profile Editor"
+  - "Tracking Profile Editor, keyboard shortcuts"
+ms.assetid: b10288b8-c63d-4564-905c-5817fd92a592
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # TPE Keyboard Shortcuts
 In the Tracking Profile Editor (TPE), you can use keyboard shortcuts to perform the same navigation and edit functions that you do by using a mouse. You can use these shortcuts to perform all the functions used in TPE. This section describes the keyboard shortcuts and provides some tips about using your keyboard to navigate in TPE.  

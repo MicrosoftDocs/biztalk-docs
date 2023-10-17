@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Use BizTalk Server Exception Handling"
-title: "Using BizTalk Server Exception Handling3"
+title: "Using BizTalk Server Exception Handling3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9441e884-1de9-45d6-982b-911fc06b9d5c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use BizTalk Server Exception Handling
 

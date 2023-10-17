@@ -1,12 +1,32 @@
 ---
 description: "Learn more about: How to Copy Tracked Messages into the BizTalk Tracking Database"
-title: "How to Copy Tracked Messages into the BizTalk Tracking Database"
+title: "How to Copy Tracked Messages into the BizTalk Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, copying between servers"
+  - "MessageBox database, Tracking database"
+  - "Tracking database, linking servers"
+  - "MessageBox database, copying messages"
+  - "linking, servers"
+  - "Tracking database, archiving"
+  - "archiving [Tracking database], linking servers"
+  - "Tracking database, MessageBox database"
+  - "Tracking database, copying messages"
+  - "archiving [Tracking database], MessageBox database"
+  - "MessageBox database, linking servers"
+  - "MessageBox database, archiving"
+ms.assetid: 369e972a-efbe-4ad5-a68f-aa3bbfb9ad54
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Copy Tracked Messages into the BizTalk Tracking Database
 The archiving and purging process potentially accesses and/or updates databases in different SQL servers, so you must set up linked servers between the involved SQL Server instances. You can directly copy tracked messages from the BizTalk MessageBox (BizTalkMsgBoxDb) database server to your BizTalk Tracking (BizTalkDTADb) database using a linked server. You must set up linked servers between:  

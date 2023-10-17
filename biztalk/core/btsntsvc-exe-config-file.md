@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BTSNTSvc.exe.config File"
-title: "BTSNTSvc.exe.config File"
+title: "BTSNTSvc.exe.config File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f2bb89a7-4fff-4ccf-a0a7-20ca610f2ddf
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BTSNTSvc.exe.config File
 Dehydration properties and their default values are configurable in [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] or as XML in the BizTalk configuration file (BTSNTSvc.exe.config or BTSNTSvc64.exe.config). The values in the BizTalk configuration file are applied first. Then, the [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)] settings are applied. The dehydration properties are read when all host instances containing an orchestration start.  

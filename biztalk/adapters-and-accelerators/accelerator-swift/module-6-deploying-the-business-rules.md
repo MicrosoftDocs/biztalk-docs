@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Module 6: Deploying the Business Rules"
-title: "Module 6: Deploying the Business Rules"
+title: "Module 6: Deploying the Business Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tutorial, deploying business rules"
+  - "deploying, business rules"
+  - "business rules"
+ms.assetid: e8fb8993-3450-4795-80fd-ff28bff8fe97
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Module 6: Deploying the Business Rules
 In this module, you deploy the business rules, confirm your installation log, and confirm your deployment using the Business Rule Composer tool.  

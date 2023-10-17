@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Run operations on tables and views with large data types using the SQL adapter"
-title: "Run operations on tables and views with large data types using the SQL adapter"
+title: "Run operations on tables and views with large data types using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cec15b01-7a57-4917-8c21-44a1cfaadc59
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run operations on tables and views with large data types using the SQL adapter
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to read and update data in columns of large data types, that is, varchar(max), nvarchar(max), or varbinary(max). To read data from such columns, adapter clients can use the Select operation. To insert or update data into such columns, the adapter exposes a Set<column_name> operation, where <column_name> is the name of the column of type varchar(max), nvarchar(max), or varbinary(max).

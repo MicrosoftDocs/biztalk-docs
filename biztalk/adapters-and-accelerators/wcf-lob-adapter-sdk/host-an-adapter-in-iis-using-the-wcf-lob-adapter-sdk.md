@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Host an adapter in IIS using the WCF LOB Adapter SDK"
-title: "Host an adapter in IIS using the WCF LOB Adapter SDK"
+title: "Host an adapter in IIS using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 90b6cd97-01b3-4c98-a190-c6e0ccf24d2b
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Host an adapter in IIS using the WCF LOB Adapter SDK
 This section contains information about hosting an adapter built by using the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] in Internet Information Services (IIS). For more information about other hosting options, see [Hosting Services](/dotnet/framework/wcf/hosting-services).

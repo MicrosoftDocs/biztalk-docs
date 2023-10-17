@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Securing the Sender ASPX Page"
-title: "Securing the Sender ASPX Page"
+title: "Securing the Sender ASPX Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "ASPX pages, protocol rules"
+  - "security, ASPX pages"
+  - "RNIFSend.aspx"
+  - "ASPX pages, security"
+  - "protocol rules [ASPX pages]"
+ms.assetid: 8214e3f5-a8e9-4d71-957d-ed0852035030
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Securing the Sender ASPX Page
 This topic describes how to protect the RNIFSend.aspx page from unauthorized use. There are two procedures that you can use:  

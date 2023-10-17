@@ -1,14 +1,26 @@
 ---
 description: "Learn more about: Managing Parties"
-title: "Managing Parties"
+title: "Managing Parties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.admin.resultsobject.party"
+helpviewer_keywords: 
+  - "Administration Console [BizTalk Server], parties"
+  - "managing [parties]"
+  - "managing [parties], about managing parties"
+  - "parties, managing"
+ms.assetid: 96d2bcb3-1e38-4dad-a0d6-e5913ba531e7
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Managing Parties
 Using the **Parties** node, you can set up business partners (parties) or internal departments (business profiles) with which [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solutions interact. For more information, see [Trading Partners](../core/trading-partners-and-business-profiles.md).  

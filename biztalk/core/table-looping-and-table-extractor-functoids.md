@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Table Looping and Table Extractor Functoids"
-title: "Table Looping and Table Extractor Functoids"
+title: "Table Looping and Table Extractor Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2907aada-f11a-485c-85c8-03092803ccf7
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Table Looping and Table Extractor Functoids
 

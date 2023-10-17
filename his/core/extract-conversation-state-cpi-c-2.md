@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Extract_Conversation_State (CPI-C)"
-title: "Extract_Conversation_State (CPI-C)2"
+title: "Extract_Conversation_State (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 421f5c62-c434-4866-8379-50b7fe145a24
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Extract_Conversation_State (CPI-C)
 The **Extract_Conversation_State** call (function name **cmecs**) returns the state of the specified conversation.  

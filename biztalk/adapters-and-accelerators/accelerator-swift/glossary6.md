@@ -1,12 +1,19 @@
 ---
-title: "Glossary for SWIFT accelerator in BizTalk Server"
+title: "Glossary for SWIFT accelerator in BizTalk Server | Microsoft Docs"
 description: Common terms and definitions to know and learn to use the BizTalk Accelerator for SWIFT
 ms.custom: ""
 ms.date: "08/16/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a7331beb-f6a7-4eea-8b31-28f5d15666d0
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Glossary - Microsoft BizTalk Accelerator for SWIFT
 Microsoft BizTalk Accelerator for SWIFT uses the following glossary terms and definitions.  

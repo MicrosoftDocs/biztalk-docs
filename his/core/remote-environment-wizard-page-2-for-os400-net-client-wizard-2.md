@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Remote Environment Wizard Page 2 (for OS400) (.NET Client Wizard)"
-title: "Remote Environment Wizard Page 2 (for OS400) (.NET Client Wizard)2"
+title: "Remote Environment Wizard Page 2 (for OS400) (.NET Client Wizard)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15478"
+ms.assetid: c44b3c5e-79e2-47f8-b333-80f60659cdfb
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Remote Environment Wizard Page 2 (for OS400) (.NET Client Wizard)
 Use the **Remote Environment** wizard page to define the default values for the remote environment (RE).  

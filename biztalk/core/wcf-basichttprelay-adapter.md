@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: WCF-BasicHttpRelay Adapter"
-title: "WCF-BasicHttpRelay Adapter"
+title: "WCF-BasicHttpRelay Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 22eefde6-80f5-4d45-80cf-55f743ff9d45
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # WCF-BasicHttpRelay Adapter
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the **WCF-BasicHttpRelay** adapter to receive and send WCF service requests through the [BasicHttpRelayBinding class](/dotnet/api/microsoft.servicebus.basichttprelaybinding). The **WCF-BasicHttpRelay** adapter uses Service Bus relay endpoints using the **BasicHttpRelayBinding**.

@@ -1,12 +1,35 @@
 ---
 description: "Learn more about: Ordered Delivery of Messages in BizTalk Server"
-title: "Ordered Delivery of Messages"
+title: "Ordered Delivery of Messages | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "12/23/2019"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "backing up, message order"
+  - "file transport, message order"
+  - "Messaging Engine, transports"
+  - "messages, performance"
+  - "dynamic send ports, message order"
+  - "BTS.SuspendAsNonResumable message context property"
+  - "performance, message order"
+  - "Messaging Engine, performance"
+  - "Messaging Engine, message order"
+  - "MessageBox database, message order"
+  - "messages, sorting"
+  - "backing up, backup transports"
+  - "adapters, custom receive adapters"
+  - "adapters, messages"
+  - "customizing, receive adapters"
+ms.assetid: 39e0bba6-81f5-4ae0-af92-837b225bc801
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Ordered Delivery of Messages in BizTalk Server

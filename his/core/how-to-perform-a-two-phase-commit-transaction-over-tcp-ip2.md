@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Perform a Two-Phase Commit Transaction over TCP/IP"
-title: "How to Perform a Two-Phase Commit Transaction over TCP-IP2"
+title: "How to Perform a Two-Phase Commit Transaction over TCP-IP2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a2a63782-04b5-4e3a-a013-aa58955a89c5
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Perform a Two-Phase Commit Transaction over TCP/IP
 Two-phase commit (2PC) is a host server-installed protocol that ensures that updates to multiple instances of a database on a network either succeed or fail in their entirety. Host Integration Server supports 2PC over TCP/IP, enabling you to gain the security of a 2PC connection over the Internet.  

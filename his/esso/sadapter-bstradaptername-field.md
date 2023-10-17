@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SAdapter.bstrAdapterName Field"
-title: "SAdapter.bstrAdapterName Field"
+title: "SAdapter.bstrAdapterName Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 49e45ae5-25b5-4852-ac85-9604e15e93d4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SAdapter.bstrAdapterName Field
 String containing the adapter name.  

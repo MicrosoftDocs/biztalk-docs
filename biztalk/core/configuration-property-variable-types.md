@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Configuration Property Variable Types"
-title: "Configuration Property Variable Types"
+title: "Configuration Property Variable Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapters, properties"
+  - "binding files, properties"
+  - "binding files, data types"
+  - "adapters, data types"
+ms.assetid: 703219ce-e275-4a07-a2ad-28010d8363e6
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuration Property Variable Types
 The adapter configuration properties in a TransportTypeData\CustomProps node of a binding file adhere to the data types available in the .NET Framework VarEnum enumeration. Relevant data types are listed in the table below:  

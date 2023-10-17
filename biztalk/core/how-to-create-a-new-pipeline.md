@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Create a New Pipeline"
-title: "How to Create a New Pipeline"
+title: "How to Create a New Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, pipelines"
+  - "pipelines, warnings"
+  - "Pipeline Designer, warnings"
+  - "pipelines, creating"
+ms.assetid: bd95325e-1a72-4705-80f6-37ac092d11a3
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create a New Pipeline
 You can add a pipeline template to your project to create a new pipeline.  

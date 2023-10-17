@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connect to Oracle E-Business Suite in Visual Studio using Add Adapter Metadata Wizard"
-title: "Connect to Oracle E-Business Suite in Visual Studio using Add Adapter Metadata Wizard"
+title: "Connect to Oracle E-Business Suite in Visual Studio using Add Adapter Metadata Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4fadc722-0098-457e-a2e2-3e9cc96eab5e
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connect to Oracle E-Business Suite in Visual Studio using Add Adapter Metadata Wizard
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] is also exposed as a BizTalk adapter and, therefore, you can use the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate schema for the operations you want to perform on Oracle E-Business Suite using the adapter.  

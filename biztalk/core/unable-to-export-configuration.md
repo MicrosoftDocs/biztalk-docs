@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unable to export configuration"
-title: "Unable to export configuration"
+title: "Unable to export configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 64f09af4-00a0-47cb-889e-d9aeb7266eb2
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unable to export configuration
 ## Details  

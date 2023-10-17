@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: X12 997 Acknowledgment Error Codes"
-title: "X12 997 Acknowledgment Error Codes"
+title: "X12 997 Acknowledgment Error Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9f73ca2c-cfff-444b-ae80-fb724f067fcc
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # X12 997 Acknowledgment Error Codes
 This topic lists the error codes used within the segments of an X12 997 acknowledgment. For more information about these segments, see [X12 997 Acknowledgment](../core/x12-997-acknowledgment.md).  

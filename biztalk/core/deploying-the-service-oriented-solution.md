@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Deploying the Service Oriented Solution"
-title: "Deploying the Service Oriented Solution"
+title: "Deploying the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deploying, service solution tutorial"
+  - "deploying, tutorials"
+  - "service solution tutorial, deploying"
+  - "service solution tutorial, background information"
+  - "tutorials, deploying"
+ms.assetid: 88d4d28d-9031-4fb8-ab62-04ee27949673
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Deploying the Service Oriented Solution
 Service Oriented Architecture (SOA) is an approach to building distributed systems. The service oriented solution demonstrates how several back-end systems using different protocols can be aggregated into a single service that clients can consume. This solution integrates services with an approach that guarantees delivery and performance characteristics.  

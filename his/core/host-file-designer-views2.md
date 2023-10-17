@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Host File Designer Views"
-title: "Host File Designer Views2"
+title: "Host File Designer Views2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 309b6a48-e3d4-4da7-bb1f-0097ed41434f
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Host File Designer Views
 The Host File Designer development tool uses a two-pane user interface. The left pane displays a tree view, and the right pane displays a list view, or **Details** view. The tree view displays a hierarchical representation of the contents of the library. The list view displays a compact subset of the selected type library component’s properties that are displayed in the property browser. You might find it useful to customize the details view by using something other than a list. For example, a COBOL, RPG, or IDL view might be more useful.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SDLC Definition (for Switched and Leased Lines)"
-title: "SDLC Definition (for Switched and Leased Lines)2"
+title: "SDLC Definition (for Switched and Leased Lines)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 66650eec-9ad6-4873-890e-4bddad1a51ee
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SDLC Definition (for Switched and Leased Lines)
 The following table shows a sample IBM 9370 VTAM definition for four Synchronous Data Link Control (SDLC) lines. The LLGROUP label shows the VTAM definitions for lines B80 and BB0 of a leased group. The SNAGROUP label shows the VTAM definitions for lines B90 and BA0 of a switched group.  

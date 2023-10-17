@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Add a Send Port to a Send Port Group"
-title: "How to Add a Send Port to a Send Port Group"
+title: "How to Add a Send Port to a Send Port Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [send port groups], adding send ports"
+  - "managing [send ports], adding to send port groups"
+  - "send port groups, send ports"
+  - "send ports, send port groups"
+  - "adding, send ports"
+ms.assetid: a61b3b32-c05e-40b9-abf1-09b7065fb6a2
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add a Send Port to a Send Port Group
 This topic describes how to use the BizTalk Server Administration console to add one or more send ports to a send port group. You can only add one-way static send ports to a send port group.  

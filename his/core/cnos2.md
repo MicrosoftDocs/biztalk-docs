@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CNOS"
-title: "CNOS2"
+title: "CNOS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 30627828-544d-444e-bd86-fd38d04f23d9
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CNOS
 The **CNOS** (Change Number of Sessions) verb establishes APPC LU 6.2 session limits.  

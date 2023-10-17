@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Scripting Using Inline XSLT and XSLT Call Templates"
-title: "Scripting Using Inline XSLT and XSLT Call Templates"
+title: "Scripting Using Inline XSLT and XSLT Call Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e3168417-3653-4c9e-a09c-184ffdc0ccb2
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scripting Using Inline XSLT and XSLT Call Templates
 You can directly write Extensible Stylesheet Language Transformations (XSLT) stylesheets for use in the **Scripting** functoid. This enables you to perform transformations, that links and built-in functoids may not be able to represent. There are two kinds of XSLT scripts: inline XSLT and XSLT call templates. When you select either in the **Select script type** dropdown in the **Configure Scripting Functoid** dialog box, sample code appears that you may use.  

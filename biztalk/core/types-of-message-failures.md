@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Types of Message Failures"
-title: "Types of Message Failures"
+title: "Types of Message Failures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "transformation stage"
+  - "assembly stage"
+  - "errors, disassembly stage"
+  - "errors, assembly stage"
+  - "routing, errors"
+  - "errors, transformation stage"
+  - "errors, messages [HAT]"
+  - "errors, routing"
+  - "disassembly stage, errors"
+  - "messages, errors [HAT]"
+ms.assetid: 3a8e1c58-4b53-4439-837d-aaa233eb9158
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Types of Message Failures
 This topic lists different points where a message failure may occur.  

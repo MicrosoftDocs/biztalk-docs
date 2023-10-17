@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Rule Engine"
-title: "Rule Engine"
+title: "Rule Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "RuleEngine object"
+  - "Business Rules Engine, ruleset executor"
+  - "Business Rules Engine, ruleset translator"
+  - "Business Rules Engine, ruleset tracking interceptor"
+  - "Business Rules Engine, Business Rules Engine"
+ms.assetid: c4043a1f-357f-47bc-84e1-5e4bd9f8b5b8
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Rule Engine
 This section describes several components, functionalities, and operations of the Business Rule engine. The rule engine provides the execution context for a rule set. The **RuleEngine** object uses the following plug–in components for implementation:  

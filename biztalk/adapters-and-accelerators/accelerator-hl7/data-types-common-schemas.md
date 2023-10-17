@@ -1,9 +1,23 @@
 ---
 description: "Learn more about: Data Types Common Schemas"
 title: "Data Types Common Schemas"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "2.X schemas, data types"
+  - "2.X schemas, common schemas"
+  - "common schemas"
+ms.assetid: 6fd30cd3-9c4f-4391-9c79-a4dff11f2a46
+caps.latest.revision: 3
+
+
+
 ---
 # Data Types Common Schemas
 The **datatypes_*\<version\>*.xsd** schema file (where *\<version\>* is the HL7 version number) contains the definition of all the HL7 elementary and composite data types for the corresponding HL7 version. The segments_*\<version\>*.xsd file uses this file to match the corresponding HL7 version. The DataStructures Access database table generates the DataTypes_*\<version\>*.xsd schema file. The following example is an entry for the HL7 elementary data type **ST**:  

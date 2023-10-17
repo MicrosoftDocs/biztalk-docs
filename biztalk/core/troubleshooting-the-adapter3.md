@@ -1,12 +1,19 @@
 ---
 description: "Learn how to identify and resolve issues that you might experience while using Microsoft BizTalk Adapter for JD Edwards OneWorld."
-title: "Troubleshoot the JD Edwards OneWorld adapter"
+title: "Troubleshoot the JD Edwards OneWorld adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2dd6a951-f113-4f43-b43f-057a239d05c4
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting the Adapter
 

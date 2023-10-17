@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10726"
-title: "Single Sign-On: Event 10726"
+title: "Single Sign-On: Event 10726 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 12fbac2d-30ca-4f4c-989b-d770b0f623d9
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10726
 ## Details  

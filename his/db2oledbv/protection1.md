@@ -1,12 +1,18 @@
 ---
 description: "Learn about the supported standards for IBM DB2 protection, including encryption standards and configuring for protection."
-title: "Protection1"
+title: "Protection1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c028d3b6-ce65-4b28-a99c-9d1abc648111
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Protection
 

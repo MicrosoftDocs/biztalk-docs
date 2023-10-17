@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Date and Time Parameters"
-title: "Date and Time Parameters1"
+title: "Date and Time Parameters1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e0add6a2-2a71-4e60-86b7-0a2a15b8b20a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Date and Time Parameters
 Transaction Integrator (TI) converts and formats the **Date** and **Time** parameters exchanged with the host differently, depending on the programming language and the host platform.  

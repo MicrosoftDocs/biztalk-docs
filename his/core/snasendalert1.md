@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SNASendAlert"
-title: "SNASendAlert1"
+title: "SNASendAlert1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3ee39476-cc38-4381-bed9-6af5d01fe17b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SNASendAlert
 The SNALink calls the **SNASendAlert** function to send a complete preformatted Network Management Vector Transport (NMVT) alert to NetView.  

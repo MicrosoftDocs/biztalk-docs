@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Starting a Conversation"
-title: "Starting a Conversation2"
+title: "Starting a Conversation2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 50ab17ce-0e18-483f-89ee-a5333bd96840
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Starting a Conversation
 The calls in this category are used to start a conversation between two programs.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating a 3270 Connection with a Wizard"
-title: "Creating a 3270 Connection with a Wizard1"
+title: "Creating a 3270 Connection with a Wizard1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c681a94b-8f0d-4d26-a3d5-1f2a486ed450
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Creating a 3270 Connection with a Wizard
 The following procedure details using a wizard to create a 3270 connection. The 3270 Continuous link service will be used as an example.  

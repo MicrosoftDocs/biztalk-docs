@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Understanding DTA Tracking Performance Behavior"
-title: "Understanding DTA Tracking Performance Behavior"
+title: "Understanding DTA Tracking Performance Behavior | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b1a70951-bfed-435c-97f4-0b28a8e4e4dc
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Understanding DTA Tracking Performance Behavior
 The primary factors that determine maximum sustainable throughput (MST) for DTA tracking are:  

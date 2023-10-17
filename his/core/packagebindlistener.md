@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: packageBindListener"
-title: "packageBindListener"
+title: "packageBindListener | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b9c362b6-6597-4529-9460-cd36129896fa
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # packageBindListener
 The packageBindListener element contains a set of attributes to define a custom bind listener.  

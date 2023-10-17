@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BAM WCF Interceptor"
-title: "BAM WCF Interceptor"
+title: "BAM WCF Interceptor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c2510008-4c89-436d-afd0-a98d9f803221
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM WCF Interceptor
 The BAM WCF interceptor provides comprehensive support for tracking data within your WCF services.  

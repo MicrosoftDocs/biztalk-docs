@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: SSO Server"
-title: "SSO Server"
+title: "SSO Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Master Secret server, tasks"
+  - "Master Secret server, SSO"
+  - "servers, SSO"
+  - "SSO, servers"
+  - "SSO, Master Secret server"
+ms.assetid: 40240d6b-b7d1-48fb-b750-be0e380d52e3
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SSO Server
 The Enterprise Single Sign-On (SSO) server can perform any of the following tasks:  

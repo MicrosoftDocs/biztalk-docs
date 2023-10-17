@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 11: Test the AS2 Solution"
-title: "Step 11: Test the AS2 Solution"
+title: "Step 11: Test the AS2 Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 184ed8ee-6778-4bb9-b265-a94a1fed03cb
+caps.latest.revision: 34
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 11: Test the AS2 Solution
 ![Step 11 of 11](../core/media/tut-step11-of-11.gif "Tut_Step11_of_11")  

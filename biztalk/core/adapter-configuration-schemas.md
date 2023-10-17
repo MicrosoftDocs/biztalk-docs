@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Adapter Configuration Schemas"
-title: "Adapter Configuration Schemas"
+title: "Adapter Configuration Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cc08fa71-c5f7-4365-9506-e02351b17567
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Configuration Schemas
 Different types of schemas are used in design-time configuration of an adapter. Depending upon the visibility and scope of property values, different schemas are modified and used.  

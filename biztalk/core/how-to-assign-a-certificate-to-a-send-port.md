@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Assign a Certificate to a Send Port"
-title: "How to Assign a Certificate to a Send Port"
+title: "How to Assign a Certificate to a Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "certificates, assigning"
+  - "managing [send ports], certificates"
+  - "assigning certificates"
+  - "certificates, send ports"
+ms.assetid: ba9e9c8b-f5b6-4fee-9e89-31b0f1df6ed4
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Assign a Certificate to a Send Port
 This topic describes how to use the BizTalk Server Administration console to assign a security certificate to a send port. The certificate must exist in the Other People certificate store on the computer running BizTalk Server, or messages associated with this send port will not be processed, and errors will be logged.  

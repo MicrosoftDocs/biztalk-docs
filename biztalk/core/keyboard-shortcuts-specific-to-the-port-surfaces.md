@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Keyboard Shortcuts Specific to the Port Surfaces"
-title: "Keyboard Shortcuts Specific to the Port Surfaces"
+title: "Keyboard Shortcuts Specific to the Port Surfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "keyboard shortcuts, Orchestration Designer"
+  - "Orchestration Designer, keyboard shortcuts"
+ms.assetid: 42c6fd89-c32a-4cb5-a1a5-47cc87b680a9
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Keyboard Shortcuts Specific to the Port Surfaces
 The following keys are active in the left and right Port Surfaces.  

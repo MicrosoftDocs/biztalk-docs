@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring Microsoft Client Connections"
-title: "Configuring Microsoft Client Connections"
+title: "Configuring Microsoft Client Connections | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a3825609-8836-4f88-bb9e-81369e4fc0b4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring Microsoft Client Connections
 ### Connect Microsoft Client to DRDA Service  

@@ -1,12 +1,32 @@
 ---
 description: "Learn more about: Node-Hierarchy Level Matching"
-title: "Node-Hierarchy Level Matching"
+title: "Node-Hierarchy Level Matching | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Field nodes"
+  - "BizTalk Mapper, processing"
+  - "Record node"
+  - "BizTalk Mapper, compiler directives"
+  - "destination schemas, matching nodes"
+  - "source schemas, matching nodes"
+  - "maps, links"
+  - "Target Links property"
+  - "BizTalk Mapper, links"
+  - "compiler directives, matching schema nodes"
+  - "compiler directives, flattening source hierarchies"
+  - "maps, processing"
+ms.assetid: 5ba1ac77-0e70-4c58-9b8c-1b379dbbb3bd
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Node-Hierarchy Level Matching
 BizTalk Mapper enables you to configure a link property to control how the compiler matches node hierarchies between the source and destination schemas. When you create a link from a field in the source schema to a field in the destination schema, BizTalk Mapper automatically adds compiler links. These compiler links depend on the matching you select.  

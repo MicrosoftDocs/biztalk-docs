@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Understanding Connectivity"
-title: "Understanding Connectivity1"
+title: "Understanding Connectivity1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a19efa67-484c-4b89-a2ed-baa30e1a39d2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Understanding Connectivity
 After you have completed [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] installation, you are ready to configure your installation. This section provides the concepts and procedures for configuring [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  

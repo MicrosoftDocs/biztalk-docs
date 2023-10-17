@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Keyboard shortcuts in Trace Viewer"
-title: "Trace Viewer shortcuts"
+title: "Trace Viewer shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 82157c04-620d-4671-8f91-1bf82f6b80cf
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Trace Viewer
 As in any standard Microsoft Windows application, you can use keyboard shortcuts in Trace Viewer to access commands that are otherwise available by using menus. The following table describes the available keyboard shortcuts.  

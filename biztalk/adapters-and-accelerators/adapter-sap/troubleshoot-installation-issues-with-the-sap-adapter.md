@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Troubleshoot Installation Issues with the SAP adapter"
-title: "Troubleshoot Installation Issues with the SAP adapter"
+title: "Troubleshoot Installation Issues with the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "troubleshooting, installation"
+  - "installation, troubleshooting"
+ms.assetid: fdfdaf44-c32d-43a5-998d-02032c0b9211
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshoot Installation Issues with the SAP adapter
 Installation of the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] copies the product binaries on the computer and registers the bindings for each adapter. This section discusses troubleshooting techniques to resolve installation errors.  

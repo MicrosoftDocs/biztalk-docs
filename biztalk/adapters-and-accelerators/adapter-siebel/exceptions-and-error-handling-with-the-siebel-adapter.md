@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Exceptions and Error Handling with the Siebel adapter"
-title: "Exceptions and Error Handling with the Siebel adapter"
+title: "Exceptions and Error Handling with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "error handling, troubleshooting"
+  - "exceptions, troubleshooting"
+  - "troubleshooting, exceptions and error handling"
+ms.assetid: d46e908f-0715-43e2-879b-f5d0beb9bc64
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Exceptions and Error Handling with the Siebel adapter
 ## Exception list

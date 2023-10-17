@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Browse, search, and get SQL Server metadata"
-title: "Browse, search, and get SQL Server metadata"
+title: "Browse, search, and get SQL Server metadata | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 368dd5ca-456c-4cae-9e85-bcf504c4e7ed
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Browse, search, and get SQL Server metadata
 The metadata that [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces from the SQL Server database describes the message structure for communicating with the SQL Server database using the adapter. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] supports two interfaces for retrieving metadata.

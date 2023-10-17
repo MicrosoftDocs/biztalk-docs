@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Print Service Properties"
-title: "Print Service Properties1"
+title: "Print Service Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "snaprint_server"
+ms.assetid: 7d42c85f-67f8-458d-8abb-cf60072cd471
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Print Service Properties
 Click **No Event Log for Skipping Transparent Section** to prevent an entry in the Event Log every time print services skips a transparent section found while printing a host print job. Skipping transparent sections can be enabled from the **Advanced** tab of a print session properties page.  

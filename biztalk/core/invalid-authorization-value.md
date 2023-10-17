@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid Authorization Value"
-title: "Invalid Authorization Value"
+title: "Invalid Authorization Value | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 70d0dd75-b045-4b67-ba23-78551493f074
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid Authorization Value
 ## Details  

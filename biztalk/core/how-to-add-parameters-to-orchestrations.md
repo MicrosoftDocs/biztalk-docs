@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: How to Add Parameters to Orchestrations"
-title: "How to Add Parameters to Orchestrations"
+title: "How to Add Parameters to Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, parameters"
+ms.assetid: 35c731ed-6327-4de7-8d2e-4d14024bda77
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Parameters to Orchestrations
 You can specify what parameters your orchestration should take in the Orchestration View window. An orchestration can take the following items as parameters:  

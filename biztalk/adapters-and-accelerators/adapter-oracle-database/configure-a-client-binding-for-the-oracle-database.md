@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Configure a client binding for the Oracle Database"
-title: "Configure a client binding for the Oracle Database"
+title: "Configure a client binding for the Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "client binding, specifying in code"
+  - "WCF client, creating"
+  - "client binding, specifying in configuration file"
+ms.assetid: f18c7296-c28a-4dec-9514-5299c8c2dffe
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure a client binding for the Oracle Database
 After you have generated the WCF client class, you can create a WCF client (instance) and invoke its methods to consume the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. For information about how to generate the WCF client class and helper code for operations that the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] exposes, see [Generate a WCF Client or a WCF Service Contract for Oracle Database Solution Artifacts](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md).  

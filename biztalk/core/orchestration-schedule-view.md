@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Orchestration Schedule View"
-title: "Orchestration Schedule View"
+title: "Orchestration Schedule View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Orchestration view [Tracking Profile Editor]"
+  - "orchestrations, Tracking Profile Editor"
+  - "Tracking Profile Editor, Orchestration view"
+  - "Tracking Profile Editor, orchestrations"
+ms.assetid: b3e0014b-000e-4f58-9f70-d331d78e487e
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Orchestration Schedule View
 The Orchestration View displays the steps by which BAM transacts the business process contained within the selected orchestration. The view is located on the right pane of the Tracking Profile Editor (TPE) user interface.  

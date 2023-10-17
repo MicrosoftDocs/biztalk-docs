@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: SWIFT Header and Trailer Schemas"
-title: "SWIFT Header and Trailer Schemas"
+title: "SWIFT Header and Trailer Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "trailer schemas"
+  - "schemas, headers"
+  - "schemas, trailers"
+  - "header schemas"
+ms.assetid: 82cd33d4-6bbb-4124-9506-fd35b5dca8a4
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFT Header and Trailer Schemas
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides the SWIFT header and trailer schemas. A4SWIFT has already incorporated these into the interchange schemas for the various FIN messages. If you want to create a custom SWIFT FIN format style message type (for example, an N98 message), you can incorporate the header and trailer schemas into your own format.  

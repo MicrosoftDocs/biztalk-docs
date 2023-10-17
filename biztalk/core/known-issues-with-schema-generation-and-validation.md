@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Known Issues with Schema Generation and Validation"
-title: "Known Issues with Schema Generation and Validation"
+title: "Known Issues with Schema Generation and Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: df1eaa6c-0d3e-4aec-9de0-8b9817b7bb97
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Known Issues with Schema Generation and Validation
 This topic provides information about known issues with schema generation and validation.  

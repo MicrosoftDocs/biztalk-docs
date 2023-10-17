@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: A4SWIFT Security Features for Message Repair and New Submission"
-title: "A4SWIFT Security Features for Message Repair and New Submission"
+title: "A4SWIFT Security Features for Message Repair and New Submission | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security, messages"
+  - "A4SWIFT, security"
+  - "security, A4SWIFT"
+  - "messages, security"
+ms.assetid: c34bcba7-fecd-4e2f-ab49-a6ccfd96198b
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # A4SWIFT Security Features for Message Repair and New Submission
 [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides out-of-the-box facilities for SWIFT message creation, repair, rekey verification, and approval. Business users create, edit, and review SWIFT messages by using Microsoft [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)][!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)], which provides a graphical representation and user interface for financial (FIN) messages. [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] renders the entry/repair/rekey verification form from the XML produced by the A4SWIFT runtime and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. A4SWIFT provides an [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] template for each FIN message type (based on the corresponding A4SWIFT XSD schema) so that you can open any SWIFT FIN message types in [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]. A4SWIFT provides the following features to aid in security.  

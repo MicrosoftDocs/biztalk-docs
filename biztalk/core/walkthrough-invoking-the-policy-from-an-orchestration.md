@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Walkthrough: Invoking the Policy from an Orchestration"
-title: "Walkthrough: Invoking the Policy from an Orchestration"
+title: "Walkthrough: Invoking the Policy from an Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cb2d2974-8a36-4d36-905c-799e4236ef99
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough: Invoking the Policy from an Orchestration
 You can invoke a policy from an orchestration in one of the following ways:  

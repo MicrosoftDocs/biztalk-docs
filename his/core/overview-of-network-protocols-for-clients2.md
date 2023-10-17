@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Overview of Network Protocols for Clients"
-title: "Overview of Network Protocols for Clients2"
+title: "Overview of Network Protocols for Clients2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4f96b1f5-13ec-4ece-bd0d-e084c91090e3
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Overview of Network Protocols for Clients
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] clients can communicate with servers through the following protocols:  

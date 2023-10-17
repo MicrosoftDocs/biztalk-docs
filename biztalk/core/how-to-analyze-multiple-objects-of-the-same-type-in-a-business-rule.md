@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Analyze Multiple Objects of the Same Type in a Business Rule"
-title: "How to Analyze Multiple Objects of the Same Type in a Business Rule"
+title: "How to Analyze Multiple Objects of the Same Type in a Business Rule | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "business rules, multiple types"
+  - "Business Rules Framework, programming"
+ms.assetid: ff9790c1-13b0-4eee-8cac-d4f25ef5f0b7
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Analyze Multiple Objects of the Same Type in a Business Rule
 In many scenarios, you will write a business rule against a type and expect each instance of the type that is asserted into the engine to be separately analyzed and acted upon by the rule. In some scenarios, however, you will want to analyze multiple instances of a given type simultaneously in a rule.  

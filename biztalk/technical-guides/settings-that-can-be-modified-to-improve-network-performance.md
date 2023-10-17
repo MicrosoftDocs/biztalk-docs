@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Settings that can be Modified to Improve Network Performance"
-title: "Settings that can be Modified to Improve Network Performance"
+title: "Settings that can be Modified to Improve Network Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: eb6aacc3-e697-4cc9-b937-73a2f54e733b
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Settings that can be Modified to Improve Network Performance
 

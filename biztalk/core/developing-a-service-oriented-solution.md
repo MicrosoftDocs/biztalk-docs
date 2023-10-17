@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Developing a Service Oriented Solution"
-title: "Developing a Service Oriented Solution"
+title: "Developing a Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tutorials, developing"
+  - "service solution tutorial, background information"
+  - "service solution tutorial, developing"
+  - "developing, tutorials"
+  - "developing, service solution tutorial"
+ms.assetid: 7979a05c-7fd3-4476-a623-55de8abdc493
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Developing a Service Oriented Solution
 The service oriented solution demonstrates a credit account balance system for Woodgrove Bank. Information about an account comes from three legacy systems: an SAP system that provides the credit limit, a pending transactions system running on a mainframe, and a payment tracking system using MQSeries. Balance check requests come through a Web service or an Interactive Voice Response (IVR) system. For more information about the scenario, see [Understanding the Service Oriented Solution](../core/understanding-the-service-oriented-solution.md).  

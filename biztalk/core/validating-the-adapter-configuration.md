@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Validating the Adapter Configuration"
-title: "Validating the Adapter Configuration"
+title: "Validating the Adapter Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8eeb8742-7083-462b-8d3a-e58103112542
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Validating the Adapter Configuration
 While adding the receive location and send port, you will be asked to configure your custom properties in the **\<**<em>Adapter Name</em>**\> Transport Properties** dialog box. The XSD schema files in the AdapterHarness project define these properties.  

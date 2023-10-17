@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Import SAP Data Using SQL Server Management Studio"
-title: "Import SAP Data Using SQL Server Management Studio"
+title: "Import SAP Data Using SQL Server Management Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "importing SAP data, how to"
+  - "SQL Server Management Studio, importing data"
+ms.assetid: c8151c6d-4b33-40fe-9b83-9bed27df9a99
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Import SAP Data Using SQL Server Management Studio
 This section provides information on how to use the SQL Server Management Studio to import data from an SAP system into a SQL Server database. This section provides instruction on how to create an SSIS package that you can execute to import data. This section also provides information on how to execute the SSIS package.

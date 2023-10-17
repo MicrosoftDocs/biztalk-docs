@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Two-Phase Commit"
-title: "Two-Phase Commit2"
+title: "Two-Phase Commit2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 96e63052-5248-4d71-9c17-6db1a1abaacf
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Two-Phase Commit
 A given business logic operation can involve multiple programs running on multiple computers. In this design, the transaction is not considered complete unless all of the programs involved complete their executions successfully. For these programs to verify that all other programs that are part of the transaction have completed their transactions, they must employ the two-phase commit (2PC) protocol.  

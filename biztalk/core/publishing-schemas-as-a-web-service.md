@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Publishing Schemas as a Web Service"
-title: "Publishing Schemas as a Web Service"
+title: "Publishing Schemas as a Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Web services, publishing"
+  - "schemas, publishing"
+  - "Web services, schemas"
+  - "schemas, Web services"
+ms.assetid: 65b5f826-6abf-437f-b2dc-b36e488ba6da
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Publishing Schemas as a Web Service
 You use the BizTalk Web Services Publishing Wizard to create Web services that use existing schemas. You declare the Web services, Web methods, and request and response schemas that you want to publish. Using the wizard, you define the target namespace, SOAP header requirements, and the location of the generated Web service project.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Delimiter Preservation and Suppression"
-title: "Delimiter Preservation and Suppression"
+title: "Delimiter Preservation and Suppression | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 30985b94-625e-411a-8137-1c129bc197bf
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Delimiter Preservation and Suppression
 

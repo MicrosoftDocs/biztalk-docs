@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Instance Message Generation and Validation"
-title: "Instance Message Generation and Validation"
+title: "Instance Message Generation and Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7a306846-3942-4ba1-a74e-6ead8deb0322
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Instance Message Generation and Validation
 After you have validated a schema, you can use it to generate a sample instance message. The sample instance message that is generated contains the element and attribute structure specified by the schema, and generate fake data where required.  

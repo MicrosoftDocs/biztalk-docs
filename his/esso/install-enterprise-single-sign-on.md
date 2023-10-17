@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Install Enterprise Single Sign-On"
-title: "Install Enterprise Single Sign-On"
+title: "Install Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a5beef40-5b06-4b16-b450-211aa5cda72c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Install Enterprise Single Sign-On
 After you back up the security data and export the encryption key in preparation for upgrading, it is time to install Enterprise Single Sign-On. You have several installation options. For more information, see [Installing Enterprise Single Sign-On](../esso/installing-enterprise-single-sign-on.md).  

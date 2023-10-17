@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Structural error encountered during serialization of an interchange XML message"
-title: "Structural error encountered during serialization of an interchange XML message"
+title: "Structural error encountered during serialization of an interchange XML message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 97939bfd-d1ee-455a-9952-4f25db020e7c
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Structural error encountered during serialization of an interchange XML message
 ## Details  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: APPC or LUA Application Failures"
-title: "APPC or LUA Application Failures2"
+title: "APPC or LUA Application Failures2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 39498ae6-9e14-48b9-ba12-3ef3ecb98190
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # APPC or LUA Application Failures
 These applications may be written internally, or may be commercial applications. If an error code is produced on an APPC application, it is documented in the "APPC Applications."  

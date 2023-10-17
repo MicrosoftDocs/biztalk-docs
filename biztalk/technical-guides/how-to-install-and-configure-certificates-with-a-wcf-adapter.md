@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Install and Configure Certificates with a WCF Adapter"
-title: "How to Install and Configure Certificates with a WCF Adapter"
+title: "How to Install and Configure Certificates with a WCF Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f7589f2d-9b9c-406e-abce-ec7fc8336d18
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Install and Configure Certificates with a WCF Adapter
 For information about installing and configuring certificates with WCF adapters, see [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md) (<https://go.microsoft.com/fwlink/?LinkId=155204>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Writing Information to the Event Log"
-title: "Writing Information to the Event Log"
+title: "Writing Information to the Event Log | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1d7398dc-29d8-4a7a-bab4-c8f128b47dca
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Writing Information to the Event Log
 You may want to monitor the progress of the different business processes within your BizTalk application by writing information to the default Application log or to a custom event log. Writing to the event log can be useful in the following scenarios:  

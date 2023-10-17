@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SSO System Properties: Accounts"
-title: "SSO System Properties: Accounts2"
+title: "SSO System Properties: Accounts2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 10fdd3c9-6617-415f-82b3-5ba76e42ee18
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SSO System Properties: Accounts
 This screen displays account properties for the overall Enterprise Single Sign-On (SSO) system.  

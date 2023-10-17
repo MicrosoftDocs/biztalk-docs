@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step2: Create Send Ports and Receive Ports for the InterAct Store and Forward (Pull) Scenario"
-title: "Step2: Create Send Ports and Receive Ports for the InterAct Store and Forward (Pull) Scenario"
+title: "Step2: Create Send Ports and Receive Ports for the InterAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 53206a48-419c-4623-a842-8427acb5fc6e
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step2: Create Send Ports and Receive Ports for the InterAct Store and Forward (Pull) Scenario
 Before you begin the steps in this section, you must complete the steps in the [Step 1: Configure the SWIFT Adapter for the InterAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-interact-store-and-forward-scenario.md) section.  

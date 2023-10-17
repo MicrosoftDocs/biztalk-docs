@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Display All Management Pack Rules"
-title: "How to Display All Management Pack Rules"
+title: "How to Display All Management Pack Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7fdec550-6713-4f5f-8c04-d9218bf2df3c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Display All Management Pack Rules
 Use the following procedure to display a list of rules for the management packs that you imported. The list of rules can be viewed in Office Excel.  

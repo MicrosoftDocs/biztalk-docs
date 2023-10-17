@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Walkthrough (AS2): Receiving EDI over AS2 with a Synchronous MDN"
-title: "Walkthrough (AS2): Receiving EDI over AS2 with a Synchronous MDN"
+title: "Walkthrough (AS2): Receiving EDI over AS2 with a Synchronous MDN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0b63395f-03f4-45e8-a68a-9bbbd8dfa344
+caps.latest.revision: 53
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough (AS2): Receiving EDI over AS2 with a Synchronous MDN
 This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDI messages over AS2 transport, returning synchronous MDNs.  

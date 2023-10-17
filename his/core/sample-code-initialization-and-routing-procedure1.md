@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sample Code: Initialization and Routing Procedure"
-title: "Sample Code: Initialization and Routing Procedure1"
+title: "Sample Code: Initialization and Routing Procedure1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4753b023-0d58-4064-be9b-4fe520de0bde
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sample Code: Initialization and Routing Procedure
 This topic contains an outline of source code for receiving messages from the Dynamic Access Module (DMOD).  

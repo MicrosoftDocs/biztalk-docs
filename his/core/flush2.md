@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: FLUSH"
-title: "FLUSH2"
+title: "FLUSH2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 064b6a0e-ace1-47b1-b02b-be414c1e0671
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # FLUSH
 The **FLUSH** verb sends the contents of the local logical unit's (LU) send buffer to the partner LU and transaction program (TP). If the send buffer is empty, no action takes place.  

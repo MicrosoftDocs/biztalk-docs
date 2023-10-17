@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Implementing the FRR NAK Handler Sample"
-title: "Implementing the FRR NAK Handler Sample"
+title: "Implementing the FRR NAK Handler Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 80fa5fb7-6864-4923-b641-e76d2b95d923
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Implementing the FRR NAK Handler Sample
 To implement the sample FRR NAK custom handler, add the sample project to your solution, build and deploy the project, bind and start the orchestration, and then stop and restart [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  

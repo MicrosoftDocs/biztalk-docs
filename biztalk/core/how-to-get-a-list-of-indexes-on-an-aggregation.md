@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Get a List of Indexes on an Aggregation"
-title: "How to Get a List of Indexes on an Aggregation"
+title: "How to Get a List of Indexes on an Aggregation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "indexes [BAM], listing indexes"
+  - "aggregations [BAM], listing indexes"
+  - "Get-Index command [BAM]"
+ms.assetid: 46a4a2fc-10f8-499c-bf2a-d0a19bb84151
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Get a List of Indexes on an Aggregation
 Administrators use the **get-index** command to get a list of all the indexes on the specified activity.  

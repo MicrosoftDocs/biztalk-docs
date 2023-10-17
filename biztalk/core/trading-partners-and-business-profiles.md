@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Trading partners and business profiles"
-title: "Trading partners and business profiles"
+title: "Trading partners and business profiles | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cbeac421-c319-4a60-a188-28f7268888fc
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Trading partners and business profiles
 

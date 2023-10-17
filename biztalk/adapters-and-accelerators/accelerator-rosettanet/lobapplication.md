@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: LOBApplication"
-title: "LOBApplication"
+title: "LOBApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "trading partners, submitting actions"
+  - "LOBs, submitting actions"
+  - "LOBApplication utility"
+  - "trading partners, response messages"
+  - "LOBs, LOBApplication utility"
+  - "LOBs, response messages"
+ms.assetid: ad5986af-4175-49cd-806b-04e1fde63f55
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # LOBApplication
 You use the LOBApplication utility to submit an action or response message to a trading partner, simulating an actual line-of-business (LOB) desktop program.  

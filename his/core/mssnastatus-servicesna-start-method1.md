@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_ServiceSna.Start Method"
-title: "MsSnaStatus_ServiceSna.Start Method1"
+title: "MsSnaStatus_ServiceSna.Start Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 92bb1397-962a-46fe-ad85-6df18c1d4dea
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_ServiceSna.Start Method
 Starts the service.  

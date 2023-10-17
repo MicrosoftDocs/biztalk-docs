@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Messaging Engine Interfaces"
-title: "Messaging Engine Interfaces"
+title: "Messaging Engine Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 14241db3-edcf-4449-9ec8-2171a14496c0
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Messaging Engine Interfaces
 There are three public interfaces that adapters can use to allow interaction with the Messaging Engine. These are outlined in the following sections.  

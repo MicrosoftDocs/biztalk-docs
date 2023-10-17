@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Get metadata for Oracle Database operations in Visual Studio"
-title: "Get metadata for Oracle Database operations in Visual Studio"
+title: "Get metadata for Oracle Database operations in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "metadata, retrieving in Visual Studio"
+  - "metadata"
+ms.assetid: d903b408-1144-4625-909d-710826e37769
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get metadata for Oracle Database operations in Visual Studio
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] provides three [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components that you can use to help you develop solutions using the adapter.  

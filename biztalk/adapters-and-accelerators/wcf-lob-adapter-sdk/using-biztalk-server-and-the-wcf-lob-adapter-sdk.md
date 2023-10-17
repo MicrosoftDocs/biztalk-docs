@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Using BizTalk Server and the WCF LOB Adapter SDK"
-title: "Using BizTalk Server and the WCF LOB Adapter SDK"
+title: "Using BizTalk Server and the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 43ff0357-76e6-42bc-a1f7-0385d9378a5f
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using BizTalk Server and the WCF LOB Adapter SDK
 This section contains information about the relationship of [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. Information contained in this section includes comparisons of the two different frameworks provided by each and tips for migrating the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] custom adapter.  

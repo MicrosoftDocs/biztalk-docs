@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Adding Constraints to a DB2 DataSet"
-title: "Adding Constraints to a DB2 DataSet2"
+title: "Adding Constraints to a DB2 DataSet2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2513167e-014a-4013-9aa2-bcbd955e6cff
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Adding Constraints to a DB2 DataSet
 The `Fill` method of the `MsDb2DataAdapter` fills a dataset only with table columns and rows from a data source; though constraints are commonly set by the data source, the `Fill` method does not add this schema information to the dataset by default. To populate a dataset with existing primary key constraint information from a data source, you can either call the `FillSchema` method of the `MsDb2DataAdapter`, or set the `MissingSchemaAction` property of the `MsDb2DataAdapter` to `AddWithKey` before calling `Fill`. This ensures that primary key constraints in the dataset reflect those at the data source. Foreign key constraint information is not included and must be created explicitly.  

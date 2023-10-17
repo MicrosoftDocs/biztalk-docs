@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Active Link Information"
-title: "Active Link Information2"
+title: "Active Link Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 902cee90-5484-4f72-8aa7-35dc19736a80
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Active Link Information
 Active link information is provided in the **link_info_sect** structure as defined below.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Walkthrough: Modifying the Policy"
-title: "Walkthrough: Modifying the Policy"
+title: "Walkthrough: Modifying the Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9dd74440-2a45-4a1a-8e36-98796e1e1392
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough: Modifying the Policy
 This walkthrough provides step-by-step instructions for creating a new version of the **POVocabulary**, creating a new version of the **ProcessPurchaseOrder** policy, and using the latest version of the **POVocabulary** in the new version of the **ProcessPurchaseOrder** policy.  

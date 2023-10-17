@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Security between Oracle E-Business Suite and the adapter"
-title: "Security between Oracle E-Business Suite and the adapter"
+title: "Security between Oracle E-Business Suite and the adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 88f5f8ed-48d5-4420-9fdb-0a6860b95ac4
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security between Oracle E-Business Suite and the adapter
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] provides no support for helping to secure communication between it and the Oracle database. You must provide a security mechanism to help ensure appropriate levels of authorization, authentication, data privacy, and data integrity for data exchanges between the adapter and the Oracle database.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Validate Schemas in Visual Studio"
-title: "How to Validate Schemas in Visual Studio"
+title: "How to Validate Schemas in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5dc82fb5-c5f6-4bbd-a133-458d95f30271
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Validate Schemas in Visual Studio
 After you have constructed a schema, you can check your work by validating the schema itself in isolation.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invalid Security Qualifier"
-title: "Invalid Security Qualifier"
+title: "Invalid Security Qualifier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dce36f4b-ab59-41c0-8b92-3020f6393db9
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invalid Security Qualifier
 ## Details  

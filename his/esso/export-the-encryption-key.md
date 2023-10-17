@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Export the Encryption Key"
-title: "Export the Encryption Key"
+title: "Export the Encryption Key | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 304f68a9-5e85-4640-a1b7-79e2d6182e6a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Export the Encryption Key
 If you are migrating from Host Integration Server 2000, you must export the encryption key. The encryption key is a security device that Host Integration Server 2000 uses to encrypt user passwords. It must be backed up because the migration utility will need it as part of the migration process.  

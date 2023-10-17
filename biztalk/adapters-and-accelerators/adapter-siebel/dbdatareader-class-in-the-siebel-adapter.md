@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: DbDataReader class in the Siebel adapter"
-title: "DbDataReader class in the Siebel adapter"
+title: "DbDataReader class in the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Data Provider for Siebel, DbDataReader"
+  - "DbDataReader"
+ms.assetid: 7673cd10-ec1e-4cb0-93c2-f11928d00ca2
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # DbDataReader class in the Siebel adapter
 The [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] provides a `DbDataReader` leveraging the XML Data Reader. This provides the consumer of the Siebel data source the ability to read a forward-only stream of rows.  

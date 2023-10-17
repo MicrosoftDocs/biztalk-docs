@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Session Integrator"
-title: "Session Integrator"
+title: "Session Integrator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1f638bdb-f7ba-4085-aa25-b42465a34aed
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Session Integrator
 

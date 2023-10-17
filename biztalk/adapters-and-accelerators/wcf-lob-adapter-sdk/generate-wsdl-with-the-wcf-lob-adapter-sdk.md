@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Generate WSDL with the WCF LOB Adapter SDK"
-title: "Generate WSDL with the WCF LOB Adapter SDK"
+title: "Generate WSDL with the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f701d78d-b3ad-4f75-b814-e5b1f1319fb9
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Generate WSDL with the WCF LOB Adapter SDK
 During development of an adapter, or when the metadata that is returned from the LOB system changes, it is often useful to view the Web Services Description Language (WSDL) that is returned from the adapter to verify that the metadata for your operations is generated correctly. There are several methods to generate the WSDL. This topic provides information about using svcutil.exe and the Metadata Search Browse control.  

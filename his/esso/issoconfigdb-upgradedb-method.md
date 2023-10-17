@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOConfigDB.UpgradeDB Method"
-title: "ISSOConfigDB.UpgradeDB Method"
+title: "ISSOConfigDB.UpgradeDB Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4c673ed4-6806-4502-9e87-8d84f71b5d48
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOConfigDB.UpgradeDB Method
 The UpgradeDatabase method upgrades the specified Single Sign-On (SSO) database to SSO version 3.  

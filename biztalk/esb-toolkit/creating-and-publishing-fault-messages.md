@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating and Publishing Fault Messages"
-title: "Creating and Publishing Fault Messages"
+title: "Creating and Publishing Fault Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cc7ba1d9-b647-4cba-a3dc-4400505ff51f
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating and Publishing Fault Messages
 To help you understand how to use the features of the Exception Management Framework to manage exceptions, this section presents a common scenario based on the submission of a message to an ESB application.  

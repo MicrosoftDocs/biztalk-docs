@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Receive Oracle Database Change Notifications Using the WCF Service Model1"
-title: "Receive Oracle Database Change Notifications Using the WCF Service Model1"
+title: "Receive Oracle Database Change Notifications Using the WCF Service Model1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e0f0e2bf-3e76-43cc-85dc-7483dbce1cb5
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive Oracle Database Change Notifications Using the WCF Service Model1
 This topic demonstrates how to configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive query notification messages from an Oracle database. To demonstrate notifications, consider a table, ACCOUNTACTIVITY, with a “Processed” column. When a new record is inserted to this table, the value of the Status column is set to ‘n’. You can configure the adapter to receive notifications by registering for notifications using a SQL statement that retrieves all records that have “Processed” column as ‘n’. You can do so by specifying the SQL statement for the **NotificationStatement** binding property. Once the adapter client receives the notification, it can contain the logic to do any subsequent tasks on the Oracle database. In this example, for the sake of simplicity, the adapter client lists all the records in the table that have the “Processed” column as ‘n’.

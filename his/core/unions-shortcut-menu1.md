@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Unions Shortcut Menu"
-title: "Unions Shortcut Menu1"
+title: "Unions Shortcut Menu1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d88a2163-1595-4120-b66e-a36de3eeac2f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Unions Shortcut Menu
 When you select the **Unions** node in the tree view in HIS Designer, the following shortcut menu commands are displayed.  

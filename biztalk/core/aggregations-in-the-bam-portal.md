@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Aggregations in the BAM Portal"
-title: "Aggregations in the BAM Portal"
+title: "Aggregations in the BAM Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "BAM portal, pivot tables"
+  - "BAM, data analysis"
+  - "pivot tables [BAM portal]"
+  - "BAM portal, charts"
+  - "data, analysis [BAM]"
+  - "data, OLAP cubes"
+  - "aggregations [BAM], BAM portal"
+  - "charts, BAM portal"
+  - "BAM portal, aggregations"
+ms.assetid: 1c689563-714b-4573-9c18-a5b0efe97fb8
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Aggregations in the BAM Portal
 Aggregations are tables of precalculated data you can use for analytical processing with an OLAP cube. Aggregations facilitate the efficient querying of multidimensional databases. When you create and deploy your observation model (the high-level definition of your business data) using the BAM Add-In for Excel, you create aggregations that you can use to quickly evaluate collections of data relating your Key Performance Indicators (KPIs).

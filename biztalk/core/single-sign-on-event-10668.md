@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10668"
-title: "Single Sign-On: Event 10668"
+title: "Single Sign-On: Event 10668 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0eb3dd4d-04b5-4713-93c1-76af012d6920
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10668
 ## Details  

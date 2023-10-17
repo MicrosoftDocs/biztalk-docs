@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Formatting Print Jobs"
-title: "Formatting Print Jobs1"
+title: "Formatting Print Jobs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9fd4234a-92f0-455f-9fe8-0e53a9e33288
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Formatting Print Jobs
 Host Print service can format print jobs by either using the Windows printer driver or by using a Printer Definition Table.  

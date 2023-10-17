@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Creating a PeopleSoft HTTP Host and Port"
-title: "Creating a PeopleSoft HTTP Host and Port"
+title: "Creating a PeopleSoft HTTP Host and Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "HTTP port"
+  - "HTTP host"
+ms.assetid: 3e1ce5fd-32ee-409f-b4c8-f2bc68470f17
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating a PeopleSoft HTTP Host and Port
 The Message publication architecture in PeopleSoft is known as Integration Broker. The main components of Integration Broker are as follows:  

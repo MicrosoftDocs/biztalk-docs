@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Send Components"
-title: "EDI Send Components"
+title: "EDI Send Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fce270db-a573-48b3-be15-0178a5b7785b
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Send Components
 The pipeline and pipeline components described in this topic process EDI messages that are not EDI/AS2 messages. For information about the sending of EDI/AS2 or non-EDI/AS2 messages, see [AS2 Send Components](../core/as2-send-components.md). Note that AS2 send components perform EDI processing in addition to AS2 processing.  

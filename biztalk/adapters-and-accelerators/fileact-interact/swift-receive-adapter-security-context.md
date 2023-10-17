@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SWIFT Receive Adapter Security Context"
-title: "SWIFT Receive Adapter Security Context"
+title: "SWIFT Receive Adapter Security Context | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3db2b534-db9d-4075-aaad-0974b024dc71
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFT Receive Adapter Security Context
 The Receiver adapter, unlike send adapter, is started from the SWIFTNet Link (SNL/RA) command prompt (SWIFTNet start). The receive adapter executable is configured in the SNL/RA configuration file (paramconfig). The adapter on startup initializes the SNL library based on the command line parameter. The configuration values are cached for later use.  

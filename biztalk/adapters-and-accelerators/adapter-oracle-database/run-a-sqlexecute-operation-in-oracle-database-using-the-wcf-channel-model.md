@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Run a SQLEXECUTE Operation in Oracle Database using the WCF Channel Model"
-title: "Run a SQLEXECUTE Operation in Oracle Database using the WCF Channel Model"
+title: "Run a SQLEXECUTE Operation in Oracle Database using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "running a SQLEXECUTE statement, using a channel"
+  - "how to, run a SQLEXECUTE statement by using a channel"
+  - "WCF channel model, running a SQLEXECUTE statement"
+ms.assetid: e1af11ef-3f44-4726-99ca-d6961d79e651
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run a SQLEXECUTE Operation in Oracle Database using the WCF Channel Model
 This section shows how to perform a SQLEXECUTE operation on an Oracle database over a channel. You must specify both a message and a message action on the SOAP message. For more information about the SQLEXECUTE operation, see [Run SQLEXECUTE operation in Oracle Database using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md).  

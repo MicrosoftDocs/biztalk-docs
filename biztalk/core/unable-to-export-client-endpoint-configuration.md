@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unable to export client endpoint configuration"
-title: "Unable to export client endpoint configuration"
+title: "Unable to export client endpoint configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2d93fe5e-fdb2-49c5-86de-d428b1ecda7f
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unable to export client endpoint configuration
 ## Details  

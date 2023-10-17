@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Processing Instructions in the XML Assembler Pipeline Component"
-title: "Processing Instructions in the XML Assembler Pipeline Component"
+title: "Processing Instructions in the XML Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "XMLNorm.ProcessingInstructionOption property"
+  - "envelopes, processing instructions"
+  - "XML Assembler [pipeline component], processing instructions"
+  - "Processing instruction scope property"
+  - "XMLNorm.ProcessingInstruction property"
+  - "envelopes, XML Assembler [pipeline component]"
+  - "pipeline components, XML Assembler"
+ms.assetid: d8ea453e-3b20-417d-bf25-9d424b0150fd
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Processing Instructions in the XML Assembler Pipeline Component
 Processing instructions provide information to the application that processes an XML document. Such information may include instructions about how to process the document, how to display it, and so on.  

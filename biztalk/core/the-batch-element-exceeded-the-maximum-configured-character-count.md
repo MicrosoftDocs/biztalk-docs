@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The batch element exceeded the maximum configured character count"
-title: "The batch element exceeded the maximum configured character count"
+title: "The batch element exceeded the maximum configured character count | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7ad12733-295a-43ba-8147-34c8716c2d37
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The batch element exceeded the maximum configured character count
 ## Details  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create New Mappings Wizard: Finish"
-title: "Create New Mappings Wizard: Finish1"
+title: "Create New Mappings Wizard: Finish1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d975e776-e49d-4337-a239-b4194008df11
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create New Mappings Wizard: Finish
 ## UIElement List  

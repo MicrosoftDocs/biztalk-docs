@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Preparing the Disaster Recovery BizTalk Servers"
-title: "Preparing the Disaster Recovery BizTalk Servers"
+title: "Preparing the Disaster Recovery BizTalk Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 14c2c25d-30c5-4e90-a744-f084befa2c1d
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Preparing the Disaster Recovery BizTalk Servers
 Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run-time servers at the disaster recovery site following the recommendations in [BizTalk Server 2010 Installation and Upgrade Guides](https://go.microsoft.com/fwlink/?LinkID=194815) (<https://go.microsoft.com/fwlink/?LinkID=194815>). Configure these [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run-time servers using the BizTalk Configuration Wizard to join them to the production BizTalk group. When configuring the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run-time servers at the disaster recovery site (including the disaster recovery Enterprise Single Sign-On Master Secret server) make sure to:

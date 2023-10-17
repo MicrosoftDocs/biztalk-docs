@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Operations on Business Components in Siebel"
-title: "Operations on Business Components in Siebel"
+title: "Operations on Business Components in Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "business components, operations on"
+  - "operations, on business components"
+  - "operations, on business components with picklist fields"
+ms.assetid: 5430a8bd-88eb-4851-92e3-676ca83780c9
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Operations on Business Components in Siebel
 A Siebel business component is a logical entity that associates columns from one or more database tables into a single structure. Adapter clients can perform the following operations on the Siebel business components by using the adapter:  

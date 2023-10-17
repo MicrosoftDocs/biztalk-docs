@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Managing Default Mapper Behavior Using &lt;mapsource&gt;"
-title: "Managing Default Mapper Behavior Using &lt;mapsource&gt;"
+title: "Managing Default Mapper Behavior Using &lt;mapsource&gt; | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: deea839c-e52e-44c6-ac0d-4396dc5b10d8
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Managing Default Mapper Behavior Using &lt;mapsource&gt;
 You can modify certain default behaviors of BizTalk Mapper by modifying attributes of the **mapsource** element directly in a map source (.btm) file.  

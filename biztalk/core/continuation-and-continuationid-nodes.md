@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Continuation and ContinuationID Nodes"
-title: "Continuation and ContinuationID Nodes"
+title: "Continuation and ContinuationID Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "continuation tokens"
+  - "Continuation nodes [Tracking Profile Editor]"
+  - "Tracking Profile Editor, node descriptions"
+  - "BAM, correlating activities"
+  - "activities, linking"
+  - "activities, continuation tokens"
+  - "ContinuationID nodes [Tracking Profile Editor]"
+ms.assetid: aa050660-66f7-4084-b6bf-b9319ce625af
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Continuation and ContinuationID Nodes
 Continuations provide guidance to the BAM infrastructure about the following information:  

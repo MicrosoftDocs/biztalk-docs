@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: Special Processing in Message Repair and New Submission"
-title: "Special Processing in Message Repair and New Submission"
+title: "Special Processing in Message Repair and New Submission | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "repairing messages, rekey verification"
+  - "repairing messages, process flow"
+  - "rekey verification"
+  - "repairing messages"
+  - "messages, templates"
+  - "messages, rekey verification"
+  - "BIC fields"
+  - "templates, messages"
+  - "BIC-12 data"
+  - "messages, process flow"
+  - "BIC-11 data"
+ms.assetid: 0ab729e3-4b67-47d3-84c9-f016318a4c41
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Special Processing in Message Repair and New Submission
 The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair and New Submission functionality enables customers to develop an enterprise implementation. The functionality supports the following special processing:  

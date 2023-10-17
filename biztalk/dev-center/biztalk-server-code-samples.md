@@ -4,6 +4,7 @@ description: Download BizTalk Server sample collections, or browse individual sa
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 09/25/2023
+
 ---
 # BizTalk Server Code Samples
 

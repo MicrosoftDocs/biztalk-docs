@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Installing and Running the Scatter-Gather Sample"
-title: "Installing and Running the Scatter-Gather Sample"
+title: "Installing and Running the Scatter-Gather Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e657decc-52e9-4e75-9828-4286bfc20ad9
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Installing and Running the Scatter-Gather Sample
 The Scatter-Gather sample shows how you can develop an orchestration as a custom itinerary step to apply the Scatter-Gather design pattern by resolving and sending asynchronous requests to multiple services and aggregating their asynchronous responses into a single response message to forward to another endpoint location. The sample uses the test client application provided with the Itinerary On-Ramp sample and artifacts provided with the Dynamic Resolution sample.  

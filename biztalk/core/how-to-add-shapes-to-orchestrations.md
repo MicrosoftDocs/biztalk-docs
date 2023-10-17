@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Add Shapes to Orchestrations"
-title: "How to Add Shapes to Orchestrations"
+title: "How to Add Shapes to Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "shapes, orchestrations"
+  - "orchestrations, shapes"
+  - "Construct Message shape [Orchestration Designer]"
+  - "Message Assignment shape [Orchestration Designer]"
+  - "Scope shape [Orchestration Designer]"
+ms.assetid: d39eb12c-cdc6-4918-93d9-536db1dfb889
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Shapes to Orchestrations
 This section describes the procedures for adding and removing shapes in your orchestration. For more information about the available shapes, see [Orchestration Shapes](../core/orchestration-shapes.md).  

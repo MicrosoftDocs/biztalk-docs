@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Monitoring the Progress of Your BizTalk Application Deployment"
-title: "Monitoring the Progress of Your BizTalk Application Deployment"
+title: "Monitoring the Progress of Your BizTalk Application Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "monitoring, deploying"
+  - "applications, monitoring"
+  - "deploying [applications], monitoring"
+  - "monitoring, applications"
+ms.assetid: a69a8288-0203-440f-9805-52786525e193
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Monitoring the Progress of Your BizTalk Application Deployment
 You can monitor the progress of your BizTalk application deployment in two ways:  

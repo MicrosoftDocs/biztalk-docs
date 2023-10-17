@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Cross field validation rule violated"
-title: "Cross field validation rule violated"
+title: "Cross field validation rule violated | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2d606a80-9046-4572-9cfb-a3434ed8073e
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Cross field validation rule violated
 ## Details  

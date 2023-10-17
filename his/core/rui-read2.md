@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: RUI_READ"
-title: "RUI_READ2"
+title: "RUI_READ2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aa095980-a3a8-4c8c-8505-210aaaca17a3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # RUI_READ
 The **RUI_READ** verb receives responses, SNA commands, and data into a Microsoft® Windows® logical unit application (LUA) applications buffer.  

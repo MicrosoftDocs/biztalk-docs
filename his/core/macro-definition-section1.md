@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Macro Definition Section"
-title: "Macro Definition Section1"
+title: "Macro Definition Section1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: eddbf6b6-765c-4c17-a628-df04abe0a720
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Macro Definition Section
 The macro definition section is bounded by **BEGIN_MACROS** and **END_MACROS** statements and consists of lines with the following syntax.  

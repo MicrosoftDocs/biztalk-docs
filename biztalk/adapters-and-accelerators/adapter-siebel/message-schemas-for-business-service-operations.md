@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Message Schemas for Business Service Operations"
-title: "Message Schemas for Business Service Operations"
+title: "Message Schemas for Business Service Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "message schemas, for business service methods"
+ms.assetid: ba23248b-5d73-4de0-9f7c-987cd88a4b63
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Schemas for Business Service Operations
 A Siebel business service is a collection of business methods that can be directly invoked on a Siebel system. The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces the business methods of a Siebel business service as operations.  

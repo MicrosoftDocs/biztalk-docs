@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Disable an Affiliate Application"
-title: "How to Disable an Affiliate Application"
+title: "How to Disable an Affiliate Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "disabling, applications"
+  - "managing [SSO applications], disabling"
+  - "applications [SSO], disabling"
+ms.assetid: febf1687-f0d0-4f87-b462-23535bbddf6d
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Disable an Affiliate Application
 You can use the MMC Snap-In or the command line to disable the specified affiliate application.  

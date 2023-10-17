@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Manage User Mappings for Host Initiated SSO"
-title: "How to Manage User Mappings for Host Initiated SSO"
+title: "How to Manage User Mappings for Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "maps, host initiated SSO"
+  - "host initiated SSO, user maps"
+ms.assetid: 6b05249e-da35-475b-9c23-5eb556013d57
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Manage User Mappings for Host Initiated SSO
 Use the following procedures to create mappings, set credentials, and enable or disable mapping.  

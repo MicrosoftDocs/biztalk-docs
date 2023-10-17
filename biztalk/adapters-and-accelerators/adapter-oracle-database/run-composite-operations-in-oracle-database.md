@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Run Composite Operations in Oracle Database"
-title: "Run Composite Operations in Oracle Database"
+title: "Run Composite Operations in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b877d8e3-2016-40e8-888f-6b768021d6b8
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run Composite Operations in Oracle Database
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] enables adapter clients to perform composite operations that can include any number of the following operations, and in any order:  

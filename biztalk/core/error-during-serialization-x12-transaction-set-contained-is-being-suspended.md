@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error encountered during serialization. The X12 transaction set contained in functional group is being suspended with following errors"
-title: "Error encountered during serialization. The X12 transaction set contained in functional group is being suspended with following errors"
+title: "Error encountered during serialization. The X12 transaction set contained in functional group is being suspended with following errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 49b13038-2637-4435-91e9-d6fe2b80ca7a
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error encountered during serialization. The X12 transaction set contained in functional group is being suspended with following errors
 ## Details  

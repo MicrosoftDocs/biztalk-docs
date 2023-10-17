@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_PrintSession3270 Class"
-title: "MsSna_PrintSession3270 Class2"
+title: "MsSna_PrintSession3270 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 16da1be6-9957-461c-a8d5-146ca218673d
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_PrintSession3270 Class
 Extends a print session.  

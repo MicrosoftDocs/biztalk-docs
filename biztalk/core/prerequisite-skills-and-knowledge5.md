@@ -1,12 +1,19 @@
 ---
-title: "Recommended skills and knowledge - BizTalk Server"
+title: "Recommended skills and knowledge - BizTalk Server | Microsoft Docs"
 description: Suggested experience for developers, IT professionals, and business analysists when working with BizTalk Server, including knowledge with Visual Studio, XML, JSON, Windows Server, SQL Server, performance, high availability, and more.
 ms.custom: ""
 ms.date: "09/27/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a0a9a336-1554-4e45-8b4a-57b8136ff3f0
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Prerequisite Skills and Knowledge
 Readers of [Understanding BizTalk Server](../core/understanding-biztalk-server.md) are expected to already have knowledge of EAI technologies and the general challenges of heterogeneous application integration.  

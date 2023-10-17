@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Primary APPC Return Codes"
-title: "Primary APPC Return Codes1"
+title: "Primary APPC Return Codes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 794de4ff-0b92-4351-84ac-62ea12efddc6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Primary APPC Return Codes
 ## 0000  

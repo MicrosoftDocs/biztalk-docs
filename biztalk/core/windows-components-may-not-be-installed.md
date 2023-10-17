@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Windows components may not be installed"
-title: "Windows components may not be installed"
+title: "Windows components may not be installed | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fc78ac0a-ee21-4633-afb3-1357efd29903
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Windows components may not be installed
 ## Details  

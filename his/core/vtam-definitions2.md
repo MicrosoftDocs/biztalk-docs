@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TI VTAM definitions & TP requirements - HIS"
-title: "VTAM definitions & TP requirements"
+title: "VTAM definitions & TP requirements | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3be1942e-1e13-4c52-8b41-a0ffaa6e42ab
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TI VTAM definitions & TP requirements - HIS
 

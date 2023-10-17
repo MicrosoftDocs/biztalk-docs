@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Tracing PU 2.1 Node"
-title: "Tracing PU 2.1 Node2"
+title: "Tracing PU 2.1 Node2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 19d59f2a-fad8-4003-a08a-b8e46428a4c6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Tracing PU 2.1 Node
 The following table details PU 2.1 Node traces.  

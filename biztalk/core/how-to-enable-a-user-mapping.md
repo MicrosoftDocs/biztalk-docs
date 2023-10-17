@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Enable a User Mapping"
-title: "How to Enable a User Mapping"
+title: "How to Enable a User Mapping | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "enabling, user maps [SSO]"
+  - "maps [SSO], enabling"
+  - "managing [SSO maps], enabling"
+ms.assetid: 0f6448c9-944e-45f6-9436-87a4f3743498
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Enable a User Mapping
 You must enable a user mapping before it you can use the mapping in the Single Sign-On system.  

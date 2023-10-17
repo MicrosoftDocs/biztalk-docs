@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: SOAP Receive Adapter"
-title: "SOAP Receive Adapter"
+title: "SOAP Receive Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SOAP adapters, receive adapters"
+  - "receive adapters, SOAP adapters"
+ms.assetid: bb968fa8-0515-4f3a-bb39-9effb83e960c
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SOAP Receive Adapter
 You use the SOAP receive adapter to receive Web service requests. The SOAP receive adapter creates a BizTalk Message object, and promotes the associated properties to the message context.  

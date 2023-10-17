@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 4B: Start the Send Ports and Receive Ports for the InterAct Store and Forward Scenario"
-title: "Step 4B: Start the Send Ports and Receive Ports for the InterAct Store and Forward Scenario"
+title: "Step 4B: Start the Send Ports and Receive Ports for the InterAct Store and Forward Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c7b0ecd4-ea08-4567-80bd-14f465ba4867
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 4B: Start the Send Ports and Receive Ports for the InterAct Store and Forward Scenario
 Before you begin this step, you must complete [Step 4A: Start the SWIFTNet Service for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-4a-start-the-swiftnet-service-for-the-interact-store-and-forward-scenario.md).  

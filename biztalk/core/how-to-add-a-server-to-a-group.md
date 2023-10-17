@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Add a Server to a Group"
-title: "How to Add a Server to a Group"
+title: "How to Add a Server to a Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "groups, servers"
+  - "adding, servers"
+  - "managing [groups], adding servers"
+  - "servers, groups"
+  - "managing [servers], adding to groups"
+ms.assetid: 6eca1eeb-1a56-4470-b3bc-c64865cf6270
+caps.latest.revision: 26
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add a Server to a Group
 You can use BizTalk Server Configuration to add a server to a BizTalk group. You add additional servers to a BizTalk group to scale out your BizTalk Server environment.  

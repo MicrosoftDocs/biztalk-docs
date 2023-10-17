@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: package"
-title: "package"
+title: "package | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 526fa138-3e9b-4709-ae15-08abb19ea38c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # package
 The Package element contains the following set of attributes: Collection, Id, Token, Isolation Level, Version, and Sections Collection.  

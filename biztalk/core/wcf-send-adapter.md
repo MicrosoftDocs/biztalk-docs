@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: WCF Send Adapter"
-title: "WCF Send Adapter"
+title: "WCF Send Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, headers"
+  - "serializing, SOAP messages"
+  - "WCF adapters, extracting information"
+  - "messages, extracting information"
+  - "SOAP messages, serializing"
+  - "WCF adapters, message bodies"
+  - "send adapters, WCF adapters"
+  - "Web services, headers"
+  - "WCF adapters, send adapters"
+ms.assetid: 226a020a-2e12-41fe-a4a2-6683d9e98219
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # WCF Send Adapter
 The WCF send adapter enables you to call a WCF service through the typeless contract.  

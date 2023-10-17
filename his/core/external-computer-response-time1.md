@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: External Computer Response Time"
-title: "External Computer Response Time1"
+title: "External Computer Response Time1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a205b2d7-8922-4f7d-b8fd-f71098506ab7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # External Computer Response Time
 External computer response time is sometimes referred to as end-user response time or end-to-end response time. It is the actual response time that the client application that is running on the computer sees.  

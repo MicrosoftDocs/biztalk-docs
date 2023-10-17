@@ -4,6 +4,14 @@ description: Learn about acknowledgment settings in BizTalk Server.
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
+
+helpviewer_keywords: 
+  - "acknowledgements, configuring"
+  - "acknowledgements, acknowledgement types"
+  - "configuring, acknowledgements"
+ms.assetid: 99ab8caa-8788-4438-96db-8001a6523cc8
+caps.latest.revision: 3
+
 ---
 # Acknowledgment Settings
 

@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: SSO User Groups"
-title: "SSO User Groups"
+title: "SSO User Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "administrator accounts, SSO"
+  - "groups, SSO"
+  - "user accounts, administrators"
+  - "service accounts, SSO"
+  - "SSO, user groups"
+  - "SSO, service accounts"
+  - "SSO, administrator accounts"
+ms.assetid: e279001e-c724-4a2d-8939-0ba9dd08a19c
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SSO User Groups
 To configure and manage the Enterprise Single Sign-On (SSO) system, you must create certain Windows groups and accounts for each of these roles. When configuring the access accounts in Enterprise SSO, you can specify more than one account for each of these roles. This section describes these roles.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Programmers guide, FRR NAK sample, and tools"
-title: "Programmers guide, FRR NAK sample, and tools"
+title: "Programmers guide, FRR NAK sample, and tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "developing, about developing"
+  - "developing"
+ms.assetid: f195724d-ff00-471c-83e2-4ea41a4d1134
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Programmers guide, FRR NAK sample, and tools
 

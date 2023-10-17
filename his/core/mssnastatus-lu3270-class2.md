@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSnaStatus_Lu3270 Class"
-title: "MsSnaStatus_Lu3270 Class2"
+title: "MsSnaStatus_Lu3270 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a45d0956-8a08-42a0-8bf3-640374e10df2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSnaStatus_Lu3270 Class
 The **MsSnaStatus_Lu3270** class represents a SNA Service display LU, printer LU, or LUA LU status.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Known Issues with the FTP Adapter"
-title: "Known Issues with the FTP Adapter"
+title: "Known Issues with the FTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9e58f2db-9ec5-41fe-af02-9a7d60a217db
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Known Issues with the FTP Adapter
 This section contains information that may help you avoid errors.  

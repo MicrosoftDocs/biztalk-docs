@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Use the SAP adapter with SharePoint"
-title: "Use the SAP adapter with SharePoint"
+title: "Use the SAP adapter with SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Microsoft Office SharePoint Server"
+  - "MOSS"
+  - "Microsoft Office SharePoint Server, using the SAP adapter"
+  - "tutorial, MOSS"
+  - "Business Data Catalog"
+ms.assetid: 2a07eafb-1344-4169-afab-e6d51a38a2e9
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Use the SAP adapter with SharePoint
 Most line-of-business (LOB) applications have proprietary interfaces that are accessible to relatively few people with the required subject matter expertise. However, because information workers need relevant information at all levels in an organization, the subject matter experts have to export required data into more familiar applications, like Microsoft Excel, for information workers to consume the information.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Mark BizTalk Server Databases for Customized Monitoring"
-title: "How to Mark BizTalk Server Databases for Customized Monitoring"
+title: "How to Mark BizTalk Server Databases for Customized Monitoring | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cfbdc73d-a108-42ee-a5d8-401d5bfe5e7d
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Mark BizTalk Server Databases for Customized Monitoring
 If you have installed the Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Management Pack, you can customize the way [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases are monitored. This ensures that the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Management Pack monitors the following [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases:  

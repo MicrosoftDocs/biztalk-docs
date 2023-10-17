@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Trace and Diagnostic File Location"
-title: "Trace and Diagnostic File Location2"
+title: "Trace and Diagnostic File Location2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3ddee4f9-ddd7-43d4-b1a3-d4a5db245310
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Trace and Diagnostic File Location
 The following table lists the default location of files containing trace and diagnostic information:  

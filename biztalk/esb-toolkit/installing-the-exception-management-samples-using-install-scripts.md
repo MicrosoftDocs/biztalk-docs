@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Installing the Exception Management Samples Using Install Scripts"
-title: "Installing the Exception Management Samples Using Install Scripts"
+title: "Installing the Exception Management Samples Using Install Scripts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8ba65a4b-5fe1-4e17-b979-c3d380b526d6
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Installing the Exception Management Samples Using Install Scripts
 This section describes how you can install the Exception Management samples from the install scripts provided with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  

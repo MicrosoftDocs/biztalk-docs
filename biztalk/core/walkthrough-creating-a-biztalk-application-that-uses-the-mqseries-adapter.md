@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Walkthrough: Creating a BizTalk Application That Uses the MQSeries Adapter"
-title: "Walkthrough: Creating a BizTalk Application That Uses the MQSeries Adapter"
+title: "Walkthrough: Creating a BizTalk Application That Uses the MQSeries Adapter | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "IBM WebSphere MQ queues"
+  - "MQSeries adapters, tutorial"
+  - "MQSeries adapters, testing"
+  - "tutorials, MQSeries adapters"
+  - "MQSeries adapters, IBM WebSphere MQ queues"
+  - "testing, MQSeries adapters"
+  - "MQSeries adapters, queues"
+  - "configuring [MQSeries adapters], tutorial"
+ms.assetid: e9e169e4-d41c-4e5d-b165-7bd36b481f24
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough: Creating a BizTalk Application That Uses the MQSeries Adapter
 This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application that uses the MQSeries adapter.  

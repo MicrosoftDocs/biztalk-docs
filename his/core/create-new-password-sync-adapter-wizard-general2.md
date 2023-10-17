@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create New Password Sync Adapter Wizard: General"
-title: "Create New Password Sync Adapter Wizard: General2"
+title: "Create New Password Sync Adapter Wizard: General2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6f4e6461-7cf8-463f-b20f-4a74afb4ed1b
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create New Password Sync Adapter Wizard: General
 Specify general properties for the new Password Sync Adapter.  

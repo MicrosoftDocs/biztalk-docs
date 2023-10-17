@@ -1,12 +1,18 @@
 ---
 description: "Learn about data type mapping by viewing a table that describes all DB2 data type mappings to OLE DB data types."
-title: "Data Type Mapping1"
+title: "Data Type Mapping1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: feec38d2-fd1c-4409-b383-2330a9a818d2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Type Mapping to OLE DB Data Types
 

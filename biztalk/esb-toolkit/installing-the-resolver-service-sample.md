@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Installing the Resolver Service Sample"
-title: "Installing the Resolver Service Sample"
+title: "Installing the Resolver Service Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fce9bbeb-9377-41af-8ca7-740ce4d1f617
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Installing the Resolver Service Sample
 This section describes the process for installing the Resolver Service sample. The Resolver Service depends on the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core solution. Installing the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core automatically copies and installs the core assemblies required by this sample to the correct locations.  

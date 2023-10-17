@@ -1,12 +1,18 @@
 ---
-title: "Install and configure Host Integration Server"
+title: "Install and configure Host Integration Server | Microsoft Docs"
 description: Get started on installing and configuring Host Integration Server
 ms.custom: ""
 ms.date: 05/28/2020
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 280e5698-d85a-40ec-ac80-8c84e1ed5a84
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "mijacobs"
 ---
 
 # Host Integration Server Installation and Configuration

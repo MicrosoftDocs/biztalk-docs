@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Specifying the Message Body for the WCF Adapters"
-title: "Specifying the Message Body for the WCF Adapters"
+title: "Specifying the Message Body for the WCF Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "WCF adapters, SOAP messages"
+  - "messages, WCF adapters"
+  - "WCF adapters, message bodies"
+  - "SOAP messages, WCF adapters"
+ms.assetid: b20364b7-0365-4636-b4d6-bde9c69b8dcb
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Specifying the Message Body for the WCF Adapters
 You can use the **Messages** tab in the WCF adapters to specify how the BizTalk message body is extracted from an incoming SOAP message, and how the BizTalk message body is placed in an outgoing SOAP message.

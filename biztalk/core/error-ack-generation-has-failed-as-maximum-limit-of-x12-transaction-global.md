@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error-Ack generation has failed as maximum limit of X12 transaction-global"
-title: "Error-Ack generation has failed as maximum limit of X12 transaction-global"
+title: "Error-Ack generation has failed as maximum limit of X12 transaction-global | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8bbcae14-6e5c-4f79-87c6-311b4b54c7ff
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error-Ack generation has failed as maximum limit of X12 transaction-global
 ## Details  

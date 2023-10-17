@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Lesson 2: Adding a Flat File Send Port"
-title: "Lesson 2: Adding a Flat File Send Port"
+title: "Lesson 2: Adding a Flat File Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "send ports, flat files"
+  - "flat files, send ports"
+  - "creating, send ports"
+  - "send ports, creating"
+ms.assetid: 33dceb0d-85f5-4e19-820f-cd33b60cd32a
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Lesson 2: Adding a Flat File Send Port
 In this lesson, you configure the send port and the send location. You use the send port to define how you want messages sent. You also create a file folder location for sent messages.  

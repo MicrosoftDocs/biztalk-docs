@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Port Bindings"
-title: "Port Bindings"
+title: "Port Bindings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "ports, warnings"
+  - "ports, bindings"
+  - "bindings, Web ports"
+  - "bindings, design time"
+  - "Web ports, port bindings"
+  - "bindings, ports"
+  - "bindings, direct"
+  - "bindings, warnings"
+  - "bindings, deployment"
+  - "bindings, dynamic"
+ms.assetid: b61c725a-0082-42d3-b88a-533583161734
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Port Bindings
 A port binding is the configuration information that determines where and how a message will be sent or received. Depending on its type, a port binding might refer to physical locations, pipelines, or other orchestrations.  

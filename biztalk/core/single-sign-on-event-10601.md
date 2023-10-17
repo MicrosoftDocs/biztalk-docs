@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10601"
-title: "Single Sign-On: Event 10601"
+title: "Single Sign-On: Event 10601 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2624025e-b7a8-43b9-aa7e-6811a2fc3278
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10601
 ## Details  

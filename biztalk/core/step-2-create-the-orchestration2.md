@@ -1,12 +1,19 @@
 ---
 description: "Learn how to setup and create a BizTalk orchestration for the J.D. Edwards EnterpriseOne system."
-title: "Step 2: Create the Orchestration2"
+title: "Step 2: Create the Orchestration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 08d65525-77a9-4be2-a509-40ea60fa7401
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Create the Orchestration
 

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Subcategories for Invokable TPs (CPI-C)"
-title: "Subcategories for Invokable TPs (CPI-C)"
+title: "Subcategories for Invokable TPs (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f2edf7ee-e481-4d66-b513-29231aeade51
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Subcategories for Invokable TPs (CPI-C)
 The following table shows subcategories for invokable transaction programs (TPs).  

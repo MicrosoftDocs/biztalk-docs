@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: How to Configure Per-instance Pipeline Properties for a Receive Location"
-title: "How to Configure Per-instance Pipeline Properties for a Receive Location"
+title: "How to Configure Per-instance Pipeline Properties for a Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, properties"
+  - "receive locations, configuring"
+  - "managing [pipelines], properties"
+  - "managing [pipelines], receive locations"
+  - "managing [receive locations], pipelines"
+  - "managing [pipelines], configuring"
+  - "pipelines, receive locations"
+  - "pipelines, configuring"
+  - "receive locations, pipelines"
+  - "managing [receive locations], configuring"
+ms.assetid: e1ed3b10-2f39-479b-a3e6-22b4b2872192
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure Per-instance Pipeline Properties for a Receive Location
 This topic describes how to use the BizTalk Server Administration console to configure pipeline properties for a receive location after the pipeline has been deployed into a BizTalk group. Changes that you make overwrite the default pipeline properties for this receive location only, so if you want, you can configure different pipeline properties for each receive location in the BizTalk group.  

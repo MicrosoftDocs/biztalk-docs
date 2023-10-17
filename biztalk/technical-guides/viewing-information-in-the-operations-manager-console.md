@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Viewing Information in the Operations Manager Console"
-title: "Viewing Information in the Operations Manager Console"
+title: "Viewing Information in the Operations Manager Console | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6acdf425-4c36-4d89-9493-81b33481fe6d
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Viewing Information in the Operations Manager Console
 Use the views provided with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack to understand the current availability, configuration, health, and performance of your BizTalk Server environment. A view can contain a lengthy list of objects. To find a specific object or group of objects, you can use the Scope, Search, and Find buttons on the Operations Manager toolbar. For more information, see the How to Manage Monitoring Data Using Scope, Search, and Find topic in Operations Manager 2007 R2\2012 Help.  

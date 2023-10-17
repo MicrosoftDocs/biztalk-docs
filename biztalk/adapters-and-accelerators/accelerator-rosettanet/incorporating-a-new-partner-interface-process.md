@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Incorporating a New Partner Interface Process"
-title: "Incorporating a New Partner Interface Process"
+title: "Incorporating a New Partner Interface Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "deploying, PIP schemas"
+  - "PIP schemas"
+  - "PIP schemas, deploying"
+  - "PIP schemas, downloading"
+  - "creating, PIP schemas"
+  - "PIP schemas, creating"
+ms.assetid: 6a5fcbcb-c6aa-40c0-bcca-dd0c391e7f42
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Incorporating a New Partner Interface Process
 You can incorporate a new RosettaNet Partner Interface Process (PIP) schema in Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] assemblies by following these steps:

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Balance System Performance with Windows"
-title: "How to Balance System Performance with Windows2"
+title: "How to Balance System Performance with Windows2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 28062aba-2c67-4666-983e-85caa6fa244b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Balance System Performance with Windows
 The following procedure details how to set the parameters for the system performance balance.  

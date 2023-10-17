@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Building Blocks of a Trading Partner Management Solution"
-title: "Building Blocks of a Trading Partner Management Solution"
+title: "Building Blocks of a Trading Partner Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0dabb562-7065-44b8-a26f-658d70b126eb
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Building Blocks of a Trading Partner Management Solution
 ## Overview

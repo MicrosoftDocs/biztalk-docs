@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Exceptions and Error Handling with the SAP adapter"
-title: "Exceptions and Error Handling with the SAP adapter"
+title: "Exceptions and Error Handling with the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "exceptions and error handling"
+  - "error handling, troubleshooting"
+  - "troubleshooting, exceptions and error handling"
+ms.assetid: 598a25c5-6905-4c0c-835b-159d827b2269
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Exceptions and Error Handling with the SAP adapter
 Lists the exceptions that the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] throws. These can contain:  

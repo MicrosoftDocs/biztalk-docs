@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: How to Use Expressions to Perform Message Assignments"
-title: "How to Use Expressions to Perform Message Assignments"
+title: "How to Use Expressions to Perform Message Assignments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, distinquished fields"
+  - "orchestrations, expressions"
+  - "messages, manipulating"
+  - "messages, assigning messages"
+  - "messages, expressions"
+  - "messages, message parts"
+  - "orchestrations, messages"
+  - "messages, components"
+ms.assetid: 9989caf5-012c-4fc4-b5d8-981ca9a69f43
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use Expressions to Perform Message Assignments
 You can use expressions to manipulate messages in various ways in your orchestration.  

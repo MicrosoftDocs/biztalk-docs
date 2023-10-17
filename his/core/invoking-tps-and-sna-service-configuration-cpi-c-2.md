@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Invoking TPs and SNA Service Configuration (CPI-C)"
-title: "Invoking TPs and SNA Service Configuration (CPI-C)2"
+title: "Invoking TPs and SNA Service Configuration (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3efe0eda-832c-4c23-8a90-2dedacdd70ff
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Invoking TPs and SNA Service Configuration (CPI-C)
 For an SNA service to support the beginning of the invoking process, the following parameters must be configured correctly:  

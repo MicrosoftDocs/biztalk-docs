@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Receive Components"
-title: "EDI Receive Components"
+title: "EDI Receive Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1d3b82e8-1168-4c2c-bf1a-886b43ff8108
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Receive Components
 The pipeline and pipeline components described in this topic process EDI messages that are not EDI/AS2 messages. For information about the processing of received EDI/AS2 or non-EDI/AS2 messages, see [AS2 Receive Components](../core/as2-receive-components.md). Note that AS2 receive components perform EDI processing in addition to AS2 processing.  

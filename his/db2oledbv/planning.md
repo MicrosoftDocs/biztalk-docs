@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Planning"
-title: "Planning"
+title: "Planning | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 46b7553b-f88a-458c-9873-b3a0bc192654
+caps.latest.revision: 6
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Planning
 Enterprise developers who are using on-line transactional processing (OLTP) and business intelligence (BI) technologies can take advantage of the SQL Server data access architecture to connect IBM DB2 databases to new solutions built by using SQL Server integration, analysis, reporting, replication and distributed query technologies. The Data Provider supports SQL commands. This allows for interoperability between COM OLE DB-enabled consumer services and tools in Microsoft SQL Server and remote IBM DB2 relational database management systems. You can execute data definition language (DDL) or data manipulation language (DML) SQL statements that include read and write operations based on dynamic SQL in addition to stored procedures within remote unit of work (RUW) transactions.  

@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: How to Work with Port Types"
-title: "How to Work with Port Types"
+title: "How to Work with Port Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "deleting, port types"
+  - "port types, deleting"
+  - "port types, Web"
+  - "port types, request-response"
+  - "orchestrations, ports"
+  - "port types, modifier"
+  - "port types"
+  - "ports, port types"
+  - "port types, one-way"
+ms.assetid: 78ac731e-c330-4888-a9ee-10523fef8ed0
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Work with Port Types
 A port type consists of a communication pattern, a set of operations (requests or responses), and the message types that those operations can work on. The pattern can be either one-way or request-response (two-way), and all operations defined on that port type must use the same pattern. Note that port types are direction-agnostic: direction is specified on individual ports.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Identifiers (AS2)"
-title: "Configuring Identifiers (AS2)"
+title: "Configuring Identifiers (AS2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 29f12696-8257-4664-8e61-292678e98b6b
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Identifiers (AS2)
 In the partner agreement, you must specify the sender and receiver parties. These values are also used for agreement resolution for the inbound or outbound messages.  

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Configure an HTTP Send Handler"
-title: "How to Configure an HTTP Send Handler"
+title: "How to Configure an HTTP Send Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "send handlers, HTTP adapters"
+  - "configuring [HTTP adapters], send handlers"
+  - "HTTP adapters, send handlers"
+ms.assetid: 821bf30c-b220-4ded-953d-7e745c0698b9
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure an HTTP Send Handler
 Use the following procedure to change the host with which the HTTP send handler is associated.  

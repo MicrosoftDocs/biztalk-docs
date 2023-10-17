@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Document Reference URL Nodes"
-title: "Document Reference URL Nodes"
+title: "Document Reference URL Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Document Reference URL nodes [Tracking Profile Editor]"
+  - "Tracking Profile Editor, node descriptions"
+  - "definition files [BAM], related documents"
+ms.assetid: 38c8ae50-ed56-451c-9549-db852d4770e5
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Document Reference URL Nodes
 Document Reference URL nodes exist in the activity definition file that the developer imports from the knowledge worker created observation model. Document Reference URL nodes contain references to a location that contains a document that is related to this activity. This can be any type of document, for example an activity that represents a purchase order approval work flow, the Document Reference URL might point to the underlying purchase order document.  

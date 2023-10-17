@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Step 2: Create the Partner Organization"
-title: "Step 2: Create the Partner Organization"
+title: "Step 2: Create the Partner Organization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "partner organization"
+  - "trading partners, partner organization"
+  - "loopback tutorial, creating partner organization"
+ms.assetid: 489bc961-dcb6-4610-989d-c06ba9f71b02
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Create the Partner Organization
 In this step, you create the partner organization using the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.  

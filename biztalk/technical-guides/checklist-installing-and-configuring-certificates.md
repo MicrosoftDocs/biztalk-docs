@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Installing and Configuring Certificates"
-title: "Checklist: Installing and Configuring Certificates"
+title: "Checklist: Installing and Configuring Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 76a8f8f6-8d79-4caf-8fba-8cbcb251d461
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Installing and Configuring Certificates
 This topic describes the steps involved in setting up certificates for use with BizTalk Server.  

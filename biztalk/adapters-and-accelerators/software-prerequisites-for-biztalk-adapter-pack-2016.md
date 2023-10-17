@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Software prerequisites for BizTalk Adapter Pack 2016"
-title: "Software prerequisites for BizTalk Adapter Pack 2016"
+title: "Software prerequisites for BizTalk Adapter Pack 2016 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 65a063ca-37ae-420b-9d48-e6730caf17e3
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Software prerequisites for BizTalk Adapter Pack 2016
 Lists the software requirements for the Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] (BAP) included with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)].

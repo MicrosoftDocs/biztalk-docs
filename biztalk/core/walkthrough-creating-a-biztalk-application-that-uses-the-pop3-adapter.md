@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Walkthrough: Creating a BizTalk Application That Uses the POP3 Adapter"
-title: "Walkthrough: Creating a BizTalk Application That Uses the POP3 Adapter"
+title: "Walkthrough: Creating a BizTalk Application That Uses the POP3 Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tutorials, POP3 adapters"
+  - "configuring [POP3 adapters], mailboxes"
+  - "configuring [POP3 adapters], tutorials"
+  - "POP3 adapters, mailboxes"
+  - "POP3 adapters, tutorials"
+  - "configuring [POP3 adapters], Outlook Express"
+ms.assetid: b44c3b1d-7b4f-425c-831a-1ce5f6379595
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough: Creating a BizTalk Application That Uses the POP3 Adapter
 This section takes you through creating a simple Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application using the POP3 adapter.  

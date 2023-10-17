@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure the 5250 Client"
-title: "How to Configure the 5250 Client1"
+title: "How to Configure the 5250 Client1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 76e1e897-6b7e-4101-bd83-8025e76b3fb4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure the 5250 Client
 The following procedure details configuring the 5250 Client application.  

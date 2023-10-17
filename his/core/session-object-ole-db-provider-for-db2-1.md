@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Session Object (OLE DB Provider for DB2)"
-title: "Session Object (OLE DB Provider for DB2)1"
+title: "Session Object (OLE DB Provider for DB2)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f65a7319-8462-40f9-96b5-5e56f83dffbe
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Session Object (OLE DB Provider for DB2)
 The **Session** object is created by a **DataSource** object. The **Session** object is used to create one or more **Rowset** objects.  

@@ -1,12 +1,34 @@
 ---
 description: "Learn more about: Large Distributed Architecture"
-title: "Large Distributed Architecture"
+title: "Large Distributed Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "architecture, examples"
+  - "data, domains"
+  - "corporate domains"
+  - "networks"
+  - "domain types, service"
+  - "domain types, processing"
+  - "screened subnet"
+  - "service domains"
+  - "domain types, corporate"
+  - "domain types, data"
+  - "perimeter networks"
+  - "processing domains"
+  - "demilitarized zone"
+  - "architecture, large distributions"
+ms.assetid: 3cfc07c4-0b1d-489b-9a29-55187fde0539
+caps.latest.revision: 26
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Large Distributed Architecture
 For complete information about the system architecture for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).

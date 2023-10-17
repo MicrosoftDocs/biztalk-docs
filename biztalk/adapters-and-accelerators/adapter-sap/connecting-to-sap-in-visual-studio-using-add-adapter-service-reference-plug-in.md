@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Connecting to SAP in Visual Studio Using Add Adapter Service Reference Plug-in"
-title: "Connecting to SAP in Visual Studio Using Add Adapter Service Reference Plug-in"
+title: "Connecting to SAP in Visual Studio Using Add Adapter Service Reference Plug-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 05116c2f-08a4-495b-a031-d377e7ca33e0
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connecting to SAP in Visual Studio Using Add Adapter Service Reference Plug-in
 To connect to an SAP system using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in a .NET programming solution, you must use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. This topic provides instructions on how to use the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  

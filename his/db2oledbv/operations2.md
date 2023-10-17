@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Operations"
-title: "Operations2"
+title: "Operations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8c1671f3-98dd-46fa-a9a7-6c6f31432320
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Operations
 This section details code page conversions, data type mapping, and performance of the data provider.  

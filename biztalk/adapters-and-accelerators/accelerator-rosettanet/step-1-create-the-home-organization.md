@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Step 1: Create the Home Organization"
-title: "Step 1: Create the Home Organization"
+title: "Step 1: Create the Home Organization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, home organizations"
+  - "loopback tutorial, creating home organizations"
+  - "home organizations, creating"
+ms.assetid: 5277d50f-d499-4efa-99e5-d97dad7d65fc
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Create the Home Organization
 In this step, you create your home organization using the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.  

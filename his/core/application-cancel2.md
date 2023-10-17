@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Application CANCEL"
-title: "Application CANCEL2"
+title: "Application CANCEL2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3ef71ed9-dde0-422b-8060-9e7c29687452
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Application CANCEL
 One of the parameters on the [Open(PLU) OK Response](./open-plu-oresponse2.md), which the application sends to the local node, specifies whether the application generates **CANCEL** (or **EC**) to terminate an inbound chain that has received a negative response. If this option is not selected, the local node generates a **CANCEL** request when it receives a negative response from the host to an incomplete chain.  

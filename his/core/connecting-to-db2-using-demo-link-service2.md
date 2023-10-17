@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Connecting to DB2 using Demo Link Service"
-title: "Connect to DB2 using Demo Link Service"
+title: "Connect to DB2 using Demo Link Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 854026b7-f989-4aa4-a9f6-677e3bd4de35
+caps.latest.revision: 5
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Connecting to DB2 using Demo Link Service
 Host Integration Server includes two off-line demo link connections that enable you to learn how to configure data integration connections to IBM DB2 databases and IBM host file system servers. The demo link connections are based on SNA APPC sessions. The following two topics guide you through using the SNA Manager, Data Access Tool, and Data Source Wizard to sample connectivity to IBM DB2 and host files.  

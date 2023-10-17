@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: sbpurcvx"
-title: "sbpurcvx1"
+title: "sbpurcvx1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 169aed54-a727-416e-b426-ec4a1623374c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # sbpurcvx
 The **sbpurcvx** function processes Open responses from a routing procedure. An application can define a routing procedure that is called by the Dynamic Access Module (DMOD) when a message is received. This routing procedure should first call **sbpurcvx** to handle any Open response messages received. This ensures that Open responses intended for the Resource Locator are handled correctly.  

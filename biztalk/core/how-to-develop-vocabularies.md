@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Develop Vocabularies"
-title: "How to Develop Vocabularies"
+title: "How to Develop Vocabularies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, vocabularies"
+  - "vocabularies, business rules"
+  - "business rules, vocabularies"
+  - "vocabularies, creating"
+ms.assetid: 5c16eb98-2257-44f2-8a29-899e02f7e556
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Develop Vocabularies
 Rule conditions and actions are based on sources that may have detailed, difficult-to-read binding information that tells the user little or nothing about what they refer to. The Business Rules Framework enables you to create vocabularies to simplify the development of rules by offering users intuitive, domain-specific terminology that users can associate with rule conditions and actions.  

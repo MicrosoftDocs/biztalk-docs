@@ -1,12 +1,18 @@
 ---
 description: "Learn about service protection for the Distributed Relational Database Architecture (DRDA) service, including authentication methods and encryption options."
-title: "Protection2"
+title: "Protection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6dd1fc47-5e22-48f0-be56-b1da05e35257
+caps.latest.revision: 7
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # DRDA Service Protection
 

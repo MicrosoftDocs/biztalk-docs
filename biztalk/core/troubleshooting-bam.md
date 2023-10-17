@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Troubleshooting BAM"
-title: "Troubleshoot BAM"
+title: "Troubleshoot BAM | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e63299a8-5c74-4337-ba20-3213e0c6ea1f
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting BAM
 This topic provides information to help you troubleshoot problems you might encounter when using Business Activity Monitoring (BAM).  

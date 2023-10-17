@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Trace File Names"
-title: "Trace File Names1"
+title: "Trace File Names1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c7bda50-aa14-461c-814b-43529140de38
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Trace File Names
 Each trace file has two names associated with it, \<*Filename*1>.atf and \<*Filename*2>.atf.  

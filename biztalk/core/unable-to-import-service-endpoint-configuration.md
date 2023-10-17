@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unable to import service endpoint configuration."
-title: "Unable to import service endpoint configuration."
+title: "Unable to import service endpoint configuration. | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6dae5154-04e2-4d9b-b2b2-85313683fd9e
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unable to import service endpoint configuration.
 ## Details  

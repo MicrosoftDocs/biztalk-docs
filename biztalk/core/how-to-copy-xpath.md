@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Copy XPath"
-title: "How to Copy XPath"
+title: "How to Copy XPath | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 404599d4-0fb3-4c7c-91e6-1295d9d0965e
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Copy XPath
 The XML Schema definition (XSD) language provides the underlying syntax of the message schemas defined within BizTalk Server. Although the tree views in BizTalk Mapper use a BizTalk-specific graphical hierarchy of record and field nodes (among other types of nodes), each with its own set of properties, such hierarchies are constructed and persisted as XSD.  

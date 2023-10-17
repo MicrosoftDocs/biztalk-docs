@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Viewing and Downloading the Original Messages"
-title: "Viewing and Downloading the Original Messages"
+title: "Viewing and Downloading the Original Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 938f8188-7512-4d67-94b6-6cb205ca6d12
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Viewing and Downloading the Original Messages
 To view a fault message in greater detail, use the **Fault Viewer** pages of the ESB Management Portal.  

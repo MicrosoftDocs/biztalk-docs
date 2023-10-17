@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10770"
-title: "Single Sign-On: Event 10770"
+title: "Single Sign-On: Event 10770 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7d01b4da-f7c1-47a1-8c74-c5e87ac45063
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10770
 ## Details  

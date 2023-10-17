@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Close(SSCP) Request"
-title: "Close(SSCP) Request2"
+title: "Close(SSCP) Request2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0b1d0eb2-3cac-40f0-97fb-fdec4a49c7d1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Close(SSCP) Request
 The **Close(SSCP) Request** message flows from the application to the node. It is used with a system services control point (SSCP) connection.  

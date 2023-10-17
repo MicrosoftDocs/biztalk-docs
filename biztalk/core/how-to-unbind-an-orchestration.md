@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unbind an Orchestration"
-title: "Unbind an Orchestration"
+title: "Unbind an Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3a7c421d-e0cb-4b23-b472-e501056d6329
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unbind an Orchestration
 

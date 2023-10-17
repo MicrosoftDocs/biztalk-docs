@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Adapter Registration File"
-title: "Adapter Registration File"
+title: "Adapter Registration File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6750f0ed-4411-4a63-a7fe-f66132cd1e22
+caps.latest.revision: 35
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Registration File
 After the custom adapter code has been successfully built it must be registered with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. You do this by updating the registry with the appropriate adapter settings. You can manually write a registry file, but this is prone to errors due to the preciseness and complexity of the information that you need to enter. A better decision is to run the Adapter Registry Wizard. The Adapter Registry Wizard gives you all the same options as creating a registry file from scratch, and reduces the likelihood of errors in the file. For more information about the Adapter Registry Wizard, see [Adapter Registry Wizard](../core/adapter-registry-wizard.md).  

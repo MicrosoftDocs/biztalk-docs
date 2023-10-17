@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Using BizTalk Adapter Tracing"
-title: "Using BizTalk Adapter Tracing"
+title: "Using BizTalk Adapter Tracing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "Adapter Trace Utility, installing"
+  - "installing, Adapter Trace Utility"
+  - "Adapter Trace Utility, enabling"
+  - "Adapter Trace Utility, running"
+  - "enabling, Adapter Trace Utility"
+ms.assetid: ddc6b2c7-9dee-43c1-950b-8fd580bfcb26
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using BizTalk Adapter Tracing
 This topic describes how to install the Trace Log tool and how to enable BizTalk adapter tracing.

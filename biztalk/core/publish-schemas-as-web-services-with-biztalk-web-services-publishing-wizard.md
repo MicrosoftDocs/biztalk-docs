@@ -1,12 +1,22 @@
 ---
-title: "Use the Web Services Publishing Wizard to Publish Schemas as a Web Service"
+title: "Use the Web Services Publishing Wizard to Publish Schemas as a Web Service | Microsoft Docs"
 description: How to Use the BizTalk Web Services Publishing Wizard to Publish Schemas as a Web Service
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "BizTalk Web Services Publishing Wizard, publishing"
+  - "BizTalk Web Services Publishing Wizard, schemas"
+ms.assetid: b22de720-1416-486a-988f-e52527ad9ab1
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 
 # Publish Schemas as a Web Service in BizTalk

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Develop SQL applications using the WCF Service model"
-title: "Develop SQL applications using the WCF Service model"
+title: "Develop SQL applications using the WCF Service model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d3ecfd6f-9144-4e41-a4b8-0c768a6ac254
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop SQL applications using the WCF Service model
 [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] provides a programming model called the WCF service model, as an alternative to the WCF channel programming model.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SSO Support for Receive Adapters"
-title: "SSO Support for Receive Adapters"
+title: "SSO Support for Receive Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4767387c-f24b-4986-aaed-6724c5d6b347
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SSO Support for Receive Adapters
 Enterprise Single Sign-On (SSO) provides services to store and transmit encrypted user credentials across local, network, and domain boundaries. Transport adapter writers can leverage SSO APIs to handle the user credentials that a transport adapter uses to access back-end applications.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Adding Advanced Functoids to a Map"
-title: "Adding Advanced Functoids to a Map"
+title: "Adding Advanced Functoids to a Map | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bbec5e9c-65b3-4734-a7fc-4ee66cf26eee
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adding Advanced Functoids to a Map
 Functoids in the **Advanced** category are more complex to understand and use than the functoids in the other categories, together classified as basic functoids. You use advanced functoids when you need more complex maps. These maps might need to count records, loop through records with a variable number of subrecords, or run an arbitrarily complex script.  

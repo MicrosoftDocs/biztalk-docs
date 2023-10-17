@@ -1,12 +1,32 @@
 ---
 description: "Learn more about: Key features in the SAP Adapter"
-title: "Key features in the SAP Adapter"
+title: "Key features in the SAP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "adapters, deprecated features"
+  - "features, technology-related"
+  - "adapters, new features"
+  - "features, deprecated"
+  - "features, metadata-related"
+  - "librfc32u.dll"
+  - "tRFC server"
+  - "features, new"
+  - "adapters, new and deprecated features"
+  - "queued tRFC client calls"
+  - "features, operations-related"
+  - "RFC server"
+ms.assetid: 30e3140c-447f-42ba-a3b0-13ae66e78b0c
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Key features in the SAP Adapter
 This section lists the new and deprecated features in [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].  

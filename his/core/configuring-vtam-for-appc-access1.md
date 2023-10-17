@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring VTAM for APPC Access"
-title: "Configuring VTAM for APPC Access1"
+title: "Configuring VTAM for APPC Access1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a9308d96-1df0-43fd-96a8-9b49e6938ca5
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring VTAM for APPC Access
 Parameters on VTAM must match Advanced Program-to-Program Communications (APPC) parameters on [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]. To configure the needed parameters, consult with the host administrator for the matching VTAM parameters.  

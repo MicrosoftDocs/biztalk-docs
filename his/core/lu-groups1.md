@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LU Groups"
-title: "LU Groups1"
+title: "LU Groups1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4c62b7c3-1dd3-40ec-9e19-98d812371d7b
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LU Groups
 Note that Host Integration Server supports logical unit (LU) groups. An LU group consists of a number of LUs of the same type, such as 3270 display LUs or logical unit application (LUA) LUs. Any of the LUs in the group can be used for the same task.  

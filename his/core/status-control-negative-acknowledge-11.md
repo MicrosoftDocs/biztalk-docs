@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-Control(...) Negative-Acknowledge-1"
-title: "Status-Control(...) Negative-Acknowledge-11"
+title: "Status-Control(...) Negative-Acknowledge-11 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5f1453a6-ca1b-4321-889f-eb1cb38b78a0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-Control(...) Negative-Acknowledge-1
 The **Status-Control(...) Negative-Acknowledge-1** message flows from the node to the application and from the application to the node. It is used with a primary logical unit (PLU) connection.  

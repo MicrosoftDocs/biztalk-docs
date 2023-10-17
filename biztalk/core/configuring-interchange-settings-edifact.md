@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Interchange Settings (EDIFACT)"
-title: "Configuring Interchange Settings (EDIFACT)"
+title: "Configuring Interchange Settings (EDIFACT) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8873a88c-89c7-49b0-9886-5fc603947643
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Interchange Settings (EDIFACT)
 EDIFACT interchange processing properties define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] process the envelope of an EDIFACT-encoded interchange received from a party.  

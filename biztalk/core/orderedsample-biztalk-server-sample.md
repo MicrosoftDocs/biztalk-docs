@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: OrderedSample (BizTalk Server Sample)"
-title: "OrderedSample (BizTalk Server Sample)"
+title: "OrderedSample (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, MQSeries adapters"
+  - "orchestrations, examples"
+  - "examples, orchestrations"
+  - "MQSeries adapters, examples"
+ms.assetid: 7e59ff43-d425-40cd-9725-af13084f83d9
+caps.latest.revision: 20
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # OrderedSample (BizTalk Server Sample)
 The OrderedSample sample demonstrates how to use an orchestration to receive and send an ordered series of messages in a round-trip fashion.  

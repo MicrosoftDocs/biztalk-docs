@@ -1,12 +1,36 @@
 ---
 description: "Learn more about: Security Features in BizTalk Server"
-title: "Security Features in BizTalk Server"
+title: "Security Features in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Server, security"
+  - "Master Secret server, security"
+  - "security, Master Secret server"
+  - "security, runtime"
+  - "security, data"
+  - "deploying, security"
+  - "security, configuring"
+  - "runtime, security"
+  - "security, security features"
+  - "security, messages"
+  - "security, access control"
+  - "security, about security"
+  - "access control"
+  - "security, deploying"
+  - "data, security"
+  - "messages, security"
+ms.assetid: 5ab15023-fa71-439e-b3aa-420fe28806fa
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security Features in BizTalk Server
 Microsoft® BizTalk® Server provides a standard gateway for sending and receiving documents both within an intranet and through the Internet. Due to the possible business-critical nature of the messages sent to and from BizTalk Server, it is important to consider measures to help secure these messages and the information they contain both as they are in transit and while BizTalk Server processes and stores them. This section provides information about the BizTalk Server security features, and how you can use them to help secure your data and environment.  

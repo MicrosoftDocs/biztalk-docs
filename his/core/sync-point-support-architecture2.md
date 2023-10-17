@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sync Point Support Architecture"
-title: "Sync Point Support Architecture2"
+title: "Sync Point Support Architecture2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 19503eca-9c85-4ae3-b43e-f4079429139e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sync Point Support Architecture
 The Sync Point support provided by Host Integration Server assumes a particular implementation architecture by the vendor, as follows:  

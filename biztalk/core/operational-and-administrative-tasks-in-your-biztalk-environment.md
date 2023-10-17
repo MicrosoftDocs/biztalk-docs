@@ -1,14 +1,24 @@
 ---
 description: "Learn more about: Operational and administrative tasks in your BizTalk environment"
-title: "Operational and administrative tasks in your BizTalk environment"
+title: "Operational and administrative tasks in your BizTalk environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.ops.opsandts"
+helpviewer_keywords: 
+  - "BizTalk Server, administering"
+  - "administering"
+ms.assetid: f6768e53-e7e0-4b0a-a51c-aba0be95895b
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Operational and administrative tasks in your BizTalk environment
 BizTalk Server includes new features that make administering BizTalk Server quicker and easier than in previous releases of BizTalk Server. This section provides information about administering BizTalk Server.  

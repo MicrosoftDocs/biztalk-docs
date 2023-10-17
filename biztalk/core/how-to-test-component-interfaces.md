@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Test Component Interfaces"
-title: "How to Test Component Interfaces"
+title: "How to Test Component Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "testing component interfaces"
+  - "component interfaces, testing"
+ms.assetid: d637f76d-170d-4543-a2b2-a4ac4001386b
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Test Component Interfaces
 Microsoft BizTalk Adapter for PeopleSoft Enterprise uses PeopleSoft metadata and component interfaces; therefore, it can handle new or modified component interfaces. The adapter makes no assumptions about component interfaces except that they are logical and valid. Therefore, each component interface must be tested before it is used as a source for the adapter.  

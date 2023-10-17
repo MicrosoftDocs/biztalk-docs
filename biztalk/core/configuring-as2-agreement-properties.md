@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Configuring AS2 Agreement Properties"
-title: "Configuring AS2 Agreement Properties"
+title: "Configuring AS2 Agreement Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.admin.as2agreement.properties"
+ms.assetid: a62d8d2a-0b8d-4179-a48f-92f135b5787d
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring AS2 Agreement Properties
 This section describes AS2 transport agreement properties. As part of the transport protocol settings, you can also define whether the message should be signed, whether the message should be encrypted, etc.  

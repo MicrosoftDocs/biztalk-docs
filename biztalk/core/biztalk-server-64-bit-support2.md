@@ -1,12 +1,19 @@
 ---
-title: "64-bit support overview for BizTalk Server"
+title: "64-bit support overview for BizTalk Server | Microsoft Docs"
 description: 64-bit support in adapters, processes, BizTalk Administration, BAM Tools, assemblies, orchestrations, and more in BizTalk Server
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 52ae9037-a7af-48e4-b6a3-bff7600802de
+caps.latest.revision: 42
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Server 64-Bit Support overview
 This topic answers some frequently asked questions about 64-bit support for Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

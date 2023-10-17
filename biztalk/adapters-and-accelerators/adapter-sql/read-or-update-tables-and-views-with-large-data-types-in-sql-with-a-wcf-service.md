@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Run Operations on Tables and Views with Large Data Types in SQL using the WCF Service Model"
-title: "Run Operations on Tables and Views with Large Data Types in SQL using the WCF Service Model"
+title: "Run Operations on Tables and Views with Large Data Types in SQL using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7d33e17c-e09e-4a57-9acc-43095e67ed8c
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Run Operations on Tables and Views with Large Data Types in SQL using the WCF Service Model
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to read and update data in columns of large data types, that is, varchar(max), nvarchar(max), or varbinary(max). To read data from such columns, adapter clients can use the Select operation. To insert or update data into such columns, the adapter exposes a Set\<*column_name*\> operation, where \<*column_name*\> is the name of the column of type varchar(max), nvarchar(max), or varbinary(max).  

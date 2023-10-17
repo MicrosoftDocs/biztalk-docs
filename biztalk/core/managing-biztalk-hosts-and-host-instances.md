@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Managing BizTalk Hosts and Host Instances"
-title: "Managing BizTalk Hosts and Host Instances"
+title: "Managing BizTalk Hosts and Host Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [hosts]"
+  - "hosts, managing"
+  - "managing [hosts], about managing hosts"
+ms.assetid: 7f329804-ca44-4799-8a5d-38b3146d8e5e
+caps.latest.revision: 21
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Managing BizTalk Hosts and Host Instances
 A [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Host is a logical set of zero or more [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] run-time processes in which you deploy items such as adapter handlers, receive locations (including pipelines), and orchestrations. For more information about hosts, see [Hosts](../core/hosts.md).  

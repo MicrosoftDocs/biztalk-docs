@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Configuring the SOAP Adapter"
-title: "Configuring the SOAP Adapter"
+title: "Configuring the SOAP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring [SOAP adapters]"
+  - "SOAP adapters, configuring"
+ms.assetid: 810f3543-21d3-4bb5-b477-6463f4576335
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring the SOAP Adapter
 This section describes how to configure a SOAP adapter.  

@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: Delimiters Known Issues"
 title: "Delimiters Known Issues"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "known issues, delimiters"
+  - "delimiters"
+ms.assetid: 4eaacb3c-9d8d-43da-91dd-8bb25dec70e1
+caps.latest.revision: 3
+
+
+
 ---
 # Delimiters Known Issues
 This section contains useful information that may help you avoid delimiter errors.  

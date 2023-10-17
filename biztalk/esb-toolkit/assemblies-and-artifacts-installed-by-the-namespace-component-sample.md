@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Assemblies and Artifacts Installed by the Namespace Component Sample"
-title: "Assemblies and Artifacts Installed by the Namespace Component Sample"
+title: "Assemblies and Artifacts Installed by the Namespace Component Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: df4a0a73-6b60-4006-ab9a-74354c972507
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Assemblies and Artifacts Installed by the Namespace Component Sample
 The following table lists the assemblies and artifacts installed by the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Namespace Component sample.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Generating an Instance (EDI)"
-title: "Generating an Instance (EDI)"
+title: "Generating an Instance (EDI) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 362b9803-4d4a-4d17-9ad6-439ec4c7d8aa
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Generating an Instance (EDI)
 You can generate a message instance from an EDI schema at design time. To do so, you use the XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment.  

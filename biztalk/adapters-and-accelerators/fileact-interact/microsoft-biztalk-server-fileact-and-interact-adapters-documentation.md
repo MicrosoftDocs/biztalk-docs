@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Microsoft BizTalk Server FileAct and InterAct Adapters documentation"
-title: "Microsoft BizTalk Server FileAct and InterAct Adapters documentation"
+title: "Microsoft BizTalk Server FileAct and InterAct Adapters documentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f7079835-cfb4-4696-9993-b70f31a57259
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Microsoft BizTalk Server FileAct and InterAct Adapters documentation
 The [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] includes information that can help you install and configure the FileAct and InterAct adapters, learn about these adapters, and understand the architecture.  

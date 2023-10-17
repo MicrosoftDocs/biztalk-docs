@@ -1,12 +1,19 @@
 ---
-title: "Troubleshoot Operational Issues with the SAP adapter in BizTalk"
+title: "Troubleshoot Operational Issues with the SAP adapter in BizTalk | Microsoft Docs"
 description: Common errors, issues, and resolutions with mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bb0f005b-7548-478b-8243-69e07c29d02c
+caps.latest.revision: 32
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshoot Operational Issues with the SAP adapter
 This section discusses using troubleshooting techniques to resolve operational errors that you might encounter when using [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].

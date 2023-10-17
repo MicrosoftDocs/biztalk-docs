@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 5: Configure the Trading Partner Web Pages"
-title: "Step 5: Configure the Trading Partner Web Pages"
+title: "Step 5: Configure the Trading Partner Web Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 38c3054d-932a-42b6-a821-8b30604d8426
+caps.latest.revision: 38
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 5: Configure the Trading Partner Web Pages
 ![Step 5 of 11](../core/media/tut-step5-of-11.gif "Tut_Step5_of_11")  

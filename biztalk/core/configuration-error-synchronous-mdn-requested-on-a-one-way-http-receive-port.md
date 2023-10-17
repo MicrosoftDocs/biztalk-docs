@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuration error. Synchronous MDN requested on a one way HTTP receive Port"
-title: "Configuration error. Synchronous MDN requested on a one way HTTP receive Port"
+title: "Configuration error. Synchronous MDN requested on a one way HTTP receive Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f140c7a4-46bf-4557-9679-cdaf2fbe66f4
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuration error. Synchronous MDN requested on a one way HTTP receive Port
 ## Details  

@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Scaling Your Solutions"
-title: "Scaling Your Solutions"
+title: "Scaling Your Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "performance, scaling"
+  - "scaling, scaling out"
+  - "scaling, performance"
+  - "scaling, about scaling"
+  - "scaling, scaling up"
+  - "scaling"
+ms.assetid: e2acbaa4-29d3-4c89-ac1f-c0641cfa0442
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scaling Your Solutions
 BizTalk Server architecture provides a very good support for scalability. The scaling patterns that you choose depend on complexity of your scenario, hardware and the throughput/Latency requirements. You should start with a smaller topology initially and try to scale-up or down based on the guidelines in this section.  

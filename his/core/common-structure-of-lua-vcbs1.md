@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Common Structure of LUA VCBs"
-title: "Common Structure of LUA VCBs1"
+title: "Common Structure of LUA VCBs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 48e98c90-ab6d-437f-bb61-5fe2f8b4c344
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Common Structure of LUA VCBs
 The following data structure shows the parameters that are common to all Microsoft® Windows® logical unit application (LUA) verbs.  

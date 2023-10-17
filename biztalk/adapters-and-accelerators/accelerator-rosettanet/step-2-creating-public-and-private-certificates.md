@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Step 2: Creating Public and Private Certificates"
-title: "Step 2: Creating Public and Private Certificates"
+title: "Step 2: Creating Public and Private Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "double action tutorial, creating certificates"
+  - "public certificates"
+  - "certificates, public certificates"
+  - "creating, certificates"
+  - "private certificates"
+ms.assetid: 0a925d89-03d9-41fe-907b-85a6ae42362a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Creating Public and Private Certificates
 In this step, you use the Certification Authority created in [Step 1: Creating a Certification Authority &#91;RN3&#93;](../../adapters-and-accelerators/accelerator-rosettanet/step-1-creating-a-certification-authority.md) to generate the public and private certificates that the Contoso and Fabrikam organizations use.  

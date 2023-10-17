@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Data Tables Node"
-title: "Data Tables Node2"
+title: "Data Tables Node2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15469"
+ms.assetid: 5c0a42a7-0e0a-4ad5-996a-2cc4d2c3e21c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data Tables Node
 Use the **Data Tables** node to view a list of all the **Data Tables** in the assembly.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Admin-ExplorerOM (BizTalk Server Samples Folder)"
-title: "Admin-ExplorerOM (BizTalk Server Samples Folder)"
+title: "Admin-ExplorerOM (BizTalk Server Samples Folder) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, administering"
+  - "administering, examples"
+ms.assetid: f6553138-9ab3-4368-84bf-9813e909e372
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Admin-ExplorerOM (BizTalk Server Samples Folder)
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes samples in the Admin\ExplorerOM folder in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each BizTalk Explorer object model administration sample, instructions for building and running the sample, and the results you can expect.  

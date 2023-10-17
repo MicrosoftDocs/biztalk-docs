@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Create User Mappings"
-title: "How to Create User Mappings"
+title: "How to Create User Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: eb91879c-73f4-4e9e-9e5b-534f48cd5584
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create User Mappings
 Use the **createmappings** command to create one or more user mappings, as specified in the XML file. The following is an example XML file.  

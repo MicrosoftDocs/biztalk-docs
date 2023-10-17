@@ -4,6 +4,14 @@ description: Learn more about the HL7 Standard for BizTalk Server.
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
+
+helpviewer_keywords: 
+  - "standards [HL7]"
+  - "HL7, standards"
+  - "Health Level Seven (HL7)"
+ms.assetid: 15f26ae3-d1ad-40a4-aafe-7148ef30cadb
+caps.latest.revision: 3
+
 ---
 
 # HL7 Standard

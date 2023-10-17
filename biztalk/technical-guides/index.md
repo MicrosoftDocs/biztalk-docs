@@ -6,7 +6,13 @@ ms.prod: biztalk-server
 ms.date: "03/17/2016"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 157d9169-46e6-4001-aaac-273a5069fd8d
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Technical Guides
 

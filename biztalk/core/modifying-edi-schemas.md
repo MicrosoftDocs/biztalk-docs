@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Modifying EDI Schemas"
-title: "Modifying EDI Schemas"
+title: "Modifying EDI Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6fa33c5e-17ca-4aaf-a1ca-1972a9bb45ac
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Modifying EDI Schemas
 You can modify an existing EDI schema that is shipped in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. When you and your trading partners have agreed on modifications to standard schemas, and perhaps changed the relevant Message Implementation Guideline (MIG) file, you can modify the schemas in the BizTalk Editor in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  

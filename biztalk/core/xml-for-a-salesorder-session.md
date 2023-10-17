@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: XML for a SalesOrder Session"
-title: "XML for a SalesOrder Session"
+title: "XML for a SalesOrder Session | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SalesOrder sessions"
+  - "examples, SalesOrder session"
+ms.assetid: dddf2424-b9d6-48a9-b7db-df524fafccd0
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # XML for a SalesOrder Session
 The following sections provide samples of XML for a SalesOrder session.  

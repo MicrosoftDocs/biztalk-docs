@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_Connection8022Dlc Class"
-title: "MsSna_Connection8022Dlc Class2"
+title: "MsSna_Connection8022Dlc Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 40ed2db8-e83c-4537-ab5f-54723dc57df7
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_Connection8022Dlc Class
 Describes a type of SNA connection that uses DLC 802.2 protocol over a Token Ring or Ethernet.  

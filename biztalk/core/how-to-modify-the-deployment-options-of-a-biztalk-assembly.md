@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Modify the Deployment Options of a BizTalk Assembly"
-title: "How to Modify the Deployment Options of a BizTalk Assembly"
+title: "How to Modify the Deployment Options of a BizTalk Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "modifying, deploying"
+  - "managing [assemblies], modifying"
+  - "deploying, assemblies"
+  - "managing [assemblies], deploying"
+  - "assemblies, deploying"
+ms.assetid: d25e2f71-08bd-4786-ab6c-35ae4e88b8cc
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Modify the Deployment Options of a BizTalk Assembly
 This topic describes how to use the BizTalk Server Administration console to modify the deployment options of a BizTalk assembly.  

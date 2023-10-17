@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: How to Configure the Parallel Actions Shape"
-title: "How to Configure the Parallel Actions Shape"
+title: "How to Configure the Parallel Actions Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Parallel Actions shape [Orchestration Designer], Terminate shape [Orchestration Designer]"
+  - "Parallel Actions shape [Orchestration Designer], synchronizing data access"
+  - "Parallel Actions shape [Orchestration Designer]"
+  - "configuring [Orchestration Designer], Parallel Actions shapes"
+  - "Parallel Actions shape [Orchestration Designer], branching"
+  - "Parallel Actions shape [Orchestration Designer], about Parallel Actions shape"
+  - "Terminate shape [Orchestration Designer], Parallel Actions shape [Orchestration Designer]"
+  - "Parallel Actions shape [Orchestration Designer], configuring"
+ms.assetid: 396d6182-f5dd-4aab-9edc-92efe236fd3e
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure the Parallel Actions Shape
 ![Image that represents the Parallel Actions shape.](../core/media/ebiz-orch-paralactions.gif "ebiz_orch_paralactions")  

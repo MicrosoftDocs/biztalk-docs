@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Transactions"
-title: "Transactions"
+title: "Transactions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, transactions"
+  - "Orchestration Designer, BizTalk Server Orchestration Engine"
+  - "BizTalk Server Orchestration Engine"
+  - "Orchestration Designer, transactions"
+ms.assetid: d9a748c7-be9f-4965-a30f-6b05bd6b42a3
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Transactions
 The BizTalk Server Orchestration Engine manages the state, applies business logic, and invokes the supporting applications of complex processes and/or transaction sets.  

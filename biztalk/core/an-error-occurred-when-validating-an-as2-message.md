@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: An error occurred when validating an AS2 message"
-title: "An error occurred when validating an AS2 message"
+title: "An error occurred when validating an AS2 message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0cf97c63-2bff-4474-9cd8-f68634493dcc
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # An error occurred when validating an AS2 message
 ## Details  

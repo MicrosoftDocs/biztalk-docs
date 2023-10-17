@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: InterAct Adapter End-to-End Reliable Delivery"
-title: "InterAct Adapter End-to-End Reliable Delivery"
+title: "InterAct Adapter End-to-End Reliable Delivery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ac7c22f2-ee4a-4e9b-af40-da7eb58daf51
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # InterAct Adapter End-to-End Reliable Delivery
 When sending messages or files to a recipient, we recommend that you ensure that the message or file is delivered, and that the business transaction(s) contained in these are executed no more times than anticipated.  

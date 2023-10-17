@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Browse, search, and get metadata for Siebel operations"
-title: "Browse, search, and get metadata for Siebel operations"
+title: "Browse, search, and get metadata for Siebel operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "metadata, retrieving"
+  - "how to, browse metadata"
+  - "how to, retrieve metadata"
+  - "retrieving, metadata"
+  - "metadata, browsing"
+  - "browsing, metadata"
+  - "metadata, searching"
+  - "how to, seach metadata"
+  - "searching, metadata"
+ms.assetid: 7e474d8e-b030-47ea-b1b6-8048cddbba8a
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Browse, search, and get metadata for Siebel operations
 This section provides information about how to use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. By using these [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components, you can:  

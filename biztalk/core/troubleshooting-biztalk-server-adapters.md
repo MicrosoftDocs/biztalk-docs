@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Troubleshooting BizTalk Server Adapters"
-title: "Troubleshooting BizTalk Server Adapters"
+title: "Troubleshooting BizTalk Server Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 428b127f-df1e-4c41-9cc8-486519f15fa1
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting BizTalk Server Adapters
 This topic describes common trouble shooting steps that can be used to identify and resolve problems that may be occurring in the BizTalk Integrated adapters.  

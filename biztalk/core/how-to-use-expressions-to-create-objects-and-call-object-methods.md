@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: How to Use Expressions to Create Objects and Call Object Methods"
-title: "How to Use Expressions to Create Objects and Call Object Methods"
+title: "How to Use Expressions to Create Objects and Call Object Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, parameters"
+  - "Expression shape [Orchestration Designer], calling objects"
+  - "Expression shape [Orchestration Designer], parameters"
+  - "Expression shape [Orchestration Designer], passing messages"
+  - "orchestrations, methods"
+  - "Expression shape [Orchestration Designer], calling methods"
+  - "orchestrations, objects"
+  - "Expression shape [Orchestration Designer], warning"
+  - "Use Default Constructor property"
+  - ".NET member invocation"
+ms.assetid: b6af67eb-8ba5-4c95-9b63-26ebb6617af0
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use Expressions to Create Objects and Call Object Methods
 You might need to use expressions to create objects or invoke methods.  

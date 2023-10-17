@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: CBRSample (BizTalk Server Sample)"
-title: "CBRSample (BizTalk Server Sample)"
+title: "CBRSample (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, routing"
+  - "messages, filters"
+  - "outbound maps"
+  - "examples, messages"
+  - "messages, routing"
+  - "examples, outbound maps"
+  - "examples, filters"
+  - "messages, examples"
+ms.assetid: 8fba494c-9257-4eed-8b6a-867056147c2c
+caps.latest.revision: 26
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # CBRSample (BizTalk Server Sample)
 The CBRSample sample demonstrates how to apply filters and an outbound map to transform and route instance messages based on content.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_LinkService_IpDlc.GetAllStaticIPs Method"
-title: "MsSna_LinkService_IpDlc.GetAllStaticIPs Method1"
+title: "MsSna_LinkService_IpDlc.GetAllStaticIPs Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7f91eaaa-5b2a-4818-a3a7-4c8a8b647d38
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_LinkService_IpDlc.GetAllStaticIPs Method
 The **GetAllStaticIPs** method returns the list of all the static IP addresses on the local machine.  

@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: SAPDataReader class in the SAP adapter"
-title: "SAPDataReader class in the SAP adapter"
+title: "SAPDataReader class in the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SAPDataReader, supported methods and classes"
+ms.assetid: bd0e55ea-7413-498f-851f-ed97bd8bacab
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SAPDataReader class in the SAP adapter
 The following section lists the methods and properties for the **SAPDataReader** class. This is derived from **System.Data.Common.DbDataReader**.  

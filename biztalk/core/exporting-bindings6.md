@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Exporting Bindings"
-title: "Exporting Bindings6"
+title: "Exporting Bindings6 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "bindings, exporting"
+  - "exporting, bindings"
+ms.assetid: 052a429e-3237-44d4-8933-00aa5edfb212
+caps.latest.revision: 22
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Exporting Bindings
 The topics in this section describe how to export bindings for a BizTalk group, assembly, or application into an .xml file. (Bindings define how hosts, send ports, send port groups, receive ports, receive locations, parties are associated with orchestrations, pipelines, maps, and schemas.) You can then import the bindings from the .xml file into another group or application. Importing bindings overwrites any existing bindings of the same name in the group or application. You can also add bindings to an application, which does not overwrite existing bindings. The bindings that you add do not take effect until you import the application.  

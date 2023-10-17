@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Issuing an LUA Verb"
-title: "Issuing an LUA Verb2"
+title: "Issuing an LUA Verb2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4d3417d9-8738-4a25-9d4b-f3a719515615
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Issuing an LUA Verb
 The following procedure is required to issue a logical unit application (LUA) verb. In this example, the verb issued is [RUI_INIT](./rui-init1.md).  

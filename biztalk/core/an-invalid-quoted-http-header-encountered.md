@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: An invalid quoted HTTP header encountered"
-title: "An invalid quoted HTTP header encountered"
+title: "An invalid quoted HTTP header encountered | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bb530ee6-ec6a-4791-ae99-b9db426c0896
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # An invalid quoted HTTP header encountered
 ## Details  

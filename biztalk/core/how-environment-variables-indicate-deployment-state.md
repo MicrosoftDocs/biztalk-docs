@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: How Environment Variables Indicate Deployment State"
-title: "How Environment Variables Indicate Deployment State"
+title: "How Environment Variables Indicate Deployment State | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "scripts, variables"
+ms.assetid: 022b782b-008d-41a7-9880-d1c4e5e4015e
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How Environment Variables Indicate Deployment State
 Once invoked, a pre- or post-processing script can determine in which deployment state (install, import, delete, uninstall, import rollback, or install rollback) it is running by checking the environment variables BTAD_ChangeRequestAction, BTAD_InstallMode and BTAD_HostClass.  

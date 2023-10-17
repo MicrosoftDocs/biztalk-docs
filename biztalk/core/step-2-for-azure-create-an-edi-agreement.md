@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 2 (For Azure): Create an EDI Agreement"
-title: "Step 2 (For Azure): Create an EDI Agreement"
+title: "Step 2 (For Azure): Create an EDI Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a8003697-4955-45c0-ba0b-e7c293a050a2
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2 (For Azure): Create an EDI Agreement
 In this topic, you will create partners using the Azure BizTalk portal available as part of the [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)]. You will also create an agreement between the two partners (Northwind and Contoso) to process the X12 sales order message sent by Contoso to Northwind.

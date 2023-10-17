@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Failed to create X509CertificateIdentity from base-64 encoded certificate"
-title: "Failed to create X509CertificateIdentity from base-64 encoded certificate"
+title: "Failed to create X509CertificateIdentity from base-64 encoded certificate | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a13112bd-e0e8-4b49-ad2f-ea82b2e8162f
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Failed to create X509CertificateIdentity from base-64 encoded certificate
 ## Details  

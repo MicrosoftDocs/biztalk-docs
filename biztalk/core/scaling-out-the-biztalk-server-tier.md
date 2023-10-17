@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Scaling Out the BizTalk Server Tier"
-title: "Scaling Out the BizTalk Server Tier"
+title: "Scaling Out the BizTalk Server Tier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, scaling"
+  - "scaling, planning"
+  - "scaling, load balancing"
+  - "host instances, scaling"
+  - "scaling, examples"
+  - "fault tolerance"
+  - "scaling, scaling out"
+  - "scaling, fault tolerance"
+  - "NLB system, scaling"
+  - "scaling, host instances"
+ms.assetid: 01d1ab20-d7a9-4d0b-a61e-65e56fe5010e
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scaling Out the BizTalk Server Tier
 To scale out the BizTalk tier, add more hardware to the existing topology. It is recommended that you add hardware in the following scenarios:  

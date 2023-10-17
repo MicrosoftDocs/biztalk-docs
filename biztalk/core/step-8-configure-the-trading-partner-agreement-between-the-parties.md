@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 8: Configure the Trading Partner Agreement between the Parties"
-title: "Step 8: Configure the Trading Partner Agreement between the Parties"
+title: "Step 8: Configure the Trading Partner Agreement between the Parties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9f532f85-3f09-4b60-b7bb-817ee3c79899
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 8: Configure the Trading Partner Agreement between the Parties
 ![Step 8 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-8of9.gif "Step_8of9")  

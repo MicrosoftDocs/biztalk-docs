@@ -1,12 +1,19 @@
 ---
-title: "Examples for EXECQUERY Statement in mySAP adapter in BizTalk"
+title: "Examples for EXECQUERY Statement in mySAP adapter in BizTalk | Microsoft Docs"
 description: EXECQUERY examples and samples using the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4139af16-7c38-4ea2-b3e5-5acf8fc1f3c4
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Examples for EXECQUERY Statement
 This topic provides sample EXECQUERY statements.  

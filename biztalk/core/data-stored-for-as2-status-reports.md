@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Data Stored for AS2 Status Reports"
-title: "Data Stored for AS2 Status Reports"
+title: "Data Stored for AS2 Status Reports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c6aa4077-3768-436b-99b9-d203a86a7e69
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Data Stored for AS2 Status Reports
 Two levels of reporting are available in AS2 status reporting: the first if the **Turn ON Reporting** property is selected for an agreement (from the **General Properties** page of the **General** tab in the **Agreement Properties** dialog box), and the second if a non-repudiation database storage property is selected for an agreement.  

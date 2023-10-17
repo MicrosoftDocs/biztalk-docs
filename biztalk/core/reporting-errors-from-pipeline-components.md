@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Reporting Errors from Pipeline Components"
-title: "Reporting Errors from Pipeline Components"
+title: "Reporting Errors from Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "IErrorInfo object"
+  - "pipeline components [custom], errors"
+  - "SetErrorInfo method"
+  - "Exception object"
+ms.assetid: ad7c519e-829a-4a92-a42f-3e367d5dbaa8
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Reporting Errors from Pipeline Components
 Pipeline components report errors in two ways:  

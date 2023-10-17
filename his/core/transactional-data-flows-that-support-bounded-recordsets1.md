@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Transactional Data Flows That Support Bounded Recordsets"
-title: "Transactional Data Flows That Support Bounded Recordsets1"
+title: "Transactional Data Flows That Support Bounded Recordsets1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e5416428-08b6-44f6-babb-27268b81ca71
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Transactional Data Flows That Support Bounded Recordsets
 This data flow model does not support unbounded recordsets. (An unbounded recordset has no set number of rows.)  

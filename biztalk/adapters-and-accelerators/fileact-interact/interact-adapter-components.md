@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: InterAct Adapter Components"
-title: "InterAct Adapter Components"
+title: "InterAct Adapter Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aad60b57-4cc8-44b9-98f5-e5a2ba3a41e2
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # InterAct Adapter Components
 The InterAct adapter has a client and a server component. Note that there may be an A4SWIFT (minimal) installation on the same computer as the SWIFT Alliance Gateway (SAG) if it is running Windows Server. Also note that the SWIFTNet Link (SNL) may be on a separate computer from the SAG. The remote application programming interface (API) host adapter provided by SWIFT is used to communicate from A4SWIFT to the SAG, regardless of the location of the components.  

@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Sample Hub-Based Scenario"
-title: "Sample Hub-Based Scenario"
+title: "Sample Hub-Based Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "supply chains, examples"
+  - "hub-and-spoke systems"
+  - "supply chains, hub-and-spoke systems"
+  - "examples, supply chains"
+  - "trading partners, supply chains"
+ms.assetid: ee92c24d-a281-4950-a61e-9cb3bd08d291
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample Hub-Based Scenario
 In many supply-chain scenarios, a company will work with each of their trading partners to institute a RosettaNet Implementation Framework (RNIF) connection. This is an effective way to standardize communications throughout the supply chain. This scenario is described in [Sample Supply Chain Scenario](../../adapters-and-accelerators/accelerator-rosettanet/sample-supply-chain-scenario.md).  

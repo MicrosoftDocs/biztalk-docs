@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: WCF Receive Adapter"
-title: "WCF Receive Adapter"
+title: "WCF Receive Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, headers"
+  - "receive adapters, Web service headers"
+  - "SOAP messages, extracting information"
+  - "SOAP messages, WCF adapters"
+  - "WCF adapters, receive adapters"
+  - "messages, SOAP"
+  - "receive adapters, WCF adapters"
+  - "Web services, headers"
+  - "headers [messages]"
+  - "SOAP messages, receive adapters"
+ms.assetid: 6b3d5df1-5d9d-4240-a98f-ea29c3272e38
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # WCF Receive Adapter
 The WCF receive adapter enables you to receive WCF service requests.  

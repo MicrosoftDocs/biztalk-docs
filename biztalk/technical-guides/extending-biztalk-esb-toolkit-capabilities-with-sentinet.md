@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Extending BizTalk ESB Toolkit Capabilities with Sentinet"
-title: "Extending BizTalk ESB Toolkit Capabilities with Sentinet"
+title: "Extending BizTalk ESB Toolkit Capabilities with Sentinet | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8d42f19f-5cf3-49b1-be81-c4cb09f59531
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Extending BizTalk ESB Toolkit Capabilities with Sentinet
 **Extending BizTalk ESB Toolkit Capabilities with Sentinet**

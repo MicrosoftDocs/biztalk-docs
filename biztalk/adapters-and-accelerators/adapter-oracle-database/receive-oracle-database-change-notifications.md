@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Receive Oracle Database Change Notifications"
-title: "Receive Oracle Database Change Notifications"
+title: "Receive Oracle Database Change Notifications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3ffabf27-7223-4473-b33e-af6f2990cb96
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive Oracle Database Change Notifications
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports the ODP.NET Database Change Notification feature. Using this feature, the adapter clients can register a SELECT statement as the notification query on the database, and the database sends a notification to the adapter client as and when the result set of the SELECT statement changes. The database change notification is implemented in the adapter using the OracleDependency class. For more information about the Database Change Support feature in ODP.NET and the OracleDependency class, see [https://go.microsoft.com/fwlink/?LinkId=124801](https://go.microsoft.com/fwlink/?LinkId=124801).

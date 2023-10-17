@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SDLC Alert Local Logging"
-title: "SDLC Alert Local Logging1"
+title: "SDLC Alert Local Logging1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d43d22b3-3a8b-4fcd-978c-151ec7aadeb0
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SDLC Alert Local Logging
 Before [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] attempts to build and send an SDLC link alert, information about the outage that caused the alert is recorded in a log file that can be viewed using the Windows Event Log service. Message 182 is always logged, as follows:  

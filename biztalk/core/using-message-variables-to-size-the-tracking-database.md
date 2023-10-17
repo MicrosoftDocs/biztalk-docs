@@ -1,12 +1,31 @@
 ---
 description: "Learn more about: Using Message Variables to Size the Tracking Database"
-title: "Using Message Variables to Size the Tracking Database"
+title: "Using Message Variables to Size the Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "message variables [Tracking database], CMsgs"
+  - "message variables [Tracking database], Events"
+  - "message variables [Tracking database], Properties"
+  - "Tracking database, database size"
+  - "message variables [Tracking database], Nserv"
+  - "message variables [Tracking database], Msgs"
+  - "message variables [Tracking database], PropSize"
+  - "message variables [Tracking database]"
+  - "message variables [Tracking database], MsgSize"
+  - "message variables [Tracking database], MsgNum"
+  - "Tracking database, messages"
+ms.assetid: 2d31ae25-3d16-4002-b5a5-dca25e764ecd
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Message Variables to Size the Tracking Database
 In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you can use a number of variables to determine how large the BizTalk Tracking (BizTalkDTADb) database will become over a given period of time. These variables are:  

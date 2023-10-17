@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Staging Tasks for BizTalk Application Deployment"
-title: "Staging Tasks for BizTalk Application Deployment"
+title: "Staging Tasks for BizTalk Application Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "applications, staging"
+  - "deploying [applications], staging"
+  - "applications, deploying"
+  - "deploying [applications], tasks"
+ms.assetid: de60eddb-da13-412a-94f9-331387b5930e
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Staging Tasks for BizTalk Application Deployment
 The following are the steps involved in deploying a BizTalk application to a staging environment.  

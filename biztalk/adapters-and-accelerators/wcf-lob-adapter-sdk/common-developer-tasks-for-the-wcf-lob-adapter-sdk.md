@@ -1,12 +1,19 @@
 ---
-title: "Common developer tasks for the WCF LOB Adapter SDK"
+title: "Common developer tasks for the WCF LOB Adapter SDK | Microsoft Docs"
 description: Quick links to tutorials and conceptual info about creating adapters using the WCF LOB Adapter SDK
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ed7ab621-6411-412a-8b8a-2edfe5154426
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Common developer tasks for the WCF LOB Adapter SDK
 

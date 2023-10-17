@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Samples"
-title: "Samples3"
+title: "Samples3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SDK samples"
+  - "examples, developing"
+  - "developing, examples"
+ms.assetid: b940111e-4f71-494b-b7a3-d2e8310bea51
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Samples
 This section describes the samples included in the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK). This section provides detailed information about each sample, including how to build the sample, how to run it, and what results to expect.  

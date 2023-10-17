@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring Certificates with Adapters"
-title: "Configuring Certificates with Adapters"
+title: "Configuring Certificates with Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9d1e09ab-4d96-4d02-a895-bae600dcfa1d
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Certificates with Adapters
 The following sections describe how to configure certificates for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters.  

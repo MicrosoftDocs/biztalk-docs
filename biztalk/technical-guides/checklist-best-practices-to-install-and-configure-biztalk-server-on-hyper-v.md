@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Best Practices for Installing and Configuring BizTalk Server on Hyper-V"
-title: "Checklist: Best Practices to install and configure on Hyper-V"
+title: "Checklist: Best Practices to install and configure on Hyper-V | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5b5ddbb5-3752-4294-ae6a-c14363b3ddc9
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Best Practices for Installing and Configuring BizTalk Server on Hyper-V
 The sections below are a summary of the installation and configuration requirements described in the [Deploying BizTalk Server on Hyper-V](../technical-guides/deploying-biztalk-server-on-hyper-v.md) section of this guide. These should be used as a quick reference when installing, configuring and deploying [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a Hyper-V environment. Links to the relevant sections are provided for further information.

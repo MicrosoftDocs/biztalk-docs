@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MsSna_LinkService_IpDlc.GetNextAvailableOrdinal Method"
-title: "MsSna_LinkService_IpDlc.GetNextAvailableOrdinal Method2"
+title: "MsSna_LinkService_IpDlc.GetNextAvailableOrdinal Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 46fc1840-9aba-4380-8d3f-902ee98cc913
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MsSna_LinkService_IpDlc.GetNextAvailableOrdinal Method
 Internal. The **GetNextAvailableOrdinal** method returns the next available link service number.  

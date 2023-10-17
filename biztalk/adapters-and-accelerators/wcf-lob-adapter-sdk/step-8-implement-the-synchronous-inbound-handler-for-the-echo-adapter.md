@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 8: Implement the Synchronous Inbound Handler for the Echo Adapter"
-title: "Step 8: Implement the Synchronous Inbound Handler for the Echo Adapter"
+title: "Step 8: Implement the Synchronous Inbound Handler for the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 723eac73-40c4-41b4-aca1-dd7451d25bfe
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 8: Implement the Synchronous Inbound Handler for the Echo Adapter
 ![Step 8 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-8of9.gif "Step_8of9")  

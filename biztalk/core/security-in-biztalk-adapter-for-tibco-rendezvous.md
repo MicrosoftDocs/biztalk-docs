@@ -1,12 +1,19 @@
 ---
-title: "Security in TIBCO Rendezvous adapter"
+title: "Security in TIBCO Rendezvous adapter | Microsoft Docs"
 description: Use enterprise single sign-on (SSO) to secure your applications that use the TIBCO Rendezvous adapter in BizTalk
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ec9011a8-43c3-4a6e-8c89-851c04ef4a1e
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SSO Security in BizTalk Adapter for TIBCO Rendezvous
 

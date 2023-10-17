@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating Affiliate Applications for Host Initiated SSO"
-title: "Creating Affiliate Applications for Host Initiated SSO"
+title: "Creating Affiliate Applications for Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4399dbe9-2215-4754-b386-d3546a7f705a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Creating Affiliate Applications for Host Initiated SSO
 You can define two types of applications:  

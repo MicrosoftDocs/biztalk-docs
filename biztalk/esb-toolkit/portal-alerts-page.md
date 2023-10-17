@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Portal Alerts Page"
-title: "Portal Alerts Page"
+title: "Portal Alerts Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 131b4750-ce3d-445f-be0e-6bf499734c69
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Portal Alerts Page
 Figure 1 shows the Alerts page, which contains two sections:  

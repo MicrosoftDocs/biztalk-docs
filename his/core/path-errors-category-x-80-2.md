@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Path Errors (Category X&#39;80&#39;)"
-title: "Path Errors (Category X&#39;80&#39;)2"
+title: "Path Errors (Category X&#39;80&#39;)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 61247bf0-3fde-40b0-9321-cf446f539b5d
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Path Errors (Category X&#39;80&#39;)
 Sense codes in this category indicate that the request could not be delivered to the required half-session because of path errors. The following codes are in this category.  

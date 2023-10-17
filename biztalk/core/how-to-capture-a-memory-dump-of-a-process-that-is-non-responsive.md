@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Capture a Memory Dump of a Process that is Non Responsive"
-title: "How to Capture a Memory Dump of a Process that is Non Responsive"
+title: "How to Capture a Memory Dump of a Process that is Non Responsive | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8ad53376-2fab-4dee-8a6a-a44d157390f2
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Capture a Memory Dump of a Process that is Non Responsive
 The BizTalk process BTSNTSvc.exe is defined as **hanging** when the process seems to stop responding. Common symptoms of a process hang include:  

@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Browse, search, and get metadata for IDOC operations in SAP"
-title: "Browse, search, and get metadata for IDOC operations in SAP"
+title: "Browse, search, and get metadata for IDOC operations in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF client, generating for IDOC operations"
+  - "IDOCs, searching"
+  - "searching, IDOCs"
+  - "IDOCs, browsing"
+  - "browsing, IDOCs"
+  - "IDOC operations, generating schema for"
+  - "IDOC operations"
+ms.assetid: 44d05129-ce06-4a10-bf28-9d3519a02a7a
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Browse, search, and get metadata for IDOC operations in SAP
 This section provides instructions on how to browse, search, and retrieve metadata from SAP for IDOC operations using [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. Most of the instructions are same for all three user interface. Wherever applicable, separate procedures are provided for the relevant user interface.  

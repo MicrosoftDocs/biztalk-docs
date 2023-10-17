@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Batching"
-title: "Batching"
+title: "Batching | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "batching"
+  - "Messaging Engine, batching"
+  - "batching, batch size"
+  - "batching, about batching"
+  - "batching, configuring"
+  - "batching, Messaging Engine"
+ms.assetid: eadc177a-d395-4f99-8dab-aa706fd8ea00
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Batching
 *Batching* is a serialized processing of a set of messages that allows for optimizations with respect to database round trips. A batch is a unit of work that is atomic; that is, it either all succeeds or all fails. If one operation in a batch succeeds but another operation fails, all the operations that make up the batch are invalidated and must be repeated.  

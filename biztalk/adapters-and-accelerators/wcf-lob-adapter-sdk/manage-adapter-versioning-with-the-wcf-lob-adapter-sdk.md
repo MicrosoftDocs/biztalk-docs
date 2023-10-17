@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Manage adapter versioning with the WCF LOB Adapter SDK"
-title: "Manage adapter versioning with the WCF LOB Adapter SDK"
+title: "Manage adapter versioning with the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: fb596fdd-251c-4978-9f33-cf2883d281d8
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Manage adapter versioning with the WCF LOB Adapter SDK
 After initial deployment of adapters and potentially several times during their lifetime, adapters (and the endpoints they expose) may need to be changed for a variety of reasons. These reasons include changing business needs, information technology requirements, or issues with the line of business system or the adapter itself. This topic discusses different strategies for handling versioning for adapters that are written using the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)].

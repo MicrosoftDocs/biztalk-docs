@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Configure a FILE Receive Location"
-title: "Step 1: Configure a FILE Receive Location"
+title: "Step 1: Configure a FILE Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: df591263-964a-4ad8-bc3a-a553de8dae4f
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Configure a FILE Receive Location
 In this topic, you configure a FILE receive location that consumes the dummy request message that you drop to a file folder to invoke the send port.  

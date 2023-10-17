@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Planning for Transaction Integrator"
-title: "Planning for Transaction Integrator"
+title: "Planning for Transaction Integrator | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3baca727-234d-494b-93a2-0be91efa6d1a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Planning for Transaction Integrator
 

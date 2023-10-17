@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: How to Configure Tracking for a Schema"
-title: "How to Configure Tracking for a Schema"
+title: "How to Configure Tracking for a Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "schemas, configuring"
+  - "managing [schemas], configuring"
+  - "configuring [HAT tracking], schemas"
+  - "configuring, schemas"
+  - "configuring, tracking"
+  - "HAT, schemas"
+  - "managing [schemas], tracking"
+  - "schemas, tracking"
+  - "tracking, configuring"
+  - "tracking, schemas"
+ms.assetid: b5f69c98-8824-43b1-8f21-d84b60ac5431
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure Tracking for a Schema
 This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure tracking for a schema. To configure tracking, you specify the properties of the messages that you want to view in the query views of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console Group Hub page.  

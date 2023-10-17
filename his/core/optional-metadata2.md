@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Optional Metadata"
-title: "Optional Metadata2"
+title: "Optional Metadata2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 473a8667-a6c6-49ac-8dc2-11217575265d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Optional Metadata
 As a developer, you can choose to have the Transaction Integrator (TI) run-time environment send and receive metadata to and from the mainframe transaction program (TP), and you can choose the content of that metadata.  

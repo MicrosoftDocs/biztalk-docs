@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: System Trailers"
-title: "System Trailers"
+title: "System Trailers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "trailers [SWIFT]"
+  - "SWIFT, trailers"
+ms.assetid: 2fd49be9-afe8-47c6-a613-fa469faa2126
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # System Trailers
 System trailers convey additional or special details about the SWIFT message. If any of the first three system trailers are present, they occur in the following order. The remaining system trailers can occur in any order.  

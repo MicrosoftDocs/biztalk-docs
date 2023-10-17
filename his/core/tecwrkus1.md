@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: tecwrkus"
-title: "tecwrkus1"
+title: "tecwrkus1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a4b76119-58fa-4ac4-80af-6948a6cff40e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # tecwrkus
 

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Interfaces for a Solicit-Response Send Adapter"
-title: "Interfaces for a Solicit-Response Send Adapter"
+title: "Interfaces for a Solicit-Response Send Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c54650e8-dbfb-4c66-843b-0b82c8183dd4
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Interfaces for a Solicit-Response Send Adapter
 Send adapters use the same batch mechanism as receive adapters to submit response messages back into the server.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Start Event Viewer"
-title: "How to Start Event Viewer1"
+title: "How to Start Event Viewer1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c9d5a94f-e8f7-4e69-9cdb-54d725dd34e9
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Start Event Viewer
 Event Logs can be viewed using the Windows Event Viewer.  

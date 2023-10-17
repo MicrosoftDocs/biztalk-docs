@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Querying Scheduled Aggregated Data"
-title: "Querying Scheduled Aggregated Data"
+title: "Querying Scheduled Aggregated Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BAM, scheduled data"
+  - "queries [BAM], scheduled data"
+ms.assetid: fb785ec0-7862-4d83-bb6f-0ebd69a28ce6
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Querying Scheduled Aggregated Data
 Scheduled aggregation data is available to queries through dynamically created OLAP cubes in the  BAM Analysis database.  

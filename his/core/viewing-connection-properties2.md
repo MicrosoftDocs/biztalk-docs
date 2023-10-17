@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Viewing Connection Properties"
-title: "Viewing Connection Properties2"
+title: "Viewing Connection Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 03383aa6-f154-4bc6-b4ca-d840f9dce239
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Viewing Connection Properties
 As with other link services, you can view IP-DLC link service properties by using the context menu in the list view of the **Link Services** folder.  

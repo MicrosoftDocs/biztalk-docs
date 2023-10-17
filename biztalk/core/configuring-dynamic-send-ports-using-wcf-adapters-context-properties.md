@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Configuring Dynamic Send Ports Using WCF Adapters Context Properties"
-title: "Configuring Dynamic Send Ports Using WCF Adapters Context Properties"
+title: "Configuring Dynamic Send Ports Using WCF Adapters Context Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF services, send ports"
+  - "send ports, WCF services"
+  - "dynamic send ports, WCF services"
+  - "send ports, dynamic"
+ms.assetid: 2a7e2cd2-fa2d-45da-bb8e-eb8bab21bfa3
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Dynamic Send Ports Using WCF Adapters Context Properties
 You can configure dynamic send ports for WCF adapters. The URI, action, and binding might be determined from a property on an incoming message, and then specified in the **Expression** shape, as shown in the following WCF-NetTcp adapter:  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: IcomLU0 Interface"
-title: "IcomLU0 Interface"
+title: "IcomLU0 Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 252d9aef-60b7-4a44-9dc9-6d8fa8f12191
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # IcomLU0 Interface
 The IcomLU0 interface allows access to an LU0 session.  

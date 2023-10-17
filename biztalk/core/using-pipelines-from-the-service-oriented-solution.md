@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Using Pipelines from the Service Oriented Solution"
-title: "Using Pipelines from the Service Oriented Solution"
+title: "Using Pipelines from the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "service solution tutorial, pipelines"
+  - "pipelines, service solutions"
+ms.assetid: 0870fce1-52ec-4ff8-884f-a3199bd7ccbb
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Pipelines from the Service Oriented Solution
 The inline version of the customer service orchestration (**CustomerService**) calls the payment tracking system directly. To prepare the sent message and process the received message, the orchestration calls the pipelines from code. This allows the reuse of the pipelines from the other scenarios versions. It also maintains the decoupling of the orchestration from the pipeline stages.  

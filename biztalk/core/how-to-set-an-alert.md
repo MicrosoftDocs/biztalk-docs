@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: How to Set an Alert"
-title: "How to Set an Alert"
+title: "How to Set an Alert | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "alerts, creating"
+  - "Query Builder [BAM portal], creating alerts"
+  - "queries [BAM], aggregations"
+  - "Query Builder [BAM portal], activity searches"
+  - "Query Builder [BAM portal], aggregation alerts"
+  - "queries [BAM], alerts"
+  - "aggregations, alerts"
+ms.assetid: 8745d2c6-5bc0-4d7a-8c17-361535f5c6e6
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Set an Alert
 You can set an alert by attaching it to an activity search or drilling down through an aggregation.  

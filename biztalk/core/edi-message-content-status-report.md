@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Message Content Status Report"
-title: "EDI Message Content Status Report"
+title: "EDI Message Content Status Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 29acab25-354d-42f0-b6e3-37ebca47addb
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Message Content Status Report
 

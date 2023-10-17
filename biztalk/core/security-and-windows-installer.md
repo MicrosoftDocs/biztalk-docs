@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Security and Windows Installer"
-title: "Security and Windows Installer"
+title: "Security and Windows Installer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "security, Windows installer"
+  - "Windows installer"
+ms.assetid: efa68c3e-2006-4665-bd41-07defaf4e2e2
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security and Windows Installer
 Windows Installer is a powerful tool for installing and updating BizTalk applications. When using Windows Installer, you should be aware of the security issues that can be created by malicious Windows Installer (.msi) file creators and take steps to prevent them.  

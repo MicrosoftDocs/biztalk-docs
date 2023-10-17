@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: WHERE Clause Parsing"
-title: "WHERE Clause Parsing1"
+title: "WHERE Clause Parsing1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cab40b65-760a-493c-bafc-deface4d0bc2
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # WHERE Clause Parsing
 The following describes the parsing rules for a `WHERE` clause for the Managed Provider for Host Files and provides sample parsing statements.  

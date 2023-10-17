@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Create a New Host Integration Server Designer Project"
-title: "How to Create a New Host Integration Server Designer Project1"
+title: "How to Create a New Host Integration Server Designer Project1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: da54d1fe-8828-4c77-8dcd-421176c8f14c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create a New Host Integration Server Designer Project
 You can create a new Transaction Integrator (TI) Designer project in the Visual Studio development environment.  

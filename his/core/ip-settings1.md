@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: IP Settings"
-title: "IP Settings1"
+title: "IP Settings1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c7c1357a-091f-43d3-9bf9-5b25eac637eb
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # IP Settings
 The IP settings assigned to an LUA LU or pool will allow TN3270 clients to connect to that LUA LU or pool. By default, the LUA LU or pool is not assigned an IP address or a subnet mask. This will allow any TN3270 client to use the LUA LUs or pools.  

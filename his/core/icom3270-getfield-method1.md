@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Icom3270.getField Method"
-title: "Icom3270.getField Method1"
+title: "Icom3270.getField Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 64b020b6-8cc7-4bc1-9bb6-725524dff048
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Icom3270.getField Method
 The getField method returns the starting position and length of the field containing the specified screen offset.  

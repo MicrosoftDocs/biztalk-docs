@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Retrieve an Adapter Name"
-title: "How to Retrieve an Adapter Name2"
+title: "How to Retrieve an Adapter Name2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e46578ce-df53-4b60-a325-260e7eae4316
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Retrieve an Adapter Name
 One of the tasks you must perform when setting up an IPDLC connection is to retrieve the name of the adapter you are connecting with.  

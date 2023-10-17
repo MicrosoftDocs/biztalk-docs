@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Scaled-Out Processing Hosts"
-title: "Scaled-Out Processing Hosts"
+title: "Scaled-Out Processing Hosts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "high availability"
+  - "hosts, processing"
+  - "hosts, high availability"
+  - "scaling, hosts"
+  - "hosts, planning"
+  - "hosts, scaling"
+  - "clustering"
+ms.assetid: c72ce8fc-7593-4700-8398-23d1a20515c3
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scaled-Out Processing Hosts
 A scaled-out processing host improves performance and provides high availability by isolating orchestration functionality onto two or more separate host computers. This isolation lets you add multiple computers to a processing host for redundancy. A processing host in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runs one or more host instances that coordinate various business processes and creates an instance of programmatic objects for orchestrations.  

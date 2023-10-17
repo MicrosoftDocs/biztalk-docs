@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BTSTask Command-Line Reference"
-title: "BTSTask Command-Line Reference"
+title: "BTSTask Command-Line Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3c350695-13e9-441a-9f1e-03cdc3e41328
+caps.latest.revision: 30
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BTSTask Command-Line Reference
 The topics in this section provide reference information for the BTSTask command-line tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. You can use BTSTask to perform many application deployment tasks from the command line, as follows:  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Envelopes (X12-Interchange Settings)"
-title: "Configuring Envelopes (X12-Interchange Settings)"
+title: "Configuring Envelopes (X12-Interchange Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c4fade73-14cf-475c-81b5-6102c75db991
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Envelopes (X12-Interchange Settings)
 X12 interchange envelope generation settings define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates the envelope of an X12-encoded interchange to be sent to the receiving party. In this section, you define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates the ISA segment for an X12-encoded interchange that it sends to the party. An ISA segment is the interchange control header for an X12-encoded interchange.  

@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Considerations when Using Orchestration Debugger"
-title: "Considerations when Using Orchestration Debugger"
+title: "Considerations when Using Orchestration Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Orchestration Debugger, modified orchestrations"
+  - "Orchestration Debugger, planning"
+  - "atomic scopes"
+  - "planning, Orchestration Debugger"
+  - "Orchestration Debugger, atomic scopes"
+  - "Orchestration Debugger, simple types"
+  - "orchestrations, modifying"
+ms.assetid: 55bfef48-08bd-48bb-abd5-7264e683da46
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Considerations when Using Orchestration Debugger
 Following are some things to consider when you work with the Orchestration Debugger.  

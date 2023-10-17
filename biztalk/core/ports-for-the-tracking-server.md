@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Ports for the Tracking Server"
-title: "Ports for the Tracking Server"
+title: "Ports for the Tracking Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/07/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tracking server"
+  - "ports, tracking server"
+ms.assetid: 4b4913a4-7d8d-4fd0-a116-ba868c4ad7da
+caps.latest.revision: 18
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Ports for the Tracking Server
 For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

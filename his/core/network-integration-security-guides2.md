@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Network Integration Security Guides"
-title: "Network Integration Security Guides2"
+title: "Network Integration Security Guides2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4b73243c-a457-4193-aafe-1dda6bbbeaba
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Network Integration Security Guides
 The network integration features of Microsoft Host Integration Server fall into several areas. Each area has a Security guide.  

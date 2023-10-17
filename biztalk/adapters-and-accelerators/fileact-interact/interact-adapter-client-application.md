@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: InterAct Adapter Client Application"
-title: "InterAct Adapter Client Application"
+title: "InterAct Adapter Client Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cdab4624-0fc2-42a3-9867-8f77e144b40c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # InterAct Adapter Client Application
 InterAct adapter client application request messages are XML documents passed from the client application to the client-side SWIFTNet Link (SNL). Messages of this type occur as the first part of the SWIFTNet Request/Response primitives exercised on the client side.  

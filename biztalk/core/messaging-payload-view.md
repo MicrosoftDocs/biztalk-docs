@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Messaging Payload View"
-title: "Messaging Payload View"
+title: "Messaging Payload View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Messaging Payload view [Tracking Profile Editor]"
+  - "message schemas, Tracking Profile Editor"
+  - "Tracking Profile Editor, message schemas"
+  - "message schemas, payloads"
+  - "Tracking Profile Editor, Messaging Payload view"
+ms.assetid: 2bc247c5-5b31-4cd7-8377-ff9614df1320
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Messaging Payload View
 The Messaging Payload view displays the schema of the XML message associated with the selected action (for example, Message Sent or Received). The view is available from the shortcut menu for some of the shapes in the Orchestration Schedule view.  

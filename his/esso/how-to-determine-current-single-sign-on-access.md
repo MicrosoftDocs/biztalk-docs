@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Determine Current Single Sign-On Access"
-title: "How to Determine Current Single Sign-On Access"
+title: "How to Determine Current Single Sign-On Access | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 21172221-f716-4c6c-b12b-9f0f5fa23fcd
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Determine Current Single Sign-On Access
 One of the first tasks you might need to perform for a user is to determine what affiliated applications have already been set up for the current user. You can perform this query with a call to ISSOMapper.GetApplications.  

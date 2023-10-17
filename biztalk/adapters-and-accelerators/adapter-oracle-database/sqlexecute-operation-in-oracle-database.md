@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: SQLEXECUTE Operation in Oracle Database"
-title: "SQLEXECUTE Operation in Oracle Database"
+title: "SQLEXECUTE Operation in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "DML"
+  - "data manipulation language"
+  - "operations, DML"
+  - "SQLEXECUTE"
+ms.assetid: d7f881e4-c668-4f8e-b08a-ea6614b65910
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SQLEXECUTE Operation in Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces a standard set of operations on Oracle database artifacts. By using these operations, you can do things like call an Oracle function or procedure, or perform basic SQL data manipulation language (DML) operations on tables. However, there may be scenarios driven by your business logic that require you to perform operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] does not surface. For example, you may want to:  

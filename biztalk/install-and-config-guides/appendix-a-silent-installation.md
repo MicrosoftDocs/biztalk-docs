@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Appendix A: Silent Installation"
-title: "Appendix A: Silent Installation"
+title: "Appendix A: Silent Installation | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/22/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 94ded6b3-13ca-47e6-a038-254514f500e7
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Appendix A: Silent Installation
 This topic lists the steps to create a silent installation of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

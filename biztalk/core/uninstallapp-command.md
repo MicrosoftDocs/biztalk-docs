@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: UninstallApp Command"
-title: "UninstallApp Command"
+title: "UninstallApp Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f45c9530-8138-40f1-b279-1428c5a7fbbc
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # UninstallApp Command
 Uninstalls a BizTalk application from the local computer and also removes the application from the list of programs in Add or Remove Programs in Control Panel. This command has the same effect as removing an application by using Add or Remove Programs. If multiple .msi files have been installed for this application, all of the items installed by all of the .msi files are uninstalled.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Adapter Registry Wizard"
-title: "Adapter Registry Wizard"
+title: "Adapter Registry Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "utilities, Adapter Registration Wizard"
+  - "Adapter Registration Wizard"
+ms.assetid: bd15d0c7-01bb-41f9-9157-cdcf4bb4e39a
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Registry Wizard
 You use the Adapter Registry Wizard to create the registry files needed to configure and register a custom adapter.  

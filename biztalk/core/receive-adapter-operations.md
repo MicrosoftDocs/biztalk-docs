@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Receive Adapter Operations"
-title: "Receive Adapter Operations"
+title: "Receive Adapter Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b61ea356-f2a1-4604-8e52-13d2961399d0
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive Adapter Operations
 Receive adapters can perform the following operations:  

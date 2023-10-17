@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LUA Programmer&#39;s Security Guide"
-title: "LUA Programmer&#39;s Security Guide2"
+title: "LUA Programmer&#39;s Security Guide2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0a4b0e15-e557-4573-9cc8-5d21ca042cf5
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LUA Programmer&#39;s Security Guide
 The following topics discuss security as it applies to the LUA section of the Host Integration Server SDK.  

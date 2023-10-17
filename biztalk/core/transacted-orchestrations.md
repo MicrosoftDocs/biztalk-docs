@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Transacted Orchestrations"
-title: "Transacted Orchestrations"
+title: "Transacted Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, compensations"
+  - "orchestrations, transactional"
+  - "Transaction Type property"
+ms.assetid: c4f0b6ca-d939-4d3a-b7ef-53c6aafdea9c
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Transacted Orchestrations
 Orchestrations can be transactional, just like scopes. In fact, an orchestration can itself be considered a scope. In general, the same rules apply for transacted orchestrations as for transacted scopes.  

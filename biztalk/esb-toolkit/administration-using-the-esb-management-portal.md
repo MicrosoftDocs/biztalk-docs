@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Administration Using the ESB Management Portal"
-title: "Administration Using the ESB Management Portal"
+title: "Administration Using the ESB Management Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 478d1dcc-e9b2-443b-be98-5b7545322401
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Administration Using the ESB Management Portal
 The ESB Management Portal, included as part of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)], is a sample site that demonstrates the use of metrics and the possibilities that exist for extending the BizTalk ESB Toolkit. The portal provides a starting point from which you can build your own customized portal.

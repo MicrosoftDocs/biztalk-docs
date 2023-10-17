@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: HIPAA Schema Trigger Field Annotations"
-title: "HIPAA Schema Trigger Field Annotations"
+title: "HIPAA Schema Trigger Field Annotations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e1389284-a2ec-44e7-a2f1-8d26f83fd31d
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # HIPAA Schema Trigger Field Annotations
 EDI segments often contain qualifier values that modify the meaning of the segment. For example, an N1 segment can contain a qualifying element of “BT” to signify a “bill-to name,” or it may contain a qualifying element of “ST” to indicate a “ship-to name.” Normally it is left to business logic to determine how to interpret these fields and the disassembler resolves all instances of the N1 segment to the same XML record name; however, the HIPAA schemas shipped with BizTalk Server contain annotations that allow the EDI disassembler to create unique XML records based on the presence of a qualifying element.  

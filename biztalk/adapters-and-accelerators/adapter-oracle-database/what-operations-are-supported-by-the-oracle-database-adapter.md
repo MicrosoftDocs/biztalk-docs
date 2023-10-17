@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: What operations are supported by the Oracle Database adapter"
-title: "What operations are supported by the Oracle Database adapter"
+title: "What operations are supported by the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SOAP"
+  - "operations, performing"
+ms.assetid: d78dbeb8-9dab-4a71-982e-f7ada51472e8
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What operations are supported by the Oracle Database adapter
 Adapter clients can perform operations on the Oracle database by creating BizTalk projects, by using the WCF channel model, or by using the WCF service model. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes operations that applications can invoke on it and that it can, in turn, invoke on applications. These operations are invoked by sending SOAP messages over a channel. If a response is required, it is returned in a SOAP message over the same channel. For information about the message structure and the SOAP action associated with each operation, see [Messages and Message Schemas for BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md).  

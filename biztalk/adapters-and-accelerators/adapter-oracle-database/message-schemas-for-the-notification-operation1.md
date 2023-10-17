@@ -1,12 +1,19 @@
 ---
 description: "Learn about the message schemas for the Notification operation used by the Microsoft BizTalk Adapter for Oracle Database."
-title: "Message Schemas for the Notification Operation1"
+title: "Message Schemas for the Notification Operation1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f98d76d0-6084-4de7-b6ff-124202ca92ab
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Notification Operation Message Schemas
 

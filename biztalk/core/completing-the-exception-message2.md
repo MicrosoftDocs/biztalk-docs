@@ -1,12 +1,21 @@
 ---
 description: "Create a send message, and redirect the fault message in BizTalk Server"
-title: "Completing the Exception Message2"
+title: "Completing the Exception Message2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "exceptions, completing the flow"
+ms.assetid: 9cae28f7-6eec-42e1-91ae-ce4db582b90d
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Complete the Exception Message Flow
 To complete the flow of the exception, create a **Send** message and redirect the fault Message_3 to a monitored folder.  

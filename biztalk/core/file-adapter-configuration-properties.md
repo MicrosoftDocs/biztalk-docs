@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: File Adapter Configuration Properties"
-title: "File Adapter Configuration Properties"
+title: "File Adapter Configuration Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "File adapters, code sample"
+  - "receive locations, adapters"
+  - "File adapters, send ports"
+  - "File adapters, receive locations"
+  - "File adapters, properties"
+  - "send ports, adapters"
+ms.assetid: 53f4fd17-95b9-4861-b433-772b619e90c7
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # File Adapter Configuration Properties
 The following table lists the configuration properties that you can set for a File adapter receive location:  

@@ -1,5 +1,6 @@
 ---
 # required metadata
+
 title: Custom XSLT transform implementation
 description: Custom XSLT transform implementation
 author: Elvis-Shi
@@ -9,7 +10,9 @@ ms.date: 01/06/2020
 ms.topic: reference
 ms.prod: biztalk-server
 # optional metadata
+
 #ROBOTS:
+
 ms.reviewer: 
 ms.suite:
 ms.tgt_pltfrm:

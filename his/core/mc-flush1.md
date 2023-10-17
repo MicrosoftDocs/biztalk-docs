@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: MC_FLUSH"
-title: "MC_FLUSH1"
+title: "MC_FLUSH1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f80a09af-fc65-4499-9dff-78a1826fc451
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # MC_FLUSH
 The **MC_FLUSH** verb sends the contents of the local logical unit's (LU) send buffer to the partner LU and transaction program (TP). If the send buffer is empty, no action takes place.  

@@ -1,12 +1,29 @@
 ---
 description: "Learn more about: Authentication of Messages Between Processes"
-title: "Authentication of Messages Between Processes"
+title: "Authentication of Messages Between Processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "PID"
+  - "security, warnings"
+  - "processing, messages"
+  - "processing, security"
+  - "messages, processing"
+  - "security, messages"
+  - "MessageBox database, authenticating"
+  - "SSID"
+  - "authenticating, warnings"
+ms.assetid: fa746ee3-fc22-4e63-a5cc-8bc0cbeb536b
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Authentication of Messages Between Processes
 The following figure shows the security features in BizTalk Server that enable you to authenticate messages between different BizTalk hosts.  

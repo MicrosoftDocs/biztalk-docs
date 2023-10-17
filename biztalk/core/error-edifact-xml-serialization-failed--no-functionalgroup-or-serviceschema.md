@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Edifact interchange Xml serialization failed due to invalid structure, no FunctionalGroup or ServiceSchema"
-title: "Edifact interchange Xml serialization failed due to invalid structure, no FunctionalGroup or ServiceSchema"
+title: "Edifact interchange Xml serialization failed due to invalid structure, no FunctionalGroup or ServiceSchema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 530faadd-e301-4743-b4b3-b04ba7578f1d
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Edifact interchange Xml serialization failed due to invalid structure, no FunctionalGroup or ServiceSchema
 ## Details  

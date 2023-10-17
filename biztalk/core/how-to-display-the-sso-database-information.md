@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Display the SSO Database Information"
-title: "How to Display the SSO Database Information"
+title: "How to Display the SSO Database Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [SSO], viewing SSO database"
+  - "SSO database, viewing"
+  - "viewing, SSO database"
+ms.assetid: 0ebadd2e-6ea5-460c-b0a8-f48589e6bf1c
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Display the SSO Database Information
 You can view SSO database information by using the MMC Snap-In or the command line (ssomanage) utility.  

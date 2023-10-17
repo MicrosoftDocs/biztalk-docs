@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Retrieve Data from the Host File System"
-title: "How to Retrieve Data from the Host File System2"
+title: "How to Retrieve Data from the Host File System2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 011f814a-bd2a-42f4-8050-4591f23fb3da
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Retrieve Data from the Host File System
 Just as you can do with other managed data providers, you can access host data with an implementation of a `DataReader` object through `HostfileCommand`.  

@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Orchestration Engine Configuration"
-title: "Orchestration Engine Configuration"
+title: "Orchestration Engine Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "orchestration engine, examples"
+  - "orchestration engine, code sample"
+  - "orchestration engine, dehydration"
+  - "orchestration engine, configuring"
+ms.assetid: d4f253c3-317d-4b52-bf54-81d50f03eeb3
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Orchestration Engine Configuration
 The orchestration engine uses an XML file called BTSNTSvc.exe.config to determine certain behaviors. For example, dehydration properties and their default values are configured as XML in the BTSNTSvc.exe.config file and are read when all host instances containing an orchestration start. For more information, see [Orchestration Dehydration and Rehydration](../core/orchestration-dehydration-and-rehydration.md).

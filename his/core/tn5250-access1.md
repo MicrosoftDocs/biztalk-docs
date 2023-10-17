@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TN5250 Access"
-title: "TN5250 Access1"
+title: "TN5250 Access1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2892942d-dbb8-4610-8e5b-86e95f10d981
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TN5250 Access
 TN5250 is a protocol that allows users to access IBM System i systems over a TCP/IP network using an appropriate TN5250 client terminal emulator. The TN5250 service provided with Host Integration Server enables any TN5250 client to connect to the IBM System i by means of Host Integration Server without installing or configuring TCP/IP on the IBM System i. Full 5250 terminal emulation functions are supported by the service, as well as hot backup and security features similar to those provided with the TN3270 service.  

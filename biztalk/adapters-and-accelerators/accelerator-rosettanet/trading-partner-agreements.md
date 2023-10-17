@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Trading Partner Agreements"
-title: "Trading Partner Agreements"
+title: "Trading Partner Agreements | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "trading partners, agreements"
+  - "agreements, trading partners"
+ms.assetid: 846466d2-db39-42ba-8be1-ecca83a55a02
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Trading Partner Agreements
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] processes message exchange with a partner by a trading partner agreement (TPA). The TPA defines the specifics of message processing and validation between the two partners. It defines how those partners implement the relevant Partner Interface Process (PIP), which specifies the message content for all implementations of a specific message type. The TPA also defines specifics of how the partners exchange messages over the Internet.  

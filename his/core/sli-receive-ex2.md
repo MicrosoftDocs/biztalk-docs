@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SLI_RECEIVE_EX"
-title: "SLI_RECEIVE_EX2"
+title: "SLI_RECEIVE_EX2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 70ff800e-95b2-4acf-874c-4e04a1b76e65
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SLI_RECEIVE_EX
 The **SLI_RECEIVE_EX** verb receives responses, SNA commands, and data into a Microsoft® Windows® logical unit application (LUA) applications buffer. **SLI_RECEIVE_EX** also provides the current status of the session to the Windows LUA application.  

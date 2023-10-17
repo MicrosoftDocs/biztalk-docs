@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Print Session Status"
-title: "Print Session Status2"
+title: "Print Session Status2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7633fbdc-9a70-4d7b-86da-4c6fd08982e5
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Print Session Status
 There are several different messages that show the status of a [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] print session:  

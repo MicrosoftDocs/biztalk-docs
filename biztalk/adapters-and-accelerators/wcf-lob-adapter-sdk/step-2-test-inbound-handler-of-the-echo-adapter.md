@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 2: Test Inbound Handler of the Echo Adapter"
-title: "Step 2: Test Inbound Handler of the Echo Adapter"
+title: "Step 2: Test Inbound Handler of the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 86dede9b-6b7e-4901-9c79-b75bfee9155f
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Test Inbound Handler of the Echo Adapter
 ![Step 2 of 2](../../adapters-and-accelerators/adapter-sql/media/step-2of2.gif "Step_2of2")

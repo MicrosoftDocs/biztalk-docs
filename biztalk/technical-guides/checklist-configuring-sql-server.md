@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Checklist: Configuring SQL Server"
-title: "Checklist: Configuring SQL Server"
+title: "Checklist: Configuring SQL Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: edd20f24-8a72-40b7-abee-81fbd3ceefda
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Checklist: Configuring SQL Server
 Steps to follow when preparing SQL Server for use in a BizTalk Server production environment.

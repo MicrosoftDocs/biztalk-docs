@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SNA Trace Utility"
-title: "SNA Trace Utility1"
+title: "SNA Trace Utility1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c05c1041-9a6e-4a44-8caa-8566a27584ba
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SNA Trace Utility
 If you are working to improve performance or solve a problem in Host Integration Server , you can use trace tools to determine the source of the problem. The following information guides you through configuring and using the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Trace Utility. The SNA Trace Utility is used to control trace files.  

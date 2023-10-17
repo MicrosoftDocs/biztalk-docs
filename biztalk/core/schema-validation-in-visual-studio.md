@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Schema Validation in Visual Studio"
-title: "Schema Validation in Visual Studio"
+title: "Schema Validation in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 630be4a1-ca86-49c5-8015-0419babb447d
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Schema Validation in Visual Studio
 After you have finished creating a schema, or at different times during its creation, you can validate it to determine whether it contains any internal inconsistencies, or has other issues that might prevent it from being used effectively for process instance messages.  

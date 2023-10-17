@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Create a Remote APPC LU"
-title: "How to Create a Remote APPC LU2"
+title: "How to Create a Remote APPC LU2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 72ced032-e356-46aa-8c5c-3380875f7e90
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create a Remote APPC LU
 The following procedure details how to create a remote LU.  

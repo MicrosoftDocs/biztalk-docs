@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Mathematical Functoids"
-title: "Mathematical Functoids"
+title: "Mathematical Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 244fa926-a086-4398-a677-9c322e9024b2
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Mathematical Functoids
 

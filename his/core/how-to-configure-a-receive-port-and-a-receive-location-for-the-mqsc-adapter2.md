@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure a Receive Port and a Receive Location for the MQSC Adapter"
-title: "How to Configure a Receive Port and a Receive Location for the MQSC Adapter2"
+title: "How to Configure a Receive Port and a Receive Location for the MQSC Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 16871704-2295-44ef-b414-6bd1e28ed7ce
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure a Receive Port and a Receive Location for the MQSC Adapter
 You configure a receive port and receive location for the BizTalk Adapter for WebSphere MQ by using the BizTalk Server Administration console. You must be logged on with an account that is a member of the BizTalk Server Administrators group. In addition, you must have appropriate permissions in the Single Sign-On (SSO) database.  

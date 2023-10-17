@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Using the Pipeline Support Components"
-title: "Using the Pipeline Support Components"
+title: "Using the Pipeline Support Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: df0346ea-15d4-49c5-98d8-f9ec06f4e036
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using the Pipeline Support Components
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes the following pipeline components:  

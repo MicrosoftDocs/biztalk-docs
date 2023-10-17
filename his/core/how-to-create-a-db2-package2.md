@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Create a DB2 Package"
-title: "Create a DB2 Package"
+title: "Create a DB2 Package | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8fc88244-c762-4c3f-a638-cb9882f115bc
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Create a DB2 Package
 

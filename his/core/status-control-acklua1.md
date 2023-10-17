@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-Control(...) ACKLUA"
-title: "Status-Control(...) ACKLUA1"
+title: "Status-Control(...) ACKLUA1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ef6b895f-4caa-4a5e-9a5a-2bc47fd37674
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-Control(...) ACKLUA
 The **Status-Control(...) ACKLUA** message is for logical unit application (LUA) applications only. It flows from the node to the application, and is used with a primary logical unit (PLU) connection.  

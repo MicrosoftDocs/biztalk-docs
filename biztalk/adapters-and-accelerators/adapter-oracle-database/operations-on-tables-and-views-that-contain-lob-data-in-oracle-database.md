@@ -1,12 +1,33 @@
 ---
 description: "Learn more about: Operations on tables and views that contain LOB data in Oracle Database"
-title: "Operations on tables and views that contain LOB data in Oracle Database"
+title: "Operations on tables and views that contain LOB data in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "data type"
+  - "binary file"
+  - "UpdateLOB"
+  - "ReadLOB"
+  - "LOB data types"
+  - "NCLOB"
+  - "large object"
+  - "binary large object"
+  - "CLOB"
+  - "national character large object"
+  - "BFILE"
+  - "BLOB"
+  - "character large object"
+ms.assetid: 25afd8c7-8ca3-4855-a231-2bec28c9a5cb
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Operations on tables and views that contain LOB data in Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] provides support for the Oracle large object (LOB) data types:  

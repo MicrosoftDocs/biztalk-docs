@@ -1,12 +1,19 @@
 ---
-title: "Oracle Database adapter samples"
+title: "Oracle Database adapter samples | Microsoft Docs"
 description: Oracle DB WCF adapter samples that can be used with BizTalk Server, WCF service model, and WCF channel model 
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 744f19ce-3126-4745-92dd-4f68443180fc
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Samples for the Oracle Database adapter
 Samples for [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] are categorized into:  

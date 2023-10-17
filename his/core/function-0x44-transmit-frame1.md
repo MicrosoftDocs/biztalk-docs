@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Function 0x44: Transmit Frame"
-title: "Function 0x44: Transmit Frame1"
+title: "Function 0x44: Transmit Frame1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 409f1ad4-3ff6-46ca-8e3f-9fbede86fb4c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Function 0x44: Transmit Frame
 The SNALink calls this function to transfer a frame of data to the driver.  

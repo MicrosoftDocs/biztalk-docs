@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - No Class for Scripting Functoid"
-title: "Error - No Class for Scripting Functoid"
+title: "Error - No Class for Scripting Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.noClassForScriptingFunctoid"
+ms.assetid: c02504d4-4e13-42dc-9446-869c9dca513a
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - No Class for Scripting Functoid
 **Error Code**  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Wait_For_Conversation (CPI-C)"
-title: "Wait_For_Conversation (CPI-C)1"
+title: "Wait_For_Conversation (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 51a4c1f4-36de-40a1-bb96-eef9bfde3414
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Wait_For_Conversation (CPI-C)
 The **Wait_For_Conversation** call (function name **cmwait**) waits for an operation to complete that has been initiated when the *processing_mode* conversation characteristic was set to CM_NON_BLOCKING and CM_OPERATION_INCOMPLETE was returned in the *return_code* parameter.  

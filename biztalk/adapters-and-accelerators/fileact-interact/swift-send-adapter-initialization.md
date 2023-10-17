@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SWIFT Send Adapter Initialization"
-title: "SWIFT Send Adapter Initialization"
+title: "SWIFT Send Adapter Initialization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 70fd5f3b-8137-421d-a094-fc81c0ec130f
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SWIFT Send Adapter Initialization
 Before sending a message to SWIFT, the send adapter must be initialized. The following figure shows the initialization sequence.  

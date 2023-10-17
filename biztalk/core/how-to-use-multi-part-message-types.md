@@ -1,12 +1,32 @@
 ---
 description: "Learn more about: How to Use Multi-part Message Types"
-title: "How to Use Multi-part Message Types"
+title: "How to Use Multi-part Message Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "multi-part message types, parts"
+  - "multi-part message types, creating"
+  - "multi-part message types, type modifiers"
+  - "messages"
+  - "multi-part message types, deleting"
+  - "orchestrations, messages"
+  - "deleting, multi-part messages"
+  - "multi-part message types, about multi-part message types"
+  - "orchestrations, type modifier"
+  - "messages, multi-parts"
+  - "creating, multi-part messages"
+  - "messages, about messages"
+ms.assetid: 009a39bd-cfc4-42d9-918c-88ac24bfc370
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use Multi-part Message Types
 Each message has a multi-part message type, a description of the message structure that consists of zero or more message parts. The parts are defined by XML Schema Definition (XSD) language schemas or .NET classes. You can define your own multi-part message types, or you can use existing .NET classes and schemas.  

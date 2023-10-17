@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Manually configure a physical port binding to the Oracle E-Business adapter"
-title: "Manually configure a physical port binding to the Oracle E-Business adapter"
+title: "Manually configure a physical port binding to the Oracle E-Business adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 07369428-7b54-4d90-8c63-ba14e67fdbdd
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Manually configure a physical port binding to the Oracle E-Business adapter
 This section provides information about configuring the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] as a WCF custom binding or as a WCF-OracleEBS port by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. After deploying the adapter, you will be able to send and receive messages from Oracle E-Business Suite by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. The steps for deploying the adapter vary depending on:

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10776"
-title: "Single Sign-On: Event 10776"
+title: "Single Sign-On: Event 10776 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 155919fa-f88d-4257-b09c-8765c83d896f
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10776
 ## Details  

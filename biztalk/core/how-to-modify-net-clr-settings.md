@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: How to Modify .NET CLR Settings"
-title: "How to Modify .NET CLR Settings"
+title: "How to Modify .NET CLR Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Bts10.settings.HostInstanceCLR"
+ms.assetid: 085743d8-27a6-4d8b-98c7-bb5b5c75848c
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Modify .NET CLR Settings
 To update the number of Windows threads available in the .NET thread pool associated with an instance of a BizTalk host, you can modify the appropriate Common Runtime Language (CLR) Hosting values using the BizTalk Settings Dashboard. This topic provides the step-by-step procedure to modify these settings.  

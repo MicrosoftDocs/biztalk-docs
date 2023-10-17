@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Using Filters With the Receive Message Shape"
-title: "Using Filters With the Receive Message Shape"
+title: "Using Filters With the Receive Message Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "filters, receive messages"
+  - "messages, filters"
+ms.assetid: 5310039b-6719-4971-933a-2da0573fb5e7
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Filters With the Receive Message Shape
 A filter expression is an optional parameter that can be applied to an orchestration receive shape that specifies a value of True for the Activate property. If a filter expression is specified then the orchestration will only be activated if an incoming message matches the condition(s) specified in the filter expression. If no filter expression is specified then any incoming message that the orchestration subscribes to will activate the orchestration.  

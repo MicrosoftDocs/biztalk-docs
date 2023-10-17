@@ -1,12 +1,36 @@
 ---
 description: "Learn more about: How to Modify the Deployment Options of a .NET Assembly, COM Component, File, or BAM Artifact"
-title: "How to Modify the Deployment Options of a .NET Assembly, COM Component, File, or BAM Artifact"
+title: "How to Modify the Deployment Options of a .NET Assembly, COM Component, File, or BAM Artifact | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [.NET assemblies], deploying"
+  - "deploying, virtual directories"
+  - "managing [applications], deploying"
+  - "managing [applications], modifying"
+  - "definition files [BAM], modifying"
+  - "modifying, artifacts"
+  - "deploying, artifacts"
+  - "managing [certificates], deploying"
+  - "deploying, .NET assemblies"
+  - "COM components, deploying"
+  - "definition files [BAM], deploying"
+  - "virtual directories, deploying"
+  - "deploying, certificates"
+  - "modifying, deployment options"
+  - "virtual directories, modifying"
+  - "deploying, COM components"
+ms.assetid: 4955d420-d9ff-4d5a-82f4-fb16477a828c
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Modify the Deployment Options of a .NET Assembly, COM Component, File, or BAM Artifact
 This topic describes how to use the BizTalk Server Administration console to modify the deployment options of the following resource artifacts:  

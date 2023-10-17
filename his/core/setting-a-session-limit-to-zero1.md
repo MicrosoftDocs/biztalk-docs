@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Setting a Session Limit to Zero"
-title: "Setting a Session Limit to Zero1"
+title: "Setting a Session Limit to Zero1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e47e4048-66be-4dfa-bedf-17c7e41dc6a4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Setting a Session Limit to Zero
 After **CNOS** raises the session limit above zero, it can reset the limit to zero only. It cannot set the session limit to a value that is not zero, and it cannot redistribute the number of sessions allocated as the contention winners and losers. Therefore, your program cannot change the mode session limits if the two logical units (LUs) have already set the limits to a nonzero value, regardless of which LU initiated the **CNOS** transaction.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring for LUA"
-title: "Configuring for LUA1"
+title: "Configuring for LUA1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d57d1bba-5deb-40b6-9255-937496a5d962
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring for LUA
 The Host Integration Server configuration file, which is set up and maintained by the system administrator, contains information that is required for logical unit application (LUA) applications to communicate. An LUA LU is configured by the link service to use a connection to the host, and is given an LU number that matches that of an LU on the host.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Import BPEL4WS in BizTalk Server"
-title: "How to Import BPEL4WS"
+title: "How to Import BPEL4WS | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3626fcb9-8e7d-4812-a0c9-bde6e7954ec8
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Import BPEL4WS in BizTalk Server
 You can import from existing BPEL4WS to create an orchestration.  

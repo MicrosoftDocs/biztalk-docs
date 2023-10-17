@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Scenario 1: Sizing the Tracking Database  for Simple BizTalk Messages"
-title: "Scenario 1: Sizing the Tracking Database  for Simple BizTalk Messages"
+title: "Scenario 1: Sizing the Tracking Database  for Simple BizTalk Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Tracking database, database size"
+ms.assetid: 5b8fed48-d9c9-4d1f-a320-d3e23b8b1ec9
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Scenario 1: Sizing the Tracking Database  for Simple BizTalk Messages
 In the following figure, a simple BizTalk Server message passes in and out of BizTalk Server without undergoing any message transformation.  

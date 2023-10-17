@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Understanding Tracked Data"
-title: "Understanding Tracked Data"
+title: "Understanding Tracked Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "instances, viewing"
+  - "service instances, viewing"
+  - "viewing, suspended instances"
+  - "messages, viewing"
+  - "viewing, service details"
+  - "viewing, orchestration details"
+  - "viewing, message details"
+  - "orchestrations, viewing"
+  - "suspended instances"
+  - "instances, suspended"
+ms.assetid: dcc3fbd5-cd2c-4780-a577-0ccd521cf5eb
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Understanding Tracked Data
 When you run a tracking query, the tracked information appears in the results list at the bottom of the Query Results window.  

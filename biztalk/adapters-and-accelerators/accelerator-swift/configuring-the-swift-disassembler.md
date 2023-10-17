@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Configuring the SWIFT Disassembler"
-title: "Configuring the SWIFT Disassembler"
+title: "Configuring the SWIFT Disassembler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "configuring, disassembler"
+  - "disassembler, configuring"
+ms.assetid: f3773781-7412-421c-943c-18cc665da8d9
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring the SWIFT Disassembler
 The SWIFT disassembler (DASM) performs the following tasks when you invoke it in a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] receive pipeline:  

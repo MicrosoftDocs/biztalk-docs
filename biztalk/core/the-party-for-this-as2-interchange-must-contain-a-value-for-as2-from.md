@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The party for this AS2 interchange must contain a value for AS2-From"
-title: "The party for this AS2 interchange must contain a value for AS2-From"
+title: "The party for this AS2 interchange must contain a value for AS2-From | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5d338759-5646-4dc2-8319-a42aaa8c3d9c
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The party for this AS2 interchange must contain a value for AS2-From
 ## Details  

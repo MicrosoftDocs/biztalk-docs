@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Brackets"
-title: "Brackets1"
+title: "Brackets1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4b582671-4389-45f4-83e1-4b5962e38980
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Brackets
 This section primarily describes the bracket protocols between the local node and an application for a session supporting half-duplex flip-flop with brackets.  

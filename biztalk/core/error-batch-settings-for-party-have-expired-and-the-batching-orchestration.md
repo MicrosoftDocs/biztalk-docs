@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The batch settings for party have expired and the batching orchestration is being terminated"
-title: "The batch settings for party have expired and the batching orchestration is being terminated"
+title: "The batch settings for party have expired and the batching orchestration is being terminated | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a2f272b6-4da2-4736-8d61-ce48359f36dd
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The batch settings for party have expired and the batching orchestration is being terminated
 ## Details  

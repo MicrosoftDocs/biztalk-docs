@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Add Alert Subscription and Edit Subscription Pages"
-title: "Add Alert Subscription and Edit Subscription Pages"
+title: "Add Alert Subscription and Edit Subscription Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ad5e99f1-714e-458b-b5f0-85ac69be5335
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Add Alert Subscription and Edit Subscription Pages
 The Add Alert Subscription and Edit Subscription pages are similar. They differ in that the Edit Subscription page shows the subscriber ID (the Microsoft Windows account of the current portal user), and has a different set of buttons. Figure 1 shows the Add Alert Subscription and Edit Subscription pages.  

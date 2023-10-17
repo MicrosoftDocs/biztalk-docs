@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: Error - Schema Root Reference Nonexistent"
-title: "Error - Schema Root Reference Nonexistent"
+title: "Error - Schema Root Reference Nonexistent | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.rootRefNonExistent"
+ms.assetid: 84eaa5fb-f0b5-4a41-b935-e6d3ed734aba
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Schema Root Reference Nonexistent
 **Error Code**  

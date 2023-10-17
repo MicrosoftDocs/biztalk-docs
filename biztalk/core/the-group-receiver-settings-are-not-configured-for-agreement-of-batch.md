@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The group receiver settings are not configured for agreement of batch"
-title: "The group receiver settings are not configured for agreement of batch"
+title: "The group receiver settings are not configured for agreement of batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 57b205e9-aaab-43d1-b373-17d206957814
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The group receiver settings are not configured for agreement of batch
 ## Details  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SSO System Properties: Options"
-title: "SSO System Properties: Options1"
+title: "SSO System Properties: Options1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8dd0e706-995e-424d-b1d3-f6e0d803cce3
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SSO System Properties: Options
 This screen displays options for the overall Enterprise Single Sign-On (SSO) system.  

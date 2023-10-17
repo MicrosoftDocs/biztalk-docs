@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: What's New in HIS 2013"
-title: "What's New in HIS 2013"
+title: "What's New in HIS 2013 | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 067a6382-eb6e-4d34-880a-0602411032dd
+caps.latest.revision: 11
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # What's New in HIS 2013
 The following sections in this topic contain information about new features and enhancements in Host Integration Server.

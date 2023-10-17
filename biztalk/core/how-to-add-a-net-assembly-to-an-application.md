@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Add a .NET Assembly to an Application"
-title: "How to Add a .NET Assembly to an Application"
+title: "How to Add a .NET Assembly to an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [.NET assemblies], adding to applications"
+  - "managing [applications], .NET assemblies"
+  - "managing [.NET assemblies], applications"
+  - "applications, .NET assemblies"
+  - ".NET assemblies, adding to applications"
+ms.assetid: 75dc3303-a622-40df-881e-3109cbc81c91
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add a .NET Assembly to an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to add a .NET assembly that is not a BizTalk assembly to a BizTalk application. When adding a .NET assembly to an application, bear in mind the following important points:  

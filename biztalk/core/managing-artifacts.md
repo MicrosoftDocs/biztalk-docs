@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Managing Artifacts"
-title: "Managing Artifacts"
+title: "Managing Artifacts | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [applications], artifacts"
+  - "managing [artifacts]"
+  - "artifacts, managing"
+  - "managing [artifacts], about managing artificats"
+ms.assetid: aa7c5e60-7c16-4bcf-b913-b1bdfc5c7543
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Managing Artifacts
 This section describes how to manage artifacts, including how to add and remove them from a BizTalk application and how to configure their properties.  

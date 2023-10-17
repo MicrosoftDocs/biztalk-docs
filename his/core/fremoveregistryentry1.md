@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: fRemoveRegistryEntry"
-title: "fRemoveRegistryEntry1"
+title: "fRemoveRegistryEntry1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c592f9de-4f97-4001-9d25-59c547659213
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # fRemoveRegistryEntry
 The **fRemoveRegistryEntry** function is used to remove a registry key from the registry. This utility function is used to construct an integrated link service configuration DLL.  

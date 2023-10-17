@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: LU Support"
-title: "LU Support1"
+title: "LU Support1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b1f1760e-9be8-420c-ab54-0796eaa522f4
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # LU Support
 A [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] node can support as many as 15,000 sessions.  

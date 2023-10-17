@@ -1,12 +1,27 @@
 ---
 description: "Learn more about: Using SOAP Headers in Orchestrations"
-title: "Using SOAP Headers in Orchestrations"
+title: "Using SOAP Headers in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SOAP headers, orchestrations"
+  - "SOAP headers, code samples"
+  - "SOAP headers, creating"
+  - "SOAP headers, properties"
+  - "Web services, SOAP headers"
+  - "orchestrations, SOAP headers"
+  - "creating, SOAP headers"
+ms.assetid: 4754dd23-386b-4093-8ea4-4da6b4d9279c
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using SOAP Headers in Orchestrations
 Orchestrations use property schemas to define SOAP header context properties. You use the BizTalk Editor to set SOAP header context properties.  

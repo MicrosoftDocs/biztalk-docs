@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: About Maps"
-title: "About Maps"
+title: "About Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "file types, maps"
+  - "BizTalk Mapper"
+  - "maps, file type"
+  - "maps, about maps"
+  - "BizTalk Mapper, about BizTalk Mapper"
+  - "maps"
+ms.assetid: 512ef2b7-3d01-4fcf-bb38-de68ec608b07
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # About Maps
 Using BizTalk Mapper, you define the relationship between an input and an output schema by using links and functoids. A link defines a direct data copy of a record or field. Links may directly connect to items in the other schema, or they may form connections to functoids. Functoids perform more complex data manipulations, such as:  

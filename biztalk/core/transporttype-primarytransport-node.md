@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: TransportType (PrimaryTransport Node)"
-title: "TransportType (PrimaryTransport Node)"
+title: "TransportType (PrimaryTransport Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "TransportType node [binding file]"
+ms.assetid: 9eb377ec-35d8-4b72-85f9-f264f6553c5a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # TransportType (PrimaryTransport Node)
 The TransportType node of the PrimaryTransport node of a binding file contains specific information about the adapter associated with a transport that is exported with the binding file.  

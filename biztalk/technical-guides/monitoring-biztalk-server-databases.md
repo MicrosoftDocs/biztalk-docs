@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Monitoring BizTalk Server Databases"
-title: "Monitoring BizTalk Server Databases"
+title: "Monitoring BizTalk Server Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7fee5015-e818-459b-aeeb-a084ef355600
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Monitoring BizTalk Server Databases
 You can run the Monitor BizTalk Server SQL Agent job to identify any known issues in Management, Message Box, or DTA databases. The job is created when you configure a BizTalk group in BizTalk Server Administration console or upgrade BizTalk from the previous version.  

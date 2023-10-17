@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Add Value Mapping Functoids to a Map"
-title: "How to Add Value Mapping Functoids to a Map"
+title: "How to Add Value Mapping Functoids to a Map | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cc70067a-67a1-4a0e-95e5-b0cb327d2cee
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Value Mapping Functoids to a Map
 The **Value Mapping** functoid returns the value of its second parameter if its first parameter is true. A common use of the functoid is to change the attributes of a field into the attributes of a record.  

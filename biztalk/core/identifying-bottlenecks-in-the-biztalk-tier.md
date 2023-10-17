@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Identifying Bottlenecks in the BizTalk Tier"
-title: "Identifying Bottlenecks in the BizTalk Tier"
+title: "Identifying Bottlenecks in the BizTalk Tier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f38ade78-8af3-4485-9b2a-5e4cdba965d2
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Identifying Bottlenecks in the BizTalk Tier
 The BizTalk tier can be divided into the following functional areas:  

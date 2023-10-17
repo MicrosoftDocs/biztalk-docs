@@ -1,14 +1,21 @@
 ---
 description: "Learn more about: How to Move Between and Within Grid Pages"
-title: "How to Move Between and Within Grid Pages"
+title: "How to Move Between and Within Grid Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.mapper.gridpreview"
+ms.assetid: 9553d9ad-1c57-4e73-bb77-0eaaa172090c
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Move Between and Within Grid Pages
 If your map is complex, it is very likely that not all links and functoids are visible within a single grid page at the same time. This means that you need to be able to scroll within a grid page. And, if your map warrants multiple grid pages, you will need to be able to move between grid pages. This topic provides step-by-step instructions for these operations.  

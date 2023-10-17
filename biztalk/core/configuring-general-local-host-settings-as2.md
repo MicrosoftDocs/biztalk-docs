@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring General Local Host Settings (AS2)"
-title: "Configuring General Local Host Settings (AS2)"
+title: "Configuring General Local Host Settings (AS2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 980daac2-8387-44cc-ae55-38639f759668
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring General Local Host Settings (AS2)
 As part of the local host general settings, you can specify the content type of the AS2 messages and whether the file name is preserved as part of the AS2 message header.  

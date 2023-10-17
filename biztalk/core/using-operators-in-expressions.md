@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Using Operators in Expressions"
-title: "Using Operators in Expressions"
+title: "Using Operators in Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "orchestrations, operators"
+  - "XLANG/s, operators"
+  - "orchestrations, XLANG/s"
+ms.assetid: f0948ce2-c508-48aa-af79-d207f577b22f
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Operators in Expressions
 The following XLANG/s operators are available for use in orchestration expressions. They adhere closely to the functionality of the corresponding operators in C#.  

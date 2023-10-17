@@ -1,4 +1,4 @@
----
+﻿---
 title: BizTalk Settings Dashboard, Group Page
 description: Read about the settings on the dashboard, including receive locations, tracking, and more.
 ms:assetid: 16e0ac35-49da-448c-b6d7-06e714d9e957
@@ -7,6 +7,7 @@ ms:contentKeyID: 51526432
 ms.custom: "biztalk-2020"
 ms.date: 02/10/2020
 mtps_version: v=BTS.80
+
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"

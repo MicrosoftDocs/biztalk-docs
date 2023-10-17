@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Connecting to a Host Application"
-title: "Connecting to a Host Application1"
+title: "Connecting to a Host Application1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bb19d081-0cbb-4357-87d8-ce310b64cf90
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Connecting to a Host Application
 After defining session settings, you can automatically connect to the host every time you start the 3270 Client.  

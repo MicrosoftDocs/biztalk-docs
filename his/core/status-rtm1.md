@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Status-RTM"
-title: "Status-RTM1"
+title: "Status-RTM1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f7e8cae9-ce48-49f7-9a1c-b2ed81a64229
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Status-RTM
 The **Status-RTM** message provides the application with information about the Response Time Monitor (RTM) measurement parameters used by the host. This allows the application to match its local display of RTM statistics, if it provides such a display, with the statistics used by the host. It flows from the node to the application and is used with an system services control point (SSCP) connection.  

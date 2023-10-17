@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Execute an SAP Query Using the EXECQUERY Command"
-title: "Execute an SAP Query Using the EXECQUERY Command"
+title: "Execute an SAP Query Using the EXECQUERY Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 520153bf-9477-4b35-8953-3f5cb444ab9f
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Execute an SAP Query Using the EXECQUERY Command
 The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] exposes the SAP system as an ADO.NET data source. With the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], you can execute pre-defined queries in the SAP system by executing an EXECQUERY statement.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Print a Component Description"
-title: "How to Print a Component Description1"
+title: "How to Print a Component Description1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a5e3f97d-c6f9-4d27-b77c-43e23206ffd3
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Print a Component Description
 Use the **Print** command in Host Integration Server Designer (HIS Designer) to print a description of the current component. This printed description includes the following:  

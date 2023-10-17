@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configure atomic, consistent, isolated, and durable transactions using the WCF LOB Adapter SDK"
-title: "Configure atomic, consistent, isolated, and durable transactions using the WCF LOB Adapter SDK"
+title: "Configure atomic, consistent, isolated, and durable transactions using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c20d2613-c77d-4b0d-b2e2-3ed28a8fb36c
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configure atomic, consistent, isolated, and durable transactions using the WCF LOB Adapter SDK
 The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] supports transactions by relying on functionality exposed by the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]. By using the API exposed by [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)], your adapter can support transactions and operations that are:  

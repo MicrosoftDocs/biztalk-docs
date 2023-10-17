@@ -1,12 +1,19 @@
 ---
-title: "Send IDOCs from an SAP system to use the mySAP adapter in BizTalk"
+title: "Send IDOCs from an SAP system to use the mySAP adapter in BizTalk | Microsoft Docs"
 description: Send IDOCs, view transaction IDs, and view details about sent IDOCs - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aea8a5e9-d775-4d52-a434-c2908b53cd2d
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sending IDOCs from an SAP System
 High-level tasks to complete on the SAP system to send an IDOC from the SAP system to an external application. Contact your SAP administrator for performing these tasks or see the SAP guidance.  

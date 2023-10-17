@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Deploying BIC/BEI/Country/Currency Validation Rules"
-title: "Deploying BIC-BEI-Country-Currency Validation Rules"
+title: "Deploying BIC-BEI-Country-Currency Validation Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2e96d416-d5eb-4597-a691-c7dbee33c7d6
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Deploying BIC/BEI/Country/Currency Validation Rules
 **To deploy the BIC/BEI/Country/Currency Validation rules:**  

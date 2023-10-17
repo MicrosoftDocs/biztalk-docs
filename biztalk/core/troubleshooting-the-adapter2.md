@@ -1,12 +1,24 @@
 ---
 description: "Learn how to identify and resolve issues that you might experience while using Microsoft BizTalk Adapter for PeopleSoft Enterprise."
-title: "Troubleshooting the Adapter2"
+title: "Troubleshooting the Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "wildcard characters, in send port properties"
+  - "troubleshooting adapter"
+  - "Get.xml"
+  - "send ports, using wildcards in properties"
+ms.assetid: e9e0408f-5a12-4f05-83a6-37dc519ae4c5
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting the Microsoft BizTalk Adapter for PeopleSoft Enterprise
 

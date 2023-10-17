@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Tedalert"
-title: "Tedalert2"
+title: "Tedalert2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7f2c2aaf-8ae7-4343-9351-0374bd997d4a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Tedalert
 The alert information record tedalert includes details of a 3270 NetView user alert.  

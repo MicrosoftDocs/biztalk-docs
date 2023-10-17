@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Supported Data Flow Models"
-title: "Supported Data Flow Models1"
+title: "Supported Data Flow Models1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c100173e-0ef1-4c60-9550-8a57db4146db
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Supported Data Flow Models
 Transaction Integrator (TI) supports the following four data flows:  

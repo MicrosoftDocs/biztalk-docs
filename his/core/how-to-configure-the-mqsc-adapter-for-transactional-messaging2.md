@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure the MQSC Adapter for Transactional Messaging"
-title: "How to Configure the MQSC Adapter for Transactional Messaging2"
+title: "How to Configure the MQSC Adapter for Transactional Messaging2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: affc5625-3c1e-4045-ab5a-d2b65f5c0d06
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure the MQSC Adapter for Transactional Messaging
 After you install the IBM WebSphere MQ Extended Transactional Client on your BizTalk Server computer, the following additional configuration steps are necessary before you can implement transactional messaging with the BizTalk Adapter for WebSphere MQ.  

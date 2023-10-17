@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: FTP Adapter Configuration Properties"
-title: "FTP Adapter Configuration Properties"
+title: "FTP Adapter Configuration Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "receive locations, adapters"
+  - "FTP adapters, properties"
+  - "FTP adapters, code sample"
+  - "FTP adapters, send ports"
+  - "FTP adapters, receive locations"
+  - "send ports, adapters"
+ms.assetid: 88a2084e-cb26-4136-9077-8b9463062ccc
+caps.latest.revision: 26
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # FTP Adapter Configuration Properties
 The following table lists the configuration properties that you can set for an FTP adapter receive location:  

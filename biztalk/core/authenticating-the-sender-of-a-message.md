@@ -1,12 +1,33 @@
 ---
 description: "Learn more about: Authenticating the Sender of a Message"
-title: "Authenticating the Sender of a Message"
+title: "Authenticating the Sender of a Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "parties, authenticating"
+  - "authenticating, authentication required"
+  - "messages, authenticating"
+  - "security, authenticating"
+  - "digital signatures, authenticating"
+  - "security, messages"
+  - "MessageBox database, authenticating"
+  - "authenticating, authentication trust"
+  - "messages, message flow"
+  - "authenticating, security"
+  - "authenticating, party resolution"
+  - "authenticating, digital signatures"
+  - "authenticating, messages"
+ms.assetid: 813a2fb9-0346-4129-9cc5-1713f72a491e
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Authenticating the Sender of a Message
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses different mechanisms to verify that a party is who they claim to be, or that a process is what it claims to be. Furthermore, you can specify whether the process can relay to BizTalk Server who the original sender of the message is, and whether BizTalk Server recognizes the party as a partner.  

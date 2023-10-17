@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Common Fallback Properties for X12 and EDIFACT Encoded Messages"
-title: "Configuring Common Fallback Properties for X12 and EDIFACT Encoded Messages"
+title: "Configuring Common Fallback Properties for X12 and EDIFACT Encoded Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7393d6ac-b901-43ef-a8d6-c5b0b3033257
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Common Fallback Properties for X12 and EDIFACT Encoded Messages
 Fallback properties apply to both X12 (including HIPAA) - and EDIFACT-encoded interchanges. As with all fallback agreement properties, these properties apply only when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has not determined the agreement to which an incoming our outgoing message resolves to.  

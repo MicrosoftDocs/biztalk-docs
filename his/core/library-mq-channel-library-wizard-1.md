@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Library (MQ Channel Library Wizard)"
-title: "Library (MQ Channel Library Wizard)1"
+title: "Library (MQ Channel Library Wizard)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15428"
+ms.assetid: 5dca8260-88a4-4222-839e-395ceef24dcb
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Library (MQ Channel Library Wizard)
 Use this page to specify identifying information for the library you are creating.  

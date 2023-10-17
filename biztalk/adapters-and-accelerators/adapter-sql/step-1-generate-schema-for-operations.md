@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Generate Schema for Operations"
-title: "Step 1: Generate Schema for Operations"
+title: "Step 1: Generate Schema for Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 63218a5e-9af2-40af-9992-ac5e204d2832
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Generate Schema for Operations
 ![Step 1 of 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")  

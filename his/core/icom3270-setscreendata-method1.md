@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Icom3270.setScreenData Method"
-title: "Icom3270.setScreenData Method1"
+title: "Icom3270.setScreenData Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ec3db1a8-977e-4cd7-a19e-50c4dfff15f4
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Icom3270.setScreenData Method
 The `setScreenData` method copies data characters, character attributes, and extended attributers to all or part of the screen.  

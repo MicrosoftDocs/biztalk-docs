@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Assemblies and Artifacts Installed by the SQL Adapter Sample"
-title: "Assemblies and Artifacts Installed by the SQL Adapter Sample"
+title: "Assemblies and Artifacts Installed by the SQL Adapter Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ba1d9826-1f04-4858-b6b8-855a83846ab2
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Assemblies and Artifacts Installed by the SQL Adapter Sample
 The following table lists the assemblies and other artifacts installed for the SQL Adapter sample.  

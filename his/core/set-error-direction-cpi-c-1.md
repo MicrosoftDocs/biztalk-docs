@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Set_Error_Direction (CPI-C)"
-title: "Set_Error_Direction (CPI-C)1"
+title: "Set_Error_Direction (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 688cce47-fb00-4e68-be9d-83f7fb047daf
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Set_Error_Direction (CPI-C)
 The **Set_Error_Direction** call (function name **cmsed**) specifies whether a program detected an error while receiving data or while preparing to send data.  

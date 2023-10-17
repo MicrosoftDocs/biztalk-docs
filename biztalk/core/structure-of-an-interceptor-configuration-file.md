@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Structure of an Interceptor Configuration File"
-title: "Structure of an Interceptor Configuration File"
+title: "Structure of an Interceptor Configuration File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ea36c466-6caf-44b7-8ee6-dbd3d3675da9
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Structure of an Interceptor Configuration File
 This section contains information about the structure of an interceptor configuration file. This basic structure is shared for both WF and WCF interceptor configurations.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Receive Data"
-title: "Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Receive Data"
+title: "Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Receive Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cc5a63ec-1897-4c9b-b37f-cdcec151b1c9
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Receive Data
 You can use the BizTalk Adapter for TIBCO Enterprise Message Service (EMS) to receive data from a TIBCO system. This walkthrough describes an SDK sample that illustrates this.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Transmission Service and Function Management Profiles"
-title: "Transmission Service and Function Management Profiles1"
+title: "Transmission Service and Function Management Profiles1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c5d41531-a4ff-46f4-9f6b-7678b68b5e6c
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Transmission Service and Function Management Profiles
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] enforces the rules that govern active sessions between communicating partners on an SNA network.  

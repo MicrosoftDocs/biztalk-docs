@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: BizTalk Mapper Keyboard Shortcuts"
-title: "BizTalk Mapper Keyboard Shortcuts"
+title: "BizTalk Mapper Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "keyboard shortcuts, BizTalk Mapper"
+  - "BizTalk Mapper, keyboard shortcuts"
+ms.assetid: aba4958d-9104-46da-8524-45a41e07c5e2
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Mapper Keyboard Shortcuts
 As in any standard Microsoft Windows application, you can use keyboard shortcuts in BizTalk Mapper to access commands otherwise available by using menus. The following table describes the available keyboard shortcuts.  

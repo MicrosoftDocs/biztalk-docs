@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: 3A2 Request to 3A2 Response Map Sample"
-title: "3A2 Request to 3A2 Response Map Sample"
+title: "3A2 Request to 3A2 Response Map Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 71c70571-0cb4-4269-9ca9-87f6d1ba95dc
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # 3A2 Request to 3A2 Response Map Sample
 The _3A2RequestMessageTo3A2ResponseMessage.btm sample demonstrates how you can map a 3A2 request message to a 3A2 response message.  

@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: BAM Event Bus Service Stored Procedures"
-title: "BAM Event Bus Service Stored Procedures"
+title: "BAM Event Bus Service Stored Procedures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "stored procedures, Even Bus Service [BAM]"
+  - "Event Bus Service [BAM], stored procedures"
+ms.assetid: 18a7bd40-50ce-44f2-88ae-45a2e3c8d3f4
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM Event Bus Service Stored Procedures
 You use the following stored procedures to manage the BAM Event Bus service:  

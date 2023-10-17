@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Tag Handling in Positional Records"
-title: "Tag Handling in Positional Records"
+title: "Tag Handling in Positional Records | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c85d695-6dc9-4200-a453-dc576832adca
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tag Handling in Positional Records
 

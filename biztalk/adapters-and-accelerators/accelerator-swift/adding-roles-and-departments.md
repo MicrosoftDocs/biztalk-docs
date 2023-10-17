@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Adding Roles and Departments"
-title: "Adding Roles and Departments"
+title: "Adding Roles and Departments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "roles, adding"
+  - "roles, sorting"
+  - "departments, creating"
+  - "departments, department flows"
+  - "creating, departments"
+ms.assetid: 45e33759-6e96-4dac-a72e-74227ec108a8
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adding Roles and Departments
 After you create [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] users who will create, repair, verify, and/or approve messages, you must create one or more departments with roles to establish the create/repair workflow.  

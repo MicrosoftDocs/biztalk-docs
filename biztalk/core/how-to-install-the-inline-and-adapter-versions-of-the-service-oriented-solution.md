@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Install the Inline and Adapter Versions of the Service Oriented Solution"
-title: "Install the Inline and Adapter Versions of the Service Oriented Solution"
+title: "Install the Inline and Adapter Versions of the Service Oriented Solution | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6050cfe9-4e94-4a55-8b24-fbcc74d9e8f4
+caps.latest.revision: 97
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Install the Inline and Adapter Versions of the Service Oriented Solution
 The following steps describe how to prepare the computer for installing the inline and adapter versions of the service oriented solution, and how to install the solution on this computer.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Fallback Envelope Properties (X12-Interchange Settings)"
-title: "Configuring Fallback Envelope Properties (X12-Interchange Settings)"
+title: "Configuring Fallback Envelope Properties (X12-Interchange Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0e9b05ea-2a0f-42d6-adc2-c1f1f2b7a993
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Fallback Envelope Properties (X12-Interchange Settings)
 X12 interchange envelope generation settings define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates the envelope of an X12-encoded interchange to be sent to the receiving party. In this fallback agreement, you define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates the ISA segment for an X12-encoded interchange that it sends to the party. An ISA segment is the interchange control header for an X12-encoded interchange.  

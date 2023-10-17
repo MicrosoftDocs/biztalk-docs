@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Understand the architecture and different components of the WCF LOB Adapter SDK"
-title: "Understand the architecture and different components of the WCF LOB Adapter SDK"
+title: "Understand the architecture and different components of the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 293189be-61d7-44f4-8ba6-e5550516d9b4
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Understand the architecture and different components of the WCF LOB Adapter SDK
 Read about the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] to help understand the different components, and the role of WCF.  

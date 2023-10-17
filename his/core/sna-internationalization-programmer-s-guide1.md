@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SNA Internationalization Programmer&#39;s Guide"
-title: "SNA Internationalization Programmer&#39;s Guide1"
+title: "SNA Internationalization Programmer&#39;s Guide1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dc794620-36e2-42b4-b64b-494223f3b953
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SNA Internationalization Programmer&#39;s Guide
 This section describes the features available in Host Integration Server for supporting international languages and different national language character sets.  

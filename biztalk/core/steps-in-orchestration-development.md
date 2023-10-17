@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: Steps in Orchestration Development"
-title: "Steps in Orchestration Development"
+title: "Steps in Orchestration Development | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "designing, orchestrations"
+  - "orchestrations, designing"
+  - "orchestrations, creating"
+  - "creating, orchestrations"
+  - "Copy Local property"
+ms.assetid: 556b1e6c-63a6-4805-a0a5-e555f198fe4e
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Steps in Orchestration Development
 To develop an orchestration, you typically perform the following basic actions:  

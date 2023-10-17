@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Getting Information"
-title: "Getting Information2"
+title: "Getting Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 34a0b9a0-ffa4-48c5-a87d-91455bec4a66
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Getting Information
 The following calls retrieve information about the characteristics of a specified conversation:  

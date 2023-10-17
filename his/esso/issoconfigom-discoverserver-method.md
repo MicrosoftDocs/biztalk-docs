@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOConfigOM.DiscoverServer Method"
-title: "ISSOConfigOM.DiscoverServer Method"
+title: "ISSOConfigOM.DiscoverServer Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c1161444-59f1-4b01-bb99-e40995cd9ea5
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOConfigOM.DiscoverServer Method
 The **DiscoverServers** method discovers the currently-available servers.  

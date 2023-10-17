@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Connection Methods"
-title: "Connection Methods2"
+title: "Connection Methods2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b44d42f8-aa76-4a64-828b-3b734458c6cc
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Connection Methods
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] supports many different connection methods. However, not all may be available in your environment. When you choose a connection method, you should keep in mind:  

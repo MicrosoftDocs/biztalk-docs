@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Restoring the Contoso Database"
-title: "Restoring the Contoso Database"
+title: "Restoring the Contoso Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "private process tutorial, restoring databases"
+  - "databases, restoring"
+ms.assetid: 291178c1-826e-49e0-a1d2-cbffee749659
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Restoring the Contoso Database
 In this step, you use SQL Server Management Studio to run a SQL script to restore the Contoso database and its associated stored procedures. You also populate the database tables with preliminary data.  

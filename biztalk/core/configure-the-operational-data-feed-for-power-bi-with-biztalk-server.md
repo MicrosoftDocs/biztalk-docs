@@ -1,14 +1,23 @@
 ---
-title: "Configure Operational Data Service in BizTalk Server 2016 Feature Pack"
+title: "Configure Operational Data Service in BizTalk Server 2016 Feature Pack | Microsoft Docs"
 description: Configure Operational Data Service in BizTalk Server 2016 Feature Pack
+author: "Elvis-Shi"
+ms.author: "elsh"
+manager: "mijacobs"
 ms.date: "01/13/2020"
 ms.topic: conceptual
 ms.prod: biztalk-server
+
 # optional metadata
+
 #ROBOTS:
+
 ms.reviewer: 
 ms.suite:
+ms.tgt_pltfrm:
+ms.assetid: 
 ms.custom: "fp1, biztalk-2020"
+
 ---
 
 # Install and configure the Operational Data Service in BizTalk Server

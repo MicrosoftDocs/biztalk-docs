@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: About Pipelines, Stages, and Components"
-title: "About Pipelines, Stages, and Components"
+title: "About Pipelines, Stages, and Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Microsoft.BizTalk.Component.Interop namespace"
+  - "pipelines, about pipelines"
+ms.assetid: a98e1c93-f264-4577-bd12-4430a5859e3c
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # About Pipelines, Stages, and Components
 A pipeline is a piece of software infrastructure that contains a set of .NET or COM components that process messages in a predefined sequence. A pipeline divides processing into categories of work called stages, and determines the sequence in which the stages are performed. Each stage defines logical work groups, determines which components can go in that stage, and specifies how the pipeline components in the stage are run.  

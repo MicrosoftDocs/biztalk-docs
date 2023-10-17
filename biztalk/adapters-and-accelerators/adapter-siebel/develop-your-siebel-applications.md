@@ -1,12 +1,19 @@
 ---
-title: "Develop your Siebel applications in BizTalk Server"
+title: "Develop your Siebel applications in BizTalk Server | Microsoft Docs"
 description: Create Siebel applications using WCF, or in BizTalk Server with the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2bc04906-6d64-433c-b357-797ec5883279
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop your Siebel applications
 

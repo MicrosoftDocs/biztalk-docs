@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Operations on Business Services in Siebel"
-title: "Operations on Business Services in Siebel"
+title: "Operations on Business Services in Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "operations, on business services"
+  - "business services, operations on"
+ms.assetid: 29a1a88c-8c7b-46f1-8faf-49ddd32ba2f0
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Operations on Business Services in Siebel
 A Siebel business service is a collection of business methods that can be directly invoked in Siebel. Whereas business components and business objects are associated to specific data and tables in Siebel, business services invoke the objects to perform specific tasks.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: The interchange contained a malformed ISA or the Service schema was not available"
-title: "The interchange contained a malformed ISA or the Service schema was not available"
+title: "The interchange contained a malformed ISA or the Service schema was not available | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 78d285f6-26fb-4a3b-a959-a17623321b20
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The interchange contained a malformed ISA or the Service schema was not available
 ## Details  

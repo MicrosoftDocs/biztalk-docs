@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BizTalk FileAct and InterAct Adapters End-to-End Tutorial"
-title: "BizTalk FileAct and InterAct Adapters End-to-End Tutorial"
+title: "BizTalk FileAct and InterAct Adapters End-to-End Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/10/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 73fbfb10-73e8-4365-a943-bcb9055f4f74
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk FileAct and InterAct Adapters End-to-End Tutorial
 The Microsoft® [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] End-to-End Tutorial provides specific information about how you can use [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to set up real-time and store and forward message exchange scenarios.  

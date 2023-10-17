@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Tutorial 1: Develop the Echo Adapter"
-title: "Tutorial 1: Develop the Echo Adapter"
+title: "Tutorial 1: Develop the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ffb0df3c-cd07-4bcf-af69-971065081fd6
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tutorial 1: Develop the Echo Adapter
 In this tutorial, you will develop a functional adapter using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. The adapter simulates the operations of a fictitious line-of-business system to illustrate many of the key features of the WCF LOB Adapter SDK including:  

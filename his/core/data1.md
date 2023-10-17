@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Data"
-title: "Data1"
+title: "Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d3cb6d5a-2bce-47d8-a44f-5700d7586800
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Data
 **Data** messages carry both inbound and outbound data between the application and the local node on all connections. For a detailed description of outbound and inbound data flows, see [Data Flow](./data-flow1.md).  

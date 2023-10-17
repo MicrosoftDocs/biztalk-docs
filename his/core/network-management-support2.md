@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Network Management Support"
-title: "Network Management Support2"
+title: "Network Management Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 012b866f-f93e-4011-875c-e20ce275095d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Network Management Support
 The requirement to manage heterogeneous network environments containing mainframes, midrange systems, and personal computers is a big challenge. This section discusses two mainframe management tools, IBM NetView and Response Time Monitor, which are supported by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] and can be used to manage your integrated network.  

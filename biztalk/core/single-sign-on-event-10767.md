@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10767"
-title: "Single Sign-On: Event 10767"
+title: "Single Sign-On: Event 10767 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ef5efc04-a0b5-4fc7-9d0e-f7aa9a9c413d
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10767
 ## Details  

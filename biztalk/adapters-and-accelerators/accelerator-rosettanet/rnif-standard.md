@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: RNIF Standard"
-title: "RNIF Standard"
+title: "RNIF Standard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "RNIF, message definitions"
+  - "RNIF, messaging framework patterns"
+  - "messages, message definitions"
+  - "RNIF, standards"
+  - "messages, messaging framework patterns"
+ms.assetid: d39a9683-1ef5-462b-9472-4e30fe873f7d
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # RNIF Standard
 The RosettaNet Implementation Framework (RNIF) standard defines how systems transport a RosettaNet message. The RNIF standard is a robust transfer, routing, packaging, and security standard. All RosettaNet messaging systems must comply with the RNIF standard to achieve RosettaNet certification.  

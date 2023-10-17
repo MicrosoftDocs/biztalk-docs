@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Execute Policies"
-title: "How to Execute Policies"
+title: "How to Execute Policies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Business Rules Framework, policies"
+  - "Business Rules Framework, code samples"
+  - "Business Rules Framework, programming"
+ms.assetid: 90d28d9d-0204-47de-a927-26e284c886e4
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Execute Policies
 The following sample code shows how to invoke the rule engine to execute a policy programmatically by using the **Policy** class in the **Microsoft.RuleEngine** assembly.  

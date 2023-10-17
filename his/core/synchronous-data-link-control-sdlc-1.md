@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Synchronous Data Link Control (SDLC)"
-title: "Synchronous Data Link Control (SDLC)1"
+title: "Synchronous Data Link Control (SDLC)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f2ee3d53-5456-4ce8-a5f1-a40ab7f67aaa
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Synchronous Data Link Control (SDLC)
 SDLC connections use a standard phone line (leased, public, point-to-point, or multidrop). An SDLC adapter within the Host Integration Server computer connects to a modem that uses the phone line to establish a connection with the host system. In a mainframe system, the SDLC connection uses a front end processor (FEP), a communications controller, or an integrated SDLC adapter. In an AS/400 system, the connection goes directly into the AS/400 computer.  

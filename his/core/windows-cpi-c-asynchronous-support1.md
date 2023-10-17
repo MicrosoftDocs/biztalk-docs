@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Windows CPI-C Asynchronous Support"
-title: "Windows CPI-C Asynchronous Support1"
+title: "Windows CPI-C Asynchronous Support1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c84ff0b-205a-4578-b8e7-82283ebe8d40
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Windows CPI-C Asynchronous Support
 A program that issues a call and does not regain control until the call completes cannot perform any other operations. This type of operation, referred to as blocking, is not suited to a server application designed to handle multiple requests from many clients. Asynchronous call completion returns the initial call immediately, so the application can continue with other processes.  

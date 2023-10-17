@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10695"
-title: "Single Sign-On: Event 10695"
+title: "Single Sign-On: Event 10695 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 02c5dc1d-5626-4d24-ac4f-fcd2ae61cd98
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10695
 ## Details  

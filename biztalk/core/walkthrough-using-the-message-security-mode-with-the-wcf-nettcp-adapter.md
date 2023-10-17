@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Walkthrough: Using the Message Security Mode with the WCF-NetTcp Adapter"
-title: "Walkthrough: Using the Message Security Mode with the WCF-NetTcp Adapter"
+title: "Walkthrough: Using the Message Security Mode with the WCF-NetTcp Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c7f6e892-34ce-4132-8867-54cc3bbfe507
+caps.latest.revision: 47
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough: Using the Message Security Mode with the WCF-NetTcp Adapter
 

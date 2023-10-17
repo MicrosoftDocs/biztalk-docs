@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Develop BizTalk applications using the Siebel adapter"
-title: "Develop BizTalk applications using the Siebel adapter"
+title: "Develop BizTalk applications using the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/02/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk applications, developing"
+  - "developing, BizTalk applications"
+  - "CBR"
+  - "Content-Based Routing"
+ms.assetid: 1a2a9765-305c-44b2-aed7-5437725e4c19
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Develop BizTalk applications using the Siebel adapter
 

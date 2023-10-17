@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Create the SQL Server connection URI"
-title: "Create the SQL Server connection URI"
+title: "Create the SQL Server connection URI | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 688e2215-a4d8-4f55-a37c-7d91c3de080f
+caps.latest.revision: 24
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Create the SQL Server connection URI
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] connection URI contains properties that the adapter uses to establish a connection to the SQL Server database. This topic provides information about the SQL Server connection URI, and provides links to other topics that explain how to specify a URI in different programming scenarios.  

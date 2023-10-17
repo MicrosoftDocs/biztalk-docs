@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Security tips and guidance - HIS"
-title: "Security tips"
+title: "Security tips | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 79248d92-1d71-4ec7-9734-63cdef75698c
+caps.latest.revision: 8
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Security tips and guidance - HIS
 The information contained in the following sections details securing your [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] environment, including Enterprise Single Sign-On.  

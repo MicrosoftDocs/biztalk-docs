@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: ISSOMapping Members"
-title: "ISSOMapping Members"
+title: "ISSOMapping Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b1f1d92e-a660-4c1c-b27d-2f1c2da16cf1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # ISSOMapping Members
 The following tables show the **ISSOMapper** members.  

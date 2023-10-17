@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error Handling Errors"
-title: "Error Handling Errors"
+title: "Error Handling Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 602be8a5-1f28-457d-8e12-ba06cff65491
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error Handling Errors
 Information for diagnosing and resolving WCF Error Handling errors.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Configure the SWIFT Adapter for the InterAct Store and Forward (Pull) Scenario"
-title: "Step 1: Configure the SWIFT Adapter for the InterAct Store and Forward (Pull) Scenario"
+title: "Step 1: Configure the SWIFT Adapter for the InterAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4182021c-36c9-4c96-b2fa-e23c87862cfe
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Configure the SWIFT Adapter for the InterAct Store and Forward (Pull) Scenario
 Before you begin this step, you must complete [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md).  

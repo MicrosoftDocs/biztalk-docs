@@ -1,12 +1,19 @@
 ---
-title: "Zombies in BizTalk Server"
+title: "Zombies in BizTalk Server | Microsoft Docs"
 description: Common causes of zombie messages in BizTalk Server
 ms.custom: ""
 ms.date: "03/23/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0c684891-e984-442f-b5fd-de5f7cf32b44
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Zombies in BizTalk Server
 

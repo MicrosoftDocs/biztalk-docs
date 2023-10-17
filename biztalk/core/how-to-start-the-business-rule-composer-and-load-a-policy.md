@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: How to Start the Business Rule Composer and Load a Policy"
-title: "How to Start the Business Rule Composer and Load a Policy"
+title: "How to Start the Business Rule Composer and Load a Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "policies, loading"
+  - "opening, Busines Rule Composer"
+  - "Business Rule Composer, policies"
+  - "Business Rule Composer, opening"
+ms.assetid: 34a6034d-90b3-4ce0-9770-3790763affe3
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Start the Business Rule Composer and Load a Policy
 This section describes how to start the Business Rule Composer and load a policy.  

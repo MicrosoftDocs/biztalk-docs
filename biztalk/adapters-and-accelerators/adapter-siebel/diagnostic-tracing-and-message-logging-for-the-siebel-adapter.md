@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Diagnostic Tracing and Message Logging for the Siebel adapter"
-title: "Diagnostic Tracing and Message Logging for the Siebel adapter"
+title: "Diagnostic Tracing and Message Logging for the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tracing, between the adapter client and the adapter"
+  - "logging, troubleshooting"
+  - "troubleshooting, tracing and message logging"
+  - "tracing, between the adapter and the LOB application"
+  - "message logging, troubleshooting"
+  - "tracing, troubleshooting"
+ms.assetid: fd2de692-45b7-45bc-b79c-381f3b1cf592
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Diagnostic Tracing and Message Logging for the Siebel adapter
 Adapter clients can enable diagnostic tracing to effectively diagnose problems encountered while using the adapters. Adapter clients can activate tracing at three different levels:  

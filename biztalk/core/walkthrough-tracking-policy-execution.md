@@ -1,12 +1,19 @@
 ---
-title: "Walkthrough: Tracking Policy Execution in BizTalk Server"
+title: "Walkthrough: Tracking Policy Execution in BizTalk Server | Microsoft Docs"
 description: Tutorial to enable tracking, and view the tracking details of the policy in BizTalk Server
 ms.custom: ""
 ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ef88eae7-f0f8-4f3f-85d0-3961a47395b6
+caps.latest.revision: 17
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough: Tracking Policy Execution
 Step-by-step procedures for enabling tracking for the **ProcessPurchaseOrder** policy, and for viewing the tracking information after the policy is executed.  

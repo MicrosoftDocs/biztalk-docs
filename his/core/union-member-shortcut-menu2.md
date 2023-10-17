@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Union Member Shortcut Menu"
-title: "Union Member Shortcut Menu2"
+title: "Union Member Shortcut Menu2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7deaf71f-374a-4abe-a906-e6b0db2840a6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Union Member Shortcut Menu
 When you select a union member from the Library tree, the following shortcut menu commands appear:  

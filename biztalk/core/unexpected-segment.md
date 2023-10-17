@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Unexpected segment"
-title: "Unexpected segment"
+title: "Unexpected segment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7169190c-8893-4076-8634-137fd43992f2
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Unexpected segment
 ## Details  

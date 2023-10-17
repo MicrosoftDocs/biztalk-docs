@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring Host Print Service"
-title: "Configuring Host Print Service2"
+title: "Configuring Host Print Service2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2b109939-f252-4ede-8804-1f1ecfc8105c
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Configuring Host Print Service
 Configuring Host Print service involves the following steps:  

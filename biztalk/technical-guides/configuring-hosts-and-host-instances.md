@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Configuring Hosts and Host Instances"
-title: "Configuring Hosts and Host Instances"
+title: "Configuring Hosts and Host Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a36a73a4-cc5f-47d6-b56f-7871684c4489
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Hosts and Host Instances
 A BizTalk Host represents a logical set of zero or more run-time processes in which you can deploy [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services and artifacts (such as adapter handlers, receive locations, and orchestrations). A host instance is the physical instance of a host on a computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information about BizTalk Hosts and host instances, see [Hosts](../core/hosts.md) (<https://go.microsoft.com/fwlink/?LinkId=154189>) and [Host Instances](../core/host-instances.md) (<https://go.microsoft.com/fwlink/?LinkId=154190>).

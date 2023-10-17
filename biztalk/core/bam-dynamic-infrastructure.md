@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: BAM Dynamic Infrastructure"
-title: "BAM Dynamic Infrastructure"
+title: "BAM Dynamic Infrastructure | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "infrastructure, BAM"
+  - "BAM, infrastructure"
+ms.assetid: 88f39438-3213-4f0d-8b8d-e6426c266138
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BAM Dynamic Infrastructure
 The BAM infrastructure consists of SQL Server tables, BAM views, stored procedures, and Data Transformation Services (DTS) packages in the BAM databases (Primary Import, Archive, Star Schema, and Analysis) as configured and managed through incremental deployments of BAM definitions. The infrastructure is where, at run time, events are correlated, aggregated, and then made available for querying by users.  

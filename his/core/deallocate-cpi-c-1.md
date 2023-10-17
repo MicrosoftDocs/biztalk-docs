@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Deallocate (CPI-C)"
-title: "Deallocate (CPI-C)1"
+title: "Deallocate (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bf8a6b45-188f-404e-b6a2-d4b8f85ab727
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Deallocate (CPI-C)
 The **Deallocate** call (function name **cmdeal**) deallocates a conversation between two programs.  

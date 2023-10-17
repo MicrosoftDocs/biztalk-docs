@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Typed Facts"
-title: "Typed Facts"
+title: "Typed Facts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "RuleEngine library"
+  - "Business Rule Composer, typed facts"
+  - "ITypedFact interface"
+  - "DataConnection class"
+  - "facts, typed"
+  - "TypedDataTable class"
+  - "TypedDataRow class"
+  - "TypedXmlDocument class"
+ms.assetid: 8207bfd5-ebd2-45ac-8992-795acdf3ba4c
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Typed Facts
 *Typed facts* are classes that implement the **ITypedFact** interface: **TypedXmlDocument**, **DataConnection**, **TypedDataTable**, and **TypedDataRow**.  

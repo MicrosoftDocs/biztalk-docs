@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invoke Weakly-typed Stored Procedures in SQL using the WCF Service Model"
-title: "Invoke Weakly-typed Stored Procedures in SQL using the WCF Service Model"
+title: "Invoke Weakly-typed Stored Procedures in SQL using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aaf74a40-4c03-4a4a-9b91-c21babe154fa
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invoke Weakly-typed Stored Procedures in SQL using the WCF Service Model
 When you invoke a procedure listed under the **Procedures** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], the output is in the form of a DataSet array. This topic provides instructions on how to create a WCF client to invoke a stored procedure in SQL Server that returns a DataSet array.  

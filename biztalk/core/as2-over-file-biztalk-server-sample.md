@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: AS2 over File (BizTalk Server Sample)"
-title: "AS2 over File (BizTalk Server Sample)"
+title: "AS2 over File (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1fed2344-8181-4c85-a2ef-a421fc40dce1
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # AS2 over File (BizTalk Server Sample)
 The AS2 Over File sample demonstrates how to receive an AS2 message over a FILE receive location. This enables you to use a FILE adapter to receive the AS2 message, rather than an HTTP adapter, which is normally used. To do so, this solution writes the HTTP headers in the AS2 message to the InboundHTTPHeaders context property, as required by the AS2 Decoder.  

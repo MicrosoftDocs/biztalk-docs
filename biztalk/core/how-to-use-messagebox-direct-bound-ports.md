@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Use MessageBox Direct Bound Ports"
-title: "How to Use MessageBox Direct Bound Ports"
+title: "How to Use MessageBox Direct Bound Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1839184b-408e-4ac6-94a4-a0eb708183f6
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use MessageBox Direct Bound Ports
 MessageBox direct bound ports enable you to drop messages directly into the MessageBox database without an explicit recipient, and to subscribe to messages that meet certain criteria rather than messages that come from a particular sender.

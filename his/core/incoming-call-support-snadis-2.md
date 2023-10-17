@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Incoming Call Support (SNADIS)"
-title: "Incoming Call Support (SNADIS)2"
+title: "Incoming Call Support (SNADIS)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 26c34b34-8531-4e37-822b-c500c7ebf94a
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Incoming Call Support (SNADIS)
 The local node allows an SNALink to be set up to support incoming calls. In this mode of operation, the node primes the SNALink by sending an [Open(LINK) Request](./open-link-request1.md), but the SNALink does not attempt to activate the link until it receives an exchange identification (XID) from a remote station.  

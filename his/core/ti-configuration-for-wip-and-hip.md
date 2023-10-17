@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TI Configuration for WIP and HIP"
-title: "TI Configuration for WIP and HIP"
+title: "TI Configuration for WIP and HIP | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ee5ec000-900f-4cc0-a1d1-bca3db04c813
+caps.latest.revision: 2
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TI Configuration for WIP and HIP
 

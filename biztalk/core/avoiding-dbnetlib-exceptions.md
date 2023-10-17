@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Avoiding DBNETLIB Exceptions"
-title: "Avoiding DBNETLIB Exceptions"
+title: "Avoiding DBNETLIB Exceptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5fbee0cf-d249-4d98-8d16-168ded32f9f1
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Avoiding DBNETLIB Exceptions
 DBNetLib (Database Network Library) errors occur when the BizTalk Server runtime is unable to communicate with either the MessageBox or Management databases. When this occurs, the BizTalk Server runtime instance that catches the exception shuts down and then cycles every minute to check to see if the database is available.  

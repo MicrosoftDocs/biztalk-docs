@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: Get Metadata in Oracle Database Using IMetadataRetrievalContract"
-title: "Get Metadata in Oracle Database Using IMetadataRetrievalContract"
+title: "Get Metadata in Oracle Database Using IMetadataRetrievalContract | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "metadata, retrieving using IMetadataRetrievalContract"
+ms.assetid: 7d32694f-4384-4c2f-be72-ac52c7b2e9f5
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get Metadata in Oracle Database Using IMetadataRetrievalContract
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] exposes an **IMetadataRetrievalContract**endpoint that you can use to browse and search for Oracle database artifacts and to retrieve metadata for operations in the form of a Web Services Description Language (WSDL) document.  

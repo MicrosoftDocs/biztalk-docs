@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: How to Create Component Interfaces"
-title: "How to Create Component Interfaces"
+title: "How to Create Component Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating component interfaces"
+  - "component interfaces, creating"
+ms.assetid: 9def053a-cbf6-4b34-b2e8-b2d03bffc5fe
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create Component Interfaces
 You create component interfaces using the PeopleSoft Application Designer. (For more information about Application Designer, see the PeopleSoft Enterprise documentation.)  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Tutorials: Using BizTalk Adapter for PeopleSoft Enterprise"
-title: "Tutorials: Using BizTalk Adapter for PeopleSoft Enterprise"
+title: "Tutorials: Using BizTalk Adapter for PeopleSoft Enterprise | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: aff6611c-9f5f-432e-9f46-9471837dd015
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Tutorials: Using BizTalk Adapter for PeopleSoft Enterprise
 Microsoft BizTalk Adapter for PeopleSoft Enterprise is a development and run-time environment for line-of-business process management and automation. This section describes two SDK samples that present an end-to-end exercise in setting up and deploying the adapter so that you can get a quick start.  

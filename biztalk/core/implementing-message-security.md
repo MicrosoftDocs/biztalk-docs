@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Implementing Message Security"
-title: "Implementing Message Security"
+title: "Implementing Message Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 971977a0-b74e-4408-8a07-ad327658f2bc
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Implementing Message Security
 You can configure your Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment to use certificates for sending and receiving signed and encrypted messages. By using certificates for encryption and digital signatures, BizTalk Server can:  

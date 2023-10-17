@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10760"
-title: "Single Sign-On: Event 10760"
+title: "Single Sign-On: Event 10760 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0c1ef31f-047c-4cf6-8fbf-c292f5c9ad85
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 10760
 ## Details  

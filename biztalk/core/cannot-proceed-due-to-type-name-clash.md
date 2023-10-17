@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Cannot proceed due to type name clash"
-title: "Cannot proceed due to type name clash"
+title: "Cannot proceed due to type name clash | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2ced6de4-0950-498e-a548-5c85419726d8
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Cannot proceed due to type name clash
 ## Details  

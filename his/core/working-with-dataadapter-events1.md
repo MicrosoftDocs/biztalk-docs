@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Working with DataAdapter Events"
-title: "Working with DataAdapter Events1"
+title: "Working with DataAdapter Events1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7db82781-c0df-4b02-b08c-f304ea70d094
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Working with DataAdapter Events
 `MsDb2DataAdapter` exposes two events you can use to respond to changes made to data at the data source. The following table shows the `MsDb2DataAdapter` events.  

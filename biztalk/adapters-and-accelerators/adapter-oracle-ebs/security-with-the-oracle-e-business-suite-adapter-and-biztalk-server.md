@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Security with the Oracle E-Business Suite adapter and BizTalk Server"
-title: "Security with the Oracle E-Business Suite adapter and BizTalk Server"
+title: "Security with the Oracle E-Business Suite adapter and BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7d4a816c-505d-4d5d-9eb9-04847f9b5861
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security with the Oracle E-Business Suite adapter and BizTalk Server
 When you configure a send port or a receive port (location) by using the BizTalk Server Administration console or use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to retrieve message schemas for a BizTalk solution, you must provide credentials for the Oracle E-Business Suite. It is important to supply these credentials in a secure way to help prevent them from being revealed to potentially malicious actors. This topic discusses how to most securely supply credentials for the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] for BizTalk Server solutions.  

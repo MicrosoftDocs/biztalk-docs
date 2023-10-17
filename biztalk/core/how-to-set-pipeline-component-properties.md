@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: How to Set Pipeline Component Properties"
-title: "How to Set Pipeline Component Properties"
+title: "How to Set Pipeline Component Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "pipelines, properties"
+ms.assetid: 2df9a9a8-bf6c-4e9e-b074-af30f0daa599
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Set Pipeline Component Properties
 Each component has properties that should be configured prior to use.  

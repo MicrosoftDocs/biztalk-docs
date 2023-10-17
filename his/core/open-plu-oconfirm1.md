@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Open(PLU) OConfirm"
-title: "Open(PLU) OConfirm1"
+title: "Open(PLU) OConfirm1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cf415108-327d-4304-ac9c-9edcb875b256
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Open(PLU) OConfirm
 The **Open(PLU) OK Confirm** message flows from the node to the application. It is used with a primary logical unit (PLU) connection.  

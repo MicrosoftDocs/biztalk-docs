@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Extract_Sync_Level (CPI-C)"
-title: "Extract_Sync_Level (CPI-C)1"
+title: "Extract_Sync_Level (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c8570437-dca3-498d-b46e-217a1d056f0f
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Extract_Sync_Level (CPI-C)
 The **Extract_Sync_Level** call (function name **cmesl**) returns the synchronization level for a specified conversation.  

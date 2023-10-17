@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: TransmitPipeline (SendPort Node)"
-title: "TransmitPipeline (SendPort Node)"
+title: "TransmitPipeline (SendPort Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "TransmitPipeline node [binding file]"
+ms.assetid: cee55451-6c3f-4e37-aef9-870d4b5d23aa
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # TransmitPipeline (SendPort Node)
 The TransmitPipeline node of the SendPort node of a binding file provides specific information about the send pipeline bound to a send port exported with a binding file.  

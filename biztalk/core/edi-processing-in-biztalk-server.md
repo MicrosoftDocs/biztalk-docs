@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDI Processing in BizTalk Server"
-title: "EDI Processing in BizTalk Server"
+title: "EDI Processing in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bdc60423-24b6-4920-a870-520f575085ed
+caps.latest.revision: 27
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDI Processing in BizTalk Server
 This topic provides an overview of receive-side and send-side processing of EDI messages, and how trading partner agreements can help achieve EDI messaging.  

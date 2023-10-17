@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Dynamic Adapter DisplayUI Method"
-title: "Dynamic Adapter DisplayUI Method"
+title: "Dynamic Adapter DisplayUI Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9183d2ee-4265-4fee-9d1d-7e2462d8ff37
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Dynamic Adapter DisplayUI Method
 This method on the **IDynamicAdapterConfig** interface displays the custom user interface for the custom adapter. This enables the user to view, select, and import the related supporting files based upon the selected services into their BizTalk project.  

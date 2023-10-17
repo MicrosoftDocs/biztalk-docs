@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Walkthrough: Using Database and .NET Facts"
-title: "Walkthrough: Using Database and .NET Facts"
+title: "Walkthrough: Using Database and .NET Facts | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 676d6e46-d9f8-477e-979e-1ac051ad4451
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough: Using Database and .NET Facts
 This walkthrough provides step-by-step procedures for using the Business Rule Composer to create a policy that uses database and .NET facts.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Setting the EPM Threadpool Size"
-title: "Setting the EPM Threadpool Size"
+title: "Setting the EPM Threadpool Size | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9e170e76-5151-4306-9473-5b68e815219a
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Setting the EPM Threadpool Size
 This topic explains how to set the threadpool size for the End Point Manager (EPM).  

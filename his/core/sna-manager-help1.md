@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: SNA Manager Help"
-title: "SNA Manager Help1"
+title: "SNA Manager Help1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a56fbb21-a98c-405b-b25f-90fe2364a8ad
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # SNA Manager Help
 Use these topics to navigate through the SNA Manager user interface.  

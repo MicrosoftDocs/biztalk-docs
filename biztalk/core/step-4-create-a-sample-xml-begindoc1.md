@@ -1,12 +1,19 @@
 ---
 description: "Learn how to create a sample XML BeginDoc for a J.D. Edwards OneWorld server."
-title: "Step 4: Create a Sample XML BeginDoc1"
+title: "Step 4: Create a Sample XML BeginDoc1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e494b4b2-4c83-4293-8ae8-acae29018e7f
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 4: How to Create a Sample XML BeginDoc
 

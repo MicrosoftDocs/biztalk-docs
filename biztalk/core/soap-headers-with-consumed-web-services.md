@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: SOAP Headers with Consumed Web Services"
-title: "SOAP Headers with Consumed Web Services"
+title: "SOAP Headers with Consumed Web Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "SOAP headers, code samples"
+  - "Web services, consuming"
+  - "Web services, SOAP headers"
+  - "SOAP headers, Web services"
+  - "Web services, code samples"
+ms.assetid: 7be2eee1-ce1c-4611-985c-91dbc8492d6e
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SOAP Headers with Consumed Web Services
 After you add Web services to your orchestration using the **Add Web Reference** dialog box, you can use the SOAP headers that the Web Services Description Language (WSDL) defines in the Web service.

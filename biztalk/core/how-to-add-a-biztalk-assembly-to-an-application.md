@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Add a BizTalk Assembly to an Application"
-title: "How to Add a BizTalk Assembly to an Application"
+title: "How to Add a BizTalk Assembly to an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "managing [applications], adding assemblies"
+  - "assemblies, applications"
+  - "managing [assemblies], adding to applications"
+  - "applications, assemblies"
+  - "managing [assemblies], applications"
+ms.assetid: 1525a0f6-cb0f-43bf-a851-40c06ab2135e
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add a BizTalk Assembly to an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to add a BizTalk assembly to an application.  

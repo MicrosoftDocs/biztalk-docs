@@ -1,12 +1,18 @@
 ---
-title: "Resolving Login Issues After Restoring the Destination System"
+title: "Resolving Login Issues After Restoring the Destination System | Microsoft Docs"
 description: Script SQL Server logins to resolve orphaned users in BizTalk Server log shipping
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e9232ca3-dadb-4b3c-8ec4-4e307c32d2e5
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Resolving Login Issues After Restoring the Destination System
 

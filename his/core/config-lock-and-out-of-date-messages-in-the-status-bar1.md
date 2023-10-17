@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Config Lock and Out-of-Date Messages in the Status Bar"
-title: "Config Lock and Out-of-Date Messages in the Status Bar1"
+title: "Config Lock and Out-of-Date Messages in the Status Bar1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 19c9833d-7d5e-491d-b7f6-e4653175622c
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Config Lock and Out-of-Date Messages in the Status Bar
 The SNA Manager will only lock the configuration file when you initiate a configuration change. If the lock is obtained, the status bar will flash 'CONFIG LOCK'. When you complete the change and save the configuration file, the lock will be released and the status bar will be cleared.  

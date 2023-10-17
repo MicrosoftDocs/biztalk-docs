@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Configure SSO Using the Configuration Wizard"
-title: "How to Configure SSO Using the Configuration Wizard"
+title: "How to Configure SSO Using the Configuration Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 064cc764-e739-4261-bb05-6da0fa5889c1
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Configure SSO Using the Configuration Wizard
 Use the **Enterprise Single Sign-On (SSO)** page to configure your SSO settings.  

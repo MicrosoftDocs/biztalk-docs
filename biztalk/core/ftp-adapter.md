@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: FTP Adapter"
-title: "FTP Adapter"
+title: "FTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "FTP adapters"
+ms.assetid: 878dc0b0-d1d8-405a-a697-654dd18ba08e
+caps.latest.revision: 11
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # FTP Adapter
 The FTP adapter exchanges data between an FTP server and Microsoft BizTalk Server, and allows for the integration of vital data stored on a variety of platforms with line-of-business applications. The adapter can connect to the FTP server via SOCKS4 or SOCKS5 proxy server.  

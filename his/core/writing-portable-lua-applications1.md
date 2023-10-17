@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Writing Portable LUA Applications"
-title: "Writing Portable LUA Applications1"
+title: "Writing Portable LUA Applications1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a0ee110a-95e2-4821-8f9a-efc3b8039c68
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Writing Portable LUA Applications
 Use the following guidelines for writing logical unit application (LUA) applications that are portable to other environments:  

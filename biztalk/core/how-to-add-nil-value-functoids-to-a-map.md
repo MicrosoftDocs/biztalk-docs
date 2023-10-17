@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Add Nil Value Functoids to a Map"
-title: "How to Add Nil Value Functoids to a Map"
+title: "How to Add Nil Value Functoids to a Map | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b2e193ed-fe5c-4b12-aab8-ff2d81fd45e1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Add Nil Value Functoids to a Map
 The **Nil Value** functoid sets the value of the destination node to **Nil**.  

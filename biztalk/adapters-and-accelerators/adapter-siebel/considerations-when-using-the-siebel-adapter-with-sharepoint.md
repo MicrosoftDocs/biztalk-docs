@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Considerations when using the Siebel adapter with SharePoint"
-title: "Considerations when using the Siebel adapter with SharePoint"
+title: "Considerations when using the Siebel adapter with SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ea7da079-3250-4ecc-bf01-6b5495c7f380
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Considerations when using the Siebel adapter with SharePoint
 This topic contains information about the issues you might encounter while using the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] with Microsoft Office SharePoint Server, along with resolutions. The issues are divided into two categories:  

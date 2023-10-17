@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: SendPortRef (SendPorts Node)"
-title: "SendPortRef (SendPorts Node)"
+title: "SendPortRef (SendPorts Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "SendPortRef node [binding file]"
+ms.assetid: 6c799b23-a9a4-4686-a04e-0450b4eef889
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SendPortRef (SendPorts Node)
 The SendPortRef node of the SendPorts node of a binding file specifies the name of a send port referenced by a distribution list.  

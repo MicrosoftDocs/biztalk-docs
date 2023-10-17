@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: UNA segment is invalid. It did not contain 6 fields"
-title: "UNA segment is invalid. It did not contain 6 fields"
+title: "UNA segment is invalid. It did not contain 6 fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c939d8d3-e6fb-4505-836d-31559fc5f1a3
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # UNA segment is invalid. It did not contain 6 fields
 ## Details  

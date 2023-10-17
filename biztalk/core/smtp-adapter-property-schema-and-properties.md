@@ -1,12 +1,41 @@
 ---
 description: "Learn more about: SMTP Adapter Property Schema and Properties"
-title: "SMTP Adapter Property Schema and Properties"
+title: "SMTP Adapter Property Schema and Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "UserName property, SMTP adapters"
+  - "EmailBodyTextCharset property [SMTP adapters]"
+  - "configuring [SMTP adapters], properties"
+  - "Subject property [SMTP adapters]"
+  - "EmailBodyFileCharset property [SMTP adapters]"
+  - "Attachments property [SMTP adapters]"
+  - "SMTP adapters, schemas"
+  - "EmailBodyText property [SMTP adapters]"
+  - "configuring [SMTP adapters], schemas"
+  - "CC property [SMTP adapters]"
+  - "ReadReceipt property [SMTP adapters]"
+  - "Password property [SMTP adapters]"
+  - "ReplyBy property [SMTP adapters]"
+  - "DeliveryReceipt property [SMTP adapters]"
+  - "SMTP adapters, properties"
+  - "SMTPAuthenticate property [SMTP adapters]"
+  - "EmailBodyFile property [SMTP adapters]"
+  - "schemas, SMTP adapters"
+  - "SMTPHost property [SMTP adapters]"
+  - "From property [SMTP adapters]"
+  - "MessagePartsAttachments property [SMTP adapters]"
+ms.assetid: 6d062fb6-d728-4525-8f0d-bd3f0f8ff7ca
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SMTP Adapter Property Schema and Properties
 The following table lists the properties in the SMTP adapter property schema.  

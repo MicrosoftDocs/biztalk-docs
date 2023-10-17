@@ -1,12 +1,26 @@
 ---
 description: "Learn about best practices for managing certificates in the Microsoft BizTalk Server environment."
-title: "Best Practices for Managing Certificates1"
+title: "Best Practices for Managing Certificates1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "best practices, certificates"
+  - "certificates, security"
+  - "security, certificates"
+  - "certificates, best practices"
+  - "best practices, security"
+  - "security, best practices"
+ms.assetid: cd182df4-0fcd-409c-9221-89f92e069f07
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Learn About Best Practices for Managing Certificates
 

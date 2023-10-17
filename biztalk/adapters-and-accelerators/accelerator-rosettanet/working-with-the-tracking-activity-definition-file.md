@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Working with the Tracking Activity Definition File"
-title: "Working with the Tracking Activity Definition File"
+title: "Working with the Tracking Activity Definition File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "tracking, activity definition file"
+  - "activity definition file"
+  - "activity definition file, about activity definition file"
+  - "tracking, managing views"
+  - "activity definition file, activity fields"
+ms.assetid: 0592a844-aad7-4054-b1e7-344f1086f0b1
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working with the Tracking Activity Definition File
 The activity definition file contains information about the tracking process and message activities in Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] uses this file to manage data tracking in BizTalk Business Activity Monitoring (BAM). The definition file is an XML file (Tracking.xml) that [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] setup installs in the \<*drive*\>:\Program Files\Microsoft BizTalk 2013 Accelerator for RosettaNet \BAMTracking folder. The activities defined in Tracking.xml may be sufficient for your purposes.  

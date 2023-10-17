@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Resource Security"
-title: "Resource Security1"
+title: "Resource Security1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f7fa278e-b691-45e7-b690-b6ae4435779a
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Resource Security
 This section describes accessing [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] resources, including Display LUs, Printer LUs, and LU pools.  

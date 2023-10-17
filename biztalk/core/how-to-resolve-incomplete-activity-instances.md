@@ -1,12 +1,19 @@
 ---
-title: "Resolve incomplete activity instances"
+title: "Resolve incomplete activity instances | Microsoft Docs"
 description: BAM activity instances remain active after backing up the BAMPrimaryImport database in BizTalk Server
 ms.custom: ""
 ms.date: "01/17/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8adbcb66-58ad-42c5-ba16-7dc07572099e
+caps.latest.revision: 19
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Resolve incomplete BAM activity instances - BizTalk Server
 BAM stores data for incomplete activity instances in a special *active instance* table in the BAMPrimaryImport database.  

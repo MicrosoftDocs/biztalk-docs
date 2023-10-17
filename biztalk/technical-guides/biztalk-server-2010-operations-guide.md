@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: BizTalk Server 2010 Operations Guide"
-title: "BizTalk Server 2010 Operations Guide"
+title: "BizTalk Server 2010 Operations Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4dc0d8e9-9ad6-4ce1-8ca7-399b67cb360e
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BizTalk Server 2010 Operations Guide
 Welcome to the Microsoft® BizTalk® Server 2010 Operations Guide. We created this guide to be a valuable resource for anyone involved in the implementation and administration of a BizTalk solution, particularly IT professionals.

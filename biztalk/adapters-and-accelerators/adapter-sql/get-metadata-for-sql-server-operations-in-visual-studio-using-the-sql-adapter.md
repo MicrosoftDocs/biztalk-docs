@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Get metadata for SQL Server operations in Visual Studio using the SQL adapter"
-title: "Get metadata for SQL Server operations in Visual Studio using the SQL adapter"
+title: "Get metadata for SQL Server operations in Visual Studio using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5a7ac720-e573-4564-8d15-8212a815f1f7
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get metadata for SQL Server operations in Visual Studio using the SQL adapter
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] provides three [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components that you can use to help you develop solutions using the adapter—the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]. Adapter clients must use these components to connect to SQL Server and then generate metadata for the operations they want to perform.  

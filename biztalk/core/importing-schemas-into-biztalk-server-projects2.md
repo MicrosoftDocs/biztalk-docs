@@ -1,12 +1,19 @@
 ---
 description: "Learn how to import JD Edwards EnterpriseOne schemas into a BizTalk Server project."
-title: "Import JD Edwards EnterpriseOne schemas into Visual Studio"
+title: "Import JD Edwards EnterpriseOne schemas into Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 640d5884-953a-46b6-b9dc-b931392a3059
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Importing Schemas into BizTalk Server Projects
 

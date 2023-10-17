@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Keyboard Shortcuts General to the Design Surface"
-title: "Keyboard Shortcuts General to the Design Surface"
+title: "Keyboard Shortcuts General to the Design Surface | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "keyboard shortcuts, Orchestration Designer"
+  - "Orchestration Designer, keyboard shortcuts"
+ms.assetid: a096cb14-7e41-4231-810e-be3f3f098a84
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Keyboard Shortcuts General to the Design Surface
 The following table describes the keyboard navigation that is general to both the Process Area and Port Surfaces areas of the design surface.  

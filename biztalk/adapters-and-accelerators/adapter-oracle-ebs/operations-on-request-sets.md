@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Operations on Request Sets"
-title: "Operations on Request Sets"
+title: "Operations on Request Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0537354d-821e-4cf9-a4d1-f4e7d1643df9
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Operations on Request Sets
 A request set in Oracle E-Business Suite is a set of reports and concurrent programs that are organized into various stages. You can use a single request set to run a set of reports and concurrent programs. Request sets are divided into one or more stages, and each stage contains a set of reports and concurrent programs. These stages are linked with each other, and the order of the execution of each stage is defined. For more Oracle-specific information about request sets, go to [https://go.microsoft.com/fwlink/p/?LinkId=129539](https://go.microsoft.com/fwlink/p/?LinkId=129539).

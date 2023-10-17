@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Accessing Nested Members of a Class"
-title: "Accessing Nested Members of a Class"
+title: "Accessing Nested Members of a Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 358e1edf-ae0b-4916-b8db-7277f39e36f4
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Accessing Nested Members of a Class
 The rule engine allows you to use a nested property or method of an object in a rule. For example, suppose you have a class named AClass, which has a property named B of type BClass, which has a field named C. The rule engine allows you to build rules accessing the field C by using the A.B.C syntax. However, it is possible to use this syntax only when building the rules programmatically, not when using the Business Rule Composer tool. The following sample code demonstrates how to use a property of an object, which is a property of another object:  

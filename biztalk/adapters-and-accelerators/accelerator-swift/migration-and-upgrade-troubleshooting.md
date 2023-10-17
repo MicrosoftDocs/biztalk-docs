@@ -1,12 +1,24 @@
 ---
 description: "Learn more about: Migration and Upgrade Troubleshooting"
-title: "Migration and Upgrade Troubleshooting"
+title: "Migration and Upgrade Troubleshooting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "upgrading, troubleshooting"
+  - "troubleshooting, upgrading"
+  - "troubleshooting, migrating"
+  - "migrating, troubleshooting"
+ms.assetid: 6e6c0ff9-7897-4de6-9e9b-b502b3a1785b
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Migration and Upgrade Troubleshooting
 ## Assemblies need to be undeployed before an upgrade  

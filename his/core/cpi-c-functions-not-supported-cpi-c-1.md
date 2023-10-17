@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: CPI-C Functions Not Supported (CPI-C)"
-title: "CPI-C Functions Not Supported (CPI-C)1"
+title: "CPI-C Functions Not Supported (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 54e89a40-a7dd-40cd-bb9a-63186063cb66
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # CPI-C Functions Not Supported (CPI-C)
 The Microsoft® Windows® CPI-C implementation does not support the following CPI-C 1.2 functions.  

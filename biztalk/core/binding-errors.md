@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Binding Errors"
-title: "Binding Errors"
+title: "Binding Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e8659786-bf2d-4260-a38c-6be1620b3cb6
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Binding Errors
 This section contains detailed information for diagnosing and resolving WCF Binding errors.  

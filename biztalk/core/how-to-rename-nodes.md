@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Rename Nodes"
-title: "How to Rename Nodes"
+title: "How to Rename Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ed703a3f-7e47-4adf-aed4-e5133470a979
+caps.latest.revision: 5
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Rename Nodes
 There will probably be times when you want to rename existing nodes. This topic describes two variations on this task.  

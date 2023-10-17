@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: BACKOUT Verb Issued Remotely"
-title: "BACKOUT Verb Issued Remotely2"
+title: "BACKOUT Verb Issued Remotely2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b60246d7-4fa9-444b-9ddf-b453c131dfd6
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # BACKOUT Verb Issued Remotely
 ![Image that shows how the BACKOUT verb is issued remotely.](../core/media/appc2dc.gif "appc2dc")  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Test Scenarios for Measuring MST of DTA Tracking"
-title: "Test Scenarios for Measuring MST of DTA Tracking"
+title: "Test Scenarios for Measuring MST of DTA Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 303dc1d8-baac-4b54-92c8-95c0ce640a76
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Test Scenarios for Measuring MST of DTA Tracking
 To show how all of this works in practice and to introduce a simple technique for measuring maximum sustainable throughput (MST) for tracking, we will now present a test scenario for which the tracking MST has been measured. Not only will we provide the techniques involved, but you can use the data presented as a starting point to estimate tracking performance for other systems.

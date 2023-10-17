@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Data element too long"
-title: "Data element too long"
+title: "Data element too long | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: bf608cc1-d482-4e19-8f56-10d9e03feb79
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Data element too long
 ## Details  

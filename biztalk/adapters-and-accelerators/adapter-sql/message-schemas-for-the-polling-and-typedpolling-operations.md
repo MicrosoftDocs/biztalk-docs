@@ -1,12 +1,19 @@
 ---
-title: "Message Schemas for the Polling and TypedPolling Operations for the SQL adapter in BizTalk"
+title: "Message Schemas for the Polling and TypedPolling Operations for the SQL adapter in BizTalk | Microsoft Docs"
 description: Polling and TypedPolling message structure used by the SQL adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 1e900307-2c9c-493b-81c9-67af3e143eeb
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Message Schemas for the Polling and TypedPolling Operations
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces the Polling and TypedPolling inbound operations to return the result set of the polling query to an adapter client.  

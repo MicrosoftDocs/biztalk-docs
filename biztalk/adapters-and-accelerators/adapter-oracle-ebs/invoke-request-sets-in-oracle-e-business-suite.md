@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Invoke request sets in Oracle E-Business Suite"
-title: "Invoke request sets in Oracle E-Business Suite"
+title: "Invoke request sets in Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a79bff63-325d-4745-ab0e-839e00476ab1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Invoke request sets in Oracle E-Business Suite
 [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] enables you to execute request sets in Oracle E-Business Suite. Request sets are divided into one or more stages, and each stage contains a set of reports and concurrent programs. For more information on how the adapter supports request sets, see [Operations on Request Sets](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-request-sets.md). For information about the structure of SOAP messages for invoking request sets, see [Message Schemas for Request Sets](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-request-sets.md).  

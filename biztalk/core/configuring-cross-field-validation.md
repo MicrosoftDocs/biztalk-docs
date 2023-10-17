@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Cross-Field Validation"
-title: "Configuring Cross-Field Validation"
+title: "Configuring Cross-Field Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8f0c6ae8-0b8a-4826-9dfb-bf27e5ff7fa6
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Cross-Field Validation
 This topic describes how to enable cross field/segment validation on transaction-set data elements in EDI-encoded messages. To do so, you need to make two settings:  

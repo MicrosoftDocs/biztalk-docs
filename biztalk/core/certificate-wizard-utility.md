@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Certificate Wizard Utility"
-title: "Certificate Wizard Utility"
+title: "Certificate Wizard Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5ff72810-c7b3-4f67-8f9f-e127eacc153e
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Certificate Wizard Utility
 You use the CertWizard utility to import a certificate from a .pfx or .cer file into a private or public store for use with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

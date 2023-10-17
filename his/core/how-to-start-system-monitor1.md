@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Start System Monitor"
-title: "How to Start System Monitor1"
+title: "How to Start System Monitor1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6ef30d3f-bb5c-4a37-bbd8-1d0054f75539
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Start System Monitor
 You can start the Windows System Monitor in several ways. The following procedures describe how to start the system monitor from the operating system and from the SNA Manager.  

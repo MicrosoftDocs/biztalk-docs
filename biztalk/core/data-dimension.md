@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Data Dimension"
-title: "Data Dimension"
+title: "Data Dimension | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Data dimension [BAM]"
+  - "aggregations [BAM], data dimensions"
+ms.assetid: 07b5e56a-4fd5-4c88-a98a-758e514d0621
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Data Dimension
 Defining a data dimension allows the value of some text items in the BAM activity to be used on rows or columns. For example a data dimension named Product can be used to create the following table:  

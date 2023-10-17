@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sample VTAM Parameters for Independent APPC"
-title: "Sample VTAM Parameters for Independent APPC1"
+title: "Sample VTAM Parameters for Independent APPC1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ebd80244-834d-4625-8536-7a240f2e60d0
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sample VTAM Parameters for Independent APPC
 The lists in this section show sample VTAM parameters that might be used for communication using independent Advanced Program-to-Program Communications (APPC). The underlined values correspond to values specified in SNA Server Manager.  

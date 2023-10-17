@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Walkthrough: Creating a Flat File Schema From a Document Instance"
-title: "Walkthrough: Creating a Flat File Schema From a Document Instance"
+title: "Walkthrough: Creating a Flat File Schema From a Document Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a5e1453f-0380-4505-97a9-9d3526db0923
+caps.latest.revision: 47
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Walkthrough: Creating a Flat File Schema From a Document Instance
 This walkthrough shows you how to create a flat file schema from a document instance using the BizTalk Flat File Schema Wizard based on the following sample purchase order. For an introduction to the BizTalk Flat File Schema Wizard, see [How to Use BizTalk Flat File Schema Wizard](../core/how-to-use-biztalk-flat-file-schema-wizard.md).  

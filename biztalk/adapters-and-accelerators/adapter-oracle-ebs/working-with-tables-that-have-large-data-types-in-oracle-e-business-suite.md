@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Working with tables that have large data types in Oracle E-Business Suite"
-title: "Working with tables that have large data types in Oracle E-Business Suite"
+title: "Working with tables that have large data types in Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 501aa302-0f82-4221-b99f-423bc8621a6a
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working with tables that have large data types in Oracle E-Business Suite
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] enables adapter clients to perform operations on interface tables and views with large data types such as BLOB, CLOB, NCLOB, and BFILE.  

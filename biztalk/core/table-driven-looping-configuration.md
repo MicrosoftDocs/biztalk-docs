@@ -1,12 +1,28 @@
 ---
 description: "Learn more about: Table-Driven Looping Configuration"
-title: "Table-Driven Looping Configuration"
+title: "Table-Driven Looping Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Table Looping functoids"
+  - "Table Extractor functoids, configuring"
+  - "Table Extractor functoids"
+  - "Table Extractor functoids, adding to grid"
+  - "Table Looping functoids, about Table Looping functoids"
+  - "Table Looping functoids, configuring"
+  - "Table Extractor functoids, about Table Extractor functoids"
+  - "Table Looping functoids, adding to map"
+ms.assetid: ecc24d9b-ebc0-4559-9746-58e3b00c02ab
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Table-Driven Looping Configuration
 Follow these steps to configure table-driven looping in your map:  

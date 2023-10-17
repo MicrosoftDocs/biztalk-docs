@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The ESB Add Namespace and Remove Namespace Components"
-title: "The ESB Add Namespace and Remove Namespace Components"
+title: "The ESB Add Namespace and Remove Namespace Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 21df1b21-b73c-4e31-a234-49a1a6b53cc7
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The ESB Add Namespace and Remove Namespace Components
 Many companies were early adopters of XML technologies at the time when standards were still emerging and document sharing was uncommon. Therefore, they did not strictly enforce the requirements for including unique root namespaces, which is usually the case today.  

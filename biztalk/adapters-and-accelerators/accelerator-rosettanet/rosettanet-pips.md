@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: RosettaNet PIPs"
-title: "RosettaNet PIPs"
+title: "RosettaNet PIPs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "PIPs, clusters"
+  - "RosettaNet, PIPs"
+  - "PIPs, PIP specifications"
+  - "PIPs, segments"
+  - "PIPs, RosettaNet"
+  - "DTDs, DTD files"
+ms.assetid: 2f7e8db3-9ccb-403a-9fe7-58fbba3c4cb1
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # RosettaNet PIPs
 The RosettaNet organization creates and maintains Partner Interface Processes (PIPs) to provide common business-process definitions for all RosettaNet message exchanges.

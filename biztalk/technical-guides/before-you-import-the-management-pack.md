@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Before You Import the Management Pack"
-title: "Before You Import the Management Pack"
+title: "Before You Import the Management Pack | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6e3c13dd-613a-4885-a5d2-ad3ee492ff25
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Before You Import the Management Pack
 As a best practice, you should import the Windows Server Management Pack for the operating system that you are using. Before you import the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack, take the following actions:  

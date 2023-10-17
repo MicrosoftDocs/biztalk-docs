@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Snacfg Diagnostic"
-title: "Snacfg Diagnostic2"
+title: "Snacfg Diagnostic2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 643d211c-e7d4-4b19-8993-35fee9ef0aa6
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Snacfg Diagnostic
 ## Purpose  

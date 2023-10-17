@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Error - Cannot resolve schemaLocation attribute"
-title: "Error - Cannot resolve schemaLocation attribute"
+title: "Error - Cannot resolve schemaLocation attribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 0ee98a80-82b9-40b9-9438-ac9c150c25f6
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Error - Cannot resolve schemaLocation attribute
 **Error Code**  

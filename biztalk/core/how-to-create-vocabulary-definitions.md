@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Create Vocabulary Definitions"
-title: "How to Create Vocabulary Definitions"
+title: "How to Create Vocabulary Definitions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, vocabularies"
+  - "vocabularies, creating"
+  - "vocabularies, definitions"
+ms.assetid: 6f8fc4c2-2c46-4a7d-a02f-89de0396e3e2
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Create Vocabulary Definitions
 You can use the Vocabulary Definition Wizard to create vocabulary definitions. You can define a vocabulary definition as a constant value, a range of values, a set of values, or elements of a .NET assembly, XML document, or database table. If you select a public variable, there will be **Get** and **Set** options just like in Database and XML definition wizard.  

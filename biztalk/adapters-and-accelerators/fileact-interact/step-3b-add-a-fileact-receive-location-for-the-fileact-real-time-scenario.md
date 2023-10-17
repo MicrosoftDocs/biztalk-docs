@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 3B: Add a FILEACT Receive Location for the FileAct Real-Time Scenario"
-title: "Step 3B: Add a FILEACT Receive Location for the FileAct Real-Time Scenario"
+title: "Step 3B: Add a FILEACT Receive Location for the FileAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7e086c86-1525-4cef-b7e5-a66e14bd8d4f
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 3B: Add a FILEACT Receive Location for the FileAct Real-Time Scenario
 Before you begin this step, you must complete [Step 3A: Add a FILE Receive Location for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-real-time-scenario.md).  

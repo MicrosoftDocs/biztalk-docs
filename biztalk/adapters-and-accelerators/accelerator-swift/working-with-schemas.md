@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Working with Schemas"
-title: "Working with Schemas"
+title: "Working with Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "developing, schemas"
+  - "schemas, developing"
+ms.assetid: 123c4b43-34e4-41c7-980d-5d518b1479c1
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Working with Schemas
 The schemas provided in Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] are the Microsoft XSD representation of the Society for Worldwide Interbank Financial Telecommunication (SWIFT) FIN messages. Each message type has its own schema, including the SWIFT header and SWIFT trailer (interchange format). This schema is sufficient to send or receive a SWIFT message. These schemas are a unique mixture of delimited and positional records, providing a detailed XML representation of the flat-file FIN structures.  

@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Windows Accounts for a Secure Distributed BizTalk Server Deployment"
-title: "Windows Accounts for a Secure Distributed BizTalk Server Deployment"
+title: "Windows Accounts for a Secure Distributed BizTalk Server Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "BizTalk Server, Windows groups"
+  - "user accounts, naming conventions"
+  - "user accounts"
+  - "access control, Windows groups"
+  - "security, access control"
+  - "architecture, security"
+  - "security, Windows accounts"
+  - "administrator accounts"
+  - "user accounts, administrators"
+  - "architecture, large distributions"
+ms.assetid: 2a0893ef-8bfb-481b-b024-7f7d6e2a6f09
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Windows Accounts for a Secure Distributed BizTalk Server Deployment
 For complete information about the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

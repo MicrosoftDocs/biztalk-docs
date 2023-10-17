@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Secure Deployment of the IP-DLC Link Service"
-title: "Secure Deployment of the IP-DLC Link Service2"
+title: "Secure Deployment of the IP-DLC Link Service2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 41d4ba28-4ca0-4bd9-babb-8926124f45b5
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Secure Deployment of the IP-DLC Link Service
 The IP-DLC link service takes advantage of the entire [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] secure deployment feature set, especially the following:  

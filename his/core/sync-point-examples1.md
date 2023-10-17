@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Sync Point Examples"
-title: "Sync Point Examples1"
+title: "Sync Point Examples1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 66c2bca1-288d-4788-97b2-353d90fe691e
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Sync Point Examples
 This section contains example verb sequences for implementing the architected Sync Point verbs using the Sync Point facilities provided by Host Integration Server.  

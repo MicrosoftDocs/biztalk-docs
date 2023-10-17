@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Enable Enterprise Single Sign-On"
-title: "How to Enable Enterprise Single Sign-On"
+title: "How to Enable Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a876dbf6-6ba0-4192-9c9c-752b29438bc7
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Enable Enterprise Single Sign-On
 The enabling command enables the entire Enterprise Single Sign-On (SSO) system. After you run the enabling command, there is a short delay before all Single Sign-On servers are enabled, because each server polls the Credential database for the latest global information.  

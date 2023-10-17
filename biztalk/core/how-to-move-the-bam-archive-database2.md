@@ -1,12 +1,22 @@
 ---
 description: "Learn how to move the Business Activity Monitoring (BAM) Archive database to another server."
-title: "How to Move the BAM Archive Database2"
+title: "How to Move the BAM Archive Database2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Archive database [BAM], migrating"
+  - "migrating, Archive database [BAM]"
+ms.assetid: 88b96dc2-8c9c-43f5-afb9-a937e05de36b
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Move the BAM Archive Database
 

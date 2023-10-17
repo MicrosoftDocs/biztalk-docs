@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Choosing Server-to-Host Connections"
-title: "Choosing Server-to-Host Connections1"
+title: "Choosing Server-to-Host Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: f93fd89f-4ef4-47d4-8345-51cb31ba3179
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Choosing Server-to-Host Connections
 In [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] terms, a host connection is the data communications path between Host Integration Server and a host system. For a mainframe, the connection corresponds to a physical unit (PU) definition in Virtual Telecommunications Access Method (VTAM). On the AS/400 computer, the connection corresponds to an Advanced Program-to-Program Communications (APPC) controller definition.  

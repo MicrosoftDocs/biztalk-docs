@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Step 5: Create a Mirror Agreement"
-title: "Step 5: Create a Mirror Agreement"
+title: "Step 5: Create a Mirror Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, mirror agreements"
+  - "loopback tutorial, creating mirror agreements"
+  - "agreements, mirror agreements"
+ms.assetid: 6aa70b1e-7d38-49f7-9d5f-f008cbe3df66
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 5: Create a Mirror Agreement
 In this step, you use the Loopback utility to create a mirror agreement simulating the trading partner on the same computer on which you configured the home organization. The Loopback utility is a command-line tool.  

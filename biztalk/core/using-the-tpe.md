@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Using the TPE"
-title: "Using the TPE"
+title: "Using the TPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Tracking Profile Editor, about Tracking Profile Editor"
+  - "tracking profiles, prerequisites"
+ms.assetid: ebe9a5da-66ec-482d-8aac-892a829ca996
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using the TPE
 You use the Tracking Profile Editor (TPE) to map orchestrations and properties to BAM activity definitions.  

@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: TRM Format for the TCP TRM User Data Programming Model"
-title: "TRM Format for the TCP TRM User Data Programming Model2"
+title: "TRM Format for the TCP TRM User Data Programming Model2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 45e664aa-d07c-41f4-85b7-ab84d6a1e7b4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # TRM Format for the TCP TRM User Data Programming Model
 This section describes the format and content of the transaction request message (TRM) used by the TCP TRM User Data programming model.  

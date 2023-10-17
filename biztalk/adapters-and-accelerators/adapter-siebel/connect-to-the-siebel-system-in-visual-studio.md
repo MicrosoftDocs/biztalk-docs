@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Connect to the Siebel System in Visual Studio"
-title: "Connect to the Siebel System in Visual Studio"
+title: "Connect to the Siebel System in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Add Adapter Service Reference Plug-in"
+  - "Consume Adapter Service Add-in"
+  - "how to, connect to the Siebel System in Visual Studio"
+ms.assetid: 4a94bce9-fda9-4e00-b26c-08672a80e3be
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Connect to the Siebel System in Visual Studio
 This section provides instructions about how to use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  

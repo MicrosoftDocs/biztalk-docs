@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Security Considerations"
-title: "Security Considerations"
+title: "Security Considerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 144ef9a7-2f59-4e7e-93d9-e559f018b414
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Security Considerations
 You may have to customize your management pack. Certain accounts cannot be run in a low-privilege environment or must have minimum permissions. For additional details about security considerations and configuring low-privilege accounts, refer to the Operations Manager 2007 R2/2012 Security Guide at [https://go.microsoft.com/fwlink/?LinkID=198196](/previous-versions/system-center/operations-manager-2007-r2/bb735409(v=technet.10)).

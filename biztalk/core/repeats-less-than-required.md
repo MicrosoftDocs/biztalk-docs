@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Repeats less than required"
-title: "Repeats less than required"
+title: "Repeats less than required | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d5bebc13-0e70-4f73-99c0-fed917d79fba
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Repeats less than required
 ## Details  

@@ -1,16 +1,22 @@
 ---
 description: "Learn more about: How to Create LU Pools"
-title: "How to Create LU Pools1"
+title: "How to Create LU Pools1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_Pool_3270"
   - "SNA_Pool_Lua"
   - "SNA_Pool_Down"
+ms.assetid: f548db93-cad4-4bf0-b12b-eef7c5b46894
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create LU Pools
 Although you can create individual LUs and assign them to users and groups, using LU pools to manage and deploy a large number of LUs is a more efficient method of administering these resources.  

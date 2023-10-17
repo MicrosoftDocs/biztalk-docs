@@ -1,12 +1,25 @@
 ---
 description: "Learn more about: How to Use the BizTalk WCF Service Publishing Wizard to Publish Schemas as WCF Services"
-title: "How to Use the BizTalk WCF Service Publishing Wizard to Publish Schemas as WCF Services"
+title: "How to Use the BizTalk WCF Service Publishing Wizard to Publish Schemas as WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "schemas, WCF services"
+  - "tools, WCF Service Publishing Wizard"
+  - "publishing, schemas [WCF services]"
+  - "WCF services, schemas"
+  - "WCF Service Publishing Wizard"
+ms.assetid: 3b770fd5-5b7b-493f-9016-d7d58854c5ff
+caps.latest.revision: 15
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Use the BizTalk WCF Service Publishing Wizard to Publish Schemas as WCF Services
 You use the BizTalk WCF Service Publishing Wizard to publish schemas as WCF services.  

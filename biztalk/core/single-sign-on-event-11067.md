@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11067"
-title: "Single Sign-On: Event 11067"
+title: "Single Sign-On: Event 11067 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a9abce3c-1e4d-461f-a029-c71a04284804
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Single Sign-On: Event 11067
 ## Details  

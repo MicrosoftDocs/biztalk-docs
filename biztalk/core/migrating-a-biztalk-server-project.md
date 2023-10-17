@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Migrating a BizTalk Server Project"
-title: "Migrating a BizTalk Server Project"
+title: "Migrating a BizTalk Server Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 5a4dde72-6555-4bf6-b90e-676aa65312ff
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Migrating a BizTalk Server Project
 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects developed for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can be migrated to the newer environments by using  [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] conversion. For a list of the supported migration versions, see [Supported Upgrade Paths and Installation Guides](https://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx).

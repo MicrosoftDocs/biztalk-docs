@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: 3270 Session"
-title: "3270 Session1"
+title: "3270 Session1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNAPRINT_Session_3270"
+ms.assetid: fc55555e-8aa9-495e-b219-42098bc98518
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # 3270 Session
 The following tabs are available on the Print Session 3270 Properties sheet:  

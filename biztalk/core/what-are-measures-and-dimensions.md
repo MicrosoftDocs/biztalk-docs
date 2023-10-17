@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: What Are Measures and Dimensions?"
-title: "What Are Measures and Dimensions?"
+title: "What Are Measures and Dimensions? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: e6b12a4c-9be5-4cac-b5b9-ece376d28cb1
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Are Measures and Dimensions?
 Dimensions and measures are the physical aspects of data aggregation. This topic describes what measures and dimensions are, using a BAM scenario to provide context.  

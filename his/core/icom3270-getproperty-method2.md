@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Icom3270.getProperty Method"
-title: "Icom3270.getProperty Method2"
+title: "Icom3270.getProperty Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 2c712e15-20c1-452d-bfda-6accfa6d7a4b
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Icom3270.getProperty Method
 The getProperty method describes the properties of a session.  

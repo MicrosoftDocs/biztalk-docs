@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: SSOM: SharePoint Services Adapter Web Service"
-title: "SSOM: SharePoint Services Adapter Web Service"
+title: "SSOM: SharePoint Services Adapter Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 064d97b0-eb4b-4943-af01-5ca11e5f7029
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # SSOM: SharePoint Services Adapter Web Service
 Using the [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] adapter, you can receive messages from [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] and send messages to [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)].  

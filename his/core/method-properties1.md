@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Method Properties"
-title: "Method Properties1"
+title: "Method Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15430"
+ms.assetid: d509dc85-924b-4e6e-bdd5-c7a2f50024f2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Method Properties
 Use the **Method** properties page to set array, COBOL, design, host definition, and recordset properties on the method.  

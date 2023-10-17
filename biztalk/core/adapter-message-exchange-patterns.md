@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Adapter Message Exchange Patterns"
-title: "Adapter Message Exchange Patterns"
+title: "Adapter Message Exchange Patterns | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 54a3fc8f-33d0-4b7e-ad4c-b00912dc3328
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Adapter Message Exchange Patterns
 The BizTalk Adapter Framework supports a rich set of message exchange patterns that adapters can use in many powerful messaging scenarios.  

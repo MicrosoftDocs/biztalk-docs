@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Get Metadata Using WS-Metadata Exchange in Oracle Database"
-title: "Get Metadata Using WS-Metadata Exchange in Oracle Database"
+title: "Get Metadata Using WS-Metadata Exchange in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WS-Metadata Exchange, retrieving metadata"
+  - "metadata, retrieving using WS-Metadata Exchange"
+ms.assetid: 6ff34438-7260-489d-a5f0-6e53f8fe43be
+caps.latest.revision: 4
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Get Metadata Using WS-Metadata Exchange in Oracle Database
 As a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding, the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] exposes a WS-Metadata Exchange (MEX) endpoint that you can use to retrieve metadata for specific operations from the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].  

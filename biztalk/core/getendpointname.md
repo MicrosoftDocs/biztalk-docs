@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: GetEndpointName"
-title: "GetEndpointName"
+title: "GetEndpointName | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c5a06850-ff6d-4fe4-9834-61d14b117391
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # GetEndpointName
 Pushes the name of the current interception endpoint onto the stack.  

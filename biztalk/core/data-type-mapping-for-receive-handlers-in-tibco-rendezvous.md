@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Data Type Mapping for Receive Handlers in TIBCO Rendezvous"
-title: "Data Type Mapping to receive from TIBCO Rendezvous"
+title: "Data Type Mapping to receive from TIBCO Rendezvous | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 36908a94-3c0d-466e-aa49-f674ba4a26af
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Data Type Mapping for Receive Handlers in TIBCO Rendezvous
 Microsoft BizTalk Adapter for TIBCO Rendezvous maps TIBCO RV types to XML Schema types as specified in the following table.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Receive Polling-based Data-changed Messages from SQL Server by Using the WCF Channel Model"
-title: "Receive Polling-based Data-changed Messages from SQL Server by Using the WCF Channel Model"
+title: "Receive Polling-based Data-changed Messages from SQL Server by Using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d0f4af71-fb0c-433d-ba74-48ee6487eb1a
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Receive Polling-based Data-changed Messages from SQL Server by Using the WCF Channel Model
 You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive periodic data-change messages for SQL Server tables or views. You can specify a polling statement that the adapter executes to poll the database. The polling statement can be a SELECT statement or a stored procedure that returns a result set.  

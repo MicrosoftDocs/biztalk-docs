@@ -1,9 +1,22 @@
 ---
 description: "Learn more about: Schema Known Issues"
 title: "Schema Known Issues"
+
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
+
+
+
+
 ms.topic: article
+helpviewer_keywords: 
+  - "known issues, schemas"
+  - "schemas, known issues"
+ms.assetid: 17651462-baa9-448a-954c-c09e70640f17
+caps.latest.revision: 11
+
+
+
 ---
 # Schema Known Issues
 This section contains useful information that may help you avoid schema errors.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Log a Local User on to a Non-Windows Application"
-title: "How to Log a Local User on to a Non-Windows Application"
+title: "How to Log a Local User on to a Non-Windows Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: b55957f4-22c4-48b5-827a-ab41d8f846ac
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Log a Local User on to a Non-Windows Application
 After you set up your user with an affiliate application, you can use Single Sign-On (SSO) to access the external user name and credentials of the current user. Using these credentials, you can then log your user on to the affiliate application that is running on a host server.

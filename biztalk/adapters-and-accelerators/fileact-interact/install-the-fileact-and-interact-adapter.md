@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Install the FileAct and InterAct Adapter"
-title: "Install the FileAct and InterAct Adapter"
+title: "Install the FileAct and InterAct Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: cf387d59-373b-4151-9dfd-30c511978862
+caps.latest.revision: 25
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Install the FileAct and InterAct Adapter
 This section provides instructions to install [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] – for SWIFT. Before you install the adapters, you must install the prerequisite software.

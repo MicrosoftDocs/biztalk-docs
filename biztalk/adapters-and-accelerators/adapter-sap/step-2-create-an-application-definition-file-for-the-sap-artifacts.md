@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Step 2: Create an Application Definition File for the SAP Artifacts"
-title: "Step 2: Create an Application Definition File for the SAP Artifacts"
+title: "Step 2: Create an Application Definition File for the SAP Artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "application definition file, creating a"
+  - "Business Data Catalog Definition Editor"
+  - "Business Data Catalog"
+ms.assetid: d254b00e-dbeb-4167-ad57-6f0aa2e7a563
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 2: Create an Application Definition File for the SAP Artifacts
 ![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")

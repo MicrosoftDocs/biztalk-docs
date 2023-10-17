@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Sample Message Presentation"
-title: "Sample Message Presentation"
+title: "Sample Message Presentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "examples, SWIFT message block"
+  - "SWIFT messages, message block example"
+ms.assetid: 3136a7da-658d-4100-bbe5-2186ee8bafd1
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Sample Message Presentation
 The following table shows an example of the block layout of a SWIFT message.  

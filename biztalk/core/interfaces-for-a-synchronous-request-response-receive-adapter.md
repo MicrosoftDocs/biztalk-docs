@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Interfaces for a Synchronous Request-Response Receive Adapter"
-title: "Interfaces for a Synchronous Request-Response Receive Adapter"
+title: "Interfaces for a Synchronous Request-Response Receive Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d0c60832-52b5-4d2c-81ec-94c46c375b15
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Interfaces for a Synchronous Request-Response Receive Adapter
 All receive adapters need to implement the following interfaces to work in request-response mode:  

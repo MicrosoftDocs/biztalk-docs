@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: How to Disable a User Mapping"
-title: "How to Disable a User Mapping"
+title: "How to Disable a User Mapping | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "disabling, maps"
+  - "managing [SSO maps], disabling"
+  - "maps [SSO], disabling"
+ms.assetid: 9b6eaff2-674b-49f7-8d5c-3e040a7dc7f8
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Disable a User Mapping
 You can disable a user mapping when you want to turn off all operations associated with a given mapping. You must disable a user mapping before you can remove it.  

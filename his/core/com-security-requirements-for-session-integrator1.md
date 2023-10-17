@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: COM Security Requirements for Session Integrator"
-title: "COM Security Requirements for Session Integrator1"
+title: "COM Security Requirements for Session Integrator1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ff94595f-c07d-4da4-b05c-d5c8801d075d
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # COM Security Requirements for Session Integrator
 When using Session Integrator in an environment where the Client application and the Service component are running under two different user accounts, special configuration of COM security should be performed.  

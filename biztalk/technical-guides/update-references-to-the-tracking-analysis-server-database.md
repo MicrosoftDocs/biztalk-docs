@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Update References to the Tracking Analysis Server Database"
-title: "Update References to the Tracking Analysis Server Database"
+title: "Update References to the Tracking Analysis Server Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 6a403325-1394-4668-946f-01b610cb686e
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Update References to the Tracking Analysis Server Database
 The Tracking Analysis Server database is an optional and contains the online analytical processing (OLAP) cubes. These OLAP cubes are aggregations of data contained in the BizTalk Tracking database.

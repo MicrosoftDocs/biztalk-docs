@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Installing and Running the SQL Adapter Sample"
-title: "Installing and Running the SQL Adapter Sample"
+title: "Installing and Running the SQL Adapter Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 8f352a5b-3d4d-4597-936a-fdec12c323df
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Installing and Running the SQL Adapter Sample
 The SQL Adapter sample shows how you can use the dynamic resolution framework to execute a SQL stored procedure through the use of a WCF-Custom adapter provider. The sample uses the test client application provided with the Itinerary On-Ramp sample.  

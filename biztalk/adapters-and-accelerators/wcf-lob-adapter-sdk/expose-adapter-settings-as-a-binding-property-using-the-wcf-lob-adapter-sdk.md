@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Expose adapter settings as a binding property using the WCF LOB Adapter SDK"
-title: "Expose adapter settings as a binding property using the WCF LOB Adapter SDK"
+title: "Expose adapter settings as a binding property using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 59728113-917e-4bca-8e1a-609cd6558944
+caps.latest.revision: 16
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Expose adapter settings as a binding property using the WCF LOB Adapter SDK
 The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] uses the properties defined in different classes for configuring the connection pool, metadata cache, and other adapter behaviors. This topic describes how you can surface these properties as binding properties, so that the adapter consumer can set them through a configuration file.  

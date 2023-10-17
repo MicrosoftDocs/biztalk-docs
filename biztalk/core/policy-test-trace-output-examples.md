@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Policy Test Trace Output Examples"
-title: "Policy Test Trace Output Examples"
+title: "Policy Test Trace Output Examples | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "testing, policies"
+  - "policies, testing"
+  - "testing, examples"
+ms.assetid: 92e1dc7f-1a8d-41a5-84b6-46d5ad9f2ef2
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Policy Test Trace Output Examples
 This section contains examples of the policy test output for different types of facts.  

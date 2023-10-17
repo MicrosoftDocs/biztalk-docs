@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Opening the STATION LPI Connection"
-title: "Opening the STATION LPI Connection2"
+title: "Opening the STATION LPI Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4d5d1cf2-ed13-43f4-86b2-9e7c5d7b38f4
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Opening the STATION LPI Connection
 After receiving a [Request-Open-Station](./request-open-station2.md) (RQOS) message, the local node sends an [Open(STATION)](./open-station-1.md) message to the SNALink when:  

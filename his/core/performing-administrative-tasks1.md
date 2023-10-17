@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Performing Administrative Tasks"
-title: "Performing Administrative Tasks"
+title: "Performing Administrative Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 3fa0bab1-854a-4fd4-bc2e-5e2e9c3dc7ec
+caps.latest.revision: 4
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Performing Administrative Tasks
 

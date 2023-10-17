@@ -1,12 +1,22 @@
 ---
 description: "Learn more about: Step 1: Build and Deploy the vPrev BizTalk Project for Sending an IDOC"
-title: "Step 1: Build and Deploy the vPrev BizTalk Project for Sending an IDOC"
+title: "Step 1: Build and Deploy the vPrev BizTalk Project for Sending an IDOC | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "migration, building and deploying previous version of BizTalk project for sending an IDOC"
+  - "migration"
+ms.assetid: 1982b318-45d1-464e-b7e4-65d459c439e3
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Build and Deploy the vPrev BizTalk Project for Sending an IDOC
 ![Step 1 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-1of3.gif "Step_1of3")  

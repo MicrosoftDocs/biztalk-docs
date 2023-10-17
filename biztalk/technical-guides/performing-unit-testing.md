@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Performing Unit Testing"
-title: "Performing Unit Testing"
+title: "Performing Unit Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 40275d0b-b2ee-400c-9ef5-b9386ab0ae53
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Performing Unit Testing
 Unit testing is focused at the component level and is basically a pass/fail test that verifies if individual components of the BizTalk solution perform as expected. You have several options for unit testing your BizTalk solution.

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Step 1: Use the WCF LOB Adapter Development Wizard to Create the Echo Adapter Project"
-title: "Step 1: Use the WCF LOB Adapter Development Wizard to Create the Echo Adapter Project"
+title: "Step 1: Use the WCF LOB Adapter Development Wizard to Create the Echo Adapter Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 634a6498-55b0-462d-a5ca-16507b3787f5
+caps.latest.revision: 23
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Step 1: Use the WCF LOB Adapter Development Wizard to Create the Echo Adapter Project
 ![Step 1 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-1of9.gif "Step_1of9")  

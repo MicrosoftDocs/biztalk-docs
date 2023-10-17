@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: User Control Data"
-title: "User Control Data2"
+title: "User Control Data2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 667870f5-3690-4ad7-9b9e-82f917670ef2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # User Control Data
 For mapped conversations, the [MC_SEND_DATA](./mc-send-data1.md) verb and the receive verbs ([MC_RECEIVE_AND_POST](./mc-receive-and-post2.md), [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait2.md), and [MC_RECEIVE_IMMEDIATE](./mc-receive-immediate2.md)) are modified to allow applications to send and receive data in user control data general data stream (GDS) variables instead of the regular application data GDS variables. The **MC_SEND_DATA** verb is modified as follows:  

@@ -1,12 +1,26 @@
 ---
 description: "Learn more about: Data Transformation"
-title: "Data Transformation"
+title: "Data Transformation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "maps, data translation"
+  - "data translation, about data translation"
+  - "data transformation, about data transformation"
+  - "maps, data transformation"
+  - "data transformation, maps"
+  - "data translation, maps"
+ms.assetid: a6aa5e9a-8d9c-478d-8f69-f9b16ed1a18c
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Data Transformation
 Mapping data relies on data transformation.  

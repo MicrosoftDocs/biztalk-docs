@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Create a Send Port for the Host Application Adapter"
-title: "How to Create a Send Port for the Host Application Adapter1"
+title: "How to Create a Send Port for the Host Application Adapter1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 4c004663-2c90-40e1-9d94-e77ab4c646c9
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Create a Send Port for the Host Application Adapter
 You can create a send port for the BizTalk Adapter for Host Applications by using the BizTalk Server Administration console. You must be logged on with an account that is a member of the BizTalk Server Administrators group. In addition, you must have appropriate permissions in the Single Sign-On (SSO) database.  

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Managing the Bicplus Table in the A4SWIFT Database"
-title: "Managing the Bicplus Table in the A4SWIFT Database"
+title: "Managing the Bicplus Table in the A4SWIFT Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords:
+  - "Bank Identifier Code (BIC), Bicplus table"
+  - "A4SWIFT database, Bicplus table"
+  - "Bicplus table"
+ms.assetid: a255cdea-5ed4-4481-97f1-8425877a76d6
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Managing the Bicplus Table in the A4SWIFT Database
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] uses a table of BIC entries to perform BIC validation. This table can be either the Bicplus table in the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] database or a table in a custom database.

@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Creating the FRR Send Port for Sending to SWIFT"
-title: "Creating the FRR Send Port for Sending to SWIFT"
+title: "Creating the FRR Send Port for Sending to SWIFT | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "creating, send ports"
+  - "send ports, creating"
+  - "FRR, creating send ports"
+ms.assetid: 1ad766db-d1da-437a-a520-a3b04f0695c4
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Creating the FRR Send Port for Sending to SWIFT
 To perform FIN Response Reconciliation, you need to create a send port that sends a message from [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] to the SWIFT Network.  

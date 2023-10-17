@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Assemblies and Artifacts Installed by the Message Enrichment Sample"
-title: "Assemblies and Artifacts Installed by the Message Enrichment Sample"
+title: "Assemblies and Artifacts Installed by the Message Enrichment Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 96e67595-35b8-4bac-a429-0de76204a9a6
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Assemblies and Artifacts Installed by the Message Enrichment Sample
 The following table lists the assemblies and other artifacts installed for the Message Enrichment sample.  

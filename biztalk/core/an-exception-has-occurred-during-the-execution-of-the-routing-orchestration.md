@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: An exception has occurred during the execution of the routing orchestration"
-title: "An exception has occurred during the execution of the routing orchestration"
+title: "An exception has occurred during the execution of the routing orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 68ec8921-ba05-496e-8dcc-fd8994fcb8b7
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # An exception has occurred during the execution of the routing orchestration
 ## Details  

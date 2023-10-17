@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: OrchestrationEventStream"
-title: "OrchestrationEventStream"
+title: "OrchestrationEventStream | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: d7c63610-6344-4b71-8d65-3add7883bc79
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # OrchestrationEventStream
 You use the OrchestrationEventStream (OES) API when your application runs on a computer on which BizTalk Server is installed and you are tracking items that are part of BizTalk orchestration transactions.  

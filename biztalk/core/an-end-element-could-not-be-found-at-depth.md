@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: An End Element could not be found at depth"
-title: "An End Element could not be found at depth"
+title: "An End Element could not be found at depth | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a1edb60a-122a-4fe9-8d73-96521fe7326b
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # An End Element could not be found at depth
 ## Details  

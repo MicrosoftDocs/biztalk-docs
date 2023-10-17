@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Troubleshooting Maps"
-title: "Troubleshooting Maps"
+title: "Troubleshooting Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 32e2eb52-6740-4cf5-82ec-3b6d0b784276
+caps.latest.revision: 7
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Troubleshooting Maps
 This topic provides troubleshooting strategies and problem detail and resolution information for maps.  

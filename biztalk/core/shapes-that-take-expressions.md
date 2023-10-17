@@ -1,12 +1,30 @@
 ---
 description: "Learn more about: Shapes that Take Expressions"
-title: "Shapes that Take Expressions"
+title: "Shapes that Take Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "Expression Editor, shapes"
+  - "Decide shape [Orchestration Designer], expressions"
+  - "Message Assignment shape [Orchestration Designer], expressions"
+  - "Filter Expression property"
+  - "Listen shape [Orchestration Designer], expressions"
+  - "Delay shape [Orchestration Designer], expressions"
+  - "shapes, expressions"
+  - "Receive shape [Orchestration Designer], expressions"
+  - "Loop shape [Orchestration Designer], expressions"
+  - "Rule shape [Orchestration Designer]"
+ms.assetid: 0d27f711-ff7c-422b-b231-aa3c9a42ed0c
+caps.latest.revision: 9
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Shapes that Take Expressions
 Several shapes in Orchestration Designer, including **Decide** and **Loop**, use Boolean expressions to form rules that control branching. Other shapes use expressions for other purposes. You can create or edit an expression for these shapes by using BizTalk Expression Editor.  

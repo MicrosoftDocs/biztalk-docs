@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: EDIFACT CONTRL Message as Functional Acknowledgment"
-title: "EDIFACT CONTRL Message as Functional Acknowledgment"
+title: "EDIFACT CONTRL Message as Functional Acknowledgment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7d3c2be0-0993-4b2d-b6c3-286020117078
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # EDIFACT CONTRL Message as Functional Acknowledgment
 If you have selected to generate a functional acknowledgment in business profile settings or trading partner agreement (or fallback agreement if no agreement is defined between the two business profiles), or if the UNB9 field in the message is set to "1", a CONTRL message will be generated as a functional acknowledgment (ACK). This ACK reports the results of syntax checks of the interchange.  

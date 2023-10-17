@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The Auto-Enlist and Approval Process"
-title: "The Auto-Enlist and Approval Process"
+title: "The Auto-Enlist and Approval Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: dfd3e72e-e28b-4ee3-bc4a-89ef3f64e6d5
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The Auto-Enlist and Approval Process
 You can configure the ESB Management Portal to publish Microsoft BizTalk Server endpoints in two ways:  

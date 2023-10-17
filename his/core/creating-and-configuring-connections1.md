@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Creating and Configuring Connections"
-title: "Creating and Configuring Connections1"
+title: "Creating and Configuring Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: a7d5f688-e365-4295-998d-f342352cb1c2
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Creating and Configuring Connections
 You can create connections between [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] and your host computer with wizards or manually. [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] provides three wizards to help you install and configure connections to your host environment (HE).  

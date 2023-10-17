@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: WriteContext"
-title: "WriteContext1"
+title: "WriteContext1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9f1bfc3b-a195-440d-844e-23f71e2e2926
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # WriteContext
 Use the **WriteContext** function to add or replace an entry in a TI Context array.  

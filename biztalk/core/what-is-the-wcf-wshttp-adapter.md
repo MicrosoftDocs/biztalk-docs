@@ -1,12 +1,21 @@
 ---
 description: "Learn more about: What Is the WCF-WSHttp Adapter?"
-title: "What Is the WCF-WSHttp Adapter?"
+title: "What Is the WCF-WSHttp Adapter? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "WCF-WSHttp adapters, about WCF-WSHttp adapters"
+ms.assetid: 183a19e3-10b1-403f-b274-34a441e774d1
+caps.latest.revision: 10
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Is the WCF-WSHttp Adapter?
 You can use the WCF-WSHttp adapter to do cross-computer communication with services and clients that can understand the next-generation Web service standards, using either the HTTP or HTTPS transport with text or Message Transmission Optimization Mechanism (MTOM) encoding. The WCF-WSHttp adapter provides full access to the SOAP security, reliability, and transaction features.  

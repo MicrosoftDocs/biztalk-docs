@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Using Non-Canonical XPaths in Message Assignments"
-title: "Using Non-Canonical XPaths in Message Assignments"
+title: "Using Non-Canonical XPaths in Message Assignments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 052d1d72-43ce-4654-bf29-86f82ad65e91
+caps.latest.revision: 8
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Using Non-Canonical XPaths in Message Assignments
 If you use .Net message parts, it is possible to annotate your code with the XML serialization attribute that, when also accompanied by distinguished fields and/or property annotations, can result in fairly complex XPath expressions. It is possible that these complex XPath expressions will be non-canonical. Non-canonical XPath should only be used in direct bound orchestrations and may fail with logically or physically bound orchestrations. Direct bound orchestrations do not rely on a pipeline for processing the XML document; as a result, the entire XML document is loaded in memory prior to processing.

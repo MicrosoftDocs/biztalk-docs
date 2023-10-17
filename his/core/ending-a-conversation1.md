@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Ending a Conversation"
-title: "Ending a Conversation1"
+title: "Ending a Conversation1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 7c49373f-d286-444c-9d6b-106e97351dbd
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Ending a Conversation
 The following calls end a conversation:  

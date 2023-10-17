@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: What Are the BAM WCF and WF Interceptors?"
-title: "What Are the BAM WCF and WF Interceptors?"
+title: "What Are the BAM WCF and WF Interceptors? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 198bfdc9-86ff-4017-b65f-19616deeb9f4
+caps.latest.revision: 14
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # What Are the BAM WCF and WF Interceptors?
 Business Activity Monitoring (BAM) is a collection of tools, APIs, and services that allow you to manage aggregations, alerts, and profiles, and to instrument automated processes to send events to monitor relevant business metrics. Together, these provide end-to-end visibility into business processes and enable you to stay abreast of business process status and results.  

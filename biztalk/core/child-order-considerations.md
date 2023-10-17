@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Child Order Considerations"
-title: "Child Order Considerations"
+title: "Child Order Considerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c4f7aa81-5c08-4932-9e28-31e22e037999
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Child Order Considerations
 

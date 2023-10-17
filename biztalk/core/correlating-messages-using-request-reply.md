@@ -1,12 +1,23 @@
 ---
 description: "Learn more about: Correlating Messages Using Request-Reply"
-title: "Correlating Messages Using Request-Reply"
+title: "Correlating Messages Using Request-Reply | Microsoft Docs"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+helpviewer_keywords: 
+  - "messages, MQSeries adapters"
+  - "messages, correlating"
+  - "MQSeries adapters, correlating messages"
+ms.assetid: 4615b586-663b-41d8-949c-fefb6143c590
+caps.latest.revision: 12
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Correlating Messages Using Request-Reply
 There are two ways to correlate messages in BizTalk orchestrations for IBM WebSphere MQ, server component for Windows platforms request-reply scenarios. The first is to supply the correlation identifier by setting both the MessageID (**MQMD_MSGID**) and the CorrelationID (**MQMD_CorrelId**) to the same value. The second is to use the **BizTalk_CorrelationId** context property.  

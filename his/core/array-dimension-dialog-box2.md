@@ -1,14 +1,20 @@
 ---
 description: "Learn more about: Array Dimension Dialog Box"
-title: "Array Dimension Dialog Box2"
+title: "Array Dimension Dialog Box2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15448"
+ms.assetid: 21c84e0d-4bff-44e3-a699-d37ffbe7eb78
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Array Dimension Dialog Box
 Use the **Array Dimension** dialog box to define the number of dimensions in an array and the number of elements in each dimension.  

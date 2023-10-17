@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: The MapHelper Class"
-title: "The MapHelper Class"
+title: "The MapHelper Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: c552c066-835f-4515-939f-dd465a7a5ed0
+caps.latest.revision: 2
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # The MapHelper Class
 Use the **MapHelper** class to perform transformations directly without using the transformation Web service.  

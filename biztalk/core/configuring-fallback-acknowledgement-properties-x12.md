@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: Configuring Fallback Acknowledgement Properties (X12)"
-title: "Configuring Fallback Acknowledgement Properties (X12)"
+title: "Configuring Fallback Acknowledgement Properties (X12) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: ce33f5dd-fbd5-448c-8ea3-05dd1467131a
+caps.latest.revision: 3
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # Configuring Fallback Acknowledgement Properties (X12)
 In the fallback agreement, you can specify how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates acknowledgments in response to X12-encoded interchanges received from the party and what type of acknowledgment to return to a party. This section provides instructions on how to do the same.  

@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: How to Configure ENTSSO for MIIS Password Sync"
-title: "How to Configure ENTSSO for MIIS Password Sync"
+title: "How to Configure ENTSSO for MIIS Password Sync | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 89438935-37c1-4ac9-9ca2-7af8d9bfd3ae
+caps.latest.revision: 6
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # How to Configure ENTSSO for MIIS Password Sync
 After configuring the XML file and Microsoft Identity Integration Server (MIIS), the remaining configuration steps take place in the Enterprise Single Sign-On (ENTSSO) system.  

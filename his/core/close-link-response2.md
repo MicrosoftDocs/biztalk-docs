@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: Close(LINK) Response"
-title: "Close(LINK) Response2"
+title: "Close(LINK) Response2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 9ab94e36-1ce4-4363-9a8e-8c156e96bf48
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # Close(LINK) Response
 Flow : DLC ------> NODE  

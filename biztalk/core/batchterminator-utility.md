@@ -1,12 +1,19 @@
 ---
 description: "Learn more about: BatchTerminator Utility"
-title: "BatchTerminator Utility"
+title: "BatchTerminator Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
+
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 771241fa-7df5-4882-8430-c2f36200cc9d
+caps.latest.revision: 13
+author: "MandiOhlinger"
+ms.author: "mandia"
+manager: "anneta"
 ---
 # BatchTerminator Utility
 The BatchTerminator utility enables you to terminate all live batching orchestrations being used to batch EDI interchanges. This utility could prove useful if you have a large number of batching orchestration instances running, and you need to terminate all the batches in order to perform maintenance on the BizTalk server system.  

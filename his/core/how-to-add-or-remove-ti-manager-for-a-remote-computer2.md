@@ -1,12 +1,18 @@
 ---
 description: "Learn more about: How to Add or Remove TI Manager for a Remote Computer"
-title: "How to Add or Remove TI Manager for a Remote Computer2"
+title: "How to Add or Remove TI Manager for a Remote Computer2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
+ms.assetid: 19625d15-884a-4f24-85d4-9f891b06846c
+caps.latest.revision: 3
+author: "christopherhouser"
+ms.author: "hisdocs"
+manager: "anneta"
 ---
 # How to Add or Remove TI Manager for a Remote Computer
 You can use TI (Transaction Integrator) Manager to administer remote environments (RE) on your local client computer if you installed [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Server on that computer. However, TI cannot reside on a computer that has [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Administrator Client or [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] End-User Client installed instead of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Server.  
