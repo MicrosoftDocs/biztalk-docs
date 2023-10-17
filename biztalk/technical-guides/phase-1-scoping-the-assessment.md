@@ -161,9 +161,6 @@ This topic describes the aspects of the scope phase of a BizTalk Server performa
 
   - Ability to identify performance problems using SQL Server 2008 R2 Performance Dashboard Reports.
 
-    > [!NOTE]
-    >  SQL Server 2008 R2 Performance Dashboard Reports is available for download at [https://go.microsoft.com/fwlink/?LinkId=118673](https://go.microsoft.com/fwlink/?LinkId=118673).
-
     For each specialist technology involved in the performance assessment, a list of requirements should be defined as is done above for SQL Server. This ensures the resource obtained has clear expectations of what will be required of them. Another technology that frequently requires specialized knowledge during the performance assessment is IBM Websphere MQ. The list below illustrates the requirements specification for an IBM WebSphere MQ product specialist:
 
   - Experience in the monitoring, maintenance, and customization of MQSeries.
