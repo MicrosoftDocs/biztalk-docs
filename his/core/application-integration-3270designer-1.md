@@ -1,6 +1,6 @@
 ---
 title: 3270 Design Tool
-description: Design green screen applications using the 3270 Design Tool
+description: Design green-screen applications using the 3270 Design Tool.
 author: haroldcampos
 ms.author: "hcampos"
 ms.prod: "host-integration-server"
