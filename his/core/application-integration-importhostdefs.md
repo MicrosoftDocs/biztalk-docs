@@ -23,7 +23,7 @@ The Main prerequisite is to obtain the Host Definitions (copybooks) that will be
    |---------|---------|---------|
    |1–6     |     Sequence number    |   The Mainframe programmer should not enter anything in these positions.      |
    |7     |      Indicator   |    This can be used to code a comment (*). A slash (/) is also accepted.     |
-   |8-11     |   A Margin (Area A)      |  77 level numbers and 01 level numbers.       |
+   | 8-11 | A Margin (Area A) | 77 level numbers and 01 level numbers |
    |12-72     |   B Margin (Area B)      |  These are reserved for 02 levels and upper.       |
    |73-80     |   Identification      |    No definitions are allowed here.     |
 
