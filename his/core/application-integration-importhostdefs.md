@@ -1,0 +1,364 @@
+---
+title: "Importing COBOL Host Definitions"
+description: Importing COBOL Host Definitions for CICS, IMS and Host Files
+author: haroldcampos
+ms.author: "hcampos"
+ms.prod: "host-integration-server"
+ms.topic: how-to
+ms.date: "10/17/2023"
+---
+
+# Importing COBOL Host Definitions
+
+When the original Host Integration Server TI Designer feature was introduced, it was provided with a full set of capabilities to design metadata artifacts from scratch with the assistance of a Mainframe Programmer. The ability to import Host Definitions in the format of a COBOL or RPG copybook was introduced to support scenarios to automate design and to reduce involvement of Mainframe Programmers. Over the years, this became the principal option to create Metadata artifacts.
+
+## Prerequisites
+
+The Main prerequisite is to obtain the Host Definitions (copybooks) that will be imported in the HIS Designer for Logic Apps. The HIS Designer for Logic Apps supports COBOL and RPG copybooks.
+It is also important to understand the Programming model for the technology to integrate against (CICS or IMS). Both platforms have different requirements and ways to pass and receive information. Please get yourself familiar with the appropriate [Programming Model](choosing-the-appropriate-programming-model1.md) before importing the Host Definitions.
+
+## Preparing a COBOL Copybook
+
+- COBOL copybooks should follow the basic COBOL coding rules. The HIS Designer for Logic Apps enforces many of those. The main ones are the following:
+
+   |Columns  |Type  |Observation  |
+   |---------|---------|---------|
+   |1–6     |     Sequence number    |   The Mainframe programmer should not enter anything in these positions.      |
+   |7     |      Indicator   |    This can be used to code a comment (*). A slash (/) is also accepted.     |
+   |8-11     |   A Margin (Area A)      |  77 level numbers and 01 level numbers.       |
+   |12-72     |   B Margin (Area B)      |  These are reserved for 02 levels and upper.       |
+   |73-80     |   Identification      |    No definitions are allowed here.     |
+
+- Verify that the COBOL or RPG copybook meets the requirement of the selected [Programming Model](choosing-the-appropriate-programming-model1.md).
+- Verify the dots at the end of every line. Although with the COBOL latest versions this is not required, be prepared.
+- If there are REDEFINES in your copybook, talk to the Mainframe programmer to verify the definition that you will use if there is no discriminant available.
+- Remove any character other than the ones stated in the previews chartablet. Make sure that you have the right count of characters.
+
+## Importing a COBOL Host Definition (CICS)
+
+The following steps will allow importing a COBOL copybook into the HIS Designer for Logic Apps. This COBOL program follows the CICS ELM Link [Programming Model](choosing-the-appropriate-programming-model1.md).
+
+1. Select on the Component node and then Import and Host Definition.
+
+   :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Importing CICS Host Definitions in Visual Studio":::
+
+1. In the Import System z COBOL source file dialog, Select **Browse**
+
+   :::image type="content" source="media/la-newproject-import-hostdef2.png" alt-text="Selecting Host Definitions in Visual Studio (CICS)":::
+
+1. Select the Copybook to be imported
+
+   :::image type="content" source="media/la-newproject-import-hostdef3.png" alt-text="Selecting the Host Definitions from their directory (CICS)":::
+
+1. The following is the COBOL program to be imported:
+
+   ```  
+      *****************************************************************
+      ** THIS PROGRAM IS A SAMPLE CICS SERVER THAT DEMONSTRATES A      *
+      ** SIMPLE BANKING APPLICATION WHICH FORMATS AND RETURNS AN      *
+      ** ARRAY OF ACCOUNT RECORDS THAT WILL CONTAIN EITHER CHECKING OR*
+      ** SAVINGS INFORMATION.                                         *
+      *****************************************************************
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. GETAINFO.
+       ENVIRONMENT DIVISION.
+
+       DATA DIVISION.
+
+      *****************************************************************
+      ** VARIABLES FOR INTERACTING WITH THE TERMINAL SESSION          *
+      *****************************************************************
+       WORKING-STORAGE SECTION.
+
+       LINKAGE SECTION.
+
+       01 DFHCOMMAREA.
+          05 SSN                          PIC X(9).
+          05 ACCT-ARRAY OCCURS 2 TIMES.
+             10 ACCT-NUM                  PIC X(10).
+             10 ACCT-TYPE                 PIC X.
+             10 ACCT-INFO                 PIC X(39).
+             10 CHECKING REDEFINES ACCT-INFO.
+                15 CHK-OD-CHG             PIC S9(3)V99   COMP-3.
+                15 CHK-OD-LIMIT           PIC S9(5)V99   COMP-3.
+                15 CHK-OD-LINK-ACCT       PIC X(10).
+                15 CHK-LAST-STMT          PIC X(10).
+                15 CHK-DETAIL-ITEMS       PIC S9(7)      COMP-3.
+                15 CHK-BAL                PIC S9(13)V99  COMP-3.
+             10 SAVINGS  REDEFINES ACCT-INFO.
+                15 SAV-INT-RATE           PIC S9(1)V99   COMP-3.
+                15 SAV-SVC-CHRG           PIC S9(3)V99   COMP-3.
+                15 SAV-LAST-STMT          PIC X(10).
+                15 SAV-DETAIL-ITEMS       PIC S9(7)      COMP-3.
+                15 SAV-BAL                PIC S9(13)V99  COMP-3.
+                15 FILLER                 PIC X(12).
+
+       PROCEDURE DIVISION.
+           IF SSN = '111223333' THEN
+      **********************************************************
+      *   SSN = 111223333 IS AN INDICATION TO RETURN A
+      *   DISCRIMINATED UNION OF CHECKING AND SAVINGS ACCOUNTS
+      **********************************************************
+              MOVE 'CHK4566112' TO ACCT-NUM         OF ACCT-ARRAY(1)
+              MOVE 'C'          TO ACCT-TYPE        OF ACCT-ARRAY(1)
+              MOVE SPACES       TO ACCT-INFO        OF ACCT-ARRAY(1)
+
+              MOVE 25.00        TO CHK-OD-CHG       OF ACCT-ARRAY(1)
+              MOVE 2000.00      TO CHK-OD-LIMIT     OF ACCT-ARRAY(1)
+              MOVE 'SAV1234567' TO CHK-OD-LINK-ACCT OF ACCT-ARRAY(1)
+              MOVE '10/31/2005' TO CHK-LAST-STMT    OF ACCT-ARRAY(1)
+              MOVE 1            TO CHK-DETAIL-ITEMS OF ACCT-ARRAY(1)
+              MOVE 41852.16     TO CHK-BAL          OF ACCT-ARRAY(1)
+
+              MOVE 'SAV1234567' TO ACCT-NUM         OF ACCT-ARRAY(2)
+              MOVE 'S'          TO ACCT-TYPE        OF ACCT-ARRAY(2)
+              MOVE SPACES       TO ACCT-INFO        OF ACCT-ARRAY(2)
+              MOVE 4.50         TO SAV-INT-RATE     OF ACCT-ARRAY(2)
+              MOVE 5.00         TO SAV-SVC-CHRG     OF ACCT-ARRAY(2)
+
+              MOVE '10/15/2005' TO SAV-LAST-STMT    OF ACCT-ARRAY(2)
+              MOVE 1            TO SAV-DETAIL-ITEMS OF ACCT-ARRAY(2)
+              MOVE 146229.83    TO SAV-BAL          OF ACCT-ARRAY(2)
+           ELSE
+      **********************************************************
+      *   SSN = 333221111 IS AN INDICATION TO RETURN A
+      *   SIMPLE REDEFINITION OF CHECKING ACCOUNTS ONLY
+      **********************************************************
+              MOVE 'CHK4566112' TO ACCT-NUM         OF ACCT-ARRAY(1)
+              MOVE 'C'          TO ACCT-TYPE        OF ACCT-ARRAY(1)
+              MOVE SPACES       TO ACCT-INFO        OF ACCT-ARRAY(1)
+
+              MOVE 25.00        TO CHK-OD-CHG       OF ACCT-ARRAY(1)
+              MOVE 2000.00      TO CHK-OD-LIMIT     OF ACCT-ARRAY(1)
+              MOVE 'SAV1234567' TO CHK-OD-LINK-ACCT OF ACCT-ARRAY(1)
+              MOVE '10/31/2005' TO CHK-LAST-STMT    OF ACCT-ARRAY(1)
+              MOVE 1            TO CHK-DETAIL-ITEMS OF ACCT-ARRAY(1)
+              MOVE 41852.16     TO CHK-BAL          OF ACCT-ARRAY(1)
+
+              MOVE 'CHK7896112' TO ACCT-NUM         OF ACCT-ARRAY(2)
+              MOVE 'C'          TO ACCT-TYPE        OF ACCT-ARRAY(2)
+              MOVE SPACES       TO ACCT-INFO        OF ACCT-ARRAY(2)
+
+              MOVE 25.00        TO CHK-OD-CHG       OF ACCT-ARRAY(2)
+              MOVE 2000.00      TO CHK-OD-LIMIT     OF ACCT-ARRAY(2)
+              MOVE 'SAV7891234' TO CHK-OD-LINK-ACCT OF ACCT-ARRAY(2)
+              MOVE '10/31/2005' TO CHK-LAST-STMT    OF ACCT-ARRAY(2)
+              MOVE 1            TO CHK-DETAIL-ITEMS OF ACCT-ARRAY(2)
+              MOVE 41852.16     TO CHK-BAL          OF ACCT-ARRAY(2)
+           END-IF.
+
+           EXEC CICS RETURN END-EXEC.
+
+   ```  
+
+1. Preview the Copybook to be imported
+
+   :::image type="content" source="media/la-newproject-import-hostdef4.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio":::
+
+1. The Item Options dialog will pre-polulate the name of the artifact along with a Link-to-Program name. Select **Next**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef5.png" alt-text="Dialog to select options for Item such as Methods, Data Tables, Structures or Unions":::
+
+   - The Designer will present the metadata artifact generated from the COBOL copybook.
+
+   :::image type="content" source="media/la-newproject-import-hostdef6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps":::
+
+   - The Designer will also generate a Host Definition for the Copybook. This Host Definition will not include the entire provided copybook but only the fields and datatypes needed for the artifact to interact with the Mainframe Program. In other words, while the sample provided above is an entire program, the HIS Designer will extract only the information needed depending on the selected [Programming Model](choosing-the-appropriate-programming-model1.md).
+
+   :::image type="content" source="media/la-newproject-import-hostdef7.png" alt-text="Host Definition parsed by HIS Designer for Logic Apps view":::
+
+1. Select **Save All** to generate the HIDX.
+
+## Importing a COBOL Host Definition (IMS)
+
+CICS and IMS host Mission Critical programs but have different requirements. The following steps will allow importing a COBOL copybook into the HIS Designer for Logic Apps. This COBOL program follows the IMS Connect Programming model.
+
+1. Select on the **Component node** and then **Import** and **Host Definition**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Importing IMS Host Definitions in Visual Studio":::
+
+1. In the Import System z COBOL source file dialog, Select **Browse**
+
+   :::image type="content" source="media/la-newproject-import-hostdef2.png" alt-text="Visual Studio configuration for Logic Apps and HIS":::
+
+1. Select the Copybook to be imported. Select **Open**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef8.png" alt-text="Selecting Host Definitions in Visual Studio (IMS)":::
+
+   - The following is the COBOL program to be imported:
+
+      ```
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. GETBAL.
+       ENVIRONMENT DIVISION.
+   
+       DATA DIVISION.
+   
+       WORKING-STORAGE SECTION.
+      **************************************************************
+      * USER DATA DEFINITIONS.                                     *
+      **************************************************************
+   
+       01  INPUT-AREA.
+           05  LLI                      PIC S9(4) COMP VALUE ZERO.
+           05  ZZI                      PIC S9(4) COMP VALUE ZERO.
+           05  TRAN                     PIC X(7) VALUE SPACES.
+           05  NAME                     PIC X(30).
+           05  ACCNUM                   PIC X(6).
+   
+       01  OUTPUT-AREA.
+           05  LLO                      PIC S9(4) COMP VALUE ZERO.
+           05  ZZO                      PIC S9(4) COMP VALUE ZERO.
+           05  ACCBAL                   PIC S9(7)V9(2) COMP-3.
+   
+       01  IMS-VALUES.
+           02  END-OF-MSG               PIC X(2)       VALUE 'QD'.
+           02  QUEUE-EMPTY              PIC X(2)       VALUE 'QC'.
+           02  GU                       PIC X(4)       VALUE 'GU  '.
+           02  ISRT                     PIC X(4)       VALUE 'ISRT'.
+           02  CHNG                     PIC X(4)       VALUE 'CHNG'.
+   
+       LINKAGE SECTION.
+       01  IOTP-PCB.
+           05  IOTP-LTERM                           PIC X(8).
+           05  FILLER                               PIC X(2).
+           05  IOTP-STATUS                          PIC X(2).
+           05  IOTP-PREFIX.
+               10  IOTP-DATE                        PIC S9(7) COMP-3.
+               10  IOTP-TIME                        PIC S9(7) COMP-3.
+               10  IOTP-MSG-NUMBER                  PIC S9(4) COMP.
+               10  FILLER                           PIC X(2).
+           05  IOTP-MOD-NAME                        PIC X(8).
+           05  IOTP-USER-ID                         PIC X(8).
+   
+       PROCEDURE DIVISION.
+           ENTRY 'DLITCBL' USING IOTP-PCB.
+           CALL 'CBLTDLI' USING GU IOTP-PCB INPUT-AREA.
+   
+              IF IOTP-STATUS = END-OF-MSG
+                 DISPLAY 'IOTP-STATUS = END-OF-MSG'
+              END-IF.
+              IF IOTP-STATUS = QUEUE-EMPTY
+                 DISPLAY 'IOTP-STATUS = QUEUE-EMPTY'
+              END-IF.
+              IF IOTP-STATUS NOT = ' '
+                 DISPLAY 'CALL FAILED IOTP-STATUS = ' IOTP-STATUS
+              END-IF.
+   
+           MOVE 777.12               TO ACCBAL OF OUTPUT-AREA.
+   
+           MOVE LENGTH OF OUTPUT-AREA TO LLO.
+           CALL 'CBLTDLI' USING ISRT IOTP-PCB OUTPUT-AREA.
+              IF IOTP-STATUS NOT = ' '
+                 DISPLAY 'SEND FAILED IOTP-STATUS = ' IOTP-STATUS
+              END-IF.
+   
+           GOBACK.
+
+   ```
+
+1. Preview the Copybook to be imported
+
+   :::image type="content" source="media/la-newproject-import-hostdef9.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio (IMS)":::
+
+1. The Item Options dialog will pre-polulate the name of the artifact along with a Transaction ID. Select **Next**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef10.png" alt-text="Dialog to select options for Item such as Methods, Data Tables, Structures or Unions (IMS)":::
+
+1. The Input Area dialog will appear. You will will need to check the Input Area of the Program. Select **Next**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef11.png" alt-text="IMS Host transaction input area":::
+
+1. The Output Area dialog will appear. You will will need to check the Output Area of the Program. Select **Next**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef12.png" alt-text="IMS Host transaction output area":::
+
+1. The Return Value dialog will appear. You will will need to check the Return Value field for the Program. Select **Next**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef13.png" alt-text="Return value dialog for host transaction":::
+
+1. The Data Tables and Structures dialog will appear. You will will need to check the groups that will become Data Tables and Structures for the Program. This sample program does not require this setting. Select **Next**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef14.png" alt-text="Data Tables and Structures dialog":::
+
+1. The LL Fields Area dialog will appear. You will will need to check the LL fields that need to be excluded from the transaction. Select **Next**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef15.png" alt-text="LL Fields Area dialog":::
+
+1. The ZZ Fields Area dialog will appear. You will will need to check the ZZ fields that need to be excluded from the transaction. Select **Next**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef16.png" alt-text="ZZ Fields Area dialog":::
+
+1. The TRANCODE Fields Area dialog will appear. You will will need to check the TRANCODE fields that need to be excluded from  the Program. Select **Finish**.
+
+   :::image type="content" source="media/la-newproject-import-hostdef17.png" alt-text="TRANCODE Fields Area dialog":::
+
+   - The Designer will present the metadata artifact generated from the COBOL copybook.
+   
+   :::image type="content" source="media/la-newproject-import-hostdef18.png" alt-text="IMS generated metadata view":::
+   
+   The Designer will also generate a Host Definition for the Copybook. This Host Definition will not include the entire provided copybook but only the fields and datatypes needed for the artifact to interact with the Mainframe Program. In other words, while the sample provided above is an entire program, the HIS Designer will extract only the information needed depending on the selected [Programming Model](choosing-the-appropriate-programming-model1.md).
+   
+   :::image type="content" source="media/la-newproject-import-hostdef19.png" alt-text="Host Definition generated by HIS Designer for Logic Apps":::
+
+1. Select **Save All** to generate the HIDX.
+
+## Importing a COBOL Host File Definition
+
+There are multiple types of IBM Host Files. Host files can exist in Mainframes or Midranges and have their own types and characteristics. With an increasing demand on modernizing or migrating Mainframe or midranges applications that use Host File data such as VSAM files to Azure, it is becoming more common to access this files and integrate them into Modern solutions.
+
+The following steps will allow importing a COBOL copybook into the HIS Designer for Logic Apps. This COBOL copybook represents a simple VSAM file. The Import wizard will create structures and unions. Once the copybook was imported, you will be able to create Tables  and assign them the right schemas.
+
+1. Select on the **Component** node and then **Import** and **Host Definition**.
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf1.png" alt-text="Importing Host Files Definitions in Visual Studio":::
+
+1. In the Import System z COBOL source file dialog, Select **Browse**
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf2.png" alt-text="Selecting Host Definitions in Visual Studio (Host Files)":::
+
+1. Select the Copybook to be imported
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf3.png" alt-text="Selecting the Host Definitions from their directory (Host Files)":::
+
+1. The following is the COBOL program to be imported:
+
+   ```
+         ******************************************************************        
+         *HIS TRANSACTION DESIGNER EXPORT, 9.0
+         *DATA DECLARATION GENERATED ON 9/23/2013 5:21:51 PM
+         ******************************************************************        
+         *LIBRARY NAME.............CustomerDatabaseZOS.HIDX
+         *DESCRIPTION..............NONE AVAILABLE
+         ******************************************************************        
+          01  CUSTOMER-RECORD.
+              05 CUSTOMER-NAME               PIC X(30).
+              05 CUSTOMER-SSN                PIC X(9).
+              05 CUSTOMER-ADDRESS.
+                 10 CUSTOMER-STREET          PIC X(20).
+                 10 CUSTOMER-CITY            PIC X(10).
+                 10 CUSTOMER-STATE           PIC X(4).
+                 10 CUSTOMER-ZIP             PIC 9(5).
+              05 CUSTOMER-PHONE              PIC X(13).
+              05 CUSTOMER-ACCESS-PIN         PIC X(4).
+   ```  
+ 
+1. Preview the Copybook to be imported and review the options for REDEFINEs, use of Importer defaults and/or Generate structure on host definition indents. Select **Next**.
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf4.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio (Host Files)":::
+
+   - The Designer will present the metadata artifact generated from the COBOL copybook. Remember this artifact is incomplete. You will need to create a Table or Tables that will reflect the Host Files.
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps (Host Files)":::
+
+1. Select the Tables directory and right Select **Add table**.
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf7.png" alt-text="Addint a Table to the Host File Definition":::
+
+   - You will need to rename the Table, assign the previously imported Schema and enter the Mainframe or Midrange name of the Host File as follows.
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf8.png" alt-text="Entering Alias, Host File Name and Schema of the Host File":::
+
+1. Select **Save All** to generate the HIDX. file. The following is the final view of the Host Files Metadata artifact.
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf9.png" alt-text="Generating HIDX file by saving the metadata artifact":::

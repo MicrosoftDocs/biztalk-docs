@@ -64,9 +64,9 @@ The DRDA Service provides cross-platform database access and interoperability th
   
 |File Folder|Modify|Read & execute|List folder contents|Read|Write|Special permissions|  
 |-----------------|------------|--------------------|--------------------------|----------|-----------|-------------------------|  
-|Program Files\Microsoft Host Integration Server 2013||Allow|Allow|Allow|||  
-|Program Files\Microsoft Host Integration Server 2013\system||Allow|Allow|Allow|||  
-|Program Files\Microsoft Host Integration Server 2013\traces|||||||  
+|Program Files\Microsoft Host Integration Server 2020||Allow|Allow|Allow|||  
+|Program Files\Microsoft Host Integration Server 2020\system||Allow|Allow|Allow|||  
+|Program Files\Microsoft Host Integration Server 2020\traces|||||||  
   
  Each user account requires the Folder Access Control List settings associated with the HIS Runtime Users Local Group. For example, each user must have write access to insert lines into a MsDrdaService.DSTF text trace file.  
   
@@ -74,9 +74,9 @@ The DRDA Service provides cross-platform database access and interoperability th
   
 |File Folder|Modify|Read & execute|List folder contents|Read|Write|Special permissions|  
 |-----------------|------------|--------------------|--------------------------|----------|-----------|-------------------------|  
-|Program Files\Microsoft Host Integration Server 2013Microsoft Host Integration Server 2013||Allow|Allow|Allow|||  
-|Program Files\Microsoft Host Integration Server 2013\system||Allow|Allow|Allow|||  
-|Program Files\Microsoft Host Integration Server 2013\traces||Allow|Allow|Allow|Allow||  
+|Program Files\Microsoft Host Integration Server 2020Microsoft Host Integration Server 2020||Allow|Allow|Allow|||  
+|Program Files\Microsoft Host Integration Server 2020\system||Allow|Allow|Allow|||  
+|Program Files\Microsoft Host Integration Server 2020\traces||Allow|Allow|Allow|Allow||  
   
 ### ESSO Security Groups  
   

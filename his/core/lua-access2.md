@@ -61,15 +61,13 @@ Logical unit application (LUA) is an application programming interface (API) tha
   
 - Move an LUA LU from one connection to another.  
   
-  Check with the host administrator to determine the appropriate names and numbers for LUA LUs on your system. The LU Number for LUs on 802.2 or Synchronous Data Link Control (SDLC) connections should match the LOCADDR= parameter of the LU definition in VTAM or in the NCP Gen.  
+  Check with the host administrator to determine the appropriate names and numbers for LUA LUs on your system.  
   
   If the number you specify has already been assigned to an LU or an APPC LU-LU pair on the current connection, you must use a different number. The range for LU numbers is from 1 through 254.  
   
   The LU Name cannot be the same as any other LU name or pool name (except for APPC LU names) on the server.  
   
-  If the High Priority LU is assigned to a pool, the priority setting of the pool overwrites the setting of the LU.  
-  
-  On an 802.2 or SDLC connection, you can configure multiple LUs at one time by configuring them as a consecutively numbered range. Multiple LUA LUs will allow multiple applications to access the host simultaneously. After configuring the range of LUs, you can modify the numbering and properties of individual LUs in the range.  
+  If the High Priority LU is assigned to a pool, the priority setting of the pool overwrites the setting of the LU.
   
 ## See Also  
  [Precedence of Accounts in Determining LU Access](../core/precedence-of-accounts-in-determining-lu-access1.md)   

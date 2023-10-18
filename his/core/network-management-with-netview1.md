@@ -20,8 +20,6 @@ This section describes the support that [!INCLUDE[hisHostIntServNoVersion](../in
 ## In This Section  
  [Connections Used for NetView and RTM](../core/connections-used-for-netview-and-rtm2.md)  
   
- [Link Alerts for SDLC and Token Ring](../core/link-alerts-for-sdlc-and-token-ring2.md)  
-  
  [Link Statistics](../core/link-statistics2.md)  
   
  [Alerts Used by Applications and NVAlert](../core/alerts-used-by-applications-and-nvalert2.md)  

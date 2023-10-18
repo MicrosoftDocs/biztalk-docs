@@ -1,6 +1,6 @@
 ---
-description: "Learn more about: Host Integration Server 2013 Folder"
-title: "Host Integration Server 2013 Folder | Microsoft Docs"
+description: "Learn more about: Host Integration Server 2020 Folder"
+title: "Host Integration Server 2020 Folder | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
@@ -16,7 +16,7 @@ author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Host Integration Server 2013 Folder
+# Host Integration Server 2020 Folder
 Expand the Servers folder to show the Host Integration Server assigned to this SNA Domain.  
   
 ## See Also  

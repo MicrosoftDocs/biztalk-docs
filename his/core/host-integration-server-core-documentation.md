@@ -34,6 +34,10 @@ The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md
 
 [Security tips](security-and-protection1.md)
 
+[HIS Designer for Logic Apps](application-integration-ladesigner-1.md)
+
+[3270 Design Tool](application-integration-3270designer-1.md)
+
 [Host Integration Server VSS Writer](host-integration-server-vss-writer.md)
 
 [staticSql, drda.sqlErrorMappings, and drdaAs.drdaService configuration settings](application-configuration-settings.md)
@@ -42,8 +46,7 @@ The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md
 
 ## Additional Resources
 
-Plug into the Host Integration Server community to connect with other developers and get answers to your questions, read the latest from bloggers, see webcasts, find out about events, and participate in the TechNet Wiki.
+Plug into the Azure Integration Services community to connect with other developers and get answers to your questions, read the latest from bloggers, see webcasts, find out about events, and participate in the TechNet Wiki.
 
-- [Host Integration Server Blog](https://techcommunity.microsoft.com/t5/host-integration-blog/bg-p/HostIntegrationBlog)
-- [Microsoft Questions & Answers](/answers)
+- [Azure Integration Services Blog](https://techcommunity.microsoft.com/t5/host-integration-blog/bg-p/HostIntegrationBlog)
 - [TechNet Wiki](https://go.microsoft.com/fwlink/?LinkId=198099)

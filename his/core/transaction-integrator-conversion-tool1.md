@@ -22,8 +22,8 @@ The TIConversionTool command-line utility makes it quick and easy to migrate to 
 
 | OS  |                             Location                              |
 |-----|-------------------------------------------------------------------|
-| x64 | C:\Program Files\Microsoft Host Integration Server 2013\SysWOW64\ |
-| x86 |  C:\Program Files\Microsoft Host Integration Server 2013\system\  |
+| x64 | C:\Program Files\Microsoft Host Integration Server 2020\SysWOW64\ |
+| x86 |  C:\Program Files\Microsoft Host Integration Server 2020\system\  |
 
  You can run the conversion utility from the command line, or call it from another program such a PowerShell. For usage instructions at run time, run TIConversionTool.exe from the command line with no arguments.  
 
@@ -73,7 +73,7 @@ The TIConversionTool command-line utility makes it quick and easy to migrate to 
 
   -   The ProgID of the TLB is greater than 39 characters.  
 
-- TI TLB's contained two interfaces for TI context when the tlb  was configured to allow the use of clientContext.. HIS2013 TI .Net assemblies contain only a single interface when configured to allow the use of clientContext.  A client application using a tlb with direct call model didn't require the context value defined within the parameter list of the TI method call. In HIS2013 After running the tlb through TIconversiontool.exe the result will be replaced with a .Net assembly.  the customer must include the context value within the parameter list of the TI method call.  
+- TI TLB's contained two interfaces for TI context when the tlb  was configured to allow the use of clientContext. HIS2020 TI .Net assemblies contain only a single interface when configured to allow the use of clientContext.  A client application using a tlb with direct call model didn't require the context value defined within the parameter list of the TI method call. In HIS2020 After running the tlb through TIconversiontool.exe the result will be replaced with a .Net assembly.  the customer must include the context value within the parameter list of the TI method call.  
 
   For more information, see [Working with TI Designer](../core/working-with-ti-designer1.md).  
 
