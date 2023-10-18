@@ -16,7 +16,7 @@ Learn how to create Mainframe metadata 3270 stream based artifacts for Azure Log
 
 ## What is the 3270 Design Tool
 
-The 3270 Desig tool is a desktop application used to define metadata used by the IBM 3270 Connector for Azure Logic Apps to navigate and interact with your 3270 applications.
+The 3270 Design Tool is a desktop application used to define metadata used by the IBM 3270 Connector for Azure Logic Apps to navigate and interact with your 3270 applications.
 
 :::image type="content" source="media/la-3dtdesigner-main-view1.png" alt-text="HIS Designer for Logic Apps":::
 
