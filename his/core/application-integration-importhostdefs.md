@@ -169,7 +169,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
 ## Importing a COBOL Host Definition (IMS)
 
-CICS and IMS host Mission Critical programs but have different requirements. The following steps will allow importing a COBOL copybook into the HIS Designer for Logic Apps. This COBOL program follows the IMS Connect Programming model.
+Both CICS and IMS host mission-critical programs, but each have different requirements. The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL program follows the IMS Connect programming model.
 
 1.  In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
 
