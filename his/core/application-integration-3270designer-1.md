@@ -24,4 +24,4 @@ This tool helps you record the screens, navigation paths, methods, and parameter
 
 ## Related content
 
-- [The HIS Designer for Logic Apps](application-integration-ladesigner-1.md)
+- [HIS Designer for Logic Apps](application-integration-ladesigner-1.md)
