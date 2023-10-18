@@ -7,7 +7,7 @@ ms.prod: "host-integration-server"
 ms.topic: overview 
 ms.date: "10/17/2023"
 
-#CustomerIntent: As a programmer I need to use the 3270 design tool to create metadata for the Logic Apps connector for 3270
+#CustomerIntent: As a programmer, I need to create metadata for the 3270 connector in Azure Logic Apps using the 3270 Design Tool.
 ---
 
 # What is the 3270 Design Tool? 
