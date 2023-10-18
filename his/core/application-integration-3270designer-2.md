@@ -22,7 +22,7 @@ The 3270 Design Tool is a desktop application used to define metadata used by th
 
 ## Why do we need a Tool for interacting with 3270 Applications?
 
-In a 3270 screen-driven app, the screens and data fields are unique to your scenarios, so the 3270 connector needs this information about your app, which you can provide as metadata. This metadata describes information that helps your logic app identify and recognize screens, describes how to navigate between screens, where to input data, and where to expect results. To specify and generate this metadata, you use the 3270 Design Tool, which walks you through these specific modes, or stages, as described later in more details:.
+In a 3270 screen-driven app, the screens and data fields are unique to your scenarios, so the 3270 connector needs this information about your app, which you can provide as metadata. This metadata describes information that helps your logic app identify and recognize screens, describes how to navigate between screens, where to input data, and where to expect results. To specify and generate this metadata, you use the 3270 Design Tool, which walks you through these specific modes, or stages, as described later in more details.
 
 ## How does it work?
 
