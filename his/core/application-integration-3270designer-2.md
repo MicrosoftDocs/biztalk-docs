@@ -61,4 +61,4 @@ You can [download the 3270 Design Tool from the Download Center](https://www.mic
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Designing Metadata Artifacts for 3270 Applications](application-integration-la3270apps.md)
+> [Designing metadata artifacts for 3270 applications](application-integration-la3270apps.md)
