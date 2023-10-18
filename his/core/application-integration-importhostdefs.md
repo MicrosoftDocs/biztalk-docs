@@ -177,7 +177,7 @@ CICS and IMS host Mission Critical programs but have different requirements. The
 
    :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Importing IMS Host Definitions in Visual Studio":::
 
-1. In the Import System z COBOL source file dialog, Select **Browse**
+1. In the **Import System z COBOL Source File** box, select **Browse**.
 
    :::image type="content" source="media/la-newproject-import-hostdef2.png" alt-text="Visual Studio configuration for Logic Apps and HIS":::
 
