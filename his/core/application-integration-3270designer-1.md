@@ -7,7 +7,7 @@ ms.prod: "host-integration-server"
 ms.topic: conceptual
 ms.date: "10/17/2023"
 
-#CustomerIntent: As a Programmer I need to use the 3270 Design Tool to design 3270 applications.
+#CustomerIntent: As a programmer, I need to design 3270 applications using the 3270 Design Tool.
 ---
 
 # Get started with the 3270 Design Tool
