@@ -161,7 +161,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdef6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps":::
 
-   - The Designer will also generate a Host Definition for the Copybook. This Host Definition will not include the entire provided copybook but only the fields and datatypes needed for the artifact to interact with the Mainframe Program. In other words, while the sample provided above is an entire program, the HIS Designer will extract only the information needed depending on the selected [Programming Model](choosing-the-appropriate-programming-model1.md).
+   The designer also generates a host definition for the copybook. This host definition doesn't include the entire provided copybook, but only the fields and datatypes needed for the artifact to interact with the mainframe program. Although the previously provided sample is an entire program, the HIS Designer extracts only the information required based on the selected [programming model](choosing-the-appropriate-programming-model1.md).
 
    :::image type="content" source="media/la-newproject-import-hostdef7.png" alt-text="Host Definition parsed by HIS Designer for Logic Apps view":::
 
