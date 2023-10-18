@@ -12,7 +12,7 @@ ms.date: "10/17/2023"
 
 # What is the 3270 Design Tool? 
 
-Learn how to create Mainframe metadata 3270 stream based artifacts for Azure Logic Apps.
+Learn how to create mainframe metadata for 3270 stream-based artifacts to use in Azure Logic Apps.
 
 ## What is the 3270 Design Tool
 
