@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: The Recaller Object"
-title: "The Recaller Object | Microsoft Docs"
+title: "The Recaller Object"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Recaller object"
-  - "Invoke method"
-  - "process management solution tutorial, Recaller object"
-  - "process management solution tutorial, errors"
-ms.assetid: b30ad1ae-475f-4913-b402-4d3263fcf072
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Recaller Object
 The business process management solution provides for retrying, in a generic way, some failed object method calls. The solution does this through the **Recaller** object in the **ExceptionHandler** orchestration. The **ExceptionHandler** orchestration uses the object to retry object method calls. For more information, see [The ExceptionHandler Orchestration](../core/the-exceptionhandler-orchestration.md).  

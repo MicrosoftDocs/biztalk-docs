@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Disable an Affiliate Application"
-title: "How to Disable an Affiliate Application | Microsoft Docs"
+title: "How to Disable an Affiliate Application"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a7df6e78-6d18-443d-82dc-4351c20a8c4e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Disable an Affiliate Application
 Use the MMC Snap-In or the **disableapp** command to disable the specified affiliate application.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Integrate BAM with SQL Server Reporting Services"
-title: "How to Integrate BAM with SQL Server Reporting Services | Microsoft Docs"
+title: "How to Integrate BAM with SQL Server Reporting Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6e2d66b7-c8eb-4871-8a47-544955ccd51e
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Integrate BAM with SQL Server Reporting Services
 Creating a report based on data in the BAM infrastructure use the typical tasks associated with creating a report for any other SQL Server data source. For more information about creating a report with Report Designer, see [https://go.microsoft.com/fwlink/?LinkId=82437](/previous-versions/sql/sql-server-2008-r2/ms159253(v=sql.105)).

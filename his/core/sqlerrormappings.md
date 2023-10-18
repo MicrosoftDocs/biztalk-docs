@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: sqlErrorMappings"
-title: "sqlErrorMappings | Microsoft Docs"
+title: "sqlErrorMappings"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 695443a3-d454-492d-bcb0-47bb7ee10e9d
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # sqlErrorMappings
 The sqlErrorMappings element contains sqlErrorMapping definition elements.  

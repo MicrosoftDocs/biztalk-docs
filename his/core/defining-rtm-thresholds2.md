@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Defining RTM Thresholds"
-title: "Defining RTM Thresholds2 | Microsoft Docs"
+title: "Defining RTM Thresholds2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 058f0ad8-5399-4fa4-80b0-fa2f53450af8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Defining RTM Thresholds
 Response time monitor (RTM) data is collected by comparing host response times against a series of four boundary values. Each time a host transaction occurs, the response time is compared with the boundary values, and the appropriate counter is incremented. There is a counter for each of the four intervals defined by the boundary values, and an overflow counter for response times above the largest boundary value.  

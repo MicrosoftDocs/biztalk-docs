@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the Resolver Service Sample"
-title: "Running the Resolver Service Sample | Microsoft Docs"
+title: "Running the Resolver Service Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b4bf0b21-6aa0-4524-9e63-93a172845d4a
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the Resolver Service Sample
 The Resolver Service sample demonstrates the following scenarios:  

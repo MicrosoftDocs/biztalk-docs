@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Appendices"
-title: "Appendices1 | Microsoft Docs"
+title: "Appendices1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: adf0def7-8997-45e2-a6ae-5cce6eee617e
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Appendices
 The Appendices contain important information that is referenced by other sections of this guide.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10722"
-title: "Single Sign-On: Event 10722 | Microsoft Docs"
+title: "Single Sign-On: Event 10722"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5430017f-efc5-4906-bc1f-4ad66cf5a447
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10722
 ## Details  

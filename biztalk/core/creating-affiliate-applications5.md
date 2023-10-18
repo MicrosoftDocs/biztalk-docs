@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Create Affiliate Applications"
-title: "Create affiliate applications for TIBCO EMS | Microsoft Docs"
+title: "Create affiliate applications for TIBCO EMS"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 191e5b56-dab9-4bf3-9f89-a900907d64e0
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create Affiliate Applications for TIBCO EMS
 

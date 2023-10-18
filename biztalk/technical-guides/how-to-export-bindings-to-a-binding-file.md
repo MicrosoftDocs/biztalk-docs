@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Export Bindings to a Binding File"
-title: "How to Export Bindings to a Binding File | Microsoft Docs"
+title: "How to Export Bindings to a Binding File"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3734ae6d-b790-40f2-8403-d7c7fdbe381b
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Export Bindings to a Binding File
 You can export the bindings of a BizTalk application into another existing BizTalk application using a binding file. You can also export all the bindings in a group or the binding for an assembly. Subsequently, you can import those bindings into either an application or group.

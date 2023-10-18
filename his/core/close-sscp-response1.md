@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Close(SSCP) Response"
-title: "Close(SSCP) Response1 | Microsoft Docs"
+title: "Close(SSCP) Response1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dc77dc21-53fd-4b50-8ee9-7148c88ef689
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Close(SSCP) Response
 The **Close(SSCP) Response** message flows from the node to the application. It is used with a system services control point (SSCP) connection.  

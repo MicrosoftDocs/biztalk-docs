@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to List Affiliate Applications"
-title: "How to List Affiliate Applications | Microsoft Docs"
+title: "How to List Affiliate Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [SSO applications], listing applications"
-  - "applications [SSO], listing applications"
-ms.assetid: b51ff597-824e-4488-a47f-3a9b3d4437c6
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to List Affiliate Applications
 Use this command to list all the affiliate applications. If the user is a member of the Application Administrators account, this command will only display the application for which the user is an administrator.  

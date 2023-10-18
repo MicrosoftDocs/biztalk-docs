@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Complete Monthly Maintenance Checks in BizTalk Server"
-title: "Checklist: Do Monthly Maintenance Checks | Microsoft Docs"
+title: "Checklist: Do Monthly Maintenance Checks"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 588b74fa-6bf5-43ad-aa15-3595adde76d1
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Complete Monthly Maintenance Checks in BizTalk Server
 This topic describes the steps involved in performing monthly maintenance checks of the reliability, administration, security, and performance of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.  

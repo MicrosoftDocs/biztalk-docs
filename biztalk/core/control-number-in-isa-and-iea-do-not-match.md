@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Control Number in ISA and IEA do not match"
-title: "Control Number in ISA and IEA do not match | Microsoft Docs"
+title: "Control Number in ISA and IEA do not match"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6f9091ea-460b-464b-acd5-8dc0488b61e5
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Control Number in ISA and IEA do not match
 ## Details  

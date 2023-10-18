@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Flat File Message Headers"
-title: "Flat File Message Headers | Microsoft Docs"
+title: "Flat File Message Headers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1981daaf-149a-426d-9a2f-5fcf64bce185
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Flat File Message Headers
 The parsing of the optional flat file instance message header by the flat file disassembler is controlled by the flat file schema that you have configured in the **Header schema** design-time property of the flat file disassembler or the **XMLNORM.HeaderSpecName** message context property. If you have not specified a schema using one of these two methods, the flat file disassembler assumes that the flat file instance message does not contain a header.  

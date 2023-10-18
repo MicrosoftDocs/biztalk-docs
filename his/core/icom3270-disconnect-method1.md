@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Icom3270.disconnect Method"
-title: "Icom3270.disconnect Method1 | Microsoft Docs"
+title: "Icom3270.disconnect Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f28a4839-20ca-49b0-98a1-e81ce9984b93
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Icom3270.disconnect Method
 The disconnect method disconnects from a session.  

@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: CPI-C Symbolic Name: General"
-title: "CPI-C Symbolic Name: General1 | Microsoft Docs"
+title: "CPI-C Symbolic Name: General1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_CPIC"
-ms.assetid: 434d1eaf-20ae-4f1d-be34-310b19b2f58c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CPI-C Symbolic Name: General
 **Name**  

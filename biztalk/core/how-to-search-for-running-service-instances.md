@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Search for Running Service Instances"
-title: "How to Search for Running Service Instances | Microsoft Docs"
+title: "How to Search for Running Service Instances"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "service instances, viewing"
-  - "service instances, Query tab [Administration Console]"
-  - "Query tab [Administration Console], service instances"
-  - "Query tab [Administration Console], searching"
-  - "service instances, searching"
-  - "service instances, running"
-ms.assetid: fc65bf33-c013-4e6a-b9fd-b4536811e7b4
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Search for Running Service Instances
 You can use the **Query** tab in the BizTalk Server Administration Console to search for a specific dehydrated, active, in breakpoint, scheduled, and retrying service instance.  

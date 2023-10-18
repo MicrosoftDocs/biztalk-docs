@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Establishing Performance Criteria"
-title: "Establishing Performance Criteria | Microsoft Docs"
+title: "Establishing Performance Criteria"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 181011d1-aa74-43fe-b05a-30b043956d70
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Establishing Performance Criteria
 The performance goals of a BizTalk Server solution typically fall into one of two categories, throughput or latency. This topic describes the factors that should be considered when evaluating the throughput or latency of a BizTalk Server solution.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Single-System APPC"
-title: "Single-System APPC2 | Microsoft Docs"
+title: "Single-System APPC2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a3ebf3dc-b317-424c-b680-49b6aeb9d5d9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Single-System APPC
 Single-system APPC has two local APPC LUs residing on the same server. The LUs communicate with each other using defined parameters. You do not need to define a connection because the LUs are communicating with each other on the same system.  

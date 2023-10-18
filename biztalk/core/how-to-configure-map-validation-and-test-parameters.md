@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure Map Validation and Test Parameters"
-title: "How to Configure Map Validation and Test Parameters | Microsoft Docs"
+title: "How to Configure Map Validation and Test Parameters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1768918c-e94f-476f-b288-9e030c691177
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Map Validation and Test Parameters
 Before validating and testing a map, you need to set the map validation and test parameters in the **Properties** window of the map.  

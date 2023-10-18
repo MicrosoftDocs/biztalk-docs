@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status-RTM Message"
-title: "Status-RTM Message1 | Microsoft Docs"
+title: "Status-RTM Message1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bc20b5aa-01bc-4524-b00a-d5b776d64928
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status-RTM Message
 The [Status-RTM](./status-rtm1.md) message is used by the local node to inform the application of the Response Time Monitor (RTM) parameters being used by the host. It flows from the local node to the application on the system services control point (SSCP) connection and is sent only for 3270 display logical units (LUs), or LUs in a pool of display LUs.  

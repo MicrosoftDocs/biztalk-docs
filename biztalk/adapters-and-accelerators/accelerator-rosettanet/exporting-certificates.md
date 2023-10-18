@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Exporting Certificates"
-title: "Exporting Certificates | Microsoft Docs"
+title: "Exporting Certificates"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "exporting certificates"
-  - "certificates, exporting"
-ms.assetid: edeeb300-19d6-44a8-b730-dcd15891cdf9
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exporting Certificates
 This topic describes how to export a certificate by using the Certificate Export Wizard. Use this wizard to export either a public certificate or a private certificate.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: HTTPRequestResponse"
-title: "HTTPRequestResponse | Microsoft Docs"
+title: "HTTPRequestResponse"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "HTTP adapters, examples"
-  - "examples, HTTP adapters"
-ms.assetid: 81c66f61-d86c-49cf-8d24-21c67c68bc5a
-caps.latest.revision: 35
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # HTTPRequestResponse
 The HTTPRequestResponse sample demonstrates how to use the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Internet Server Application Programming Interface (ISAPI) filter to allow an ASP.NET application to communicate with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration.  

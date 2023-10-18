@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Creation of Control Message failed for Batch id"
-title: "Creation of Control Message failed for Batch id | Microsoft Docs"
+title: "Creation of Control Message failed for Batch id"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f03078e7-46b0-4082-9d66-6b892152a12d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creation of Control Message failed for Batch id
 ## Details  

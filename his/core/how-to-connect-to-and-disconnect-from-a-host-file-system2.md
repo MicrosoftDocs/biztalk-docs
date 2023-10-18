@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Connect to and Disconnect from a Host File System"
-title: "How to Connect to and Disconnect from a Host File System2 | Microsoft Docs"
+title: "How to Connect to and Disconnect from a Host File System2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2398fce4-22e2-46c4-a789-2eec3b429403
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Connect to and Disconnect from a Host File System
 The first step in accessing a host file system is to connect to the file system. You must use `HostFileConnection` to access the host file system. After you have connected, you can retrieve, modify, and update the information that you want.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Message Schemas for Business Component Operations"
-title: "Message Schemas for Business Component Operations | Microsoft Docs"
+title: "Message Schemas for Business Component Operations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "message actions, for business component operations"
-  - "message schemas, for business component operations"
-ms.assetid: 753fdaa6-992f-4932-98ed-b7f2d66af7a9
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for Business Component Operations
 ## Message Schemas for Siebel Business Component Operations  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10579"
-title: "Single Sign-On: Event 10579 | Microsoft Docs"
+title: "Single Sign-On: Event 10579"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 64e18f6d-9dda-49bf-a901-bb28f4cd9a84
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10579
 ## Details  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Error Codes for Open Messages"
-title: "Error Codes for Open Messages1 | Microsoft Docs"
+title: "Error Codes for Open Messages1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 46ddd85a-8e3b-4f91-9f33-6154c48c7b42
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Error Codes for Open Messages
 The possible error codes for **Open(SSCP) Error Response** and **Open(PLU) Error Confirm** are shown in the following topics.  

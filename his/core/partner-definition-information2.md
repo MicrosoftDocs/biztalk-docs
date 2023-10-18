@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Partner Definition Information"
-title: "Partner Definition Information2 | Microsoft Docs"
+title: "Partner Definition Information2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 647f197f-594a-4447-b661-1e6018b28105
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Partner Definition Information
 Partner definition information is defined or returned as described here.  

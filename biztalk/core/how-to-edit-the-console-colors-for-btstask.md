@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Edit the Console Colors for BTSTask"
-title: "How to Edit the Console Colors for BTSTask | Microsoft Docs"
+title: "How to Edit the Console Colors for BTSTask"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 725dcb7b-5a19-4166-9d1c-93f30ddca201
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Edit the Console Colors for BTSTask
 This topic describes how to edit the foreground colors that BTSTask outputs to the console. If your console background color is white, you will have difficulty reading the default BTSTask console output and will need to modify the console foreground colors.  

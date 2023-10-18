@@ -1,20 +1,12 @@
 ---
 description: "Learn more about: Step 1: Submitting a 0C2 Request"
-title: "Step 1: Submitting a 0C2 Request | Microsoft Docs"
+title: "Step 1: Submitting a 0C2 Request"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "double action tutorial, submitting requests"
-ms.assetid: 698c4a43-20b9-46b7-ab66-1dfa24232024
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Submitting a 0C2 Request
 In this step, you prepare and submit a request using the Partner Interface Process (PIP) for an 0C2 - Asynchronous Test Request. This PIP ensures that an asynchronous communication channel is working correctly between two different organizations. This PIP follows the same pattern as other asynchronous double action PIPs, such as the 3A4 - Request Purchase Order PIP.  

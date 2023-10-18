@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Performing Daily Maintenance Checks"
-title: "Checklist: Performing Daily Maintenance Checks | Microsoft Docs"
+title: "Checklist: Performing Daily Maintenance Checks"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1abae6fb-abce-4f23-a07d-b32ba58cd070
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Performing Daily Maintenance Checks
 

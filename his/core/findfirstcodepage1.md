@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: FindFirstCodePage"
-title: "FindFirstCodePage1 | Microsoft Docs"
+title: "FindFirstCodePage1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 998c9c58-e510-4925-a989-1fb82bfc7071
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # FindFirstCodePage
 The SNA National Language Support (SNANLS) **FindFirstCodePage** function finds the first instance of a code page satisfying the condition specified, copies the code page information to a structure passed as a parameter, and opens and returns a handle used in subsequent calls to the **FindNextCodePage** function.  

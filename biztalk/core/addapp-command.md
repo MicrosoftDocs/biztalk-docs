@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AddApp Command"
-title: "AddApp Command | Microsoft Docs"
+title: "AddApp Command"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 445784f1-505b-4259-a3f4-6f0d61578b1c
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AddApp Command
 Creates a new BizTalk application in the BizTalk Management database. You can view the application in the Applications node of the BizTalk Server Administration console. You can add artifacts to the application by using the AddResource command, as described in [AddResource Command](../core/addresource-command.md).  

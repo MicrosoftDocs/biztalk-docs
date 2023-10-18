@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: WCF Adapters Property Schema and Properties"
-title: "WCF Adapters Property Schema and Properties | Microsoft Docs"
+title: "WCF Adapters Property Schema and Properties"
 ms.custom: ""
 ms.date: "02/09/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2093745e-86c0-4276-a7cc-a0187391ca4a
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # WCF Adapters Property Schema and Properties
 

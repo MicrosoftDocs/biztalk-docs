@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Install the Certificates for Encrypted Messages"
-title: "How to Install the Certificates for Encrypted Messages | Microsoft Docs"
+title: "How to Install the Certificates for Encrypted Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e11fdb81-041c-4ba6-849d-d511ead0e8be
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Install the Certificates for Encrypted Messages
 The following procedure lists the high-level steps that you have to follow to install the certificates for receiving and sending encrypted messages.  

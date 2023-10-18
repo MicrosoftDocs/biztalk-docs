@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SLI_SEND"
-title: "SLI_SEND2 | Microsoft Docs"
+title: "SLI_SEND2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5a3597fb-5ddc-4665-a9c1-a6e5203da39f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SLI_SEND
 The **SLI_SEND** verb sends responses, SNA commands, and data from a Microsoft® Windows® logical unit application (LUA) application to a host logical unit (LU).  

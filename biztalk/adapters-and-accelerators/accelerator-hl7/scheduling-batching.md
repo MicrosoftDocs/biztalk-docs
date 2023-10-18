@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: Scheduling Batching"
 title: "Scheduling Batching"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "batching, scheduling"
-  - "scheduling batching"
-ms.assetid: 037626f1-1b3b-43e6-80eb-5fb900cdbd46
-caps.latest.revision: 6
-
-
-
 ---
 # Scheduling Batching
 You use [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer to activate, request, or terminate an outbound batch. Activating an outbound batch consists of two steps: configuring time-based or message count criteria and then starting the outbound batching orchestration.  

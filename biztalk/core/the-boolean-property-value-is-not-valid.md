@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The boolean property value is not valid"
-title: "The boolean property value is not valid | Microsoft Docs"
+title: "The boolean property value is not valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 62b6c178-f8ea-451a-b2dc-9396c24c0f5b
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The boolean property value is not valid
 ## Details  

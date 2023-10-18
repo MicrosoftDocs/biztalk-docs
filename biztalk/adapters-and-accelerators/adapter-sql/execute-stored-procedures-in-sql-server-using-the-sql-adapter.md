@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Execute Stored Procedures in SQL Server using the SQL adapter"
-title: "Execute Stored Procedures in SQL Server using the SQL adapter | Microsoft Docs"
+title: "Execute Stored Procedures in SQL Server using the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 245626a7-f546-4aca-90df-c0579139a872
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Execute Stored Procedures in SQL Server using the SQL adapter
 The Transact-SQL and CLR stored procedures in SQL Server are surfaced as operations in [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] under the **Procedures** node while using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]. The operation names exposed by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] are the same as the name of the stored procedure in SQL Server. All the parameters in the stored procedure are exposed in the corresponding operation. The OUT parameter contains the return value of the stored procedure. The result set of the stored procedure is an array of DataSet. For more information about DataSet, see [https://go.microsoft.com/fwlink/?LinkId=196853](/dotnet/api/system.data.dataset). The schema information of the target object is obtained as part of the response message at run time.

@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Table-Driven Looping Example"
-title: "Table-Driven Looping Example | Microsoft Docs"
+title: "Table-Driven Looping Example"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Table Extractor functoids, code sample"
-  - "Table Looping functoids"
-  - "Table Extractor functoids"
-  - "Table Looping functoids, about Table Looping functoids"
-  - "Table Extractor functoids, about Table Extractor functoids"
-  - "code samples, Table Looping functoids"
-  - "Table Looping functoids, code sample"
-  - "code samples, Table Extractor functoids"
-ms.assetid: d890bdb1-12a6-4001-9748-737b1f2bab79
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Table-Driven Looping Example
 This section briefly describes a map using the **Table Looping** and **Table Extractor** functoids. For detailed information about selecting, placing, linking, and configuring the functoids, see [How to Add Table Looping and Table Extractor Functoids to a Map](../core/how-to-add-table-looping-and-table-extractor-functoids-to-a-map.md).  

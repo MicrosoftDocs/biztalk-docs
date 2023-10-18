@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: section"
-title: "section | Microsoft Docs"
+title: "section"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7f1cc24e-9123-451c-8706-5dd1a5955a31
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # section
 The Section element described in the following table contains two attributes, Number and Alias. It also contains the following set of elements: Statement, Parameters and ResultSet.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Retrieve Data"
-title: "Retrieve Data | Microsoft Docs"
+title: "Retrieve Data"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a990a46f-86ea-4348-8151-286248c92de7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Retrieve Data
 Creating connection string information requires that you create an object that is derived from the `IConnectionString` class, such as `DB2OdbcConnectionString` or `DB2OleDbConnectionString`. After you create the string, you can save, modify, or retrieve information from it by using the associated properties.  

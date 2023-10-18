@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: FileAct Adapter Architecture"
-title: "FileAct Adapter Architecture | Microsoft Docs"
+title: "FileAct Adapter Architecture"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: da024517-af5a-47aa-97e0-c46777dd6c74
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FileAct Adapter Architecture
 This section contains information about the architecture of the FileAct adapter.  

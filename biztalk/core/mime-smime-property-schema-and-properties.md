@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: MIME-SMIME Property Schema and Properties"
-title: "MIME-SMIME Property Schema and Properties | Microsoft Docs"
+title: "MIME-SMIME Property Schema and Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 26dd25b9-7eb8-4354-9929-dc1985dd1d77
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MIME-SMIME Property Schema and Properties
 

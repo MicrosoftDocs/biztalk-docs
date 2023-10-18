@@ -1,20 +1,12 @@
 ---
 description: "Learn more about: Step 3: Creating the Fabrikam 0C2 Trading Partner Agreement"
-title: "Step 3: Creating the Fabrikam 0C2 Trading Partner Agreement | Microsoft Docs"
+title: "Step 3: Creating the Fabrikam 0C2 Trading Partner Agreement"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "double action tutorial, creating agreements"
-ms.assetid: 4552f712-f226-423f-b06d-98e943e8efd4
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Creating the Fabrikam 0C2 Trading Partner Agreement
 In this step, you create a trading partner agreement between Contoso and Fabrikam using the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console. You create a new trading partner agreement for the 0C2 Partner Interface Process (PIP).  

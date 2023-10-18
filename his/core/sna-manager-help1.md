@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SNA Manager Help"
-title: "SNA Manager Help1 | Microsoft Docs"
+title: "SNA Manager Help1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a56fbb21-a98c-405b-b25f-90fe2364a8ad
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNA Manager Help
 Use these topics to navigate through the SNA Manager user interface.  
@@ -68,7 +62,7 @@ Use these topics to navigate through the SNA Manager user interface.
   
  [CPI-C Symbolic Name: Security Settings](../core/cpi-c-symbolic-name-security-settings1.md)  
   
- [Host Integration Server 2013 Folder](../core/host-integration-server-2013-folder.md)  
+ [Host Integration Server 2020 Folder](../core/host-integration-server-2020-folder.md)  
   
  [SNA Service Folder](../core/sna-service-folder1.md)  
   

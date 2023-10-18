@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Access Control for Groups and Service Accounts"
-title: "Access Control for Groups and Service Accounts | Microsoft Docs"
+title: "Access Control for Groups and Service Accounts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "access control, service accounts"
-  - "user accounts, default accounts"
-  - "service accounts, security"
-  - "user accounts, unsupported"
-  - "access control, groups"
-  - "service accounts, access control"
-  - "groups, access control"
-  - "groups, security"
-ms.assetid: 411a7bfa-6675-4d09-9e37-83e2941df3c6
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Access Control for Groups and Service Accounts
 Each BizTalk Host instance runs under a user-created service account. You must provide the service accounts and their passwords at the time you create the host instance on a computer. BizTalk Server then ensures that the accounts have the minimum user rights needed to do their jobs by adding each of these service accounts to a local or domain Windows group that, in turn, it adds to the SQL Server Database role specific to that host.  

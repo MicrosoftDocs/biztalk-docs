@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Create an Independent Session"
-title: "How to Create an Independent Session1 | Microsoft Docs"
+title: "How to Create an Independent Session1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 086f92f8-f69a-4166-bb25-dbec2565ebba
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Create an Independent Session
 After you have created the link service, you need to create an independent session to use.  

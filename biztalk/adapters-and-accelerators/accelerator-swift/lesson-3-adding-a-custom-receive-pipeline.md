@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Lesson 3: Adding a Custom Receive Pipeline"
-title: "Lesson 3: Adding a Custom Receive Pipeline | Microsoft Docs"
+title: "Lesson 3: Adding a Custom Receive Pipeline"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, creating custom pipelines"
-  - "custom pipelines"
-ms.assetid: 1917b8e2-4f1c-4c20-abe4-ea18a406eeeb
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 3: Adding a Custom Receive Pipeline
 In this lesson you create a custom receive pipeline using BizTalk Pipeline Designer. A custom receive pipeline is a pipeline that is run on messages after the adapter receives the messages, but before [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] publishes them to the MessageBox database.  

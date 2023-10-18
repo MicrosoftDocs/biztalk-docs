@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status-Control(...) Request"
-title: "Status-Control(...) Request2 | Microsoft Docs"
+title: "Status-Control(...) Request2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 484c1529-5587-42a3-b588-02a91644e5c2
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status-Control(...) Request
 The **Status-Control(...) Request** message flows from the node to the application and from the application to the node. It is used with a primary logical unit (PLU) connection.  

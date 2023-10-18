@@ -1,19 +1,12 @@
 ---
 description: "Learn how to create ports for BeginDoc and EndDocOut and a JDEPort with 3 operations."
-title: "Task 1: Create the Ports1 | Microsoft Docs"
+title: "Task 1: Create the Ports1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5b944a03-c8e2-4eba-9e11-10c14f929499
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Task 1: How to Create the Ports
 

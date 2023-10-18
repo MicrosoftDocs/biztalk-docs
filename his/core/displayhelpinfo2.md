@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: DisplayHelpInfo"
-title: "DisplayHelpInfo2 | Microsoft Docs"
+title: "DisplayHelpInfo2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 187cb25f-39f9-480a-96ed-43bddb76c8f6
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # DisplayHelpInfo
 The **DisplayHelpInfo** function is used to generate help information used by the command-line interface to a link service dynamic-link library (DLL). This function must be exported from a link service configuration DLL supplied with each link service.  

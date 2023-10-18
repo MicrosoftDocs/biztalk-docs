@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Before Installing the Business Process Management Solution"
-title: "Requirements to installg the Business Process Management Solution | Microsoft Docs"
+title: "Requirements to installg the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: addb3178-c64c-43da-9f25-68b2adb6e305
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Before Installing the Business Process Management Solution
 

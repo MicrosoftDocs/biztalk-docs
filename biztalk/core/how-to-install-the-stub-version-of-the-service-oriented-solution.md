@@ -1,35 +1,12 @@
 ---
 description: "Learn more about: How to Install the Stub Version of the Service Oriented Solution"
-title: "How to Install the Stub Version of the Service Oriented Solution | Microsoft Docs"
+title: "How to Install the Stub Version of the Service Oriented Solution"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "IIS, installing virtual directories [service solutions]"
-  - "service solution tutorial, IIS virtual directories"
-  - "service solution tutorial, stub version"
-  - "deploying, BAM solutions [service solutions]"
-  - "service solution tutorial, solutions [BAM]"
-  - "service solution tutorial, service solutions"
-  - "SSO, configuring"
-  - "IBM WebSphere MQ Client"
-  - "service solution tutorial, IBM WebSphere MQ Client"
-  - "installing, tutorials"
-  - "service solutions, deploying"
-  - "service solution tutorial, SSO"
-  - "BAM, deploying solutions"
-  - "service solution tutorial, building solutions"
-  - "service solution tutorial, installing"
-ms.assetid: 45de7681-4df0-47a4-a02c-509140423a1e
-caps.latest.revision: 53
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Install the Stub Version of the Service Oriented Solution
 The following steps describe how to prepare your computer before you install the stub version of the service oriented solution, and then how to install the solution on your computer.

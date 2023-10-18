@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Use the BizTalk WCF Service Publishing Wizard to Publish Orchestrations as WCF Services"
-title: "How to Use the BizTalk WCF Service Publishing Wizard to Publish Orchestrations as WCF Services | Microsoft Docs"
+title: "How to Use the BizTalk WCF Service Publishing Wizard to Publish Orchestrations as WCF Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tools, WCF Service Publishing Wizard"
-  - "WCF services, WCF Service Publishing Wizard"
-  - "WCF services, orchestrations"
-  - "publishing, orchestrations [WCF services]"
-  - "orchestrations, WCF services"
-  - "WCF Service Publishing Wizard"
-ms.assetid: db352132-2fe8-4d53-b239-45e5c3525b6c
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use the BizTalk WCF Service Publishing Wizard to Publish Orchestrations as WCF Services
 You use the BizTalk WCF Service Publishing Wizard to publish orchestrations as WCF services.  

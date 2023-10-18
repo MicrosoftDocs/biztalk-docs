@@ -1,18 +1,12 @@
 ---
 description: "Learn about security in the Microsoft OLE DB Provider for DB2 (Data Provider) that connects Microsoft SQL Server database applications to remote IBM DB2 relational database management servers."
-title: "Security2 | Microsoft Docs"
+title: "Security2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7afe4c2a-c839-4885-afa0-55c7373f7c9c
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Security with the Microsoft OLE DB Provider for DB2 (Data Provider)
 

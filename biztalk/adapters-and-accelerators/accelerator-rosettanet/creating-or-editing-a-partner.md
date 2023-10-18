@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Creating or Editing a Partner"
-title: "Creating or Editing a Partner | Microsoft Docs"
+title: "Creating or Editing a Partner"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating, trading partners"
-  - "trading partners"
-  - "modifying, trading partners"
-  - "trading partners, creating"
-  - "trading partners, modifying"
-  - "trading partners, about trading partners"
-ms.assetid: 63809035-65a5-472d-b2e5-359c8e9d9d8c
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating or Editing a Partner
 This topic describes how to create or edit a partner. The partner configuration describes and classifies the partner, sets the non-repudiation of origin period, configures certificates for the partner, and provides contact information.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Throw SOAP Exceptions from Orchestrations Published as a Web Service"
-title: "How to Throw SOAP Exceptions from Orchestrations Published as a Web Service | Microsoft Docs"
+title: "How to Throw SOAP Exceptions from Orchestrations Published as a Web Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "errors, SOAP exceptions"
-  - "orchestrations, SOAP errors"
-  - "Web services, orchestrations"
-ms.assetid: e1c7cd74-d1c8-4b9d-a418-4601b1f040d7
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Throw SOAP Exceptions from Orchestrations Published as a Web Service
 You can return a SOAP exception from an orchestration that you have published as a Web service. You add a fault message to your SOAP port and send the fault message instead of the response.  

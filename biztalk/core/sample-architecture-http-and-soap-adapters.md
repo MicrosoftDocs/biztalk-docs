@@ -1,33 +1,12 @@
 ---
 description: "Learn more about: Sample Architecture: HTTP and SOAP Adapters"
-title: "Sample Architecture: HTTP and SOAP Adapters | Microsoft Docs"
+title: "Sample Architecture: HTTP and SOAP Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "examples, security"
-  - "architecture, examples"
-  - "SOAP adapters, security"
-  - "Web Publishing"
-  - "security, examples"
-  - "security, architecture"
-  - "SOAP adapters, architecture examples"
-  - "examples, architecture"
-  - "architecture, security"
-  - "HTTP adapters, architecture examples"
-  - "reverse proxy rules"
-  - "ISA Server implementation"
-  - "HTTP adapters, security"
-ms.assetid: 935197d0-5108-4970-b237-3c6d5b40c5e9
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sample Architecture: HTTP and SOAP Adapters
 This topic describes the sample architecture when you use the HTTP and SOAP adapters to send and receive messages.

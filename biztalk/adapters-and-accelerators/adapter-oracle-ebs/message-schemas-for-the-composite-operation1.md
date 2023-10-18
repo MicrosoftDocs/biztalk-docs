@@ -1,19 +1,12 @@
 ---
 description: "Learn about the message schemas for composite operations used by the Microsoft BizTalk Adapter for Oracle E-Business Suite."
-title: "Message Schemas for the Composite Operation1 | Microsoft Docs"
+title: "Message Schemas for the Composite Operation1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 768473ef-da8d-4e58-86cb-597c28ded49c
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for the Composite Operation
 

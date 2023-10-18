@@ -1,19 +1,12 @@
 ---
 description: "Learn how to use the GetContextProperty to push the requested context property onto the stack."
-title: "GetContextProperty2 | Microsoft Docs"
+title: "GetContextProperty2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2554a210-cfb4-4b63-9afa-ffe2a853ba7b
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # GetContextProperty Overview
 

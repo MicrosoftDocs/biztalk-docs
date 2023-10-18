@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Orchestration Dehydration Performance Counters"
-title: "Orchestration Dehydration Performance Counters | Microsoft Docs"
+title: "Orchestration Dehydration Performance Counters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3ab92e0e-6a33-4aaa-ab14-0c82322b04d5
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Orchestration Dehydration Performance Counters
 The following table lists the names of Orchestration Engine performance counters that are specific to monitoring the behavior of dehydration. Use Performance Monitor to watch these counters while tuning your dehydration parameters.  

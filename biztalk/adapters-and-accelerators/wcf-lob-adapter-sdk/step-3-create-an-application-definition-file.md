@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3: Create an Application Definition File"
-title: "Step 3: Create an Application Definition File | Microsoft Docs"
+title: "Step 3: Create an Application Definition File"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 843fafdb-571e-4da4-ad04-7dc7f23e03ac
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Create an Application Definition File
 ![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")
@@ -27,7 +20,7 @@ manager: "anneta"
  The purpose of the Microsoft Office SharePoint Server application that you are creating is to allow you to invoke the EchoGreetings method of the Echo adapter and return the response using a SharePoint Web Part.
 
 ## Prerequisites
- You should have completed [Step 2: Deploy the Web Project](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-deploy-the-web-project.md). You must also have access to the Business Data Catalog Definition Editor, which is installed as part of the Microsoft Office SharePoint Server 2007 SDK. You can download the SDK from [https://go.microsoft.com/fwlink/?LinkId=104130](https://go.microsoft.com/fwlink/?LinkId=104130).
+ You should have completed [Step 2: Deploy the Web Project](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-2-deploy-the-web-project.md). You must also have the Business Data Catalog Definition Editor installed, which is included with the Microsoft Office SharePoint Server 2007 SDK.
 
 ## Creating an Application Definition File
  This topic provides step-by-step instructions to create an application definition file for connecting the SharePoint Business Data Catalog with the WCF adapter hosted in IIS.

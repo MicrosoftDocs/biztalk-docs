@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Data Type Mapping for Custom RFCs"
-title: "Data Type Mapping for Custom RFCs | Microsoft Docs"
+title: "Data Type Mapping for Custom RFCs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "custom RFCs, data type mapping"
-ms.assetid: 33539a5a-bdfc-423f-8026-436f69a20c70
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Data Type Mapping for Custom RFCs
 The following table provides information about SAP data types and how they are mapped to .NET data types for the Z_EXTRACT_DATA_OO RFC. This custom RFC is used by the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)].  

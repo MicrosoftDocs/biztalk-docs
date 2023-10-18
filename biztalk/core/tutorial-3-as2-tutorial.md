@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tutorial 3: AS2 Tutorial"
-title: "Tutorial 3: AS2 Tutorial | Microsoft Docs"
+title: "Tutorial 3: AS2 Tutorial"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 018829a9-e670-4b87-bac5-7f7b1332d90e
-caps.latest.revision: 32
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial 3: AS2 Tutorial
 In this tutorial, you set up a solution that receives and sends EDIINT/AS2-encoded messages over an HTTP transport.  

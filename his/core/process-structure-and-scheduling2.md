@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Process Structure and Scheduling"
-title: "Process Structure and Scheduling2 | Microsoft Docs"
+title: "Process Structure and Scheduling2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 10265606-86aa-4a51-bdbb-0fca8fd8f2e9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Process Structure and Scheduling
 The primary thread of execution within a Host Integration Server SNALink is under the complete control of the Base. The Base schedules the SNALink by calling predefined entry points, which the IHV link support code must provide.  

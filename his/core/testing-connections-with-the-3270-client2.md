@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Testing Connections with the 3270 Client"
-title: "Testing Connections with the 3270 Client2 | Microsoft Docs"
+title: "Testing Connections with the 3270 Client2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1c38fe7c-1d55-43b9-8a90-5111e0015428
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Testing Connections with the 3270 Client
 The 3270 Client can be used to access your mainframe (3270) environment.  

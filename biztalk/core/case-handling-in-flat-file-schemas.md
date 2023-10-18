@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Case Handling in Flat File Schemas"
-title: "Case Handling in Flat File Schemas | Microsoft Docs"
+title: "Case Handling in Flat File Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9f2b56d2-03fa-41e9-ae28-3275b404d4db
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Case Handling in Flat File Schemas
 

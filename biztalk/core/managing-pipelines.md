@@ -1,19 +1,12 @@
 ---
-title: "Manage pipelines | Microsoft Docs"
+title: "Manage pipelines"
 description: Quick links to enable tracking and pipeline properties on a send port or receive location in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d60b54e0-0a5a-4264-b0e5-96bb187d782b
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing Pipelines
 

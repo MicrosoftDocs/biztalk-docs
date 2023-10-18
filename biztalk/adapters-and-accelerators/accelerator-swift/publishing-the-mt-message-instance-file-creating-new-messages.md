@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Publishing the MT Message Instance File (Creating New Messages)"
-title: "Publishing the MT Message Instance File (Creating New Messages) | Microsoft Docs"
+title: "Publishing the MT Message Instance File (Creating New Messages)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 52118d20-f325-432a-9e3e-5cc10232cba0
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Publishing the MT Message Instance File (Creating New Messages)
 **To publish the MT message instance file:**  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSONotification.ReceiveNotification Method"
-title: "ISSONotification.ReceiveNotification Method | Microsoft Docs"
+title: "ISSONotification.ReceiveNotification Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 69f66a83-ab5c-44c9-b650-1af713d1254d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSONotification.ReceiveNotification Method
 Receives a notification from the ENTSSO system, such as password changes.  

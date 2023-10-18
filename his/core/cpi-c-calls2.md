@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CPI-C Calls"
-title: "CPI-C Calls2 | Microsoft Docs"
+title: "CPI-C Calls2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9b1371ec-6d65-406c-b044-7315c459afc9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CPI-C Calls
 This section describes the Common Programming Interface for Communications (CPI-C) calls. The following information is supplied for each call:  

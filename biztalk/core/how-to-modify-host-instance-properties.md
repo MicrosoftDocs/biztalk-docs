@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Update Host Instance Properties"
-title: "Change Host Instance Properties | Microsoft Docs"
+title: "Change Host Instance Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a35ca0c8-89b3-483a-b2fc-c8f43a8864d1
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Update Host Instance Properties
 

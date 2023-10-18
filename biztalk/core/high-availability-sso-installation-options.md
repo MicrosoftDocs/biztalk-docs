@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: High-Availability SSO Installation Options"
-title: "High-Availability SSO Installation Options | Microsoft Docs"
+title: "High-Availability SSO Installation Options"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "high availability, SSO"
-  - "SSO, high availability"
-ms.assetid: b6e7722e-8fe5-49fe-bf53-bdcca2bb4ad2
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # High-Availability SSO Installation Options
 The topics in this section describe installation focused on high availability of Enterprise Single Sign-On, such as multicomputer deployment.  

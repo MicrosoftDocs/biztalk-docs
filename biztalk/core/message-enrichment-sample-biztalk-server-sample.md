@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Message Enrichment Sample (BizTalk Server Sample)"
-title: "Message Enrichment Sample (BizTalk Server Sample) | Microsoft Docs"
+title: "Message Enrichment Sample (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a41ed707-dbdb-46b7-97a6-86fdbc8ad285
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Enrichment Sample (BizTalk Server Sample)
 The Message Enrichment sample demonstrates how to append interchange headers to transaction-set messages for X12 and EDIFACT documents.  

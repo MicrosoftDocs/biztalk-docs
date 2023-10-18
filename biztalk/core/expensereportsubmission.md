@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: ExpenseReportSubmission"
-title: "ExpenseReportSubmission | Microsoft Docs"
+title: "ExpenseReportSubmission"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, examples"
-  - "examples, orchestrations"
-ms.assetid: d0bacab3-7092-44b8-a1c6-6f574a2db8bd
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ExpenseReportSubmission
 The ExpenseReportSubmission sample demonstrates how to submit a document to a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration from a rich client such as Microsoft Excel.  

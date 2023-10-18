@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Transparency"
-title: "Transparency2 | Microsoft Docs"
+title: "Transparency2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2e32aba3-a7ec-44c9-8c4d-92a3a8f3f8f8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Transparency
 **Transparency** sets a flag that indicates that transparent data from the host is in ASCII and needs no translation from EBCDIC to ASCII. Selecting **Transparency is ASCII** causes the Windows Host Print service not to put the received data through an EBCDIC to ASCII translation table before printing.  

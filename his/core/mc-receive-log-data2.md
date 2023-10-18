@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MC_RECEIVE_LOG_DATA"
-title: "MC_RECEIVE_LOG_DATA2 | Microsoft Docs"
+title: "MC_RECEIVE_LOG_DATA2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 41929e28-4e2d-4bf4-96c5-ad2f8096c4d4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MC_RECEIVE_LOG_DATA
 The **MC_RECEIVE_LOG_DATA** verb allows the user to register to receive the log data associated with an inbound Function Management Header 7 (FMH7) error report. The verb passes a buffer to APPC, and any log data received is placed in that buffer. APPC continues to use this buffer as successive FMH7s arrive until it is provided with another buffer (that is, until the transaction program (TP) issues another **MC_RECEIVE_LOG_DATA** specifying a different buffer or no buffer at all).  

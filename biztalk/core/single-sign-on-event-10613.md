@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10613"
-title: "Single Sign-On: Event 10613 | Microsoft Docs"
+title: "Single Sign-On: Event 10613"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7a87ca19-24a0-4cf8-984f-2f70d7b5018c
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10613
 ## Details  

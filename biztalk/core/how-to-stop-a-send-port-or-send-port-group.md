@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Stop a Send Port or Send Port Group"
-title: "How to Stop a Send Port or Send Port Group | Microsoft Docs"
+title: "How to Stop a Send Port or Send Port Group"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [send ports], stopping"
-  - "managing [send port groups], stopping"
-  - "stopping, send ports"
-  - "send port groups, stopping"
-  - "stopping, send port groups"
-  - "send ports, stopping"
-ms.assetid: a7a5eab3-34fe-4417-900a-c37ec16ec009
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Stop a Send Port or Send Port Group
 This topic describes how to use the BizTalk Server Administration console to stop a send port or send port group. When you stop a send port or send port group, it no longer processes messages. BizTalk Server suspends all activation messages to a stopped send port or send port group. Stopping a send port group does not affect the state of any send ports that it contains.  

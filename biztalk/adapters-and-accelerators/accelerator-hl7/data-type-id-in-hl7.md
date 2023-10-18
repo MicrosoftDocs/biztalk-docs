@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Data Type ID in HL7"
 title: "Data Type ID in HL7"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "data types, data type ID"
-  - "data types, messages"
-  - "messages, data types"
-ms.assetid: d1412886-ff0b-4333-b01e-1c3ae45240e2
-caps.latest.revision: 3
-
-
-
 ---
 # Data Type ID in HL7
 In the case of HL7 V2.1, the data type ID is a placeholder for undefined data types. The following are examples of its usage:  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Arbitrary XPath Property Handler (BizTalk Server Sample)"
-title: "Arbitrary XPath Property Handler (BizTalk Server Sample) | Microsoft Docs"
+title: "Arbitrary XPath Property Handler (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components [custom], examples"
-  - "examples, pipeline components [custom]"
-ms.assetid: 4eb26c38-5ece-42b0-a28e-73214df1dc41
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Arbitrary XPath Property Handler (BizTalk Server Sample)
 The Arbitrary XPath Property Handler ([!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Sample) demonstrates how to write a custom pipeline component to promote specific properties on an XML document that is submitted to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. You can use functionality contained in the sample to create custom regular, assembler, and disassembler components to evaluate XPath expressions.  

@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: How to Modify Rules"
-title: "How to Modify Rules | Microsoft Docs"
+title: "How to Modify Rules"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "business rules, activating"
-  - "deactivating business rules"
-  - "business rules, priorities"
-  - "activating business rules"
-  - "business rules, deactivating"
-  - "modifying, business rules"
-  - "business rules, modifying"
-ms.assetid: 661b2637-b5d6-4bde-9c42-24cd9e9d241c
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Modify Rules
 The ability to change rules is an important part of the business rules paradigm. You can modify rules within a policy in two ways: either by creating a new version of the policy, or by directly modifying an unpublished version of the policy.  

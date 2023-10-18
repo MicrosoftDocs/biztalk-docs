@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AS2 Support in BizTalk Server"
-title: "AS2 Support in BizTalk Server | Microsoft Docs"
+title: "AS2 Support in BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f8ee230e-8f5f-4b51-99e2-0b38acaf5707
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AS2 Support in BizTalk Server
 This topic provides a brief general overview of AS2 processing and how BizTalk Server implements it.  

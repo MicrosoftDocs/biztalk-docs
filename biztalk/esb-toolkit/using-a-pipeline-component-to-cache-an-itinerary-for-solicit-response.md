@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Using a Pipeline Component to Cache an Itinerary for Solicit-Response"
-title: "Using a Pipeline Component to Cache an Itinerary for Solicit-Response | Microsoft Docs"
+title: "Using a Pipeline Component to Cache an Itinerary for Solicit-Response"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: add07ebf-785c-4c53-be69-efd40677a758
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using a Pipeline Component to Cache an Itinerary for Solicit-Response
 Messages submitted through a [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] itinerary on-ramp can go through either a one-way itinerary or a two-way (request-response) itinerary. To support request-response itineraries, the itinerary mechanism must provide caching for BizTalk dynamic Solicit-Response send ports.  

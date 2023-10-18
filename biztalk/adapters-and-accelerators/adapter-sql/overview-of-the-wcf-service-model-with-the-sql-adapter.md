@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Overview of the WCF service model with the SQL adapter"
-title: "Overview of the WCF service model with the SQL adapter | Microsoft Docs"
+title: "Overview of the WCF service model with the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7641bcc7-3845-4914-9b1b-cb86b998ea6d
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Overview of the WCF service model with the SQL adapter
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes a SQL Server operation as a WCF service. To perform operations on SQL Server artifacts, for example to invoke a stored procedure, you invoke an operation on the adapter, which, in turn, performs the operation on the SQL Server. Your code therefore acts as a client to the WCF service presented by the adapter.  

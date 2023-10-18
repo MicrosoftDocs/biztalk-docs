@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Finding Further Information about LUA"
-title: "Finding Further Information about LUA2 | Microsoft Docs"
+title: "Finding Further Information about LUA2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c1c68309-dfb7-40b8-bf2d-5ef80220adf2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Finding Further Information about LUA
 This section does not provide a detailed explanation of products, architectures, or standards other than those directly pertaining to the Microsoft® Windows® logical unit application (LUA) programming interface. For information about specific operating environments, refer to your system documentation. For information about SNA, refer to your system network documentation.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing and Configuring a Hyper-V Virtual Machine for use with BizTalk Server"
-title: "Installing and Configuring a Hyper-V Virtual Machine for use with BizTalk Server | Microsoft Docs"
+title: "Installing and Configuring a Hyper-V Virtual Machine for use with BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 86add392-3cde-432d-95d6-c81d68716537
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing and Configuring a Hyper-V Virtual Machine for use with BizTalk Server
 This topic provides recommendations for installing and configuring BizTalk Server in a Hyper-V environment, including recommendations for installation and configuration of the Hyper-V virtual machine and recommendations for installing BizTalk Server on a Hyper-V virtual machine.

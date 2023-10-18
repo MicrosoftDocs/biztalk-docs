@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4C: Create a Test Instance for the InterAct Store and Forward Scenario"
-title: "Step 4C: Create a Test Instance for the InterAct Store and Forward Scenario | Microsoft Docs"
+title: "Step 4C: Create a Test Instance for the InterAct Store and Forward Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 64a69dcc-d307-47c0-87e8-b0cb2a4d655b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4C: Create a Test Instance for the InterAct Store and Forward Scenario
 Before you begin this step, you must complete [Step 4B: Start the Send Ports and Receive Ports for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-4b-start-the-send-and-receive-ports-for-interact-store-and-forward.md).  

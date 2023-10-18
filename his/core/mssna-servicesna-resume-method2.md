@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_ServiceSNA.Resume Method"
-title: "MsSna_ServiceSNA.Resume Method2 | Microsoft Docs"
+title: "MsSna_ServiceSNA.Resume Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2f0296c5-d1ad-4a42-8aa9-97565b82b6c8
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_ServiceSNA.Resume Method
 Restarts a paused service.  

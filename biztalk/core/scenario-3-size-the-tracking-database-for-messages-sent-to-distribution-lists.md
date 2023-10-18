@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Scenario 3: Sizing the Tracking Database  for Messages Sent Out to Distribution Lists"
-title: "Scenario 3: Sizing the Tracking Database  for Messages Sent Out to Distribution Lists | Microsoft Docs"
+title: "Scenario 3: Sizing the Tracking Database  for Messages Sent Out to Distribution Lists"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Tracking database, database size"
-ms.assetid: bc6e0da0-46d1-42d6-8ec9-29a28719fbb3
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scenario 3: Sizing the Tracking Database  for Messages Sent Out to Distribution Lists
 In the following figure, you have a message that proceeds through an orchestration, is changed within the orchestration, and is then sent out to several different send ports through a distribution list.  

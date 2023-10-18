@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Update References to the BAM Primary Import Database Name and Connection String"
-title: "Update BAM Primary Import Database name and connection string | Microsoft Docs"
+title: "Update BAM Primary Import Database name and connection string"
 ms.custom: ""
 ms.date: "02/01/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e3c58db0-f14f-429a-813c-bae29f6950d3
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Update References to the BAM Primary Import Database Name and Connection String
 If you backed up your BAMPrimaryImport database in the event of a system or data failure, you can restore that backup to a different computer and rename the backup.  

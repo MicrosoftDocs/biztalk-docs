@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Invoke BAPIs in SAP using the WCF Service Model"
-title: "Invoke BAPIs in SAP using the WCF Service Model | Microsoft Docs"
+title: "Invoke BAPIs in SAP using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAPIs, invoking by using the WCF service model"
-  - "WCF service model, invoking BAPIs"
-ms.assetid: be3c48d6-2213-4ae5-97f4-634fbc423022
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke BAPIs in SAP using the WCF Service Model
 The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces BAPIs as:  

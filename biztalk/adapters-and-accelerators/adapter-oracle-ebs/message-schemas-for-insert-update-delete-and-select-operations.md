@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Message Schemas for Insert, Update, Delete, and Select Operations"
-title: "Message Schemas for Insert, Update, Delete, and Select Operations | Microsoft Docs"
+title: "Message Schemas for Insert, Update, Delete, and Select Operations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5b8de271-67db-4279-8f95-0b4dd92fa3c4
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for Insert, Update, Delete, and Select Operations
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]surfaces basic Insert, Update, Delete, and Select operations for each interface table in Oracle E-Business Suite and each table in the underlying database. The adapter also surfaces the Select operation for each interface view in Oracle E-Business Suite and each view in the underlying database. These operations perform the appropriate SQL statement qualified by a WHERE clause. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] uses strongly-typed records and record sets in these operations.  

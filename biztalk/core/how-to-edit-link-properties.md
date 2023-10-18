@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Edit Link Properties"
-title: "How to Edit Link Properties | Microsoft Docs"
+title: "How to Edit Link Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: efd13dee-1f53-4f4e-8612-302f827bc6d8
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Edit Link Properties
 Links have several properties that appear in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]**Properties** window, such as the following:  

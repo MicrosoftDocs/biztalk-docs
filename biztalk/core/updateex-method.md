@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: UpdateEx Method"
-title: "UpdateEx Method | Microsoft Docs"
+title: "UpdateEx Method"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "UpdateEx method"
-ms.assetid: 2fa9c9cc-fd01-4765-8c31-facac188a19d
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # UpdateEx Method
 Used to update properties based on the input key parameters (key1, key2, … keyn). When using `UpdateEx`, you cannot delete items in a collection. A separate method facilitates deletion. For more information, see [DeleteOnly Method](../core/deleteonly-method.md).  

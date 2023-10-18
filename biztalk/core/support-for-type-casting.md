@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Support for Type Casting"
-title: "Support for Type Casting | Microsoft Docs"
+title: "Support for Type Casting"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6af46e34-5e33-4f61-8c19-4348f1bb4d4a
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Support for Type Casting
 You can use the **Cast** method of the **ClassMemberBinding** class to convert an object of one type to an object of another compatible type. Currently, the Business Rule Composer tool does not support creating rules by using the **Cast** method. You must create the rules programmatically by using the rule engine object model to take advantage of this feature.  

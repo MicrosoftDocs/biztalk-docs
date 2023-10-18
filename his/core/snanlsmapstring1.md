@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SnaNlsMapString"
-title: "SnaNlsMapString1 | Microsoft Docs"
+title: "SnaNlsMapString1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ec70feea-8833-4511-b479-350dfc1c7be1
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SnaNlsMapString
 The **SnaNlsMapString** function is called to translate a string from one code page to another.  

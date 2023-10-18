@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Syntax for an EXECQUERY Statement in SAP"
-title: "Syntax for an EXECQUERY Statement in SAP | Microsoft Docs"
+title: "Syntax for an EXECQUERY Statement in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 99bd7fbb-64f2-4327-a8ae-ccb574e56150
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Syntax for an EXECQUERY Statement in SAP
 You can use the SAP GUI to create queries by graphically selecting the tables you want to query, the columns and sort order you want included in the result set, etc. The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] enables users to execute such queries from an ADO.NET application by providing an EXECQUERY operation that users can use to execute a query defined in the SAP system.  

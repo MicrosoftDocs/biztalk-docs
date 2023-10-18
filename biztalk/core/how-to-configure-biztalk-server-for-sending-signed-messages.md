@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure BizTalk Server for Sending Signed Messages"
-title: "How to Configure BizTalk Server for Sending Signed Messages | Microsoft Docs"
+title: "How to Configure BizTalk Server for Sending Signed Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: be86fbb3-de80-4d9f-bcf0-c61347704229
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure BizTalk Server for Sending Signed Messages
 The following procedure lists the steps that you have to follow to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to send signed messages.  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Installing and Configuring BizTalk Server on the Messaging Server"
-title: "Installing and Configuring BizTalk Server on the Messaging Server | Microsoft Docs"
+title: "Installing and Configuring BizTalk Server on the Messaging Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "BizTalk Server, installing on BizTalk Messaging servers"
-  - "BizTalk Server, configuring"
-  - "BizTalk Messaging servers, configuring BizTalk Server"
-  - "BizTalk Messaging servers, installing BizTalk Server"
-ms.assetid: 8aaa1b97-90f0-4317-9403-ac8b5b9f80e3
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing and Configuring BizTalk Server on the Messaging Server
 This section describes how to install and configure BizTalk Server to be used as the messaging server for connecting to the SWIFT network.

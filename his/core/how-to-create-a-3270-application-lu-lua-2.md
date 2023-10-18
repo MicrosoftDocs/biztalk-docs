@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Create a 3270 Application LU (LUA)"
-title: "How to Create a 3270 Application LU (LUA)2 | Microsoft Docs"
+title: "How to Create a 3270 Application LU (LUA)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8aa90bcb-f0bf-45e0-8907-babc7aebb33c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Create a 3270 Application LU (LUA)
 The following procedure details how to create an application LU (LUA).  

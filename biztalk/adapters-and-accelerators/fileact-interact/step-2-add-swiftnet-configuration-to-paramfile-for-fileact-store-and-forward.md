@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Store and Forward Scenario"
-title: "Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Store and Forward Scenario | Microsoft Docs"
+title: "Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Store and Forward Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 088ab41f-8325-4330-b6f2-0164aa1911b1
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Store and Forward Scenario
 

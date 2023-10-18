@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Server Properties: SSO Service"
-title: "Server Properties: SSO Service2 | Microsoft Docs"
+title: "Server Properties: SSO Service2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 170e98e0-6bd3-4b84-9854-68323726d8b0
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Server Properties: SSO Service
 Use this page to enter information for the SSO Service.  

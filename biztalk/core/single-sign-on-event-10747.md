@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10747"
-title: "Single Sign-On: Event 10747 | Microsoft Docs"
+title: "Single Sign-On: Event 10747"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 63ae1ab4-0f4e-45a7-83c1-31b8037e4dd7
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10747
 ## Details  

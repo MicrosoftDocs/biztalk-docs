@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: InterAct Store and Forward (Push) Scenario"
-title: "InterAct Store and Forward (Push) Scenario | Microsoft Docs"
+title: "InterAct Store and Forward (Push) Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 32eaf374-c366-4e74-bcf7-278cab7a31f4
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # InterAct Store and Forward (Push) Scenario
 Before you begin the steps in this section, you must complete the steps in the [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md) section.  

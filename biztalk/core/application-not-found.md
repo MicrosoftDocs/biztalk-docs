@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Application not found"
-title: "Application not found | Microsoft Docs"
+title: "Application not found"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c37680b2-b38a-40f3-bb27-7b7281299ec3
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Application not found
 ## Details  

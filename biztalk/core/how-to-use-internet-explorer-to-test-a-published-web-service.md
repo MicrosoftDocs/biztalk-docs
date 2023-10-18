@@ -1,19 +1,12 @@
 ---
-title: "Test BizTalk web service | Microsoft Docs"
+title: "Test BizTalk web service"
 description: Configure receive locations and web.config to test BizTalk web service in a web browser
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4dc2171d-4abe-43db-b4bc-e484048c6430
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Test a BizTalk Web Service
 

@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Inputs to Cumulative Functoid from Different Parent Records"
-title: "Error - Inputs to Cumulative Functoid from Different Parent Records | Microsoft Docs"
+title: "Error - Inputs to Cumulative Functoid from Different Parent Records"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.inputsToCumulativeFromDiffParents"
-ms.assetid: a2dcfe6f-0cd4-41ed-a69f-e510a74760a9
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Inputs to Cumulative Functoid from Different Parent Records
 **Error Code**  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Overview of Message Formats"
-title: "Overview of Message Formats1 | Microsoft Docs"
+title: "Overview of Message Formats1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2f355b34-90f0-4667-a0ad-4626badcbaf8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Overview of Message Formats
 A message always contains fixed-format header information such as a message type and addressing information. It can also contain other header information specific to a particular message type (such as the message subtype) and an indefinite amount of extra data.  

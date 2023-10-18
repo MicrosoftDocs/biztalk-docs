@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning for Performance"
-title: "Planning for Performance | Microsoft Docs"
+title: "Planning for Performance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 267a8bc6-a0ab-4335-bc04-c22d5a56792f
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning for Performance
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is an application platform. It is not just a server product or just a developer product. It is an application platform that is used to build business process management systems, to integrate enterprise applications, to automate workflows, and to enable service oriented architectures.

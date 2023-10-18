@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IcomLUO.Send Method"
-title: "IcomLUO.Send Method1 | Microsoft Docs"
+title: "IcomLUO.Send Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8548d10c-6f69-49c0-8031-d1102adecb36
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IcomLUO.Send Method
 Sends a complete inbound chain of data on an LU0 session.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3: Create Send and Receive Ports for the InterAct Real-Time Scenario"
-title: "Step 3: Create Send and Receive Ports for the InterAct Real-Time Scenario | Microsoft Docs"
+title: "Step 3: Create Send and Receive Ports for the InterAct Real-Time Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e26137c0-577c-4fa5-ae36-55163a4a56d2
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Create Send and Receive Ports for the InterAct Real-Time Scenario
 For information about BizTalk Server send and receive ports, and receive locations, see [Managing Artifacts](../../core/managing-artifacts.md) in the BizTalk Server docs.  

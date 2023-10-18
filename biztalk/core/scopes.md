@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: Scopes"
-title: "Scopes | Microsoft Docs"
+title: "Scopes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "scopes, exception handling"
-  - "Scope shape [Orchestration Designer], nesting"
-  - "scopes, variables"
-  - "scopes, Scope shape [Orchestration Designer]"
-  - "Scope shape [Orchestration Designer], exception handling"
-  - "scopes, transactions"
-  - "scopes, synchronization"
-  - "scopes, nesting"
-  - "Scope shape [Orchestration Designer], transactions"
-ms.assetid: 51d81ce4-0034-4415-b6ab-4c952737c1bd
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scopes
 A scope is a framework for grouping actions. It is primarily used for transactional execution and exception handling.  

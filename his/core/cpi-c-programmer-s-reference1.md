@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CPI-C Programmer's Reference"
-title: "CPI-C Programmer's Reference | Microsoft Docs"
+title: "CPI-C Programmer's Reference"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fde0eda5-6ba0-4fb3-be41-6c4fb904ed07
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CPI-C Programmer's Reference
 

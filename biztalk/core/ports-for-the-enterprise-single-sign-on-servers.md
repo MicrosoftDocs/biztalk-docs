@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Ports for the Enterprise Single Sign-On Servers"
-title: "Ports for the Enterprise Single Sign-On Servers | Microsoft Docs"
+title: "Ports for the Enterprise Single Sign-On Servers"
 ms.custom: ""
 ms.date: "01/07/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ports, SSO"
-  - "SSO"
-ms.assetid: 30eb99f9-02cb-43c9-b038-d7bd898e3a7a
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Ports for the Enterprise Single Sign-On Servers
 For complete information about securing your BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

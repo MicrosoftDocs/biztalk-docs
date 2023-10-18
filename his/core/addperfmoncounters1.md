@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: AddPerfmonCounters"
-title: "AddPerfmonCounters1 | Microsoft Docs"
+title: "AddPerfmonCounters1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8c8adb4e-34d7-4a7e-a942-b256679a9cfc
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # AddPerfmonCounters
 The **AddPerfmonCounters** function is used to add Perfmon counters to a link service. This utility function is used to construct an integrated link service configuration dynamic-link library (DLL).  

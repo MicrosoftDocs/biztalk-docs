@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Suspend Shape"
-title: "How to Configure the Suspend Shape | Microsoft Docs"
+title: "How to Configure the Suspend Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [Orchestration Designer], Suspend shapes"
-  - "Suspend shape [Orchestration Designer], literal strings"
-  - "Suspend shape [Orchestration Designer], configuring"
-  - "Suspend shape [Orchestration Designer]"
-  - "atomic transactions, Suspend shape [Orchestration Designer]"
-  - "Suspend shape [Orchestration Designer], atomic transactions"
-  - "Suspend shape [Orchestration Designer], about Suspend shape"
-ms.assetid: 62fbb6d4-78d2-4671-84bb-909cbf6b0ec3
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Suspend Shape
 ![Image that represents the Suspend shape.](../core/media/ebiz-orch-suspend.gif "ebiz_orch_suspend")  

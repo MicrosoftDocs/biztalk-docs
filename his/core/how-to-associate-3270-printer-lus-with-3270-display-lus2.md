@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Associate 3270 Printer LUs with 3270 Display LUs"
-title: "How to Associate 3270 Printer LUs with 3270 Display LUs2 | Microsoft Docs"
+title: "How to Associate 3270 Printer LUs with 3270 Display LUs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1d5d9353-e147-47c3-8452-e156ad8f068e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Associate 3270 Printer LUs with 3270 Display LUs
 Users who have host applications with direct relationships between display LUs and printer LUs can associate printers with the LUs.  

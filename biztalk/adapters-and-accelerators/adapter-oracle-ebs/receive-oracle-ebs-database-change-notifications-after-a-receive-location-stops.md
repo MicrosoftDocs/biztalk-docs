@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Receive Oracle E-Business Suite database change notifications after a receive location breakdown"
-title: "Receive Oracle E-Business Suite database change notifications after a receive location breakdown | Microsoft Docs"
+title: "Receive Oracle E-Business Suite database change notifications after a receive location breakdown"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 12c42cd0-b46e-4c45-a67e-e1fb9c0e8a6d
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive Oracle E-Business Suite database change notifications after a receive location breakdown
 Consider a scenario where you have a BizTalk application that receives database change notification messages when changes are made to the ACCOUNTACTIVITY table. If the receive location configured as part of the BizTalk application breaks down, and simultaneously records are added into the ACCOUNTACTIVITY table, you will not receive notifications for the recently added records. You will also not know when the receive location is available again. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes a binding property, **NotifyOnListenerStart**, that you can configure to get a notification that the receive location has recovered. You can specify the following values for the **NotifyOnListenerStart** binding property:  

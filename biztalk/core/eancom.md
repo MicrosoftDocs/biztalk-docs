@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EANCOM"
-title: "EANCOM | Microsoft Docs"
+title: "EANCOM"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a2f3d8f3-80e8-4481-8312-500fdcc86849
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EANCOM
 This topic lists the EANCOM documents and versions that are supported by BizTalk Server.  

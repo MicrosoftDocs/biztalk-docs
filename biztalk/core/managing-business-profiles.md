@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Managing Business Profiles"
-title: "Managing Business Profiles | Microsoft Docs"
+title: "Managing Business Profiles"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.admin.resultsobject.businessprofile"
-ms.assetid: cf98c5a4-71bb-440b-8172-717ed0eb8373
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing Business Profiles
 A business profile represents the business divisions within of an organization. Just like an organization can have various divisions, a party can have various [business profiles](trading-partners-and-business-profiles.md). 

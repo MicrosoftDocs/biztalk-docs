@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Monitoring BizTalk Server with Operations Manager 2007"
-title: "Checklist: Monitoring BizTalk Server with Operations Manager 2007 | Microsoft Docs"
+title: "Checklist: Monitoring BizTalk Server with Operations Manager 2007"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2e1f7f57-1501-473f-af5f-15f3e1ddaf8e
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Monitoring BizTalk Server with Operations Manager 2007
 This topic lists the high-level steps you can follow when preparing to monitor your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.

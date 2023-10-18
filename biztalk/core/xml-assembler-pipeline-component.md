@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: XML Assembler Pipeline Component"
-title: "XML Assembler Pipeline Component | Microsoft Docs"
+title: "XML Assembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XML Assembler [pipeline component]"
-  - "pipeline components, XML Assembler"
-ms.assetid: 3adfd603-0577-49c2-ae9d-445d62fed385
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # XML Assembler Pipeline Component
 The XML Assembler pipeline component combines XML serializing and assembling in one component. Its primary function is to transfer properties from the message context back into envelopes and documents.  

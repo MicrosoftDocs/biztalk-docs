@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Create Schemas for Flat File Messages"
-title: "How to Create Schemas for Flat File Messages | Microsoft Docs"
+title: "How to Create Schemas for Flat File Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 48f2747b-7f26-4fb2-a855-523e093f3813
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create Schemas for Flat File Messages
 

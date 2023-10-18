@@ -1,19 +1,12 @@
 ---
-title: "Basic SAP Data Types in the mySAP adapter in BizTalk | Microsoft Docs"
+title: "Basic SAP Data Types in the mySAP adapter in BizTalk"
 description: Supported ABAP and database data types for the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 296b4813-f175-4a02-8fd3-227ae301bc3d
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Basic SAP Data Types
 The parameter types that the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports are governed by the:  

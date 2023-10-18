@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Error Codes for Open(PLU) Error Confirm"
-title: "Error Codes for Open(PLU) Error Confirm1 | Microsoft Docs"
+title: "Error Codes for Open(PLU) Error Confirm1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f348b44a-7cab-4676-9fe9-541efcb84daf
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Error Codes for Open(PLU) Error Confirm
 The following table gives the values for error code 1 that can be returned on the [Open(PLU) Error Confirm](./open-plu-error-confirm2.md) message. Error code 2 is zero, except when error code 1 is 0x0821. In this case it contains the byte offset in the **BIND** where the **BIND** failed to match the **BIND** check table.  

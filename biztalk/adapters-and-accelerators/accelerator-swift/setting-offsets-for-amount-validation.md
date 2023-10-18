@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Setting Offsets for Amount Validation"
-title: "Setting Offsets for Amount Validation | Microsoft Docs"
+title: "Setting Offsets for Amount Validation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "amounts, validating"
-  - "validating, amounts"
-  - "amounts, offsets"
-  - "offsets"
-ms.assetid: 39d5510c-52e6-4fd9-9632-582b508f04d7
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Setting Offsets for Amount Validation
 The usage rules for Amount fields in message types MT102, MT103, and MT103PLUS are validated by rules in their respective validation policies. The Amount fields can be matched exactly or can be validated to be within a range of amounts.  

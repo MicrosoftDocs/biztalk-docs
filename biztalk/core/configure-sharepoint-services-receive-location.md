@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configure SharePoint Services Receive Location"
-title: "Configure SharePoint Services Receive Location | Microsoft Docs"
+title: "Configure SharePoint Services Receive Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9afed0e4-0f72-4df4-a2cb-d999c6fbbc86
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure SharePoint Services Receive Location
 This topic lists the steps to create a [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] receive location.

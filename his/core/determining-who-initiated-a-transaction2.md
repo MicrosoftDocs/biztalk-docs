@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Determining Who Initiated a Transaction"
-title: "Determining Who Initiated a Transaction2 | Microsoft Docs"
+title: "Determining Who Initiated a Transaction2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3458fda8-e663-46e8-8e96-5a0e32ecca69
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Determining Who Initiated a Transaction
 You can easily determine who initiated a specific transaction. This is helpful, for example, when you need to track down the history of a transaction failure. You can also use this technique to implement resource or transaction-level, per user, security.  

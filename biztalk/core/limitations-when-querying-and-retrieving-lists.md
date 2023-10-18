@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Limitations When Querying and Retrieving Lists"
-title: "Limitations When Querying and Retrieving Lists | Microsoft Docs"
+title: "Limitations When Querying and Retrieving Lists"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "JD Edwards OneWorld adapters, querying limitations"
-  - "querying, limitations [JD Edwards OneWorld adapters]"
-ms.assetid: 1b6f5d2a-d1e2-4c78-8f4a-f00d10f008b9
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Limitations When Querying and Retrieving Lists
 The JD Edwards OneWorld communication architecture is a single-message, single-reply architecture. You cannot return a list of messages or an array. The underlying code is C++, which calls with a pointer to a single structure, makes changes in the structure, and then exits.  

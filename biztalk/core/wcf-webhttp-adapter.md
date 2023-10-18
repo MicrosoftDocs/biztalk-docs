@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: WCF-WebHttp Adapter"
-title: "WCF-WebHttp Adapter | Microsoft Docs"
+title: "WCF-WebHttp Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 67a353e7-1ba3-427a-8e99-c9b8d83061cb
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # WCF-WebHttp Adapter
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the **WCF-WebHttp** adapter to send messages to RESTful services. The **WCF-WebHttp** send adapter sends HTTP messages to a service from a BizTalk message. The receive location receives messages from a RESTful service. For GET and DELETE request, the adapter does not use any payload. For POST and PUT request, the adapter uses the BizTalk message body part to the HTTP content/payload.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Updating a Schema Using Side-by-Side Versioning"
-title: "Updating a Schema Using Side-by-Side Versioning | Microsoft Docs"
+title: "Updating a Schema Using Side-by-Side Versioning"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a7360ec5-b5e9-40c7-9a7c-965fcc95ddb0
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Updating a Schema Using Side-by-Side Versioning
 You can perform side-by-side versioning with schemas. You do so by adding a new version of the schema to an assembly, upgrading the version of the schema, while leaving the existing schema (and its version) unchanged.

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10806"
-title: "Single Sign-On: Event 10806 | Microsoft Docs"
+title: "Single Sign-On: Event 10806"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 23650d6b-b6a4-4c41-96cd-476e5b0f7f63
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10806
 ## Details  

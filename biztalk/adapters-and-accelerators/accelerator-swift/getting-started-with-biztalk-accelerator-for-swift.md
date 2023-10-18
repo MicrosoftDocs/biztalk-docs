@@ -1,24 +1,14 @@
 ---
 description: "Learn more about: Getting started with BizTalk Accelerator for SWIFT"
-title: "Getting started with BizTalk Accelerator for SWIFT | Microsoft Docs"
+title: "Getting started with BizTalk Accelerator for SWIFT"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "a4swift.configuration.gettingstarted"
-helpviewer_keywords:
-  - "getting started"
-  - "BizTalk Accelerator for SWIFT, getting started"
-ms.assetid: 5f4ad849-a94d-4035-a24d-9ba059ee35a3
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Getting started with BizTalk Accelerator for SWIFT
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides a set of schemas, rules, and associated tools to assist you in the integration of SWIFT messaging with your internal applications. A4SWIFT requires MicrosoftBizTalk Server, and uses [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] components and features to implement schemas, parsing, validation, rules processing, and orchestration. A4SWIFT also implements debatching of files containing multiple financial (FIN) messages, message repair and new submission, and FIN response reconciliation.
@@ -31,7 +21,7 @@ Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-curr
 |--------------------|---------|
 |A4SWIFT concepts and features| [Runtime, message repair, FIN response, and messaging](../../adapters-and-accelerators/accelerator-swift/runtime-message-repair-fin-response-and-messaging.md)|
 |A4SWIFT End-to-End Tutorial|-   [Module 1: Creating a SWIFT Solution](../../adapters-and-accelerators/accelerator-swift/module-1-creating-a-swift-solution.md)<br />-   [Module 2: Adding a New Schemas Project](../../adapters-and-accelerators/accelerator-swift/module-2-adding-a-new-schemas-project.md)<br />-   [Module 3: Adding a Pipeline Project](../../adapters-and-accelerators/accelerator-swift/module-3-adding-a-pipeline-project.md)<br />-   [Module 4: Creating XML Receive and Flat File Send Ports](../../adapters-and-accelerators/accelerator-swift/module-4-adding-an-xml-receive-location-and-flat-file-send-port.md)<br />-   [Module 5: Creating Flat File Receive and XML Send Ports](../../adapters-and-accelerators/accelerator-swift/module-5-adding-a-flat-file-receive-location-and-xml-send-port.md)<br />-   [Module 6: Deploying the Business Rules](../../adapters-and-accelerators/accelerator-swift/module-6-deploying-the-business-rules.md)<br />-   [Module 7: Testing a Valid Flat File Instance](../../adapters-and-accelerators/accelerator-swift/module-7-testing-a-valid-flat-file-instance.md)|
-|Installing A4SWIFT|[Installation Guide for BizTalk Accelerator for SWIFT](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=9ac5431e-19a5-4901-8727-a8d01a2d75c8)|
+|Installing A4SWIFT|[Installation Guide for BizTalk Accelerator for SWIFT](/biztalk/adapters-and-accelerators/accelerator-swift/install-biztalk-accelerator-for-swift)|
 |A4SWIFT terms|[Glossary](../../adapters-and-accelerators/accelerator-swift/glossary6.md)|
 |Processing batches of messages|[Submitting Messages Through Receive Locations and InfoPath Forms](../../adapters-and-accelerators/accelerator-swift/submitting-messages-through-receive-locations-and-infopath-forms.md)|
 |Implementing repair|[Failed Messages and ErrorCollection Objects](../../adapters-and-accelerators/accelerator-swift/failed-messages-and-errorcollection-objects.md)|

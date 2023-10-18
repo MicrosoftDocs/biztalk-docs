@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Rename View Items"
-title: "How to Rename View Items | Microsoft Docs"
+title: "How to Rename View Items"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM views, renaming items"
-  - "Excel add-in [BAM], renaming items"
-ms.assetid: 0fc68e0d-1d6b-4ad1-b059-7b5318050530
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Rename View Items
 Often the data you collect for a business activity contains sensitive information, for example credit card numbers or social security numbers. This means that some types of business users should see only a filtered subset of the data.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure the BAM Portal to Work on an NLB Cluster"
-title: "How to Configure the BAM Portal to Work on an NLB Cluster | Microsoft Docs"
+title: "How to Configure the BAM Portal to Work on an NLB Cluster"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 96c04fde-dc12-42fb-9193-aa74819fe880
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the BAM Portal to Work on an NLB Cluster
 The BAM portal can be configured to work in a network load balancing (NLB) cluster.
@@ -133,7 +126,7 @@ The BAM portal can be configured to work in a network load balancing (NLB) clust
 
 12. Set the read ACLs for the AppPool user on WebServices by running SubInACL, a command-line tool that enables administrators to obtain security information about files, registry keys, and services, and to transfer this information from user to user, from local or global group to group, and from domain to domain.
 
-13. Download SubInAcl from [https://go.microsoft.com/fwlink/?LinkId=61990](https://go.microsoft.com/fwlink/?LinkId=61990).
+13. Download SubInAcl.
 
 14. Open a command prompt. To do this, click **Start**, click **Run**, type **cmd**, and then click **OK**.
 

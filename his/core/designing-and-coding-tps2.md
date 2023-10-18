@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Designing and Coding TPs"
-title: "Designing and Coding TPs2 | Microsoft Docs"
+title: "Designing and Coding TPs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4f769b43-8f1e-47ea-aa54-ea3620f01cb2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Designing and Coding TPs
 The following topics provide background information about designing and coding transaction programs (TPs).  

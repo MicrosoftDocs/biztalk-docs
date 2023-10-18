@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Start an Orchestration"
-title: "How to Start an Orchestration | Microsoft Docs"
+title: "How to Start an Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [orchestrations], starting"
-  - "starting, orchestrations"
-  - "orchestrations, starting"
-ms.assetid: 83411279-ee6f-4d68-aa3b-b5cd5e106088
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Start an Orchestration
 This topic describes how to use the BizTalk Server Administration console to start an orchestration. When you start an orchestration, it begins processing incoming messages.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Using BizUnit and LoadGen to Automate Performance and Stability Testing"
-title: "Using BizUnit and LoadGen to Automate Performance and Stability Testing | Microsoft Docs"
+title: "Using BizUnit and LoadGen to Automate Performance and Stability Testing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 73c2a97a-6256-4010-8374-433017cb15d4
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using BizUnit and LoadGen to Automate Performance and Stability Testing
 This topic provides information about how to use the Microsoft BizTalk LoadGen 2007 tool with BizUnit to automate performance and stability testing of a BizTalk Server solution.
@@ -89,7 +83,7 @@ This topic provides information about how to use the Microsoft BizTalk LoadGen 2
 
   -   Depth of an MSMQ or MQSeries message queue
 
-  The Microsoft [BizTalk LoadGen 2007 tool](https://go.microsoft.com/fwlink/?LinkId=59841) is available for download at [https://go.microsoft.com/fwlink/?LinkId=59841](https://go.microsoft.com/fwlink/?LinkId=59841) (https://go.microsoft.com/fwlink/?LinkId=59841).
+  The Microsoft [BizTalk LoadGen 2007 tool](https://www.microsoft.com/download/details.aspx?id=14925) is available for download.
 
 ### Sample LoadGen configuration file
  All LoadGen configuration information is stored in an xml file. The LoadGen configuration file contains a \<CommonSection\> element that configures the default settings for all LoadGen tasks in the LoadGen scenario. The LoadGen configuration file can also contain one or more \<Section\> elements that provide configuration settings for a specific LoadGen task. Entries in a \<Section\> element supersede any default values specified in the \<CommonSection\> element.

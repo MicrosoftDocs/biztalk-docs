@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Planning 3270 Connectivity"
-title: "Planning 3270 Connectivity2 | Microsoft Docs"
+title: "Planning 3270 Connectivity2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 65e4bc53-a118-42f1-8172-3a2580b73799
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Planning 3270 Connectivity
 In the hierarchical SNA network model most frequently associated with a mainframe computer, you access centralized applications from remote terminals across a network.  

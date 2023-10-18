@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: The ESB Itinerary Forwarder Component"
-title: "The ESB Itinerary Forwarder Component | Microsoft Docs"
+title: "The ESB Itinerary Forwarder Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 607cc8a0-4964-4751-baca-c3329983c98b
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The ESB Itinerary Forwarder Component
 The ESB Itinerary Forwarder component is used when an itinerary must sequentially invoke multiple Web services. The component can be used in receive pipelines that are associated with the response side of a two-way off-ramp.  

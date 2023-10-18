@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Browse, search, and get Oracle Database metadata"
-title: "Browse, search, and get Oracle Database metadata | Microsoft Docs"
+title: "Browse, search, and get Oracle Database metadata"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MetadataExchange"
-  - "metadata, searching"
-  - "metadata, browsing"
-  - "POLLINGSTMT"
-  - "metadata, retrieving"
-  - "IMetadataRetrievalContract"
-  - "SQLEXECUTE"
-ms.assetid: 828d5a8e-f0a3-47b4-8298-5571cff64b52
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Browse, search, and get Oracle Database metadata
 The[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces metadata from the Oracle database that describes the message structure for communicating with the Oracle database using the adapter. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports two interfaces for retrieving metadata.  

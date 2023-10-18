@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Application Flags"
-title: "Application Flags1 | Microsoft Docs"
+title: "Application Flags1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 364d7c17-320e-4786-92f7-bbe346d482ed
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Application Flags
 Application flags are included on the following messages:  

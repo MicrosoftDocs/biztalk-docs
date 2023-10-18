@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: HTTPSolicitResponse"
-title: "HTTPSolicitResponse | Microsoft Docs"
+title: "HTTPSolicitResponse"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "HTTP adapters, examples"
-  - "examples, HTTP adapters"
-ms.assetid: b149544e-3279-4ac9-b31f-fff3e41ec8e7
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # HTTPSolicitResponse
 The HTTPSolicitResponse sample demonstrates how to create a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration that leverages an ASP.NET application to help process orchestration data. In this sample, the orchestration makes use of a request/response port to send a message to the ASP.NET application and to retrieve the response. You achieve the integration between the BizTalk Server orchestration and the ASP.NET application by using the HTTP adapter. For more information, see [HTTP Adapter](../core/http-adapter.md).  

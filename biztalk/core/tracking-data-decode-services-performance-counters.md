@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tracking Data Decode Services Performance Counters"
-title: "Tracking Data Decode Services Performance Counters | Microsoft Docs"
+title: "Tracking Data Decode Services Performance Counters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 733450b1-71b5-48a4-9ac3-cd880324440c
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tracking Data Decode Services Performance Counters
 Performance counters allow you to monitor specific aspects of work performed on the site or system by service. Performance counters can help you identify and troubleshoot server performance issues.  

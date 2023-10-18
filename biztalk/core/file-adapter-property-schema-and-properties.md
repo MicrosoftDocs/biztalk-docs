@@ -1,32 +1,12 @@
 ---
 description: "Learn more about: File adapter property schema and properties"
-title: "File adapter property schema and properties | Microsoft Docs"
+title: "File adapter property schema and properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [File adapters], properties"
-  - "schemas, File adapters"
-  - "File adapters, schemas"
-  - "Password property [File adapters]"
-  - "ReceivedFileName property [File adapters]"
-  - "configuring [File adapters], schemas"
-  - "CopyMode property [File adapters]"
-  - "AllowCacheOnWrite property [File adapters]"
-  - "FileCreationTime property [File adapters]"
-  - "UserName property, File adapters"
-  - "File adapters, properties"
-  - "UserName property"
-ms.assetid: c5ae5339-67bf-4fde-a721-5b1aa3b9caca
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # File adapter property schema and properties
 The following table contains the properties in the File adapter property schema.  

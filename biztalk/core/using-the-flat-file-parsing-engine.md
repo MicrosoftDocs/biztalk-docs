@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Using the Flat File Parsing Engine"
-title: "Using the Flat File Parsing Engine | Microsoft Docs"
+title: "Using the Flat File Parsing Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components [custom], flat file documents"
-  - "pipeline components [custom], engines"
-  - "pipeline components [custom], parsing"
-ms.assetid: b65607bc-61ba-4dbd-9b84-61b033514a21
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the Flat File Parsing Engine
 This section contains code examples for common tasks associated with the flat file parsing engine.  

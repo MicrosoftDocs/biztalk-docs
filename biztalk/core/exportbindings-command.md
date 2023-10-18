@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: ExportBindings Command"
-title: "ExportBindings Command | Microsoft Docs"
+title: "ExportBindings Command"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6573142e-7ca7-4990-98e3-b7a54840da13
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ExportBindings Command
 Exports bindings for a BizTalk assembly, application, or group. You can also export global party bindings along with the assembly, application, or group bindings. (A party is all the entities, such as partners of your organization, that interact with an orchestration.)  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Field Element Nodes vs. Field Attribute Nodes"
-title: "Field Element Nodes vs. Field Attribute Nodes | Microsoft Docs"
+title: "Field Element Nodes vs. Field Attribute Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a1fffbca-8886-42c0-9214-cd0c5314850c
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Field Element Nodes vs. Field Attribute Nodes
 

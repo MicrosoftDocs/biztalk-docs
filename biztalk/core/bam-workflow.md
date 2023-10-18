@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: BAM Workflow"
-title: "BAM Workflow | Microsoft Docs"
+title: "BAM Workflow"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "monitoring business activities [BAM], collecting business data"
-  - "XML files"
-  - "orchestrations, XML files"
-  - "business activities, business data"
-  - "infrastructure, managing [BAM]"
-  - "business activities, monitoring"
-  - "monitoring business activities [BAM], monitoring flow"
-  - "managing [BAM], infrastructure"
-  - "monitoring business activities [BAM], viewing business data"
-  - "managing [orchestrations], mapping XML to orchestrations"
-ms.assetid: 8b4ae145-3e16-4bb8-bfba-09b9f666218d
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BAM Workflow
 The following figure shows the four user roles who work with Business Activity Monitoring, and the tools that they use.  

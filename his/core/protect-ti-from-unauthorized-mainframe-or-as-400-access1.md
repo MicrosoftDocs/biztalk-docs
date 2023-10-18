@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Protect TI from Unauthorized Mainframe or AS/400 Access"
-title: "Protect TI from Unauthorized Mainframe or AS-400 Access1 | Microsoft Docs"
+title: "Protect TI from Unauthorized Mainframe or AS-400 Access1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dc201817-b8a4-455e-96ee-ccda4785b3b1
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Protect TI from Unauthorized Mainframe or AS/400 Access
 To prevent an attacker from using the mainframe or AS/400 connection to access the server running Transaction Integrator, you should:  

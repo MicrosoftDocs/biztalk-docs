@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Field Padding"
-title: "Field Padding | Microsoft Docs"
+title: "Field Padding"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 47017036-7d64-4222-b574-d2913bf69358
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Field Padding
 

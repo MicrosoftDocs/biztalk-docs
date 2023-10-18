@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure Correlation Types"
-title: "How to Configure Correlation Types | Microsoft Docs"
+title: "How to Configure Correlation Types"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deleting, correlation types"
-  - "correlation types, configuring"
-  - "correlation types, deleting"
-  - "configuring, correlation types"
-ms.assetid: cfae4d2e-ec79-45c8-93b3-799dc5e0576e
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Correlation Types
 You use the **Correlation Properties** dialog box to add or remove properties from a correlation type. The correlation type lists the properties in a correlation set which are used by Send and Receive activities to make sure that incoming messages are properly correlated with the right instances of an orchestration at run time.  

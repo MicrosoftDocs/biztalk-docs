@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: HTTPSSO (BizTalk Server Sample)"
-title: "HTTPSSO (BizTalk Server Sample) | Microsoft Docs"
+title: "HTTPSSO (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "HTTP adapters, examples"
-  - "SSO, examples"
-  - "SSO, HTTP adapters"
-  - "examples, HTTP adapters"
-  - "HTTP adapters, SSO"
-  - "examples, SSO"
-ms.assetid: 322360df-81d2-4a73-9512-bda9382351a2
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 
 # HTTPSSO (BizTalk Server Sample)

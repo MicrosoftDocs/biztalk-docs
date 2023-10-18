@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Copy, Cut, and Paste a Functoid"
-title: "How to Copy, Cut, and Paste a Functoid | Microsoft Docs"
+title: "How to Copy, Cut, and Paste a Functoid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 825847e4-87db-4b40-8e5d-5b5b1c79c6de
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Copy, Cut, and Paste a Functoid
 The copy/cut/paste feature in the BizTalk Mapper enables the reusability of functoids. In a map, you can copy, cut, and paste one or more functoids from one grid page to another. This topic provides step-by-step instructions to perform these operations.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing Data Provider Version 6.0"
-title: "Installing Data Provider Version 6.0 | Microsoft Docs"
+title: "Installing Data Provider Version 6.0"
 ms.custom: ""
 ms.date: "2/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aa049933-0871-47ce-9b9e-c9f707120c52
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Installing Data Provider Version 6.0
 This topic provides instructions to install the Data Provider Version 6.0.
@@ -82,7 +76,7 @@ This topic provides instructions to install the Data Provider Version 6.0.
 ## Prerequisite Software
  The Data Provider requires the following software products as installation prerequisites.
 
--   Microsoft .NET Framework 4.6 [Web installer](https://go.microsoft.com/fwlink/p/?LinkId=528259) (https://go.microsoft.com/fwlink/p/?LinkId=528259) **OR** the [off-line installer](https://go.microsoft.com/fwlink/p/?LinkId=528233) (https://go.microsoft.com/fwlink/p/?LinkId=528233
+-   Microsoft .NET Framework 4.6 [Web installer](https://go.microsoft.com/fwlink/p/?LinkId=528259) (https://go.microsoft.com/fwlink/p/?LinkId=528259) **OR** the [off-line installer](https://dotnet.microsoft.com/download/dotnet-framework/net46).
 
 -   Microsoft [Visual C++ 2013 Redistributable Package (x86)](https://aka.ms/vs2013runtimes)
 

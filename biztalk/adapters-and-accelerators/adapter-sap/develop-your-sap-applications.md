@@ -1,23 +1,12 @@
 ---
-title: "Develop your SAP applications using the adapter in BizTalk | Microsoft Docs"
+title: "Develop your SAP applications using the adapter in BizTalk"
 description: Create my SAP applications using WCF, BizTalk Server, or ADO.NET with the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "how to, use adapters"
-  - "adapters, working with"
-  - "working with adapters"
-ms.assetid: e8315c0d-923b-433e-9d11-4e8a53e0a1d9
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Develop your SAP applications
 

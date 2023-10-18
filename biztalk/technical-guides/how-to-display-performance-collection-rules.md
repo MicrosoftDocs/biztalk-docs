@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Display Performance Collection Rules"
-title: "How to Display Performance Collection Rules | Microsoft Docs"
+title: "How to Display Performance Collection Rules"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 546aa853-c372-4e26-a1ed-19294c658583
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Display Performance Collection Rules
 To display performance collection rules, use the script in this section. This script works for the majority of rules. It creates a .csv file that includes the columns listed in the following table, and can be viewed using Office Excel.  

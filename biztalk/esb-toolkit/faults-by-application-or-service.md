@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Faults by Application or Service"
-title: "Faults by Application or Service | Microsoft Docs"
+title: "Faults by Application or Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 85e2b109-36af-4ac7-8c98-fd3dd2401306
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Faults by Application or Service
 This option displays an aggregate view of all the faults generated for a specified set of applications over a specified time. Selecting a specific service displays a report that lists the faults for that specific service. You can export the list of faults as a Microsoft Excel spreadsheet.  

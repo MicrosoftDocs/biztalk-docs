@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tips and Tricks for Finding MST of DTA Tracking"
-title: "Tips and Tricks for Finding MST of DTA Tracking | Microsoft Docs"
+title: "Tips and Tricks for Finding MST of DTA Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7d72e4ac-d952-4cff-9a65-491e20945d40
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tips and Tricks for Finding MST of DTA Tracking
 By definition, MST is a benchmark to reproducibly measure system performance using a constant load. Following are situations where knowing the MST is particularly useful.  

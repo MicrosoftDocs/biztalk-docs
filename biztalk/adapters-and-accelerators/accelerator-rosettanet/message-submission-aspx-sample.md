@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Message Submission ASPX Sample"
-title: "Message Submission ASPX Sample | Microsoft Docs"
+title: "Message Submission ASPX Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8358f849-231f-432c-9fc2-6efdcf95580d
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Submission ASPX Sample
 This topic provides sample .aspx code that you can use to submit service content to a private process. You can use this .aspx code instead of a line-of-business (LOB) application.  

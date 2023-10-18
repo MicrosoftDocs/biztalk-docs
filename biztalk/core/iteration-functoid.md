@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Iteration Functoid"
-title: "Iteration Functoid | Microsoft Docs"
+title: "Iteration Functoid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Iteration functoids"
-  - "Greater Than or Equal To functoids"
-  - "And functoids"
-  - "Less Than or Equal To functoids"
-ms.assetid: 24d8911d-2282-4b07-910c-eb2e846dc1f9
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Iteration Functoid
 The **Iteration** functoid outputs the index of the current record in a looping structure, beginning at 1 for the first record, 2 for the second record, and so on.  

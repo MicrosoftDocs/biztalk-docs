@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: User Management Commands"
-title: "User Management Commands | Microsoft Docs"
+title: "User Management Commands"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: feb12226-a4da-4fc5-93a1-aced239f60a9
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # User Management Commands
 The BAM Management utility alert user management commands allow you to get, add, and remove users.  

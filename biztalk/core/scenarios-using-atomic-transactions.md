@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Scenarios Using Atomic Transactions"
-title: "Scenarios Using Atomic Transactions | Microsoft Docs"
+title: "Scenarios Using Atomic Transactions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Scope shape [Orchestration Designer], examples"
-  - "Scope shape [Orchestration Designer], atomic transactions"
-  - "transactions, examples"
-  - "transactions, atomic"
-  - "atomic transactions, examples"
-  - "examples, atomic transactions"
-ms.assetid: f3481b4e-7e7e-47f0-b8f4-6012a2fc5310
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scenarios Using Atomic Transactions
 The following scenarios describe the use of atomic transactions.  

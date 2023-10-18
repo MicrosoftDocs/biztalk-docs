@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure Enterprise Single Sign-On in a Multicomputer Scenario"
-title: "How to Configure Enterprise Single Sign-On in a Multicomputer Scenario | Microsoft Docs"
+title: "How to Configure Enterprise Single Sign-On in a Multicomputer Scenario"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6eb9066c-a35f-4399-b066-903c3b07e614
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Configure Enterprise Single Sign-On in a Multicomputer Scenario
 This section contains instructions for configuring Enterprise Single Sign-On (SSO) in a three-computer scenario.  

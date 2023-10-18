@@ -1,16 +1,10 @@
 ---
-title: Troubleshoot and known issues with the BizTalk RosettaNet Accelerator (BTARN) install on BizTalk Server | Microsoft Docs"
+title: Troubleshoot and known issues with the BizTalk RosettaNet Accelerator (BTARN) install on BizTalk Server"
 description: Recommendations for installing SQL, the service account for the host instances, and known errors with the BTARN installation in BizTalk Server
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
 ---
 
 

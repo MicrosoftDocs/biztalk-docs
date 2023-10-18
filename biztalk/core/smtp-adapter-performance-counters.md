@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: SMTP Adapter Performance Counters"
-title: "SMTP Adapter Performance Counters | Microsoft Docs"
+title: "SMTP Adapter Performance Counters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0c7aa7dd-1674-4bbb-b22f-92204d55c4b8
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SMTP Adapter Performance Counters
 Performance counters allow you to monitor specific aspects of work performed on the site or system by service. Performance counters can help you identify and troubleshoot server performance issues.  

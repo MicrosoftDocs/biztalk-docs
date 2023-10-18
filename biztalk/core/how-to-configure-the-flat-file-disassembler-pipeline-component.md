@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Flat File Disassembler Pipeline Component"
-title: "How to Configure the Flat File Disassembler Pipeline Component | Microsoft Docs"
+title: "How to Configure the Flat File Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Flat File Disassembler [pipeline component], configuring"
-  - "pipeline components, Flat File Disassembler"
-  - "messages, flat files"
-ms.assetid: c09996f6-6035-42a3-a75f-4def4ac39a95
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Flat File Disassembler Pipeline Component
 The Flat File Disassembler pipeline component is used for disassembling documents in flat file format and converting them into XML format.  

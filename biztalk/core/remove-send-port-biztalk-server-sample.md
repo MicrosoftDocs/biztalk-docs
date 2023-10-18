@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Remove Send Port (BizTalk Server Sample)"
-title: "Remove Send Port (BizTalk Server Sample) | Microsoft Docs"
+title: "Remove Send Port (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "send ports, examples"
-  - "examples, send ports"
-  - "send ports, deleting"
-  - "deleting, send ports"
-ms.assetid: e6643525-fa9f-4d39-880f-314749a68471
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Remove Send Port (BizTalk Server Sample)
 The Remove Send Port sample demonstrates how to unenlist and remove one or more send ports.

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Administrative Operations"
-title: "Administrative Operations | Microsoft Docs"
+title: "Administrative Operations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing"
-  - "administering"
-ms.assetid: 98914627-aee6-4be3-96b3-a050f0c30121
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Administrative Operations
 This section documents procedures used by IT Professionals to maintain computer systems that [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] is installed on.  

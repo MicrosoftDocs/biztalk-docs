@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDI Standards Support"
-title: "EDI Standards Support | Microsoft Docs"
+title: "EDI Standards Support"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c2ef14c5-5f12-40e2-93d7-59b5c5a0d641
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDI Standards Support
 BizTalk Server provides for design- and run-time support for four encoding standards. The following table lists the encoding standards with links to more information.
@@ -21,7 +14,7 @@ BizTalk Server provides for design- and run-time support for four encoding stand
 |Encoding Standard|Industry Segment|References|
 |-----------------------|----------------------|----------------|
 |UN/EDIFACT|General Industry|[Introducing UN/EDIFACT](https://unece.org/trade/uncefact/introducing-unedifact) (reference to payload)<br /><br /> [ISO 9735-4 encoding rule](https://www.iso.org/obp/ui/#iso:std:iso:9735:-4:ed-2:v1:en) per ISO 9735-4.1|
-|X12|General Industry|[X12.org](https://x12.org/)<br /><br /> [Specifications Development](https://go.microsoft.com/fwlink/?LinkId=77535)|
+|X12|General Industry|[X12.org](https://x12.org/)<br /><br />|
 |EANCOM|Retail|[Standards Website](https://go.microsoft.com/fwlink/?LinkId=92861)|
 |HIPAA X12N|Health Care|[CMS.gov: HIPAA Adopted Standards and Operating Rules](https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/AdoptedStandardsandOperatingRules)<br /><br /> [CMS.gov: HIPAA Adopted Standards and Operating Rules](https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/AdoptedStandardsandOperatingRules)|
 

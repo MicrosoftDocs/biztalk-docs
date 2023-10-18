@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Insert, update, delete, or select operations using BizTalk Server with Oracle Database"
-title: "Insert, update, delete, or select operations using BizTalk Server with Oracle Database | Microsoft Docs"
+title: "Insert, update, delete, or select operations using BizTalk Server with Oracle Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "operations, performing basic operations using BizTalk Server"
-ms.assetid: debf450e-0936-42bb-b071-89d17e6e5da2
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Insert, update, delete, or select operations using BizTalk Server with Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces a set of standard operations on Oracle database tables and views. These are called data manipulation language operations (DML) operations using which you can perform simple INSERT, UPDATE, SELECT, and DELETE statements qualified by a WHERE clause on tables and views. For more information about how the adapter supports these operations, see [Insert, Update, Delete, and Select Operations on Oracle Tables and Views](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-and-select-operations-on-oracle-tables-and-views.md). For information about the structure of the SOAP message for DML operations, see [Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-insert-update-delete-and-select-on-tables-and-views.md).  

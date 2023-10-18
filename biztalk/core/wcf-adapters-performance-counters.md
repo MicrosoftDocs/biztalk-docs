@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: WCF Adapters Performance Counters"
-title: "WCF Adapters Performance Counters | Microsoft Docs"
+title: "WCF Adapters Performance Counters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "performance, WCF adapters"
-  - "performance, performance counters"
-  - "WCF adapters, performance"
-ms.assetid: 9feb052f-5674-419f-84ab-9b5d312a04a5
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # WCF Adapters Performance Counters
 Performance counters enable you to monitor specific aspects of work performed on the site or system by a service. Performance counters can help you identify and troubleshoot server performance issues. The WCF adapters do not provide their own performance counters. However, you can monitor the performance counters of Windows Communication Foundation (WCF) to gauge the performance of the WCF receive locations. To use the WCF performance counters for the WCF receive locations, you have to enable the performance counters for the host instances running the receive locations.

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Poll Oracle E-Business Suite using the WCF service model"
-title: "Poll Oracle E-Business Suite using the WCF service model | Microsoft Docs"
+title: "Poll Oracle E-Business Suite using the WCF service model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 96670a39-4fec-49bf-85d1-947b1a1bc750
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Poll Oracle E-Business Suite using the WCF service model
 You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive polling-based messages from the Oracle database. The adapter provides two ways of polling the Oracle database:  

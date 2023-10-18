@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10502"
-title: "Single Sign-On: Event 10502 | Microsoft Docs"
+title: "Single Sign-On: Event 10502"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9fdfbb22-6879-4717-90d7-0dbc814d1918
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10502
 ## Details  

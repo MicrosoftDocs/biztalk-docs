@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Use a Custom Web Part with the SAP adapter"
-title: "Use a Custom Web Part with the SAP adapter | Microsoft Docs"
+title: "Use a Custom Web Part with the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3b7fecd2-a385-4b2d-a01b-3bfd65ecff3a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use a Custom Web Part with the SAP adapter
 This section provides information about using a custom Web Part with Microsoft Office SharePoint Server. To use a custom Web Part, you must do the following:  

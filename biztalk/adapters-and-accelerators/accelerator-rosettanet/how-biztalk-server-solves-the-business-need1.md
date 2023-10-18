@@ -1,20 +1,12 @@
 ---
 description: "Learn how the BizTalk Accelerator for RosettaNet (BTARN) can solve your system integration needs by enhancing the functionality of Microsoft BizTalk Server for high-technology manufacturing systems."
-title: "How BizTalk Server Solves the Business Need1 | Microsoft Docs"
+title: "How BizTalk Server Solves the Business Need1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BizTalk Server"
-ms.assetid: 94615c93-65d0-400c-97a7-c90b09808e60
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How BizTalk Server Solves the Business Need
 

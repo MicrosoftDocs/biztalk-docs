@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Defining the Time Window and Time Slice Properties"
-title: "Defining the Time Window and Time Slice Properties | Microsoft Docs"
+title: "Defining the Time Window and Time Slice Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [BAM], aggregations"
-  - "managing [BAM], real-time data"
-  - "Primary Import database [BAM], time properties"
-  - "aggregations [BAM], managing"
-  - "Primary Import database [BAM], real-time data"
-  - "BAMConfiguration.xml file"
-  - "aggregations [BAM], real-time data"
-ms.assetid: 7f07b179-da10-4702-baf7-69516c8f16a6
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Defining the Time Window and Time Slice Properties
 Administrators use the TimeWindow and the TimeSlice properties in the BAMConfiguration.xml file to define the life of the data in the real-time aggregation tables in the BAM primary import database.  

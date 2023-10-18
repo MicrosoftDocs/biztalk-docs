@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Processing in the OrderBroker Orchestration"
-title: "Processing in the OrderBroker Orchestration | Microsoft Docs"
+title: "Processing in the OrderBroker Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, examples"
-  - "orchestrations, nested scopes"
-  - "nested scopes, performance"
-  - "processing, examples"
-  - "nested scopes, orchestrations"
-  - "orchestrations, performance"
-  - "performance, orchestrations"
-  - "performance, nested scopes"
-  - "examples, orchestration processing [process management solution]"
-  - "scopes, nesting"
-ms.assetid: c296e00c-b3ad-4161-baf7-258899185c34
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Processing in the OrderBroker Orchestration
 This section describes how the **OrderBroker** orchestration takes orders and prepares them for a process manager. The section begins by discussing the general workings of the orchestration. The next part discusses how the orchestration processes a message. It then highlights how the orchestration uses an atomic transaction to improve performance.  

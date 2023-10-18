@@ -1,41 +1,12 @@
 ---
 description: "Learn more about: Permissions Required for Deploying and Managing a BizTalk Application"
-title: "Permissions Required for Deploying and Managing a BizTalk Application | Microsoft Docs"
+title: "Permissions Required for Deploying and Managing a BizTalk Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying [applications], security"
-  - "permissions, EDI adapters"
-  - "deploying, security"
-  - "security, applications"
-  - "security, EDI adapters"
-  - "assemblies, permissions"
-  - "permissions, deploying"
-  - "EDI adapters, security"
-  - "permissions, assemblies"
-  - "security, assemblies"
-  - "permissions, applications"
-  - "deploying, permissions"
-  - "applications, importing"
-  - "applications, exporting"
-  - "permissions, exporting"
-  - "installing, permissions"
-  - "applications, security"
-  - "security, permissions"
-  - "applications, installing"
-  - "assemblies, security"
-  - "managing, security"
-ms.assetid: 4a459ff1-661d-403a-99e0-d54b82e008d0
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Permissions Required for Deploying and Managing a BizTalk Application
 Application deployment includes deploying BizTalk assemblies from Visual Studio as well as importing, exporting, and installing BizTalk applications. The basic permissions you need to perform these tasks are as follows:  

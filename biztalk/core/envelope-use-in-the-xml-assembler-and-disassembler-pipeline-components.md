@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Envelope Use in the XML Assembler and Disassembler Pipeline Components"
-title: "Envelope Use in the XML Assembler and Disassembler Pipeline Components | Microsoft Docs"
+title: "Envelope Use in the XML Assembler and Disassembler Pipeline Components"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XMLNorm.EnvelopeSpecNames property"
-  - "XML Disassembler [pipeline component], envelopes"
-  - "envelopes, nesting"
-  - "envelopes, XML Disassembler [pipeline component]"
-  - "envelopes, XML Assembler [pipeline component]"
-  - "XML Assembler [pipeline component], envelopes"
-  - "Envelope Specification Names property"
-ms.assetid: ccffd2f7-c7b1-4103-a914-ae9b4b19bee3
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Envelope Use in the XML Assembler and Disassembler Pipeline Components
 An XML message can include zero or more envelopes. The following example shows an envelope (in bold) wrapping an XML document.  

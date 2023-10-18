@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the Namespace Component Tests"
-title: "Running the Namespace Component Tests | Microsoft Docs"
+title: "Running the Namespace Component Tests"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 13768608-ade6-44c0-897f-d417c3408302
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the Namespace Component Tests
 The following procedure shows how you can run all four of the test scenarios for the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] Namespace Component sample.  

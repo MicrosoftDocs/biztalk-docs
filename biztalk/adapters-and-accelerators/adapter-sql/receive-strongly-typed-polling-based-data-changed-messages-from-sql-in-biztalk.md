@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Receive strongly-typed polling-based data-changed messages from SQL Server using BizTalk Server"
-title: "Receive strongly-typed polling-based data-changed messages from SQL Server using BizTalk Server | Microsoft Docs"
+title: "Receive strongly-typed polling-based data-changed messages from SQL Server using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e6e6ba7e-9e13-4e28-b57d-d24569277bbc
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive strongly-typed polling-based data-changed messages from SQL Server using BizTalk Server
 You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive strongly-typed polling messages from SQL Server. You can specify a polling statement that the adapter executes to poll the database. The polling statement can be a SELECT statement or a stored procedure that returns a result set.  

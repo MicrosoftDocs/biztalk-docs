@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Stop Orchestration (BizTalk Server Sample)"
-title: "Stop Orchestration (BizTalk Server Sample) | Microsoft Docs"
+title: "Stop Orchestration (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "orchestrations, examples"
-  - "examples, orchestrations"
-  - "orchestrations, stopping"
-ms.assetid: 83be44e9-819d-4ac5-8b75-84c23e6b5ba2
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Stop Orchestration (BizTalk Server Sample)
 The Stop Orchestration sample demonstrates how to stop a BizTalk Server orchestration and, optionally, to unenlist it.

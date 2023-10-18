@@ -1,21 +1,9 @@
 ---
 description: "Learn more about: Step 15: Configure the Send and Receive Ports"
 title: "Step 15: Configure the Send and Receive Ports"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "message enrichment tutorial, ports"
-ms.assetid: d532b196-473e-4c8f-b4ed-acef674fc698
-caps.latest.revision: 6
-
-
-
 ---
 # Step 15: Configure the Send and Receive Ports
 In previous steps, you created a logical send and receive port using Orchestration Designer and set the port binding to "Specify Later". In this step, you use BizTalk Explorer to finalize the port configuration by defining the physical source and destination locations and binding the physical ports to the logical ports that you created in the orchestration.  

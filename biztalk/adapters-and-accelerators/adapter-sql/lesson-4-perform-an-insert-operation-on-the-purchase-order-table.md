@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Lesson 4: Perform an Insert Operation on the Purchase Order Table"
-title: "Lesson 4: Perform an Insert Operation on the Purchase Order Table | Microsoft Docs"
+title: "Lesson 4: Perform an Insert Operation on the Purchase Order Table"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 66fc64c5-a3da-4014-8545-f34e6577bd73
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 4: Perform an Insert Operation on the Purchase Order Table
 In [Lesson 3: Execute a Stored Procedure to Select New Employees Added](../../adapters-and-accelerators/adapter-sql/lesson-3-execute-a-stored-procedure-to-select-new-employees-added.md), you executed the **UPDATE_EMPLOYEE** stored procedure and received a response message that contains the details of the newly inserted employee record. In this lesson, you will build on the previous lesson and update the orchestration to perform the following steps:  

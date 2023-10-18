@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring HTTP Settings for MDNs"
-title: "Configuring HTTP Settings for MDNs | Microsoft Docs"
+title: "Configuring HTTP Settings for MDNs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5c877e85-7887-43a9-9fd4-0853b573213f
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring HTTP Settings for MDNs
 As part of MDN-related HTTP settings, you can specify the properties expected by the Web server that receives the MDNs.  

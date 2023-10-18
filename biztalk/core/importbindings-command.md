@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: ImportBindings Command"
-title: "ImportBindings Command | Microsoft Docs"
+title: "ImportBindings Command"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6b8dd1ee-1719-4cd1-b503-b004f312daeb
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ImportBindings Command
 Imports bindings from an XML-based binding file into a BizTalk application or group. The bindings may have been exported from an assembly, application, or group, as described in [Exporting Bindings](../core/exporting-bindings6.md). Depending on the location from which the bindings were exported, the ApplicationName and GroupLevel parameters have different effects. For more information, see "Remarks," later in this topic.  

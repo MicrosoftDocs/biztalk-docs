@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2A: Add FILE Receive Locations for the InterAct Store and Forward (Pull) Scenario"
-title: "Step 2A: Add FILE Receive Locations for the InterAct Store and Forward (Pull) Scenario | Microsoft Docs"
+title: "Step 2A: Add FILE Receive Locations for the InterAct Store and Forward (Pull) Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: acdc30e1-d80c-40bf-864d-bf136c77a2b8
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2A: Add FILE Receive Locations for the InterAct Store and Forward (Pull) Scenario
 Before you begin this step, you must complete [Step 2: Add SWIFTNet Configuration to the Paramfile for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-interact-store-and-forward.md).  

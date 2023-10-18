@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid ReceiverId"
-title: "Invalid ReceiverId | Microsoft Docs"
+title: "Invalid ReceiverId"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: feabf940-c49b-4f4a-8906-230dc8fb1b30
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid ReceiverId
 ## Details  

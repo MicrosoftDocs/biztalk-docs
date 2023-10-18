@@ -1,18 +1,12 @@
 ---
 description: "Learn now to configure Enterprise Single Sign-On (SSO) and define an ESSO Host-Initiated affiliate application."
-title: "Configuring Enterprise Single Sign-On2 | Microsoft Docs"
+title: "Configuring Enterprise Single Sign-On2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f0f0ec1d-1c11-4a02-80a5-2025c4125ee3
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configure Enterprise Single Sign-On
 

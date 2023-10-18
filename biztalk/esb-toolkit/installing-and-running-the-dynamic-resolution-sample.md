@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing and Running the Dynamic Resolution Sample"
-title: "Installing and Running the Dynamic Resolution Sample | Microsoft Docs"
+title: "Installing and Running the Dynamic Resolution Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d4359987-b18c-44f5-a2cf-e30e17ac5e9f
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing and Running the Dynamic Resolution Sample
 The Dynamic Resolution sample demonstrates typical usage scenarios for the ESB Dispatcher and ESB Dispatcher Disassembler pipeline components. It demonstrates how you can use the components to dynamically resolve endpoint location, set routing properties, and resolve and execute Microsoft BizTalk maps at the messaging level without using an orchestration. It also demonstrates both one-way and two-way messaging patterns.

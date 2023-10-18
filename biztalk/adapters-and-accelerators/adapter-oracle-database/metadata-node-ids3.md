@@ -1,19 +1,12 @@
 ---
-title: "Metadata Node IDs for the Oracle DB adapter in BizTalk Adapter Pack | Microsoft Docs"
+title: "Metadata Node IDs for the Oracle DB adapter in BizTalk Adapter Pack"
 description: Metadata, search, retrieval nodes types and IDs used in Oracle components that are exposed in Oracle DB adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 523c7611-b21f-4598-ac77-ba71075db073
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Node types and IDs for the Oracle Database adapter
 

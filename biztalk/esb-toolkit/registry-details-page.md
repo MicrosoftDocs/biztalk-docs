@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Registry Details Page"
-title: "Registry Details Page | Microsoft Docs"
+title: "Registry Details Page"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: db723382-f7f1-485a-bf0e-84d6d7a986cc
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Registry Details Page
 Figure 1 shows the Registry Details page, where you can publish an existing Universal Description, Discovery, and Integration (UDDI) registry request, create a new request, or edit an existing request.  

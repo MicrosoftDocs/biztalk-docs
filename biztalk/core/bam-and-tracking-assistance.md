@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: BAM and Tracking Assistance"
-title: "BAM and Tracking Assistance | Microsoft Docs"
+title: "BAM and Tracking Assistance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "HAT, BAM integration"
-  - "BAM, HAT integration"
-ms.assetid: b224cd7d-78db-432a-821a-728eabbf6403
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BAM and Tracking Assistance
 You can request assistance through the BAM portal by clicking the **Assistance** button on the Activity Status page.  

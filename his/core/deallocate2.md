@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: DEALLOCATE"
-title: "DEALLOCATE2 | Microsoft Docs"
+title: "DEALLOCATE2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 519d0075-67c1-4e1e-9267-dd39cd81b835
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # DEALLOCATE
 The **DEALLOCATE** verb deallocates a conversation between two transaction programs (TPs).  

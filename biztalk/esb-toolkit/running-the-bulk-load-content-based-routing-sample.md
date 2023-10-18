@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the Bulk Load Content-Based Routing Sample"
-title: "Running the Bulk Load Content-Based Routing Sample | Microsoft Docs"
+title: "Running the Bulk Load Content-Based Routing Sample"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7e981567-7c6c-4c13-bd5b-597efdd3fb50
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the Bulk Load Content-Based Routing Sample
 This part of the sample demonstrates bulk loading a queue with messages that the ESB and Microsoft BizTalk will route to different destination queues based on the queue name specified in each message. It uses the features of the sample that you have seen in the previous two parts.  

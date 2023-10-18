@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4B: Start the Send Ports and Receive Ports for the InterAct Real-Time Scenario"
-title: "Step 4B: Start the Send Ports and Receive Ports for the InterAct Real-Time Scenario | Microsoft Docs"
+title: "Step 4B: Start the Send Ports and Receive Ports for the InterAct Real-Time Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dffee9a6-5877-4744-9b46-12ca4f8fa959
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4B: Start the Send Ports and Receive Ports for the InterAct Real-Time Scenario
 Before you begin this step, you must complete [Step 4A: Start the SWIFTNet Service](../../adapters-and-accelerators/fileact-interact/step-4a-start-the-swiftnet-service.md).  

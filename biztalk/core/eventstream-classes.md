@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EventStream Classes"
-title: "EventStream Classes | Microsoft Docs"
+title: "EventStream Classes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a3e7a6b3-69cc-4312-9074-acccd1175d37
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EventStream Classes
 The EventStream APIs for BAM reside in the Microsoft.BizTalk.BAM.EventObservation namespace. To code against the APIs, you must install the following DLLs on your development computer:  

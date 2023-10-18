@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Work with Multiple Nodes Simultaneously"
-title: "How to Work with Multiple Nodes Simultaneously | Microsoft Docs"
+title: "How to Work with Multiple Nodes Simultaneously"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0a44d11c-c6f9-4825-b89d-d1b3c3357931
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Work with Multiple Nodes Simultaneously
 Some operations can be performed on multiple nodes simultaneously, but the relevant nodes must all be selected. This topic provides instructions about how to work with multiple nodes simultaneously.  

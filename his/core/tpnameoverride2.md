@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TPNameOverride"
-title: "TPNameOverride2 | Microsoft Docs"
+title: "TPNameOverride2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 10a9797b-cb17-4e28-b84b-03ec3ef426f7
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TPNameOverride
 Use the **TPNameOverride** keyword to override the transaction ID assigned within the type library and to specify the new transaction ID to be sent to the host. The COMTIContext context name is **TPNameOverride**; the value must be a string that contains a valid mainframe transaction ID.  

@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Best Practices for Securing Adapters"
-title: "Best Practices for Securing Adapters | Microsoft Docs"
+title: "Best Practices for Securing Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapters, security"
-  - "best practices, adapters"
-  - "adapters, permissions"
-  - "security, adapters"
-  - "permissions, adapters"
-  - "best practices, security"
-  - "adapters, best practices"
-ms.assetid: 004e1a01-b316-4eee-967f-5a806431de2b
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Best Practices for Securing Adapters
 This topic provides a list of best practices for adapter security.  

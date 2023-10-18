@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AS2 Solution Architecture"
-title: "AS2 Solution Architecture | Microsoft Docs"
+title: "AS2 Solution Architecture"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 41e493ba-919b-4520-9c12-92d6757984ef
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AS2 Solution Architecture
 AS2 processing is performed separately from EDI processing. AS2 messages are received, processed, and an acknowledgment sent apart from the processing of the EDI payload. As a result, AS2 processing is designed and configured apart from EDI processing. In addition, you can use AS2 to transport either EDI messages or non-EDI messages.  

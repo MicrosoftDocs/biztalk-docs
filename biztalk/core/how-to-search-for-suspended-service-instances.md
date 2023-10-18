@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: How to Search for Suspended Service Instances"
-title: "How to Search for Suspended Service Instances | Microsoft Docs"
+title: "How to Search for Suspended Service Instances"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "service instances, viewing"
-  - "service instances, Query tab [Administration Console]"
-  - "Query tab [Administration Console], service instances"
-  - "service instances, suspended"
-  - "Query tab [Administration Console], searching"
-  - "instances, suspended"
-  - "instances, services"
-ms.assetid: f91b1151-d879-4aa7-afc8-4cf13d928158
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Search for Suspended Service Instances
 You can use the **Query** tab in the BizTalk Server Administration Console to search for suspended service instances. You can search for a specific subset of messages to locate a specific message associated with a service name, type, host, etc.  

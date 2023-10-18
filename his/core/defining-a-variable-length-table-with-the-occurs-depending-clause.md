@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Defining a Variable-length Table with the OCCURS DEPENDING Clause"
-title: "Defining a Variable-length Table with the OCCURS DEPENDING Clause | Microsoft Docs"
+title: "Defining a Variable-length Table with the OCCURS DEPENDING Clause"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 02ef3bb4-47a2-493e-877e-8466df279725
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Defining a Variable-length Table with the OCCURS DEPENDING Clause
 In COBOL, you can use the OCCURS DEPENDING ON syntax to define a variable-length table in a data declaration. The storage for a variable-length table is dynamic, depending on the value in the length specifier variable. The amount of data passed is also dependent on the value in the length specifier variable: Only the number of elements specified are sent or received. The length specifier variable for a variable-length table must be a numeric type, and its direction must match the direction of the variable-length table it controls.  

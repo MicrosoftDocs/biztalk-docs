@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Cannot obtain scheme from binding to validate address"
-title: "Cannot obtain scheme from binding to validate address | Microsoft Docs"
+title: "Cannot obtain scheme from binding to validate address"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b002084a-63ae-4685-8ce3-88cc6489e19e
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Cannot obtain scheme from binding to validate address
 ## Details  

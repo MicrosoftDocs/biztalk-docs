@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Reuse Oracle Database Adapter bindings"
-title: "Reuse Oracle Database Adapter bindings | Microsoft Docs"
+title: "Reuse Oracle Database Adapter bindings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "bindings, reusing"
-  - "binding file"
-ms.assetid: f3c7af97-6da2-47bd-bdaf-6b45386c2940
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Reuse Oracle Database Adapter bindings
 A binding creates a mapping between a logical endpoint (such as an orchestration port or a role link) and a physical endpoint (such as a send and receive port). This enables communication between different components of a BizTalk business solution. You can create bindings by using the BizTalk Server Administration console.  

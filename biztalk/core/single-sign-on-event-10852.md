@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10852"
-title: "Single Sign-On: Event 10852 | Microsoft Docs"
+title: "Single Sign-On: Event 10852"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f9d6e5ff-95de-448a-8a4c-1f2d43ab57d4
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10852
 ## Details  

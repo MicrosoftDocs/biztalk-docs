@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOMapping.Create Method"
-title: "ISSOMapping.Create Method | Microsoft Docs"
+title: "ISSOMapping.Create Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2f6c9a3a-8571-4373-991f-fabe9c7795d0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOMapping.Create Method
 The **Create** method creates the mapping.  

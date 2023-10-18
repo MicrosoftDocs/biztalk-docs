@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: About the SAPDiscoveredObjects.xml File in SAP"
-title: "About the SAPDiscoveredObjects.xml File in SAP | Microsoft Docs"
+title: "About the SAPDiscoveredObjects.xml File in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SAPDiscoveredObjects.xml"
-  - ".NET Framework Data Provider for mySAP Business Suite"
-  - "Data Provider for SAP"
-  - "Visual Studio DDEX plug-in"
-ms.assetid: 46ef600d-57ae-4c42-94ce-3099e42482f1
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # About the SAPDiscoveredObjects.xml File in SAP
 If you chose to install the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) along with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] installation, the setup program copies the SAPDiscoveredObjects.xml file typically at \<installation drive\>:\Program Files\Common Files\Microsoft Shared\Adapters\SAP. The contents of the file, after a fresh installation of the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], resemble the following.  

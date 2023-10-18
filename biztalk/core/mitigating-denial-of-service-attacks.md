@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Mitigating Denial of Service Attacks"
-title: "Mitigating Denial of Service Attacks | Microsoft Docs"
+title: "Mitigating Denial of Service Attacks"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "IPSec, message protection"
-  - "messages, size"
-  - "security, configuring"
-  - "Authentication Required property"
-  - "security, Internet Information Services (IIS) Lockdown Tool"
-  - "security, Denial of Service attacks"
-  - "discretionary access control lists (DACLs)"
-  - "IPSec, data protection"
-  - "Internet Information Services (IIS) Lockdown Tool"
-  - "Denial of Service attacks"
-ms.assetid: f39c0d0a-b890-4c48-874d-5cafbc71473c
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Mitigating Denial of Service Attacks
 It is recommended to use the following mitigation techniques to help protect your BizTalk servers and services against Denial of Service attacks. You must decide which of these mitigation techniques are appropriate for your environment.
@@ -35,7 +17,7 @@ It is recommended to use the following mitigation techniques to help protect you
 
 -   **Use strong DACLs for receive locations.** It is recommended that you use strong discretionary access control lists (DACLs) in the drop locations for the receive locations. For example, you must use strong DACLs in the directory from which the file receive location picks up messages, so that only authorized users can drop messages in this location.
 
--   **Use IPSec.** If you do not use hardware or software firewalls, use Internet Protocol security (IPSec) to help protect the messages and data as BizTalk Server transfers it from one server to another. For more information about IPSec, see the Microsoft Download Center at [https://go.microsoft.com/fwlink/?LinkId=60949](https://go.microsoft.com/fwlink/?LinkId=60949).
+-   **Use IPSec.** If you do not use hardware or software firewalls, use Internet Protocol security (IPSec) to help protect the messages and data as BizTalk Server transfers it from one server to another. For more information about IPSec, see the [IPSec Technical Reference](/previous-versions/windows/it-pro/windows-server-2003/cc740240(v=ws.10)).
 
 ## See Also
  [Identifying Potential Threats](../core/identifying-potential-threats.md)

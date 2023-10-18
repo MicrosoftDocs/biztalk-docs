@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Operational tasks"
-title: "Operational tasks | Microsoft Docs"
+title: "Operational tasks"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing"
-  - "BizTalk Accelerator for SWIFT, administering"
-  - "BizTalk Accelerator for SWIFT, managing"
-  - "administering"
-ms.assetid: 555335a0-5a85-4498-b34f-97bb508ea5b1
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operational tasks
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] encompasses one or more servers and a series of tools for enterprise application integration (EAI), automating financial business processes, and facilitating message exchange using the SWIFT FIN standard.  

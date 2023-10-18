@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Base/DMOD and SNALink Entry Points"
-title: "Base-DMOD and SNALink Entry Points2 | Microsoft Docs"
+title: "Base-DMOD and SNALink Entry Points2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 58fb9f1d-6814-477a-8e0b-8004cc9a872b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Base/DMOD and SNALink Entry Points
 This section gives definitions for Base/DMOD and SNALink entry points that must be supplied in an SNALink.  

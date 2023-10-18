@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Working with BRE Policies"
-title: "Working with BRE Policies | Microsoft Docs"
+title: "Working with BRE Policies"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BRE policies, about BRE policies"
-  - "BRE policies"
-ms.assetid: 4470f2b3-6891-46d7-9ba1-848f90d0767d
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Working with BRE Policies
 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] validates SWIFT messages by using Business Rule Engine (BRE) polices, as described in the *SWIFT Reference Guide*. These policies include the following:  

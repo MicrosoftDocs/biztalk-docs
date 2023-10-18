@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 9: Test the Solution"
-title: "Step 9: Test the Solution | Microsoft Docs"
+title: "Step 9: Test the Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: df446ccc-add3-4dd3-b674-253dda385541
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 9: Test the Solution
 In this topic you test the hybrid application by sending a X12 840 sales order message to the HTTP endpoint where the EDI agreement is deployed. The sample sales order message looks like the following:

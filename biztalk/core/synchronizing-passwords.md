@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Synchronizing Passwords"
-title: "Synchronizing Passwords | Microsoft Docs"
+title: "Synchronizing Passwords"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 398d149a-5d72-445e-a79f-927b3b923c46
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Synchronizing Passwords
 You synchronize a password by using a password sync adapter. This adapter should be able to communicate with a specific, remote, non-Windows system, and should also be able to instruct that system to update password information.  

@@ -1,33 +1,12 @@
 ---
 description: "Learn more about: Project Designer: Deployment Tab"
-title: "Project Designer: Deployment Tab | Microsoft Docs"
+title: "Project Designer: Deployment Tab"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "properties, Configuration database [BizTalk Server]"
-  - "Redeploy property"
-  - "configuration properties [deployment], Server property"
-  - "Server property"
-  - "configuration properties [deployment], Install to Global Assembly Cache (GAC) property"
-  - "properties, Management database"
-  - "Install to Global Assembly Cache (GAC) property"
-  - "Configuration database [BizTalk Server], properties"
-  - "Management database, properties"
-  - "Administration Group property"
-  - "configuration properties [deployment], Redeploy property"
-  - "configuration properties [deployment], Management database property"
-  - "configuration properties [deployment], Administration Group property"
-ms.assetid: 5b64f99c-4ec6-4ed3-8590-46420e2f75b8
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Project Designer: Deployment Tab
 The **Deployment** property tab of the Project Designer allows you to configure the deployment attributes for the BizTalk project. You must configure both the **Server** and the **Configuration Database** (also known as the BizTalk Management database) properties as a set for deployment to be successful.  

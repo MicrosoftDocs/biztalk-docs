@@ -1,17 +1,10 @@
 ---
-title: Upgrade RosettaNet Accelerator (BTARN) in BizTalk Server | Microsoft Docs"
+title: Upgrade RosettaNet Accelerator (BTARN) in BizTalk Server"
 description: Follow the upgrade steps to update BTARN to the current version in BizTalk Server
-author: MandiOhlinger
-manager: anneta
-
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 
-ms.author: mandia
 ---
 
 # Upgrade the RosettaNet accelerator

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Creating Custom Header Schemas for Dynamic Message Type Discovery"
-title: "Creating Custom Header Schemas for Dynamic Message Type Discovery | Microsoft Docs"
+title: "Creating Custom Header Schemas for Dynamic Message Type Discovery"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "schemas, dynamic resolution"
-  - "schemas, message types"
-  - "schemas, custom headers"
-  - "header schemas"
-ms.assetid: 0c936c57-b533-47ca-9258-576b021fd016
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Custom Header Schemas for Dynamic Message Type Discovery
 In most scenarios, you should specify the default SWIFT header schema (Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.HeaderSchema) for the SWIFT Header Schema configuration property of the SWIFT disassembler. The SWIFT disassembler uses the default SWIFT header schema to parse message headers that conform to the SWIFT standard specification, and has the necessary promoted properties to facilitate dynamic schema resolution (and sub-type resolution for "dual type" SWIFT messages like MT574_IRSLST and MT574_W8BENO). For more information about the default SWIFT header schema and to understand how the SWIFT disassembler performs schema resolution, see [Dynamic Message Type Discovery and Schema Resolution](../../adapters-and-accelerators/accelerator-swift/dynamic-message-type-discovery-and-schema-resolution.md).  

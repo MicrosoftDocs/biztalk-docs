@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: OrchestrationBinding (BizTalk Server Sample)"
-title: "OrchestrationBinding (BizTalk Server Sample) | Microsoft Docs"
+title: "OrchestrationBinding (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ea14c0db-ea83-4bf9-b417-f877b3cb1bf9
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # OrchestrationBinding (BizTalk Server Sample)
 The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.ExplorerOM](/dotnet/api/microsoft.biztalk.explorerom) administrative objects to configure and manage orchestrations.

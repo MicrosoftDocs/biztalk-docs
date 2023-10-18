@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using Pipeline Interfaces"
-title: "Using Pipeline Interfaces | Microsoft Docs"
+title: "Using Pipeline Interfaces"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4bb88d0d-23ab-4fdb-bcd2-56050456cf69
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Pipeline Interfaces
 A pipeline component is a .NET or COM component that implements a set of predefined interfaces for interaction with the BizTalk Messaging Engine. Depending on the functionality of the component, different interfaces must be implemented. This topic discusses these interfaces and some of their methods.  

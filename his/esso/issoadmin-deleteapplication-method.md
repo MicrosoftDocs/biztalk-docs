@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOAdmin.DeleteApplication Method"
-title: "ISSOAdmin.DeleteApplication Method | Microsoft Docs"
+title: "ISSOAdmin.DeleteApplication Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0dc3c924-3155-46b6-b5ae-870935140349
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOAdmin.DeleteApplication Method
 The **DeleteApplication** method deletes an application from the Enterprise Single Sign-On (SSO) server database.  

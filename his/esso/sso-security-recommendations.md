@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SSO Security Recommendations"
-title: "SSO Security Recommendations | Microsoft Docs"
+title: "SSO Security Recommendations"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8132964f-3401-47c6-b98a-b842c5e6790f
-caps.latest.revision: 7
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SSO Security Recommendations
 This section contains recommendations for how to help secure your Enterprise Single Sign-On (SSO) system.

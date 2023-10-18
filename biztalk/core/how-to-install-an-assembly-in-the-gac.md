@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Install an Assembly in the GAC"
-title: "How to Install an Assembly in the GAC | Microsoft Docs"
+title: "How to Install an Assembly in the GAC"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6afc2f81-fa28-4144-b4bd-21c8f35f2270
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Install an Assembly in the GAC
 Manually install and uninstall a BizTalk assembly in the global assembly cache (GAC) using the Gacutil tool included with [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  

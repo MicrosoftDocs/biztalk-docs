@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Develop Oracle Database applications using the WCF Channel Model"
-title: "Develop Oracle Database applications using the WCF Channel Model | Microsoft Docs"
+title: "Develop Oracle Database applications using the WCF Channel Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF channel model, streaming"
-  - "channel programming, streaming"
-  - "WCF channel model, performing operations"
-  - "developing applications, by using the WCF channel model"
-  - "streaming, using the WCF channel model"
-  - "WCF channel model, developingn applications"
-  - "channel programming, performing operations"
-ms.assetid: cb6bf5fd-ff90-44bd-a9dd-03b00f12a78d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Develop Oracle Database applications using the WCF Channel Model
 You can use the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] channel model to consume the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] by sending XML messages directly over a channel instance created with the Oracle DB Binding.  

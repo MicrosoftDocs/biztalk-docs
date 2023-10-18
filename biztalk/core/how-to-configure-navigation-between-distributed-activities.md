@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure Navigation Between Distributed Activities"
-title: "How to Configure Navigation Between Distributed Activities | Microsoft Docs"
+title: "How to Configure Navigation Between Distributed Activities"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6f8faf0a-eb06-4383-932d-4106306d6cf3
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Navigation Between Distributed Activities
 Distributed navigation allows users to view activities that exist in remote BAM deployments. When you enable distributed navigation, users of the BAM portal on one computer will be able to view activities in the BAM portal on another deployment of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

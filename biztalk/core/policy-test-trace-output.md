@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Policy Test Trace Output"
-title: "Policy Test Trace Output | Microsoft Docs"
+title: "Policy Test Trace Output"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "testing, policies"
-  - "policies, testing"
-ms.assetid: df8c5880-07ea-4cc3-af29-d6f840907788
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Policy Test Trace Output
 When you test your policy, the policy tester displays the output in the version information window. This section describes the activities included within the trace.  

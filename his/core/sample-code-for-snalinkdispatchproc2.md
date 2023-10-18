@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Sample Code for SNALinkDispatchProc"
-title: "Sample Code for SNALinkDispatchProc2 | Microsoft Docs"
+title: "Sample Code for SNALinkDispatchProc2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 06334fc0-b88b-4c44-9c11-4677a298c989
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Sample Code for SNALinkDispatchProc
 This section contains outline source code for the link dispatcher function [SNALinkDispatchProc](./snalinkdispatchproc2.md).  

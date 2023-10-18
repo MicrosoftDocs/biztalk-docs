@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10596"
-title: "Single Sign-On: Event 10596 | Microsoft Docs"
+title: "Single Sign-On: Event 10596"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d70aabcf-aa53-40bf-8937-44f191af1aec
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10596
 ## Details  

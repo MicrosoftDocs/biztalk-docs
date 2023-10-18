@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Recover Enterprise Single Sign-On"
-title: "How to Recover Enterprise Single Sign-On | Microsoft Docs"
+title: "How to Recover Enterprise Single Sign-On"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 845e6ff7-88a8-4ab4-b307-f9275d44600e
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Recover Enterprise Single Sign-On
 Before you can recover BizTalk Server, you must first recover Enterprise Single Sign-On (SSO).  

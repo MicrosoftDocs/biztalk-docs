@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Firewall Support Overview"
-title: "Firewall Support Overview2 | Microsoft Docs"
+title: "Firewall Support Overview2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4f1f4d04-eaa1-4746-b324-6401b68f17f1
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Firewall Support Overview
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] client computers and servers can interoperate with screening routers, where the client computer knows the address of the Host Integration Server computer. Host Integration Server client computers and servers can also interoperate with full-blown Internet firewalls, where the end user is not allowed to know the IP address of the Host Integration Server computers.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How the Designer Extensibility Sample Works"
-title: "How the Designer Extensibility Sample Works | Microsoft Docs"
+title: "How the Designer Extensibility Sample Works"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8f4dc622-28b8-498d-961f-df969cff9dcb
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How the Designer Extensibility Sample Works
 Each project in the Designer Extensibility sample contains two classes: an **Extender** class and an **Extension Provider** class. These classes are designed to extend the capabilities and define the properties of the **ItineraryDsl** model elements.  

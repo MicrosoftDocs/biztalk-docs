@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Configure the binding properties for Siebel"
-title: "Configure the binding properties for Siebel | Microsoft Docs"
+title: "Configure the binding properties for Siebel"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "binding properties, specifying at design time"
-  - "binding properties, specifying at run time"
-  - "how to, specify binding properties at design time"
-  - "how to, specify binding properties at run time"
-ms.assetid: 063e9507-8172-4fb0-8b9f-2f95e8a82f21
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure the binding properties for Siebel
 The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces several binding properties that enable you to control some of its behavioral characteristics. This section provides information about setting the binding properties from Visual Studio (design time) and from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration Console (run time). At design time, you must specify the binding properties to generate schema for specific operations. At run time, you must specify the binding properties as part of the send port for sending messages to the Siebel system.  

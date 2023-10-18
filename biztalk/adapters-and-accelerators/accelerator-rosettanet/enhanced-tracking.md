@@ -1,20 +1,12 @@
 ---
 description: "Learn more about: Enhanced Tracking"
-title: "Enhanced Tracking | Microsoft Docs"
+title: "Enhanced Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tracking"
-ms.assetid: 8adf78f0-ab0f-44d4-aa5b-9546e2bdf01f
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Enhanced Tracking
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] provides an enhanced ability to track processes and messages. The native functionality for Business Activity Monitoring (BAM) in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] is to track metadata only. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] tracks message content—both service content and headers.  

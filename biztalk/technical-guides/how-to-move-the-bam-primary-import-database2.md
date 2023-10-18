@@ -1,18 +1,12 @@
 ---
 description: "Learn how to move the Business Activity Monitoring (BAM) Primary Import database to another server and update the references to the new BAM Primary Import database."
-title: "How to Move the BAM Primary Import Database2 | Microsoft Docs"
+title: "How to Move the BAM Primary Import Database2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bc4f2656-2faa-4503-9551-05e1b6eceb1a
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Move the BAM Primary Import Database
 

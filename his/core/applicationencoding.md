@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: applicationEncoding"
-title: "applicationEncoding | Microsoft Docs"
+title: "applicationEncoding"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a3758bdd-3209-45e2-ba8a-8f988072a9cb
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # applicationEncoding
 The applicationEncodings type is Microsoft.HostIntegration.ConfigurationSectionHandlers, which defines  application-level encoding schemes and conversions.  

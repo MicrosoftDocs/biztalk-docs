@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SSO Server"
-title: "SSO Server | Microsoft Docs"
+title: "SSO Server"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bb966730-5f23-4e7d-80c9-814d03bca735
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SSO Server
 The Enterprise Single Sign-On (SSO) server can perform any of the following tasks:  

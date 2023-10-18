@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Basic Oracle Data Types"
-title: "Basic Oracle Data Types1 | Microsoft Docs"
+title: "Basic Oracle Data Types1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "data types, supported"
-  - "data types, unsupported"
-ms.assetid: 491230b9-b946-4681-a048-5da46102c370
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # About Basic Oracle Data Types
 This topic describes how the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces basic Oracle data types.  

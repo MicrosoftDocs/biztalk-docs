@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Dispatcher (SNADIS)"
-title: "Dispatcher (SNADIS)2 | Microsoft Docs"
+title: "Dispatcher (SNADIS)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3324afc5-33fd-4b82-80fe-b79e6e097083
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Dispatcher (SNADIS)
 Whenever a Base event occurs, the Base calls the link support code dispatcher function [SNALinkDispatchProc](./snalinkdispatchproc2.md) to handle the event. The term Base event in this context means:  

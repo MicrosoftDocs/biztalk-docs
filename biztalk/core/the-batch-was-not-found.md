@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The batch was not found"
-title: "The batch was not found | Microsoft Docs"
+title: "The batch was not found"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6e967e1a-b87f-4c87-a157-a6f63ba96d78
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The batch was not found
 ## Details  

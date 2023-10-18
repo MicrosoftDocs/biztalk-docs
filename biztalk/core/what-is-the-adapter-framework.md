@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: What Is the Adapter Framework?"
-title: "What Is the Adapter Framework? | Microsoft Docs"
+title: "What Is the Adapter Framework?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bd1e2fd7-4e77-49c4-839d-c2bf16b10ba2
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is the Adapter Framework?
 The BizTalk Adapter Framework offers a stable, open mechanism for all adapters to implement or access work from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Messaging Engine. The interfaces described in the **Microsoft.BizTalk.Adapter.Framework** namespace enable adapters to provide a means to modify configuration property pages. It also is a means to import services and schemas into the BizTalk project.  

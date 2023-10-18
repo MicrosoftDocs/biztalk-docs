@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: 3270 LU Properties: General"
-title: "3270 LU Properties: General2 | Microsoft Docs"
+title: "3270 LU Properties: General2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_LU_3270"
-ms.assetid: 0e62f7b8-e92f-41ae-b76f-341758bf7917
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # 3270 LU Properties: General
 ## LU Number  

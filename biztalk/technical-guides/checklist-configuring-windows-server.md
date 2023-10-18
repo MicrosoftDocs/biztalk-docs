@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Configuring Windows Server"
-title: "Checklist: Configuring Windows Server | Microsoft Docs"
+title: "Checklist: Configuring Windows Server"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ebd7ea95-cc73-4c98-a796-193f394fb5b8
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Configuring Windows Server
 

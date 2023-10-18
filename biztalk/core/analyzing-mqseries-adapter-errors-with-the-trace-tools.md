@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: Analyzing MQSeries Adapter Errors with the Trace Tools"
-title: "Analyzing MQSeries Adapter Errors with the Trace Tools | Microsoft Docs"
+title: "Analyzing MQSeries Adapter Errors with the Trace Tools"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "Adapter Trace Utility, about Adapter Trace Utility"
-  - "Adapter Trace Utility, installing"
-  - "installing, Adapter Trace Utility"
-  - "Adapter Trace Utility, enabling"
-  - "errors, MQSeries adapters"
-  - "MQSeries adapters, Adapter Trace Utility"
-  - "Adapter Trace Utility, running"
-  - "MQSeries adapters, errors"
-  - "Adapter Trace Utility"
-ms.assetid: fdc73d99-3b73-491d-9b2f-7064364fefa7
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Analyzing MQSeries Adapter Errors with the Trace Tools
 You use the trace tools to analyze messaging failures when you run your application. With the MQSeries adapter you must use two tools, one for the adapter and your BizTalk application (trace.cmd), and the other for the MQSAgent (MQSTrace.cmd). Both tools use tracelog.exe. You have to install tracelog.exe if you do not already have it.
@@ -33,7 +16,7 @@ You use the trace tools to analyze messaging failures when you run your applicat
 ## Install the Trace Utility
  To install the BizTalk Adapter Trace Utility, follow these steps:
 
-1.  To download the Tracelog.exe file, visit the Microsoft Platform SDK download Web site at [https://go.microsoft.com/fwlink/?LinkId=21975](https://go.microsoft.com/fwlink/?LinkId=21975).
+1.  To download the Tracelog.exe file, visit the [Microsoft Platform SDK download Web site](https://www.microsoft.com/download/details.aspx?id=14477).
 
 2.  Start the Platform SDK Web installation program by clicking the link for the **PSDK-x86.exe** file at the bottom of the Web page.
 

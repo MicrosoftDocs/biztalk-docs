@@ -1,18 +1,12 @@
 ---
 description: "Learn about the db2ToSql element that defines the direction from DB2 to SQL Server."
-title: "db2ToSql2 | Microsoft Docs"
+title: "db2ToSql2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3b16e89e-a3da-4809-8dc4-7b0d0beb6fc4
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # db2ToSql Overview
 

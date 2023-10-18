@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Creating an A4SWIFT Receive Location"
-title: "Creating an A4SWIFT Receive Location | Microsoft Docs"
+title: "Creating an A4SWIFT Receive Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "receive locations, creating"
-  - "creating, receive locations"
-ms.assetid: 712cf42f-8d71-47e9-b2bf-3da158b74fe4
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating an A4SWIFT Receive Location
 You must create an [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] receive location to enable message reception from the SWIFT network by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)], as shown in the following figure. The receive location receives flat file messages from an inbound file folder.  

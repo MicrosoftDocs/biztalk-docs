@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: X.25 Connection Pointers"
-title: "X.25 Connection Pointers2 | Microsoft Docs"
+title: "X.25 Connection Pointers2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 57e2f671-1ecb-4d47-a58c-7fd05ed071e8
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # X.25 Connection Pointers
 An X.25 connection uses a packet-switching network, and communicates through the Qualified Logical Link Control (QLLC) protocol. Connections are configured through SNA Manager. See [Make a connection](making-a-connection2.md) for guidance on configuring an X.25 connection. The following pointers indicate items that require special attention:  

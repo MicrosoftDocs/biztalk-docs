@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Run a SELECT Query on Business Components with Siebel"
-title: "Run a SELECT Query on Business Components with Siebel | Microsoft Docs"
+title: "Run a SELECT Query on Business Components with Siebel"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "performing operations, selecting data using ADO.NET provider"
-  - "how to, select data in business components using ADO.NET provider"
-ms.assetid: 34a22c2e-6fc9-4760-90a1-131a38ae947b
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run a SELECT Query on Business Components with Siebel
 This section demonstrates how to select data from a Siebel business component using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Get the Duration on an Activity Window"
-title: "How to Get the Duration on an Activity Window | Microsoft Docs"
+title: "How to Get the Duration on an Activity Window"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "activities [BAM], time intervals"
-  - "managing [BAM], time intervals"
-  - "Get-ActivityWindow command [BAM]"
-ms.assetid: d70f6767-f6f7-4ecf-ad9d-4a9d8c76edea
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Get the Duration on an Activity Window
 Administrators use the **get-activitywindow** command to get the duration for the specified activity. The command returns the length of the duration and the units by which the duration is measured.  

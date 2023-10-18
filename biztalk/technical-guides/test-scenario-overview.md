@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Test Scenario Overview"
-title: "Test Scenario Overview | Microsoft Docs"
+title: "Test Scenario Overview"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cde553ad-2540-40d9-a74b-928fee873c31
-caps.latest.revision: 32
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Test Scenario Overview
 This topic provides an overview of the test application; a description of the testing methodology used, and lists the key performance indicators (KPIs) captured during load testing.
@@ -245,7 +239,7 @@ Test Application Orchestration
 
 - BizTalk Server was installed as per the installation guides available at [https://go.microsoft.com/fwlink/?LinkId=128383](https://go.microsoft.com/fwlink/?LinkId=128383).
 
-- The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Best Practices Analyzer (BPA) tool was used to perform platform validation once the system had been configured. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BPA is available at [https://go.microsoft.com/fwlink/?LinkId=67150](https://go.microsoft.com/fwlink/?LinkId=67150).
+- The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Best Practices Analyzer (BPA) tool was used to perform platform validation once the system had been configured. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)](https://www.microsoft.com/download/details.aspx?id=43382).
 
 ## Virtualization Specifics
  A single 50 GB fixed VHD was used to host the operating system for each Hyper-V virtual machine.

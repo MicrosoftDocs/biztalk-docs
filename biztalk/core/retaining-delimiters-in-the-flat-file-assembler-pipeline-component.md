@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Retaining Delimiters in the Flat File Assembler Pipeline Component"
-title: "Retaining Delimiters in the Flat File Assembler Pipeline Component | Microsoft Docs"
+title: "Retaining Delimiters in the Flat File Assembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: adc27561-9996-49a9-b715-e313b9148506
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Retaining Delimiters in the Flat File Assembler Pipeline Component
 If there are missing records in the message going through a custom pipeline that uses the Flat File Assembler, the delimiter for those records may or may not appear in the flat file output depending on where in the input file the records are missing.  

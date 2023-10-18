@@ -1,18 +1,12 @@
 ---
-title: "Single Sign-On in Transaction Integrator2 | Microsoft Docs"
+title: "Single Sign-On in Transaction Integrator2"
 description: SSO Transaction Integrator SSO with Host-Initiated Processing in application integration in Host Integration Server (HIS)
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6ef78e04-731a-409a-ba29-d9628d92f39f
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Use SSO with Transaction Integrator - HIS
 

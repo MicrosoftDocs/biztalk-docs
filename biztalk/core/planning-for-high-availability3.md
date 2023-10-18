@@ -1,24 +1,12 @@
 ---
 description: "Learn about the guidance for increasing availability of a BizTalk Server environment in order to maximize the uptime of a BizTalk Server solution."
-title: "Planning for High Availability3 | Microsoft Docs"
+title: "Planning for High Availability3"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "architecture, high availability"
-  - "high availability"
-  - "planning, high availability"
-  - "high availability, architecture"
-ms.assetid: 16feada0-b0b1-4e58-9477-fbd1aae2f51e
-caps.latest.revision: 30
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Plan for High Availability
 
@@ -43,5 +31,3 @@ Many companies use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkse
 - [Getting Started with SQL Server 2008 Failover Clustering](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server) (https://go.microsoft.com/fwlink/?LinkId=130375)
 
 - [White Paper: SQL Server 2008 Failover Clustering](https://go.microsoft.com/fwlink/?LinkId=189522) (https://go.microsoft.com/fwlink/?LinkId=189522)
-
-- [Windows Server 2008 Step-by-Step Guides](https://go.microsoft.com/fwlink/?LinkId=189545) (https://go.microsoft.com/fwlink/?LinkId=189545)

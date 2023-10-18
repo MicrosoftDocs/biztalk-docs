@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Create and Modify an Adapter Group"
-title: "How to Create and Modify an Adapter Group | Microsoft Docs"
+title: "How to Create and Modify an Adapter Group"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b3fc186c-b909-4a28-a341-2226d91b0aa4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Create and Modify an Adapter Group
 One of the new features of Single Sign-On (SSO) is the ability to create and modify adapter groups. As the name implies, an adapter group is a collection of adapters. You can use adapter groups to organize security settings and other properties for your adapters.  

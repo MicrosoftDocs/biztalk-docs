@@ -1,21 +1,12 @@
 ---
 description: "Learn how to add a Scope shape to the Receive port in BizTalk Server."
-title: "How to Add a Scope Shape3 | Microsoft Docs"
+title: "How to Add a Scope Shape3"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Scope shapes, adding"
-ms.assetid: 8068ce97-4409-4c88-89e8-6505b56cefc5
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Add Scope Shapes
 

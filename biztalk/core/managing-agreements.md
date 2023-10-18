@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Managing Agreements"
-title: "Managing Agreements | Microsoft Docs"
+title: "Managing Agreements"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.admin.resultsobject.agreement"
-ms.assetid: e9c6cdd1-8c17-4b1e-a556-2b287593bb9d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing Agreements
 A Trading Partner Agreement (TPA) is defined as a definitive and binding agreement between two trading partners for transacting messages over a specific B2B Protocol. See [Trading Partner Agreement](../core/trading-partner-agreement.md). 

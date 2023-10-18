@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Party Resolution Pipeline Component"
-title: "Party Resolution Pipeline Component | Microsoft Docs"
+title: "Party Resolution Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6ad728ff-4d7c-4ab3-af0e-76006576dce5
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Party Resolution Pipeline Component
 

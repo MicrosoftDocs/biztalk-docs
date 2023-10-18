@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Use the Data Provider for Siebel with SSIS"
-title: "Use the Data Provider for Siebel with SSIS | Microsoft Docs"
+title: "Use the Data Provider for Siebel with SSIS"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSIS"
-  - "SQL Server Integration Services"
-  - "Data Provider for Siebel, using with SSIS"
-ms.assetid: e72cecf2-6c05-4df7-8e6e-aff3a9df8b79
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use the Data Provider for Siebel with SSIS
 You can use the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]) along with SQL Server Integration Services (SSIS) to import data from a Siebel system into SQL Server database tables, flat files, or other compatible destination types. Specifically, you can create an SSIS package that can be executed to import this data.  

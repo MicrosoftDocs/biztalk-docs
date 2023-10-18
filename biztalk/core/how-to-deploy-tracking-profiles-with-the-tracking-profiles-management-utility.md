@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Deploy Tracking Profiles with the Tracking Profiles Management Utility"
-title: "How to Deploy Tracking Profiles with the Tracking Profiles Management Utility | Microsoft Docs"
+title: "How to Deploy Tracking Profiles with the Tracking Profiles Management Utility"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tracking profiles, deploying"
-  - "deploying, tracking profiles"
-  - "bttdeploy.exe [BAM]"
-  - "managing [BAM], deploying tracking profiles"
-ms.assetid: b3023379-cae1-45fc-a773-2660d3e4abf1
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Deploy Tracking Profiles with the Tracking Profiles Management Utility
 A business manager asks a solutions developer to create a new tracking profile or modify an existing one to better manage and monitor a specific business process for your organization.  

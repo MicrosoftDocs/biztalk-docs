@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Sample InterAct and FileAct Messages"
-title: "Sample InterAct and FileAct Messages | Microsoft Docs"
+title: "Sample InterAct and FileAct Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8552167c-2acc-4eae-a86a-55ba2e54d4a2
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sample InterAct and FileAct Messages
 Samples of InterAct and FileAct real-time messages are given below.  

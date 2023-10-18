@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SPasswordChange Fields"
-title: "SPasswordChange Fields | Microsoft Docs"
+title: "SPasswordChange Fields"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1dcd950e-56c8-4761-a9a8-8c97237350e5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SPasswordChange Fields
 The fields of the **SPasswordChange** interface are listed in the following table. For a complete list of **SExternal** interface members, see [SPasswordChange Members](../esso/spasswordchange-members.md)  

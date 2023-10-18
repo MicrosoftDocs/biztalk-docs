@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10500"
-title: "Single Sign-On: Event 10500 | Microsoft Docs"
+title: "Single Sign-On: Event 10500"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e7cd543b-5aff-4daa-844b-ad841d6be029
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10500
 ## Details  

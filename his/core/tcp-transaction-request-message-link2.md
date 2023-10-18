@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TCP Transaction Request Message Link"
-title: "TCP Transaction Request Message Link2 | Microsoft Docs"
+title: "TCP Transaction Request Message Link2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 799a1b2d-d2a9-4d0c-b7f2-cdc05016c051
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TCP Transaction Request Message Link
 The TCP transaction request message (TRM) Link model allows data and parameters to be passed between TI and the server TP through the COMMAREA. The model also allows a Concurrent Server to Link to a CICS DPL program. The standard Listener for TCP/IP uses two network exchanges to execute a single transaction program and requires the client to:  

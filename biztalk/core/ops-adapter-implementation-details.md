@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Ops Adapter Implementation Details"
-title: "Ops Adapter Implementation Details | Microsoft Docs"
+title: "Ops Adapter Implementation Details"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "batching, Ops adapters"
-  - "Ops adapters, batching"
-  - "Ops adapters, creating ports"
-  - "Ops adapters, implementing"
-  - "Ops adapters, transaction handling"
-  - "process management solution tutorial, Ops adapters"
-ms.assetid: dbca31ca-c3d8-4a25-9356-ef4bbab671e1
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Ops Adapter Implementation Details
 You may find it useful to understand the following aspects of the Ops adapter when modifying the adapter or configuring it programmatically.  

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: SOAP Adapter Configuration Properties"
-title: "SOAP Adapter Configuration Properties | Microsoft Docs"
+title: "SOAP Adapter Configuration Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SOAP adapters, send ports"
-  - "SOAP adapters, code samples"
-  - "SOAP adapters, properties"
-  - "receive locations, adapters"
-  - "SOAP adapters, receive locations"
-  - "send ports, adapters"
-ms.assetid: 0d033371-ee31-4e43-a7d3-e0975791d981
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SOAP Adapter Configuration Properties
 The following table lists the configuration properties that you can set for a SOAP adapter receive location:  

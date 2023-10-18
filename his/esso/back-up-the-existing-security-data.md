@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Back up the Existing Security Data"
-title: "Back up the Existing Security Data | Microsoft Docs"
+title: "Back up the Existing Security Data"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7cb4fb59-589c-4e29-aec2-79cbda46318b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Back up the Existing Security Data
 For safety purposes, you should back up your existing security data before you migrate to Enterprise Single Sign-On.  

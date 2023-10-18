@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating a Custom Itinerary Service Using a BizTalk Orchestration"
-title: "Creating a Custom Itinerary Service Using a BizTalk Orchestration | Microsoft Docs"
+title: "Creating a Custom Itinerary Service Using a BizTalk Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3bd7ed38-02a3-41b1-9990-754d5539f15e
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating a Custom Itinerary Service Using a BizTalk Orchestration
 The itinerary framework that is part of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] supports execution of itinerary steps using orchestrations. You can implement a custom itinerary service as a Microsoft BizTalk Server orchestration based on your functional requirements, which may include the following:  

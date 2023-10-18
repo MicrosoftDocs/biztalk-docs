@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Considerations for receiving database change notifications using the Oracle E-Business Suite adapter"
-title: "Considerations for receiving database change notifications using the Oracle E-Business Suite adapter | Microsoft Docs"
+title: "Considerations for receiving database change notifications using the Oracle E-Business Suite adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 95bbb19e-8d31-4b27-8cfe-6760e4bb0808
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Considerations for receiving database change notifications using the Oracle E-Business Suite adapter
 This topic provides some considerations and best practices that you must keep in mind while using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive database notifications from an Oracle database.  

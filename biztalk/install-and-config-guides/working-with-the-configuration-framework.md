@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Working with the Configuration Framework"
-title: "Working with the Configuration Framework | Microsoft Docs"
+title: "Working with the Configuration Framework"
 ms.custom: ""
 ms.date: "10/28/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 18ec869d-6e81-42f5-9961-29b06e03fa54
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Working with the Configuration Framework
 The Configuration Framework enables you to quickly and easily change Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration at setup. In conjunction with the Microsoft Windows Installer (MSI), the Configuration Framework reads and reports the state of your computer and the configuration tasks requiring action.  

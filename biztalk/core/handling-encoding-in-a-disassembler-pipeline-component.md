@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Handling Encoding in a Disassembler Pipeline Component"
-title: "Handling Encoding in a Disassembler Pipeline Component | Microsoft Docs"
+title: "Handling Encoding in a Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components [custom], encoding"
-  - "pipeline components [custom], disassembling"
-ms.assetid: 33420357-421f-4ad0-8eee-d445376676db
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Handling Encoding in a Disassembler Pipeline Component
 Ensure that your custom disassembler component encodes outbound documents in one of the following formats:  

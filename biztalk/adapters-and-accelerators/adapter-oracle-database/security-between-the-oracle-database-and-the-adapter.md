@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Security between the Oracle Database and the adapter"
-title: "Security between the Oracle Database and the adapter | Microsoft Docs"
+title: "Security between the Oracle Database and the adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "adapter, security"
-  - "authorization"
-  - "credentials, supplying user name password"
-  - "authentication"
-  - "IPsec"
-ms.assetid: 09d40a05-3678-4002-9e08-2f97c2d5c686
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security between the Oracle Database and the adapter
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] provides no support for helping to secure communication between it and the Oracle database. You must provide a security mechanism to help ensure appropriate levels of authorization, authentication, data privacy, and data integrity for data exchanges between the adapter and the Oracle database.

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring a Dynamic Send Port to Send EDI Interchanges and Acknowledgments"
-title: "Configuring a Dynamic Send Port to Send EDI Interchanges and Acknowledgments | Microsoft Docs"
+title: "Configuring a Dynamic Send Port to Send EDI Interchanges and Acknowledgments"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a124059c-c29c-4a7f-a8a3-13dffc09ae5c
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring a Dynamic Send Port to Send EDI Interchanges and Acknowledgments
 To send an EDI acknowledgment or interchange, you can use either a static send port or a dynamic send port. A dynamic send port enables you to send an interchange to any one of multiple destinations, because it resolves the agreement and determines the destination address based upon the value in the DestinationPartyName context property.  

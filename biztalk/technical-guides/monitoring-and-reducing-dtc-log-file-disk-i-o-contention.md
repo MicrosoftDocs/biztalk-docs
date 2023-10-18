@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Monitoring and Reducing DTC Log File Disk I/O Contention"
-title: "Monitoring and Reducing DTC Log File Disk I/O Contention | Microsoft Docs"
+title: "Monitoring and Reducing DTC Log File Disk I/O Contention"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f8b968dd-216e-454f-9224-aaf92ffd363b
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Monitoring and Reducing DTC Log File Disk I/O Contention
 The Distributed Transaction Coordinator (DTC) log file can become a disk I/O bottleneck in transaction-intensive environments. This is especially true when using adapters that support transactions, such as SQL Server, MSMQ, or MQSeries, or in a multi-MessageBox environment. Transactional adapters use DTC transactions, and multi-MessageBox environments make extensive use of DTC transactions.

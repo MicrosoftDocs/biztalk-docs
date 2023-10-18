@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Performing Bottleneck Testing and Tuning"
-title: "Performing Bottleneck Testing and Tuning | Microsoft Docs"
+title: "Performing Bottleneck Testing and Tuning"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 95d41d95-3a76-4eb0-b07d-14c6b6dccdaa
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Performing Bottleneck Testing and Tuning
 You should complete performance testing to determine bottlenecks in the system and to tune the system accordingly.  

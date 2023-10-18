@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Configure Inbound Maps for a Send Port"
-title: "How to Configure Inbound Maps for a Send Port | Microsoft Docs"
+title: "How to Configure Inbound Maps for a Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [send ports], inbound maps"
-  - "configuring, send ports"
-  - "send ports, inbound maps"
-  - "configuring, inbound maps"
-  - "managing [send ports], configuring"
-  - "send ports, configuring"
-ms.assetid: 213c66ba-928f-4c00-9a87-f45eaa9f7dca
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Inbound Maps for a Send Port
 This topic describes how to use the BizTalk Server Administration console to configure inbound maps for a send port. Inbound maps are used only with dynamic or static solicit-response send ports. You use a map to apply an XSL transformation to a response message received by the port without processing the message through an orchestration. You can add an inbound map, remove a map, or change an existing map to a different one. You can add more than one map to a send port, but each map must have a unique source schema. For background information about maps, see [Maps](../core/maps.md).  

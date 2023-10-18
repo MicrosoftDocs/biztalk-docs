@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Data element too short"
-title: "Data element too short | Microsoft Docs"
+title: "Data element too short"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a22c0551-3262-476c-a6c6-2fd214331244
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Data element too short
 ## Details  

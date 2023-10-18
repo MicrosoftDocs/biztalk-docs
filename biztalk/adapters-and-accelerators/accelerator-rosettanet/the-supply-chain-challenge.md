@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: The Supply Chain Challenge"
-title: "The Supply Chain Challenge | Microsoft Docs"
+title: "The Supply Chain Challenge"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "supply chains"
-  - "trading partners, supply chains"
-  - "supply chains, challenges"
-  - "supply chains, about"
-ms.assetid: 4a38f15f-cffa-4622-95e2-e606418e5c03
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Supply Chain Challenge
 Integration with partners presents many challenges in the high-technology industry. Information technology, electronic component, semiconductor manufacturing, and telecommunications companies all face challenges in their supply chain.  

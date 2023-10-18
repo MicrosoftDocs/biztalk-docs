@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Creating and Configuring BizTalk Ports for Contoso"
-title: "Creating and Configuring BizTalk Ports for Contoso | Microsoft Docs"
+title: "Creating and Configuring BizTalk Ports for Contoso"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ports, creating"
-  - "private process tutorial, creating ports"
-  - "creating, ports"
-  - "configuring, ports"
-  - "private process tutorial, configuring ports"
-  - "ports, configuring"
-ms.assetid: 179af692-e14c-40da-9c43-1a7d0b6beb1f
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating and Configuring BizTalk Ports for Contoso
 In this section, you integrate your current solution into Microsoft® BizTalk Server. Before you do this, you install your assembly in the Global Assembly Cache (GAC), and then configure it in the Configuration database. You then create and configure send ports using a SQL adapter and a HTTP adapter.  

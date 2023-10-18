@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Security Case Studies: Company B"
-title: "Security Case Studies: Company B | Microsoft Docs"
+title: "Security Case Studies: Company B"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, examples"
-  - "security, architecture"
-  - "architecture, security"
-  - "security, case studies"
-ms.assetid: 48bbb347-919a-435e-b7b1-34a4c0e65e59
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security Case Studies: Company B
 Company B is a software company. Its business model relies on electronic transactions with key customers and suppliers. Company B uses a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementation for its transactions.  

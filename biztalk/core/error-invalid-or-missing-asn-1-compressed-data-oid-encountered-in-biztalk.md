@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid or missing ASN.1 Compressed Data OID encountered during decompression processing"
-title: "Invalid or missing ASN.1 Compressed Data OID encountered during decompression processing | Microsoft Docs"
+title: "Invalid or missing ASN.1 Compressed Data OID encountered during decompression processing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0171daa8-289a-43f1-8cbf-d779ef9dc2ea
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid or missing ASN.1 Compressed Data OID encountered during decompression processing
 ## Details  

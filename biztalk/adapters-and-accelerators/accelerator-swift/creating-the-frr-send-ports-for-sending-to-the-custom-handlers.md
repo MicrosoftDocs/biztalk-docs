@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Creating the FRR Send Ports for Sending to the Custom Handlers"
-title: "Creating the FRR Send Ports for Sending to the Custom Handlers | Microsoft Docs"
+title: "Creating the FRR Send Ports for Sending to the Custom Handlers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating, send ports"
-  - "send ports, creating"
-  - "FRR, creating send ports"
-ms.assetid: 036f1f97-17a2-4e02-a85a-a52739a48528
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating the FRR Send Ports for Sending to the Custom Handlers
 To perform FIN Response Reconciliation, you need to create a series of send ports, each of which sends a message (original message or response) from [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] to the custom handlers that process the correlated messages.  

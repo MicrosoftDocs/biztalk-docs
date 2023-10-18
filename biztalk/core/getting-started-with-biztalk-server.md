@@ -1,23 +1,14 @@
 ---
 description: "Learn more about: Getting started with BizTalk Server"
-title: "Getting started with BizTalk Server | Microsoft Docs"
+title: "Getting started with BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "bts10.gettingstarted.main"
-helpviewer_keywords:
-  - "getting started"
-ms.assetid: 7a91a0e4-9b1c-4cd2-a98b-337d6d42b08a
-caps.latest.revision: 38
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Getting started with BizTalk Server
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is a [publish and subscribe architecture](../core/publish-and-subscribe-architecture.md) that [uses adapters](../core/using-adapters.md) to receive and send messages, implements [business processes through orchestration](../core/defining-business-processes.md), and includes [management and tracking](../core/management-and-tracking-architecture.md) of these different parts. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also includes [trading partner management](../core/trading-partner-management-using-biztalk-server.md) for business-to-business messaging, [high availability](../core/planning-for-high-availability3.md) to maximize uptime, a development platform to [create your own components](../core/developing-custom-components.md),  an administration console to [manage your artifacts](../core/operational-and-administrative-tasks-in-your-biztalk-environment.md), and business activity monitoring to manage [aggregations, alerts, and profiles](../core/using-business-activity-monitoring.md).

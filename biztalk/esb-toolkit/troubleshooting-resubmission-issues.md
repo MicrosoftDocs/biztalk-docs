@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting Resubmission Issues"
-title: "Troubleshooting Resubmission Issues | Microsoft Docs"
+title: "Troubleshooting Resubmission Issues"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0b60ad45-d793-4de6-b9bc-3e8ef34f2b61
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting Resubmission Issues
 If you have problems resubmitting messages, check the following:  

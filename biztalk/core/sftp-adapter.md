@@ -1,19 +1,12 @@
 ---
-title: "SFTP Adapter | Microsoft Docs"
+title: "SFTP Adapter"
 description: Create or configure a receive location and send port using the SFTP adapter in BizTalk Server, including FAQs using the SFTP adapter
 ms.custom: "biztalk-2020"
 ms.date: "01/22/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6f64c4c8-64a0-4e43-9660-b5c2d75d28aa
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SFTP Adapter
 BizTalk Server includes an **SFTP** adapter to send and receive messages from a secure FTP server using the SSH file transfer protocol. This topic includes the steps to configure an **SFTP** receive location, and configure an SFTP send port to receive and send messages from a secure FTP server. It also includes common questions and answers.

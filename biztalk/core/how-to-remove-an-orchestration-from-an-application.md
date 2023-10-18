@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Remove an Orchestration from an Application"
-title: "How to Remove an Orchestration from an Application | Microsoft Docs"
+title: "How to Remove an Orchestration from an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "applications, orchestrations"
-  - "deleting, orchestrations"
-  - "managing [orchestrations], deleting"
-  - "orchestrations, applications"
-  - "orchestrations, deleting"
-ms.assetid: e6d635ea-3513-42de-a667-b56c536e5328
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Remove an Orchestration from an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to remove an orchestration from a BizTalk application. Removing an orchestration from an application also deletes it from the BizTalk Management database for the BizTalk group.  

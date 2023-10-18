@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Request-Response Resolution of Endpoints and Transformation Requirements"
-title: "Request-Response Resolution of Endpoints and Transformation Requirements | Microsoft Docs"
+title: "Request-Response Resolution of Endpoints and Transformation Requirements"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1a1bfdae-2651-402c-b164-16db663aaa95
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Request-Response Resolution of Endpoints and Transformation Requirements
 In this use case, a client application submits a request message to an on-ramp and receives a response. The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] acts as mediator between the client and the target service endpoint and uses the ESB Resolver and Adapter Framework to perform the dynamic message transformation and routing in accordance with the on-ramp configuration, as illustrated in Figure 1.  

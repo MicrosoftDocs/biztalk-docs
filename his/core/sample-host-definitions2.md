@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Sample Host Definitions"
-title: "Sample Host Definitions2 | Microsoft Docs"
+title: "Sample Host Definitions2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3ff44020-8644-464e-b557-a7bc68854eae
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Sample Host Definitions
 This section presents some sample host definitions used for establishing a [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer connection to IBM S/370 (host) systems. The samples show configuration values for [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer connections of the following types:  

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: ReceivePipeline (ReceiveLocation Node)"
-title: "ReceivePipeline (ReceiveLocation Node) | Microsoft Docs"
+title: "ReceivePipeline (ReceiveLocation Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ReceivePipeline node [binding file]"
-ms.assetid: bd90ca2d-21e4-4d21-bc67-f16a150053e4
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ReceivePipeline (ReceiveLocation Node)
 The ReceivePipeline node of the ReceiveLocation node of a binding file contains specific information about a receive pipeline used with a receive location that is exported with the binding file.  

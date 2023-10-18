@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating a Windows-Initiated Application"
-title: "Creating a Windows-Initiated Application1 | Microsoft Docs"
+title: "Creating a Windows-Initiated Application1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bd663bf4-1c75-423c-bef8-dc2bbfd40eeb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Creating a Windows-Initiated Application
 ## In This Section  

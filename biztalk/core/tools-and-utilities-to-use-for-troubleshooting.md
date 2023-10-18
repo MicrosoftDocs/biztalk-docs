@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tools and Utilities to Use for Troubleshooting"
-title: "Tools and Utilities to Use for Troubleshooting | Microsoft Docs"
+title: "Tools and Utilities to Use for Troubleshooting"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c817384f-e328-439d-9c41-a94ed75670ce
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tools and Utilities to Use for Troubleshooting
 This section describes several tools and utilities that can be useful for diagnosing the root cause of a problem in a Microsoft BizTalk Server component or dependency.

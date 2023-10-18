@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: SWIFT Schemas"
-title: "SWIFT Schemas | Microsoft Docs"
+title: "SWIFT Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SWIFT, SWIFT messages"
-  - "schemas, SWIFT"
-  - "SWIFT messages, SWIFT schemas"
-  - "SWIFT, schemas"
-ms.assetid: 53017a56-a718-4577-a08c-9c92d9a54e7a
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SWIFT Schemas
 [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] sends and receives SWIFT financial (FIN) messages as individual flat files over the SWIFT network. Each individual message consists of a set of header blocks, a text block made up of a predefined set of labeled fields and positional or ordered subfields, and a set of trailers inside a trailer block. The content of the text block varies by message type.  

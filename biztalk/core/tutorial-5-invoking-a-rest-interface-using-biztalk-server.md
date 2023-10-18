@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tutorial 5: Invoking a REST Interface Using BizTalk Server"
-title: "Tutorial 5: Invoking a REST Interface Using BizTalk Server | Microsoft Docs"
+title: "Tutorial 5: Invoking a REST Interface Using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 73871ca3-abd0-45ae-b379-6df76a967a80
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial 5: Invoking a REST Interface Using BizTalk Server
 This section provides a step-by-step walkthrough on how to invoke a REST endpoint using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In this tutorial you invoke a REST endpoint available from the [!INCLUDE[winazure](../includes/winazure-md.md)] Marketplace that returns the delays in flights of US air carriers. The tutorial uses the new **WCF-WebHttp** adapter introduced in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to invoke the REST endpoint.

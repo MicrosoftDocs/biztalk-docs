@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Equates and Structure Layouts"
-title: "Equates and Structure Layouts2 | Microsoft Docs"
+title: "Equates and Structure Layouts2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0037fb76-c9b0-41ce-9a52-aa80b1bf93c3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Equates and Structure Layouts
 Many standard operating system device driver error codes are used (for example, "invalid function"), together with a new set of device driver-specific errors. Return codes below 0x80 reflect serious failures.  

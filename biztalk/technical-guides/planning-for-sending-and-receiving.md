@@ -5,7 +5,6 @@ ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 12/30/2022
 ms.custom: "devx-track-javaee-websphere"
-
 ---
 
 # Plan for sending and receiving in BizTalk Server

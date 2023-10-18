@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: SendMail"
-title: "SendMail | Microsoft Docs"
+title: "SendMail"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SMTP adapters, examples"
-  - "examples, SMTP adapters"
-  - "SMTP adapters"
-ms.assetid: a0258619-b195-4c8a-8326-77add6e6f04d
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SendMail
 The SendMail sample demonstrates how you can use the Simple Mail Transfer Protocol (SMTP) adapter to send e-mail messages from within a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration. Dynamic information used to send the e-mail messages is retrieved from an XML message using property promotion functionality.  

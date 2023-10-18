@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IPropertyBag Members"
-title: "IPropertyBag Members | Microsoft Docs"
+title: "IPropertyBag Members"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6d873e60-dadc-4ae1-b78e-d6861c6cdaa9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IPropertyBag Members
 The member of the IPropertyBag interface is described in the following table.  

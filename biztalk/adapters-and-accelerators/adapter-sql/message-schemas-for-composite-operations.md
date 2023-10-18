@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Message Schemas for Composite Operations"
-title: "Message Schemas for Composite Operations | Microsoft Docs"
+title: "Message Schemas for Composite Operations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d80c023b-1912-43d4-be29-eb9e1b323593
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for Composite Operations
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] enables you to execute composite operations on the SQL Server database. A composite operation can contain multiple operations including the Insert, Update, and Delete operations on the tables and views, and operations on stored procedures. A composite operation can include these operations in any order.  

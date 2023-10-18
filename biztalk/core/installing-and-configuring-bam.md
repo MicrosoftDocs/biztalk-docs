@@ -1,19 +1,12 @@
 ---
-title: "Install and configure BAM on BizTalk Server | Microsoft Docs"
+title: "Install and configure BAM on BizTalk Server"
 description: Install and configure Business Activity Monitoring in a single or  multi-computer environment on BizTalk Server
 ms.custom: ""
 ms.date: "06/14/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 01986f8f-5117-40d1-a477-b7184721864c
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 
 # Install and configure BAM

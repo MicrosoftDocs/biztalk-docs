@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Arithmetic Operators"
-title: "Arithmetic Operators | Microsoft Docs"
+title: "Arithmetic Operators"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d73e153c-aac1-4cea-92d8-af4a1bea6e6a
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Arithmetic Operators
 The Business Rules Framework supports using the addition, subtraction, multiplication, division, and remainder (modulo) operators in creating business rules. The following table describes the arithmetic operators.  

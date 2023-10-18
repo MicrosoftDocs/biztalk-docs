@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configuration Requirements for Host Initiated SSO"
-title: "Configuration Requirements for Host Initiated SSO | Microsoft Docs"
+title: "Configuration Requirements for Host Initiated SSO"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0471ccc4-80b2-41b6-b32f-779d75fd06ad
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configuration Requirements for Host Initiated SSO
 Although Enterprise Single Sign-On (SSO) and host-initiated SSO have certain aspects in common, certain platform and Active Directory requirements are unique to host-initiated SSO. This topic discusses those requirements, and lists the steps to check or create them on your system.

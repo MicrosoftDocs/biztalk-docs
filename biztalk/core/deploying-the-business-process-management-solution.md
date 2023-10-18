@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Deploying the Business Process Management Solution"
-title: "Deploying the Business Process Management Solution | Microsoft Docs"
+title: "Deploying the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, process management solution tutorial"
-  - "process management solution tutorial, deploying"
-ms.assetid: e033e0cd-0333-4f16-a4a0-eaae9ce98fcc
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploying the Business Process Management Solution
 The Business Process Management (BPM) solution shows one way to construct a process manager in a BizTalk application. The solution uses a component to select and control the sequence of stages in order processing. The solution takes an order—which may be for a new service, an upgrade, or termination of service—logs it, and acknowledges the order before passing it on for processing. The processing consists of one or more stages that handle the order. Finally, the solution returns a response to the original order request.  

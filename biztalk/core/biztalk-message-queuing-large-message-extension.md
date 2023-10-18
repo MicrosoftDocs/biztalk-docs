@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: BizTalk Message Queuing Large Message Extension"
-title: "BizTalk Message Queuing Large Message Extension | Microsoft Docs"
+title: "BizTalk Message Queuing Large Message Extension"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BizTalk Message Queuing Large Message Extension"
-  - "utilities, BizTalk Message Queuing Large Message Extension"
-ms.assetid: 5d6892d3-fda8-41a3-8111-d28c11bd71fb
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Message Queuing Large Message Extension
 Native message queuing cannot process a message with a body larger than 4megabytes (MB). However, Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes an add-on for native message queuing that permits processing messages larger than 4 MB. This add-on is delivered as the Mqrtlarge.dll file, and exposes the **MQSendLargeMessage** and **MQReceiveLargeMessage** application programming interfaces (APIs), and the analogous COM model. These functions are implemented as standard message queuing APIs, **MQSendMessage** and **MQReceiveMessage** respectively.  

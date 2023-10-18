@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Converting Data Types from RPG to OS/400 COBOL"
-title: "Converting Data Types from RPG to OS-400 COBOL2 | Microsoft Docs"
+title: "Converting Data Types from RPG to OS-400 COBOL2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2b13acbe-6287-432e-9950-c0c13e87aeb2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Converting Data Types from RPG to OS/400 COBOL
 The Transaction Integrator (TI) run-time environment supports the use of OS/400 COBOL running on an AS/400 computer. The following table lists the Report Program Generator ( to  data type conversions supported by the TI run-time environment.  

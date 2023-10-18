@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: What You Should Know Before Programming Single Sign-On"
-title: "What You Should Know Before Programming Single Sign-On | Microsoft Docs"
+title: "What You Should Know Before Programming Single Sign-On"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 547f87d1-359a-4548-b8cc-e8bad82a5118
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What You Should Know Before Programming Single Sign-On
 To use this documentation effectively, you should be familiar with the following:  

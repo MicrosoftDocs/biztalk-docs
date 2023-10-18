@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header"
-title: "The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header | Microsoft Docs"
+title: "The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6de4b9a6-17b2-4455-9dbd-a6bb69fac1d5
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header
 ## Details  

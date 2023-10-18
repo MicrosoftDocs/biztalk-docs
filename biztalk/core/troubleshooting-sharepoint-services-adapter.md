@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting SharePoint Services Adapter"
-title: "Troubleshooting SharePoint Services Adapter | Microsoft Docs"
+title: "Troubleshooting SharePoint Services Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 77f88174-118d-4ed6-8449-c89ca195ce5c
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting SharePoint Services Adapter
 This topic focuses on troubleshooting the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] (WSS) adapter.

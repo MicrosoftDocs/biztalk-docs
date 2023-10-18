@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Customizing the BAM Portal Configuration"
-title: "Customizing the BAM Portal Configuration | Microsoft Docs"
+title: "Customizing the BAM Portal Configuration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 507bd5f0-b2a0-4d52-85f8-9d984138ca79
-caps.latest.revision: 47
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Customizing the BAM Portal Configuration
 There are a number of configurable options on the BAM portal. The following procedures show you how to modify the BAM portal to obtain the best user experience.

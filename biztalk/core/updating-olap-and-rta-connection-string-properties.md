@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Updating OLAP and RTA Connection String Properties"
-title: "Updating OLAP and RTA Connection String Properties | Microsoft Docs"
+title: "Updating OLAP and RTA Connection String Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "aggregations [BAM], connection strings"
-  - "managing [BAM], updating connection strings"
-  - "OLAP cubes, connection strings"
-  - "connection strings, BAM"
-ms.assetid: 870615b9-6f84-49cb-81bf-b870cc1d3dda
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Updating OLAP and RTA Connection String Properties
 For information about updating the OLAP and real-time aggregation (RTA) connection strings, see the following topics that describe restoring BAM databases to alternate computers:  

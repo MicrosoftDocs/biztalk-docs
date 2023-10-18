@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Configure a physical port binding using a port binding file to SAP"
-title: "Configure a physical port binding using a port binding file to SAP | Microsoft Docs"
+title: "Configure a physical port binding using a port binding file to SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "port binding file"
-  - "physical port binding, configuring using a port binding file"
-ms.assetid: c637971c-3ecd-4026-8f74-bd5173774438
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure a physical port binding using a port binding file to SAP
 When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata for an SAP artifact, other than the schema files, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also generates a port binding file. You can import this binding file into your BizTalk application to create a physical send or receive port. [Reuse SAP adapter bindings](../../adapters-and-accelerators/adapter-sap/reuse-sap-adapter-bindings.md) includes steps to import binding files. If you import this binding file, you do not have to manually create a physical send or receive port.  

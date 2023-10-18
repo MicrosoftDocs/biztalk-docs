@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: Tools and Features"
 title: "Tools and Features"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "BTAHL7, tools"
-  - "BTAHL7"
-ms.assetid: 2dac2713-d40f-4840-bae6-67ec58d5b18c
-caps.latest.revision: 3
-
-
-
 ---
 # Tools and Features
 Users of Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) have access to the Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] role-based features and tools, as well as [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]-specific tools and features tailored to the health care industry. This section describes those features and tools.  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Configuring the BizTalkApplicationServer and BizTalkServerIsolatedHost Hosts"
-title: "Configuring the BizTalkApplicationServer and BizTalkServerIsolatedHost Hosts | Microsoft Docs"
+title: "Configuring the BizTalkApplicationServer and BizTalkServerIsolatedHost Hosts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring, hosts"
-  - "BizTalkApplicationServer host"
-  - "hosts"
-  - "BizTalkServerIsolatedHost host"
-ms.assetid: 17bc9f01-ff87-427d-8411-6a065814ba1e
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring the BizTalkApplicationServer and BizTalkServerIsolatedHost Hosts
 To limit the messaging (sending and receiving messages) to the BizTalk Messaging servers, you need to configure the default hosts, which are running the MSMQT send and receive handlers, to run only on the messaging servers.  

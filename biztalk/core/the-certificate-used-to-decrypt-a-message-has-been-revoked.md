@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The certificate used to decrypt a message has been revoked"
-title: "The certificate used to decrypt a message has been revoked | Microsoft Docs"
+title: "The certificate used to decrypt a message has been revoked"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 01767cb2-b16e-4b4b-ac4d-cd79b6c8860a
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The certificate used to decrypt a message has been revoked
 ## Details  

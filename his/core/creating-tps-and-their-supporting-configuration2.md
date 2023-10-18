@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Create TPs and Their Supporting Configuration"
-title: "Create TPs and Their Supporting Configuration | Microsoft Docs"
+title: "Create TPs and Their Supporting Configuration"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 761365be-10a0-4237-b3a4-b4a91425f1d9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Create TPs and Their Supporting Configuration
 The following procedure describes how to create transaction programs (TPs) and set up a supporting configuration.  

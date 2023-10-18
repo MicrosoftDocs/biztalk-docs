@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 1 (For Azure): Create the EDI Project"
-title: "Step 1 (For Azure): Create the EDI Project | Microsoft Docs"
+title: "Step 1 (For Azure): Create the EDI Project"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9d353129-04f0-456b-b371-b346959f5155
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1 (For Azure): Create the EDI Project
 In this section, Contoso creates an EDI project using the [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] April 2012 release. As part of the project, Contoso adds the following:

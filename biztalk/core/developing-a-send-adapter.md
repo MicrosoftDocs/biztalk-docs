@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Developing a Send Adapter"
-title: "Developing a Send Adapter | Microsoft Docs"
+title: "Developing a Send Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 11b430da-ddba-4827-b9a1-c61338b9c647
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developing a Send Adapter
 This section describes the object interactions that occur within send adapters. You can use this information to guide custom adapter development when creating send adapters, or to learn about how the native adapters work.  

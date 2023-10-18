@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How Host Integration Server Uses Active Directory"
-title: "How Host Integration Server Uses Active Directory2 | Microsoft Docs"
+title: "How Host Integration Server Uses Active Directory2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 14ac22b7-9636-4e25-a15c-5150b222460c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How Host Integration Server Uses Active Directory
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] uses Active Directory by registering services and resources with the Active Directory schema. The benefits of using Active Directory include:  

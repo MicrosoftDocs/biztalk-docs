@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invoke concurrent programs in Oracle E-Business Suite using the WCF service model"
-title: "Invoke concurrent programs in Oracle E-Business Suite using the WCF service model | Microsoft Docs"
+title: "Invoke concurrent programs in Oracle E-Business Suite using the WCF service model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e227c60f-f6fe-40bf-bf41-2784a4428ad0
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke concurrent programs in Oracle E-Business Suite using the WCF service model
 Oracle E-Business Suite exposes concurrent programs that you can execute to perform specific operations on Oracle applications. Each Oracle application has a set of standard concurrent programs (that are same across all operations) and certain concurrent programs that are specific to an Oracle application. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes all concurrent programs as operations that adapter clients can invoke. For more information about how the adapter supports concurrent programs, see [Operations on Concurrent Programs](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-concurrent-programs.md).  

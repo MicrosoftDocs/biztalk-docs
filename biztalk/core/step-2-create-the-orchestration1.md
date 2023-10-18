@@ -1,19 +1,12 @@
 ---
 description: "Learn how to setup and create a BizTalk orchestration for the J.D. Edwards OneWorld system."
-title: "Step 2: Create the Orchestration1 | Microsoft Docs"
+title: "Step 2: Create the Orchestration1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a88cafbb-3b6f-4d27-8516-79a2391b4e31
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: How to Create the Orchestration
 

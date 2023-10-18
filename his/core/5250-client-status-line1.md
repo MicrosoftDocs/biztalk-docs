@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: 5250 Client Status Line"
-title: "5250 Client Status Line1 | Microsoft Docs"
+title: "5250 Client Status Line1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 41ceb93b-3ade-4660-9f01-12eae2841ae3
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # 5250 Client Status Line
 The following list describes the information displayed in the status line of the 5250 Client.  

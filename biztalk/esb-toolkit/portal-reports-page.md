@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Portal Reports Page"
-title: "Portal Reports Page | Microsoft Docs"
+title: "Portal Reports Page"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 51d793cc-dcea-4c29-883b-a5045d39d4f6
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Portal Reports Page
 The Portal Reports page, shown in Figure 1, displays the following charts:  

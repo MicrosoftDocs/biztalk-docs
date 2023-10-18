@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Diagnostic Tracing and Message Logging in the Oracle E-Business Suite adapter"
-title: "Diagnostic Tracing and Message Logging in the Oracle E-Business Suite adapter | Microsoft Docs"
+title: "Diagnostic Tracing and Message Logging in the Oracle E-Business Suite adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c0d6be2a-cbd0-4c9c-be6f-9631063346e2
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Diagnostic Tracing and Message Logging in the Oracle E-Business Suite adapter
 Diagnostic tracing helps to effectively diagnose problems that you might encounter when using the adapters. This topic provides information about the following three types of tracing supported with [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]:

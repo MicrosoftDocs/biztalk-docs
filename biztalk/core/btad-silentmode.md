@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: BTAD_SilentMode"
-title: "BTAD_SilentMode | Microsoft Docs"
+title: "BTAD_SilentMode"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BTAD_SilentMode [environment variable], about BTAS_SilentMode"
-  - "BTAD_SilentMode [environment variable]"
-  - "BTAD_SilentMode [environment variable], warnings"
-ms.assetid: 271835cf-1587-44c5-b5af-b4df4e981ab4
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BTAD_SilentMode
 BTAD_SilentMode specifies options for running the script in silent mode.  

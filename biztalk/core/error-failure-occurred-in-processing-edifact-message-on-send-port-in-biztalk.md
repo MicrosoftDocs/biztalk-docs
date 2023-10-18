@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: A failure occurred in processing Edifact message on send port: No agreement for receiver and sender identifier-qualifier pairs"
-title: "A failure occurred in processing Edifact message on send port: No agreement for receiver and sender identifier-qualifier pairs | Microsoft Docs"
+title: "A failure occurred in processing Edifact message on send port: No agreement for receiver and sender identifier-qualifier pairs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cffc4705-164f-4779-8f04-c6a2a7f1bbda
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # A failure occurred in processing Edifact message on send port: No agreement for receiver and sender identifier-qualifier pairs
 ## Details  

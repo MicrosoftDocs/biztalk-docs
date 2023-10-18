@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interceptor EventSource Element"
-title: "Interceptor EventSource Element | Microsoft Docs"
+title: "Interceptor EventSource Element"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d78846c1-3984-43af-a13f-9d5c0a66d3b5
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interceptor EventSource Element
 The **EventSource** element provides information about the source of one or more of the events appearing in the interceptor configuration file. In addition to an event source name, you need to indicate the technology and a manifest for the source.  

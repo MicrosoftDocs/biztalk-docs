@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Resubmissions over Time by Application or Service"
-title: "Resubmissions over Time by Application or Service | Microsoft Docs"
+title: "Resubmissions over Time by Application or Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7e50ea53-421a-4807-a178-a265431f9216
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Resubmissions over Time by Application or Service
 This option displays a count of failed message resubmissions over a specified period for a specified set of applications. You can select an application to display a trend chart showing the number of resubmissions over time for specific services within the application. Selecting a specific service displays a report that lists the resubmissions for that service. You can also export the list of resubmissions as a Microsoft Excel spreadsheet.  

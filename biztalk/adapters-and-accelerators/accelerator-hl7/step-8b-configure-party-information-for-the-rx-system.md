@@ -1,19 +1,9 @@
 ---
 description: "Learn more about: Step 8B: Configure Party Information for the RX System"
 title: "Step 8B: Configure Party Information for the RX System"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: b0b34ec9-220d-4a6b-9712-54c8099b663b
-caps.latest.revision: 6
-
-
-
 ---
 # Step 8B: Configure Party Information for the RX System
 In this step, you configure the party information for the RX System.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Secure your Siebel applications"
-title: "Secure your Siebel applications | Microsoft Docs"
+title: "Secure your Siebel applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security and protection"
-  - "data protection"
-ms.assetid: 8977cbd3-0025-48d4-8203-8e9e72ea7d26
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Secure your Siebel applications
 The Siebel system often contains sensitive business information such as customer account details. Applications that use the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] to access and modify this information either locally or across a distributed network might inadvertently expose it to access by unauthorized actors, unless efforts are made to protect and secure the data during transmission. Data protection and security are usually thought of in the following terms:  

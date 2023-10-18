@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3c: Insert Opportunity Details into a SQL Server Database"
-title: "Step 3c: Insert Opportunity Details into a SQL Server Database | Microsoft Docs"
+title: "Step 3c: Insert Opportunity Details into a SQL Server Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3f6f9bbe-6f25-4393-8f92-aeeba9736acf
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3c: Insert Opportunity Details into a SQL Server Database
 By now we have built the orchestration to send a query to Salesforce and receive a response. In this section, we’ll update that orchestration to insert the response from Salesforce into an **OrderDetails** table in an on-premise SQL Server database, **Orders**. To achieve this, we’ll perform the following broad set of steps:  

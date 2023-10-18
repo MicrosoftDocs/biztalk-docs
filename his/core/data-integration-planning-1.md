@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Create Data Integration solutions"
-title: "Architect Data Integration solutions | Microsoft Docs"
+title: "Architect Data Integration solutions"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: def90f27-a600-4ef8-ad11-905fe1ce85e8
-caps.latest.revision: 13
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Create Data Integration solutions
 

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Changes to BizTalk Project System in BizTalk Server 2013"
-title: "Changes to BizTalk Project System in BizTalk Server 2013 | Microsoft Docs"
+title: "Changes to BizTalk Project System in BizTalk Server 2013"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 82f0dd18-073c-4cba-aa0d-48076c58f874
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Changes to BizTalk Project System in BizTalk Server 2013
 This topic gives you a high-level overview of changes to the BizTalk Project System in BizTalk Server.

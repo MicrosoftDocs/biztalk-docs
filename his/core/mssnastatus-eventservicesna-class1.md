@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_EventServiceSna Class"
-title: "MsSnaStatus_EventServiceSna Class1 | Microsoft Docs"
+title: "MsSnaStatus_EventServiceSna Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 72b37bd8-ea8f-4e40-9a94-fbb28a8c898c
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_EventServiceSna Class
 The **MsSnaStatus_EventServiceSna** class describes a change to the **EventServiceSna** class.  

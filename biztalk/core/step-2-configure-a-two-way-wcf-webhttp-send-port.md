@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Configure a Two-way WCF-WebHttp Send Port"
-title: "Step 2: Configure a Two-way WCF-WebHttp Send Port | Microsoft Docs"
+title: "Step 2: Configure a Two-way WCF-WebHttp Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0bcab296-7921-4df4-abcc-eea78cc827e8
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Configure a Two-way WCF-WebHttp Send Port
 In this step you configure a two-way **WCF-WebHttp** send port to invoke the REST resource URL to retrieve delays in the US air carriers’ schedules.

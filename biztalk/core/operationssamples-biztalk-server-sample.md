@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: OperationsSamples (BizTalk Server Sample)"
-title: "OperationsSamples (BizTalk Server Sample) | Microsoft Docs"
+title: "OperationsSamples (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3c9e3f3e-a570-4edd-aa2e-3f8e2e37c8a0
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # OperationsSamples (BizTalk Server Sample)
 The OperationsSamples sample demonstrates how to perform operational activities using the Operations object model.  

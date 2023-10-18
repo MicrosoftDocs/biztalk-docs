@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Develop BizTalk applications using the SQL adapter"
-title: "Develop BizTalk applications using the SQL adapter | Microsoft Docs"
+title: "Develop BizTalk applications using the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5471f28e-bce1-4295-b56d-954690e60749
-caps.latest.revision: 31
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Develop BizTalk applications using the SQL adapter
 Developing BizTalk applications involves creating a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] or [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate XML schema. Once you have generated the schema, you can either use Content-Based Routing (CBR) or create BizTalk orchestrations to send and receive messages that conform to the generated schema.  

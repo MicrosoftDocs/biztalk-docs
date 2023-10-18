@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Scope Shape"
-title: "How to Configure the Scope Shape | Microsoft Docs"
+title: "How to Configure the Scope Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Scope shape [Orchestration Designer], about Scope shape"
-  - "Scope shape [Orchestration Designer], configuring"
-  - "Scope shape [Orchestration Designer], variables"
-  - "Scope shape [Orchestration Designer]"
-  - "configuring [Orchestration Designer], Scope shape"
-  - "Scope shape [Orchestration Designer], transactions"
-ms.assetid: 3c518db0-d68c-4f72-9d5c-48540811e289
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Scope Shape
 The **Scope** shape provides a contextual framework for its contents. The first block of a **Scope** shape is the context block, or body, in which the basic actions of the scope take place; it is analogous to the try block in a try/catch statement. Following the body, the **Scope** shape may also include one or more exception-handler blocks and a compensation block.  

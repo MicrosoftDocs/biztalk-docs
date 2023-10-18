@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 5: Implement the Metadata Search Handler for the Echo Adapter"
-title: "Step 5: Implement the Metadata Search Handler for the Echo Adapter | Microsoft Docs"
+title: "Step 5: Implement the Metadata Search Handler for the Echo Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1a133a99-1d6c-4634-b928-0f4f23c6f6e4
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 5: Implement the Metadata Search Handler for the Echo Adapter
 ![Step 5 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-5of9.gif "Step_5of9")  

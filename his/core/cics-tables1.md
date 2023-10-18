@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CICS Tables"
-title: "CICS Tables1 | Microsoft Docs"
+title: "CICS Tables1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a363f595-175a-4e1d-ad93-5b856e88ddae
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CICS Tables
 

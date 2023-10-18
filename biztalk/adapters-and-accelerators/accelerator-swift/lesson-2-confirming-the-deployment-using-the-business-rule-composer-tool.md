@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Lesson 2: Confirming the Deployment Using the Business Rule Composer Tool"
-title: "Lesson 2: Confirming the Deployment Using the Business Rule Composer Tool | Microsoft Docs"
+title: "Lesson 2: Confirming the Deployment Using the Business Rule Composer Tool"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "business rules, verifying"
-  - "verifying, business rules"
-  - "verifying, Business Rule Composer tool"
-  - "business rules, Business Rule Composer tool"
-  - "Business Rule Composer tool"
-ms.assetid: 337dc469-cf9e-406b-90ae-0f580b17d7c9
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 2: Confirming the Deployment Using the Business Rule Composer Tool
 In this lesson, you confirm that the Business Rule Composer tool created your vocabularies and deployed your policies. A vocabulary is a collection of vocabulary elements you use in rule composition. A policy is a versioned collection of business rules.  

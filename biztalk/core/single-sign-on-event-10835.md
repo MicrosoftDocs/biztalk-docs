@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10835"
-title: "Single Sign-On: Event 10835 | Microsoft Docs"
+title: "Single Sign-On: Event 10835"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 004502c0-2deb-44dc-ac75-e53594e72cb8
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10835
 ## Details  

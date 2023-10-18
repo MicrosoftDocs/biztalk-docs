@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Token Ring Definition"
-title: "Token Ring Definition1 | Microsoft Docs"
+title: "Token Ring Definition1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a69fc542-6c4c-478e-8c9e-ad5d157dc9fb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Token Ring Definition
 The following table shows a VTAM definition for a connection between a [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer and an IBM 9370 host computer across a Token Ring local area network (LAN).  

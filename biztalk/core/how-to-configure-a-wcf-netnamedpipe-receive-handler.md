@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure a WCF-NetNamedPipe Receive Handler"
-title: "How to Configure a WCF-NetNamedPipe Receive Handler | Microsoft Docs"
+title: "How to Configure a WCF-NetNamedPipe Receive Handler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [WCF-NetNamedPipe adapters], global variables"
-  - "receive handlers, WCF-NetNamedPipe adapters"
-  - "configuring [WCF-NetNamedPipe adapters], receive handlers"
-  - "WCF-NetNamedPipe adapters, global variables"
-ms.assetid: f7ab2228-1049-40f0-87f7-6330a8f40cfe
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a WCF-NetNamedPipe Receive Handler
 Use the following procedure to configure a WCF-NetNamedPipe receive handler.  

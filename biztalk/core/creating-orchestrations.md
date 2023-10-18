@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Creating Orchestrations"
-title: "Creating Orchestrations | Microsoft Docs"
+title: "Creating Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, creating"
-  - "creating, orchestrations"
-ms.assetid: 992418df-0acb-448f-9e12-ad857bf93f62
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Orchestrations
 This section describes the various tasks that you need to perform as you create your orchestrations and design your business process flows.  

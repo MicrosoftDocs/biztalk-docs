@@ -6,13 +6,7 @@ ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2cb9045d-1fa6-4c20-876d-81462305493b
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configuring IBM i Series for 5250 Access
 When setting [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] parameters for an IBM i Series connection, you must match values set on the host. Check with the host administrator to obtain required information for i Series access.  

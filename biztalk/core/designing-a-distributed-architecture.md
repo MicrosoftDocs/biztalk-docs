@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Designing a Distributed Architecture"
-title: "Designing a Distributed Architecture | Microsoft Docs"
+title: "Designing a Distributed Architecture"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "clustering, SQL Servers"
-  - "SQL Server, clustering"
-ms.assetid: 8a8f1710-4d53-42bf-b5e5-2be3b43813b4
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Designing a Distributed Architecture
 For complete information about the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).

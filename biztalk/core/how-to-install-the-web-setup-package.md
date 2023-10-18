@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Install the Web Setup Package"
-title: "How to Install the Web Setup Package | Microsoft Docs"
+title: "How to Install the Web Setup Package"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, Web services"
-  - "Web services, deploying"
-  - "Web services, installing"
-ms.assetid: c6b38a2f-ad07-4ccd-b267-9e3510df88c3
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Install the Web Setup Package
 Use the contents of the distribution folder to setup the Web service on a destination computer.  

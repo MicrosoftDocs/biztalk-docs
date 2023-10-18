@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Designing with Patterns: the Business Process Management Solution"
-title: "Designing with Patterns: the Business Process Management Solution | Microsoft Docs"
+title: "Designing with Patterns: the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "patterns [process management solutions], examples"
-  - "patterns [process management solutions], designing"
-  - "examples, programming patterns"
-  - "designing, programming patterns"
-ms.assetid: 0583f4a4-01db-4d5b-a1f5-1694c1ddbd30
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Designing with Patterns: the Business Process Management Solution
 The business process management solution shows one way to construct a process manager in a BizTalk application. The solution uses a component to select and control the sequence of stages in order processing. The solution takes an order—which may be for new service, a change, or cancellation of service—logs it, and acknowledges the order before passing it on for processing. The processing consists of one or more stages that handle the order. Finally, the solution returns a final response to the original order request.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Messages in BizTalk Adapter for TIBCO Rendezvous"
-title: "Messages in TIBCO Rendezvous adapter | Microsoft Docs"
+title: "Messages in TIBCO Rendezvous adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 12699550-22e7-4a11-a024-2302570970af
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Messages in BizTalk Adapter for TIBCO Rendezvous
 BizTalk Adapter for TIBCO Rendezvous provides bi-directional connectivity between [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and TIBCO Rendezvous. This adapter uses both the TIBCO Rendezvous API and the BizTalk Adapter Framework API to provide tight integration.  

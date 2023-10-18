@@ -1,19 +1,12 @@
 ---
-title: "Glossary for RosettaNet accelerator in BizTalk Server | Microsoft Docs"
+title: "Glossary for RosettaNet accelerator in BizTalk Server"
 description: Common terms and definitions to know and learn to use the BizTalk Accelerator for RosettaNet
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
-
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d98a5ed4-adc5-4ca9-b9d9-38ab02a0bda6
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Glossary
 [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses the following glossary terms and definitions.  

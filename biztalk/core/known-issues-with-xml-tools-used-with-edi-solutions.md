@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with XML Tools Used with EDI Solutions"
-title: "Known Issues with XML Tools Used with EDI Solutions | Microsoft Docs"
+title: "Known Issues with XML Tools Used with EDI Solutions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 03d9b361-be98-494c-b32d-03892672fef1
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with XML Tools Used with EDI Solutions
 This topic describes known issues with XML Tools in BizTalk Server.  

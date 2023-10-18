@@ -1,18 +1,12 @@
 ---
-title: Service Mediation Patterns | Microsoft Docs
+title: Service Mediation Patterns
 description: "Details the two types of service mediation patterns: service mediation patterns and request-response patterns."
 ms.custom: ""
 ms.date: 06/08/2017
 ms.prod: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid: cfda54db-75fa-4bc2-9f48-11d8b3cde65b
-caps.latest.revision: 2
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
 ---
 # Service Mediation Patterns
 

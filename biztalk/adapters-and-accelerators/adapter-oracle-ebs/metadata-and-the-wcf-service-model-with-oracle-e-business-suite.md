@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Metadata and the WCF Service Model with Oracle E-Business Suite"
-title: "Metadata and the WCF Service Model with Oracle E-Business Suite | Microsoft Docs"
+title: "Metadata and the WCF Service Model with Oracle E-Business Suite"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 95d3fcba-c72f-4ae9-82bd-abbfc2a0c2c4
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Metadata and the WCF Service Model with Oracle E-Business Suite
 In the WCF service model, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutile.exe) to do the following:

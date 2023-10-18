@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing the Designer Extensibility Sample"
-title: "Installing the Designer Extensibility Sample | Microsoft Docs"
+title: "Installing the Designer Extensibility Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: eba13a4a-1b87-4268-af91-29af3a5bc5ef
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing the Designer Extensibility Sample
 This section describes the process for installing the Designer Extensibility sample. You must install the samples in [Installing and Running the Itinerary On-Ramp Sample](../esb-toolkit/installing-and-running-the-itinerary-on-ramp-sample.md) and [Installing and Running the Dynamic Resolution Sample](../esb-toolkit/installing-and-running-the-dynamic-resolution-sample.md) before you install and use this sample.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Disable Enterprise Single Sign-On"
-title: "How to Disable Enterprise Single Sign-On | Microsoft Docs"
+title: "How to Disable Enterprise Single Sign-On"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aaf86a15-6ede-4fa0-b736-42ed411b4feb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Disable Enterprise Single Sign-On
 The disabling command disables the entire Single Sign-On system.  

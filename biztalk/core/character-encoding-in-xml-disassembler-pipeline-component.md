@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Character Encoding in XML Disassembler Pipeline Component"
-title: "Character Encoding in XML Disassembler Pipeline Component | Microsoft Docs"
+title: "Character Encoding in XML Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "IBaseMessagePart.Charset property"
-  - "pipeline components, XML Disassembler"
-  - "XML Disassembler [pipeline component], character encoding"
-  - "XMLNorm.SourceCharset property"
-ms.assetid: 37962bdc-cbcb-4559-9ae8-6c4be49b4822
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Character Encoding in XML Disassembler Pipeline Component
 The XML Disassembler uses the following algorithm to determine which encoding to use for processing incoming messages:  

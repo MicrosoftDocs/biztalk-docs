@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10829"
-title: "Single Sign-On: Event 10829 | Microsoft Docs"
+title: "Single Sign-On: Event 10829"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 79a5f9f5-1870-43b6-bc12-eeae1b32dc28
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10829
 ## Details  

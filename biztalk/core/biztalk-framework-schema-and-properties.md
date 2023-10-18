@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BizTalk Framework Schema and Properties"
-title: "BizTalk Framework Schema and Properties | Microsoft Docs"
+title: "BizTalk Framework Schema and Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8986e4a7-0c0a-415f-8a74-4fca71d3f1b5
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Framework Schema and Properties
 The `http://schemas.microsoft.com/BizTalk/2003/btf2-properties` namespace contains properties you can use to set message and part context properties for the BizTalk Framework Disassembler pipeline component. The BizTalk Framework Disassembler pipeline component uses these properties to generate the appropriate headers in the message that is created. The following table describes the BizTalk Framework properties.  

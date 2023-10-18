@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_EventServiceTN3270 Class"
-title: "MsSnaStatus_EventServiceTN3270 Class2 | Microsoft Docs"
+title: "MsSnaStatus_EventServiceTN3270 Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c26c603d-3487-4d42-b7e8-c2c2062809f2
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_EventServiceTN3270 Class
 The **MsSnaStatus_EventServiceTN3270** class describes a change to the **EventServiceTN3270** class.  

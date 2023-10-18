@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Delete a Host"
-title: "Delete a Host | Microsoft Docs"
+title: "Delete a Host"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e3df8719-27cb-4010-82e3-68226ab74b17
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Delete a Host
 You can delete a host only in the following circumstances:  

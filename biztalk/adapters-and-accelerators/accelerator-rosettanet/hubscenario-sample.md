@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: HubScenario Sample"
-title: "HubScenario Sample | Microsoft Docs"
+title: "HubScenario Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: eb6990ec-aea2-4362-8573-7f737a4fc7f1
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # HubScenario Sample
 The HubScenario sample demonstrates how to manage message transmission in a hub scenario. It transforms a message sent to an intermediary hub into a message to be sent to the final recipient.  

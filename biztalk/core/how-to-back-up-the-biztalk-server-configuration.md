@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Back Up The BizTalk Server Configuration"
-title: "How to Back Up The BizTalk Server Configuration | Microsoft Docs"
+title: "How to Back Up The BizTalk Server Configuration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 14f89050-c204-4d44-a875-299e690489ef
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Back Up The BizTalk Server Configuration
 As part of backing up [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you should back up the configuration settings associated with the computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Having a copy of the original configuration file greatly simplifies the restoration process if you have a hardware failure that requires you to replace the computer.  

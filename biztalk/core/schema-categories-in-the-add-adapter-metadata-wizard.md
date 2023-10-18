@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Schema Categories in the Add Adapter Metadata Wizard"
-title: "Schema Categories in the Add Adapter Metadata Wizard | Microsoft Docs"
+title: "Schema Categories in the Add Adapter Metadata Wizard"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3927c676-f60a-449e-be43-6f75e28aefe1
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Schema Categories in the Add Adapter Metadata Wizard
 

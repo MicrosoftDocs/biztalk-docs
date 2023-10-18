@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_ConnectionX25 Class"
-title: "MsSna_ConnectionX25 Class1 | Microsoft Docs"
+title: "MsSna_ConnectionX25 Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7ba81891-e699-4497-af4b-03c31e08108f
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_ConnectionX25 Class
 Describes a type of SNA connection that uses X.25 protocol over dial-up or leased lines.  

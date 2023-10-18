@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Test Map Inputs Not Valid"
-title: "Error - Test Map Inputs Not Valid | Microsoft Docs"
+title: "Error - Test Map Inputs Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.testMapInputsNotValid"
-ms.assetid: d885d366-92a3-4d2a-8e2b-58e06960864f
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Test Map Inputs Not Valid
 **Error Code**  

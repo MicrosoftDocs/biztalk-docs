@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: There was an authentication failure"
-title: "There was an authentication failure | Microsoft Docs"
+title: "There was an authentication failure"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 36524da9-da91-41e7-bf73-7781cde20c80
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # There was an authentication failure
 ## Details  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Registry Settings Used for LUA Single Sign-On"
-title: "Registry Settings Used for LUA Single Sign-On1 | Microsoft Docs"
+title: "Registry Settings Used for LUA Single Sign-On1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5e8a3bc2-0b52-4b82-b622-2facc47f95b4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Registry Settings Used for LUA Single Sign-On
 The logical unit application (LUA) Single Sign-On feature depends on Host Integration Server scanning 3270 logical units (LUs) used in the logon process for special keywords that are defined in the registry on the computer running Host Integration Server. The values for these special keywords can be defined by the system administrator on the computer running Host Integration Server.  

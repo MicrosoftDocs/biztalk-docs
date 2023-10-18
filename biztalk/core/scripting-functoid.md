@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Scripting Functoid"
-title: "Scripting Functoid | Microsoft Docs"
+title: "Scripting Functoid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Scripting functoids, about Scripting functoids"
-  - "Scripting functoids"
-  - "Scripting functoids, configuring"
-ms.assetid: ea8353da-049b-4e0c-a700-f51708db22a3
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scripting Functoid
 The **Scripting** functoid enables you to use custom script or code at run time to perform functions otherwise not available. For example, you can call a .NET assembly at run time by using the **Scripting** functoid and writing your own custom functions.  

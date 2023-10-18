@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tag Handling in Delimited Records"
-title: "Tag Handling in Delimited Records | Microsoft Docs"
+title: "Tag Handling in Delimited Records"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 568eb804-bea5-46d4-8547-8bc30b87156c
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tag Handling in Delimited Records
 

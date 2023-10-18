@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: Creating Ports"
-title: "Creating Ports | Microsoft Docs"
+title: "Creating Ports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ports, creating"
-  - "receive ports"
-  - "creating, send ports"
-  - "creating, ports"
-  - "Configuration database [BizTalk Server], connecting"
-  - "receive ports, creating"
-  - "send ports"
-  - "send ports, creating"
-ms.assetid: 4f99f884-5b84-4f9f-8cec-dd5da259ba7f
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Ports
 Use the following procedures to create [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] send and receive ports for Single Sign-on.  

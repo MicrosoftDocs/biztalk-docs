@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4: Implement the Metadata Browse Handler for the Echo Adapter"
-title: "Step 4: Implement the Metadata Browse Handler for the Echo Adapter | Microsoft Docs"
+title: "Step 4: Implement the Metadata Browse Handler for the Echo Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d31fc6c1-e4b5-4529-ba3e-2a8cfb8ece1c
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Implement the Metadata Browse Handler for the Echo Adapter
 ![Step 4 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-4of9.gif "Step_4of9")  

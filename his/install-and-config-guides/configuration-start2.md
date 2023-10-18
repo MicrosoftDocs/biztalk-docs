@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configuration Start"
-title: "Start the Configuration | Microsoft Docs"
+title: "Start the Configuration"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8bf06c5c-271a-4a8c-be37-af6301e293fa
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configuration Start
   

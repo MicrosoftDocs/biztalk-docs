@@ -1,20 +1,12 @@
 ---
 description: "Learn about symptoms, possible causes, and solutions for issues related to running BizTalk Accelerator for RosettaNet (BTARN)."
-title: "Troubleshooting: Issues and Resolutions3 | Microsoft Docs"
+title: "Troubleshooting: Issues and Resolutions3"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "troubleshooting"
-ms.assetid: 40f59f54-183e-43db-afb5-0a45b437697f
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting BizTalk Accelerator for RosettaNet (BTARN): Issues and Resolution
 

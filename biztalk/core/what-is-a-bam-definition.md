@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: What Is a BAM Definition?"
-title: "What Is a BAM Definition? | Microsoft Docs"
+title: "What Is a BAM Definition?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "definitions [BAM], observation models"
-  - "definitions [BAM], about BAM definitions"
-  - "definitions [BAM]"
-ms.assetid: 1ba1f45e-85fe-492f-8a2e-98bf3570c633
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is a BAM Definition?
 A BAM definition is an XML representation of a BAM observation model, which is a high-level definition a business process that you want to monitor. The main parts of the observation model, and therefore the BAM definition, are the milestone and data events to collect (the BAM activity); a description of any data aggregations; and how to present the information to users (the BAM view).  

@@ -1,34 +1,12 @@
 ---
 description: "Learn more about: Developing Custom Pipeline Components"
-title: "Developing Custom Pipeline Components | Microsoft Docs"
+title: "Developing Custom Pipeline Components"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components [custom]"
-  - "pipeline components [custom], about pipeline components"
-  - "pipeline components [custom], creating"
-  - "customizing, pipeline components"
-  - "pipeline interfaces"
-  - "IDisassemblerComponent"
-  - "pipeline interfaces, about pipeline interfaces"
-  - "creating, pipeline components [custom]"
-  - "IAssemblerComponent"
-  - "IComponent"
-  - "pipeline components [custom], customizing"
-  - "pipeline interfaces, interface types"
-  - "pipeline components [custom], interfaces"
-  - "pipeline components [custom], component types"
-ms.assetid: cce61e0d-f1e3-4ec2-b38c-7c6eaf83ac10
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developing Custom Pipeline Components
 This section describes how to develop a pipeline component. You can create three types of pipeline components: general, assembling, and disassembling. Each of the three types can additionally implement probing functionality. Each type of pipeline component has an associated interface that must be implemented for the component to be plugged into the BizTalk Messaging Engine; the pipeline interfaces that distinguish the types of components are **IComponent**, **IAssemblerComponent**, and **IDisassemblerComponent**. For probing components, you must implement the **IProbeMessage** interface.  

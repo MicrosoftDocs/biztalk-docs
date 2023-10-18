@@ -1,19 +1,12 @@
 ---
-title: "Import or export BizTalk Settings Using Settings Dashboard | Microsoft Docs"
+title: "Import or export BizTalk Settings Using Settings Dashboard"
 description: Use BizTalk Server Administration to import or export settings between BizTalk Server environments
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc2f0b44-d79b-4f95-811a-0843e3d6d1c8
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use Settings Dashboard to import or export BizTalk Settings 
 

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10723"
-title: "Single Sign-On: Event 10723 | Microsoft Docs"
+title: "Single Sign-On: Event 10723"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 00536f3e-26d6-4e19-a98f-e687bb1b6611
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10723
 ## Details  

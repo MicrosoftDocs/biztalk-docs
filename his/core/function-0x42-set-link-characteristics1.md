@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Function 0x42: Set Link Characteristics"
-title: "Function 0x42: Set Link Characteristics1 | Microsoft Docs"
+title: "Function 0x42: Set Link Characteristics1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: df9497a1-67ee-440e-a656-de9bf363d645
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Function 0x42: Set Link Characteristics
 This function sets the link protocol parameters required by the driver.  

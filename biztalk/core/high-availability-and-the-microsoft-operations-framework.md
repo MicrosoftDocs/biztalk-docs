@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: High Availability and the Microsoft Operations Framework"
-title: "High Availability and Microsoft Operations Framework | Microsoft Docs"
+title: "High Availability and Microsoft Operations Framework"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 54d8bae3-b241-4371-b8fc-a9cbdca6b495
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # High Availability and the Microsoft Operations Framework
 Applying the Microsoft Operations Framework (MOF) process model to the planning and implementation of a highly available Microsoft BizTalk Server solution can help you make sure that you have appropriate processes at the different stages of the release life cycle. By looking ahead at all the life cycle stages where high availability surfaces, you can make the installation, maintenance, and troubleshooting of availability issues in your environment easier.  

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Orchestrations"
-title: "Orchestrations | Microsoft Docs"
+title: "Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations"
-  - "correlations, orchestrations"
-  - "orchestrations, correlations"
-  - "orchestrations, deploying"
-  - "deploying, orchestrations"
-  - "orchestrations, about orchestrations"
-ms.assetid: fb01f78a-b805-46be-a7d9-2b7597daab96
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Orchestrations
 *Orchestrations* are executable business processes that can subscribe to (receive) and publish (send) messages through the MessageBox database. In addition, orchestrations can construct new messages. Messages are received using the subscription and routing infrastructure discussed in [Lifecycle of a Message](../core/lifecycle-of-a-message.md). When subscriptions are filled for orchestrations, a new instance is activated and the message is delivered, or in the case of instance subscriptions, the instance is rehydrated if necessary and the message is then delivered. When messages are sent from an orchestration, they are published to the MessageBox in the same manner as a message arriving on a receive location with the appropriate properties getting inserted into the database for use in routing.  

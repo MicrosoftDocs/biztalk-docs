@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOMapping.Delete Method"
-title: "ISSOMapping.Delete Method | Microsoft Docs"
+title: "ISSOMapping.Delete Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9ab5decb-78c6-4de3-9643-9053646d593c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOMapping.Delete Method
 The **Delete** method deletes the mapping.  

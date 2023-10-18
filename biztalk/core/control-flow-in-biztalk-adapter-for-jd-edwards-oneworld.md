@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Control Flow in BizTalk Adapter for JD Edwards OneWorld"
-title: "Control Flow in BizTalk Adapter for JD Edwards OneWorld | Microsoft Docs"
+title: "Control Flow in BizTalk Adapter for JD Edwards OneWorld"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "connection pooling"
-  - "control flows"
-  - "apartment threading"
-  - "apartment threading, business functions"
-ms.assetid: 1ec865d0-2257-453b-9230-1f3787ebac38
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Control Flow in BizTalk Adapter for JD Edwards OneWorld
 This topic discusses the design time and run-time control flows in Microsoft BizTalk Adapter for JD Edwards OneWorld.  

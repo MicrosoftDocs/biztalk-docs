@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: HTTP Receive Adapter"
-title: "HTTP Receive Adapter | Microsoft Docs"
+title: "HTTP Receive Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9008833c-5a02-4fb4-a43e-09ca28a21eff
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # HTTP Receive Adapter
 The receive location for the HTTP receive adapter is a distinct URL configured through the BizTalk Server Administration console.  

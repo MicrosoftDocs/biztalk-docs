@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_TN3270Session Class"
-title: "MsSnaStatus_TN3270Session Class2 | Microsoft Docs"
+title: "MsSnaStatus_TN3270Session Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 27d70a0a-5542-4a94-925a-0d6ffb5df438
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_TN3270Session Class
 The **MsSnaStatus_TN3270Session** class represents a TN3270 session status.  

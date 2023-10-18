@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid time to live timeout"
-title: "Invalid time to live timeout | Microsoft Docs"
+title: "Invalid time to live timeout"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c2ddb6de-8c3b-4dee-a984-980e1caea95e
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid time to live timeout
 ## Details  

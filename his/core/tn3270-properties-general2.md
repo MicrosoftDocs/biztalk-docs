@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: TN3270 Properties: General"
-title: "TN3270 Properties: General2 | Microsoft Docs"
+title: "TN3270 Properties: General2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_TN3270Service"
-ms.assetid: 2d4ba716-2681-451a-b859-4e95d3fa2640
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TN3270 Properties: General
 **Name**  

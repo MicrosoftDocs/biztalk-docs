@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: AS400 Definition Properties: General"
-title: "AS400 Definition Properties: General2 | Microsoft Docs"
+title: "AS400 Definition Properties: General2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_AS400"
-ms.assetid: 12598563-cf28-4a73-b454-e0bca6ca5296
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # AS400 Definition Properties: General
 **AS/400 Remote LU Alias**  

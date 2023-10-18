@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Overdrive Load Test"
-title: "Overdrive Load Test | Microsoft Docs"
+title: "Overdrive Load Test"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d16d0a8-4255-4f5a-86a2-26cc11bb9a70
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Overdrive Load Test
 The information in this topic refers to the tests explained in [Test Scenarios for Measuring MST of the Engine](../core/test-scenarios-for-measuring-mst-of-the-engine.md).
@@ -21,7 +14,7 @@ The information in this topic refers to the tests explained in [Test Scenarios f
  The Load Generation tool, LoadGen 2007, enables you to simulate heavy loads on a BizTalk Server system.
 
 > [!NOTE]
->  Download [LoadGen](https://www.microsoft.com/download/details.aspx?id=14925). The previous version of this tool, the BizTalk Server 2004 Load Generation Tool is available for download at [https://go.microsoft.com/fwlink/?linkid=108999](https://go.microsoft.com/fwlink/?linkid=108999).
+>  Download [LoadGen](https://www.microsoft.com/download/details.aspx?id=14925).
 
  To simulate a continuously overdriven system, LoadGen 2007 was configured to send about 410 msgs/sec, 120 msgs/sec more than the measured maximum sustainable throughput.
 

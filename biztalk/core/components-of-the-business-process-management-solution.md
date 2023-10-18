@@ -1,32 +1,12 @@
 ---
 description: "Learn more about: Components of the Business Process Management Solution"
-title: "Components of the Business Process Management Solution | Microsoft Docs"
+title: "Components of the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "process management solution tutorial, back-end systems, process management solutions"
-  - "process management solution tutorial, client applications"
-  - "orchestrations, process management solutions"
-  - "adapters, process management solutions"
-  - "process management solution tutorial, adapters"
-  - "client applications, process management solutions"
-  - "process management solution tutorial, components"
-  - "process management solution tutorial, orchestrations"
-  - "pipelines, process management solutions"
-  - "process management solution tutorial, pipelines"
-  - "assemblies, process management solutions"
-  - "process management solution tutorial, assemblies"
-ms.assetid: e3ccebb9-b677-4c17-acd2-0f986f7bd3f0
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Components of the Business Process Management Solution
 This section describes the major BizTalk Server components of the Business Process Management Solution. For information about the source files, see [File Inventory for the Business Process Management Solution](../core/file-inventory-for-the-business-process-management-solution.md).  

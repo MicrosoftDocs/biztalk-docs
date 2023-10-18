@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configure a physical port binding using a port binding file to use the SQL adapter"
-title: "Configure a physical port binding using a port binding file to use the SQL adapter | Microsoft Docs"
+title: "Configure a physical port binding using a port binding file to use the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 95b54357-b23d-4ed7-8e31-bd60ed3e625f
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure a physical port binding using a port binding file to use the SQL adapter
 When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata for a SQL Server artifact, other than the schema files, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also generates a port binding file. You can import this binding file into your BizTalk application to create a physical send or receive port. For instructions on importing binding files, see [Reuse adapter bindings](../../adapters-and-accelerators/adapter-sql/reuse-sql-adapter-bindings.md). If you import this binding file, you do not have to manually create a physical send or receive port.  

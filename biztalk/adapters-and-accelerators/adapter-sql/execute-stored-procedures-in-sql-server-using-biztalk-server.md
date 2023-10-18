@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Execute stored procedures in SQL Server using BizTalk Server"
-title: "Execute stored procedures in SQL Server using BizTalk Server | Microsoft Docs"
+title: "Execute stored procedures in SQL Server using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4329a5c1-4df9-4bf7-8a9f-e3c19cb368fb
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Execute stored procedures in SQL Server using BizTalk Server
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces the procedures in SQL Server database as operations. Adapter clients can invoke the procedures by using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. For more information about how the adapter supports these operations, see [Execute Stored Procedures in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/execute-stored-procedures-in-sql-server-using-the-sql-adapter.md). For information about the structure of the SOAP message for these operations, see [Message Schemas for Procedures and Functions](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md).  

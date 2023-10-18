@@ -1,19 +1,12 @@
 ---
-title: "Configure the SOAP action for Oracle Database in BizTalk | Microsoft Docs"
+title: "Configure the SOAP action for Oracle Database in BizTalk"
 description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-OracleDB adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d0d21cca-3907-4f99-af76-c1e7286e1bcf
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure the SOAP action for Oracle Database
 To complete any operation on the Oracle database using the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], adapter users must enter a SOAP action. The SOAP action communicates to the adapter what action should be completed. You can enter the SOAP action either at design time or at run time. However, if you enter the SOAP action both at design time and run time, the action you enter at design time is overridden.  

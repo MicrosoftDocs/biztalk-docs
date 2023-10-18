@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Solution Explorer"
-title: "Solution Explorer1 | Microsoft Docs"
+title: "Solution Explorer1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b54aa562-d27c-45fb-b3e0-9a4470bcb687
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Solution Explorer
 Visual Studio Solution Explorer provides an organized view of projects and their files, in addition to access to available commands and toolbars. The following files are supported by the project:  

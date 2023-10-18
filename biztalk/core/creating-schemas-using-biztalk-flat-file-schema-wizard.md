@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Creating Schemas Using BizTalk Flat File Schema Wizard"
-title: "Creating Schemas Using BizTalk Flat File Schema Wizard | Microsoft Docs"
+title: "Creating Schemas Using BizTalk Flat File Schema Wizard"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 28d35722-70a5-48fe-a667-0edc952e43a9
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Schemas Using BizTalk Flat File Schema Wizard
 The BizTalk Flat File Schema Wizard is designed to simplify the process of creating flat file schemas by providing the following:  

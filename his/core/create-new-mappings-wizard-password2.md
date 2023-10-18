@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Create New Mappings Wizard: Password"
-title: "Create New Mappings Wizard: Password2 | Microsoft Docs"
+title: "Create New Mappings Wizard: Password2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 10e72feb-f053-41ba-b645-7323c49851ad
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Create New Mappings Wizard: Password
 This page collects information to generate a password based on the Windows account name.  

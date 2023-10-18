@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Search for Subscriptions"
-title: "How to Search for Subscriptions | Microsoft Docs"
+title: "How to Search for Subscriptions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Query tab [Administration Console], subscriptions"
-  - "Query tab [Administration Console], searching"
-  - "subscriptions, viewing"
-  - "subscriptions, searching"
-ms.assetid: 95f8fd20-2750-412b-a67b-18976e7706e2
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Search for Subscriptions
 You can use the **Query** tab in the BizTalk Server Administration Console to search for subscriptions. This is useful when you want to review all of the subscriptions defined in the system. When troubleshooting routing failures, you can review subscriptions to see if any of them are improperly configured, thereby causing the routing failure.  

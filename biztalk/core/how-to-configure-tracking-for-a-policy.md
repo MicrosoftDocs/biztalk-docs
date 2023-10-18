@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: How to Configure Tracking for a Policy"
-title: "How to Configure Tracking for a Policy | Microsoft Docs"
+title: "How to Configure Tracking for a Policy"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "policies, tracking"
-  - "HAT, policies"
-  - "managing [policies], tracking"
-  - "tracking, policies"
-  - "managing [policies], configuring"
-  - "policies, configuring"
-  - "configuring [HAT tracking], policies"
-  - "tracking, configuring"
-ms.assetid: f126e541-c183-4544-8b9d-ca07d2af303e
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Tracking for a Policy
 This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administration console to configure tracking for a policy. You can select options to view instance data, results of conditions, actions, and agenda updates in the query views of the administration console Group Hub page.  

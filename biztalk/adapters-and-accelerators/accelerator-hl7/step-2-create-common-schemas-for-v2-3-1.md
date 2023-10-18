@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: Step 2: Create Common Schemas for V2.3.1"
 title: "Step 2: Create Common Schemas for V2.3.1"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "end-to-end tutorial, common schemas"
-  - "common schemas"
-ms.assetid: db1a2206-559f-475a-803d-55522cce007e
-caps.latest.revision: 5
-
-
-
 ---
 # Step 2: Create Common Schemas for V2.3.1
 The V2.3.1 schemas are commonly referenced schemas, which you use to validate the message instance.  

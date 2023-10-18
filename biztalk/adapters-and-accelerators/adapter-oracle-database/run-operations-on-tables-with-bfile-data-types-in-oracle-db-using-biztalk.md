@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Run operations on Tables with BFILE Data Types in Oracle Database using BizTalk Server"
-title: "Run operations on Tables with BFILE Data Types in Oracle Database using BizTalk Server | Microsoft Docs"
+title: "Run operations on Tables with BFILE Data Types in Oracle Database using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "operations on tables with BFILE data types, performing by using BizTalk Server"
-  - "BFILE data types"
-ms.assetid: 2e4af5a9-acde-419b-a99c-3eaa0c72daa8
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run operations on Tables with BFILE Data Types in Oracle Database using BizTalk Server
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports the BFILE data type in tables and stored procedures. This section provides information on how to perform operations on tables that have a column of BFILE data type. For more information about how the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports BFILE, see [Operations on Tables With BFILE Data Types in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/operations-on-tables-with-bfile-data-types-in-oracle-database.md).  

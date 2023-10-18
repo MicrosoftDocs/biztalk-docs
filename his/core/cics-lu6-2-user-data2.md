@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CICS LU6.2 User Data"
-title: "CICS LU6.2 User Data2 | Microsoft Docs"
+title: "CICS LU6.2 User Data2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 779dfac4-c27c-40de-bdd4-8d7be613917f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CICS LU6.2 User Data
 The CICS LU6.2 User Data programming model provides direct invocations and data exchanges between TI and the server TP. No other communication components are required with this model.  

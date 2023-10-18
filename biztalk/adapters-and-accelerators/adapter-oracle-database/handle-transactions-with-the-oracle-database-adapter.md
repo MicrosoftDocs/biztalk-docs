@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Handle Transactions with the Oracle Database adapter"
-title: "Handle Transactions with the Oracle Database adapter | Microsoft Docs"
+title: "Handle Transactions with the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 971c2fba-640c-4ae5-9ab3-2d8227c1627d
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Handle Transactions with the Oracle Database adapter
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] does not initiate a transaction while performing an operation on the Oracle database. Instead, the adapter performs the operations using the transaction context provided by the adapter clients. In order to perform operations in a transaction using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], you must:  

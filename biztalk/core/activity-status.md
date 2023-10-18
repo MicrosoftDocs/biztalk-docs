@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Activity Status"
-title: "Activity Status | Microsoft Docs"
+title: "Activity Status"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "activities [BAM], status"
-  - "Query Builder [BAM portal], viewing details"
-  - "Query Builder [BAM portal], viewing activity status"
-  - "activities [BAM], viewing status"
-  - "queries [BAM], viewing details"
-ms.assetid: 986ea044-576d-4e68-8ade-077165eaf735
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Activity Status
 The Activity Status area of the results details allows you to view all of the details for the results item on a single page.  

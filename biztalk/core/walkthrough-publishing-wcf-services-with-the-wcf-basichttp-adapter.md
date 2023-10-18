@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Publishing WCF Services with the WCF-BasicHttp Adapter"
-title: "Walkthrough: Publishing WCF Services with the WCF-BasicHttp Adapter | Microsoft Docs"
+title: "Walkthrough: Publishing WCF Services with the WCF-BasicHttp Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "tutorials, publishing"
-  - "WCF adapters, tutorials"
-  - "publishing, WCF services"
-  - "WCF-BasicHttp adapters, tutorials"
-  - "publishing, tutorials"
-  - "WCF services, publishing"
-  - "tutorials, WCF adapters"
-ms.assetid: 43b76215-9cb0-47ab-a085-c4cf265410f9
-caps.latest.revision: 72
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Publishing WCF Services with the WCF-BasicHttp Adapter
 ## Introduction

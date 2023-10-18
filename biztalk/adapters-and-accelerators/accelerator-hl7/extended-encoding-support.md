@@ -1,19 +1,9 @@
 ---
 description: "Learn more about: Extended Encoding Support"
 title: "Extended Encoding Support"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: 93a40fa6-d0da-416e-97fb-675ddde3f005
-caps.latest.revision: 9
-
-
-
 ---
 # Extended Encoding Support
 By default, the HL7 receive pipeline, BTAHL72X, only supports ASCII encoding. This means that any characters in an input message with an equivalent value greater than 127 are replaced with "?". This is because characters with an equivalent value greater than 127 are not represented in the ASCII character set.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Fallback Validation Properties (X12)"
-title: "Configuring Fallback Validation Properties (X12) | Microsoft Docs"
+title: "Configuring Fallback Validation Properties (X12)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1a64431d-373a-4d63-9b83-cbb323620152
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Fallback Validation Properties (X12)
 X12 interchange validation generation fallback settings define how [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] checks for duplicate control numbers in the received interchange.  

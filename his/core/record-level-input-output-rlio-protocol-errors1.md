@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Record-Level Input/Output (RLIO) Protocol Errors"
-title: "Record-Level Input-Output (RLIO) Protocol Errors | Microsoft Docs"
+title: "Record-Level Input-Output (RLIO) Protocol Errors"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fbe7c55e-1077-4110-a133-a1b3c3ad1471
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Record-Level Input/Output (RLIO) Protocol Errors
 The following table lists RLIO protocol error constants, values, SqlState, SqlCode and a description of the error. An asterisk (*) indicates not in use.  

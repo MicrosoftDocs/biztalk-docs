@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The unsigned Short property value is not valid"
-title: "The unsigned Short property value is not valid | Microsoft Docs"
+title: "The unsigned Short property value is not valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 31600ed6-20bc-4382-9eb3-4d6fa9646411
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The unsigned Short property value is not valid
 ## Details  

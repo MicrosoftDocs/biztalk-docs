@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Deploying BRE Rules"
-title: "Deploying BRE Rules | Microsoft Docs"
+title: "Deploying BRE Rules"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, BRE policies"
-  - "BRE policies, deploying"
-ms.assetid: 3a66aa57-e7f9-400f-963c-eda12fb1e659
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploying BRE Rules
 You must deploy the BRE rules used by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] orchestrations to process SWIFT messages.  

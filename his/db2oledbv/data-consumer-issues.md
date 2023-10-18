@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Data Consumer Issues"
-title: "Data Consumer Issues | Microsoft Docs"
+title: "Data Consumer Issues"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 596564f9-ad8a-4c56-915f-1a4ff2a4e110
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Data Consumer Issues
 This topic provides information to troubleshoot data consumer issues.

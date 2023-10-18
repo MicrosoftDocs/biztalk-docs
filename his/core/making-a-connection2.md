@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Making a Connection"
-title: "Make a connection | Microsoft Docs"
+title: "Make a connection"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 484ef761-830a-4c5b-bc1c-235ec9044a3f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Making a Connection
 Give users and groups access to the mainframe environment, install connections, and verify the installation. For information on the IP-DLC Link Service, see [IP-DLC Link Service](./ip-dlc-link-service2.md).

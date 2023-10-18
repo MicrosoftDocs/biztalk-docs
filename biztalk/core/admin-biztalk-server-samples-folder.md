@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Admin (BizTalk Server Samples Folder)"
-title: "Admin (BizTalk Server Samples Folder) | Microsoft Docs"
+title: "Admin (BizTalk Server Samples Folder)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SDK examples"
-  - "examples, administering"
-  - "administering, examples"
-ms.assetid: 178d0ee2-d437-4945-a35d-1a8be524aff1
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Admin (BizTalk Server Samples Folder)
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several administration samples in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each administration sample, instructions for building and running the sample, and the results you can expect.  

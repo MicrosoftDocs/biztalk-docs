@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA Verbs"
-title: "LUA Verbs2 | Microsoft Docs"
+title: "LUA Verbs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 205b704c-e0e9-49a2-b293-1eddf692d1bb
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA Verbs
 This implementation of logical unit application (LUA) is available to applications written in Microsoft® C++® version 6.0 or later. Applications access all LUA functions on Windows Server by issuing verbs using the external C functions [RUI](./rui2.md),[SLI](./sli2.md),[WinRUI](./winrui1.md), and [WinSLI](./winsli1.md).  

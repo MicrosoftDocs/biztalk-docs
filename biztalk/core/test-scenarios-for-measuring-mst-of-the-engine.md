@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Test Scenarios for Measuring MST of the Engine"
-title: "Test Scenarios for Measuring MST of the Engine | Microsoft Docs"
+title: "Test Scenarios for Measuring MST of the Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e54667b9-7262-43c8-a013-9242eb062daf
-caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Test Scenarios for Measuring MST of the Engine
 This section describes a test scenario that was implemented to measure the effect of driving a BizTalk system at three different levels of load:
@@ -50,7 +43,7 @@ This section describes a test scenario that was implemented to measure the effec
  The test scenario is very simple. The load generation tool, LoadGen 2007, was installed on the load driver server and was used to send copies of a file to shares monitored by the file adapter. The load generation tool distributes copies of the input file instance evenly across the file shares.
 
 > [!NOTE]
->  Download [LoadGen](https://www.microsoft.com/download/details.aspx?id=14925). The previous version of this tool, the BizTalk Server 2004 Load Generation Tool is available for download at [https://go.microsoft.com/fwlink/?linkid=108999](https://go.microsoft.com/fwlink/?linkid=108999). For information about using LoadGen with the MSMQ adapter, see [Using LoadGen 2007 with MSMQ](../core/using-loadgen-2007-with-msmq.md).
+>  Download [LoadGen](https://www.microsoft.com/download/details.aspx?id=14925). For information about using LoadGen with the MSMQ adapter, see [Using LoadGen 2007 with MSMQ](../core/using-loadgen-2007-with-msmq.md).
 
  The BizTalk File adapter is configured to monitor the file shares and publish the messages into the MessageBox. A simple orchestration that contains only a receive shape and a send shape subscribes to the published message. Messages that are published back into the MessageBox by the orchestration are picked up by a file send port and sent to a common share, defined on the SAN. Files arriving on the output SAN share are immediately deleted in order to avoid file buildup on that share during long test runs.
 

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: FileAct Adapter Delivery Notification"
-title: "FileAct Adapter Delivery Notification | Microsoft Docs"
+title: "FileAct Adapter Delivery Notification"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fbd8207b-c50f-4a5d-ac2f-7dc8f5af54c7
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FileAct Adapter Delivery Notification
 After verifying the completion of receipt (including signature and digest verification) as indicated in the message request, the FileAct adapter transmits the appropriate delivery notification to the sender.  

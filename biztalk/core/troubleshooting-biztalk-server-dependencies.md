@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting BizTalk Server Dependencies"
-title: "Troubleshooting BizTalk Server Dependencies | Microsoft Docs"
+title: "Troubleshooting BizTalk Server Dependencies"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 677b7ef3-9a91-4f1e-bfc5-926bfab23a0f
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting BizTalk Server Dependencies
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] makes extensive use of several other Microsoft products for design time and run-time operations. This section contains troubleshooting guidelines for resolving problems that can occur in these underlying technologies.  

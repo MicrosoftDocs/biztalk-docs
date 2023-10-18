@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Use the /print Option"
-title: "Use the -print Option1 | Microsoft Docs"
+title: "Use the -print Option1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f2ed5bd9-e68a-4fc0-a82b-d0ada122e57c
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Use the /print Option
 The **/print** option can make it easier to carry out repetitive configuration actions, if you have a detailed understanding of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] configurations and of the **snacfg** command. Here are some ways of using the **/print** option:  

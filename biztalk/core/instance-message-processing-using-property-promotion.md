@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Instance Message Processing Using Property Promotion"
-title: "Instance Message Processing Using Property Promotion | Microsoft Docs"
+title: "Instance Message Processing Using Property Promotion"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 753571b8-4609-4ac4-a974-8bd6dfecb077
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Instance Message Processing Using Property Promotion
 Promoting properties by using the **Property Field** method requires the creation of a property schema. For more information about creating a property schema, see [How to Create Property Schemas](../core/how-to-create-property-schemas.md). As with all property promotion, you use the **Promote Properties** dialog box, which is accessible by using the **Promote Properties** property of the **Schema** node in message schemas.  

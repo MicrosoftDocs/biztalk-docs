@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Best Practices for Updating Applications"
-title: "Best Practices for Updating Applications | Microsoft Docs"
+title: "Best Practices for Updating Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 072eaf25-a1ee-4af3-b034-525a04260ef4
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Best Practices for Updating Applications
 This topic describes best practices that you should consider using when updating BizTalk applications and artifacts.

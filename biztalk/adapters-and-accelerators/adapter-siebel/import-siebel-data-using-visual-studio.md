@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Import Siebel Data Using Visual Studio"
-title: "Import Siebel Data Using Visual Studio | Microsoft Docs"
+title: "Import Siebel Data Using Visual Studio"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 33701361-eca2-4795-a5e0-78162a98e9ba
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Import Siebel Data Using Visual Studio
 This section provides information about how to use Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to import data from a Siebel system into a SQL Server database. It also provides instructions on how to create and execute an SSIS package to import this data.  

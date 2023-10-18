@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Asynchronous Call Completion"
-title: "Asynchronous Call Completion1 | Microsoft Docs"
+title: "Asynchronous Call Completion1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8112926f-73fa-45b5-9972-020161401ada
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Asynchronous Call Completion
 With one exception, Microsoft® Host Integration Server permits one outstanding Windows® SNA asynchronous call per connection and one blocking verb per thread. The exception to this is that when issuing an asynchronous [Receive](./receive-cpi-c-2.md) call, the following calls can be issued while the **Receive** is outstanding:  

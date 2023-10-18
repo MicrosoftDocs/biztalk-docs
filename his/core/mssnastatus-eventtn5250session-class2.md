@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_EventTN5250Session Class"
-title: "MsSnaStatus_EventTN5250Session Class2 | Microsoft Docs"
+title: "MsSnaStatus_EventTN5250Session Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2c055164-995f-4d79-92a7-e57b82772add
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_EventTN5250Session Class
 The **MsSnaStatus_EventTN5250** class describes a change to the **EventTN5250Session** class.  

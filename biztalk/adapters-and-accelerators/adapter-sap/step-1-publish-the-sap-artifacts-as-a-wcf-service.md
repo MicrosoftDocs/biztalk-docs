@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Step 1: Publish the SAP Artifacts as a WCF Service"
-title: "Step 1: Publish the SAP Artifacts as a WCF Service | Microsoft Docs"
+title: "Step 1: Publish the SAP Artifacts as a WCF Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "WCF service, generating a"
-  - "WCF Adapter Service Development Wizard , using the"
-  - "WCF Adapter Service Development Wizard"
-  - "SAP artifacts, publishing as a WCF service"
-ms.assetid: bd3087b0-e20f-4b75-beef-a913336d767b
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Publish the SAP Artifacts as a WCF Service
 ![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")

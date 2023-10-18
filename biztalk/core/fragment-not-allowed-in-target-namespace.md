@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Fragment not allowed in target namespace"
-title: "Fragment not allowed in target namespace | Microsoft Docs"
+title: "Fragment not allowed in target namespace"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 713d48ea-fed9-410d-b002-579f5f2f7e7a
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Fragment not allowed in target namespace
 ## Details  

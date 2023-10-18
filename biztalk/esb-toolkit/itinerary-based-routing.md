@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Itinerary-Based Routing"
-title: "Itinerary-Based Routing | Microsoft Docs"
+title: "Itinerary-Based Routing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 28028721-798c-4302-a532-d863ed8ea88b
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Itinerary-Based Routing
 One of the core features of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is the provision of itinerary-based routing that simplifies the development of enterprise-level messaging applications and reduces the costs of maintaining a large number of static send ports and receive locations.  

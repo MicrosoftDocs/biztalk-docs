@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Unrecognized Messages in the XML Assembler Pipeline Component"
-title: "Unrecognized Messages in the XML Assembler Pipeline Component | Microsoft Docs"
+title: "Unrecognized Messages in the XML Assembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XMLNorm.AllowUnrecognizedMessage property"
-  - "XML Assembler [pipeline component], unrecognized messages"
-  - "pipeline components, XML Assembler"
-ms.assetid: dd98512a-33a4-4b2e-977e-1b3a30747c6a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unrecognized Messages in the XML Assembler Pipeline Component
 The XML Assembler component treats a message as "unrecognized" if a message has:  

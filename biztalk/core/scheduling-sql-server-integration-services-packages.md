@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Schedule SQL Server Integration Services Packages in BizTalk Server"
-title: "Scheduling SQL Server Integration Services Packages | Microsoft Docs"
+title: "Scheduling SQL Server Integration Services Packages"
 ms.custom: "biztalk-2020"
 ms.date: "01/14/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 037ae2cf-c352-4823-95df-9a723f2b5a81
-caps.latest.revision: 22
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "mijacobs"
 ---
 
 # Schedule SQL Server Integration Services Packages in BizTalk Server

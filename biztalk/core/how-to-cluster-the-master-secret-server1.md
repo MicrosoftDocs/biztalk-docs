@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Cluster the Master Secret Server"
-title: "How to Cluster the Master Secret Server1 | Microsoft Docs"
+title: "How to Cluster the Master Secret Server1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "Master Secret server, second node"
-  - "Master Secret server, restoring"
-  - "clustering, Master Secret server"
-  - "Master Secret server, clustering"
-ms.assetid: ef817fa4-e43d-4e3d-8686-5bd675708001
-caps.latest.revision: 47
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Cluster the Master Secret Server
 We recommended that you follow the instructions in this section to cluster the Enterprise Single Sign-On (SSO) service on the master secret server successfully.

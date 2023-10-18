@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Optional Second Element (Only Used by X.25 SVC)"
-title: "Optional Second Element (Only Used by X.25 SVC)2 | Microsoft Docs"
+title: "Optional Second Element (Only Used by X.25 SVC)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 29e59583-2ff6-48a5-a289-30bad92fd319
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Optional Second Element (Only Used by X.25 SVC)
 **Element 2**  

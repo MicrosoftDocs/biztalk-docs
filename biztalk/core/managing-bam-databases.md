@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Managing BAM Databases"
-title: "Managing BAM Databases | Microsoft Docs"
+title: "Managing BAM Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [BAM], databases"
-  - "databases [BAM], managing"
-  - "databases, BAM"
-ms.assetid: ce3c472e-2da1-4d67-816a-befe4ded20d9
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing BAM Databases
 Administrators use the BAM Management utility (bm.exe) to set up, manage, and update the BAM databases. This section shows you how to use the BAM Management utility to perform these common administrator tasks for the BAM databases, which are described in the following table.  

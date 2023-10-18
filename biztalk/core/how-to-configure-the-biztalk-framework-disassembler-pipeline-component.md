@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure the BizTalk Framework Disassembler Pipeline Component"
-title: "How to Configure the BizTalk Framework Disassembler Pipeline Component | Microsoft Docs"
+title: "How to Configure the BizTalk Framework Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components, BizTalk Framework Disassembler"
-  - "disassembly stage, pipelines"
-  - "receive pipelines, disassembly stage"
-  - "BizTalk Framework Disassembler [pipeline component], configuring"
-ms.assetid: a5599bcb-dbee-46a5-a91d-3c54f901cd30
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the BizTalk Framework Disassembler Pipeline Component
 The BizTalk Framework Disassembler pipeline component should be used in the Disassemble stage of a receive pipeline.  

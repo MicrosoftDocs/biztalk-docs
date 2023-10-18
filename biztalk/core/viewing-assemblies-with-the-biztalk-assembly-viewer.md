@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Viewing Assemblies with the BizTalk Assembly Viewer"
-title: "Viewing Assemblies with the BizTalk Assembly Viewer | Microsoft Docs"
+title: "Viewing Assemblies with the BizTalk Assembly Viewer"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9831eb88-84bc-4d18-8174-43c3baab83fe
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Viewing Assemblies with the BizTalk Assembly Viewer
 When you are developing applications or deploying assemblies, you need to see which assemblies are deployed and available to you. Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides a convenient tool for this purpose - BizTalk Assembly Viewer.  

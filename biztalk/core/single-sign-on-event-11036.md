@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11036"
-title: "Single Sign-On: Event 11036 | Microsoft Docs"
+title: "Single Sign-On: Event 11036"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2dad0427-83dd-42ac-b0bc-d113abdc8e89
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11036
 ## Details  

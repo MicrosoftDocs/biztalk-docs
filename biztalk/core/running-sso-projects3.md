@@ -1,24 +1,12 @@
 ---
 description: "Learn how to run a Single Sign-On (SSO) project from Internet Explorer using a sample."
-title: "Running SSO Projects3 | Microsoft Docs"
+title: "Running SSO Projects3"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSO, running projects"
-  - "running SSO projects"
-  - "SSO, samples"
-  - "Single Sign-On, running projects"
-ms.assetid: 59e48ac6-4672-4d10-902c-181bb513580d
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running SSO Projects
 

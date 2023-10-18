@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configure the FileAct and InterAct Adapter"
-title: "Configure the FileAct and InterAct Adapter | Microsoft Docs"
+title: "Configure the FileAct and InterAct Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d3876ff-e8e4-47f4-9ca8-d4dad419ed67
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure the FileAct and InterAct Adapter
 

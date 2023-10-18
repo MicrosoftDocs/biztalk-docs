@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Send-Side Processing of an Outgoing EDI Message over AS2"
-title: "Send-Side Processing of an Outgoing EDI Message over AS2 | Microsoft Docs"
+title: "Send-Side Processing of an Outgoing EDI Message over AS2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dfb63b22-6e2e-4d4f-b028-301c8d4d53b0
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Send-Side Processing of an Outgoing EDI Message over AS2
 Send-side processing of an EDI message over AS2 includes sending an AS2 message with the EDI payload and receiving MDN and EDI acknowledgments (if enabled).  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: X.25 Adapters and Link Services: Installation Pointers"
-title: "X.25 Adapters and Link Services: Installation Pointers1 | Microsoft Docs"
+title: "X.25 Adapters and Link Services: Installation Pointers1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e3c27094-b567-4737-85ba-fe4dd41baaa5
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # X.25 Adapters and Link Services: Installation Pointers
 An X.25 link service enables the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] software to communicate with the X.25 adapter. The following pointers highlight important steps for installing an X.25 adapter and link service:  

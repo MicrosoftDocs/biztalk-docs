@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Insert, update, delete, or select operations in Oracle Database using the WCF Service Model"
-title: "Insert, update, delete, or select operations in Oracle Database using the WCF Service Model | Microsoft Docs"
+title: "Insert, update, delete, or select operations in Oracle Database using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF service model, Delete operation"
-  - "WCF service model, Select operation"
-  - "WCF service model, Insert operation"
-  - "WCF service model, Update operation"
-ms.assetid: d1a9f44f-ea0b-4dd6-9489-fa0d963848c4
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Insert, update, delete, or select operations in Oracle Database using the WCF Service Model
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces a set of basic Insert, Update, Delete, and Select operations on Oracle database tables and views. By using these operations, you can perform simple SQL INSERT, UPDATE, SELECT, and DELETE statements qualified by a WHERE clause on a target table or view. To perform more complex operations, for example a SQL SELECT query that uses the JOIN operator, you can use the SQLEXECUTE operation. For more information about the SQLEXECUTE operation, see [Performing a SQLEXECUTE Operation in Oracle Database Using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/run-sqlexecute-operation-in-oracle-database-using-the-wcf-service-model.md).  

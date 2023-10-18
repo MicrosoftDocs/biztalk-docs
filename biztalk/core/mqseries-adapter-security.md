@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Security with the MQSeries adapter"
-title: "MQSeries Adapter Security | Microsoft Docs"
+title: "MQSeries Adapter Security"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, MQSeries adapters"
-  - "MQSeries adapters, security"
-ms.assetid: 0bd82c21-6b77-4a66-a4e9-4a91ba4a56c4
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security with the MQSeries adapter
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOAdmin2.UpdateApplication2 Method"
-title: "ISSOAdmin2.UpdateApplication2 Method | Microsoft Docs"
+title: "ISSOAdmin2.UpdateApplication2 Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 871cacd2-9cca-412e-b8f0-628b979df8bd
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOAdmin2.UpdateApplication2 Method
 The UpdateApplication2 method updates the application information in the Enterprise Single Sign-On (SSO) server database.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Recover the BizTalk Group"
-title: "Recover the BizTalk Group | Microsoft Docs"
+title: "Recover the BizTalk Group"
 ms.custom: ""
 ms.date: "01/30/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f1010e55-7e3d-4565-8604-ea652ea4da8c
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Recover the BizTalk Group
 You must rejoin the BizTalk Server to an existing BizTalk group as part of the system recovery process.  

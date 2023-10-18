@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Create an application definition file for the Oracle E-Business Suite artifacts"
-title: "Step 2: Create an application definition file for the Oracle E-Business Suite artifacts | Microsoft Docs"
+title: "Step 2: Create an application definition file for the Oracle E-Business Suite artifacts"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2665afde-0337-4795-ab4c-6223d39fdf9c
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Create an application definition file for the Oracle E-Business Suite artifacts
 ![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")
@@ -34,7 +27,7 @@ manager: "anneta"
 
 ## Prerequisites
 
--   Be sure that you have the Business Data Catalog Definition Editor installed as part of the Microsoft Office SharePoint Server 2007 SDK. You can download the SDK from [https://go.microsoft.com/fwlink/?LinkId=104130](https://go.microsoft.com/fwlink/?LinkId=104130).
+-   You must have the Business Data Catalog Definition Editor installed as part of the Microsoft Office SharePoint Server 2007 SDK.
 
 -   Publish the WCF service as described in [Step 1: Use the Oracle E-Business Adapter to Create and Publish a WCF Service](../../adapters-and-accelerators/adapter-oracle-ebs/step-1-use-the-oracle-e-business-adapter-to-create-and-publish-a-wcf-service.md).
 

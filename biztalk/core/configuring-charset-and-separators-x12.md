@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Charset and Separators (X12)"
-title: "Configuring Charset and Separators (X12) | Microsoft Docs"
+title: "Configuring Charset and Separators (X12)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6249f2e1-70b0-4960-bbc4-0c3fefd26faa
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Charset and Separators (X12)
 In the partner agreement, you can specify the character set that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will use to validate party properties when creating the envelope for an outgoing X12 message. You can also specify what separators and terminators will be used for the segments in the interchange.  

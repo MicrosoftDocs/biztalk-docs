@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Alert Subscription Management Commands"
-title: "Alert Subscription Management Commands | Microsoft Docs"
+title: "Alert Subscription Management Commands"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4cd6ad27-6217-466a-b616-4b26fb31b0af
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Alert Subscription Management Commands
 The BAM management utility subscription management commands allow you to work with alert subscriptions.  

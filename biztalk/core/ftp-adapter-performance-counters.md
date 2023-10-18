@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: FTP Adapter Performance Counters"
-title: "FTP Adapter Performance Counters | Microsoft Docs"
+title: "FTP Adapter Performance Counters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ca5cbe67-9aa3-4194-816e-fab4eb551c07
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FTP Adapter Performance Counters
 Performance counters allow you to monitor specific aspects of work performed on the site or system by service. Performance counters can help you identify and troubleshoot server performance issues.  

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: How to Handle Null and DBNull"
-title: "How to Handle Null and DBNull | Microsoft Docs"
+title: "How to Handle Null and DBNull"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "business rules, NULL"
-ms.assetid: d235c265-4947-470b-9f2d-9936ae1b88a1
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Handle Null and DBNull
 This topic describes the expected behaviors when dealing with null values associated with different types, and discusses options for checking null or existence of a particular field or member.  

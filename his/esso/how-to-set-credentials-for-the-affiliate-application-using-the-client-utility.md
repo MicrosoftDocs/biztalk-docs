@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Set Credentials for the Affiliate Application Using the Client Utility"
-title: "How to Set Credentials for the Affiliate Application Using the Client Utility | Microsoft Docs"
+title: "How to Set Credentials for the Affiliate Application Using the Client Utility"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e565fe22-6805-4ec8-9fc5-dd5ef88e752c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Set Credentials for the Affiliate Application Using the Client Utility
 Use the **setcredentials** command to set the credentials for a user so that the user can access a specific application.  

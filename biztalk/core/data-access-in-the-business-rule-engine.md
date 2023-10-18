@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Data Access in the Business Rule Engine"
-title: "Data Access in the Business Rule Engine | Microsoft Docs"
+title: "Data Access in the Business Rule Engine"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Business Rules Engine, data access"
-  - "Business Rules Engine, helper classes"
-  - "data, data access"
-ms.assetid: 38da32af-1e0d-43fb-b946-fb49a11f1681
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Data Access in the Business Rule Engine
 The rule engine supports only .NET objects natively. To handle data from a database, you can use the ADO.NET objects directly, but the engine provides some helper classes to simplify the use of database data from rules. The rule engine extends its support by exposing three database-related types: **TypedDataRow**, **TypedDataTable**, and **DataConnection**. This section describes these helper classes, gives recommendations about when to use each type, and discusses some performance implications when using them.  

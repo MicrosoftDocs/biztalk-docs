@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring General Settings (EDIFACT)"
-title: "Configuring General Settings (EDIFACT) | Microsoft Docs"
+title: "Configuring General Settings (EDIFACT)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e18892d3-c1a4-41c8-98c2-a116ce2805ba
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring General Settings (EDIFACT)
 As part of the general settings, you specify agreement name, the protocol it will use (X12 or EDIFACT), the parties and profiles that the agreement is between, and whether to have reporting enabled for all messages processed through the agreement. You can also specify the party contact information as part of the agreement.  

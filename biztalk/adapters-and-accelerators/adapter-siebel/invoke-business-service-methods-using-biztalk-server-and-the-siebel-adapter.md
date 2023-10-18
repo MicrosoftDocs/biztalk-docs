@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Invoke Business Service Methods Using BizTalk Server and the Siebel adapter"
-title: "Invoke Business Service Methods Using BizTalk Server and the Siebel adapter | Microsoft Docs"
+title: "Invoke Business Service Methods Using BizTalk Server and the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "how to, invoke business service methods"
-  - "business service methods, invoking"
-ms.assetid: cf437c4f-fa65-4f89-a197-c83869930b2c
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke Business Service Methods Using BizTalk Server and the Siebel adapter
 A Siebel business service is a collection of business methods that can be directly invoked in Siebel. For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports invoking business services in a Siebel system, see [Operations on Business Services in Siebel](../../adapters-and-accelerators/adapter-siebel/operations-on-business-services-in-siebel.md). For more information about the structure of SOAP messages for performing business service operations, see [Message Schemas for Business Service Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-service-operations.md).  

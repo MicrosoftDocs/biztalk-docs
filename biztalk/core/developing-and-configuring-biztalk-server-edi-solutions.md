@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Developing and Configuring BizTalk Server EDI Solutions"
-title: "Developing and Configuring BizTalk Server EDI Solutions | Microsoft Docs"
+title: "Developing and Configuring BizTalk Server EDI Solutions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 65629eb1-8e08-4233-9331-c53ae0abaed4
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developing and Configuring BizTalk Server EDI Solutions
 Information for developers to create [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI solutions. These solutions are created using the BizTalk project system design environment and the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  

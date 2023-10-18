@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Update the SSO Database"
-title: "How to Update the SSO Database | Microsoft Docs"
+title: "How to Update the SSO Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tickets [SSO], modifying"
-  - "managing [SSO], modifying Credential cache timeout"
-  - "tickets [SSO], timeouts"
-  - "modifying, SSO database"
-  - "managing [SSO], modifying ticket timeouts"
-  - "SSO database, modifying"
-ms.assetid: 45eb6a77-d91a-44a8-b26d-05508c288c36
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Update the SSO Database
 You can change the global information in the SSO database, such as the master secret server identification, the account names, auditing in the database, ticket timeout, and credential cache timeout, by using either the MMC Snap-In or the command line.  

@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: How to Start and Stop a BizTalk Application"
-title: "How to Start and Stop a BizTalk Application | Microsoft Docs"
+title: "How to Start and Stop a BizTalk Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "starting"
-  - "starting, applications"
-  - "managing [applications], starting"
-  - "managing [applications], stopping"
-  - "applications, starting"
-  - "stopping, applications"
-  - "applications, stopping"
-  - "stopping"
-ms.assetid: f9f83e99-a1e2-4dfd-b3be-60d3ec2cbcc4
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Start and Stop a BizTalk Application
 This topic describes how to use the BizTalk Server Administration console to start and stop a BizTalk application.  

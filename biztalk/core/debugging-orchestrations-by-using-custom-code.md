@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Debugging Orchestrations by using Custom Code"
-title: "Debugging Orchestrations by using Custom Code | Microsoft Docs"
+title: "Debugging Orchestrations by using Custom Code"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, debugging"
-  - "building, debugging"
-ms.assetid: 94e569fa-8dea-4027-abb5-37b4a8015621
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Debugging Orchestrations by using Custom Code
 If your orchestration is going to be exercised in a test environment or you are creating a prototype and want to modify the values of message fields and orchestration variables, you can write the output to the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] console by using the following code in an **Expression** shape:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to: Publish a Service to the UDDI 3.0 Registry"
-title: "How to: Publish a Service to the UDDI 3.0 Registry | Microsoft Docs"
+title: "Publish a Service to the UDDI 3.0 Registry"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2c3bd0ed-e5f1-43eb-98d1-e3247a565ba2
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to: Publish a Service to the UDDI 3.0 Registry
 ## Goal  

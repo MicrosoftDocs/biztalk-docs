@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Enable Notifications Services on Additional Computers In A Group"
-title: "How to Enable Notifications Services on Additional Computers In A Group | Microsoft Docs"
+title: "How to Enable Notifications Services on Additional Computers In A Group"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 571d6b45-b0cc-47f2-bed3-7c6f3e70decc
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Enable Notifications Services on Additional Computers In A Group
 When running BAM in a multi-computer environment, you must enable Notification Services on each computer on which you will run the BAM Management Utility to deploy an activity.  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Designing a Secure Architecture"
-title: "Designing a Secure Architecture | Microsoft Docs"
+title: "Designing a Secure Architecture"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "firewalls"
-  - "architecture, security"
-  - "installation, firewalls"
-  - "installation, security"
-ms.assetid: 93df6a3f-396c-4767-99c8-2145bddf8fdf
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Designing a Secure Architecture
 For complete information about the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

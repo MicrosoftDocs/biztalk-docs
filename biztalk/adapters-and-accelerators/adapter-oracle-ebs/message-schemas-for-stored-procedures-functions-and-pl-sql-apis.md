@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Message Schemas for Stored Procedures, Functions, and PL/SQL APIs"
-title: "Message Schemas for Stored Procedures, Functions, and PL-SQL APIs | Microsoft Docs"
+title: "Message Schemas for Stored Procedures, Functions, and PL-SQL APIs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6d707f10-470d-4390-bb5b-0301c326f375
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for Stored Procedures, Functions, and PL/SQL APIs
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]surfaces the underlying Oracle database stored procedures, functions, and PL/SQL APIs (stored procedures and functions within a package) as operations. This section describes the message structure and actions used to invoke stored procedures, functions, and PL/SQL APIs.  

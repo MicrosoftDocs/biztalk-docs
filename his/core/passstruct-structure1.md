@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: PASSSTRUCT structure"
-title: "PASSSTRUCT structure1 | Microsoft Docs"
+title: "PASSSTRUCT structure1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b5ea97f8-7558-4625-92f6-87906c5d9aba
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # PASSSTRUCT structure
 The PASSSTRUCT structure is defined as follows:  

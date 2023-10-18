@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TCPIP Network Client Errors"
-title: "TCPIP Network Client Errors | Microsoft Docs"
+title: "TCPIP Network Client Errors"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 80516be7-dd32-4918-8964-b8f658c86e24
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TCPIP Network Client Errors
 The following table lists TCPIP Network Client error constants, values, SqlState, SqlCode and a description of the error.  

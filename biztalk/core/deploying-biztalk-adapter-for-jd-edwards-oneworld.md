@@ -1,19 +1,12 @@
 ---
-title: "Import BizTalk Adapter for JD Edwards OneWorld | Microsoft Docs"
+title: "Import BizTalk Adapter for JD Edwards OneWorld"
 description: Import the application binding file, and review any limitations of the JD Edwards OneWorld adapter in BizTalk
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f308d2fe-39dd-4008-94ed-292c4c26fe06
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Import the JD Edwards EnterpriseOne application
 

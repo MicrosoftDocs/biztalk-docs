@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: General Syntax for the /print Option"
-title: "General Syntax for the -print Option2 | Microsoft Docs"
+title: "General Syntax for the -print Option2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7016a1c9-83c0-47da-bf34-293640562361
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # General Syntax for the /print Option
 The syntax lines in this section and the next section show ways to use the **/print** option. By default, the output is sent to the screen. To capture the output in a file, redirect it in the standard way, by adding a greater-than sign (>) to the end of the command, followed by the name of the file in which you want to capture the output.  

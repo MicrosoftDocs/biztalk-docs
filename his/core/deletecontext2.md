@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: DeleteContext"
-title: "DeleteContext2 | Microsoft Docs"
+title: "DeleteContext2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d1cc8a7-2f7d-45fa-a0b8-fd12b5719ce2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # DeleteContext
 Use the **DeleteContext** method to remove an entry in a TI Context array.  

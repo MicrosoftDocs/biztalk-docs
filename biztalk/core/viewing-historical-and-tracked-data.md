@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Viewing Historical and Tracked Data"
-title: "Viewing Historical and Tracked Data | Microsoft Docs"
+title: "Viewing Historical and Tracked Data"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "HAT, about HAT tool"
-ms.assetid: 07ab8211-254a-41f0-a745-6c8ac3a78a3f
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Viewing Historical and Tracked Data
 This section provides task-specific information about using how to view historical and tracked data from the Group Hub page in the BizTalk Server Administration Console.  

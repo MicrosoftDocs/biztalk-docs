@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Icom3270 Members"
-title: "Icom3270 Members1 | Microsoft Docs"
+title: "Icom3270 Members1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c57e8179-15b2-4d03-8f5e-d027cf2c5487
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Icom3270 Members
 The following table describes the Icom3270 members.  

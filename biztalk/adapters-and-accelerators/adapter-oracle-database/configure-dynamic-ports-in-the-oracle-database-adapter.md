@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Configure dynamic ports in the Oracle Database Adapter"
-title: "Configure dynamic ports in the Oracle Database Adapter | Microsoft Docs"
+title: "Configure dynamic ports in the Oracle Database Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "dynamic ports, configuring"
-ms.assetid: c4f67707-76a0-4d72-913f-03219b412e2a
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure dynamic ports in the Oracle Database Adapter
 In [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you can configure dynamic ports for a [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]. Because the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] is a WCF-based adapter, you can dynamically configure a port for the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] by using message context properties.  

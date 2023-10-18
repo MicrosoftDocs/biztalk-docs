@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Instantiating Isolated Adapters"
-title: "Instantiating Isolated Adapters | Microsoft Docs"
+title: "Instantiating Isolated Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9b8359a3-b098-4bb6-87b4-d3432d2671b1
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Instantiating Isolated Adapters
 As discussed earlier, isolated adapters are not instantiated by BizTalk Server. Rather, they are instantiated and hosted in another process. It is the responsibility of the adapter to create its transport proxy, **QueryInterface**, for **IBTTransportProxy**, and then call **IBTTransportProxy**.**RegisterIsolatedReceiver** to register with the Messaging Engine.  

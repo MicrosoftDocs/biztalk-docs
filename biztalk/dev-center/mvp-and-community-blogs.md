@@ -1,16 +1,10 @@
 ---
-title: Blog list written by integration and Azure MVPs and community | Microsoft Docs
+title: Blog list written by integration and Azure MVPs and community
 description: Blogs and website by integration and Azure MVPs, and community members on BizTalk Server, Logic Apps, and more
-author: "MandiOhlinger"
-manager: "anneta"
-
 ms.date: "08/23/2017"
 ms.prod: "biztalk-server"
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.author: "mandia"
 ---
 
 

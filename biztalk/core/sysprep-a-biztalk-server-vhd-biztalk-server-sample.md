@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Sysprep a BizTalk Server VHD (BizTalk Server Sample)"
-title: "Sysprep a BizTalk Server VHD (BizTalk Server Sample) | Microsoft Docs"
+title: "Sysprep a BizTalk Server VHD (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 35f0146d-60ed-4265-983a-0e3665ef2ae4
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sysprep a BizTalk Server VHD (BizTalk Server Sample)
 Sysprep creates a snapshot of a virtual machine with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installed for quick deployment on other virtual machines.
@@ -67,7 +60,7 @@ Sysprep creates a snapshot of a virtual machine with [!INCLUDE[btsBizTalkServerN
 
    - Any company details should also be updated in UpdateSqlServerAndInstance.cmd and your Sysprep.xml.
 
-     Alternatively, you can create a Sysprep answer file from scratch using use the [Automated Installation Kit (AIK)](https://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) on Windows Server 2008. Ensure that your \<FirstLogonCommands\> section matches the samples so the BizTalk scripts will run on the first boot.
+     Alternatively, you can create a Sysprep answer file from scratch using use the [Automated Installation Kit (AIK)](https://www.microsoft.com/download/details.aspx?id=10333) on Windows Server 2008. Ensure that your \<FirstLogonCommands\> section matches the samples so the BizTalk scripts will run on the first boot.
 
 #### To run Sysprep
 

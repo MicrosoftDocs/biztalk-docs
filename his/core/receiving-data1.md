@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Receiving Data"
-title: "Receiving Data1 | Microsoft Docs"
+title: "Receiving Data1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6aa05d6d-c0a7-400a-9c6d-846c7c23e230
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Receiving Data
 The following calls or extensions enable a program to receive data from its partner program:  

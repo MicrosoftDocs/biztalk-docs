@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 6: Implement the Metadata Resolve Handler for the Echo Adapter"
-title: "Step 6: Implement the Metadata Resolve Handler for the Echo Adapter | Microsoft Docs"
+title: "Step 6: Implement the Metadata Resolve Handler for the Echo Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0105d1b0-efbd-457b-af0d-08e29408a318
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 6: Implement the Metadata Resolve Handler for the Echo Adapter
 ![Step 6 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-6of9.gif "Step_6of9")  

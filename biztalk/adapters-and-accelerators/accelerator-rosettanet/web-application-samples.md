@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Web Application Samples"
-title: "Web Application Samples | Microsoft Docs"
+title: "Web Application Samples"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web applications"
-  - "SDK samples, Web applications"
-  - "examples, Web applications"
-ms.assetid: 0d32bbb0-5716-4ee3-aa56-605cbadc5e94
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Web Application Samples
 The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK) includes an RNIFSend.aspx sample and an RNIFReceive.aspx sample. These ASPX pages send RNIF messages from the initiator to the responder, or receive RNIF messages at the responder.  

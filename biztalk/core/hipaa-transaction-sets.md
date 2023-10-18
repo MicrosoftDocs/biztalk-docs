@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: HIPAA Transaction Sets"
-title: "HIPAA Transaction Sets | Microsoft Docs"
+title: "HIPAA Transaction Sets"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8d659d3d-ada4-4bbc-9005-6c5caad394c1
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # HIPAA Transaction Sets
 This topic describes the HIPAA transaction sets and versions that are supported by BizTalk Server.  

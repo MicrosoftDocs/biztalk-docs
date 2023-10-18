@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: InterAct Adapter Server Application"
-title: "InterAct Adapter Server Application | Microsoft Docs"
+title: "InterAct Adapter Server Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8c50b239-0480-449f-aa6d-50bbb892e8a1
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # InterAct Adapter Server Application
 This section presents a general description of the composition of server application Request messages. These are the XML documents passed from the server-side SNL to the server application. As such, these messages are characteristic of the first part of the SWIFTNet primitives exercised on the server side.  

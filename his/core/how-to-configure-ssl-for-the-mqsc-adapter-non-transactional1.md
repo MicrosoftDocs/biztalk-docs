@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure SSL for the MQSC Adapter: Non-Transactional"
-title: "How to Configure SSL for the MQSC Adapter: Non-Transactional1 | Microsoft Docs"
+title: "How to Configure SSL for the MQSC Adapter: Non-Transactional1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b29cee4c-445f-4196-8681-eacf308fc833
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Configure SSL for the MQSC Adapter: Non-Transactional
 This topic lists the steps to configure the MQSeries Client (MQSC) adapter to execute non-transactional requests to the MQSeries server using SSL. These steps describe configuration for one-way (Server) authentication.  

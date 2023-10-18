@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Checklist: Backup and Restore"
-title: "Checklist: Backup and Restore | Microsoft Docs"
+title: "Checklist: Backup and Restore"
 ms.custom: ""
 ms.date: "01/30/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f1d46a59-54f9-483e-9290-f4a9461006a7
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Backup and Restore
 Perform the following steps before you have a hardware failure to ensure that you can restore your BizTalk Server system.  

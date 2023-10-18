@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Business Event Nodes"
-title: "Business Event Nodes | Microsoft Docs"
+title: "Business Event Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "events, Tracking Profile Editor"
-  - "events, date specific"
-  - "events, time specific"
-  - "Tracking Profile Editor, node descriptions"
-  - "Business Event nodes [Tracking Profile Editor]"
-  - "Tracking Profile Editor, events"
-ms.assetid: 177bc3c4-e762-42fe-80bc-edede5cd4fcd
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Business Event Nodes
 Business Event or milestone nodes define events that are date- or time-specific. Pre-defined business event and milestone folders exist in the activity definition you import from the business end user, and you cannot delete them without reimporting the activity definition file.  

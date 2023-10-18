@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Monitoring BizTalk Server with System Center Operations Manager 2007"
-title: "Monitoring BizTalk Server with System Center Operations Manager 2007 | Microsoft Docs"
+title: "Monitoring BizTalk Server with System Center Operations Manager 2007"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4cee8275-bbd0-435f-ac54-07f582190538
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Monitoring BizTalk Server with System Center Operations Manager 2007
 Monitoring your BizTalk applications and infrastructure with Microsoft System Center Operations Manager (Operations Manager) is the preferred monitoring approach. The Microsoft BizTalk Server management packs for Operations Manager provide proactive and reactive monitoring of computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. These management packs provide dozens of built-in, customizable rules to allow for comprehensive and automated monitoring of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

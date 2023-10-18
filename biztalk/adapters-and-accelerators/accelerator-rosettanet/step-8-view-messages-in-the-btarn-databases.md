@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Step 8: View Messages in the BTARN Databases"
-title: "Step 8: View Messages in the BTARN Databases | Microsoft Docs"
+title: "Step 8: View Messages in the BTARN Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "messages, viewing"
-  - "loopback tutorial, viewing messages"
-  - "databases, viewing messages"
-ms.assetid: c549670c-4428-483c-906c-eff163ddef9a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 8: View Messages in the BTARN Databases
 In this step, you use SQL Query Analyzer to view line-of-business (LOB) messages stored in the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] database to verify that your loop-back scenario is working correctly.  

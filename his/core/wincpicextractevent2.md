@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: WinCPICExtractEvent"
-title: "WinCPICExtractEvent2 | Microsoft Docs"
+title: "WinCPICExtractEvent2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 60217d70-b12c-4d3c-afc8-63ea92b7b63d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # WinCPICExtractEvent
 The **WinCPICExtractEvent** function provides a method for an application to determine the event handle being used for a Microsoft® Windows® Common Programming Interface for Communications (CPI-C) conversation.  

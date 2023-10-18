@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating a Custom Adapter Provider"
-title: "Creating a Custom Adapter Provider | Microsoft Docs"
+title: "Creating a Custom Adapter Provider"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bb93acf8-fd9d-4315-8690-f0c152a954b5
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating a Custom Adapter Provider
 After a resolver executes, as described in the previous sections, the dynamic resolution service checks whether the result is an endpoint (not a transformation). If it is an endpoint, the service instantiates the adapter manager, which is an instance of the **AdapterMgr** class.  

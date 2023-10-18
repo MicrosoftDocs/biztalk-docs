@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Lesson 3: Testing an XML Instance"
-title: "Lesson 3: Testing an XML Instance | Microsoft Docs"
+title: "Lesson 3: Testing an XML Instance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "testing, XML instances"
-  - "XML instances"
-ms.assetid: 19d7dd18-17dc-4355-a4f1-5c5e6750faf3
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 3: Testing an XML Instance
 In this lesson, you submit a valid MT103 message in XML format to the file receive ports created in the previous lessons. This action tests the send pipelines that you created in previous modules. Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] writes the output as a flat file to the output folder that you selected for the send port in the previous module.  

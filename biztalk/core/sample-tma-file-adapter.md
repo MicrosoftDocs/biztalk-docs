@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Sample TMA: File Adapter"
-title: "Sample TMA: File Adapter | Microsoft Docs"
+title: "Sample TMA: File Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "architecture, examples"
-  - "DFD, File adapters"
-  - "File adapters, TMA"
-  - "examples, File adapters"
-  - "security examples [TMA], File adapters"
-ms.assetid: bcb862c0-fe02-4335-8b59-242d28049e3f
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sample TMA: File Adapter
 This topic presents the threat model analysis (TMA) for the File adapter scenario for the sample architecture. The following figure shows the sample architecture for the File adapter scenario.  

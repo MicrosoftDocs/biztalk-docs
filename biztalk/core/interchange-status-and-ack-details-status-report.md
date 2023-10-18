@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interchange Status and ACK Details Status Report"
-title: "Interchange Status and ACK Details Status Report | Microsoft Docs"
+title: "Interchange Status and ACK Details Status Report"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ebba4af5-6dff-4bb8-9c63-739ef49bbbb8
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interchange Status and ACK Details Status Report
 This status report displays details of an interchange and its correlated interchange (technical) acknowledgment and functional acknowledgments. You display this report for right-clicking an interchange within the Interchange/ACK status report, and then clicking **Interchange status and ack details**.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Create Schemas for Envelopes"
-title: "How to Create Schemas for Envelopes | Microsoft Docs"
+title: "How to Create Schemas for Envelopes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ae1c991c-447f-497e-803c-1cb8cad2846b
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create Schemas for Envelopes
 

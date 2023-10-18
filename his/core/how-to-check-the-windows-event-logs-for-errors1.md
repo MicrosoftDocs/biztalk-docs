@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Check the Windows Event Logs for Errors"
-title: "How to Check the Windows Event Logs for Errors1 | Microsoft Docs"
+title: "How to Check the Windows Event Logs for Errors1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f68fae1d-f19a-46b7-8ab3-6922e1043f7a
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Check the Windows Event Logs for Errors
 The Windows Event Log keeps a record of the system's behavior. It contains:  

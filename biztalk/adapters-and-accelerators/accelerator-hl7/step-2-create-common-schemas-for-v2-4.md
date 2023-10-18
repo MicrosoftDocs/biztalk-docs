@@ -1,21 +1,9 @@
 ---
 description: "Learn more about: Step 2: Create Common Schemas for V2.4"
 title: "Step 2: Create Common Schemas for V2.4"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "interrogative tutorial, common schemas"
-ms.assetid: 333ae85a-a307-4ab1-97f4-4d7b986e91de
-caps.latest.revision: 6
-
-
-
 ---
 # Step 2: Create Common Schemas for V2.4
 The V2.4 schemas are commonly referenced schemas, which you use to validate the query and response message instances.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3: Create Send Ports and Receive Ports for the InterAct Store and Forward Scenario"
-title: "Step 3: Create Send Ports and Receive Ports for the InterAct Store and Forward Scenario | Microsoft Docs"
+title: "Step 3: Create Send Ports and Receive Ports for the InterAct Store and Forward Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 12e56a0d-5c7a-40db-ac5e-75311c26bf98
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Create Send Ports and Receive Ports for the InterAct Store and Forward Scenario
 Complete [Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-fileact-store-and-forward.md) before you begin the steps in this section.

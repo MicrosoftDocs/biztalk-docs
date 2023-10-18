@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the JMS MQRFH2 Component Sample"
-title: "Running the JMS MQRFH2 Component Sample | Microsoft Docs"
+title: "Running the JMS MQRFH2 Component Sample"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44f4b48c-398a-4ec1-a033-1fc4a76a305c
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the JMS MQRFH2 Component Sample
 The JMS MQRFH2 Component sample consists of three parts:  

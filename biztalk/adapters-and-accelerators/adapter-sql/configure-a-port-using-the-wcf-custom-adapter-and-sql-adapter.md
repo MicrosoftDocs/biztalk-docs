@@ -1,19 +1,12 @@
 ---
-title: "Configure a port using the WCF-custom adapter and SQL adapter in BizTalk | Microsoft Docs"
+title: "Configure a port using the WCF-custom adapter and SQL adapter in BizTalk"
 description: Create WCF-custom send and receive ports to use the SQL Server adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d44d9932-0a5e-4072-a480-2f8dc544ca79
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure a port using the WCF-custom adapter and SQL adapter
 Steps to configure WCF-Custom send and receive ports to perform outbound and inbound operations on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  

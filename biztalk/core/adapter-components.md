@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adapter Components"
-title: "Adapter Components | Microsoft Docs"
+title: "Adapter Components"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 383e8bcb-2b4d-40f9-9e98-f49e8d6f30f7
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adapter Components
 A custom adapter shares the standardized configuration, management, and setup mechanisms used by the native adapters. With the standardization to the Adapter Framework, a custom adapter is managed by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  

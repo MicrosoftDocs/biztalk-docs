@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: BizTalk Server Roles and Responsibilities"
-title: "BizTalk Server Roles and Responsibilities | Microsoft Docs"
+title: "BizTalk Server Roles and Responsibilities"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 195328b7-a8e9-4e0f-9d3b-a28f52ac3c1b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server Roles and Responsibilities
 The development, maintenance, and administration of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment encompass several different roles with distinct responsibilities. This topic describes these roles, the responsibilities associated with the roles, and tools that can be used to complete the tasks associated with each role. This topic also provides links to Operational Readiness checklist tasks associated with each role.

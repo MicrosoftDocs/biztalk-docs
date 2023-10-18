@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Construct Message Shape"
-title: "How to Configure the Construct Message Shape | Microsoft Docs"
+title: "How to Configure the Construct Message Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Construct Message shape [Orchestration Designer], configuring"
-  - "Construct Message shape [Orchestration Designer]"
-  - "configuring [Orchestration Designer], Construct Message shapes"
-  - "Construct Message shape [Orchestration Designer], about Construct Message shape"
-ms.assetid: 8d052b4e-0873-4102-9462-6604423d0524
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Construct Message Shape
 ![Image that represents the Construct Message shape.](../core/media/ebiz-orch-constructmsg.gif "ebiz_orch_constructmsg")  

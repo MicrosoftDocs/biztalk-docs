@@ -1,19 +1,12 @@
 ---
-title: "Manage configuration, certificates, databases, and security in RosettaNet accelerator in BizTalk Server | Microsoft Docs"
+title: "Manage configuration, certificates, databases, and security in RosettaNet accelerator in BizTalk Server"
 description: Administering BTARN configuration, setting up a CIDX solution, managing certificates and the database, and security in BizTalk Server
-caps.latest.revision: 5
-author: "MandiOhlinger"
-manager: "anneta"
-
 ms.custom: ""
 ms.date: "08/09/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fd202dc6-d2c2-4721-9a03-348dc05422a8
-ms.author: "mandia"
 ---
 
 # Manage configuration, certificates, databases, and security

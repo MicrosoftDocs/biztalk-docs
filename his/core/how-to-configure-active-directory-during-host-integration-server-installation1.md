@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure Active Directory During Host Integration Server Installation"
-title: "How to Configure Active Directory During Host Integration Server Installation1 | Microsoft Docs"
+title: "How to Configure Active Directory During Host Integration Server Installation1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 650a1178-4ae2-436d-9753-349bd6ef337c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Configure Active Directory During Host Integration Server Installation
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] participation in Active Directory is accomplished by the SNA Gateway service and the Host Integration Server WMI (Windows Management Instrumentation) provider.  

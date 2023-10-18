@@ -2,12 +2,8 @@
 description: "Learn more about: Training"
 title: Learn Biztalk Server
 ms.prod: biztalk-server
-ms.author: mandia
 ms.date: 11/01/2018
 ms.topic: conceptual
-
-author: MandiOhlinger
-
 ---
 
 # Training

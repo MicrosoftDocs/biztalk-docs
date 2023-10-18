@@ -1,25 +1,17 @@
 ---
 description: "Learn more about: BizTalk Server 2010 Performance Optimization Guide"
-title: "BizTalk Server 2010 Performance Optimization Guide | Microsoft Docs"
+title: "BizTalk Server 2010 Performance Optimization Guide"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9a56b27f-3e57-47db-a776-520f2d67d65e
-caps.latest.revision: 31
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server 2010 Performance Optimization Guide
 Welcome to the Microsoft® BizTalk® Server 2010 Performance Optimization Guide. We created this guide to provide in-depth information for optimizing the performance of a BizTalk Server solution. Full end-to-end performance testing is frequently overlooked during enterprise application deployment. Knowing that Microsoft has built a scalable messaging infrastructure, many organizations that use BizTalk Server spend little or no time conducting performance testing of their own applications. BizTalk Server applications consist of many parts, which may include custom-built components as well as those provided by Microsoft. It is impossible for Microsoft to performance test every possible combination of these components. Therefore, fully and properly conducting a performance test of your application is a critical step of any deployment.
 
  The purpose of this guide is to consolidate and provide prescriptive guidance on the best practices and techniques that should be followed to optimize BizTalk Server performance.
-
- To download a copy of this guide in chm, pdf, or docx form, go to [Microsoft BizTalk Server 2010 Performance Optimization Guide](https://go.microsoft.com/fwlink/?LinkId=210870)(https://go.microsoft.com/fwlink/?LinkId=210870).
 
 ## What's in it?
  Generally, the performance of a server is determined by the component that has the lowest performance—the bottleneck in the system. The key to improving performance is being able to identify bottlenecks, determine their cause, and apply the appropriate corrective action.

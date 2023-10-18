@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to: Validate a Message Using an ESB On-Ramp"
-title: "How to: Validate a Message Using an ESB On-Ramp | Microsoft Docs"
+title: "Validate a Message Using an ESB On-Ramp"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 43dfc791-7cb6-45a4-898f-f53def199c08
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to: Validate a Message Using an ESB On-Ramp
 ## Goal  

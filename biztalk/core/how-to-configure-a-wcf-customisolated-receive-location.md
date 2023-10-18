@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure a WCF-CustomIsolated Receive Location"
-title: "How to Configure a WCF-CustomIsolated Receive Location | Microsoft Docs"
+title: "How to Configure a WCF-CustomIsolated Receive Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7f2515a9-3e94-458d-8d73-22faf86bb68d
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a WCF-CustomIsolated Receive Location
 You can configure a WCF-CustomIsolated receive location either programmatically or by using the BizTalk Administration console.

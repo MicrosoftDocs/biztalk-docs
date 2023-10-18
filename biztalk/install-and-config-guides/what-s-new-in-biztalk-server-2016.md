@@ -1,18 +1,12 @@
 ---
-title: "What's New in BizTalk Server 2016 | Microsoft Docs"
+title: "What's New in BizTalk Server 2016"
 description: Changes and improvements, including feature packs, adapters, security, tracking, performance, and more in BizTalk Server 2016
 ms.custom: ""
 ms.prod: biztalk-server
 ms.date: "6/22/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3fce1fe8-f515-462d-bf6d-19408d515479
-caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What's New in BizTalk Server 2016
 Read about what's new in [!INCLUDE[bts2016](../includes/bts2016-md.md)]. 

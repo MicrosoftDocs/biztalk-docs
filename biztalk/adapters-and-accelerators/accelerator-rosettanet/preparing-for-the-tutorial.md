@@ -1,19 +1,12 @@
 ---
-title: "Prerequisites for the RosettaNet Loopback tutorial in BizTalk Server | Microsoft Docs"
+title: "Prerequisites for the RosettaNet Loopback tutorial in BizTalk Server"
 description: Prerequisites to step through the Loopback tutorial for the RosettaNet accelerator (BTARN) in BizTalk Server
-caps.latest.revision: 9
-author: "MandiOhlinger"
-manager: "anneta"
-
 ms.custom: 
 ms.date: "08/09/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3e26696c-86c5-448b-9cd6-bfd4a279151a
-ms.author: "mandia"
 ---
 
 # Prepare for the tutorial

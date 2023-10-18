@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How the FRR NAK Handler Sample Works"
-title: "How the FRR NAK Handler Sample Works | Microsoft Docs"
+title: "How the FRR NAK Handler Sample Works"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9f11bd20-3a0e-4d96-8e0a-32fecc7eed7e
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How the FRR NAK Handler Sample Works
 The sample FRR NAK custom handler serves as an intermediary between the FIN Response Reconciliation (FRR) orchestration and the message-repair orchestration. The FRR orchestration identifies the error that occurred when the SWIFT network attempted to receive the message. The output of the FRR orchestration is a one-part message with an error object. The FRR NAK custom handler transforms that message into a two-part message, with an error part that indicates the error that occurred, enabling the message to be picked up by the message-repair orchestration. The message-repair orchestration opens the message in an [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] form that enables you to find out what the error was, repair the message accordingly, and resubmit it so that [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] can resend it to SAA.  

@@ -1,19 +1,12 @@
 ---
-title: "Use BizTalk Server Exception Handling in JD Edwards OneWorld | Microsoft Docs"
+title: "Use BizTalk Server Exception Handling in JD Edwards OneWorld"
 description: Overview of handling exceptions and updating the jdearglist.txt file for your orchestrations that use the JD Edwards OneWorld adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d16ad8c2-f85a-4068-91ba-67623692df26
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server Exception Handling
 

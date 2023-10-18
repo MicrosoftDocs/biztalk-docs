@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Creating a Pre- or Post-processing Script"
-title: "Creating a Pre- or Post-processing Script | Microsoft Docs"
+title: "Creating a Pre- or Post-processing Script"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "scripts, post-processing"
-  - "scripts, pre-processing"
-  - "scripts, warnings"
-  - "scripts, applications"
-  - "applications, scripts"
-  - "scripts, deploying"
-  - "deploying, scripts"
-ms.assetid: d5fbaec8-fbfe-4ceb-8ba8-0933baa37a1f
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating a Pre- or Post-processing Script
 You can create a script to perform actions when an application is deployed, and then define when it will run during the deployment process. You can include both installation and cleanup code in the same script, using environment variables to delimit the code. You can also pass command-line arguments into the script.  

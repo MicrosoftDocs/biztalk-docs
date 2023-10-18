@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_LuDisplayAssignedToUser Class"
-title: "MsSna_LuDisplayAssignedToUser Class1 | Microsoft Docs"
+title: "MsSna_LuDisplayAssignedToUser Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e9a3ccd7-e1c3-4f7c-908b-3fd305a0193b
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_LuDisplayAssignedToUser Class
 Associates a display LU with a user.  

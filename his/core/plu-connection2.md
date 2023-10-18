@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: PLU Connection"
-title: "PLU Connection2 | Microsoft Docs"
+title: "PLU Connection2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 164fef0b-f274-4aa8-8122-e6873baa3197
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # PLU Connection
 The primary logical unit (PLU) connection of the application to the local node provides access to the PLU session between the Microsoft® Host Integration Server's logical unit (LU) and a PLU in the host.  

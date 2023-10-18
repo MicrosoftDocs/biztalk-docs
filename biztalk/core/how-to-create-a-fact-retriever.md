@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: How to Create a Fact Retriever"
-title: "How to Create a Fact Retriever | Microsoft Docs"
+title: "How to Create a Fact Retriever"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "IFactRetriever interface"
-  - "Business Rules Framework, bindings"
-  - "factsHandleIn object"
-  - "Business Rules Framework, code samples"
-  - "Business Rules Framework, fact retrievers"
-  - "UpdateFacts method"
-  - "Business Rules Framework, programming"
-ms.assetid: 503dc769-3ada-4099-a5fe-4dd03d995600
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create a Fact Retriever
 A fact retriever is a component that is used to assert instances of long-term facts into a policy during its execution. You can implement the **IFactRetriever** interface and configure a policy version to use this implementation at run time to bring in the long-term fact instances. The policy version invokes the **UpdateFacts** method of the fact retriever implementation on every execution cycle, if a fact retriever is configured for that particular version.

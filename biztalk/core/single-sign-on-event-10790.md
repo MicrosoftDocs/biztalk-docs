@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10790"
-title: "Single Sign-On: Event 10790 | Microsoft Docs"
+title: "Single Sign-On: Event 10790"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 69b7e637-c42e-438d-b48b-7824e578acbb
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10790
 ## Details  

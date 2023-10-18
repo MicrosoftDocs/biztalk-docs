@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid SenderId Qualifier"
-title: "Invalid SenderId Qualifier | Microsoft Docs"
+title: "Invalid SenderId Qualifier"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cfe9c51c-d569-4f14-a690-f145ef1bf6a4
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid SenderId Qualifier
 ## Details  

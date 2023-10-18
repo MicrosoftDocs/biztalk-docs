@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Test Policies"
-title: "How to Test Policies | Microsoft Docs"
+title: "How to Test Policies"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "testing, policies"
-  - "Business Rule Composer, testing"
-  - "Business Rule Composer, policies"
-  - "testing, Business Rule Composer"
-  - "policies, testing"
-ms.assetid: 122dee26-d1f1-49a6-a6d5-a9d3d861a66b
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Test Policies
 To test a policy, you need facts on which the rules can be executed. You can add facts by specifying values in XML documents or database tables that you will point to in the policy tester, or you can use a fact creator to supply to the engine an array of .NET objects as facts. For more information, see [Creating a Fact Creator](../core/how-to-create-a-fact-creator.md).  

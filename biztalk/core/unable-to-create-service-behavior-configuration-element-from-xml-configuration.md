@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Unable to create service behavior configuration element from XML configuration"
-title: "Unable to create service behavior configuration element from XML configuration | Microsoft Docs"
+title: "Unable to create service behavior configuration element from XML configuration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6732e5d2-bb4b-48ec-af59-467eede80f36
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unable to create service behavior configuration element from XML configuration
 ## Details  

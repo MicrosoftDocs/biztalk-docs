@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Creating Links"
-title: "Creating Links | Microsoft Docs"
+title: "Creating Links"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maps, links"
-  - "BizTalk Mapper, links"
-ms.assetid: e8596c50-62e9-40a7-ad61-29cbdb4f4fc9
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Links
 BizTalk Mapper helps you automate some elements involved in link creation. Simple link creation is similar to simple data types. There are more sophisticated forms of link creation that are more like structure assignment in a programming language. An example is a single link creation that specifies how multiple items of data are to be moved from input instance messages to corresponding output instance messages.  

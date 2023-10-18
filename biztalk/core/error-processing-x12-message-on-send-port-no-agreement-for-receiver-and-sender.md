@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs and no party with name"
-title: "A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs and no party with name | Microsoft Docs"
+title: "A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs and no party with name"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fdf445e8-51a3-44fb-aa71-e0b0ab9c428f
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs and no party with name
 ## Details  

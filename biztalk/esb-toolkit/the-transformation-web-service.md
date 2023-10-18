@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: The Transformation Web Service"
-title: "The Transformation Web Service | Microsoft Docs"
+title: "The Transformation Web Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 788bf4a9-a63b-4fd3-93a2-6e34a1464049
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The Transformation Web Service
 The Transformation Web service enables external applications to submit a document to an ESB application and have it transformed using a deployed Microsoft BizTalk map. Unlike the transformation agent, this service does not route messages through the BizTalk Message Box database.  

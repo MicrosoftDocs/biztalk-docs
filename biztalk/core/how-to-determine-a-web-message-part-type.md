@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Determine a Web Message Part Type"
-title: "How to Determine a Web Message Part Type | Microsoft Docs"
+title: "How to Determine a Web Message Part Type"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web messages, message types"
-  - "Web services, Web messages"
-  - "Web messages, parts"
-ms.assetid: bdd1f604-ec35-41e3-b5a8-1e0ad0193eff
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Determine a Web Message Part Type
 You can determine if a Web message part type is a primitive .NET type or a schema type by using the Properties window for a given Web message type.  

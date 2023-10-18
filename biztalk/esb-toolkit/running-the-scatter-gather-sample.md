@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the Scatter-Gather Sample"
-title: "Running the Scatter-Gather Sample | Microsoft Docs"
+title: "Running the Scatter-Gather Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 53676974-ea1f-4c95-9dbb-98fff92286fa
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the Scatter-Gather Sample
 The Scatter-Gather sample uses a the Windows Forms test client application provided with the Itinerary On-Ramp sample to demonstrate how this pattern applies the features of the Itinerary service.  

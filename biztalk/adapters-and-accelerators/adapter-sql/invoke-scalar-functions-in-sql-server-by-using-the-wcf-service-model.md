@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invoke Scalar Functions in SQL Server by Using the WCF Service Model"
-title: "Invoke Scalar Functions in SQL Server by Using the WCF Service Model | Microsoft Docs"
+title: "Invoke Scalar Functions in SQL Server by Using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a331e275-3c81-41a8-9ba1-3a801ebc259a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke Scalar Functions in SQL Server by Using the WCF Service Model
 You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] in a .NET application using the WCF service model to invoke scalar functions in SQL Server. The adapter exposes the scalar functions as methods that can be invoked directly on SQL Server. For more information about how the adapter supports scalar functions, see [Execute Scalar Functions in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/execute-scalar-functions-in-sql-server-using-the-sql-adapter.md).  

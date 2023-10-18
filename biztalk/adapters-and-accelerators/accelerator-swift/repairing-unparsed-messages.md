@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Repairing Unparsed Messages"
-title: "Repairing Unparsed Messages | Microsoft Docs"
+title: "Repairing Unparsed Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "unparsed messages"
-  - "repairing messages, unparsed messages"
-  - "messages, unparsed messages"
-ms.assetid: cc061243-3539-4407-a096-71a3feded1c5
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Repairing Unparsed Messages
 If the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] disassembler cannot parse a message, you can repair that message. You do so in an [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] form from within the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] MRSR site. However, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] processes that message differently from a repaired message that failed XML or BRE validation.  

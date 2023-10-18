@@ -1,24 +1,15 @@
 ---
 description: "Learn more about: WCF Adapter FAQs"
-title: "WCF Adapter FAQs | Microsoft Docs"
+title: "WCF Adapter FAQs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ce5b2889-0a90-4fd0-8069-03e5636b61b6
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # WCF Adapter FAQs
 > [!NOTE]
->  To download a copy of these FAQs, go to the [https://go.microsoft.com/fwlink/?LinkId=144765](https://go.microsoft.com/fwlink/?LinkId=144765).
->
 >  For more information about adapters, go to the [Adapters in BizTalk Server](https://go.microsoft.com/fwlink/?LinkId=196669) page on MSDN.
 
  The following Windows Communication Foundation (WCF) adapter FAQs are included in this section:

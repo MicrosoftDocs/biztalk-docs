@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: BPEL Import (BizTalk Server Sample)"
-title: "BPEL Import (BizTalk Server Sample) | Microsoft Docs"
+title: "BPEL Import (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BPEL, orchestrations"
-  - "examples, orchestrations"
-  - "examples, BPEL Import Wizard"
-  - "BPEL, examples"
-  - "BPEL Import Wizard, examples"
-  - "BPEL Import Wizard, orchestrations"
-ms.assetid: 3fc70608-ccd9-4249-b238-c09fc6551db1
-caps.latest.revision: 31
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BPEL Import (BizTalk Server Sample)
 The BPEL Import sample demonstrates how to create an orchestration from a Business Process Execution Language (BPEL) process description and its related artifacts.  

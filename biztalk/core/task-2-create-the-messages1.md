@@ -1,19 +1,12 @@
 ---
 description: "Learn how to create Messages that will be used in a BizTalk orchestration."
-title: "Task 2: Create the Messages1 | Microsoft Docs"
+title: "Task 2: Create the Messages1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: df908ea0-b3be-47e6-99ba-4122cb1db561
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Task 2: How to Create the Messages
 

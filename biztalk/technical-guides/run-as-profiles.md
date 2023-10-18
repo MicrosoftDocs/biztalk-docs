@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Run As Profiles"
-title: "Run As Profiles | Microsoft Docs"
+title: "Run As Profiles"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 98ac0a0c-91d8-4d12-aa40-2ad2e29ec784
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run As Profiles
 When the BizTalk Server Core Library Management Pack is first imported, it creates two new Run As Profiles:  

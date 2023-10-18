@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Map Needs to be Migrated"
-title: "Error - Map Needs to be Migrated | Microsoft Docs"
+title: "Error - Map Needs to be Migrated"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.mapNeedsMigrating"
-ms.assetid: f10af4a4-6e40-4eec-a2fd-e526821aebe6
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Map Needs to be Migrated
 **Error Code**  

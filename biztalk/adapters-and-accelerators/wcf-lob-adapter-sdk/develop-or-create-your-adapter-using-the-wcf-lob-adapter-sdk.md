@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Develop or create your adapter using the WCF LOB Adapter SDK"
-title: "Develop or create your adapter using the WCF LOB Adapter SDK | Microsoft Docs"
+title: "Develop or create your adapter using the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2ca8c03a-1e4a-4077-b4cb-4e184b520bbb
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Develop or create your adapter using the WCF LOB Adapter SDK
 This section contains information for developers who are creating adapters using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. Once the adapter has been developed, it is usually consumed by either .NET or [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] developers as a way to access operations and data in a desired target line-of-business system.  

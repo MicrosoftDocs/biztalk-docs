@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Debug a Visual Basic Application Integration Application"
-title: "How to Debug a Visual Basic Application Integration Application1 | Microsoft Docs"
+title: "How to Debug a Visual Basic Application Integration Application1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c8cf0f6e-2577-4654-8c4d-f2789449c386
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Debug a Visual Basic Application Integration Application
 The following tips will help prevent frustrating debugging sessions:  

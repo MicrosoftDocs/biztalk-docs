@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 8 (On Premises): Configure the BizTalk Server Application"
-title: "Step 8 (On Premises): Configure the BizTalk Server Application | Microsoft Docs"
+title: "Step 8 (On Premises): Configure the BizTalk Server Application"
 ms.custom: ""
 ms.date: "12/08/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5109fb54-8453-444f-bc9c-070a65053397
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 8 (On Premises): Configure the BizTalk Server Application
 In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration. In this step, you’ll build, deploy, and configure the application.

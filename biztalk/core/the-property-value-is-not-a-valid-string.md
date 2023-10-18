@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The property value is not a valid string"
-title: "The property value is not a valid string | Microsoft Docs"
+title: "The property value is not a valid string"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 78df6aca-26b5-4d49-93b0-71de19f5c9dd
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The property value is not a valid string
 ## Details  

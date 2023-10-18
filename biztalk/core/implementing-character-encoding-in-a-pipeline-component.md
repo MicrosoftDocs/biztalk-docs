@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Implementing Character Encoding in a Pipeline Component"
-title: "Implementing Character Encoding in a Pipeline Component | Microsoft Docs"
+title: "Implementing Character Encoding in a Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components [custom], examples"
-  - "pipeline components [custom], code samples"
-  - "pipeline components [custom], encoding"
-ms.assetid: 862b56da-ec14-41f9-b63c-42d81124e167
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Implementing Character Encoding in a Pipeline Component
 To support custom character encoding, you must implement a custom encoding class by deriving from the Microsoft .NET Framework **Encoding** class, then create a custom flat file pipeline component by inheriting from the standard Flat File Disassembler or Flat File Assembler component. You can supply a new encoding instance to the parsing engine by overriding the protected virtual method **FFDasmComp.GetDataReader** as shown in the following example.  

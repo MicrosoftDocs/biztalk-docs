@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Configuring BizTalk Server"
-title: "Checklist: Configuring BizTalk Server | Microsoft Docs"
+title: "Checklist: Configuring BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: adfb5a5e-2a23-4f6c-865f-a3300bf3d01d
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Configuring BizTalk Server
 Follow these steps when preparing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] for use in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] production environment.  

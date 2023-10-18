@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Exchange Patterns for Send Adapters"
-title: "Exchange Patterns for Send Adapters | Microsoft Docs"
+title: "Exchange Patterns for Send Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5ad65fb5-640d-4bd2-aabe-946210f58a22
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exchange Patterns for Send Adapters
 Send adapters are delivered messages from the BizTalk Messaging Engine to be transmitted over the wire. These messages may be sent by using a one-way or two-way message exchange pattern. An adapter that handles this two-way message exchange pattern is called a Solicit-Response adapter.  

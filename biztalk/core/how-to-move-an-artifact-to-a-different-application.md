@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Move an Artifact to a Different Application"
-title: "How to Move an Artifact to a Different Application | Microsoft Docs"
+title: "How to Move an Artifact to a Different Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "artifacts, moving"
-  - "applications, artifacts"
-ms.assetid: 861e7782-0566-4478-a0bd-f8ced1ea6d56
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Move an Artifact to a Different Application
 This topic describes how to move an artifact from one application to another within a BizTalk group by using the Move To Application command of the BizTalk Server Administration console. You might want to do this if you need to use an artifact that already exists in one application in a different application in the same BizTalk group.  

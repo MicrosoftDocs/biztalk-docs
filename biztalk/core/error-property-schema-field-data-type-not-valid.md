@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Property Schema Field Data Type Not Valid"
-title: "Error - Property Schema Field Data Type Not Valid | Microsoft Docs"
+title: "Error - Property Schema Field Data Type Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.propSchemaFieldDataTypeNotValid"
-ms.assetid: eba41c5c-5512-4cc9-ab10-07626cfbd178
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Property Schema Field Data Type Not Valid
 **Error Code**  

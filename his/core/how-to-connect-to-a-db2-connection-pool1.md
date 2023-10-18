@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Connect to a DB2 Connection Pool"
-title: "Connect to a DB2 Connection Pool | Microsoft Docs"
+title: "Connect to a DB2 Connection Pool"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f4ebe610-51ad-41c7-b740-43d06a0f12df
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Connect to a DB2 Connection Pool
 

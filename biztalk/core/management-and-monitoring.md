@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Management and Monitoring"
-title: "Management and Monitoring | Microsoft Docs"
+title: "Management and Monitoring"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 92724f79-32bb-40d3-a0af-147aba00d87e
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Management and Monitoring
 Every application built on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] engine requires management. How are new applications installed? What configurations are possible? What’s happening inside the system right now? This section looks at the tools provided to answer these questions.  

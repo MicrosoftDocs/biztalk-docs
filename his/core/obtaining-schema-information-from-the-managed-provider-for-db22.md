@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Obtaining Schema Information from the Managed Provider for DB2"
-title: "Obtaining Schema Information from the Managed Provider for DB22 | Microsoft Docs"
+title: "Obtaining Schema Information from the Managed Provider for DB22"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2f51d7d2-59bd-4e59-b8a9-d3f6c509744a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Obtaining Schema Information from the Managed Provider for DB2
 You can obtain schema information from a database by using *schema discovery*. Schema discovery enables applications to request that managed providers find and return information about the database schema, also known as *metadata*, of a given database. Different database schema elements such as tables, columns, and stored-procedures are exposed through schema collections. Each schema collection contains a variety of schema information specific to the provider that is being used.  

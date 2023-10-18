@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Enabling or Disabling BAM Tracking"
-title: "Enabling or Disabling BAM Tracking | Microsoft Docs"
+title: "Enabling or Disabling BAM Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Message Repair and New Submission, BAM tracking"
-  - "BAM tracking"
-ms.assetid: 07896fab-88a0-4759-8547-16edcd1eebc0
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Enabling or Disabling BAM Tracking
 You can enable or disable BAM tracking at any point, even while the Message Repair and New Transmission process has transactions in process. However, if you disable BAM tracking while transactions are in process, the BAM data may be incomplete for those transactions. If this occurs, the history table will still contain accurate data for all instances.  

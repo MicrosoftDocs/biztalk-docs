@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: International Considerations for Designing BizTalk Applications"
-title: "International Considerations for Designing BizTalk Applications | Microsoft Docs"
+title: "International Considerations for Designing BizTalk Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9daaaaf7-6149-4e62-9e9b-b6356fc820d2
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # International Considerations for Designing BizTalk Applications
 It is strongly recommended that you review the following known issues when you develop your international [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] applications.  

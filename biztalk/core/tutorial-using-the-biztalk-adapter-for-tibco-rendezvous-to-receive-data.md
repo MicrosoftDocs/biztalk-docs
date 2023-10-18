@@ -1,19 +1,12 @@
 ---
-title: "Tutorial: Use the TIBCO Rendezvous adapter to receive | Microsoft Docs"
+title: "Tutorial: Use the TIBCO Rendezvous adapter to receive"
 description: Step-by-step guide to use BizTalk Adapter for TIBCO Rendezvous in BizTalk Server to receive data from the TIBCO system
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 58e7a739-701d-4085-a840-54f81c55e943
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial: Using the BizTalk Adapter for TIBCO Rendezvous to Receive Data
 You can use the BizTalk Adapter for TIBCO Rendezvous to receive data from a TIBCO system. This walkthrough describes an SDK sample that illustrates this.  

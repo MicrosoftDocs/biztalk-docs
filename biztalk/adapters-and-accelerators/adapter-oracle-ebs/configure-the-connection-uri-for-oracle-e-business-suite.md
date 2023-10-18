@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configure the Connection URI for Oracle E-Business Suite"
-title: "Configure the Connection URI for Oracle E-Business Suite | Microsoft Docs"
+title: "Configure the Connection URI for Oracle E-Business Suite"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d2bb02b4-4ad6-4b07-b48a-8f9a47967ffc
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure the Connection URI for Oracle E-Business Suite
 A connection URI is a connection string that contains parameters required to connect to Oracle E-Business Suite. While using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] or [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], you must specify the URI to connect to Oracle E-Business Suite to generate the metadata. While configuring an orchestration using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you must specify the URI to connect to Oracle E-Business Suite to perform operations.  

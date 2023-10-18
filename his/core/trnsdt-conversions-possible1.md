@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TrnsDT Conversions Possible"
-title: "TrnsDT Conversions Possible1 | Microsoft Docs"
+title: "TrnsDT Conversions Possible1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 86cf22bc-fb26-49a0-866f-3ccfaa463d4b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TrnsDT Conversions Possible
 The following table describes conversions possible for the TrnsDT API.  

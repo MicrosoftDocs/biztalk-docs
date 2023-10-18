@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Testing the Policy"
-title: "Walkthrough: Testing the Policy | Microsoft Docs"
+title: "Walkthrough: Testing the Policy"
 ms.custom: ""
 ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 53ed915d-0f3a-48ea-bfd5-a1f89b9b689c
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Testing the Policy
 This walkthrough provides step-by-step procedures for testing the policy you created in the [Walkthrough: Creating a Simple Business Policy](../core/walkthrough-creating-a-simple-business-policy.md) walkthrough.  

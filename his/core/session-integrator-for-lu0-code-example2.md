@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Session Integrator for LU0 Code Example"
-title: "Session Integrator for LU0 Code Example | Microsoft Docs"
+title: "Session Integrator for LU0 Code Example"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0090d0a1-e168-4424-8adf-b6c1913f2de2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Session Integrator for LU0 Code Example
 The following code example shows how to use the primary techniques for creating an LU0 connection, logging on to the LU0 session, sending and receiving information, and terminating the connection.  

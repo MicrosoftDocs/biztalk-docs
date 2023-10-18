@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3: Send the Request Message to Insert Records and Receive a Response"
-title: "Step 3: Send the Request Message to Insert Records and Receive a Response | Microsoft Docs"
+title: "Step 3: Send the Request Message to Insert Records and Receive a Response"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6a8a8906-7c7d-437c-9f04-345ad4ac460e
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Send the Request Message to Insert Records and Receive a Response
 ![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")  

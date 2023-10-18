@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Connect to Oracle Database in Visual Studio using Add Adapter Metadata Wizard"
-title: "Connect to Oracle Database in Visual Studio using Add Adapter Metadata Wizard | Microsoft Docs"
+title: "Connect to Oracle Database in Visual Studio using Add Adapter Metadata Wizard"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 726b3f82-887c-407a-bb9f-dcb9443155b0
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Connect to Oracle Database in Visual Studio using Add Adapter Metadata Wizard
 The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] is also exposed as a BizTalk adapter and, therefore, you can use the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate schema for the operations you want to perform on the Oracle database using the adapter.  

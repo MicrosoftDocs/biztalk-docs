@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Snacfg CPIC"
-title: "Snacfg CPIC1 | Microsoft Docs"
+title: "Snacfg CPIC1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e236c1bb-3b45-44af-a73c-76481adc12af
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Snacfg CPIC
 ## Purpose  

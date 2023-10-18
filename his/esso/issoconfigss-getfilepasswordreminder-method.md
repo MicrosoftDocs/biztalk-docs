@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigSS.GetFilePasswordReminder Method"
-title: "ISSOConfigSS.GetFilePasswordReminder Method | Microsoft Docs"
+title: "ISSOConfigSS.GetFilePasswordReminder Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a13b8194-1b43-4125-9a41-dbb981e6e896
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigSS.GetFilePasswordReminder Method
 The **GetFilePasswordReminder** method gets the password reminder from the backup file.  

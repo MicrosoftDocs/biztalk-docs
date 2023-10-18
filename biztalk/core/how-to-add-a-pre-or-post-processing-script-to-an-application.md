@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Add a Pre- or Post-processing Script to an Application"
-title: "How to Add a Pre- or Post-processing Script to an Application | Microsoft Docs"
+title: "How to Add a Pre- or Post-processing Script to an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [applications], adding scripts"
-  - "managing [scripts], applications"
-  - "applications, scripts"
-  - "managing [scripts], adding"
-  - "scripts, adding to applications"
-  - "scripts"
-ms.assetid: 729cb236-b9cf-468a-8b98-a24d86e60d3c
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add a Pre- or Post-processing Script to an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to add a pre- or post-processing script to an application. When you add a script to an application, the script is included in the application .msi file, and runs when the application is imported, installed, or uninstalled.  

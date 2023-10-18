@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Executing the Policy Programmatically"
-title: "Walkthrough: Executing the Policy Programmatically | Microsoft Docs"
+title: "Walkthrough: Executing the Policy Programmatically"
 ms.custom: ""
 ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6398e7af-2ed1-4596-879c-3b7d000b8de2
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Executing the Policy Programmatically
 This walkthrough provides step-by-step procedures for invoking the policy you created in the [Walkthrough: Creating a Simple Business Policy](../core/walkthrough-creating-a-simple-business-policy.md) walkthrough from a console application programmatically.  

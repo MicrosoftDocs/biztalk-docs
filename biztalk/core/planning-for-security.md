@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Planning for Security"
-title: "Planning for Security | Microsoft Docs"
+title: "Planning for Security"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "planning, environment"
-  - "planning, security"
-  - "architecture, security"
-  - "installation, planning"
-  - "security, planning"
-ms.assetid: 246ad38f-964c-4cd6-a97d-e004bfe4cc95
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Planning for Security
 This section contains information about the potential threats a Microsoft BizTalk Server environment may be vulnerable to, recommendations for mitigating Denial of Service attacks, and recommendations for helping to secure your BizTalk Server environment.  

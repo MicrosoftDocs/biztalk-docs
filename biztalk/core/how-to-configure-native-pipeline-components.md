@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure Native Pipeline Components"
-title: "How to Configure Native Pipeline Components | Microsoft Docs"
+title: "How to Configure Native Pipeline Components"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: adb6b994-c20c-4f43-82c5-a07b29498cdf
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Native Pipeline Components
 The following code shows how to configure native pipeline components using the `IPersistPropertyBag` interface.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: APPC Management Verbs"
-title: "APPC Management Verbs1 | Microsoft Docs"
+title: "APPC Management Verbs1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a8f2d680-7888-4762-b043-4a5131933017
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # APPC Management Verbs
 This section describes the Advanced Program-to-Program Communications (APPC) management verbs. The management verbs enable you to establish APPC LU 6.2 session limits, obtain configuration information and current operating values for the SNA node, and activate or deactivate sessions. The description of each verb provides:  

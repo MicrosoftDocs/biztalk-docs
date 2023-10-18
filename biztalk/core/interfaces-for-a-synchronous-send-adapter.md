@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interfaces for a Synchronous Send Adapter"
-title: "Interfaces for a Synchronous Send Adapter | Microsoft Docs"
+title: "Interfaces for a Synchronous Send Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0e1b397a-3a35-4447-8522-d8a5f39a42d7
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interfaces for a Synchronous Send Adapter
 An adapter sends messages synchronously when it blocks the incoming Messaging Engine calling thread while performing its send operation. To be able to send messages synchronously, an adapter needs to implement the following interfaces:  

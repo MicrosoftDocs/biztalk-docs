@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Step 4: Enabling Secure Sockets Layer in IIS"
-title: "Step 4: Enabling Secure Sockets Layer in IIS | Microsoft Docs"
+title: "Step 4: Enabling Secure Sockets Layer in IIS"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Secure Socket Layers"
-  - "IIS"
-  - "double action tutorial, enabling SSL in IIS"
-  - "SSL"
-ms.assetid: 96109294-595a-46ac-974e-33123df79ed5
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Enabling Secure Sockets Layer in IIS
 Secure Sockets Layer (SSL) is a protocol designed to secure the communication channel between a client and a server. By enabling SSL in Microsoft® Internet Information Services (IIS) 7.5/7.0, the Contoso and Fabrikam organizations communicate using authentication and encryption for all data transfers. In this step, you learn how to enable SSL in IIS 7.5/7.0.  

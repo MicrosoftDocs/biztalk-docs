@@ -1,19 +1,12 @@
 ---
-title: "Develop your Oracle E-Business Suite applications in BizTalk | Microsoft Docs"
+title: "Develop your Oracle E-Business Suite applications in BizTalk"
 description: Create Oracle EBS applications using WCF, or in BizTalk Server with the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a7b1ebff-b3f8-4e07-a089-d1d5bfb78d56
-caps.latest.revision: 32
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Develop your Oracle E-Business Suite applications
 

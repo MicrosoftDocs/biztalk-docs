@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Solution Explorer Shortcut Menu (Host File Designer)"
-title: "Solution Explorer Shortcut Menu (Host File Designer)1 | Microsoft Docs"
+title: "Solution Explorer Shortcut Menu (Host File Designer)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1c1af8a8-157a-47b9-925c-43bac56aadcf
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Solution Explorer Shortcut Menu (Host File Designer)
 When you select a Transaction Integrator-compatible file in Solution Explorer, the appropriate context-sensitive, or shortcut menu commands are displayed.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Segment Exceeds Maximum Use Description"
-title: "Segment Exceeds Maximum Use Description | Microsoft Docs"
+title: "Segment Exceeds Maximum Use Description"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e4e1704a-5d49-4549-af50-d1a89a1e70f0
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Segment Exceeds Maximum Use Description
 ## Details  

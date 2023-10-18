@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Importing an XSD-based PIP"
-title: "Importing an XSD-based PIP | Microsoft Docs"
+title: "Importing an XSD-based PIP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "PIPs, importing"
-  - "XSD-based PIPs"
-  - "PIPs, XSD-based PIPs"
-ms.assetid: d12441d4-79bf-4c24-9360-4b78c1da0d34
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Importing an XSD-based PIP
 While the majority of PIPS provided by RosettaNet.org are DTD-based, newer PIPS are XSD-based. The following procedure describes how to import XSD-based PIPS.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Running the Header Property Access from an Orchestration Sample"
-title: "Running the Header Property Access from an Orchestration Sample | Microsoft Docs"
+title: "Running the Header Property Access from an Orchestration Sample"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2059eb2c-50a3-4618-a6ec-faa1a9e5d368
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running the Header Property Access from an Orchestration Sample
 This part of the sample demonstrates how the ESB promotes JMS header metadata into message context properties, which code and components in orchestrations within Microsoft BizTalk can access. The sample includes a receive pipeline that contains an instance of the ESB JMS component that promotes JMS header metadata into message context properties.  

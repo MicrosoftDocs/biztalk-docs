@@ -1,22 +1,12 @@
 ---
 description: "Learn how to setup an exception handler by attaching a Catch Exception block to the end of a Scope shape in the BizTalk Server Orchestration Designer."
-title: "How to Add a Catch Exception Block4 | Microsoft Docs"
+title: "How to Add a Catch Exception Block4"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Catch Exception blocks, adding"
-  - "exception handling, Catch Exception blocks"
-ms.assetid: 632fa089-a1af-4126-b32b-68d4d8942387
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adding a Catch Exception Block
 

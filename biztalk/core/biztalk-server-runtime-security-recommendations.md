@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: BizTalk Server Runtime Security Recommendations"
-title: "BizTalk Server Runtime Security Recommendations | Microsoft Docs"
+title: "BizTalk Server Runtime Security Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "security, runtime"
-  - "runtime, security"
-  - "discretionary access control lists (DACLs)"
-  - "DACLs"
-  - ".NET Framework Code Access Security Mechanism"
-ms.assetid: 1933789d-b79a-47ad-8f70-6f1e99bc2be0
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server Runtime Security Recommendations
 You must install the BizTalk Server runtime, or engine, on all the computers from which you want to receive, send, process, and track messages. In other words, you must install the run time components on any computer where you create a BizTalk Host instance (processing servers). It is recommended you follow these guidelines for securing and deploying the BizTalk Server runtime in your environment.

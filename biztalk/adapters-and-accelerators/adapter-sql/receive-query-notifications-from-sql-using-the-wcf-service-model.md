@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Receive Query Notifications from SQL using the WCF Service Model"
-title: "Receive Query Notifications from SQL using the WCF Service Model | Microsoft Docs"
+title: "Receive Query Notifications from SQL using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1c9def31-3c5a-4326-b798-31bde0ff2568
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive Query Notifications from SQL using the WCF Service Model
 This topic demonstrates how to configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive query notification messages from a SQL Server database. To demonstrate notifications, consider a table, Employee, with a “Status” column. When a new record is inserted to this table, the value of the Status column is set to 0. You can configure the adapter to receive notifications by registering for notifications using a SQL statement that retrieves all records that have Status column as “0.” You can do so by specifying the SQL statement for the **NotificationStatement** binding property. After the adapter client receives the notification, it can contain the logic to do any subsequent tasks on the SQL Server database. In this example, for the sake of simplicity, the adapter client lists all the records in the table that have the Status column as “0.”

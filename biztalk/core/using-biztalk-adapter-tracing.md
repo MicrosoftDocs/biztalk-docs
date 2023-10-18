@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Using BizTalk Adapter Tracing"
-title: "Using BizTalk Adapter Tracing | Microsoft Docs"
+title: "Using BizTalk Adapter Tracing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "Adapter Trace Utility, installing"
-  - "installing, Adapter Trace Utility"
-  - "Adapter Trace Utility, enabling"
-  - "Adapter Trace Utility, running"
-  - "enabling, Adapter Trace Utility"
-ms.assetid: ddc6b2c7-9dee-43c1-950b-8fd580bfcb26
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using BizTalk Adapter Tracing
 This topic describes how to install the Trace Log tool and how to enable BizTalk adapter tracing.
@@ -28,7 +15,7 @@ This topic describes how to install the Trace Log tool and how to enable BizTalk
 
 #### To install the Trace Log tool (tracelog.exe)
 
-1. Download the Trace Log tool from the [Microsoft® Windows® Software Development Kit Update for Windows Vista](https://go.microsoft.com/fwlink/?LinkId=128279) Web site.
+1. Download the Trace Log tool from the [Microsoft® Windows® Software Development Kit Update for Windows Vista](https://www.microsoft.com/download/details.aspx?id=14477) Web site.
 
    > [!NOTE]
    >  Install this version (6.0) of the SDK even if you are running [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]. If you install the **Windows SDK for Windows Server 2008 and .NET Framework 3.5** version (v. 6.1), it will not install the Trace Log tool.

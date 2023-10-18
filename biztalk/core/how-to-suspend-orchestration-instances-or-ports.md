@@ -1,31 +1,12 @@
 ---
 description: "Learn more about: How to Suspend Orchestration Instances or Ports"
-title: "How to Suspend Orchestration Instances or Ports | Microsoft Docs"
+title: "How to Suspend Orchestration Instances or Ports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipelines, suspending"
-  - "instances, suspending"
-  - "suspending"
-  - "HAT, suspending orchestrations"
-  - "HAT, suspending pipelines"
-  - "suspending, ports"
-  - "suspending, orchestrations"
-  - "orchestrations, suspending"
-  - "HAT, suspending ports"
-  - "suspending, instances"
-  - "ports, suspending"
-ms.assetid: cacc7e58-7d3e-4d6b-adb0-618fdc4f0d89
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Suspend Orchestration Instances or Ports
 You can suspend orchestration instances or ports from a query results list in the BizTalk Server Administration Console.  

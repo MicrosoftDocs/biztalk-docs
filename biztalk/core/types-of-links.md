@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Types of Links"
-title: "Types of Links | Microsoft Docs"
+title: "Types of Links"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "compiler directives, links"
-  - "elastic links [maps]"
-  - "maps, links"
-  - "BizTalk Mapper, links"
-  - "partial links [maps]"
-  - "fixed links [maps]"
-ms.assetid: 348fae77-2e25-4b79-93bb-d42f3d18a3f7
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Types of Links
 The following list summarizes the various types of links available in BizTalk Mapper:  

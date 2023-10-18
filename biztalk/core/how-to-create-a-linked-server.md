@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Create a Linked Server"
-title: "How to Create a Linked Server | Microsoft Docs"
+title: "How to Create a Linked Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "servers, linking for backups"
-  - "backing up, linking servers"
-ms.assetid: 7d4aba3d-77c0-4cdf-8547-71e821ce34a1
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create a Linked Server
 When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed in a distributed topology, the databases that belong to a BizTalk Group exist on multiple [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. You must configure a linked server connection to each of the remote servers before you can back up the entire BizTalk environment from the BizTalk Management server. A linked server is an OLE DB data source that is used in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] distributed queries.  

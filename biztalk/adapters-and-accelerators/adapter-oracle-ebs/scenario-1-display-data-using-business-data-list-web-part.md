@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Scenario 1: Display data using Business Data List web part"
-title: "Scenario 1: Display data using Business Data List web part | Microsoft Docs"
+title: "Scenario 1: Display data using Business Data List web part"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b3831814-8b70-4352-b22f-cebd08750ef5
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scenario 1: Display data using Business Data List web part
 We will use the **Business Data List** Web Part for the **Finder** method instance. This Web Part enables you to specify a search expression to retrieve a list of employees from Oracle E-Business Suite. For this tutorial, this is called the Display Employees Web Part. This section provides instructions to create this Web Part. For more information about creating Web Parts, see "Customize business data lists, Web Parts, and sites" at [https://go.microsoft.com/fwlink/?LinkId=104131](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263201(v=office.12)).

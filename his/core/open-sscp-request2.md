@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Open(SSCP) Request"
-title: "Open(SSCP) Request2 | Microsoft Docs"
+title: "Open(SSCP) Request2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c0a6de6f-d53e-4dff-9cea-fbbd9fadade8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Open(SSCP) Request
 The **Open(SSCP) Request** message flows from the application to the node. It is used with a system services control point (SSCP) connection.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsHis_CodePage Class"
-title: "MsHis_CodePage Class1 | Microsoft Docs"
+title: "MsHis_CodePage Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 72032fa0-c1ec-4d9f-8074-850d63201e74
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsHis_CodePage Class
 The **MsHIS_CodePage** class is used to query for code page support.  

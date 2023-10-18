@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Exporting Agreement Properties to an XML FIle"
-title: "Exporting Agreement Properties to an XML FIle | Microsoft Docs"
+title: "Exporting Agreement Properties to an XML FIle"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 136f09b5-3e8c-4455-bd84-66cd27de6a44
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Exporting Agreement Properties to an XML FIle
 This section provides instructions on how to export agreement properties to an XML template file.  

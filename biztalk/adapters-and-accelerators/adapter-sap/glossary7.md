@@ -1,19 +1,12 @@
 ---
-title: "Glossary for the mySAP adapter in BizTalk | Microsoft Docs"
+title: "Glossary for the mySAP adapter in BizTalk"
 description: Common terms and definitions used by the mySAP adapter in the BizTalk Adapter pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 87db79be-e242-40fa-9897-8915e6fb5cae
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Glossary - Microsoft BizTalk Adapter for mySAP Business Suite
 The following terms and definitions are used in [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].  

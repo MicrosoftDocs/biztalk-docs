@@ -1,18 +1,12 @@
 ---
-title: "BizTalk Server 2020: What's New, and Installation | Microsoft Docs"
+title: "BizTalk Server 2020: What's New, and Installation"
 description: Introduction to what's new, and installing and upgrading to BizTalk Server 2020
 ms.custom: "biztalk-2020"
 ms.prod: biztalk-server
 ms.date: "03/23/2020"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 229043b3-b1a4-47e9-9c0e-1fba5ec5b417
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 
 # BizTalk Server 2020: What's New, and Installation

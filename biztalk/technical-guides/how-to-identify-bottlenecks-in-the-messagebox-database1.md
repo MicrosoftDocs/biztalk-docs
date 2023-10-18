@@ -1,18 +1,12 @@
 ---
 description: "Learn how to identify bottlenecks in the MessageBox database using the SQL-Server-Agent Service."
-title: "How to Identify Bottlenecks in the MessageBox Database1 | Microsoft Docs"
+title: "How to Identify Bottlenecks in the MessageBox Database1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1a039164-5ca6-4cbc-b307-c5d4ae800689
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Identify Bottlenecks in the MessageBox Database
 

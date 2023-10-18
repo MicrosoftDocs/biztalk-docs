@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Support for ODBC Statement Attributes"
-title: "Support for ODBC Statement Attributes | Microsoft Docs"
+title: "Support for ODBC Statement Attributes"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bc6058f2-39f5-4dc2-bed9-b2f7279c0066
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Support for ODBC Statement Attributes
 The following table lists the ODBC statement attribute support using the Microsoft ODBC Driver for DB2. Note that the statement attributes in this list use the ODBC Version 3.0 attribute names, rather than the older ODBC 1.0 names.  

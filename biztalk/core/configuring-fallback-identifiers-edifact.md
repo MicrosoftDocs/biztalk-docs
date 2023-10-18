@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Fallback Identifiers (EDIFACT)"
-title: "Configuring Fallback Identifiers (EDIFACT) | Microsoft Docs"
+title: "Configuring Fallback Identifiers (EDIFACT)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f2ce56c1-44f1-42dc-94e8-36e5ba664f53
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Fallback Identifiers (EDIFACT)
 In the fallback agreement, you must set the recipient reference password, in order to verify that the interchange is not being received by unauthorized recipients.  

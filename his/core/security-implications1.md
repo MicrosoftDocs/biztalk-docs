@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Security Implications"
-title: "Security Implications1 | Microsoft Docs"
+title: "Security Implications1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 270c33d8-9671-4a0e-933e-32c3e9fab2b8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Security Implications
 Transaction Integrator (TI) can provide user ID and password credentials for authentication on the mainframe. They are provided in compliance with existing IBM standards, and mainframe authentication is completed by standard IBM procedures such as Resource Access Control Facility (RACF), Top Secret, and so on. All mainframe authentication is completed in a manner transparent to the developer.  

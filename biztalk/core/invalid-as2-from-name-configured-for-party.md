@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid AS2-From name configured for Party"
-title: "Invalid AS2-From name configured for Party | Microsoft Docs"
+title: "Invalid AS2-From name configured for Party"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cde739bd-f6f7-4e4a-8f02-9a99e9d82fc9
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid AS2-From name configured for Party
 ## Details  

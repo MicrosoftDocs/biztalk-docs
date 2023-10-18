@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: BizTalk ESB Toolkit Message Life Cycle"
-title: "BizTalk ESB Toolkit Message Life Cycle | Microsoft Docs"
+title: "BizTalk ESB Toolkit Message Life Cycle"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c72fdbda-b9ef-431a-8322-56dba98e9eab
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk ESB Toolkit Message Life Cycle
 The following is the life cycle of a message that originates from an external system and traverses through the ESB to reach its final destination:  

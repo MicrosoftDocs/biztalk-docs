@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Numeric Override Facility"
-title: "Numeric Override Facility2 | Microsoft Docs"
+title: "Numeric Override Facility2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44e295a0-69cf-4653-a517-107bd908485b
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Numeric Override Facility
 The numeric override facility allows a user to enter non-numeric characters in numeric-only fields.  

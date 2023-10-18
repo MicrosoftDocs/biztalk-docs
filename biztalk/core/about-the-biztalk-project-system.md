@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: About the BizTalk Project System"
-title: "About the BizTalk Project System | Microsoft Docs"
+title: "About the BizTalk Project System"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "projects, about projects"
-  - "applications, creating"
-  - "creating, applications"
-  - "creating, business solutions"
-  - "business solutions, creating"
-ms.assetid: 69807e57-356e-451d-b803-4253b891b617
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # About the BizTalk Project System
 You use the BizTalk project system to create part or all of a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application or business solution. The core element of any such solution is a BizTalk project—a collection of items, such as schemas, orchestrations, Web message types, classes, pipelines, maps, and references that you can build and generate into an assembly before deploying it.
@@ -39,7 +26,7 @@ You use the BizTalk project system to create part or all of a Microsoft [!INCLUD
 
 - **Pipelines.** A pipeline performs a variety of operations to prepare incoming or outgoing messages for further processing. Pipeline Designer enables you to implement such operations as encryption and decryption, compression, reformatting, and validation. For more information about Pipeline Designer, see [Creating Pipelines Using Pipeline Designer](../core/creating-pipelines-using-pipeline-designer.md).
 
-  BizTalk projects are compatible with Team Foundation Server (TFS). For more information about designing, developing, and deploying solutions within BizTalk Server in conjunction with TFS, see [Developing Integration Solutions using BizTalk Server and Team Foundation Server](https://www.microsoft.com/downloads/details.aspx?FamilyID=ed7bd0ee-1385-4041-8f2a-354594ee88f3&DisplayLang=en).
+  BizTalk projects are compatible with Team Foundation Server (TFS).
 
 > [!IMPORTANT]
 >  TFS Build exposes a property called “MSBuild Platform” that can have 3 values – “Auto”, “x86” and “x64”. To ensure successful build, the value of the above property must be set to x86.
