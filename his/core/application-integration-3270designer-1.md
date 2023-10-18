@@ -20,7 +20,7 @@ This tool helps you record the screens, navigation paths, methods, and parameter
 
 ## [Designing Metadata artifacts for 3270 Integration](application-integration-la3270apps.md)  
 
-3270 Streams or green screen applications still run Mission Critical systems in Financial Services, Healthcare and many other industries. This section details the strategies to integrate with these applications using the 3270 Design tool.
+3270 streams or green screen applications still run mission-critical systems in financial services, healthcare, and many other industries. This section details the strategies to integrate with these applications using the 3270 Design tool.
 
 ## Related content
 
