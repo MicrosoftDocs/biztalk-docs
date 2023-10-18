@@ -56,7 +56,7 @@ The design tool doesn't support these elements:
 
 ## Downloading the 3270 Design tool
 
-The HIS Designer for Logic Apps can be downloaded from the Download Center.
+You can [download the 3270 Design Tool from the Download Center](https://www.microsoft.com/download/details.aspx?id=57962).
 
 ## Next step
 
