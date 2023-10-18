@@ -2,7 +2,7 @@
 title: What is the 3270 Design Tool
 description: Get started with the 3270 Design Tool for Azure Logic Apps. This development tool helps you create green-screen applications.
 ms.author: "hcampos"
-ms.prod: "host-integration-server"
+ms.prod: host-integration-server
 ms.topic: overview 
 ms.date: "10/17/2023"
 
