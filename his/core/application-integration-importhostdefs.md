@@ -3,7 +3,7 @@ title: "Importing COBOL Host Definitions"
 description: Importing COBOL Host Definitions for CICS, IMS and Host Files
 ms.prod: host-integration-server
 ms.topic: how-to
-ms.date: "10/17/2023"
+ms.date: 10/17/2023
 ---
 
 # Importing COBOL Host Definitions
