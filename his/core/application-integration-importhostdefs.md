@@ -1,5 +1,5 @@
 ---
-title: "Importing COBOL Host Definitions"
+title: Importing COBOL Host Definitions
 description: Learn how to import COBOL host definitions for CICS, IMS, and host files.
 ms.prod: host-integration-server
 ms.topic: how-to
