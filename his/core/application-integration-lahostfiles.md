@@ -4,13 +4,12 @@ description: Designing Host Files for Azure Logic Apps
 author: haroldcampos
 ms.author: "hcampos"
 ms.prod: "host-integration-server"
-ms.service: #Required; use the name-string related to slug in ms.product/ms.service
-ms.topic: concept-article #Required; leave this attribute/value as-is.
+ms.topic: how-to
 ms.date: "10/03/2023"
-#CustomerIntent: As a < type of user >, I want < what? > so that < why? >.
+#CustomerIntent: As an integration developer I need to design mainframe metadata artifacts for Azure Logic Apps
 ---
 
-# <verb>Designing Metadata Artifacts for Host Files <noun>
+# Designing Metadata Artifacts for Host Files
 
 In this article, we will show you how to design Metadata Artifacts for Host Files. Metadata artifacts are saved as Host Integration Server Definition XML (HIDX) files.
 
