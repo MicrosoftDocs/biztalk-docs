@@ -13,7 +13,7 @@ When the original Host Integration Server TI Designer feature was introduced, it
 ## Prerequisites
 
 The Main prerequisite is to obtain the Host Definitions (copybooks) that will be imported in the HIS Designer for Logic Apps. The HIS Designer for Logic Apps supports COBOL and RPG copybooks.
-It is also important to understand the Programming model for the technology to integrate against (CICS or IMS). Both platforms have different requirements and ways to pass and receive information. Please get yourself familiar with the appropriate [Programming Model](choosing-the-appropriate-programming-model1.md) before importing the Host Definitions.
+ - Understanding how the programming model works for the technology that you want to integrate against, which is CICS or IMS. Both platforms have different requirements and ways to pass and receive information. Make sure that you learn about the appropriate [programming model](choosing-the-appropriate-programming-model1.md) before you import the host definitions.
 
 ## Preparing a COBOL Copybook
 
