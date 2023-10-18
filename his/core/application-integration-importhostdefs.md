@@ -165,7 +165,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdef7.png" alt-text="Host Definition parsed by HIS Designer for Logic Apps view":::
 
-1. Select **Save All** to generate the HIDX.
+1. To generate the HIDX, select **Save All**.
 
 ## Importing a COBOL Host Definition (IMS)
 
