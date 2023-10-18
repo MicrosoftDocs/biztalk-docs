@@ -1839,12 +1839,12 @@
 
 ## [Application Integration](application-integration-planning-2.md)
 
-### [Design]
-#### [3270 Design Tool]
+### [Design](application-integration-3270designer-1.md)
+#### [3270 Design Tool](application-integration-3270designer-1.md)
 ##### [Get started with the 3270 Design Tool](application-integration-3270designer-1.md)
 ##### [What is the 3270 Design Tool?](application-integration-3270designer-2.md)
 ##### [Designing Metadata Artifacts for 3270 Applications](application-integration-la3270apps.md)
-#### [HIS Designer for Logic Apps]
+#### [HIS Designer for Logic Apps](application-integration-ladesigner-1.md)
 ##### [Get started with the HIS Designer for Logic Apps](application-integration-ladesigner-1.md)
 ##### [What is the HIS Designer for Logic Apps?](application-integration-ladesigner-2.md)
 ##### [Designing Metadata Artifacts for Host Applications (CICS/IMS)](application-integration-lahostapps.md)
