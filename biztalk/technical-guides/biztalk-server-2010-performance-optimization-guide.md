@@ -13,8 +13,6 @@ Welcome to the Microsoft® BizTalk® Server 2010 Performance Optimization Guide.
 
  The purpose of this guide is to consolidate and provide prescriptive guidance on the best practices and techniques that should be followed to optimize BizTalk Server performance.
 
- To download a copy of this guide in chm, pdf, or docx form, go to [Microsoft BizTalk Server 2010 Performance Optimization Guide](https://go.microsoft.com/fwlink/?LinkId=210870)(https://go.microsoft.com/fwlink/?LinkId=210870).
-
 ## What's in it?
  Generally, the performance of a server is determined by the component that has the lowest performance—the bottleneck in the system. The key to improving performance is being able to identify bottlenecks, determine their cause, and apply the appropriate corrective action.
 

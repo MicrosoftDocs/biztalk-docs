@@ -37,7 +37,7 @@ This section provides information about how you can resolve administration issue
 
 - For information about verifying the BizTalk related registry keys, see "Windows registry information for advanced users" in the Microsoft Help and Support Web site at [https://go.microsoft.com/fwlink/?LinkId=155583](/troubleshoot/windows-server/performance/windows-registry-advanced-users).
 
-- For information about running the BizTalk Best Practices Analyzer, see "BizTalk Server Best Practices Analyzer" in the Microsoft Download Center at [https://go.microsoft.com/fwlink/?LinkId=83317](https://go.microsoft.com/fwlink/?LinkId=83317).
+- For information about running the BizTalk Best Practices Analyzer, see ["BizTalk Server Best Practices Analyzer" in the Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=43382).
 
 - For information about maintaining BAM databases, see "Managing BAM Databases" in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [https://go.microsoft.com/fwlink/?LinkId=155584](../core/managing-bam-databases.md).
 

@@ -55,6 +55,6 @@ The ESB Management Portal, included as part of the [!INCLUDE[esbToolkit](../incl
 
   -   Microsoft.Practices.Unity
 
-- [Microsoft Chart Controls](https://go.microsoft.com/fwlink/?LinkId=188293) (https://go.microsoft.com/fwlink/?LinkId=188293) for Microsoft .NET Framework 4
+- Microsoft Chart Controls, built into [.NET Framework 4](https://www.microsoft.com/download/details.aspx?id=17851)
 
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] metric tracking extends only to fault tracking for the exception management system.

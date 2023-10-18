@@ -66,7 +66,7 @@ This section contains steps that you can follow to help diagnose problems with t
    </configuration>
    ```
 
-5. You can use the Windows Communication Foundation (WCF) Service Trace Viewer Tool to analyze messages logged by WCF. Service Trace Viewer is included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] Runtime Components. You can download the Windows SDK from the Microsoft Download Center at [https://go.microsoft.com/fwlink/?LinkID=75636](https://go.microsoft.com/fwlink/?LinkID=75636). For more information about using this tool, see "Service Trace Viewer Tool (SvcTraceViewer.exe)"at [https://go.microsoft.com/fwlink/?LinkId=88991](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe).
+5. You can use the Windows Communication Foundation (WCF) Service Trace Viewer Tool to analyze messages logged by WCF. Service Trace Viewer is included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] Runtime Components. You can download the Windows SDK from the [Microsoft Download Center](https://developer.microsoft.com/windows/downloads/windows-sdk/). For more information about using this tool, see "Service Trace Viewer Tool (SvcTraceViewer.exe)"at [https://go.microsoft.com/fwlink/?LinkId=88991](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe).
 
 ### Return managed exception information to the client in a SOAP fault to ease debugging
 

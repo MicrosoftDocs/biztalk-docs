@@ -76,7 +76,7 @@ This topic provides instructions to install the Data Provider Version 6.0.
 ## Prerequisite Software
  The Data Provider requires the following software products as installation prerequisites.
 
--   Microsoft .NET Framework 4.6 [Web installer](https://go.microsoft.com/fwlink/p/?LinkId=528259) (https://go.microsoft.com/fwlink/p/?LinkId=528259) **OR** the [off-line installer](https://go.microsoft.com/fwlink/p/?LinkId=528233) (https://go.microsoft.com/fwlink/p/?LinkId=528233
+-   Microsoft .NET Framework 4.6 [Web installer](https://go.microsoft.com/fwlink/p/?LinkId=528259) (https://go.microsoft.com/fwlink/p/?LinkId=528259) **OR** the [off-line installer](https://dotnet.microsoft.com/download/dotnet-framework/net46).
 
 -   Microsoft [Visual C++ 2013 Redistributable Package (x86)](https://aka.ms/vs2013runtimes)
 

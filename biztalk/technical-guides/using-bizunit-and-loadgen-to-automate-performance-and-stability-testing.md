@@ -83,7 +83,7 @@ This topic provides information about how to use the Microsoft BizTalk LoadGen 2
 
   -   Depth of an MSMQ or MQSeries message queue
 
-  The Microsoft [BizTalk LoadGen 2007 tool](https://go.microsoft.com/fwlink/?LinkId=59841) is available for download at [https://go.microsoft.com/fwlink/?LinkId=59841](https://go.microsoft.com/fwlink/?LinkId=59841) (https://go.microsoft.com/fwlink/?LinkId=59841).
+  The Microsoft [BizTalk LoadGen 2007 tool](https://www.microsoft.com/download/details.aspx?id=14925) is available for download.
 
 ### Sample LoadGen configuration file
  All LoadGen configuration information is stored in an xml file. The LoadGen configuration file contains a \<CommonSection\> element that configures the default settings for all LoadGen tasks in the LoadGen scenario. The LoadGen configuration file can also contain one or more \<Section\> elements that provide configuration settings for a specific LoadGen task. Entries in a \<Section\> element supersede any default values specified in the \<CommonSection\> element.

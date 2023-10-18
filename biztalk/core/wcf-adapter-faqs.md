@@ -10,8 +10,6 @@ ms.topic: "article"
 ---
 # WCF Adapter FAQs
 > [!NOTE]
->  To download a copy of these FAQs, go to the [https://go.microsoft.com/fwlink/?LinkId=144765](https://go.microsoft.com/fwlink/?LinkId=144765).
->
 >  For more information about adapters, go to the [Adapters in BizTalk Server](https://go.microsoft.com/fwlink/?LinkId=196669) page on MSDN.
 
  The following Windows Communication Foundation (WCF) adapter FAQs are included in this section:
