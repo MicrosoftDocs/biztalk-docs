@@ -46,7 +46,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdef2.png" alt-text="Selecting Host Definitions in Visual Studio (CICS)":::
 
-1. Find and select the copybook to import.
+1. Find and select the copybook to import, and then select **Open**.
 
    :::image type="content" source="media/la-newproject-import-hostdef3.png" alt-text="Selecting the Host Definitions from their directory (CICS)":::
 
