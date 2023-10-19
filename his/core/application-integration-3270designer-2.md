@@ -46,11 +46,8 @@ and output parameters.
 
 ## Unsupported elements
 
-The design tool doesn't support these elements:
+The design tool doesn't support Partial IBM Basic Mapping (BMS) maps: If you import a BMS map, the design tool ignores partial screen definitions.
 
-* Partial IBM Basic Mapping Support (BMS) maps: If you import a BMS map, the design tool ignores partial screen definitions.
-
-* Menu processing
 
 ## Downloading the 3270 Design tool
 
