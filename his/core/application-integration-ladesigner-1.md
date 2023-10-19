@@ -6,7 +6,7 @@ ms.prod: host-integration-server
 ms.topic: concept-article #Required; leave this attribute/value as-is.
 ms.date: "10/03/2023"
 
-#CustomerIntent: As a <type of user>, I want <what?> so that <why?>.
+#CustomerIntent: As a programmer, I want to learn about integrating HIS with Azure Logic Apps.
 ---
 
 # Get started with the HIS Designer for Logic Apps
