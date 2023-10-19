@@ -157,7 +157,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdef5.png" alt-text="Dialog to select options for Item such as Methods, Data Tables, Structures or Unions":::
 
-   - The Designer will present the metadata artifact generated from the COBOL copybook.
+   The designer presents the metadata artifact that's generated from the COBOL copybook.
 
    :::image type="content" source="media/la-newproject-import-hostdef6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps":::
 
