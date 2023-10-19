@@ -16,7 +16,7 @@ Learn how to create mainframe metadata for 3270 stream-based artifacts to use in
 
 The 3270 Design Tool is a desktop application that helps you define metadata used by the IBM 3270 connector in Azure Logic Apps to navigate and interact with your 3270 applications.
 
-:::image type="content" source="media/la-3dtdesigner-main-view1.png" alt-text="HIS Designer for Logic Apps":::
+:::image type="content" source="media/la-3dtdesigner-main-view1.png" alt-text="HIS Designer for Azure Logic Apps":::
 
 ## Why do we need a Tool for interacting with 3270 Applications?
 
