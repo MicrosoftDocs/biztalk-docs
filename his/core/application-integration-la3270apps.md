@@ -1,5 +1,5 @@
 ---
-title: "Designing Metadata Artifacts for 3270 Applications"
+title: Designing Metadata Artifacts for 3270 Applications
 description: Designing Metadata Artifacts for 3270 Applications with the 3270 Design Tool
 author: haroldcampos
 ms.author: "hcampos"
