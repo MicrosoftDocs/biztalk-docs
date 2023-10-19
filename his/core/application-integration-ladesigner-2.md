@@ -15,7 +15,6 @@ ms.date: "10/03/2023"
 
 Learn how to create Mainframe and Midranges metadata artifacts for Azure Logic Apps.
 
-## What is the HIS Designer for Logic Apps
 
 The Host Integration Server (HIS) Designer for Logic Apps is a tool that works with Microsoft Visual Studio to provide a graphical user interface for creating, viewing, and editing metadata objects that map to Mainframe artifacts. These maps are used by the Azure Logic Apps to mirror programs and data of the Mainframes and Midranges.
 
