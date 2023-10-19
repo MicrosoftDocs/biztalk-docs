@@ -10,7 +10,7 @@ ms.date: 10/17/2023
 
 # Designing Metadata Artifacts for 3270 Applications 
 
-In this article, we will show you how to design Metadata Artifacts for 3270 Applications. Metadata artifacts are saved as Host Integration Server Definition XML (HIDX) files.
+This article shows how to design metadata artifacts for 3270 applications and save these artifacts as Host Integration Server Definition XML (HIDX) files.
 
 ## Capture Screens
 
