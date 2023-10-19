@@ -2,7 +2,7 @@
 title: "Logic Apps Integration | Microsoft Docs"
 description: Learn about extending Host Integration Server capabilities with Azure Logic Apps.
 ms.prod: host-integration-server
-ms.topic: concept-article #Required; leave this attribute/value as-is.
+ms.topic: conceptual
 ms.date: "10/03/2023"
 
 #CustomerIntent: As a programmer, I want to learn about integrating HIS with Azure Logic Apps.
