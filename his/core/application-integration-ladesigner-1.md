@@ -3,7 +3,6 @@ title: "Logic Apps Integration | Microsoft Docs"
 description: Extending Host Integration Server capabilities with Azure Logic Apps  
 author: haroldcampos
 ms.prod: host-integration-server
-ms.service: #Required; use the name-string related to slug in ms.product/ms.service
 ms.topic: concept-article #Required; leave this attribute/value as-is.
 ms.date: "10/03/2023"
 
