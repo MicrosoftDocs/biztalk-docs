@@ -11,7 +11,6 @@ ms.date: 10/17/2023
 # What is the 3270 Design Tool? 
 
 
-## What is the 3270 Design Tool
 
 The 3270 Design Tool is a desktop application that helps you define metadata used by the IBM 3270 connector in Azure Logic Apps to navigate and interact with your 3270 applications.
 
