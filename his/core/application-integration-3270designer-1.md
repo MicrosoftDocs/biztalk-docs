@@ -10,7 +10,7 @@ ms.date: 10/17/2023
 
 # Get started with the 3270 Design Tool
 
-Development tool for the IBM 3270 connector for Azure Logic Apps.
+The 3270 Design Tool helps you generate the Host Integration Designer XML (HIDX) file that's required by the IBM 3270 connector in Azure Logic Apps.
 
 ## [3270 Design Tool](application-integration-3270designer-2.md)
 
