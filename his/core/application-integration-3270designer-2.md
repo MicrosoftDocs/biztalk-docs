@@ -18,7 +18,7 @@ The 3270 Design Tool is a desktop application that helps you define metadata use
 
 :::image type="content" source="media/la-3dtdesigner-main-view1.png" alt-text="HIS Designer for Azure Logic Apps":::
 
-## Why do we need a Tool for interacting with 3270 Applications?
+## Why use the 3270 Design Tool to interact with 3270 applications?
 
 In a 3270 screen-driven app, the screens and data fields are unique to your scenarios, so the 3270 connector needs this information about your app, which you can provide as metadata. This metadata describes information that helps your logic app identify and recognize screens, describes how to navigate between screens, where to input data, and where to expect results. To specify and generate this metadata, you use the 3270 Design Tool, which walks you through these specific modes, or stages, as described later in more details.
 
