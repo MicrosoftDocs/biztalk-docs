@@ -153,7 +153,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdef4.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio":::
 
-1. The Item Options dialog will pre-polulate the name of the artifact along with a Link-to-Program name. Select **Next**.
+1. After the **Item Options** box opens and populates with the artifact name and the **Link-to-Program name** value, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef5.png" alt-text="Dialog to select options for Item such as Methods, Data Tables, Structures or Unions":::
 
