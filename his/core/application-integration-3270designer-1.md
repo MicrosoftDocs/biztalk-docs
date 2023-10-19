@@ -1,7 +1,7 @@
 ---
 title: 3270 Design Tool
 description: Design green-screen applications using the 3270 Design Tool.
-ms.prod: "host-integration-server"
+ms.prod: host-integration-server
 ms.topic: conceptual
 ms.date: "10/17/2023"
 
