@@ -36,7 +36,9 @@ The Main prerequisite is to obtain the Host Definitions (copybooks) that will be
 
 The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL program follows the CICS ELM Link [programming model](choosing-the-appropriate-programming-model1.md).
 
-1. Select on the Component node and then Import and Host Definition.
+1. In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
+
+    In the following example, the component node is named **NetCInt1**.
 
    :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Importing CICS Host Definitions in Visual Studio":::
 
