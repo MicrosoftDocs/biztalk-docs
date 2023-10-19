@@ -8,7 +8,7 @@ ms.service: #Required; use the name-string related to slug in ms.product/ms.serv
 ms.topic: overview #Required; leave this attribute/value as-is.
 ms.date: "10/03/2023"
 
-#CustomerIntent: As a <type of user>, I want <what?> so that <why?>.
+#CustomerIntent: As a programmer, I need to create metadata artifacts for use in Azure Logic Apps using the HIS Designer for Logic Apps.
 ---
 
 # What is the HIS Designer for Logic Apps? 
