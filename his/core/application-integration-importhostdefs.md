@@ -151,7 +151,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    ```  
 
-1. Preview the Copybook to be imported
+1. Review the copybook to import. When you're ready, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef4.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio":::
 
