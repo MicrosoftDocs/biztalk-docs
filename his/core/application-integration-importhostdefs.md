@@ -27,7 +27,7 @@ The Main prerequisite is to obtain the Host Definitions (copybooks) that will be
    |12-72     |   B Margin (Area B)      |  These are reserved for 02 levels and upper.       |
    |73-80     |   Identification      |    No definitions are allowed here.     |
 
-- Verify that the COBOL or RPG copybook meets the requirement of the selected [Programming Model](choosing-the-appropriate-programming-model1.md).
+- Verify that the COBOL or RPG copybook meets the requirement of the selected [programming model](choosing-the-appropriate-programming-model1.md).
 - Verify the dots at the end of every line. Although with the COBOL latest versions this is not required, be prepared.
 - If there are REDEFINES in your copybook, talk to the Mainframe programmer to verify the definition that you will use if there is no discriminant available.
 - Remove any character other than the ones stated in the earlier table. Make sure that you have the correct number of characters.
