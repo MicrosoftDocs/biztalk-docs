@@ -18,7 +18,7 @@ Mainframes and Midranges modernization with Azure Logic Apps(new-page-la-mainfmo
 Explain the capabilities of Azure Logic Apps for Mainframes and Midranges Modernization. Azure Logic Apps provides native connectivity for IBM systems such as CICS, IMS, 3270, DB2, MQ and Host Files.
 -->
 
-## [The HIS Designer for Logic Apps](application-integration-ladesigner-2.md)
+## [HIS Designer for Logic Apps](application-integration-ladesigner-2.md)
 
 The HIS Designer for Logic Apps is a stand-alone tool that works with Microsoft Visual Studio to provide a graphical user interface for creating, viewing, and editing metadata objects that map to Mainframe programs and data.
 
