@@ -24,7 +24,7 @@ The HIS Designer for Logic Apps is a stand-alone tool that works with Microsoft 
 
 ## [Designing artifacts for CICS and IMS Integration](application-integration-lahostapps.md) 
 
-CICS and IMS are two of the most used Mainframe systems in the world. This section details the steps to design the artifacts required by Logic Apps to invoke these systems using Low Code techniques.
+CICS and IMS are two of the most used mainframe systems in the world. This linked article shows how to design the artifacts required by Azure Logic Apps to invoke these systems using low code techniques.
 
 ## [Designing artifacts for Host Files Integration](application-integration-lahostfiles.md)
 
