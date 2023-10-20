@@ -28,7 +28,7 @@ CICS and IMS are two of the most used mainframe systems in the world. This linke
 
 ## [Designing artifacts for Host Files Integration](application-integration-lahostfiles.md)
 
-IBM Host files such as VSAM files preserve data used in a variety of Mission Critical scenarios. This section detals the steps needed to design artifacts needed by Logic Apps to operate on this data offline in high throughput scenarios.
+IBM host files, such as VSAM files, preserve data used in various mission-critical scenarios. This linked article shows how to design artifacts needed by Azure Logic Apps to operate on this data offline in high throughput scenarios.
 
 ## Related content
 
