@@ -293,7 +293,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef16.png" alt-text="ZZ Fields Area dialog":::
 
-1. The TRANCODE Fields Area dialog will appear. You will will need to check the TRANCODE fields that need to be excluded from  the Program. Select **Finish**.
+1. After the **TRANCODE Fields Area** box opens, review the TRANCODE fields that must be excluded from your application. When you're ready, select **Finish**.
 
    :::image type="content" source="media/la-newproject-import-hostdef17.png" alt-text="TRANCODE Fields Area dialog":::
 
