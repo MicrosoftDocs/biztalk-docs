@@ -267,7 +267,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef10.png" alt-text="Dialog to select options for Item such as Methods, Data Tables, Structures or Unions (IMS)":::
 
-1. The Input Area dialog will appear. You will will need to check the Input Area of the Program. Select **Next**.
+1. After the **Input Area** box opens, review the information in the **Input area** section. When you're ready, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef11.png" alt-text="IMS Host transaction input area":::
 
