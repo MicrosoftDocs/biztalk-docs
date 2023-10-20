@@ -365,7 +365,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdefhf8.png" alt-text="Entering Alias, Host File Name and Schema of the Host File":::
 
-1.  To generate the HIDX. file, select **Save All**.
+1. To generate the HIDX. file, select **Save All**.
 
      The following example shows the final view of the host files metadata artifact:
 
