@@ -297,7 +297,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef17.png" alt-text="TRANCODE Fields Area dialog":::
 
-   - The Designer will present the metadata artifact generated from the COBOL copybook.
+   The designer shows the metadata artifact generated from the COBOL copybook:
    
    :::image type="content" source="media/la-newproject-import-hostdef18.png" alt-text="IMS generated metadata view":::
    
