@@ -1,5 +1,5 @@
 ---
-title: "What is the HIS Designer for Logic Apps | Microsoft Docs"
+title: What is the HIS Designer for Logic Apps
 description: Get started with the HIS Designer for Logic Apps, development tool available for creating mainframe programs and data metadata for Azure Logic Apps  
 author: haroldcampos
 ms.author: "hcampos"
