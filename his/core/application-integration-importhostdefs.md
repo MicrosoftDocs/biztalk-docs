@@ -275,7 +275,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef12.png" alt-text="IMS Host transaction output area":::
 
-1. The Return Value dialog will appear. You will will need to check the Return Value field for the Program. Select **Next**.
+1. After the **Return Value** box opens, review the information in the **Return value** section. When you're ready, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef13.png" alt-text="Return value dialog for host transaction":::
 
