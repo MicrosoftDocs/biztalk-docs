@@ -361,7 +361,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdefhf7.png" alt-text="Addint a Table to the Host File Definition":::
 
-   - You will need to rename the Table, assign the previously imported Schema and enter the Mainframe or Midrange name of the Host File as follows.
+1. In the **Alias** property, rename the table. In the **Host File Name** property, enter the mainframe or midrange system name for the host file. In the **Schema** property, assign the previously imported schema.
 
    :::image type="content" source="media/la-newproject-import-hostdefhf8.png" alt-text="Entering Alias, Host File Name and Schema of the Host File":::
 
