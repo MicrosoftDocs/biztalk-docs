@@ -10,7 +10,7 @@ ms.date: 10/17/2023
 
 # Get started with the HIS Designer for Logic Apps
 
-Extending the Design of Integration scenarios to Azure Logic Apps by leveraging the core capabilities of the Host Integration Server TI Designer, with the new stand alone designer that removes the need of installing and configuring Host Integration Server for Azure Logic Apps based scenarios.
+You can extend the design of integration scenarios to Azure Logic Apps by using the core capabilities of the Host Integration Server TI Designer. This tool includes a new standalone designer that removes the need for installing and configuring Host Integration Server for Azure Logic Apps-based scenarios.
 
 <!-- 
 This is content to add later.
