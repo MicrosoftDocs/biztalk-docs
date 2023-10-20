@@ -25,7 +25,7 @@ The original Host Integration Server TI Designer feature was introduced with the
    | 7 | Indicator | Use to code a comment (*). A slash (/) is also accepted. |
    | 8-11 | A Margin (Area A) | 77 level numbers and 01 level numbers |
    | 12-72 | B Margin (Area B) | Reserved for 02 levels and higher |
-   |73-80     |   Identification      |    No definitions are allowed here.     |
+   | 73-80 | Identification | No definitions are allowed here. |
 
 - Verify that the COBOL or RPG copybook meets the requirement of the selected [programming model](choosing-the-appropriate-programming-model1.md).
 - Verify the dots at the end of every line. Although with the COBOL latest versions this is not required, be prepared.
