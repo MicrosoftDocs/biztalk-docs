@@ -183,7 +183,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef2.png" alt-text="Visual Studio configuration for Logic Apps and HIS":::
 
-1. Select the Copybook to be imported. Select **Open**.
+1. Find and select the copybook to import, and then select **Open**.
 
    :::image type="content" source="media/la-newproject-import-hostdef8.png" alt-text="Selecting Host Definitions in Visual Studio (IMS)":::
 
