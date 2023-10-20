@@ -271,7 +271,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef11.png" alt-text="IMS Host transaction input area":::
 
-1. The Output Area dialog will appear. You will will need to check the Output Area of the Program. Select **Next**.
+1. After the **Output Area** box opens, review information in the **Output area** section. When you're ready, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef12.png" alt-text="IMS Host transaction output area":::
 
