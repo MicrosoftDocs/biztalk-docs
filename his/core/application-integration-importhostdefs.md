@@ -263,7 +263,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef9.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio (IMS)":::
 
-1. The Item Options dialog will pre-polulate the name of the artifact along with a Transaction ID. Select **Next**.
+1. After the **Item Options** box opens and populates with the artifact name and the **Transaction ID** value, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef10.png" alt-text="Dialog to select options for Item such as Methods, Data Tables, Structures or Unions (IMS)":::
 
