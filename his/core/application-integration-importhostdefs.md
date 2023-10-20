@@ -353,7 +353,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdefhf4.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio (Host Files)":::
 
-   - The Designer will present the metadata artifact generated from the COBOL copybook. Remember this artifact is incomplete. You will need to create a Table or Tables that will reflect the Host Files.
+   The designer shows the metadata artifact generated from the COBOL copybook. This artifact is incomplete, so you must create one or more tables that reflect the host files.
 
    :::image type="content" source="media/la-newproject-import-hostdefhf6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps (Host Files)":::
 
