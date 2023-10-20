@@ -8,7 +8,7 @@ ms.date: 10/17/2023
 
 # Importing COBOL Host Definitions
 
-When the original Host Integration Server TI Designer feature was introduced, it was provided with a full set of capabilities to design metadata artifacts from scratch with the assistance of a Mainframe Programmer. The ability to import Host Definitions in the format of a COBOL or RPG copybook was introduced to support scenarios to automate design and to reduce involvement of Mainframe Programmers. Over the years, this became the principal option to create Metadata artifacts.
+The original Host Integration Server TI Designer feature was introduced with the full capabilities for designing metadata artifacts from scratch with the assistance from a mainframe programmer. Later, the capability to import host definitions in COBOL or RPG copybook format was added to support scenarios for automating design and reducing involvement from mainframe programmers. Over the years, this capability became the principal option to create metadata artifacts.
 
 ## Prerequisites
 
