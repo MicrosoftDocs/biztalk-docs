@@ -289,7 +289,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef15.png" alt-text="LL Fields Area dialog":::
 
-1. The ZZ Fields Area dialog will appear. You will will need to check the ZZ fields that need to be excluded from the transaction. Select **Next**.
+1. After the **ZZ Fields Area** box opens, review the ZZ fields that must be excluded from the transaction. When you're ready, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef16.png" alt-text="ZZ Fields Area dialog":::
 
