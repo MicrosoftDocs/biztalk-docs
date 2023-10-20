@@ -187,7 +187,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef8.png" alt-text="Selecting Host Definitions in Visual Studio (IMS)":::
 
-   - The following is the COBOL program to be imported:
+   The following example shows the COBOL program to import:
 
       ```
        IDENTIFICATION DIVISION.
