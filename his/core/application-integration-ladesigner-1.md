@@ -20,7 +20,7 @@ Explain the capabilities of Azure Logic Apps for Mainframes and Midranges Modern
 
 ## [HIS Designer for Logic Apps](application-integration-ladesigner-2.md)
 
-The HIS Designer for Logic Apps is a stand-alone tool that works with Microsoft Visual Studio to provide a graphical user interface for creating, viewing, and editing metadata objects that map to Mainframe programs and data.
+To create, view, and edit metadata objects that map to mainframe programs and data, you can use the HIS Designer for Logic Apps. This designer is a standalone tool with a graphical user interface that works with Microsoft Visual Studio.
 
 ## [Designing artifacts for CICS and IMS Integration](application-integration-lahostapps.md) 
 
