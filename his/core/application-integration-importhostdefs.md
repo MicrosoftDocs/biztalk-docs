@@ -311,7 +311,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
 There are multiple types of IBM Host Files. Host files can exist in Mainframes or Midranges and have their own types and characteristics. With an increasing demand on modernizing or migrating Mainframe or midranges applications that use Host File data such as VSAM files to Azure, it is becoming more common to access this files and integrate them into Modern solutions.
 
-The following steps will allow importing a COBOL copybook into the HIS Designer for Logic Apps. This COBOL copybook represents a simple VSAM file. The Import wizard will create structures and unions. Once the copybook was imported, you will be able to create Tables  and assign them the right schemas.
+The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL copybook represents a simple VSAM file. The Import wizard creates structures and unions. After you import the copybook, you can create and assign tables to correct schemas.
 
 1. Select on the **Component** node and then **Import** and **Host Definition**.
 
