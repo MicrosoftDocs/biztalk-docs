@@ -17,7 +17,7 @@ The original Host Integration Server TI Designer feature was introduced with the
 
 ## Preparing a COBOL Copybook
 
-- COBOL copybooks should follow the basic COBOL coding rules. The HIS Designer for Logic Apps enforces many of those. The main ones are the following:
+- COBOL copybooks should follow the basic COBOL coding rules. The HIS Designer for Logic Apps enforces many of those rules. The following table lists the main rules:
 
    |Columns  |Type  |Observation  |
    |---------|---------|---------|
