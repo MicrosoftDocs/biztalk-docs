@@ -357,7 +357,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdefhf6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps (Host Files)":::
 
-1. Select the Tables directory and right Select **Add table**.
+1. In the component node tree, open the **Tables** shortcut menu, and select **Add Table**.
 
    :::image type="content" source="media/la-newproject-import-hostdefhf7.png" alt-text="Addint a Table to the Host File Definition":::
 
