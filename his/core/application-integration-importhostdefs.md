@@ -29,7 +29,7 @@ The original Host Integration Server TI Designer feature was introduced with the
 
 - Verify that the COBOL or RPG copybook meets the requirement of the selected [programming model](choosing-the-appropriate-programming-model1.md).
 - Verify the dots at the end of every line. Although with the COBOL latest versions this is not required, be prepared.
-- If there are REDEFINES in your copybook, talk to the Mainframe programmer to verify the definition that you will use if there is no discriminant available.
+- If there are REDEFINES in your copybook, have the mainframe programmer confirm the definition that you want to use, if no discriminant is available.
 - Remove any character other than the ones stated in the earlier table. Make sure that you have the correct number of characters.
 
 ## Importing a COBOL Host Definition (CICS)
