@@ -32,4 +32,4 @@ IBM host files, such as VSAM files, preserve data used in various mission-critic
 
 ## Related content
 
-- [The 3270 Design Tool](application-integration-3270designer-1.md)
+- [3270 Design Tool](application-integration-3270designer-1.md)
