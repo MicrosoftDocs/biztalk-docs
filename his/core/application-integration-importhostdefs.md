@@ -349,7 +349,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
               05 CUSTOMER-ACCESS-PIN         PIC X(4).
    ```  
  
-1. Preview the Copybook to be imported and review the options for REDEFINEs, use of Importer defaults and/or Generate structure on host definition indents. Select **Next**.
+1. Review the copybook to import. Verify the selections for the following options: **REDEFINE**, **Use Importer defaults**, and **Generate structure on indents** for the host definition. When you're ready, select **Next**. 
 
    :::image type="content" source="media/la-newproject-import-hostdefhf4.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio (Host Files)":::
 
