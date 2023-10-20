@@ -327,7 +327,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    :::image type="content" source="media/la-newproject-import-hostdefhf3.png" alt-text="Selecting the Host Definitions from their directory (Host Files)":::
 
-1. The following is the COBOL program to be imported:
+   The following example shows the COBOL program to import:
 
    ```
          ******************************************************************        
