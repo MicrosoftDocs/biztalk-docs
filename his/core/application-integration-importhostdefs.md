@@ -279,7 +279,9 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef13.png" alt-text="Return value dialog for host transaction":::
 
-1. The Data Tables and Structures dialog will appear. You will will need to check the groups that will become Data Tables and Structures for the Program. This sample program does not require this setting. Select **Next**.
+1. After the **Data Tables, Structures and Unions** box opens, review the groups to use for the data tables and structures in your application. When you're ready, select **Next**.
+
+   For this sample application, the following example doesn't require this setting.
 
    :::image type="content" source="media/la-newproject-import-hostdef14.png" alt-text="Data Tables and Structures dialog":::
 
