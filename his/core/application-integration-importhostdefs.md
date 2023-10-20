@@ -259,7 +259,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    ```
 
-1. Preview the Copybook to be imported
+1. Review the copybook to import. When you're ready, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef9.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio (IMS)":::
 
