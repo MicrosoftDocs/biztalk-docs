@@ -1839,7 +1839,7 @@
 
 ## [Application Integration](application-integration-planning-2.md)
 
-### [Design](application-integration-3270designer-1.md)
+### [Design Tools](application-integration-3270designer-1.md)
 #### [3270 Design Tool](application-integration-3270designer-1.md)
 ##### [Get started with the 3270 Design Tool](application-integration-3270designer-1.md)
 ##### [What is the 3270 Design Tool?](application-integration-3270designer-2.md)
