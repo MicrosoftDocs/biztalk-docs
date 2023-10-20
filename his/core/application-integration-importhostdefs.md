@@ -313,7 +313,9 @@ There are multiple types of IBM Host Files. Host files can exist in Mainframes o
 
 The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL copybook represents a simple VSAM file. The Import wizard creates structures and unions. After you import the copybook, you can create and assign tables to correct schemas.
 
-1. Select on the **Component** node and then **Import** and **Host Definition**.
+1. In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
+
+    In the following example, the component node is named **HostFileDefinition1**.
 
    :::image type="content" source="media/la-newproject-import-hostdefhf1.png" alt-text="Importing Host Files Definitions in Visual Studio":::
 
