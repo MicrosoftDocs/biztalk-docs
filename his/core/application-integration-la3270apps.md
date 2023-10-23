@@ -10,7 +10,7 @@ ms.date: 10/25/2023
 
 # Designing Metadata Artifacts for 3270 Applications 
 
-This article shows how to design metadata artifacts for 3270 applications and save these artifacts as Host Integration Server Definition XML (HIDX) files.
+This guide shows how to design metadata artifacts for 3270 applications and save these artifacts as Host Integration Server Definition XML (HIDX) files.
 
 ## Capture Screens
 
@@ -34,19 +34,9 @@ In this mode, you mark an item on each 3270 screen that uniquely identifies that
 
    * Included with your captured screens, you have a screen that's named "Empty".
 
-     When you first connect to 
-     [CICS](https://www.ibm.com/it-infrastructure/z/cics), 
-     you must send the "Clear" key before you can enter the name 
-     for the transaction you want to run. The screen where you 
-     send the "Clear" key doesn't have any *recognition attributes*, 
-     such as a screen title, which you can add by using the Screen 
-     Recognition editor. To represent this screen, the thumbnails 
-     includes a screen named "Empty". You can later use this screen 
-     for representing the screen where you enter the transaction name.
+     When you first connect to [CICS](https://www.ibm.com/it-infrastructure/z/cics), you must send the "Clear" key before you can enter the name for the transaction you want to run. The screen where you send the "Clear" key doesn't have any *recognition attributes*, such as a screen title, which you can add by using the Screen Recognition editor. To represent this screen, the thumbnails includes a screen named "Empty". You can later use this screen for representing the screen where you enter the transaction name.
 
-   * By default, the name for a captured screen uses the first word on 
-   the screen. If that name already exists, the design tool appends 
-   the name with an underscore and a number, for example, "WBGB" and "WBGB_1".
+   * By default, the name for a captured screen uses the first word on the screen. If that name already exists, the design tool appends the name with an underscore and a number, for example, "WBGB" and "WBGB_1".
 
 1. To give a more meaningful name to a captured screen, follow these steps:
 
@@ -79,18 +69,12 @@ To learn more, see the [Example navigation plan](#example-plan) later in this to
 
 ## Define navigation plans
 
-In this mode, you define the flow or steps for navigating 
-through your mainframe app's screens for your specific task. 
-For example, sometimes, you might have more than one path that 
-your app can take where one path produces the correct result, 
-while the other path produces an error. For each screen, specify the 
-keystrokes necessary for moving to the next screen, such as `CICSPROD <enter>`.
+In this mode, you define the flow or steps for navigating through your mainframe app's screens for your specific task. For example, sometimes, you might have more than one path that your app can take where one path produces the correct result, while the other path produces an error. For each screen, specify the keystrokes necessary for moving to the next screen, such as `CICSPROD <enter>`.
 
 > [!TIP]
-> If you're automating several tasks that use the same connect 
-> and disconnect screens, the design tool provides special 
-> Connect and Disconnect plan types. When you define these plans, 
-> you can add them to your navigation plan's beginning and end.
+> 
+> If you're automating several tasks that use the same connect and disconnect screens, the design tool provides special 
+> Connect and Disconnect plan types. When you define these plans, you can add them to your navigation plan's beginning and end.
 
 ### Guidelines for plan definitions
 
@@ -123,7 +107,6 @@ keystrokes necessary for moving to the next screen, such as `CICSPROD <enter>`.
    | **Process** | For standalone or combined plans |
    | **Connect** | For Connect plans |
    | **Disconnect** | For Disconnect plans |
-   |||
 
 1. From the **Host Screens** pane, drag the captured thumbnails to the navigation plan surface in the **Navigation** pane.
 
@@ -145,12 +128,12 @@ After you finish your navigation plan, you can [define methods in the next mode]
 
 ### Example
 
-In this example, suppose you run a CICS transaction named "WBGB" that has these steps: 
+In this example, suppose you run a CICS transaction named "WBGB" that has the following steps: 
 
-* On the first screen, you enter a name and an account.
-* On the second screen, you get the account balance.
-* You exit to the "Empty" screen.
-* You sign out from CICS to the "MSG-10" screen.
+1. On the first screen, you enter a name and an account.
+2. On the second screen, you get the account balance.
+3. You exit to the "Empty" screen.
+4. You sign out from CICS to the "MSG-10" screen.
 
 Also suppose that you repeat these steps, but you enter incorrect data so you can capture the screen that shows the error. Here are the screens you capture:
 
@@ -205,8 +188,8 @@ In this mode, you define a method that's associated with your navigation plan. F
    1. In the **Capture** pane, on the 3270 emulator screen, select the whole field, not just text inside the field, that you want as the first input.
 
       > [!TIP]
-      > To display all the fields and make sure 
-      > that you select the complete field, 
+      > 
+      > To display all the fields and make sure that you select the complete field, 
       > on the **View** menu, select **All Fields**.
 
    1. On the design tool's toolbar, select **Input Field**. 
@@ -218,8 +201,8 @@ In this mode, you define a method that's associated with your navigation plan. F
    1. In the **Capture** pane, on the 3270 emulator screen, select the whole field, not just text inside the field, that you want as the first output.
 
       > [!TIP]
-      > To display all the fields and make sure 
-      > that you select the complete field, 
+      > 
+      > To display all the fields and make sure that you select the complete field, 
       > on the **View** menu, select **All Fields**.
 
    1. On the design tool's toolbar, select **Output Field**.
@@ -234,16 +217,10 @@ define these properties for each parameter:
    | **Data Type** | Byte, Date Time, Decimal, Int, Long, Short, String |
    | **Field Fill Technique** | Parameters support these fill types, filling with blanks if necessary: <p><p>- **Type**: Enter characters sequentially into the field. <p>- **Fill**: Replace the field's contents with characters, filling with blanks if necessary. <p>- **EraseEofType**: Clear the field, and then enter characters sequentially into the field. |
    | **Format String** | Some parameter data types use a format string, which informs the 3270 connector how to convert text from the screen into a .NET data type: <p><p>- **DateTime**: The DateTime format string follows the [.NET custom date and time format strings](/dotnet/standard/base-types/custom-date-and-time-format-strings). For example, the date `06/30/2019` uses the format string `MM/dd/yyyy`. <p>- **Decimal**: The decimal format string uses the [COBOL Picture clause](https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/rzasb/picture.htm). For example, the number `100.35` uses the format string `999V99`. |
-   |||
 
 ## Save and view metadata
 
-After you define your method, but before you test your method, 
-save all the information that you defined so far to a RAP (.rap) file.
-You can save to this RAP file at any time during any mode. The design 
-tool also includes a sample RAP file that you can open and review by 
-browsing to the design tool's installation folder at this location 
-and opening the "WoodgroveBank.rap" file:
+After you define your method, but before you test your method, save all the information that you defined so far to a RAP (.rap) file. You can save to this RAP file at any time during any mode. The design tool also includes a sample RAP file that you can open and review by browsing to the design tool's installation folder at this location and opening the "WoodgroveBank.rap" file:
 
 `..\Program Files\Microsoft Host Integration Server - 3270 Design Tool\SDK\WoodgroveBank.rap`
 
@@ -259,6 +236,7 @@ However, if you try saving changes to the sample RAP file or generating an HIDX 
 1. To run your method against the live host, while still in Methods mode, press the F5 key, or from the design tool's toolbar, select **Test**.
 
    > [!TIP]
+   > 
    > You can change modes at any time. On the **File** menu, select **Mode**, and then select the mode you want.
 
 1. Enter your parameters' values, and select **OK**.
@@ -271,13 +249,11 @@ However, if you try saving changes to the sample RAP file or generating an HIDX 
 
 ## Generate and upload HIDX file
 
-When you're ready, generate the HIDX file so you can upload to your integration account. The 3270 
-Design Tool creates the HIDX file in a new subfolder where you saved your RAP file.
+When you're ready, generate the HIDX file so you can upload to your integration account. The 3270 Design Tool creates the HIDX file in a new subfolder where you saved your RAP file.
 
 1. In the 3270 Design Tool, from the **Tools** menu, select **Generate Definitions**. (Keyboard: F6)
 
 1. Go to the folder that contains your RAP file, and open the subfolder that the tool created after generating your HIDX file. Confirm that the tool created the HIDX file.
-
 
 ## Related content
 
