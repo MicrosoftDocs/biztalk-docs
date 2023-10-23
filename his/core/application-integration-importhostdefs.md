@@ -309,7 +309,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
 ## Importing a COBOL Host File Definition (Host Files)
 
-There are multiple types of IBM Host Files. Host files can exist in Mainframes or Midranges and have their own types and characteristics. With an increasing demand on modernizing or migrating Mainframe or midranges applications that use Host File data such as VSAM files to Azure, it is becoming more common to access this files and integrate them into Modern solutions.
+IBM host files have multiple types and can exist in mainframes or midrange systems. Each have their own types and characteristics. The demand is increasing to modernize or migrate mainframe and midrange applications that use host file data. One example is migrating virtual storage access method (VSAM) files to Azure. With this demand, the use case is becoming more common to access and integrate these files into modern solutions.
 
 The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL copybook represents a simple VSAM file. The Import wizard creates structures and unions. After you import the copybook, you can create and assign tables to correct schemas.
 
