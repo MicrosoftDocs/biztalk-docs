@@ -28,7 +28,7 @@ The original Host Integration Server TI Designer feature was introduced with the
    | 73-80 | Identification | No definitions are allowed here. |
 
 - Verify that the COBOL or RPG copybook meets the requirement of the selected [programming model](choosing-the-appropriate-programming-model1.md).
-- Verify the dots at the end of every line. Although with the COBOL latest versions this is not required, be prepared.
+- Verify the dots at the end of every line. Make sure they appear, even though COBOL's latest versions don't require this formatting.
 - If there are REDEFINES in your copybook, have the mainframe programmer confirm the definition that you want to use, if no discriminant is available.
 - Remove any character other than the ones stated in the earlier table. Make sure that you have the correct number of characters.
 
