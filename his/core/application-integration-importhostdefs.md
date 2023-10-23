@@ -307,7 +307,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
 1. Select **Save All** to generate the HIDX.
 
-## Importing a COBOL Host File Definition
+## Importing a COBOL Host File Definition (Host Files)
 
 There are multiple types of IBM Host Files. Host files can exist in Mainframes or Midranges and have their own types and characteristics. With an increasing demand on modernizing or migrating Mainframe or midranges applications that use Host File data such as VSAM files to Azure, it is becoming more common to access this files and integrate them into Modern solutions.
 
