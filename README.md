@@ -18,17 +18,17 @@ When you update a topic:
 2. Change **ms.date** to the date you update the topic. Here's an example:
 
     ```yml
-    ms.date: "11/28/2017"
+    ms.date: 11/28/2017
     ```
 
 3. **Description** may be used for SEO. If it's missing a description, please add one. Here's an example:
 
     ```yml
-    title: Configure using Basic or Custom configuration
-    description: Steps to do a basic or custom configuration of BizTalk Server, and learn what happens with each configuration
+    title: Configure using basic or custom configuration
+    description: Steps to do a basic or custom configuration of BizTalk Server, and learn what happens with each configuration.
     ```
 
-4. Want some guidance or help for your pull request? Tag `@mandiohlinger` in your pull request, and I'll add my notes to the comments.
+4. Want some guidance or help for your pull request? Tag `@mijacobs` in your pull request, and I'll add my notes to the comments.
 
 ## BizTalk repository structure
 
