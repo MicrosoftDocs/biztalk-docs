@@ -139,7 +139,7 @@ After you add a method, you can define parameters and a return value to pass and
 
 1. In the main design view, open the **DataTables** shortcut menu, and select **Add DataTable**.
 
-   :::image type="content" source="media/la-newproject-add-datatable1.png" alt-text="Screenshot showing main design view, DataTables shortcut menu, and selected option for Add Data Table.":::
+   :::image type="content" source="media/la-newproject-add-datatable1.png" alt-text="Screenshot showing main design view, DataTables shortcut menu, and selected option for Add DataTable.":::
 
 1. Open the new data table's shortcut menu, and select **Add DataTable Column**. Repeat this step as necessary.
 
@@ -168,14 +168,15 @@ After you add a method, you can define parameters and a return value to pass and
 
    :::image type="content" source="media/la-newproject-add-stmember1.png" alt-text="Screenshot showing a created member for a structure.":::
 
-1. Open the column's shortcut menu, and select **Properties**. Provide values for each member's properties based on the following table:
+1. Open the member's shortcut menu, and select **Properties**. Provide values for each member's properties based on the following table:
 
    | Property | Description or value |
    |----------|----------------------|
-   | **Data Type** | .NET data type for the member |
+   | **Is Array** | If true, you must set the array dimensions, which support arrays with up to 7 dimensions and 16,777,215 elements. You must also enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |   
+   | **Data Type** | The .NET data type for the member |
+   | **Name** | The member's name |
    | **Error Handling** | Trigger an error, round, or truncate. |
    | **Host Data Type** | The member's COBOL or RPG data type |
-   | **Name** | The member's name |
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -183,13 +184,13 @@ After you add a method, you can define parameters and a return value to pass and
 
 1. In the main design view, open the **Unions** shortcut menu, and select **Add Union**.
 
-   :::image type="content" source="media/la-newproject-add-union1.png" alt-text="Screenshot showing main design view, Unions shortcut menu, and selected option for Add Unions.":::
+   :::image type="content" source="media/la-newproject-add-union1.png" alt-text="Screenshot showing main design view, Unions shortcut menu, and selected option for Add Union.":::
 
    The designer creates a union with two members. 
 
-1. To add another member, open the new union's shortcut menu, and select **New Member**. Repeat this step as necessary.
+1. To add another member, open the new union's shortcut menu, and select **Add Union Member**. Repeat this step as necessary.
 
-1. Provide the following information for each member:
+1. Open the member's shortcut menu, and select **Properties**. Provide values for each member's properties based on the following table:
 
    | Property | Description or value |
    |----------|----------------------|
