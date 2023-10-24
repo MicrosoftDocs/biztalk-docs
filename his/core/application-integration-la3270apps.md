@@ -10,7 +10,7 @@ ms.date: 10/25/2023
 
 # Designing Metadata Artifacts for 3270 Applications 
 
-This guide shows how to design metadata artifacts for 3270 applications and save these artifacts as Host Integration Server Definition XML (HIDX) files.
+This guide shows how to design metadata artifacts for 3270 applications and save these artifacts as Host Integration Server Definition XML (HIDX) files and C# classes for Host Integration Server.
 
 ## Capture Screens
 
