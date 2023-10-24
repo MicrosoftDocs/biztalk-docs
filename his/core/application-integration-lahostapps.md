@@ -14,7 +14,7 @@ This guide shows how to design metadata artifacts for CICS or IMS host applicati
 
 ## Prerequisites
 
-- [Download and install Visual Studio](https://visualstudio.microsoft.com/downloads/).
+- [Download and install Visual Studio](https://visualstudio.microsoft.com/downloads/). After installation, make sure that you also install the workload named **Desktop development with C++** in Visual Studio. Otherwise, you get the error **Exception from HRESULT 0x800A007C**.
 
 - [Download and install the HIS Designer for Azure Logic Apps](https://aka.ms/his-desiner-logicapps-download). The only prerequisite is [Microsoft .NET Framework 4.8](https://aka.ms/net-framework-download).
 
@@ -40,22 +40,30 @@ In Visual Studio, you can use the Host Application project template to create me
 
    :::image type="content" source="media/la-newproject-his1.png" alt-text="Screenshot shows Visual Studio and details for Configure your new project.":::
 
-   Next, to support the Azure Logic Apps connectors that can access mainframe systems, you need to add .NET client definitions. 
+## Add .NET client definitions
 
-1. Expand the **Host Application** node, and select **Add .NET client Definition**.
+To support the Azure Logic Apps connectors that can access mainframe systems, you need to add .NET client definitions. 
 
-1. In the **Add New Item** box, enter the name for the client definition.
+1. In Solution Explorer, open the your new host application's shortcut menu, and select **Add** > **Add .NET Client Definition**.
 
-1. After the .NET Client Definition wizard launches, in the **Library** box, enter the name to use for identifying the .NET client library that you want to create.
+1. When the **Add New Item** box appears, in the **Name** property, provide a name for the .NET client definition, and select **Add**.
+
+   These steps continue with the example name **NetClnt1**.
+
+1. After the .NET Client Definition wizard launches, in the **Library** box, provide a name for the interface to use for identifying the .NET client library that you want to create.
+
+   This example continues with the interface name **IInterface1**:
 
    :::image type="content" source="media/la-clientwizard-libhis1.png" alt-text="Screenshot shows .NET Client Definition wizard and Library box.":::
+
+1. When you're done, select **Next**.
 
 1. In the **Remote Environment** box, identify the remote mainframe or midrange environment and the programming model to use by providing the following information:
 
    | Parameter | Value or action |
    |-----------|-----------------|
    | **Vendor** | **Microsoft** |
-   | **Protocol** | Select the appropriate network protocol to access the mainframe or midrange system. The following values are available: <br><br>- **TCP** <br>- **HTTP** <br>- **LU 6.2** (Unsupported for Azure Logic Apps connectors) |
+   | **Protocol** | Select the appropriate network protocol to access the mainframe or midrange system: <br><br>- **TCP** <br>- **HTTP** <br>- **LU 6.2** (Unsupported for Azure Logic Apps connectors) |
    | **Target Environment** | Select the target system: <br><br>- **CICS** <br>- **IMS** <br>- **System i** <br>- **System Z** <br>- **System i Distributed Program Call** |
    | **Programming Model** | Select a [programming model](choosing-the-appropriate-programming-model1.md). |
    | **Host Language** | Select the language in use: **COBOL** or **RPG** |
@@ -75,19 +83,19 @@ The following table lists the components of the main design view:
 |-----------|-------------|
 | Component node | The root of the metadata artifact. Stores information about the client library and the remote environment. |
 | Interface node |  Groups all the methods in a component. |
-| Data Tables directory | Groups data tables in the assembly. |
-| Structures directory | Groups variables with shared attributes. |
-| Unions directory | Represents the equivalent of COBOL unions. |
+| Data Tables folder | Groups data tables in the assembly. |
+| Structures folder | Groups variables with shared attributes. |
+| Unions folder | Represents the equivalent of COBOL unions. |
 
 ### Add a method
 
 For your metadata artifact, you can add a method to expose the mainframe program business logic to workflows in Azure Logic Apps.
 
-1. In the main design view, open the **Interface** shortcut menu, and select **Add Method**.
+1. In the main design view, open the new interface's shortcut menu, and select **Add Method**.
 
    :::image type="content" source="media/la-newproject-add-method1.png" alt-text="Screenshot showing main design view, Interface shortcut menu, and selected option for Add Method.":::
 
-1. Based on the [Method Properties](method-properties1.md) gudiance, configure the method.
+1. Open the method's shortcut menu, and select **Properties**. Provide values for the method's properties based on the article [Method Properties](method-properties1.md).
 
 ### Add a parameter or return value
 
@@ -97,16 +105,16 @@ After you add a method, you can define parameters and a return value to pass and
 
    :::image type="content" source="media/la-newproject-add-parameter1.png" alt-text="Screenshot showing main design view, method shortcut menu, and selected option for Add Parameter.":::
 
-1. Provide the following information about the parameter:
+1. Open the parameter's shortcut menu, and select **Properties**. Provide values for the parameter's properties based on the following table:
 
    | Property | Description or value |
    |----------|----------------------|
-   | **Data Type** | The .NET data type of the parameter |
-   | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The COBOL or RPG data type for the parameter |
-   | **Is Array** | If true, you must provide array dimensions. Supports arrays that have up to 7 dimensions and 16,777,215 elements. Also, you must enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |
+   | **Is Array** | If true, you must set the array dimensions, which support arrays with up to 7 dimensions and 16,777,215 elements. You must also enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |
+   | **Data Type** | The .NET data type for the parameter |
    | **Name** | The parameter's name |
    | **Parameter Direction** | Direction of the method parameter: **In**, **In/Out**, or **Out** |
+   | **Error Handling** | Trigger an error, round, or truncate. |
+   | **Host Data Type** | The COBOL or RPG data type for the parameter |
    | **Precision** | The parameter's data precision |
    | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -114,37 +122,37 @@ After you add a method, you can define parameters and a return value to pass and
 
    :::image type="content" source="media/la-newproject-add-retval1.png" alt-text="Screenshot showing main design view, method shortcut menu, and selected option for Add Return Value.":::
 
-1. Provide the following information about the return value:
+1. Open the return value's shortcut menu, and select **Properties**. Provide values for the return value's properties based on the following table:
 
    | Property | Description or value |
    |----------|----------------------|
-   | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The COBOL or RPG data type for the return value. |
-   | **Is Array** |  If true, you must provide array dimensions. Supports arrays that have up to 7 dimensions and 16,777,215 elements. Also, you must enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |
-   | **Precision** | The parameter's data precision |
-   | **Return Type** | The .NET data type of the return value |
+   | **Is Array** | If true, you must set the array dimensions, which support arrays with up to 7 dimensions and 16,777,215 elements. You must also enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |
+   | **Return Type** | The .NET data type for the return value |
    | **Return Value Positioned After** | TBC |
-   | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
    | **Use TICS Work Area** | TBC |
+   | **Error Handling** | Trigger an error, round, or truncate. |
+   | **Host Data Type** | The COBOL or RPG data type for the return value |
+   | **Precision** | The parameter's data precision |
+   | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
 ### Add a data table
 
-1. In the main design view, open the **DataTables** shortcut menu, and select **Add Data Table**.
+1. In the main design view, open the **DataTables** shortcut menu, and select **Add DataTable**.
 
    :::image type="content" source="media/la-newproject-add-datatable1.png" alt-text="Screenshot showing main design view, DataTables shortcut menu, and selected option for Add Data Table.":::
 
-1. Open the new data table's shortcut menu, and select **Mew Column**. Repeat this step as necessary.
+1. Open the new data table's shortcut menu, and select **Add DataTable Column**. Repeat this step as necessary.
 
    :::image type="content" source="media/la-newproject-add-column1.png" alt-text="Screenshot showing a created column for a data table.":::
 
-1. Provide the following information for each column:
+1. Open the column's shortcut menu, and select **Properties**. Provide values for each column's properties based on the following table:
 
    | Property | Description or value |
    |----------|----------------------|
-   | **Data Type** | .NET data type for the column |
+   | **Data Type** | The .NET data type for the column |
+   | **Name** | The column's name |
    | **Error Handling** | Trigger an error, round, or truncate. |
    | **Host Data Type** | The column's COBOL or RPG data type |
-   | **Name** | The column's name |
    | **Precision** | The column's data precision |
    | **Trailing filler** | For columns where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -154,11 +162,13 @@ After you add a method, you can define parameters and a return value to pass and
 
    :::image type="content" source="media/la-newproject-add-structure1.png" alt-text="Screenshot showing main design view, Structures shortcut menu, and selected option for Add Struct.":::
 
-1. Open the new structure's shortcut menu, and select **New Member**. Repeat this step as necessary.
+   The designer creates a structure with one member. 
+
+1. To add another member, open the new structure's shortcut menu, and select **Add Structure Member**. Repeat this step as necessary.
 
    :::image type="content" source="media/la-newproject-add-stmember1.png" alt-text="Screenshot showing a created member for a structure.":::
 
-1. Provide the following information for each member:
+1. Open the column's shortcut menu, and select **Properties**. Provide values for each member's properties based on the following table:
 
    | Property | Description or value |
    |----------|----------------------|
@@ -183,10 +193,11 @@ After you add a method, you can define parameters and a return value to pass and
 
    | Property | Description or value |
    |----------|----------------------|
-   | **Data Type** | .NET data type for the member. This value can include structures defined in the previous section. |
+   | **Is Array** | If true, you must set the array dimensions, which support arrays with up to 7 dimensions and 16,777,215 elements. You must also enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |   
+   | **Data Type** | The .NET data type for the member. This value can include structures defined in the previous section. |
+   | **Name** | The member's name |
    | **Error Handling** | Trigger an error, round, or truncate. |
    | **Host Data Type** | The member's COBOL or RPG data type |
-   | **Name** | The member's name |
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
