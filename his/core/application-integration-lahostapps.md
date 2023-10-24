@@ -114,7 +114,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Name** | The parameter's name |
    | **Parameter Direction** | The method parameter's direction: **In**, **In/Out**, or **Out** |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The parameter's **COBOL** or **RPG** data type |
+   | **Host Data Type** | The parameter's COBOL or RPG data type |
    | **Precision** | The parameter's data precision |
    | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -129,7 +129,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Return Value Positioned After** | TBC |
    | **Use TICS Work Area** | TBC |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The return value's **COBOL** or **RPG** data type |
+   | **Host Data Type** | The return value's COBOL or RPG data type |
    | **Precision** | The parameter's data precision |
    | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -150,7 +150,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Data Type** | The column's .NET data type |
    | **Name** | The column's name |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The column's **COBOL** or **RPG** data type |
+   | **Host Data Type** | The column's COBOL or RPG data type |
    | **Precision** | The column's data precision |
    | **Trailing filler** | For columns where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -174,7 +174,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Data Type** | The member's .NET data type |
    | **Name** | The member's name |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The member's **COBOL** or **RPG** data type |
+   | **Host Data Type** | The member's COBOL or RPG data type |
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -198,7 +198,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Data Type** | The member's .NET data type. This value can include structures defined in the previous section. |
    | **Name** | The member's name |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The member's **COBOL** or **RPG** data type |
+   | **Host Data Type** | The member's COBOL or RPG data type |
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
