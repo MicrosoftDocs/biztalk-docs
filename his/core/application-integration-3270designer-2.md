@@ -20,30 +20,17 @@ In a 3270 screen-driven app, the screens and data fields are unique to your scen
 
 ## How does the 3270 Design Tool work?
 
-In a 3270 screen-driven app, the screens and data fields are unique 
-to your scenarios, so the 3270 connector needs this information about 
-your app, which you can provide as metadata. This metadata describes 
-information that helps your logic app identify and recognize screens, 
-describes how to navigate between screens, where to input data, 
-and where to expect results. To specify and generate this metadata, 
-you use the 3270 Design Tool, which walks you through these specific 
-*modes*, or stages, as described later in more details:
+In a 3270 screen-driven app, the screens and data fields are unique to your scenarios, so the 3270 connector needs this information about your app, which you can provide as metadata. This metadata describes information that helps your logic app identify and recognize screens, describes how to navigate between screens, where to input data, and where to expect results. To specify and generate this metadata, you use the 3270 Design Tool, which walks you through these specific *modes*, or stages, as described later in more details:
 
-* **Capture**: In this mode, you record the screens required for completing 
-a specific task with your mainframe app, for example, getting a bank balance.
+* **Capture**: In this mode, you record the screens required for completing a specific task with your mainframe app, for example, getting a bank balance.
 
-* **Navigation**: In this mode, you specify the plan or path for how 
-to navigate through your mainframe app's screens for the specific task.
+* **Navigation**: In this mode, you specify the plan or path for how to navigate through your mainframe app's screens for the specific task.
 
-* **Methods**: In this mode, you define the method, for example, 
-`GetBalance`, that describes the screen navigation path. You also 
-select the fields on each screen that become the method's input 
-and output parameters.
+* **Methods**: In this mode, you define the method, for example, `GetBalance`, that describes the screen navigation path. You also select the fields on each screen that become the method's input and output parameters.
 
 ## Unsupported elements
 
 The design tool doesn't support Partial IBM Basic Mapping (BMS) maps: If you import a BMS map, the design tool ignores partial screen definitions.
-
 
 ## Downloading the 3270 Design tool
 
