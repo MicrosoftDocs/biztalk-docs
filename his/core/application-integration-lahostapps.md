@@ -110,11 +110,11 @@ After you add a method, you can define parameters and a return value to pass and
    | Property | Description or value |
    |----------|----------------------|
    | **Is Array** | If true, you must set the array dimensions, which support arrays with up to 7 dimensions and 16,777,215 elements. You must also enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |
-   | **Data Type** | The .NET data type for the parameter |
+   | **Data Type** | The parameter's .NET data type |
    | **Name** | The parameter's name |
-   | **Parameter Direction** | Direction of the method parameter: **In**, **In/Out**, or **Out** |
+   | **Parameter Direction** | The method parameter's direction: **In**, **In/Out**, or **Out** |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The COBOL or RPG data type for the parameter |
+   | **Host Data Type** | The parameter's **COBOL** or **RPG** data type |
    | **Precision** | The parameter's data precision |
    | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -125,11 +125,11 @@ After you add a method, you can define parameters and a return value to pass and
    | Property | Description or value |
    |----------|----------------------|
    | **Is Array** | If true, you must set the array dimensions, which support arrays with up to 7 dimensions and 16,777,215 elements. You must also enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |
-   | **Return Type** | The .NET data type for the return value |
+   | **Return Type** | The return value's .NET data type |
    | **Return Value Positioned After** | TBC |
    | **Use TICS Work Area** | TBC |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The COBOL or RPG data type for the return value |
+   | **Host Data Type** | The return value's **COBOL** or **RPG** data type |
    | **Precision** | The parameter's data precision |
    | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -147,10 +147,10 @@ After you add a method, you can define parameters and a return value to pass and
 
    | Property | Description or value |
    |----------|----------------------|
-   | **Data Type** | The .NET data type for the column |
+   | **Data Type** | The column's .NET data type |
    | **Name** | The column's name |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The column's COBOL or RPG data type |
+   | **Host Data Type** | The column's **COBOL** or **RPG** data type |
    | **Precision** | The column's data precision |
    | **Trailing filler** | For columns where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -171,10 +171,10 @@ After you add a method, you can define parameters and a return value to pass and
    | Property | Description or value |
    |----------|----------------------|
    | **Is Array** | If true, you must set the array dimensions, which support arrays with up to 7 dimensions and 16,777,215 elements. You must also enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |   
-   | **Data Type** | The .NET data type for the member |
+   | **Data Type** | The member's .NET data type |
    | **Name** | The member's name |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The member's COBOL or RPG data type |
+   | **Host Data Type** | The member's **COBOL** or **RPG** data type |
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
@@ -195,10 +195,10 @@ After you add a method, you can define parameters and a return value to pass and
    | Property | Description or value |
    |----------|----------------------|
    | **Is Array** | If true, you must set the array dimensions, which support arrays with up to 7 dimensions and 16,777,215 elements. You must also enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |   
-   | **Data Type** | The .NET data type for the member. This value can include structures defined in the previous section. |
+   | **Data Type** | The member's .NET data type. This value can include structures defined in the previous section. |
    | **Name** | The member's name |
    | **Error Handling** | Trigger an error, round, or truncate. |
-   | **Host Data Type** | The member's COBOL or RPG data type |
+   | **Host Data Type** | The member's **COBOL** or **RPG** data type |
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
