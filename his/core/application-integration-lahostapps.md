@@ -1,169 +1,206 @@
 ---
-title: "Designing Mainframe Artifacts for Host Applications"
-description: Designing Mainframe Artifacts for CICS and IMS applications.
-author: haroldcampos
-ms.author: "hcampos"
-ms.prod: "host-integration-server"
+title: Designing Mainframe Artifacts for Host Applications
+description: Learn how to design mainframe artifacts for CICS and IMS applications.
+ms.prod: host-integration-server
 ms.topic: how-to
-ms.date: "10/17/2023"
+ms.date: 10/25/2023
 
-#CustomerIntent: As a programmer I need to design artifacts for host applications (CICS/IMS)
+#CustomerIntent: As a programmer, I need to design artifacts for CICS and IMS host applications.
 ---
 
-# Designing Metadata Artifacts for Host Applications (CICS/IMS)
+# Designing Metadata Artifacts for CICS or IMS Host Applications
 
-In this article, we will show you how to design Metadata Artifacts for Host Applications (CICS/IMS). Metadata artifacts are saved as Host Integration Server Definition XML (HIDX) files.
+This guide shows how to design metadata artifacts for CICS or IMS host applications. You can then save these metadata artifacts as Host Integration Server Definition XML (HIDX) files.
 
 ## Prerequisites
 
-You need to enable Visual Studio support for the Logic Apps Flat File Processor. To do this, conduct the following steps:
+- [Download and install Visual Studio](https://visualstudio.microsoft.com/downloads/).
 
-1. Open Visual Studio and in the menu, select **Tools**.
-1. Select **Options** and select **Host Integration Server**.
-1. Check the  **“Include support for Flat File Processor and Logic Apps”** option in **Host Files**.
+- [Download and install the HIS Designer for Azure Logic Apps](https://aka.ms/his-desiner-logicapps-download). The only prerequisite is [Microsoft .NET Framework 4.8](https://aka.ms/net-framework-download).
 
-   :::image type="content" source="media/vsoptions-logicapps-his.png" alt-text="Include support for Flat File Processor and Logic Apps dialog":::
+- Enable Visual Studio support for the Flat File processor in Azure Logic Apps. For this task, follow these steps:
 
-## Host Application Projects
+  1. Open Visual Studio. On the toolbar, open the **Tools** menu, and select **Options**.
 
-The Host Application project template is used to create metadata artifacts for the IMS and CICS Logic Apps connectors. The first step to Design a Metadata artifact is to create a new project. To do this, conduct the following steps:
+  1. From the **Options** list, expand **Host Integration Server**, and select **Host Files**.
 
-1. Enter Visual Studio and select the Host Application project template
-1. Select **Create**
-   :::image type="content" source="media/la-newproject-his1.png" alt-text="Create Host Application project":::
-1. Select on the **Host Application** node. As the Logic Apps connectors use the .NET Client Definitions, the next step will be to select on **Add .NET client Definition**.
-1. Once the Add New Item dialog appears, enter the name of the Client Definition. Then the .NET Client Wizard will appear.
-1. Use the Library wizard page to identify the .NET client library you are creating.
-   :::image type="content" source="media/la-clientwizard-libhis1.png" alt-text="Library wizard dialog":::
-1. The Remote Environment wizard page will appear to identify the remote environment (Mainframe or Midrange) and programming model to be used. Please use the following guidance for the Remote Environment creation.
+  1. On the **Host Files** tab, select **Include support for Flat File Processor and Logic Apps**.
 
-   |Use this |To do this   |
-   |---------|---------|
-   |Vendor   | Microsoft   |
-   |Protocol     |  Select the appropriate network protocol to access the Mainframe or Midrange. The following values are available: TCP, HTTP or LU 6.2. LU 6.2 is not supported in the Logic Apps connectors.       |
-   |Target Environment     |  Select the target system: CICS, IMS, System i, System Z, System i Distributed Program Call.       |
-   |Programming Model    |    Select a  [Programming Model](choosing-the-appropriate-programming-model1.md).      |
-   |Host Language     |    Select the language in use: COBOL or RPG.     |
-   |Allow 32K in/out    |        Select this checkbox to use the full 32K of the COMMAREA when using the Link model. |
+     :::image type="content" source="media/vsoptions-logicapps-his.png" alt-text="Include support for Flat File Processor and Logic Apps dialog":::
 
-1. Select Create
+## Create a host application project
 
-## Designing Metadata Artifacts
+In Visual Studio, you can use the Host Application project template to create metadata artifacts for the **CICS Program Call** and **IMS Program Call** connectors in Azure Logic Apps. To create a new host application project, follow these steps:
 
-Once the Wizard has been completed, the main design view will appear. The purpose of the Design view is to either manually create or import the metadata artifact. The steps in this article cover the manual creation of a metadata artifact. For steps to Import a Host Definition please visit [Importing Host Definitions](application-integration-importhostdefs.md).
+1. In Visual Studio, from the **File** menu, select **New** > **New Project**.
 
-The following are the parts of the Main design view:
+1. From the project template list, select **Host Application** > **Next**.
 
-|Use this  |To do this  |
-|---------|---------|
-|Component node     |    This is the root of the Metadata artifact. It stores the information about the Client library and the remote environment.     |
-|Interface node     |     The interface node is used to group all the methods in a component.    |
-|Data Tables directory     |     The Data Tables node is used to group the Data Tables in the assembly.     |
-|Structures directory     |         The structures directory allow the creation of group of variables with shared attributes.|
-|Unions directory     |         These represent the equivalent of COBOL unions.|
+1. In the **Configure your new project** box, change the details that you want, and select **Create**.
 
-### Adding a Method
+   :::image type="content" source="media/la-newproject-his1.png" alt-text="Screenshot shows Visual Studio and details for Configure your new project.":::
 
-Methods will be used to expose the Mainframe Program Business Logic to the Logic Apps workflows.
+   Next, to support the Azure Logic Apps connectors that can access mainframe systems, you need to add .NET client definitions. 
 
-1. Select on **Interface** and select **Add Method**.
+1. Expand the **Host Application** node, and select **Add .NET client Definition**.
 
-   :::image type="content" source="media/la-newproject-add-method1.png" alt-text="Adding a method to an Interface":::
+1. In the **Add New Item** box, enter the name for the client definition.
 
-1. Configure the method using the guidance in [Method Properties](method-properties1.md).  
+1. After the .NET Client Definition wizard launches, in the **Library** box, enter the name to use for identifying the .NET client library that you want to create.
 
-### Adding a Parameter or a Return value
+   :::image type="content" source="media/la-clientwizard-libhis1.png" alt-text="Screenshot shows .NET Client Definition wizard and Library box.":::
 
-Parameters will be used to pass and receive data between the Mainframe Program and Logic Apps workflows.
+1. In the **Remote Environment** box, identify the remote mainframe or midrange environment and the programming model to use by providing the following information:
 
-1. Select on the **Method node** and select **Add Parameter**.
-   :::image type="content" source="media/la-newproject-add-parameter1.png" alt-text="Adding a Parameter to a Method":::
-1. Configure the Parameter using the following guidance:
+   | Parameter | Value or action |
+   |-----------|-----------------|
+   | **Vendor** | **Microsoft** |
+   | **Protocol** | Select the appropriate network protocol to access the mainframe or midrange system. The following values are available: <br><br>- **TCP** <br>- **HTTP** <br>- **LU 6.2** (Unsupported for Azure Logic Apps connectors) |
+   | **Target Environment** | Select the target system: <br><br>- **CICS** <br>- **IMS** <br>- **System i** <br>- **System Z** <br>- **System i Distributed Program Call** |
+   | **Programming Model** | Select a [programming model](choosing-the-appropriate-programming-model1.md). |
+   | **Host Language** | Select the language in use: **COBOL** or **RPG** |
+   | **Allow 32K in/out** | Select this option to use the full 32K of the [COMMAREA data area](https://www.ibm.com/docs/en/cics-ts/5.4?topic=programs-commarea) when you use the [LINK model](choosing-the-appropriate-programming-model1.md). |
 
-   |Use this  |To do this  |
-   |---------|---------|
-   |Data Type     |.NET Data type         |
-   |Error Handling     |     Trigger an Error, Round or truncate.    |
-   |Host Data Type     |   COBOL or RPG Data type for the Parameter.      |
-   |Is Array     |  If true, Array Dimensions will need to be provided. Supports arrays of up to 7 dimensions and 16777215 elements. Also, Occurs Count In and Depending On will need to be entered.       |
-   |Name     |      Name of the Parameter.   |
-   |Parameter Direction     |  Direction of the Method Parameter: In, In/Out or Out.       |
-   |Precision     |       Parameter Data precision.  |
-   |Trailing Filler     |  For parameters whose length is less than the maximum specified, you must specify Size of Filler.       |
+1. When you're done, select **Create**.
 
-1. Select on the **Method node** and select **Add Return value**.
-   :::image type="content" source="media/la-newproject-add-retval1.png" alt-text="Adding a return value for a method":::
-1. Configure the Return Value  using the following guidance:
+After you finish with the wizard, the main design view appears for you to manually create or import metadata artifacts. For this task, continue to the next section.
 
-   |Use this  |To do this  |
-   |---------|---------|
-   |Error Handling     |     Trigger an Error, Round or truncate.    |
-   |Host Data Type     |   COBOL or RPG Data type for the Return Value.      |
-   |Is Array     |  If true, Array Dimensions will need to be provided. Supports arrays of up to 7 dimensions and 16777215 elements. Also, Occurs Count In and Depending On will need to be entered.       |
-   |Precision     |       Parameter Data precision.  |
-   |Return Type     |      .NET Data type of the Return Value.   |
-   |Return Value positioned after     |  TBC.       |
-   |Trailing Filler     |  For parameters whose length is less than the maximum specified, you must specify Size of Filler.       |
-   |Use TICS Work Area     |  TBC.       |
+## Design metadata artifacts
 
-### Adding a Data Table
+This section shows how to manually create a metadata artifact. To import a host definition instead, see [Importing Host Definitions](application-integration-importhostdefs.md).
 
-1. Select on the **Data Table** directory and select **Add Data table**:
-   :::image type="content" source="media/la-newproject-add-datatable1.png" alt-text="Adding a DataTable for the library":::
-1. Select on the created Data Table and select **new Column**. Repeat this procedure as many times needed:
-   :::image type="content" source="media/la-newproject-add-column1.png" alt-text="Creating a column for a DataTable. Repeat this as needed.":::
-1. Configure the column using the following guidance:
+The following table lists the components of the main design view:
 
-   |Use this  |To do this  |
-   |---------|---------|
-   |Data Type     | .NET Data type          |
-   |Error Handling     |    Trigger an Error, Round or truncate.     |
-   |Host Data Type     |COBOL or RPG Data type for the Parameter.         |
-   |Name     |   Name of the Column.      |
-   |Precision     |      Column Data precision.   |
-   |Trailing filler     |    For columns whose length is less than the maximum specified, you must specify Size of Filler.     |
+| Component | Description |
+|-----------|-------------|
+| Component node | The root of the metadata artifact. Stores information about the client library and the remote environment. |
+| Interface node |  Groups all the methods in a component. |
+| Data Tables directory | Groups data tables in the assembly. |
+| Structures directory | Groups variables with shared attributes. |
+| Unions directory | Represents the equivalent of COBOL unions. |
 
-### Adding a Structure
+### Add a method
 
-1. Select on the **Structure** directory and select **Add Structure**:
-   :::image type="content" source="media/la-newproject-add-structure1.png" alt-text="Adding a structure to the library":::
-1. Select on the created Structure and select **new Member**. Repeat this procedure as many times needed:
-   :::image type="content" source="media/la-newproject-add-stmember1.png" alt-text="Adding a member to the structure.":::
-1. Configure the member using the following guidance:
+For your metadata artifact, you can add a method to expose the mainframe program business logic to workflows in Azure Logic Apps.
 
-   |Use this  |To do this  |
-   |---------|---------|
-   |Data Type     | .NET Data type          |
-   |Error Handling     |    Trigger an Error, Round or truncate.     |
-   |Host Data Type     |COBOL or RPG Data type for the Parameter.         |
-   |Name     |   Name of the Column.      |
-   |Precision     |      Member Data precision.   |
-   |Trailing filler     |    For members whose length is less than the maximum specified, you must specify Size of Filler.     |
+1. In the main design view, open the **Interface** shortcut menu, and select **Add Method**.
 
-### Adding a Union
+   :::image type="content" source="media/la-newproject-add-method1.png" alt-text="Screenshot showing main design view, Interface shortcut menu, and selected option for Add Method.":::
 
-1. Select on the **Union** directory and select **Add Union**:
-   :::image type="content" source="media/la-newproject-add-union1.png" alt-text="Adding a Union to the library":::
-1. The Designer will create a Union with two members. You can add more members and customize the properties of each member using the following guidance:
+1. Based on the [Method Properties](method-properties1.md) gudiance, configure the method.
 
-   |Use this  |To do this  |
-   |---------|---------|
-   |Data Type     | .NET Data type. This can include structures defined in the previous section.          |
-   |Error Handling     |    Trigger an Error, Round or truncate.     |
-   |Host Data Type     |COBOL or RPG Data type for the Parameter.         |
-   |Name     |   Name of the Column.      |
-   |Precision     |      Member Data precision.   |
-   |Trailing filler     |    For members whose length is less than the maximum specified, you must specify Size of Filler.     |
+### Add a parameter or return value
 
-## Creating the Host Integration Definition XML (HIDX) or Metadata Artifact
+After you add a method, you can define parameters and a return value to pass and receive data between the mainframe program and workflows in Azure Logic Apps.
 
-1. The last step is to create the library that will store the Design of the Metadata. To generate it only select the **Save All** button.
+1. In the main design view, open the new method's shortcut menu, and select **Add Parameter**.
 
-   :::image type="content" source="media/la-newproject-add-saveall.png" alt-text="Save All to generate the HIDX metadata artifact":::
+   :::image type="content" source="media/la-newproject-add-parameter1.png" alt-text="Screenshot showing main design view, method shortcut menu, and selected option for Add Parameter.":::
 
-1. You will find the HIDX file will be generated in the application directory.
+1. Provide the following information about the parameter:
 
-   :::image type="content" source="media/la-newproject-output-hidx.png" alt-text="Location of the HIDX file":::
+   | Property | Description or value |
+   |----------|----------------------|
+   | **Data Type** | The .NET data type of the parameter |
+   | **Error Handling** | Trigger an error, round, or truncate. |
+   | **Host Data Type** | The COBOL or RPG data type for the parameter |
+   | **Is Array** | If true, you must provide array dimensions. Supports arrays that have up to 7 dimensions and 16,777,215 elements. Also, you must enter values for **Occurs Count In** and **Depending On**. |
+   | **Name** | The parameter's name |
+   | **Parameter Direction** | Direction of the method parameter: **In**, **In/Out**, or **Out** |
+   | **Precision** | The parameter's data precision |
+   | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
+
+1. Open the new method's shortcut menu, and select **Add Return Value**.
+
+   :::image type="content" source="media/la-newproject-add-retval1.png" alt-text="Screenshot showing main design view, method shortcut menu, and selected option for Add Return Value.":::
+
+1. Provide the following information about the return value:
+
+   | Property | Description or value |
+   |----------|----------------------|
+   | **Error Handling** | Trigger an error, round, or truncate. |
+   | **Host Data Type** | The COBOL or RPG data type for the return value. |
+   | **Is Array** |  If true, you must provide array dimensions. Supports arrays that have up to 7 dimensions and 16,777,215 elements. Also, you must enter values for **Occurs Count In** and **Depending On**. |
+   | **Precision** | The parameter's data precision |
+   | **Return Type** | The .NET data type of the return value |
+   | **Return Value Positioned After** | TBC |
+   | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
+   | **Use TICS Work Area** | TBC |
+
+### Add a data table
+
+1. In the main design view, open the **DataTables** shortcut menu, and select **Add Data Table**.
+
+   :::image type="content" source="media/la-newproject-add-datatable1.png" alt-text="Screenshot showing main design view, DataTables shortcut menu, and selected option for Add Data Table.":::
+
+1. Open the new data table's shortcut menu, and select **Mew Column**. Repeat this step as necessary.
+
+   :::image type="content" source="media/la-newproject-add-column1.png" alt-text="Screenshot showing a created column for a data table.":::
+
+1. Provide the following information for each column:
+
+   | Property | Description or value |
+   |----------|----------------------|
+   | **Data Type** | .NET data type for the column |
+   | **Error Handling** | Trigger an error, round, or truncate. |
+   | **Host Data Type** | The column's COBOL or RPG data type |
+   | **Name** | The column's name |
+   | **Precision** | The column's data precision |
+   | **Trailing filler** | For columns where the length is less than the specified maximum, you must specify the filler size. |
+
+### Add a structure
+
+1. In the main design view, open the **Structures** shortcut menu, and select **Add Struct**.
+
+   :::image type="content" source="media/la-newproject-add-structure1.png" alt-text="Screenshot showing main design view, Structures shortcut menu, and selected option for Add Struct.":::
+
+1. Open the new structure's shortcut menu, and select **New Member**. Repeat this step as necessary.
+
+   :::image type="content" source="media/la-newproject-add-stmember1.png" alt-text="Screenshot showing a created member for a structure.":::
+
+1. Provide the following information for each member:
+
+   | Property | Description or value |
+   |----------|----------------------|
+   | **Data Type** | .NET data type for the member |
+   | **Error Handling** | Trigger an error, round, or truncate. |
+   | **Host Data Type** | The member's COBOL or RPG data type |
+   | **Name** | The member's name |
+   | **Precision** | The member's data precision |
+   | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
+
+### Add a union
+
+1. In the main design view, open the **Unions** shortcut menu, and select **Add Union**.
+
+   :::image type="content" source="media/la-newproject-add-union1.png" alt-text="Screenshot showing main design view, Unions shortcut menu, and selected option for Add Unions.":::
+
+   The designer creates a union with two members. 
+
+1. To add another member, open the new union's shortcut menu, and select **New Member**. Repeat this step as necessary.
+
+1. Provide the following information for each member:
+
+   | Property | Description or value |
+   |----------|----------------------|
+   | **Data Type** | .NET data type for the member. This value can include structures defined in the previous section. |
+   | **Error Handling** | Trigger an error, round, or truncate. |
+   | **Host Data Type** | The member's COBOL or RPG data type |
+   | **Name** | The member's name |
+   | **Precision** | The member's data precision |
+   | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
+
+1. When you're done, continue to the next section to create the library that stores the metadata's design.
+
+## Create the Host Integration Definition XML (HIDX) or metadata artifact
+
+1. To generate the metadata artifact, on the Visual Studio **File** menu or toolbar, select **Save All**. (Keyboard: Press Ctrl+Shift+S)
+
+   :::image type="content" source="media/la-newproject-add-saveall.png" alt-text="Screenshot showing Visual Studio toolbar with selection option for Save All.":::
+
+1. To find the generated HIDX file, go to your host application's directory.
+
+   :::image type="content" source="media/la-newproject-output-hidx.png" alt-text="Screenshot showing Visual Studio Output window with HIDX file location.":::
 
 ## Related content
 
