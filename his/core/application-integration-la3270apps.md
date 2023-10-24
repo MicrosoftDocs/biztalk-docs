@@ -18,7 +18,7 @@ In this mode, you mark an item on each 3270 screen that uniquely identifies that
 
 1. If you haven't already, open the 3270 Design Tool. On the toolbar, select **Capture** so that you enter Capture mode.
 
-1. From the **Session** menu, select **Host Settings**. Enter the information of your TN3270E server settings. Select **OK**.
+1. From the **Session** menu, select **Host Settings**. Enter the information for your TN3270E server settings, and then select **OK**.
 
 1. From the **Session** menu, select **Connect**.
 
