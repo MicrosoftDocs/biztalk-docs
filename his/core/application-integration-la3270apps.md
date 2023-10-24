@@ -18,6 +18,8 @@ In this mode, you mark an item on each 3270 screen that uniquely identifies that
 
 1. If you haven't already, open the 3270 Design Tool. On the toolbar, select **Capture** so that you enter Capture mode.
 
+1. From the **Session** menu, select **Host Settings**. Enter the information of your TN3270E server settings. Select **OK**.
+
 1. From the **Session** menu, select **Connect**.
 
 1. To start recording, from the **Recording** menu, select **Start Recording**. (Keyboard: Ctrl + E)
@@ -54,7 +56,7 @@ After you finish selecting the recognition fields, move to the next mode.
 
 ### Conditions for identifying repeated screens
 
-For the connector to navigate and differentiate between screens, you usually find unique text on a screen that you can use as an identifier among the captured screens. For repeated screens, youmight need more identification methods. For example, suppose you have two screens that look the same except one screen returns a valid value, while the other screen returns an error message.
+For the connector to navigate and differentiate between screens, you usually find unique text on a screen that you can use as an identifier among the captured screens. For repeated screens, you might need more identification methods. For example, suppose you have two screens that look the same except one screen returns a valid value, while the other screen returns an error message.
 
 In the design tool, you can add *recognition attributes*, for example, a screen title such as "Get Account Balance", by using the Screen Recognition editor. If you have a forked path and both branches return the same screen but with different results, you need other recognition attributes.  At run time, the connector uses these attributes for determining the current branch and fork. Here are the conditions you can use:
 
@@ -145,7 +147,7 @@ Also suppose that you repeat these steps, but you enter incorrect data so you ca
 * Empty_1
 * MSG-10_1
 
-Although many screens here get unique names, some screens are the same screen, for example, "MSG-10" and "Empty". For a repeated screen, use only one instance for that screen in your plan. Here are examples that show how a standalone plan, Connect plan, Disconnect plan, and a combined plan might look:
+Although many screens here get unique names, some screens are the same screen, for example, "MSG-10" and "MSG-10_1". You should rename the WBGB_1 and WBGB_2 to something more informative. For a repeated screen, use only one instance for that screen in your plan. Here are examples that show how a standalone plan, Connect plan, Disconnect plan, and a combined plan might look:
 
 * Standalone plan
 
@@ -165,7 +167,7 @@ Although many screens here get unique names, some screens are the same screen, f
 
 #### Example: Identify repeated screens
 
-For the connector to navigate and differentiate screens, you usually find unique text on a screen that you can use as an identifier across the captured screens. For repeated screens, you might need more identification methods. The example plan has a fork where you can get screens that look similar. One screen returns an account balance, while the other screen returns an error message.
+The example plan has a fork where you can get screens that look similar. One screen returns an account balance, while the other screen returns an error message.
 
 The design tool lets you add recognition attributes, for example, a screen title named "Get Account Balance", by using the Screen Recognition editor. In the case with similar screens, you need other attributes. At run time, the connector uses these attributes for determining the branch and fork.
 
@@ -177,9 +179,11 @@ The design tool lets you add recognition attributes, for example, a screen title
 
 ## Define methods
 
-In this mode, you define a method that's associated with your navigation plan. For each method parameter, you specify the data type, such as a string, integer, date or time, and so on. When you're done, you can test your method on the live host and confirm that the method works as expected. You then generate the metadata file, or Host Integration Designer XML (HIDX) file, which now has the method definitions to use for creating and running an action for the IBM 3270 connector.
+In this mode, you define a method that's associated with your navigation plan. For each method parameter, you specify the data type, such as a string, integer, date or time, and so on. When you're done, you can test your method on the live host and confirm that the method works as expected. You then generate the metadata file, or Host Integration Designer XML (HIDX) file, which now has the method definitions to use for creating and running an action for the IBM 3270 connector. It also generates C# classes for Host Integration Server. You can also generate C# classes for use with Host Integration Server.
 
 1. On the 3270 Design Tool's toolbar, select **Methods** so that you enter Methods mode. 
+
+1. In the **Methods** pane, select the **New Method** button. Enter a name for the new method. Select **OK**.
 
 1. In the **Navigation** pane, select the screen that has the input fields you want.
 
@@ -194,7 +198,7 @@ In this mode, you define a method that's associated with your navigation plan. F
 
    1. On the design tool's toolbar, select **Input Field**. 
 
-   To add more input parameters, repeat the previous steps for each parameter.
+1. To add more input parameters, repeat the previous steps for each parameter. Refer to the previus steps.
 
 1. To add the first output parameter for your method, follow these steps:
 
@@ -237,7 +241,7 @@ However, if you try saving changes to the sample RAP file or generating an HIDX 
 
    > [!TIP]
    > 
-   > You can change modes at any time. On the **File** menu, select **Mode**, and then select the mode you want.
+   > You can change modes at any time. On the **File** menu, select **Tools**, and then select the mode you want: **Use Minimal Progress Form** and **Chain Methods**
 
 1. Enter your parameters' values, and select **OK**.
 
@@ -249,7 +253,7 @@ However, if you try saving changes to the sample RAP file or generating an HIDX 
 
 ## Generate and upload HIDX file
 
-When you're ready, generate the HIDX file so you can upload to your integration account. The 3270 Design Tool creates the HIDX file in a new subfolder where you saved your RAP file.
+When you're ready, generate the HIDX file so you can upload to your integration account for Logic Apps Consumption or under Artifacts/Maps for Logic Apps Standard. The 3270 Design Tool creates the HIDX file in a new subfolder where you saved your RAP file.
 
 1. In the 3270 Design Tool, from the **Tools** menu, select **Generate Definitions**. (Keyboard: F6)
 
