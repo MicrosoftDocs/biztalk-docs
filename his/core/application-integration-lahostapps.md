@@ -24,7 +24,7 @@ This guide shows how to design metadata artifacts for CICS or IMS host applicati
 
   1. From the **Options** list, expand **Host Integration Server**, and select **Host Files**.
 
-  1. On the **Host Files** tab, select **Include support for Flat File Processor and Logic Apps**.
+  1. On the **Host Environment** tab, select **Include support for Flat File Processor and Logic Apps**.
 
      :::image type="content" source="media/vsoptions-logicapps-his.png" alt-text="Include support for Flat File Processor and Logic Apps dialog":::
 
