@@ -104,7 +104,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Data Type** | The .NET data type of the parameter |
    | **Error Handling** | Trigger an error, round, or truncate. |
    | **Host Data Type** | The COBOL or RPG data type for the parameter |
-   | **Is Array** | If true, you must provide array dimensions. Supports arrays that have up to 7 dimensions and 16,777,215 elements. Also, you must enter values for **Occurs Count In** and **Depending On**. |
+   | **Is Array** | If true, you must provide array dimensions. Supports arrays that have up to 7 dimensions and 16,777,215 elements. Also, you must enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |
    | **Name** | The parameter's name |
    | **Parameter Direction** | Direction of the method parameter: **In**, **In/Out**, or **Out** |
    | **Precision** | The parameter's data precision |
@@ -120,7 +120,7 @@ After you add a method, you can define parameters and a return value to pass and
    |----------|----------------------|
    | **Error Handling** | Trigger an error, round, or truncate. |
    | **Host Data Type** | The COBOL or RPG data type for the return value. |
-   | **Is Array** |  If true, you must provide array dimensions. Supports arrays that have up to 7 dimensions and 16,777,215 elements. Also, you must enter values for **Occurs Count In** and **Depending On**. |
+   | **Is Array** |  If true, you must provide array dimensions. Supports arrays that have up to 7 dimensions and 16,777,215 elements. Also, you must enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |
    | **Precision** | The parameter's data precision |
    | **Return Type** | The .NET data type of the return value |
    | **Return Value Positioned After** | TBC |
