@@ -3,14 +3,14 @@ title: 3270 Design Tool
 description: Learn about designing green-screen applications using the 3270 Design Tool.
 ms.prod: host-integration-server
 ms.topic: conceptual
-ms.date: 10/17/2023
+ms.date: 10/25/2023
 
 #CustomerIntent: As a programmer, I need to design 3270 applications using the 3270 Design Tool.
 ---
 
 # Get started with the 3270 Design Tool
 
-The 3270 Design Tool helps you generate the Host Integration Designer XML (HIDX) file that's required by the IBM 3270 connector in Azure Logic Apps. It also generates C# classes that can be used with a Host Integration Server.
+The 3270 Design Tool helps you generate the Host Integration Designer XML (HIDX) file that's required by the IBM 3270 connector in Azure Logic Apps. The tool also generates C# classes that you can use with Host Integration Server.
 
 ## [3270 Design Tool](application-integration-3270designer-2.md)
 
