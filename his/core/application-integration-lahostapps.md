@@ -10,7 +10,7 @@ ms.date: 10/25/2023
 
 # Designing Metadata Artifacts for CICS or IMS Host Applications
 
-This guide shows how to design metadata artifacts for CICS or IMS host applications. You can then save these metadata artifacts as Host Integration Server Definition XML (HIDX) files.
+This guide shows how to design metadata artifacts for CICS or IMS host applications. You can then save these metadata artifacts as Host Integration Server Definition XML (HIDX) files to use with the CICS and IMS built-in, service provider-based connectors in Azure Logic Apps.
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ This guide shows how to design metadata artifacts for CICS or IMS host applicati
 
 ## Create a host application project
 
-In Visual Studio, you can use the Host Application project template to create metadata artifacts for the **CICS Program Call** and **IMS Program Call** connectors in Azure Logic Apps. To create a new host application project, follow these steps:
+In Visual Studio, you can use the Host Application project template to create metadata artifacts for the CICS and IMS built-in, service provider-based connectors in Azure Logic Apps. To create a new host application project, follow these steps:
 
 1. In Visual Studio, from the **File** menu, select **New** > **New Project**.
 
@@ -42,7 +42,7 @@ In Visual Studio, you can use the Host Application project template to create me
 
 ## Add .NET client definitions
 
-To support the Azure Logic Apps connectors that can access mainframe systems, you need to add .NET client definitions. 
+To support the CICS and IMS connectors in Azure Logic Apps, you need to add .NET client definitions. 
 
 1. In Solution Explorer, open the your new host application's shortcut menu, and select **Add** > **Add .NET Client Definition**.
 
