@@ -253,7 +253,7 @@ However, if you try saving changes to the sample RAP file or generating an HIDX 
 
 ## Generate and upload HIDX file
 
-When you're ready, generate the HIDX file so you can upload to your integration account for Logic Apps Consumption or under Artifacts/Maps for Logic Apps Standard. The 3270 Design Tool creates the HIDX file in a new subfolder where you saved your RAP file.
+When you're ready, generate the HIDX file. The 3270 Design Tool creates the HIDX file in a new subfolder where you saved your RAP file. You can then upload the HIDX file to your integration account that's linked to a Consumption or Standard logic app resource. Or, you can upload directly to your Standard logic app resource through the **Artifacts** section under **Maps** on your resource menu. 
 
 1. In the 3270 Design Tool, from the **Tools** menu, select **Generate Definitions**. (Keyboard: F6)
 
