@@ -127,7 +127,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Is Array** | If true, you must set the array dimensions, which support arrays with up to 7 dimensions and 16,777,215 elements. You must also enter values for the array properties **Occurs Count In** and **Occurs Depending On**. |
    | **Return Type** | The return value's .NET data type |
    | **Return Value Positioned After** | Indicate the position of the return value relative to the parameters. |
-   | **Use TICS Work Area** | Boolean value that instruct to use 256 byte working area which is kept over persistent connections and is placed at the beginning of the data. |
+   | **Use TICS Work Area** | A Boolean value that specifies to use a 256-byte working area, which is kept over persistent connections and is placed at the start of the data. |
    | **Error Handling** | Trigger an error, round, or truncate. |
    | **Host Data Type** | The return value's COBOL or RPG data type |
    | **Precision** | The parameter's data precision |
