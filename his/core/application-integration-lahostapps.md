@@ -1,6 +1,6 @@
 ---
-title: Designing Mainframe Artifacts for Host Applications
-description: Learn how to design mainframe artifacts for CICS and IMS applications.
+title: Designing Metadata Artifacts for Host Applications
+description: Learn how to design metadata artifacts for CICS and IMS host applications.
 ms.prod: host-integration-server
 ms.topic: how-to
 ms.date: 10/25/2023
