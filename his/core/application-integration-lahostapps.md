@@ -118,7 +118,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Precision** | The parameter's data precision |
    | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
-   :::image type="content" source="media/la-new-project-parameter-properties.png" alt-text="Screenshot showing new parameter and properties.":::
+   :::image type="content" source="media/la-newproject-parameter-properties.png" alt-text="Screenshot showing new parameter and properties.":::
 
 1. Open the new method's shortcut menu, and select **Add Return Value**.
 
@@ -137,7 +137,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Precision** | The parameter's data precision |
    | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
-   :::image type="content" source="media/la-new-project-retval-properties.png" alt-text="Screenshot showing new return value and properties.":::
+   :::image type="content" source="media/la-newproject-retval-properties.png" alt-text="Screenshot showing new return value and properties.":::
 
 ### Add a data table
 
@@ -158,7 +158,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Precision** | The column's data precision |
    | **Trailing filler** | For columns where the length is less than the specified maximum, you must specify the filler size. |
 
-   :::image type="content" source="media/la-new-project-column-properties.png" alt-text="Screenshot showing new column and properties.":::
+   :::image type="content" source="media/la-newproject-column-properties.png" alt-text="Screenshot showing new column and properties.":::
 
 ### Add a structure
 
@@ -182,7 +182,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
-   :::image type="content" source="media/la-new-project-struct-member-properties.png" alt-text="Screenshot showing new structure member and properties.":::
+   :::image type="content" source="media/la-newproject-struct-member-properties.png" alt-text="Screenshot showing new structure member and properties.":::
 
 ### Add a union
 
@@ -206,7 +206,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
-   :::image type="content" source="media/la-new-project-union-member-properties.png" alt-text="Screenshot showing new union member and properties.":::
+   :::image type="content" source="media/la-newproject-union-member-properties.png" alt-text="Screenshot showing new union member and properties.":::
 
 1. When you're done, continue to the next section to create the library that stores the metadata's design.
 
