@@ -32,7 +32,7 @@ In a 3270 screen-driven app, the screens and data fields are unique to your scen
 
 ## Unsupported elements
 
-The design tool doesn't support Partial IBM Basic Mapping (BMS) maps: If you import a BMS map, the design tool ignores partial screen definitions.
+The design tool doesn't support partial IBM Basic Mapping Support (BMS) maps. If you import a BMS map, the design tool ignores partial screen definitions.
 
 ## Downloading the 3270 Design tool
 
