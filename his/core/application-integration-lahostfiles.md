@@ -137,7 +137,7 @@ The following table lists the components of the main design view:
    | **String Delimiting** | **Null Terminated** or **Space Padded** |
    | **Trailing Filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
-   :::image type="content" source="media/la-newproject-hfs-union-member-properties.png" alt-text="Screenshot shows new union member and properties.":::
+   :::image type="content" source="media/la-newproject-memberprop1.png" alt-text="Screenshot shows new union member and properties.":::
 
 1. When you're done, continue to the next section to create the library that stores the metadata's design.
 
@@ -150,8 +150,6 @@ This section describes how to create the library that stores the metadata artifa
    :::image type="content" source="media/la-newproject-add-saveallhf.png" alt-text="Screenshot shows Visual Studio toolbar with selection option for Save All.":::
 
 1. To find the generated HIDX file, go to your host file's folder.
-
-Once the library is saved, the HIDX file will be generated
 
    :::image type="content" source="media/la-newproject-outputhf-hidx.png" alt-text="Screenshot shows Visual Studio Output window with HIDX file location.":::
 
