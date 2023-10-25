@@ -118,7 +118,11 @@ After you add a method, you can define parameters and a return value to pass and
    | **Precision** | The parameter's data precision |
    | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
+   :::image type="content" source="media/la-new-project-parameter-properties.png" alt-text="Screenshot showing new parameter and properties.":::
+
 1. Open the new method's shortcut menu, and select **Add Return Value**.
+
+   :::image type="content" source="media/la-newproject-add-retval1.png" alt-text="Screenshot showing main design view, method shortcut menu, and selected option for Add Return Value.":::
 
 1. Open the return value's shortcut menu, and select **Properties**. Provide values for the return value's properties based on the following table:
 
@@ -133,7 +137,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Precision** | The parameter's data precision |
    | **Trailing Filler** | For parameters where the length is less than the specified maximum, you must specify the filler size. |
 
-   :::image type="content" source="media/la-newproject-add-retval1.png" alt-text="Screenshot showing main design view, method shortcut menu, and selected option for Add Return Value.":::
+   :::image type="content" source="media/la-new-project-retval-properties.png" alt-text="Screenshot showing new return value and properties.":::
 
 ### Add a data table
 
@@ -154,7 +158,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Precision** | The column's data precision |
    | **Trailing filler** | For columns where the length is less than the specified maximum, you must specify the filler size. |
 
-   :::image type="content" source="media/la-newproject-add-column1.png" alt-text="Screenshot showing a created column for a data table.":::
+   :::image type="content" source="media/la-new-project-column-properties.png" alt-text="Screenshot showing new column and properties.":::
 
 ### Add a structure
 
@@ -178,7 +182,7 @@ After you add a method, you can define parameters and a return value to pass and
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
 
-   :::image type="content" source="media/la-newproject-add-stmember1.png" alt-text="Screenshot showing a created member for a structure.":::
+   :::image type="content" source="media/la-new-project-struct-member-properties.png" alt-text="Screenshot showing new structure member and properties.":::
 
 ### Add a union
 
@@ -201,6 +205,8 @@ After you add a method, you can define parameters and a return value to pass and
    | **Host Data Type** | The member's COBOL or RPG data type |
    | **Precision** | The member's data precision |
    | **Trailing filler** | For members where the length is less than the specified maximum, you must specify the filler size. |
+
+   :::image type="content" source="media/la-new-project-union-member-properties.png" alt-text="Screenshot showing new union member and properties.":::
 
 1. When you're done, continue to the next section to create the library that stores the metadata's design.
 
