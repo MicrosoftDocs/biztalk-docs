@@ -12,7 +12,7 @@ ms.date: 10/25/2023
 
 This guide shows how to design metadata artifacts for 3270 applications and save these artifacts as Host Integration Server Definition XML (HIDX) files and C# classes for Host Integration Server.
 
-## Capture Screens
+## Capture screens
 
 In this mode, you mark an item on each 3270 screen that uniquely identifies that screen. For example, you might specify a line of text or a more complex set of conditions, such as specific text and a non-empty field. You can either record these screens over a live connection to the host server, or import this information from an IBM Basic Mapping Support (BMS) map. The live connection uses a TN3270 emulator for connecting to the host. Each connector action must map to a single task that starts with connecting to your session and ends with disconnecting from your session.
 
