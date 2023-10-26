@@ -1,7 +1,7 @@
 ---
 title: "Host Integration Server 5250 (i Series) Connectivity"
 description: "Learn more about Host Integration Server 5250 (i Series) connectivity."
-ms.prod: Host-integration-server
+ms.prod: host-integration-server
 ms.topic: conceptual
 ms.date: 11/30/2017
 ---
