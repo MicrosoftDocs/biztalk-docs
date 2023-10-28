@@ -1,32 +1,28 @@
 ---
-description: "Learn more about: Creating LUs"
-title: "Creating LUs2"
-ms.custom: ""
-ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+title: Creating logical units (LUs)
+description: Learn about creating logical units (LUs)
+ms.prod: host-integration-server
+ms.topic: conceptual
+ms.date: 11/30/2017
 ---
-# Creating LUs
-After configuring the connection, you can create the 3270 LUs. The LUs can be display (terminal emulation) LUs, printer LUs, application LUs (LUAs), or downstream LUs.  
-  
- 3270 LUs typically need an LU number, which identifies the LU on its connection. This number should match the LOCADDR= parameter of the LU definition in Virtual Telecommunications Access Method (VTAM) or in the Network Control Program (NCP) GEN. Up to 254 LUs can be configured for each connection, and they can be consecutively configured as a range of LUs.  
-  
- You can create LUs one at a time or in a consecutively numbered range. When creating a range of LUs, all the LUs are given the same properties. You can modify individual LUs after creating them.  
+
+# Creating logical units (LUs)
+
+After you configure the connection, you can create the 3270 LUs. The LUs can be display (terminal emulation) LUs, printer LUs, application LUs (LUAs), or downstream LUs.  
+
+You can create LUs one at a time or in a consecutively numbered range. When you create a range of LUs, all the LUs are given the same properties. You can modify individual LUs after creating them.  
+
+3270 LUs typically need an LU number, which identifies the LU on its connection. Make sure that this number matches the LU definition's **LOCADDR=** parameter in the Virtual Telecommunications Access Method (VTAM) or in the Network Control Program (NCP) GEN. You can configure up to 254 LUs for each connection, and you can consecutively configure them as a range of LUs.
   
 ## In This Section  
- [How to Create a 3270 Display LU](../core/how-to-create-a-3270-display-lu1.md)  
+
+[Create a 3270 Display LU](how-to-create-a-3270-display-lu1.md)
+[Create a 3270 Printer LU](how-to-create-a-3270-printer-lu1.md)
+[Create a 3270 Application LU (LUA)](how-to-create-a-3270-application-lu-lua-2.md)
+[Create a 3270 Downstream LU](how-to-create-a-3270-downstream-lu2.md)
+[Create a Local APPC LU](how-to-create-a-local-appc-lu1.md)
+[Create a Remote APPC LU](how-to-create-a-remote-appc-lu2.md)
   
- [How to Create a 3270 Printer LU](../core/how-to-create-a-3270-printer-lu1.md)  
-  
- [How to Create a 3270 Application LU (LUA)](../core/how-to-create-a-3270-application-lu-lua-2.md)  
-  
- [How to Create a 3270 Downstream LU](../core/how-to-create-a-3270-downstream-lu2.md)  
-  
- [How to Create a Local APPC LU](../core/how-to-create-a-local-appc-lu1.md)  
-  
- [How to Create a Remote APPC LU](../core/how-to-create-a-remote-appc-lu2.md)  
-  
-## See Also  
- [Step 3 (LU) Creating and Configuring 3270 LUs](../core/step-3-lu-creating-and-configuring-3270-lus1.md)
+## See also
+
+[Step 3 (LU) Creating and Configuring 3270 LUs](step-3-lu-creating-and-configuring-3270-lus1.md)
