@@ -1,26 +1,36 @@
 ---
-description: "Learn more about: Host Configuration"
-title: "Host Configuration1"
-ms.custom: ""
-ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
-f1_keywords: 
-  - "SNA_PU_8022"
+title: Host configuration
+description: Learn more about host configuration.
+ms.prod: host-integration-server
+ms.topic: conceptual
+ms.date: 11/30/2017
 ---
-# Host Configuration
-For a connection to be established successfully between a host computer and a [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer, a number of software configuration settings (VTAM, NCP, or AS/400), and hardware characteristics must work together. These include the mainframe node ID settings, AS/400 name settings, addresses, BTU length, and link service settings.  
 
- The following table provides more details about important configuration items.  
+# Host configuration
 
+For a connection to be established successfully between a host computer and a [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer, a number of software configuration settings (VTAM, NCP, or AS/400), and hardware characteristics must work together. These include the mainframe node ID settings, AS/400 name settings, addresses, BTU length, and link service settings.
 
-|                                                                                                    Element                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Important items to consider                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      **Host configuration** settings (VTAM, NCP, or AS/400 settings) must match the **Connection and Server** settings on [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]       | **Mainframe Node ID settings:** For most mainframes, IDBLK and IDNUM in the PU definition must be matched by the two parts of the Remote Node ID on the Host Integration Server connection.<br /><br /> **AS/400 name settings:** For the AS/400, local and remote Control Point Names (CP names) and network names must match corresponding Host Integration Server settings (local names configured on the server and remote names on the connection).<br /><br /> **BTU length:** For the mainframe, this is set through MAXDATA in the PU definition. For the AS/400, this is set through MAXFRAME. These should equal the Max BTU Length on the Host Integration Server connection.<br /><br /> **Other settings:** For some connections, other settings are also important. For example, for Synchronous Data Link Control (SDLC), the NRZ/NRZI settings on the host must match those on the Host Integration Server connection. For details about these and other settings, see the section about the type of connection you are configuring. |
+## Important configuration items
 
- When you are configuring a new host connection or troubleshooting an existing connection, regardless of the connection type, the identifiers between the host and Host Integration Server must match. The following sections describe various configuration settings.  
+Host configuration settings (VTAM, NCP, or AS/400 settings) must match the **Connection and Server** settings on [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].
+
+- **Mainframe Node ID settings**
+
+  For most mainframes, IDBLK and IDNUM in the PU definition must be matched by the two parts of the Remote Node ID on the Host Integration Server connection.
+
+- **AS/400 name settings**
+
+  For the AS/400, local and remote Control Point Names (CP names) and network names must match corresponding Host Integration Server settings (local names configured on the server and remote names on the connection).
+
+- **BTU length**
+
+  For the mainframe, this is set through MAXDATA in the PU definition. For the AS/400, this is set through MAXFRAME. These should equal the Max BTU Length on the Host Integration Server connection.
+
+- **Other settings**
+
+  For some connections, other settings are also important. For example, for Synchronous Data Link Control (SDLC), the NRZ/NRZI settings on the host must match those on the Host Integration Server connection. For details about these and other settings, see the section about the type of connection you are configuring. |
+
+When you configure a new host connection or troubleshoot an existing connection, regardless of the connection type, the identifiers between the host and Host Integration Server must match. The following sections describe various configuration settings.
 
 ## In This Section
 
