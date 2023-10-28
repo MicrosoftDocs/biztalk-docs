@@ -1,12 +1,12 @@
 ---
-title: Creating and Configuring LUs
+title: Create and configure logical units (LUs)
 description: Learn about creating and configuring logical units (LUs).
 ms.prod: host-integration-server
 ms.topic: how-to
 ms.date: 11/30/2017
 ---
 
-# Creating and Configuring LUs
+# Create and configure logical units (LUs)
 
 After you configure the connection, you can create the 3270 logical units (LUs). These LUs can be display LUs (terminal emulation), printer LUs, application LUs (LUAs), or downstream LUs. You can create LUs one at a time or in a consecutively numbered range. When you create a range of LUs, all the LUs are given the same properties. You can modify individual LUs after creating them.
 
