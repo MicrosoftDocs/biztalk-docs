@@ -1,6 +1,6 @@
 ---
 title: Configure an IP-DLC link service
-description: Learn hwo to configure an IP-DLC link service.
+description: Learn how to configure an IP-DLC link service.
 ms.prod: host-integration-server
 ms.topic: how-to
 ms.date: 11/30/2017
