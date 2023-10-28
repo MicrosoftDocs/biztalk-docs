@@ -1,14 +1,13 @@
 ---
-description: "Learn more about: Host Integration Server Core Documentation"
-title: "Host Integration Server Core Documentation"
-ms.custom: ""
+title: Host Integration Server Core Documentation
+description: Review core documentation about Host Integration Server.
+ms.prod: host-integration-server
+ms.topic: conceptual
 ms.date: 01/04/2018
-ms.prod: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
 ---
+
 # Host Integration Server Core Documentation
+
 The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] core documentation provides in-depth information about Microsoft Host Integration Server.
 
 > [!NOTE]
