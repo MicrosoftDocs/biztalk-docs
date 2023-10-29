@@ -1,21 +1,22 @@
 ---
-title: Importing COBOL Host Definitions
+title: Import COBOL host definitions
 description: Learn how to import COBOL host definitions for CICS, IMS, and host files.
 ms.prod: host-integration-server
 ms.topic: how-to
-ms.date: 10/17/2023
+ms.date: 10/29/2023
 ---
 
-# Importing COBOL Host Definitions
+# Import COBOL host definitions for CICS, IMS, and host files
 
 The original Host Integration Server TI Designer feature was introduced with the full capabilities for designing metadata artifacts from scratch with the assistance from a mainframe programmer. Later, the capability to import host definitions in COBOL or RPG copybook format was added to support scenarios for automating design and reducing involvement from mainframe programmers. Over the years, this capability became the principal option to create metadata artifacts.
 
 ## Prerequisites
 
 - Obtain the host definitions (copybooks) that you want to import into HIS Designer for Logic Apps. This designer supports COBOL and RPG copybooks.
- - Understanding how the programming model works for the technology that you want to integrate against, which is CICS or IMS. Both platforms have different requirements and ways to pass and receive information. Make sure that you learn about the appropriate [programming model](choosing-the-appropriate-programming-model1.md) before you import the host definitions.
 
-## Preparing a COBOL Copybook
+- Understand how the programming model works for the technology that you want to integrate, which is CICS or IMS. Both platforms have different requirements and ways to pass and receive information. Make sure that you learn about the appropriate [programming model](choosing-the-appropriate-programming-model1.md) before you import the host definitions.
+
+## Prepare a COBOL copybook
 
 - COBOL copybooks should follow the basic COBOL coding rules. The HIS Designer for Logic Apps enforces many of those rules. The following table lists the main rules:
 
@@ -28,19 +29,22 @@ The original Host Integration Server TI Designer feature was introduced with the
    | 73-80 | Identification | No definitions are allowed here. |
 
 - Verify that the COBOL or RPG copybook meets the requirement of the selected [programming model](choosing-the-appropriate-programming-model1.md).
+
 - Verify the dots at the end of every line. Make sure they appear, even though COBOL's latest versions don't require this formatting.
+
 - If there are REDEFINES in your copybook, have the mainframe programmer confirm the definition that you want to use, if no discriminant is available.
+
 - Remove any character other than the ones stated in the earlier table. Make sure that you have the correct number of characters.
 
-## Importing a COBOL Host Definition (CICS)
+## Import a COBOL host definition (CICS)
 
 The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL program follows the CICS ELM Link [programming model](choosing-the-appropriate-programming-model1.md).
 
 1. In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
 
-    In the following example, the component node is named **NetCInt1**.
+   In the following example, the component node is named **NetCInt1**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Importing CICS Host Definitions in Visual Studio":::
+   :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Import a CICS jost Definitions in Visual Studio":::
 
 1. In the **Import System z COBOL Source File** box, select **Browse**.
 
@@ -169,13 +173,13 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
 1. To generate the HIDX, select **Save All**.
 
-## Importing a COBOL Host Definition (IMS)
+## Import a COBOL host definition (IMS)
 
 Both CICS and IMS host mission-critical programs, but each have different requirements. The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL program follows the IMS Connect programming model.
 
-1.  In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
+1. In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
 
-     In the following example, the component node is named **NetCInt1**.
+   In the following example, the component node is named **NetCInt1**.
 
    :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Importing IMS Host Definitions in Visual Studio":::
 
@@ -307,7 +311,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
 1. Select **Save All** to generate the HIDX.
 
-## Importing a COBOL Host File Definition (Host Files)
+## Import a COBOL host file definition (Host Files)
 
 IBM host files have multiple types and can exist in mainframes or midrange systems. Each have their own types and characteristics. The demand is increasing to modernize or migrate mainframe and midrange applications that use host file data. One example is migrating virtual storage access method (VSAM) files to Azure. With this demand, the use case is becoming more common to access and integrate these files into modern solutions.
 
@@ -315,7 +319,7 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
 1. In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
 
-    In the following example, the component node is named **HostFileDefinition1**.
+   In the following example, the component node is named **HostFileDefinition1**.
 
    :::image type="content" source="media/la-newproject-import-hostdefhf1.png" alt-text="Importing Host Files Definitions in Visual Studio":::
 
