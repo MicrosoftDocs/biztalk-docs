@@ -69,9 +69,9 @@ The following table lists the components of the main design view:
 
 | Component | Description |
 |-----------|-------------|
-| Tables folder | Groups data tables in the assembly. |
-| Schemas folder | Groups variables with shared attributes. |
-| Unions folder | Represents the equivalent of COBOL unions. |
+| Tables folder | Tables define the mapping between a host file and a schema. The folder groups data tables in the assembly. |
+| Schemas folder | Schemas define the mapping between the host file record fields and the .NET data types. The Schemas folder group variables with shared attributes. |
+| Unions folder | Represents the equivalent of COBOL unions. Unions can apply sets of rules depending on their type. |
 
 ### Add a table
 
