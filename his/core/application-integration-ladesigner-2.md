@@ -26,7 +26,7 @@ You use the HIS Designer to create libraries for use with connectors in Azure Lo
 
 ## Downloading the HIS Designer for Logic Apps
 
-You can [download and install the HIS Designer for Logic Apps from the Download Center](https://aka.ms/his-desiner-logicapps-download). The only prerequisite is [Microsoft .NET Framework 4.8](https://aka.ms/net-framework-download).
+You can [download and install the HIS Designer for Logic Apps from the Download Center](https://aka.ms/his-designer-logicapps-download). The only prerequisite is [Microsoft .NET Framework 4.8](https://aka.ms/net-framework-download).
 
 ## Next steps
 
