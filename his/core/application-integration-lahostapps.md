@@ -16,7 +16,7 @@ This guide shows how to design metadata artifacts for CICS or IMS host applicati
 
 - [Download and install Visual Studio](https://visualstudio.microsoft.com/downloads/). After installation, make sure that you also install the workload named **Desktop development with C++** in Visual Studio. Otherwise, you get the error **Exception from HRESULT 0x800A007C**.
 
-- [Download and install the HIS Designer for Azure Logic Apps](https://aka.ms/his-desiner-logicapps-download). The only prerequisite is [Microsoft .NET Framework 4.8](https://aka.ms/net-framework-download).
+- [Download and install the HIS Designer for Azure Logic Apps](https://aka.ms/his-designer-logicapps-download). The only prerequisite is [Microsoft .NET Framework 4.8](https://aka.ms/net-framework-download).
 
 - Enable Visual Studio support for the Flat File processor in Azure Logic Apps. For this task, follow these steps:
 
