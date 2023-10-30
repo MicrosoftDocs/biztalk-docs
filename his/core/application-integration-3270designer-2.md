@@ -16,7 +16,9 @@ To create mainframe metadata for 3270 stream-based artifacts to use in Azure Log
 
 ## Why use the 3270 Design Tool to interact with 3270 applications?
 
-In the SNA days, the display management protocol used to facilitate the communication between remote end-users and a centralized mainframe was called the 3270 data stream. At the end user's location in an SNA network was a device referred to as a 3270 terminal. Because so many SNA and 3270 applications existed, customer looked at integrating their SNA protocol into their IP backbone. The technology used to move from SNA 3270 applications to TCP/IP is called TN3270, short for Telnet 3270. Extracted from [Introduction to the 3270 terminal](https://www.ibm.com/docs/en/zos-basic-skills?topic=enhanced-introduction-3270-terminal).
+During the prevalence of System Network Architecture (SNA), the 3270 data stream was used as the display management protocol that facilitated communication between remote end users and a centralized mainframe. A device known as a 3270 terminal existed in an SNA network at the end user's location.
+
+Due to many SNA and 3270 applications existing at that time, customers looked at integrating their SNA protocol into their IP backbone. They used a technology known as Telnet 3270 (TN3270) to move from SNA 3270 applications to TCP/IP. For more information, see [Introduction to the 3270 terminal](https://www.ibm.com/docs/en/zos-basic-skills?topic=enhanced-introduction-3270-terminal).
 
 3270 Applications are pervasive in IBM Mainframe environments. To access these applications, which oftentimes have business logic embedded with the screens, separating the screen and business logic might not be possible or maybe you no longer have information for how the applications work. The 3270 Design tool helps to parse and process these applications so the screen information can be reused.
 
