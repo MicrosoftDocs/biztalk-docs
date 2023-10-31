@@ -292,33 +292,33 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef10.png" alt-text="Screenshot shows Item Options box to select item type, such as Method, Data Table, Structure, or Union for IMS.":::
 
-1. After the **Input Area** box opens, review the information in the **Input area** section. When you're ready, select **Next**.
+1. After the **Input Area** box opens, select all the items in the **INPUT AREA** node, and then select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef11.png" alt-text="Screenshot shows the Input Area box for the IMS host transaction.":::
 
-1. After the **Output Area** box opens, review information in the **Output area** section. When you're ready, select **Next**.
+1. After the **Output Area** box opens, select all the items in the **OUTPUT AREA** node, and then select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef12.png" alt-text="Screenshot shows the Output Area box for the IMS host transaction.":::
 
-1. After the **Return Value** box opens, review the information in the **Return value** section. When you're ready, select **Next**.
+1. After the **Return Value** box opens, select an item in the **OUTPUT AREA** node for the return value, and then select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef13.png" alt-text="Screenshot shows the Return Value box for the IMS host transaction.":::
 
-1. After the **Data Tables, Structures and Unions** box opens, review the groups to use for the data tables and structures in your application. When you're ready, select **Next**.
+1. After the **Data Tables, Structures and Unions** box opens, select the groups to use for the data tables and structures, and then select **Next**.
 
-   For this sample application, the following example doesn't require this setting.
+   This example doesn't require this setting, so nothing is selected.
 
    :::image type="content" source="media/la-newproject-import-hostdef14.png" alt-text="Screenshot shows Data Tables, Structures, and Unions box for IMS.":::
 
-1. After the **LL Fields Area** box opens, review the LL fields that must be excluded from the transaction. When you're ready, select **Next**.
+1. After the **LL Fields Area** box opens, select the LL fields that must be excluded from the transaction. When you're ready, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef15.png" alt-text="Screenshot shows the LL Fields Area box for IMS.":::
 
-1. After the **ZZ Fields Area** box opens, review the ZZ fields that must be excluded from the transaction. When you're ready, select **Next**.
+1. After the **ZZ Fields Area** box opens, select the ZZ fields that must be excluded from the transaction. When you're ready, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef16.png" alt-text="Screenshot shows the ZZ Fields Area box.":::
 
-1. After the **TRANCODE Fields Area** box opens, review the TRANCODE fields that must be excluded from your application. When you're ready, select **Finish**.
+1. After the **TRANCODE Fields Area** box opens, select the TRANCODE fields that must be excluded from your application. When you're ready, select **Finish**.
 
    :::image type="content" source="media/la-newproject-import-hostdef17.png" alt-text="Screenshot shows the TRANCODE Fields Area box.":::
 
