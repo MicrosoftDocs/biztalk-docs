@@ -16,18 +16,20 @@ The original Host Integration Server TI Designer feature was introduced with the
 
 - [Download and install the HIS Designer for Azure Logic Apps](https://aka.ms/his-designer-logicapps-download). The only prerequisite is [Microsoft .NET Framework 4.8](https://aka.ms/net-framework-download).
 
-- Obtain the host definitions (copybooks) that you want to import into HIS Designer for Logic Apps. This designer supports COBOL and RPG copybooks.
+- A Visual Studio [host application solution and project (CICS or IMS](application-integration-lahostapps.md) or [host file solution project](application-integration-lahostfiles.md) where you want to import the host definition.
 
 - Understand how the programming model works for the technology that you want to integrate, which is CICS or IMS. Both platforms have different requirements and ways to pass and receive information. Make sure that you learn about the appropriate [programming model](choosing-the-appropriate-programming-model1.md) before you import the host definitions.
+
+- Obtain the host definitions (copybooks) that you want to import into HIS Designer for Logic Apps. This designer supports COBOL and RPG copybooks.
 
 ## Prepare a COBOL copybook
 
 - COBOL copybooks should follow the basic COBOL coding rules. The HIS Designer for Logic Apps enforces many of those rules. The following table lists the main rules:
 
-   |Columns  |Type  |Observation  |
-   |---------|---------|---------|
+   | Columns | Type | Observation |
+   |---------|------|-------------|
    | 1–6 | Sequence number | Don't enter anything in these positions. |
-   | 7 | Indicator | Use to code a comment (*). A slash (/) is also accepted. |
+   | 7 | Indicator | Use an asterisk (*) or slash (/) to code a comment. |
    | 8-11 | A Margin (Area A) | 77 level numbers and 01 level numbers |
    | 12-72 | B Margin (Area B) | Reserved for 02 levels and higher |
    | 73-80 | Identification | No definitions are allowed here. |
@@ -36,27 +38,29 @@ The original Host Integration Server TI Designer feature was introduced with the
 
 - Verify the dots at the end of every line. Make sure they appear, even though COBOL's latest versions don't require this formatting.
 
-- If there are REDEFINES in your copybook, have the mainframe programmer confirm the definition that you want to use, if no discriminant is available.
+- If your copybook includes REDEFINEs, have the mainframe programmer confirm the host definition that you want to use, if no discriminant is available.
 
 - Remove any character other than the ones stated in the earlier table. Make sure that you have the correct number of characters.
 
 ## Import a COBOL host definition (CICS)
 
-The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL program follows the CICS ELM Link [programming model](choosing-the-appropriate-programming-model1.md).
+The following steps show how to import a COBOL copybook for a CICS host application project into the HIS Designer for Logic Apps. This COBOL program follows the CICS ELM Link [programming model](choosing-the-appropriate-programming-model1.md).
 
-1. In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
+1. In Visual Studio, open the CICS host application solution, which automatically opens the HIS Designer for Logic Apps.
+
+1. In the designer's left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
 
    In the following example, the component node is named **NetCInt1**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Import a CICS jost Definitions in Visual Studio":::
+   :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Screenshot shows Visual Studio, HIS design view, and NetCInt1 component node shortcut menu with Import, Host Definition selected.":::
 
 1. In the **Import System z COBOL Source File** box, select **Browse**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef2.png" alt-text="Selecting Host Definitions in Visual Studio (CICS)":::
+   :::image type="content" source="media/la-newproject-import-hostdef2.png" alt-text="Screenshot shows Import System Z COBOL Source File box for CICS.":::
 
 1. Find and select the copybook to import, and then select **Open**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef3.png" alt-text="Selecting the Host Definitions from their directory (CICS)":::
+   :::image type="content" source="media/la-newproject-import-hostdef3.png" alt-text="Screenshow shows the file explorer and a selected copybook to use for a CICS host application.":::
 
    The following example shows the COBOL program to import:
 
@@ -156,44 +160,49 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
            END-IF.
 
            EXEC CICS RETURN END-EXEC.
-
-   ```  
+   ```
 
 1. Review the copybook to import. When you're ready, select **Next**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef4.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio":::
+   :::image type="content" source="media/la-newproject-import-hostdef4.png" alt-text="Screenshot shows the Import System z COBOL Source File box with the selected and preloaded host definition for CICS.":::
 
 1. After the **Item Options** box opens and populates with the artifact name and the **Link-to-Program name** value, select **Next**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef5.png" alt-text="Dialog to select options for Item such as Methods, Data Tables, Structures or Unions":::
+   :::image type="content" source="media/la-newproject-import-hostdef5.png" alt-text="Screenshot shows Item Options box to select item type, such as Method, Data Table, Structure, or Union for CICS.":::
 
    The designer presents the metadata artifact that's generated from the COBOL copybook.
 
-   :::image type="content" source="media/la-newproject-import-hostdef6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps":::
+   :::image type="content" source="media/la-newproject-import-hostdef6.png" alt-text="Screenshot shows metadata artifact design view for CICS in the HIS Designer.":::
 
    The designer also generates a host definition for the copybook. This host definition doesn't include the entire provided copybook, but only the fields and datatypes needed for the artifact to interact with the mainframe program. Although the previously provided sample is an entire program, the HIS Designer extracts only the information required based on the selected [programming model](choosing-the-appropriate-programming-model1.md).
 
-   :::image type="content" source="media/la-newproject-import-hostdef7.png" alt-text="Host Definition parsed by HIS Designer for Logic Apps view":::
+   :::image type="content" source="media/la-newproject-import-hostdef7.png" alt-text="Screenshot shows parsed host definition view for CICS in HIS Designer.":::
 
 1. To generate the HIDX, select **Save All**.
 
+   :::image type="content" source="media/la-newproject-add-saveallhf.png" alt-text="Screenshot shows Visual Studio toolbar with Save All selected.":::
+
+1. To find the generated HIDX file, go to your host application's folder.
+
 ## Import a COBOL host definition (IMS)
 
-Both CICS and IMS host mission-critical programs, but each have different requirements. The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL program follows the IMS Connect programming model.
+Both CICS and IMS host mission-critical programs, but each have different requirements. The following steps show how to import a COBOL copybook for an IMS host application project into the HIS Designer for Logic Apps. This COBOL program follows the IMS Connect [programming model](choosing-the-appropriate-programming-model1.md).
 
-1. In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
+1. In Visual Studio, open the IMS host application solution, which automatically opens the HIS Designer for Logic Apps.
+
+1. In the designer's left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
 
    In the following example, the component node is named **NetCInt1**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Importing IMS Host Definitions in Visual Studio":::
+   :::image type="content" source="media/la-newproject-import-hostdef1.png" alt-text="Screenshot shows Visual Studio, HIS design view, and the NetCInt1 component node shortcut menu with Import, Host Definition selected.":::
 
 1. In the **Import System z COBOL Source File** box, select **Browse**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef2.png" alt-text="Visual Studio configuration for Logic Apps and HIS":::
+   :::image type="content" source="media/la-newproject-import-hostdef2.png" alt-text="Screenshot shows Import System Z COBOL Source File box for IMS.":::
 
 1. Find and select the copybook to import, and then select **Open**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef8.png" alt-text="Selecting Host Definitions in Visual Studio (IMS)":::
+   :::image type="content" source="media/la-newproject-import-hostdef8.png" alt-text="Screenshow shows the file explorer and a selected copybook to use for a IMS host application.":::
 
    The following example shows the COBOL program to import:
 
@@ -264,76 +273,86 @@ Both CICS and IMS host mission-critical programs, but each have different requir
               END-IF.
    
            GOBACK.
-
    ```
 
-1. Review the copybook to import. For the next steps, make sure that the **Use Importer defaults** option isn't selected. When you're ready, select **Next**.
+1. Review the copybook to import. When you're ready, select **Next**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef9.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio (IMS)":::
+   > [!NOTE]
+   >
+   > For the next steps, confirm that the **Use Importer defaults** option isn't selected or available,
+   > which should be the default behavior when you're working with an IMS host application.
+
+   :::image type="content" source="media/la-newproject-import-hostdef9.png" alt-text="Screenshot shows the Import System z COBOL Source File box with the selected and preloaded host definition for IMS.":::
 
 1. After the **Item Options** box opens and populates with the artifact name and the **Transaction ID** value, select **Next**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef10.png" alt-text="Dialog to select options for Item such as Methods, Data Tables, Structures or Unions (IMS)":::
+   :::image type="content" source="media/la-newproject-import-hostdef10.png" alt-text="Screenshot shows Item Options box to select item type, such as Method, Data Table, Structure, or Union for IMS.":::
 
 1. After the **Input Area** box opens, review the information in the **Input area** section. When you're ready, select **Next**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef11.png" alt-text="IMS Host transaction input area":::
+   :::image type="content" source="media/la-newproject-import-hostdef11.png" alt-text="Screenshot shows the Input Area box for the IMS host transaction.":::
 
 1. After the **Output Area** box opens, review information in the **Output area** section. When you're ready, select **Next**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef12.png" alt-text="IMS Host transaction output area":::
+   :::image type="content" source="media/la-newproject-import-hostdef12.png" alt-text="Screenshot shows the Output Area box for the IMS host transaction.":::
 
 1. After the **Return Value** box opens, review the information in the **Return value** section. When you're ready, select **Next**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef13.png" alt-text="Return value dialog for host transaction":::
+   :::image type="content" source="media/la-newproject-import-hostdef13.png" alt-text="Screenshot shows the Return Value box for the IMS host transaction.":::
 
 1. After the **Data Tables, Structures and Unions** box opens, review the groups to use for the data tables and structures in your application. When you're ready, select **Next**.
 
    For this sample application, the following example doesn't require this setting.
 
-   :::image type="content" source="media/la-newproject-import-hostdef14.png" alt-text="Data Tables and Structures dialog":::
+   :::image type="content" source="media/la-newproject-import-hostdef14.png" alt-text="Screenshot shows Data Tables, Structures, and Unions box for IMS.":::
 
 1. After the **LL Fields Area** box opens, review the LL fields that must be excluded from the transaction. When you're ready, select **Next**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef15.png" alt-text="LL Fields Area dialog":::
+   :::image type="content" source="media/la-newproject-import-hostdef15.png" alt-text="Screenshot shows the LL Fields Area box for IMS.":::
 
 1. After the **ZZ Fields Area** box opens, review the ZZ fields that must be excluded from the transaction. When you're ready, select **Next**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef16.png" alt-text="ZZ Fields Area dialog":::
+   :::image type="content" source="media/la-newproject-import-hostdef16.png" alt-text="Screenshot shows the ZZ Fields Area box.":::
 
 1. After the **TRANCODE Fields Area** box opens, review the TRANCODE fields that must be excluded from your application. When you're ready, select **Finish**.
 
-   :::image type="content" source="media/la-newproject-import-hostdef17.png" alt-text="TRANCODE Fields Area dialog":::
+   :::image type="content" source="media/la-newproject-import-hostdef17.png" alt-text="Screenshot shows the TRANCODE Fields Area box.":::
 
    The designer shows the metadata artifact generated from the COBOL copybook:
    
-   :::image type="content" source="media/la-newproject-import-hostdef18.png" alt-text="IMS generated metadata view":::
+   :::image type="content" source="media/la-newproject-import-hostdef18.png" alt-text="Screenshot shows metadata artifact design view for IMS in the HIS Designer.":::
    
    The designer also generates a host definition for the copybook. This host definition doesn't include the entire provided copybook, but only the fields and datatypes needed for the artifact to interact with the mainframe program. Although the previously provided sample is an entire program, the HIS Designer extracts only the information required based on the selected [programming model](choosing-the-appropriate-programming-model1.md).
    
-   :::image type="content" source="media/la-newproject-import-hostdef19.png" alt-text="Host Definition generated by HIS Designer for Logic Apps":::
+   :::image type="content" source="media/la-newproject-import-hostdef19.png" alt-text="Screenshot shows parsed host definition view for IMS in HIS Designer.":::
 
 1. Select **Save All** to generate the HIDX.
 
-## Import a COBOL host file definition (Host Files)
+   :::image type="content" source="media/la-newproject-add-saveallhf.png" alt-text="Screenshot shows Visual Studio toolbar with Save All selected.":::
+
+1. To find the generated HIDX file, go to your host application's folder.
+
+## Import a COBOL host file definition (Host files)
 
 IBM host files have multiple types and can exist in mainframes or midrange systems. Each have their own types and characteristics. The demand is increasing to modernize or migrate mainframe and midrange applications that use host file data. One example is migrating virtual storage access method (VSAM) files to Azure. With this demand, the use case is becoming more common to access and integrate these files into modern solutions.
 
-The following steps show how to import a COBOL copybook into the HIS Designer for Logic Apps. This COBOL copybook represents a simple VSAM file. The Import wizard creates structures and unions. After you import the copybook, you can create and assign tables to correct schemas.
+The following steps show how to import a COBOL copybook for a host file project into the HIS Designer for Logic Apps. This COBOL copybook represents a simple VSAM file. The import wizard creates structures and unions. After you import the copybook, you can create and assign tables to the correct schemas.
 
-1. In the left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
+1. In Visual Studio, open your host file solution, which automatically opens the HIS Designer for Logic Apps.
+
+1. the designer's left pane, open the component node's shortcut menu, and select **Import** > **Host Definition**.
 
    In the following example, the component node is named **HostFileDefinition1**.
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf1.png" alt-text="Importing Host Files Definitions in Visual Studio":::
+   :::image type="content" source="media/la-newproject-import-hostdefhf1.png" alt-text="Screenshot shows Visual Studio, HIS design view, and the HostFileDefinition1 component node shortcut menu with Import, Host Definition selected.":::
 
 1. In the **Import System z COBOL Source File** box, select **Browse**.
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf2.png" alt-text="Selecting Host Definitions in Visual Studio (Host Files)":::
+   :::image type="content" source="media/la-newproject-import-hostdefhf2.png" alt-text="Screenshot shows Import System Z COBOL Source File box for a host file.":::
 
 1. Find and select the copybook to import, and then select **Open**.
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf3.png" alt-text="Selecting the Host Definitions from their directory (Host Files)":::
+   :::image type="content" source="media/la-newproject-import-hostdefhf3.png" alt-text="Screenshow shows the file explorer and a selected copybook to use for a host file.":::
 
    The following example shows the COBOL program to import:
 
@@ -357,17 +376,19 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
               05 CUSTOMER-ACCESS-PIN         PIC X(4).
    ```  
  
-1. Review the copybook to import. Verify the selections for the following options: **REDEFINE**, **Use Importer defaults**, and **Generate structure on indents** for the host definition. When you're ready, select **Next**. 
+1. In the **Import System z COBOL Source File** box, review the copybook to import.
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf4.png" alt-text="Dialog with pre-loaded Host Definition in Visual Studio (Host Files)":::
+1. Confirm that the selections for the following options for the host definition: **REDEFINE**, **Use Importer defaults**, and **Generate structure on indents**. When you're ready, select **Next**. 
 
-   The designer shows the metadata artifact generated from the COBOL copybook. This artifact is incomplete, so you must create one or more tables that reflect the host files.
+   :::image type="content" source="media/la-newproject-import-hostdefhf4.png" alt-text="Screenshot shows the Import System z COBOL Source File box with the selected and preloaded host definition for a host file.":::
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps.":::
+   The designer shows the metadata artifact generated from the COBOL copybook. This artifact is incomplete, so you must create one or more tables that reflect the host file.
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf6.png" alt-text="Screenshot shows the metadata artifact view in HIS Designer for a host file.":::
 
 1. In the component node tree, open the **Tables** shortcut menu, and select **Add Table**.
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf7.png" alt-text="Main design view, open Tables shortcut menu with Add Table selected.":::
+   :::image type="content" source="media/la-newproject-import-hostdefhf7.png" alt-text="Screenshot shows artifact design view and the open Tables shortcut menu with Add Table selected.":::
 
 1. Open the new table's shortcut menu, and select **Properties**. In the **Properties** window, update the following properties:
 
@@ -379,12 +400,14 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    The following example shows the updated table properties:
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf8.png" alt-text="Table properties window with Alias, Host File Name, and Schema properties.":::
+   :::image type="content" source="media/la-newproject-import-hostdefhf8.png" alt-text="Screenshot shows table properties window with Alias, Host File Name, and Schema properties.":::
 
    The following example shows the completed host file's metadata artifact:
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf9.png" alt-text="Generating HIDX file by saving the metadata artifact":::
+   :::image type="content" source="media/la-newproject-import-hostdefhf9.png" alt-text="Screenshot shows completed metadata artifact in HIS Designer for a host file.":::
 
 1. To generate the HIDX. file, select **Save All**.
 
-   :::image type="content" source="media/la-newproject-add-saveallhf.png" alt-text="Visual Studio toolbar with Save All selected.":::
+   :::image type="content" source="media/la-newproject-add-saveallhf.png" alt-text="Screenshot shows Visual Studio toolbar with Save All selected.":::
+
+1. To find the generated HIDX file, go to your host application's folder.
