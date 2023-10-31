@@ -306,7 +306,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
 1. After the **Data Tables, Structures and Unions** box opens, select the groups to use for the data tables and structures, and then select **Next**.
 
-   This example doesn't require this setting, so nothing is selected.
+   This example doesn't require any selections, so no items are selected.
 
    :::image type="content" source="media/la-newproject-import-hostdef14.png" alt-text="Screenshot shows Data Tables, Structures, and Unions box for IMS.":::
 
@@ -318,7 +318,7 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
    :::image type="content" source="media/la-newproject-import-hostdef16.png" alt-text="Screenshot shows the ZZ Fields Area box.":::
 
-1. After the **TRANCODE Fields Area** box opens, select the TRANCODE fields that must be excluded from your application. When you're ready, select **Finish**.
+1. After the **TRANCODE Fields Area** box opens, select the TRANCODE fields that must be excluded from the transaction. When you're ready, select **Finish**.
 
    :::image type="content" source="media/la-newproject-import-hostdef17.png" alt-text="Screenshot shows the TRANCODE Fields Area box.":::
 
