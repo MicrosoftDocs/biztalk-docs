@@ -3,7 +3,7 @@ title: Import COBOL host definitions
 description: Learn how to import COBOL host definitions for CICS, IMS, and host files.
 ms.prod: host-integration-server
 ms.topic: how-to
-ms.date: 10/29/2023
+ms.date: 10/31/2023
 ---
 
 # Import COBOL host definitions for CICS, IMS, and host files
@@ -359,18 +359,28 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
    The designer shows the metadata artifact generated from the COBOL copybook. This artifact is incomplete, so you must create one or more tables that reflect the host files.
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps (Host Files)":::
+   :::image type="content" source="media/la-newproject-import-hostdefhf6.png" alt-text="Metadata artifact view in HIS Designer for Logic Apps.":::
 
 1. In the component node tree, open the **Tables** shortcut menu, and select **Add Table**.
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf7.png" alt-text="Addint a Table to the Host File Definition":::
+   :::image type="content" source="media/la-newproject-import-hostdefhf7.png" alt-text="Main design view, open Tables shortcut menu with Add Table selected.":::
 
-1. In the **Alias** property, rename the table. In the **Host File Name** property, enter the mainframe or midrange system name for the host file. In the **Schema** property, assign the previously imported schema.
+1. Open the new table's shortcut menu, and select **Properties**. In the **Properties** window, update the following properties:
 
-   :::image type="content" source="media/la-newproject-import-hostdefhf8.png" alt-text="Entering Alias, Host File Name and Schema of the Host File":::
+   | Property | Description |
+   |----------|-------------|
+   | **Alias** | The table name, for example, **CUSTOMER** |
+   | **Host File Name** | The mainframe or midrange system name for the host file, for example, **HISDEMO.NWIND.CUSTOMER** |
+   | **Schema** | The previously imported schema, for example, **CUSTOMER_RECORD** |
+
+   The following example shows the updated table properties:
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf8.png" alt-text="Table properties window with Alias, Host File Name, and Schema properties.":::
+
+   The following example shows the completed host file's metadata artifact:
+
+   :::image type="content" source="media/la-newproject-import-hostdefhf9.png" alt-text="Generating HIDX file by saving the metadata artifact":::
 
 1. To generate the HIDX. file, select **Save All**.
 
-   The following example shows the final view of the host files metadata artifact:
-
-   :::image type="content" source="media/la-newproject-import-hostdefhf9.png" alt-text="Generating HIDX file by saving the metadata artifact":::
+   :::image type="content" source="media/la-newproject-add-saveallhf.png" alt-text="Visual Studio toolbar with Save All selected".:::
