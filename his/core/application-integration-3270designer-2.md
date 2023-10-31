@@ -20,7 +20,7 @@ During the prevalence of System Network Architecture (SNA), the 3270 data stream
 
 Due to many SNA and 3270 applications existing at that time, customers looked at integrating their SNA protocol into their IP backbone. They used a technology known as Telnet 3270 (TN3270) to move from SNA 3270 applications to TCP/IP. For more information, see [Introduction to the 3270 terminal](https://www.ibm.com/docs/en/zos-basic-skills?topic=enhanced-introduction-3270-terminal).
 
-3270 Applications are pervasive in IBM Mainframe environments. To access these applications, which oftentimes have business logic embedded with the screens, separating the screen and business logic might not be possible or maybe you no longer have information for how the applications work. The 3270 Design tool helps to parse and process these applications so the screen information can be reused.
+3270 applications are pervasive in IBM mainframe environments. To access these applications, which often have business logic embedded with the screens, separating the screen and business logic might not be possible, or maybe you no longer have information for how the applications work. The 3270 Design Tool helps parse and process these applications so that you can reuse the screen information.
 
 ## How does the 3270 Design Tool work?
 
