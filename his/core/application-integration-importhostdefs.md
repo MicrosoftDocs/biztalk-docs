@@ -12,6 +12,10 @@ The original Host Integration Server TI Designer feature was introduced with the
 
 ## Prerequisites
 
+- [Download and install Visual Studio](https://visualstudio.microsoft.com/downloads/). After installation, make sure that you also install the workload named **Desktop development with C++ in Visual Studio**. Otherwise, you get the error **Exception from HRESULT 0x800A007C**.
+
+- [Download and install the HIS Designer for Azure Logic Apps](https://aka.ms/his-designer-logicapps-download). The only prerequisite is [Microsoft .NET Framework 4.8](https://aka.ms/net-framework-download).
+
 - Obtain the host definitions (copybooks) that you want to import into HIS Designer for Logic Apps. This designer supports COBOL and RPG copybooks.
 
 - Understand how the programming model works for the technology that you want to integrate, which is CICS or IMS. Both platforms have different requirements and ways to pass and receive information. Make sure that you learn about the appropriate [programming model](choosing-the-appropriate-programming-model1.md) before you import the host definitions.
