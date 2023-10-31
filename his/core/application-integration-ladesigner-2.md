@@ -3,7 +3,7 @@ title: What is the HIS Designer for Logic Apps
 description: Learn about creating mainframe programs and data metadata for Azure Logic Apps by using the HIS Designer for Logic Apps.
 ms.prod: host-integration-server
 ms.topic: conceptual
-ms.date: 10/25/2023
+ms.date: 10/31/2023
 
 #CustomerIntent: As a programmer, I want to learn about creating metadata artifacts for use in Azure Logic Apps using the HIS Designer for Logic Apps.
 ---
