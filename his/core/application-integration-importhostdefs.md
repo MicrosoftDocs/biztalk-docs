@@ -18,6 +18,10 @@ The original Host Integration Server TI Designer feature was introduced with the
 
 - A Visual Studio [host application solution and project (CICS or IMS](application-integration-lahostapps.md) or [host file solution project](application-integration-lahostfiles.md) where you want to import the host definition.
 
+  > [!NOTE]
+  >
+  > The HIS Designer provides and shows different options based on whether you open a CICS, IMS, or host file solution.
+
 - Understand how the programming model works for the technology that you want to integrate, which is CICS or IMS. Both platforms have different requirements and ways to pass and receive information. Make sure that you learn about the appropriate [programming model](choosing-the-appropriate-programming-model1.md) before you import the host definitions.
 
 - Obtain the host definitions (copybooks) that you want to import into HIS Designer for Logic Apps. This designer supports COBOL and RPG copybooks.
@@ -277,14 +281,14 @@ Both CICS and IMS host mission-critical programs, but each have different requir
 
 1. Review the copybook to import. When you're ready, select **Next**.
 
+   :::image type="content" source="media/la-newproject-import-hostdef9.png" alt-text="Screenshot shows the Import System z COBOL Source File box with the selected and preloaded host definition for IMS.":::
+
+1. After the **Item Options** box opens and populates with the artifact name and the **Transaction ID** value, select **Next**.
+
    > [!NOTE]
    >
    > For the next steps, confirm that the **Use Importer defaults** option isn't selected or available,
    > which should be the default behavior when you're working with an IMS host application.
-
-   :::image type="content" source="media/la-newproject-import-hostdef9.png" alt-text="Screenshot shows the Import System z COBOL Source File box with the selected and preloaded host definition for IMS.":::
-
-1. After the **Item Options** box opens and populates with the artifact name and the **Transaction ID** value, select **Next**.
 
    :::image type="content" source="media/la-newproject-import-hostdef10.png" alt-text="Screenshot shows Item Options box to select item type, such as Method, Data Table, Structure, or Union for IMS.":::
 
