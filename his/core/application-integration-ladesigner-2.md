@@ -12,8 +12,6 @@ ms.date: 10/25/2023
 
 To create mainframe and midrange system metadata artifacts for Azure Logic Apps, you can use the Host Integration Server (HIS) Designer for Logic Apps. This tool works with Microsoft Visual Studio and provides a graphical user interface for you to create, view, edit, and map metadata objects to mainframe artifacts. Azure Logic Apps uses these maps to mirror the programs and data in mainframes and midrange systems.
 
-:::image type="content" source="media/la-designer-main-view1.png" alt-text="HIS Designer for Logic Apps":::
-
 ## Why use the HIS Designer?
 
 The mapping capabilities in the HIS Designer tool help Azure Logic Apps workflows access COBOL and RPG programs through the workflow designer. The HIS Designer also reduces the time and effort involved in programming specialized interfaces for mainframe systems by abstracting the complexity managed by a low code platform such as Azure Logic Apps.
