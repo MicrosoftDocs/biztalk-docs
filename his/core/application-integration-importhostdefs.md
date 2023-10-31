@@ -383,4 +383,4 @@ The following steps show how to import a COBOL copybook into the HIS Designer fo
 
 1. To generate the HIDX. file, select **Save All**.
 
-   :::image type="content" source="media/la-newproject-add-saveallhf.png" alt-text="Visual Studio toolbar with Save All selected".:::
+   :::image type="content" source="media/la-newproject-add-saveallhf.png" alt-text="Visual Studio toolbar with Save All selected.":::
