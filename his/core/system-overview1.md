@@ -13,7 +13,7 @@ This topic outlines key points of the [!INCLUDE[hisHostIntServNoVersion](../incl
   
 -   The IP-DLC link service is configured and managed by the Host Integration Server administrator as for any other link service.  
   
--   To provide the support required for transporting dependent LU sessions across an APPN network, the IP-DLC link service runs the DLUR feature as defined by the SNA/APPN DLUR Architecture Reference. This provides dependent LU session support to a CS/390 host running the matching DLUS feature.  
+-   To provide the support required for transporting dependent LU sessions across an APPN network, the IP-DLC link service runs the DLUR feature as defined by the SNA/APPN DLUR Architecture Reference. This provides dependent LU session support to an IBM Mainframe running the matching DLUS feature.  
   
 -   The IP-DLC link service operates as a Branch Network Node (BrNN) as defined in the SNA/APPN Branch Extender Architecture Reference. When large numbers of Host Integration Server systems are connected to a mainframe, the Branch Network Node configuration ensures that the overhead of topology and network search traffic on the Host Integration Server and mainframe links is minimal—comparable to using Host Integration Server without the IP-DLC link service.  
   

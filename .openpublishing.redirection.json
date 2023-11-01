@@ -474,6 +474,11 @@
       "source_path": "technical-reference/index.md",
       "redirect_url": "technical-reference5",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/host-integration-server-2013-folder.md",
+      "redirect_url": "his/core/host-integration-server-2020-folder",
+      "redirect_document_id": false
     }
   ]
 }

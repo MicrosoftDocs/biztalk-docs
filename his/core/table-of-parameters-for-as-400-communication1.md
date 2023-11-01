@@ -20,7 +20,6 @@ The following table summarizes details about configuring [!INCLUDE[hisHostIntSer
 |Connection|Local Node ID|Specify the Local Node ID, a required parameter for all connections. This corresponds to EXCHID on the AS/400.|  
 |Connection|Control Point Name (Remote Node)|Specify the AS/400 Control Point Name (CP name) as the remote Control Point Name for the connection.|  
 |Connection|Network Name (Remote Node)|Corresponds to the RMTNETID on the AS/400. (APPN is often used.)|  
-|Connection|802.2: Remote Network Address<br /><br /> SDLC: Poll Address<br /><br /> X.25: Remote X.25 Address|Corresponds to ADPTADR in the Line Description on the AS/400.<br /><br /> Corresponds to STNADR in the Line Description on the AS/400.<br /><br /> Specify the address of the AS/400.|  
 |Connection|Max BTU Length|Corresponds to the MAXFRAME setting on the AS/400.|  
 |Remote APPC LU|LU Name|Specify the Control Point Name of the AS/400 as the remote LU name.|  
 |Mode|Mode name|Choose the QPCSUPP mode for all LU-LU pairs to be used for AS/400 connectivity.|  

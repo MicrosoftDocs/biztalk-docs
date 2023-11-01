@@ -62,7 +62,7 @@ Use these topics to navigate through the SNA Manager user interface.
   
  [CPI-C Symbolic Name: Security Settings](../core/cpi-c-symbolic-name-security-settings1.md)  
   
- [Host Integration Server 2013 Folder](../core/host-integration-server-2013-folder.md)  
+ [Host Integration Server 2020 Folder](../core/host-integration-server-2020-folder.md)  
   
  [SNA Service Folder](../core/sna-service-folder1.md)  
   
