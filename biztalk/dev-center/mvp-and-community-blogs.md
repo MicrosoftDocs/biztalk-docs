@@ -1,15 +1,12 @@
 ---
 title: Blog list written by integration and Azure MVPs and community
-description: Blogs and website by integration and Azure MVPs, and community members on BizTalk Server, Logic Apps, and more
-ms.date: "08/23/2017"
-ms.prod: "biztalk-server"
-ms.suite: ""
-ms.topic: "article"
+description: Blogs and website by integration and Azure MVPs, and community members on BizTalk Server, Azure Logic Apps, and more.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 10/31/2023
 ---
 
-
 # MVP and community-written blogs
-
 
 ## Martin Abbott
 [LinkedIn](https://www.linkedin.com/in/mjabbott)
@@ -90,8 +87,3 @@ Kent has a strong focus on Microsoft Integration technologies, including Azure L
 [Blog](https://blog.steef-jan-wiggers.com/)  |  [Twitter](https://twitter.com/SteefJan)
 
 Steef-Jan is all in on Azure, integration, and data science, and has over 15 years experience in a wide variety of scenarios. He is very active in the community as a blogger, TechNet Wiki author, book author, and global public speaker. 
-
-## Sjoukje Zaal
-[Blog](https://sjoukjezaal.com/)  |  [Twitter](https://twitter.com/sjoukjezaal)
-
-Sjoukje's blog is all about Azure, and focuses on Azure security, and application integration. Also a co-founder for SP&C NL, a Dutch community website with articles on Azure, Office 365, and SharePoint. 
