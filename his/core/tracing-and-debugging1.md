@@ -60,7 +60,7 @@ The following instructions show how to set up tracing where the trace files will
 
       Add the following basic tracing configuration elements to the section at the end of the configuration section just before the \<\/configuration\> section closing statement:
       ```
-      <hostIntegration.tracing xmlns="http://schemas.microsoft.com/HIS/Tracing/2013">
+      <hostIntegration.tracing xmlns="http://schemas.microsoft.com/HIS/Tracing/2020">
             <traceOptions traceDefinitionFile="C:\Tracing\TI_Trace.hitd"
                           writeTraceFile="true"
                           fileNamePreamble="TI_Tracing"
@@ -106,7 +106,7 @@ The following instructions show how to set up tracing where the trace files will
           <section name="hostIntegration.tracing" type="Microsoft.HostIntegration.ConfigurationSectionHandlers.Tracing.TracingConfigurationSectionHandler, Microsoft.HostIntegration.ConfigurationSectionHandlers, Version=10.0.1000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
         </configSections>
 
-        <hostIntegration.ti.wip xmlns="http://schemas.microsoft.com/his/Config/TiWip/2013">
+        <hostIntegration.ti.wip xmlns="http://schemas.microsoft.com/his/Config/TiWip/2020">
           <readOrder appConfig="first" cache="unused" registry="unused"/>
           <remoteEnvironments>
             <remoteEnvironment isDefault="true" name="ELM Link RE" timeout="5" codePage="37">
@@ -119,7 +119,7 @@ The following instructions show how to set up tracing where the trace files will
           <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6"/>
         </startup>
 
-        <hostIntegration.tracing xmlns="http://schemas.microsoft.com/his/Tracing/2013">
+        <hostIntegration.tracing xmlns="http://schemas.microsoft.com/his/Tracing/2020">
           <traceOptions traceDefinitionFile="C:\Tracing\TI_Trace.hitd"
                         writeTraceFile="true"
                         fileNamePreamble="TI_Tracing"

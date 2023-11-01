@@ -12,7 +12,7 @@ ms.topic: "article"
 Microsoft Host Integration Server TN3270 is graphical user interface to work within a 3270 terminal emulation session, when connected to a remote IBM mainframe computer across a TCP/IP.  
   
 ## Run TN3270 Emulator  
- To run TN3270 Emulator, on the **Start** menu, point to **All Programs**, **Microsoft Host Integration Server 2013**, and then click **TN3270 Emulator**.  
+ To run TN3270 Emulator, on the **Start** menu, point to **All Programs**, **Microsoft Host Integration Server 2020**, and then click **TN3270 Emulator**.  
   
 ## File  
  The **File** menu allows you to open new display session windows, close a session window, save and load display settings.  
@@ -296,13 +296,13 @@ Microsoft Host Integration Server TN3270 is graphical user interface to work wit
 2.  The emulator will load a recorded macro.  
   
 ### File Transfer  
- To transfer files between Windows operating system and host system, you can use the Microsoft Host Integration Server 2013 File Transfer Protocol (FTP) Utility.  
+ To transfer files between Windows operating system and host system, you can use the Microsoft Host Integration Server 2020 File Transfer Protocol (FTP) Utility.  
   
- To launch the HIS 2013 FTP Utility:  
+ To launch the HIS 2020 FTP Utility:  
   
 1.  Click **Tools** menu, and then click **File Transfer**.  
   
-2.  The HIS 2013 FTP Utility dialog will appear.  
+2.  The HIS 2020 FTP Utility dialog will appear.  
   
 ### Tools menu keyboard shortcuts  
   
