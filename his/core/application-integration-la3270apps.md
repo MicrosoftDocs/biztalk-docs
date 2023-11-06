@@ -3,7 +3,7 @@ title: Designing Metadata Artifacts for 3270 Applications
 description: Learn how to design metadata artifacts for 3270 applications with the 3270 Design Tool.
 ms.prod: host-integration-server
 ms.topic: how-to
-ms.date: 10/25/2023
+ms.date: 11/06/2023
 
 #CustomerIntent: As a programmer, I need to create metadata artifacts for 3270 applications.
 ---
@@ -11,6 +11,30 @@ ms.date: 10/25/2023
 # Designing Metadata Artifacts for 3270 Applications 
 
 This guide shows how to design metadata artifacts for 3270 applications and save these artifacts as Host Integration Server Definition XML (HIDX) files and C# classes for Host Integration Server.
+
+In a 3270 screen-driven app, the screens and data fields are unique to your scenarios, so the 3270 connector needs this information about your app, which you can provide as metadata. This metadata describes information that helps your logic app identify and recognize screens, describes how to navigate between screens, where to input data, and where to expect results. To specify and generate this metadata, you use the 3270 Design Tool, which walks you through these specific *modes*, or stages, as described later in more details:
+
+* **Capture**: In this mode, you record the screens required for completing a specific task with your mainframe app, for example, getting a bank balance.
+
+* **Navigation**: In this mode, you specify the plan or path for how to navigate through your mainframe app's screens for the specific task.
+
+* **Methods**: In this mode, you define the method, for example, `GetBalance`, that describes the screen navigation path. You also select the fields on each screen that become the method's input and output parameters.
+
+## Prerequisites
+
+- Access to the TN3270 server that hosts your 3270 screen-driven app
+
+- [Download and install the 3270 Design Tool](https://aka.ms/3270-design-tool-download). The only prerequisite is [Microsoft .NET Framework 4.8](https://aka.ms/net-framework-download).
+
+  This tool helps you record the screens, navigation paths, methods, and parameters for the tasks in your 3270 app that you add and run using the **IBM 3270** connector actions in a Consumption or Standard workflow created with Azure Logic Apps. The tool generates a Host Integration Designer XML (HIDX) file that provides the necessary metadata for the connector to run your 3270 screen-driven app.
+
+  After you download and install this tool, [follow these steps to connect with your TN3270 host server, design the required metadata artifact, and generate the HIDX file](/host-integration-server/core/application-integration-la3270apps).
+
+  The 3270 Design Tool doesn't support the following elements:
+
+  * Partial IBM Basic Mapping Support (BMS) maps: If you import a BMS map, the design tool ignores partial screen definitions.
+
+  * Menu processing
 
 ## Capture screens
 
