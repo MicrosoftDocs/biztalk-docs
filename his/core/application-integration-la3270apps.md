@@ -12,7 +12,7 @@ ms.date: 11/06/2023
 
 This guide shows how to design metadata artifacts for 3270 applications and save these artifacts as Host Integration Server Definition XML (HIDX) files and C# classes for Host Integration Server.
 
-In a 3270 screen-driven app, the screens and data fields are unique to your scenarios, so the 3270 connector needs this information about your app, which you can provide as metadata. This metadata describes information that helps your logic app identify and recognize screens, describes how to navigate between screens, where to input data, and where to expect results. To specify and generate this metadata, you use the 3270 Design Tool, which walks you through these specific *modes*, or stages, as described later in more details:
+In a 3270 screen-driven app, the screens and data fields are unique to your scenarios. If you use Azure Logic Apps to create and run automated workflows that include the **IBM 3270** connector actions, the connector needs information about your app, which you can provide as metadata in an HIDX file. This metadata describes information that helps your workflow identify and recognize screens, describes how to navigate between screens, where to input data, and where to expect results. To specify and generate this metadata, you use the 3270 Design Tool, which walks you through these specific *modes*, or stages, as described later in more details:
 
 * **Capture**: In this mode, you record the screens required for completing a specific task with your mainframe app, for example, getting a bank balance.
 
