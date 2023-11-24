@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Configuring LUs
-When a user configures a 5250 emulator to access an AS/400, the emulator is configured with the local and remote APPC LU alias names. The LU alias names are mapped to LU names that are used for the conversation with the IBM System i.  
+When a user configures a 5250 emulator to access an IBM System i, the emulator is configured with the local and remote APPC LU alias names. The LU alias names are mapped to LU names that are used for the conversation with the IBM System i.  
   
  Host Integration Server allows you to define a default local and remote APPC LU for each user group accessing the IBM System i. Setting default values relieves the user from having to remember APPC LU names; these values should be specified, if possible.  
   

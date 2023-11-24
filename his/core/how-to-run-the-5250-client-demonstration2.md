@@ -17,7 +17,7 @@ The following procedure details running the 5250 demonstration.
   
 2.  On the **Tools** menu, click **5250 Client**.  
   
-3.  On the **Session** menu, click **Connect**, which connects you to the 5250 (AS/400) demonstration script.  
+3.  On the **Session** menu, click **Connect**, which connects you to the 5250 (IBM System i) demonstration script.  
   
 4.  Return to SNA Manager. The status of the DM5250 connection should show **Active**.  
   

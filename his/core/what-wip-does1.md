@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # What WIP Does
-Windows-initiated processing (WIP) enables Windows-based client applications to invoke mainframe based transaction programs (TPs). Transaction Integrator (TI) provides a COM or .NET object interface (an Automation interface), maps data types to convert from the Intel-based architecture to the OS/390-based or OS/400-based architecture, and interacts with the host TPs.  
+Windows-initiated processing (WIP) enables Windows-based client applications to invoke mainframe based transaction programs (TPs). Transaction Integrator (TI) provides a COM or .NET object interface (an Automation interface), maps data types to convert from the Intel-based architecture to the z/OS-based or IBM System i-based architecture, and interacts with the host TPs.  
   
 ## In This Section  
  [How TI Associates a Method with a TP](../core/how-ti-associates-a-method-with-a-tp1.md)  

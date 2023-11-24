@@ -97,7 +97,7 @@ The Data Access Tool enables you to define and test connections to remote IBM DB
   
     `Successfully connected to data source 'DB2DSN1'.`  
   
-    `Server class: DB2/MVS`  
+    `Server class: DB2/z/OS`  
   
     `Server version: 09.01.0005`  
   

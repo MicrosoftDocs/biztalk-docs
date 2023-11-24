@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: AS/400 (APPC) Printing"
+description: "Learn more about: IBM System i (APPC) Printing"
 title: "AS-400 (APPC) Printing"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -8,16 +8,16 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
-# AS/400 (APPC) Printing
-APPC printing, like LU 1 printing, uses SCS control codes in the data stream. The set of SCS control codes available for use in APPC printing is more extensive, and allows more formatting options than the set described for LU 1 printing. The IBM AS/400 also provides an additional method for formatting print jobs called Host Print Transform (HPT). With HPT enabled, the AS/400 takes responsibility for rendering the print job into data the printer can understand.  
+# IBM System i (APPC) Printing
+APPC printing, like LU 1 printing, uses SCS control codes in the data stream. The set of SCS control codes available for use in APPC printing is more extensive, and allows more formatting options than the set described for LU 1 printing. The IBM IBM System i also provides an additional method for formatting print jobs called Host Print Transform (HPT). With HPT enabled, the IBM System i takes responsibility for rendering the print job into data the printer can understand.  
   
- ![Image that shows the APPC connection between AS/400 and Host Integration Server to send print job to local printer.](../core/media/prn04.gif "prn04")  
-APPC connection between AS/400 and Host Integration Server to send print job to local printer  
+ ![Image that shows the APPC connection between IBM System i and Host Integration Server to send print job to local printer.](../core/media/prn04.gif "prn04")  
+APPC connection between IBM System i and Host Integration Server to send print job to local printer  
   
 ## Host Print Transform (HPT)  
- When SCS control codes are used by the host to format the print output, a print emulator is responsible for translating the SCS codes and characters into data that the printer can understand, through the Windows printer driver and Windows Print system. With HPT enabled, the AS/400 converts the data to printer control codes before sending the data to Host Integration Server. This output from the host requires no further processing after it leaves the AS/400. The print emulator's only responsibility is submitting the data to the printer.  
+ When SCS control codes are used by the host to format the print output, a print emulator is responsible for translating the SCS codes and characters into data that the printer can understand, through the Windows printer driver and Windows Print system. With HPT enabled, the IBM System i converts the data to printer control codes before sending the data to Host Integration Server. This output from the host requires no further processing after it leaves the IBM System i. The print emulator's only responsibility is submitting the data to the printer.  
   
- HPT is enabled on the AS/400 in the Device description for the print session. When HPT is enabled, pre-rendered print jobs are sent to the Host Integration Server in marked ASCII Transparent (ATRN) sections using the SCS control code '0x03.' The ATRN control code provides the same function as the Transparent (TRN) control code detailed in the LU 1 printing section. In addition to indicating that the block of data that should be dealt with as transparent, ATRN also indicates that the data is ASCII; therefore it is not converted from EBCDIC to ASCII.  
+ HPT is enabled on the IBM System i in the Device description for the print session. When HPT is enabled, pre-rendered print jobs are sent to the Host Integration Server in marked ASCII Transparent (ATRN) sections using the SCS control code '0x03.' The ATRN control code provides the same function as the Transparent (TRN) control code detailed in the LU 1 printing section. In addition to indicating that the block of data that should be dealt with as transparent, ATRN also indicates that the data is ASCII; therefore it is not converted from EBCDIC to ASCII.  
   
 #### Enable the host transform feature using the default 5224 print device  
   
@@ -38,7 +38,7 @@ APPC connection between AS/400 and Host Integration Server to send print job to 
   
 5. Start the print writer.  
   
-   For more details on the Host Print Transform feature, see the "OS/400 Printer device programming" manual (SC41-3713), or the "AS/400 Printing IV" redbook (GG24-4389). Both are available from IBM.  
+   For more details on the Host Print Transform feature, see the "IBM System i Printer device programming" manual (SC41-3713), or the "IBM System i Printing IV" redbook (GG24-4389). Both are available from IBM.  
   
 ## SCS Codes  
  The SCS control codes are fully documented in the *IBM Host Print Guide* (document number SC31-7145). All of the SCS control codes fall within the range of '0x00'–'0x3F.' These codes range from single-byte codes, such as Subscript '0x38' to multiple-byte codes followed by several parameters, such as Set Horizontal Format '0x2BC1...'  

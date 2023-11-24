@@ -11,7 +11,7 @@ ms.topic: "article"
 # How to Configure the 5250 Client
 The following procedure details configuring the 5250 Client application.  
   
- The 5250 (AS/400) demo will be used for this procedure.  
+ The 5250 (IBM System i) demo will be used for this procedure.  
   
 ### To configure the 5250 client  
   

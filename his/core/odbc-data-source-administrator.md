@@ -77,10 +77,10 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
   
  The Data Provider supports TCP/IP and SNA (Systems Network Architecture) over LU6.2 APPC (Advanced Program to Program Communications) network connections to remote IBM DB2 database servers that are running on IBM mainframe and midrange host computers. The Data Provider supports TCP/IP network connections to remote IBM DB2 database servers that are running on Linux, UNIX, or Windows operating systems.  
   
- You can select either the **APPC Connection** or **TCP/IP Connection** radio buttons, when you connect to DB2 databases that are running on host mainframe DB2/MVS and host midrange i5/OS computers. You must select the **TCP/IP Connection** radio button, when connecting to DB2 databases that are running Linux, UNIX, or Windows operating systems.  
+ You can select either the **APPC Connection** or **TCP/IP Connection** radio buttons, when you connect to DB2 databases that are running on host mainframe DB2/z/OS and host midrange i5/OS computers. You must select the **TCP/IP Connection** radio button, when connecting to DB2 databases that are running Linux, UNIX, or Windows operating systems.  
   
 ### APPC connection  
- If you select **APPC connection**, you must select or enter the name of the APPC local LU alias, APPC remote LU alias, and APPC mode name configured in Host Integration Server operating as an SNA gateway. A common value for DB2/MVS is IBMRDB and DB2/400 is QPCSUPP. Optionally you can specify the APPC conversation security to identify the Data Provider user to the DB2 database server.  
+ If you select **APPC connection**, you must select or enter the name of the APPC local LU alias, APPC remote LU alias, and APPC mode name configured in Host Integration Server operating as an SNA gateway. A common value for DB2/z/OS is IBMRDB and DB2/400 is QPCSUPP. Optionally you can specify the APPC conversation security to identify the Data Provider user to the DB2 database server.  
   
 #### Local LU alias  
  The **Local LU alias** is defined by the Host Integration Server Administrator to identify the HIS computer when connecting to a remote host system via SNA APPC over LU6.2. This **required** attribute accepts a **string** value of up to 8 characters. The default value is an **empty string**.  
@@ -174,11 +174,11 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
 |DB2 for LUW|A 30-byte string|  
   
 ### DBMS platform  
- The DBMS platform instructs the Data Provider on what platform the DB2 database is running, in order to convert data to and from the target platform encodings. This **optional** attribute accepts a **string** value. The default is **DB2/MVS**. The following table lists the DB2 database platform and accepted string values.  
+ The DBMS platform instructs the Data Provider on what platform the DB2 database is running, in order to convert data to and from the target platform encodings. This **optional** attribute accepts a **string** value. The default is **DB2/z/OS**. The following table lists the DB2 database platform and accepted string values.  
   
 |Platform|Value|  
 |--------------|-----------|  
-|DB2 for z/OS|DB2/MVS|  
+|DB2 for z/OS|DB2/z/OS|  
 |DB2 for i5/OS|DB2/400|  
 |DB2 for Windows|DB2/NT|  
 |DB2 for AIX|DB2/6000|  

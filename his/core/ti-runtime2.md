@@ -11,7 +11,7 @@ ms.topic: "article"
 # TI Runtime
 The TI run-time environment is a specialized run-time environment started by Windows or a requesting IBM application program when the application contains a TI component. For each TI component you create, the TI run-time environment provides the Automation server interface and communicates with the mainframe programs. The TI run-time environment does not have a visible user interface.  
   
- As a generic proxy for the mainframe or AS/400 computer, the TI run-time environment intercepts object method calls and redirects those calls to the appropriate mainframe program. It also handles the return of all output parameters and return values from the mainframe. When TI intercepts the method call, it converts and formats the method's parameters from the representation understandable by the Windows Server platform into the representation understandable by host transaction programs (TPs).  
+ As a generic proxy for the mainframe or IBM System i computer, the TI run-time environment intercepts object method calls and redirects those calls to the appropriate mainframe program. It also handles the return of all output parameters and return values from the mainframe. When TI intercepts the method call, it converts and formats the method's parameters from the representation understandable by the Windows Server platform into the representation understandable by host transaction programs (TPs).  
   
  The TI object that exposes the functionality of a mainframe TP as an interface method. It can expose all of the TP's functionality. A client application calls the TI object to invoke the mainframe TP, pass parameters, and return results.  
   

@@ -15,19 +15,19 @@ The following list describes the information displayed in the status line of the
   
  **Status Indicators** These indicators are only true when red.  
   
- **SA (System Available)** The AS/400 is operating and is available to the computer.  
+ **SA (System Available)** The IBM System i is operating and is available to the computer.  
   
- **MW (Message Waiting)** The AS/400 has one or more messages for you.  
+ **MW (Message Waiting)** The IBM System i has one or more messages for you.  
   
  **KS (Keyboard Shift)** The keyboard is in shifted mode.  
   
  **IM (Insert Mode)** Characters inserted into an existing field will not type over the existing data.  
   
- **II (Input Inhibited)** Keyboard input is not being accepted by the AS/400. Try pressing the ERROR RESET key. If it is still highlighted, the system is processing your request.  
+ **II (Input Inhibited)** Keyboard input is not being accepted by the IBM System i. Try pressing the ERROR RESET key. If it is still highlighted, the system is processing your request.  
   
- **KB (Keystroke Buffering)** Keystrokes are being saved in a temporary buffer (storage space), because keyboard input is not being accepted by the AS/400 (as indicated by the II indicator). After the II indicator goes off, the keystrokes will be processed. To clear the keystroke buffering, press the ERROR RESET key.  
+ **KB (Keystroke Buffering)** Keystrokes are being saved in a temporary buffer (storage space), because keyboard input is not being accepted by the IBM System i (as indicated by the II indicator). After the II indicator goes off, the keystrokes will be processed. To clear the keystroke buffering, press the ERROR RESET key.  
   
- **System and Device Indicators** These indicators appear only when the Client is connected to the AS/400.  
+ **System and Device Indicators** These indicators appear only when the Client is connected to the IBM System i.  
   
 ## See Also  
  [5250 Client](../core/5250-client1.md)

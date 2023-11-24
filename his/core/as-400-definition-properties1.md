@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: AS/400 Definition Properties"
+description: "Learn more about: IBM System i Definition Properties"
 title: "AS-400 Definition Properties1"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -10,12 +10,12 @@ ms.topic: "article"
 f1_keywords: 
   - "SNA_AS400TN"
 ---
-# AS/400 Definition Properties
-The following tabs are available on the AS/400 Definition Properties:  
+# IBM System i Definition Properties
+The following tabs are available on the IBM System i Definition Properties:  
   
-## AS/400 Definition Properties: General  
- **AS/400 Remote LU Alias**  
- Click the drop-down list box arrow and select an **AS/400 Remote LU Alias**, which contains addressing information for the AS/400.  
+## IBM System i Definition Properties: General  
+ **IBM System i Remote LU Alias**  
+ Click the drop-down list box arrow and select an **IBM System i Remote LU Alias**, which contains addressing information for the IBM System i.  
   
  **Local LU Alias**  
  Click the drop-down list box arrow and select a **Local LU Alias**. The **Local LU Alias** maps to the LU the client computer will use.  
@@ -26,11 +26,11 @@ The following tabs are available on the AS/400 Definition Properties:
  **System 36, AS/36**  
  Select if connection to a System 36 or AS/36 computer system.  
   
- **AS/400 User Name**  
- Enter your **AS/400 User Name**, which is required information.  
+ **IBM System i User Name**  
+ Enter your **IBM System i User Name**, which is required information.  
   
- **AS/400 Password**  
- Enter your **AS/400 Password**, which is required information.  
+ **IBM System i Password**  
+ Enter your **IBM System i Password**, which is required information.  
   
  **Confirm Password**  
  Enter your password again to confirm.  
@@ -38,7 +38,7 @@ The following tabs are available on the AS/400 Definition Properties:
  **Comment**  
  Optionally, enter a comment of not more than 25 characters long.  
   
-## AS/400 Definition Properties: Terminal Types  
+## IBM System i Definition Properties: Terminal Types  
  **Terminal Names**  
  Terminal names are displayed. You can remove selection of individual terminal names that do not apply to your network configuration by clearing the checkbox opposite the name  
   
@@ -56,7 +56,7 @@ The following tabs are available on the AS/400 Definition Properties:
 > [!NOTE]
 >  Configuration changes are apparent only to users who establish a connection after the configuration changes are saved. Users who were connected at the time the configuration changes were made will not be affected.  
   
-## AS/400 Definition Properties: IP Address List  
+## IBM System i Definition Properties: IP Address List  
  You can associate this LUA to a specific IP address or server name.  
   
  **Add Address**  

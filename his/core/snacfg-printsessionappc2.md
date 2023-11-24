@@ -140,7 +140,7 @@ ms.topic: "article"
  Specifies the font face used for output.  
   
  **/as400devicename:**" *text*"  
- Specifies the name of the AS/400 computer that will be sending the print job.  
+ Specifies the name of the IBM System i computer that will be sending the print job.  
   
  **/locallualias:**" *text*"  
  Specifies the previously configured local LU alias. This is a required parameter when using **/add**.  

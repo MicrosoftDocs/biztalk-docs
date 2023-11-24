@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Converting Data Types from Automation to OS/390 COBOL]"
+description: "Learn more about: Converting Data Types from Automation to z/OS COBOL]"
 title: "Converting Data Types from Automation to OS-390 COBOL]2"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -8,7 +8,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
-# Converting Data Types from Automation to OS/390 COBOL]
+# Converting Data Types from Automation to z/OS COBOL]
 Use the tables in this topic as a guide to specify how you want TI to handle conversions from Automation data types to COBOL data types. For more information about the specific data types, see [Supported TI Data Types](../core/supported-ti-data-types2.md).  
   
  Use the following code key to interpret the codes in the **Possible Conversion Errors** and **Required Property Settings** columns in each table.  
@@ -34,7 +34,7 @@ Use the tables in this topic as a guide to specify how you want TI to handle con
   
 ### Default  
   
-|From Automation data type|To OS/390 COBOL data type|Possible conversion errors|Required property settings|  
+|From Automation data type|To z/OS COBOL data type|Possible conversion errors|Required property settings|  
 |-------------------------------|--------------------------------|--------------------------------|--------------------------------|  
 |1-byte unsigned Integer|PIC X No Translation|None|None|  
 |2-byte signed Integer|PIC S9(4) COMP (Integer 16-bit)|None|None|  
@@ -57,7 +57,7 @@ Use the tables in this topic as a guide to specify how you want TI to handle con
   
 ### Supported in Transaction Integrator  
   
-|From Automation data type|To OS/390 COBOL data type|Possible conversion errors|Required property settings|  
+|From Automation data type|To z/OS COBOL data type|Possible conversion errors|Required property settings|  
 |-------------------------------|--------------------------------|--------------------------------|--------------------------------|  
 |1-byte unsigned Integer|PIC S9(4) COMP (Integer 16-bit)|None|None|  
 |1-byte unsigned Integer|COMP-3 Packed Decimal|None|C|  
@@ -91,7 +91,7 @@ Use the tables in this topic as a guide to specify how you want TI to handle con
   
 ### Supported only by the TI run-time environment  
   
-|From Automation data type|To OS/390 COBOL data type|Possible conversion errors|Required property settings|  
+|From Automation data type|To z/OS COBOL data type|Possible conversion errors|Required property settings|  
 |-------------------------------|--------------------------------|--------------------------------|--------------------------------|  
 |1-byte unsigned Integer|PIC S9(9) COMP (Integer 32-bit)|None|None|  
 |1-byte unsigned Integer|DISPLAY Zoned Decimal|None|C|  
@@ -104,5 +104,5 @@ Use the tables in this topic as a guide to specify how you want TI to handle con
   
 ## See Also  
  [Supported TI Data Types](../core/supported-ti-data-types2.md)   
- [Converting Data Types from OS/390 COBOL to Automation](../core/converting-data-types-from-os-390-cobol-to-automation2.md)   
+ [Converting Data Types from z/OS COBOL to Automation](../core/converting-data-types-from-os-390-cobol-to-automation2.md)   
  [Data Type Conversion](../core/data-type-conversion1.md)

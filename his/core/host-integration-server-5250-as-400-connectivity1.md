@@ -21,5 +21,5 @@ In an APPN network, Host Integration Server computers emulate PU 2.1 devices and
 ## See also
 
 - [APPC](../core/appc1.md)
-- [AS/400 5250 Terminal Connections](../core/as-400-5250-terminal-connections1.md)
+- [IBM System i 5250 Terminal Connections](../core/as-400-5250-terminal-connections1.md)
 - [Understanding Connectivity](../core/understanding-connectivity1.md)

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: AS/400 5250 Terminal Connections"
+description: "Learn more about: IBM System i 5250 Terminal Connections"
 title: "AS-400 5250 Terminal Connections1"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -8,14 +8,14 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
-# AS/400 5250 Terminal Connections
-Host Integration Server computers provide access to AS/400 computers by emulating 5250 display terminals. A 5250 user communicating with an AS/400 must use a pair of APPC LUs (LU 6.2). This pair contains a local LU and a remote LU (as viewed by the Host Integration Server computer). Together, these two LUs (along with the mode that they use) contain the configuration information needed for establishing a session with the AS/400 computer.  
+# IBM System i 5250 Terminal Connections
+Host Integration Server computers provide access to IBM System i computers by emulating 5250 display terminals. A 5250 user communicating with an IBM System i must use a pair of APPC LUs (LU 6.2). This pair contains a local LU and a remote LU (as viewed by the Host Integration Server computer). Together, these two LUs (along with the mode that they use) contain the configuration information needed for establishing a session with the IBM System i computer.  
   
  A local APPC LU can be either independent or dependent. An independent local APPC LU can communicate directly with a peer system. A dependent APPC LU requires the support of a mainframe. These are described in more detail in later sections.  
   
  The 5250 user can share this pair of LUs with many other users at the same time, or the 5250 user can have exclusive possession of the LUs (depending on the Host Integration Server configuration). In addition, Host Integration Server computers can be configured so that users can start 5250 emulation sessions without knowing the names of LUs to request. This configuration is accomplished with the use of default LUs that are specified for each 5250 user or for groups of users.  
   
- You can configure 5250 terminal emulation using the wizard provided with Host Integration Server. Available under the **Tools** menu, the wizard takes you through each step of configuring AS/400 connection properties, creating remote APPC LUs linked to your AS/400 computer, and, if necessary, creating local APPC LUs.  
+ You can configure 5250 terminal emulation using the wizard provided with Host Integration Server. Available under the **Tools** menu, the wizard takes you through each step of configuring IBM System i connection properties, creating remote APPC LUs linked to your IBM System i computer, and, if necessary, creating local APPC LUs.  
   
  In addition to wizards, several features of Host Integration Server can simplify configuration for APPC:  
   
@@ -28,5 +28,5 @@ Host Integration Server computers provide access to AS/400 computers by emulatin
 -   [Single-System APPC](../core/single-system-appc2.md), which allows two local APPC LUs residing on the same server to communicate with each other using defined parameters.  
   
 ## See Also  
- [Host Integration Server 5250 (AS/400) Connectivity](../core/host-integration-server-5250-as-400-connectivity1.md)   
+ [Host Integration Server 5250 (IBM System i) Connectivity](../core/host-integration-server-5250-as-400-connectivity1.md)   
  [APPC](../core/appc1.md)
