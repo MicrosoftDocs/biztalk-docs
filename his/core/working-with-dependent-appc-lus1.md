@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Working with Dependent APPC LUs
-A dependent local APPC LU requires the support of a mainframe in order to communicate with a remote TP. Dependent APPC LUs cannot be used to communicate with IBM System is. Unlike independent APPC LUs, dependent APPC LUs only allow a single session per LU.  
+To communicate with a remote TP, a dependent local APPC LU requires the support of a mainframe. You can't use dependent APPC LUs to communicate with IBM System i computers. Unlike independent APPC LUs, dependent APPC LUs only allow a single session per LU.  
   
  Dependent APPC LUs are helpful when configuring Host Integration Server to communicate with a mainframe using a version of VTAM earlier than V3R2. Independent LUs are not supported in earlier VTAM versions. Support for dependent APPC LUs is provided with Host Integration Server for compatibility with older VTAM versions. If possible, use independent LUs.  
   
