@@ -3,7 +3,7 @@ title: APPC printing for IBM System i
 description: Learn more about APPC printing for IBM System i.
 ms.prod: host-integration-server
 ms.topic: how-to
-ms.date: "11/30/2017"
+ms.date: 11/28/2023
 ---
 
 # APPC printing for IBM System i
