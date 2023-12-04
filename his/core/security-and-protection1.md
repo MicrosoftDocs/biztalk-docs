@@ -37,7 +37,7 @@ The information contained in the following sections details securing your [!INCL
   
 - Locate the upstream router within the data center using either secure Token Ring or Ethernet connections to the host.  
   
-- When connecting an SNA LU6.2 network to a mainframe or AS/400, with the Host Integration Server computer deployed as the SNA gateway to a downstream Host Integration Server computer, use Host Integration Server server-to-server data encryption.  
+- When connecting an SNA LU6.2 network to a mainframe or IBM System i, with the Host Integration Server computer deployed as the SNA gateway to a downstream Host Integration Server computer, use Host Integration Server server-to-server data encryption.  
   
 - For SNA LU6.2 network connections to mainframe, use the IP-DLC Link Service in conjunction with IPsec.  
   

@@ -13,8 +13,8 @@ The IMS LU6.2 programming model provides access to IMS transactions using LU6.2.
   
  The following figure summarizes the workflow occurring between the client, the default IMS Listener, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
- ![Image that shows the Transaction Integrator sending and receiving LU 6.2 from MVS/APPC, which then sends and receives from the IMS message queue.](../core/media/his-ti15.gif "his_ti15")  
-Transaction Integrator sending and receiving LU 6.2 from MVS/APPC, which then sends and receives from the IMS message queue  
+ ![Image that shows the Transaction Integrator sending and receiving LU 6.2 from z/OS/APPC, which then sends and receives from the IMS message queue.](../core/media/his-ti15.gif "his_ti15")  
+Transaction Integrator sending and receiving LU 6.2 from z/OS/APPC, which then sends and receives from the IMS message queue  
   
  **Summary workflow diagram for the IMS LU6.2 User Data programming model**  
   
@@ -36,15 +36,15 @@ Transaction Integrator sending and receiving LU 6.2 from MVS/APPC, which then se
   
    3.  Passes the message to the SNA transport component.  
   
-4. The TI Automation proxy sends the transaction execution request (TER) and the user data to MVS APPC through the IBM-supplied multiple virtual storage/advanced program-to-program communications (APPC/MVS) application.  
+4. The TI Automation proxy sends the transaction execution request (TER) and the user data to z/OS APPC through the IBM-supplied multiple virtual storage/advanced program-to-program communications (APPC/z/OS) application.  
   
-5. APPC/MVS application instructs IMS to place the transaction execution request and user data on the IMS message queue.  
+5. APPC/z/OS application instructs IMS to place the transaction execution request and user data on the IMS message queue.  
   
 6. IMS schedules the server TP into a message processing region (MPR).  
   
 7. After execution begins, the TP issues a DL/I Get Unique (GU) command to get the input parameters that were sent by the TI runtime. If there is an input unbounded record set, the TP also makes one or more Get Next (GN) calls to get each row of the record set that was sent.  
   
-8. After the TP processes the inputs and makes any database calls, it makes one or more Insert (ISRT) calls to place the output parameters and possibly an output or return-value unbounded recordset into the IMS message queue to be packaged and returned to the TI runtime through the APPC/MVS application.  
+8. After the TP processes the inputs and makes any database calls, it makes one or more Insert (ISRT) calls to place the output parameters and possibly an output or return-value unbounded recordset into the IMS message queue to be packaged and returned to the TI runtime through the APPC/z/OS application.  
   
 9. The TI Automation proxy receives the reply data and processes the reply. The TI proxy:  
   
@@ -62,8 +62,8 @@ Transaction Integrator sending and receiving LU 6.2 from MVS/APPC, which then se
   
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)    
- [Converting Data Types from Automation to OS/390 COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
- [Converting Data Types from OS/390 COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
+ [Converting Data Types from Automation to z/OS COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
+ [Converting Data Types from z/OS COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
  [IMS Components](../core/ims-components2.md)   
  [TI Runtime](../core/ti-runtime2.md)   
  [Choosing the Appropriate Programming Model](../core/choosing-the-appropriate-programming-model1.md)   

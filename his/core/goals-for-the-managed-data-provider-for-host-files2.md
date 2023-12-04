@@ -15,7 +15,7 @@ The primary purpose of the Managed Data Provider for Host Files is to enable dev
   
 -   Granting developers access to the file system commands of mid-range and mainframe systems. By exposing the file system commands, a developer can perform such activities as setting record attributes, locking files and records, navigating between records, and modifying file contents. Such activities are exposed primarily through the Managed Provider for Host Files interface.  
   
--   Granting access to the file commands of the most popular mid-range and mainframe file server systems. In doing so, developers familiar with AS/400 input and output commands can use their knowledge to access mid-range file systems. This differs from the Managed Provider for DB2, which allows developers familiar with SQL to use that knowledge to access DB2/400 tables.  
+-   Granting access to the file commands of the most popular mid-range and mainframe file server systems. In doing so, developers familiar with IBM System i input and output commands can use their knowledge to access mid-range file systems. This differs from the Managed Provider for DB2, which allows developers familiar with SQL to use that knowledge to access DB2/400 tables.  
   
 -   Improving the bulk transfer rate between systems.  
   

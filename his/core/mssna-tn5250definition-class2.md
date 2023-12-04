@@ -61,12 +61,12 @@ class MsSna_TN5250Definition : MsSna_Config
  **User**  
  Data Type: **String** Qualifiers: <strong>MAXLEN(10)</strong>Access Type: Read/Write  
   
- The AS/400 user name used in the session.  
+ The IBM System i user name used in the session.  
   
  **Password**  
  Data Type: **String** Qualifiers: <strong>MAXLEN(10)</strong>Access Type: Read/Write  
   
- The AS/400 password used in the session.  
+ The IBM System i password used in the session.  
   
  **Mode**  
  Data Type: **String** Access Type: Read/Write  

@@ -39,7 +39,7 @@ Process by which the client passes input data to the ITOC listener and the HWSIM
   
 4. The TI runtime sends an initial request message (IRM) to the IMS Connect, either HWSIMSO0 or HWSIMSO1, using the Internet Protocol (IP) address of the mainframe computer and the port address of the IMS Connect as stored in the TCP/IP profile data set (hlq.PROFILE.TCPIP) supplied by IBM.  
   
-    HWSIMSO0 and HWSIMSO1 are IBM-supplied host web server (HWS) exit routines that define the request and reply protocols between the TI Automation server (a TI .NET Framework application) and ITOC. The HWS runs in an MVS address space that is separate from the IMS regions and performs the listener services for the IMS connection.  
+    HWSIMSO0 and HWSIMSO1 are IBM-supplied host web server (HWS) exit routines that define the request and reply protocols between the TI Automation server (a TI .NET Framework application) and ITOC. The HWS runs in an z/OS address space that is separate from the IMS regions and performs the listener services for the IMS connection.  
   
 5. The IMS Connect exit routine takes control of the IMS application (referred to as the IMS TCP/IP Open Transaction Management Architecture (OTMA) Connection (ITOC)).  
   
@@ -113,14 +113,14 @@ Process by which the client passes input data to the ITOC listener and the HWSIM
   
 18. The TI runtime sends the converted data back to the .NET Framework application that invoked the method.  
   
-    For information about configuring the mainframe and writing server applications for TCP/IP, see TCP/IP V3R2 for MVS: IMS TCP/IP Application Developers Guide (IBM Document #SC31-7186) and IMS Connect Guide and Reference V1R2 (IBM Document #SC27-0946).  
+    For information about configuring the mainframe and writing server applications for TCP/IP, see TCP/IP V3R2 for z/OS: IMS TCP/IP Application Developers Guide (IBM Document #SC31-7186) and IMS Connect Guide and Reference V1R2 (IBM Document #SC27-0946).  
   
     [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] includes sample code showing how to implement the IMS Connect programming model. The sample code is located at **\\**<em>installation directory</em>**\SDK\Samples\AppInt**. Start Visual Studio, open the tutorial you want to use, and follow the instructions in the **Readme**.  
   
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)   
- [Converting Data Types from Automation to OS/390 COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
- [Converting Data Types from OS/390 COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
+ [Converting Data Types from Automation to z/OS COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
+ [Converting Data Types from z/OS COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
  [IMS Components](../core/ims-components2.md)   
  [TI Runtime](../core/ti-runtime2.md)   
  [Choosing the Appropriate Programming Model](../core/choosing-the-appropriate-programming-model1.md)   

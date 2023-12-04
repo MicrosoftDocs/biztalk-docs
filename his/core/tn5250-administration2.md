@@ -11,7 +11,7 @@ ms.topic: "article"
 # TN5250 Administration
 The local LU, remote LU, and mode must match the configuration information in [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
   
- To enable an APPC session with the AS/400, the user ID and password must be provided for conversation security. Contact your AS/400 administrator for the correct information.  
+ To enable an APPC session with the IBM System i, the user ID and password must be provided for conversation security. Contact your IBM System i administrator for the correct information.  
   
  The TN5250 requires TN5250/AS400 definition terminal names to allow TN5250 service to accept client requests from client computers emulating those types of terminals.  
   
@@ -21,41 +21,41 @@ The local LU, remote LU, and mode must match the configuration information in [!
   
 2.  Install and configure a link service, if this has not been done.  
   
-3.  Insert a connection to an AS/400 that the TN5250 clients will access. Configure the connection with Remote End as Peer System.  
+3.  Insert a connection to an IBM System i that the TN5250 clients will access. Configure the connection with Remote End as Peer System.  
   
-4.  Configure a local LU and a remote LU for access to an AS/400, making sure the mode for the remote LU is QPCSUPP.  
+4.  Configure a local LU and a remote LU for access to an IBM System i, making sure the mode for the remote LU is QPCSUPP.  
   
 5.  On the **File** menu, click **Save Configuration** to put the changes into effect.  
   
 ### To add and configure LUs for TN5250 service  
   
-1. Before LUs can be added to the TN5250 service, you must first install a link service, add a connection to an AS/400 on this link service, and create local and remote LUs for accessing this AS/400.  
+1. Before LUs can be added to the TN5250 service, you must first install a link service, add a connection to an IBM System i on this link service, and create local and remote LUs for accessing this IBM System i.  
   
-2. Right-click **TN5250**, point to **New**, and then click **TN5250 AS/400 Definition**.  
+2. Right-click **TN5250**, point to **New**, and then click **TN5250 IBM System i Definition**.  
   
-3. Configure the properties of this TN5250 AS/400 definition.  
+3. Configure the properties of this TN5250 IBM System i definition.  
   
     If you do not specify an IP address for an LU, the default value will allow any TN5250 client computer access to this LU.  
   
     Click **Help** for information on the property options.  
   
-4. Click **OK** to close the **AS/400 Definition Properties** dialog box.  
+4. Click **OK** to close the **IBM System i Definition Properties** dialog box.  
   
 5. On the **Action** menu, click **Save Configuration** to put the changes into effect.  
   
    Configuration changes are apparent only to users who establish a connection after the configuration changes are saved. Users who were connected at the time that the configuration changes were made will not be affected.  
   
-   You can modify, delete, or add IP addresses and subnet masks to AS/400 definitions. If you want to change the configuration of multiple AS/400 definitions, you can only change properties such as display types, the IP address, and subnet mask that the AS/400 definitions have in common. You cannot change properties such as the local or remote LUs, because these values are unique for each AS/400 definition.  
+   You can modify, delete, or add IP addresses and subnet masks to IBM System i definitions. If you want to change the configuration of multiple IBM System i definitions, you can only change properties such as display types, the IP address, and subnet mask that the IBM System i definitions have in common. You cannot change properties such as the local or remote LUs, because these values are unique for each IBM System i definition.  
   
-   You can add new IP addresses and subnet masks to a range of AS/400 definitions. If the new IP address or subnet mask already exists on some of the AS/400 definitions, but not on others, the addition will occur without duplication in the ones that already have the IP address or subnet mask. You can also modify or delete the IP addresses that the AS/400 definitions have in common and that appear on the IP address list.  
+   You can add new IP addresses and subnet masks to a range of IBM System i definitions. If the new IP address or subnet mask already exists on some of the IBM System i definitions, but not on others, the addition will occur without duplication in the ones that already have the IP address or subnet mask. You can also modify or delete the IP addresses that the IBM System i definitions have in common and that appear on the IP address list.  
   
-#### To edit an AS/400 definition for TN5250 service  
+#### To edit an IBM System i definition for TN5250 service  
   
-1.  In the SNA Manager console tree, select the TN5250 service AS/400 definition that you want to view or modify, right-click, and then click **Properties**.  
+1.  In the SNA Manager console tree, select the TN5250 service IBM System i definition that you want to view or modify, right-click, and then click **Properties**.  
   
-#### To delete AS/400 definitions from TN5250 service  
+#### To delete IBM System i definitions from TN5250 service  
   
-1.  In the SNA Manager console tree, select the icon for the AS/400 definition that you want to delete.  
+1.  In the SNA Manager console tree, select the icon for the IBM System i definition that you want to delete.  
   
 2.  Click **Delete**.  
   

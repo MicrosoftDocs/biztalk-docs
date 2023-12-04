@@ -18,7 +18,7 @@ In SNA terms, a physical unit (PU) is the combination of a physical connection a
 
 [Mainframe Connection Summary](../core/mainframe-connection-summary1.md)  
   
-[AS/400 Connection Summary](../core/as-400-connection-summary1.md)  
+[IBM System i Connection Summary](../core/as-400-connection-summary1.md)  
   
 ## See also
 
