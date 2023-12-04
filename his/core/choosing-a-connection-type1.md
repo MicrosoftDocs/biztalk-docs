@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Choosing a Connection Type
-A [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer can use any of the types of connections described in this section. To choose a connection type for your servers, you should first contact the host administrator and find out the type of connection available to the mainframe or AS/400. If more than one type is available, choose a type based on comparisons of cost and speed.  
+A [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer can use any of the types of connections described in this section. To choose a connection type for your servers, you should first contact the host administrator and find out the type of connection available to the mainframe or IBM System i. If more than one type is available, choose a type based on comparisons of cost and speed.  
   
  For demonstration purposes, you can install the [Demo SDLC link service](../core/demo-sdlc-link-service-linkcfg-1.md), which receives messages from Host Integration Server and responds to them itself from a prerecorded script.  
   
@@ -19,7 +19,7 @@ A [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]
   
 - 802.2 Data Link Control (DLC 802.2)  
   
-   Token ring, Ethernet, or Fiber Distributed Data Interface (FDDI) connections use the IEEE 802.2 protocol. With a mainframe, an 802.2 connection goes to a 37*xx* front-end processor (FEP) or a 3174 communications controller (or, rarely, to an adapter in the mainframe). With an AS/400 system, an 802.2 connection goes directly to the AS/400.  
+   Token ring, Ethernet, or Fiber Distributed Data Interface (FDDI) connections use the IEEE 802.2 protocol. With a mainframe, an 802.2 connection goes to a 37*xx* front-end processor (FEP) or a 3174 communications controller (or, rarely, to an adapter in the mainframe). With an IBM System i system, an 802.2 connection goes directly to the IBM System i.  
   
    These connections are generally faster than other connections, except for channel connections. The following table provides details.  
   
@@ -35,7 +35,7 @@ A [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]
   
   - Configure multiple 802.2 link services, all bound to the same LAN adapter but specifying different source SAPs.  
   
-  - Support multiple connections to a given host through the same 802.2 link service. Verify that the host is configured to accept 802.2 connections on multiple SAPs. This can be configured to mainframe FEPs (but is rarely used). AS/400s support multiple SAPs by default. These SAP values are configured as the remote SAP value on the Host Integration Server connection, which is configured on the Host Integration Server computer using the distributed link service.  
+  - Support multiple connections to a given host through the same 802.2 link service. Verify that the host is configured to accept 802.2 connections on multiple SAPs. This can be configured to mainframe FEPs (but is rarely used). IBM System is support multiple SAPs by default. These SAP values are configured as the remote SAP value on the Host Integration Server connection, which is configured on the Host Integration Server computer using the distributed link service.  
   
     This limitation applies to connections based on the 802.2 link service in general.  
   
@@ -43,7 +43,7 @@ A [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]
   
 - Synchronous Data Link Control (SDLC)  
   
-   SDLC uses a standard phone line, which can be leased or switched and can be point-to-point or multi-drop. An SDLC line is used with a modem or other type of data circuit -terminating equipment (DCE) at each end. With a mainframe, an SDLC line travels through a modem or other DCE to a 37*xx* front-end processor (FEP), 3174 communications controller, or integrated synchronous adapter. With an AS/400 system, an SDLC line goes through a modem or other DCE, and then directly to the AS/400.  
+   SDLC uses a standard phone line, which can be leased or switched and can be point-to-point or multi-drop. An SDLC line is used with a modem or other type of data circuit -terminating equipment (DCE) at each end. With a mainframe, an SDLC line travels through a modem or other DCE to a 37*xx* front-end processor (FEP), 3174 communications controller, or integrated synchronous adapter. With an IBM System i system, an SDLC line goes through a modem or other DCE, and then directly to the IBM System i.  
   
    An SDLC connection is slower than an 802.2 or channel connection. Common speeds for SDLC connections are listed in the following table.  
   
@@ -83,7 +83,7 @@ A [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]
   
   - Because the branch-based servers rely on WAN services provided by the leading networking vendors, the distributed link service will work over all existing and future WAN technologies, including leased lines, X.25, frame relay, and ATM networks.  
   
-  - Unlike other native TCP/IP solutions such as TN3270, the distributed link service is not limited in SNA functionality. Each branch-based Host Integration Server computer provides full SNA access for the local personal computers, including PU 2.0, PU 2.1, and APPN LEN service, as well as LU 0, LU 1, LU 2, LU 3, and LU 6.2 support. Both mainframe and AS/400 access are supported.  
+  - Unlike other native TCP/IP solutions such as TN3270, the distributed link service is not limited in SNA functionality. Each branch-based Host Integration Server computer provides full SNA access for the local personal computers, including PU 2.0, PU 2.1, and APPN LEN service, as well as LU 0, LU 1, LU 2, LU 3, and LU 6.2 support. Both mainframe and IBM System i access are supported.  
   
     By default, when you make a link service available to distributed link service on other servers, it will permit a connection from distributed link service running on any remote server that is configured to connect to it. This is similar to the level of access control permitted by traditional pass-through gateways. Any downstream device that is configured for the correct MAC address can use the gateway.  
   

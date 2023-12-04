@@ -64,7 +64,7 @@ GO
   
 SELECT * FROM OPENROWSET (  
 'DB2OLEDB',  
-'Provider=DB2OLEDB;User ID=HISDEMO;Password=HISDEMO;Initial Catalog=DSN1D037;Network Transport Library=TCPIP;Host CCSID=37;PC Code Page=1252;Network Address=SYS1;Network Port=446;Package Collection=MSPKG;Default Schema=NWIND;Units of Work=RUW;Default Qualifier=NWIND;DBMS Platform=DB2/MVS;Use Early Metadata=False;Defer Prepare=False;DateTime As Char=False;Rowset Cache Size=0;Datetime As Date=False;AutoCommit=True;Authentication=Server;Persist Security Info=True;Cache Authentication=False;Connection Pooling=False;Derive Parameters=False;',   
+'Provider=DB2OLEDB;User ID=HISDEMO;Password=HISDEMO;Initial Catalog=DSN1D037;Network Transport Library=TCPIP;Host CCSID=37;PC Code Page=1252;Network Address=SYS1;Network Port=446;Package Collection=MSPKG;Default Schema=NWIND;Units of Work=RUW;Default Qualifier=NWIND;DBMS Platform=DB2/z/OS;Use Early Metadata=False;Defer Prepare=False;DateTime As Char=False;Rowset Cache Size=0;Datetime As Date=False;AutoCommit=True;Authentication=Server;Persist Security Info=True;Cache Authentication=False;Connection Pooling=False;Derive Parameters=False;',   
   
 'SELECT * FROM NWIND.AREAS'  
   
@@ -77,7 +77,7 @@ GO
 SELECT *  
 FROM OPENDATASOURCE(  
      'DB2OLEDB',  
-     'Provider=DB2OLEDB;User ID=PLARSEN;Password=PLARSEN;Initial Catalog=DSN1D037;Network Transport Library=TCP;Host CCSID=37;PC Code Page=1252;Network Address=sys1;Network Port=446;Package Collection=MSPKG;Default Schema=NWIND;Units of Work=RUW;Default Qualifier=NWIND;DBMS Platform=DB2/MVS;Defer Prepare=False;Persist Security Info=True;Connection Pooling=False;Derive Parameters=False'  
+     'Provider=DB2OLEDB;User ID=PLARSEN;Password=PLARSEN;Initial Catalog=DSN1D037;Network Transport Library=TCP;Host CCSID=37;PC Code Page=1252;Network Address=sys1;Network Port=446;Package Collection=MSPKG;Default Schema=NWIND;Units of Work=RUW;Default Qualifier=NWIND;DBMS Platform=DB2/z/OS;Defer Prepare=False;Persist Security Info=True;Connection Pooling=False;Derive Parameters=False'  
      ).[DSN1D037].[NWIND].[AREAS]  
   
 ```  
@@ -112,7 +112,7 @@ EXEC sp_addlinkedserver
   
 @catalog = 'DSN1',   
   
-@provstr = ‘Provider=DB2OLEDB;User ID=HISDEMO;Password=HISDEMO;Initial Catalog=DSN1D037;Network Transport Library=TCPIP;Host CCSID=37;PC Code Page=1252;Network Address=SYS1;Network Port=446;Package Collection=MSPKG;Default Schema=NWIND;Units of Work=RUW;Default Qualifier=NWIND;DBMS Platform=DB2/MVS;Use Early Metadata=False;Defer Prepare=False;DateTime As Char=False;Rowset Cache Size=0;Datetime As Date=False;AutoCommit=True;Authentication=Server;Persist Security Info=True;Cache Authentication=False;Connection Pooling=False;Derive Parameters=False;';   
+@provstr = ‘Provider=DB2OLEDB;User ID=HISDEMO;Password=HISDEMO;Initial Catalog=DSN1D037;Network Transport Library=TCPIP;Host CCSID=37;PC Code Page=1252;Network Address=SYS1;Network Port=446;Package Collection=MSPKG;Default Schema=NWIND;Units of Work=RUW;Default Qualifier=NWIND;DBMS Platform=DB2/z/OS;Use Early Metadata=False;Defer Prepare=False;DateTime As Char=False;Rowset Cache Size=0;Datetime As Date=False;AutoCommit=True;Authentication=Server;Persist Security Info=True;Cache Authentication=False;Connection Pooling=False;Derive Parameters=False;';   
   
 GO  
   

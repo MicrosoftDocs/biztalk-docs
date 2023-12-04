@@ -74,7 +74,7 @@ Host Integration Server includes two off-line demo link connections that enable 
   
     -   Remote APPC LUs  
   
-11. Right-click the **SNA Service [Inactive]** item, click **All Tasks**, and then click **AS/400 Wizard**.  The AS/400 Configuration Wizard appears.  
+11. Right-click the **SNA Service [Inactive]** item, click **All Tasks**, and then click **IBM System i Wizard**.  The IBM System i Configuration Wizard appears.  
   
 12. In the **Welcome** dialog box, click **Next**.  The SNA Service dialog appears.  
   
@@ -82,15 +82,15 @@ Host Integration Server includes two off-line demo link connections that enable 
   
 14. In the **Connection** dialog box, type a name for the connection, such as `DRDADEMO`, and then click **Next**.  The Link Service dialog appears.  
   
-15. In the **Link Service** dialog box, click the **SNADEMO1** item, and then click **Next**.  The AS/400 Name dialog appears.  
+15. In the **Link Service** dialog box, click the **SNADEMO1** item, and then click **Next**.  The IBM System i Name dialog appears.  
   
-16. In the **AS/400 Name**, verify that the **Network name** is **APPN** and the **Control Point Name** is **DRDADEMO**, and then click **Next**.  The Link Identification dialog appears.  
+16. In the **IBM System i Name**, verify that the **Network name** is **APPN** and the **Control Point Name** is **DRDADEMO**, and then click **Next**.  The Link Identification dialog appears.  
   
 17. In the **Link Identification** dialog box, verify that the **PU address (PUADDR)** is **C1**, and then click **Next**.  The Completion dialog appears.  
   
-18. In the **Completion** dialog box, click **Finish**. The SNA Manager displays an AS/400 Configuration Wizard confirmation dialog.  
+18. In the **Completion** dialog box, click **Finish**. The SNA Manager displays an IBM System i Configuration Wizard confirmation dialog.  
   
-19. In the **AS/400 Configuration Wizard** confirmation dialog box, click **OK**.  
+19. In the **IBM System i Configuration Wizard** confirmation dialog box, click **OK**.  
   
 20. Double-click the **Connections** folder, see the **DRDADEMO** connection.  
   

@@ -39,7 +39,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  The Data Provider supports TCP/IP and SNA (Systems Network Architecture) over LU6.2 APPC (Advanced Program to Program Communications) network connections to remote IBM DB2 database servers that are running on IBM mainframe and midrange host computers. The Data Provider supports TCP/IP network connections to remote IBM DB2 database servers that are running Linux, UNIX, or Windows operating systems.
 
- You can select either **APPC Connection** or **TCP/IP Connection** from the drop-down list, when you connect to DB2 databases that are running on host mainframe DB2/MVS and host midrange DB2/400 computers.
+ You can select either **APPC Connection** or **TCP/IP Connection** from the drop-down list, when you connect to DB2 databases that are running on host mainframe DB2/z/OS and host midrange DB2/400 computers.
 
  You must select **TCP/IP Connection** from the drop-down list, when connecting to DB2 databases that are running Linux, UNIX, or Windows operating systems.
 
@@ -47,7 +47,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  If you select **APPC Connection**, click the ellipses (**…**) to open the dialog box for configuring **APPC Network Settings**.
 
- You must select or enter the name of the APPC local LU alias, APPC remote LU alias, and APPC mode name configured in Host Integration Server. A common value for DB2/MVS is IBMRDB and DB2/400 is QPCSUPP. Optionally you can specify the APPC conversation security to identify the Data Provider user to the DB2 database server.
+ You must select or enter the name of the APPC local LU alias, APPC remote LU alias, and APPC mode name configured in Host Integration Server. A common value for DB2/z/OS is IBMRDB and DB2/400 is QPCSUPP. Optionally you can specify the APPC conversation security to identify the Data Provider user to the DB2 database server.
 
  The following table describes security level settings.
 
@@ -237,7 +237,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  **APPC Mode Name**
 
- The Data Provider requires an APPC mode name, when connecting via SNA LU6.2. Select or enter the name of the APPC mode name configured in Host Integration Server. A common value for DB2/MVS is IBMRDB.
+ The Data Provider requires an APPC mode name, when connecting via SNA LU6.2. Select or enter the name of the APPC mode name configured in Host Integration Server. A common value for DB2/z/OS is IBMRDB.
 
  **APPC Remote LU Alias**
 
@@ -332,7 +332,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  **DBMS Platform**  
   
- Optionally, you can instruct the Data Provider to connect the IBM DB2 database servers based on a relational database management systems platform designation. The Data Provider supports these string values: DB2/MVS, DB2/400, DB2/6000, and DB2/NT. The default is DB2/MVS.  
+ Optionally, you can instruct the Data Provider to connect the IBM DB2 database servers based on a relational database management systems platform designation. The Data Provider supports these string values: DB2/z/OS, DB2/400, DB2/6000, and DB2/NT. The default is DB2/z/OS.  
   
  **Default Qualifier**  
   

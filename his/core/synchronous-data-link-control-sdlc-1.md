@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Synchronous Data Link Control (SDLC)
-SDLC connections use a standard phone line (leased, public, point-to-point, or multidrop). An SDLC adapter within the Host Integration Server computer connects to a modem that uses the phone line to establish a connection with the host system. In a mainframe system, the SDLC connection uses a front end processor (FEP), a communications controller, or an integrated SDLC adapter. In an AS/400 system, the connection goes directly into the AS/400 computer.  
+SDLC connections use a standard phone line (leased, public, point-to-point, or multidrop). An SDLC adapter within the Host Integration Server computer connects to a modem that uses the phone line to establish a connection with the host system. In a mainframe system, the SDLC connection uses a front end processor (FEP), a communications controller, or an integrated SDLC adapter. In an IBM System i system, the connection goes directly into the IBM System i computer.  
   
  SDLC throughput is limited by the medium used for the connection and the capabilities of the SDLC adapter in the Host Integration Server computer. The cost to implement SDLC grows significantly as faster line types are used. In general, SDLC connections are much slower than 802.2 connections. The following table lists the common line types and their speeds:  
   

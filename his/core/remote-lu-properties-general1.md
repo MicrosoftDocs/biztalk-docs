@@ -25,7 +25,7 @@ f1_keywords:
   
  A name identifying an LU. The name can be from one through eight characters long and can contain alphanumeric characters and the special characters $, #, and @. Lowercase letters are converted to uppercase. The name cannot be the same as any other LU name or pool name (except for APPC LU names) on the server.  
   
- For communication with an AS/400, make the remote LU name the same as the name of the AS/400.  
+ For communication with an IBM System i, make the remote LU name the same as the name of the IBM System i.  
   
  **Uninterpreted LU Name**  
  If this LU will be paired with a dependent local APPC LU, type the Uninterpreted LU Name.  

@@ -76,11 +76,11 @@ Use these topics to navigate through the SNA Manager user interface.
   
  [Microsoft SNA Manager](../core/microsoft-sna-manager2.md)  
   
- [AS/400 Definitions](../core/as-400-definitions1.md)  
+ [IBM System i Definitions](../core/as-400-definitions1.md)  
   
  [Active TN5250 Sessions](../core/active-tn5250-sessions1.md)  
   
- [AS/400 Definition Properties](../core/as-400-definition-properties1.md)  
+ [IBM System i Definition Properties](../core/as-400-definition-properties1.md)  
   
  [APPC Modes Folder](../core/appc-modes-folder2.md)  
   

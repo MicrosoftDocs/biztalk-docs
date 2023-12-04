@@ -23,7 +23,7 @@ An X.25 link service enables the [!INCLUDE[hisHostIntServNoVersion](../includes/
     |Level 2 window size|L2 Window Size|7|  
     |Channel ranges (Outgoing SVC, Two-Way SVC, Incoming SVC, and/or PVC)|Channel Ranges (Outgoing SVC, Two-Way SVC, Incoming SVC, and/or PVC)|Vary|  
   
-     Note that the encoding setting (NRZ or NRZI) is almost always NRZ on X.25 networks. This setting must match the equivalent setting on the host. For connections to mainframes, the NRZI setting is found in the LINE/GROUP definition in VTAM or NCP. If VTAM does not specify the NRZI setting, it defaults to NRZI=YES. For connections to AS/400 computers, the NRZI setting is in the Line Description.  
+     Note that the encoding setting (NRZ or NRZI) is almost always NRZ on X.25 networks. This setting must match the equivalent setting on the host. For connections to mainframes, the NRZI setting is found in the LINE/GROUP definition in VTAM or NCP. If VTAM does not specify the NRZI setting, it defaults to NRZI=YES. For connections to IBM System i computers, the NRZI setting is in the Line Description.  
   
 -   When you install a new adapter, check the interrupt, port address, and direct memory access (DMA) settings, to avoid conflicts with other adapters in the computer. The normal method for adjusting the settings among your adapters is through EISA configuration programs, jumpers on the motherboard, or configuration utilities. Windows provides the Device Manager. You may also use configuration utilities supplied with your adapters.  
   

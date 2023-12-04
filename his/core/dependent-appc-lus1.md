@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Dependent APPC LUs
-A dependent local APPC LU requires the support of a mainframe to communicate with a remote TP. Dependent APPC LUs cannot be used to communicate with an AS/400 computer.  
+A dependent local APPC LU requires the support of a mainframe to communicate with a remote TP. Dependent APPC LUs cannot be used to communicate with an IBM System i computer.  
   
  The next figure illustrates how a dependent APPC LU can communicate with the host.  
   

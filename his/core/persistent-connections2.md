@@ -21,7 +21,7 @@ Windows-initiated processing (WIP) supports persistent connections over TCP/IP a
   
 - TCP Enhanced Listener Message (ELM) User Data  
   
-- OS/400 DPC  
+- IBM System i DPC  
   
 - CICS Link LU 6.2  
   

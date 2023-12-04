@@ -17,7 +17,7 @@ To prevent an attacker from reading data packets on the network and either tampe
   
 -   Use IPsec, where supported, for IP communications between host and Windows servers  
   
--   For SNA LU6.2 network connections to mainframe or AS/400 computers, use Host Integration Server server-to-server data encryption when deploying upstream an Host Integration Server computer as a SNA gateway to a downstream TI HIP computer  
+-   For SNA LU6.2 network connections to mainframe or IBM System i computers, use Host Integration Server server-to-server data encryption when deploying upstream an Host Integration Server computer as a SNA gateway to a downstream TI HIP computer  
   
 -   For SNA LU6.2 network connections to mainframe, use Host Integration Server IP-DLC Link Service in conjunction with IPsec.  
   

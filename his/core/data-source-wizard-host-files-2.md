@@ -23,7 +23,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
 -   [Mainframe File System](../core/data-source-wizard-host-files-2.md#ma)
 
--   [AS/400 File System](../core/data-source-wizard-host-files-2.md#ass)
+-   [IBM System i File System](../core/data-source-wizard-host-files-2.md#ass)
 
 -   [Local File](../core/data-source-wizard-host-files-2.md#loc)
 
@@ -49,7 +49,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  Optionally, to increase performance and reduce impact to the remote database, select the data source platform on which the remote host file system is deployed. The Data Provider uses this value to convert data types to a format supported by this platform.
 
- The default value is Mainframe file system (which refers to Distributed FileManager for z/OS). Other values include AS/400 file system (which refers to i5/OS) and Local file (which refers to a local Windows PC-based binary file).
+ The default value is Mainframe file system (which refers to Distributed FileManager for z/OS). Other values include IBM System i file system (which refers to i5/OS) and Local file (which refers to a local Windows PC-based binary file).
 
  **Network transport library**
 
@@ -68,7 +68,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  **Port**
 
- You must specify an IP port number. For AS/400 file system, the default value is TCP/IP port 446.
+ You must specify an IP port number. For IBM System i file system, the default value is TCP/IP port 446.
 
  **Certificate Common Name**
 
@@ -100,7 +100,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  You must specify a string to instruct the Data Provider to load a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records in mainframe z/OS, midrange i5/OS and offline host files. .
 
-##  <a name="ass"></a> AS/400 File System
+##  <a name="ass"></a> IBM System i File System
  Optionally, when connecting to midrange i5/OS host file system servers, the Data Provider can use this value to obtain schema information on DB2 for i5/OS tables and columns, with which to provide automatic record data conversion without requiring Host Integration Designer XML (HIDX) metadata file. The location name is known as the DB2 for i5/OS Relational Database Name (RDBNAME) and consists of an 18-byte string.
 
  **Location**

@@ -19,8 +19,6 @@ Host Integration Server provides 3270 connectivity through 3270 logical units (L
   
 - Application (LUA)  
   
-- Downstream  
-  
   Once configured, these LUs are accessed from an end-user applications using Host Integration Server client software that is installed on the client workstation. The client software manages communications between a 3270 application (like a terminal emulator) and the Host Integration Server computer. Applications designed for the Host Integration Server client API use the LUs defined within Host Integration Server to establish a communications link from the client personal computer to the mainframe via Host Integration Server.  
   
   The link between the LU definition in Host Integration Server and the host LU resource is called a *session*. Sessions can be permanent and automatically started during initialization, or established on an as-needed basis. Concurrent sessions can share the same physical devices and communications links.  

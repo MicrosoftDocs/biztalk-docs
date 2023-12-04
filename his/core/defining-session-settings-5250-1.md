@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Defining Session Settings (5250)
-Before you can connect to an AS/400 system, you must define the settings you will need for your 5250 session such as the Local LU Alias, Remote APPC LU Alias, Host Code Page, and Display Size. You can also change the Device Name, although this is generally not necessary.  
+Before you can connect to an IBM System i system, you must define the settings you will need for your 5250 session such as the Local LU Alias, Remote APPC LU Alias, Host Code Page, and Display Size. You can also change the Device Name, although this is generally not necessary.  
   
  **To define basic session settings for the 5250 Client for a Host Integration Server**  
   
@@ -19,7 +19,7 @@ Before you can connect to an AS/400 system, you must define the settings you wil
   
 3. In the **Local APPC LU Alias** box, type the Local LU Alias provided by your system administrator. In some cases, the Local LU Alias provided by your system administrator may be the same as your user name. In other cases, your system administrator may instruct you to leave the box blank; this allows the Host Integration Server to use the default local LU configured for your user name.  
   
-4. In the **Remote APPC LU Alias** box, select the system name of the AS/400, as provided by your system administrator. Your system administrator may instruct you to leave the box blank; this allows the Host Integration Server to use the default system name (also called the remote LU) configured for your user name.  
+4. In the **Remote APPC LU Alias** box, select the system name of the IBM System i, as provided by your system administrator. Your system administrator may instruct you to leave the box blank; this allows the Host Integration Server to use the default system name (also called the remote LU) configured for your user name.  
   
 5. In the **Host Code Page** box, select the correct host code page. The default is English-US.  
   

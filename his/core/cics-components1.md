@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # CICS Components
-Customer Information Control System (CICS) is a mainframe application system that provides components such as a transaction-processing monitor and a transaction-processing manager for a mainframe computer to run online transaction processing (OLTP) applications. You can install CICS on all three mainframe operating systems: Multiple Virtual Storage (MVS), Virtual Storage Extended (VSE), and Virtual Machine (VM). Due to the popularity of MVS, CICS is commonly installed on MVS mainframe computers. CICS extends the capabilities of a batch-only environment by providing the application system components that allow the mainframe computer to run OLTP applications.  
+Customer Information Control System (CICS) is a mainframe application system that provides components such as a transaction-processing monitor and a transaction-processing manager for a mainframe computer to run online transaction processing (OLTP) applications. CICS is commonly installed on z/OS mainframe computers. CICS extends the capabilities of a batch-only environment by providing the application system components that allow the mainframe computer to run OLTP applications.  
   
  CICS can run online applications on the mainframe computer because CICS acts almost like a separate operating system: it manages its own memory address space, runs its own file management functions, and manages the concurrent execution of multiple transaction applications.  
   

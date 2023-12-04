@@ -51,7 +51,7 @@ Transaction Integrator (TI) supports the following communication protocols for i
   
      The IMS program must use an implicit message queue (the common design model).  
   
--   **OS/400 Distributed Program Calls**  
+-   **IBM System i Distributed Program Calls**  
   
 ## See Also  
  [Planning for Transaction Integrator](../core/planning-for-transaction-integrator2.md)

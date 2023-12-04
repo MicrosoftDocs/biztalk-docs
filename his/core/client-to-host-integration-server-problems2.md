@@ -19,4 +19,4 @@ When you are troubleshooting an issue between the workstation and the HIS server
   
  If TCP/IP is being used, the IP address should be entered in the "Primary Server" field rather than the NetBIOS name.  
   
- 5250 emulation utilizes LU type 6.2 on the AS/400. Often, an error message on the client will include return codes.
+ 5250 emulation utilizes LU type 6.2 on the IBM System i. Often, an error message on the client will include return codes.

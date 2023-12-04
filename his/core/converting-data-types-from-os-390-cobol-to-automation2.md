@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Converting Data Types from OS/390 COBOL to Automation"
+description: "Learn more about: Converting Data Types from z/OS COBOL to Automation"
 title: "Converting Data Types from OS-390 COBOL to Automation2"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -8,7 +8,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
-# Converting Data Types from OS/390 COBOL to Automation
+# Converting Data Types from z/OS COBOL to Automation
 Use the tables in this topic as a guide when you set up the way you want Transaction Integrator (TI) to handle conversions from COBOL data types to Automation data types. For more information about the specific data types, see [Supported TI Data Types](../core/supported-ti-data-types2.md).  
   
  Use the following code key to interpret the codes in the **Possible Conversion Errors** and **Required Property Settings** columns in each table.  
@@ -34,7 +34,7 @@ Use the tables in this topic as a guide when you set up the way you want Transac
   
 ### Default  
   
-|From OS/390 COBOL data type|To Automation data type|Possible conversion errors|Required property settings|  
+|From z/OS COBOL data type|To Automation data type|Possible conversion errors|Required property settings|  
 |----------------------------------|-----------------------------|--------------------------------|--------------------------------|  
 |COMP-1|4-byte Real (Single)|b,r|None|  
 |COMP-2|8-byte Real (Double)|b,r|None|  
@@ -55,7 +55,7 @@ Use the tables in this topic as a guide when you set up the way you want Transac
   
  For COMP, COMP-3, and DISPLAY numeric COBOL data types, the default is based on the precision and scale shown in the following table. When COBOL uses DISPLAY without a sign and you change the Automation type to String, the COBOL picture is changed to PIC X, which has the same internal data representation. The length remains the same and therefore does not affect your mainframe program.  
   
-|Precision and scale for OS/390 COBOL|To Automation data type|  
+|Precision and scale for z/OS COBOL|To Automation data type|  
 |-------------------------------------------|-----------------------------|  
 |Precision 1-4, scale 0|2-byte signed Integer|  
 |Precision 5-9, scale 0|4-byte signed Integer|  
@@ -68,7 +68,7 @@ Use the tables in this topic as a guide when you set up the way you want Transac
   
 ### Supported in Transaction Integrator  
   
-|From OS/390 COBOL data type|To Automation data type|Possible conversion errors|Required property settings|  
+|From z/OS COBOL data type|To Automation data type|Possible conversion errors|Required property settings|  
 |----------------------------------|-----------------------------|--------------------------------|--------------------------------|  
 |COMP-1|Array|None|None|  
 |COMP-2|Array|None|None|  
@@ -113,7 +113,7 @@ PIC S9(?)V9(?) COMP (32-bit)|Currency|p,r|None|
   
 ### Supported only by the TI run-time environment  
   
-|From OS/390 COBOL data type|To Automation data type|Possible conversion errors|Required property settings|  
+|From z/OS COBOL data type|To Automation data type|Possible conversion errors|Required property settings|  
 |----------------------------------|-----------------------------|--------------------------------|--------------------------------|  
 |DISPLAY Zoned Decimal|1-byte unsigned Integer|None|AC|  
 |DISPLAY Zoned Decimal|4-byte signed Integer|None|AC|  
@@ -123,5 +123,5 @@ PIC S9(?)V9(?) COMP (32-bit)|Currency|p,r|None|
   
 ## See Also  
  [Supported TI Data Types](../core/supported-ti-data-types2.md)   
- [Converting Data Types from Automation to OS/390 COBOL\]](../core/converting-data-types-from-automation-to-os-390-cobol]2.md)   
+ [Converting Data Types from Automation to z/OS COBOL\]](../core/converting-data-types-from-automation-to-os-390-cobol]2.md)   
  [Data Type Conversion](../core/data-type-conversion1.md)
