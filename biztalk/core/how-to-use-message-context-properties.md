@@ -15,7 +15,7 @@ System properties are mostly used internally by BizTalk Messaging Engine and its
   
 ```  
 PortName = MyMessage(BTS.ReceivePortName);  
-MyFileName = MyMessage(BTS.ReceivedFileName);  
+MyFileName = MyMessage(FILE.ReceivedFileName);  
 MySubject= MyMessage(POP3.Subject);  
 ```  
   
