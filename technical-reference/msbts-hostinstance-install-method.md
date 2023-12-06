@@ -5,7 +5,7 @@ TOCTitle: MSBTS_HostInstance.Install Method
 ms:assetid: 5859491c-44fb-4cee-945f-a0ef53be1866
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560275(v=BTS.80)
 ms:contentKeyID: 51528191
-ms.date: 08/30/2017
+ms.date: 12/06/2023
 mtps_version: v=BTS.80
 ---
 
@@ -20,7 +20,7 @@ Installs a service for the given instance of the BizTalk host.
 *The syntax shown is language neutral.*
 
 ```C#
-uint32 Install(string Logon, string Password, boolean GrantLogOnAsService);  
+uint32 Install(string Logon, string Password, boolean GrantLogOnAsService, boolean IsGmsaAccount);  
 ```
 
 ## Parameters
@@ -36,6 +36,8 @@ Boolean determining whether the 'Log On As Service' privilege should be automati
 
 *IsGmsaAccount*  
 Boolean determining whether the logon account is a Group Managed Service Account.  If true, the password can be empty.  This parameter is only available for BizTalk 2020 and above.
+
+**Note**: Starting in BizTalk Server 2020 CU5, the `IsGmsaAccount` parameter is optional.
 
 ## Return Value
 
