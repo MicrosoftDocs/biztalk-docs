@@ -37,7 +37,9 @@ Boolean determining whether the 'Log On As Service' privilege should be automati
 *IsGmsaAccount*  
 Boolean determining whether the logon account is a Group Managed Service Account.  If true, the password can be empty.  This parameter is only available for BizTalk 2020 and above.
 
-**Note**: Starting in BizTalk Server 2020 CU5, the `IsGmsaAccount` parameter is optional.
+> [!NOTE]
+>
+> Starting with BizTalk Server 2020 CU5, the `IsGmsaAccount` parameter is optional.
 
 ## Return Value
 
