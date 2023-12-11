@@ -26,7 +26,7 @@ A mode is associated with an LU-LU pair, and determines the session properties f
 |#INTER|Interactive sessions|  
 |#INTERC|Interactive sessions using compression|  
 |#INTERSC|Interactive sessions that employ a minimal level of routing security|  
-|QPCSUPP|All sessions with an AS/400 computer|  
+|QPCSUPP|All sessions with an IBM System i computer|  
   
  The configuration parameters of the modes provided with Host Integration Server are shown in the following table.  
   

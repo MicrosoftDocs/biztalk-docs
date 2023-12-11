@@ -13,7 +13,7 @@ ms.topic: "article"
  The information display system for IBM hosts (mainframes). The system includes terminals, printers, and controllers that enable a user to access host functions.  
   
  **5250**  
- The information display system for IBM AS/400 computers.  
+ The information display system for IBM IBM System i computers.  
   
  **802.2**  
  The logical link control protocol used for communication over a Token Ring or Ethernet network. The 802.2 protocol is an IEEE standard.  
@@ -43,10 +43,10 @@ ms.topic: "article"
  The use of software that enables a microcomputer to act as a 3270 terminal, displaying information from a host system (mainframe). Emulation software can also enable a microcomputer to send print jobs from a host system to a printer connected to the microcomputer.  
   
  **5250 emulator**  
- Software that enables a microcomputer to act as a 5250 terminal interacting with an AS/400 system.  
+ Software that enables a microcomputer to act as a 5250 terminal interacting with an IBM System i system.  
   
  **5250 terminal emulation**  
- The use of software that enables a microcomputer to act as a 5250 terminal interacting with an AS/400 system.  
+ The use of software that enables a microcomputer to act as a 5250 terminal interacting with an IBM System i system.  
   
 ## -A-  
  **A3270**  
@@ -528,7 +528,7 @@ ms.topic: "article"
   A form of information processing in which the work is performed by separate computers that are linked through a local or wide area network, using data-transfer mechanisms that enable different programs to use and share data.  
   
   **distributed program call (DPC)**  
-  An AS/400 remote communication model.  
+  An IBM System i remote communication model.  
   
   **Distributed Query Processor (DQP)**  
   Enables queries to access multiple data sources on multiple servers, even SQL and DB2, and combine views, create data warehouses, and so on. DQP supports an extended version of the SQL language that permits users to qualify table names with the databases in which they exist. This gives users the capability to formulate queries that span multiple distributed databases.  
@@ -540,7 +540,7 @@ ms.topic: "article"
   A transaction manager that coordinates transactions spanning multiple resource managers. Work can be committed as an atomic transaction even if it spans multiple resource managers, even on separate computers.  
   
   **distributed unit of work (DUW)**  
-  In DB2 UDB for AS/400, this is a method of accessing distributed relational data in which a user or application can, within a single unit of work, read and update data on multiple database management systems (DBMSs). The user or application directs each SQL statement to a particular DBMS for execution at the DBMS. Each SQL statement may access only one DBMS.  
+  In DB2 UDB for IBM System i, this is a method of accessing distributed relational data in which a user or application can, within a single unit of work, read and update data on multiple database management systems (DBMSs). The user or application directs each SQL statement to a particular DBMS for execution at the DBMS. Each SQL statement may access only one DBMS.  
   
   **DL-BASE**  
   The type of Base used by Host Integration Server 3270 emulation programs. It supports a single Host Integration Server component or a single user application and has entry points for initialization, sending messages, receiving messages, and termination. *See also***Base**.  
@@ -749,7 +749,7 @@ ms.topic: "article"
  An object that defines the network and hardware characteristics of the non-Windows software platform that initiates requests to the Windows platform. The host environment consists of the host environment name, host identification, network transport type, data conversion information, default method resolution criteria, and security credential mapping.  
   
  **Host Integration Server**  
- A Microsoft® software program that enables a personal computer to communicate with remote computers such as IBM mainframes, AS/400s, or other personal computers on a TCP/IP or SNA network.  
+ A Microsoft® software program that enables a personal computer to communicate with remote computers such as IBM mainframes, IBM System is, or other personal computers on a TCP/IP or SNA network.  
   
  **host response time**  
  The amount of time that a host computer takes to reply to a message sent to it by a client computer. Host response time is measured from the moment that the personal computer sends the message until one of the following events: the client computer receives data back from the host, the host unlocks the client computer's keyboard, or the host enables the client computer to send more data.  
@@ -763,7 +763,7 @@ ms.topic: "article"
  A printer that is defined as a device associated with a logical unit (LU) configured as LU type 1 or 3 and that can support host printing as well as local printing.  
   
  **host-initiated processing (HIP)**  
- A non-Microsoft software platform (usually a mainframe or mid-range computer such as the AS/400) that can access and integrate its programs with the programs on a Windows server platform.  
+ A non-Microsoft software platform (usually a mainframe or mid-range computer such as the IBM System i) that can access and integrate its programs with the programs on a Windows server platform.  
   
  **hot backup**  
  (1) The ability to take systems online and offline without disrupting service. (2) A configuration in which one resource (such as a server running Host Integration Server software) can automatically handle sessions if another cannot. Such servers can provide hot backup for 3270, LUA, or downstream sessions through pools containing LUs from multiple servers. Servers running Host Integration Server software can provide hot backup for 5250 terminal emulation through the use of LU names that are the same on multiple servers.  
@@ -799,10 +799,10 @@ ms.topic: "article"
  A local logical unit (LU) that enables Advanced Program-to-Program Communications (APPC) with a peer system without involving a host (mainframe) system. The type of LU used in independent APPC is LU 6.2. An independent LU does not require a host system, but can work through one.  
   
  **IND$FILE**  
- IBM file transfer program that enables files to be transferred from a personal computer to the host and from the host to the personal computer. It operates in three host environments: CICS, VM/CMS, and MVS/TSO.  
+ IBM file transfer program that enables files to be transferred from a personal computer to the host and from the host to the personal computer.  
   
  **Information frame (I-frame)**  
- A standard unit of information transmitted over an SNA network. For 802.2 or SDLC communication, an I-frame is equivalent to a BTU. *See also***basic transmission unit (BTU)**.  
+ A standard unit of information transmitted over an SNA network.  
   
  **Information Management Systems (IMS)**  
  A transaction processing monitor created and sold by IBM Corporation.  
@@ -1004,13 +1004,10 @@ ms.topic: "article"
   **multiple sessions**  
   In CPI-C, two or more concurrent sessions with different partner LUs. *Seealso***LU-LU session**.  
   
-  **Multiple Virtual Storage (MVS)**  
-  An operating system for large IBM mainframe computers. Implies MVS/370, the MVS/XA product, and the MVS/ESA product.  
+  **z/OS**  
+  An operating system for large IBM mainframe computers.  
   
-  **MVS**  
-  *See* **Multiple Virtual Storage (MVS)**.  
-  
-## -N-  
+## -N-
  **NAU**  
  *See* **network addressable unit (NAU)**.  
   
@@ -1079,7 +1076,7 @@ ms.topic: "article"
  Code syntax that specifies fixed-length tables. This is the COBOL version of an array.  
   
  **open transaction management architecture (OTMA)**  
- A high-performance, connectionless protocol used by IMS to communicate efficiently with Multiple Virtual Storage (MVS) applications without using the SNA protocol.  
+ A high-performance, connectionless protocol used by IMS to communicate efficiently with Multiple Virtual Storage (z/OS) applications without using the SNA protocol.  
   
  **operator-loaded TP**  
  An invokable transaction program (TP) that is manually loaded and started by an operator.  
@@ -1090,11 +1087,11 @@ ms.topic: "article"
  **original creator**  
  The identity of the base client that created the current object. The original caller and original creator are different only if the original creator passed the object to a different base client. *See also***original caller**.  
   
- **OS/390**  
- The IBM operating system for the IBM S/390 family of enterprise servers and that includes and integrates functions previously provided by other IBM software products such as the MVS operating system.  
+ **z/OS**  
+ The IBM operating system for the IBM S/390 family of enterprise servers and that includes and integrates functions previously provided by other IBM software products such as the z/OS operating system.  
   
- **OS/400**  
- The IBM operating system for the IBM AS/400.  
+ **IBM System i**  
+ The IBM operating system for the IBM IBM System i.  
   
  **OTMA**  
  *See* **open transaction management architecture (OTMA)**.  
@@ -1154,7 +1151,7 @@ ms.topic: "article"
  A special character such as an asterisk (\*) or a question mark (?) that can be used to represent one or more characters. Any character or set of characters can replace a pattern-matching character. *Synonymous with* wildcard character.  
   
  **PC Support**  
- A set of IBM programs that helps personal computer users access, share, and store information on an AS/400.  
+ A set of IBM programs that helps personal computer users access, share, and store information on an IBM System i.  
   
  **PDS**  
  *See* **partitioned data set (PDS)**.  
@@ -1638,7 +1635,7 @@ ms.topic: "article"
  *Synonym for* pattern-matching character.  
   
  **Windows-initiated processing (WIP)**  
- A Windows server platform can access and integrate its programs with the programs on a non-Microsoft server platform (usually a mainframe or mid-range computer such as the AS/400).  
+ A Windows server platform can access and integrate its programs with the programs on a non-Microsoft server platform (usually a mainframe or mid-range computer such as the IBM System i).  
   
  **WIP**  
  *See* **Windows-initiated processing (WIP)**.  

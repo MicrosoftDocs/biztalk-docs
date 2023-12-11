@@ -33,9 +33,9 @@ The Transaction Integrator (TI) run-time environment automatically converts data
   
 ## In This Section  
   
--   [Converting Data Types from Automation to OS/390 COBOL](../core/converting-data-types-from-automation-to-os-390-cobol]2.md)  
+-   [Converting Data Types from Automation to z/OS COBOL](../core/converting-data-types-from-automation-to-os-390-cobol]2.md)  
   
--   [Converting Data Types from OS/390 COBOL to Automation](../core/converting-data-types-from-os-390-cobol-to-automation2.md)  
+-   [Converting Data Types from z/OS COBOL to Automation](../core/converting-data-types-from-os-390-cobol-to-automation2.md)  
   
 -   [Converting Data Types from Automation to RPG](../core/converting-data-types-from-automation-to-rpg1.md)  
   
@@ -43,4 +43,4 @@ The Transaction Integrator (TI) run-time environment automatically converts data
   
 -   [Zoned Decimal or Packed Decimal Data Types](../core/zoned-decimal-or-packed-decimal-data-types1.md)  
   
--   [Converting Data Types from RPG to OS/400 COBOL](../core/converting-data-types-from-rpg-to-os-400-cobol2.md)
+-   [Converting Data Types from RPG to IBM System i COBOL](../core/converting-data-types-from-rpg-to-os-400-cobol2.md)

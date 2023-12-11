@@ -19,8 +19,8 @@ Any LU can be configured to be in a pool of default local LUs available for use 
   
 -   Designate one or more LUs as members of the default outgoing local APPC LU pool. The SNA server first attempts to determine the default local APPC LU of the associated user or group, then attempts to assign an available LU from the default outgoing local APPC LU pool; if these attempts fail, the SNA server rejects the request.  
   
-## AS/400 Environment  
- In AS/400 environments, the ability to assign default APPC LUs to users or groups is especially useful because it gives the administrator centralized control over these LU assignments. In such environments, for each user or group, assign both a default local APPC LU and a default remote APPC LU. Assigning a default local APPC LU for each user fulfills the normal AS/400 procedure of assigning local LUs on a per-user basis. Assigning a default remote APPC LU is equivalent to assigning a default AS/400 for the user to connect to, since the remote LU designates the AS/400. By making these assignments, the administrator can centrally control the default AS/400 that a 5250 emulator user connects to.  
+## IBM System i Environment  
+ In IBM System i environments, the ability to assign default APPC LUs to users or groups is especially useful because it gives the administrator centralized control over these LU assignments. In such environments, for each user or group, assign both a default local APPC LU and a default remote APPC LU. Assigning a default local APPC LU for each user fulfills the normal IBM System i procedure of assigning local LUs on a per-user basis. Assigning a default remote APPC LU is equivalent to assigning a default IBM System i for the user to connect to, since the remote LU designates the IBM System i. By making these assignments, the administrator can centrally control the default IBM System i that a 5250 emulator user connects to.  
   
 ## See Also  
  [TP_STARTED](../core/tp-started2.md)

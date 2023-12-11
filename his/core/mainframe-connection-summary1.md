@@ -48,4 +48,4 @@ Diagram of network model showing Host Integration Server connecting to a mainfra
   
 ## See Also  
  [Choosing Server-to-Host Connections](../core/choosing-server-to-host-connections1.md)   
- [AS/400 Connection Summary](../core/as-400-connection-summary1.md)
+ [IBM System i Connection Summary](../core/as-400-connection-summary1.md)

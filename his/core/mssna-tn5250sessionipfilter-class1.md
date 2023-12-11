@@ -35,7 +35,7 @@ class MsSna_TN5250SessionIPFilter : MsSna_Config
  **AS400**  
  Data Type: **String**Qualifiers: <strong>Key, MAXLEN(8)</strong>Access Type: Read-Only  
   
- The AS/400 definition.  
+ The IBM System i definition.  
   
  **Type**  
  Data Type: **sint16**Qualifiers: **Key**A value that indicates whether **Name** contains an IP address or a name. The following table describes the possible values for **Type**.  

@@ -98,4 +98,4 @@ AC 69 ED EE EB EF EC BF-80 FD FE FB FC AD 8E 59
 ```  
   
 ## See Also  
- [AS/400 (APPC) Printing](../core/as-400-appc-printing1.md)
+ [IBM System i (APPC) Printing](../core/as-400-appc-printing1.md)

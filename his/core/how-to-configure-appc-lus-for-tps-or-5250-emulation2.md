@@ -21,7 +21,7 @@ The following is an overview of the procedures to add and configure APPC LUs:
   
 3.  Create a remote APPC LU on a connection and configure the remote APPC LU:  
   
-    -   For a remote LU to be used with an independent local LU, specify the LU Alias, Network Name, and LU Name. Depending on system configuration, you may need to specify other information. For communication with an AS/400 computer, make the remote LU name the same as the name of the AS/400 computer.  
+    -   For a remote LU to be used with an independent local LU, specify the LU Alias, Network Name, and LU Name. Depending on system configuration, you may need to specify other information. For communication with an IBM System i computer, make the remote LU name the same as the name of the IBM System i computer.  
   
     -   For a remote LU to be used with a dependent local LU, specify the LU Alias, Network Name, LU Name, and Uninterpreted LU Name. Depending on system configuration, you may need to specify other information.  
   
@@ -55,7 +55,7 @@ The following is an overview of the procedures to add and configure APPC LUs:
 7.  On the **Action** menu, click **Save Configuration**.  
   
 > [!NOTE]
->  APPC uses both local and remote LUs. These LUs need to be properly configured before Host Integration Server can communicate with the AS/400 computer.  
+>  APPC uses both local and remote LUs. These LUs need to be properly configured before Host Integration Server can communicate with the IBM System i computer.  
   
 > [!NOTE]
 >  The option, **Member of Outgoing Local APPC LU Pool**, differs from other types of LU pools, such as the 3270, LUA, and downstream LU pools.  

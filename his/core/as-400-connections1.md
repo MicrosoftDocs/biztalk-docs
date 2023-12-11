@@ -1,22 +1,22 @@
 ---
-description: "Learn more about: AS/400 Connections"
-title: "AS-400 Connections1"
-ms.custom: ""
-ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+title: Connections for IBM System i
+description: Learn more about connections for IBM System i.
+ms.prod: host-integration-server
+ms.topic: conceptual
+ms.date: 11/28/2023
 ---
-# AS/400 Connections
-Network Name and Control Point Name (used together and called the fully qualified name) are the identifiers used when using exchange identification (XID) with AS/400 computers. Check to make sure that the following items match; if they do not, Host [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] is not identifying itself in a way that the AS/400 can recognize.  
+
+# IBM System i connections
+
+When you use exchange identification (XID) with IBM System i computers, the Network Name and Control Point Name are used together as the identifiers and are called the fully qualified name. Make sure that the following items match. If they don't, Host [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] doesn't identify itself in a way that the IBM System i can recognize.
   
-|Identifier used on AS/400|Identifier to configure<br /><br /> on Host Integration Server|  
-|--------------------------------|------------------------------------------------------------|  
-|**RMTNETID** (usually; often set to APPN); **RMTCPNAME**|**Local Network Name** and **Local Control Point Name** (configured on the server)|  
-|**RMTNETID** (often set to APPN); **CP Name** (shown in the **Display network attributes** screen)|**Remote Network Name** and **Remote Control Point Name** (configured on the connection)|  
-  
- Event log entries can be very helpful in diagnosing and correcting mismatched identifiers between Host Integration Server and host computers.  
-  
-## See Also  
- [Host Configuration](../core/host-configuration1.md)
+| Identifier used on IBM System i | Identifier to configure <br><br> on Host Integration Server |
+|---------------------------------|-------------------------------------------------------------|
+| **RMTNETID** (usually and often set to APPN); **RMTCPNAME** | **Local Network Name** and **Local Control Point Name** (configured on the server) |
+| **RMTNETID** (often set to APPN); **CP Name** (shown in the **Display network attributes** screen) | **Remote Network Name** and **Remote Control Point Name** (configured on the connection) |
+
+Event log entries can be very helpful in diagnosing and correcting mismatched identifiers between Host Integration Server and host computers.
+
+## See also
+
+[Host Configuration](../core/host-configuration1.md)

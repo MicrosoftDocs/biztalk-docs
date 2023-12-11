@@ -11,7 +11,7 @@ ms.topic: "article"
 # Creating and Configuring Connections
 You can create connections between [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] and your host computer with wizards or manually. [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] provides three wizards to help you install and configure connections to your host environment (HE).  
   
- The AS/400 Wizard, the Mainframe APPC/LU 6.2 Wizard, and the 3270 Wizard step you through configuring connection properties, creating 3270 display LUs and an LU pool, and assigning the LUs to the LU pool.  
+ The IBM System i Wizard, the Mainframe APPC/LU 6.2 Wizard, and the 3270 Wizard step you through configuring connection properties, creating 3270 display LUs and an LU pool, and assigning the LUs to the LU pool.  
   
  The following procedures detail how to create connections:  
   
@@ -26,7 +26,7 @@ You can create connections between [!INCLUDE[hisHostIntServNoVersion](../include
   
 -   [Creating a 3270 Connection Manually](../core/how-to-create-a-3270-connection-manually1.md)  
   
-## AS/400 (5250) environments:  
+## IBM System i (5250) environments:  
   
 - [Creating a 5250 Connection Using a Wizard](../core/creating-a-5250-connection-with-a-wizard2.md)  
   

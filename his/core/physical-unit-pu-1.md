@@ -17,7 +17,7 @@ Although the name physical unit (PU) strongly implies a hardware component, a PU
 |---------------|-----------------|  
 |PU 1|Terminal Controller (IBM 6670, 3767)|  
 |PU 2|Cluster controller running configuration support programs (IBM 3174, 3274, 4701, 4702)|  
-|PU 2.1|Peer-to-Peer (APPN), used primarily in AS/400 networks|  
+|PU 2.1|Peer-to-Peer (APPN), used primarily in IBM System i networks|  
 |PU 4|IBM Front End Processor, usually running ACF and the Network Control Program (IBM 3754, 3725, 3720, 3745, 3746)|  
 |PU 5|IBM Host (mainframe) system|  
   

@@ -45,7 +45,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  Optionally, to increase performance and reduce impact to the remote database, select the data source platform on which the remote DB2 database is deployed. The Data Provider uses this value to convert data types to a format supported by this platform.
 
- The default value is DB2/MVS (which refers to DB2 for z/OS). Other values include DB2/400 (which refers to DB2 for i5/OS), DB2/NT (which refers to DB2 for Windows), and DB2/6000 (which refers to DB2 for Linux or UNIX).
+ The default value is DB2/z/OS (which refers to DB2 for z/OS). Other values include DB2/400 (which refers to DB2 for i5/OS), DB2/NT (which refers to DB2 for Windows), and DB2/6000 (which refers to DB2 for Linux or UNIX).
 
  **Network type**
 
@@ -87,7 +87,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  **Mode name**
 
- The Data Provider requires an APPC mode name, when connecting via SNA LU6.2. Select or enter the name of the APPC mode name configured in Host Integration Server. A common value for DB2/MVS is IBMRDB.
+ The Data Provider requires an APPC mode name, when connecting via SNA LU6.2. Select or enter the name of the APPC mode name configured in Host Integration Server. A common value for DB2/z/OS is IBMRDB.
 
  **Security type**
 

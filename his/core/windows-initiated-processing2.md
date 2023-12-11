@@ -23,7 +23,7 @@ Windows-initiated processing (WIP) enables Windows-based client applications to 
   
 -   [IMS Connect](../core/ims-connect1.md)  
   
--   [OS/400 Distributed Program Calls](../core/os-400-distributed-program-calls1.md)  
+-   [IBM System i Distributed Program Calls](../core/os-400-distributed-program-calls1.md)  
   
 -   [CICS LU6.2 User Data](../core/cics-lu6-2-user-data2.md)  
   
