@@ -11,7 +11,7 @@ ms.topic: "article"
 # What You Should Know Before Programming Single Sign-On
 To use this documentation effectively, you should be familiar with the following:  
   
-- Windows Vista SP2, Windows 7, Windows Server 2003 R2 SP2, Windows Server 2008 SP2, or Windows Server 2008 R2 operating system. You should be especially familiar with Windows Security features.  
+- Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 or Windows 10 operating system. You should be especially familiar with Windows Security features.  
   
 - Administrative features of Enterprise Single Sign-On, especially how to perform administrative actions using the user interface.  
   

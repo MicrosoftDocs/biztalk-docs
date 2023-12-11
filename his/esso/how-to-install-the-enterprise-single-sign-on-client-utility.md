@@ -13,19 +13,19 @@ The stand-alone Single Sign-On (SSO) client utility (ssoclient.exe) enables end 
   
  To install the SSO client utility, you must be running one of the following operating systems on the client computer in addition to version 3.51 of the .NET Framework:  
   
-- Windows Server 2003 R2 SP2  
+- Windows Server 2022  
   
-- Windows Vista SP2  
+- Windows Server 2019  
   
-- Windows 7  
+- Windows Server 2016
   
-- Windows Server 2008 SP2  
+- Windows Server 11
   
-- Windows Server 2008 R2  
+- Windows Server 10
   
   Installing the SSO client utility does not create shortcuts on the **Start** menu for you to access the command-line utilities. To run the SSO client utility after installation, you must open a command prompt and navigate to the SSO directory located at Program Files\Common Files\Enterprise Single Sign-On.  
   
-### To install the SSO client utility  
+### To install the SSO client utility
   
 1.  Double-click the installer package, SSOClientInstall.  
   

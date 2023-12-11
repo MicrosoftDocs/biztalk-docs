@@ -17,7 +17,7 @@ The IcomLU0 interface allows access to an LU0 session.
 ## Requirements  
  Type Library: COM3270 1.0 Type Library (siproxy.dll)  
   
- Platforms: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, or Windows Server 2008 R3  
+ Platforms: WindowsPlatforms:  Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10  
   
 ## See Also  
  [IcomLU0 Members](../core/icomlu0-members2.md)   

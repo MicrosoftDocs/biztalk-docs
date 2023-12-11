@@ -50,7 +50,7 @@ HIS Data Integration solutions and technologies enable direct data access to DB2
   
 SQL Server tools, including Management Studio and Business Intelligence Development Studio, help IT professionals and enterprise developers to deliver data warehouse solutions based on information stored in DB2 databases, Informix databases, and host file systems, for on-line transaction processing and decision-support. Power BI helps IT professionals to integrate DB2 and host files system data to provide coherent, visually immersive, and interactive insights. 
   
-The Microsoft Service for DRDA (Distributed Relational Database Architecture) is an Application Server (AS) that enables DRDA Application Requester (AR) clients, such as IBM DB2 for z/OS and DB2 for i5/OS, to execute static SQL statements mapped to SQL Server stored procedures. The DRDA Service provides host-initiated data integration essential to enterprises during a phased workload migration, or for daily operations in support of remote batch or business intelligence solutions.  
+The Microsoft Service for DRDA (Distributed Relational Database Architecture) is an Application Server (AS) that enables DRDA Application Requester (AR) clients, such as IBM DB2 for z/OS and DB2 for IBM Sistem i, to execute static SQL statements mapped to SQL Server stored procedures. The DRDA Service provides host-initiated data integration essential to enterprises during a phased workload migration, or for daily operations in support of remote batch or business intelligence solutions.  
   
 For more information, see [Data Integration (Planning)](core/data-integration-planning-1.md).  
 
@@ -58,11 +58,11 @@ For more information, see [Data Integration (Planning)](core/data-integration-pl
 
 ## Application Integration
 
-Transaction Integrator (TI) allows enterprise developers to call business rules in host mainframe (Customer Information Control System and Information Management System) and midrange (i5/OS) programs using Visual Studio and the .NET Framework. TI is comprised of a Visual Studio plug-in designer, administration tool (TI Configuration Tool) and runtime components that integrate host applications with the .NET Framework. Enterprise developers can define .NET clients using an intuitive COBOL or RPG source code import wizard within the TI designer. 
+Transaction Integrator (TI) allows enterprise developers to call business rules in host mainframe (Customer Information Control System and Information Management System) and midrange (IBM System i) programs using Visual Studio and the .NET Framework. TI is comprised of a Visual Studio plug-in designer, administration tool (TI Configuration Tool) and runtime components that integrate host applications with the .NET Framework. Enterprise developers can define .NET clients using an intuitive COBOL or RPG source code import wizard within the TI designer.
   
 HIS Transaction Integrator allows enterprise developers to integrate and extend host transaction programs.  
   
-Transaction Integrator for host-initiated processing allows a computer running Microsoft server software to function as a peer to IBM mainframe and midrange host systems, enabling host developers to access and update Microsoft server applications using familiar host programming models and communications infrastructure. BizTalk Adapter for Host Applications is based on TI technology, allowing enterprises to connect BizTalk Server solutions to existing mainframe (CICS and IMS) or midrange (i5/OS) server programs. For more information, see [Application Integration (Planning)](core/application-integration-planning-2.md).  
+Transaction Integrator for host-initiated processing allows a computer running Microsoft server software to function as a peer to IBM mainframe and midrange host systems, enabling host developers to access and update Microsoft server applications using familiar host programming models and communications infrastructure. BizTalk Adapter for Host Applications is based on TI technology, allowing enterprises to connect BizTalk Server solutions to existing mainframe (CICS and IMS) or midrange (IBM System i) server programs. For more information, see [Application Integration (Planning)](core/application-integration-planning-2.md).  
 
 <a name="message"></a>
 
@@ -86,5 +86,6 @@ IT administrators can configure multiple levels of auditing, to track access to 
   
 ## See Also
 
+[HIS 2020 - What's New, Release Notes, System Requirements, and Installation](install-and-config-guides/his-2016-what-s-new-release-notes-system-requirements-and-installation.md)
+
 [HIS 2016 - What's New, Release Notes, System Requirements, and Installation](install-and-config-guides/his-2016-what-s-new-release-notes-system-requirements-and-installation.md)
-[HIS 2013 - What's New, Install, and Configure](install-and-config-guides/his-2013-what-s-new-install-and-configure.md)

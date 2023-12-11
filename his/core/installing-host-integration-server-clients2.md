@@ -11,15 +11,15 @@ ms.topic: "article"
 # Installing Host Integration Server Clients
 Host Integration Server client software allows client workstations to communicate with Host Integration Server computers to access host resources. Client software is installed on each workstation using applications that communicate using any Host Integration Server programmatic interfaces. Client software is available for the following platforms:  
   
-- Windows Server 2003 R2 SP2  
+- Windows Server 2022  
   
-- Windows Vista SP2  
+- Windows Server 2019  
   
-- Windows 7  
+- Windows Server 2016  
   
-- Windows Server 2008 SP2  
+- Windows 11  
   
-- Windows Server 2008 R2  
+- Windows 10  
   
   The fastest Host Integration Server client/server network interface is TCP/IP, although you can use other local area network (LAN) protocols such as Microsoft Networking (Named Pipes) if your LAN supports them. If you select TCP/IP or Microsoft Network, the remote installation option is recommended. Selecting "local" requires the client workstation to be on the same TCP/IP subnet as the Host Integration Server computer, which is uncommon in routed IP networks.  
   

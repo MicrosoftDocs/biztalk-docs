@@ -276,7 +276,7 @@ class MsSna_Domain : MsSna_Config
  The object **MsSna_Domain** represents can also be referred to as a subdomain or OU.  
   
 ## Requirements  
- **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012  
+ **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10  
   
 ## See Also  
  [Administration and Management Programmer's Guide](./administration-and-management-programmer-s-guide2.md)

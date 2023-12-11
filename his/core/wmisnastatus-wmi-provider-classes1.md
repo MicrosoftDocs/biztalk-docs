@@ -59,4 +59,4 @@ The Microsoft® Host Integration Server SNA Status provider supplies information
 |[MsSnaStatus_APPCSessionToActiveUser](../core/mssnastatus-appcsessiontoactiveuser-class1.md)|Represents an association between a User connection and an APPC session.|  
   
 ## Requirements  
- **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012
+ **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10

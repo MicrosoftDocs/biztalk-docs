@@ -65,7 +65,7 @@ class MsHisTrace_SNABase : MsHisTrace_Config
  **true** to enable LU 6.2 tracing; otherwise, **false**.  
   
 ## Requirements  
- **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012  
+ **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10  
   
 ## See Also  
  [WmiSnaTrace WMI Provider Classes](../core/wmisnatrace-wmi-provider-classes2.md)   
