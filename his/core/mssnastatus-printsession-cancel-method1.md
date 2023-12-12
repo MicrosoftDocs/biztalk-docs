@@ -2,7 +2,7 @@
 description: "Learn more about: MsSnaStatus_PrintSession.Cancel Method"
 title: "MsSnaStatus_PrintSession.Cancel Method1"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
