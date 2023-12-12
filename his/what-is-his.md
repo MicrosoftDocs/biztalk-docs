@@ -3,7 +3,7 @@ title: What is HIS
 description: Learn how Host Integration Server (HIS) enables enterprise organizations to integrate existing IBM host systems, programs, messages and data with on-premises and Azure Cloud applications. 
 ms.prod: host-integration-server
 ms.topic: overview
-ms.date: 10/24/2016
+ms.date: 11/24/2023
 ---
 
 # What is HIS
@@ -72,7 +72,7 @@ Message integration technologies allow enterprise IT professionals and developer
   
 HIS Message Integrator enables IT professionals and enterprise developers to integrate BizTalk Server and Windows Communications Foundation applications with existing programs, messages and data through IBM MQ infrastructure.  
   
-BizTalk Adapter for MQ uses the IBM MQ to communicate with remote  MQ Queue Managers, without needing to deploy and manage IBM MQ Server for Windows, to efficiently exchange messages with line-of-business applications across the enterprise. To convert MQ data messages, HIS offers a BizTalk Pipeline Component for Host Data Conversion, which is based on TI designer and TI data conversion technologies. Starting with HIS 2016 a Microsoft Client for MQ is included to allow Windows .NET developers access IBM WebSphere MQ Servers directly.  The HIS 2020 MQSC Adapter for BizTalk can be configured to use either the IBM MQ Client for the Microsoft Client for MQ for the underlying communications.
+BizTalk Adapter for MQ uses the IBM MQ to communicate with remote MQ Queue Managers, without needing to deploy and manage IBM MQ Server for Windows, to efficiently exchange messages with line-of-business applications across the enterprise. To convert MQ data messages, HIS offers a BizTalk Pipeline Component for Host Data Conversion, which is based on TI designer and TI data conversion technologies. Starting with HIS 2016 a Microsoft Client for MQ is included to allow Windows .NET developers access IBM WebSphere MQ Servers directly.  The HIS 2020 MQSC Adapter for BizTalk can be configured to use either the IBM MQ Client for the Microsoft Client for MQ for the underlying communications.
 
 <a name="Security"></a>
 
