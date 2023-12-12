@@ -2,7 +2,7 @@
 description: "Learn more about: TrnsDT"
 title: "TrnsDT1"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,7 +28,7 @@ PASSSTRUCT far* PassParm);
   
  ERR_FILE_NOT_FOUND  
   
- This error is returned if the TrnsDT table files (\*.tbl) could not be found. Normally **TrnsDT** uses the conversion tables located in the Host Integration Server\System directory on Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10. If **TrnsDT** cannot find these tables, it searches for them in the current directory.  
+ This error is returned if the TrnsDT table files (\*.tbl) could not be found. Normally **TrnsDT** uses the conversion tables located in the Host Integration Server\System directory on Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11, and Windows 10. If **TrnsDT** cannot find these tables, it searches for them in the current directory.  
   
  ERR_INVALID_PARAMETER  
   
