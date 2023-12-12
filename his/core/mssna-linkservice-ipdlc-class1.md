@@ -140,7 +140,7 @@ Class MsSna_LinkService_IpDlc : MsSNA_LinkService
 |[GetNextAvailableOrdinal](../core/mssna-linkservice-ipdlc-getnextavailableordinal-method2.md)|Internal. Provides the next available link service number.|  
   
 ## Requirements  
- Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10  
+ Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11, and Windows 10  
   
 ## See Also  
  [WmiSnaLinkServiceMS WMI Provider Classes](../core/wmisnalinkservicems-wmi-provider-classes1.md)   
