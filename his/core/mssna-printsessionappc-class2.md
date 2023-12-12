@@ -2,7 +2,7 @@
 description: "Learn more about: MsSna_PrintSessionAppc Class"
 title: "MsSna_PrintSessionAppc Class2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -86,12 +86,12 @@ class MsSna_PrintSessionAppc : MsSna_PrintSession
  **AS400Device**  
  Data Type: **String** Qualifiers: **MAXLEN(10), TOUPPERCASE** Access Type: Read/Write  
   
- The name for the AS/400 printer device. **AS400Device** should be a descriptive name that distinguishes different printers on the network.  
+ The name for the IBM System i printer device. **AS400Device** should be a descriptive name that distinguishes different printers on the network.  
   
  **System36**  
  Data Type: **sint16** Access Type: Read/Write  
   
- A value that indicates whether the remote system is an AS/400 or a System/36. The following table describes the possible values for **System36**.  
+ A value that indicates whether the remote system is an IBM System i or a System/36. The following table describes the possible values for **System36**.  
   
 |Value|Description|  
 |-----------|-----------------|  
@@ -323,7 +323,7 @@ class MsSna_PrintSessionAppc : MsSna_PrintSession
 |119|*WSCST|  
   
 ## Requirements  
- **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10  
+ **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11, and Windows 10  
   
 ## See Also  
  [WMISNA WMI Provider Classes](../core/wmisna-wmi-provider-classes2.md)   

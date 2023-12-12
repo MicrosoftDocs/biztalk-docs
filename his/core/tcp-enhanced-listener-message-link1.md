@@ -113,14 +113,12 @@ The TCP enhanced listener message (ELM) Link model allows data and parameters to
     To implement this model, you must provide TI with an IP address, a port number, and a CICS program name to execute the application passed by the concurrent server program (Mscmtics.cbl).  
   
     [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] includes sample code showing how to implement the TCP ELM Link programming model. The sample code is located at \installation directory\SDK\Samples\AppInt. Start Microsoft Visual Studio, open the tutorial of your choice and follow the instructions in the Readme.  
-  
-    For information about configuring the mainframe and writing server applications for TCP/IP, see TCP/IP V3R2 for MVS: CICS TCP/IP Socket Interface Guide (IBM Document #SC31-7131).  
-  
+
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)   
  [Transaction Request Messages](./transaction-request-messages2.md)   
- [Converting Data Types from Automation to OS/390 COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
- [Converting Data Types from OS/390 COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
+ [Converting Data Types from Automation to z/OS COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
+ [Converting Data Types from z/OS COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
  [CICS Components](../core/cics-components1.md)   
  [TI Runtime](../core/ti-runtime2.md)   
  [Choosing the Appropriate Programming Model](../core/choosing-the-appropriate-programming-model1.md)   

@@ -2,7 +2,7 @@
 description: "Learn more about: MsHisTrace_TN3270 Class"
 title: "MsHisTrace_TN3270 Class2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -95,7 +95,7 @@ class MsHisTrace_TN3270 : MsHisTrace_Config
  **true** to enable the TN3270 Internal Trace; otherwise, **false**.  
   
 ## Requirements  
- **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10  
+ **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11, and Windows 10  
   
 ## See Also  
  [WmiSnaTrace WMI Provider Classes](../core/wmisnatrace-wmi-provider-classes2.md)   

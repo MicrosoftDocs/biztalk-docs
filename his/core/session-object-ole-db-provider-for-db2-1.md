@@ -63,4 +63,4 @@ The **Session** object is created by a **DataSource** object. The **Session** ob
   
  Note that the TYPE restriction on the DBSCHEMA_INDEXES GUID is not supported by OLE DB Provider for DB2.  
   
- The PROCEDURE_SCHEMA restriction on the DBSCHEMA_PROCEDURE GUID and the DBSCHEMA_PROCEDURE_PARAMETERS GUID is not supported when connecting to DB2 on OS/390 platforms.
+ The PROCEDURE_SCHEMA restriction on the DBSCHEMA_PROCEDURE GUID and the DBSCHEMA_PROCEDURE_PARAMETERS GUID is not supported when connecting to DB2 on z/OS platforms.

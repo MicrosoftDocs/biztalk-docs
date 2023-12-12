@@ -15,7 +15,7 @@ The following procedure details using a wizard to create a 5250 connection.
   
 1.  In SNA Manager, right-click the server on which to add a connection.  
   
-2.  Point to **All Tasks**, and then select the **AS/400 Wizard** option.  
+2.  Point to **All Tasks**, and then select the **IBM System i Wizard** option.  
   
 3.  Click **Next** on the **Welcome** screen.  
   

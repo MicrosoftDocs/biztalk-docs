@@ -28,7 +28,7 @@ Security affects Transaction Integrator (TI) in two ways. First, TI components c
   
  [Mainframe Authentication for CICS LINK](../core/mainframe-authentication-for-cics-link1.md)  
   
- [AS/400 Security](../core/as-400-security1.md)  
+ [IBM System i Security](../core/as-400-security1.md)  
   
  [Limitations of User Access Level Sign On](../core/limitations-of-user-access-level-sign-on1.md)  
   

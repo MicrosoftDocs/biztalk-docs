@@ -20,5 +20,3 @@ In the hierarchical SNA network model most frequently associated with a mainfram
   
  [TN3270 Access](../core/tn3270-access2.md)  
   
- [Downstream Connections](../core/downstream-connections2.md)  
-  

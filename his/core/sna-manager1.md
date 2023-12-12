@@ -27,7 +27,7 @@ SNA Manager provides an interface for configuration and operation of [!INCLUDE[h
   
  SNA Manager lets you administer more than one SNA subdomain by displaying each domain in a separate window with its own hierarchical arrangement of resources.  
   
- SNA Manager also simplifies administrative tasks by providing wizards to step you through many of the more complicated tasks, such as configuring AS/400 connectivity, configuring 3270 display LUs, and creating a range of LUs.  
+ SNA Manager also simplifies administrative tasks by providing wizards to step you through many of the more complicated tasks, such as configuring IBM System i connectivity, configuring 3270 display LUs, and creating a range of LUs.  
 
 ## Open a Subdomain
 Before you can configure [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] components, open a subdomain. **Start Subdomain** is used to change  local SNA subdomain, remote SNA Subdomain, and Offline Configuration.  

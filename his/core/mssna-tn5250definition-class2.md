@@ -2,7 +2,7 @@
 description: "Learn more about: MsSna_TN5250Definition Class"
 title: "MsSna_TN5250Definition Class2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,12 +61,12 @@ class MsSna_TN5250Definition : MsSna_Config
  **User**  
  Data Type: **String** Qualifiers: <strong>MAXLEN(10)</strong>Access Type: Read/Write  
   
- The AS/400 user name used in the session.  
+ The IBM System i user name used in the session.  
   
  **Password**  
  Data Type: **String** Qualifiers: <strong>MAXLEN(10)</strong>Access Type: Read/Write  
   
- The AS/400 password used in the session.  
+ The IBM System i password used in the session.  
   
  **Mode**  
  Data Type: **String** Access Type: Read/Write  
@@ -102,7 +102,7 @@ class MsSna_TN5250Definition : MsSna_Config
   The port used for the session. By default the value is 0.  
   
 ## Requirements  
- **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10  
+ **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11, and Windows 10  
   
 ## See Also  
  [WMISNA WMI Provider Classes](../core/wmisna-wmi-provider-classes2.md)   

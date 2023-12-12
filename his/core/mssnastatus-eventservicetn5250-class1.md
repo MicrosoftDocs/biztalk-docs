@@ -2,7 +2,7 @@
 description: "Learn more about: MsSnaStatus_EventServiceTN5250 Class"
 title: "MsSnaStatus_EventServiceTN5250 Class1"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ class MsSnaStatus_EventServiceTN5250: MsSnaStatus_Event
 |2|Modify|  
   
 ## Requirements  
- **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10  
+ **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11, and Windows 10  
   
 ## See Also  
  [WmiSnaStatus WMI Provider Classes](../core/wmisnastatus-wmi-provider-classes1.md)   

@@ -13,17 +13,17 @@ An X.25 connection uses a packet-switching network, and communicates through the
   
 -   As with all connections, the identifiers must be configured correctly. For details, see [Settings to Check for All Connection Types](../core/settings-to-check-for-all-connection-types2.md).  
   
--   Pay close attention to the **Remote X.25 Address** on the **Address** tab of the **Connection Properties** dialog box; it should match the address of the remote host, peer, or downstream system. The address consists of from 1 through 15 hexadecimal digits. If a 15-digit address is used, the final 3 digits are used for routing between stations with the same 12-digit address. For connections to a host using VTAM, the address should match the DIALNO parameter in the PORT definition. For connections to an AS/400, the address should match the local address of the AS/400 (assigned by the X.25 carrier).  
+-   Pay close attention to the **Remote X.25 Address** on the **Address** tab of the **Connection Properties** dialog box; it should match the address of the remote host, peer, or downstream system. The address consists of from 1 through 15 hexadecimal digits. If a 15-digit address is used, the final 3 digits are used for routing between stations with the same 12-digit address. For connections to a host using VTAM, the address should match the DIALNO parameter in the PORT definition. For connections to an IBM System i, the address should match the local address of the IBM System i (assigned by the X.25 carrier).  
   
 -   Check the Max BTU Length setting, found in the **Connection Properties** dialog box. A BTU is a data-link information frame.  
   
--   Set the Max BTU Length so that it matches the capacity of the adapter and the host or downstream system. Otherwise, when the mainframe or AS/400 sends a logon screen, the BTU length (frame size) that is used will be unworkable, causing the connection to be dropped. The following table provides guidelines:  
+-   Set the Max BTU Length so that it matches the capacity of the adapter and the host or downstream system. Otherwise, when the mainframe or IBM System i sends a logon screen, the BTU length (frame size) that is used will be unworkable, causing the connection to be dropped. The following table provides guidelines:  
   
     |For...|Set the Max BTU Length to...|  
     |------------|----------------------------------|  
     |IBM SDLC adapter|521 or less.|  
     |Connection to a mainframe|Equal to MAXDATA in the PU definition on the mainframe (recommended).|  
-    |Connection to an AS/400|Equal to MAXFRAME on the AS/400 (recommended).|  
+    |Connection to an IBM System i|Equal to MAXFRAME on the IBM System i (recommended).|  
     |Connection to a downstream system|Less than or equal to the maximum value supported by the downstream system.|  
   
 -   Setting the Max BTU Length correctly is especially important for downstream connections.  

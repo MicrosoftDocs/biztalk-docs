@@ -13,19 +13,13 @@ You can create a new Transaction Integrator (TI) Designer project in the Visual 
   
  **To create an HIS Designer Project**  
   
-1.  Click **Start**, point to **Programs**, and then click **Microsoft Visual Studio**.  
-  
-2.  On the Visual Studio **File** menu, click **New**, and then click **Project**.  
-  
-3.  Under **Project Types**, select **Host Integration Projects**.  
-  
-4.  Under **Templates**, select **Transaction Integrator Project**.  
-  
-5.  After **Name**, type the name of the project.  
-  
-     The name can be a maximum of 256 Unicode characters.  
-  
-6.  After **Location**, type or browse to the location to store the project.  
+1. In Visual Studio, from the **File** menu, select **New** > **New Project**.
+
+1. From the project template list, select **Host Application** > **Next**.
+
+1. In the **Configure your new project** box, change the details that you want, and select **Create**.
+
+   :::image type="content" source="media/la-newproject-his1.png" alt-text="Screenshot shows Visual Studio and details for Configure your new project.":::  
   
 ## See Also  
  [Host Integration Server Designer UI](./host-integration-server-designer-ui1.md)

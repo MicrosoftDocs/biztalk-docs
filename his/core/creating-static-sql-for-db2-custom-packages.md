@@ -35,4 +35,4 @@ ms.topic: "article"
 
  [oledb]
 
- ; Everything after this line is an OLE DB initstring Provider=DB2OLEDB;Password=PASSWORD;Persist Security Info=True;User ID=USERID;Initial Catalog=DSN1;Authentication=Server;Defer Prepare=False;Derive Parameters=False;Rowset Cache Size=0;Network Transport Library=TCPIP;Host CCSID=37;PC Code Page=1252;Network Address=SYS1;Network Port=446;Package Collection=COLLID;Default Schema=COLLID;Default Qualifier=COLLID;DBMS Platform=DB2/MVS;Process Binary as Character=False;Connection Pooling=False;Units of Work=RUW
+ ; Everything after this line is an OLE DB initstring Provider=DB2OLEDB;Password=PASSWORD;Persist Security Info=True;User ID=USERID;Initial Catalog=DSN1;Authentication=Server;Defer Prepare=False;Derive Parameters=False;Rowset Cache Size=0;Network Transport Library=TCPIP;Host CCSID=37;PC Code Page=1252;Network Address=SYS1;Network Port=446;Package Collection=COLLID;Default Schema=COLLID;Default Qualifier=COLLID;DBMS Platform=DB2/z/OS;Process Binary as Character=False;Connection Pooling=False;Units of Work=RUW

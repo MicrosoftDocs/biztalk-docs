@@ -34,7 +34,7 @@ Both Transaction Integrator (TI) and mainframe applications must be designed not
   
   The total amount of data that can be sent to, or received from, an IMS server program using the TCP/IP IMS Connect programming model is unlimited.  
   
-## OS/400 Distributed Program Calls (DPC)  
+## IBM System i Distributed Program Calls (DPC)  
  The total buffer size is 65535 bytes and is reduced by the required headers. The send requires 23 bytes of header.  
   
  Each parameter, of either direction, requires 12 bytes of overhead on the send.  Each in\out or out parameter requires 12 bytes of overhead within memory on the return trip.  

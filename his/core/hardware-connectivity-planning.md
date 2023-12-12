@@ -13,7 +13,11 @@ When planning your Host Integration Server environment and deployment options, t
 
 ## Next steps
 [Hardware capacity planning](total-number-of-sessions.md)
-[Planning 3270 Connectivity](planning-3270-connectivity2.md)
-[Planning APPC Connectivity](planning-appc-connectivity2.md)
-[Planning Client/Server Communication](planning-client-server-communication2.md)
-[Deploy HIS](deploying-host-integration-server2.md)
+ 
+[Planning 3270 Connectivity](planning-3270-connectivity2.md) 
+
+[Planning APPC Connectivity](planning-appc-connectivity2.md) 
+
+[Planning Client/Server Communication](planning-client-server-communication2.md) 
+
+[Deploy HIS](deploying-host-integration-server2.md) 

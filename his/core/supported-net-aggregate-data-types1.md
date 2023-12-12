@@ -15,13 +15,13 @@ ms.topic: "article"
  **Structures**  
  A user-defined value type. Like a class, structures can contain constructors, constants, fields, methods, properties, indexers, operators, and nested types. Unlike classes, however, structures do not support inheritance.  
   
- The distributed program call (DPC) programming model for the AS/400 supports:  
+ The distributed program call (DPC) programming model for the IBM System i supports:  
   
 - Only single-level .NET structures.  
   
 - Arrays of .NET structures.  
   
-  The DPC programming model for the AS/400 does not support:  
+  The DPC programming model for the IBM System i does not support:  
   
 - Nesting of structures.  
   

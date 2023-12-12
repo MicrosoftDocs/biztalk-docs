@@ -85,8 +85,8 @@ Transaction Integrator sending and receiving parameters with DPL information fro
   
 ## See Also  
  [Transaction Integrator Components](../core/transaction-integrator-components1.md)   
- [Converting Data Types from Automation to OS/390 COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
- [Converting Data Types from OS/390 COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
+ [Converting Data Types from Automation to z/OS COBOL\]](./converting-data-types-from-automation-to-os-390-cobol]2.md)   
+ [Converting Data Types from z/OS COBOL to Automation](./converting-data-types-from-os-390-cobol-to-automation2.md)   
  [CICS Components](../core/cics-components1.md)   
  [TI Runtime](../core/ti-runtime2.md)   
  [Choosing the Appropriate Programming Model](../core/choosing-the-appropriate-programming-model1.md)   

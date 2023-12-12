@@ -10,7 +10,7 @@ ms.topic: "article"
 ---
 # Planning and Architecting Solutions Using Data Clients
 ## Data Clients
- Microsoft data clients enable enterprise developers to deliver new applications faster with less custom coding through improved productivity using Microsoft Visual Studio 2012 and Microsoft .NET Framework 4, without requiring knowledge of host systems and infrastructure, compared to IBM host development tools and technologies. Microsoft data clients empower knowledge workers and decision-makers to analyze and report vital information faster, by directly accessing host data sources from business intelligence tools within Microsoft Office SharePoint and SQL Server 2012, without needing to schedule host developers to write programs to extract and convert host data structures.
+ Microsoft data clients enable enterprise developers to deliver new applications faster with less custom coding through improved productivity using Microsoft Visual Studio and Microsoft .NET Framework, without requiring knowledge of host systems and infrastructure, compared to IBM host development tools and technologies. Microsoft data clients empower knowledge workers and decision-makers to analyze and report vital information faster, by directly accessing host data sources from tools within Microsoft Fabric and SQL Server, without needing to schedule host developers to write programs to extract and convert host data structures.
 
  ![DI&#95;DataClients](../core/media/di-dataclients.jpg "DI_DataClients")
 
