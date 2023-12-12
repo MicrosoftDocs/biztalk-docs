@@ -2,7 +2,7 @@
 description: "Learn more about: MsSnaStatus_EventUser Class"
 title: "MsSnaStatus_EventUser Class1"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
