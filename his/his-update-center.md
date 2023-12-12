@@ -8,7 +8,7 @@ ms.date: 07/20/2022
 
 # Update Center
 
-Find and manage updates for Host Integration Server (HIS), and the Microsoft OLE DB Provider for DB2 (included in Microsoft SQL Server Feature Packs).
+Find and manage updates for Host Integration Server (HIS), and the Microsoft OLE DB Provider for DB2.
 
 > [!NOTE]
 > The [Microsoft Product Lifecycle Page](https://support.microsoft.com/lifecycle/) lists the supported state for the different HIS versions.
