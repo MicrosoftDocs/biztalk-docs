@@ -2,7 +2,7 @@
 description: "Learn more about: MsSna_AccountAvailableAppcLu Class"
 title: "MsSna_AccountAvailableAppcLu Class1"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ class MsSna_AccountAvailableAppcLu : MsSna_Assigned
  **MsSna_AccountAvailableAppcLu** is used in querying for the remote APPC LUs for a given local APPC LU on a given workstation and associated with the logged-on user.  
   
 ## Requirements  
- **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11 and Windows 10  
+ **Platforms**: Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11, and Windows 10  
   
 ## See Also  
  [WMISNA WMI Provider Classes](../core/wmisna-wmi-provider-classes2.md)   
