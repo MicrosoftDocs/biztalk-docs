@@ -50,7 +50,7 @@ HIS Data Integration solutions and technologies enable direct data access to DB2
   
 SQL Server tools, including Management Studio and Business Intelligence Development Studio, help IT professionals and enterprise developers to deliver data warehouse solutions based on information stored in DB2 databases, Informix databases, and host file systems, for on-line transaction processing and decision-support. Power BI helps IT professionals to integrate DB2 and host files system data to provide coherent, visually immersive, and interactive insights. 
   
-The Microsoft Service for DRDA (Distributed Relational Database Architecture) is an Application Server (AS) that enables DRDA Application Requester (AR) clients, such as IBM DB2 for z/OS and DB2 for i5/OS, to execute static SQL statements mapped to SQL Server stored procedures. The DRDA Service provides host-initiated data integration essential to enterprises during a phased workload migration, or for daily operations in support of remote batch or business intelligence solutions.  
+The Microsoft Service for DRDA (Distributed Relational Database Architecture) is an Application Server (AS) that enables DRDA Application Requester (AR) clients, such as IBM DB2 for z/OS and DB2 for IBM System i, to execute static SQL statements mapped to SQL Server stored procedures. The DRDA Service provides host-initiated data integration essential to enterprises during a phased workload migration, or for daily operations in support of remote batch or business intelligence solutions.  
   
 For more information, see [Data Integration (Planning)](core/data-integration-planning-1.md).  
 
@@ -58,7 +58,7 @@ For more information, see [Data Integration (Planning)](core/data-integration-pl
 
 ## Application Integration
 
-Transaction Integrator (TI) allows enterprise developers to call business rules in host mainframe (Customer Information Control System and Information Management System) and midrange (IBM System i) programs using Visual Studio and the .NET Framework. TI is comprised of a Visual Studio plug-in designer, administration tool (TI Configuration Tool) and runtime components that integrate host applications with the .NET Framework. Enterprise developers can define .NET clients using an intuitive COBOL or RPG source code import wizard within the TI designer. 
+Transaction Integrator (TI) allows enterprise developers to call business rules in host mainframe (Customer Information Control System and Information Management System) and midrange (IBM System i) programs using Visual Studio and the .NET Framework. TI is comprised of a Visual Studio plug-in designer, administration tool (TI Configuration Tool) and runtime components that integrate host applications with the .NET Framework. Enterprise developers can define .NET clients using an intuitive COBOL or RPG source code import wizard within the TI designer.
   
 HIS Transaction Integrator allows enterprise developers to integrate and extend host transaction programs.  
   
@@ -72,7 +72,7 @@ Message integration technologies allow enterprise IT professionals and developer
   
 HIS Message Integrator enables IT professionals and enterprise developers to integrate BizTalk Server and Windows Communications Foundation applications with existing programs, messages and data through IBM MQ infrastructure.  
   
-BizTalk Adapter for MQ uses the IBM MQ to communicate with remote  MQ Queue Managers, without needing to deploy and manage IBM MQ Server for Windows, to efficiently exchange messages with line-of-business applications across the enterprise. To convert MQ data messages, HIS offers a BizTalk Pipeline Component for Host Data Conversion, which is based on TI designer and TI data conversion technologies. Starting with HIS 2016 a Microsoft Client for MQ is included to allow Windows .NET developers access IBM WebSphere MQ Servers directly.  The HIS 2020 MQSC Adapter for BizTalk can be configured to use either the IBM MQ Client for the Microsoft Client for MQ for the underlying communications.
+BizTalk Adapter for MQ uses the IBM MQ to communicate with remote MQ Queue Managers, without needing to deploy and manage IBM MQ Server for Windows, to efficiently exchange messages with line-of-business applications across the enterprise. To convert MQ data messages, HIS offers a BizTalk Pipeline Component for Host Data Conversion, which is based on TI designer and TI data conversion technologies. Starting with HIS 2016 a Microsoft Client for MQ is included to allow Windows .NET developers access IBM WebSphere MQ Servers directly.  The HIS 2020 MQSC Adapter for BizTalk can be configured to use either the IBM MQ Client for the Microsoft Client for MQ for the underlying communications.
 
 <a name="Security"></a>
 
@@ -86,5 +86,6 @@ IT administrators can configure multiple levels of auditing, to track access to 
   
 ## See Also
 
+[HIS 2020 - What's New, Release Notes, System Requirements, and Installation](install-and-config-guides/his-2016-what-s-new-release-notes-system-requirements-and-installation.md)
+
 [HIS 2016 - What's New, Release Notes, System Requirements, and Installation](install-and-config-guides/his-2016-what-s-new-release-notes-system-requirements-and-installation.md)
-[HIS 2013 - What's New, Install, and Configure](install-and-config-guides/his-2013-what-s-new-install-and-configure.md)

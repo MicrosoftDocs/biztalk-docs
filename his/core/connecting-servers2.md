@@ -20,8 +20,6 @@ After you have determined a suitable deployment model and subdomain configuratio
   To understand the connectivity options, you should first examine the different physical connections and network protocols that [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] supports.  
   
 ## In This Section  
- [Connection Methods](../core/connection-methods2.md)  
-  
  [Choosing Server-to-Host Connections](../core/choosing-server-to-host-connections1.md)  
   
  [Choosing Network Protocols for Host Integration Server](../core/choosing-network-protocols-for-host-integration-server1.md)  

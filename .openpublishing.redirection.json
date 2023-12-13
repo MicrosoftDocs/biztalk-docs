@@ -479,6 +479,31 @@
       "source_path": "his/core/host-integration-server-2013-folder.md",
       "redirect_url": "his/core/host-integration-server-2020-folder",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/connection-methods2.md",
+      "redirect_url": "his/core/deploying-host-integration-server2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/synchronous-data-link-control-sdlc-1.md",
+      "redirect_url": "his/core/deploying-host-integration-server2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/channel2.md",
+      "redirect_url": "his/core/deploying-host-integration-server2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/mainframe-connection-summary1.md",
+      "redirect_url": "his/core/deploying-host-integration-server2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/as-400-connection-summary1.md",
+      "redirect_url": "his/core/deploying-host-integration-server2",
+      "redirect_document_id": false
     }
   ]
 }
