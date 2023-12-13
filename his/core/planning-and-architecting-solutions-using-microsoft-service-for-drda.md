@@ -52,7 +52,7 @@ The following sections provide help for planning and architecting solutions usin
 ### IBM DB2 Servers and Clients
  Microsoft, IBM, and third-party vendors implement DRDA protocols and formats in various DRDA Application Requester (AR) client technologies. The DRDA Service supports in-bound connections from DRDA AR clients that conform to the DRDA Version 5 standard, including DRDA ARs packaged in these IBM and Microsoft products.
 
-- IBM DB2 for z/OS V12 and V11
+- IBM DB2 for z/OS 12 and 11
 
 - IBM DB2 for IBM i 7.4, 7.3 and 7.2
 
