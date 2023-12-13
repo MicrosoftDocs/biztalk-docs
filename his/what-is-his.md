@@ -50,7 +50,7 @@ HIS Data Integration solutions and technologies enable direct data access to DB2
   
 SQL Server tools, including Management Studio and Business Intelligence Development Studio, help IT professionals and enterprise developers to deliver data warehouse solutions based on information stored in DB2 databases, Informix databases, and host file systems, for on-line transaction processing and decision-support. Power BI helps IT professionals to integrate DB2 and host files system data to provide coherent, visually immersive, and interactive insights. 
   
-The Microsoft Service for DRDA (Distributed Relational Database Architecture) is an Application Server (AS) that enables DRDA Application Requester (AR) clients, such as IBM DB2 for z/OS and DB2 for IBM Sistem i, to execute static SQL statements mapped to SQL Server stored procedures. The DRDA Service provides host-initiated data integration essential to enterprises during a phased workload migration, or for daily operations in support of remote batch or business intelligence solutions.  
+The Microsoft Service for DRDA (Distributed Relational Database Architecture) is an Application Server (AS) that enables DRDA Application Requester (AR) clients, such as IBM DB2 for z/OS and DB2 for IBM System i, to execute static SQL statements mapped to SQL Server stored procedures. The DRDA Service provides host-initiated data integration essential to enterprises during a phased workload migration, or for daily operations in support of remote batch or business intelligence solutions.  
   
 For more information, see [Data Integration (Planning)](core/data-integration-planning-1.md).  
 
