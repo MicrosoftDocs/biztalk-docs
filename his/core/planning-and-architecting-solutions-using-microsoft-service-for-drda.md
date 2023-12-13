@@ -2,7 +2,7 @@
 description: "Learn more about: Planning and Architecting Solutions Using Microsoft Service for DRDA"
 title: "Planning and Architecting Solutions Using Microsoft Service for DRDA"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/13/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,7 +18,7 @@ The following sections provide help for planning and architecting solutions usin
 
  The previous illustration shows the plan for connecting IBM CICS for z/OS client programs, through DB2 for z/OS and the Service for DRDA, to remote Microsoft SQL Server databases.
 
- The Microsoft Service for DRDA (Distributed Relational Database Architecture) is an Application Server (AS) that enables DRDA Application Requester (AR) clients, such as IBM DB2 for z/OS and DB2 for i5/OS, to execute static SQL statements mapped to SQL Server stored procedures. The DRDA Service provides host-initiated data integration essential to enterprises during a phased workload migration, or for daily operations in support of remote batch or business intelligence solutions.
+ The Microsoft Service for DRDA (Distributed Relational Database Architecture) is an Application Server (AS) that enables DRDA Application Requester (AR) clients, such as IBM DB2 for z/OS and DB2 for IBM i, to execute static SQL statements mapped to SQL Server stored procedures. The DRDA Service provides host-initiated data integration essential to enterprises during a phased workload migration, or for daily operations in support of remote batch or business intelligence solutions.
 
  The DRDA Service offers the following features.
 
@@ -52,13 +52,13 @@ The following sections provide help for planning and architecting solutions usin
 ### IBM DB2 Servers and Clients
  Microsoft, IBM, and third-party vendors implement DRDA protocols and formats in various DRDA Application Requester (AR) client technologies. The DRDA Service supports in-bound connections from DRDA AR clients that conform to the DRDA Version 5 standard, including DRDA ARs packaged in these IBM and Microsoft products.
 
-- IBM DB2 for z/OS V9 and V10
+- IBM DB2 for z/OS 12 and 11
 
-- IBM DB2 for i5/OS V5R4, V6R1, V7R1
+- IBM DB2 for IBM i 7.4, 7.3 and 7.2
 
-- IBM DB2 for LUW V9.7 and V10
+- IBM DB2 for LUW 11.5, 11 and 10.5
 
-  Microsoft HIS 2013 includes two DRDA Application Requester clients, one designed to connect to remote IBM DB2 database servers and one designed to connect to remove IBM Informix database servers. These DRDA ARs support a subset of DRDA Version 5.0. The Microsoft client for DB2 supports these data providers for DB2:
+  Microsoft Host Integration Server includes two DRDA Application Requester clients, one designed to connect to remote IBM DB2 database servers and one designed to connect to remote IBM Informix database servers. These DRDA ARs support a subset of DRDA Version 5.0. The Microsoft client for DB2 supports these data providers for DB2:
 
 - Microsoft ODBC Driver for DB2
 
@@ -67,8 +67,6 @@ The following sections provide help for planning and architecting solutions usin
 - Microsoft ADO.NET Framework Data Provider for DB2
 
 - Microsoft BizTalk Adapter for DB2
-
-- Microsoft Entity Framework Provider for DB2
 
   The Service for DRDA provides basic DRDA support for Microsoft DRDA clients and IBM DRDA clients.
 
@@ -135,7 +133,7 @@ The following sections provide help for planning and architecting solutions usin
  The DRDA Service offers basic mapping of high-level object identifiers, including catalog and schema names. For example, the DRDA Service can map an in-bound DRDA RDBNAM (Relational Database Name) to an out-bound SQL Server database name. Also, the DRDA Service can map an in-bound DRDA COLLID (Collection Identifier) to an outbound SQL Server schema name.
 
 #### Data type conversion
- To support cross platform interoperability between SQL Server databases running on Windows operating systems and DB2 servers running on z/OS and i5/OS, the DRDA Service offers a set of data type mappings and conversions defined in XML files (DB2ToMSSql.xml and MSSQLToDB2.xml). For example, the DRDA Service can maps and will convert in-bound DB2 DECIMAL to out-bound SQL Server money.
+ To support cross platform interoperability between SQL Server databases running on Windows operating systems and DB2 servers running on z/OS and IBM i, the DRDA Service offers a set of data type mappings and conversions defined in XML files (DB2ToMSSql.xml and MSSQLToDB2.xml). For example, the DRDA Service can maps and will convert in-bound DB2 DECIMAL to out-bound SQL Server money.
 
 #### String encodings
  The DRDA Service supports converting from DB2 EBCDIC string encodings to SQL Server ANSI and UNICODE encodings. Optionally, the DRDA Service supports modified replaceable Windows EBCDIC-to-UNICODE NLS (National Language Support) conversion files. Also, the DRDA Service offers in-line character replacement based on a pre-defined map using CCSID (Coded Character Set Identifier) hexadecimal value pairs.
