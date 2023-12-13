@@ -2,7 +2,7 @@
 description: "Learn more about: Installing Host Integration Server Clients"
 title: "Installing Host Integration Server Clients2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "11/30/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
