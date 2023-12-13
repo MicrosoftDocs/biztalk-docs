@@ -2,7 +2,7 @@
 description: "Learn more about: Enterprise Single Sign-On Flags"
 title: "Enterprise Single Sign-On Flags"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/12/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -91,4 +91,4 @@ The following flags are used with the Microsoft® Host Integration Server Enterp
 |SSO_FLAG_FIELD_INFO_SYNC|0x20000000|  
   
 ## Requirements  
- **Platforms:** Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2008 R2
+ **Platforms:** Windows Server 2022, Windows Server 2019, Windows Server 2016, Windows 11, and Windows 10
