@@ -521,6 +521,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "his/core/how-to-configure-downstream-connections2.md",
+      "redirect_url": "his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/deployment-strategies-downstream-connections-2.md",
+      "redirect_url": "his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "his/core/how-to-reorder-downstream-lus1.md",
       "redirect_url": "his/what-is-his",
       "redirect_document_id": false
