@@ -23,5 +23,4 @@ When user and group account memberships overlap, the highest-priority account th
   
 ## See Also  
  [LUA Access](../core/lua-access2.md)   
- [Downstream Connections (3270)](../core/downstream-connections-3270-2.md)   
  [Host Integration Server 3270 Connectivity](../core/host-integration-server-3270-connectivity2.md)

@@ -14,21 +14,11 @@ Allows you to install and delete link services from the command prompt. Linkcfg 
  To view the list of link services you can install using Linkcfg, type the command linkcfg. The following appears:  
   
 ```  
-LINKCFG [ LINKSVC /LSTYPE:{   
-"Andrew Twinax Link Service"|  
-"Atlantis/SAGEM SDLC Link Service"|  
-"Atlantis/SAGEM X.25 Link Service"|  
-"DCA ISCA SDLC Link Service"|  
-"DCA ISCA X.25 Link Service"|  
-"DEMO SDLC Link Service"  
-"Distributed Link Service"|  
-"DLC 802.2 Link Service"|  
-"IBM SDLC Link Service"|  
-"IBM Twinax Link Service"|  
-"IBM X.25 Link Service"|  
-"MicroGate SDLC Link Service"|  
-"MicroGate X.25 Link Service" } ]  
- [ @commandfile ]  
+LINKCFG [ LINKSVC /LSTYPE:{
+"Distributed Link Service"           |
+"DEMO SDLC Link Service"             |
+"IP-DLC Link Service"  } ]
+[ @commandfile ]  
   
 ```  
   

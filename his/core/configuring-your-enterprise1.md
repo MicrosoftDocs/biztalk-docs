@@ -2,7 +2,7 @@
 description: "Learn more about: Configuring Your Enterprise"
 title: "Configuring Your Enterprise1"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/13/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,13 +18,9 @@ ms.topic: "article"
   
  [Creating and Configuring Connections](../core/creating-and-configuring-connections1.md)  
   
- [Service Connection Point](../core/service-connection-point2.md)  
-  
  [Creating and Configuring LUs](../core/creating-and-configuring-lus1.md)  
   
  [User Management](../core/user-management1.md)  
-  
- [Sample Host Definitions](../core/sample-host-definitions2.md)  
   
  [Host Print Service (Configuration)](../core/host-print-service-configuration-1.md)  
   
