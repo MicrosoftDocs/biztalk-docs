@@ -2,7 +2,7 @@
 description: "Learn more about: Planning and Architecting Solutions Using Data Clients"
 title: "Planning and Architecting Solutions Using Data Clients"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/14/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,11 +21,11 @@ ms.topic: "article"
 
 |Data Source|Platform and Version|
 |-|-|
-|DB2|IBM DB2 for z/OS, 9.1 and 10<br /><br /> IBM DB2 for i5/OS V5R4, V6R1 and V7R1<br /><br /> IBM DB2 UDB for Windows, AIX, HP-UX, Solaris, Linux V9.7 and V10|
-|Informix|IBM Informix IDS V11|
-|Host Files|IBM DFSMS DFM z/OS V1.11, V1.12 and V1.13<br /><br /> IBM i5/OS V5R4, V6R1 and V7R1|
+|DB2|IBM DB2 for z/OS, 12 and 11<br /><br /> IBM DB2 for IBM i 7.4, 7.3 and 7.2<br /><br /> IBM DB2 UDB for Windows, AIX, HP-UX, Solaris, Linux 11.5, 11 and 10.5|
+|Informix|IBM Informix IDS 12.1 and 11.7|
+|Host Files|IBM DFSMS DFM z/OS 2.3 and 2.2<br /><br /> IBM i 7.4, 7.3 and 7.2|
 
- The Host Integration Server data client integration technologies and tools use IBM and industry-standard protocols and formats to help you connect to the back end data sources. The common IBM architecture is Distributed Data Management (DDM), which IBM has built into DB2 and Informix servers, mainframe z/OS and midrange i5/OS file systems.
+ The Host Integration Server data client integration technologies and tools use IBM and industry-standard protocols and formats to help you connect to the back end data sources. The common IBM architecture is Distributed Data Management (DDM), which IBM has built into DB2 and Informix servers, mainframe z/OS and midrange IBM i file systems.
 
 ## Clients
  When accessing remote IBM DB2 and Informix database servers, Microsoft technologies operate as industry-standard Distributed Relational Database Architecture (DRDA) Application Requester (AR) clients. To connect to IBM file systems (Host Files), Microsoft technologies operate as IBM-standard Distributed Data Management (DDM) Record-Level Input/Output (RLIO) clients.
@@ -42,7 +42,6 @@ ms.topic: "article"
 |Provider|Architecture|Consumers|
 |--------------|------------------|---------------|
 |ADO.NET Provider for DB2|ADO.NET|Win Forms, Web Forms, Web Services, SQL Server Integration Services|
-|Entity Provider for DB2|Entity Framework|Entity Data Model, WCF Data Services|
 |BizTalk Adapter for DB2|BizTalk Messaging|BizTalk Server|
 |OLE DB Provider for DB2|COM OLE DB|Office Excel, SharePoint, SQL Server (Integration Services, Analysis Services, Reporting Services, Replication Services, and Query Processor), SQL Server PowerPivot for Excel, SQL Server PowerPivot for SharePoint|
 |ODBC Driver for DB2|Open Database Connectivity|ODBC consumers and custom ODBC applications|
@@ -63,7 +62,6 @@ ms.topic: "article"
 |SQL Server|SQL Server Management Studio and Business Intelligence Development Studio|DB2, Informix|SQL Server Management Studio and Business Intelligence Development Studio enable the IT professional and enterprise developer to deliver data.|
 |Excel and SharePoint|SQL Server PowerPivot Add-in for Excel and SQL Server Reporting Services Report Builder|DB2, Informix|SQL Server PowerPivot Add-in for Excel and SQL Server Reporting Services Report Builder enable self-serve business intelligence for streamlining the integration of data from multiple sources.|
 |BizTalk Server|BizTalk Administrator and BizTalk Explorer|DB2, Host Files|BizTalk Adapters are based on the Microsoft ADO.NET Data Providers for DB2 and Host Files, offering intuitive wizards to configure the static solicit and response send ports solutions that efficiently integrate DB2 databases without writing code.|
-|Visual Studio|Entity Designer|DB2|VS Entity Designer, based on the Entity Framework and Entity Data Model, enables enterprise developers to connect DB2 data through Language Integrated Query (LINQ) and ADO.NET Data Services.|
 
 ## Data Access Library
  The Data Access Library (DAL) offers .NET Framework 4 components and interfaces to automate common administrative tasks, such as defining connections, changing passwords, creating standard and customer packages.
@@ -84,32 +82,29 @@ ms.topic: "article"
  For more information, see Using the Data Access Library in Data Integration (Configuration) and the Microsoft.HostIntegration.DataAccessLibrary Namespace documentation.
 
 ## SQL Server
- SQL Server 2012 provides a rich array of tools that you can use to create DB2 solutions with SQL Server consumers.
-
-### Business Intelligence Development Studio
- Business Intelligence Development Studio is the primary development environment that you can use for creating business solutions using Analysis Services, Integration Services, and Reporting Services. Business Intelligence Development Studio provides templates, designers, tools, and wizards that you can use which are specific to each consumer. For more information, see [Introducing Business Intelligence Development Studio](/previous-versions/sql/sql-server-2008-r2/ms173767(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180755).
+ SQL Server provides a rich array of tools that you can use to create DB2 solutions with SQL Server consumers.
 
 ### SQL Server Management Studio
- SQL Server Management Studio is an integrated environment that you can use for accessing, configuring, managing, administering, and developing all components of SQL Server. You can use the graphical tools and script editors in SQL Server Management Studio to work with DB2 data and SQL Server data. In addition, SQL Server Management Studio works with all components of SQL Server such as Reporting Services and Integration Services. For more information, see [Using SQL Server Management Studio](/previous-versions/sql/sql-server-2008-r2/ms174173(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180759).
+ SQL Server Management Studio is an integrated environment that you can use for accessing, configuring, managing, administering, and developing all components of SQL Server. You can use the graphical tools and script editors in SQL Server Management Studio to work with DB2 data and SQL Server data. In addition, SQL Server Management Studio works with all components of SQL Server such as Reporting Services and Integration Services. For more information, see [Using SQL Server Management Studio](https://learn.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms).
 
  ![DI&#95;OLEDB&#95;Provider](../core/media/di-oledb-provider.png "DI_OLEDB_Provider")
 
  HIS data client for DB2 supports an OLE DB Provider for DB2 that can be consumed by all SQL Server technologies.
 
 ### Integration Services
- You can use the Integration Services project type in Business Intelligence Development Studio to create data extraction, transformation, and loading (ETL) applications. It contains templates for packages, data sources, and data source views, and provides the tools for working with these objects. For more information, see [Integration Services](/previous-versions/sql/sql-server-2008-r2/ms174181(v=sql.105)) in Business Intelligence Development Studio (https://go.microsoft.com/fwlink/?LinkID=180757). You can also use the Namespaces in the [https://go.microsoft.com/fwlink/?LinkID=180760](/previous-versions/sql/sql-server-2008-r2/cc283584(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180760) to programmatically create and manage packages. For more information about how to create Integration Services solutions, see the [Integration Services Developer InfoCenter](/previous-versions/sql/sql-server-2008-r2/ms137709(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180761). For more information about SQL Server Integration Services, see [SQL Server Integration Services](/previous-versions/sql/sql-server-2008-r2/ms141026(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180424).
+ You can use Integration Services to create data extraction, transformation, and loading (ETL) applications. It contains templates for packages, data sources, and data source views, and provides the tools for working with these objects. For more information, see [Integration Services](https://learn.microsoft.com/sql/integration-services/install-windows/install-integration-services?view=sql-server-ver16).
 
 ### Analysis Services
- You can use the Business Intelligence Development Studio to develop Online Analytical Processing (OLAP) cubes and data mining models in SQL Server Analysis Services. This project type includes templates for cubes, dimensions, mining structures, data sources, data source views, and roles, and provides the tools for working with these objects. For more information, see [Analysis Services in Business Intelligence Development Studio](/previous-versions/sql/sql-server-2008-r2/ms173767(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180756). For the Analysis Services documentation, see [SQL Server Analysis Services - Multidimensional Data](/previous-versions/sql/sql-server-2008-r2/bb522607(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180426) and [SQL Server Analysis Services - Data Mining](/previous-versions/sql/sql-server-2008-r2/bb510517(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180427).
+ You can use Analysis Services for decision support and business analytics. It provides enterprise-grade semantic data models for business reports and client applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools. For more information, see [Analysis Services](https://learn.microsoft.com/analysis-services/ssas-overview?view=asallproducts-allversions).
 
 ### Reporting Services
- You can use the Report Model and Report Server projects in Business Intelligence Development Studio for developing Reporting Services solutions that access DB2 data. The Report Model project type includes templates for report models, data sources, and data source views for you to use, and provides the tools you need for working with these objects. The Report Server project includes the templates you can use for working with reports and shared data sources. For more information, see Reporting Services in [Business Intelligence Development Studio](/previous-versions/sql/sql-server-2008-r2/ms173745(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180758). For the Reporting Services documentation, see [SQL Server Reporting Services](/previous-versions/sql/sql-server-2008-r2/ms159106(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180428).
+ You can use SQL Server Reporting Services (SSRS) set of on-premises tools and services to create, deploy, and manage paginated reports that access DB2 data. For more information, see [SQL Server Reporting Services](https://learn.microsoft.com/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver16).
 
 ### Replication
- Administrators can move data from SQL Server to DB2 by using Replication wizards in SQL Server Management Studio, as part of either snapshot or transactional replication operations. For Replication, SQL Server uses linked servers for connectivity and Integration Services for synchronizing data with DB2. For the SQL Server Replication documentation, see [SQL Server Replication](/previous-versions/sql/sql-server-2008-r2/ms151198(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180425).
+ Administrators can move data from SQL Server to DB2 by using the Replication capabilities of SQL Server. For the SQL Server Replication documentation, see [SQL Server Replication](https://learn.microsoft.com/sql/relational-databases/replication/sql-server-replication?view=sql-server-ver16).
 
 ### Query Processor
- Administrators and developers can use distributed queries to access data from multiple heterogeneous data sources including DB2. For more information about how to configure DB2 data sources, see Connectivity and Data Access. For more information about SQL Server distributed queries, see [Distributed Queries](/previous-versions/sql/sql-server-2008-r2/ms188721(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180429).
+ Administrators and developers can use distributed queries to access data from multiple heterogeneous data sources including DB2. For more information about how to configure DB2 data sources, see Connectivity and Data Access. For more information about SQL Server distributed queries, see [Distributed Queries](https://learn.microsoft.com/host-integration-server/core/query-processor2).
 
 ## Host File Access Methods
  Microsoft data providers for host files support multiple access methods, data set types, and record types, depending on the back end data source platform.
@@ -137,7 +132,6 @@ ms.topic: "article"
 |Provider|Command Types|Command Syntax|
 |--------------|-------------------|--------------------|
 |ADO.NET Provider for DB2|Dynamic SQL, Static SQL, Stored Procedures|ANSI SQL 92 Entry-level syntax supported by IBM DB2 servers|
-|Entity Provider for DB2|Dynamic SQL, Stored Procedures|ANSI SQL 92 Entry-level syntax supported by IBM DB2 servers|
 |BizTalk Adapter for DB2|Dynamic SQL, Stored Procedures|Subset of ANSI SQL 92 Entry-level syntax, specific to HIS data provider (SELECT, INSERT, UPDATE, DELETE, CALL)|
 |OLE DB Provider for DB2|Dynamic SQL, Static SQL, Stored Procedures|ANSI SQL 92 Entry-level syntax supported by IBM DB2 servers|
 |ODBC Driver for DB2|Dynamic SQL, Static SQL, Stored Procedures|ANSI SQL 92 Entry-level syntax supported by IBM DB2 servers|
@@ -150,7 +144,6 @@ ms.topic: "article"
 
 |Data Source|Data Provider|Data Provider Namespace or Program Name|Data Access Architecture|Programming Languages|
 |-----------------|-------------------|---------------------------------------------|------------------------------|---------------------------|
-|DB2|Microsoft Entity Provider for DB2|Microsoft.HostIntegration.MsDb2Client|ADO.NET Entity Framework|Microsoft Visual Basic.NET, Microsoft C#, Microsoft Visual C++|
 |DB2|Microsoft ADO.NET Data Provider for DB2|Microsoft.HostIntegration.MsDb2Client|ADO.NET|Microsoft Visual Basic.NET, Microsoft C#, Microsoft Visual C++|
 |DB2|Microsoft OLE DB Provider for DB2|DB2OLEDB|OLE DBADO.NET|Microsoft Visual Basic.NET, Microsoft C#, Microsoft Visual C++|
 |DB2|ODBC Driver for DB2|MSEIDB2D|ODBCOLE DBADO.NET|Microsoft Visual Basic.NET, Microsoft C#, Microsoft Visual C++|
@@ -161,17 +154,8 @@ ms.topic: "article"
 
  HIS data client for host files can access mainframe sequential, VSAM and partitioned data sets.
 
- You should use ADO.NET and the .NET Framework to develop all new custom applications to integrate important information stored in IBM DB2 databases and host file systems. ADO.NET and the .NET Framework offer many advantages over OLE. These include the ability to develop XML and Web-aware applications, efficient deployment of Web Services and Windows Communication Foundation Services in addition to making it easy to develop Windows and Web form-based applications.
+ You should use ADO.NET and the .NET Framework to develop all new custom applications to integrate important information stored in IBM DB2 databases and host file systems.
 
  ![DI&#95;DataClient2](../core/media/di-dataclient2.png "DI_DataClient2")
 
  HIS data client for Informix supports an OLE DB Provider for Informix that can be consumed from ADO.NET.
-
-### Entity Data Model
- Enterprise developers need to extend existing data storage systems, integrating valuable information more efficiently in new applications, without requiring changes to the underlying data store. Microsoft ADO.NET Data Services and Entity Data Model (EDM) provide the data architecture components and tools to enable enterprise developers to deliver new solutions faster, while retaining the data integrity and security of enterprise data stores. Data services provide an isolation layer between the physical data in the data store and the logical data used by applications. Modeling provides a way to work on the information with context associated with a given data-aware application or set of applications.
-
- ![DI&#95;DataClient3](../core/media/di-dataclient3.png "DI_DataClient3")
-
- HIS data client for DB2 supports a broad set of data providers, including an Entity Framework Provider for DB2.
-
- With the ADO.NET Entity Framework and Microsoft Entity Provider for DB2, which sits on top of the Microsoft ADO.NET Provider for DB2, enterprise developers can create data access applications by programming against a conceptual application model instead of programming directly against the DB2 storage schema. Using EDM with the Entity Provider for DB2, enterprise developers can deliver solutions faster, while decreasing the amount of code and maintenance required for data-aware applications.

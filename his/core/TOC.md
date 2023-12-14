@@ -15,8 +15,6 @@
 ####### [Setting Port Numbers (TN3270)](setting-port-numbers-tn3270-1.md)
 ####### [Deploying Hot Backup and Load Balancing (TN3270)](deploying-hot-backup-and-load-balancing-tn3270-1.md)
 ####### [Assigning LUs to an IP Address (TN3270)](assigning-lus-to-an-ip-address-tn3270-1.md)
-##### [Downstream Connections](downstream-connections2.md)
-###### [Deployment Strategies (Downstream Connections)](deployment-strategies-downstream-connections-2.md)
 #### [Planning APPC Connectivity](planning-appc-connectivity2.md)
 ##### [Understanding Peer-to-Peer Networking](understanding-peer-to-peer-networking2.md)
 ###### [Understanding CPI-C](understanding-cpi-c2.md)
