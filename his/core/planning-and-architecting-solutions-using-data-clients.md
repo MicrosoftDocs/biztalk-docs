@@ -85,23 +85,23 @@ ms.topic: "article"
  SQL Server provides a rich array of tools that you can use to create DB2 solutions with SQL Server consumers.
 
 ### SQL Server Management Studio
- SQL Server Management Studio is an integrated environment that you can use for accessing, configuring, managing, administering, and developing all components of SQL Server. You can use the graphical tools and script editors in SQL Server Management Studio to work with DB2 data and SQL Server data. In addition, SQL Server Management Studio works with all components of SQL Server such as Reporting Services and Integration Services. For more information, see [Using SQL Server Management Studio](https://learn.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16#download-ssms).
+ SQL Server Management Studio is an integrated environment that you can use for accessing, configuring, managing, administering, and developing all components of SQL Server. You can use the graphical tools and script editors in SQL Server Management Studio to work with DB2 data and SQL Server data. In addition, SQL Server Management Studio works with all components of SQL Server such as Reporting Services and Integration Services. For more information, see [Using SQL Server Management Studio](https://learn.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms).
 
  ![DI&#95;OLEDB&#95;Provider](../core/media/di-oledb-provider.png "DI_OLEDB_Provider")
 
  HIS data client for DB2 supports an OLE DB Provider for DB2 that can be consumed by all SQL Server technologies.
 
 ### Integration Services
- You can use Integration Services to create data extraction, transformation, and loading (ETL) applications. It contains templates for packages, data sources, and data source views, and provides the tools for working with these objects. For more information, see [Integration Services](https://learn.microsoft.com/sql/integration-services/install-windows/install-integration-services?view=sql-server-ver16).
+ You can use Integration Services to create data extraction, transformation, and loading (ETL) applications. It contains templates for packages, data sources, and data source views, and provides the tools for working with these objects. For more information, see [Integration Services](https://learn.microsoft.com/sql/integration-services/install-windows/install-integration-services).
 
 ### Analysis Services
- You can use Analysis Services for decision support and business analytics. It provides enterprise-grade semantic data models for business reports and client applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools. For more information, see [Analysis Services](https://learn.microsoft.com/analysis-services/ssas-overview?view=asallproducts-allversions).
+ You can use Analysis Services for decision support and business analytics. It provides enterprise-grade semantic data models for business reports and client applications such as Power BI, Excel, Reporting Services reports, and other data visualization tools. For more information, see [Analysis Services](https://learn.microsoft.com/analysis-services/ssas-overview).
 
 ### Reporting Services
- You can use SQL Server Reporting Services (SSRS) set of on-premises tools and services to create, deploy, and manage paginated reports that access DB2 data. For more information, see [SQL Server Reporting Services](https://learn.microsoft.com/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports?view=sql-server-ver16).
+ You can use SQL Server Reporting Services (SSRS) set of on-premises tools and services to create, deploy, and manage paginated reports that access DB2 data. For more information, see [SQL Server Reporting Services](https://learn.microsoft.com/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports).
 
 ### Replication
- Administrators can move data from SQL Server to DB2 by using the Replication capabilities of SQL Server. For the SQL Server Replication documentation, see [SQL Server Replication](https://learn.microsoft.com/sql/relational-databases/replication/sql-server-replication?view=sql-server-ver16).
+ Administrators can move data from SQL Server to DB2 by using the Replication capabilities of SQL Server. For the SQL Server Replication documentation, see [SQL Server Replication](https://learn.microsoft.com/sql/relational-databases/replication/sql-server-replication).
 
 ### Query Processor
  Administrators and developers can use distributed queries to access data from multiple heterogeneous data sources including DB2. For more information about how to configure DB2 data sources, see Connectivity and Data Access. For more information about SQL Server distributed queries, see [Distributed Queries](https://learn.microsoft.com/host-integration-server/core/query-processor2).
