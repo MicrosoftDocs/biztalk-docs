@@ -619,11 +619,15 @@
       "source_path": "his/core/sdlc-link-statistics1.md",
       "redirect_url": "his/core/network-management-with-netview1",
       "redirect_document_id": false
-    }
-    ,
+    },
     {
       "source_path": "his/core/token-ring-link-statistics2.md",
       "redirect_url": "his/core/network-management-with-netview1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/downstream-connections2.md",
+      "redirect_url": "/his/what-is-his",
       "redirect_document_id": false
     }
   ]
