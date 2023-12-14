@@ -1,5 +1,5 @@
 ---
-title: Logicical unit application (LUA) access
+title: Logical unit application (LUA) access
 description: Learn about LUA access so you can write customized applications to communicate with the host.
 ms.prod: host-integration-server
 ms.topic: conceptual
@@ -59,6 +59,5 @@ You can perform the following actions with LUA LUs:
 
 ## See also  
 
-[Precedence of Accounts in Determining LU Access](precedence-of-accounts-in-determining-lu-access1.md)
-[Downstream Connections (3270)](downstream-connections-3270-2.md)
-[Host Integration Server 3270 Connectivity](host-integration-server-3270-connectivity2.md)
+[Precedence of Accounts in Determining LU Access](precedence-of-accounts-in-determining-lu-access1.md)    
+[Host Integration Server 3270 Connectivity](host-integration-server-3270-connectivity2.md)    
