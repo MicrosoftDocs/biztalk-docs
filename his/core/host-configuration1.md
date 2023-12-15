@@ -26,10 +26,6 @@ Host configuration settings (VTAM, NCP, or IBM System i settings) must match the
 
   For the mainframe, this is set through MAXDATA in the PU definition. For the IBM System i, this is set through MAXFRAME. These should equal the Max BTU Length on the Host Integration Server connection.
 
-- **Other settings**
-
-  For some connections, other settings are also important. For example, for Synchronous Data Link Control (SDLC), the NRZ/NRZI settings on the host must match those on the Host Integration Server connection. For details about these and other settings, see the section about the type of connection you are configuring. |
-
 When you configure a new host connection or troubleshoot an existing connection, regardless of the connection type, the identifiers between the host and Host Integration Server must match. The following sections describe various configuration settings.
 
 ## In This Section

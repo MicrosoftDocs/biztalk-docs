@@ -3,7 +3,7 @@ title: Host Integration Server 3270 Connectivity
 description: Learn more about Host Integration Server 3270 connectivity.
 ms.prod: host-integration-server
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 12/13/2023
 
 ---
 
@@ -21,8 +21,6 @@ The 3270 LU is further classified by the type of service provided over the conne
 
 - Application (LUA)
 
-- Downstream
-
 After the LUs are configured, they are accessed from client computers and applications using Host Integration Server client software that is installed on the client workstation. The client software manages communications between a 3270 application (like a terminal emulator) and the Host Integration Server computer. Applications designed for the Host Integration Server client API use the LUs defined within Host Integration Server to establish a communications link from the client workstation to the mainframe by means of Host Integration Server.
 
 The link between the LU definition in Host Integration Server and the host LU resource is called a session. Sessions can be permanent and automatically started during initialization, or established on an as-needed basis. Concurrent sessions can share the same physical devices and communications links.
@@ -33,5 +31,4 @@ A 3270 user communicating with a host uses a 3270 LU. The 3270 LU has a specific
 
 - [LUA Access](../core/lua-access2.md)   
 - [Precedence of Accounts in Determining LU Access](../core/precedence-of-accounts-in-determining-lu-access1.md)   
-- [Downstream Connections (3270)](../core/downstream-connections-3270-2.md)   
 - [Understanding Connectivity](../core/understanding-connectivity1.md)

@@ -2,7 +2,7 @@
 description: "Learn more about: Logical Unit (LU)"
 title: "Logical Unit (LU)1"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/13/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,8 +14,6 @@ A logical unit (LU) is a configurable unit of software that contains the informa
 - APPC  
   
 - 3270  
-  
-- Downstream  
   
 - Logical unit application (LUA)  
   

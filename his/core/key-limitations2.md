@@ -2,7 +2,7 @@
 description: "Learn more about: Key Limitations"
 title: "Key Limitations2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/13/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,8 +12,6 @@ ms.topic: "article"
 The key limitations with the IP-DLC link service implementation are as follows:  
   
 -   The IP-DLC link service cannot be run as a distributed link service (DLS).  
-  
--   The PU Passthrough and Downstream connections are not supported over IP-DLC connections. It is not possible to have a one-to-one correspondence between upstream and downstream messages where the upstream connection is an IP-DLC connection.  
   
 -   Each IP-DLC link service must use a different CP name from the SNA node service.  
   
