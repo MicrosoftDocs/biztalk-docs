@@ -11,7 +11,7 @@ ms.topic: "article"
 # BizTalk Adapter for Host Files Configuration
 
 ## Overview
-The BizTalk Adapter for Host Files is a send and receive adapter that enables BizTalk orchestrations to interact with host systems. Specifically, the adapter enables send and receive operations over TCP/IP and APPC connections to host files that run on mainframe and IBM System i platforms. Based on Host Integration Server technology, the adapter uses Data Access Library metadata assemblies to configure connections, and the Microsoft .NET Framework data provider for host files to issue SQL commands and stored procedures.  
+The BizTalk Adapter for Host Files is a send and receive adapter that enables BizTalk orchestrations to interact with host systems. Specifically, the adapter enables send and receive operations over TCP/IP and APPC connections to host files that run on mainframe and IBM i platforms. Based on Host Integration Server technology, the adapter uses Data Access Library metadata assemblies to configure connections, and the Microsoft .NET Framework data provider for host files to issue SQL commands and stored procedures.  
 
  The adapter serves two main functions:  
 

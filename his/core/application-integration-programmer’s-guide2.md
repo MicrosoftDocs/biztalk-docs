@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Application Integration Programmer’s Guide
-This section of the Microsoft Host Integration Server Software Development Kit (SDK) provides information required to develop software to integrate .NET applications with Customer Information Control System (CICS) and Information Management System (IMS) transactions on IBM mainframe z/OS computers and callable RPG programs on midrange i5/OS computers.  
+This section of the Microsoft Host Integration Server Software Development Kit (SDK) provides information required to develop software to integrate .NET applications with Customer Information Control System (CICS) and Information Management System (IMS) transactions on IBM mainframe z/OS computers and callable RPG programs on midrange IBM i computers.  
   
  Transaction Integrator (TI) enables developers to integrate mainframe-based transaction programs (TPs) with component-based Microsoft Windows applications. With Transaction Integrator, you can integrate existing mainframe-based TPs with Windows-based .NET applications. You may not have to modify your mainframe TP if the business logic is separate from the presentation logic. The wizards available in the TI Designer and TI Manager guide you through the process, step-by-step.  
   
@@ -23,7 +23,7 @@ This section of the Microsoft Host Integration Server Software Development Kit (
   
 - Message Queuing  
   
-- IBM CICS or IMS transaction processing systems, or i5/OS servers  
+- IBM CICS or IMS transaction processing systems, or IBM i servers  
   
 - BizTalk Server  
   

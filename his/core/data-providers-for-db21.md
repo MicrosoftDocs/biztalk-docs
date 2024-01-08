@@ -1,8 +1,8 @@
 ---
 description: "Learn more about: DB2 Data Providers"
-title: "Data Providers for DB21"
+title: "Data Providers for DB2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "12/22/2023"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ ms.topic: "article"
  The Data Provider supports a combination of single byte character sets (SBCS), mixed-byte character sets (MBCS) double-byte character sets (DBCS), and Unicode - UTF8 [1208], which is an 8-bit Unicode transformation format.
 
 #### Host CCSID
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code).
+ The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and IBM i utilize EBCDIC (Extended Binary Coded Decimal Interchange Code).
 
 #### PC Code Page
  The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode.
@@ -89,8 +89,8 @@ ms.topic: "article"
 
  Schema information in OLE DB is retrieved using predefined schema rowsets with IDBSchemaRowset::GetRowset. The Data Provider exposed the PROVIDER_TYPES Rowset to indicate the DB2 to OLE DB data type support (types, mappings, limits), based on the IBM DB2 platform and version.
 
-#### DB2 for z/OS V9R1
- The Data Provider supports accessing these data types when connected to DB2 for z/OS (based on V9R1).
+#### DB2 for z/OS
+ The Data Provider supports accessing these data types when connected to DB2 for z/OS.
 
 |DB2 Type_name|OLE DB data_type|Column_size|Minimum_scale|Maximum_scale|
 |-|-|-|-|-|
@@ -119,8 +119,8 @@ ms.topic: "article"
 |Long Vargraphic|DBType_WSTR|16352|||
 |Varbinary|DBTypte_Bytes|32704|||
 
-#### DB2 for i5/OS V6R1
- The Data Provider supports accessing these data types when connected to DB2 for i5/OS (based on V6R1).
+#### DB2 for IBM i
+ The Data Provider supports accessing these data types when connected to DB2 for IBM i.
 
 |DB2 Type_name|OLE DB data_type|Column_size|Minimum_scale|Maximum_scale|
 |-|-|-|-|-|
@@ -146,8 +146,8 @@ ms.topic: "article"
 |CLOB|DBType_STR|2147483647|||
 |Varbinary|DBType_Bytes|32739|||
 
-#### DB2 for LUW V9.7
- The Data Provider supports accessing these data types when connected to DB2 for LUW (based on V9.7).
+#### DB2 for LUW
+ The Data Provider supports accessing these data types when connected to DB2 for LUW.
 
 |DB2 Type_name|OLE DB data_type|Column_size|Minimum_scale|Maximum_scale|
 |-|-|-|-|-|
@@ -179,7 +179,7 @@ ms.topic: "article"
 |Varbinary|DBTYPE_BYTES|32762|||
 
 #### SQL Server Integration Services
- When using the SQL Server Integration Services Import and Export Wizards from the Microsoft SQL Server Management Studio, you can customize the default data conversions by editing the XML mapping files. The XML files are located at ate C:\Program Files\Microsoft SQL Server\100\DTS\MappingFiles.
+ When using the SQL Server Integration Services Import and Export Wizards from the Microsoft SQL Server Management Studio, you can customize the default data conversions by editing the XML mapping files. The XML files are located at **C:\Program Files\Microsoft SQL Server\130\DTSMappingFiles** for 64-bit and **C:\Program Files (x86)\Microsoft SQL Server\130\DTSMappingFiles** for 32-bit.
 
 #### SQL Server Replication Services
  SQL Server Replication may convert data incorrectly, based on the default mappings from SQL Server to DB2 data types. We recommend that the administrator and developer review and revise the Replication data type mappings using the following SQL Server system stored procedures.
@@ -190,4 +190,4 @@ ms.topic: "article"
 
 - ·sp_setdefaultdatatypemapping
 
-  For more information, see the [System Stored Procedures (Transact-SQL)](/previous-versions/sql/sql-server-2005/ms187961(v=sql.90)) (https://go.microsoft.com/fwlink/?LinkID=180765) topic in SQL Server Books Online.
+  For more information, see the [System Stored Procedures (Transact-SQL)](sql/relational-databases/system-stored-procedures/system-stored-procedures-transact-sql).

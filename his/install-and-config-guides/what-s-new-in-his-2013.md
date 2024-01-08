@@ -67,7 +67,7 @@ The following sections in this topic contain information about new features and 
 
     -   IBM zVSE V5.1
 
-    -   IBM i5/OS V7R1
+    -   IBM IBM i V7R1
 
 -   IBM Transaction Processing Systems
 
@@ -75,7 +75,7 @@ The following sections in this topic contain information about new features and 
 
     -   IBM IMS V12
 
-    -   IBM i5/OS V7R1
+    -   IBM IBM i V7R1
 
 -   IBM Message Processing Systems
 
@@ -85,7 +85,7 @@ The following sections in this topic contain information about new features and 
 
     -   IBM DB2 for z/OS V10
 
-    -   IBM DB2 for i5/OS V7R1
+    -   IBM DB2 for IBM i V7R1
 
     -   IBM DB2 for LUW V10
 
@@ -95,7 +95,7 @@ The following sections in this topic contain information about new features and 
 
     -   IBM DFSMS DFM z/OS V1.12 and V1.13
 
-    -   IBM i5/OS V7R1
+    -   IBM IBM i V7R1
 
 ##  <a name="NetworkInteg"></a> Network Integration
 
@@ -115,7 +115,7 @@ The following sections in this topic contain information about new features and 
 
 -   **Client for DB2**
 
-     Updated Microsoft Client for DB2 supports the Distributed Relational Database Architecture Version 5 protocols and formats as a DRDA Application Requester client to IBM DB2 relational database systems. Now connects to IBM DB2 for z/OS V10, IBM DB2 for i5/OS V7R1, and IBM DB2 for LUW V10.
+     Updated Microsoft Client for DB2 supports the Distributed Relational Database Architecture Version 5 protocols and formats as a DRDA Application Requester client to IBM DB2 relational database systems. Now connects to IBM DB2 for z/OS V10, IBM DB2 for IBM i V7R1, and IBM DB2 for LUW V10.
 
 -   **ODBC Driver for DB2**
 
@@ -139,7 +139,7 @@ The following sections in this topic contain information about new features and 
 
 -   **Client for Host Files**
 
-     Updated Microsoft Client for Host Files supports the Distributed Data Management Record-Level Input/output protocols and formats as a DDM client to IBM host file systems on z/OS and i5/OS. Now supports improved code page and data type conversion using common HIS Encoder. Now connects to IBM DFSMS DFM z/OS V1.12 and V1.13, and IBM i5/OS V7R1.
+     Updated Microsoft Client for Host Files supports the Distributed Data Management Record-Level Input/output protocols and formats as a DDM client to IBM host file systems on z/OS and IBM i. Now supports improved code page and data type conversion using common HIS Encoder. Now connects to IBM DFSMS DFM z/OS V1.12 and V1.13, and IBM IBM i V7R1.
 
 -   **ADO.NET Framework Data Provider for Host Files**
 
@@ -169,7 +169,7 @@ The following sections in this topic contain information about new features and 
 
 -   **Connection Pooling for Host Files**
 
-     New client connection pooling to improve scalability and performance when connecting updated Client for Host Files to remote IBM i5/OS via a TCP/IP network connection.
+     New client connection pooling to improve scalability and performance when connecting updated Client for Host Files to remote IBM IBM i via a TCP/IP network connection.
 
 -   **Static SQL Packages for DB2**
 
@@ -234,7 +234,7 @@ The following sections in this topic contain information about new features and 
 ##  <a name="Removed"></a> Removed Features
  The following features have been removed from Host Integration Server.
 
--   **Microsoft OLE DB Provider for AS/400 and VSAM**
+-   **Microsoft OLE DB Provider for IBM i and VSAM**
 
      You should use the Microsoft ADO.NET Framework Data Provider for Host Files or Microsoft BizTalk Adapter for Host Files.
 

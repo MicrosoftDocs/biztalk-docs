@@ -348,7 +348,7 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
  The **packageDecimalPrecision** attribute informs the DRDA Server the default decimal precision. This optional attribute accepts an integer value of 15, 16, 31 or 63. The default value is 15.  
   
 > [!NOTE]
->  When connecting to IBM DB2 for i5/OS, you should not specify this attribute.  
+>  When connecting to IBM DB2 for IBM i, you should not specify this attribute.  
   
 ### Package Authorization Rules  
  The **packageExecuteAuthorization** attribute informs the DRDA Server which authorization identifier to use when executing dynamic SQL statements. This optional element attribute a string value. The default value is **Requester**.  
@@ -374,18 +374,18 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
  The default value is **ExplainNone**.  
   
 > [!NOTE]
->  When connecting to IBM DB2 for i5/OS and DB2 for LUW, you should specify a value of **ExplainNone** only.  
+>  When connecting to IBM DB2 for IBM i and DB2 for LUW, you should specify a value of **ExplainNone** only.  
   
 ### Package Isolation Level  
  The **packageIsolationLevel** attribute instructs the DRDA Server to bind the package with the requested DRDA PKGISOLVL (Package Isolation Level). This required attribute accepts a string value. The default value is **ReadCommitted**.  
   
 |Value|Description|  
 |-|-|  
-|ReadCommitted|ANSI READ COMMITTED<br /><br /> DRDA ISOLVLCS (Isolation Level Cursor Stability)<br /><br /> IBM DB2 CURSOR STABILITY (CS)<br /><br /> IBM DB2 for i5/OS COMMIT(*CS)<br /><br /> Microsoft .NET Framework ReadCommitted|  
-|Serializable|ANSI SERIALIZABLE<br /><br /> DRDA ISOLVLRR (Isolation Level Repeatable Read)<br /><br /> IBM DB2 REPEATABLE READ (RR)<br /><br /> IBM DB2 for i5/OS COMMIT(*RR)<br /><br /> Microsoft .NET Framework Serializable|  
-|RepeatableRead|ANSI REPEATABLE READ<br /><br /> DRDA ISOLVLALL (Isolation Level All)<br /><br /> IBM DB2 READ STABILITY (RS)<br /><br /> IBM DB2 for i5/OS COMMIT(*RS)<br /><br /> Microsoft .NET Framework RepeatableRead|  
-|ReadUncommitted|ANSI READ UNCOMMITTED<br /><br /> DRDA ISOLVLCHG (Isolation Level Change)<br /><br /> IBM DB2 UNCOMMITTED READ (UR)<br /><br /> IBM DB2 for i5/OS COMMIT(*UR)<br /><br /> Microsoft .NET Framework ReadUncommitted|  
-|NoCommit|DRDA ISOLVLNC (Isolation Level No Commit)<br /><br /> IBM DB2 for i5/OS COMMIT(*NC)|  
+|ReadCommitted|ANSI READ COMMITTED<br /><br /> DRDA ISOLVLCS (Isolation Level Cursor Stability)<br /><br /> IBM DB2 CURSOR STABILITY (CS)<br /><br /> IBM DB2 for IBM i COMMIT(*CS)<br /><br /> Microsoft .NET Framework ReadCommitted|  
+|Serializable|ANSI SERIALIZABLE<br /><br /> DRDA ISOLVLRR (Isolation Level Repeatable Read)<br /><br /> IBM DB2 REPEATABLE READ (RR)<br /><br /> IBM DB2 for IBM i COMMIT(*RR)<br /><br /> Microsoft .NET Framework Serializable|  
+|RepeatableRead|ANSI REPEATABLE READ<br /><br /> DRDA ISOLVLALL (Isolation Level All)<br /><br /> IBM DB2 READ STABILITY (RS)<br /><br /> IBM DB2 for IBM i COMMIT(*RS)<br /><br /> Microsoft .NET Framework RepeatableRead|  
+|ReadUncommitted|ANSI READ UNCOMMITTED<br /><br /> DRDA ISOLVLCHG (Isolation Level Change)<br /><br /> IBM DB2 UNCOMMITTED READ (UR)<br /><br /> IBM DB2 for IBM i COMMIT(*UR)<br /><br /> Microsoft .NET Framework ReadUncommitted|  
+|NoCommit|DRDA ISOLVLNC (Isolation Level No Commit)<br /><br /> IBM DB2 for IBM i COMMIT(*NC)|  
   
 ### Package Owner Identifier  
  The **packageOwnerIdentifier** attribute instructs the DRDA Server which authorization identifier is the owner of the package. This optional attribute accepts a string value. There is no default value for this element.  
@@ -433,7 +433,7 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 |System|Indicates the system default|  
   
 ### Default RDB Collection ID  
- The **defaultRdbCollection** attribute informs the DRDA Server what default collection identifier to use to complete unqualified database object names. This optional attribute accepts a string value. There is no default value. IBM DB2 for z/OS accepts a 128-byte string. IBM DB2 for i5/OS accepts a 10-byte string. IBM DB2 for LUW accepts a 30-byte string.  
+ The **defaultRdbCollection** attribute informs the DRDA Server what default collection identifier to use to complete unqualified database object names. This optional attribute accepts a string value. There is no default value. IBM DB2 for z/OS accepts a 128-byte string. IBM DB2 for IBM i accepts a 10-byte string. IBM DB2 for LUW accepts a 30-byte string.  
   
 ### Release Database Object Resources  
  The **releaseDatabaseResources** attribute informs the DRDA Server when to release database object resources such as locks that are associated with the package execution. This optional attribute accepts a string value. A value of Commit instructs the DRDA Server to release database object resources when processing a transaction commit. A value of **Deallocation** instructs the DRDA Server to release database object resources when de-allocating the session. The default value is **Commit**.  
@@ -493,7 +493,7 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
  The package element contains a set of attributes and a sections element.  
   
 ### Collection Identifier  
- The **collectionIdentifier** attribute corresponds to the DRDA RDBCOLID (RDB Collection Identifier) and instructs the DRDA Server into which collection to bind the package. This optional element accepts a string value. There is no default value. IBM DB2 for z/OS accepts a 128-byte string. IBM DB2 for i5/OS accepts a 10-byte string. IBM DB2 for LUW accepts a 30-byte string.  
+ The **collectionIdentifier** attribute corresponds to the DRDA RDBCOLID (RDB Collection Identifier) and instructs the DRDA Server into which collection to bind the package. This optional element accepts a string value. There is no default value. IBM DB2 for z/OS accepts a 128-byte string. IBM DB2 for IBM i accepts a 10-byte string. IBM DB2 for LUW accepts a 30-byte string.  
   
 > [!NOTE]
 >  DRDA defines a fully-qualified static SQL package using a PKGNAM (RDB Package Name) that consists of these multiple parts.  
@@ -753,4 +753,4 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
 |DBCS|EBCDIC|4396|NA|IBM EBCDIC - Japan|  
   
 > [!NOTE]
->  The Microsoft ADO.NET Data Provider for DB2 supports a set of Coded Character Set Identifiers. IBM DB2 database servers for z/OS and i5/OS typically use EBCDIC. For more information, see
+>  The Microsoft ADO.NET Data Provider for DB2 supports a set of Coded Character Set Identifiers. IBM DB2 database servers for z/OS and IBM i typically use EBCDIC. For more information, see

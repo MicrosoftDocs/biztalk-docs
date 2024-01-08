@@ -34,11 +34,11 @@ The following sections provide help for operating Microsoft Service for DRDA (DR
 
 1.  On the Start menu, point to All Programs, point to Microsoft Visual Studio 2010, point to Visual Studio Tools, right click Visual Studio x64 Win64 Command Prompt (2010), and click Run as administrator. The User Account Control dialog will appear. Click Yes to continue.
 
-2.  From the command prompt, enter cd C:\Windows\system32>cd C:\Program Files\Microsoft Host Integration Server 2013\system and press Enter.
+2.  From the command prompt, enter cd C:\Windows\system32>cd C:\Program Files\Microsoft Host Integration Server 2020\system and press Enter.
 
     ```
-    C:\Program Files\Microsoft Host Integration Server 2013\system>MsDrdaService.exe -c
-    C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC>msdrdaservice -c
+    C:\Program Files\Microsoft Host Integration Server 2020\system>MsDrdaService.exe -c
+    C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC>msdrdaservice -c
     Information:0:0:[Oct 10 2012 16:46:11.581] Microsoft Service for DRDA (build: 9.0.1651.0 )
     Information:0:0:[Oct 10 2012 16:46:11.597] TCP communication manager listening on port 446
     ```

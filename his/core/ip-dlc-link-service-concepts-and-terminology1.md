@@ -30,7 +30,7 @@ The following is a brief introduction to the terminology and concepts that are r
  Advanced Peer-to-Peer Networking (APPN) is a network architecture that supports distributed network control. It makes networks easier to configure and use, provides centralized network management, and supports flexible connectivity.  
   
 ## APPN Nodes  
- APPN nodes include systems of various sizes, such as mainframes using z/OS, Solaris servers running DCLs SNAP-IX, PCs running IBM Communications Server for Windows and IBM i5/OS servers.  
+ APPN nodes include systems of various sizes, such as mainframes using z/OS, Solaris servers running DCLs SNAP-IX, PCs running IBM Communications Server for Windows and IBM IBM i servers.  
   
  In an APPN network, nodes can be one of the following types:  
   

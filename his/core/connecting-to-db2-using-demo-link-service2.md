@@ -15,7 +15,7 @@ Host Integration Server includes two off-line demo link connections that enable 
   
 - [Configuring a Demo Data Source for DB2](../core/connecting-to-db2-using-demo-link-service2.md#ds)  
   
-  In these walkthroughs, you will use SNA Manager to configure a demo link service, connection, and logical units to simulate a connection to IBM DB2 for i5/OS. You will use the Data Access Tool and Data Source Wizard to configure and test a data source definition for DB2.  
+  In these walkthroughs, you will use SNA Manager to configure a demo link service, connection, and logical units to simulate a connection to IBM DB2 for IBM i. You will use the Data Access Tool and Data Source Wizard to configure and test a data source definition for DB2.  
   
 ##  <a name="sna"></a> Configuring a Demo SNA Connection for DB2  
   
@@ -74,7 +74,7 @@ Host Integration Server includes two off-line demo link connections that enable 
   
     -   Remote APPC LUs  
   
-11. Right-click the **SNA Service [Inactive]** item, click **All Tasks**, and then click **IBM System i Wizard**.  The IBM System i Configuration Wizard appears.  
+11. Right-click the **SNA Service [Inactive]** item, click **All Tasks**, and then click **IBM i Wizard**.  The IBM i Configuration Wizard appears.  
   
 12. In the **Welcome** dialog box, click **Next**.  The SNA Service dialog appears.  
   
@@ -82,15 +82,15 @@ Host Integration Server includes two off-line demo link connections that enable 
   
 14. In the **Connection** dialog box, type a name for the connection, such as `DRDADEMO`, and then click **Next**.  The Link Service dialog appears.  
   
-15. In the **Link Service** dialog box, click the **SNADEMO1** item, and then click **Next**.  The IBM System i Name dialog appears.  
+15. In the **Link Service** dialog box, click the **SNADEMO1** item, and then click **Next**.  The IBM i Name dialog appears.  
   
-16. In the **IBM System i Name**, verify that the **Network name** is **APPN** and the **Control Point Name** is **DRDADEMO**, and then click **Next**.  The Link Identification dialog appears.  
+16. In the **IBM i Name**, verify that the **Network name** is **APPN** and the **Control Point Name** is **DRDADEMO**, and then click **Next**.  The Link Identification dialog appears.  
   
 17. In the **Link Identification** dialog box, verify that the **PU address (PUADDR)** is **C1**, and then click **Next**.  The Completion dialog appears.  
   
-18. In the **Completion** dialog box, click **Finish**. The SNA Manager displays an IBM System i Configuration Wizard confirmation dialog.  
+18. In the **Completion** dialog box, click **Finish**. The SNA Manager displays an IBM i Configuration Wizard confirmation dialog.  
   
-19. In the **IBM System i Configuration Wizard** confirmation dialog box, click **OK**.  
+19. In the **IBM i Configuration Wizard** confirmation dialog box, click **OK**.  
   
 20. Double-click the **Connections** folder, see the **DRDADEMO** connection.  
   

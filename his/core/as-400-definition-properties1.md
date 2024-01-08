@@ -1,29 +1,29 @@
 ---
-title: Definition properties for IBM System i
-description: Learn more about definition properties for IBM System i.
+title: Definition properties for IBM i
+description: Learn more about definition properties for IBM i.
 ms.prod: host-integration-server
 ms.topic: conceptual
 ms.date: 11/28/2023
 ---
 
-# Definition properties for IBM System i
+# Definition properties for IBM i
 
-The following tabs are available on the definition properties for IBM System i:
+The following tabs are available on the definition properties for IBM i:
 
-## IBM System i Definition Properties: General  
+## IBM i Definition Properties: General  
 
 | Property | Description |
 |----------|-------------|
-| **IBM System i Remote LU Alias** | From the list, select **IBM System i Remote LU Alias**, which contains addressing information for the IBM System i. |
+| **IBM i Remote LU Alias** | From the list, select **IBM i Remote LU Alias**, which contains addressing information for the IBM i. |
 | **Local LU Alias** | From the list, select **Local LU Alias**. The **Local LU Alias** maps to the LU the client computer will use. |
 | **Mode** | You must select **QPCSUPP mode**. |
 | **System 36, AS/36** | Select if you're connecting to a System 36 or AS/36 computer system. |
-| **IBM System i User Name** | Enter your **IBM System i User Name**, which is required information. |
-| **IBM System i Password** | Enter your **IBM System i Password**, which is required information. |
+| **IBM i User Name** | Enter your **IBM i User Name**, which is required information. |
+| **IBM i Password** | Enter your **IBM i Password**, which is required information. |
 | **Confirm Password** | Enter your password again to confirm. |
 | **Comment** Optionally, enter a comment that's not more than 25 characters long. |
   
-## IBM System i Definition Properties: Terminal Types  
+## IBM i Definition Properties: Terminal Types  
 
 **Terminal Names**: Terminal names are displayed. You can remove selection of individual terminal names that don't apply to your network configuration by clearing the checkbox opposite the name.
 
@@ -41,7 +41,7 @@ To override the default value for a given session. select **Use**, and enter ano
 
 Configuration changes are apparent only to users who establish a connection after the configuration changes are saved. Users who are connected when configuration changes are made aren't affected.
   
-## IBM System i Definition Properties: IP Address List  
+## IBM i Definition Properties: IP Address List  
 
 You can associate this LUA to a specific IP address or server name. The IP address for an incoming connection is compared to each of the available LUs or pools in turn. Each resource has an associated list of IP address patterns and subnet masks. The IP address from the incoming connection is masked (by bit and by the resource's subnet mask) and is then compared to the resource's IP address pattern masked by the resource's subnet mask. If the result is equal, the connection is allocated to this resource.
 
