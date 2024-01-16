@@ -223,6 +223,9 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
       - Client Tools Connectivity
       - Integration Services
 
+     > [!NOTE]
+     > In order to configure Business Activity Monitoring (BAM) when SQL is remote to BizTalk, you also need to install SSIS on the BizTalk server. 
+
 3. Configure Analysis Services in Multidimensional Mode. Default is Tabular Mode, make sure to change it to Multidimensional Mode in SQL Server installation wizard before continuing with installation.
 
     ![Change Analysis Services from tabular mode to multidimensional mode when installing SQL server](../install-and-config-guides/media/sqlasconfiguration.png)
