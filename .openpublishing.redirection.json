@@ -1080,6 +1080,16 @@
       "source_path": "his/core/connection-properties-channel1.md",
       "redirect_url": "/his/what-is-his",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/sna-trace-provider-wmi-programmer’s-reference1.md",
+      "redirect_url": "/his/core/sna-trace-provider-wmi-programmers-reference1.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/application-integration-programmer’s-guide2.md",
+      "redirect_url": "/his/core/application-integration-programmers-guide2.md",
+      "redirect_document_id": false
     }
   ]
 }
