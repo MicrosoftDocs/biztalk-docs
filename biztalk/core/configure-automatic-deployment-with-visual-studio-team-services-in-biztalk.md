@@ -26,7 +26,7 @@ We show you how to setup Azure DevOps with [!INCLUDE[btsBizTalkServerNoVersion_m
 ## Before you begin
 
 * Have Azure DevOps account ready. Don't have one? [Sign up for Visual Studio Team Services](https://www.visualstudio.com/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services).
-* If you already have a Azure DevOps Agent installed on your BizTalk computer, then the existing agent is overwritten with the latest Azure DevOps Agent. You may have to update your [VSTS service to align with the new agent](https://www.visualstudio.com/docs/build/actions/agents/v2-windows#replace-an-agent).
+* If you already have an Azure DevOps Agent installed on your BizTalk computer, then the existing agent is overwritten with the latest Azure DevOps Agent. You may have to update your [VSTS service to align with the new agent](https://www.visualstudio.com/docs/build/actions/agents/v2-windows#replace-an-agent).
 
 ## Prerequisites
 
