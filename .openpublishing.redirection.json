@@ -1090,6 +1090,182 @@
       "source_path": "his/core/application-integration-programmer’s-guide2.md",
       "redirect_url": "/his/core/application-integration-programmers-guide2.md",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/his-2013-what-s-new-install-and-configure.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/what-s-new-in-his-2013.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/installing-his-2013.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/installation-guide1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/installation-help2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-wizard-help2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-of-common-settings2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-of-advanced-properties2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-of-network-integration2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-of-advanced-network-properties1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-of-drda-service.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-of-transaction-integrator1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-of-session-integrator2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-start2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-overview2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-summary1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-progress1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-completed2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/unconfiguration-of-features2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/configuration-of-message-integrator2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/configuration-of-enterprise-single-sign-on2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/configuration-of-enterprise-single-sign-on-backup-secret1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/view-configuration-of-service-accounts1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/view-configuration-of-services2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/view-configuration-of-database-accounts1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/install-and-config-guides/view-configuration-of-databases2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/adapters-and-link-service-problems1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/sdlc-adapters-and-link-services-installation-pointers2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/x-25-adapters-and-link-services-installation-pointers1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/sdlc-connection-pointers1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/troubleshooting-sdlc-connections1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/x-25-connection-pointers2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/troubleshooting-x-25-connections2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/settings-to-check-on-channel-connections2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/dls-status-problems2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
     }
+    
   ]
 }
