@@ -3,7 +3,7 @@ description: "Learn more about: Configuration of Session Integrator"
 title: "Configure Session Integrator"
 ms.custom: ""
 ms.date: 10/24/2016
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

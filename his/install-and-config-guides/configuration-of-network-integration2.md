@@ -3,7 +3,7 @@ description: "Learn how to configure Network Integration including Client Protoc
 title: "Configure Network Integration"
 ms.custom: ""
 ms.date: 10/24/2016
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn about the attributes, child elements, parent elements, and s
 title: "db2ToSql3"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

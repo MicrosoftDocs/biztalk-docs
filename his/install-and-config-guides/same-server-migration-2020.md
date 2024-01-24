@@ -3,7 +3,7 @@ description: "Learn how to use the HIS Migration tool to migrate from an earlier
 title: "Same Server Migration with the HIS Migration tool"
 ms.custom: ""
 ms.date: "04/16/2021"
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Defining a Variable-length Table with the OCCURS
 title: "Defining a Variable-length Table with the OCCURS DEPENDING Clause"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

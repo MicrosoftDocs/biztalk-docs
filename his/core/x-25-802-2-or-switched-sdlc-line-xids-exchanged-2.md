@@ -3,7 +3,7 @@ description: "Learn more about: X.25, 802.2, or Switched SDLC Line (XIDs Exchang
 title: "X.25, 802.2, or Switched SDLC Line (XIDs Exchanged)2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Precedence of Accounts in Determining LU Access"
 title: "Precedence of Accounts in Determining LU Access1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

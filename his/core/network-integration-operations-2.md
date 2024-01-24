@@ -3,7 +3,7 @@ title: "Network Integration user guide and management"
 description: Use IP-DLC Link Service, SNA service, and Active Directory to administer your environment. Also covers using NetView to manage the network, and includes command line and Windows PowerShell tools - Host Integration Server (HIS)
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

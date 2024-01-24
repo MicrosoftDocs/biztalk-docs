@@ -3,7 +3,7 @@ description: "Learn more about: Security Features in the Data Provider for Infor
 title: "Security Features in the Data Provider for Informix"
 ms.custom: ""
 ms.date: "07/12/2023"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

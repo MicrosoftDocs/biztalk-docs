@@ -3,7 +3,7 @@ description: "Learn more about: Table of Parameters for IBM System i Communicati
 title: "Table of Parameters for AS-400 Communication1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

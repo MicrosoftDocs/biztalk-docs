@@ -3,7 +3,7 @@ description: "Learn more about: IBM System i Distributed Program Calls"
 title: "OS-400 Distributed Program Calls1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

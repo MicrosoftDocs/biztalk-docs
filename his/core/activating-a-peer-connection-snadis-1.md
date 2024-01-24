@@ -3,7 +3,7 @@ description: "Learn more about: Activate a Peer Connection (SNADIS)"
 title: "Activate a Peer Connection (SNADIS)"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

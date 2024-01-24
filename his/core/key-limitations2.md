@@ -3,7 +3,7 @@ description: "Learn more about: Key Limitations"
 title: "Key Limitations2"
 ms.custom: ""
 ms.date: "12/13/2023"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

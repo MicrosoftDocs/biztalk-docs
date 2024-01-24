@@ -3,7 +3,7 @@ description: "Learn about security in the DRDA Service that connects IBM DB2 DRD
 title: "Security1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

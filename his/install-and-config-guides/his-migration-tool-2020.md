@@ -2,7 +2,7 @@
 description: Move to Host Integration Server 2020 from an older or previous version. Or, move an existing HIS 2020 configuration to another server.
 title: HIS 2020 Migration Tool
 ms.date: 04/16/2021
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ---
 

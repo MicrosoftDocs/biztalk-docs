@@ -1,7 +1,7 @@
 ---
 title: 5250 terminal connections for IBM System i
 description: Learn more about terminal connections for IBM System i 5250.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/23/2023
 ---

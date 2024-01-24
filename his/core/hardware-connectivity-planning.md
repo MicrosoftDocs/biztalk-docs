@@ -3,7 +3,7 @@ title: "Hardware and connectivity"
 description: Get started planning for capacity of your servers, hardware needs, connectivity using 3270 and Advanced Program-to-Program Communications (APCC), and the communication between client and server using Host Integration Server (HIS)
 ms.custom: ""
 ms.date: 01/03/2018
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.topic: "article"
 ---
 # Capacity planning and connectivity - HIS

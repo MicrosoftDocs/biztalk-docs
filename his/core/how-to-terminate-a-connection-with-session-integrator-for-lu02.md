@@ -3,7 +3,7 @@ description: "Learn more about: How to Terminate a Connection with Session Integ
 title: "How to Terminate a Connection with Session Integrator for LU02"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -1,7 +1,7 @@
 ---
 title: 5250 client status line
 description: Learn more about the 5250 client status line.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/28/2023
 ---

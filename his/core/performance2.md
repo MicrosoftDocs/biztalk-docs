@@ -3,7 +3,7 @@ description: "Learn how to configure the Data Providers for DB2 to improve perfo
 title: "Performance2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

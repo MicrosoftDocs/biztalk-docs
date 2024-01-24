@@ -3,7 +3,7 @@ description: "Learn more about: Open Systems Code Page Support (SNANLS)"
 title: "Open Systems Code Page Support (SNANLS)2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

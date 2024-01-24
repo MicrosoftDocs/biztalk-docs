@@ -3,7 +3,7 @@ description: "Learn more about: HIS 2020 - What's New, Release Notes, System Req
 title: "HIS 2020 - What's New, Release Notes, System Requirements, and Installation"
 ms.custom: ""
 ms.date: "5/5/2020"
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

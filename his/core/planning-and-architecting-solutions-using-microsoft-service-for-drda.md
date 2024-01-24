@@ -3,7 +3,7 @@ description: "Learn more about: Planning and Architecting Solutions Using Micros
 title: "Planning and Architecting Solutions Using Microsoft Service for DRDA"
 ms.custom: ""
 ms.date: "12/13/2023"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

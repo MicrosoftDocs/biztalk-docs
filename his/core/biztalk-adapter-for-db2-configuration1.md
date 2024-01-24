@@ -3,7 +3,7 @@ title: "Configure BizTalk Adapter for DB2"
 description: Create a receive location, send port, and schema using the BizTalk Adapter for DB2 in Host Integration Server (HIS)
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

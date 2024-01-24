@@ -3,7 +3,7 @@ description: "Learn more about: IcomLUO.SendResponse Method"
 title: "IcomLUO.SendResponse Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

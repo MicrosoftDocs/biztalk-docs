@@ -3,7 +3,7 @@ description: "Learn more about: Create a DB2 Package"
 title: "Create a DB2 Package"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

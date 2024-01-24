@@ -3,7 +3,7 @@ description: "Learn more about: Contents of IHVLinks Sample Kit on Host Integrat
 title: "Contents of IHVLinks Sample Kit on Host Integration Server1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

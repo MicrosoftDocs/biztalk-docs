@@ -3,7 +3,7 @@ description: "Learn more about: An Example of a Mapped Conversation (CPI-C)"
 title: "Mapped Conversation (CPI-C) Example"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

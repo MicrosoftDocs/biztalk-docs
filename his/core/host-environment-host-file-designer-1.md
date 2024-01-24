@@ -3,7 +3,7 @@ description: "Learn more about: Host Environment (Host File Designer)"
 title: "Host Environment (Host File Designer)1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

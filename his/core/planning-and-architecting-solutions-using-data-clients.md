@@ -3,7 +3,7 @@ description: "Learn more about: Planning and Architecting Solutions Using Data C
 title: "Planning and Architecting Solutions Using Data Clients"
 ms.custom: ""
 ms.date: "12/14/2023"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

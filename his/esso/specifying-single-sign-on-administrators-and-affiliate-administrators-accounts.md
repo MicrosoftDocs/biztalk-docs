@@ -3,7 +3,7 @@ description: "Learn more about: Specifying Single Sign-On Administrators and Aff
 title: "Specifying Single Sign-On Administrators and Affiliate Administrators Accounts"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

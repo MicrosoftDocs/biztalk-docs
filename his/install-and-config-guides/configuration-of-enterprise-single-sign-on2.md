@@ -3,7 +3,7 @@ description: "Learn more about: Configuration of Enterprise Single Sign-On"
 title: "Configuration of Enterprise Single Sign-On2"
 ms.custom: ""
 ms.date: 10/24/2016
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

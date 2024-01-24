@@ -3,7 +3,7 @@ description: "Learn more about: Install HIS 2013"
 title: "Install HIS 2013"
 ms.custom: ""
 ms.date: 10/24/2016
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

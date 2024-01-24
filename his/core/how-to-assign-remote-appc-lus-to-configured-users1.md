@@ -3,7 +3,7 @@ description: "Learn more about: How to Assign Remote APPC LUs to Configured User
 title: "How to Assign Remote APPC LUs to Configured Users1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

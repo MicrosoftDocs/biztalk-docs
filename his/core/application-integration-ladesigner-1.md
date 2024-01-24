@@ -1,7 +1,7 @@
 ---
 title: Extend Host Integration Server with Azure Logic Apps
 description: Learn about extending Host Integration Server capabilities with Azure Logic Apps.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 10/25/2023
 

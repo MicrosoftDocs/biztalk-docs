@@ -1,7 +1,7 @@
 ---
 title: Security for IBM System i
 description: Learn more about security for IBM System i.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/30/2017
 ---

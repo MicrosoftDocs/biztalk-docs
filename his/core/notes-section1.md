@@ -1,7 +1,7 @@
 ---
 title: Notes about IBM System i computers
 description: Learn more about IBM System i computers along with local and remote names.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/30/2017
 ---

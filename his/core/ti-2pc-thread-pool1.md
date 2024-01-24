@@ -3,7 +3,7 @@ description: "Learn more about: TI 2PC Thread Pool"
 title: "TI 2PC Thread Pool1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

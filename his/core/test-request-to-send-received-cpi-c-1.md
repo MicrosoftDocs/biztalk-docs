@@ -3,7 +3,7 @@ description: "Learn more about: Test_Request_To_Send_Received (CPI-C)"
 title: "Test_Request_To_Send_Received (CPI-C)1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

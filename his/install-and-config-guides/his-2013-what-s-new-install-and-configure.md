@@ -3,7 +3,7 @@ description: "Learn more about: HIS 2013 - What's New, Install, and Configure"
 title: "HIS 2013 - What's New, Install, and Configure"
 ms.custom: ""
 ms.date: "10/24/2016"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

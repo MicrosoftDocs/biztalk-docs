@@ -3,7 +3,7 @@ description: "Learn more about: Delete_CPIC_Side_Information (CPI-C)"
 title: "Delete_CPIC_Side_Information (CPI-C)2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
