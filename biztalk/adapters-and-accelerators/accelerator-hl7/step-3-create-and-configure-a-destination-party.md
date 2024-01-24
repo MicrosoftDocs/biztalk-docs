@@ -2,7 +2,7 @@
 description: "Learn more about: Step 3: Create and Configure a Destination Party"
 title: "Step 3: Create and Configure a Destination Party"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 3: Create and Configure a Destination Party

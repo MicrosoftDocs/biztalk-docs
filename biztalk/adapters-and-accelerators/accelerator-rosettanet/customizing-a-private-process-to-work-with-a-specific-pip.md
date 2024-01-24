@@ -3,7 +3,7 @@ description: "Learn more about: Customizing a Private Process to Work with a Spe
 title: "Customizing a Private Process to Work with a Specific PIP"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

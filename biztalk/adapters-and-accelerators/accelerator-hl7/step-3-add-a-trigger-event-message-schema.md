@@ -2,7 +2,7 @@
 description: "Learn more about: Step 3: Add a Trigger Event (Message) Schema"
 title: "Step 3: Add a Trigger Event (Message) Schema"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 3: Add a Trigger Event (Message) Schema

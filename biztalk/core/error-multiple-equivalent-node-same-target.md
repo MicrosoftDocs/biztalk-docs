@@ -3,7 +3,7 @@ description: "Learn more about: Error - Multiple Equivalent Node Same Target"
 title: "Error - Multiple Equivalent Node Same Target"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -2,7 +2,7 @@
 description: "Learn more about: Message Types and Events"
 title: "Message Types and Events"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Message Types and Events

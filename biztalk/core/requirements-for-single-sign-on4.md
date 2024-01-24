@@ -3,7 +3,7 @@ description: "Learn about the requirements for using Single Sign-On (SSO) in the
 title: "SSO requirements for TIBCO EMS adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

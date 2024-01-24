@@ -3,7 +3,7 @@ description: "Learn more about: Message Schemas for the Basic Insert, Update, De
 title: "Message Schemas for the Basic Insert, Update, Delete, and Select Operations on Tables and Views"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn how to add Scope shapes that contain an exception handler in
 title: "How to Add a Scope Shape2"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

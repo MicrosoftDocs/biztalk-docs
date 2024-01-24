@@ -3,7 +3,7 @@ description: "Learn more about: Building blocks to create BizTalk applications w
 title: "Building blocks to create BizTalk applications with the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

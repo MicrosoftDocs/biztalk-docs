@@ -3,7 +3,7 @@ title: "Resolve incomplete activity instances"
 description: BAM activity instances remain active after backing up the BAMPrimaryImport database in BizTalk Server
 ms.custom: ""
 ms.date: "01/17/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

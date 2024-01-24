@@ -3,7 +3,7 @@ description: "Learn more about: Migrate from the MSMQT Adapter to the MSMQ Adapt
 title: "Migrate from the MSMQT Adapter to MSMQ Adapter"
 ms.custom: ""
 ms.date: "12/07/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

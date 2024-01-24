@@ -3,7 +3,7 @@ description: "Learn more about: BizTalk FileAct and InterAct Adapters End-to-End
 title: "BizTalk FileAct and InterAct Adapters End-to-End Tutorial"
 ms.custom: ""
 ms.date: "12/10/2015"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Error encountered during parsing. The Edifact tr
 title: "Error encountered during parsing. The Edifact transaction set contained in functional group is being suspended with following errors"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn about the analysis tools for business analysts and informati
 title: "Analysis Tools1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

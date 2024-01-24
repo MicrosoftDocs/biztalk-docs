@@ -3,7 +3,7 @@ title: "Walkthrough: Tracking Policy Execution in BizTalk Server"
 description: Tutorial to enable tracking, and view the tracking details of the policy in BizTalk Server
 ms.custom: ""
 ms.date: "04/05/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

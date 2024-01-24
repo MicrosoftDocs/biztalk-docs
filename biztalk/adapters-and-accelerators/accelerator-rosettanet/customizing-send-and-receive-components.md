@@ -3,7 +3,7 @@ title: "Customize send and receive components using the RosettaNet accelerator i
 description: Create, customize, or set properties of the RosettaNet acclerator (BTARN) on send and receive ports in BizTalk Server
 ms.custom: ""
 ms.date: "08/09/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

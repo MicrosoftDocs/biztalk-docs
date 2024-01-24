@@ -2,7 +2,7 @@
 title: "New in BizTalk Accelerator for HL7"
 description: Changes and updates with different versions of HL7 accelerator in BizTalk Server
 ms.date: "11/22/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # What's new in BizTalk Accelerator for HL7

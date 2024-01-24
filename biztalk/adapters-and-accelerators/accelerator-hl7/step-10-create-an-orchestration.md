@@ -2,7 +2,7 @@
 description: "Learn more about: Step 10: Create an Orchestration"
 title: "Step 10: Create an Orchestration"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 10: Create an Orchestration

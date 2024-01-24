@@ -2,7 +2,7 @@
 description: "Learn how the BizTalk Accelerator for HL7 can solve your health care system integration needs by enhancing the functionality of Microsoft BizTalk Server for health care systems."
 title: "How BizTalk Server Solves the Business Need2"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # How Microsoft BizTalk Server Solves the Business Need

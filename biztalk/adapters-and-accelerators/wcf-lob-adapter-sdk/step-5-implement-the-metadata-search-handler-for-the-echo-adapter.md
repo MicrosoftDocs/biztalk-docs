@@ -3,7 +3,7 @@ description: "Learn more about: Step 5: Implement the Metadata Search Handler fo
 title: "Step 5: Implement the Metadata Search Handler for the Echo Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

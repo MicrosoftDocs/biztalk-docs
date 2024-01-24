@@ -3,7 +3,7 @@ description: "Learn more about: Tools and Utilities for Troubleshooting"
 title: "Tools and Utilities for Troubleshooting"
 ms.custom: ""
 ms.date: "06/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

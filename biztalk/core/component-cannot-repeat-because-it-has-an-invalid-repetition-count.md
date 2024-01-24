@@ -3,7 +3,7 @@ description: "Learn more about: Component cannot repeat because it has an invali
 title: "Component cannot repeat because it has an invalid repetition count"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

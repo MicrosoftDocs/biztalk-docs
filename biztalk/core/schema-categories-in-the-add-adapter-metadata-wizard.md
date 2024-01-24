@@ -3,7 +3,7 @@ description: "Learn more about: Schema Categories in the Add Adapter Metadata Wi
 title: "Schema Categories in the Add Adapter Metadata Wizard"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

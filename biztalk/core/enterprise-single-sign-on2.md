@@ -3,7 +3,7 @@ title: "Enterprise single sign-on overview"
 description: Read about affilicate applications, using SSO tickets to process messages, and adminster SSO in BizTalk Server
 ms.custom: ""
 ms.date: "10/11/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

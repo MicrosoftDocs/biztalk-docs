@@ -3,7 +3,7 @@ description: "Learn more about: FRR Send Ports for Messages to the Custom Handle
 title: "FRR Send Ports for Messages to the Custom Handlers"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

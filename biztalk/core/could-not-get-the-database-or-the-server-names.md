@@ -3,7 +3,7 @@ description: "Learn more about: Could not get the database or the server names"
 title: "Could not get the database or the server names"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

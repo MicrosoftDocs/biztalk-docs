@@ -3,7 +3,7 @@ description: "Learn more about: Single Sign-On: Event 11015"
 title: "Single Sign-On: Event 11015"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Implementing the Scatter-Gather Pattern for Mult
 title: "Implementing the Scatter-Gather Pattern for Multiple Web Service Invocations"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

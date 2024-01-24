@@ -3,7 +3,7 @@ description: "Learn more about: 0C4 Request to 0C4 Response Map Sample"
 title: "0C4 Request to 0C4 Response Map Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

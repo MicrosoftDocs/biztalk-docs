@@ -3,7 +3,7 @@ title: "TIBCO Rendezvous Adapter"
 description: Install, step through tutorials, learn the architecture, use SSO security, create your applications, import the binding file, and add exception handling when using the BizTalk Adapter for TIBCO Rendezvous in BizTalk Server
 ms.custom: ""
 ms.date: "10/24/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

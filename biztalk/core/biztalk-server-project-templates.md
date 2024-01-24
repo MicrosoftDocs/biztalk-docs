@@ -3,7 +3,7 @@ title: "Visual Studio project templates"
 description: Describes the .btproj, BPEL, and .btaproj Visual Studio templates used by BizTalk Server
 ms.custom: ""
 ms.date: "11/07/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

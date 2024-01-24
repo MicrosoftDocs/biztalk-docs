@@ -3,7 +3,7 @@ description: "Learn more about: What Happens to Artifacts During Installation an
 title: "What Happens to Artifacts During Installation and Uninstallation"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

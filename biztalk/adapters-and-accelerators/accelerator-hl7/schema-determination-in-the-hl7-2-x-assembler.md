@@ -2,7 +2,7 @@
 description: "Learn more about: Schema Determination in the HL7 2.X Assembler"
 title: "Schema Determination in the HL7 2.X Assembler"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Schema Determination in the HL7 2.X Assembler

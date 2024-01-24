@@ -3,7 +3,7 @@ title: "Operational Data Service"
 description: Use the Operational Data Service in BizTalk Server to send tracking data to Power BI.
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

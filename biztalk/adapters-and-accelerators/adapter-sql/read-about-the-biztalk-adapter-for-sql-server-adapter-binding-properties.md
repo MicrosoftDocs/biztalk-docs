@@ -3,7 +3,7 @@ description: "Learn more about: Read about the BizTalk Adapter for SQL Server ad
 title: BizTalk Adapter for SQL Server adapter binding properties
 ms.custom: ""
 ms.date: 01/18/2019
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: article

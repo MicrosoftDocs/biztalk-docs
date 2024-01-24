@@ -3,7 +3,7 @@ description: "Learn more about: Polling in SQL Server using the SQL adapter"
 title: "Polling in SQL Server using the SQL adapter"
 ms.custom: ""
 ms.date: "01/18/2019"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

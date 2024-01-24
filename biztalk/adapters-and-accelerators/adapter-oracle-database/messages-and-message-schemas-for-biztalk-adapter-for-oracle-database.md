@@ -3,7 +3,7 @@ title: "Messages and Message Schemas for BizTalk Adapter for Oracle Database"
 description: XML structure of messages and data types used by the Oracle Database adapter for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

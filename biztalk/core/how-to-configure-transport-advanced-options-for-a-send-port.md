@@ -3,7 +3,7 @@ description: "Learn more about: Configure Transport Advanced Options for a Send 
 title: "How to Configure Transport Advanced Options for a Send Port"
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

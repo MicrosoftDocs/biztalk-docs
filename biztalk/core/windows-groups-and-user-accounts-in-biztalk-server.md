@@ -3,7 +3,7 @@ description: "Learn more about: Windows Groups and User Accounts in BizTalk Serv
 title: "Windows Groups and User Accounts in BizTalk Server"
 ms.custom: "biztalk-2020"
 ms.date: "01/14/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

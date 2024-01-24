@@ -2,7 +2,7 @@
 description: "Learn more about: Upgrade BizTalk Accelerator for HL7"
 title: "Upgrade BizTalk Accelerator for HL7"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Upgrade BizTalk Accelerator for HL7

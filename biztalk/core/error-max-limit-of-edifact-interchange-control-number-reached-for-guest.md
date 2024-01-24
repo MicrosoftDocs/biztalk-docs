@@ -3,7 +3,7 @@ description: "Learn more about: Max limit of acceptable Edifact interchange cont
 title: "Max limit of acceptable Edifact interchange control number has reached for Guest settings"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

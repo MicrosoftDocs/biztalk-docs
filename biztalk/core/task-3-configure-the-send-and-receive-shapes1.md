@@ -3,7 +3,7 @@ description: "Learn how to configure Send and Receive shapes that will be used i
 title: "Task 3: Configure the Send and Receive Shapes1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ title: "Glossary for SWIFT accelerator in BizTalk Server"
 description: Common terms and definitions to know and learn to use the BizTalk Accelerator for SWIFT
 ms.custom: ""
 ms.date: "08/16/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Troubleshooting Message Validation Failures by V
 title: "Troubleshooting Message Validation Failures by Viewing the Hexadecimal Contents of Suspended Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

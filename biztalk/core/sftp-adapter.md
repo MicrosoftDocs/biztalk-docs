@@ -3,7 +3,7 @@ title: "SFTP Adapter"
 description: Create or configure a receive location and send port using the SFTP adapter in BizTalk Server, including FAQs using the SFTP adapter
 ms.custom: "biztalk-2020"
 ms.date: "01/22/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

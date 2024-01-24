@@ -3,7 +3,7 @@ description: "Learn more about: Step 5: Modifying the Contoso Private Process Or
 title: "Step 5: Modifying the Contoso Private Process Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

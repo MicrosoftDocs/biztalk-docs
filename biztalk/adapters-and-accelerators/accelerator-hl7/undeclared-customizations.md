@@ -2,7 +2,7 @@
 description: "Learn more about: Undeclared Customizations"
 title: "Undeclared Customizations"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Undeclared Customizations

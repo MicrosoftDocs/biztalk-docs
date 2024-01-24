@@ -3,7 +3,7 @@ description: "Learn more about: Community Resources"
 title: "Community Resources5"
 ms.custom: ""
 ms.date: "03/24/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

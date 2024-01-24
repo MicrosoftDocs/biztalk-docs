@@ -3,7 +3,7 @@ description: "Learn more about: Appendix A: Optimizations Applied to Computers i
 title: "Appendix A: Optimizations Applied to Computers in Test Environment"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

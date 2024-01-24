@@ -3,7 +3,7 @@ description: "Learn more about: Ordered Delivery of Messages in BizTalk Server"
 title: "Ordered Delivery of Messages"
 ms.custom: "biztalk-2020"
 ms.date: "12/23/2019"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

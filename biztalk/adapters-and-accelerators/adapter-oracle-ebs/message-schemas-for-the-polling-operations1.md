@@ -3,7 +3,7 @@ description: "Learn about the message schemas for polling operations used by the
 title: "Message Schemas for the Polling Operations1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

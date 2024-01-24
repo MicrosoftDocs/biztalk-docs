@@ -3,7 +3,7 @@ description: "Learn more about: Getting started with BizTalk Accelerator for SWI
 title: "Getting started with BizTalk Accelerator for SWIFT"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

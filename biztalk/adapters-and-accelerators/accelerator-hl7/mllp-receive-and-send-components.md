@@ -2,7 +2,7 @@
 description: "Learn more about: MLLP Receive and Send Components"
 title: "MLLP Receive and Send Components"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # MLLP Receive and Send Components

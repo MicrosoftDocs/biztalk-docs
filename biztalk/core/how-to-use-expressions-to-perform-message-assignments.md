@@ -3,7 +3,7 @@ description: "Learn more about: How to Use Expressions to Perform Message Assign
 title: "How to Use Expressions to Perform Message Assignments"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

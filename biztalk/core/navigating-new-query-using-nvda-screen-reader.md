@@ -4,7 +4,7 @@ description: Learn how to use NVDA screen reader to navigate BizTalk Server Admi
 ms.date: 05/22/2022
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
-ms.prod: biztalk-server
+ms.service: biztalk-server
 #ROBOTS:
    
 ms.reviewer:

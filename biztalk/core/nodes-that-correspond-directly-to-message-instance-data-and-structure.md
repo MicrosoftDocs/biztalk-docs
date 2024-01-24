@@ -3,7 +3,7 @@ description: "Learn more about: Nodes That Correspond Directly to Message Instan
 title: "Nodes That Correspond Directly to Message Instance Data and Structure"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

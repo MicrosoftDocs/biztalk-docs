@@ -2,7 +2,7 @@
 description: "Learn more about: Step 4: Create the Receive Port for Accepting ADT Query Messages"
 title: "Step 4: Create the Receive Port for Accepting ADT Query Messages"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 4: Create the Receive Port for Accepting ADT Query Messages

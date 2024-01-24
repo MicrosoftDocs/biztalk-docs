@@ -3,7 +3,7 @@ description: "Learn more about: Generate a WCF client or a WCF service contract 
 title: "Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

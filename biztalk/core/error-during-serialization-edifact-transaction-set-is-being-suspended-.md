@@ -3,7 +3,7 @@ title: Edifact transaction set contained in interchange error
 description: Error encountered during serialization. The Edifact transaction set contained in interchange (without group) is being suspended with following errors
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

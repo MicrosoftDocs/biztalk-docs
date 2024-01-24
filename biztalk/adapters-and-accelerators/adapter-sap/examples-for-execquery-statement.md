@@ -3,7 +3,7 @@ title: "Examples for EXECQUERY Statement in mySAP adapter in BizTalk"
 description: EXECQUERY examples and samples using the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

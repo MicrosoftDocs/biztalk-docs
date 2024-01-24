@@ -3,7 +3,7 @@ description: "Learn more about: Invalid delimiter set because at least one of th
 title: "Invalid delimiter set because at least one of the delimiters is outside the allowed range"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

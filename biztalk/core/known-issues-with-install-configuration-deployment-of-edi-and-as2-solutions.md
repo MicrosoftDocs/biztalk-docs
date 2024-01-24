@@ -3,7 +3,7 @@ description: "Learn more about: Known Issues with Installation, Configuration, a
 title: "Known Issues with Installation, Configuration, and Deployment of EDI and AS2 Solutions"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

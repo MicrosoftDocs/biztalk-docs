@@ -3,7 +3,7 @@ description: "Learn more about: Create Schemas for Flat File Messages"
 title: "How to Create Schemas for Flat File Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

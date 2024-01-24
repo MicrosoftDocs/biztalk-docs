@@ -3,7 +3,7 @@ description: "Learn more about: Warning- The target node &#39;{0}&#39; has more 
 title: "Warning- The target node &#39;{0}&#39; has more than one Nil-Value functoid connected to it, with at least one being conditional. Depending on the input, the output may be incorrect."
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

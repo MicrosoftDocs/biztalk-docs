@@ -3,7 +3,7 @@ description: "Learn more about: Walkthrough: Creating a BizTalk Application That
 title: "Walkthrough: Creating a BizTalk Application That Uses the MQSeries Adapter"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

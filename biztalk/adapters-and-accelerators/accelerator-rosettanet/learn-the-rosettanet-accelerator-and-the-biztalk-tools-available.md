@@ -3,7 +3,7 @@ title: "Learn the RosettaNet accelerator and the BizTalk Server tools available"
 description: Read how the RosettaNet accelerator (BTARN) works, the tools and features available, and the messaging standards in BizTalk Server
 ms.custom: ""
 ms.date: "08/09/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

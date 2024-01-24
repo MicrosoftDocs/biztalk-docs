@@ -3,7 +3,7 @@ description: "Learn more about: Installing and Configuring a Hyper-V Virtual Mac
 title: "Installing and Configuring a Hyper-V Virtual Machine for use with BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: SWIFT Send Adapter Synchronous Mode"
 title: "SWIFT Send Adapter Synchronous Mode"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

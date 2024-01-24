@@ -3,7 +3,7 @@ title: "Use SSO to secure JD Edwards EnterpriseOne"
 description: Security overview when using the Microsoft BizTalk Adapter JD Edwards EnterpriseOne in BizTalk Server
 ms.custom: ""
 ms.date: "10/18/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

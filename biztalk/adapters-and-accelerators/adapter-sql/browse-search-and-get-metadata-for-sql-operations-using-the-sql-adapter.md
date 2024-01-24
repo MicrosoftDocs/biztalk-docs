@@ -3,7 +3,7 @@ description: "Learn more about: Browse, search, and get metadata for SQL operati
 title: "Browse, search, and get metadata for SQL operations using the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

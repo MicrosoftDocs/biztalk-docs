@@ -3,7 +3,7 @@ title: "Add Project Items"
 description: Add orchestrations, schemas, maps, and pipelines to your BizTalk Server project in Visual Studio
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

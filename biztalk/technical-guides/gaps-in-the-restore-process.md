@@ -3,7 +3,7 @@ description: "Learn more about: Gaps in the Restore Process"
 title: "Gaps in the Restore Process"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

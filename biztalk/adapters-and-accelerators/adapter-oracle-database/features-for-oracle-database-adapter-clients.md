@@ -3,7 +3,7 @@ description: "Learn more about: Features for Oracle Database adapter clients"
 title: "Features for Oracle Database adapter clients"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

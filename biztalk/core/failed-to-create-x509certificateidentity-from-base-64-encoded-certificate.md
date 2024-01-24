@@ -3,7 +3,7 @@ description: "Learn more about: Failed to create X509CertificateIdentity from ba
 title: "Failed to create X509CertificateIdentity from base-64 encoded certificate"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

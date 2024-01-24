@@ -3,7 +3,7 @@ description: "Learn more about: Develop SQL applications using the WCF Service m
 title: "Develop SQL applications using the WCF Service model"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

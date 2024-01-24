@@ -3,7 +3,7 @@ description: "Learn more about: Troubleshooting BizTalk Server Administration"
 title: "Troubleshooting BizTalk Server Administration"
 ms.custom: ""
 ms.date: "11/30/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: "niklase"
 ms.suite: ""
 ms.topic: "article"

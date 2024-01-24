@@ -3,7 +3,7 @@ description: "Learn more about: Transactional request-response receive location 
 title: "Transactional request-response receive location is not supported"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

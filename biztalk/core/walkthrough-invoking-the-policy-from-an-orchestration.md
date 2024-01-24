@@ -3,7 +3,7 @@ description: "Learn more about: Walkthrough: Invoking the Policy from an Orchest
 title: "Walkthrough: Invoking the Policy from an Orchestration"
 ms.custom: ""
 ms.date: "04/05/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

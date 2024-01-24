@@ -2,7 +2,7 @@
 description: "Learn more about: Step 6: Create a Send Port to Deliver Query Messages"
 title: "Step 6: Create a Send Port to Deliver Query Messages"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 6: Create a Send Port to Deliver Query Messages

@@ -3,7 +3,7 @@ description: "Learn more about: Considerations for Running Adapter Handlers with
 title: "Considerations for Running Adapter Handlers within a Clustered Host1"
 ms.custom: ""
 ms.date: "03/17/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

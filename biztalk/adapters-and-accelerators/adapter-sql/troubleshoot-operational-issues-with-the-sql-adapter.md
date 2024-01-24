@@ -3,7 +3,7 @@ title: "Troubleshoot Operational Issues with the SQL adapter in BizTalk| Microso
 description: Common issues and resolutions for the SQL adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

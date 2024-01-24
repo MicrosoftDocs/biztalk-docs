@@ -2,7 +2,7 @@
 description: "Learn how to create an ADT^A03.txt file as a prerequisite to using the A4SWIFT adapter end-to-end tutorial."
 title: "Preparing to Use the Tutorial2"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Prepare to Use the Tutorial

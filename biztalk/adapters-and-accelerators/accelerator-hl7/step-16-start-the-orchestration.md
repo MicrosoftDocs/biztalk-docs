@@ -2,7 +2,7 @@
 description: "Learn more about: Step 16: Start the Orchestration"
 title: "Step 16: Start the Orchestration"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 16: Start the Orchestration

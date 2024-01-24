@@ -3,7 +3,7 @@ description: "Learn more about: Adding and Removing Custom Functoids from the Vi
 title: "Adding and Removing Custom Functoids from the Visual Studio Toolbox"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

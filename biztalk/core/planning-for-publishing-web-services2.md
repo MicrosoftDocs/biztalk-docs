@@ -3,7 +3,7 @@ description: "Learn about publishing Web services in BizTalk Server by using the
 title: "Planning for Publishing Web Services2"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Adding and Removing Namespaces in an XML Message
 title: "Adding and Removing Namespaces in an XML Message Document"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

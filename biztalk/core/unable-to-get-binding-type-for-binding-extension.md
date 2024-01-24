@@ -3,7 +3,7 @@ description: "Learn more about: Unable to get binding type for binding extension
 title: "Unable to get binding type for binding extension"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Based on the specified delimiter set, no valid I
 title: "Based on the specified delimiter set, no valid ID could be generated"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Security between the SAP system and the adapter"
 title: "Security between the SAP system and the adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

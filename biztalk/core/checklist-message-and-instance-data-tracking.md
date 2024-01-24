@@ -3,7 +3,7 @@ title: "Checklist: Message and Instance Data Tracking"
 description: Best practices when tracking messages, instances, and artifacts in BizTalk Server
 ms.custom: ""
 ms.date: "02/26/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

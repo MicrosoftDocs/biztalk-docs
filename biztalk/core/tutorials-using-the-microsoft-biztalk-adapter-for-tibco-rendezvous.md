@@ -3,7 +3,7 @@ title: "Tutorials: Using the Microsoft BizTalk Adapter for TIBCO Rendezvous"
 description: Step-by-step guides to receive data from TIBCO Rendevous, and to send data to TIBCO Rendevous using the adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

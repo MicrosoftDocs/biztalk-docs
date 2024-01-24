@@ -3,7 +3,7 @@ description: "Learn more about: Lesson 4: Perform an Insert Operation on the Pur
 title: "Lesson 4: Perform an Insert Operation on the Purchase Order Table"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

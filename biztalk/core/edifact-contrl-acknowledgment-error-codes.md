@@ -3,7 +3,7 @@ description: "Learn more about: EDIFACT CONTRL Acknowledgment Error Codes"
 title: "EDIFACT CONTRL Acknowledgment Error Codes"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn how to add a fault message in the Orchestration View of BizT
 title: "How to Add a Fault Message2"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

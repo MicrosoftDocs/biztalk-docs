@@ -2,7 +2,7 @@
 description: "Learn more about: Step 1: Configure and Enable the BatchControlPort Receive Port"
 title: "Step 1: Configure and Enable the BatchControlPort Receive Port"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 1: Configure and Enable the BatchControlPort Receive Port

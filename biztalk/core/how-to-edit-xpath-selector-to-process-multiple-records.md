@@ -3,7 +3,7 @@ description: "Learn more about: How to Edit XPath Selector to Process Multiple R
 title: "How to Edit XPath Selector to Process Multiple Records"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

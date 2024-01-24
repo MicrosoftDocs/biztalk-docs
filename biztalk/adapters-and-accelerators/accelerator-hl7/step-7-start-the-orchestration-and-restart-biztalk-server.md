@@ -2,7 +2,7 @@
 description: "Learn more about: Step 7: Start the Orchestration and Restart BizTalk Server"
 title: "Step 7: Start the Orchestration and Restart BizTalk Server"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 7: Start the Orchestration and Restart BizTalk Server

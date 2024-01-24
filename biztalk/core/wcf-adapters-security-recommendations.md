@@ -3,7 +3,7 @@ description: "Learn more about: WCF Adapters Security Recommendations"
 title: "WCF Adapters Security Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

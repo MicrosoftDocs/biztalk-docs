@@ -2,7 +2,7 @@
 description: "Learn more about: Step 8A: Configure Party Information for the ADT System"
 title: "Step 8A: Configure Party Information for the ADT System"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 8A: Configure Party Information for the ADT System

@@ -3,7 +3,7 @@ description: "Learn more about: Lesson 2: Confirming the Deployment Using the Bu
 title: "Lesson 2: Confirming the Deployment Using the Business Rule Composer Tool"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

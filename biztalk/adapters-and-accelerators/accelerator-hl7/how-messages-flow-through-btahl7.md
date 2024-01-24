@@ -2,7 +2,7 @@
 description: "Learn more about: How Messages Flow through BTAHL7"
 title: "How Messages Flow through BTAHL7"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # How Messages Flow through BTAHL7

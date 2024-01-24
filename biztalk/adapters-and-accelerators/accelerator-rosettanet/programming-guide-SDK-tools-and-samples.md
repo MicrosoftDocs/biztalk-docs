@@ -3,7 +3,7 @@ title: "Programming guide, SDK tools and samples for the RosettaNet accelerator 
 description: Customize private processes, work with PIPS, use the BTARN tools, and deploy the samples for the RosettaNet accelerator in BizTalk Server
 ms.custom: ""
 ms.date: "08/09/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

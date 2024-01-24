@@ -3,7 +3,7 @@ description: "Learn how to configure a party and business profile for a trading 
 title: "Step 4: Configure a Party and Business Profile for Your Trading Partner1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

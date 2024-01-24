@@ -3,7 +3,7 @@ description: "Learn more about: Uninstall or repair the FileAct and InterAct ada
 title: "Uninstall or repair the FileAct and InterAct adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Links To and From the Any Element and anyAttribu
 title: "Links To and From the Any Element and anyAttribute Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

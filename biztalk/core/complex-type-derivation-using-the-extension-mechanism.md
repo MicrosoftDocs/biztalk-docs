@@ -3,7 +3,7 @@ description: "Learn more about: Complex Type Derivation Using the Extension Mech
 title: "Complex Type Derivation Using the Extension Mechanism"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

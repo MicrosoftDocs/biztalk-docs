@@ -3,7 +3,7 @@ title: "Architecture of JD Edwards OneWorld"
 description: Describes the inbound services at design time and run time, and outbound events at design time and run time in the JD Edwards OneWorld adapter in BizTalk
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

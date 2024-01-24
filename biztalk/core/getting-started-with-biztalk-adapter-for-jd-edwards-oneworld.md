@@ -3,7 +3,7 @@ title: "Get started with BizTalk Adapter for JD Edwards OneWorld"
 description: Install and step through a tutorial for the BizTalk Adapter for JD Edwards OneWorld in BizTalk Server
 ms.custom: ""
 ms.date: "10/16/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

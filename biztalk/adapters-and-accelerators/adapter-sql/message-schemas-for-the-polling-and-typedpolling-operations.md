@@ -3,7 +3,7 @@ title: "Message Schemas for the Polling and TypedPolling Operations for the SQL 
 description: Polling and TypedPolling message structure used by the SQL adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
