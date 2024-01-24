@@ -7,7 +7,6 @@ ms.author: elsh
 manager: mijacobs
 ms.date: 01/06/2020
 ms.topic: reference
-ms.prod: biztalk-server
 # optional metadata
 #ROBOTS:
 ms.reviewer: 
