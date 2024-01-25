@@ -3,7 +3,7 @@ description: "Learn more about: Error - Failure writing XML Type Blob file (&lt;
 title: "Error - Failure writing XML Type Blob file (&lt;file:---{0}&gt;). Error: {1} | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 
 ms.suite: ""
