@@ -130,7 +130,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
     :::image type="content" source="./media/feature-pack-add-application-project/click-on-connect.png" alt-text="Select connect in your BizTalk Server project to connect to your Azure DevOps project":::
 
-10. Select your Azure DevOps account, your collection, and your team project. Select **OK**. If you didn’t create a Azure DevOps account yet, then create one ([Step 2: Create the Azure DevOps token](feature-pack-create-vsts-token.md) provides some guidance). Once it's created, come back to this step, and connect.  
+10. Select your Azure DevOps account, your collection, and your team project. Select **OK**. If you didn’t create an Azure DevOps account yet, then create one ([Step 2: Create the Azure DevOps token](feature-pack-create-vsts-token.md) provides some guidance). Once it's created, come back to this step, and connect.  
 
     :::image type="content" source="./media/feature-pack-add-application-project/team-collections-projects.png" alt-text="Select your Azure DevOps collection and project in the BizTalk Server project ":::
 
