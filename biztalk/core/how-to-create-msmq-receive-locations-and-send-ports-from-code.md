@@ -3,7 +3,7 @@ title: "Create MSMQ Receive Locations and Send Ports from Code"
 description: Programmatically create MSMQ receive locations and send ports in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

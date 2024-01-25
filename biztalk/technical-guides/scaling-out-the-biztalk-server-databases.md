@@ -3,7 +3,7 @@ description: "Learn more about: Scaling Out the BizTalk Server Databases"
 title: "Scaling Out the BizTalk Server Databases"
 ms.custom: ""
 ms.date: "11/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

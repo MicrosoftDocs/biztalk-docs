@@ -3,7 +3,7 @@ description: "Learn more about: Interfaces for an Asynchronous Batch-Supported S
 title: "Interfaces for an Asynchronous Batch-Supported Send Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

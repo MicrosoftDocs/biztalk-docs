@@ -3,7 +3,7 @@ description: "Learn more about: Invoke Strongly-typed Stored Procedures in SQL u
 title: "Invoke Strongly-typed Stored Procedures in SQL using WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

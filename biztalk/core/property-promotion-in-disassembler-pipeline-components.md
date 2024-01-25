@@ -3,7 +3,7 @@ description: "Learn more about: Property Promotion in Disassembler Pipeline Comp
 title: "Property Promotion in Disassembler Pipeline Components"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

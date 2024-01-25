@@ -3,7 +3,7 @@ title: "Create TIBCO Rendezvous application artifacts"
 description: Learn how to create BizTalk Server applications and work with the BizTalk Adapter for TIBCO Rendezvous.
 ms.custom: ""
 ms.date: "10/24/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

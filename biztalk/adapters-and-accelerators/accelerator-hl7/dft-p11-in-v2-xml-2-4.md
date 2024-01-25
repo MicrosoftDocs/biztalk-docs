@@ -2,7 +2,7 @@
 description: "Learn more about: DFT_P11 in V2.XML 2.4"
 title: "DFT_P11 in V2.XML 2.4"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # DFT_P11 in V2.XML 2.4

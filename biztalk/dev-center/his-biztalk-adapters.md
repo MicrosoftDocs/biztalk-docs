@@ -2,7 +2,7 @@
 title: BizTalk adapters included with Host Integration Server
 description: Overview of BizTalk adapters for Host Applications, host files, DB2, and WebSphere MQ included with HIS
 ms.date: "10/10/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.suite: ""
 ms.topic: "article"
 ---

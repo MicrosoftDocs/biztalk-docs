@@ -2,7 +2,7 @@
 description: "Learn more about: MSH Map Tab"
 title: "MSH Map Tab"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.mshmap"

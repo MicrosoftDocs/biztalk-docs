@@ -3,7 +3,7 @@ description: "Learn more about: Tracking Dependencies Between Artifacts in a Biz
 title: "Tracking Dependencies Between Artifacts in a BizTalk Server Application"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

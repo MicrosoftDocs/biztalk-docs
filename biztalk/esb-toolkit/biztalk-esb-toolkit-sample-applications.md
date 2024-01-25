@@ -3,7 +3,7 @@ title: "BizTalk ESB Toolkit Sample Applications"
 description: Install the ESB Toolkit sample applications, and get quick links on how to use them in BizTalk Server
 ms.custom: ""
 ms.date: "08/10/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

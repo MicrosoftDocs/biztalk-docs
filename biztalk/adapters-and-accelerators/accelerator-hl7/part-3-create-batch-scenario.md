@@ -2,7 +2,7 @@
 description: "Learn more about: Part 3: Create-Batch Scenario"
 title: "Part 3: Create-Batch Scenario"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Part 3: Create-Batch Scenario

@@ -3,7 +3,7 @@ description: "Learn more about: Configure Transaction Isolation Level and Transa
 title: "Configure Transaction Isolation Level and Transaction Timeout with SQL"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

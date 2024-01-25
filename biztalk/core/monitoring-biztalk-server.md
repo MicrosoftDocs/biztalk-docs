@@ -3,7 +3,7 @@ title: "Monitor the health and performance using built-in tools"
 description: Availability, health, and performance monitoring in BizTalk Server, and monitor SQL Agent jobs. Download BizTalk Health Monitor tool, which includes the MsgBox Viewer and BizTalk Terminator tool.
 ms.custom: ""
 ms.date: 05/26/2022
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

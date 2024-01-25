@@ -3,7 +3,7 @@ title: "Install the BizTalk Adapter Pack 2016"
 description: Typical or custom installation of BAP 2016, 32-bit vs 64-bit, install in silent mode
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

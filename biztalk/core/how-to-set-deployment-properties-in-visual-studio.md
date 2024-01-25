@@ -3,7 +3,7 @@ description: "Learn more about: How to Set Deployment Properties in Visual Studi
 title: "How to Set Deployment Properties in Visual Studio"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -1,7 +1,7 @@
 ---
 title: "Checklist: Getting Started with BizTalk Server"
 description: Review the checklist for getting started with BizTalk Server.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: conceptual
 ms.date: 06/27/2017
 ---

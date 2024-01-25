@@ -3,7 +3,7 @@ description: "Learn more about: Read about BizTalk Adapter for Siebel Binding Pr
 title: "Read about BizTalk Adapter for Siebel Binding Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

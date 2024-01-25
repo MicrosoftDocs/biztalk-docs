@@ -3,7 +3,7 @@ description: "Learn more about: How to Cluster the SQL Server"
 title: "How to Cluster the SQL Server"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

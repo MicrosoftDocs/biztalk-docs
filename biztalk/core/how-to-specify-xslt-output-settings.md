@@ -3,7 +3,7 @@ description: "Learn more about: Set map compilation and output settings"
 title: "How to Specify XSLT Output Settings"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

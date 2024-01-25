@@ -3,7 +3,7 @@ description: "Learn more about: Architecture and limitations"
 title: "Architecture and requirements for TIBCO Enterprise Message Service"
 ms.custom: ""
 ms.date: "10/19/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

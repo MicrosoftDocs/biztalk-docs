@@ -2,7 +2,7 @@
 description: "Learn more about: Validation Settings"
 title: "Validation Settings"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Validation Settings

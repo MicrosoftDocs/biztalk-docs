@@ -2,7 +2,7 @@
 description: "Learn more about: Part 1: Fragmented Inbound Batch Scenario"
 title: "Part 1: Fragmented Inbound Batch Scenario"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Part 1: Fragmented Inbound Batch Scenario

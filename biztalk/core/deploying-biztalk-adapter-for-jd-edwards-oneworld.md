@@ -3,7 +3,7 @@ title: "Import BizTalk Adapter for JD Edwards OneWorld"
 description: Import the application binding file, and review any limitations of the JD Edwards OneWorld adapter in BizTalk
 ms.custom: ""
 ms.date: "10/18/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

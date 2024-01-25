@@ -3,7 +3,7 @@ description: "Learn more about: Acknowledgement generation has failed as maximum
 title: "Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for global settings"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

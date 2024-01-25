@@ -3,7 +3,7 @@ description: "Learn more about: Checklist: Exporting Bindings from One Applicati
 title: "Checklist: Exporting Bindings from One Application to Another"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

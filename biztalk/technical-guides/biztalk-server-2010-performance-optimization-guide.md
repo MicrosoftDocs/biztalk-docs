@@ -3,7 +3,7 @@ description: "Learn more about: BizTalk Server 2010 Performance Optimization Gui
 title: "BizTalk Server 2010 Performance Optimization Guide"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

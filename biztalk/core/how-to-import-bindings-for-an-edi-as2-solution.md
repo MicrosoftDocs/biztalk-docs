@@ -3,7 +3,7 @@ description: "Learn more about: How to Import Bindings for an EDI-AS2 Solution"
 title: "How to Import Bindings for an EDI-AS2 Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

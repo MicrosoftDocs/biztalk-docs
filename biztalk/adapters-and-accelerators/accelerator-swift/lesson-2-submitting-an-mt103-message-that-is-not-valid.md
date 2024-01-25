@@ -3,7 +3,7 @@ description: "Learn more about: Lesson 2: Submitting an MT103 Message That Is No
 title: "Lesson 2: Submitting an MT103 Message That Is Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

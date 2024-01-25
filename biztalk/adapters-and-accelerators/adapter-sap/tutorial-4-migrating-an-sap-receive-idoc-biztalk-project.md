@@ -3,7 +3,7 @@ description: "Learn more about: Tutorial 4: Migrating an SAP Receive IDOC BizTal
 title: "Tutorial 4: Migrating an SAP Receive IDOC BizTalk Project"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

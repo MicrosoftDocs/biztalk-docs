@@ -3,7 +3,7 @@ description: "Learn more about: How to: Publish a Service to the UDDI 3.0 Regist
 title: "Publish a Service to the UDDI 3.0 Registry"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

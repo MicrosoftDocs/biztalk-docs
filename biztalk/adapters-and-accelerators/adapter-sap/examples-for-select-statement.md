@@ -3,7 +3,7 @@ title: "Examples for SELECT Statement in mySAP adapter in BizTalk| Microsoft Doc
 description: SELECT examples and samples using the mySAP adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

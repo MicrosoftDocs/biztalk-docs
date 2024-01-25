@@ -3,7 +3,7 @@ description: "Learn more about: Based on the specified delimiter set, no valid D
 title: "Based on the specified delimiter set, no valid Digit could be found"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

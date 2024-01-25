@@ -3,7 +3,7 @@ description: "Learn more about: How to Update the BAM Configuration Using the BA
 title: "How to Update the BAM Configuration Using the BAM Management Utility"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

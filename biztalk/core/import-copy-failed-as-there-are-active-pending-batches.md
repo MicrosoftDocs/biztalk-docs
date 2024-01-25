@@ -3,7 +3,7 @@ description: "Learn more about: Import-Copy failed as there are active-pending b
 title: "Import-Copy failed as there are active-pending batches"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -2,7 +2,7 @@
 description: "Learn more about: Troubleshooting and known issues in HL7"
 title: "Troubleshooting and known issues in HL7"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Troubleshooting and known issues in HL7

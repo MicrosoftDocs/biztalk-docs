@@ -3,7 +3,7 @@ description: "Learn more about: Ports for the BAM Portal Server"
 title: "Ports for the BAM Portal Server"
 ms.custom: ""
 ms.date: "01/07/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

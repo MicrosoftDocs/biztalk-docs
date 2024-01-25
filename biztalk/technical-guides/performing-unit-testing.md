@@ -3,7 +3,7 @@ description: "Learn more about: Performing Unit Testing"
 title: "Performing Unit Testing"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

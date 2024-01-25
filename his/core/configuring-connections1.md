@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Configuring Connections
-If you run a wizard to create your connections, most of the configuration information will be added with the criteria you entered when the wizard runs. The IBM System i Wizard, the Mainframe APPC/LU6.2 Wizard, and the 3270 Wizard step you through configuring connection properties, creating 3270 display LUs and an LU pool, and assigning the LUs to the LU pool.  
+If you run a wizard to create your connections, most of the configuration information will be added with the criteria you entered when the wizard runs. The IBM i Wizard, the Mainframe APPC/LU6.2 Wizard, and the 3270 Wizard step you through configuring connection properties, creating 3270 display LUs and an LU pool, and assigning the LUs to the LU pool.  
   
  If you need to configure a connection manually, you may need to verify the host connection information before you can proceed. 
   
@@ -20,7 +20,7 @@ If you run a wizard to create your connections, most of the configuration inform
   
  [How to Configure a 3270 Connection](../core/how-to-configure-a-3270-connection2.md)  
   
- **IBM System i (5250) environments**  
+ **IBM i (5250) environments**  
   
  [How to Configure a 5250 Connection](../core/how-to-configure-a-5250-connection2.md)  
   

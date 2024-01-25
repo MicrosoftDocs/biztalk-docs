@@ -14,7 +14,7 @@ After you have completed [!INCLUDE[hisHostIntServNoVersion](../includes/hishosti
 ## In This Section  
  [Host Integration Server 3270 Connectivity](../core/host-integration-server-3270-connectivity2.md)  
   
- [Host Integration Server 5250 (IBM System i) Connectivity](../core/host-integration-server-5250-as-400-connectivity1.md)  
+ [Host Integration Server 5250 (IBM i) Connectivity](../core/host-integration-server-5250-as-400-connectivity1.md)  
   
  [Independent APPC LUs](../core/independent-appc-lus1.md)  
   

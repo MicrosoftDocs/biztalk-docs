@@ -3,7 +3,7 @@ title: "Install and configure BizTalk TMS for Office 365 Outlook adapters in Biz
 description: Use Office 365 Outlook adapters in Feature Pack 3 to send and receive messages between BizTalk Server 2016 Feature Pack 3 and Office 365 Outlook
 ms.custom: "fp3, biztalk-2020"
 ms.date: "03/05/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

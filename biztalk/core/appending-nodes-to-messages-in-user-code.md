@@ -3,7 +3,7 @@ description: "Learn more about: Appending Nodes to Messages in User Code"
 title: "Appending Nodes to Messages in User Code"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

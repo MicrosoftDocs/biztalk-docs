@@ -3,7 +3,7 @@ description: "Learn more about: Step 8 (On Premises): Configure the BizTalk Serv
 title: "Step 8 (On Premises): Configure the BizTalk Server Application"
 ms.custom: ""
 ms.date: "12/08/2015"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

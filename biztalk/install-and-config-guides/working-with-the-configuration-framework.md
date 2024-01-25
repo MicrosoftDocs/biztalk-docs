@@ -3,7 +3,7 @@ description: "Learn more about: Working with the Configuration Framework"
 title: "Working with the Configuration Framework"
 ms.custom: ""
 ms.date: "10/28/2015"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

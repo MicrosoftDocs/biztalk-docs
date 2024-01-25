@@ -3,7 +3,7 @@ title: "Create TIBCO EMS send artifacts"
 description: Create the send port, and configure the transport properties to use the TIBCO Enterprise Message Service adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

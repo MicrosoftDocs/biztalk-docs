@@ -2,7 +2,7 @@
 description: "Learn more about: Step 4: Create a Receive Port for Accepting the Batch Message"
 title: "Step 4: Create a Receive Port for Accepting the Batch Message"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 4: Create a Receive Port for Accepting the Batch Message

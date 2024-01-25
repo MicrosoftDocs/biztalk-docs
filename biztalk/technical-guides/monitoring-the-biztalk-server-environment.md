@@ -3,7 +3,7 @@ description: "Learn more about: Monitoring the BizTalk Server Environment"
 title: "Monitoring the BizTalk Server Environment"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

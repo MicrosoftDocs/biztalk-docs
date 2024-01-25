@@ -3,7 +3,7 @@ description: "Learn more about: Control schema should have header segments in th
 title: "Control schema should have header segments in the correct order"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

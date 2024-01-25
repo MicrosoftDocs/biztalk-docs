@@ -3,7 +3,7 @@ description: "Learn more about: Difference between adapter channel and service i
 title: "Difference between adapter channel and service in the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

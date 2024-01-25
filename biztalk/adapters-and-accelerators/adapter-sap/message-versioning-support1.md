@@ -3,7 +3,7 @@ description: "Learn about the support  for message versioning in the Microsoft B
 title: "Message Versioning Support1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

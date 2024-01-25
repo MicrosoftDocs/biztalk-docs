@@ -15,7 +15,7 @@ When you select the **Library** node in the tree view of HIS Designer, the follo
   
  **Host Definition:** Starts the **Import COBOL Wizard** to help you import COBOL to the interface (Class) definition.  
   
- **HIDX:** Imports a Host Integration Designer XML (HIDX) metadata file used for encoding and decoding records in mainframe z/OS, midrange i5/OS and offline host files using Microsoft ADO.NET Provider for Host Files and Microsoft BizTalk Adapter for Host Files.  
+ **HIDX:** Imports a Host Integration Designer XML (HIDX) metadata file used for encoding and decoding records in mainframe z/OS, midrange IBM i and offline host files using Microsoft ADO.NET Provider for Host Files and Microsoft BizTalk Adapter for Host Files.  
   
  **Library:** Starts the Library Import Wizard to help you import an existing type library or assembly to the interface (Class) definition.  
   

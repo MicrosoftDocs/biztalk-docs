@@ -3,7 +3,7 @@ description: "Learn more about: Error - Too Many Data Inputs to Node"
 title: "Error - Too Many Data Inputs to Node"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Configure a physical port binding using a port b
 title: "Configure a physical port binding using a port binding file to Oracle Database"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

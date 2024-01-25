@@ -3,7 +3,7 @@ description: "Learn more about: Extending BizTalk ESB Toolkit Capabilities with 
 title: "Extending BizTalk ESB Toolkit Capabilities with SOA Governance"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

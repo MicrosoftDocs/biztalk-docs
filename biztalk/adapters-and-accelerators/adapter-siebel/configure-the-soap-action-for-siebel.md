@@ -3,7 +3,7 @@ title: "Configure the SOAP action for Siebel adapter in BizTalk"
 description: Enter a SOAP action in Visual Studio, or use the WCF-Custom or WCF-Siebel adapter in the BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

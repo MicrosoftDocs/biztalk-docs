@@ -13,7 +13,7 @@ ms.topic: "article"
  The information display system for IBM hosts (mainframes). The system includes terminals, printers, and controllers that enable a user to access host functions.  
   
  **5250**  
- The information display system for IBM IBM System i computers.  
+ The information display system for IBM IBM i computers.  
   
  **802.2**  
  The logical link control protocol used for communication over a Token Ring or Ethernet network. The 802.2 protocol is an IEEE standard.  
@@ -43,10 +43,10 @@ ms.topic: "article"
  The use of software that enables a microcomputer to act as a 3270 terminal, displaying information from a host system (mainframe). Emulation software can also enable a microcomputer to send print jobs from a host system to a printer connected to the microcomputer.  
   
  **5250 emulator**  
- Software that enables a microcomputer to act as a 5250 terminal interacting with an IBM System i system.  
+ Software that enables a microcomputer to act as a 5250 terminal interacting with an IBM i system.  
   
  **5250 terminal emulation**  
- The use of software that enables a microcomputer to act as a 5250 terminal interacting with an IBM System i system.  
+ The use of software that enables a microcomputer to act as a 5250 terminal interacting with an IBM i system.  
   
 ## -A-  
  **A3270**  
@@ -528,7 +528,7 @@ ms.topic: "article"
   A form of information processing in which the work is performed by separate computers that are linked through a local or wide area network, using data-transfer mechanisms that enable different programs to use and share data.  
   
   **distributed program call (DPC)**  
-  An IBM System i remote communication model.  
+  An IBM i remote communication model.  
   
   **Distributed Query Processor (DQP)**  
   Enables queries to access multiple data sources on multiple servers, even SQL and DB2, and combine views, create data warehouses, and so on. DQP supports an extended version of the SQL language that permits users to qualify table names with the databases in which they exist. This gives users the capability to formulate queries that span multiple distributed databases.  
@@ -540,7 +540,7 @@ ms.topic: "article"
   A transaction manager that coordinates transactions spanning multiple resource managers. Work can be committed as an atomic transaction even if it spans multiple resource managers, even on separate computers.  
   
   **distributed unit of work (DUW)**  
-  In DB2 UDB for IBM System i, this is a method of accessing distributed relational data in which a user or application can, within a single unit of work, read and update data on multiple database management systems (DBMSs). The user or application directs each SQL statement to a particular DBMS for execution at the DBMS. Each SQL statement may access only one DBMS.  
+  In DB2 UDB for IBM i, this is a method of accessing distributed relational data in which a user or application can, within a single unit of work, read and update data on multiple database management systems (DBMSs). The user or application directs each SQL statement to a particular DBMS for execution at the DBMS. Each SQL statement may access only one DBMS.  
   
   **DL-BASE**  
   The type of Base used by Host Integration Server 3270 emulation programs. It supports a single Host Integration Server component or a single user application and has entry points for initialization, sending messages, receiving messages, and termination. *See also***Base**.  
@@ -734,7 +734,7 @@ ms.topic: "article"
  *See* **host environment (HE)**.  
   
  **HIDX**  
- Host Integration Designer XML (HIDX) metadata file is used for encoding and decoding records in mainframe z/OS, midrange i5/OS and offline host files using Microsoft ADO.NET Provider for Host Files and Microsoft BizTalk Adapter for Host Files.  
+ Host Integration Designer XML (HIDX) metadata file is used for encoding and decoding records in mainframe z/OS, midrange IBM i and offline host files using Microsoft ADO.NET Provider for Host Files and Microsoft BizTalk Adapter for Host Files.  
   
  **high-level language application programming interface (HLLAPI)**  
  An API that enables you to develop and run programmer-operator applications on IBM personal computers (or compatibles) that communicate with IBM mainframes using 3270 emulation.  
@@ -749,7 +749,7 @@ ms.topic: "article"
  An object that defines the network and hardware characteristics of the non-Windows software platform that initiates requests to the Windows platform. The host environment consists of the host environment name, host identification, network transport type, data conversion information, default method resolution criteria, and security credential mapping.  
   
  **Host Integration Server**  
- A Microsoft® software program that enables a personal computer to communicate with remote computers such as IBM mainframes, IBM System is, or other personal computers on a TCP/IP or SNA network.  
+ A Microsoft® software program that enables a personal computer to communicate with remote computers such as IBM mainframes, IBM is, or other personal computers on a TCP/IP or SNA network.  
   
  **host response time**  
  The amount of time that a host computer takes to reply to a message sent to it by a client computer. Host response time is measured from the moment that the personal computer sends the message until one of the following events: the client computer receives data back from the host, the host unlocks the client computer's keyboard, or the host enables the client computer to send more data.  
@@ -763,7 +763,7 @@ ms.topic: "article"
  A printer that is defined as a device associated with a logical unit (LU) configured as LU type 1 or 3 and that can support host printing as well as local printing.  
   
  **host-initiated processing (HIP)**  
- A non-Microsoft software platform (usually a mainframe or mid-range computer such as the IBM System i) that can access and integrate its programs with the programs on a Windows server platform.  
+ A non-Microsoft software platform (usually a mainframe or mid-range computer such as the IBM i) that can access and integrate its programs with the programs on a Windows server platform.  
   
  **hot backup**  
  (1) The ability to take systems online and offline without disrupting service. (2) A configuration in which one resource (such as a server running Host Integration Server software) can automatically handle sessions if another cannot. Such servers can provide hot backup for 3270, LUA, or downstream sessions through pools containing LUs from multiple servers. Servers running Host Integration Server software can provide hot backup for 5250 terminal emulation through the use of LU names that are the same on multiple servers.  
@@ -1090,8 +1090,8 @@ ms.topic: "article"
  **z/OS**  
  The IBM operating system for the IBM S/390 family of enterprise servers and that includes and integrates functions previously provided by other IBM software products such as the z/OS operating system.  
   
- **IBM System i**  
- The IBM operating system for the IBM IBM System i.  
+ **IBM i**  
+ The IBM operating system for the IBM IBM i.  
   
  **OTMA**  
  *See* **open transaction management architecture (OTMA)**.  
@@ -1151,7 +1151,7 @@ ms.topic: "article"
  A special character such as an asterisk (\*) or a question mark (?) that can be used to represent one or more characters. Any character or set of characters can replace a pattern-matching character. *Synonymous with* wildcard character.  
   
  **PC Support**  
- A set of IBM programs that helps personal computer users access, share, and store information on an IBM System i.  
+ A set of IBM programs that helps personal computer users access, share, and store information on an IBM i.  
   
  **PDS**  
  *See* **partitioned data set (PDS)**.  
@@ -1635,7 +1635,7 @@ ms.topic: "article"
  *Synonym for* pattern-matching character.  
   
  **Windows-initiated processing (WIP)**  
- A Windows server platform can access and integrate its programs with the programs on a non-Microsoft server platform (usually a mainframe or mid-range computer such as the IBM System i).  
+ A Windows server platform can access and integrate its programs with the programs on a non-Microsoft server platform (usually a mainframe or mid-range computer such as the IBM i).  
   
  **WIP**  
  *See* **Windows-initiated processing (WIP)**.  

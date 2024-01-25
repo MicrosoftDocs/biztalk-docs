@@ -3,7 +3,7 @@ title: "Install BizTalk Adapters for Enterprise Applications"
 description: Requirements and installation steps for JD Edwards OneWorld, JD Edwards EnterpriseOne, PeopleSoft Enterprise, TIBCO Rendezvous, and TIBCO Enterprise Message Service on BizTalk Server
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

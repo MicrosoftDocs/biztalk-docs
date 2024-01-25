@@ -3,7 +3,7 @@ title: "SWIFT error codes in BizTalk Server"
 description: View the class and validation types for the SWIFT Accelerator in BizTalk Server
 ms.custom: ""
 ms.date: "08/16/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

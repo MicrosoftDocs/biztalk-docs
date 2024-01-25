@@ -2,7 +2,7 @@
 title: "BizTalk Server 2016: What's New, and Installation"
 description: Introduction to what's new, and installing and upgrading to BizTalk Server 2016
 ms.custom: "biztalk-2020"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.date: "01/07/2020"
 ms.reviewer: ""
 ms.suite: ""

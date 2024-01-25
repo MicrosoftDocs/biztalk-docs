@@ -3,7 +3,7 @@ description: "Learn more about: Ports for the Tracking Server"
 title: "Ports for the Tracking Server"
 ms.custom: ""
 ms.date: "01/07/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

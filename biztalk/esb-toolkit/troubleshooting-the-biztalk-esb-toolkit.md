@@ -3,7 +3,7 @@ title: "Troubleshooting the BizTalk ESB Toolkit"
 description: Troubleshoot installation issues, and common errors with the ESB Toolkit in BizTalk Server
 ms.custom: ""
 ms.date: "08/10/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

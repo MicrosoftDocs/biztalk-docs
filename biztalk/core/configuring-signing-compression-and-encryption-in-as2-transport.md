@@ -3,7 +3,7 @@ description: "Learn more about: Configuring Signing, Compression, and Encryption
 title: "Configuring Signing, Compression, and Encryption in AS2 Transport"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -2,7 +2,7 @@
 description: "Learn more about: Step 18: Test Your New Message Enrichment Solution"
 title: "Step 18: Test Your New Message Enrichment Solution"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 18: Test Your New Message Enrichment Solution

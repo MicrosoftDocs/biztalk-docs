@@ -3,7 +3,7 @@ description: "Learn more about: Custom Drop-Down Editor for Adapter Configuratio
 title: "Custom Drop-Down Editor for Adapter Configuration"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

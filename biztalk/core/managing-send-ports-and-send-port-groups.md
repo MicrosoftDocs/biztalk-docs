@@ -3,7 +3,7 @@ title: "Manage Send Ports and Send Port Groups"
 description: Links to create, configure, enlist, unenlist, and start and stop send ports in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

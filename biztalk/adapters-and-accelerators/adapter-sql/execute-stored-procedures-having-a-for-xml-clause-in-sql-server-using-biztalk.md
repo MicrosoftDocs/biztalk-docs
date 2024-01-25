@@ -3,7 +3,7 @@ description: "Learn more about: Execute stored procedures having a FOR XML claus
 title: "Execute stored procedures having a FOR XML clause in SQL Server using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

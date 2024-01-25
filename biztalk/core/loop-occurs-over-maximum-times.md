@@ -3,7 +3,7 @@ description: "Learn more about: Loop Occurs Over Maximum Times"
 title: "Loop Occurs Over Maximum Times"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ title: "Schedule the Backup BizTalk Server Job"
 description: Configure the Backup BizTalk Server job parameters, and set the schedule to run monthly, weekly, daily, or hourly
 ms.custom: ""
 ms.date: "11/02/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

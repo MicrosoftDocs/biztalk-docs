@@ -3,7 +3,7 @@ description: "Learn more about: Step 6: Configure a Send Port to Send Data to Yo
 title: "Step 6: Configure a Send Port to Send Data to Your Organization"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

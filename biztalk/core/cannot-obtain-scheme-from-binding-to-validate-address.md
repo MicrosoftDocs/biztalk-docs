@@ -3,7 +3,7 @@ description: "Learn more about: Cannot obtain scheme from binding to validate ad
 title: "Cannot obtain scheme from binding to validate address"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

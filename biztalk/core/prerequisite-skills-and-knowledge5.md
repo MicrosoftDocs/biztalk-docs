@@ -3,7 +3,7 @@ title: "Recommended skills and knowledge - BizTalk Server"
 description: Suggested experience for developers, IT professionals, and business analysists when working with BizTalk Server, including knowledge with Visual Studio, XML, JSON, Windows Server, SQL Server, performance, high availability, and more.
 ms.custom: ""
 ms.date: "09/27/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

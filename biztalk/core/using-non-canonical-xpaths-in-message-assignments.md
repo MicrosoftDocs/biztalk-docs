@@ -3,7 +3,7 @@ description: "Learn more about: Using Non-Canonical XPaths in Message Assignment
 title: "Using Non-Canonical XPaths in Message Assignments"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

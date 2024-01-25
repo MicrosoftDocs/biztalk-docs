@@ -3,7 +3,7 @@ title: "Configure Operational Data Service in BizTalk Server 2016 Feature Pack"
 description: Configure Operational Data Service in BizTalk Server 2016 Feature Pack
 ms.date: "01/13/2020"
 ms.topic: conceptual
-ms.prod: biztalk-server
+ms.service: biztalk-server
 # optional metadata
 #ROBOTS:
 ms.reviewer: 

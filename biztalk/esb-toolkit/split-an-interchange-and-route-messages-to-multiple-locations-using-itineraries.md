@@ -3,7 +3,7 @@ description: "Learn more about: How to: Split an Interchange and Route the Resul
 title: "Split an Interchange and Route the Resulting Messages to Multiple File Locations Using Distinct Itineraries"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

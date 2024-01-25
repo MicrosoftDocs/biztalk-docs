@@ -3,7 +3,7 @@ description: "Learn more about: Tutorial 1: Migrate BizTalk Projects to the SQL 
 title: "Tutorial 1: Migrate BizTalk Projects to the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

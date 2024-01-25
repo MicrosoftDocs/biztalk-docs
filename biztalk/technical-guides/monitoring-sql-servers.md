@@ -3,7 +3,7 @@ title: "Monitor SQL Servers"
 description: Use the SQL Server management pack to check performance, available space, database configuration, blocked processes, connectivity, failed SQL agent jobs, replication, and more in BizTalk Server
 ms.custom: ""
 ms.date: "11/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

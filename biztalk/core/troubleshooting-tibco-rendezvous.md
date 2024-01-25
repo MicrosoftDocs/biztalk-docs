@@ -3,7 +3,7 @@ title: "Troubleshoot TIBCO Rendezvous"
 description: Use Windows Event tracing to troubl=esdhoot the Microsoft BizTalk Adapter for TIBCO Rendezvous in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

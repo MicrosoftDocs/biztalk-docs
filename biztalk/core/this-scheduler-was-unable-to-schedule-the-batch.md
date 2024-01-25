@@ -3,7 +3,7 @@ description: "Learn more about: This scheduler was unable to schedule the batch"
 title: "This scheduler was unable to schedule the batch"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

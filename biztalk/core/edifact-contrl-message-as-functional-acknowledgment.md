@@ -3,7 +3,7 @@ description: "Learn more about: EDIFACT CONTRL Message as Functional Acknowledgm
 title: "EDIFACT CONTRL Message as Functional Acknowledgment"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -2,7 +2,7 @@
 description: "Learn more about: Z Segment Known Issues"
 title: "Z Segment Known Issues"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Z Segment Known Issues

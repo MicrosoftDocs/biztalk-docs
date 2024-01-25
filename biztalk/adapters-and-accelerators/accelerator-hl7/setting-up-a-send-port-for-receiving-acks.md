@@ -2,7 +2,7 @@
 description: "Learn more about: Setting Up a Send Port for Receiving ACKs"
 title: "Setting Up a Send Port for Receiving ACKs"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Setting Up a Send Port for Receiving ACKs

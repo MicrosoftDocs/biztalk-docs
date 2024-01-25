@@ -3,7 +3,7 @@ description: "Learn more about: Generate an XSD schema for JSON message"
 title: "Generate an XSD schema for JSON message"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

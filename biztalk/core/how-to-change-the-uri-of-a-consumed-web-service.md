@@ -3,7 +3,7 @@ description: "Learn more about: How to Change the URI of a Consumed Web Service"
 title: "How to Change the URI of a Consumed Web Service"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

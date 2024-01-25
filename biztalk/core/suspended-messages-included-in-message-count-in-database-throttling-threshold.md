@@ -3,7 +3,7 @@ description: "Learn more about: Suspended Messages are Included in the Message C
 title: "Suspended Messages are Included in the Message Count in Database Throttling Threshold"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

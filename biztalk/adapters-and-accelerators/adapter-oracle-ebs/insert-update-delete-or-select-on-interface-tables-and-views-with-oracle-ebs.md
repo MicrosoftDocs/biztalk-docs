@@ -3,7 +3,7 @@ description: "Learn more about: Insert, update, delete, or select on interface t
 title: "Insert, update, delete, or select on interface tables and interface views with Oracle E-Business Suite"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

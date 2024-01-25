@@ -3,7 +3,7 @@ description: "Learn more about: Step 3: Create a SharePoint application to retri
 title: "Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

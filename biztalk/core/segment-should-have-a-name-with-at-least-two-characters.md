@@ -3,7 +3,7 @@ description: "Learn more about: Segment should have a name with at least two cha
 title: "Segment should have a name with at least two characters"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn how to add a Catch Exception block to set up an exception ha
 title: "How to Add a Catch Exception Block1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

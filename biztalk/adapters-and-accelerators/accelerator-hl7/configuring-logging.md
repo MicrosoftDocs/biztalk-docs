@@ -2,7 +2,7 @@
 description: "Learn more about: Configuring Logging"
 title: "Configuring Logging"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Configuring Logging

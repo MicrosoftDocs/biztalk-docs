@@ -2,7 +2,7 @@
 description: "Learn more about: Undeploy Other Tutorial Projects"
 title: "Undeploy Other Tutorial Projects"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Undeploy Other Tutorial Projects

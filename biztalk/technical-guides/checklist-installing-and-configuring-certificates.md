@@ -3,7 +3,7 @@ description: "Learn more about: Checklist: Installing and Configuring Certificat
 title: "Checklist: Installing and Configuring Certificates"
 ms.custom: ""
 ms.date: "06/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

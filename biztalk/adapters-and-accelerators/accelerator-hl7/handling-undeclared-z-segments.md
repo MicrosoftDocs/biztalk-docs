@@ -2,7 +2,7 @@
 description: "Learn more about: Handling Undeclared Z Segments"
 title: "Handling Undeclared Z Segments"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Handling Undeclared Z Segments

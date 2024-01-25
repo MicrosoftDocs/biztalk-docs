@@ -2,7 +2,7 @@
 description: "Learn more about: Batching Known Issues"
 title: "Batching Known Issues"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Batching Known Issues

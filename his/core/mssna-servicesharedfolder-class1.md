@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # MsSna_ServiceSharedFolder Class
-Describes a service for IBM System i file access.  
+Describes a service for IBM i file access.  
   
  The following syntax is simplified from MOF code.  
   

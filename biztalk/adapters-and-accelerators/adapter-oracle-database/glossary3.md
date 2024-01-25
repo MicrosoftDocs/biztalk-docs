@@ -3,7 +3,7 @@ title: "Glossary for BizTalk Adapter for Oracle Database in BizTalk| Microsoft D
 description: Common terms and definitions used by the Oracle Database adapter in the BizTalk Adapter pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

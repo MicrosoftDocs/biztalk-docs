@@ -3,7 +3,7 @@ description: "Learn more about: Tools for Testing"
 title: "Tools for Testing"
 ms.custom: ""
 ms.date: "06/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -1,34 +1,34 @@
 ---
-title: Notes about IBM System i computers
-description: Learn more about IBM System i computers along with local and remote names.
+title: Notes about IBM i computers
+description: Learn more about IBM i computers along with local and remote names.
 ms.prod: host-integration-server
 ms.topic: conceptual
 ms.date: 11/30/2017
 ---
 
-# Notes about IBM System i computers plus local and remote names
+# Notes about IBM i computers plus local and remote names
 
-The following guide provides more information about IBM System i computers along with local and remote names.
+The following guide provides more information about IBM i computers along with local and remote names.
 
-## IBM System i Computers
+## IBM i Computers
 
-To connect to an IBM System i computer, supply both local node and remote node parameters for the **Network Name** and the **Control Point Name** properties. You can configure these properties in the following individual boxes:  
+To connect to an IBM i computer, supply both local node and remote node parameters for the **Network Name** and the **Control Point Name** properties. You can configure these properties in the following individual boxes:  
   
 - **Local node (server) properties**
 
   On the computer running Host Integration Server (HIS), in the **Server Properties** box, type the **Control Point Name** and the **Network Name**.
 
-  The server's network name must correspond to the RMTNETID parameter in the IBM System i APPC controller description. The default value for the IBM System i computer network ID is typically **APPN**. If this value is set to **\*SAME**, refer to the Local Network ID parameter in the **IBM System i Network Attributes** screen, which you can view using the **dspneta** command. The server Control Point Name must match the RMTCPNAME parameter in the IBM System i APPC controller description.  
+  The server's network name must correspond to the RMTNETID parameter in the IBM i APPC controller description. The default value for the IBM i computer network ID is typically **APPN**. If this value is set to **\*SAME**, refer to the Local Network ID parameter in the **IBM i Network Attributes** screen, which you can view using the **dspneta** command. The server Control Point Name must match the RMTCPNAME parameter in the IBM i APPC controller description.  
   
    If you specify a CPNAME in **Connection Properties**, this value overrides the CPNAME in the **Server Properties** box. The CPNAME in **Server Properties** is the default value and is used unless changed in **Connections Properties**.  
   
 - **Remote node (connection) properties**
 
-  In the **Properties** box for an IP-DLC connection, for the **Network Name (Remote Node)** and **Control Point Name (Remote Node)** fields, type the **Network Name** and **Control Point Name (CP name)** of the IBM System i computer.
+  In the **Properties** box for an IP-DLC connection, for the **Network Name (Remote Node)** and **Control Point Name (Remote Node)** fields, type the **Network Name** and **Control Point Name (CP name)** of the IBM i computer.
 
-  You can find the IBM System i **Network Name** and **Local Control Point Name** on the IBM System i Network Attributes screen, which you can view using the **DSPNETA** command. For more information about these fields, on the connection's **Properties** box, select **Help**.
+  You can find the IBM i **Network Name** and **Local Control Point Name** on the IBM i Network Attributes screen, which you can view using the **DSPNETA** command. For more information about these fields, on the connection's **Properties** box, select **Help**.
 
-  On an IBM System i computer, specify the **Network Name** on the Network Attributes screen, in the **Local network ID** parameter, and on the APPC controller description, in the **RMTNETID parameter**. For more information, see your APPN documentation.
+  On an IBM i computer, specify the **Network Name** on the Network Attributes screen, in the **Local network ID** parameter, and on the APPC controller description, in the **RMTNETID parameter**. For more information, see your APPN documentation.
 
 ## Remote node identifiers for connections
 

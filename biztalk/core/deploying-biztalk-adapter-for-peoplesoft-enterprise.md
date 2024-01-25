@@ -3,7 +3,7 @@ title: "Import PeopleSoft applications"
 description: Use an XML binding file to import your PeopleSoft adapter applications into BizTalk Server, and read any limitations when importing 
 ms.custom: ""
 ms.date: "10/19/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

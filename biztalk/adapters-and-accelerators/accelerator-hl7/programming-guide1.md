@@ -2,7 +2,7 @@
 description: "View the Microsoft BizTalk Accelerator for HL7 (BTAHL7) Programming Guide that explains the concepts and procedures for writing code with BTAHL7."
 title: "Programming Guide1"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # BizTalk Accelerator for HL7 (BTAHL7) Programming Guide

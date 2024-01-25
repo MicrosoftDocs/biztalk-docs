@@ -3,7 +3,7 @@ description: "Learn more about: Appendix A: Silent Installation"
 title: "Appendix A: Silent Installation"
 ms.custom: "biztalk-2020"
 ms.date: "01/22/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

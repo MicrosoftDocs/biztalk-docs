@@ -3,7 +3,7 @@ title: "Configuring the FTP Adapter"
 description: Add and configure the FTP adapter in a receive port, receive location, and send port in BizTalk Server.
 ms.custom: ""
 ms.date: "09/28/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

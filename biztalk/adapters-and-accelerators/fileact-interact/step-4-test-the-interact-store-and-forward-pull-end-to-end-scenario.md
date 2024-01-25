@@ -3,7 +3,7 @@ description: "Learn more about: Step 4: Test the InterAct Store and Forward (Pul
 title: "Step 4: Test the InterAct Store and Forward (Pull) End-to-End Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

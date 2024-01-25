@@ -3,7 +3,7 @@ description: "Learn more about: Considerations when using the SAP adapter with S
 title: "Considerations when using the SAP adapter with SharePoint"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

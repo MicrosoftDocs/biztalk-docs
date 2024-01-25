@@ -53,7 +53,7 @@ When user and group account memberships overlap, the highest-priority account th
   
 #### To configure hot backup for 5250 LUs  
   
-1.  Configure one connection to the IBM System i computer for each computer that runs Host Integration Server and supports the 5250 protocol.  
+1.  Configure one connection to the IBM i computer for each computer that runs Host Integration Server and supports the 5250 protocol.  
   
 2.  Create a local LU on each server, specifying the following:  
   
@@ -63,7 +63,7 @@ When user and group account memberships overlap, the highest-priority account th
   
     -   For **LU Name**, specify a unique string on each server. This is required to avoid device name conflicts across servers.  
   
-3.  Create a remote LU on each server and give all the remote LUs the same LU name and alias, (which must match the Control Point Name of the IBM System i computer).  
+3.  Create a remote LU on each server and give all the remote LUs the same LU name and alias, (which must match the Control Point Name of the IBM i computer).  
   
      Be sure that the **Supports Parallel Sessions** box is selected for these LUs.  
   
@@ -76,15 +76,15 @@ When user and group account memberships overlap, the highest-priority account th
     -   For the 5250 emulator, have users specify the local and remote LUs when configuring a session on the emulator.  
   
 > [!NOTE]
->  To achieve hot backup, Host Integration Server chooses a server to connect with the IBM System i computer based on availability. This distributes the load more evenly.  
+>  To achieve hot backup, Host Integration Server chooses a server to connect with the IBM i computer based on availability. This distributes the load more evenly.  
   
 > [!NOTE]
->  To configure hot backup for 5250 users, you must configure multiple servers and pairs of LUs that can all handle sessions to the intended IBM System i computer.  
+>  To configure hot backup for 5250 users, you must configure multiple servers and pairs of LUs that can all handle sessions to the intended IBM i computer.  
   
 > [!NOTE]
 >  For better protection against failure, use multiple servers, and not multiple connections on the same server.  
   
-#### To configure a server with multiple connections to the same IBM System i computer  
+#### To configure a server with multiple connections to the same IBM i computer  
   
 1.  In the Host Integration Server console tree, double-click **Connections**.  
   
@@ -96,14 +96,14 @@ When user and group account memberships overlap, the highest-priority account th
   
 5.  Click **OK** to exit the dialog box.  
   
-6.  Repeat steps 2 through 5 for each connection to the same IBM System i computer.  
+6.  Repeat steps 2 through 5 for each connection to the same IBM i computer.  
   
 7.  On the **Action** menu, click **Save Configuration**.  
   
 8.  After you configure a connection, you must stop and restart the server.  
   
 > [!IMPORTANT]
->  Each connection to the same IBM System i computer must use a separate link service.  
+>  Each connection to the same IBM i computer must use a separate link service.  
   
 > [!NOTE]
 >  This procedure makes the fully qualified network name unique for each connection.  

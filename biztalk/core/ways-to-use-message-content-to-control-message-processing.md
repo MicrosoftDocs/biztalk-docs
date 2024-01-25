@@ -3,7 +3,7 @@ description: "Learn more about: Ways to Use Message Content to Control Message P
 title: "Ways to Use Message Content to Control Message Processing"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

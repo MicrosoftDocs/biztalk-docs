@@ -3,7 +3,7 @@ description: "Learn about known issues with the Microsoft BizTalk Server that ma
 title: "Known Issues2"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

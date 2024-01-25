@@ -3,7 +3,7 @@ description: "Learn more about: Decompression failed while processing a compress
 title: "Decompression failed while processing a compressed AS2 message."
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

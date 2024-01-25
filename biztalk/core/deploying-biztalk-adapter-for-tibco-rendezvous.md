@@ -3,7 +3,7 @@ title: "Import bindings for TIBCO Rendezvous"
 description: Deploy your BizTalk Adapter for TIBCO Rendezvous applications using Import Bindings feature in BizTalk Server
 ms.custom: ""
 ms.date: "10/24/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

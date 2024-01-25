@@ -2,7 +2,7 @@
 description: "Learn more about: Systems Integration with BizTalk Server"
 title: "HL7 Systems Integration"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Systems Integration with Microsoft BizTalk Server
