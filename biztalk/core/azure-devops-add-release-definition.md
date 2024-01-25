@@ -11,7 +11,7 @@ ms.topic: "article"
 
 # Step 4: Create release definition
 
-Like build definitions, release definitions are Azure DevOps tasks, and should probably be done by a Azure DevOps admin. As called out in the Step 3, the build definition builds your project within your git repository, and the release definitions deploys it to your BizTalk Server environment. 
+Like build definitions, release definitions are Azure DevOps tasks, and should probably be done by an Azure DevOps admin. As called out in the Step 3, the build definition builds your project within your git repository, and the release definitions deploys it to your BizTalk Server environment. 
 
 ## Before you begin
 
