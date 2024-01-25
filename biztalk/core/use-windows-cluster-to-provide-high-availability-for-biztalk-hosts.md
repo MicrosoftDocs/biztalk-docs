@@ -3,7 +3,7 @@ description: "Learn more about: Using Windows Server Cluster to Provide High Ava
 title: "Using Windows Server Cluster to Provide High Availability for BizTalk Server Hosts2"
 ms.custom: ""
 ms.date: "01/04/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

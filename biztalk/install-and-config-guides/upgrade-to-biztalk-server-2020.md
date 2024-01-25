@@ -2,7 +2,7 @@
 description: "Learn more about: Upgrade to BizTalk Server 2020"
 title: "Upgrade to BizTalk Server 2020"
 ms.custom: "devx-track-javaee-webspherebiztalk-2020"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.date: "12/30/2022"
 ms.reviewer: ""
 ms.suite: ""

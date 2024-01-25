@@ -3,7 +3,7 @@ title: Step 2 - Create VSTS token and install agent
 description: Create the VSTS security access token, clone your VSTS project into Visual Studio, and install the build agent to automate deployment of your BizTalk Server projects
 ms.custom: ""
 ms.date: "09/20/2022"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

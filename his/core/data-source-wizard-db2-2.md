@@ -45,7 +45,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  Optionally, to increase performance and reduce impact to the remote database, select the data source platform on which the remote DB2 database is deployed. The Data Provider uses this value to convert data types to a format supported by this platform.
 
- The default value is DB2/z/OS (which refers to DB2 for z/OS). Other values include DB2/400 (which refers to DB2 for i5/OS), DB2/NT (which refers to DB2 for Windows), and DB2/6000 (which refers to DB2 for Linux or UNIX).
+ The default value is DB2/z/OS (which refers to DB2 for z/OS). Other values include DB2/400 (which refers to DB2 for IBM i), DB2/NT (which refers to DB2 for Windows), and DB2/6000 (which refers to DB2 for Linux or UNIX).
 
  **Network type**
 
@@ -113,7 +113,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|A 16-byte string (catalog is also known as a location).|
-|DB2 for i5/OS|An 18-byte string (catalog is also known as a relational database).|
+|DB2 for IBM i|An 18-byte string (catalog is also known as a relational database).|
 |DB2 for LUW|An 8-byte string (catalog is also known as a database).|
 
  **Package collection**
@@ -123,7 +123,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
 
  **Default schema**
@@ -135,7 +135,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
 
  **Default qualifier**
@@ -147,7 +147,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
 
  **Database name**
@@ -159,7 +159,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  **Host CCSID**
 
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and IBM i utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
  **PC Code page**
 
@@ -183,7 +183,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|An 8-byte string.|
-|DB2 for i5/OS|A 10-byte string.|
+|DB2 for IBM i|A 10-byte string.|
 |DB2 for Linux or UNIX|An 8-byte string.|
 |DB2 for Windows|A 30-byte string.|
 
@@ -194,7 +194,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|An 8-byte string.|
-|DB2 for i5/OS|A 128-byte string.|
+|DB2 for IBM i|A 128-byte string.|
 |DB2 for Linux or UNIX|An 8-byte string.|
 |DB2 for Windows|A 32-byte string.|
 

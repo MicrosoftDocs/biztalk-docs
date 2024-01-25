@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # How to Configure the 5250 Demonstration
-Use the following procedure to configure the 5250 (IBM System i) Demonstration link service.  
+Use the following procedure to configure the 5250 (IBM i) Demonstration link service.  
   
 ### To configure the 5250 demonstration  
   

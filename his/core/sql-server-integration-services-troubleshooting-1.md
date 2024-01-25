@@ -11,14 +11,10 @@ ms.topic: "article"
 # SQL Server Integration Services (Troubleshooting)
 You can customize the default data conversions by using the SQL Server Integration Services Import and Export Wizard to edit data type mapping files. The mapping files define data type mappings between the data source and the destination, and are defined in XML format. When you edit the XML files, you ensure compatibility between the source and destination.
 
- The XML files are located in the following folders.
-
- C:\Program Files\Microsoft SQL Server\100\DTS\MappingFiles
-
- C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
+ The XML files are located in the MappingFiles folders of the Microsoft SQL Server installation.
 
 ## Data Type Mapping
- To correctly map IBM DB2 for i5/OS character and decimal data types to SQL Server data types, the data mapping files should be extended to include the DB2 data type long form synonym. For example, when you use the Microsoft OLE DB Provider for DB2 (Data Provider), add the following data type mapping between DB2 INTEGER source and SQL Server. This mapping is compatible with SQLOLEDB, SQLNCL, SQLNCLI10, and `System.Data.SqlClient.SqlConnection`. It replaces the short form SourceDataType value **INT** with the long form **INTEGER**.
+ To correctly map IBM DB2 for IBM i character and decimal data types to SQL Server data types, the data mapping files should be extended to include the DB2 data type long form synonym. For example, when you use the Microsoft OLE DB Provider for DB2 (Data Provider), add the following data type mapping between DB2 INTEGER source and SQL Server. This mapping is compatible with SQLOLEDB and `System.Data.SqlClient.SqlConnection`. It replaces the short form SourceDataType value **INT** with the long form **INTEGER**.
 
  The following mapping for DB2 INT is compatible with a DB2 for z/OS source.
 
@@ -37,7 +33,7 @@ You can customize the default data conversions by using the SQL Server Integrati
 
 ```
 
- The following data type mapping for DB2 INTEGER is compatible with a DB2 for i5/OS source.
+ The following data type mapping for DB2 INTEGER is compatible with a DB2 for IBM i source.
 
 ```
 <!-- INTEGER -->
@@ -108,13 +104,12 @@ You can customize the default data conversions by using the SQL Server Integrati
 |CHARACTER LARGE OBJECT () FOR SBCS DATA|text|text|DT_TEXT|
 |130|ntext|ntext|DT_NTEXT|
 
- After you edit a mapping file, you must close and reopen the SQL Server Import and Export Wizard or the Business Intelligence Development Studio, depending on the environment in which you are working.
 
- For more information about configuring SQL Server 2008 Integration Services, see the [Importing and Exporting Data by Using the SQL Server Import and Export Wizard](/previous-versions/sql/sql-server-2008-r2/ms141209(v=sql.105))) topic in SQL Server Books Online (https://go.microsoft.com/fwlink/?LinkId=193204).
+ For more information about configuring SQL Server 2022 Integration Services, see the [Data Flow](/sql/integration-services/data-flow/data-flow) section.
 
 ### Customizing Data Flow Components
  You can use SQL Server Integration Services Data Flow Components to perform default and customized transformations. The customized transformations are based on developer-provided custom code.
 
  The SQL Server Integration Services mapping files in XML format are for use with the Import and Export Wizard. These files are not for use with the Data Flow. SQL Server Integration Services offers a Pipeline Buffer class to allow enterprise developers to customize data mapping within the Data Flow.
 
- For more information about customizing data flow components using SQL Server 2008 Integration Services, see the [Working with Data Types in the Data Flow](/previous-versions/sql/sql-server-2008-r2/ms345165(v=sql.105)) topic in SQL Server Books Online (https://go.microsoft.com/fwlink/?LinkId=193208).
+ For more information about customizing data flow components using SQL Server 2022 Integration Services, see the [Data Flow](/sql/integration-services/data-flow/data-flow) section.

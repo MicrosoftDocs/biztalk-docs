@@ -28,7 +28,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
 - DB2 for z/OS accepts a 16 byte string (catalog is also known as a location).
 
-- DB2 for i5/OS accepts an 18 byte string (catalog is also known as a relational database).
+- DB2 for IBM i accepts an 18 byte string (catalog is also known as a relational database).
 
 - DB2 for LUW accepts an 8 byte string (catalog is also known as a database).
   ### Package collection
@@ -36,7 +36,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
 - DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).
 
-- DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).
+- DB2 for IBM i accepts a 10 byte string (schema is also known as a collection or library).
 
 - DB2 for LUW accepts a 30 byte string.
 
@@ -44,13 +44,13 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
 - Automatic for single-user environment. At runtime, the Data Provider creates and binds a single package for the current isolation level (the default is cursor stability). The Data Provider grants execute permissions to the current user.
 
-- Manual for multi-user environment. At design-time when you use the Data Access Tool menu option, Data Source Wizard, Data Access Library or Data Links, the Data Provider creates and binds a set of 4 packages (5 packages for DB2 for i5/OS). The Data Provider grants execute permissions to the PUBLIC group.
+- Manual for multi-user environment. At design-time when you use the Data Access Tool menu option, Data Source Wizard, Data Access Library or Data Links, the Data Provider creates and binds a set of 4 packages (5 packages for DB2 for IBM i). The Data Provider grants execute permissions to the PUBLIC group.
 
   The Data Provider creates 4-5 packages, depending on database server platform and environment. The following table describes the packages and isolation levels.
 
 |Microsoft Package Name|DB2 Isolation Level Name|OLE DB Isolation Level Name|
 |----------------------------|------------------------------|---------------------------------|
-|MSNC001|NO COMMIT|N/A (DB2 for i5/OS only)|
+|MSNC001|NO COMMIT|N/A (DB2 for IBM i only)|
 |MSUR001|UNCOMMITTED READ|ISOLATIONLEVEL_READUNCOMMITTED|
 |MSCS001|CURSOR STABILITY|ISOLATIONLEVEL_READCOMMITTED|
 |MSRS001|READ STABILITY|ISOLATIONLEVEL_REPEATABLEREAD|
@@ -61,7 +61,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
 -   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).
 
--   DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).
+-   DB2 for IBM i accepts a 10 byte string (schema is also known as a collection or library).
 
 -   DB2 for LUW accepts a 30 byte string.
 
@@ -70,7 +70,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
 -   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).
 
--   DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).
+-   DB2 for IBM i accepts a 10 byte string (schema is also known as a collection or library).
 
 -   DB2 for LUW accepts a 30 byte string.
 
@@ -78,7 +78,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
  Optionally, to increase performance and reduce the impact on the remote database, you can select the coded character set identifier (CCSID) for the remote DB2 database (host) and local SQL Server consumer (computer). The Data Provider uses these values to convert character strings to a code page supported by these platforms. The Data Provider supports a combination of single byte character sets (SBCS), mixed-byte character sets (MBCS) double-byte character sets (DBCS), and Unicode - UTF8 [1208], which is an 8-bit Unicode transformation format. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
 ### Host CCSID
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and IBM i utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
 ### PC Code Page
  The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
@@ -90,7 +90,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
 - DB2 for z/OS accepts an 8 byte string.
 
-- DB2 for i5/OS accepts a 10 byte string.
+- DB2 for IBM i accepts a 10 byte string.
 
 - DB2 for Linux or UNIX accepts an 8 byte string.
 
@@ -100,7 +100,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
 - DB2 for z/OS accepts an 8 byte string.
 
-- DB2 for i5/OS accepts a 128 byte string.
+- DB2 for IBM i accepts a 128 byte string.
 
 - DB2 for Linux or UNIX accepts an 8 byte string.
 
@@ -138,13 +138,13 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |DateTime As Date|All|All|Optional OLE DB data source initialization property that instructs the Data Provider to delete the time information in the value of the SQL Server datetime data value, passing only the date information to the IBM DB2 database.<br /><br /> You must use the optional DateTime As Date connection option to allow the distributed query processor and other SQL Server consumers to write SQL Server datetime data values using INSERT and UPDATE statements, or to use SQL Server datetime data values in parameters using SELECT, INSERT, UPDATE, and DELETE statements. The default value is false. You can set this property in the initialization string DateTime As Date=True or on the Data Links All tab. This property is exposed in the Data Source Wizard All Properties screen. **Warning:**  You cannot use both DateTime As Char=True and DateTime As Date=True in the same connection. To use these two features, you must use separate connections.|
 |DBMS Platform|Data Source (aka Data source platform)|Advanced|Optionally, you can instruct the Data Provider to connect the IBM DB2 database servers based on a relational database management systems platform designation. The Data Provider supports these string values: DB2/MVS, DB2/400, DB2/6000, and DB2/NT. The default is DB2/MVS.|
 |Decimal As Numeric|All|All|Optional OLE DB data source initialization property that instructs the Data Provider to map DB2 Decimal (OLE DB DBTYPE_DECIMAL) to DB2 Numeric (DBTYPE_NUMERIC). This option allows OLE DB consumers that support DBTYPE_NUMERIC but not DBTYPE_DECIMAL to read and write DB2 Decimal data. The default value is false. You can set this property in the initialization string Decimal As Numeric=True or on the Data Links All tab. This property is exposed in the Data Source Wizard All Properties screen.|
-|Default Qualifier|DB2 Database|Connection|DB2 database objects are organized into logical groups called schemas. The schema name is used to identify SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. SQL Server consumers may issue SQL statements with one-part or unqualified object names. Optionally, you can specify a string to instruct the Data Provider to set an environment option for a default qualifier, with which to inform the DB2 server in which schema to locate database objects. The default is an empty string.<br /><br /> -   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).<br />-   DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).<br />-   DB2 for LUW accepts a 30 byte string.|
-|Default Schema|DB2 Database|Connection|DB2 database objects are organized into logical groups called schemas. The schema name is used to catalog SQL objects such as tables and views, employing a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. At design time, to construct SQL such as SELECT statements, SQL Server consumers can present to the user a list of all objects in the database catalog. Optionally, you can specify a string to instruct the Data Provider to restrict schema queries to a single database schema, which improves efficiency and performance. The default is an empty string.<br /><br /> -   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).<br />-   DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).<br />-   DB2 for LUW accepts a 30 byte string.|
+|Default Qualifier|DB2 Database|Connection|DB2 database objects are organized into logical groups called schemas. The schema name is used to identify SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. SQL Server consumers may issue SQL statements with one-part or unqualified object names. Optionally, you can specify a string to instruct the Data Provider to set an environment option for a default qualifier, with which to inform the DB2 server in which schema to locate database objects. The default is an empty string.<br /><br /> -   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).<br />-   DB2 for IBM i accepts a 10 byte string (schema is also known as a collection or library).<br />-   DB2 for LUW accepts a 30 byte string.|
+|Default Schema|DB2 Database|Connection|DB2 database objects are organized into logical groups called schemas. The schema name is used to catalog SQL objects such as tables and views, employing a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. At design time, to construct SQL such as SELECT statements, SQL Server consumers can present to the user a list of all objects in the database catalog. Optionally, you can specify a string to instruct the Data Provider to restrict schema queries to a single database schema, which improves efficiency and performance. The default is an empty string.<br /><br /> -   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).<br />-   DB2 for IBM i accepts a 10 byte string (schema is also known as a collection or library).<br />-   DB2 for LUW accepts a 30 byte string.|
 |Defer Prepare|Advanced Options|All|Optionally, you can specify TRUE to instruct the Data Provider to optimize the processing of parameterized database commands. The default value is FALSE.. For the INSERT, UPDATE, and DELETE commands, the Data Provider can combine PREPARE, EXECUTE, and COMMIT commands into one network flow to the remote database. For the SELECT command, the Data Provider combines PREPARE and EXECUTE commands into one network flow. This optimization minimizes network traffic and can improve overall performance.|
 |Derive Parameters|Advanced Options|All|The Data Provider will verify and correct parameter lengths for character data types, on behalf of data consumers such as SQL Server Integration Services package designer and import/export wizard. Optionally, you can specify FALSE to instruct the Data Provider to not derive parameter data types. The default is TRUE. This feature is not required when you are using SQL Server Replication Services or other SQL Server consumers.|
 |Extended Properties|All|All|Optionally, you can specify additional comma-separated property value pairs that the consumer will pass to the Data Provider at connection time.|
-|Host CCSID|Locale|Advanced|The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see SNA Internationalization Programmer's Reference (https://go.microsoft.com/fwlink/?LinkID=181017).|
-|Initial Catalog|DB2 Database|Connection|The Data Provider requires this value to connect to an initial catalog on the DB2 database server.DB2 for z/OS accepts a 16 byte string (catalog is also known as a location). DB2 for i5/OS accepts an 18 byte string (catalog is also known as a relational database). DB2 for LUW accepts an 8 byte string (catalog is also known as a database).|
+|Host CCSID|Locale|Advanced|The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and IBM i utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see SNA Internationalization Programmer's Reference (https://go.microsoft.com/fwlink/?LinkID=181017).|
+|Initial Catalog|DB2 Database|Connection|The Data Provider requires this value to connect to an initial catalog on the DB2 database server.DB2 for z/OS accepts a 16 byte string (catalog is also known as a location). DB2 for IBM i accepts an 18 byte string (catalog is also known as a relational database). DB2 for LUW accepts an 8 byte string (catalog is also known as a database).|
 |Integrated Security|Security (aka Single sign-on)|Connection (aka Single sign-on)|Optionally, you can specify a string to instruct the Data Provider to use Enterprise Single Sign-On or Kerberos authentication. When using ESSO, you need to specify a concurrent string value for the separate Affiliate Application property. When using Kerberos, you need to specify a concurrent string value for Principle Name. The default is an empty string, which instructs the Data Provider to use interactive sign-on with user name and password derived from the connection object.|
 |LoadBalancing|All|All|Instructs the Data Provider to utilize the server list returned by a DB2 for z/OS database server, to re-connect to the most available server in a data sharing group, in support of client transaction load balancing and fault tolerant failover. The default value for this property is FALSE.|
 |Max Pool Size|All|All|Optional OLE DB data source initialization property that specifies the maximum number of connections that can exist in the connection pool when connection pooling is enabled for the data source. The default is 100. There is no upper limit for the Max Pool Size property. If you configure a value that is less than 0 for the Max Pool Size property, the default value of 100 is used.|

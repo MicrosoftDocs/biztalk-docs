@@ -3,7 +3,7 @@ description: "Learn more about: How to Deploy a New Version of an Application to
 title: "How to Deploy a New Version of an Application to Run Side-by-side with an Existing Version"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

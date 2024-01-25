@@ -2,7 +2,7 @@
 description: "End-to-End Tutorial to use and configure the BizTalk Accelerator for HL7 - BTAHL7"
 title: "BizTalk Accelerator for HL7 tutorial"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 f1_keywords: 
   - "btahl7.endtoendtutorial"

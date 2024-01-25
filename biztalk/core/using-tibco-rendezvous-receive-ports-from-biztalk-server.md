@@ -3,7 +3,7 @@ title: "Receive schemas & process events with TIBCO Rendezvous adapter"
 description: Work with TIBCO Rendezvous schemas on the receive side, and event processing using the BizTalk Adapter for TIBCO Rendezvous in BizTalk
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

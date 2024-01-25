@@ -3,7 +3,7 @@ description: "Learn more about: Types of EDI and AS2 Status Reports"
 title: "Types of EDI and AS2 Status Reports"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

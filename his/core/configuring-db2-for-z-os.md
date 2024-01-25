@@ -2,8 +2,8 @@
 description: "Learn more about: Configuring DB2 for z-OS"
 title: "Configuring DB2 for z-OS"
 ms.custom: ""
-ms.date: "11/30/2017"
 ms.service: host-integration-server
+ms.date: "12/22/2023"
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
@@ -29,11 +29,11 @@ IBM DB2 for z/OS supports access to remote DRDA Application Servers using inform
 ### SQL Server Management Studio  
  Using the Microsoft OLE DB Provider for DB2 with SQL Server Management Studio and a Distributed Query Processor (DQP) Linked Server, you can configure the DB2 for z/OS Configuration Database (CDB) to enable DRDA connectivity over a TCP/IP network connection to the DRDA Service.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft SQL Server 2008 R2** (SQL Server 2008, SQL Server 2012), click **SQL Server Management Studio**.  
+1.  On the **Start** menu, select  **Microsoft Server Tools 18**, and then select **SQL Server Management Studio 18**.  
   
-2.  In the **Connect to Server** dialog, type a **Server name** (e.g. **LOCALHOST**), and then click **Connect**.  
+2.  In the **Connect to Server** dialog, enter a **Server name** (e.g. **LOCALHOST**). Select an **Authentication** mode enter a **Login** and **Password**. Then select **Connect**.  
   
-3.  In the **Microsoft SQL Server Management Studio**, on the **File** menu, click **New**, and then click **Query with Current Connection**.  
+3.  In the **Microsoft SQL Server Management Studio** menu, select **New Query**.  
   
 4.  Copy and paste the examples below into the SQLQuery1.sql file within the Query Editor window, and then modify the bold yellow highlighted text to match values for your DB2 instance, DRDA Service, and SQL Server database.  
   

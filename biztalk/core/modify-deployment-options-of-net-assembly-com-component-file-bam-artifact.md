@@ -3,7 +3,7 @@ description: "Learn more about: How to Modify the Deployment Options of a .NET A
 title: "How to Modify the Deployment Options of a .NET Assembly, COM Component, File, or BAM Artifact"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Scenario 2:  Search using the search box web par
 title: "Scenario 2:  Search using the search box web part"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

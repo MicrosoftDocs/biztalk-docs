@@ -3,7 +3,7 @@ title: "Architecture of BizTalk Adapter for PeopleSoft Enterprise"
 description: Describes how messages are received, how messages are validates, and provides info on the component interface methods when using the PeopleSoft adapter with BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

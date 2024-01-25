@@ -3,7 +3,7 @@ description: "Learn more about: Key Scenarios and Development Tasks"
 title: "Key Scenarios and Development Tasks"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

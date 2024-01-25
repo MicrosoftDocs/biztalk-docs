@@ -2,8 +2,8 @@
 description: "Learn more about: SNA Manager Help"
 title: "SNA Manager Help1"
 ms.custom: ""
-ms.date: "11/30/2017"
-ms.service: host-integration-server
+ms.date: "12/16/2023"
+ms.service: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
@@ -16,28 +16,18 @@ Use these topics to navigate through the SNA Manager user interface.
   
  [Demo SDLC Link Service](../core/demo-sdlc-link-service2.md)  
   
- [Distributed Link Service Properties](../core/distributed-link-service-properties1.md)  
-  
  [APPC Mode Properties](../core/appc-mode-properties1.md)  
   
  [3270 LU Properties: General](../core/3270-lu-properties-general2.md)  
   
  [3270 LU Properties: LUA](../core/3270-lu-properties-lua2.md)  
   
- [3270 LU Properties: Down Stream](../core/3270-lu-properties-down-stream1.md)  
-  
  [Pool Properties: General](../core/pool-properties-general2.md)  
   
  [User Properties](../core/user-properties1.md)  
   
  [TN3270 Properties: General](../core/tn3270-properties-general2.md)  
-  
- [Connection Properties: SDLC](../core/connection-properties-sdlc1.md)  
-  
- [Connection Properties: X.25](../core/connection-properties-x-251.md)  
-  
- [Connection Properties: Channel](../core/connection-properties-channel1.md)  
-  
+ 
  [Local LU Properties: General](../core/local-lu-properties-general1.md)  
   
  [Remote LU Properties: General](../core/remote-lu-properties-general1.md)  
@@ -52,7 +42,7 @@ Use these topics to navigate through the SNA Manager user interface.
   
  [Domain Properties](../core/domain-properties2.md)  
   
- [AS400 Definition Properties: General](../core/as400-definition-properties-general2.md)  
+ [IBM I Definition Properties: General](../core/as400-definition-properties-general2.md)  
   
  [Active Users](../core/active-users2.md)  
   
@@ -76,11 +66,11 @@ Use these topics to navigate through the SNA Manager user interface.
   
  [Microsoft SNA Manager](../core/microsoft-sna-manager2.md)  
   
- [IBM System i Definitions](../core/as-400-definitions1.md)  
+ [IBM i Definitions](../core/as-400-definitions1.md)  
   
  [Active TN5250 Sessions](../core/active-tn5250-sessions1.md)  
   
- [IBM System i Definition Properties](../core/as-400-definition-properties1.md)  
+ [IBM i Definition Properties](../core/as-400-definition-properties1.md)  
   
  [APPC Modes Folder](../core/appc-modes-folder2.md)  
   

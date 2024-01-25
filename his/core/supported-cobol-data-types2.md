@@ -31,7 +31,7 @@ ms.topic: "article"
  Specifies a date by using a PIC 9(7) COMP-3 Packed Decimal value.  
   
  **PIC X**  
- Specifies a single character in an Extended Binary Coded Decimal Interchange Code (EBCDIC) character string. EBCDIC is the native representation for character data on mainframe and IBM System i computers. Unicode is the native representation for character data on Windows-based platforms.  
+ Specifies a single character in an Extended Binary Coded Decimal Interchange Code (EBCDIC) character string. EBCDIC is the native representation for character data on mainframe and IBM i computers. Unicode is the native representation for character data on Windows-based platforms.  
   
  **PIC X No Translation**  
  Specifies a single COBOL character in an EBCDIC character string that is handled as if it were binary data. In other words, there is no translation from EBCDIC to Unicode or from Unicode to EBCDIC.  

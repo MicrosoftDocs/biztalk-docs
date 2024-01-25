@@ -3,7 +3,7 @@ description: "Learn more about: Poll Oracle E-Business Suite using SELECT statem
 title: "Poll Oracle E-Business Suite using SELECT statement with the WCF service model"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ title: "Microsoft BizTalk Adapter for mySAP Business Suite documentation"
 description: Get started, architecture, security, develop apps, message schemas, and troubleshoot the mySAP adapter in BizTalk Adapter Pack
 ms.custom: ""
 ms.date: "08/16/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

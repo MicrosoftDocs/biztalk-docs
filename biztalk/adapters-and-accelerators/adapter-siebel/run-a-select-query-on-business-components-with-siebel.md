@@ -3,7 +3,7 @@ description: "Learn more about: Run a SELECT Query on Business Components with S
 title: "Run a SELECT Query on Business Components with Siebel"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

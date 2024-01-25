@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Print Tracing Problems
-[!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] incorporates extensive tracing within the Host Print Service components and the messages that flow between them. The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Print Service communicates over two well-defined SNA APIs - FMI (Functional Management Interface) and the APPC (Application Program to Program Communication) API FMI is used for 3270 printing, while APPC API is used for IBM System i printing.  
+[!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] incorporates extensive tracing within the Host Print Service components and the messages that flow between them. The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Print Service communicates over two well-defined SNA APIs - FMI (Functional Management Interface) and the APPC (Application Program to Program Communication) API FMI is used for 3270 printing, while APPC API is used for IBM i printing.  
   
 #### For problems where the output is not correct  
   

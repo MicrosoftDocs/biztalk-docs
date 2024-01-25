@@ -3,7 +3,7 @@ title: "Add BizTalk Adapter for JD Edwards OneWorld"
 description: Add the JD Edwards OneWorld to BizTalk Administration, create the send port, configure the transport properties, and use the XMLReceive and XMLTransmit pipelines when using JD Edwards OneWorld adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/18/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

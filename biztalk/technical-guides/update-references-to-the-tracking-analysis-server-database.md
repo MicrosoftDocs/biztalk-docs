@@ -3,7 +3,7 @@ description: "Learn more about: Update References to the Tracking Analysis Serve
 title: "Update References to the Tracking Analysis Server Database"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

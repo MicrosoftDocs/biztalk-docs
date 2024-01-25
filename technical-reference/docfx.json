@@ -44,6 +44,7 @@
 
                                         ],
                   "globalMetadata":  {
+                           "ms.service": "biztalk-server",
                                          "breadcrumb_path":  "/biztalk/core/technical-reference/breadcrumb/toc.json",
                                          "extendBreadcrumb":  true,
                                          "feedback_system":  "Standard",
@@ -52,7 +53,6 @@
                                          "author":  "MandiOhlinger",
                                          "ms.author":  "mandia",
                                          "ms.date":  "08/17/2018",
-                                         "ms.prod":  "biztalk-server",
                                          "ms.topic":  "conceptual",
                                          "uhfHeaderId": "MSDocsHeader-BizTalk"      
                                      },

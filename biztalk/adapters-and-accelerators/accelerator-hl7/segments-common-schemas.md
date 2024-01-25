@@ -2,7 +2,7 @@
 description: "Learn more about: Segments Common Schemas"
 title: "Segments Common Schemas"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Segments Common Schemas

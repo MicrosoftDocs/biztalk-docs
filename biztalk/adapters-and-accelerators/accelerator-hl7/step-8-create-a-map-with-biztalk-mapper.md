@@ -2,7 +2,7 @@
 description: "Learn more about: Step 8: Create a Map with BizTalk Mapper"
 title: "Step 8: Create a Map with BizTalk Mapper"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 8: Create a Map with BizTalk Mapper

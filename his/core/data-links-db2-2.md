@@ -88,7 +88,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|An 8-byte string.|
-|DB2 for i5/OS|A 10-byte string.|
+|DB2 for IBM i|A 10-byte string.|
 |DB2 for Linux or UNIX|An 8-byte string.|
 |DB2 for Windows|A 30-byte string.|
 
@@ -99,7 +99,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|An 8-byte string.|
-|DB2 for i5/OS|A 128-byte string.|
+|DB2 for IBM i|A 128-byte string.|
 |DB2 for Linux or UNIX|An 8-byte string.|
 |DB2 for Windows|A 32-byte string|
 
@@ -127,7 +127,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|A 16-byte string (catalog is also known as a location).|
-|DB2 for i5/OS|An 18-byte string (catalog is also known as a relational database).|
+|DB2 for IBM i|An 18-byte string (catalog is also known as a relational database).|
 |DB2 for LUW|An 8-byte string (catalog is also known as a database).|
 
  **Package Collection**
@@ -139,7 +139,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
 
  The Data Provider creates packages using one of the following options.
@@ -147,7 +147,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |Option|Description|
 |-|-|
 |Automatic|For single-user environment. At runtime, the Data Provider creates and binds a single package for the current isolation level (the default is cursor stability). The Data Provider grants execute privileges to the current user.|
-|Manual|For multi-user environment. At design time when you use the Data Access Tool menu option, the Data Source Wizard, or Data Links, the Data Provider creates and binds 4-5 packages for DB2 for i5/OS using MSNC001. The Data Provider then grants execute permissions to the PUBLIC group.|
+|Manual|For multi-user environment. At design time when you use the Data Access Tool menu option, the Data Source Wizard, or Data Links, the Data Provider creates and binds 4-5 packages for DB2 for IBM i using MSNC001. The Data Provider then grants execute permissions to the PUBLIC group.|
 
  The Data Provider creates 1 to 5 packages, depending on the database server platform and environment. The following table describes the packages and isolation levels.
 
@@ -170,7 +170,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A-30 byte string.|
 
  The **Connection** tab includes three buttons.
@@ -190,7 +190,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  **Host CCSID**
 
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and IBM i use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
  **PC Code Page**
 
@@ -207,7 +207,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|
 |-|-|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
 
  **Options**
@@ -347,7 +347,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|  
 |-|-|  
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|  
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|  
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library).|  
 |DB2 for LUW|A 30-byte string.|  
   
  **Default Schema**  
@@ -361,7 +361,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|  
 |-|-|  
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|  
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|  
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library)|  
 |DB2 for LUW|A 30-byte string.|  
 |DB2 for Windows|A 32-byte string.|  
   
@@ -383,7 +383,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
   **Host CCSID**  
   
-  The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).  
+  The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and IBM i use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).  
   
   **Initial Catalog**  
   
@@ -392,7 +392,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|  
 |-|-|  
 |DB2 for z/OS|A 16-byte string (catalog is also known as a location).|  
-|DB2 for i5/OS|An 18-byte string (catalog is also known as a relational database).|  
+|DB2 for IBM i|An 18-byte string (catalog is also known as a relational database).|  
 |DB2 for LUW|An 8-byte string (catalog is also known as a database).|  
   
  **Integrated Security**  
@@ -432,7 +432,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|  
 |-|-|  
 |DB2 for z/OS|An 8-byte string.|  
-|DB2 for i5/OS|A 128-byte string.|  
+|DB2 for IBM i|A 128-byte string.|  
 |DB2 for Linux or UNIX|An 8-byte string.|  
 |DB2 for Windows|A 32-byte string.|  
   
@@ -445,7 +445,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|  
 |-|-|  
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|  
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|  
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library)|  
 |DB2 for Linux or UNIX|A 30-byte string.|  
   
  **Password**  
@@ -457,7 +457,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|  
 |-|-|  
 |DB2 for z/OS|An 8-byte string.|  
-|DB2 for i5/OS|A 128-byte string.|  
+|DB2 for IBM i|A 128-byte string.|  
 |DB2 for Linux or UNIX|An 8-byte string.|  
 |DB2 for Windows|A 32-byte string.|  
   
@@ -496,7 +496,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 |DB2 Database|String Type|  
 |-|-|  
 |DB2 for z/OS|An 8-byte string.|  
-|DB2 for i5/OS|A 10-byte string.|  
+|DB2 for IBM i|A 10-byte string.|  
 |DB2 for Linux or UNIX|An 8-byte string.|  
 |DB2 for Windows|A 30-byte string Password.|  
   

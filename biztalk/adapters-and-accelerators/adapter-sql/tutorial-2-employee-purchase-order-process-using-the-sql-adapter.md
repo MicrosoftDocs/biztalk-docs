@@ -3,7 +3,7 @@ description: "Learn more about: Tutorial 2: Employee - Purchase Order Process us
 title: "Tutorial 2: Employee - Purchase Order Process using the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

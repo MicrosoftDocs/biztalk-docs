@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Architecture
-The Data Provider connects Microsoft SQL Server data consumers to remote IBM DB2 database servers running on a variety of operating systems, including IBM mainframe z/OS and IBM midrange i5/OS. The Data Provider offers cross-platform interoperability capabilities, such as code page conversion and data conversion. The Data Provider offers security and protection features for authentication and data encryption.  
+The Data Provider connects Microsoft SQL Server data consumers to remote IBM DB2 database servers running on a variety of operating systems, including IBM mainframe z/OS and IBM midrange IBM i. The Data Provider offers cross-platform interoperability capabilities, such as code page conversion and data conversion. The Data Provider offers security and protection features for authentication and data encryption.  
   
 ## Data Provider  
   

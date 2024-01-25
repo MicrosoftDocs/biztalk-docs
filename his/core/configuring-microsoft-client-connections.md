@@ -2,8 +2,8 @@
 description: "Learn more about: Configuring Microsoft Client Connections"
 title: "Configuring Microsoft Client Connections"
 ms.custom: ""
-ms.date: "11/30/2017"
-ms.service: host-integration-server
+ms.date: "12/22/2023"
+ms.service: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
@@ -12,7 +12,7 @@ ms.topic: "article"
 ### Connect Microsoft Client to DRDA Service  
  You can connect the Microsoft Client for DB2 to the DRDA Service directly, to test the DRDA Service configuration.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Host Integration Server 2010**, and click **Data Access Tool**. When prompted by **User Access Control**, click **Yes**.  
+1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Host Integration Server 2020**, and click **Data Access Tool**. When prompted by **User Access Control**, click **Yes**.  
   
 2.  In the **Data Access Tool**, click the **Data Sources**, click the **File** menu, and then click **New Data Source**.  
   

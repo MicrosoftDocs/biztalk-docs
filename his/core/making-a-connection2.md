@@ -44,7 +44,7 @@ For a connection to be established successfully, a number of software settings a
   
 |Element|Considerations|  
 |-------------|--------------------|  
-|**Host configuration** settings must match the connectionandserversettings on the Host Integration Server computer.|**Mainframe node ID settings**: For most mainframes, IDBLK and IDNUM in the physical unit (PU) definition must match the two parts of the Remote Node ID on the Host Integration Server connection.<br /><br /> **IBM System i name settings**: For the IBM System i computer, local and remote control point names (CP names) and network names must be matched with corresponding Host Integration Server settings<br /><br /> **BTU length**: For the mainframe, the BTU length is set through MAXDATA in the PU definition. For the IBM System i computer, this is set through MAXFRAME. These should equal the Max BTU Length on the Host Integration Server connection.<br /><br />|  
+|**Host configuration** settings must match the connectionandserversettings on the Host Integration Server computer.|**Mainframe node ID settings**: For most mainframes, IDBLK and IDNUM in the physical unit (PU) definition must match the two parts of the Remote Node ID on the Host Integration Server connection.<br /><br /> **IBM i name settings**: For the IBM i computer, local and remote control point names (CP names) and network names must be matched with corresponding Host Integration Server settings<br /><br /> **BTU length**: For the mainframe, the BTU length is set through MAXDATA in the PU definition. For the IBM i computer, this is set through MAXFRAME. These should equal the Max BTU Length on the Host Integration Server connection.<br /><br />|  
   
   
 ## More good stuff

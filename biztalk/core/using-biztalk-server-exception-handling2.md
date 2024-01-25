@@ -3,7 +3,7 @@ title: "Use BizTalk Server Exception Handling in PeopleSoft Enterprise"
 description: Overview of handling exceptions and updating the jdearglist.txt file for your orchestrations that use the PeopleSoft Enterprise adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/19/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

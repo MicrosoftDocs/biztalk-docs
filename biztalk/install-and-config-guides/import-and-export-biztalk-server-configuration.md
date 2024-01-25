@@ -3,7 +3,7 @@ title: "Import and Export BizTalk Server Configuration"
 description: Steps to apply, import, export or unconfigure the components, and update the databases and service accounts in BizTalk Server
 ms.custom: ""
 ms.date: "08/14/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: BizTalk Server 2010 Operations Guide"
 title: "BizTalk Server 2010 Operations Guide"
 ms.custom: ""
 ms.date: "06/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Run Operations on Business Components with the S
 title: "Run Operations on Business Components with the Siebel adapter using the WCF Channel Model"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

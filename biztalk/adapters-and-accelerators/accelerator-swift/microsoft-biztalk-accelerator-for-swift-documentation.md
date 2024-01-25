@@ -3,7 +3,7 @@ title: "Microsoft BizTalk Accelerator for SWIFT documentation"
 description: Quick links to install, configure, deploy, get started, secure, develop, and troubleshooting the SWIFT accelerator in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

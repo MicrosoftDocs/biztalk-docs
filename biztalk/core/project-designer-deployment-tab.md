@@ -3,7 +3,7 @@ description: "Learn more about: Project Designer: Deployment Tab"
 title: "Project Designer: Deployment Tab"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

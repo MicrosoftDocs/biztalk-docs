@@ -2,7 +2,7 @@
 description: "Learn more about: Part 2: Batch In/Batch Out Scenario"
 title: "Part 2: Batch In-Batch Out Scenario"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Part 2: Batch In/Batch Out Scenario

@@ -3,7 +3,7 @@ title: "Adapters and Accelerators in BizTalk Server"
 description: Overview of all the adapters and accelerators in BizTalk, including the built-in adapters, BAP, HL7, Swift, RosettaNet, FileAct, and InterAct
 ms.custom: ""
 ms.date: "08/09/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

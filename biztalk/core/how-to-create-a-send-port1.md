@@ -3,7 +3,7 @@ description: "Learn how to create BizTalk Server send ports for JD Edwards Enter
 title: "How to Create a Send Port1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

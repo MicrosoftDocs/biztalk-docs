@@ -3,7 +3,7 @@ description: "Learn more about: The TA1 contained in interchange had the followi
 title: "The TA1 contained in interchange had the following errors"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

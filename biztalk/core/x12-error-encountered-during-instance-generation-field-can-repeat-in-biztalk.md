@@ -3,7 +3,7 @@ description: "Learn more about: Error encountered during instance generation--fi
 title: "Error encountered during instance generation--field can repeat but repetition delimiter has not been defined"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

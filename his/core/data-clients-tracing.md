@@ -52,7 +52,7 @@ There are multiple options for tracing, which can help to capture problems in th
           name="HisTextFileListener"
           type="Microsoft.HostIntegration.Tracing.HisTextFileTraceListener, Microsoft.HostIntegration.Tracing.Runtime, Culture=neutral, Version=9.0.1000.0, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
           maxTraceEntries="1000000"
-          traceFileFolder="C:\Program Files\Microsoft Host Integration Server 2013\traces\"
+          traceFileFolder="C:\Program Files\Microsoft Host Integration Server 2020\traces\"
           autoFlush="true"
           fileNamePreamble="MsHostFileClient"
           allowNonHisTracingToCreateFile="true"

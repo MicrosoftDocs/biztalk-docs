@@ -119,7 +119,7 @@ ms.topic: "article"
 |||Variable-length Relative Record Data Sets (VRRDSs)|
 |||VSAM Alternate Indexes to ESDSs or KSDSs|
 ||Basic Partitioned Access Method|Partitioned Data Sets (PDS) and Partitioned Data Set Extended (PDSE) directories and members|
-|Midrange (i5/OS)|Sequential and Keyed Access|Single and multiple member Physical files (PF) and Keyed physical files (KPF)|
+|Midrange (IBM i)|Sequential and Keyed Access|Single and multiple member Physical files (PF) and Keyed physical files (KPF)|
 |||Logical files (LF) over a PF or KPF|
 
  ![DI&#95;Midrange](../core/media/di-midrange.png "DI_Midrange")

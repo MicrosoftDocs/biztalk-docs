@@ -2,7 +2,7 @@
 title: "Install or upgrade Microsoft BizTalk Accelerator for HL7"
 description: Overview of the install, configure, upgrade, uninstall, and troubleshoot of the HL7 accelerator in BizTalk Server
 ms.date: "08/09/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 

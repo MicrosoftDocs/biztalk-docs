@@ -2,7 +2,7 @@
 title: White papers, blogs, and downloads for Host Integration Server
 description: Management packs, SDKs, best practices analyzer, and white paper downloads for HIS
 ms.date: "08/10/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.suite: ""
 ms.topic: "article"
 ---

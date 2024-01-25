@@ -3,7 +3,7 @@ description: "Learn more about: Invoke Weakly-typed Stored Procedures in SQL usi
 title: "Invoke Weakly-typed Stored Procedures in SQL using the WCF Service Model"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

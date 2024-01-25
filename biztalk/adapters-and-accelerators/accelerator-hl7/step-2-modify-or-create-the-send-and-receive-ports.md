@@ -2,7 +2,7 @@
 description: "Learn more about: Step 2: Modify or Create the Send and Receive Ports"
 title: "Step 2: Modify or Create the Send and Receive Ports"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 2: Modify or Create the Send and Receive Ports

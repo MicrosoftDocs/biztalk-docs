@@ -3,7 +3,7 @@ title: "BAM End-to-End sample in BizTalk Server"
 description: Scenario on how to correlate events from multiple components using Business Activity Monitoring in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

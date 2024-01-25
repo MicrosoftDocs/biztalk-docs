@@ -3,7 +3,7 @@ title: "SDK samples"
 description: Adapter, application deployment, BAM, business rules, orchestration, pipeline, and more SDK samples available in BizTalk Server
 ms.custom: ""
 ms.date: "10/17/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

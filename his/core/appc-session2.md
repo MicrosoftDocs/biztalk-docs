@@ -27,13 +27,13 @@ The following tabs are available on the Print Session 3270 Properties sheet:
  **Mode Name**  
  The default mode name is QPCSUPP. Click the drop-down list arrow to make another selection. The choices are: **#INTERSC**, **BLANK**, **QPCSUPP**, **QSERVER**.  
   
- **IBM System i Device Name**  
- You must enter the name for the IBM System i printer device, which is a descriptive name that distinguishes different printers on the network.  
+ **IBM i Device Name**  
+ You must enter the name for the IBM i printer device, which is a descriptive name that distinguishes different printers on the network.  
   
  **System Type**  
- Select the type of system you are printing from; either IBM System i, System/36, AS/36.  
+ Select the type of system you are printing from; either IBM i, System/36, AS/36.  
   
- **IBM System i**  
+ **IBM i**  
   **Msg Queue Name**  
  Enter the qualified name of the message queue to which operational messages for this device are sent.  
   
@@ -59,9 +59,9 @@ The following tabs are available on the Print Session 3270 Properties sheet:
  **HPT**  
  Displays the **Host Print Transform Properties** box, where you can designate the printer type and paper sources.  
   
- The Host Print Transform feature changes print data on the IBM System i to the ASCII format needed by a PC printer.  
+ The Host Print Transform feature changes print data on the IBM i to the ASCII format needed by a PC printer.  
   
- Select a manufacturer type and model number. If you cannot find the type and model number in the list you can type them in the box. If you do not know the manufacturer type and model number, see your system administrator or see the help on the IBM System i.  
+ Select a manufacturer type and model number. If you cannot find the type and model number in the list you can type them in the box. If you do not know the manufacturer type and model number, see your system administrator or see the help on the IBM i.  
   
 > [!IMPORTANT]
 >  You must enter an asterisk "**\\***" before the manufacturer type and model number. Make sure there are no spaces between the asterisk, manufacturer type and model number, for example: *HPIIISI, or \*IBM3812.  

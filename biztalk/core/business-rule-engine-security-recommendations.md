@@ -3,7 +3,7 @@ description: "Learn more about: Business Rule Engine Security Recommendations"
 title: "Business Rule Engine Security Recommendations"
 ms.custom: ""
 ms.date: "09/27/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

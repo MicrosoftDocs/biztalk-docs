@@ -1,7 +1,7 @@
 ---
 title: Plan for sending and receiving
 description: Learn about planning for sending and receiving in BizTalk Server.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: conceptual
 ms.date: 12/30/2022
 ms.custom: "devx-track-javaee-websphere"

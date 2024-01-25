@@ -1,7 +1,7 @@
 ---
 title: BizTalk Server 2010 Hyper-V Guide
 description: Learn more about BizTalk Server 2010 Hyper-V.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
 ---

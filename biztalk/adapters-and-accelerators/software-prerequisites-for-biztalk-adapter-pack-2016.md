@@ -3,7 +3,7 @@ description: "Learn more about: Software prerequisites for BizTalk Adapter Pack 
 title: "Software prerequisites for BizTalk Adapter Pack 2016"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

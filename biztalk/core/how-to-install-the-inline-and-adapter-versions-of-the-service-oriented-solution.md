@@ -3,7 +3,7 @@ description: "Learn more about: How to Install the Inline and Adapter Versions o
 title: "Install the Inline and Adapter Versions of the Service Oriented Solution"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

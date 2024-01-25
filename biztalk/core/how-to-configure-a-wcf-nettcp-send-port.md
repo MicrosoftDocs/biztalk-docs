@@ -1,7 +1,7 @@
 ---
 title: Configure a WCF-NetTcp Send Port
 description: Learn how to configure a WCF-NetTcp Send Port in BizTalk Server.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: how-to
 ms.date: 06/08/2017
 ---

@@ -3,7 +3,7 @@ title: "Install, schemas, and limitations TIBCO Rendezvous adapter"
 description: Install, schema generation, and limitations of the BizTalk Adapter for TIBCO Rendezvous in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

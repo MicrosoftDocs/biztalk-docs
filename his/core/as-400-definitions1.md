@@ -1,14 +1,14 @@
 ---
-title: Definitions for IBM System i
-description: Learn more about definitions for IBM System i.
+title: Definitions for IBM i
+description: Learn more about definitions for IBM i.
 ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/28/2023
 ---
 
-# Defintions for IBM System i
+# Defintions for IBM i
 
-This folder displays the IBM System i definitions that are currently used on this server.
+This folder displays the IBM i definitions that are currently used on this server.
 
 ## See also
 

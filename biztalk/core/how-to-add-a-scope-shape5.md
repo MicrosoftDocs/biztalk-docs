@@ -3,7 +3,7 @@ description: "Learn how to add a Scope shape that contains a CatchException bloc
 title: "How to Add a Scope Shape5"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

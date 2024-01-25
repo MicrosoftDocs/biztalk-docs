@@ -3,7 +3,7 @@ description: "Exception handling in the orchestration designer in BizTalk Server
 title: "Basic Orchestration Design"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

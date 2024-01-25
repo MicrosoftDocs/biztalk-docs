@@ -2,7 +2,7 @@
 description: "Learn more about: Sample Business Scenario"
 title: "Sample Business Scenario"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Sample Business Scenario

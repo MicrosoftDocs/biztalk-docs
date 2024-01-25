@@ -2,7 +2,7 @@
 description: "Learn more about: How BizTalk Accelerator for HL7 Works"
 title: "How BizTalk Accelerator for HL7 Works"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # How BizTalk Accelerator for HL7 Works

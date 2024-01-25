@@ -1,24 +1,24 @@
 ---
-title: APPC printing for IBM System i 
-description: Learn more about APPC printing for IBM System i.
+title: APPC printing for IBM i
+description: Learn more about APPC printing for IBM i.
 ms.service: host-integration-server
 ms.topic: how-to
 ms.date: 11/28/2023
 ---
 
-# APPC printing for IBM System i
+# APPC printing for IBM i
 
-APPC printing, like LU 1 printing, uses SCS control codes in the data stream. The set of SCS control codes available for use in APPC printing is more extensive, and allows more formatting options than the set described for LU 1 printing. The IBM System i also provides an additional method for formatting print jobs called Host Print Transform (HPT). With HPT enabled, the IBM System i takes responsibility for rendering the print job into data the printer can understand.  
+APPC printing, like LU 1 printing, uses SCS control codes in the data stream. The set of SCS control codes available for use in APPC printing is more extensive, and allows more formatting options than the set described for LU 1 printing. The IBM i also provides an additional method for formatting print jobs called Host Print Transform (HPT). With HPT enabled, the IBM i takes responsibility for rendering the print job into data the printer can understand.  
 
-The following diagram shows the APPC connection between IBM System i and Host Integration Server for sending a print job to local printer:
+The following diagram shows the APPC connection between IBM i and Host Integration Server for sending a print job to local printer:
 
-![Image that shows the APPC connection between IBM System i and Host Integration Server to send print job to local printer.](../core/media/prn04.gif)
+![Image that shows the APPC connection between IBM i and Host Integration Server to send print job to local printer.](../core/media/prn04.gif)
  
 ## Host Print Transform (HPT)  
 
-When the host uses SCS control codes to format the print output, a print emulator translates the SCS codes and characters into data that the printer can understand by using the Windows printer driver and Windows Print system. With HPT enabled, the IBM System i converts the data to printer control codes before sending the data to Host Integration Server. This output from the host requires no further processing after leaving the IBM System i. The print emulator's only responsibility is submitting the data to the printer.
+When the host uses SCS control codes to format the print output, a print emulator translates the SCS codes and characters into data that the printer can understand by using the Windows printer driver and Windows Print system. With HPT enabled, the IBM i converts the data to printer control codes before sending the data to Host Integration Server. This output from the host requires no further processing after leaving the IBM i. The print emulator's only responsibility is submitting the data to the printer.
 
-HPT is enabled on the IBM System i in the Device description for the print session. When HPT is enabled, pre-rendered print jobs are sent to the Host Integration Server in marked ASCII Transparent (ATRN) sections using the SCS control code '0x03'. The ATRN control code provides the same function as the Transparent (TRN) control code detailed in the LU 1 printing section. ATRN indicates that the data is ASCII, should be handled as transparent, and not to convert from EBCDIC to ASCII.  
+HPT is enabled on the IBM i in the Device description for the print session. When HPT is enabled, pre-rendered print jobs are sent to the Host Integration Server in marked ASCII Transparent (ATRN) sections using the SCS control code '0x03'. The ATRN control code provides the same function as the Transparent (TRN) control code detailed in the LU 1 printing section. ATRN indicates that the data is ASCII, should be handled as transparent, and not to convert from EBCDIC to ASCII.  
 
 ### Enable the host transform feature using the default 5224 print device  
 
@@ -38,7 +38,7 @@ HPT is enabled on the IBM System i in the Device description for the print sessi
   
 1. Start the print writer.  
   
-   For more details on the Host Print Transform feature, see the "IBM System i Printer device programming" manual (SC41-3713), or the "IBM System i Printing IV" redbook (GG24-4389). Both are available from IBM.  
+   For more details on the Host Print Transform feature, see the "IBM i Printer device programming" manual (SC41-3713), or the "IBM i Printing IV" redbook (GG24-4389). Both are available from IBM.  
   
 ## SCS Codes
 

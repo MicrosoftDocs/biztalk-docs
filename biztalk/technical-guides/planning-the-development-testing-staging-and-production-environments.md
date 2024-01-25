@@ -3,7 +3,7 @@ description: "Learn more about: Planning the Development, Testing, Staging, and 
 title: "Planning the Development, Testing, Staging, and Production Environments"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

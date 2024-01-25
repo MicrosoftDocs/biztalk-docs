@@ -2,7 +2,7 @@
 description: "Learn more about: Step 17: Create the WSClient Application"
 title: "Step 17: Create the WSClient Application"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 17: Create the WSClient Application

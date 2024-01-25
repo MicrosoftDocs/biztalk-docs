@@ -28,7 +28,7 @@ Transaction Integrator (TI) supports the following four data flows:
 |TCP Transaction Request Message (TRM) User Data|X|X|||  
 |TCP Enhanced Listener Message (ELM) User Data|X|X|||  
 |IMS Connect|X||||  
-|IBM System i Distributed Program Calls|X||||  
+|IBM i Distributed Program Calls|X||||  
 |CICS LU6.2 Link|X||X||  
 |CICS LU6.2 User Data|X|X|X|X|  
 |IMS LU6.2|X|X|X|X|  

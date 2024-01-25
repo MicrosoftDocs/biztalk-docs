@@ -3,7 +3,7 @@ title: "Translate SAP query parameters into EXECQUERY commands in mySAP adapter 
 description: Guidance to translate SAP query to EXECQUERY, with examples
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

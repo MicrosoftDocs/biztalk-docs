@@ -1,7 +1,7 @@
 ---
 title: Logging, event monitoring, and service debugging
 description: Learn more about the logging process, event monitoring, and service debugging for BizTalk Server.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
 ---

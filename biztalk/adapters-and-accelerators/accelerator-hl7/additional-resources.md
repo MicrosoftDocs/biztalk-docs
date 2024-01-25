@@ -2,7 +2,7 @@
 description: "Learn more about: Additional Resources"
 title: "Additional Resources"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Additional Resources

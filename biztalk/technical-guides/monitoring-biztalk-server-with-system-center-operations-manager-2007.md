@@ -3,7 +3,7 @@ description: "Learn more about: Monitoring BizTalk Server with System Center Ope
 title: "Monitoring BizTalk Server with System Center Operations Manager 2007"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

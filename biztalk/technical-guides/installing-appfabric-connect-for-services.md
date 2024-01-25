@@ -1,7 +1,7 @@
 ---
 title: Install AppFabric Connect for Services
 description: Learn about installing AppFabric Connect for Services in BizTalk Server.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: how-to
 ms.date: 06/08/2017
 ---

@@ -3,7 +3,7 @@ title: "Create TIBCO Rendezvous adapter send artifacts"
 description: Create a send port, configure the transport properties to send messages to TIBCO Rendezvous from BizTalk 
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

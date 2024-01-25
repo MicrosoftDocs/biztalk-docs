@@ -3,7 +3,7 @@ description: "Learn more about: How to Link Records Automatically"
 title: "How to Link Records Automatically"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -14,19 +14,19 @@ The following list describes the information displayed in the status line of the
 
 - **Status indicators**: These indicators are only true when red.
 
-- **SA (System Available)**: The IBM System i is operating and is available to the computer.
+- **SA (System Available)**: The IBM i is operating and is available to the computer.
 
-- **MW (Message Waiting)**: The IBM System i has one or more messages for you.
+- **MW (Message Waiting)**: The IBM i has one or more messages for you.
 
 - **KS (Keyboard Shift)**: The keyboard is in shifted mode.
 
 - **IM (Insert Mode)**: Characters inserted into an existing field will not type over the existing data.
 
-- **II (Input Inhibited)**: The IBM System i isn't accepting keyboard input. Try pressing the ERROR RESET key. If still highlighted, the system is processing your request.
+- **II (Input Inhibited)**: The IBM i isn't accepting keyboard input. Try pressing the ERROR RESET key. If still highlighted, the system is processing your request.
 
-- **KB (Keystroke Buffering)**: The IBM System i isn't accepting keyboard input, as indicated by the II indicator, so keystrokes are saved to a temporary buffer (storage space). After the II indicator turns off, the keystrokes are processed. To clear the keystroke buffering, press the ERROR RESET key.
+- **KB (Keystroke Buffering)**: The IBM i isn't accepting keyboard input, as indicated by the II indicator, so keystrokes are saved to a temporary buffer (storage space). After the II indicator turns off, the keystrokes are processed. To clear the keystroke buffering, press the ERROR RESET key.
 
-- **System and Device Indicators**: These indicators appear only when the client is connected to the IBM System i.
+- **System and Device Indicators**: These indicators appear only when the client is connected to the IBM i.
 
 ## See also  
 

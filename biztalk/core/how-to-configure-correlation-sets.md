@@ -3,7 +3,7 @@ description: "Learn more about: How to Configure Correlation Sets"
 title: "How to Configure Correlation Sets"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

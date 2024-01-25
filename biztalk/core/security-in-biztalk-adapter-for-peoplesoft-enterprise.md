@@ -3,7 +3,7 @@ title: "Security in BizTalk Adapter for PeopleSoft Enterprise"
 description: Use enterprise single sign-on (SSO) to secure your applications that use the PeopleSoft Enterprise adapter in BizTalk
 ms.custom: ""
 ms.date: "10/19/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

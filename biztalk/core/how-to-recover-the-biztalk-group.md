@@ -3,7 +3,7 @@ description: "Learn more about: How to Recover the BizTalk Group"
 title: "Recover the BizTalk Group"
 ms.custom: ""
 ms.date: "01/30/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Multiple Views of MX InfoPath forms"
 title: "Multiple Views of MX InfoPath forms"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

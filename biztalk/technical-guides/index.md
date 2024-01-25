@@ -2,7 +2,7 @@
 description: "Learn more about: BizTalk Technical Guides"
 title: "Technical Guides"
 ms.custom: ""
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.date: "03/17/2016"
 ms.reviewer: ""
 ms.suite: ""

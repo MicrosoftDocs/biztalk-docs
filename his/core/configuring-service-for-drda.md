@@ -12,7 +12,7 @@ ms.topic: "article"
 IT professionals can specify the basic required DRDA Service configuration settings by running the interactive or unattended installation program. The installation and configuration process registers the MsDrdaService.exe as a service.  
   
 ### Service Credentials  
- Using Windows Services Microsoft Management Console (MMC) snap-in, you can change the account name and password in which context to run the DRDA Service (C:\Program Files\Microsoft Host Integration Server 2013\system\MsDrdaService.exe). The configuration is stored in the Windows registry.  
+ Using Windows Services Microsoft Management Console (MMC) snap-in, you can change the account name and password in which context to run the DRDA Service (C:\Program Files\Microsoft Host Integration Server 2020\system\MsDrdaService.exe). The configuration is stored in the Windows registry.  
   
 1.  On the **Start** menu, point to **All Programs**, point to **Administrative Tools**, and click **Computer Management**.  
   
@@ -40,4 +40,4 @@ IT professionals can specify the basic required DRDA Service configuration setti
 ### Application Configuration File  
  The DRDA Service configuration is stored in the MsDrdaService.exe.config application configuration (app config) file, and associated XML files (error message mapping and data type mapping). At runtime, the DRDA Service will monitor the MsDrdaService.exe.config file for changes. When detected, the DRDA Service will read and utilize the changed configuration information when processing new in-bound connections.  
   
- Post-installation, IT professionals can customize the DRDA Service configuration by editing the MsDrdaService.exe.config application configuration (app config) file using an XML editor and the associated C:\Program Files\Microsoft Host Integration Server 2013\system\Schemas\HostIntegrationDrdaServiceConfiguration.xsd file.
+ Post-installation, IT professionals can customize the DRDA Service configuration by editing the MsDrdaService.exe.config application configuration (app config) file using an XML editor and the associated C:\Program Files\Microsoft Host Integration Server 2020\system\Schemas\HostIntegrationDrdaServiceConfiguration.xsd file.

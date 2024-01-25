@@ -3,7 +3,7 @@ description: "Learn how to add a fault message to a port in the back-end system 
 title: "How to Add a Fault Message1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

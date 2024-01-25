@@ -3,7 +3,7 @@ description: "Learn more about: Appendix C: BizTalk Server and SQL Server Hyper-
 title: "Appendix C: BizTalk Server and SQL Server Hyper-V Supportability"
 ms.custom: ""
 ms.date: "11/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

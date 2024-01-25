@@ -3,7 +3,7 @@ description: "Learn more about: Step 4: Submitting a 3A4 Request"
 title: "Step 4: Submitting a 3A4 Request"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

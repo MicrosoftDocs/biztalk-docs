@@ -23,7 +23,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
 -   [Mainframe File System](../core/data-source-wizard-host-files-2.md#ma)
 
--   [IBM System i File System](../core/data-source-wizard-host-files-2.md#ass)
+-   [IBM i File System](../core/data-source-wizard-host-files-2.md#ass)
 
 -   [Local File](../core/data-source-wizard-host-files-2.md#loc)
 
@@ -49,15 +49,15 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  Optionally, to increase performance and reduce impact to the remote database, select the data source platform on which the remote host file system is deployed. The Data Provider uses this value to convert data types to a format supported by this platform.
 
- The default value is Mainframe file system (which refers to Distributed FileManager for z/OS). Other values include IBM System i file system (which refers to i5/OS) and Local file (which refers to a local Windows PC-based binary file).
+ The default value is Mainframe file system (which refers to Distributed FileManager for z/OS). Other values include IBM i file system (which refers to IBM i) and Local file (which refers to a local Windows PC-based binary file).
 
  **Network transport library**
 
  The following two connectivity options are available:
 
--   **SNA LU6.2 APPC** (Advanced Program to Program Communications using Systems Network Architecture) network connections to remote IBM host file system servers that are running on IBM mainframe z/OS and midrange i5/OS host computers.
+-   **SNA LU6.2 APPC** (Advanced Program to Program Communications using Systems Network Architecture) network connections to remote IBM host file system servers that are running on IBM mainframe z/OS and midrange IBM i host computers.
 
--   **TCP/IP** network connections to remote IBM midrange i5/OS host computers.
+-   **TCP/IP** network connections to remote IBM midrange IBM i host computers.
 
 ##  <a name="tcp"></a> TCP/IP Network Connection
  The TCP/IP Network Connection screen can be used to configure required and optional parameters.
@@ -68,7 +68,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  **Port**
 
- You must specify an IP port number. For IBM System i file system, the default value is TCP/IP port 446.
+ You must specify an IP port number. For IBM i file system, the default value is TCP/IP port 446.
 
  **Certificate Common Name**
 
@@ -98,22 +98,22 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  **Metadata definition file**
 
- You must specify a string to instruct the Data Provider to load a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records in mainframe z/OS, midrange i5/OS and offline host files. .
+ You must specify a string to instruct the Data Provider to load a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records in mainframe z/OS, midrange IBM i and offline host files. .
 
-##  <a name="ass"></a> IBM System i File System
- Optionally, when connecting to midrange i5/OS host file system servers, the Data Provider can use this value to obtain schema information on DB2 for i5/OS tables and columns, with which to provide automatic record data conversion without requiring Host Integration Designer XML (HIDX) metadata file. The location name is known as the DB2 for i5/OS Relational Database Name (RDBNAME) and consists of an 18-byte string.
+##  <a name="ass"></a> IBM i File System
+ Optionally, when connecting to midrange IBM i host file system servers, the Data Provider can use this value to obtain schema information on DB2 for IBM i tables and columns, with which to provide automatic record data conversion without requiring Host Integration Designer XML (HIDX) metadata file. The location name is known as the DB2 for IBM i Relational Database Name (RDBNAME) and consists of an 18-byte string.
 
  **Location**
 
- Optionally, when connecting to midrange i5/OS host file system servers, the Data Provider can use this value to obtain schema information on DB2 for i5/OS tables and columns, with which to provide automatic record data conversion without requiring a Host Column Description (HCD) file. The location name is known as the DB2 for i5/OS Relational Database Name (RDBNAME) and consists of an 18-byte string.
+ Optionally, when connecting to midrange IBM i host file system servers, the Data Provider can use this value to obtain schema information on DB2 for IBM i tables and columns, with which to provide automatic record data conversion without requiring a Host Column Description (HCD) file. The location name is known as the DB2 for IBM i Relational Database Name (RDBNAME) and consists of an 18-byte string.
 
  **Default library**
 
- You must specify a string to instruct the Data Provider to utilize default library, with which to inform the host file system server in which owner library to locate host file system objects. Midrange file system files are identified with a unique name composted of a library name and file name separated by a forward-slash, with optional member name in parentheticals. A default library name for use with host file system on i5/OS is a 10-byte string (library is also known as a LIB object).
+ You must specify a string to instruct the Data Provider to utilize default library, with which to inform the host file system server in which owner library to locate host file system objects. Midrange file system files are identified with a unique name composted of a library name and file name separated by a forward-slash, with optional member name in parentheticals. A default library name for use with host file system on IBM i is a 10-byte string (library is also known as a LIB object).
 
  **Metadata definition file**
 
- You must specify a string to instruct the Data Provider to load a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records in mainframe z/OS, midrange i5/OS and offline host files.
+ You must specify a string to instruct the Data Provider to load a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records in mainframe z/OS, midrange IBM i and offline host files.
 
 ##  <a name="loc"></a> Local File
  The Local File screen must be used to configure required local Windows PC-based binary file parameters, including local folder and record conversion metadata schema.
@@ -124,14 +124,14 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  **Metadata definition file**
 
- You must specify a string to instruct the Data Provider to load a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records in mainframe z/OS, midrange i5/OS and offline host files.
+ You must specify a string to instruct the Data Provider to load a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records in mainframe z/OS, midrange IBM i and offline host files.
 
 ##  <a name="locale"></a> Locale
  Optionally, to increase performance and reduce the impact on the remote database, you can select the coded character set identifier (CCSID) for the remote IBM host file system server (host) and local data consumer (PC). The Data Provider uses these values to convert character strings to a code page supported by these databases. The Data Provider supports a combination of single byte character sets (SBCS), mixed-byte character sets (MBCS) double-byte character sets (DBCS), and Unicode - UTF8 [1208], which is an 8-bit Unicode transformation format. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
  **Host CCSID**
 
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM host file system servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM host file system servers for z/OS and IBM i utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
  **PC Code page**
 
@@ -155,7 +155,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |Host File System|String Type|
 |-|-|
 |Host file system for z/OS|An 8-byte string.|
-|Host file system for i5/OS|A 10-byte string.|
+|Host file system for IBM i|A 10-byte string.|
 
  **Password**
 
@@ -164,7 +164,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |Host File System|String Type|
 |-|-|
 |Host file system for z/OS|An 8-byte string.|
-|Host file system for i5/OS|A 128-byte string.|
+|Host file system for IBM i|A 128-byte string.|
 
  **Password confirmation**
 

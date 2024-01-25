@@ -3,7 +3,7 @@ title: "Troubleshooting and known issues using the SWIFT accelerator in BizTalk 
 description: SWIFT error codes, common issues and resolutions for the A4SWIFT in BizTalk Server
 ms.custom: ""
 ms.date: "08/16/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

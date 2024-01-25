@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Testing Connections with the 5250 Client
-The 5250 Client can be used to access your IBM System i environment. The following topics detail running and configuring the 5250 Client application.  
+The 5250 Client can be used to access your IBM i environment. The following topics detail running and configuring the 5250 Client application.  
   
 ## In This Section  
  [How to Run the 5250 Client](../core/how-to-run-the-5250-client2.md)  

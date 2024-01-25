@@ -3,7 +3,7 @@ description: "Learn how to add a Scope shape for exception handling in BizTalk S
 title: "How to Add a Scope Shape1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

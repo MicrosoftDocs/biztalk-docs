@@ -9,7 +9,6 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Data Clients Troubleshooting Common Problems
-For the most recent version of Microsoft Host Integration Server documentation, see [https://msdn.microsoft.com/library/gg241192.aspx](../index.yml).  
   
  The following sections provide help for troubleshooting common problems with the Data Clients.  
   

@@ -3,7 +3,7 @@ description: "Learn more about: Tutorial 5: Invoking a REST Interface Using BizT
 title: "Tutorial 5: Invoking a REST Interface Using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

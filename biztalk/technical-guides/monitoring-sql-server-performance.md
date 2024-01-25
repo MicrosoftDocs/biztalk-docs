@@ -3,7 +3,7 @@ title: "Monitor SQL Server Performance"
 description: Monitor BizTalk Server databases using performance tools, Activity Monitor, and Data collection
 ms.custom: ""
 ms.date: "11/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

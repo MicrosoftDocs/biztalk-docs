@@ -2,8 +2,8 @@
 description: "Learn more about: ALLOCATE"
 title: "ALLOCATE"
 ms.custom: ""
-ms.date: "11/30/2017"
-ms.service: host-integration-server
+ms.date: "12/15/2023"
+ms.service: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
@@ -404,13 +404,13 @@ struct allocate {
   
  If one of the modes associated with the partner LU on the invoked TP's node is an implicit mode, the session established between the two LUs will be of the implicit mode when no mode name associated with the partner LU matches the value of **mode_name**.  
   
- Host Integration Server supports a feature called password substitution. This is a security feature supported by the latest version of the IBM System i operating system (V3R1) which encrypts any password that flows between two nodes on an Attach message. A password flows on an Attach whenever someone invokes an APPC transaction program specifying a user identifier and password. For example, this happens whenever anyone logs on to an IBM System i.  
+ Host Integration Server supports a feature called password substitution. This is a security feature supported by the IBM i operating system which encrypts any password that flows between two nodes on an Attach message. A password flows on an Attach whenever someone invokes an APPC transaction program specifying a user identifier and password. For example, this happens whenever anyone logs on to an IBM i.  
   
  Support for password substitution is indicated by setting bit 5 in byte 23 of the BIND request to 1 (which indicates that password substitution is supported). If the remote system sets this bit in the BIND response, the SNA server automatically encrypts the LU 6.2 conversation security password included in the FMH-5 Attach message. APPC applications using Host Integration Server automatically take advantage of this feature by setting the security field of the VCB to AP_PGM or AP_STRONG in the **ALLOCATE** request.  
   
- If an APPC application wants to force an encrypted password to flow, the application can specify AP_STRONG for the security field in the VCB in the **ALLOCATE** request. This option is implemented as defined in IBM System i V3R1, and is documented in the IBM System i CPI-C programmer reference as CM_SECURITY_PROGRAM_STRONG, where the LU 6.2 **pwd** (password) field is encrypted before it flows over the physical network.  
+ If an APPC application wants to force an encrypted password to flow, the application can specify AP_STRONG for the security field in the VCB in the **ALLOCATE** request. This option is implemented as defined in IBM i V3R1, and is documented in the IBM i CPI-C programmer reference as CM_SECURITY_PROGRAM_STRONG, where the LU 6.2 **pwd** (password) field is encrypted before it flows over the physical network.  
   
- The password substitution features is currently only supported by IBM System i V3R1 or later. If the remote system does not support this feature, the SNA server will UNBIND the session with the sense code of 10060006. The two nodes negotiate whether or not they support this feature in the BIND exchange. Host Integration Server sets a bit in the BIND, and also adds some random data on the BIND for encryption. If the remote node supports password substitution, it sets the same bit in the BIND response, and adds some (different) random data for decryption.  
+ The password substitution features is currently only supported by IBM i V3R1 or later. If the remote system does not support this feature, the SNA server will UNBIND the session with the sense code of 10060006. The two nodes negotiate whether or not they support this feature in the BIND exchange. Host Integration Server sets a bit in the BIND, and also adds some random data on the BIND for encryption. If the remote node supports password substitution, it sets the same bit in the BIND response, and adds some (different) random data for decryption.  
   
  Host Integration Server supports automatic logon for APPC applications. This feature requires specific configuration by the network administrator: The APPC application must be invoked on the LAN side from a client of Host Integration Server. The client must be logged into a Windows domain, but the client can be running on any operating system supported by the Host Integration Server APPC APIs.  
   

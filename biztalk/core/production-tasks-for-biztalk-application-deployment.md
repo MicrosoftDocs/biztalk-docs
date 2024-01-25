@@ -3,7 +3,7 @@ description: "Learn more about: Production Tasks for BizTalk Application Deploym
 title: "Production Tasks for BizTalk Application Deployment"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

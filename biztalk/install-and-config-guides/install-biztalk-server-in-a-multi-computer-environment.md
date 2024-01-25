@@ -3,7 +3,7 @@ title: Install BizTalk Server in a Multi-Computer Environment
 description: Multi-server installation and setup guidance when BizTalk and SQL Server are installed on a different computers, including BAM
 ms.custom: biztalk-2020
 ms.date: 01/14/2020
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: article

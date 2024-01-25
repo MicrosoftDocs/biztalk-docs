@@ -77,18 +77,18 @@ ms.topic: "article"
  The **BNDEXPOPT** element informs the DRDA Server whether to produce explanatory information for explainable database objects. This **optional** element accepts a **string** value. EXPNON instructs the DRDA Server to not produce explanatory information. EXPALL instructs the DRDA Server to explain all statements. EXPYES instructs the DRDA Server to explain static SQL statements only. The default value is **EXPNON**.
 
 > [!NOTE]
->  When connecting to IBM DB2 for i5/OS and DB2 for LUW, you should specify a value of EXPNON only.
+>  When connecting to IBM DB2 for IBM i and DB2 for LUW, you should specify a value of EXPNON only.
 
  *Decimal Precision*
 
  The **DECPRC** element informs the DRDA Server the default decimal precision. This **optional** element accepts an **integer** value of 15, 16, 31 or 63. There is no default value.
 
 > [!NOTE]
->  When connecting to IBM DB2 for i5/OS, you should not specify this element.
+>  When connecting to IBM DB2 for IBM i, you should not specify this element.
 
  *Default RDB Collection ID*
 
- The **DFTRDBCOL** element informs the DRDA Server what default collection identifier to use to complete unqualified database object names. This **optional** element accepts a **string** value. There is no default value for this element. IBM DB2 for z/OS accepts a 128-byte string. IBM DB2 for i5/OS accepts a 10-byte string. IBM DB2 for LUW accepts a 30-byte string.
+ The **DFTRDBCOL** element informs the DRDA Server what default collection identifier to use to complete unqualified database object names. This **optional** element accepts a **string** value. There is no default value for this element. IBM DB2 for z/OS accepts a 128-byte string. IBM DB2 for IBM i accepts a 10-byte string. IBM DB2 for LUW accepts a 30-byte string.
 
  *Degree of IO Parallelism*
 
@@ -218,7 +218,7 @@ ms.topic: "article"
 
  *Collection Identifier*
 
- The **Collection** attribute corresponds to the DRDA RDBCOLID (RDB Collection Identifier) and instructs the DRDA Server into which collection to bind the package. This **optional** element accepts a **string** value. There is no default value. IBM DB2 for z/OS accepts a 128-byte string. IBM DB2 for i5/OS accepts a 10-byte string. IBM DB2 for LUW accepts a 30-byte string.
+ The **Collection** attribute corresponds to the DRDA RDBCOLID (RDB Collection Identifier) and instructs the DRDA Server into which collection to bind the package. This **optional** element accepts a **string** value. There is no default value. IBM DB2 for z/OS accepts a 128-byte string. IBM DB2 for IBM i accepts a 10-byte string. IBM DB2 for LUW accepts a 30-byte string.
 
 > [!NOTE]
 >  DRDA defines a fully-qualified static SQL package using a PKGNAM (RDB Package Name) that consists of these multiple parts.
@@ -257,11 +257,11 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
 
 |DDM|Description|
 |---------|-----------------|
-|ISOLVLCS|DRDA ISOLVLCS (Isolation Level Cursor Stability)<br /><br /> ANSI READ COMMITTED<br /><br /> IBM DB2 CURSOR STABILITY (CS)<br /><br /> IBM DB2 for i5/OS COMMIT(*CS)<br /><br /> Microsoft .NET Framework ReadCommitted|
-|ISOLVLRR|DRDA ISOLVLRR (Isolation Level Repeatable Read)<br /><br /> ANSI SERIALIZABLE<br /><br /> IBM DB2 REPEATABLE READ (RR)<br /><br /> IBM DB2 for i5/OS COMMIT(*RR)<br /><br /> Microsoft .NET Framework Serializable|
-|ISOLVLALL|DRDA ISOLVLALL (Isolation Level All)<br /><br /> ANSI REPEATABLE READ<br /><br /> IBM DB2 READ STABILITY (RS)<br /><br /> IBM DB2 for i5/OS COMMIT(*RS)<br /><br /> Microsoft .NET Framework RepeatableRead|
-|ISOLVLCHG|DRDA ISOLVLCHG (Isolation Level Change)<br /><br /> ANSI READ UNCOMITTED<br /><br /> IBM DB2 UNCOMMITTED READ (UR)<br /><br /> IBM DB2 for i5/OS COMMIT(*UR)<br /><br /> Microsoft .NET Framework ReadUncommitted|
-|ISOLVLNC|DRDA ISOLVLNC (Isolation Level No Commit)<br /><br /> IBM DB2 for i5/OS COMMIT(*NC)|
+|ISOLVLCS|DRDA ISOLVLCS (Isolation Level Cursor Stability)<br /><br /> ANSI READ COMMITTED<br /><br /> IBM DB2 CURSOR STABILITY (CS)<br /><br /> IBM DB2 for IBM i COMMIT(*CS)<br /><br /> Microsoft .NET Framework ReadCommitted|
+|ISOLVLRR|DRDA ISOLVLRR (Isolation Level Repeatable Read)<br /><br /> ANSI SERIALIZABLE<br /><br /> IBM DB2 REPEATABLE READ (RR)<br /><br /> IBM DB2 for IBM i COMMIT(*RR)<br /><br /> Microsoft .NET Framework Serializable|
+|ISOLVLALL|DRDA ISOLVLALL (Isolation Level All)<br /><br /> ANSI REPEATABLE READ<br /><br /> IBM DB2 READ STABILITY (RS)<br /><br /> IBM DB2 for IBM i COMMIT(*RS)<br /><br /> Microsoft .NET Framework RepeatableRead|
+|ISOLVLCHG|DRDA ISOLVLCHG (Isolation Level Change)<br /><br /> ANSI READ UNCOMITTED<br /><br /> IBM DB2 UNCOMMITTED READ (UR)<br /><br /> IBM DB2 for IBM i COMMIT(*UR)<br /><br /> Microsoft .NET Framework ReadUncommitted|
+|ISOLVLNC|DRDA ISOLVLNC (Isolation Level No Commit)<br /><br /> IBM DB2 for IBM i COMMIT(*NC)|
 
  <em>**Table 5.</em>* PKGISOLVL values.*
 
@@ -510,4 +510,4 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
  <em>**Table 7.</em>* Coded Character Set Identifier values.*
 
 > [!NOTE]
->  The Microsoft ADO.NET Data Provider for DB2 supports a set of Coded Character Set Identifiers. IBM DB2 database servers for z/OS and i5/OS typically use EBCDIC. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
+>  The Microsoft ADO.NET Data Provider for DB2 supports a set of Coded Character Set Identifiers. IBM DB2 database servers for z/OS and IBM i typically use EBCDIC. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).

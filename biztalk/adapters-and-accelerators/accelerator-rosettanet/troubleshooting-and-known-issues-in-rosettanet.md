@@ -3,7 +3,7 @@ title: "Troubleshooting and known issues in the RosettaNet accelerator in BizTal
 description: Issues and resolutions for common errors or behaviors in BTARN in BizTalk Server
 ms.custom: ""
 ms.date: "08/09/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

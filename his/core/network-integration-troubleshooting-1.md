@@ -12,8 +12,6 @@ ms.topic: "article"
 ## In This Section  
  [Troubleshooting Tools and Tips](../core/troubleshooting-tools-and-tips1.md)  
   
- [Adapters and Link Service Problems](../core/adapters-and-link-service-problems1.md)  
-  
  [Connection Problems](../core/connection-problems1.md)  
   
  [Event and Error Problems](../core/event-and-error-problems1.md)  

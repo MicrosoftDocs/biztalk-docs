@@ -1,7 +1,7 @@
 ---
 description: Move to Host Integration Server 2020 from an older or previous version. Or, move an existing HIS 2020 configuration to another server.
 title: HIS 2020 Migration Tool
-ms.date: 04/16/2021
+ms.date: 01/25/2024
 ms.service: host-integration-server
 ms.topic: conceptual
 ---
@@ -10,12 +10,12 @@ ms.topic: conceptual
 
 The Host Integration Server (HIS) Migration Tool:
 
-- Helps move to HIS 2020 or HIS 2016 from earlier versions of Host Integration Server.
-- Helps move the configuration from an existing HIS 2020 or HIS 2016 installation to another server.
+- Helps move to HIS 2020 from earlier versions of Host Integration Server.
+- Helps move the configuration from an existing HIS 2020 installation to another server.
 
 The migration tool collects the configuration information in an existing HIS installation, and applies the information to a new installation. This configuration information includes the HIS services, registry entries, configuration files, and SNA Gateway configuration information.
 
-- [Download the Host Integration Migration Tool](https://www.microsoft.com/download/details.aspx?id=54950) (HisMigration.exe).
+- [Download the Host Integration Migration Tool](https://www.microsoft.com/en-us/download/details.aspx?id=105765) (HisMigration.exe).
 
 ## Tool syntax
 

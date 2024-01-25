@@ -3,7 +3,7 @@ description: "Learn more about: Complete operations on tables with large data ty
 title: "Complete operations on tables with large data types in Oracle E-Business Suite using the WCF service model"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

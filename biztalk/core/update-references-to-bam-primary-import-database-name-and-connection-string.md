@@ -3,7 +3,7 @@ description: "Learn more about: Update References to the BAM Primary Import Data
 title: "Update BAM Primary Import Database name and connection string"
 ms.custom: ""
 ms.date: "02/01/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

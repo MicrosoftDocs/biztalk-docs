@@ -3,7 +3,7 @@ description: "Learn more about: Walkthrough: Module 2 - Integrating Office with 
 title: "Walkthrough: Module 2 - Integrating Office with the Windows SharePoint Services Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

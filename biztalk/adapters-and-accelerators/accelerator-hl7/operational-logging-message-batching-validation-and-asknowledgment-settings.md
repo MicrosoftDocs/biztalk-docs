@@ -2,7 +2,7 @@
 description: "Learn more about: Operational logging, message batching, validation and asknowledgment settings"
 title: "Operational logging, message batching, validation and asknowledgment settings"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Operational logging, message batching, validation and asknowledgment settings

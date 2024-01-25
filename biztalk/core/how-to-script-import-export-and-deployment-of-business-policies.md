@@ -3,7 +3,7 @@ description: "Learn more about: How to Script Import-Export and Deployment of Bu
 title: "How to Script Import-Export and Deployment of Business Policies"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

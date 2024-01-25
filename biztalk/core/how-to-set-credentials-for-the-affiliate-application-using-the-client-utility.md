@@ -3,7 +3,7 @@ description: "Learn more about: How to Set Credentials for the Affiliate Applica
 title: "How to Set Credentials for the Affiliate Application Using the Client Utility"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

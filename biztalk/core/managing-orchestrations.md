@@ -3,7 +3,7 @@ title: "Managing Orchestrations"
 description: Links to work with orchestrations in BizTalk Server, including start, stop, bind, configure, enable tracking, suspend and more
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

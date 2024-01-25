@@ -3,7 +3,7 @@ title: "Manage BizTalk Assemblies"
 description: Links to work with assemblies in BizTalk Server, including adding, updating, viewing the dependencies, and removing assemblies
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

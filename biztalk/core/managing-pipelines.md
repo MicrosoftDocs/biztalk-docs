@@ -3,7 +3,7 @@ title: "Manage pipelines"
 description: Quick links to enable tracking and pipeline properties on a send port or receive location in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

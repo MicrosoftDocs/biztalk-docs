@@ -86,12 +86,12 @@ class MsSna_PrintSessionAppc : MsSna_PrintSession
  **AS400Device**  
  Data Type: **String** Qualifiers: **MAXLEN(10), TOUPPERCASE** Access Type: Read/Write  
   
- The name for the IBM System i printer device. **AS400Device** should be a descriptive name that distinguishes different printers on the network.  
+ The name for the IBM i printer device. **AS400Device** should be a descriptive name that distinguishes different printers on the network.  
   
  **System36**  
  Data Type: **sint16** Access Type: Read/Write  
   
- A value that indicates whether the remote system is an IBM System i or a System/36. The following table describes the possible values for **System36**.  
+ A value that indicates whether the remote system is an IBM i or a System/36. The following table describes the possible values for **System36**.  
   
 |Value|Description|  
 |-----------|-----------------|  

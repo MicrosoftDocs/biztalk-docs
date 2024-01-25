@@ -27,7 +27,7 @@ For each method invocation, TI converts and sends the input parameters to the tr
   
 -   IMS Connect  
   
--   IBM System i Distributed Program Calls  
+-   IBM i Distributed Program Calls  
   
 ## See Also  
  [Supported Data Flow Models](../core/supported-data-flow-models1.md)

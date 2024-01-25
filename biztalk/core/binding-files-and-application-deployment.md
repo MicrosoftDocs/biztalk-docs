@@ -3,7 +3,7 @@ description: "Learn more about: Binding Files and Application Deployment"
 title: "Binding Files and Application Deployment"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

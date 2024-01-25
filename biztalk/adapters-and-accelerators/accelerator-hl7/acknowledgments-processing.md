@@ -2,7 +2,7 @@
 description: "Learn more about: Acknowledgments Processing"
 title: "Acknowledgments Processing"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Acknowledgments Processing

@@ -2,7 +2,7 @@
 description: "Learn more about: Step 7: Create a Send Port to Deliver the ADT^A03 Message to HIS Using the MLLP Adapter"
 title: "Step 7: Create a Send Port to Deliver the ADT^A03 Message to HIS Using the MLLP Adapter"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 7: Create a Send Port to Deliver the ADT^A03 Message to HIS Using the MLLP Adapter

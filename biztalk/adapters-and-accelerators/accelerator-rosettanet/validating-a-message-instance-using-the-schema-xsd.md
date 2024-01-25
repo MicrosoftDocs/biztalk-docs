@@ -3,7 +3,7 @@ description: "Learn more about: Validating a Message Instance Using the Schema X
 title: "Validating a Message Instance Using the Schema XSD"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

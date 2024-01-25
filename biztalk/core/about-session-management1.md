@@ -3,7 +3,7 @@ description: "Learn how to manage the pool of connection sessions for calls to t
 title: "About Session Management1"
 ms.custom: ""
 ms.date: "04/16/2021"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

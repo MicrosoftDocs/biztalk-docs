@@ -3,7 +3,7 @@ title: "Manage Resources"
 description: Use btstask or BizTalk Administration to work with assemblies, scripts, certificates, binding files, and more in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
