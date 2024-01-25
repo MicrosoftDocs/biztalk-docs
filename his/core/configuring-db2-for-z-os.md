@@ -1,11 +1,8 @@
 ---
 description: "Learn more about: Configuring DB2 for z-OS"
 title: "Configuring DB2 for z-OS"
-ms.custom: ""
+ms.service: host-integration-server
 ms.date: "12/22/2023"
-ms.prod: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 ---
 # Configuring DB2 for z-OS

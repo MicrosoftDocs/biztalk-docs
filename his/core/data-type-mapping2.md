@@ -3,7 +3,7 @@ description: "Learn about customizing the default data conversions by modifying 
 title: "Data Type Mapping2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

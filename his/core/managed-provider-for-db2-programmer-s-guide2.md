@@ -3,7 +3,7 @@ description: "Learn more about: Managed Provider for DB2 Programmer's Guide"
 title: "Managed Provider for DB2 Programmer's Guide"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

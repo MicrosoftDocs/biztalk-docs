@@ -3,7 +3,7 @@ description: "Learn more about: Trouble Defining a Recordset for Web-Based Appli
 title: "Trouble Defining a Recordset for Web-Based Applications2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -1,7 +1,7 @@
 ---
 title: Logical unit application (LUA) access
 description: Learn about LUA access so you can write customized applications to communicate with the host.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/30/2017
 ---

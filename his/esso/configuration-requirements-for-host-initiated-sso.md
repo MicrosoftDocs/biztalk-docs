@@ -3,7 +3,7 @@ description: "Learn more about: Configuration Requirements for Host Initiated SS
 title: "Configuration Requirements for Host Initiated SSO"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

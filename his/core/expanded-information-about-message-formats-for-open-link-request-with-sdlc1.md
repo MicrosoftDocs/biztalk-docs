@@ -3,7 +3,7 @@ description: "Learn more about: Expanded Information About Message Formats for O
 title: "Expanded Information About Message Formats for Open(LINK) Request with SDLC1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

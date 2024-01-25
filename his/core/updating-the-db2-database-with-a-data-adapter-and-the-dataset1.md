@@ -3,7 +3,7 @@ description: "Learn more about: Updating the DB2 Database with a Data Adapter an
 title: "Updating the DB2 Database with a Data Adapter and the Dataset1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

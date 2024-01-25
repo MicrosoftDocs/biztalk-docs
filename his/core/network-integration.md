@@ -3,7 +3,7 @@ title: "Network Integration"
 description: Get started with network integration, including hardware connectivity, configuring connections, user guides, securing your network, troubleshooting and errors, and programming references for Host Integration Server (HIS)
 ms.custom: ""
 ms.date: 01/03/2018
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.topic: "article"
 ---
 

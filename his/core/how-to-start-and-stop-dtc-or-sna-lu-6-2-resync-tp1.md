@@ -3,7 +3,7 @@ description: "Learn more about: How to Start and Stop DTC or SNA LU 6.2 Resync T
 title: "How to Start and Stop DTC or SNA LU 6.2 Resync TP1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

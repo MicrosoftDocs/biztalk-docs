@@ -1,11 +1,8 @@
 ---
 description: "Learn more about: Server to Server migration"
 title: "Host Integration Server server-to-server Migration"
-ms.custom: ""
 ms.date: "01/25/2023"
 ms.service: host-integration-server
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 ---
 

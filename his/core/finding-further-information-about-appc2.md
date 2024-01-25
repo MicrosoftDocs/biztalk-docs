@@ -3,7 +3,7 @@ description: "Learn more about: Finding Further Information about APPC"
 title: "Finding Further Information about APPC2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

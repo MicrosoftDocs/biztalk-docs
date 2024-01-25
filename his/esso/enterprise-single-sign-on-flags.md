@@ -3,7 +3,7 @@ description: "Learn more about: Enterprise Single Sign-On Flags"
 title: "Enterprise Single Sign-On Flags"
 ms.custom: ""
 ms.date: "12/12/2023"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

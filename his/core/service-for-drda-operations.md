@@ -1,14 +1,13 @@
 ---
 description: "Learn more about: Service for DRDA (Operations)"
 title: "Service for DRDA (Operations)"
-ms.custom: ""
 ms.date: "01/22/2024"
-ms.service: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
+ms.service: host-integration-server
 ms.topic: "article"
 ---
+
 # Service for DRDA (Operations)
+
 The following sections provide help for operating Microsoft Service for DRDA (DRDA Service).
 
 ## Managing DRDA Service

@@ -3,7 +3,7 @@ description: "Learn more about: Install and configure HIS 2016"
 title: "Install HIS 2016"
 ms.custom: ""
 ms.date: 6/13/2018
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

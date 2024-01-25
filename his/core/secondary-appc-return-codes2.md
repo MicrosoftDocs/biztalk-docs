@@ -1,13 +1,11 @@
 ---
 description: "Learn more about: Secondary APPC Return Codes"
 title: "Secondary APPC Return Codes2"
-ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
+ms.service: host-integration-server
 ms.topic: "article"
 ---
+
 # Secondary APPC Return Codes
 
 The following table lists each return code by numeric value, along with the associated error message.

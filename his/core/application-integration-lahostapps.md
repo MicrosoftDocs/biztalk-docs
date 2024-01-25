@@ -1,7 +1,7 @@
 ---
 title: Designing Metadata Artifacts for Host Applications
 description: Learn how to design metadata artifacts for CICS and IMS host applications and to generate a Host Integration Server Definition XML (HIDX) file to use in Azure Logic Apps.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: how-to
 ms.date: 10/25/2023
 

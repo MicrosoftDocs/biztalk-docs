@@ -3,7 +3,7 @@ description: "Learn more about: SNA Print Server Data Filter Programmer&#39;s Se
 title: "SNA Print Server Data Filter Programmer&#39;s Security Guide1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

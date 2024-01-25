@@ -3,7 +3,7 @@ description: "Learn more about: Invoking and Working with Invokable TPs (CPI-C)"
 title: "Invoking and Working with Invokable TPs (CPI-C)1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

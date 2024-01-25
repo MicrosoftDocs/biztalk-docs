@@ -3,7 +3,7 @@ description: "Learn more about: .NET Framework Data Providers for Host Integrati
 title: ".NET Framework Data Providers for Host Integration Server1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

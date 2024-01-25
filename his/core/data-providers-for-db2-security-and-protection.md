@@ -3,7 +3,7 @@ description: "Learn more about: Data Providers for DB2 Security and Protection"
 title: "Data Providers for DB2 Security and Protection"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

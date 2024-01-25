@@ -3,7 +3,7 @@ description: "Learn more about: How to Close a Connection with the Host File Ada
 title: "How to Close a Connection with the Host File Adapter2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

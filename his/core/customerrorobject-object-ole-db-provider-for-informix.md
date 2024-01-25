@@ -3,7 +3,7 @@ description: "Learn more about: CustomErrorObject Object (OLE DB Provider for In
 title: "CustomErrorObject Object (OLE DB Provider for Informix)"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

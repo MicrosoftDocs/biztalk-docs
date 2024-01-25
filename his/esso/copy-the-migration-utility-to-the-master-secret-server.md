@@ -3,7 +3,7 @@ description: "Learn more about: Copy the Migration Utility to the Master Secret 
 title: "Copy the Migration Utility to the Master Secret Server"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

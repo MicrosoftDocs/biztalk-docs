@@ -3,7 +3,7 @@ description: "Learn more about: Duplicate LU Pools with Host Integration Server 
 title: "Duplicate LU Pools with Host Integration Server and WMI1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

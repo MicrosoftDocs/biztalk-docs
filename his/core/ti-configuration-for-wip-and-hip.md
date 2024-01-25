@@ -3,7 +3,7 @@ description: "Learn more about: TI Configuration for WIP and HIP"
 title: "TI Configuration for WIP and HIP"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

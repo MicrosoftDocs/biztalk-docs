@@ -3,7 +3,7 @@ description: "Learn more about: Protecting the Output from Tracing and Network M
 title: "Protect the Tracing and Network Monitoring output"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

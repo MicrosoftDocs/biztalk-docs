@@ -1,7 +1,7 @@
 ---
 title: Configuring IBM i Series for 5250 access
 description: Learn about configuring the IBM i Series for 5250 access.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: how-to
 ms.date: 11/30/2017
 ---

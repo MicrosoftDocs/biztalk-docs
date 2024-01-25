@@ -3,7 +3,7 @@ description: "Learn more about: How to Configure APPC LUs for TPs or 5250 Emulat
 title: "How to Configure APPC LUs for TPs or 5250 Emulation2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
