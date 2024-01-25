@@ -982,6 +982,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "his/core/7896641e-8f96-4317-9dc1-13cb983ee990.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "his/core/interface-record2.md",
       "redirect_url": "/his/what-is-his",
       "redirect_document_id": false
@@ -1192,12 +1197,12 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "his/configuration-of-enterprise-single-sign-on2.md",
+      "source_path": "his/install-and-config-guides/configuration-of-enterprise-single-sign-on2.md",
       "redirect_url": "/his/what-is-his",
       "redirect_document_id": false
     },
     {
-      "source_path": "his/configuration-of-enterprise-single-sign-on-backup-secret1.md",
+      "source_path": "his/install-and-config-guides/configuration-of-enterprise-single-sign-on-backup-secret1.md",
       "redirect_url": "/his/what-is-his",
       "redirect_document_id": false
     },
