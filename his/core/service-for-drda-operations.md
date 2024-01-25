@@ -19,41 +19,41 @@ The following sections provide help for operating Microsoft Service for DRDA (DR
 #### Windows Service
  Using a Command Window, you can start the DRDA Service to run as a service, under credentials defined in the service configuration. Open a command prompt, enter net start msdrdaservice and select Enter.
 
-    ```
-    C:\Windows\system32>net start msdrdaservice
-    The Microsoft Service for DRDA service is starting.
-    The Microsoft Service for DRDA service was started successfully.
-    ```
+```
+C:\Windows\system32>net start msdrdaservice
+The Microsoft Service for DRDA service is starting.
+The Microsoft Service for DRDA service was started successfully.
+```
 
 #### Console Application
  Using a Command Window, you can run the DRDA Service to run as a console application, under the credentials of the command window.
 
 1. From a command prompt, enter **net stop msdrdaservice** and press Enter.
 
-   ```
-   C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC>net stop msdrdaservice
-   The Microsoft Service for DRDA service is stopping.
-   The Microsoft Service for DRDA service was stopped successfully.
-   ```
+```
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC>net stop msdrdaservice
+The Microsoft Service for DRDA service is stopping.
+The Microsoft Service for DRDA service was stopped successfully.
+```
 
 2. From a command prompt, enter **msdrdaservice.exe -c** and press Enter.
 
-   ```
-   Information:0:3:[Jan 24 2024 17:03:15.743] disableXaTransaction has been set to False by parsing string: False
-   Information:0:3:[Jan 24 2024 17:03:15.743] Successful to set TransactionExpiryDuration.
-   Information:0:3:[Jan 24 2024 17:03:15.743] Successful to set ResyncRetryDurationInMinutes.
-   Information:0:3:[Jan 24 2024 17:03:15.743] Successful to set XaIsolationLevel attribute to: SZ
-   Information:0:3:[Jan 24 2024 17:03:15.743] ResynchronizationManager reaching the end of transaction log file.
-   Information:0:5:[Jan 24 2024 17:03:15.962] Enter SessionManager::Initialize
-   Information:0:5:[Jan 24 2024 17:03:16.118] Exit SessionManager::Initialize
-   Information:0:5:[Jan 24 2024 17:03:16.118] Enter TcpConnectionManager::StartListener
-   Information:0:3:[Jan 24 2024 17:03:16.118] Microsoft Service for DRDA (build: 11.0.2205.0)
-   Information:0:3:[Jan 24 2024 17:03:16.118] TCP communication manager listening on port 446
-   Information:0:5:[Jan 24 2024 17:03:16.150] Exit TcpConnectionManager::StartListener
-   Information:0:5:[Jan 24 2024 17:03:16.150] Exit TcpConnectionManager::Initialize
-   Information:0:4:[Jan 24 2024 17:03:16.150] Set ServerBootstrap state to: Started
-   ```
- 
+```
+Information:0:3:[Jan 24 2024 17:03:15.743] disableXaTransaction has been set to False by parsing string: False
+Information:0:3:[Jan 24 2024 17:03:15.743] Successful to set TransactionExpiryDuration.
+Information:0:3:[Jan 24 2024 17:03:15.743] Successful to set ResyncRetryDurationInMinutes.
+Information:0:3:[Jan 24 2024 17:03:15.743] Successful to set XaIsolationLevel attribute to: SZ
+Information:0:3:[Jan 24 2024 17:03:15.743] ResynchronizationManager reaching the end of transaction log file.
+Information:0:5:[Jan 24 2024 17:03:15.962] Enter SessionManager::Initialize
+Information:0:5:[Jan 24 2024 17:03:16.118] Exit SessionManager::Initialize
+Information:0:5:[Jan 24 2024 17:03:16.118] Enter TcpConnectionManager::StartListener
+Information:0:3:[Jan 24 2024 17:03:16.118] Microsoft Service for DRDA (build: 11.0.2205.0)
+Information:0:3:[Jan 24 2024 17:03:16.118] TCP communication manager listening on port 446
+Information:0:5:[Jan 24 2024 17:03:16.150] Exit TcpConnectionManager::StartListener
+Information:0:5:[Jan 24 2024 17:03:16.150] Exit TcpConnectionManager::Initialize
+Information:0:4:[Jan 24 2024 17:03:16.150] Set ServerBootstrap state to: Started
+```
+
 > [!NOTE]
 > The DRDA Service trace listener will output information to the console window. You need to uncomment the DrdaAsConsoleListener entry and set a traceLevel (i.e 5) in the MsDrdaServiceConfig.exe.config file.
 
@@ -65,20 +65,20 @@ The following sections provide help for operating Microsoft Service for DRDA (DR
 
 1. From the command prompt, enter net stop msdrdaservice and press Enter.
 
-    ```
-    C:\Windows\system32>net stop msdrdaservice
-    The Microsoft Service for DRDA service is stopping.
-    The Microsoft Service for DRDA service was stopped successfully.
-    ```
+```
+C:\Windows\system32>net stop msdrdaservice
+The Microsoft Service for DRDA service is stopping.
+The Microsoft Service for DRDA service was stopped successfully.
+```
 
 #### Console Application
  Using a Command Window, you can stop the DRDA Service when it is running as a console application.
 
 - From the command prompt, type CTRL+C.
 
-    ```
-    C:\Windows\system32>
-    ```
+```
+C:\Windows\system32>
+```
 
 > [!NOTE]
 > The DRDA Service stops running as a console application, and the command prompt appears.
@@ -89,9 +89,9 @@ The following sections provide help for operating Microsoft Service for DRDA (DR
 ### Client Connections
  At service startup, the DRDA Service will write an informational entry to the internal DRDA Service trace listeners, notifying the IT professional of the port on which the TCP Communication Manager is listening for in-bound DRDA application requester client connections.
 
-   ```
-   Information:0:3:[Jan 24 2024 17:03:16.118] TCP communication manager listening on port 446
-   ```
+```
+Information:0:3:[Jan 24 2024 17:03:16.118] TCP communication manager listening on port 446
+```
 
  Remote DRDA application requester clients connect to the local DRDA Service via a TCP/IP network connection. The DRDA client sends DRDA EXCSAT (Exchange Server Attributes), ACCSEC (Access Security), and ACCRDB (Access Relational Database) protocol flows and data formats, to which the DRDA Service responds with DRDA protocol replies.
 
