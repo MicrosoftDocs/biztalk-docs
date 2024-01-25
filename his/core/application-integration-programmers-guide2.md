@@ -36,10 +36,8 @@ To use this guide effectively, you should be familiar with the following:
   
   For information about how to tune your system to get the best possible performance from Transaction Integration, see the [Transaction Integrator Performance Guide](./transaction-integrator-performance-guide1.md) in the Operations section.  
   
-## In This Section  
+## In This Section
 
-This section contains the following topics  
-  
-- [Application Integration Development Tools](../core/application-integration-development-tools2.md)  
-  
+- [Application Integration Development Tools](../core/application-integration-development-tools2.md)
+
 - [Application Integration Programming](../core/application-integration-programming2.md)

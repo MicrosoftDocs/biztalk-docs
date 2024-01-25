@@ -1,17 +1,16 @@
 ---
+title: "Host Print Service (Operations)"
 description: "Learn more about: Host Print Service (Operations)"
-title: "Host Print Service (Operations)2"
-ms.custom: ""
 ms.date: "11/30/2017"
 ms.service: host-integration-server
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 ---
+
 # Host Print Service (Operations)
+
 Host Print service provides server-based 3270 and 5250 print emulation, allowing mainframe and IBM i applications to print to a LAN printer supported by Windows operating system. [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Host Print service enables centralized control of LU print resources. You can administer all Host Print service functions using SNA Manager, including margin control, fonts, and characters per line. Host Print service also supports print-to-file with auto-incrementing file names. You can configure the file naming scheme for each printer LU.  
   
- The following three methods of printing host information are available:  
+The following three methods of printing host information are available:  
   
 -   **Screen printing.** This method allows any 3270 or 5250 emulator to print what is on the display using print screen features of the client operating system. The printer output can be directed to a printer attached to the client computer or the network.  
   

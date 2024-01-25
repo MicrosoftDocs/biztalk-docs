@@ -1,17 +1,16 @@
 ---
-description: "Learn more about: Custom Host Code Page"
 title: "Custom Host Code Page2"
-ms.custom: ""
+description: "Learn more about: Custom Host Code Page"
 ms.date: "11/30/2017"
 ms.service: host-integration-server
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
 ---
+
 # Custom Host Code Page
+
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] allows a custom host code page to be used for a printer session. The host code page is used for the translation between ASCII and EBCDIC. By default, a printer session will use the standard language code page provided by Windows Server. As an alternative, a custom code page can be specified to allow a different translation. For example, using the default code page, the EBCDIC letter "A" ('0xC1') would be translated to an ASCII letter "A" ('0x41'). With a custom code page, it would be possible to have the EBCDIC "A" translated to any value. The custom code pages are text files that can be modified with a hex editor. The code page file contains 512 bytes. The first 256 bytes represent what the EBCDIC characters are translated to. The second 256 bytes are what the ASCII characters are translated to. Logically each section is a 16-column by 16-row block.  
   
- Bytes 0-255: Data from Host  
+Bytes 0-255: Data from Host  
   
 ```  
   | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F  
@@ -34,7 +33,7 @@ f0| 30 31 32 33 34 35 36 37 38 39 b3 db dc d9 da 00
   
 ```  
   
- Bytes 256-511: Data to Host  
+Bytes 256-511: Data to Host  
   
 ```  
   | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F  
@@ -57,7 +56,7 @@ f0| 8c 49 cd ce cb cf cc e1 70 dd de db dc 8d ae df
   
 ```  
   
- The value being translated is matched to its new value using the first number in the hex value as the row and the second as the column. For example, to find what the EBCDIC character "Z" ('0xE9') is translated to in the sample code page count down to row E and over to column 9. This position has the value '0x5A', which is the ASCII value for a "Z".  
+The value being translated is matched to its new value using the first number in the hex value as the row and the second as the column. For example, to find what the EBCDIC character "Z" ('0xE9') is translated to in the sample code page count down to row E and over to column 9. This position has the value '0x5A', which is the ASCII value for a "Z".  
   
 ## Sample Host Code Page (as seen in a Hex editor)  
   
@@ -94,5 +93,8 @@ D7 D8 D9 E2 E3 E4 E5 E6-E7 E8 E9 BA E0 BB B0 6D
 AC 69 ED EE EB EF EC BF-80 FD FE FB FC AD 8E 59  
 44 45 42 46 43 47 9C 48-54 51 52 53 58 55 56 57  
 8C 49 CD CE CB CF CC E1-70 DD DE DB DC 8D AE DF  
-  
 ```
+  
+## See Also  
+
+[IBM i (APPC) Printing](../core/as-400-appc-printing1.md)
