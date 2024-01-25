@@ -22,7 +22,7 @@ With [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.m
   
  [How to Create a 3270 Connection Manually](../core/how-to-create-a-3270-connection-manually1.md)  
   
- **IBM System i (5250) environments:**  
+ **IBM i (5250) environments:**  
   
  [Creating a 5250 Connection with a Wizard](../core/creating-a-5250-connection-with-a-wizard2.md)  
   

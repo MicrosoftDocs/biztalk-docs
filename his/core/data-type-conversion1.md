@@ -43,4 +43,4 @@ The Transaction Integrator (TI) run-time environment automatically converts data
   
 -   [Zoned Decimal or Packed Decimal Data Types](../core/zoned-decimal-or-packed-decimal-data-types1.md)  
   
--   [Converting Data Types from RPG to IBM System i COBOL](../core/converting-data-types-from-rpg-to-os-400-cobol2.md)
+-   [Converting Data Types from RPG to IBM i COBOL](../core/converting-data-types-from-rpg-to-os-400-cobol2.md)

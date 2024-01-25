@@ -50,7 +50,7 @@ C:\Program Files\Microsoft SQL Server\100\DTS\MappingFiles
 C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
 ```
 
- To correctly map IBM DB2 for i5/OS character and decimal data types to SQL Server data types, the data mapping files should be extended to include the DB2 data type long form synonym. For example, add the following data type mapping between DB2 INTEGER source and SQL Server. This mapping is compatible with SQLOLEDB, SQLNCL, SQLNCLI10, and System.Data.SqlClient.SqlConnection. It replaces the short form SourceDataType value INT with the long form INTEGER.
+ To correctly map IBM DB2 for IBM i character and decimal data types to SQL Server data types, the data mapping files should be extended to include the DB2 data type long form synonym. For example, add the following data type mapping between DB2 INTEGER source and SQL Server. This mapping is compatible with SQLOLEDB, SQLNCL, SQLNCLI10, and System.Data.SqlClient.SqlConnection. It replaces the short form SourceDataType value INT with the long form INTEGER.
 
  The following mapping for DB2 INT is compatible with a DB2 for z/OS V9 source.
 
@@ -68,7 +68,7 @@ C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
 </dtm:DataTypeMapping>
 ```
 
- The following data type mapping for DB2 INTEGER is compatible with a DB2 for i5/OS V6R1 source.
+ The following data type mapping for DB2 INTEGER is compatible with a DB2 for IBM i V6R1 source.
 
 ```
 <!-- INTEGER -->

@@ -14,7 +14,7 @@ IBM DB2 and Microsoft SQL Server databases utilize different terminology for nam
 |Platform|Catalog|Schema|Table|  
 |--------------|-------------|------------|-----------|  
 |DB2 for z/OS|LOCATION|COLLECTION (aka OWNER)|TABLENAME|  
-|DB2 for i5/OS|RELATIONAL DATABASE NAME (RDBNAM)|COLLECTION (aka LIBRARY)|TABLENAME|  
+|DB2 for IBM i|RELATIONAL DATABASE NAME (RDBNAM)|COLLECTION (aka LIBRARY)|TABLENAME|  
 |DB2 for LUW|DATABASE|SCHEMA|TABLENAME|  
 |SQL Server|DATABASE|SCHEMA|TABLENAME|  
 |DRDA|RELATIONAL DATABASE NAME (RDBNAM)|COLLECTION|TABLENAME|  

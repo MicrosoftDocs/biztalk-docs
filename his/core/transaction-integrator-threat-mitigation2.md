@@ -45,7 +45,7 @@ Product security is a top priority across Microsoft. Beginning with the Windows 
   
 - [Protect the Remoting Session](../core/protect-the-remoting-session1.md)  
   
-- [Protect TI from Unauthorized Mainframe or IBM System i Access](../core/protect-ti-from-unauthorized-mainframe-or-as-400-access1.md)  
+- [Protect TI from Unauthorized Mainframe or IBM i Access](../core/protect-ti-from-unauthorized-mainframe-or-as-400-access1.md)  
   
 - [Protect the TI Runtime Environment](../core/protect-the-ti-runtime-environment1.md)  
   

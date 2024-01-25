@@ -29,7 +29,7 @@ The Package element contains the following set of attributes: Collection, Id, To
 |---------------|----------|-----------------|--------------|-------------------|  
 |token|xs:string|Consistency Token is an 8-byte string.|false|n/a|  
 |version|xs:string|Version Name is a 254-byte string.|false|n/a|  
-|collection|xs:string|DB2 for z/OS accepts a 128-byte string. DB2 for i5/OS accepts a 10-byte string. DB2 for LUW accepts a 30-byte string.|true|n/a|  
+|collection|xs:string|DB2 for z/OS accepts a 128-byte string. DB2 for IBM i accepts a 10-byte string. DB2 for LUW accepts a 30-byte string.|true|n/a|  
 |id|xs:string|Unique identifier (name) is a 128-byte string.|true|n/a|  
 |isolationLevel|drdaar:OptionsIsolationLevel|Isolation Level. Valid values are|false|CursorStability|  
 |title|xs:string|Title is a 255-byte string.|false|n/a|  

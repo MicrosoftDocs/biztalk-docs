@@ -10,8 +10,7 @@ ms.topic: "article"
 ---
 # Problems with Other Features
 ## In This Section  
- [DLS Status Problems](../core/dls-status-problems2.md)  
-  
+
  [Virus-Checking Tool Problems](../core/virus-checking-tool-problems1.md)  
   
  [Logical Unit Sense Codes](../core/logical-unit-sense-codes1.md)

@@ -25,9 +25,9 @@ The **Command** object is created by an OLE DB consumer, or by a service provide
   
 - *DB2 for z/OS  SQL Reference Version 8*  
   
-- *DB2 for i5/OS SQL Reference Version 6 Release 1*  
+- *DB2 for IBM i SQL Reference Version 6 Release 1*  
   
-- *DB2 for i5/OS SQL Reference Version 5 Release 4*  
+- *DB2 for IBM i SQL Reference Version 5 Release 4*  
   
 - *DB2 for LUW SQL Reference Version 9*  
   

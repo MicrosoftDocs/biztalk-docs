@@ -18,7 +18,7 @@ A recordset is an Automation object that is a fixed-size, bounded, or unbounded 
  Support for recordsets and databales enables TI to support what is effectively an array of a structure (or a record, in COBOL terminology) as well as a structure. A structure is represented as a fixed-size recordset or datatable where each column in the row contains a single data element. To deal with mainframe programming issues, TI classifies recordsets and datatables as fixed-size, bounded, or unbounded, in reference to the number of rows contained in the recordset or datatable.  
   
 > [!IMPORTANT]
->  The IBM System i distributed program calls (DPC) programming model supports only fixed size recordsets and datatables. The programming model does not support unbounded recordsets and datatables, nor does it support the use of the OCCURS DEPENDING ON clause, or variably-sized recordsets and datatables.  
+>  The IBM i distributed program calls (DPC) programming model supports only fixed size recordsets and datatables. The programming model does not support unbounded recordsets and datatables, nor does it support the use of the OCCURS DEPENDING ON clause, or variably-sized recordsets and datatables.  
   
  For fixed-size, bounded, and unbounded TI recordsets and datatables, the layout of all rows in a particular recordset is the same and is defined at design time by using TI Project. If a recordset or datatable is an output or return value from the mainframe, TI run-time environment uses the **RDSServer.DataFactory** object to create a recordset or datatable and ADO to fill the recordset or datatable with the rows of data returned from the mainframe program.  
   
