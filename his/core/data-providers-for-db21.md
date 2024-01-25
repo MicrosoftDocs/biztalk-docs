@@ -190,4 +190,4 @@ ms.topic: "article"
 
 - ·sp_setdefaultdatatypemapping
 
-  For more information, see the [System Stored Procedures (Transact-SQL)](sql/relational-databases/system-stored-procedures/system-stored-procedures-transact-sql).
+  For more information, see the [System Stored Procedures (Transact-SQL)](/sql/relational-databases/system-stored-procedures/system-stored-procedures-transact-sql).
