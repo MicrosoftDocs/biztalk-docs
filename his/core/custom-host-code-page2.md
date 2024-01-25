@@ -95,7 +95,4 @@ AC 69 ED EE EB EF EC BF-80 FD FE FB FC AD 8E 59
 44 45 42 46 43 47 9C 48-54 51 52 53 58 55 56 57  
 8C 49 CD CE CB CF CC E1-70 DD DE DB DC 8D AE DF  
   
-```  
-  
-## See Also  
- [IBM i (APPC) Printing](../core/as-400-appc-printing1.md)
+```

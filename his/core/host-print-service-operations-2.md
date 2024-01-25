@@ -20,12 +20,11 @@ Host Print service provides server-based 3270 and 5250 print emulation, allowing
 -   **Server-based redirected printing.** This method uses a server process to convert SNA host printer data streams into data that can be directed to a local or network printer.  
   
 ## In This Section  
- [Host Print Services](../core/host-print-services1.md)  
-  
- [Mainframe Printing](../core/mainframe-printing1.md)  
-  
- [Configuring Host Print Service](../core/configuring-host-print-service2.md)  
-  
- [IBM i (APPC) Printing](../core/as-400-appc-printing1.md)  
-  
- [Printer Definition Files](../core/printer-definition-files2.md)
+
+[Host Print Services](../core/host-print-services1.md)  
+
+[Mainframe Printing](../core/mainframe-printing1.md)  
+
+[Configuring Host Print Service](../core/configuring-host-print-service2.md)  
+
+[Printer Definition Files](../core/printer-definition-files2.md)
