@@ -3,7 +3,7 @@ title: "BizTalk Adapter Pack overview"
 description: See an overview of all the adapters included in the BizTalk Adapter Pack, including Oracle database and e-business suite, SAP, Siebel, and SQL Server in BizTalk Server.
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

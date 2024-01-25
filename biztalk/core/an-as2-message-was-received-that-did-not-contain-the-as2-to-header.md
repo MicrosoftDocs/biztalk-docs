@@ -3,7 +3,7 @@ description: "Learn more about: An AS2 message was received that did not contain
 title: "An AS2 message was received that did not contain the AS2-To header"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

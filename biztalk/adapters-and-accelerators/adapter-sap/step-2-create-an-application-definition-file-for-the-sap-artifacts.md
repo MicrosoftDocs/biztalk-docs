@@ -3,7 +3,7 @@ description: "Learn more about: Step 2: Create an Application Definition File fo
 title: "Step 2: Create an Application Definition File for the SAP Artifacts"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

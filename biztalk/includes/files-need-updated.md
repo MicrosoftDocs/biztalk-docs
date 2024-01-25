@@ -2,7 +2,7 @@
 title: Public Git repo
 ms.custom: Add this includes file to samples that need updated
 ms.date: "10/18/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.topic: "article"
 ---
 

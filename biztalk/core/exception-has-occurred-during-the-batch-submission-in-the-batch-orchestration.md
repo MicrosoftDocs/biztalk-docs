@@ -3,7 +3,7 @@ description: "Learn more about: An exception has occurred during the batch submi
 title: "An exception has occurred during the batch submission in the batching orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

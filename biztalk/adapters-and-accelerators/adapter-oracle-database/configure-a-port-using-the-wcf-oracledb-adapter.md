@@ -3,7 +3,7 @@ title: "Configure a port using the WCF-OracleDB adapter in BizTalk"
 description: Create WCF-OracleDB send and receive ports to use the Oracle DB adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

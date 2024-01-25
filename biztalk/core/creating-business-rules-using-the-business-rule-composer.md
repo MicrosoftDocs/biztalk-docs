@@ -3,7 +3,7 @@ description: "Learn more about: Create Business Rules Using the Business Rule Co
 title: "Create Rules Using the Business Rule Composer"
 ms.custom: ""
 ms.date: "02/01/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

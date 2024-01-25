@@ -1,7 +1,7 @@
 ---
 title: Set up and install prerequisites for BizTalk Server 2020
 description: Step-by-step instructions to install and configure the required software and settings for BizTalk Server 2020
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.custom: biztalk-2020
 ms.date: 04/07/2020
 ms.reviewer: ""
@@ -222,6 +222,9 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
    - Shared Features
       - Client Tools Connectivity
       - Integration Services
+
+     > [!NOTE]
+     > To set up Business Activity Monitoring (BAM) when SQL is remote to BizTalk, you must also install SSIS on BizTalk Server. 
 
 3. Configure Analysis Services in Multidimensional Mode. Default is Tabular Mode, make sure to change it to Multidimensional Mode in SQL Server installation wizard before continuing with installation.
 

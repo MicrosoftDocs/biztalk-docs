@@ -3,7 +3,7 @@ description: "Learn more about: Step 1: Configure the SWIFT Adapter for the File
 title: "Step 1: Configure the SWIFT Adapter for the FileAct Store and Forward Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

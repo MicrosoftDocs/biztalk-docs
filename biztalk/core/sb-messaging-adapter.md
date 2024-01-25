@@ -3,7 +3,7 @@ title: "Service Bus messaging adapter"
 description: Send and receive messages using the Azure SB-Messaging adapter in BizTalk Server
 ms.custom: ""
 ms.date: "11/21/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

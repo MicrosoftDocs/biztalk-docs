@@ -3,7 +3,7 @@ description: "Learn more about: Diagnostic tracing and message logging for the O
 title: "Diagnostic tracing and message logging for the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

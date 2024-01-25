@@ -3,7 +3,7 @@ description: "Learn how to add and populate Catch Exception blocks in BizTalk Se
 title: "How to Add a Catch Exception Block6"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

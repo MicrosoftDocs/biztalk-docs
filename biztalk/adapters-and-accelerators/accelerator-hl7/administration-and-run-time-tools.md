@@ -2,7 +2,7 @@
 description: "Learn more about: Administration and Run Time Tools"
 title: "Administration and Run Time Tools"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Administration and Run Time Tools

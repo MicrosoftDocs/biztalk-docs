@@ -3,7 +3,7 @@ description: "Learn more about: How to Redeploy a BizTalk Assembly from Visual S
 title: "How to Redeploy a BizTalk Assembly from Visual Studio"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

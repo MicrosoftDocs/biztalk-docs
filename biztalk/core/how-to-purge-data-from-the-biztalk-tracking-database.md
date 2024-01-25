@@ -3,7 +3,7 @@ title: "Purge Data from the BizTalk Tracking Database"
 description: Configure the dtasp_PurgeTrackingDatabase stored procedure to purge the tracking database (BizTalkDTADB) in BizTalk Server
 ms.custom: ""
 ms.date: "10/11/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -2,7 +2,7 @@
 description: "Learn more about: Configuration Parameters for Send and Receive Adapters"
 title: "Configuration Parameters for Send and Receive Adapters"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Configuration Parameters for Send and Receive Adapters

@@ -3,7 +3,7 @@ description: "Learn more about: Error - Second Input for Table Looping Functoid 
 title: "Error - Second Input for Table Looping Functoid Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

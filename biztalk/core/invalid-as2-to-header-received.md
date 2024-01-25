@@ -3,7 +3,7 @@ description: "Learn more about: Invalid AS2-To header received"
 title: "Invalid AS2-To header received"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

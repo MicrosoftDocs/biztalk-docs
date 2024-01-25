@@ -3,7 +3,7 @@ description: "Learn more about: Managing BizTalk Server Security"
 title: "Managing BizTalk Server Security"
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

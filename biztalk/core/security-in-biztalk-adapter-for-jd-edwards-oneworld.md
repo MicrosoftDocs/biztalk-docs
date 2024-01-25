@@ -3,7 +3,7 @@ title: "Use SSO to secure JD Edwards OneWorld"
 description: Security overview when using the Microsoft BizTalk Adapter JD Edwards OneWorld in BizTalk Server
 ms.custom: ""
 ms.date: "10/18/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

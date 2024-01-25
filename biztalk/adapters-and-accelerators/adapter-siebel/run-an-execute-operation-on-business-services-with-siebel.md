@@ -3,7 +3,7 @@ description: "Learn more about: Run an EXECUTE Operation on Business Services wi
 title: "Run an EXECUTE Operation on Business Services with Siebel"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

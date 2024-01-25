@@ -11,9 +11,9 @@ ms.topic: "article"
 # Data Links (Informix)
 Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog to configure connections to IBM Informix database servers. Data Links can save a data source definition as an OLE DB universal data link (UDL) file, which allows the user to share configurations between applications, users, and computers.
 
- You can create a data link by clicking the Data Access Tool shortcut in the Host Integration Server 2013 program folder. You can then modify the UDL using the Data Links tool by opening the file from Windows Explorer, which loads the standard OLE DB Data Links user interface.
+ You can create a data link by clicking the Data Access Tool shortcut in the Host Integration Server 2020 program folder. You can then modify the UDL using the Data Links tool by opening the file from Windows Explorer, which loads the standard OLE DB Data Links user interface.
 
- To start the Data Access tool, click the Data Access Tool shortcut in the Host Integration Server 2013 program folder or click Start, Programs, Microsoft Host Integration Server 2013 and then Data Access Tool.
+ To start the Data Access tool, click the Data Access Tool shortcut in the Host Integration Server 2020 program folder or click Start, Programs, Microsoft Host Integration Server 2020 and then Data Access Tool.
 
 ## Provider
  Use the Provider tab to select the Microsoft OLE DB Provider for Informix from the list of OLE DB Providers. The provider name is MSINFORMIX.1.
@@ -34,7 +34,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
  Provider=MSINFORMIX.1;Password=Pass@word1;Persist Security Info=True;User ID=informix;Initial Catalog=stores_demo;Data Source=MSINFORMIX_DataLinkSamp;Network Address=hisdrda2;Schema Filter=hisdemo
 
 ### Data Source
- The Data source (DBPROP_INIT_DATASOURCE) property defines a string to describe the data source. This optional property accepts a string value. The default value is an empty string. The Microsoft HIS 2013 Data Access Tool uses this property value to name the Universal Data Link (UDL) file.
+ The Data source (DBPROP_INIT_DATASOURCE) property defines a string to describe the data source. This optional property accepts a string value. The default value is an empty string. The Microsoft HIS 2020 Data Access Tool uses this property value to name the Universal Data Link (UDL) file.
 
 ### Network
  Click the ellipsis (…) to open the TCP/IP Network Settings dialog.
@@ -189,7 +189,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
  The Connection Pooling property instructs the Data Provider to use client-side connection pooling. This optional property accepts a Boolean value. The default value is false.
 
 ### Data Source
- The Data source (DBPROP_INIT_DATASOURCE) property defines a string to describe the data source. This optional property accepts a string value. The default value is an empty string. The Microsoft HIS 2013 Data Access Tool uses this property value to name the Universal Data Link (UDL) file.
+ The Data source (DBPROP_INIT_DATASOURCE) property defines a string to describe the data source. This optional property accepts a string value. The default value is an empty string. The Microsoft HIS 2020 Data Access Tool uses this property value to name the Universal Data Link (UDL) file.
 
 ### DBMS Platform
  The DBMS platform property defines the operating system of the Informix server. The Data Provider uses this value to convert data types to a format supported by this platform. This required property accepts a string value. The default value is NT. The following table lists the DBMS Platform values.

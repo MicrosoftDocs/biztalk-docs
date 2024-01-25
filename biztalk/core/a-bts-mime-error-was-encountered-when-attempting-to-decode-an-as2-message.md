@@ -3,7 +3,7 @@ description: "Learn more about: A BTS MIME error was encountered when attempting
 title: "A BTS MIME error was encountered when attempting to decode an AS2 message"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ title: "Post installation steps for BizTalk Adapter Pack 2016"
 description: Steps to complete after you install BAP 2016, including add adapter to BizTalk Administration, update Oracle, and register adapter bindings.
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

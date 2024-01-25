@@ -3,7 +3,7 @@ title: "Configure IIS for an HTTP Receive Location"
 description: Create the BTS HTTP Receive application in IIS, and test the application pool settings in BizTalk Server
 ms.custom: ""
 ms.date: "10/10/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

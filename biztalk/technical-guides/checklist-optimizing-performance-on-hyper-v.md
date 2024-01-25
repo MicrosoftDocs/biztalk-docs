@@ -3,7 +3,7 @@ description: "Learn more about: Checklist: Optimizing Performance on Hyper-V"
 title: "Checklist: Optimizing Performance on Hyper-V"
 ms.custom: ""
 ms.date: "06/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

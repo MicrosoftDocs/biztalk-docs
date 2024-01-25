@@ -3,7 +3,7 @@ description: "Learn more about: Checklist: Best Practices for Installing and Con
 title: "Checklist: Best Practices to install and configure on Hyper-V"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

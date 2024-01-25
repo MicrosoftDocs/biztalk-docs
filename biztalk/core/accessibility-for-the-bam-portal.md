@@ -3,7 +3,7 @@ description: "Learn more about: Accessibility for the BAM Portal"
 title: "Accessibility for the BAM Portal"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Max limit of acceptable X12 functional group con
 title: "Max limit of acceptable X12 functional group control number has reached for Guest settings"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

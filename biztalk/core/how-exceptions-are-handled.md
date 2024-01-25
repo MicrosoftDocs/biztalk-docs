@@ -3,7 +3,7 @@ description: "Learn more about: How Exceptions Are Handled"
 title: "How Exceptions Are Handled"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

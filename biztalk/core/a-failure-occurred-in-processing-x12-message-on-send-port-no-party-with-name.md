@@ -3,7 +3,7 @@ description: "Learn more about: A failure occurred in processing X12 message on 
 title: "A failure occurred in processing X12 message on send port: No Party with name"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Performance Tips and Tricks"
 title: "Performance Tips and Tricks"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

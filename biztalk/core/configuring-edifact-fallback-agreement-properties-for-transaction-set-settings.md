@@ -3,7 +3,7 @@ description: "Learn more about: Configuring EDIFACT Fallback Agreement Propertie
 title: "Configuring EDIFACT Fallback Agreement Properties for Transaction Set Settings"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

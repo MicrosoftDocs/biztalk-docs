@@ -3,7 +3,7 @@ description: "Learn more about: Delimiters are not unique, segment and component
 title: "Delimiters are not unique, segment and component separators are the same"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

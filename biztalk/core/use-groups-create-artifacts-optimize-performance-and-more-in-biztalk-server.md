@@ -3,7 +3,7 @@ title: "Use groups, create artifacts, optimize performance, and more in BizTalk 
 description: Quick links to use BizTalk Administration, create groups, deploy applications, change performance settings, and restart BizTalk services in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

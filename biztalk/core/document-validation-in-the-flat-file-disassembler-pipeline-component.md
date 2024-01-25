@@ -3,7 +3,7 @@ description: "Learn more about: Document Validation in the Flat File Disassemble
 title: "Document Validation in the Flat File Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

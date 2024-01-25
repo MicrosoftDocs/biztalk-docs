@@ -3,7 +3,7 @@ description: "Learn more about: Setting Time-Outs for a Public-Process Orchestra
 title: "Setting Time-Outs for a Public-Process Orchestration and an HTTP Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

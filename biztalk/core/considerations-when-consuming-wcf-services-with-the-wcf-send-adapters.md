@@ -3,7 +3,7 @@ description: "Learn more about: Considerations When Consuming WCF Services with 
 title: "Considerations When Consuming WCF Services with the WCF Send Adapters"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

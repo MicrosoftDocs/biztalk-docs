@@ -3,7 +3,7 @@ title: "Enable tracking on a Send Port"
 description: Turn on message body tracking and track message properties on a send port in BizTalk Server
 ms.custom: ""
 ms.date: "12/13/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

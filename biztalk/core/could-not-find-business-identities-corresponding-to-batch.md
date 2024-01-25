@@ -3,7 +3,7 @@ description: "Learn more about: Could not find Business Identities corresponding
 title: "Could not find Business Identities corresponding to batch"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

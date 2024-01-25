@@ -3,7 +3,7 @@ title: "Configure the Backup BizTalk Server Job"
 description: "Learn more about: Configure the Backup BizTalk Server Job"
 ms.custom: ""
 ms.date: "11/22/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Run operations on tables and views with large da
 title: "Run operations on tables and views with large data types using the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

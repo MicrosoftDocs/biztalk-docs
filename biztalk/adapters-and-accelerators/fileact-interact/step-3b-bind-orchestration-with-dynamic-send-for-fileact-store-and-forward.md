@@ -3,7 +3,7 @@ description: "Learn more about: Step 3B: Bind the orchestration with dynamic sen
 title: "Step 3B: Bind the orchestration with dynamic send port for FileAct Store and Forward (Pull) Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

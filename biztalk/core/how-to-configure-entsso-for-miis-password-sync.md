@@ -3,7 +3,7 @@ description: "Learn more about: How to Configure ENTSSO for MIIS Password Sync"
 title: "How to Configure ENTSSO for MIIS Password Sync"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

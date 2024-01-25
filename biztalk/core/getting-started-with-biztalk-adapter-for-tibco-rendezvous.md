@@ -3,7 +3,7 @@ title: "Get started with BizTalk Adapter for TIBCO Rendezvous"
 description: Messages, concepts, schema generation, limitations, installation, and tutorials for TIBCO Rendezvous adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: MSIT: Real World Migration Story from Gentran 5.
 title: "MSIT: Real World Migration Story from Gentran 5.1 to BizTalk 2010"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

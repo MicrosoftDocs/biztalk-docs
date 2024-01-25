@@ -3,7 +3,7 @@ description: Provides an overview of the Hyper-V architecture, and describes the
 title: "Appendix B: Hyper-V Architecture and Feature Overview"
 ms.custom: ""
 ms.date: 06/08/2017
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: article

@@ -2,7 +2,7 @@
 description: "Learn more about: Using HL7 2.XML Schemas"
 title: "Using HL7 2.XML Schemas"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Using HL7 2.XML Schemas

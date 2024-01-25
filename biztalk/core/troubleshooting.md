@@ -3,7 +3,7 @@ title: "Troubleshooting and known issues"
 description: Known issues, zombies, troubleshoot performance, troubleshoot adapters, troubleshoot permissions, troubleshoot EDI and AS2, and more in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

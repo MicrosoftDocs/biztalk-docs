@@ -3,7 +3,7 @@ description: "Learn more about: ISA segment needs to have a minimum length of 10
 title: "ISA segment needs to have a minimum length of 108"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

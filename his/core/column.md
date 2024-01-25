@@ -33,7 +33,7 @@ Defines the columns in the  element.
 |Attribute|Type|Description|Required|Default Value|  
 |---------------|----------|-----------------|--------------|-------------------|  
 |ordinal|xs:int|Specifies the position within the zero-based array of columns.|true|n/a|  
-|name|xs:string|A name. DB2 for z/OS accepts a 128-byte string. DB2 for i5/OS accepts a 128-byte string. DB2 for Linux, UNIX, or Windows accepts a 128-byte string.|true|n/a|  
+|name|xs:string|A name. DB2 for z/OS accepts a 128-byte string. DB2 for IBM i accepts a 128-byte string. DB2 for Linux, UNIX, or Windows accepts a 128-byte string.|true|n/a|  
 |type|drdaar:parameterTypes|Type is defined by using the name or abbreviation supported by the target DB2 server platform and version. See SQL Reference for supported values Valid values are:|true|n/a|  
 |length|xs:int|Length is defined by using the value supported by the target DB2 server platform and version. See SQL Reference for supported values.|true|n/a|  
 |precision|xs:int|Precision is defined by using the value supported by the target DB2 server platform and version. See SQL Reference for supported values.|true|n/a|  

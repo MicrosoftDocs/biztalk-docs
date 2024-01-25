@@ -2,7 +2,7 @@
 description: "Learn more about: Validation Known Issues"
 title: "Validation Known Issues"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Validation Known Issues

@@ -3,7 +3,7 @@ description: "Learn more about: The Comparison can only be Equals, NotEquals and
 title: "The Comparison can only be Equals, NotEquals and Exists"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

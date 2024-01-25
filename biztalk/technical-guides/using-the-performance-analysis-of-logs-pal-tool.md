@@ -1,7 +1,7 @@
 ---
 title: Performance Analysis of Logs (PAL) Tool
 description: Learn how to use the Performance Analysis of Logs (PAL) Tool with BizTalk Server.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
 ---

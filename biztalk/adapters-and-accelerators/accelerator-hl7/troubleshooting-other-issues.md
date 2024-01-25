@@ -2,7 +2,7 @@
 description: "Learn more about: Troubleshooting Other Issues"
 title: "Troubleshooting Other Issues"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Troubleshooting Other Issues

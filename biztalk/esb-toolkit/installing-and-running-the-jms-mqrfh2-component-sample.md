@@ -3,7 +3,7 @@ description: "Learn more about: Installing and Running the JMS MQRFH2 Component 
 title: "Installing and Running the JMS MQRFH2 Component Sample"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

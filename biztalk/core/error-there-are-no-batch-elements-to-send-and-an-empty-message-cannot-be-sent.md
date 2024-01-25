@@ -3,7 +3,7 @@ description: "Learn more about: There are no batch elements to send and an empty
 title: "There are no batch elements to send and an empty message cannot be sent as it is not configured for party"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

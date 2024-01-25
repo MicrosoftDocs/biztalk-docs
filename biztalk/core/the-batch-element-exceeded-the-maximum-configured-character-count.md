@@ -3,7 +3,7 @@ description: "Learn more about: The batch element exceeded the maximum configure
 title: "The batch element exceeded the maximum configured character count"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

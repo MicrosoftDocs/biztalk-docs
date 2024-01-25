@@ -3,7 +3,7 @@ description: "Learn how to create Messages that will be used in a BizTalk orches
 title: "Task 2: Create the Messages1"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

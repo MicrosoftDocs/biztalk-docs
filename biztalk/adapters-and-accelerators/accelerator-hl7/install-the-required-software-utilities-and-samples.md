@@ -2,7 +2,7 @@
 description: "Learn more about: Install the Required Software, Utilities, and Samples"
 title: "Install the Required Software, Utilities, and Samples"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Install the Required Software, Utilities, and Samples

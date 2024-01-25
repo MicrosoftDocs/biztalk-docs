@@ -15,7 +15,7 @@ Advanced Program-to-Program Communications (APPC), or LU 6.2, provides a transpo
   
  APPC serves as translator between application programs and the network. When applications on one computer pass information to the APPC software, APPC translates the information and passes it to a network interface. APPC translates the information back into its original format and passes it to the corresponding partner application. APPC can be used across any of the standard types of connections supported by SNA and is not tied to any particular physical connection.  
   
- APPC generally uses a local APPC LU (LU 6.2) and one or more remote APPC LUs. A local APPC LU can be independent or dependent. In full peer-oriented APPN networks, typically implemented in an IBM System i environment or under the most modern evolution of mainframe technology, the independent APPC model applies. Dependent APPC is used in older mainframe networks, and its functions are reduced.  
+ APPC generally uses a local APPC LU (LU 6.2) and one or more remote APPC LUs. A local APPC LU can be independent or dependent. In full peer-oriented APPN networks, typically implemented in an IBM i environment or under the most modern evolution of mainframe technology, the independent APPC model applies. Dependent APPC is used in older mainframe networks, and its functions are reduced.  
   
  Local and remote APPC LUs work together in pairs. The local APPC LU is assigned to a server (unlike other LU types, which are assigned to connections). The remote APPC LU is assigned to the connection. Host Integration Server uses dynamic partnering to create any possible LU partnership on demand when local and remote LUs and modes recognize each other.  
   
@@ -30,5 +30,5 @@ Advanced Program-to-Program Communications (APPC), or LU 6.2, provides a transpo
  The characteristics that govern the interactions between TPs using an LU 6.2-LU 6.2 connection are determined by the mode associated with the connection. The mode can be associated in a fixed manner with a given LU, or it can be supplied by the invoking TP when a session is first initiated.  
   
 ## See Also  
- [Host Integration Server 5250 (IBM System i) Connectivity](../core/host-integration-server-5250-as-400-connectivity1.md)   
- [IBM System i 5250 Terminal Connections](../core/as-400-5250-terminal-connections1.md)
+ [Host Integration Server 5250 (IBM i) Connectivity](../core/host-integration-server-5250-as-400-connectivity1.md)   
+ [IBM i 5250 Terminal Connections](../core/as-400-5250-terminal-connections1.md)

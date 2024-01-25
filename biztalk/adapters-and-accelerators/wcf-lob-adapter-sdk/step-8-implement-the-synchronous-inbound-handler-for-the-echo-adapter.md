@@ -3,7 +3,7 @@ description: "Learn more about: Step 8: Implement the Synchronous Inbound Handle
 title: "Step 8: Implement the Synchronous Inbound Handler for the Echo Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

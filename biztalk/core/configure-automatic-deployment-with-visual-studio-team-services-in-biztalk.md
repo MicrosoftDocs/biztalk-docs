@@ -3,7 +3,7 @@ title: "Configure automatic deployment with Visual Studio Team Services"
 description: Install BizTalk Feature Pack to use application lifecycle management with Azure DevOps to deploy your applications to different BizTalk environments
 ms.custom: "biztalk-2020"
 ms.date: "09/20/2022"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
@@ -26,7 +26,7 @@ We show you how to setup Azure DevOps with [!INCLUDE[btsBizTalkServerNoVersion_m
 ## Before you begin
 
 * Have Azure DevOps account ready. Don't have one? [Sign up for Visual Studio Team Services](https://www.visualstudio.com/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services).
-* If you already have a Azure DevOps Agent installed on your BizTalk computer, then the existing agent is overwritten with the latest Azure DevOps Agent. You may have to update your [VSTS service to align with the new agent](https://www.visualstudio.com/docs/build/actions/agents/v2-windows#replace-an-agent).
+* If you already have an Azure DevOps Agent installed on your BizTalk computer, then the existing agent is overwritten with the latest Azure DevOps Agent. You may have to update your [VSTS service to align with the new agent](https://www.visualstudio.com/docs/build/actions/agents/v2-windows#replace-an-agent).
 
 ## Prerequisites
 

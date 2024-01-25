@@ -20,7 +20,7 @@ When choosing modes, each LU-LU pair has a mode associated with it that determin
 |BLANK|Sessions using a default node name, encoded as eight blank EBCDIC spaces in a BIND APPC command|  
 |#INTER|Interactive sessions|  
 |#INTERSC|Interactive sessions that employ a minimal level of routing security|  
-|QPCSUPP|All sessions with an IBM System i computer|  
+|QPCSUPP|All sessions with an IBM i computer|  
   
 ## See Also  
  [APPC Deployment Strategies](../core/appc-deployment-strategies1.md)

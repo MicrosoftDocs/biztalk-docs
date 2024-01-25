@@ -3,7 +3,7 @@ description: "Learn more about: Transforming and Routing a Message to Multiple E
 title: "Transforming and Routing a Message to Multiple Endpoints"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

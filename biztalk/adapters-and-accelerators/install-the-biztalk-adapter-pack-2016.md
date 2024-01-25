@@ -3,7 +3,7 @@ description: "Learn more about: Install the BizTalk Adapter Pack 2016"
 title: "How to install the BizTalk Adapter Pack 2016"
 ms.custom: ""
 ms.date: "04/16/2021"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ title: "Architecture of the JD Edwards OneWorld adapter"
 description: Architecture, pooling, limitations, and multi-order items with the BizTalk Adapter for JD Edwards OneWorld in BizTalk Server
 ms.custom: ""
 ms.date: "10/18/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

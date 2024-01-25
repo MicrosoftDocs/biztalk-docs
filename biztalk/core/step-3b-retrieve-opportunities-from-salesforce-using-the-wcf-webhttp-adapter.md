@@ -3,7 +3,7 @@ description: "Learn more about: Step 3b: Retrieve Opportunity Details from Sales
 title: "Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

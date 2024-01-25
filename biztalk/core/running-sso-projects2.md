@@ -3,7 +3,7 @@ description: "Learn how to run Single Sign-On (SSO) projects from Internet Explo
 title: "Run SSO Projects with TIBCO EMS"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

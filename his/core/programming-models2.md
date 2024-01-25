@@ -28,7 +28,7 @@ A programming model defines the method(s) used to access and integrate server ap
 |TCP/IP|IMS|IMS Connect|IMS Open Transaction Management Architecture (OTMA) Connect|  
 |TCP/IP|IMS|IMS Implicit|Implicit|  
 |TCP/IP|IMS|IMS Explicit|Explicit|  
-|TCP/IP|IBM System i|IBM System i Distributed Program Calls (DPC)|n/a|  
+|TCP/IP|IBM i|IBM i Distributed Program Calls (DPC)|n/a|  
 |LU6.2|CICS|CICS LU6.2 User Data|CICS using LU6.2|  
 |LU6.2|CICS|CICS LU6.2 Link|CICS using Link|  
 |LU6.2|IMS|IMS LU6.2 User Data|IMS using LU6.2|  
@@ -40,7 +40,7 @@ A programming model defines the method(s) used to access and integrate server ap
 |TCP/IP|CICS|TCP Transaction Request Message (TRM) Link|n/a|  
 |TCP/IP|CICS|TCP Enhanced Listener Message (ELM) Link|n/a|  
 |TCP/IP|CICS|TCP User Data|n/a|  
-|TCP/IP|IBM System i|IBM System i Distributed Program Calls (DPC)|n/a|  
+|TCP/IP|IBM i|IBM i Distributed Program Calls (DPC)|n/a|  
 |LU6.2|CICS|CICS LU6.2 User Data|n/a|  
 |LU6.2|CICS|CICS LU6.2 Link|n/a|  
   
@@ -55,7 +55,7 @@ A programming model defines the method(s) used to access and integrate server ap
   
  [IMS Connect](../core/ims-connect1.md)  
   
- [IBM System i Distributed Program Calls](../core/os-400-distributed-program-calls1.md)  
+ [IBM i Distributed Program Calls](../core/os-400-distributed-program-calls1.md)  
   
  [CICS LU6.2 Link](../core/cics-lu6-2-link1.md)  
   

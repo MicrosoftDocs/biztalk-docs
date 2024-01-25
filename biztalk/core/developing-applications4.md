@@ -3,7 +3,7 @@ title: "Create application artifacts for PeopleSoft Enterprise"
 description: Create the artifacts in BizTalk Server administration, and in Visual Studio to use the BizTalk Adapter for PeopleSoft Enterprise in BizTalk Server
 ms.custom: ""
 ms.date: "10/19/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

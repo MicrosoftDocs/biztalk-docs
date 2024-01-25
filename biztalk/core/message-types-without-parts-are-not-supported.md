@@ -3,7 +3,7 @@ description: "Learn more about: Message types without parts are not supported"
 title: "Message types without parts are not supported"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

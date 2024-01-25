@@ -3,7 +3,7 @@ description: "Learn more about: Install BizTalk Server 2020"
 title: "Install BizTalk Server 2020"
 ms.custom: "biztalk-2020"
 ms.date: "01/14/2020"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

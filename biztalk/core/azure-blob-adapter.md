@@ -3,7 +3,7 @@ title: "Use the Azure Blob adapter"
 description: Send and receive messages using the Azure Blob adapter in BizTalk Server.
 ms.date: "01/13/2020"
 ms.topic: conceptual
-ms.prod: biztalk-server
+ms.service: biztalk-server
 # optional metadata
 #ROBOTS:
 ms.reviewer: 

@@ -3,13 +3,13 @@ description: "Learn more about: Clustering Receiving Hosts"
 title: "Clustering Receiving Hosts"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
 # Clustering Receiving Hosts
-BizTalk Server provides functionality that allows you to configure a BizTalk Host as a clustered resource within a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster group. Host cluster support is provided to support high availability for integrated BizTalk receive adapters that should not be run in multiple host instances simultaneously, such as the FTP receive handler or, under certain circumstances, the POP3 receive handler. Host cluster support is also provided to ensure transactional consistency for messages sent or received by the MSMQ adapter in scenarios that require that the MSMQ service is clustered.
+BizTalk Server provides functionality that allows you to configure a BizTalk Host as a clustered resource within a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster group. Host cluster support is provided to support high availability for integrated BizTalk receive adapters that should not be run in multiple host instances simultaneously, such as the FTP or SFTP receive handler or, under certain circumstances, the POP3 receive handler. Host cluster support is also provided to ensure transactional consistency for messages sent or received by the MSMQ adapter in scenarios that require that the MSMQ service is clustered.
 
 > [!NOTE]
 >  Host clustering is available only with BizTalk Server Enterprise Edition.
@@ -17,7 +17,7 @@ BizTalk Server provides functionality that allows you to configure a BizTalk Hos
 > [!NOTE]
 >  Before you can cluster a BizTalk Host you must have configured at least two [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers in a BizTalk group as members of a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster. For more information about configuring a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster, see [Windows Server 2008 Clustering Documents, Whitepapers, Webcasts, Groups](https://go.microsoft.com/fwlink/?LinkId=156818) (<https://go.microsoft.com/fwlink/?LinkId=156818>).
 
- BizTalk Host cluster support is available to provide high availability for five of the integrated BizTalk adapters: the FTP adapter, the MSMQ adapter, the POP3 adapter, the SQL adapter, and the SAP adapter. Host cluster support is also provided so that there is high availability for running a single instance of an adapter for purposes of ordered delivery.
+ BizTalk Host cluster support is available to provide high availability for some of the integrated BizTalk adapters: the FTP adapter, the SFTP adapter, the MSMQ adapter, the POP3 adapter, the SQL adapter, and the SAP adapter. Host cluster support is also provided so that there is high availability for running a single instance of an adapter for purposes of ordered delivery.
 
  All of the BizTalk adapter handlers can be run in a clustered host, but there is no benefit from running adapter handlers in a clustered host except as described below. If your processing requirements include any of the scenarios described in the section below, then you should run adapter handlers in a clustered host. For detailed steps of setting up [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] clusters, see [BizTalk Server Clustering](https://www.microsoft.com/download/details.aspx?id=2290).
 
@@ -25,6 +25,8 @@ BizTalk Server provides functionality that allows you to configure a BizTalk Hos
  If your processing requirements include any of the scenarios listed below, then you should run adapter handlers in a clustered host.
 
 - Running the FTP adapter receive handler within a clustered BizTalk host
+
+- Running the SFTP adapter receive handler within a clustered BizTalk host
 
 - Running MSMQ adapter handlers within a clustered BizTalk host
 

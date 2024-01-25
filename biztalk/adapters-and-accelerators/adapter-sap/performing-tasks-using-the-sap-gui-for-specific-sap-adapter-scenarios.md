@@ -3,7 +3,7 @@ title: "Performing Tasks Using the SAP GUI for Specific SAP Adapter Scenarios"
 description: Create or send RFC, send and review IDOCs, and casing in column stores in SAP - BizTalk Adapter (BAP)
 ms.custom: ""
 ms.date: "08/16/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

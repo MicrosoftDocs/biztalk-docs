@@ -11,7 +11,7 @@ ms.topic: "article"
 # 5250 Terminal Access and APPC Access
 Users who want Advanced Program-to-Program Communications (APPC) access need not be defined in the SNA subdomain, but they must be members of a Windows domain.  
   
- For 5250 terminal access using a Host Integration Server client computer within the network, the IBM System i supplies the required security for logon to the IBM System i.  
+ For 5250 terminal access using a Host Integration Server client computer within the network, the IBM i computer supplies the required security for logon to the IBM i computer.  
   
  For APPC access programmed into specific applications, you maintain security through the actual programmatic conversation, if required.  
   

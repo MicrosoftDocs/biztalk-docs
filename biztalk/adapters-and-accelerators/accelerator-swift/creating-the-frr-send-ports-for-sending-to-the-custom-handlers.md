@@ -3,7 +3,7 @@ description: "Learn more about: Creating the FRR Send Ports for Sending to the C
 title: "Creating the FRR Send Ports for Sending to the Custom Handlers"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

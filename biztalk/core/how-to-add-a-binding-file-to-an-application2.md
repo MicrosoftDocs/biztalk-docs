@@ -3,7 +3,7 @@ title: "Add a Binding File to an Application"
 description: Add a binding file using BizTalk Server Administration or use the command prompt in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

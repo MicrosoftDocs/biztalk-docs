@@ -77,7 +77,7 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
   
  The Data Provider supports TCP/IP and SNA (Systems Network Architecture) over LU6.2 APPC (Advanced Program to Program Communications) network connections to remote IBM DB2 database servers that are running on IBM mainframe and midrange host computers. The Data Provider supports TCP/IP network connections to remote IBM DB2 database servers that are running on Linux, UNIX, or Windows operating systems.  
   
- You can select either the **APPC Connection** or **TCP/IP Connection** radio buttons, when you connect to DB2 databases that are running on host mainframe DB2/z/OS and host midrange i5/OS computers. You must select the **TCP/IP Connection** radio button, when connecting to DB2 databases that are running Linux, UNIX, or Windows operating systems.  
+ You can select either the **APPC Connection** or **TCP/IP Connection** radio buttons, when you connect to DB2 databases that are running on host mainframe DB2/z/OS and host midrange IBM i computers. You must select the **TCP/IP Connection** radio button, when connecting to DB2 databases that are running Linux, UNIX, or Windows operating systems.  
   
 ### APPC connection  
  If you select **APPC connection**, you must select or enter the name of the APPC local LU alias, APPC remote LU alias, and APPC mode name configured in Host Integration Server operating as an SNA gateway. A common value for DB2/z/OS is IBMRDB and DB2/400 is QPCSUPP. Optionally you can specify the APPC conversation security to identify the Data Provider user to the DB2 database server.  
@@ -124,7 +124,7 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
 |Platform|Length|  
 |--------------|------------|  
 |DB2 for z/OS|An 8-byte string|  
-|DB2 for i5/OS|A 10-byte string|  
+|DB2 for IBM i|A 10-byte string|  
 |DB2 for Linux or UNIX|An 8-byte string|  
 |DB2 for Windows|A 30-byte string|  
   
@@ -152,7 +152,7 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
 |Platform|Length|  
 |--------------|------------|  
 |DB2 for z/OS|A 16-byte string (catalog is also known as a location)|  
-|DB2 for i5/OS|An 18-byte string (catalog is also known as a relational database)|  
+|DB2 for IBM i|An 18-byte string (catalog is also known as a relational database)|  
 |DB2 for LUW|An 8-byte string (catalog is also known as a database)|  
   
 ### Package collection  
@@ -161,7 +161,7 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
 |Platform|Length|  
 |--------------|------------|  
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection)|  
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|  
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library)|  
 |DB2 for LUW|A 30-byte string|  
   
 ### Default schema  
@@ -170,7 +170,7 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
 |Platform|Length|  
 |--------------|------------|  
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection)|  
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|  
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library)|  
 |DB2 for LUW|A 30-byte string|  
   
 ### DBMS platform  
@@ -179,7 +179,7 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
 |Platform|Value|  
 |--------------|-----------|  
 |DB2 for z/OS|DB2/z/OS|  
-|DB2 for i5/OS|DB2/400|  
+|DB2 for IBM i|DB2/400|  
 |DB2 for Windows|DB2/NT|  
 |DB2 for AIX|DB2/6000|  
   
@@ -189,7 +189,7 @@ The Microsoft ODBC Data Source Administrator manages database drivers and data s
 |Platform|Length|  
 |--------------|------------|  
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection)|  
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|  
+|DB2 for IBM i|A 10-byte string (schema is also known as a collection or library)|  
 |DB2 for LUW|A 30-byte string|  
   
 ### Alternate TP name  

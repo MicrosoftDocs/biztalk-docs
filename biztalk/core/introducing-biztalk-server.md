@@ -3,7 +3,7 @@ description: "Learn more about: Introducing BizTalk Server"
 title: "Introducing BizTalk Server"
 ms.custom: ""
 ms.date: "01/30/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

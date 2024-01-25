@@ -2,7 +2,7 @@
 description: "Learn more about: Repeatable Field Segments"
 title: "Repeatable Field Segments"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Repeatable Field Segments

@@ -3,7 +3,7 @@ description: "Learn more about: Install Custom RFCs for the Data Provider for SA
 title: "Install Custom RFCs for the Data Provider for SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

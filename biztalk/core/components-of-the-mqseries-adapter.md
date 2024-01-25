@@ -3,7 +3,7 @@ description: "Learn more about: Components of the MQSeries Adapter"
 title: "Components of the MQSeries Adapter"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
