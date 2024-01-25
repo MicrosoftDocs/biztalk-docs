@@ -3,7 +3,7 @@ description: "Learn more about: Resend Status Details Report"
 title: "Resend Status Details Report"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ title: "How assemblies in BizTalk Server are deployed "
 description: Deploy assemblies to the GAC, and enable versioning for assemblies in BizTalk Server
 ms.custom: ""
 ms.date: "01/21/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

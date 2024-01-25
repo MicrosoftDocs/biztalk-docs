@@ -3,7 +3,7 @@ description: "Learn more about: Overview of the WCF service model with the Oracl
 title: "Overview of the WCF service model with the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

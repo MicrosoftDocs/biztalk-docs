@@ -1,7 +1,7 @@
 ---
 title: Blog list written by integration and Azure MVPs and community
 description: Blogs and website by integration and Azure MVPs, and community members on BizTalk Server, Azure Logic Apps, and more.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: conceptual
 ms.date: 10/31/2023
 ---

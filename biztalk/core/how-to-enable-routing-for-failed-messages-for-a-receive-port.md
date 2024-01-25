@@ -3,7 +3,7 @@ description: "Learn more about: How to Enable Routing for Failed Messages for a 
 title: "How to Enable Routing for Failed Messages for a Receive Port"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

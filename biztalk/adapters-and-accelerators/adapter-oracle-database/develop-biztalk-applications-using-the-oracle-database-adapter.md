@@ -3,7 +3,7 @@ description: "Learn more about: Develop BizTalk applications using the Oracle Da
 title: "Develop BizTalk applications using the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

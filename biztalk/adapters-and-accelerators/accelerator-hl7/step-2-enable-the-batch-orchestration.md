@@ -2,7 +2,7 @@
 description: "Learn more about: Step 2: Enable the Batch Orchestration"
 title: "Step 2: Enable the Batch Orchestration"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 2: Enable the Batch Orchestration

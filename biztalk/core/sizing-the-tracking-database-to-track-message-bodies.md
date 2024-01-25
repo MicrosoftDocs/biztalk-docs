@@ -3,7 +3,7 @@ description: "Learn more about: Sizing the Tracking Database to Track Message Bo
 title: "Sizing the Tracking Database to Track Message Bodies"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

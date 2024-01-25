@@ -2,7 +2,7 @@
 description: "Learn more about: Modifying 2.XML Schemas to Work with BizTalk Editor"
 title: "Modifying 2.XML Schemas to Work with BizTalk Editor"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Modifying 2.XML Schemas to Work with BizTalk Editor

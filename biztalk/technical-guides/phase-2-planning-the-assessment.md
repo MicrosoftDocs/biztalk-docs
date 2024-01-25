@@ -3,7 +3,7 @@ description: "Learn more about: Phase 2: Planning the Assessment"
 title: "Phase 2: Planning the Assessment"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

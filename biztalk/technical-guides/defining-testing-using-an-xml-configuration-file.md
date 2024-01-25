@@ -3,7 +3,7 @@ description: "Learn more about: Defining Testing Using an XML Configuration File
 title: "Defining Testing Using an XML Configuration File"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

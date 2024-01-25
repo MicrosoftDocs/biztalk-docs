@@ -2,7 +2,7 @@
 title: What's New in BizTalk Server 2020
 description: Changes and improvements, including feature packs, adapters, security, tracking, performance, and more in BizTalk Server 2020
 ms.custom: biztalk-2020
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.date: 02/13/2020
 ms.reviewer: ""
 ms.suite: ""

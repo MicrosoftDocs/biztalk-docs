@@ -3,7 +3,7 @@ title: "Microsoft Windows Communication Foundation Line of Business Adapter SDK 
 description: Quick links to install, get started, plan and design, develop, and troubleshooting the WCF LOB Adapter SDK in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

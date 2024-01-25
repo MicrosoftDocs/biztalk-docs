@@ -3,7 +3,7 @@ description: "Learn more about: Error- A Nil Value functoid is connected to a ta
 title: "Error- A Nil Value functoid is connected to a target node &#39;{0}&#39; which has child link(s)."
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

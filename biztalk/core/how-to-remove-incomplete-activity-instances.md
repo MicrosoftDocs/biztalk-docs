@@ -3,7 +3,7 @@ title: "Remove Incomplete Activity Instances"
 description: Execute the custom RemoveDanglingInstances SQL script to remove incomplete instances from the BAM Primary Import database in BizTalk Server
 ms.custom: ""
 ms.date: "01/18/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Configure the XML Assembler Pipeline Component i
 title: "How to Configure the XML Assembler Pipeline Component"
 ms.custom: ""
 ms.date: "01/13/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

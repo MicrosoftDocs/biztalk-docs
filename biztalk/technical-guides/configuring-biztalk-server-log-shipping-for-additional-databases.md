@@ -3,7 +3,7 @@ title: "Configure BizTalk Log Shipping for Additional Databases"
 description: Add custom databases to Backup BizTalk Server job, and to Log Shipping in BizTalk Server
 ms.custom: ""
 ms.date: "11/01/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Create a send message, and redirect the fault message in BizTalk S
 title: "Completing the Exception Message2"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

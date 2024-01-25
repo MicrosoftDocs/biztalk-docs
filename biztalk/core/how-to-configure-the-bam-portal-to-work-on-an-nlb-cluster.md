@@ -3,7 +3,7 @@ description: "Learn more about: How to Configure the BAM Portal to Work on an NL
 title: "How to Configure the BAM Portal to Work on an NLB Cluster"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

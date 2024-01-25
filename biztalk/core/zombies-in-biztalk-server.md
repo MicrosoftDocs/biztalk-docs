@@ -3,7 +3,7 @@ title: "Zombies in BizTalk Server"
 description: Common causes of zombie messages in BizTalk Server
 ms.custom: ""
 ms.date: "03/23/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

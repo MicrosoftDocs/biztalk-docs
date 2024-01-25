@@ -3,7 +3,7 @@ description: "Learn more about: Missing or invalid transaction set control numbe
 title: "Missing or invalid transaction set control number"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

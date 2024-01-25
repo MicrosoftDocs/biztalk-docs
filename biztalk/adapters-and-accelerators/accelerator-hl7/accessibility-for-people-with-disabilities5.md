@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 description: Accessibility for people with disabilities with the HL7 accelerator in BizTalk Server.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: conceptual
 ms.date: 04/16/2021
 ---

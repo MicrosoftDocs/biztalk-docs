@@ -3,7 +3,7 @@ description: "Learn more about: How to Configure the Destination System for Log 
 title: "How to Configure the Destination System for Log Shipping"
 ms.custom: ""
 ms.date: "12/03/2015"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

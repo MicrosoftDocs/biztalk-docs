@@ -3,7 +3,7 @@ description: "Learn more about: How to: Select an Itinerary Using a Business Rul
 title: "Select an Itinerary Using a Business Rules Policy"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

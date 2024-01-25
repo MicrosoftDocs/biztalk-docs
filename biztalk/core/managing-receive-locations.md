@@ -3,7 +3,7 @@ title: "Manage Receive Locations"
 description: Work with receive locations in BizTalk Server, including creating, changing the properties, enabling & disabling, adding certificates, and deleting
 ms.custom: "biztalk-2020"
 ms.date: "01/10/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

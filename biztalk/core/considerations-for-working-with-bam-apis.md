@@ -3,7 +3,7 @@ description: "Learn more about: Considerations for Working with BAM APIs"
 title: "Considerations for Working with BAM APIs"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

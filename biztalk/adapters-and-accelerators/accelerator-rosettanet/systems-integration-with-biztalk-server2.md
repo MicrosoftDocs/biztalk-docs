@@ -3,7 +3,7 @@ title: "Systems Integration with BizTalk Server"
 description: BizTalk Server includes the ability to integrate messages using XML, automate business processes using maps and orchestration, and work with systems using different protocols, such as FTP, HTTP, SMTP, SOAP, and SQL.
 ms.custom: ""
 ms.date: "06/08/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

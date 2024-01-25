@@ -3,7 +3,7 @@ description: "Learn more about: Consume a WCF LOB Adapter SDK adapter in a .NET 
 title: "Consume a WCF LOB Adapter SDK adapter in a .NET project"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

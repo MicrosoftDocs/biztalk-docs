@@ -3,7 +3,7 @@ title: "Message Schemas for Query Notification using the SQL adapter in BizTalk"
 description: Use the SQL adapter to receive query notifications from a SQL Server database in BizTalk
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

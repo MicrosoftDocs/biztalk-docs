@@ -2,7 +2,7 @@
 description: "Learn more about: Step 4: Configure the Source Party for the Create-Batch Scenario"
 title: "Step 4: Configure the Source Party for the Create-Batch Scenario"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 4: Configure the Source Party for the Create-Batch Scenario

@@ -3,7 +3,7 @@ title: "Key features in BizTalk Adapter for SQL Server"
 description: Learn more about the features of the SQL Server adapter in BizTalk Server, including WCF, metadata, executing stored procedures, streaming large objects, and more.
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

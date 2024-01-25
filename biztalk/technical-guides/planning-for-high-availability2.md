@@ -3,7 +3,7 @@ description: "Learn how to plan for high availability by recovering functional c
 title: "Planning for High Availability2"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

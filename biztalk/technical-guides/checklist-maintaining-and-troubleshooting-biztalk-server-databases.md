@@ -3,7 +3,7 @@ title: "Checklist: Maintain and Troubleshoot BizTalk Server Databases"
 description: See the best practices to help maintain your BizTalk Server databases, including Auto Update Statistics, Max Degree of Parallelism, rebuild indexes, look for locks and blocks, check the database sizes, use tracking, enable the SQL Server Agent jobs, check for suspended instances, and check for disk performance. Also read about the BizTalk Terminator tool.
 ms.custom: ""
 ms.date: "06/11/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

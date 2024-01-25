@@ -3,7 +3,7 @@ description: "Learn more about: AddResource Command: BizTalk Assembly"
 title: "AddResource Command: BizTalk Assembly"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

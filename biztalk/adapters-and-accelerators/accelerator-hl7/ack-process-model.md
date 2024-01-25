@@ -1,7 +1,7 @@
 ---
 title: ACK process model
 description: Learn more about the ACK process model for BizTalk Server.
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
 ---

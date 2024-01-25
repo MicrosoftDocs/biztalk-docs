@@ -3,7 +3,7 @@ description: "Learn more about: How to Configure BizTalk Server to Receive Encry
 title: "How to Configure BizTalk Server to Receive Encrypted MIME or SMIME Messages"
 ms.custom: ""
 ms.date: "06/29/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

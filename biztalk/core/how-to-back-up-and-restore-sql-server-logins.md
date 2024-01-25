@@ -3,7 +3,7 @@ description: "Learn more about: How to Back Up and Restore SQL Server Logins"
 title: "How to Back Up and Restore SQL Server Logins"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

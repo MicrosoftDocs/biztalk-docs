@@ -3,7 +3,7 @@ description: "Learn more about: Group control number in GS and GE do not match"
 title: "Group control number in GS and GE do not match"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

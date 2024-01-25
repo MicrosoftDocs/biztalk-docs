@@ -3,7 +3,7 @@ description: "Learn more about: Scripting Using Inline XSLT and XSLT Call Templa
 title: "Scripting Using Inline XSLT and XSLT Call Templates"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

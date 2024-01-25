@@ -3,7 +3,7 @@ description: "Learn more about: Simple Type Derivation Using the List Mechanism"
 title: "Simple Type Derivation Using the List Mechanism"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

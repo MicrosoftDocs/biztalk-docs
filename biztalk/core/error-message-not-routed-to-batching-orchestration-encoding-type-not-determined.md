@@ -3,7 +3,7 @@ description: "Learn more about: The message cannot be routed to the batching orc
 title: "The message cannot be routed to the batching orchestration as the Encoding type could not be determined"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

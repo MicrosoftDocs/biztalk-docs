@@ -3,7 +3,7 @@ description: "Learn about the requirements for enabling Single Sign-On (SSO)."
 title: "Single Sign-on requirements"
 ms.custom: ""
 ms.date: "04/16/2021"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

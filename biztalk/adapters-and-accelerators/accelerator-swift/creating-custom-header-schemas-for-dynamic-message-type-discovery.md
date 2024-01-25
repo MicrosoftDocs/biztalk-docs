@@ -3,7 +3,7 @@ description: "Learn more about: Creating Custom Header Schemas for Dynamic Messa
 title: "Creating Custom Header Schemas for Dynamic Message Type Discovery"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

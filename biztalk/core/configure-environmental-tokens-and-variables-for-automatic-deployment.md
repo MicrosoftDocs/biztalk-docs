@@ -5,7 +5,7 @@ ms.custom: "biztalk-2020"
 ms.date: "10/19/2020"
 ms.reviewer: ""
 ms.suite: ""
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: "article"
 ---
 

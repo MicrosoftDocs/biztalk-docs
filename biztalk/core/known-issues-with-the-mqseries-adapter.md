@@ -3,7 +3,7 @@ description: "Learn more about: Known Issues with the MQSeries Adapter"
 title: "Known Issues with the MQSeries Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

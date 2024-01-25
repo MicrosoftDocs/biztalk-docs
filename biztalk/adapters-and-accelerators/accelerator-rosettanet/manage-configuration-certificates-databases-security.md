@@ -3,7 +3,7 @@ title: "Manage configuration, certificates, databases, and security in RosettaNe
 description: Administering BTARN configuration, setting up a CIDX solution, managing certificates and the database, and security in BizTalk Server
 ms.custom: ""
 ms.date: "08/09/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

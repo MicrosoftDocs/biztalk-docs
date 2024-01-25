@@ -3,7 +3,7 @@ description: "Learn more about: Test Scenario Server Architecture"
 title: "Test Scenario Server Architecture"
 ms.custom: ""
 ms.date: "12/09/2015"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

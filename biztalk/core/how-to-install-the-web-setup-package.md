@@ -3,7 +3,7 @@ description: "Learn more about: How to Install the Web Setup Package"
 title: "How to Install the Web Setup Package"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

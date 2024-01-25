@@ -3,7 +3,7 @@ description: "Learn more about: How to Manage Multiple Receive Locations Using t
 title: "How to Manage Multiple Receive Locations Using the MSMQ Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

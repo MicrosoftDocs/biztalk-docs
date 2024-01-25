@@ -3,7 +3,7 @@ description: "Learn more about: Processing in the OrderBroker Orchestration"
 title: "Processing in the OrderBroker Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

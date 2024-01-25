@@ -3,7 +3,7 @@ description: "Learn more about: How to Configure an SMTP Send Handler"
 title: "How to Configure an SMTP Send Handler"
 ms.custom: ""
 ms.date: "10/22/2015"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: WCF Adapters Property Schema and Properties"
 title: "WCF Adapters Property Schema and Properties"
 ms.custom: ""
 ms.date: "02/09/2018"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

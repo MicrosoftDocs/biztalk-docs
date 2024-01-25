@@ -3,7 +3,7 @@ description: "Learn more about: How to Add the BAM Interceptor Behavior to the M
 title: "How to Add the BAM Interceptor Behavior to the Machine.config File"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

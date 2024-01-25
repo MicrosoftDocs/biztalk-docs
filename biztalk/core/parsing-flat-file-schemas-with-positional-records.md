@@ -3,7 +3,7 @@ description: "Learn more about: Parsing Flat File Schemas with Positional Record
 title: "Parsing Flat File Schemas with Positional Records"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

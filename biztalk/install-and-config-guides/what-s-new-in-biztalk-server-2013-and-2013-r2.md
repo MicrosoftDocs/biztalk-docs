@@ -3,7 +3,7 @@ title: "What's New in BizTalk Server 2013 and 2013 R2"
 description: Complete list of new features and changes in BizTalk Server 2013 R2 and 2013
 ms.custom: ""
 ms.date: "08/10/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

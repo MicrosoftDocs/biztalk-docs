@@ -3,7 +3,7 @@ description: "Learn more about: High Availability for Enterprise Single Sign-On"
 title: "High Availability for Enterprise Single Sign-On"
 ms.custom: ""
 ms.date: "02/29/2016"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ title: "Update Group Settings"
 description: Change the performance settings of the group using BizTalk Server Administration
 ms.custom: "biztalk-2020"
 ms.date: "02/10/2020"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

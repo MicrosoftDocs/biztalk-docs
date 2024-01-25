@@ -3,7 +3,7 @@ description: "Learn more about: Required User Rights for Managing BAM Definition
 title: "Required User Rights for Managing BAM Definition Files"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

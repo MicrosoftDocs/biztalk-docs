@@ -3,7 +3,7 @@ description: "Learn more about: Walkthrough: Creating a BizTalk Application That
 title: "Walkthrough: Creating a BizTalk Application That Uses the POP3 Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -2,7 +2,7 @@
 description: "Learn more about: Create the QRY^Q01.txt File"
 title: "Create the QRY^Q01.txt File"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Create the QRY^Q01.txt File

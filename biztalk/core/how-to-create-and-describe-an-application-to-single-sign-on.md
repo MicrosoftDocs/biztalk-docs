@@ -3,7 +3,7 @@ description: "Learn more about: How to Create and Describe an Application to Sin
 title: "How to Create and Describe an Application to Single Sign-On"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

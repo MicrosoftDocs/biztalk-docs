@@ -3,7 +3,7 @@ title: "Test BizTalk web service"
 description: Configure receive locations and web.config to test BizTalk web service in a web browser
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

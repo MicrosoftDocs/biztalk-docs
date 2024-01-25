@@ -2,7 +2,7 @@
 description: "Learn more about: Step 2: Add Common Schemas for v2.3.1"
 title: "Step 2: Add Common Schemas for v2.3.1"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # Step 2: Add Common Schemas for v2.3.1

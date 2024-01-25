@@ -3,7 +3,7 @@ description: "Learn more about: Tutorial 3: Migrating an SAP Send IDOC BizTalk P
 title: "Tutorial 3: Migrating an SAP Send IDOC BizTalk Project"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

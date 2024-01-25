@@ -3,7 +3,7 @@ title: "A4SWIFT_* Promoted Properties in BizTalk Server| Microsoft Docs"
 description: Lists the promoted properties in the SWIFT Accelerator for BizTalk Serve
 ms.custom: ""
 ms.date: "08/16/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

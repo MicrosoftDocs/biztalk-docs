@@ -2,7 +2,7 @@
 title: "What's New in BizTalk Server 2016"
 description: Changes and improvements, including feature packs, adapters, security, tracking, performance, and more in BizTalk Server 2016
 ms.custom: ""
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.date: "6/22/2018"
 ms.reviewer: ""
 ms.suite: ""

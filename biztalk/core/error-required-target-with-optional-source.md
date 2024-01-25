@@ -3,7 +3,7 @@ description: "Learn more about: Error - Required Target with Optional Source"
 title: "Error - Required Target with Optional Source"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

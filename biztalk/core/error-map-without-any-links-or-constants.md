@@ -3,7 +3,7 @@ description: "Learn more about: Error - Map Without Any Links or Constants"
 title: "Error - Map Without Any Links or Constants"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -2,7 +2,7 @@
 description: "Learn more about: HL7 2.5 Folders and Events"
 title: "HL7 2.5 Folders and Events"
 ms.date: "06/08/2017"
-ms.prod: biztalk-server
+ms.service: biztalk-server
 ms.topic: article
 ---
 # HL7 2.5 Folders and Events

@@ -3,7 +3,7 @@ description: "Learn more about: Determining Whether a Column Stores Lowercase or
 title: "Determining Whether a Column Stores Lowercase or Uppercase Values"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

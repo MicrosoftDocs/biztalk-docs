@@ -3,7 +3,7 @@ title: "Create PeopleSoft adapter send artifacts"
 description: Create the send port, send the transport properties, and update Max Concurrent Calls to send messages to PeopleSoft using the PeopleSoft Enterprise adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/19/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

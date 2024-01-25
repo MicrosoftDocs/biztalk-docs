@@ -3,7 +3,7 @@ description: "Learn more about: Configure the connection URI for the SQL adapter
 title: "Configure the connection URI for the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

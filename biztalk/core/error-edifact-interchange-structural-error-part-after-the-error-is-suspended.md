@@ -3,7 +3,7 @@ description: "Learn more about: The interchange had structural error. The part a
 title: "The interchange had structural error. The part after the error is being suspended"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

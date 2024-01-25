@@ -3,7 +3,7 @@ description: "Learn more about: Best Practices for Managing Windows Groups and U
 title: "Best Practices for Managing Windows Groups and User Accounts"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

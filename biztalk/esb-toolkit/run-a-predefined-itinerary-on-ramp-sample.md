@@ -3,7 +3,7 @@ description: "Learn more about: Run a Predefined Itinerary On-Ramp Sample"
 title: "Run a Predefined Itinerary On-Ramp Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

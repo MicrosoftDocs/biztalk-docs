@@ -3,7 +3,7 @@ description: "Learn about the requirements for Single Sign-On (SSO) in Microsoft
 title: "Single Sign-On requirements for BizTalk Server"
 ms.custom: ""
 ms.date: "04/16/2021"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

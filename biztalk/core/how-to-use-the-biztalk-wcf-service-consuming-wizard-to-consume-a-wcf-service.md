@@ -3,7 +3,7 @@ description: "Learn more about: How to Use the BizTalk WCF Service Consuming Wiz
 title: "How to Use the BizTalk WCF Service Consuming Wizard to Consume a WCF Service"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

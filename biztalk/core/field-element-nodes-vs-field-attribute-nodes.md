@@ -3,7 +3,7 @@ description: "Learn more about: Field Element Nodes vs. Field Attribute Nodes"
 title: "Field Element Nodes vs. Field Attribute Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

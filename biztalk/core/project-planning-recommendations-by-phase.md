@@ -3,7 +3,7 @@ description: "Learn more about: Project Planning Recommendations by Phase"
 title: "Project Planning Recommendations by Phase"
 ms.custom: ""
 ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
+ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
