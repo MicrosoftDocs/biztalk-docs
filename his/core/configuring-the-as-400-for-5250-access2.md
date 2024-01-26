@@ -49,6 +49,7 @@ To configure these parameters, you must be logged on with administrative privile
 
 ## Guidelines for an IBM i server that doesn't have PC support
 
+
 You can connect to an IBM i server for 5250 emulation even if the IBM i server doesn't have PC support. For this task, you must create the mode QPCSUPP on the IBM i, along with other resources that would have been created by PC support. A recommended way to do this is to create the QPCSUPP mode, create the QWCPCSUP class, and add the class QWCPCSUP to the system QCMN. For details about how to create these resources, see the online i Series documentation for the related commands: **crtmodd**, **crtcls**, and **addrtge**.
 
 ## Change session limits with a single mode name  
