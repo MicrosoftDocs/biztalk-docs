@@ -12,7 +12,7 @@ ms.date: 11/30/2017
 
 The HIS Migration Tool assists with migrating to HIS 2016 from earlier versions of HIS as well as assisting with migrating the configuration from an existing HIS 2016 installation to another server. The migration tool will harvest the configuration information in an existing HIS installation and allow that information to be applied to a new installation of HIS 2016. The configuration information that is harvested includes HIS Services, Registry Entries, config files and SNA Gateway Configuration information.
 
-- [Download the Host Integration Migration Tool](https://www.microsoft.com/download/details.aspx?id=54950) (HisMigration.exe).
+- [Download the Host Integration Migration Tool](https://www.microsoft.com/en-us/download/details.aspx?id=105765) (HisMigration.exe).
 
 ## Tool Syntax
 
