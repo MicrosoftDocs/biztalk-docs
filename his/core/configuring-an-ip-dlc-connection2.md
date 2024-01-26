@@ -2,7 +2,7 @@
 description: "Learn more about: Configuring an IP-DLC Connection"
 title: "Configuring an IP-DLC Connection2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "01/26/2024"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ As with other connections, configuration requires setting parameters on the **Co
 |Incoming calls|Connection is incoming.|
 |Both directions|Connection can be both incoming and outgoing.|
 |Remote end|Specifies which system is the remote end.|
-|Host system|Selecting this option signifies that the connection will be used for Dependent LU Server (DLUS) traffic and may have dependent LUs. You cannot associate independent APPC LUs with an IP-DLC connection remote end type of host system.<br /><br /> For more information about how to configure dependent APPC LUs when using IP-DLC connections, refer to the following KB Article:  [939193](https://support.microsoft.com/default.aspx?scid=kb;EN-US;939193) How to set up the connection and the logical units for an APPC application when you use the IP-DLC link service in Host Integration Server 2006 together with dependent APPC logical units.|
+|Host system|Selecting this option signifies that the connection will be used for Dependent LU Server (DLUS) traffic and may have dependent LUs. You cannot associate independent APPC LUs with an IP-DLC connection remote end type of host system.<br /><br /> For more information about how to configure dependent APPC LUs when using IP-DLC connections, refer to the following document:  [Configuring the IP-DLC Link Service for IBM Enterprise Extender](https://www.microsoft.com/download/details.aspx?id=17441).|
 |Peer system|Selecting this option signifies that the connection will be used for independent APPC LU sessions. You cannot associate dependent 3270 LUs with an IP-DLC connection remote end type of peer system. Because peer system IP-DLC connections do not support DLUS traffic, selecting this option will disable all controls on the **Address** page and the IP-DLC page (shown later in this topic). Only one peer connection can be associated with an IP-DLC link service.<br /><br /> Note: Selecting Peer system automatically sets Activation to **On Server Startup** and Allowed direction to **Both**.|
 
  **Address Page**

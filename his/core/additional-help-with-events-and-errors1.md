@@ -31,9 +31,9 @@ We provide troubleshooting information about specific product event and error me
   
 4.  Double-click the event of interest.  
   
-5.  Under **Description**, look for **For more information, see Help and Support Center at https://go.microsoft.com/fwlink/events.asp**, and then click the link.  
+5.  Under **Description**, check whether you can investigate further.  
   
-6.  In the **Event Viewer** dialog box, click **Yes**.  
+6.  In the **Event Viewer** dialog box, select **Yes**.  
   
 7.  When the results appear, select the message text that matches the message you received. Any relevant Knowledge Base articles are also available on the page.  
   
@@ -47,14 +47,14 @@ We provide troubleshooting information about specific product event and error me
   
 4.  Double-click an event.  
   
-5.  Under the Description text box, click https://go.microsoft.com/fwlink/events.asp.  
+5.  Under the Description text box, see if you can investigate further.  
   
 6.  In the **Event Viewer** dialog box, click **Yes**.  
   
     > [!NOTE]
-    >  Clicking **Yes** allows your computer to send information across the Internet.  
+    > To let your computer send information across the Internet, select **Yes**.  
   
     > [!NOTE]
-    >  The **Help and Support Center** dialog box displays the event ID event source, detailed explanation, and recommended actions.  
+    >  The **Help and Support Center** dialog box typically displays the event ID event source, detailed explanation, and recommended actions.  
   
 The following table lists the event and error ID numbers that had additional information available on the Web at the time [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] was released. We recommend that you check the Web site for the additional messages that have been added since product release.

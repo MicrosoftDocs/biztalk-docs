@@ -2,7 +2,7 @@
 description: "Learn more about: LUA LU Properties: General"
 title: "LUA LU Properties: General2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "01/26/2024"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ f1_keywords:
 # LUA LU Properties: General
 After assigning or viewing an LUA LU, in the **LUA LU Properties** box, supply information according to the following list.  
   
- **LU Number (for LUs on 802.2, SDLC, or X.25)**  
+ **LU Number (for LUs on IP-SDLC)**  
  Type the LU Number.  
   
  **LU Name**  
