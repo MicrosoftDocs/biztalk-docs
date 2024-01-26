@@ -1,15 +1,15 @@
 ---
 description: "Learn more about: Client to Host Integration Server Problems"
-title: "Client to Host Integration Server Problems2"
+title: "Client to Host Integration Server Problems"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "01/26/2024"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
 # Client to Host Integration Server Problems
-When you are troubleshooting an issue between the workstation and the HIS server computer, the first step is to verify that the client workstation computer can connect to other network resources on the Windows 2008 Server that has Host Integration Server installed. If you cannot map a network drive at the workstation, then you should troubleshoot this problem as a workstation to Windows 2008 Server issue.  
+When you are troubleshooting an issue between a client and the HIS server computer, the first step is to verify that the client workstation  can connect to other network resources on the Windows Server where the Host Integration Server is installed. If you cannot map a network drive at the workstation, then you should troubleshoot this problem as a workstation to Windows Server issue.
   
  If you can map a network drive at the workstation but cannot get an emulation session, you should determine what protocol is being used. Host Integration Server supports client connections over any of the network protocols. In addition, TCP/IP connections may be either named pipes or sockets. If you are unsure, run Host Integration Server Setup or Configuration at the client. If TCP/IP has been selected, the connection is sockets-based.  
   
@@ -19,4 +19,4 @@ When you are troubleshooting an issue between the workstation and the HIS server
   
  If TCP/IP is being used, the IP address should be entered in the "Primary Server" field rather than the NetBIOS name.  
   
- 5250 emulation utilizes LU type 6.2 on the IBM i. Often, an error message on the client will include return codes.
+ 5250 emulation utilizes LU type 6.2 on the IBM i server. Often, an error message on the client will include return codes.

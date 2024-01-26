@@ -1270,7 +1270,32 @@
       "source_path": "his/core/dls-status-problems2.md",
       "redirect_url": "/his/what-is-his",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/how-to-create-a-3270-downstream-lu2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/how-to-configure-a-3270-downstream-lu2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/connection-initialization-sequence1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/connection-initialization-overview1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/connection-initialization-details2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
     }
-    
+  
   ]
 }

@@ -2,7 +2,7 @@
 description: "Learn more about: TN5250 Administration"
 title: "TN5250 Administration2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "01/26/2024"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ The local LU, remote LU, and mode must match the configuration information in [!
   
  To enable an APPC session with the IBM i, the user ID and password must be provided for conversation security. Contact your IBM i administrator for the correct information.  
   
- The TN5250 requires TN5250/AS400 definition terminal names to allow TN5250 service to accept client requests from client computers emulating those types of terminals.  
+ The TN5250 requires TN5250/IBM i definition terminal names to allow TN5250 service to accept client requests from client computers emulating those types of terminals.  
   
 ### To set up Host Integration Server for TN5250 access  
   

@@ -2,7 +2,7 @@
 description: "Learn more about: Secure Deployment of the IP-DLC Link Service"
 title: "Secure Deployment of the IP-DLC Link Service2"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "01/26/2024"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.topic: "article"
 # Secure Deployment of the IP-DLC Link Service
 The IP-DLC link service takes advantage of the entire [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] secure deployment feature set, especially the following:  
   
--   A typical IP-DLC link service deployment scenario may use Internet Protocol security (IPsec), a firewall, or a virtual private network (VPN) as a security barrier between the Host Integration Server computer and the remote node. (A VPN is advisable if the HPR/IP link spans an insecure IP network.)  
+-   A typical IP-DLC link service deployment scenario may use Internet Protocol security (IPsec), a firewall, a virtual private network (VPN) or an Azure ExpressRoute circuit as a security barrier between the Host Integration Server computer and the remote node. (An Azure ExpressRoute circuit or a VPN are advisable if the HPR/IP link spans a potential insecure IP network.)
   
 -   Incoming frames from IP addresses that are not already defined in Host Integration Server are rejected. This isolates the main SNA node service from such attack.  
   
