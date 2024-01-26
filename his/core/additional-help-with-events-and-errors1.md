@@ -52,7 +52,7 @@ We provide troubleshooting information about specific product event and error me
 6.  In the **Event Viewer** dialog box, click **Yes**.  
   
     > [!NOTE]
-    > To send information across the Internet, select **Yes** allows your computer.  
+    > To let your computer send information across the Internet, select **Yes**.  
   
     > [!NOTE]
     >  The **Help and Support Center** dialog box typically displays the event ID event source, detailed explanation, and recommended actions.  
