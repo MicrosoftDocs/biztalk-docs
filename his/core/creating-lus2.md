@@ -8,7 +8,7 @@ ms.date: 11/30/2017
 
 # Creating logical units (LUs)
 
-After you configure the connection, you can create the 3270 LUs. The LUs can be display (terminal emulation) LUs, printer LUs, application LUs (LUAs), or downstream LUs.  
+After you configure the connection, you can create the 3270 LUs. The LUs can be display (terminal emulation) LUs, printer LUs, or application LUs (LUAs).
 
 You can create LUs one at a time or in a consecutively numbered range. When you create a range of LUs, all the LUs are given the same properties. You can modify individual LUs after creating them.  
 
@@ -17,11 +17,15 @@ You can create LUs one at a time or in a consecutively numbered range. When you 
 ## In This Section  
 
 [Create a 3270 Display LU](how-to-create-a-3270-display-lu1.md)
+
 [Create a 3270 Printer LU](how-to-create-a-3270-printer-lu1.md)
+
 [Create a 3270 Application LU (LUA)](how-to-create-a-3270-application-lu-lua-2.md)
-[Create a 3270 Downstream LU](how-to-create-a-3270-downstream-lu2.md)
+
 [Create a Local APPC LU](how-to-create-a-local-appc-lu1.md)
+
 [Create a Remote APPC LU](how-to-create-a-remote-appc-lu2.md)
+
   
 ## See also
 

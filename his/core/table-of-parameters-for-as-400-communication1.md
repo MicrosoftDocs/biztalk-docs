@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: Table of Parameters for IBM i Communication"
-title: "Table of Parameters for AS-400 Communication1"
+title: "Table of Parameters for IBM i Communication"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.service: host-integration-server
@@ -9,7 +9,7 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Table of Parameters for IBM i Communication
-The following table summarizes details about configuring [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] for the IBM i environment. In addition, for an X.25 connection using permanent virtual circuit (PVC), specify the PVC Alias.  
+The following table summarizes details about configuring [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] for the IBM i environment.  
   
 |SNA<br /><br /> Server<br /><br /> element|Parameter<br /><br /> name in<br /><br /> Host Integration Server|Instructions for configuring<br /><br /> for the IBM i environment|  
 |--------------------------------|-------------------------------------------------------|------------------------------------------------------------------|  
