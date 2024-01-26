@@ -14,7 +14,7 @@ The i Series administrator might allow configurations to be created automaticall
   
 > [!NOTE]
 >
-> If the IBM i  administrator has allowed configurations to be created automatically in response
+> If the IBM i administrator allowed automatically creating configurations in response
 > to incoming requests, you don't need to specify the parameters listed in this section on the i Series.
 
 ## Prerequisites
