@@ -1,7 +1,7 @@
 ---
 title: Choosing Server-to-Host Connections
 description: Learn more about choosing server-to-host connections.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/30/2017
 ---

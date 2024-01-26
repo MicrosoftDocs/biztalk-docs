@@ -3,7 +3,7 @@ title: "Data Integration"
 description: Get started with data integration, including architecting data client and DRDA service solutions, configuring applications using different data providers, manage your data clients and DRDA, authenticate and encrypt connections to DB2, Host Files, Informix, and DRDA, troubleshooting and errors, and ODBC and OLEDB programming references for Host Integration Server (HIS)
 ms.custom: ""
 ms.date: 01/04/2018
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.topic: "article"
 ---
 

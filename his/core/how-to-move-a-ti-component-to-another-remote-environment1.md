@@ -3,7 +3,7 @@ description: "Learn more about: How to Move a TI Component to Another Remote Env
 title: "How to Move a TI Component to Another Remote Environment1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

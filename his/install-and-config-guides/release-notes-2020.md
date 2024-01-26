@@ -3,7 +3,7 @@ description: "Learn about the most important issues in Microsoft Host Integratio
 title: "Release Notes for Host Integration Server (HIS) 2020| Microsoft Docs"
 ms.custom: ""
 ms.date: "04/16/2021"
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

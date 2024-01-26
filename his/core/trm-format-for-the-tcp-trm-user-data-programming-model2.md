@@ -3,7 +3,7 @@ description: "Learn more about: TRM Format for the TCP TRM User Data Programming
 title: "TRM Format for the TCP TRM User Data Programming Model2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

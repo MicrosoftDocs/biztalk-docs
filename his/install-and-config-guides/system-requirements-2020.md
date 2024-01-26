@@ -3,7 +3,7 @@ description: "Learn more about: System Requirements for Host Integration Server 
 title: "Host Integration Server 2020 system requirements"
 ms.custom: ""
 ms.date: "5/5/2020"
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

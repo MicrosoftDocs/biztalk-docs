@@ -3,7 +3,7 @@ description: "Learn more about: How to Execute Commands in the Host File System"
 title: "How to Execute Commands in the Host File System2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

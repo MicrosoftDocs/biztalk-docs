@@ -3,7 +3,7 @@ description: "Learn more about: Display the Contents of a Configuration File"
 title: "Display the Contents of a Configuration File1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

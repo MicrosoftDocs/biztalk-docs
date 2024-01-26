@@ -3,7 +3,7 @@ description: "Learn more about: Accessibility for People with Disabilities"
 title: "Accessibility for People with Disabilities"
 ms.custom: ""
 ms.date: 10/24/2016
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

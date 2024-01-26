@@ -3,7 +3,7 @@ description: "Learn more about: Protect TI from Unauthorized Mainframe or IBM i 
 title: "Protect TI from Unauthorized Mainframe or AS-400 Access1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

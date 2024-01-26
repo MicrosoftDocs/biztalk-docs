@@ -3,7 +3,7 @@ description: "Learn more about: MC_TEST_RTS_AND_POST"
 title: "MC_TEST_RTS_AND_POST1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

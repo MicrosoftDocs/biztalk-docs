@@ -3,7 +3,7 @@ description: "Learn more about: What's New in HIS 2020"
 title: "What's New in HIS 2020"
 ms.custom: ""
 ms.date: 5/4/2020
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

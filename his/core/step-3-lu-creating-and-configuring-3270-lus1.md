@@ -3,7 +3,7 @@ description: "Learn more about: Step 3 (LU) Creating and Configuring 3270 LUs"
 title: "Step 3 (LU) Creating and Configuring 3270 LUs1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

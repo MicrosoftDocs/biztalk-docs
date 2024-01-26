@@ -3,7 +3,7 @@ description: "Learn more about: Web-to-Host Load Balancing"
 title: "Web-to-Host Load Balancing1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

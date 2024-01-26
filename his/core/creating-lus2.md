@@ -1,7 +1,7 @@
 ---
 title: Creating logical units (LUs)
 description: Learn about creating logical units (LUs)
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/30/2017
 ---

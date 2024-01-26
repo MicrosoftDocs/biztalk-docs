@@ -3,7 +3,7 @@ description: "Learn more about: Request Reject (Category X&#39;08&#39;)"
 title: "Request Reject (Category X&#39;08&#39;)1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

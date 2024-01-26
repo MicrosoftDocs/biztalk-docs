@@ -3,7 +3,7 @@ title: "Install and configure Host Integration Server"
 description: Get started on installing and configuring Host Integration Server
 ms.custom: ""
 ms.date: 05/28/2020
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

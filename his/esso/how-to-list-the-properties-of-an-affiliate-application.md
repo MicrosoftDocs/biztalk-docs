@@ -3,7 +3,7 @@ description: "Learn more about: How to List the Properties of an Affiliate Appli
 title: "How to List the Properties of an Affiliate Application"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

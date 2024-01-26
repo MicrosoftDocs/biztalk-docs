@@ -3,7 +3,7 @@ description: "Learn how to use Transaction Integrator (TI) in a non Distributed 
 title: "TI in a Non-DPL Environment3"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

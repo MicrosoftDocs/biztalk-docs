@@ -3,7 +3,7 @@ description: "Learn more about: How to Assign a TI Component to a Remote Environ
 title: "Assign a TI Component to a Remote Environment"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

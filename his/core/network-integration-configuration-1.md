@@ -3,7 +3,7 @@ description: "Learn about configuring Network Integration by creating a successf
 title: "Configure network integration"
 ms.custom: ""
 ms.date: "01/03/2018"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

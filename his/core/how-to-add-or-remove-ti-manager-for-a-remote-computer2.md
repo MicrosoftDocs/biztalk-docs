@@ -3,7 +3,7 @@ description: "Learn more about: How to Add or Remove TI Manager for a Remote Com
 title: "How to Add or Remove TI Manager for a Remote Computer2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: Specify the Subdomain Configuration File"
 title: "Specify the Subdomain Configuration File2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

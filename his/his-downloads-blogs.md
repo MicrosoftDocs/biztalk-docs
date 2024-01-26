@@ -1,7 +1,7 @@
 ---
 title: Popular downloads
 description: Evaluation edition, HIS Designers, SDKs, migration tool, client installation packages, and whitepapers for HIS 2020.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 12/15/2023
 ---

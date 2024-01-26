@@ -1,7 +1,7 @@
 ---
 title: Connections for IBM i
 description: Learn more about connections for IBM i.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/28/2023
 ---

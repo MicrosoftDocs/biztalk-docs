@@ -3,7 +3,7 @@ description: "Learn more about: WMI with Host Integration Server Programming Con
 title: "WMI with Host Integration Server Programming Considerations1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

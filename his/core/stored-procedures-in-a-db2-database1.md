@@ -3,7 +3,7 @@ description: "Learn more about: Stored Procedures in a DB2 Database"
 title: "Stored Procedures in a DB2 Database"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

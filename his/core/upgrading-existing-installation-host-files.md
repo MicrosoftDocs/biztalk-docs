@@ -3,7 +3,7 @@ description: "Learn more about: Upgrading Existing Installation (Host Files)"
 title: "Upgrading Existing Installation (Host Files)"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

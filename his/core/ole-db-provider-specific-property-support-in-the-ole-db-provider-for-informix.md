@@ -3,7 +3,7 @@ description: "Learn more about: OLE DB Provider-Specific Property Support in the
 title: "OLE DB Provider-Specific Property Support in the OLE DB Provider for Informix"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

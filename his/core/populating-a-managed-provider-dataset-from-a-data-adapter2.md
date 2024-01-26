@@ -3,7 +3,7 @@ description: "Learn more about: Populating a Managed Provider Dataset from a Dat
 title: "Populate a Managed Provider Dataset from a Data Adapter"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

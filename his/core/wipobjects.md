@@ -3,7 +3,7 @@ description: "Learn about the Objects node that is used to identify the Transact
 title: "WIPObjects node"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

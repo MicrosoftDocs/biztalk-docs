@@ -228,7 +228,7 @@
 ####### [Configure Host Print Service for an IBM i Computer](how-to-configure-host-print-service-for-an-as-400-computer1.md)
 ####### [Custom Host Code Page](custom-host-code-page2.md)
 ####### [Formatting Print Jobs](formatting-print-jobs1.md)
-######## [Transparency](transparency2.md)
+####### [Transparency](transparency2.md)
 ###### [Printer Definition Files](printer-definition-files2.md)
 ####### [Creating the Source Text File](creating-the-source-text-file1.md)
 ######## [Macro Definition Section](macro-definition-section1.md)

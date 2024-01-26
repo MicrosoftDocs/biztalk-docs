@@ -3,7 +3,7 @@ title: "BizTalk Adapter for Host Files Configuration"
 description: Create the metadata assembly, send port, receive port and location, schema, and application to use the BizTalk Adapter for Host Files in Host Integration Server (HIS)
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
