@@ -1,7 +1,7 @@
 ---
 title: Host Integration Server Core Documentation
 description: Review core documentation about Host Integration Server.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 01/04/2018
 ---

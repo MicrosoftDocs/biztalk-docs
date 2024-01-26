@@ -3,7 +3,7 @@ description: "Learn more about: Identifying Alerts from Local Logs Only"
 title: "Identifying Alerts from Local Logs Only1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

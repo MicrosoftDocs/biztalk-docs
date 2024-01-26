@@ -3,7 +3,7 @@ description: "Learn more about: Sense Data Specific to LU 6.2"
 title: "Sense Data Specific to LU 6.21"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

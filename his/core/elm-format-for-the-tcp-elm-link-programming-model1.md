@@ -3,7 +3,7 @@ description: "Learn more about: ELM Format for the TCP ELM Link Programming Mode
 title: "ELM Format for the TCP ELM Link Programming Model1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

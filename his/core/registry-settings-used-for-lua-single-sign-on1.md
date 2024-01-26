@@ -3,7 +3,7 @@ description: "Learn more about: Registry Settings Used for LUA Single Sign-On"
 title: "Registry Settings Used for LUA Single Sign-On1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

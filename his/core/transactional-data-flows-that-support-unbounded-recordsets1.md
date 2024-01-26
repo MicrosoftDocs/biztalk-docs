@@ -3,7 +3,7 @@ description: "Learn more about: Transactional Data Flows That Support Unbounded 
 title: "Transactional Data Flows That Support Unbounded Recordsets1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

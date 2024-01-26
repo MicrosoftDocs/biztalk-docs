@@ -1,14 +1,13 @@
 ---
 description: "Learn more about: Connection Status"
 title: "Connection Status1"
-ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
+ms.service: host-integration-server
 ms.topic: "article"
 ---
+
 # Connection Status
+
 The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Manager offers six different messages that indicate the status of a connection:  
   
 - Active  
@@ -25,5 +24,5 @@ The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md
   
   To view a connection status, simply select the appropriate connection in the SNA Manager.  
   
-## See Also  
- [Host Integration Server Status](../core/host-integration-server-status1.md)
+## See Also
+[Host Integration Server Status](../core/host-integration-server-status1.md)

@@ -3,7 +3,7 @@ description: "Learn more about: Data Conversion Using the ODBC Driver for DB2"
 title: "Data Conversion using DB2 ODBC Driver"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

@@ -3,7 +3,7 @@ description: "Learn more about: How to Create a Send Port for the Host Applicati
 title: "How to Create a Send Port for the Host Application Adapter1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

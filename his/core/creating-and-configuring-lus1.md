@@ -1,7 +1,7 @@
 ---
 title: Create and configure logical units (LUs)
 description: Learn about creating and configuring logical units (LUs).
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: how-to
 ms.date: 11/30/2017
 ---

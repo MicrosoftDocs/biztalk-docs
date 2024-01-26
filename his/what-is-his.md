@@ -1,7 +1,7 @@
 ---
 title: What is HIS
 description: Learn how Host Integration Server (HIS) enables enterprise organizations to integrate existing IBM host systems, programs, messages and data with on-premises and Azure Cloud applications. 
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: overview
 ms.date: 11/24/2023
 ---

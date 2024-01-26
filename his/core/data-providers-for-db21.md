@@ -1,14 +1,13 @@
 ---
-description: "Learn more about: DB2 Data Providers"
 title: "Data Providers for DB2"
-ms.custom: ""
+description: "Learn more about: DB2 Data Providers"
 ms.date: "12/22/2023"
-ms.service: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
+ms.service: host-integration-server
 ms.topic: "article"
 ---
+
 # Data Providers for DB2
+
 ## Platform Compatibility
 
 ### Code Page Conversions

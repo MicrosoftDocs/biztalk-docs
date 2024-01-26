@@ -1,14 +1,13 @@
 ---
 description: "Learn more about: SNA Manager Help"
 title: "SNA Manager Help1"
-ms.custom: ""
 ms.date: "12/16/2023"
-ms.prod: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
+ms.service: host-integration-server
 ms.topic: "article"
 ---
+
 # SNA Manager Help
+
 Use these topics to navigate through the SNA Manager user interface.  
   
 ## In This Section  

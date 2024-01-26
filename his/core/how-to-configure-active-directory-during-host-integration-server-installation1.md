@@ -3,7 +3,7 @@ description: "Learn more about: How to Configure Active Directory During Host In
 title: "How to Configure Active Directory During Host Integration Server Installation1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

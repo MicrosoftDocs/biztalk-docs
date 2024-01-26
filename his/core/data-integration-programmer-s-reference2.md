@@ -3,7 +3,7 @@ description: "Learn more about: Data Integration Programmer's Reference"
 title: "Data Integration Programmer's Reference"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

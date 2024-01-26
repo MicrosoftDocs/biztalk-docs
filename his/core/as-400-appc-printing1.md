@@ -1,7 +1,7 @@
 ---
 title: APPC printing for IBM i 
 description: Learn more about APPC printing for IBM i.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: how-to
 ms.date: 11/28/2023
 ---
@@ -101,4 +101,3 @@ The following table shows the resulting print output from the data with ABCD on 
 ## See also  
 
 [Host Print Service (Operations)](host-print-service-operations-2.md)
-

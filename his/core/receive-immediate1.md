@@ -3,7 +3,7 @@ title: "RECEIVE_IMMEDIATE1"
 description: See the syntax for the RECEIVE_IMMEDIATE verb from the partner transaction program in Host Integration Server.
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

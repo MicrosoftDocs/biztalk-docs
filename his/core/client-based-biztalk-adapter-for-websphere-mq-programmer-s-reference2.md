@@ -3,7 +3,7 @@ description: "Learn more about: Client-Based BizTalk Adapter for WebSphere MQ Pr
 title: "Client-Based BizTalk Adapter for WebSphere MQ Programmer&#39;s Reference2"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

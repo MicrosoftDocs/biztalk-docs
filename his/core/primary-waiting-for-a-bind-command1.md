@@ -3,7 +3,7 @@ description: "Learn more about: Primary Waiting for a BIND Command"
 title: "Primary Waiting for a BIND Command1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

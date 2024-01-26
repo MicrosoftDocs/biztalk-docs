@@ -3,7 +3,7 @@ description: "Learn more about: System Requirements"
 title: "Host Integration Server 2016 system requirements"
 ms.custom: ""
 ms.date: 02/10/2020
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

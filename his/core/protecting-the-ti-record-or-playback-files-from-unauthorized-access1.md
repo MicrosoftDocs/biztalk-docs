@@ -3,7 +3,7 @@ description: "Learn more about: Protecting the TI Record or Playback Files from 
 title: "Protect the TI Record or Playback Files from Unauthorized Access"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

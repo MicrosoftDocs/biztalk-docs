@@ -1,7 +1,7 @@
 ---
 title: Host configuration
 description: Learn more about host configuration.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: conceptual
 ms.date: 11/30/2017
 ---

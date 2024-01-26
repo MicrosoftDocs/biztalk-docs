@@ -1,7 +1,7 @@
 ---
 title: Designing Metadata Artifacts for 3270 Applications
 description: Learn how to design metadata artifacts for 3270 applications with the 3270 Design Tool.
-ms.prod: host-integration-server
+ms.service: host-integration-server
 ms.topic: how-to
 ms.date: 11/06/2023
 

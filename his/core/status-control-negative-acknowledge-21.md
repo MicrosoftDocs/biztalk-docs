@@ -3,7 +3,7 @@ description: "Learn more about: Status-Control(...) Negative-Acknowledge-2"
 title: "Status-Control(...) Negative-Acknowledge-21"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

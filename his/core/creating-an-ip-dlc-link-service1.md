@@ -3,7 +3,7 @@ description: "Learn more about: Creating an IP-DLC Link Service"
 title: "Creating an IP-DLC Link Service1"
 ms.custom: ""
 ms.date: "11/30/2017"
-ms.prod: "host-integration-server"
+ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"

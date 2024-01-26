@@ -1,14 +1,13 @@
 ---
 description: "Learn more about: ALLOCATE"
 title: "ALLOCATE"
-ms.custom: ""
 ms.date: "12/15/2023"
-ms.prod: "host-integration-server"
-ms.reviewer: ""
-ms.suite: ""
+ms.service: host-integration-server
 ms.topic: "article"
 ---
+
 # ALLOCATE
+
 The `ALLOCATE` verb is issued by the invoking transaction program (TP). It allocates a session between the local logical unit (LU) and partner LU and (in conjunction with [RECEIVE_ALLOCATE](../core/receive-allocate1.md)) establishes a conversation between the invoking TP and the invoked TP. After this verb executes successfully, APPC generates a conversation identifier (**conv_id**). The **conv_id** is a required parameter for all other APPC conversation verbs.  
   
  The following structure describes the verb control block used by the **ALLOCATE** verb.  
