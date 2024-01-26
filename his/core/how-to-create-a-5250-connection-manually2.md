@@ -15,7 +15,7 @@ The following procedure details creating a 5250 connection manually.
   
 1.  In SNA Manager, expand the server on which to create the connection, and then expand **SNA Service**.  
   
-2.  Right-click **Connections**, point to **New**, and then click the type of connection (IP-DLC) to be created.
+2.  Open the **Connections** shortcut menu, select **New**, and then select the connection type (IP-DLC) to create.
   
      **Connection Properties** lets you specify which link service to use for the connection, as well as the name of the connection and additional information. The choices you make depend on the purpose of the connection.  
   
