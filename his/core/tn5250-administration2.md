@@ -11,7 +11,7 @@ ms.topic: "article"
 # TN5250 Administration
 The local LU, remote LU, and mode must match the configuration information in [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
   
- To enable an APPC session with the IBM i, the user ID and password must be provided for conversation security. Contact your IBM i administrator for the correct information.  
+To enable an APPC session with the IBM i, you must provide the user ID and password for conversation security. For the correct information, Contact your IBM i administrator.  
   
  The TN5250 requires TN5250/IBM i definition terminal names to allow TN5250 service to accept client requests from client computers emulating those types of terminals.  
   
