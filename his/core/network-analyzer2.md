@@ -11,7 +11,7 @@ ms.topic: "article"
 # Network Analyzer
 A network analyzer, is an important tool for checking the load and throughput on the network as well as verifying that there are no mismatched configurations in the test environment.  
   
- You can use a network analyzer to verify the transaction counts by monitoring the IP-DLC traffic to and from the computer being tested. You can filter traffic to count only incoming I-frames of a certain size and type. Using filtering, you can determine the number of accepted frames and ascertain the number of responses from the receiver servers.  
+You can use a network analyzer to confirm the transaction counts by monitoring the IP-DLC traffic to and from the computer being tested. You can filter traffic to count only incoming I-frames of a certain size and type. Using filtering, you can determine the number of accepted frames and ascertain the number of responses from the receiver servers.
   
  Another important measurement that uses a network analyzer is following the network bandwidth usage. Ethernet, in particular, slows down drastically when usage rates grow beyond 40–50 percent. Finally, the network analyzer can be used to confirm proper tuning of local area network (LAN) protocols.  
 
