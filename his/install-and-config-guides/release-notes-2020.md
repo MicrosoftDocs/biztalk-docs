@@ -2,7 +2,7 @@
 description: "Learn about the most important issues in Microsoft Host Integration Server (HIS) 2020."
 title: "Release Notes for Host Integration Server (HIS) 2020| Microsoft Docs"
 ms.custom: ""
-ms.date: "04/16/2021"
+ms.date: "01/25/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -19,7 +19,7 @@ A single Microsoft Installer (MSI) file includes the server software. You can do
   
 ## Upgrade  
 
-This release allows an in-place upgrade of HIS 2016. For versions older than HIS 2016, there's a [HIS migration tool](https://www.microsoft.com/download/details.aspx?id=54950) that can help upgrade from previous versionsS. For more information, see the [HIS migration tool](../install-and-config-guides/his-migration-tool-2020.md).
+This release allows an in-place upgrade of HIS 2016. For versions older than HIS 2016, there's a [HIS migration tool](https://www.microsoft.com/en-us/download/details.aspx?id=105765) that can help upgrade from previous versionsS. For more information, see the [HIS migration tool](../install-and-config-guides/his-migration-tool-2020.md).
 
  After an in-place upgrade from HIS 2016 to HIS 2020, if the configuration tool is not allowed to open at the end of setup, the services may fail to start.   Many of the services depend on having the correct versions of the Visual C++ Runtime DLLs.  These are installed by the configuration tool when it first starts.  To fix this issue, simply launch the configuration tool from the Start menu.
   
@@ -33,7 +33,7 @@ The post-installation configuration is a set of simple dialogs that configure th
   
 ## 32-bit and 64-bit  
 
-You can't install HIS 2020 Server on a 32-bit x86 operating system. The installation only supports 64-bit x64 operating systems. The server installs side-by-side support for most 32-bit applications. For example, the installation supports running a 32-bit APPC application or 32-bit emulator.   
+You can't install HIS 2020 Server on a 32-bit x86 operating system. The installation only supports 64-bit x64 operating systems. The server installs side-by-side support for most 32-bit applications. For example, the installation supports running a 32-bit APPC application or 32-bit emulator.
   
 ## Client  
 
@@ -63,8 +63,8 @@ HIS 2020 includes technology for telemetry and error reporting. The HIS product 
   
 - Data Integration:  
   - DRDA Service monitors the connections established by reporting the connection instance by DRDA client class and version.  
-  - DRDA Service monitors the exceptions by reporting the instance based on SQLSTATE, SQLCODE, and reason code.    
-  - DRDA Clients for DB2 and Informix monitor the connections established by reporting the connection instance by DRDA server class and version, data provider name and data consumer process name.   
+  - DRDA Service monitors the exceptions by reporting the instance based on SQLSTATE, SQLCODE, and reason code.
+  - DRDA Clients for DB2 and Informix monitor the connections established by reporting the connection instance by DRDA server class and version, data provider name and data consumer process name.
   - DRDA Clients for DB2 and Informix monitors the exceptions by reporting the instance based on SQLSTATE, SQLCODE, and reason code.  
   
 ## Documentation  

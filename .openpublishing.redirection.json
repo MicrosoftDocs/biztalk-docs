@@ -477,157 +477,157 @@
     },
     {
       "source_path": "his/core/host-integration-server-2013-folder.md",
-      "redirect_url": "/his/core/host-integration-server-2020-folder",
+      "redirect_url": "/host-integration-server/core/host-integration-server-2020-folder",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/connection-methods2.md",
-      "redirect_url": "/his/core/deploying-host-integration-server2",
+      "redirect_url": "/host-integration-server/core/deploying-host-integration-server2",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/synchronous-data-link-control-sdlc-1.md",
-      "redirect_url": "/his/core/deploying-host-integration-server2",
+      "redirect_url": "/host-integration-server/core/deploying-host-integration-server2",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/channel2.md",
-      "redirect_url": "/his/core/deploying-host-integration-server2",
+      "redirect_url": "/host-integration-server/core/deploying-host-integration-server2",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/mainframe-connection-summary1.md",
-      "redirect_url": "/his/core/deploying-host-integration-server2",
+      "redirect_url": "/host-integration-server/core/deploying-host-integration-server2",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/as-400-connection-summary1.md",
-      "redirect_url": "/his/core/deploying-host-integration-server2",
+      "redirect_url": "/host-integration-server/core/deploying-host-integration-server2",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/downstream-connections-3270-2.md",
-      "redirect_url": "/his/core/understanding-connectivity1",
+      "redirect_url": "/host-integration-server/core/understanding-connectivity1",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/service-connection-point2.md",
-      "redirect_url": "/his/core/configuring-your-enterprise1",
+      "redirect_url": "/host-integration-server/core/configuring-your-enterprise1",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/how-to-configure-downstream-connections1.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/how-to-configure-downstream-connections2.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/deployment-strategies-downstream-connections-2.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/how-to-reorder-downstream-lus1.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/sample-host-definitions2.md",
-      "redirect_url": "/his/core/configuring-your-enterprise1",
+      "redirect_url": "/host-integration-server/core/configuring-your-enterprise1",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/token-ring-definition1.md",
-      "redirect_url": "/his/core/configuring-your-enterprise1",
+      "redirect_url": "/host-integration-server/core/configuring-your-enterprise1",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/sdlc-definition-for-switched-and-leased-lines-2.md",
-      "redirect_url": "/his/core/configuring-your-enterprise1",
+      "redirect_url": "/host-integration-server/core/configuring-your-enterprise1",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/x-25-definition2.md",
-      "redirect_url": "/his/core/configuring-your-enterprise1",
+      "redirect_url": "/host-integration-server/core/configuring-your-enterprise1",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/sdlc-connection-parameters2.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/x-25-connection-parameters2.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/sample-vtam-parameters-for-a-token-ring-connection2.md",
-      "redirect_url": "/his/core/host-configuration1",
+      "redirect_url": "/host-integration-server/core/host-configuration1",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/link-alerts-for-sdlc-and-token-ring2.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/link-alert-format-and-common-subvectors2.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/sdlc-failure-alerts2.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/sdlc-alert-local-logging1.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/token-ring-failure-alerts1.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/link-statistics2.md",
-      "redirect_url": "/his/core/network-management-with-netview1",
+      "redirect_url": "/host-integration-server/core/network-management-with-netview1",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/format-for-link-statistics1.md",
-      "redirect_url": "/his/core/network-management-with-netview1",
+      "redirect_url": "/host-integration-server/core/network-management-with-netview1",
       "redirect_document_id": false
     }
     ,
     {
       "source_path": "his/core/sdlc-link-statistics1.md",
-      "redirect_url": "/his/core/network-management-with-netview1",
+      "redirect_url": "/host-integration-server/core/network-management-with-netview1",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/token-ring-link-statistics2.md",
-      "redirect_url": "/his/core/network-management-with-netview1",
+      "redirect_url": "/host-integration-server/core/network-management-with-netview1",
       "redirect_document_id": false
     },
     {
       "source_path": "his/core/downstream-connections2.md",
-      "redirect_url": "/his/what-is-his",
+      "redirect_url": "/host-integration-server/what-is-his",
       "redirect_document_id": false
     }
     ,
