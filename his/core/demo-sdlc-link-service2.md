@@ -11,7 +11,8 @@ f1_keywords:
   - "SNA_Link_SDLC"
 ---
 # Demo SDLC Link Service
-Configure a demonstration SDLC link service. This service uses a script file to simulate an SDLC link service. The Demo SDLC link Service is only provided for testing purposes. SDLC is no longer supported.  
+
+Configure a demonstration SDLC link service. This service uses a script file to simulate an SDLC link service. The Demo SDLC link Service is provided only for testing purposes. SDLC is no longer supported.  
   
  **Title**  
  The default title is Demo SDLC Link Service #1. To change the default title, delete the title and enter a new title for this link service. You can use up to 40 characters for the title.  
