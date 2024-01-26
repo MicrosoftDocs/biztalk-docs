@@ -33,7 +33,7 @@ We provide troubleshooting information about specific product event and error me
   
 5.  Under **Description**, check whether you can investigate further.  
   
-6.  In the **Event Viewer** dialog box, click **Yes**.  
+6.  In the **Event Viewer** dialog box, select **Yes**.  
   
 7.  When the results appear, select the message text that matches the message you received. Any relevant Knowledge Base articles are also available on the page.  
   
