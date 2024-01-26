@@ -31,7 +31,7 @@ We provide troubleshooting information about specific product event and error me
   
 4.  Double-click the event of interest.  
   
-5.  Under **Description** see if you can investigate further.  
+5.  Under **Description**, check whether you can investigate further.  
   
 6.  In the **Event Viewer** dialog box, click **Yes**.  
   
