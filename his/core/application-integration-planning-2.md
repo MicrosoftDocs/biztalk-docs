@@ -10,7 +10,7 @@ ms.topic: "article"
 ---
 # Get started with application integration - HIS and Azure Logic Apps
 
-## [Design Tools](application-integration-3270designer-1)
+## [Design Tools](application-integration-3270designer-1.md)
 This section includes the tools available to create metadata artifacts of mainframe and midranges to work HIS and Azure Logic Apps.
 
 ## [Transaction Integrator Architecture](transaction-integrator-architecture1.md)  
