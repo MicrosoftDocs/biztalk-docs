@@ -1969,7 +1969,7 @@
 ###### [Connect a HIP Component to a Visual Basic Applications](how-to-connect-a-hip-component-to-a-visual-basic-applications2.md)
 ###### [Use a Persistent Connection with Host-Initiated Processing](how-to-use-a-persistent-connection-with-host-initiated-processing1.md)
 
-#### [Programmer reference](application-integration-programmer-s-reference2.md)
+#### [Programmer reference](application-integration-programmers-reference2.md)
 ##### [Data Types](data-types2.md)
 ###### [Supported TI Data Types](supported-ti-data-types2.md)
 ####### [Supported .NET Aggregate Data Types](supported-net-aggregate-data-types1.md)

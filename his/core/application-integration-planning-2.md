@@ -27,6 +27,6 @@ Read about common issues and resolutions, and using tracing, debugging, and even
 
 ## Developer resources
 
-[Programmer Guide](application-integration-programmer’s-guide2.md) describes the development tools, using type libraries, and creating or programming Windows-initiated processing (WIP) and Host-initiated processing (HIP) applications.
+[Programmer Guide](application-integration-programmers-guide2.md) describes the development tools, using type libraries, and creating or programming Windows-initiated processing (WIP) and Host-initiated processing (HIP) applications.
 
 [Programmer reference](application-integration-programmer-s-reference2.md) includes tips to handle different data types, working with automated and mainframe data, using COMTIContext, and working with request reply messages.
