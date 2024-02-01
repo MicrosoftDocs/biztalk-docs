@@ -1088,7 +1088,7 @@
     },
     {
       "source_path": "his/core/sna-trace-provider-wmi-programmer’s-reference1.md",
-      "redirect_url": "/his/core/sna-trace-provider-wmi-programmers-reference1.md",
+      "redirect_url": "/his/core/sna-trace-provider-wmi-programmers-reference1",
       "redirect_document_id": false
     },
     {
@@ -1298,6 +1298,548 @@
     },
     {
       "source_path": "his/core/sample-vtam-parameters-including-cpname1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    }
+    ,
+    {
+      "source_path": "his/core/snadis-drivers-programmer-s-reference2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    }
+    ,
+    {
+      "source_path": "his/core/base-dmod-and-snalink-entry-points2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snagetbuffer1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snagetelement1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snagetlinkname1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snagetversion1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snalinkdispatchproc2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snalinkinitialize2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snalinkterminate1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snalinkworkproc1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snareleasebuffer1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snareleaseelement1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snasendalert1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snasendmessage1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snadis-message-formats2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/open-link-1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/open-link-request1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/expanded-information-about-message-formats-for-open-link-request-with-sdlc1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/optional-second-element-only-used-by-x-25-svc-2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/open-link-response2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/close-link-1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/close-link-request1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/close-link-response2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/open-station-1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/open-station-request2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/open-station-oresponse1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/open-station-error-response1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/close-station-1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/close-station-request2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/close-station-response1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/request-open-station2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/station-contacted1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/outage2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/status-resource-snadis-1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/send-xid1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/dlc-data1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/configuration-entry-points2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snagetconfigvalue2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snagetsysteminfo1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/pcsinfo1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/setup-functions1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/integrated-link-service-configuration-functions2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/functions-exported-from-a-link-service-configuration-dll1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/commandlineadd2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/configurelinkservice1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/configurelinkserviceex1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/displayhelpinfo2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/removealllinkservices1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/removelinkservice1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/utility-functions-used-by-a-link-service-configuration-dll1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/addperfmoncounters1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/bcreateservice2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/bdeleteservice1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/bstopservice2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/checkforexistinglinkservice1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/converthexstringtodword2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/extractnextparameter2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/faddregistryentry2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/fcanweadministerremotebox1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/fconnectregistry1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/fdisconnectregistry1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/ffindandreplacestring2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/ffindstring1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/ffindstringinmultisz1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/fqueryregistryvalue2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/fregistrykeyexists2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/fremoveregistryentry1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/fremoveregistryvalue2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/fstringcompare2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/loadstringresource2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/parsenextfield2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/removeperfmoncounters1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/inf-based-setup-functions1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/createsnaregentry2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/createsnaservice1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/deletesnaservice2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/enterservicename1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/findnextavailableindex1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/findsnaproductservices1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/findsnaregentry1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/findsnaservice2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/grepuniqueserviceinfo1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/setupmessage1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/ioctl-commands2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x41-set-event-semaphore-handle2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x42-set-link-characteristics1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x43-set-v24-output-status2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x44-transmit-frame1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x45-abort-transmitter1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x46-abort-receiver1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x47-off-board-load1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x61-get-set-interface-record2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x62-get-v24-status1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x63-receive-frame2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/function-0x64-read-interface-record2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/sna-modem-api1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/modem-status1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snamodeminitialize2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snamodemaddlink1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snamodemdeletelink2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snamodemterminate1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/sna-perfmon-api2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/adaptercounter2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/adapterperfdata2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snainitlinkperfmon1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snagetlinkperfarea2.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/snagetperfvalues1.md",
+      "redirect_url": "/his/what-is-his",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "his/core/application-integration-programmer-s-reference2.md",
       "redirect_url": "/his/what-is-his",
       "redirect_document_id": false
     }
