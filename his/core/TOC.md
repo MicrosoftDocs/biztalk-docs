@@ -1977,7 +1977,7 @@
 ####### [Supported RPG Data Types](supported-rpg-data-types2.md)
 ####### [Supported RPG Keywords](supported-rpg-keywords2.md)
 ###### [Data Type Conversion](data-type-conversion1.md)
-####### [Converting Data Types from Automation to z/OS COBOL](converting-data-types-from-automation-to-os-390-cobol]2.md)
+####### [Converting Data Types from Automation to z/OS COBOL](converting-data-types-from-automation-to-os-390-cobol.md)
 ####### [Converting Data Types from z/OS COBOL to Automation](converting-data-types-from-os-390-cobol-to-automation2.md)
 ####### [Converting Data Types from Automation to RPG](converting-data-types-from-automation-to-rpg1.md)
 ####### [Converting Data Types from RPG to Automation](converting-data-types-from-rpg-to-automation1.md)
