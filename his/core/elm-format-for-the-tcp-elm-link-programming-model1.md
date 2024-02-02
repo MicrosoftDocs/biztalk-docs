@@ -2,7 +2,7 @@
 description: "Learn more about: ELM Format for the TCP ELM Link Programming Model"
 title: "ELM Format for the TCP ELM Link Programming Model1"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "02/02/2024"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -158,5 +158,6 @@ struct CLIENT_IN_DATA2 {
  For more information about the format of the TRM, see the TRM definition file at \<drive>:\Program Files\ Microsoft Host Integration Server\System\TIM\MicrosoftTRMDefs.tim. Use Visual Studio to view the file.  
   
 ## See Also  
- [ELM Format for the TCP ELM User Data Programming Model](../core/elm-format-for-the-tcp-elm-user-data-programming-model2.md)   
+ [ELM Format for the TCP ELM User Data Programming Model](../core/elm-format-for-the-tcp-elm-user-data-programming-model2.md)
+
  [Enhanced Listener CICS Administration](../core/enhanced-listener-cics-administration2.md)
