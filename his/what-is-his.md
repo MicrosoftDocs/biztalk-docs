@@ -58,11 +58,13 @@ For more information, see [Data Integration (Planning)](core/data-integration-pl
 
 ## Application Integration
 
-Transaction Integrator (TI) allows enterprise developers to call business rules in host mainframe (Customer Information Control System and Information Management System) and midrange (IBM i) programs using Visual Studio and the .NET Framework. TI is comprised of a Visual Studio plug-in designer, administration tool (TI Configuration Tool) and runtime components that integrate host applications with the .NET Framework. Enterprise developers can define .NET clients using an intuitive COBOL or RPG source code import wizard within the TI designer.
+HIS Transaction Integrator (TI) allows enterprise developers to call business rules in host mainframe (Customer Information Control System and Information Management System) and midrange (IBM i) programs using Visual Studio and the .NET Framework. TI is comprised of a Visual Studio plug-in designer, administration tool (TI Configuration Tool) and runtime components that integrate host applications with the .NET Framework. Enterprise developers can define .NET clients using an intuitive COBOL or RPG source code import wizard within the TI designer. Thet TI Designer Visual Studio plug-in also available as a stand-alone tool that allows customers to build mainframe and midranges metadata artifacts without installing Host Integration Server, called the HIS Designer for Logic Apps.
   
 HIS Transaction Integrator allows enterprise developers to integrate and extend host transaction programs.  
   
-Transaction Integrator for host-initiated processing allows a computer running Microsoft server software to function as a peer to IBM mainframe and midrange host systems, enabling host developers to access and update Microsoft server applications using familiar host programming models and communications infrastructure. BizTalk Adapter for Host Applications is based on TI technology, allowing enterprises to connect BizTalk Server solutions to existing mainframe (CICS and IMS) or midrange (IBM i) server programs. For more information, see [Application Integration (Planning)](core/application-integration-planning-2.md).  
+Transaction Integrator for host-initiated processing allows a computer running Microsoft server software to function as a peer to IBM mainframe and midrange host systems, enabling host developers to access and update Microsoft server applications using familiar host programming models and communications infrastructure. BizTalk Adapter for Host Applications is based on TI technology, allowing enterprises to connect BizTalk Server solutions to existing mainframe (CICS and IMS) or midrange (IBM i) server programs.
+
+Azure Logic Apps also provides mainframe and midranges integration capabilities using the core TI technologies. For more information, see [Application Integration (Planning)](core/application-integration-planning-2.md).  
 
 <a name="message"></a>
 
