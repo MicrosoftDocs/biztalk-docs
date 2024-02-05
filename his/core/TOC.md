@@ -1211,7 +1211,7 @@
 ######## [MsSna_LinkService_IpDlc.GetAllStaticIPs Method](mssna-linkservice-ipdlc-getallstaticips-method1.md)
 ######## [MsSna_LinkService_IpDlc.GetAllNetworkAdapters Method](mssna-linkservice-ipdlc-getallnetworkadapters-method1.md)
 ######## [MsSna_LinkService_IpDlc.GetNextAvailableOrdinal Method](mssna-linkservice-ipdlc-getnextavailableordinal-method2.md)
-##### [SNA Trace Provider WMI Programmer’s Reference](sna-trace-provider-wmi-programmer’s-reference1.md)
+##### [SNA Trace Provider WMI Programmer’s Reference](sna-trace-provider-wmi-programmers-reference1.md)
 ###### [WmiSnaTrace WMI Provider Classes](wmisnatrace-wmi-provider-classes2.md)
 ####### [MsHisTrace_Config Class](mshistrace-config-class2.md)
 ####### [MsHisTrace_Global Class](mshistrace-global-class2.md)
@@ -1936,7 +1936,7 @@
 #### [Use Variable Length Recordsets with Transaction Integrator](how-to-use-variable-length-recordsets-with-transaction-integrator2.md)
 #### [SSO with Encrypted Passwords](sso-with-encrypted-passwords2.md)
 
-### [Programmer Guide](application-integration-programmer’s-guide2.md)
+### [Programmer Guide](application-integration-programmers-guide2.md)
 #### [Development Tools](application-integration-development-tools2.md)
 ##### [Install Host Integration Server Designer](how-to-install-host-integration-server-designer2.md)
 ##### [Migration Considerations for Earlier Versions of Windows-Initiated Processing (WIP)](2a3a5d97-e269-4dc0-bca3-bf38a419f614.md)
