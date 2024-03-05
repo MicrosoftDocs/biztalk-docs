@@ -35,7 +35,7 @@ sections:
         answer: |
           Run the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] setup using an account that is a member of the local administrators group and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. 
           
-          Related link: [Minimum Security Rights](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx)
+          Related link: [Minimum Security Rights](/biztalk/core/minimum-security-user-rights)
           
       - question: |
           How do I get started using the adapter?  
