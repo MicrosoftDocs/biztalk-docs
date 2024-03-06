@@ -25,7 +25,7 @@ If you haven't found the information you're looking for in the documentation or 
 |--------------|--------------|
 |Forums|[https://social.msdn.microsoft.com/Forums/en-US/home?category=biztalkserver](https://social.msdn.microsoft.com/Forums/en-US/home?category=biztalkserver)
 |General community|[https://answers.microsoft.com](https://answers.microsoft.com)|
-| [Technet Wiki](https://social.technet.microsoft.com/wiki/contents/articles/2240.biztalk-server-resources-on-the-technet-wiki.aspx) | Provides a range of information on adapters, performance, and so much more. |
+| [Technet Wiki](/archive/technet-wiki/53832.biztalk-server-2020) | Provides a range of information on adapters, performance, and so much more. |
 | Customer support | [https://support.microsoft.com/contactus/](https://support.microsoft.com/contactus/)
 
 ## See Also

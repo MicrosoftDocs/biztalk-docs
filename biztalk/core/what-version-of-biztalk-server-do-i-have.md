@@ -24,7 +24,7 @@ You may be running different versions and different editions of [!INCLUDE[btsBiz
    |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    |  **InstallPath**   |                                             Lists the installation path where you installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].                                              |
    | **ProductEdition** |                                                        Lists the edition, including:<br /><br /> -   Developer<br />-   Branch<br />-   Standard<br />-   Enterprise                                                         |
-   | **ProductVersion** | Lists the base product version. For specific product version, including service packs and cumulative updates, see [BizTalk Versions](https://social.technet.microsoft.com/wiki/contents/articles/7915.biztalk-versions.aspx). |
+   | **ProductVersion** | Lists the base product version. For specific product version, including service packs and cumulative updates, see [BizTalk Versions](/archive/technet-wiki/7915.biztalk-server-versions). |
 
 ## Use the control panel
 
@@ -32,7 +32,7 @@ You may be running different versions and different editions of [!INCLUDE[btsBiz
 
 2. In the list, select **Microsoft BizTalk Server**. The version and edition are listed.
 
-See [BizTalk Versions](https://social.technet.microsoft.com/wiki/contents/articles/7915.biztalk-versions.aspx).
+See [BizTalk Versions](/archive/technet-wiki/7915.biztalk-server-versions).
 
 ## See Also
  [Get started](../core/getting-started-with-biztalk-server.md)

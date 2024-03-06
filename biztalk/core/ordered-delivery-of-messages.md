@@ -92,9 +92,9 @@ To change the Retry values, go to [How to Configure Transport Advanced Options f
 
 For additional information on Ordered Delivery, refer to the following:
 
-[BizTalk: End-to-End Ordered Message Processing Options](https://social.technet.microsoft.com/wiki/contents/articles/12887.biztalk-end-to-end-ordered-message-processing-options.aspx)
+[BizTalk: End-to-End Ordered Message Processing Options](/archive/technet-wiki/12887.biztalk-server-end-to-end-ordered-message-processing-options)
 
-[BizTalk: Ordered Delivery](https://social.technet.microsoft.com/wiki/contents/articles/6681.biztalk-ordered-delivery.aspx)
+[BizTalk: Ordered Delivery](/archive/technet-wiki/6681.biztalk-server-ordered-delivery)
 
 ## See Also
 
