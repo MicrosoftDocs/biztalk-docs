@@ -21,7 +21,7 @@ This section provides instructions to install [!INCLUDE[swift_adapter](../../inc
 
 2. Configure [BizTalk Server](../../install-and-config-guides/configure-biztalk-server.md), and configure Business Activity Monitoring (BAM).
 
-3. Make sure you have enough security privileges to access the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. [Minimum Security Rights for BizTalk Server](/biztalk/core/minimum-security-user-rights) is a great resource.
+3. Make sure you have enough security privileges to access the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. [Minimum Security Rights for BizTalk Server](../../core/minimum-security-user-rights.md) is a great resource.
 
 ## Step 2: Install BizTalk Accelerator for SWIFT (A4SWIFT)
 

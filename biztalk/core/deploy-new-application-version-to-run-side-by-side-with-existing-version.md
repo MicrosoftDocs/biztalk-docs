@@ -21,7 +21,7 @@ You might want to do this to roll out a major application upgrade incrementally,
 ## Prerequisites  
 Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. Your account also must have Read/Write permission on the local file system, and the global assembly cache. The Administrators account on the local computer has this permission.  
 
-For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights](/biztalk/core/minimum-security-user-rights). 
+For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights](./minimum-security-user-rights.md). 
   
 ## Deploy a new version of an application  
   

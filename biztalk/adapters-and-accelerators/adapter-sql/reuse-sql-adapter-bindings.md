@@ -27,7 +27,7 @@ A binding creates a mapping between a logical endpoint (such as an orchestration
   For more information about bindings and about binding files, see [Binding Files and Application Deployment](../../core/binding-files-and-application-deployment.md).  
   
 ## Prerequisites  
-Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators or BizTalk Operators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights](/biztalk/core/minimum-security-user-rights).
+Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administrators or BizTalk Operators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights](../../core/minimum-security-user-rights.md).
  
 ## Export bindings
 This section describes how to export bindings for a BizTalk application into an XML file. You can then import the bindings from the XML file into another BizTalk application. Importing bindings overwrites any existing bindings of the same name in the application. You can also add bindings to an application, which does not overwrite existing bindings. The bindings that you add do not take effect until you import the application.  
