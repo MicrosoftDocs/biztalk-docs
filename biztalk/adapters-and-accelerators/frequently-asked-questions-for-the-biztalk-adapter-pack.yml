@@ -1,27 +1,14 @@
 ### YamlMime:FAQ
 metadata:
-  description: "Learn more about: Frequently Asked Questions"
-  title: "Frequently asked questions for the BizTalk Adapter Pack | Microsoft Docs"
-  ms.custom: ""
-  ms.date: "06/08/2017"
+  title: Frequently asked questions about the BizTalk Adapter Pack
+  description: Learn about frequently asked questions about the BizTalk Adapter Pack.
   ms.service: biztalk-server
-  ms.reviewer: ""
-  
-  ms.suite: ""
-  ms.tgt_pltfrm: ""
-  ms.topic: "article"
-  ms.assetid: 0cdaf09a-50fe-4f30-bd9d-60e316351846
-  caps.latest.revision: 11
-  author: "MandiOhlinger"
-  ms.author: "mandia"
-  manager: "anneta"
+  ms.date: 06/08/2017  
+  ms.topic: conceptual
     
 title: Frequently Asked Questions
 summary: |
-  Frequently asked questions (FAQs) about the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].  
-  
-  
-
+  Frequently asked questions (FAQs) about the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].
 sections:
   - name: General questions
     questions:
@@ -35,7 +22,7 @@ sections:
         answer: |
           Run the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] setup using an account that is a member of the local administrators group and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. 
           
-          Related link: [Minimum Security Rights](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx)
+          Related link: [Minimum Security Rights](/biztalk/core/minimum-security-user-rights)
           
       - question: |
           How do I get started using the adapter?  
@@ -73,12 +60,11 @@ sections:
       - question: |
           Which BizTalk Server tools are used while working with adapters? Where can I find more information about these tools?  
         answer: |
-          There are several tools that can help with the artifacts that use these adapters: 
-          
+          There are several tools that can help with the artifacts that use these adapters:         
           
           |                                  Tool                                  |                                                                                                                                                                                           Topics in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] core documentation                                                                                                                                                                                            |
           |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-          | [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] | -   [Using Visual Studio](../core/using-visual-studio.md) <br />-   [Working with BizTalk Projects](../core/working-with-biztalk-projects.md)<br />-   [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)<br /><br /> Learn more about Visual Studio solutions, projects, and items at [Solutions and Projects in Visual Studio](/previous-versions/visualstudio/visual-studio-2015/ide/solutions-and-projects-in-visual-studio). |
+          | [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] | - [Using Visual Studio](../core/using-visual-studio.md) <br />- [Working with BizTalk Projects](../core/working-with-biztalk-projects.md)<br />- [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md) <br><br>Learn more about Visual Studio solutions, projects, and items at [Solutions and Projects in Visual Studio](/previous-versions/visualstudio/visual-studio-2015/ide/solutions-and-projects-in-visual-studio). |
           |                         Orchestration Designer                         |                                                                                                                                                                                       [Creating orchestrations using orchestration designer](../core/creating-orchestrations-using-orchestration-designer.md)                                                                                                                                                                                        |
           |                           Pipeline Designer                            |                                                                                                                                                                                                 [Creating pipelines using pipeline designer](../core/creating-pipelines-using-pipeline-designer.md)                                                                                                                                                                                                  |
           |                             BizTalk Mapper                             |                                                                                                                                                                                                         [Creating maps using BizTalk mapper](../core/creating-maps-using-biztalk-mapper.md)                                                                                                                                                                                                          |
@@ -168,3 +154,4 @@ additionalContent: |
   ## See Also
   
   [BizTalk Adapter Pack](../adapters-and-accelerators/biztalk-adapter-pack.md)
+  

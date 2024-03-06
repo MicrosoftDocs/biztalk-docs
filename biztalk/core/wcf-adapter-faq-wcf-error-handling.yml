@@ -1,21 +1,11 @@
 ### YamlMime:FAQ
 metadata:
   description: "Learn more about: WCF Adapter FAQ: WCF Error Handling"
-  title: "WCF Adapter FAQ: WCF Error Handling | Microsoft Docs"
-  ms.custom: ""
+  title: "WCF Adapter FAQ: WCF Error Handling"
   ms.date: "06/08/2017"
   ms.service: biztalk-server
-  ms.reviewer: ""
-  
-  ms.suite: ""
-  ms.tgt_pltfrm: ""
   ms.topic: "article"
-  ms.assetid: fdbd1ea6-4898-415c-ac5e-f804565759a8
-  caps.latest.revision: 2
-  author: "MandiOhlinger"
-  ms.author: "mandia"
-  manager: "anneta"
-    
+
 title: "WCF Adapter FAQ: WCF Error Handling"
 summary: |
 

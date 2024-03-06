@@ -1,21 +1,11 @@
 ### YamlMime:FAQ
 metadata:
   description: "Learn more about: WCF Adapter FAQ: Service Architecture"
-  title: "WCF Adapter FAQ: Service Architecture | Microsoft Docs"
-  ms.custom: ""
+  title: "WCF Adapter FAQ: Service Architecture"
   ms.date: "06/08/2017"
   ms.service: biztalk-server
-  ms.reviewer: ""
-  
-  ms.suite: ""
-  ms.tgt_pltfrm: ""
   ms.topic: "article"
-  ms.assetid: 8bad0063-ccff-41f4-b4e0-a02b49403c2d
-  caps.latest.revision: 4
-  author: "MandiOhlinger"
-  ms.author: "mandia"
-  manager: "anneta"
-    
+
 title: "WCF Adapter FAQ: Service Architecture"
 summary: |
 
