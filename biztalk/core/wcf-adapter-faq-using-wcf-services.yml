@@ -1,20 +1,10 @@
 ### YamlMime:FAQ
 metadata:
   description: "Learn more about: WCF Adapter FAQ: Using WCF Services"
-  title: "WCF Adapter FAQ: Using WCF Services | Microsoft Docs"
-  ms.custom: ""
+  title: "WCF Adapter FAQ: Using WCF Services"
   ms.date: "06/08/2017"
   ms.service: biztalk-server
-  ms.reviewer: ""
-  
-  ms.suite: ""
-  ms.tgt_pltfrm: ""
   ms.topic: "article"
-  ms.assetid: befa2268-8a65-465f-8086-70a66808845e
-  caps.latest.revision: 5
-  author: "MandiOhlinger"
-  ms.author: "mandia"
-  manager: "anneta"
     
 title: "WCF Adapter FAQ: Using WCF Services"
 summary: |

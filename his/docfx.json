@@ -45,7 +45,7 @@
         "*.md": "haroldcampos",
         "**/*.md": "haroldcampos",
         "**/**/*.md": "haroldcampos",
-        "troubleshooting/*.md": "tsnook"        
+        "troubleshooting/*.md": "tsnook"
       },
       "manager": {
         "*.md": "mijacobs",
