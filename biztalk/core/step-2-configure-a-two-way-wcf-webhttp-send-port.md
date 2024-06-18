@@ -45,12 +45,21 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
          > [!TIP]
          > Within the URL field, any special XML characters must be "escaped". This ensures that the special XML characters are processed, and preserved by the port. For example, the `&` special character must be escaped as `&amp;`.
            >
-           >From:
-           >`Url=”/Customer?{ID}& group=Location”`
+           >For:
+           >`Url=”/Customer?{ID}&group={Location}”`
            >
            >
-           >To:
-           >`Url=”/Customer?{ID}&amp;group=Location”`
+           >Use:
+           >`Url=”/Customer?{ID}&amp;group={Location}”`
+           >
+         > If the REST service also requires the special character be escaped within the URL used at runtime, double-escaping may be required.
+           >
+           >For:
+           >`Url=”/Customer?{ID}&amp;group={Location}”`
+           >
+           >
+           >Use:
+           >`Url=”/Customer?{ID}&amp;amp;group={Location}”`
 
     3.  On the **Bindings** tab, for the **Maximum Received Message Size** field, select a sufficiently large value. That’s because typically the response message containing the flight status is considerably large and might exceed the default message size specified.
 
