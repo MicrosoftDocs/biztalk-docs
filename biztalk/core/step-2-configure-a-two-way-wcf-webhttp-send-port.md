@@ -60,7 +60,7 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
          > `Url="/Customer?{ID}&amp;group={Location}"`
          >
          >
-           >Use:
+         > Use the following version instead: 
            >`Url=”/Customer?{ID}&amp;amp;group={Location}”`
 
     3.  On the **Bindings** tab, for the **Maximum Received Message Size** field, select a sufficiently large value. That’s because typically the response message containing the flight status is considerably large and might exceed the default message size specified.
