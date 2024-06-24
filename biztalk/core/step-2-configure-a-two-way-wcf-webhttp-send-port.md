@@ -49,7 +49,7 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
          > processes and preserves the special characters. For example, you must escape the `&` special character as `&amp;`.
          >
          > For the following text:
-           >`Url=”/Customer?{ID}&group={Location}”`
+         > `Url="/Customer?{ID}&group={Location}"`
            >
            >
            >Use:
