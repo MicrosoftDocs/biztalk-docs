@@ -51,7 +51,7 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
          > `Url="/Customer?{ID}&group={Location}"`
          >
          >
-           >Use:
+         > Use the following text instead: 
            >`Url=”/Customer?{ID}&amp;group={Location}”`
            >
          > If the REST service also requires the special character be escaped within the URL used at runtime, double-escaping may be required.
