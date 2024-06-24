@@ -12,7 +12,7 @@ ms.topic: "article"
 # Install and configure BAM
 Business Activity Monitoring (BAM) is included with the BizTalk Server installation. You can install and configure BAM on a single server, or in a multi-computer environment, just like BizTalk Server:
 
--   Multicomputer installation: [Install and Configure BAM in a Multi-Computer Environment](https://go.microsoft.com/fwlink/p/?LinkID=208597)
+-   Multicomputer installation: [Install and Configure BAM in a Multi-Computer Environment](/archive/technet-wiki/1888.install-and-configure-bam-business-activity-monitoring-in-a-multi-computer-environment)
 
 -   Single server installation: [BizTalk Server install & upgrade guides](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md)
 

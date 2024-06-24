@@ -84,7 +84,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
  This section provides step-by-step procedures to deploy a BizTalk application through all of the phases, from development to test to staging to production. As previously mentioned, you can perform these steps all on the same computer, or if you want to more closely simulate your environment, you can use multiple computers.  
 
 #### 1. Configure permissions  
- The first step is to ensure that you have the appropriate permissions to perform the tasks in this walkthrough. See [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx).
+ The first step is to ensure that you have the appropriate permissions to perform the tasks in this walkthrough. See [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights](./minimum-security-user-rights.md).
 
 #### 2. Deploy the BizTalk assemblies  
  From within Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] on the development computer, use the procedures in this step to deploy BizTalk assemblies into a BizTalk application.  

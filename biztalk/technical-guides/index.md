@@ -41,7 +41,7 @@ There are many products and services in the BizTalk family, including [!INCLUDE[
 
 ## Additional Links
 
-- [BizTalk Server/BizTalk Services: White Paper Gallery](https://social.technet.microsoft.com/wiki/contents/articles/15469.biztalk-serverbiztalk-services-white-paper-gallery.aspx)
+- [BizTalk Server/BizTalk Services: White Paper Gallery](/archive/technet-wiki/15469.biztalk-azure-logic-apps-white-paper-gallery)
 - [BizTalk Server: Supported Upgrade Paths and Installation Guides](https://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx)
 - [BizTalk Server 2013: Pricing and Licensing Survival Guide](https://social.technet.microsoft.com/wiki/contents/articles/20494.biztalk-server-2013-pricing-and-licensing-survival-guide.aspx)
 - [BizTalk Server: ESB Survival Guide](https://social.technet.microsoft.com/wiki/contents/articles/7756.biztalk-server-esb-survival-guide.aspx)

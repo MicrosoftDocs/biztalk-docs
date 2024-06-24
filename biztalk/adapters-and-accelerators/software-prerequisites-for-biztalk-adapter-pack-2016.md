@@ -79,7 +79,7 @@ A typical setup with the [!INCLUDE[adapterpacknoversion](../includes/adapterpack
 <a name="BKMK_SuppLOB"></a>
 ## Supported enterprise application versions
 To see the specific LOB system versions that are supported by the BizTalk Adapter Pack, see
-**[Supported Line-of-Business (LOB) systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-systems.aspx)**.
+**[Supported Line-of-Business (LOB) systems](../adapters-and-accelerators/lob-and-enterprise-2020-support.md)**.
 
 This section lists any extra info for each adapter, such as any client DLLs required for each adapter.
 

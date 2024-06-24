@@ -11,7 +11,7 @@ ms.topic: "article"
 # Troubleshooting BizTalk Server Administration
 This section provides a centralized location for information about common problems encountered while using the BizTalk Server Administration console.
 
- In addition to the following Known Issues, [Common Issues and Resolutions With the BizTalk Server Administration Console](https://social.technet.microsoft.com/wiki/contents/articles/common-issues-and-resolutions-with-the-biztalk-server-administration-console.aspx) provides additional information.
+ In addition to the following Known Issues, [Common Issues and Resolutions With the BizTalk Server Administration Console](/archive/technet-wiki/1635.biztalk-server-administration-console-troubleshooting-common-issues-and-resolutions) provides additional information.
 
 ## Known Issues
 

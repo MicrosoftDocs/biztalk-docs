@@ -31,9 +31,9 @@ This guide provides instructions on how to install BizTalk Server 2010 Feature P
 ##  <a name="BKMK_Using"></a> Using AppFabric Connect for Services
  After installing AppFabric Connect for Services, you can do the following:
 
--   Use the **BizTalk WCF Service Publishing Wizard** to expose BizTalk artifacts (orchestration, schema, etc.) as WCF services with a relay endpoint on the Azure AppFabric Service Bus. For more information, see [https://go.microsoft.com/fwlink/?LinkId=204700](https://go.microsoft.com/fwlink/?LinkId=204700).
+-   Use the **BizTalk WCF Service Publishing Wizard** to expose BizTalk artifacts (orchestration, schema, etc.) as WCF services with a relay endpoint on the Azure AppFabric Service Bus. For more information, see [https://learn.microsoft.com/archive/technet-wiki/1664.expose-biztalk-applications-on-the-cloud-using-appfabric-connect-for-services](/archive/technet-wiki/1664.expose-biztalk-applications-on-the-cloud-using-appfabric-connect-for-services).
 
--   Use the **WCF Adapter Service Development Wizard** to expose operations on LOB applications as WCF services with a relay endpoint on the Azure AppFabric Service Bus. For more information, see [https://go.microsoft.com/fwlink/?LinkId=204699](https://go.microsoft.com/fwlink/?LinkId=204699).
+-   Use the **WCF Adapter Service Development Wizard** to expose operations on LOB applications as WCF services with a relay endpoint on the Azure AppFabric Service Bus. For more information, see [https://learn.microsoft.com/archive/technet-wiki/1659.expose-lob-services-on-the-cloud-using-appfabric-connect-for-services](/archive/technet-wiki/1659.expose-lob-services-on-the-cloud-using-appfabric-connect-for-services).
 
 ## Uninstalling BizTalk Server 2010 Feature Pack
  This section provides instructions on uninstalling AppFabric Connect for Services.

@@ -176,7 +176,7 @@ When finished, your configuration looks similar to the following:
 
 |Question|Answer|
 |--------------|------------|
-|What SFTP servers are supported?|See [Supported SFTP Servers](https://social.technet.microsoft.com/wiki/contents/articles/29940.biztalk-serverbiztalk-services-supported-sftp-servers.aspx). Starting with BizTalk Server 2016, the SFTP adapter uses WinSCP to connect to SFTP. As a result, SFTP servers that support WinSCP should work.|
+|What SFTP servers are supported?|See [Supported SFTP Servers](/archive/technet-wiki/29940.biztalk-server-supported-sftp-servers). Starting with BizTalk Server 2016, the SFTP adapter uses WinSCP to connect to SFTP. As a result, SFTP servers that support WinSCP should work.|
 |Can the SFTP Adapter be used with the mutual authentication method (public key and password)?|- Starting with **BizTalk Server 2013 R2**, yes. If set to **MultiFactorAuthentication** you must provide **Username** with its **Password** and **PrivateKey**. Additionally, if the private key is protected by a password, specify the password as well for the **PrivateKeyPassword** property.<br /><br /> - For **BizTalk Server 2013**, either **Password** or **PublicKeyAuthentication** can be used. **MultiFactorAuthentication** is not supported in the SFTP adapter shipped with BizTalk Server 2013.|
 |What private key formats are supported? Can the OpenSSH private key format be used?|The SFTP adapter supports only the PuTTY private key file format. PuTTYgen can be used to convert from OpenSSH to the .ppk format.|
 |For SSHServerHostKeyFingerPrint, which fingerprint algorithm and format should be used?|You should use the MD5 fingerprint of the server’s key in the format: `ssh-rsa 2048 90:e4:9b:67:d9:22:a7:5f:6f:33:db:6a:b1:23:96:12`.|

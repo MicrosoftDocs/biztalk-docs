@@ -19,7 +19,7 @@ If you're looking to get started with [!INCLUDE[btsBizTalkServerNoVersion](../in
 * [Understanding BizTalk Server](../core/understanding-biztalk-server.md)
 * [Runtime Architecture](../core/runtime-architecture.md)
 * [Trading Partner Management](../core/trading-partner-management-using-biztalk-server.md)
-* Numerous topics on the [TechNet Wiki](https://social.technet.microsoft.com/wiki/contents/articles/2240.biztalk-server-resources-on-the-technet-wiki.aspx)
+* Numerous topics on the [TechNet Wiki](/archive/technet-wiki/53832.biztalk-server-2020)
 
 ## Install, configure, and tutorials
 Read about what's new, install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and step through some tutorials:

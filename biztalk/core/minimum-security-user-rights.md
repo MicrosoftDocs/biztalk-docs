@@ -84,7 +84,7 @@ The groups and accounts that BizTalk Server uses have the minimum user rights th
 |4|-   User rights granted to level 3<br />-   sysadmin SQL Server role on all of the SQL Servers that have BizTalk MessageBox databases|-   Create MessageBox databases|
 
 ##  <a name="BKMK_Community"></a> Community Addition – Task List
- [Minimum Security Rights for BizTalk Server 2013 R2](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2013-r2.aspx) (https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2013-r2.aspx)
+ [Minimum Security Rights for BizTalk Server 2013 R2](/archive/technet-wiki/24590.minimum-security-rights-for-biztalk-server-2006-to-2020) (https://learn.microsoft.com/archive/technet-wiki/24590.minimum-security-rights-for-biztalk-server-2006-to-2020)
 
 ## See Also
  [Access Control and Data Security](../core/access-control-and-data-security.md)

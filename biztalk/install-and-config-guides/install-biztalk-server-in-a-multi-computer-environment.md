@@ -62,7 +62,7 @@ Additional:
 
 - If using a firewall, open the required DTC and RPC ports. See [Service overview and network port requirements for Windows](https://support.microsoft.com/kb/832017).
 
-- To ensure that the DTC settings are correct, use the DTC Tester and DTC Ping tools. These tools and more DTC troubleshooting are described at [BizTalk Server - Troubleshooting Problems with MSDTC](https://social.technet.microsoft.com/wiki/contents/articles/2031.biztalk-server-troubleshooting-problems-with-msdtc.aspx).
+- To ensure that the DTC settings are correct, use the DTC Tester and DTC Ping tools. These tools and more DTC troubleshooting are described at [BizTalk Server - Troubleshooting Problems with MSDTC](/archive/technet-wiki/2031.biztalk-server-troubleshooting-msdtc).
 
 ## Remote SQL Server
 
