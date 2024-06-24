@@ -50,7 +50,6 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
          > For the following text:
          > `Url="/Customer?{ID}&group={Location}"`
          >
-         >
          > Use the following version instead: 
          > `Url="/Customer?{ID}&amp;group={Location}"`
          >
