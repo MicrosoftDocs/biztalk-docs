@@ -48,7 +48,7 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
          > Within the URL field, you must "escape" any special XML characters to make sure that the port 
          > processes and preserves the special characters. For example, you must escape the `&` special character as `&amp;`.
          >
-           >For:
+         > For the following text:
            >`Url=”/Customer?{ID}&group={Location}”`
            >
            >
