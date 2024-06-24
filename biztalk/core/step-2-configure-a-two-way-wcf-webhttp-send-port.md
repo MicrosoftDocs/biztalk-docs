@@ -40,7 +40,7 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
 
         ```
 
-         Here, **GET** is the HTTP verb and **On_Time_Performance** is appended to the base URI to construct a unique resource URL to retrieve flight delays.
+         Here, **GET** is the HTTP verb, and **On_Time_Performance** is appended to the base URI to construct a unique resource URL to retrieve flight delays.
 
          > [!IMPORTANT]
          >
