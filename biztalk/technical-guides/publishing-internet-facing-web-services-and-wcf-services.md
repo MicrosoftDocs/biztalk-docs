@@ -36,7 +36,7 @@ You can use multiple approaches for publishing [!INCLUDE[btsBizTalkServerNoVersi
  You must open specific ports in the firewall to accommodate this. For more information about the required ports, see ["Ports for the Receive and Send Servers"](../core/ports-for-the-receive-and-send-servers.md) (<https://go.microsoft.com/fwlink/?LinkId=153342>) in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation.
 
 ## Exposing BizTalk Applications on the Cloud using AppFabric Connect for Services
- See the article [Exposing BizTalk Applications on the Cloud using AppFabric Connect for Services](/archive/technet-wiki/1664.expose-biztalk-applications-on-the-cloud-using-appfabric-connect-for-services) (https://learn.microsoft.com/archive/technet-wiki/1664.expose-biztalk-applications-on-the-cloud-using-appfabric-connect-for-services) for more information about expose BizTalk Applications as WCF Services on the cloud.
+ See the article [Exposing BizTalk Applications on the Cloud using AppFabric Connect for Services](/archive/technet-wiki/1664.expose-biztalk-applications-on-the-cloud-using-appfabric-connect-for-services) (/archive/technet-wiki/1664.expose-biztalk-applications-on-the-cloud-using-appfabric-connect-for-services) for more information about expose BizTalk Applications as WCF Services on the cloud.
 
 ## See Also
  [Planning for Publishing Web Services1](../technical-guides/planning-for-publishing-web-services1.md)
