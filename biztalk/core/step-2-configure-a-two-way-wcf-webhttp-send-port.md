@@ -40,17 +40,26 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
 
         ```
 
-         Here, **GET** is the HTTP verb and **On_Time_Performance** is appended to the base URI to construct a unique resource URL to retrieve flight delays.
+         Here, **GET** is the HTTP verb, and **On_Time_Performance** is appended to the base URI to construct a unique resource URL to retrieve flight delays.
 
-         > [!TIP]
-         > Within the URL field, any special XML characters must be "escaped". This ensures that the special XML characters are processed, and preserved by the port. For example, the `&` special character must be escaped as `&amp;`.
-           >
-           >From:
-           >`Url=”/Customer?{ID}& group=Location”`
-           >
-           >
-           >To:
-           >`Url=”/Customer?{ID}&amp;group=Location”`
+         > [!IMPORTANT]
+         >
+         > Within the URL field, you must "escape" any special XML characters to make sure that the port processes and 
+         > preserves the special characters. For example, you must escape the `&` special character as `&amp;`.
+         >
+         > For the following text:
+         > `Url="/Customer?{ID}&group={Location}"`
+         >
+         > Use the following version instead: 
+         > `Url="/Customer?{ID}&amp;group={Location}"`
+         >
+         > If the REST service also requires that you escape the special character within the URL used at runtime, you might have to use double-escaping.
+         >
+         > For the following text: 
+         > `Url="/Customer?{ID}&amp;group={Location}"`
+         >
+         > Use the following version instead: 
+         > `Url="/Customer?{ID}&amp;amp;group={Location}"`
 
     3.  On the **Bindings** tab, for the **Maximum Received Message Size** field, select a sufficiently large value. That’s because typically the response message containing the flight status is considerably large and might exceed the default message size specified.
 

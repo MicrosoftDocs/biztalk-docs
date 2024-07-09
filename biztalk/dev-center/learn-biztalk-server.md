@@ -21,7 +21,7 @@ Opens QuickLearn.com.
 
 ## Guides and Whitepapers
 
-[Whitepaper gallery on TechNet Wiki](https://social.technet.microsoft.com/wiki/contents/articles/15469.biztalk-serverbiztalk-services-white-paper-gallery.aspx)
+[Whitepaper gallery on TechNet Wiki](/archive/technet-wiki/15469.biztalk-azure-logic-apps-white-paper-gallery)
 
 Includes Microsoft-written and community-written white papers ranging from operations to cloud integration.
 

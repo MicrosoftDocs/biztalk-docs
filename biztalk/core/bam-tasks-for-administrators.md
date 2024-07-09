@@ -77,7 +77,7 @@ Configuring BAM to run in a distributed environment affords performance benefits
 
 6. Restart the Notification Services on all the computers in the distributed environment.
 
-   For more information on installing BAM in a multicomputer environment, see [Install and Configure BAM (Business Activity Monitoring) in a Multi-Computer Environment](https://go.microsoft.com/fwlink/p/?LinkID=208597).
+   For more information on installing BAM in a multicomputer environment, see [Install and Configure BAM (Business Activity Monitoring) in a Multi-Computer Environment](/archive/technet-wiki/1888.install-and-configure-bam-business-activity-monitoring-in-a-multi-computer-environment).
 
 ### Moving the BAM Primary Import Database
  At some point it may become necessary to move the BAM Primary Import database, such as when you are upgrading hardware or scaling up operations. To move the database you perform a backup and restore operation. For more information about this process, see [Backing Up and Restoring BAM](../core/backing-up-and-restoring-bam.md).
