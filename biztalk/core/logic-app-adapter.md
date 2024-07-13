@@ -1,23 +1,26 @@
 ---
-title: Use Logic App adapter in BizTalk Server| Microsoft Docs
-description: Install and configure the Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server
+title: Connect to Azure Logic Apps from BizTalk Server
+description: Install and configure the Azure Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server.
 ms.custom: biztalk-2020
 ms.date: 12/09/2020
 ms.service: biztalk-server
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: article
 ---
 
-# Install and use the Logic App Adapter on BizTalk Server
+# Connect to Azure Logic Apps from BizTalk Server
 
-BizTalk Server uses the Logic Apps adapter to receive messages from an Azure logic app, or send messages to an Azure logic app. 
+To exchange messages between BizTalk Server and a logic app workflow in Azure, you can use the adapter in BizTalk Server for Azure Logic Apps. This guide shows how to receive a message in BizTalk Server from a logic app workflow. The workflow can send messages to BizTalk Server. The receiving end uses applications in IIS to handle communication with an Azure service.
 
-In Azure, we create a logic app. This logic app uses the BizTalk Connector to connect to a receive location that you create on your BizTalk Server. This topic assumes you have some familiarity with Azure Logic Apps. If you're new to logic apps, we suggest [learning more about them](/azure/logic-apps/logic-apps-overview), and even [creating your own logic app](/azure/logic-apps/quickstart-create-first-logic-app-workflow).
+If BizTalk Server is on premises, you must install the on-premises data gateway on BizTalk Server, and create an on-premises data gateway resource in Azure. However, if BizTalk Server is installed on an Azure virtual machine, you can choose whether or not to expose the virtual machine as an HTTP endpoint, which has a URL that you can call. 
 
-In this topic, we list the steps to receive a message in BizTalk Server from a logic app. Put another way, the logic app sends messages to a BizTalk Server. The receive-side uses applications in IIS to handle the communication with the Azure service. If BizTalk Server is on-premises, you also install a data gateway on the BizTalk Server, and create a gateway in Azure. 
+If you choose the HTTP endpoint option, you don't need to use the gateway. You can enter your URL in the BizTalk Connector in your logic app. If you don't expose the VM (no URL), then you need to use the gateway. These steps are listed in this topic.
 
-If BizTalk Server is installed on an Azure virtual machine (VM), then you can choose to expose the VM as an HTTP endpoint (you get a URL), or don't expose it as an HTTP endpoint. If you expose it, then you don't need to use the gateway. You can enter your URL in the BizTalk Connector in your logic app. If you don't expose the VM (no URL), then you need to use the gateway. These steps are listed in this topic.
+In Azure, create a logic app workflow that uses BizTalk connector to connect to a receive location, which you create on your BizTalk Server.
+
+
+This topic assumes you have some familiarity with Azure Logic Apps. If you're new to logic apps, we suggest [learning more about them](/azure/logic-apps/logic-apps-overview), and even [creating your own logic app](/azure/logic-apps/quickstart-create-first-logic-app-workflow).
+
+
 
 We also show you how to send messages from BizTalk Server to an Azure logic app. Put another way, the logic app receives messages from BizTalk Server. The send side is fairly straightforward, as you will see in this topic.
 
@@ -25,8 +28,9 @@ Use this topic to create a receive location and a send port using the Logic Apps
 
 ## Requirements
 
-- An Azure subscription to sign-in to the Azure portal, and create a logic app.
-- Optional. To send a test message to your logic app, install an HTTP testing tool, such as [Fiddler](http://www.telerik.com/fiddler) or [Postman](https://www.getpostman.com/). If you use another method to send a message to a logic app, you don't have to use these tools.
+- An Azure account and subscription so that you can sign in to the Azure portal, and create a logic app resource and workflow.
+
+- Optionally, to send a test message to your logic app workflow, install an HTTP testing tool, such as [Fiddler](http://www.telerik.com/fiddler) or [Postman](https://www.getpostman.com/). If you use another method to send a message to a logic app, you don't have to use these tools.
 
 ## Install the Logic App adapter
 
@@ -37,10 +41,14 @@ Starting with BizTalk Server 2020, the Logic App adapter is included with the Bi
 ### BizTalk Server 2016
 
 1. On your BizTalk Server, download and install the Logic App adapter:
+
    - Go to [Microsoft BizTalk Server Adapter for Logic Apps](https://www.microsoft.com/download/details.aspx?id=54287), and save.
+
    - Open the LogicAppAdapter.iso, and run the **LogicApp Adapter.msi** file to install.
-2. Double-select **LogicApp Adapter.msi** to install. Accept the license agreement, and **Install**.
-3. **Finish** the install, and restart the **BizTalkServerApplication** and **BizTalkServerIsolatedHost** host instances.
+
+1. Double-select **LogicApp Adapter.msi** to install. Accept the license agreement, and **Install**.
+
+1. **Finish** the install, and restart the **BizTalkServerApplication** and **BizTalkServerIsolatedHost** host instances.
 
 Once installed, you have the following:
 
@@ -283,7 +291,8 @@ For BizTalk Server to send messages to a logic app, the logic app must have a **
 You can create a receive port and receive location using the File adapter. Be sure your logic app is enabled.
 
 1. Create a receive port, such as *FileSendPort*,
-2. Create a receive location, and set the properties similar to:  
+
+1. Create a receive location, and set the properties similar to:  
 
    | Property | Sample input |
    | --- | --- |
@@ -291,13 +300,13 @@ You can create a receive port and receive location using the File adapter. Be su
    | File mask | *.txt |
    | Pipeline | PassThruReceive |
 
-3. In the send port you created, set the **Filter** to:
+1. In the send port you created, set the **Filter** to:
 
     | Property | Operator | Value |
     | --- | --- | --- |
     | BTS.ReceivePortName |  == | *FileSendPort* |
 
-4. Create a text file (FileName.txt) with the following text. Use this text file as your sample message: 
+1. Create a text file (FileName.txt) with the following text. Use this text file as your sample message: 
 
     ```xml
     <Data>
@@ -306,12 +315,10 @@ You can create a receive port and receive location using the File adapter. Be su
     </Data>
     ```
 
-5. Copy your sample message (FileName.txt) into the receive folder. The send port sends the .txt file to the logic app using the URI you entered. Your logic app receive the files. If you used the Office 365 Outlook connector, your *To* email address should receive the email, with the sample message.
+1. Copy your sample message (FileName.txt) into the receive folder. The send port sends the .txt file to the logic app using the URI you entered. Your logic app receive the files. If you used the Office 365 Outlook connector, your *To* email address should receive the email, with the sample message.
 
 ## Next
 
-[What are Logic Apps](/azure/logic-apps/logic-apps-overview)  
-
-[Create a logic app](/azure/logic-apps/quickstart-create-first-logic-app-workflow)
-
-[Using adapters in BizTalk Server](../core/using-adapters.md)
+- [What is Azure Logic Apps](/azure/logic-apps/logic-apps-overview)?
+- [Create an example Consumption logic app workflow in multitenant Azure Logic Apps](/azure/logic-apps/quickstart-create-first-logic-app-workflow)
+- [Using adapters in BizTalk Server](../core/using-adapters.md)
