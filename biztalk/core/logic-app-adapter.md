@@ -1,10 +1,10 @@
 ---
 title: Connect to Azure Logic Apps from BizTalk Server
 description: Install and configure the Azure Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server.
-ms.custom: biztalk-2020
-ms.date: 12/09/2020
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
+ms.date: 07/15/2024
+ms.custom: biztalk-2020
 ---
 
 # Connect to Azure Logic Apps from BizTalk Server
