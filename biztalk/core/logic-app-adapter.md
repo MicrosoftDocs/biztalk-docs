@@ -1,303 +1,403 @@
 ---
-title: Use Logic App adapter in BizTalk Server| Microsoft Docs
-description: Install and configure the Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server
-ms.custom: biztalk-2020
-ms.date: 12/09/2020
+title: Connect to Azure Logic Apps from BizTalk Server
+description: Install and configure the Azure Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server.
 ms.service: biztalk-server
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: article
+ms.topic: how-to
+ms.date: 07/15/2024
+ms.custom: biztalk-2020
 ---
 
-# Install and use the Logic App Adapter on BizTalk Server
+# Connect to Azure Logic Apps from BizTalk Server
 
-BizTalk Server uses the Logic Apps adapter to receive messages from an Azure logic app, or send messages to an Azure logic app. 
+To exchange messages between BizTalk Server and a logic app workflow in Azure, you can use the adapter in BizTalk Server for Azure Logic Apps. This guide shows how to receive a message in BizTalk Server from a logic app workflow. The workflow can send messages to BizTalk Server. The receiving end uses Internet Information Services (IIS) applications to handle communication with an Azure service.
 
-In Azure, we create a logic app. This logic app uses the BizTalk Connector to connect to a receive location that you create on your BizTalk Server. This topic assumes you have some familiarity with Azure Logic Apps. If you're new to logic apps, we suggest [learning more about them](/azure/logic-apps/logic-apps-overview), and even [creating your own logic app](/azure/logic-apps/quickstart-create-first-logic-app-workflow).
+If BizTalk Server is on premises and joined to your domain, you must install the on-premises data gateway on BizTalk Server, and create an on-premises data gateway resource in Azure. However, if BizTalk Server is installed on an Azure virtual machine, you can choose whether or not to expose the virtual machine as an HTTP endpoint, which has a URL that you can call.
 
-In this topic, we list the steps to receive a message in BizTalk Server from a logic app. Put another way, the logic app sends messages to a BizTalk Server. The receive-side uses applications in IIS to handle the communication with the Azure service. If BizTalk Server is on-premises, you also install a data gateway on the BizTalk Server, and create a gateway in Azure. 
+If you choose the HTTP endpoint option, you don't need to use the gateway. Instead, you create a logic app workflow, add the **BizTalkServer** connector action that you want, and provide the HTTP endpoint URL as required by the action's connection information. However, if you choose the on premises option, you must set up and use the data gateway, described later in this guide.
 
-If BizTalk Server is installed on an Azure virtual machine (VM), then you can choose to expose the VM as an HTTP endpoint (you get a URL), or don't expose it as an HTTP endpoint. If you expose it, then you don't need to use the gateway. You can enter your URL in the BizTalk Connector in your logic app. If you don't expose the VM (no URL), then you need to use the gateway. These steps are listed in this topic.
+This guide also shows how to send messages from BizTalk Server to a logic app workflow. Put another way, your logic app workflow can receive messages from BizTalk Server. 
 
-We also show you how to send messages from BizTalk Server to an Azure logic app. Put another way, the logic app receives messages from BizTalk Server. The send side is fairly straightforward, as you will see in this topic.
+This guide shows how to create a receive location and a send port using the Azure Logic Apps adapter. You can use this adapter with an on-premises BizTalk Server or an Azure virtual machine running BizTalk Server.
 
-Use this topic to create a receive location and a send port using the Logic Apps adapter. You can use the LogicApp adapter in a on-premises (joined to your domain) BizTalk Server, or an Azure virtual machine running BizTalk Server. 
+## Prerequisites
 
-## Requirements
+- An Azure account and subscription so that you can sign in to the Azure portal, and create a logic app resource and workflow. If you don't have a subscription, [sign up for a free Azure account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
-- An Azure subscription to sign-in to the Azure portal, and create a logic app.
-- Optional. To send a test message to your logic app, install an HTTP testing tool, such as [Fiddler](http://www.telerik.com/fiddler) or [Postman](https://www.getpostman.com/). If you use another method to send a message to a logic app, you don't have to use these tools.
+- BizTalk Server requirements based on the location where the server is installed:
 
-## Install the Logic App adapter
+  - On-premises computer with BizTalk Server: Install and set up the [on-premises data gateway for Azure Logic Apps](/azure/logic-apps/logic-apps-gateway-install). Then, in the Azure portal, create the [data gateway resource](/azure/logic-apps/logic-apps-gateway-connection) to use with the BizTalk server connector in your logic app workflow.
+
+  - Azure virtual machine with BizTalk Server:
+
+    - If the virtual machine isn't exposed as an HTTP endpoint, install and set up the [on-premises data gateway for Azure Logic Apps](/azure/logic-apps/logic-apps-gateway-install). Then, in the Azure portal, create the [data gateway resource](/azure/logic-apps/logic-apps-gateway-connection) to use with the BizTalk Server connector in your logic app workflow.
+
+    - If the virtual machine is exposed as an HTTP endpoint, you don't need to use the data gateway installation nor create the data gateway resource.
+
+- Some familiarity with Azure Logic Apps. If you're new to logic apps, see [What is Azure Logic Apps?](/azure/logic-apps/logic-apps-overview) and [create an example Consumption logic app workflow in multitenant Azure Logic Apps](/azure/logic-apps/quickstart-create-first-logic-app-workflow).
+
+- Optionally, assuming that your workflow starts with a trigger that can receive HTTP requests, such as a **Request** trigger, you can send a test message that triggers your logic app workflow. To send this message, use a tool that can send HTTP requests to the endpoint URL generated for the trigger in your workflow. The following list includes some example tools:
+
+  - [Visual Studio Code](https://code.visualstudio.com/download) with an extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/vscode)
+  - [PowerShell Invoke-RestMethod](/powershell/module/microsoft.powershell.utility/invoke-restmethod)
+  - [Microsoft Edge - Network Console tool](/microsoft-edge/devtools-guide-chromium/network-console/network-console-tool)
+  - [Bruno](https://www.usebruno.com/)
+  - [Curl](https://curl.se/)
+
+  > [!CAUTION]
+  >
+  > For scenarios where you have sensitive data, such as credentials, secrets, access tokens, 
+  > API keys, and other similar information, make sure to use a tool that protects your data 
+  > with the necessary security features, works offline or locally, doesn't sync your data 
+  > to the cloud, and doesn't require that you sign in to an online account. This way, 
+  > you reduce the risk around exposing sensitive data to the public.
+
+## Install the Azure Logic Apps adapter
 
 ### BizTalk Server 2020 and newer
 
-Starting with BizTalk Server 2020, the Logic App adapter is included with the BizTalk Server installation.
+Starting with BizTalk Server 2020, the Azure Logic Apps adapter is included with the BizTalk Server installation.
 
 ### BizTalk Server 2016
 
-1. On your BizTalk Server, download and install the Logic App adapter:
-   - Go to [Microsoft BizTalk Server Adapter for Logic Apps](https://www.microsoft.com/download/details.aspx?id=54287), and save.
-   - Open the LogicAppAdapter.iso, and run the **LogicApp Adapter.msi** file to install.
-2. Double-select **LogicApp Adapter.msi** to install. Accept the license agreement, and **Install**.
-3. **Finish** the install, and restart the **BizTalkServerApplication** and **BizTalkServerIsolatedHost** host instances.
+1. On your BizTalk Server, download and install the Azure Logic Apps adapter:
 
-Once installed, you have the following:
+   1. Go to [Microsoft BizTalk Server Adapter for Logic Apps](https://www.microsoft.com/download/details.aspx?id=54287), and select **Download**.
 
-- The LogicApp adapter is added to BizTalk Administration.
-- The send handler is created, and uses the BizTalkServerApplication host.
-- The receive handler is created as a WCF service, and uses the BizTalkServerIsolatedHost host.
-- The `LogicApp Adapter` folder is created inside the BizTalk installation directory, and includes two services: Management and ReceiveService. 
+   1. To install, open the **LogicAppAdapter.iso** file, and run the **LogicApp Adapter.msi** file.
 
-    The **Management** is used by the BizTalk Connector in a logic app to connect to BizTalk Server using the data gateway. This management service allows BizTalk Server to receive messages from an Azure logic app using the data gateway. This service is only used on the receive-side of BizTalk. It is not used by the send-side.
+   1. Accept the license agreement, and select **Install**.
 
-    The **ReceiveService** is used by the BizTalk Connector in a logic app when you enter the receive location. The **ReceiveService** is responsible for sending the messages from the logic app. This service is only used on the receive-side of BizTalk. It is not used by the send-side.
+1. After the install completes, restart the **BizTalkServerApplication** and **BizTalkServerIsolatedHost** host instances.
 
-## Receive messages from a logic app
+After installation completes, you have the following states:
 
-There are a few steps involved for BizTalk Server to receive messages from a logic app. This section lists these steps. It's possible the user interface in Azure changes, so some of the steps may not be exactly as listed. 
+- The Azure Logic Apps adapter is added to BizTalk Administration.
+- The send handler is created and uses the **BizTalkServerApplication** host instance.
+- The receive handler is created as a Windows Communication Foundation service and uses the **BizTalkServerIsolatedHost** host instance.
+- The **LogicApp Adapter** folder is created inside the BizTalk installation directory and includes two services: **Management** and **ReceiveService**.
 
-### Prerequisites
+  - **Management**: Used by the BizTalk connector in a logic app workflow to connect to BizTalk Server using the data gateway. This management service allows BizTalk Server to receive messages from a logic app workflow using the data gateway. This service is  used only on the receive side of BizTalk, not the send side.
 
-- If BizTalk Server is on-premises, install and configure the [on-premises data gateway](/azure/logic-apps/logic-apps-gateway-install) for Logic Apps. Then, in Azure, [create the data gateway resource](/azure/logic-apps/logic-apps-gateway-connection) to connect to your BizTalk Server.
-- If BizTalk Server is installed on an Azure VM, and the VM is not exposed as an HTTP endpoint, then install and configure the [on-premises data gateway](/azure/logic-apps/logic-apps-gateway-install) for Logic Apps. Then, in Azure, [create the data gateway resource](/azure/logic-apps/logic-apps-gateway-connection) to connect to your BizTalk Server.
-- If BizTalk Server is installed on an Azure VM, and the VM is exposed as an HTTP endpoint, then the gateway is not needed or used. 
+  - **ReceiveService**: Used by the BizTalk connector in a logic app workflow with the receive location. This service is responsible for sending messages from the logic app workflow. This service is used only on the receive side of BizTalk, not the send side.
 
-### Using the NullAdapter and Logic App Adapter together - BizTalk Server 2016 only
+## Receive messages from a workflow
 
-If you install the Logic App Adapter and the NullAdapter, you may see the following error:
+This section lists the extra steps required for BizTalk Server to receive messages from a logic app workflow. As the Azure portal can change, some steps might not exactly match those listed.
 
-`Another adapter with the same OutboundEngineCLSID value already exists`
+### BizTalk Server 2016 only: NullAdapter and Azure Logic Apps adapter
 
-The GUID of the Adapter class is the same for Logic App Adapter and NullAdapter. If both adapters are needed, you can:
+If you install the Azure Logic Apps adapter and the NullAdapter, you might see the following error:
+
+**Another adapter with the same OutboundEngineCLSID value already exists**
+
+The Adapter class GUID is the same for the Azure Logic Apps adapter and NullAdapter. If you need both adapters, follow these steps:
 
 1. Download the [NullAdapter source code on GitHub](https://github.com/tomasr/nulladapter).
-2. Update the GUID in the **NullSendAdapter.cs** class.
-3. Update the OutboundEngineCLSID value in the **NullAdapter.reg** file. 
-4. Build and deploy the NullAdapter.
+
+1. In the **NullSendAdapter.cs** class, update the GUID.
+
+1. In the **NullAdapter.reg** file, update the **OutboundEngineCLSID** value.
+
+1. Build and deploy the NullAdapter.
 
 ### Step 1: Create the IIS applications
 
-The IIS applications use the Management and ReceiveService services.
+The IIS applications use the servcies **Management** and **ReceiveService**. You can run the IIS applications using a new or existing application pool. The identity of the AppPool requires membership in the same groups as the account that runs the BizTalk services, such as the **BizTalk Application Users** and **BizTalk Isolated Host Users** groups.
 
-You can run the IIS applications using a new application pool, or an existing application pool. The identity of the AppPool requires membership to the same groups as the account that runs the BizTalk services, such as the BizTalk Application Users and BizTalk Isolated Host Users groups.  
-
-> [!TIP] 
-> If you create a new application pool, then keep the default .NET CLR version, and managed pipeline. Remember, choose an identity (Advanced Settings) that has membership to the same BizTalk groups as your BizTalk service account. 
+> [!TIP]
+>
+> If you create a new application pool, make sure to keep the default .NET CLR version and 
+> managed pipeline. Remember, choose an identity (Advanced Settings) that has membership 
+> to the same BizTalk groups as your BizTalk service account.
 
 #### Create the Management IIS application
 
-The URL of this IIS application is used by the BizTalk Connector (in your logic app) to use the data gateway on your BizTalk Server.
+The **BizTalkServer** connector in your logic app workflow uses the URL for this IIS application to connect through the data gateway on your BizTalk Server.
 
 ##### BizTalk Server 2020 and newer
 
-1. Configure the REST APIs using the BizTalk Configuration Wizard. For help with configuration, please refer to the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). For more details about the REST APIs, please refer to the [BizTalk REST API Reference](/rest/api/overview/biztalk/?view=rest-biztalk-2020&preserve-view=true)
-2. Open a web browser, and go to `http://localhost/BizTalkManagementService/Schemas`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then please check your REST API configuration.
+1. Configure the REST APIs using the BizTalk Configuration Wizard.
+
+   For more information, see the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). 
+
+   For more details about the REST APIs, see the [BizTalk REST API Reference](/rest/api/overview/biztalk/?view=rest-biztalk-2020&preserve-view=true).
+
+1. In a web browser, go to **`http://localhost/BizTalkManagementService/Schemas`**.
+
+   Based on your web browser, either the schemas list appears, or you get a prompt to open and save a **schemas.json** file. If neither happens, check your REST API configuration.
 
 ##### BizTalk Server 2016
 
 1. Open the Internet Information Services (IIS) Manager.
-2. Right-click **Default Web Site**, and **Add Application**. In this new application: 
 
-    1. Enter the **Alias** (name) for your application, such as **IISLogicApp**. 
-    2. **Select** the application pool.
-    3. Set the **Physical path** to `C:\Program Files (x86)\Microsoft BizTalk Server 2016\LogicApp Adapter\Management`. 
-    4. **Test Settings** to confirm the application pool identity passes the Authentication and Authorization tests.
+1. From the **Default Web Site** shortcut menu, select **Add Application**.
 
-3. Select **OK** to save your changes.
-4. Open a web browser, and go to `http://localhost/YourApplicationAlias/schemas?api-version=2016-10-26`, such as `http://localhost/IISLogicApp/Schemas?api-version=2016-10-26`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then your AppPool identity may be missing membership to the BizTalk groups.
+1. In this new application:
+
+    1. Enter the **Alias** (name) for your application, such as **IISLogicApp**.
+
+    1. Select the application pool.
+
+    1. Set the **Physical path** to **`C:\Program Files (x86)\Microsoft BizTalk Server 2016\LogicApp Adapter\Management`**.
+
+    1. Test the settings to confirm that the application pool identity passes the **Authentication** and **Authorization** tests.
+
+1. Select **OK** to save your changes.
+
+1. In a web browser, go to **`http://localhost/YourApplicationAlias/schemas?api-version=2016-10-26`**, for example: **`http://localhost/IISLogicApp/Schemas?api-version=2016-10-26`**.
+
+   Based on your web browser, either the schemas list appears, or you get a prompt to open and save a **schemas.json** file. If neither happens, your AppPool identity might be missing membership to the BizTalk groups.
 
 #### Create the BizTalk ReceiveService IIS application
 
-The URL of this IIS application is used by the BizTalk Connector (in your logic app) when you choose the receive location. 
+The **BizTalkServer** connector in your logic app workflow uses the URL for this IIS application for the receive location that you specify.
 
 1. Open the Internet Information Services (IIS) Manager.
-2. Right-click **Default Web Site**, and **Add Application**. In this new application: 
 
-    1. Enter the **Alias** (name) for your application, such as **ReceiveWCFService**. 
-    2. **Select** the same application pool as the previous IIS application.
-    3. Set the **Physical path** to:
-    
-        - BizTalk Server 2020: `C:\Program Files (x86)\Microsoft BizTalk Server\LogicApp Adapter\ReceiveService`. 
-        - BizTalk Server 2016: `C:\Program Files (x86)\Microsoft BizTalk Server 2016\LogicApp Adapter\ReceiveService`. 
-    
-    4. **Test Settings** to confirm the application pool identity passes the Authentication and Authorization tests.
+1. Open the **Default Web Site** shortcut menu, and select **Add Application**.
 
-3. Select **OK** to save your changes.
+1. In this new application, follow these steps:
 
-### Step 2: Create a logic app
+    1. Enter the **Alias** (name) for your application, such as **ReceiveWCFService**.
 
-1. In the [Azure portal](https://portal.azure.com), create a new logic app.
-2. Add the **When an HTTP request is received** trigger.
-3. Add the **BizTalk Server - Prepare message from JSON** action. 
-4. **Optional**: Select **Connect via on-premise data gateway**, and enter the following: 
+    1. Select the same application pool as the previous IIS application.
+
+    1. Set the **Physical path** to the following, based on the version:
+
+        - BizTalk Server 2020: **`C:\Program Files (x86)\Microsoft BizTalk Server\LogicApp Adapter\ReceiveService`**
+        - BizTalk Server 2016: **`C:\Program Files (x86)\Microsoft BizTalk Server 2016\LogicApp Adapter\ReceiveService`**
+
+    1. Test the settings to confirm that the application pool identity passes the **Authentication** and **Authorization** tests.
+
+1. Select **OK** to save your changes.
+
+### Step 2: Create a logic app workflow
+
+1. In the [Azure portal](https://portal.azure.com), create a new logic app resource and blank workflow.
+
+1. Based on the workflow that you create, [follow these generic steps to add the **Request** trigger named **When an HTTP request is received**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-trigger) to your workflow.
+
+1. [Follow these generic steps to add the **BizTalkServer** action named **Prepare message from JSON**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-action) to your workflow.
+
+1. On the action's connection pane, provide the following information:
 
    | Property | Description |
-   | --- | --- |
-   | BizTalk Server URL | Enter the fully qualified domain name (FQDN) of the BizTalk Management in IIS application URL. For example, enter `http://BizTalkServerName.corp.contoso.com/IISLogicApp/`. |
-   | Authentication Type | Select **Windows**. |
-   | Username | Enter the identity of the IIS application pool. |
-   | Password | Enter the password of the IIS application pool. |
-   | Gateway | Select the gateway you created. |
+   |----------|-------------|
+   | **Connect via on-premises data gateway** | Select if you're using the on-premises data gateway. The gateway is required only in the following scenarios: <br><br>- You're using an on-premises BizTalk Server. <br><br>- You're using a BizTalk Server on an Azure virtual machine, but the virtual machine isn't exposed as an HTTP endpoint. |
+   | **Connection Name** | Enter a friendly name for the connection. |
+   | **BizTalk Server URL** | Enter the fully qualified domain name (FQDN) of the BizTalk Management in IIS application URL. For example, enter **`http://BizTalkServerName.corp.contoso.com/IISLogicApp/`**. |
+   | **Authentication Type** | Select **Windows**. |
+   | **Username** | Enter the identity of the IIS application pool. |
+   | **Password** | Enter the password of the IIS application pool. |
+   | **Gateway** | - **Subscription**: Select the Azure subscription associated with the gateway resource that you created in the Azure portal. <br><br>- **Gateway**: Select the gateway resource that you created in the Azure portal. |
 
-    > [!TIP] 
-    > Remember, the data gateway is only required if:
-    > - You're using an on-premises BizTalk Server
-    > - You're using a BizTalk Server Azure virtual machine *and* the VM is NOT exposed as an HTTP endpoint (no URL)
+1. Select **Create New**.
 
-5. Select **Create**. 
-6. Configure the action. For **Body**, select the HTTP body output. For **Schema**, select the schema you want to use. 
+1. After the action information pane appears, provide the necessary details, for example:
 
-    > [!NOTE] 
-    > This step assumes you are familiar with schemas in BizTalk, and know which schema you want. If you're not sure, then deploy the HelloWorld SDK sample, update its artifacts to use the Logic App adapter, and use its schema and sample message. 
+   | Property | Description |
+   |----------|-------------|
+   | **Body** | Select the HTTP body output. |
+   | **Schema** | Select the schema you want to use. |
 
-7. Add a new step, and select the **BizTalk Server - Send message** action. For  **Receive Location**, select the URL from the drop-down list, or enter the fully qualified domain name (FQDN) of the ReceiveService IIS application URL. For example, enter `http://BizTalkServerName.corp.contoso.com/ReceiveWCFService/Service1.svc`.
+   > [!NOTE] 
+   >
+   > This step assumes that you're familiar with schemas in BizTalk, and that you know which 
+   > schema you want. If you're not sure, deploy the HelloWorld SDK sample, update its artifacts 
+   > to use the Azure Logic Apps adapter, and use its schema and sample message.
 
-    > [!TIP] 
-    > When you create the receive location, this exact URL will also be entered in the receive location transport properties as the **Public Address** (General tab).
+1. [Follow these generic steps to add the **BizTalkServer** action named **Send message**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-action) to your workflow.
 
-    For **Body**, select the body output from the previous BizTalk Server action. 
+   | Property | Description |
+   |----------|-------------|
+   | **Receive Location** | From the list, select the URL, or enter the fully qualified domain name (FQDN) for the ReceiveService IIS application URL. For example, enter **`http://BizTalkServerName.corp.contoso.com/ReceiveWCFService/Service1.svc`**. <br><br>When you create the receive location, you also enter this exact URL on the **General** tab as the **Public Address** in the receive location transport properties. |
+   | **Body** | Select the body output from the preceding BizTalk Server action. |
 
-8. **Save** your changes. 
+1. Save your workflow. On the designer toolbar, select **Save**.
 
-When you save, the HTTP Request trigger automatically creates a URL. Copy this URL. You need it in [Step 4: Send a message](#step-4-send-a-message) (in this article).
+   This step automatically creates an endpoint URL, which appears in the **Request** trigger. You can send HTTP requests to this URL, which *trigger* or cause the workflow to start running.
+
+1. Copy and save the endpoint URL. You need this information for [Step 4: Send a message](#step-4-send-a-message).
 
 ### Step 3: Create a receive port and a receive location
 
-> [!NOTE] 
-> Instead of creating your own receive ports and receive location, you can deploy the HelloWorld SDK sample. Update the artifacts to use the Logic Apps adapter. 
- 
-This section lists the steps to create your own artifacts. 
+This section describes how to create your own artifacts.
 
-1. In BizTalk Server Administration, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application you want to run the receive location. For example, expand **BizTalk Application 1**.
-2. Right-select **Receive Ports**, select **New**, and select **One-way Receive Port**.
-3. In the Receive Port properties, enter the following:  
+> [!TIP] 
+>
+> Rather than create your own receive ports and receive location, you can deploy the 
+> HelloWorld SDK sample, and then update the artifacts to use the Azure Logic Apps adapter. 
 
-    | Use this | To do this |
-    | --- | --- |
-    | **Name** | Enter a name for the receive port. For example, enter **LAReceivePort**. |
-    | **Authentication** | Options: <br/><ul><li>No Authentication: Default. Disables authentication.</li><li>Drop messages if authentication fails: Enables authentication but to drop unauthenticated messages.</li><li>Keep messages if authentication fails: Click this option to enable authentication and keep unauthenticated messages. </li></ul>|
-    | **Enable routing for failed messages** | Routes any message that fails processing to a subscribing application (such as another receive port or orchestration schedule). Uncheck this option to suspend failed messages and generate a negative acknowledgment (NACK). The default value is cleared. For more information, see [How to Enable Routing for Failed Messages for a Receive Port](../core/how-to-enable-routing-for-failed-messages-for-a-receive-port.md).|
+1. In BizTalk Server Administration, expand the following:
 
-4. Select **Receive Locations**, and select **New**. 
-5. Enter a **Name** for the receive location. For example, enter **LAReceiveLoc**.
-6. For the **Type**, select **LogicApp** from the list, and select the **Configure button**. 
-7. In the **General** tab, configure the endpoint address for your logic app:
+   **BizTalk Server Administration** > **BizTalk Group** > **Applications**
 
-    | Use this | To do this |
-    | --- | --- |
-    | **Address (URI)** | Required. Enter the BizTalk ReceiveService IIS application URL (`/YourIISApp2Name/Service1.svc`). For example, enter `/ReceiveWCFService/Service1.svc`. |
-    | **Public Address** | Required. Enter `http://<your fully qualified machine name>/YourIISApp2Name/Service1.svc`. For example, enter `http://btsProd.northamerica.corp.contoso.com/ReceiveWCFService/Service1.svc`. <br/><br/>This exact URL is also listed in your logic app in the receive location.|
+1. Expand the application to use for running the receive location. For example, expand **BizTalk Application - Receive**.
 
-8. **Optional**. In the **Binding** tab, configure any timeout and encoding-related properties of the underlying WCF-WebHttp binding. These properties are helpful when dealing with large messages.
+1. From the **Receive Ports** shortcut menu, select **New**, and select **One-way Receive Port**.
 
-    | Use this | To do this |
-    | --- | --- |
-    | Open timeout | Enter the time interval it should take for the channel open operation to complete. This value should be greater than or equal to System.TimeSpan.Zero. <br/><br/>Default value: 00:01:00<br/>Maximum value: 23:59:59 |
-    | Send timeout |Enter the time interval it should take for the send operation to complete. This value should be greater than or equal to System.TimeSpan.Zero. If you use a request-response receive port, this value specifies a time span for the entire interaction to complete, even if the client returns a large message. <br/><br/>Default value: 00:01:00<br/>Maximum value: 23:59:59|
-    | Close timeout | Enter the time interval it should take for the channel close operation to complete. This value should be greater than or equal to System.TimeSpan.Zero. <br/><br/>Default value: 00:01:00<br/>Maximum value: 23:59:59 |
-    | Maximum received message size (bytes) | Enter the maximum size, in bytes, for a message including headers, to be received on the wire. The size of the messages is bound by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks. <br/><br/>Default value: 65536<br/>Maximum value: 2147483647|
-    | Maximum concurrent calls | Enter the number of concurrent calls to a single service instance. Calls in excess of the limit are queued. Setting this value to 0 is equivalent to setting it to Int32.MaxValue. <br/><br/>The default is 200.|
+1. In the **Receive Port** properties, enter the following information:
 
-9. **Optional**. In the **Security** tab, configure any security properties. For development purposes, you can choose None:
+   | Property | Description |
+   |----------|-------------|
+   | **Name** | Enter a name for the receive port. For example, enter **LAReceivePort**. |
+   | **Authentication** | <br>- **No Authentication** (default): Disable authentication. <br><br>- **Drop messages if authentication fails**: Enable authentication but drops unauthenticated messages. <br><br>- **Keep messages if authentication fails**: Enable authentication and keep unauthenticated messages. |
+   | **Enable routing for failed messages** | Route any message that fails processing to a subscribing application, such as another receive port or orchestration schedule. Clear this option to suspend failed messages and generate a negative acknowledgment (NACK). By default, the option is cleared. <br><br>For more information, see [How to Enable Routing for Failed Messages for a Receive Port](../core/how-to-enable-routing-for-failed-messages-for-a-receive-port.md). |
 
-    | Use this | To do this |
-    | --- | --- |
-    | Security mode | Options:  <br/><br/><ul><li>None: Messages are not secured during transfer.</li><li>Transport: Security is provided using the HTTPS transport. The SOAP messages are secured using HTTPS. To use this mode, you must set up Secure Sockets Layer (SSL) in Internet Information Services (IIS). </li><li>TransportCredentialOnly: Default. </li></ul> |
-    | Transport client credential types | Choose the credential type when using client authentication. Options:  <br/><br/><ul><li>None: No authentication occurs at the transport level.</li><li>Basic: Uses Basic authentication to send user names and passwords in plain text over the network. You must create the domain or local user accounts corresponding to the credentials.</li><li>Digest: Uses Digest authentication to send passwords as a hash value over the network. Only available on domains with domain controllers running Windows Server operating systems authentication. You must create the domain or local user accounts corresponding to client credentials.</li><li>Ntlm: Default. Clients sends the credentials without sending a password to this receive location. You must create the domain or local user accounts corresponding to client credentials.</li><li>Windows: Windows integrated authentication negotiates Kerberos or NTLM, preferring Kerberos if a domain is present. To use Kerberos, it is important to have the client identify the service with a service principal name (SPN). You must create the domain or local user accounts corresponding to client credentials.</li><li>Certificate: Uses a client certificate. The CA certificate chain for the client X.509 certificates must be installed in the Trusted Root Certification Authorities certificate store of this computer so that the clients can authenticate to this receive location.</li><li>InheritedFromHost</li></ul> |
-    | Use Single Sign-On | |
+1. Select **Receive Locations**, and select **New**.
 
-10. **Optional**. In the **Messages** tab, use the **Outbound HTTP Headers** property to add any custom headers, and use the additional properties to help with faults: 
+1. Enter a **Name** for the receive location. For example, enter **LAReceiveLoc**.
 
-    | Use this | To do this |
-    | --- | --- |
-    |Outbound HTTP Headers | Enter any HTTP headers that you want stamped on the response message. | 
-    | Disable location on failure | Disables the receive location if inbound processing fails due to a receive pipeline failure or a routing failure. Default is unchecked.|
-    | Suspend request message on failure | Suspends the request message if inbound processing fails due to a receive pipeline failure or a routing failure. Default is unchecked.|
-    | Include exception detail in faults | When an error occurs, returns any SOAP faults to help debugging. Default is unchecked.|
+1. For **Type**, select **LogicApp**, and then select **Configure**.
 
-[Managing Receive Locations](../core/managing-receive-locations.md) describes the additional properties. 
+1. On the **General** tab, set up the endpoint address for your logic app workflow:
+
+   | Property | Description |
+   |----------|-------------|
+   | **Address (URI)** | Required. Enter the BizTalk ReceiveService IIS application URL as follows: <br><br>Format: **`/{your-IIS-app2-name}/Service1.svc`** <br><br>Example: **`/ReceiveWCFService/Service1.svc`**. |
+   | **Public Address** | Required. Enter the following URL as follows: <br><br>Format: **`http://{fully-qualified-machine-name}/{your-IIS-App2-name}/Service1.svc`**. <br><br>Example: **`http://btsProd.northamerica.corp.contoso.com/ReceiveWCFService/Service1.svc`** <br><br>This exact URL is also listed in your logic app in the receive location. |
+
+1. **Optional**. On the **Binding** tab, configure any timeout and encoding-related properties of the underlying WCF-WebHttp binding. The following properties are helpful when handling large messages:
+
+   | Property | Description |
+   |----------|-------------|
+   | **Open timeout** | Enter the time interval expected for the channel open operation to complete. This value is greater than or equal to **System.TimeSpan.Zero**. <br><br>- Default value: 00:01:00 <br>- Maximum value: 23:59:59 |
+   | **Send timeout** | Enter the time interval expected for the send operation to complete. This value is greater than or equal to **System.TimeSpan.Zero**. If you use a request-response receive port, this value specifies a time span for the entire interaction to complete, even if the client returns a large message. <br><br>- Default value: 00:01:00 <br>- Maximum value: 23:59:59 |
+   | **Close timeout** | Enter the time interval expected for the channel close operation to complete. This value is greater than or equal to **System.TimeSpan.Zero**. <br><br>- Default value: 00:01:00 <br>- Maximum value: 23:59:59 |
+   | **Maximum received message size** (bytes) | Enter the maximum size in bytes for a message, including headers, to be received on the wire. The message size is bound by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks. <br><br>- Default value: 65536 <br>- Maximum value: 2147483647 |
+   | **Maximum concurrent calls** | Enter the number of concurrent calls to a single service instance. Calls that exceed the limit are queued. Setting this value to **0** is equivalent to setting the value to **Int32.MaxValue**. <br><br>Default value: 200 |
+
+1. **Optional**. On the **Security** tab, configure any security properties. For development purposes, you can select **None**:
+
+   | Property | Description |
+   |----------|-------------|
+   | **Security mode** | - **None**: Messages aren't secured during transfer. <br><br>- **Transport**: Security is provided using the HTTPS transport. The SOAP messages are secured using HTTPS. To use this mode, you must set up Secure Sockets Layer (SSL) in IIS. <br><br>- **TransportCredentialOnly**: Default. |
+   | **Transport client credential types** | Select the credential type when you use client authentication. <br><br>- **None**: No authentication occurs at the transport level. <br><br>- **Basic**: Use Basic authentication to send user names and passwords in plain text over the network. You must create the domain or local user accounts corresponding to the credentials. <br><br>- **Digest**: Use Digest authentication to send passwords as a hash value over the network. Only available on domains with domain controllers running Windows Server operating systems authentication. You must create the domain or local user accounts corresponding to client credentials. <br><br>- **Ntlm** (default): Clients send the credentials without sending a password to this receive location. You must create the domain or local user accounts corresponding to client credentials. <br><br>- **Windows**: Windows integrated authentication negotiates Kerberos or NTLM, preferring Kerberos if a domain is present. To use Kerberos, it is important to have the client identify the service with a service principal name (SPN). You must create the domain or local user accounts corresponding to client credentials. <br><br>- **Certificate**: Use a client certificate. You must install the CA certificate chain for the client X.509 certificates in the Trusted Root Certification Authorities certificate store of this computer so that the clients can authenticate to this receive location. <br><br>- **InheritedFromHost** |
+   | **Use Single Sign-On** | |
+
+1. **Optional**. On the **Messages** tab, use the **Outbound HTTP Headers** property to add any custom headers, and use the additional properties to help with faults: 
+
+   | Property | Description |
+   |----------|-------------|
+   | **Outbound HTTP Headers** | Enter any HTTP headers that you want stamped on the response message. | 
+   | **Disable location on failure** | Disable the receive location if inbound processing fails due to a receive pipeline failure or a routing failure. By default, the option is cleared. |
+   | **Suspend request message on failure** | Suspend the request message if inbound processing fails due to a receive pipeline failure or a routing failure. By default, the option is cleared. |
+   | **Include exception detail in faults** | When an error occurs, return any SOAP faults to help debugging. By default, the option is cleared. |
+
+For more receive port and location properties, see [Managing Receive Locations](../core/managing-receive-locations.md).
 
 ### Step 4: Send a message
 
-1. Open Fiddler or Postman (or whatever you prefer).
-2. Paste the URL of the Request trigger from your logic app. You copied this URL in Step 3. 
-3. Select **POST** as the HTTP verb, and set the **Content-type** header to `application/json`. In the body, paste the following JSON:  
+1. Open your tool for sending HTTP messages or requests.
 
-    ```json
-    {"hello":"world"}
-    ```
+1. Paste the endpoint URL that you saved from the **Request** trigger in your logic app workflow. You copied this URL in an earlier step.
 
-4. Because this is a one-way call to BizTalk, the result should be an HTTP 202. If you're using the HelloWorld SDK sample, go to your BizTalk server. There may be a file in your send folder. 
+1. Select **POST** as the HTTP method to use. Set the **Content-type** header to **`application/json`**. In the request body, paste the following JSON, and follow the tool's instructions to send the HTTP message.
 
-## Send messages to a logic app
+   ```json
+   {"hello":"world"}
+   ```
 
-### Step 1: Create a logic app
+   As the request is a one-way call to BizTalk, you should expect an HTTP 202 as the result.
 
-1. In the [Azure portal](https://portal.azure.com), create a new logic app.
-2. Add the **When an HTTP request is received** trigger
-3. Add the **Office 365 Outlook - Send an email** action. For the **To** address, enter your Office 365 address. For the **Subject**, enter `Sending from BizTalk`. For **Body**, choose the *Body* output from the **When an HTTP request is received** trigger. 
-4. Your logic app looks similar to the following example: 
+1. If you're using the HelloWorld SDK sample, go to your BizTalk server. A file might exist in your send folder. 
 
-    :::image type="content" source="../core/media/logicappexample.gif" alt-text="LogicApp adapter example that uses Office 365 and Outlook":::
+## Send message to logic app workflow
 
-5. Copy the HTTP POST URL that is automatically created when you save the logic app; you need this URL in the next step. You may have to close and reopen the logic app to see the URL.  
+### Step 1: Create a logic app workflow
 
-### Step 2: Create a Send Port
+1. In the [Azure portal](https://portal.azure.com), create a new logic app resource and blank workflow.
 
-For BizTalk Server to send messages to a logic app, the logic app must have a **Manual** trigger, such as **Manual - When an HTTP request is received**. 
+1. [Follow these generic steps to add the **Request** trigger named **When an HTTP request is received**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-trigger) to your workflow.
 
-1. In BizTalk Server Administration, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application you want to run the send port. For example, expand **BizTalk Application 1**.
-2. Right-select **Send Ports**, select **New**, and select **Static One-way Send Port**.
-3. Enter a **Name** for the send port. For example, enter **LASendPort**.
-4. For the **Type**, select **LogicApp** from the list, and select the **Configure** button. 
-5. In the **General** tab, configure the **Callback URI** of your logic app trigger. There are two ways to do this: 
+1. Assuming that you have a Microsoft work or school account, [follow these generic steps to add the **Office 365 Outlook** action named **Send an email**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-action) to your workflow.
 
-    **Option 1** : Paste the HTTP POST URL you copied in the previous step in the **Trigger (Callback URI)** property. You can also copy the URI using the following steps:  
-  
-   1. In the [Azure portal](https://portal.azure.com), open your logic app in the Logic Apps designer (edit mode). 
-   2. Select the **When an HTTP request is received** card, and copy the **URL**. 
-   3. In your send port, paste this URL in the **Trigger (Callback URI)** property.
+1. If prompted, sign in to Office 365 Outlook.
 
-      > [!TIP] 
-      > You can also use your management APIs to get this URI.
+1. On the action's connection pane, provide the following information:
 
-      **Option 2** : If you don't know the Callback URI for your trigger, select **Configure**, and sign-in to Azure. Then, use the drop-down lists to choose your **Subscription**, **Resource Group**, **Logic App**, and **Trigger**.
+   | Property | Description |
+   |----------|-------------|
+   | **To** | Enter your Office 365 email address. |
+   | **Subject** | Enter **Sending from BizTalk**. |
+   | **Body** | Select inside the edit box. When the lightning and function icons appear, select the lightning icon to open the dynamic content list. From the list, under **When a HTTP request is received**, select the trigger output that you want to include in the email. |
 
-6. **Optional**. In the **Binding** tab, configure any timeout and encoding-related properties of the underlying WCF-WebHttp binding. These properties are helpful when dealing with large messages.
+   Your workflow looks similar to the following example: 
 
-    | Use this | To do this |
-    | --- | --- |
-    | Open timeout | Enter the time interval it should take for the channel open operation to complete. This value should be greater than or equal to System.TimeSpan.Zero. <br/><br/>Default value: 00:01:00<br/>Maximum value: 23:59:59 |
-    | Send timeout |Enter the time interval it should take for the send operation to complete. This value should be greater than or equal to System.TimeSpan.Zero. If you use a request-response receive port, this value specifies a time span for the entire interaction to complete, even if the client returns a large message. <br/><br/>Default value: 00:01:00<br/>Maximum value: 23:59:59|
-    | Close timeout | Enter the time interval it should take for the channel close operation to complete. This value should be greater than or equal to System.TimeSpan.Zero. <br/><br/>Default value: 00:01:00<br/>Maximum value: 23:59:59 |
-    | Maximum received message size (bytes) | Enter the maximum size, in bytes, for a message including headers, to be received on the wire. The size of the messages is bound by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks. <br/><br/>The logic appa adapter leverages the [WebHttpBinding class](/dotnet/api/system.servicemodel.webhttpbinding) in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the [WebHttpBinding.MaxBufferSize](/dotnet/api/system.servicemodel.webhttpbinding.maxbuffersize) property is always equal to the value of this property.  <br/><br/>Default value: 65536<br/>Maximum value: 2147483647 |
+   :::image type="content" source="media/logic-app-adapter/logic-app-example-request-trigger.png" alt-text="Screenshot shows workflow with example Request trigger information." lightbox="media/logic-app-adapter/logic-app-example-request-trigger.png":::
 
-7. **Optional**. In the **Messages** tab, use the **Outbound HTTP Headers** property to add any custom headers on the outgoing message. 
-8. Select **OK** to save your configuration. 
+   :::image type="content" source="media/logic-app-adapter/logic-app-example-email-action.png" alt-text="Screenshot shows workflow with example Office 365 Outlook action information." lightbox="media/logic-app-adapter/logic-app-example-email-action.png":::
 
-[Managing Send Ports and Send Port Groups](../core/managing-send-ports-and-send-port-groups.md) describes the additional send port properties. 
+1. Save your workflow. On the designer, select **Save**.
+
+1. In the **Request trigger** information, copy the **HTTP URL**, which is automatically created when you save the workflow. You need this URL for the next step. If the URL doesn't appear, you might have to close and reopen the logic app.
+
+### Step 2: Create a send port
+
+For BizTalk Server to send messages to a logic app workflow, the workflow must start with a **`manual`** trigger, such as **When a HTTP request is received**.
+
+1. In BizTalk Server Administration, expand the following:
+
+   **BizTalk Server Administration** > **BizTalk Group** > **Applications**
+
+1. Expand the application to use for running the send port. For example, expand **BizTalk Application - Send**.
+
+1. From the **Send Ports** shortcut menu, select **New**, and select **Static One-way Send Port**.
+
+1. Enter a **Name** for the send port. For example, enter **LASendPort**.
+
+1. From the **Type** list, select **LogicApp**, and select **Configure**.
+
+1. On the **General** tab, provide the **Callback URI** for your logic app workflow trigger by choosing an option:
+
+   **Option 1**
+
+   In the **Trigger (Callback URI)** property, paste the previously copied **HTTP URL**.
+
+   > [!TIP]
+   >
+   > You can also use your Azure Resource Manager APIs to get this URI.
+
+   **Option 2**
+
+   If you don't know the **Callback URI**, select **Configure**, and sign in to Azure. Select the values for **Subscription**, **Resource Group**, **Logic App**, and **Trigger**.
+
+1. **Optional**. On the **Binding** tab, configure any timeout and encoding-related properties of the underlying WCF-WebHttp binding. These properties are helpful when handling large messages:
+
+   | Property | Description |
+   |----------|-------------|
+   | **Open timeout** | Enter the time interval expected for the channel open operation to complete. This value is greater than or equal to **System.TimeSpan.Zero**. <br><br>- Default value: 00:01:00 <br>- Maximum value: 23:59:59 |
+   | **Send timeout** | Enter the time interval expected for the send operation to complete. This value is greater than or equal to **System.TimeSpan.Zero**. If you use a request-response receive port, this value specifies a time span for the entire interaction to complete, even if the client returns a large message. <br><br>- Default value: 00:01:00 <br>- Maximum value: 23:59:59 |
+   | **Close timeout** | Enter the time interval expected for the channel close operation to complete. This value is greater than or equal to **System.TimeSpan.Zero**. <br><br>- Default value: 00:01:00 <br>- Maximum value: 23:59:59 |
+   | **Maximum received message size** (bytes) | Enter the maximum size in bytes for a message, including headers, to be received on the wire. The message size is bound by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks. <br><br>The Azure Logic Apps adapter uses the [WebHttpBinding class](/dotnet/api/system.servicemodel.webhttpbinding) in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the [WebHttpBinding.MaxBufferSize](/dotnet/api/system.servicemodel.webhttpbinding.maxbuffersize) property is always equal to the value of this property. <br><br>- Default value: 65536 <br>- Maximum value: 2147483647 |
+
+1. **Optional**. On the **Messages** tab, use the **Outbound HTTP Headers** property to add any custom headers on the outgoing message.
+
+1. Select **OK** to save your configuration. 
+
+For more send port properties, see [Managing Send Ports and Send Port Groups](../core/managing-send-ports-and-send-port-groups.md).
 
 ### Step 3: Send some messages
 
-You can create a receive port and receive location using the File adapter. Be sure your logic app is enabled.
+You can create a receive port and a receive location by using the **File** adapter. Make sure that your logic app resource is enabled.
 
-1. Create a receive port, such as *FileSendPort*,
-2. Create a receive location, and set the properties similar to:  
+1. Create a receive port, for example, ***FileSendPort**.
+
+1. Create a receive location, and set the properties similar to the following example values:
 
    | Property | Sample input |
-   | --- | --- |
-   | Receive folder | C:\temp\In\ |
-   | File mask | *.txt |
-   | Pipeline | PassThruReceive |
+   |----------|--------------|
+   | **Receive folder** | **`C:\temp\In\`** |
+   | **File mask** | **`*.txt`** |
+   | **Pipeline** | **`PassThruReceive`** |
 
-3. In the send port you created, set the **Filter** to:
+1. In the send port that you previously created, set the **Filter** to the following example values:
 
-    | Property | Operator | Value |
-    | --- | --- | --- |
-    | BTS.ReceivePortName |  == | *FileSendPort* |
+   | Property | Operator | Value |
+   |----------|----------|-------|
+   | **BTS.ReceivePortName** | **==** | **`FileSendPort`** |
 
-4. Create a text file (FileName.txt) with the following text. Use this text file as your sample message: 
+1. Create a text file named **{file-name}.txt** with the following text, and then this text file as your sample message: 
 
     ```xml
     <Data>
@@ -306,12 +406,12 @@ You can create a receive port and receive location using the File adapter. Be su
     </Data>
     ```
 
-5. Copy your sample message (FileName.txt) into the receive folder. The send port sends the .txt file to the logic app using the URI you entered. Your logic app receive the files. If you used the Office 365 Outlook connector, your *To* email address should receive the email, with the sample message.
+1. Copy **{file-name}.txt** into the receive folder.
+
+   The send port sends the .txt file to the logic app workflow by using the URI that you provided. After your workflow receives the files, the workflow sends an email with the sample message to the specified **To** address.
 
 ## Next
 
-[What are Logic Apps](/azure/logic-apps/logic-apps-overview)  
-
-[Create a logic app](/azure/logic-apps/quickstart-create-first-logic-app-workflow)
-
-[Using adapters in BizTalk Server](../core/using-adapters.md)
+- [What is Azure Logic Apps?](/azure/logic-apps/logic-apps-overview)
+- [Create an example Consumption logic app workflow in multitenant Azure Logic Apps](/azure/logic-apps/quickstart-create-first-logic-app-workflow)
+- [Using adapters in BizTalk Server](../core/using-adapters.md)
