@@ -35,7 +35,7 @@ This guide shows how to create a receive location and a send port using the Azur
 
 - Some familiarity with Azure Logic Apps. If you're new to logic apps, see [What is Azure Logic Apps?](/azure/logic-apps/logic-apps-overview) and [create an example Consumption logic app workflow in multitenant Azure Logic Apps](/azure/logic-apps/quickstart-create-first-logic-app-workflow).
 
-- Optionally, to send a test message to your logic app workflow, you need a way to send an HTTP request or message to your logic app workflowm, either using a tool  or some other method. Some tools include the following examples:
+- Optionally, assuming that your workflow starts with a trigger that can receive HTTP requests, such as a **Request** trigger, you can send a test message that triggers your logic app workflow. To send this message, use a tool that can send HTTP requests to the endpoint URL generated for the trigger in your workflow. The following list includes some example tools:
 
   - [Visual Studio Code](https://code.visualstudio.com/download) with an extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/vscode)
   - [PowerShell Invoke-RestMethod](https://powershell/module/microsoft.powershell.utility/invoke-restmethod)
