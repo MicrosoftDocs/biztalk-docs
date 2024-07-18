@@ -38,8 +38,8 @@ This guide shows how to create a receive location and a send port using the Azur
 - Optionally, assuming that your workflow starts with a trigger that can receive HTTP requests, such as a **Request** trigger, you can send a test message that triggers your logic app workflow. To send this message, use a tool that can send HTTP requests to the endpoint URL generated for the trigger in your workflow. The following list includes some example tools:
 
   - [Visual Studio Code](https://code.visualstudio.com/download) with an extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/vscode)
-  - [PowerShell Invoke-RestMethod](https://powershell/module/microsoft.powershell.utility/invoke-restmethod)
-  - [Microsoft Edge - Network Console tool](https://microsoft-edge/devtools-guide-chromium/network-console/network-console-tool)
+  - [PowerShell Invoke-RestMethod](/powershell/module/microsoft.powershell.utility/invoke-restmethod)
+  - [Microsoft Edge - Network Console tool](/microsoft-edge/devtools-guide-chromium/network-console/network-console-tool)
   - [Bruno](https://www.usebruno.com/)
   - [Curl](https://curl.se/)
 
@@ -175,9 +175,9 @@ The **BizTalkServer** connector in your logic app workflow uses the URL for this
 
 1. In the [Azure portal](https://portal.azure.com), create a new logic app resource and blank workflow.
 
-1. Based on the workflow that you create, [follow these generic steps to add the **Request** trigger named **When an HTTP request is received**](/azure/logic-apps/create-workflow-with-trigger-or-action.md#add-trigger) to your workflow.
+1. Based on the workflow that you create, [follow these generic steps to add the **Request** trigger named **When an HTTP request is received**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-trigger) to your workflow.
 
-1. [Follow these generic steps to add the **BizTalkServer** action named **Prepare message from JSON**](/azure/logic-apps/create-workflow-with-trigger-or-action.md#add-action) to your workflow.
+1. [Follow these generic steps to add the **BizTalkServer** action named **Prepare message from JSON**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-action) to your workflow.
 
 1. On the action's connection pane, provide the following information:
 
@@ -206,7 +206,7 @@ The **BizTalkServer** connector in your logic app workflow uses the URL for this
    > schema you want. If you're not sure, deploy the HelloWorld SDK sample, update its artifacts 
    > to use the Azure Logic Apps adapter, and use its schema and sample message.
 
-1. [Follow these generic steps to add the **BizTalkServer** action named **Send message**](/azure/logic-apps/create-workflow-with-trigger-or-action.md#add-action) to your workflow.
+1. [Follow these generic steps to add the **BizTalkServer** action named **Send message**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-action) to your workflow.
 
    | Property | Description |
    |----------|-------------|
@@ -308,9 +308,9 @@ For more receive port and location properties, see [Managing Receive Locations](
 
 1. In the [Azure portal](https://portal.azure.com), create a new logic app resource and blank workflow.
 
-1. [Follow these generic steps to add the **Request** trigger named **When an HTTP request is received**](/azure/logic-apps/create-workflow-with-trigger-or-action.md#add-trigger) to your workflow.
+1. [Follow these generic steps to add the **Request** trigger named **When an HTTP request is received**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-trigger) to your workflow.
 
-1. Assuming that you have a Microsoft work or school account, [follow these generic steps to add the **Office 365 Outlook** action named **Send an email**](/azure/logic-apps/create-workflow-with-trigger-or-action.md#add-action) to your workflow.
+1. Assuming that you have a Microsoft work or school account, [follow these generic steps to add the **Office 365 Outlook** action named **Send an email**](/azure/logic-apps/create-workflow-with-trigger-or-action#add-action) to your workflow.
 
 1. If prompted, sign in to Office 365 Outlook.
 
