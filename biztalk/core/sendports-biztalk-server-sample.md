@@ -78,9 +78,12 @@ The SendPorts sample demonstrates how to enumerate and manage send ports by usin
 2.  Run the file SendPorts.exe.
 
 ## Windows PowerShell Script Example
- The following Windows PowerShell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:
 
-```
+The following Windows PowerShell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
+```powershell
 Function CreateSendPorts($Catalog)
 {
     #=== Register a trap handler to discard changes on exceptions ===#

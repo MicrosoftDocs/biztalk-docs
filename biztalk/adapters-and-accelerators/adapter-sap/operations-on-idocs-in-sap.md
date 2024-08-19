@@ -69,9 +69,11 @@ Segment header (DOCNUM is one of the fields here)  |  Segment data
   
 ## Operations to Receive an IDOC  
  To receive an IDOC, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] can behave either as a tRFC server or an RFC server:  
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
-- For the adapter to behave as a tRFC server, the binding property **TidDatabaseConnectionString** must be set to the connection string for the TID database on your computer. For a tRFC server scenario, the adapter accepts a tRFC client call from the SAP system to receive the IDOC.  
-  
+- For the adapter to behave as a tRFC server, the binding property **TidDatabaseConnectionString** must be set to the connection string for the TID database on your computer. For a tRFC server scenario, the adapter accepts a tRFC client call from the SAP system to receive the IDOC.
+ 
 - For the adapter to behave as an RFC server, the **TidDatabaseConnectionString** should be null (default). For an RFC server scenario, the adapter accepts an RFC client call from the SAP system to receive the IDOC.  
   
   The following RFCs are used to send and receive IDOCs; when sending IDOCs, the adapter uses these RFCs, whereas when receiving IDOCS, the SAP system uses them.  

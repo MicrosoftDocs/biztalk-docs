@@ -72,7 +72,10 @@ The CBR sample demonstrates using the **ExplorerOM** administrative objects to a
 5. Press F5 in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to refresh the view under the **Send Ports** node. You should now see the two new ports added to CBRApplication by this sample. They are called SendportUSOrders and SendportCANOrders.
 
 ## Windows PowerShell Script Example
- The following Windows PowerShell script can be used to demonstrate the same features of the **ExplorerOM** classes. However, because the **Add** method for the **SendPort.OutboundTranforms** collection is marked Internal in the **ExplorerOM** assembly it cannot be called directly from Windows PowerShell. This Windows PowerShell script demonstrates using the BizTalk WMI Provider from Windows PowerShell to add the outbound transform map to the new port.
+
+The following Windows PowerShell script can be used to demonstrate the same features of the **ExplorerOM** classes. However, because the **Add** method for the **SendPort.OutboundTranforms** collection is marked Internal in the **ExplorerOM** assembly it cannot be called directly from Windows PowerShell. This Windows PowerShell script demonstrates using the BizTalk WMI Provider from Windows PowerShell to add the outbound transform map to the new port.
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```
 Function WMI_AddOutboundTransformToPort($transform,$strPortName)

@@ -8,7 +8,9 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
+
 # Receive polling-based data-changed messages in Oracle Database adapter
+
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports receiving polling-based data-changed messages by polling the Oracle database. The adapter delivers the messages to your application by:  
 
 - Executing a SQL SELECT query to determine whether data is available for polling. You can configure the adapter to execute the SQL SELECT query periodically or continuously.  
@@ -24,13 +26,22 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports recei
   The adapter also enables you to receive data-changes messages for multiple Oracle artifacts in the same application by exposing a `PollingId` parameter in the connection URI. This parameter modifies the target namespace of the POLLINGSTMT operation.  
 
 ## Change the target namespace of POLLINGSTMT  
- You can modify the target namespace of the POLLINGSTMT operation by setting the `PollingId` query string parameter in the connection URI. If a `PollingId` is specified in the connection URI, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] appends the string specified in the `PollingId` parameter to the default target namespace for the POLLINGSTMT operation: `http://microsoft.lobservices.oracledb/2007/03/POLLINGSTMT`. The message action of the POLLINGSTMT operation is not modified.  
 
- For example, if the following connection URI is specified: `OracleDb://User=SCOTT;Password=TIGER@Adapter?PollingId=AcctActivity`, the target namespace will be `http:/microsoft.lobservices.oracledb/2007/03/POLLINGSTMTAcctActivity`.  
+You can modify the target namespace of the POLLINGSTMT operation by setting the `PollingId` query string parameter in the connection URI. If a `PollingId` is specified in the connection URI, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] appends the string specified in the `PollingId` parameter to the default target namespace for the POLLINGSTMT operation: `http://microsoft.lobservices.oracledb/2007/03/POLLINGSTMT`. The message action of the POLLINGSTMT operation is not modified.  
 
- By providing a unique namespace for each POLLINGSTMT operation, you can receive data-changed messages for multiple Oracle tables and views in your application.  
+For example, if the following connection URI is specified:
 
- For more information about the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
+`OracleDb://User=SCOTT;Password=TIGER@Adapter?PollingId=AcctActivity`
+
+The target namespace is the following: 
+
+`http:/microsoft.lobservices.oracledb/2007/03/POLLINGSTMTAcctActivity`.  
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
+
+By providing a unique namespace for each POLLINGSTMT operation, you can receive data-changed messages for multiple Oracle tables and views in your application.  
+
+For more information about the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
 
 ## Receive data-changed messages using binding properties
  You configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive data-changed messages by setting some or all of the following binding properties.  

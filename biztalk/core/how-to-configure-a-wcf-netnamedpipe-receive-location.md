@@ -93,7 +93,9 @@ You can configure a WCF-NetNamedPipe receive location either programmatically or
 
 ```  
 
- The following code fragment illustrates creating a WCF-NetNamedPipe receive location:  
+The following code fragment illustrates creating a WCF-NetNamedPipe receive location:  
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```csharp
 // Use BizTalk Explorer object model to create new WCF-NetNamedPipe receive location   

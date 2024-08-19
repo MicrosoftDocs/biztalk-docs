@@ -68,7 +68,9 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
 
 - You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the node ID of a target operation.
 
-  The following two examples show how to target various operations by using svcutil.exe.
+  The following two examples show how to target various operations by using svcutil.exe. The following note applies to both examples.
+
+  [!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
 
   This example creates a WCF client class for an insert operation on the ACCOUNT\ACCOUNT Business Object.
 

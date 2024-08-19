@@ -40,17 +40,19 @@ To use ACS for authentication, and get the Issuer Name and Issuer Key values, th
 
 5. When the new ACS namespace is created (which can take several minutes), the IssuerName and IssuerKey values are listed in the connection string: 
 
-    ```
-    Name                  : biztalksbnamespace
-    Region                : South Central US
-    DefaultKey            : abcdefghijklmnopqrstuvwxyz
-    Status                : Active
-    CreatedAt             : 10/18/2016 9:36:30 PM
-    AcsManagementEndpoint : https://biztalksbnamespace-sb.accesscontrol.windows.net/
-    ServiceBusEndpoint    : https://biztalksbnamespace.servicebus.windows.net/
-    ConnectionString      : Endpoint=sb://biztalksbnamespace.servicebus.windows.net/;SharedSecretIssuer=owner;SharedSecretValue=abcdefghijklmnopqrstuvwxyz
-    NamespaceType         : Messaging
-    ```
+   [!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
+   ```
+   Name                  : biztalksbnamespace
+   Region                : South Central US
+   DefaultKey            : abcdefghijklmnopqrstuvwxyz
+   Status                : Active
+   CreatedAt             : 10/18/2016 9:36:30 PM
+   AcsManagementEndpoint : https://biztalksbnamespace-sb.accesscontrol.windows.net/
+   ServiceBusEndpoint    : https://biztalksbnamespace.servicebus.windows.net/
+   ConnectionString      : Endpoint=sb://biztalksbnamespace.servicebus.windows.net/;SharedSecretIssuer=owner;SharedSecretValue=abcdefghijklmnopqrstuvwxyz
+   NamespaceType         : Messaging
+   ```
 
 See [New-AzureSBNamespace](/powershell/module/servicemanagement/azure/new-azuresbnamespace) for guidance.
 

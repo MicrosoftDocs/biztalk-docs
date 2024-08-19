@@ -18,6 +18,8 @@ Configure a WCF-BasicHttp receive location and send port programmatically. To us
 
  The following code fragment illustrates creating a WCF-BasicHttp receive location using the BizTalk Explorer Object Model:
 
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
 ```csharp
 // Use BizTalk Explorer object model to create new WCF-BasicHttp receive location
 string server = System.Environment.MachineName;

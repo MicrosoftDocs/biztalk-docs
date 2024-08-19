@@ -15,18 +15,22 @@ A tRFC server call is a transactional RFC server call. The orchestration require
   
 1. At design time, while generating the schema, make sure you select the tRFC from under the **TRFC** node.  
   
-2. At run time, make sure you set the binding property **TidDatabaseConnectionString**. This property takes the connection string to connect to a SQL database to store the TID. A sample connection string would look like:  
+2. At run time, make sure you set the binding property **TidDatabaseConnectionString**.
+
+   This property takes the connection string that connects to a SQL database to store the TID. A sample connection string looks like the following example:
   
    ```  
    Data Source=<myServerAddress>;Initial Catalog=<myDataBase>;User Id=<myUsername>;Password=<myPassword>;  
    ```  
-  
-    For more information about the binding property and how to set it, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+ 
+   [!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
+ 
+   For more information about the binding property and how to set it, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
    > [!IMPORTANT]
-   >  The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup wizard installs a SQL script, SapAdapter-DbScript-Install.sql, which must be run by the SQL Server administrator to create a database and the database objects in SQL Server. The script is typically installed at *\<installation drive\>:Program FilesMicrosoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]*.  
+   > The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup wizard installs a SQL script, SapAdapter-DbScript-Install.sql, which must be run by the SQL Server administrator to create a database and the database objects in SQL Server. The script is typically installed at *\<installation drive\>:Program FilesMicrosoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]*.  
    > 
-   >  The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses these objects to persist the TIDs. So, the SQL Server administrator must ensure that the user name provide as part of the connection string has sufficient privileges to execute the stored procedures. You can also opt for Windows authentication provided the Windows user has sufficient permissions to execute stored procedures in the database.  
+   > The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses these objects to persist the TIDs. So, the SQL Server administrator must ensure that the user name provide as part of the connection string has sufficient privileges to execute the stored procedures. You can also opt for Windows authentication provided the Windows user has sufficient permissions to execute stored procedures in the database.  
   
 3. Make sure MSDTC is enabled on the computer where the adapter is installed. Perform the following steps to enable MSDTC.  
   

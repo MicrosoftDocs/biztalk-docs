@@ -100,7 +100,9 @@ You can configure a WCF-CustomIsolated receive location either programmatically 
 
 ```
 
- The following code fragment illustrates creating a WCF-CustomIsolated receive location:
+The following code fragment illustrates creating a WCF-CustomIsolated receive location:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```csharp
 // Use BizTalk Explorer object model to create new WCF-CustomIsolated receive location

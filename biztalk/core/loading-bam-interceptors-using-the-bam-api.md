@@ -8,12 +8,17 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
+
 # Loading BAM Interceptors Using the BAM API
+
 This topic provides information about loading the WF and WCF interceptors from your code rather than through a configuration file.  
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
   
-## Loading the WF Interceptor from Code  
- To load the WF interceptor runtime from your code, you must create a new instance of WorkflowRuntime and call the AddService method with a new instance of BamTrackingService. This is demonstrated below.  
-  
+## Loading the WF Interceptor from Code
+
+To load the WF interceptor runtime from your code, you must create a new instance of WorkflowRuntime and call the AddService method with a new instance of BamTrackingService. This is demonstrated below.  
+
 ```csharp  
 string connectionString = "Integrated Security=SSPI;Data Source=.;Initial Catalog=BAMPrimaryImport";  
 int PollingIntervalSec = 300;  

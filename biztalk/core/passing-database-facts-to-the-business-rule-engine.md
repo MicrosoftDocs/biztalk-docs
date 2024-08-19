@@ -14,8 +14,10 @@ When you use the Business Rule Composer tool to test a policy that requires a Da
  In contrast, when you invoke the policy from an orchestration, either by using the Call Rules shape or programmatically, the DataConnection/TypedDataTable object is not created for you and the database updates are not committed automatically. In this case, you should create a DataConnection/TypedDataTable object, pass it as a fact to the rule engine, and commit the database changes programmatically by using one of the following methods.  
   
 ## Passing a DataConnection Object from an Orchestration  
- The following sample code demonstrates how to create a DataConnection object in the orchestration, configure the Call Rules shape to pass the DataConnection object as a parameter, and commit any database updates after the policy is executed.  
-  
+
+The following sample code demonstrates how to create a DataConnection object in the orchestration, configure the Call Rules shape to pass the DataConnection object as a parameter, and commit any database updates after the policy is executed.  
+
+ 
 1.  Create the following variables using the Orchestration View tab with the orchestration open in the Orchestration Designer.  
   
     ```  
@@ -32,7 +34,9 @@ When you use the Business Rule Composer tool to test a policy that requires a Da
     SqlTran = SqlCon.BeginTransaction();   
     DataCon = new Microsoft.RuleEngine.DataConnection("test", "FlagTable", SqlCon, SqlTran);    
     ```  
-  
+
+    [!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
 3.  Configure the Call Rules shape to pass the DataCon variable as a parameter. For more information, see [How to Use the Call Rules Shape](../core/how-to-use-the-call-rules-shape.md).  
   
 4.  In an Expression shape after the Call Rules shape, commit the database changes made by the policy. The following code example demonstrates how to commit the database changes made by the policy.  

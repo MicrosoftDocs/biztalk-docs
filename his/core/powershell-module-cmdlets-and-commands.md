@@ -233,7 +233,10 @@ UseSsl                    : false
  The **StoredProcedureCallTimeout** parameter instructs the DRDA Service the length of time (in seconds) to wait for SQL Server to process a CALL statement to execute a stored procedure, before terminating the attempt and generating an error. This **optional** parameter accepts an **integer** value. Valid values are greater than or equal to 0 and less than or equal to 2147483647. A value of 0 indicates no limit (an attempt to execute a command will wait indefinitely). The default value is 30 seconds.
 
 #### Example
- The following example command sets the default values.
+
+The following example command sets the default values.
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```powershell
 Set-HisDrdaSqlServerConnection -AuthenticationLookupRetryCount 3 -AuthenticationLookupTimeoutDuration PT30S -ClientApplicationName empty -ConnectionString "Data Source=localhost; Integrated Security=True; MultipleActiveResultSets=True" -DefaultCollationName SQL_Latin1_General_CP1_CI_AS -RollbackTransactionOnError -SecurityTokenTimeoutDuration PT8H -StoredProcedureCallTimeout 30
@@ -252,7 +255,7 @@ Set-HisDrdaSqlServerConnection -AuthenticationLookupRetryCount 3 -Authentication
  This Get-DrdaSqlServerConnection cmdlet returns an object with properties: ArithAbort (Boolean); AuthenticationLookupTimeout (string); AuthenticationLookupRetryCount (integer); ClientApplicationName (string); ConnectionString (string); DefaultCollationName (string); HostInitiatedAffiliateApplication (string); MappedAuthenticationDomain (string); RollbackTransactionOnError (Boolean); SecurityTokenTimeoutSeconds (string); StoredProcedureCallTimeoutSeconds (integer); and WindowsInitiatedAffiliateApplication (string).
 
 #### Example
- The following example command gets the default values.
+The following example command gets the default values.
 
 ```powershell
 Get-HisDrdaSqlServerConnection

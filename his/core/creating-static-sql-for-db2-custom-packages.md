@@ -29,10 +29,12 @@ ms.topic: "article"
 |callback|The callback to use.|
 |Return Value|true if creation was successful; otherwise, false.|
 
- **Description**
+**Description**
 
- The IConnectionString connStr takes a Universal Data Link (UDL) file. You can define a UDL file using the Data Source Wizard by using the Data Access Tool. The following listing shows the syntax for a UDL.
+The **`IConnectionString connStr`** takes a Universal Data Link (UDL) file. You can define a UDL file using the Data Source Wizard by using the Data Access Tool. The following listing shows the syntax for a UDL.
 
- [oledb]
+[oledb]
 
- ; Everything after this line is an OLE DB initstring Provider=DB2OLEDB;Password=PASSWORD;Persist Security Info=True;User ID=USERID;Initial Catalog=DSN1;Authentication=Server;Defer Prepare=False;Derive Parameters=False;Rowset Cache Size=0;Network Transport Library=TCPIP;Host CCSID=37;PC Code Page=1252;Network Address=SYS1;Network Port=446;Package Collection=COLLID;Default Schema=COLLID;Default Qualifier=COLLID;DBMS Platform=DB2/z/OS;Process Binary as Character=False;Connection Pooling=False;Units of Work=RUW
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
+; Everything after this line is an OLE DB initstring Provider=DB2OLEDB;Password=PASSWORD;Persist Security Info=True;User ID=USERID;Initial Catalog=DSN1;Authentication=Server;Defer Prepare=False;Derive Parameters=False;Rowset Cache Size=0;Network Transport Library=TCPIP;Host CCSID=37;PC Code Page=1252;Network Address=SYS1;Network Port=446;Package Collection=COLLID;Default Schema=COLLID;Default Qualifier=COLLID;DBMS Platform=DB2/z/OS;Process Binary as Character=False;Connection Pooling=False;Units of Work=RUW

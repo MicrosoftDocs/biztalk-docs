@@ -83,8 +83,9 @@ Transactional RFCs (tRFCs) are RFCs that are invoked as part of a logical unit o
 ### The TID Database  
  When it acts as a tRFC server, the adapter uses a SQL Server database—the TID database—to manage the transaction IDs that it receives from the SAP system. For example, it uses the TID database to help manage calls from the SAP system to commit, rollback, and confirm the TID. The adapter also stores the GUID that it creates and associates with each SAP TID in the TID database.  
   
-### Prerequisites  
- For the adapter to perform as a tRFC server, you must ensure that the following are true:  
+### Prerequisites
+
+For the adapter to perform as a tRFC server, you must ensure that the following are true:  
   
 - The RFC must be declared on the SAP system. This is so the adapter can retrieve metadata that describes the RFC from the SAP system. The RFC is actually implemented in your application.  
   
@@ -93,12 +94,14 @@ Transactional RFCs (tRFCs) are RFCs that are invoked as part of a logical unit o
 - The TID database must be created in SQL Server. To do this, you must run a SQL script that is installed by the setup. The SQL script is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information see, [Installing the BizTalk Adapter Pack](../install-biztalk-adapter-pack-2013-r2-and-2013.md).  
   
 - The **TidDatabaseConnectionString** binding property must be set to the SQL database connection string for the TID database. For more information about the **TidDatabaseConnectionString** binding property, see [Read about BizTalk Adapter for mySAP Business Suite binding properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
-  
-> [!NOTE]
->  Setting the **TidDatabaseConnectionString** binding property configures the adapter to act as a tRFC server rather than as an RFC server. If the **TidDatabaseConnectionString** binding property is set and you specify an RFC destination in the connection URI, the adapter acts as a tRFC server for incoming calls from the RFC destination. If this binding property is not set, the adapter acts as an RFC server.  
+
+   Setting the **TidDatabaseConnectionString** binding property configures the adapter to act as a tRFC server rather than as an RFC server. If the **TidDatabaseConnectionString** binding property is set and you specify an RFC destination in the connection URI, the adapter acts as a tRFC server for incoming calls from the RFC destination. If this binding property is not set, the adapter acts as an RFC server.  
+
+   [!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
 ### How the Adapter Processes Inbound tRFCs  
- The following steps summarize the tasks that are performed by the RFC client call using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Some of these steps are performed by the adapter client, and some are performed by the adapter.  
+
+The following steps summarize the tasks that are performed by the RFC client call using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. Some of these steps are performed by the adapter client, and some are performed by the adapter.  
   
 1.  The SAP system calls into the adapter to enquire whether a TID has already been used. The adapter returns the appropriate response to the SAP system. If the TID is new, the adapter creates a committable transaction. This transaction is used to persist the TID to the TID database in a transactional manner when the SAP program performs a commit (COMMIT WORK). It is also exposed to application code that handles the inbound tRFCs. Additionally, the adapter creates a GUID that it associates with the SAP TID.  
   

@@ -39,12 +39,12 @@ The SendPortGroups sample demonstrates how to enumerate and manage send port gro
 - Stopping the send port group.
 
 ## Where To Find This Sample
- The sample is located in the following SDK location:
 
- \<*Samples Path*\>\Admin\ExplorerOM\SendPortGroups
+The sample is located in the following SDK location:
 
- The following table shows the files in this sample and describes their purpose.
+\<*Samples Path*\>\Admin\ExplorerOM\SendPortGroups
 
+The following table shows the files in this sample and describes their purpose.
 
 |                            File(s)                            |                                                 Description                                                  |
 |---------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -64,6 +64,8 @@ The SendPortGroups sample demonstrates how to enumerate and manage send port gro
    ```
    root.ConnectionString = "Integrated Security=SSPI;database=BizTalkMgmtDb;server=.";
    ```
+
+   [!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 4. Repeat step 3 for the following functions:
 
