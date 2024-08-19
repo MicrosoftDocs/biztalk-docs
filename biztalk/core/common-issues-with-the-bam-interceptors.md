@@ -36,6 +36,8 @@ This topic discusses the following common problems that can arise when using BAM
 ```  
 <BamEndpointBehaviorExtension ConnectionString="Initial Catalog=BamPrimaryImport;Data Source=MyMachine;Integrated Security=SSPI;" PollingIntervalSec="1500" />  
 ```  
-  
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
 ## See Also  
  [Troubleshooting BAM Interceptors](../core/troubleshooting-bam-interceptors.md)

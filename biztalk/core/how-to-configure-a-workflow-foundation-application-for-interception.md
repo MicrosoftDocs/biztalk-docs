@@ -114,6 +114,8 @@ You must install the BAM interceptor software and configure your application to 
     > [!NOTE]
     >  The section element should correspond to the name used by your application code when using the WorkflowRuntime class.
 
+    [!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
     ```
     <!-- The element name must match the one expected by WorkflowRuntime in your WF application -->
     <WorkflowServiceContainer>

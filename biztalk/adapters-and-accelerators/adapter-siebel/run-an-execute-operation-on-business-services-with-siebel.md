@@ -9,10 +9,14 @@ ms.suite: ""
 ms.topic: "article"
 ---
 # Run an EXECUTE Operation on Business Services with Siebel
+
 This section demonstrates how to execute an operation on a Siebel business service using the [!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)].  
   
 ## Executing a Siebel Business Service  
- This section demonstrates how to execute operations on a business service in the Siebel repository.  
+
+This section demonstrates how to execute operations on a business service in the Siebel repository.
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
 ```  
 using System;  

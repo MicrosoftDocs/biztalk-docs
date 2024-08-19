@@ -8,10 +8,12 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
+
 # SAPConnection class in the SAP adapter
+
 The following section lists the methods and properties for the **SAPConnection** class. This represents an ADO.NET connection to the SAP application server.  
   
- This is derived from **System.Data.Common.DbConnection**.  
+This is derived from **System.Data.Common.DbConnection**.  
   
 ## Supported Properties  
   
@@ -23,6 +25,8 @@ The following section lists the methods and properties for the **SAPConnection**
 |**DataSource**|Get|This returns the name of the SAP application server host.|  
 |**ServerVersion**|Get|This shows the release number for the SAP instance and not the SAP Server version. For example, if the ADO.NET client is connecting to SAP Server version 4.6 with the instance release number 620, this property will display 620.|  
 |**State**|Get|Connection state. The supported states are:<br /><br /> - [System.Data.ConnectionState]<br /><br /> - Closed<br /><br /> - Open<br /><br /> - Connecting|  
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
 ## Supported Methods  
   

@@ -38,6 +38,7 @@ In this procedure you configure the receive and send locations in a content-base
 
 8. Select the extension you just created, enter the following values, and then click **OK**:  
 
+   [!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
    |      Property      |                                                        Value                                                         |
    |--------------------|----------------------------------------------------------------------------------------------------------------------|

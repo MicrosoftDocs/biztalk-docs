@@ -8,16 +8,18 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
+
 # How to Configure a SOAP Receive Location
+
 You can configure a SOAP receive location either programmatically or by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
 
- **How to Configure a SOAP Receive Location Programmatically**  
+## How to Configure a SOAP Receive Location Programmatically
 
- The BizTalk Explorer object model enables you to create and configure receive locations programmatically. The BizTalk Explorer object model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a SOAP receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer object model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.  
+The BizTalk Explorer object model enables you to create and configure receive locations programmatically. The BizTalk Explorer object model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a SOAP receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer object model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.  
 
- The **TransportTypeData** property of the **IReceiveLocation** interface does not have to be set. If it is not set, the SOAP adapter uses the default values for the SOAP receive location configuration as indicated in the following table.  
+The **TransportTypeData** property of the **IReceiveLocation** interface does not have to be set. If it is not set, the SOAP adapter uses the default values for the SOAP receive location configuration as indicated in the following table.  
 
- The following table lists the configuration properties that you can set in the BizTalk Explorer object model for the SOAP receive location.  
+The following table lists the configuration properties that you can set in the BizTalk Explorer object model for the SOAP receive location.  
 
 |Property name|Type|Description|  
 |-------------------|----------|-----------------|  
@@ -25,15 +27,17 @@ You can configure a SOAP receive location either programmatically or by using th
 |**AddressableURI**|String|Public address field containing the entire, callable URL.<br /><br /> Default value: Blank|  
 |**UseSSO**|Boolean|Specifies whether the SOAP adapter issues the Single Sign-On ticket to the messages that arrive on this receive location.<br /><br /> Default value: False|  
 
- Use the following format to set the properties:  
+Use the following format to set the properties:  
 
 ```  
 receiveLocation.TransportTypeData = "<CustomProps><UseSSO vt=\"11\">-1</UseSSO></CustomProps>";  
 ```  
 
- The **URI** and **AddressableURI** properties are set using the **Address** and **PublicAddress** properties of the receive location object.  
+The **URI** and **AddressableURI** properties are set using the **Address** and **PublicAddress** properties of the receive location object.  
 
- The following code fragment illustrates creating a SOAP receive location:  
+The following code fragment illustrates creating a SOAP receive location:  
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```  
 // Use BizTalk Explorer object model to create new SOAP receive location.  

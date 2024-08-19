@@ -8,64 +8,69 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
+
 # Receive Inbound Operations from the SAP System Using the WCF Channel Model
+
 To act as an RFC server and receive operations invoked by the SAP system (such as sending an IDOC or invoking an RFC), you must create a channel listener that can listen for messages from a SAP Program ID over a **System.ServiceModel.Channels.IReplyChannel** channel shape.  
   
- A channel listener (**System.ServiceModel.Channels.IChannelListener**) is a WCF communication object that can be used to receive messages from specific WCF endpoints. The channel listener functions as a factory from which you can create channels over which messages invoked by a client (the SAP system) can be received by your service. You create a channel listener by from a **Microsoft.Adapters.SAP.SAPBinding** object by invoking the **BuildChannelListener** method. You supply an SAP connection URI that specifies the SAP Program ID from which inbound operations will be received to this method.  
+A channel listener (**System.ServiceModel.Channels.IChannelListener**) is a WCF communication object that can be used to receive messages from specific WCF endpoints. The channel listener functions as a factory from which you can create channels over which messages invoked by a client (the SAP system) can be received by your service. You create a channel listener by from a **Microsoft.Adapters.SAP.SAPBinding** object by invoking the **BuildChannelListener** method. You supply an SAP connection URI that specifies the SAP Program ID from which inbound operations will be received to this method.  
   
- The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports the **IReplyChannel** channel shape. **IReplyChannel** channels support an inbound request-response message exchange pattern. That is, a pattern in which an external program sends a request message over the channel and your program returns a response.  
+The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports the **IReplyChannel** channel shape. **IReplyChannel** channels support an inbound request-response message exchange pattern. That is, a pattern in which an external program sends a request message over the channel and your program returns a response.  
   
- For an overview of how to receive operations using an **IReplyChannel** in WCF, see [Service Channel-Level Programming](/dotnet/framework/wcf/extending/service-channel-level-programming).
+For an overview of how to receive operations using an **IReplyChannel** in WCF, see [Service Channel-Level Programming](/dotnet/framework/wcf/extending/service-channel-level-programming).
+
+This section covers the following topics that are specific to receiving operations from a SAP system:  
   
- This section covers the following topics that are specific to receiving operations from a SAP system:  
+- How to filter for specific operations using the channel listener.  
   
--   How to filter for specific operations using the channel listener.  
+- How to raise an exception on the SAP system.  
   
--   How to raise an exception on the SAP system.  
+- Streaming inbound flat-file IDOCs from the SAP adapter.  
   
--   Streaming inbound flat-file IDOCs from the SAP adapter.  
-  
--   How to receive operations from the SAP system.  
+- How to receive operations from the SAP system.  
   
 ## How Do I Filter Operations Using the Channel Listener?  
   
-### Using an InboundActionCollection to Filter Operations  
- The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] provides the **Microsoft.ServiceModel.Channels.InboundActionCollection** class to enable you to filter operations that are received by a channel listener and passed to your application code. To filter for specific operations, you create an instance of this class by using the listener endpoint URI. Then you add the (request) message action for each target operation to the collection. Finally, you add the inbound action collection to a **System.ServiceModel.Channels.BindingParameterCollection** object and then pass this binding parameter collection into the call to create the channel listener.  
+### Using an InboundActionCollection to Filter Operations
+
+The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] provides the **Microsoft.ServiceModel.Channels.InboundActionCollection** class to enable you to filter operations that are received by a channel listener and passed to your application code. To filter for specific operations, you create an instance of this class by using the listener endpoint URI. Then you add the (request) message action for each target operation to the collection. Finally, you add the inbound action collection to a **System.ServiceModel.Channels.BindingParameterCollection** object and then pass this binding parameter collection into the call to create the channel listener.  
   
- If the SAP system invokes an operation that is not in the inbound action collection:  
+If the SAP system invokes an operation that is not in the inbound action collection:  
   
 - The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] returns an EXCEPTION exception to the caller on the SAP system with the following message: "The incoming RFC call [RFC_NAME] on the Rfc Server is not handled". In this message, [RFC_NAME] is the name of the RFC (for example, IDOC_INBOUND_ASYNCHRONOUS).  
   
 - The adapter throws a **Microsoft.ServiceModel.Channels.Common.AdapterException** with a message that indicates the operation that was received. For an example of how to use this exception, see the example at the end of this topic.  
   
-  The following code example shows how to use an **InboundActionCollection** to create a channel listener that filters for a single RFC, Z_RFC_MKD_DIV.  
+  The following code example shows how to use an **InboundActionCollection** to create a channel listener that filters for a single RFC, Z_RFC_MKD_DIV.
+
+  [!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
-```  
-// The connection Uri must specify listener parameters (or an R-type destination in saprfc.ini)  
-// and credentials.  
-Uri listeneraddress =  
+  ```
+  // The connection Uri must specify listener parameters (or an R-type destination in saprfc.ini) and credentials.  
+  Uri listeneraddress =  
     new Uri("sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?ListenerGwServ=SAPGATEWAY&ListenerGwHost=YourSAPHost&ListenerProgramId=SAPAdapter");  
+
+  // Create a binding and set AcceptCredentialsInUri to true  
+  SAPBinding binding = new SAPBinding();
+  binding.AcceptCredentialsInUri = true;
+
+  // Create an InboundActionCollection and add the message actions to listen for,  
+  // only the actions added to the InboundActionCollection are received on the channel.  
+  // In this case a single action is specified: http://Microsoft.LobServices.Sap/2007/03/Rfc/Z_RFC_MKD_DIV  
+  InboundActionCollection actions = new InboundActionCollection(listeneraddress);  
+  actions.Add("http://Microsoft.LobServices.Sap/2007/03/Rfc/Z_RFC_MKD_DIV");  
   
-// Create a binding and set AcceptCredentialsInUri to true  
-SAPBinding binding = new SAPBinding();  
-binding.AcceptCredentialsInUri = true;  
+  // Create a BindingParameterCollection and add the InboundActionCollection  
+  BindingParameterCollection bpcol = new BindingParameterCollection();  
+  bpcol.Add(actions);  
   
-// Create an InboundActionCollection and add the message actions to listen for,  
-// only the actions added to the InboundActionCollection are received on the channel.  
-// In this case a single action is specified: http://Microsoft.LobServices.Sap/2007/03/Rfc/Z_RFC_MKD_DIV  
-InboundActionCollection actions = new InboundActionCollection(listeneraddress);  
-actions.Add("http://Microsoft.LobServices.Sap/2007/03/Rfc/Z_RFC_MKD_DIV");  
-  
-// Create a BindingParameterCollection and add the InboundActionCollection  
-BindingParameterCollection bpcol = new BindingParameterCollection();  
-bpcol.Add(actions);  
-  
-// Create the channel listener by specifying the binding parameter collection (to filter for the Z_RFC_MKD_DIV action)  
-listener = binding.BuildChannelListener<IReplyChannel>(listeneraddress, bpcol);  
-```  
+  // Create the channel listener by specifying the binding parameter collection (to filter for the Z_RFC_MKD_DIV action)  
+  listener = binding.BuildChannelListener<IReplyChannel>(listeneraddress, bpcol);  
+  ```  
   
 ### Manually Filtering Operations  
- If you do not specify an inbound action collection for the channel listener, then all operations invoked by the SAP system will be passed to your code. You can manually filter such operations by checking the message action of inbound requests.  
+
+If you do not specify an inbound action collection for the channel listener, then all operations invoked by the SAP system will be passed to your code. You can manually filter such operations by checking the message action of inbound requests.  
   
  There may also be scenarios in which you want to filter an operation based on its content. For example if you are receiving IDOCs in:  
   
@@ -138,18 +143,19 @@ rc.Reply(faultMessage);
  You receive flat-file (string) IDOCs from the adapter in the inbound ReceiveIdoc operation. The IDOC data is represented as a string under a single node in this operation. For this reason, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports node-value streaming on the request message. To perform node-value streaming, you must consume the request message for the ReceiveIdoc operation by invoking the **Message.WriteBodyContents** method with a **System.Xml.XmlDictionaryWriter** that is capable of streaming the IDOC data. For information about how to do this, see [Streaming Flat-File IDOCs in SAP using the WCF Channel Model](../../adapters-and-accelerators/adapter-sap/stream-flat-file-idocs-in-sap-using-the-wcf-channel-model.md).  
   
 ## How Do I Receive Operations from a SAP System Using an IReplyChannel?  
- To receive operations from a SAP system by using the WCF channel model, perform the following steps.  
+
+To receive operations from a SAP system by using the WCF channel model, perform the following steps.  
   
-#### To receive operations from the SAP system using an IReplyChannel  
+### To receive operations from the SAP system using an IReplyChannel  
   
-1.  Create an instance of **SAPBinding** and set the binding properties required to for the operations you want to receive. At a minimum you must set the **AcceptCredentialsInUri** binding property to true. To act as a tRFC server, you must set the **TidDatabaseConnectionString** binding property. For more information about binding properties, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+1. Create an instance of **SAPBinding** and set the binding properties required to for the operations you want to receive. At a minimum you must set the **AcceptCredentialsInUri** binding property to true. To act as a tRFC server, you must set the **TidDatabaseConnectionString** binding property. For more information about binding properties, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
     ```  
     SAPBinding binding = new SAPBinding();  
     binding.AcceptCredentialsInUri = true;  
     ```  
   
-2.  Create a **BindingParameterCollection** and add an **InboundActionCollection** that contains the actions of the operations that you want to receive. The adapter will return an exception to the SAP system for all other operations. This step is optional. For more information, see [Receiving Inbound Operations from the SAP System Using the WCF Channel Model](../../adapters-and-accelerators/adapter-sap/receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model.md).  
+2. Create a **BindingParameterCollection** and add an **InboundActionCollection** that contains the actions of the operations that you want to receive. The adapter will return an exception to the SAP system for all other operations. This step is optional. For more information, see [Receiving Inbound Operations from the SAP System Using the WCF Channel Model](../../adapters-and-accelerators/adapter-sap/receive-inbound-operations-from-the-sap-system-using-the-wcf-channel-model.md).  
   
     ```  
     InboundActionCollection actions = new InboundActionCollection(listeneraddress);  
@@ -158,33 +164,35 @@ rc.Reply(faultMessage);
     bpcol.Add(actions);  
     ```  
   
-3.  Create a channel listener by invoking **BuildChannelListener<IReplyChannel\>** method on the **SAPBinding** and open it. You specify the SAP connection URI as one of the parameters to this method. The connection URI must contain parameters for an RFC Destination on the SAP system. For more information about the SAP connection URI, see [Create the SAP system connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). If you created a **BindingParameterCollection** in step 3, you also specify this when you create the channel listener.  
-  
-    ```  
-    Uri listeneraddress =  
+3. Create a channel listener by invoking **BuildChannelListener<IReplyChannel\>** method on the **SAPBinding** and open it. You specify the SAP connection URI as one of the parameters to this method. The connection URI must contain parameters for an RFC Destination on the SAP system. For more information about the SAP connection URI, see [Create the SAP system connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md). If you created a **BindingParameterCollection** in step 3, you also specify this when you create the channel listener.
+
+   [!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)] 
+
+   ```  
+   Uri listeneraddress =  
         new Uri("sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?ListenerGwServ=SAPGATEWAY&ListenerGwHost=YourSAPHost&ListenerProgramId=SAPAdapter");  
-    IChannelListener<IReplyChannel> listener = binding.BuildChannelListener<IReplyChannel>(connectionUri, bpcol);  
-    listener.Open();  
-    ```  
+   IChannelListener<IReplyChannel> listener = binding.BuildChannelListener<IReplyChannel>(connectionUri, bpcol);  
+   listener.Open();  
+   ```  
   
-4.  Get an **IReplyChannel** channel by invoking the **AcceptChannel** method on the listener and open it.  
+4. Get an **IReplyChannel** channel by invoking the **AcceptChannel** method on the listener and open it.  
   
-    ```  
-    IReplyChannel channel = listener.AcceptChannel();  
-    channel.Open();  
-    ```  
+   ```  
+   IReplyChannel channel = listener.AcceptChannel();  
+   channel.Open();  
+   ```  
   
-5.  Invoke **ReceiveRequest** on the channel to get the request message for the next operation from the adapter.  
+5. Invoke **ReceiveRequest** on the channel to get the request message for the next operation from the adapter.  
   
-    ```  
-    RequestContext rc = channel.ReceiveRequest();  
-    ```  
+   ```  
+   RequestContext rc = channel.ReceiveRequest();  
+   ```  
   
-6.  Consume the request message sent by the adapter. You get the request message from the **RequestMessage** property of the **RequestContext**. You can consume the message using either an **XmlReader** or an **XmlDictionaryWriter**.  
+6. Consume the request message sent by the adapter. You get the request message from the **RequestMessage** property of the **RequestContext**. You can consume the message using either an **XmlReader** or an **XmlDictionaryWriter**.  
   
-    ```  
-    XmlReader reader = (XmlReader)rc.RequestMessage.GetReaderAtBodyContents();  
-    ```  
+   ```  
+   XmlReader reader = (XmlReader)rc.RequestMessage.GetReaderAtBodyContents();  
+   ```  
   
 7.  Complete the operation by returning a response or fault to the SAP system:  
   
@@ -228,13 +236,16 @@ rc.Reply(faultMessage);
     >  You must explicitly close the listener when you are done using it; otherwise, your program may not behave properly. Closing the listener does not close channels created using the listener. You must also explicitly close each channel created using the listener.  
   
 ### Example  
- The following example receives an RFC, Z_RFC_MKD_DIV from the SAP system. This RFC divides two numbers. The implementation in this example uses an **InboundActionCollection** to filter for the Z_RFC_MKD_DIV operation and does the following when a message is received:  
+
+The following example receives an RFC, Z_RFC_MKD_DIV from the SAP system. This RFC divides two numbers. The implementation in this example uses an **InboundActionCollection** to filter for the Z_RFC_MKD_DIV operation and does the following when a message is received:  
   
 -   If the divisor is non-zero, it writes the result of the division to the console and returns it to the SAP system.  
   
 -   If the divisor is zero, it writes the resulting exception message to the console and returns a fault to the SAP system.  
   
--   If any other operation is sent by the SAP system, it writes a message to the console. In this case, the adapter itself returns a fault to the SAP system.  
+-   If any other operation is sent by the SAP system, it writes a message to the console. In this case, the adapter itself returns a fault to the SAP system.
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
 ```  
 using System;  

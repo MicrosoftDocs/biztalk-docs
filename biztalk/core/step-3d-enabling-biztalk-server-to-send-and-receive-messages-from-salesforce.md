@@ -56,9 +56,11 @@ We must authenticate with Salesforce while sending messages using the REST inter
 
 4. Add a class `SalesforceRESTSecurityBehavior` that implements the `IClientMessageInspector` and the `IEndpointBehavior`. This class includes the `HttpPost()` and `FetchOAuthToken()` methods that make an HTTP POST call to the Salesforce authentication endpoint to retrieve the authorization token.
 
-    Because the `SalesforceRESTSecurityBehavior` class implements the `IClientMessageInspector` interface, it must implement the two methods, `AfterReceiveReply()` and `BeforeSendRequest()`. For this scenario we do not need to do anything as part of the `AfterReceiverReply()` method. However, the `BeforeSendRequest()` method invokes the `FetchOAuthToken()` method, which in turn calls the `HttpPost()` method. The `BeforeSendRequest()` method then adds the authorization token as part of the message header. It also adds the **Accept** header to ensure that the response received from Salesforce is in an XML format.
+   Because the `SalesforceRESTSecurityBehavior` class implements the `IClientMessageInspector` interface, it must implement the two methods, `AfterReceiveReply()` and `BeforeSendRequest()`. For this scenario we do not need to do anything as part of the `AfterReceiverReply()` method. However, the `BeforeSendRequest()` method invokes the `FetchOAuthToken()` method, which in turn calls the `HttpPost()` method. The `BeforeSendRequest()` method then adds the authorization token as part of the message header. It also adds the **Accept** header to ensure that the response received from Salesforce is in an XML format.
 
-    The `IEndpointBehavior` implementation simply adds the message inspector class to the client endpoint behavior.
+   The `IEndpointBehavior` implementation simply adds the message inspector class to the client endpoint behavior.
+
+   [!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
    ```
    public class SalesforceRESTSecurityBehavior : IClientMessageInspector, IEndpointBehavior

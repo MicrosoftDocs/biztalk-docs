@@ -50,7 +50,10 @@ The BrowsingArtifacts sample demonstrates how to enumerate BizTalk artifacts and
 2.  Run the file BrowsingArtifacts.exe.
 
 ## Windows PowerShell Script Example
- The following Windows PowerShell script can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+The following Windows PowerShell script can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```
 Function EnumOrchestrations($catalog)

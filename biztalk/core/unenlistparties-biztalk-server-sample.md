@@ -74,9 +74,12 @@ The UnenlistParties sample demonstrates how to unenlist all of the parties assoc
    ```
 
 ## Windows Powershell Script Example
- The following Windows Powershell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:
 
-```
+The following Windows Powershell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
+```powershell
 #===================#
 #=== Main Script ===#
 #===================#

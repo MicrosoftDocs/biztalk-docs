@@ -4,18 +4,20 @@ title: "Stopping and Starting Orchestrations, Send Ports, and Receive Locations 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.reviewer: ""
-ms.suite: ""
 ms.topic: "article"
+
 ---
+
 # Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically
+
 This topic provides sample code for programmatically stopping and starting orchestrations, send ports, and receive locations. You can perform these actions on all orchestrations, send ports, and receive locations as a group or individually. You can include this code in a program to perform these actions dynamically. You perform these actions in the graphical user interface at design time in Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], or at run time in the BizTalk Administration console.  
   
 > [!NOTE]
->  For the code to start and stop orchestrations, you do not have to designate the orchestrations, send ports, or receive locations. The sample code performs the action on all orchestrations, send ports, and receive locations that [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] installed at set up. For the code that acts on a single orchestration, send port, or receive location, add a parameter indicating on which orchestration, send port, or receive location you want the code to run.  
+> For the code to start and stop orchestrations, you do not have to designate the orchestrations, send ports, or receive locations. The sample code performs the action on all orchestrations, send ports, and receive locations that [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] installed at set up. For the code that acts on a single orchestration, send port, or receive location, add a parameter indicating on which orchestration, send port, or receive location you want the code to run.  
   
-## Demonstrates  
- The sample code in this topic includes separate code sections to do the following:  
+## Demonstrates
+
+The sample code in this topic includes separate code sections to do the following:  
   
 -   Start orchestrations—start all the send ports and receive locations, and enlist and start all orchestrations  
   
@@ -34,8 +36,11 @@ This topic provides sample code for programmatically stopping and starting orche
 -   Unenlist a single orchestration  
   
 ## Example  
- The sample code in this topic includes separate code sections to do the functions listed in the "Demonstrates" section.  
-  
+
+The sample code in this topic includes separate code sections to do the functions listed in the "Demonstrates" section.
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
+
 ```  
 using System;  
 using Microsoft.BizTalk.ExplorerOM;  

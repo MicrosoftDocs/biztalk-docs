@@ -136,7 +136,10 @@ The PartnerManagement sample demonstrates how to manage parties in the [!INCLUDE
 6. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, verify the party was un-enlisted from the **ShipmentRole** and deleted from the **Parties** node.
 
 ## Windows PowerShell Script Example
- The following Windows PowerShell script example can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+The following Windows PowerShell script example can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```
 #===============================================================#

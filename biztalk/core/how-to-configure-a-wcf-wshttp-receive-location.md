@@ -105,7 +105,9 @@ You can configure a WCF-WSHttp receive location either programmatically or by us
 
 ```  
 
- The following code fragment illustrates creating a WCF-WSHttp receive location:  
+The following code fragment illustrates creating a WCF-WSHttp receive location:  
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```csharp
 // Use BizTalk Explorer object model to create new WCF-WSHttp receive location   

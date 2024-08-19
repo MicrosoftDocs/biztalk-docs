@@ -135,7 +135,7 @@ ms.topic: "article"
   
     1.  Click the **ItineraryFactKey** property, and then type **Resolver.Itinerary**.  
   
-    2.  Click the **ResolverConnectionString** property, type **ITINERARY:\\\name=DataFormatTransformation;** and then click **OK**.  
+    2.  Click the **ResolverConnectionString** property, type **ITINERARY:\\\name=DataFormatTransformation;** and then click **OK**.
   
 3.  Click **OK** to close the **Receive Location Properties** dialog box.  
   

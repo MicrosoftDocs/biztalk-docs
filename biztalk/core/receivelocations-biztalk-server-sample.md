@@ -58,7 +58,10 @@ The ReceiveLocations sample demonstrates how to create receive locations in the 
 4. View the new receive port and receive location with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.
 
 ## Windows PowerShell Script Example
- The following PowerShell example script demonstrates the same operations as the [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] version. Make sure the script execution policy has been properly configured as mentioned in the requirements section of this topic.
+
+The following PowerShell example script demonstrates the same operations as the [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] version. Make sure the script execution policy has been properly configured as mentioned in the requirements section of this topic.
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```
 #==================================================================#
