@@ -57,11 +57,12 @@ GO
   
 ```  
   
- The following code fragment displays the syntax for creating ad hoc queries.  
+The following code fragment displays the syntax for creating ad hoc queries.  
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
   
-```  
+```
 -- Example of OPENROWSET Ad Hoc Name Query  
-  
 SELECT * FROM OPENROWSET (  
 'DB2OLEDB',  
 'Provider=DB2OLEDB;User ID=HISDEMO;Password=HISDEMO;Initial Catalog=DSN1D037;Network Transport Library=TCPIP;Host CCSID=37;PC Code Page=1252;Network Address=SYS1;Network Port=446;Package Collection=MSPKG;Default Schema=NWIND;Units of Work=RUW;Default Qualifier=NWIND;DBMS Platform=DB2/z/OS;Use Early Metadata=False;Defer Prepare=False;DateTime As Char=False;Rowset Cache Size=0;Datetime As Date=False;AutoCommit=True;Authentication=Server;Persist Security Info=True;Cache Authentication=False;Connection Pooling=False;Derive Parameters=False;',   
