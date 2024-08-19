@@ -75,10 +75,12 @@ The DeleteParty sample demonstrates how to delete a specified party.
    ```
 
 ## Windows Powershell Script example
- The following Windows PowerShell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+The following Windows PowerShell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```
-
 #===================#
 #=== Main Script ===#
 #===================#

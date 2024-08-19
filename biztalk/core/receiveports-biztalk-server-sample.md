@@ -56,9 +56,12 @@ The ReceivePorts sample demonstrates how to create a new receive port by using t
 2.  Run the file ReceivePorts.exe. The new receive port should be created and shown in the port enumeration. After the enumeration the receive port is immediately removed.
 
 ## Windows PowerShell Script Example
- The following Windows PowerShell example script can be used to demonstrate the same features of the **ExplorerOM** classes:
 
-```
+The following Windows PowerShell example script can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
+```powershell
 #==================================================================#
 #===                                                            ===#
 #=== Create a new receive port named "My Receive Port".         ===#

@@ -55,11 +55,15 @@ You can use the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as a tra
   
   ```  
   
-## How do I Enable the Adapter to Act as a tRFC Server?  
- To enable the adapter to act as a tRFC server, you must set the **TidDatabaseConnectionString** binding property to the connection string for the TID database. You should do this before you open the service host. This is the database in which the adapter stores the SAP transaction ID (TID) for each tRFC. For more information about this binding property, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+## How do I Enable the Adapter to Act as a tRFC Server?
+
+To enable the adapter to act as a tRFC server, you must set the **TidDatabaseConnectionString** binding property to the connection string for the TID database. You should do this before you open the service host. This is the database in which the adapter stores the SAP transaction ID (TID) for each tRFC. For more information about this binding property, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
 ## How do I Enlist in the Transaction for Inbound tRFCs?  
- An SAP Logical Unit of Work (LUW) can contain multiple tRFCs. On the SAP system a LUW is identified by a unique Transaction ID (TID). The adapter creates a committable transaction for each of the TIDs that the SAP system uses when it invokes tRFC calls on the adapter. When the SAP system invokes a tRFC on the adapter; the adapter flows the transaction associated with the SAP TID to your service. You can access this transaction as the ambient transaction from inside your operation method. By enlisting in this ambient transaction, the actions performed in the operation can participate in the SAP LUW.  
+
+An SAP Logical Unit of Work (LUW) can contain multiple tRFCs. On the SAP system a LUW is identified by a unique Transaction ID (TID). The adapter creates a committable transaction for each of the TIDs that the SAP system uses when it invokes tRFC calls on the adapter. When the SAP system invokes a tRFC on the adapter; the adapter flows the transaction associated with the SAP TID to your service. You can access this transaction as the ambient transaction from inside your operation method. By enlisting in this ambient transaction, the actions performed in the operation can participate in the SAP LUW.  
   
  To enlist in the ambient transaction in an operation method, you must:  
   

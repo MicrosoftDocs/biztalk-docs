@@ -54,10 +54,9 @@ You can connect the Microsoft Client for DB2 to the DRDA Service directly, to te
   
 15. In the **Completing the Data Source Wizard** dialog, review what you have accomplished, and then click **Finish**.  
   
-16. In the **Data Access Tool**, click the newly-created DB2 OLE DB UDL (e.g. “DB2_IP_DRDA_AS_NWIND”), to view the Connection String.  
-  
+16. In the **Data Access Tool**, click the newly-created DB2 OLE DB UDL (e.g. “DB2_IP_DRDA_AS_NWIND”), to view the connection string, for example:
+
     ```  
     Provider=DB2OLEDB;User ID=HISDEMO;Password=HISDEMO;Initial Catalog=NWIND;Network Transport Library=TCPIP;Host CCSID=1208;PC Code Page=1208;Network Address=127.0.0.1;Network Port=446;Package Collection=dbo;Default Schema=dbo;Process Binary as Character=False;Units of Work=RUW;Default Qualifier=dbo;DBMS Platform=DB2/NT;Use Early Metadata=False;Defer Prepare=False;DateTime As Char=False;Rowset Cache Size=0;Datetime As Date=False;AutoCommit=False;Authentication=Server;Persist Security Info=True;Data Source=DB2ADMIN;Cache Authentication=False;Connection Pooling=False;Derive Parameters=False;  
     ```  
-  
-     Data Access Tool connection string.
+

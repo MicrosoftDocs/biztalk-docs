@@ -1,14 +1,15 @@
 ---
 description: "Learn more about: Create the Oracle Database connection URI"
 title: "Create the Oracle Database connection URI"
-ms.custom: ""
-ms.date: "06/08/2017"
 ms.service: biztalk-server
+ms.date: "06/08/2017"
 ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
+
 ---
+
 # Create the Oracle Database connection URI
+
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] connection URI contains properties that the adapter uses to establish a connection to the Oracle database. This topic provides information about how to specify the connection URI to connect to the Oracle database using tnsnames.ora and without using tnsnames.ora. It also provides information about using the connection URI to connect to the Oracle database.  
 
 ## Connection URI to Connect to the Oracle Database Using tnsnames.ora  
@@ -32,9 +33,11 @@ oracledb://[NET_SERVICE_NAME]?PollingId=[POLLING_ID]
 
 Or, in more advanced scenarios:
 
-```  
+```
 oracledb://User=[USER_NAME];Password=[PASSWORD]@[NET_SERVICE_NAME]?PollingId=[POLLING_ID]  
-```  
+```
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
 
 The following table explains the properties contained in the connection URI:
 
@@ -72,6 +75,8 @@ Or, in more advanced scenarios:
 ```  
 oracledb://User=[USER_NAME];Password=[PASSWORD]@[SERVER_ADDRESS]:[PORT_NUMBER]/[SERVICE_NAME]/[SERVICE_TYPE]?PollingId=[POLLING_ID]  
 ```  
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
 
 The following table explains the properties contained in the connection URI:
 

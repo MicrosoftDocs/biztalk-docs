@@ -272,7 +272,11 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces several bin
   What you need to know:
   
   - You must set this property to enable inbound tRFC server calls for receiving IDocs or RFCs from SAP. The default is **null**; tRFC server calls are not enabled.
+
   - You can specify the connection string in the following format: `Data Source=<myServerAddress>;Initial Catalog=<myDataBase>;User Id=<myUsername>;Password=<myPassword>;`
+
+    [!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
+
   - To specify the connection string, click the ellipsis button **(…)** against the binding property and enter the values for the required connection string properties.
 
 - **AcceptCredentialsInUri** binding property: Specifies whether the SAP connection URI can contain user credentials for the SAP system. The default is **false**, which disables user credentials in the connection URI. If **AcceptCredentialsInUri** is **false** and the SAP connection URI contains user credentials, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] throws an exception. You can set **AcceptCredentialsInUri** to **true** if you must specify credentials in the URI. For more information, see [Create the SAP system connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).

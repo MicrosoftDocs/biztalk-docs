@@ -38,7 +38,9 @@ You can configure the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.m
 - Optional binding properties. These only have to be set at run-time.  
   
 - The **AcceptCredentialsInUri** binding property. You must set this binding property to **true** during run-time if you want to enable credentials in the connection URI. The user name and password must be present in the connection URI when you add a service endpoint to the service host.  
-  
+
+  [!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
+
 - The **PollingId** query string parameter in the connection URI. If you want to change the namespace of the POLLINGSTMT operation, you must set this connection property both at design-time and run-time.  
   
   For a complete description of the binding properties and connection parameters used to configure polling, see [Receive polling-based data-changed messages in Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/receive-polling-based-data-changed-messages-in-oracle-database-adapter.md).  

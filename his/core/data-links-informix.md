@@ -27,11 +27,13 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 ## Connection
  Use the Connection tab to configure Microsoft OLE DB Provider for Informix network (host), security, and database (data storage) settings.
 
- [oledb]
+[oledb]
 
- ; Everything after this line is an OLE DB initstring
+Everything after this line is an OLE DB initstring:
 
- Provider=MSINFORMIX.1;Password=Pass@word1;Persist Security Info=True;User ID=informix;Initial Catalog=stores_demo;Data Source=MSINFORMIX_DataLinkSamp;Network Address=hisdrda2;Schema Filter=hisdemo
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
+**`Provider=MSINFORMIX.1;Password={password};Persist Security Info=True;User ID=informix;Initial Catalog=stores_demo;Data Source=MSINFORMIX_DataLinkSamp;Network Address=hisdrda2;Schema Filter=hisdemo`**
 
 ### Data Source
  The Data source (DBPROP_INIT_DATASOURCE) property defines a string to describe the data source. This optional property accepts a string value. The default value is an empty string. The Microsoft HIS 2020 Data Access Tool uses this property value to name the Universal Data Link (UDL) file.

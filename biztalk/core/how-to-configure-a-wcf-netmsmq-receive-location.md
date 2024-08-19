@@ -103,7 +103,9 @@ You can configure a WCF-NetMsmq receive location either programmatically or by u
 
 ```
 
- The following code fragment illustrates creating a WCF-NetMsmq receive location:
+The following code fragment illustrates creating a WCF-NetMsmq receive location:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```csharp
 // Use BizTalk Explorer object model to create new WCF-NetMsmq receive location

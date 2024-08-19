@@ -97,7 +97,9 @@ You can configure a WCF-NetMsmq send port either programmatically or by using th
 
 ```  
 
- The following code fragment illustrates creating a WCF-NetMsmq send port:  
+The following code fragment illustrates creating a WCF-NetMsmq send port:  
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```  
 // Use BizTalk Explorer object model to create new WCF-NetMsmq send port.  

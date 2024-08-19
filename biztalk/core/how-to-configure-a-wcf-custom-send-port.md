@@ -280,7 +280,9 @@ You can configure a WCF-Custom send port either programmatically or by using the
 
 ```
 
- The following code fragment illustrates creating a WCF-Custom send port:
+The following code fragment illustrates creating a WCF-Custom send port:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```csharp
 // Use BizTalk Explorer object model to create new WCF-Custom send port.

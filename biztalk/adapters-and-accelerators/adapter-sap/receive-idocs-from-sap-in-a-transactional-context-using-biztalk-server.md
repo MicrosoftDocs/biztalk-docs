@@ -15,13 +15,17 @@ Receiving IDOC in a transactional context is similar to receiving tRFCs in a tra
   
 1. At design time, generate the schema for an IDOC that you want to receive.  
   
-2. At run time, make sure you set the binding property **TidDatabaseConnectionString**. This property takes the connection string to connect to a SQL database to store the TID. A sample connection string would look like:  
+2. At run time, make sure you set the binding property **TidDatabaseConnectionString**.
+
+   This property takes the connection string that connects to a SQL database to store the TID. A sample connection string would look like the following:
   
-   ```  
+   ```
    Data Source=<myServerAddress>;Initial Catalog=<myDataBase>;User Id=<myUsername>;Password=<myPassword>;  
-   ```  
+   ```
+
+   [!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
-    For more information about the binding property and how to set it, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+   For more information about the binding property and how to set it, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
    > [!IMPORTANT]
    >  The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup wizard installs a SQL script, SapAdapter-DbScript-Install.sql, which must be run by the SQL Server administrator to create a database and the database objects in SQL Server. The script is typically installed at *\<installation drive\>*:Program FilesMicrosoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)].  

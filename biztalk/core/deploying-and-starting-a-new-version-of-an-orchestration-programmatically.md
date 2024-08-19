@@ -14,8 +14,10 @@ The code in this topic illustrates how to quickly deploy and start a new version
 > [!NOTE]
 >  In rare cases, when the orchestration you are updating with a new version is operating under high load, some messages can become suspended even when you unenlist and enlist the orchestrations programmatically.  We recommend that after performing these operations, you check your suspended message queue and resume any suspended messages.  
   
- The following code sample illustrates how to use the Explorer OM API to unenlist an existing orchestration and start the new version of the orchestration.  
-  
+ The following code sample illustrates how to use the Explorer OM API to unenlist an existing orchestration and start the new version of the orchestration.
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
 ```  
 using System;  
 using Microsoft.BizTalk.ExplorerOM;  

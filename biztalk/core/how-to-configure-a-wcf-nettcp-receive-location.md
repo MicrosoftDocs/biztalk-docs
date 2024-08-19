@@ -100,7 +100,9 @@ You can configure a WCF-NetTcp receive location either programmatically or by us
 
 ```
 
- The following code fragment illustrates creating a WCF-NetTcp receive location:
+The following code fragment illustrates creating a WCF-NetTcp receive location:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```csharp
 // Use BizTalk Explorer object model to create new WCF-NetTcp receive location

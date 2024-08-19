@@ -94,7 +94,9 @@ You can configure a WCF-NetTcp send port either programmatically or by using the
 
 ```
 
- The following code fragment illustrates creating a WCF-NetTcp send port:
+The following code fragment illustrates creating a WCF-NetTcp send port:
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```
 // Use BizTalk Explorer object model to create new WCF-NetTcp send port.

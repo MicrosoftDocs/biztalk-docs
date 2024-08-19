@@ -8,8 +8,12 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
+
 # Run Operations on Business Components with the Siebel adapter using the WCF Channel Model
+
 This section demonstrates how to perform operations on Siebel using the channel created in [Create a Channel using Siebel](../../adapters-and-accelerators/adapter-siebel/create-a-channel-using-siebel.md).  
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
 ```  
 // create binding  

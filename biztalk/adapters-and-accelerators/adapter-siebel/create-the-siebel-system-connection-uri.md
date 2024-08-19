@@ -8,19 +8,22 @@ ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
 ---
+
 # Create the Siebel system connection URI
+
 The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] connection URI contains properties that the adapter uses to establish a connection to the Siebel system.  
 
- This topic provides information about the Siebel connection URI and also provides links to other topics that explain how to specify a connection URI in different programming scenarios.  
+This topic provides information about the Siebel connection URI and also provides links to other topics that explain how to specify a connection URI in different programming scenarios.  
 
 ## Connection URI for the Siebel Adapter  
- A typical [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] endpoint address URI is represented as follows:  
+
+A typical [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] endpoint address URI is represented as follows:  
 
 ```  
 scheme://userinfoparams@hostinfoparams?query_string  
 ```  
 
- The endpoint address URI contains the following components:  
+The endpoint address URI contains the following components:  
 
 - scheme is the scheme name.  
 
@@ -32,11 +35,13 @@ scheme://userinfoparams@hostinfoparams?query_string
 
   The Siebel connection URI follows this general format and is implemented as follows:  
 
-```  
+```
 siebel://Username=[USER_NAME];Password=[PASSWORD]@[SERVER]:[PORT]?SiebelObjectManager=[SIEBEL_OBJECT_MANAGER_NAME]&SiebelEnterpriseServer=[SERVER_NAME]&Language=[LANGUAGE]&Transport=[TRANSPORT]&Encryption=[ENCRYPTION]&Compression=[COMPRESSION]&SiebelServer=[SIEBEL_SERVER_NAME]&SiebelRepository=[SIEBEL_REPOSITORY_NAME]  
-```  
+```
 
- The following sections describe the properties implemented for each component of the Siebel connection URI.  
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
+
+The following sections describe the properties implemented for each component of the Siebel connection URI.  
 
 ### The Scheme for the Siebel Connection URI  
  The scheme for the Siebel connection URI is "siebel".  

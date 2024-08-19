@@ -1,20 +1,21 @@
 ---
 description: "Learn more about: GetMessages Sample"
 title: "GetMessages Sample"
-ms.custom: ""
-ms.date: "06/08/2017"
 ms.service: biztalk-server
+ms.date: "06/08/2017"
 ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
+
 # GetMessages Sample
+
 This topic provides sample code that you can use to retrieve messages from one of the message non-repudiation tables or one of the line-of-business (LOB) tables in a readable form. The message non-repudiation tables include MessageStorageIn and MessageStorageOut in the [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]Archive database; the LOB tables include MessageFromLOB and MessageToLOB in the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]DATA database.  
   
  Use `GetMessages` for either troubleshooting or development. By default, the code returns a base 64 string.  
   
 > [!NOTE]
->  The GetMessages.cs sample code contains two sections of code—one for retrieving messages from one of the LOB tables, and one for retrieving messages from one of the non-repudiation tables. Create separate applications for each purpose.  
+>
+> The GetMessages.cs sample code contains two sections of code—one for retrieving messages from one of the LOB tables, and one for retrieving messages from one of the non-repudiation tables. Create separate applications for each purpose.  
   
 ### To retrieve messages from an LOB table  
   
@@ -51,9 +52,12 @@ This topic provides sample code that you can use to retrieve messages from one o
   
     > [!IMPORTANT]
     >  For demonstration purposes, the sample code provided uses a direct SQL statement that is prone to SQL injection vulnerabilities. In a production environment, it is recommended that you use parameterized SQL stored procedures, instead of the direct SQL statement, to prevent such vulnerabilities.  
-  
+
 ## Example  
- Use one of the two sections in the following code example for retrieving messages from one of the non-repudiation tables or one of the LOB tables.  
+
+Use one of the two sections in the following code example for retrieving messages from one of the non-repudiation tables or one of the LOB tables.  
+
+[!INCLUDE [authentication-guidance](../../includes/authentication-guidance.md)]
   
 ```  
 using System;  

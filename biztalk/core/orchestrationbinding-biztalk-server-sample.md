@@ -60,7 +60,10 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
 2.  Run the file OrchestrationBinding.exe and follow the directions provided by the sample.
 
 ## Windows PowerShell Script Example
- The following Windows PowerShell script can be used to demonstrate the same features of the **ExplorerOM** classes.
+
+The following Windows PowerShell script can be used to demonstrate the same features of the **ExplorerOM** classes.
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```powershell
 

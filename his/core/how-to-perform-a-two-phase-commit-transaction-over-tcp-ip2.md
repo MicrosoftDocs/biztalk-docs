@@ -16,9 +16,12 @@ Two-phase commit (2PC) is a host server-installed protocol that ensures that upd
  You can perform a 2PC transaction with ADO.NET and the Managed Provider for DB2 by using the `System.Transactions` namespace. Using a 2PC transaction is automatic, when you configure the connection property Units of Work=DUW.  
   
 ## Example  
- The following code example demonstrates how to use 2PC in a DB2 transaction.  
+
+The following code example demonstrates how to use 2PC in a DB2 transaction.  
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
   
-```  
+```csharp
 using System;  
 using System.Collections.Generic;  
 using System.Linq;  
@@ -81,8 +84,10 @@ namespace Db2DistributedTransaction
             Console.WriteLine("Program end.");  
             Console.ReadKey();  
         }  
-    }  
-```  
+    }
+}
+```
   
-## See Also  
- [Working with the Managed Provider for DB2](../core/working-with-the-managed-provider-for-db21.md)
+## See Also
+
+[Working with the Managed Provider for DB2](../core/working-with-the-managed-provider-for-db21.md)

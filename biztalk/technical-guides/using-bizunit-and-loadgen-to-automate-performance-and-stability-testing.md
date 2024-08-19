@@ -86,11 +86,14 @@ This topic provides information about how to use the Microsoft BizTalk LoadGen 2
   The Microsoft [BizTalk LoadGen 2007 tool](https://www.microsoft.com/download/details.aspx?id=14925) is available for download.
 
 ### Sample LoadGen configuration file
- All LoadGen configuration information is stored in an xml file. The LoadGen configuration file contains a \<CommonSection\> element that configures the default settings for all LoadGen tasks in the LoadGen scenario. The LoadGen configuration file can also contain one or more \<Section\> elements that provide configuration settings for a specific LoadGen task. Entries in a \<Section\> element supersede any default values specified in the \<CommonSection\> element.
 
- The sample LoadGen configuration file that follows is a slightly modified version of the FileToFileLG.xml sample configuration file that is included in the \ConfigFiles\ConsoleConfigFiles subdirectory of the LoadGen installation directory. This test sends 25 messages \<LotSizePerInterval\> every 200 milliseconds \<SleepInterval\>, 5 threads per load generator \<NumThreadsperSection\>and will stop the load test after 5000 messages \<NumFiles\> have been sent.
+All LoadGen configuration information is stored in an xml file. The LoadGen configuration file contains a \<CommonSection\> element that configures the default settings for all LoadGen tasks in the LoadGen scenario. The LoadGen configuration file can also contain one or more \<Section\> elements that provide configuration settings for a specific LoadGen task. Entries in a \<Section\> element supersede any default values specified in the \<CommonSection\> element.
 
- The file throttle controller is specified in the \<ThrottleController\> section. The value for \<ThresholdRange\> is set to 1000-2000, which means that if the file location C:\Scenarios\FileToFile\Receive (Parameters) has less than 1000 or more than 2000 files, the throttle controller will throttle the file generator and increase/decrease load as appropriate. The number of files in the file location will be checked every 1000 milliseconds \<SleepInterval\>. The \<FileSection\> element defines the properties for the messages to be sent by the load generators. The FileToFileLG.xml file \<SrcFilePath\> will be copied by LoadGen to the filedrop C:\Scenarios\FileToFile\Receive \<DstFilePath>. The file transport is used here because this is the default transport specified in the \<Transport Name\> element within the \<CommonSection\> element.
+The sample LoadGen configuration file that follows is a slightly modified version of the FileToFileLG.xml sample configuration file that is included in the \ConfigFiles\ConsoleConfigFiles subdirectory of the LoadGen installation directory. This test sends 25 messages \<LotSizePerInterval\> every 200 milliseconds \<SleepInterval\>, 5 threads per load generator \<NumThreadsperSection\>and will stop the load test after 5000 messages \<NumFiles\> have been sent.
+
+The file throttle controller is specified in the \<ThrottleController\> section. The value for \<ThresholdRange\> is set to 1000-2000, which means that if the file location C:\Scenarios\FileToFile\Receive (Parameters) has less than 1000 or more than 2000 files, the throttle controller will throttle the file generator and increase/decrease load as appropriate. The number of files in the file location will be checked every 1000 milliseconds \<SleepInterval\>. The \<FileSection\> element defines the properties for the messages to be sent by the load generators. The FileToFileLG.xml file \<SrcFilePath\> will be copied by LoadGen to the filedrop C:\Scenarios\FileToFile\Receive \<DstFilePath>. The file transport is used here because this is the default transport specified in the \<Transport Name\> element within the \<CommonSection\> element.
+
+[!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
 
 ```
 <LoadGenFramework>
@@ -302,7 +305,7 @@ This topic provides information about how to use the Microsoft BizTalk LoadGen 2
 </TestStep>
 ```
 
- Now we write the test start time to a test results database. Modify the **ConnectionString** and **RawSQLQuery** parameters to match your environment.
+Now we write the test start time to a test results database. Modify the **ConnectionString** and **RawSQLQuery** parameters to match your environment.
 
 ```
 <!-- Step 7: Update test results DB with test start time -->

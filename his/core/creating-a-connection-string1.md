@@ -32,29 +32,31 @@ A universal data link (.udl) file is essentially a text file that contains the c
   
     The system saves the connection string in a .udl file. The system creates the .udl file using the file path passed in the `name` parameter of the constructor. If the file does not contain the full path, the system uses the default path as described in `DataAccessSettings.UDLpath`.  
   
-   The following code example demonstrates how to create a .udl file using a new file name, user name, and password.  
-  
-```  
-static DB2OleDbConnectionString CreateUDLFile(string FileName, string NameOfUser, string PassWord, ref System.Exception myException)  
-{  
-   try  
+   The following code example demonstrates how to create a .udl file using a new file name, user name, and password.
+
+   [!INCLUDE [authentication-guidance](../includes/authentication-guidance.md)]
+
+   ```  
+   static DB2OleDbConnectionString CreateUDLFile(string FileName, string NameOfUser, string PassWord, ref System.Exception myException)  
    {  
-      DB2OleDbConnectionString myConnection = new DB2OleDbConnectionString(FileName, false);  
-      myConnection.UserName = NameOfUser;  
-      myConnection.Password = PassWord;  
-      myConnection.Save();  
-      System.Exception MyEx= new System.Exception(@"Successful Creation", null);  
-      myException = MyEx;  
-      return myConnection;  
-  
+      try  
+      {  
+         DB2OleDbConnectionString myConnection = new DB2OleDbConnectionString(FileName, false);  
+         myConnection.UserName = NameOfUser;  
+         myConnection.Password = PassWord;  
+         myConnection.Save();  
+         System.Exception MyEx= new System.Exception(@"Successful Creation", null);  
+         myException = MyEx;  
+         return myConnection;  
+      }  
+      catch (Exception ex)  
+      {  
+         myException = ex;  
+         return null;  
+      }  
    }  
-   catch (Exception ex)  
-   {  
-      myException = ex;  
-      return null;  
-   }  
-}  
-```  
+   ```  
   
 ## See Also  
- [Data Access Library Tasks](../core/data-access-library-tasks1.md)
+
+[Data Access Library Tasks](../core/data-access-library-tasks1.md)
