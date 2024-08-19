@@ -83,7 +83,7 @@ This topic provides information about how to use the Microsoft BizTalk LoadGen 2
 
   -   Depth of an MSMQ or MQSeries message queue
 
-  The Microsoft [BizTalk LoadGen 2007 tool](https://www.microsoft.com/download/details.aspx?id=14925) is available for download.
+  The Microsoft [BizTalk LoadGen 2007 tool](https://www.microsoft.com/en-us/download/details.aspx?id=14925) is available for download.
 
 ### Sample LoadGen configuration file
 
