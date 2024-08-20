@@ -50,15 +50,15 @@ After the custom adapter code has been successfully built it must be registered 
   
 - **"TransmitLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A282}"**  
   
-  Adapters based on the adapter framework must use these specific GUIDS for send and receive handler and location property pages. Note that if an adapter is a send-only adapter it just needs the **OutboundProtocol_PageProv**and **TransmitLocation_PageProv**GUIDs. Similarly a receive-only adapter merely requires the **InboundProtocol_PageProv** and **ReceiveLocation_PageProv** GUIDs.  
-  
-  The following code is from the StaticAdapterManagement.reg file, and the code for the DynamicAdapterManagement.reg file is almost identical. For more information about each of the registry properties, see [Registering an Adapter](../core/registering-an-adapter.md). After making the changes to the registry file, save the file and run it.  
-  
+Adapters based on the adapter framework must use these specific GUIDS for send and receive handler and location property pages. Note that if an adapter is a send-only adapter it just needs the **OutboundProtocol_PageProv**and **TransmitLocation_PageProv**GUIDs. Similarly a receive-only adapter merely requires the **InboundProtocol_PageProv** and **ReceiveLocation_PageProv** GUIDs.  
+
+The following code is from the StaticAdapterManagement.reg file, and the code for the DynamicAdapterManagement.reg file is almost identical. After you make the changes to the registry file, save and run the file. For more information about each registry property, see [Registering an Adapter](../core/registering-an-adapter.md). 
+
 ```  
 Windows Registry Editor Version 5.00  
 [HKEY_CLASSES_ROOT\CLSID\{62018D08-281A-415b-A6D3-6172E3762867}]  
 @="Static DotNetFile Adapter"  
-"AppID"="{12A6EBAA-CF68-4B58-B36E-A5A19B22C04E}"  
+"AppID"="{application-ID}"
   
 [HKEY_CLASSES_ROOT\CLSID\{62018D08-281A-415b-A6D3-6172E3762867}\BizTalk]  
 @="BizTalk"  
