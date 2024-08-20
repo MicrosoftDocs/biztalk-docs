@@ -48,7 +48,8 @@ ms.topic: "article"
      ![Entity Name](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/942e7853-451e-4cf5-8884-09fb7d8dc19d.gif "942e7853-451e-4cf5-8884-09fb7d8dc19d")
 
 ## Specify User Name and Password Headers for the Method
- When calling a WCF adapter, you may have to provide user credentials that will be passed to the LOB system. In [Step 1: Use the Adapter Service Development Wizard to Create the Web Project](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-1-use-the-adapter-service-development-wizard-to-create-the-web-project.md), you configured the Echo adapter to require that user name and password information be provided in the MyUserHeader and MyPassHeader fields. You must now use the same field names for this application definition file.
+
+When you call a WCF adapter, you might have to provide user credentials that will be passed to the LOB system. In [Step 1: Use the Adapter Service Development Wizard to Create the Web Project](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-1-use-the-adapter-service-development-wizard-to-create-the-web-project.md), you configured the Echo adapter to require that user name and password information be provided in the MyUserHeader and MyPassHeader fields. You must now use the same field names for this application definition file.
 
 #### To specify user name and password headers
 
@@ -56,9 +57,9 @@ ms.topic: "article"
 
 2.  Click the **EchoGreetings** node and, in the Properties pane, click the ellipsis **(…)** button in the **Properties** field.
 
-3.  In the PropertyView Collection Editor window, click **Add**, and in the **Name** field of the Property pane, type  **HttpHeaderUserName**.
+3.  In the PropertyView Collection Editor window, click **Add**, and in the **Name** field of the Property pane, type **HttpHeaderUserName**.
 
-     ![Specify Username Header Fields](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/8da4d1b7-0792-407a-ba93-ba749138dd14.gif "8da4d1b7-0792-407a-ba93-ba749138dd14")
+    ![Specify Username Header Fields](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/8da4d1b7-0792-407a-ba93-ba749138dd14.gif "8da4d1b7-0792-407a-ba93-ba749138dd14")
 
 4.  In the **PropertyValue**field, type **MyUserHeader**.
 
@@ -67,7 +68,8 @@ ms.topic: "article"
 6.  Click **OK**.
 
 ## Set up Single Sign-On for Connecting to the Echo Adapter
- SharePoint uses information from Single Sign-On to populate the MyUserHeader and MyPassHeader with authentication values. To link this application definition file to Single Sign-On, you must provide a SecondarySsoApplicationId.
+
+SharePoint uses information from Single Sign-On to populate the MyUserHeader and MyPassHeader with authentication values. To link this application definition file to Single Sign-On, you must provide a SecondarySsoApplicationId.
 
 #### To set the SecondarySsoApplicationId property
 
@@ -79,7 +81,7 @@ ms.topic: "article"
 
 4. In the **PropertyValue** field, type **EchoSSO**.
 
-    ![Set the SecondarySsoApplicationId](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/68e6be61-77af-46b1-8ff0-b8538c526228.gif "68e6be61-77af-46b1-8ff0-b8538c526228")
+   ![Set the SecondarySsoApplicationId](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/property-view-collection-editor.gif )
 
 5. Click **OK**.
 
