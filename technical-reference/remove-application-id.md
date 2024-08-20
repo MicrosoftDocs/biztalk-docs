@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Remove Application ID** functoid ( ![RemoveApplicationID functoid](images/Aa560047.12248c44-a162-48a7-b881-8876f21da260(BTS.80).jpeg "RemoveApplicationID functoid")) to remove an identifier for an application object.
+Use the **Remove Application ID** functoid (![RemoveApplicationID functoid](images/remove-application-id-icon.jpeg)) to remove an identifier for an application object.
 
 ## Input
 
