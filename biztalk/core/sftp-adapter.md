@@ -2,7 +2,7 @@
 title: "SFTP Adapter"
 description: Create or configure a receive location and send port using the SFTP adapter in BizTalk Server, including FAQs using the SFTP adapter
 ms.custom: "biztalk-2020"
-ms.date: "01/22/2020"
+ms.date: "11/05/2024"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,10 @@ ms.topic: "article"
 BizTalk Server includes an **SFTP** adapter to send and receive messages from a secure FTP server using the SSH file transfer protocol. This topic includes the steps to configure an **SFTP** receive location, and configure an SFTP send port to receive and send messages from a secure FTP server. It also includes common questions and answers.
 
 ## Prerequisites
-**Starting with BizTalk Server 2016**, the SFTP adapter uses WinSCP to connect to SFTP, and therefore supports a larger range of SFTP servers. **Download [WinSCP](http://winscp.net)** on the BizTalk Server runtime. Be sure to check the supported WinSCP versions for each BizTalk Server verison:
+**Starting with BizTalk Server 2016**, the SFTP adapter uses WinSCP to connect to SFTP, and therefore supports a larger range of SFTP servers. **Download [WinSCP](http://winscp.net)** on the BizTalk Server runtime. Be sure to check the default supported WinSCP versions for each BizTalk Server version:
+ * BizTalk Server 2020 with CU6 - WinSCP version 6.3.3
+ * BizTalk Server 2020 with CU5 - WinSCP version 6.1.2
+ * BizTalk Server 2020 with CU3 or CU4 - WinSCP version 5.19.2
  * BizTalk Server 2020 with CU1 or CU2 - WinSCP version 5.17.6
  * BizTalk Server 2020 - WinSCP version 5.15.4
  * BizTalk Server 2016 With CU9 - WinSCP version 5.19.2
@@ -45,14 +48,15 @@ BizTalk Server 2013 and BizTalk Server 2013 R2 use older ssh library instead of 
     |--------------|----------------|
     |Connection Limit|Specify the maximum number of concurrent connections that can be opened to the server.<br /><br /> This setting is per server and per receive location. Consider the following scenarios:<br /><br /> - There are two receive locations that have the same configuration property values, including the ConnectionLimit property set to the same value. For example, the property is set to 6. In this situation, there is one connection pool (with 6 available connections) that is used by both receive locations.<br /><br /> - There are two receive locations configured with same configuration values, and have the ConnectionLimit property set to different values. For example, ReceiveLocation1 property is set to 6 and ReceiveLocation2 property is set to 5. In this situation, each receive location has its own connection pool with its own available connections. ReceiveLocation1 connection pool has 6 available connections. ReceiveLocation2 connection pool has 5 available connections.|
     |Log| Available starting with BizTalk Server 2016. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
-    |Maximum Connection Reuse Time In Seconds| Available starting with BizTalk Server 2016 CU 7. <br/><br/>The maximum connection reuse time allows connections to be gracefully closed and removed from the pool after a connection has been in use for a specific amount of time. A value is 0 or less indicates that this behaviour is disabled.|
+    |Maximum Connection Reuse Time In Seconds| Available starting with BizTalk Server 2016 CU 7. <br/><br/>The maximum connection reuse time allows connections to be gracefully closed and removed from the pool after a connection has been in use for a specific amount of time. It is recommended to set a value here, e g 240 seconds, to release temporary session files. A value is 0 or less indicates that this behaviour is disabled.|
+    |Transfer Mode| Available starting with BizTalk Server 2020 CU 3. <br/><br/>The WinSCP transfer mode. Default is binary. ASCII and Automatic can also be selected. Binary default mode is normally good for most scenarios, but in certain UNIX, mainframe text file transfer scenarios, ASCII mode may be needed for proper line end conversion.|
 
      **Polling**
 
     |Use this|To do this|
     |--------------|----------------|
     |Enable Timestamp Comparison|Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>If **Retain After Download** is set to True, this property determines whether a change in file timestamp will trigger a re-download of the file.<br /><br /> **Default value:** False|
-    |Polling Interval|Specify the intervals at which the adapter polls the server. To poll continuously, set this value to zero.<br /><br /> **Default value:** 5|
+    |Polling Interval|Specify the intervals at which the adapter polls the server. To poll continuously, set this value to zero. If you set this to a low value you may get high CPU consumption. It is recommended to set this to as high value as possible. You should also consider that the DIR listing can take long time if there are lots of files in the folder you poll. <br /><br /> **Default value:** 5|
     |Redownload Interval|Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>Specifies interval after which the file will be downloaded again. Applicable if **Retain After Download** is True and **Enable Timestamp Comparison** is set to False. If set to -1, the file will not be downloaded again.<br /><br /> **Default value:** 0 <br /><br /> -1 indicates that the adapter will not download files again.<br /><br /> 0 indicates that the adapter will download the file in each polling cycle.|
     |Retain After Download|Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>Specifies whether the adapter will retain a file from the SFTP server after downloading it.<br/><br> **Default value:** False|
     |Unit|Specifies the unit in which the polling interval is specified, for example, Seconds, Minutes, Hours, or Days.<br /><br /> **Default value:** Seconds|  
@@ -111,6 +115,7 @@ BizTalk Server 2013 and BizTalk Server 2013 R2 use older ssh library instead of 
     |Log| Available starting with BizTalk Server 2016. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
     |Maximum Connection Reuse Time In Seconds| Available starting with BizTalk Server 2016 CU 7. <br/><br/>The maximum connection reuse time allows connections to be gracefully closed and removed from the pool after a connection has been in use for a specific amount of time. A value is 0 or less indicates that this behaviour is disabled.|
     |Temporary Folder | Available starting with BizTalk Server 2013 R2. <br/><br/>A temporary folder on the SFTP server to upload large files to, before they can be atomically moved to the required location on the same server.|
+    |Transfer Mode| Available starting with BizTalk Server 2020 CU 3. <br/><br/>The WinSCP transfer mode. Default is binary. ASCII and Automatic can also be selected. Binary default mode is normally good for most scenarios, but in certain UNIX, mainframe text file transfer scenarios, ASCII mode may be needed for proper line end conversion.|
 
     **Proxy** (available starting with BizTalk Server 2013 R2)
 
@@ -161,7 +166,7 @@ The following includes sample configuration syntax. Be sure to replace `%NEWVERS
   <assemblyBinding>
    <dependentAssembly>
     <assemblyIdentity name="WinSCPnet" publicKeyToken="2271ec4a3c56d0bf" culture="neutral" />
-    <bindingRedirect oldVersion="1.0.0.0-1.65535.65535.65535" newVersion="%NEWVERSION%"/>
+    <bindingRedirect oldVersion="1.0.0.0-65535.65535.65535.65535" newVersion="%NEWVERSION%"/>
    </dependentAssembly>
   </assemblyBinding>
  </runtime>
@@ -183,7 +188,7 @@ When finished, your configuration looks similar to the following:
 |Does the SFTP adapter support 256-bit encryption?|Yes - The SFTP adapter supports 256-bit encryption. The supported encryption algorithms include:<br /><br /> - AES encryption: 256-bit, 192-bit, or 128-bit SDCTR or CBC<br /><br /> - 3DES (Triple-DES) encryption: 168-bit SDCTR or CBC|
 |What SSH versions does the adapter support?|Only SSH2. Connection cannot be established with SFTP servers having SSH1 version.|
 |Is file mask case sensitive?|No. *.txt and \*.TXT works alike. Please install the latest cumulative update for BizTalk Server 2013. BizTalk Server 2013 RTM release had case-sensitive file masks.|
-|Exporting bindings give a blank password field. When trying to create a receive location by importing these bindings what all changes are to be made?|Edit the binding file by editing the password field. Also, in `<Password vt="1">MySecretPassword</Password>`, **vt=”1”** indicates a null value. Change that to **vt=”8”**, which indicates a string. For example:<br /><br /> `<Password vt="8">MySecretPassword</Password>`<br /><br /> For more details, see [https://msdn.microsoft.com/library/system.runtime.interopservices.varenum(v=vs.100).aspx](https://msdn.microsoft.com/library/system.runtime.interopservices.varenum\(v=vs.100\).aspx)|
+|Exporting bindings give a blank password field. When trying to create a receive location by importing these bindings what all changes are to be made?|Edit the binding file by editing the password field. Also, in `<Password vt="1">MySecretPassword</Password>`, **vt=”1”** indicates a null value. Change that to **vt=”8”**, which indicates a string. For example:<br /><br /> `<Password vt="8">MySecretPassword</Password>`<br /><br /> For more details, see [https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.varenum](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.varenum)|
 |How do I specify the file paths?|Normally, paths are specified in the format `/folder/pathname`. However, different servers require different formats, with or without leading or trailing slashes. So, you can also try the following:<br /><br /> -                   `/folder/pathname`<br /><br /> -                   `/folder/pathname/`<br /><br /> -                   `folder/pathname`<br /><br /> -                   `folder/pathname/`|
 
 
