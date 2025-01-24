@@ -39,6 +39,7 @@ When applying a cumulative update, some of the required software versions may ch
   - Windows Server 2019 (with Desktop Experience)
   - Windows Server 2016 (with Desktop Experience)
   - Windows 10
+  - Windows 11
 
 - **Internet Information Services (IIS)**: Provides a scalable web application infrastructure, and is required for EDI, BAM, Management REST API, and the SharePoint adapter.
 
