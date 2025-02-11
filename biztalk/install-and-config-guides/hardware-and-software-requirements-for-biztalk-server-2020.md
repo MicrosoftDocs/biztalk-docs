@@ -38,8 +38,8 @@ When applying a cumulative update, some of the required software versions may ch
   - Windows Server 2022 (with Desktop Experience) - requires minimum BizTalk 2020 [CU6](https://support.microsoft.com/help/5043408)
   - Windows Server 2019 (with Desktop Experience)
   - Windows Server 2016 (with Desktop Experience)
+  - Windows 11 - requires minimum BizTalk 2020 [CU6](https://support.microsoft.com/help/5043408)
   - Windows 10
-  - Windows 11
 
 - **Internet Information Services (IIS)**: Provides a scalable web application infrastructure, and is required for EDI, BAM, Management REST API, and the SharePoint adapter.
 
@@ -104,7 +104,7 @@ When applying a cumulative update, some of the required software versions may ch
   - Microsoft SQL Server 2022 - requires minimum BizTalk 2020 [CU6](https://support.microsoft.com/help/5043408)
   - Microsoft SQL Server 2019
   - Microsoft SQL Server 2017
-  - Microsoft SQL Server 2016 SP2 CU7
+  - Microsoft SQL Server 2016 SP3
 
 - **SSIS Catalog** (SSIDB): Optional. Required to use BAM. [Create the SSIS Catalog](/sql/integration-services/catalog/ssis-catalog#create-the-ssis-catalog).
 
@@ -120,13 +120,7 @@ When applying a cumulative update, some of the required software versions may ch
 
 - **WinSCP**: Required to use the SFTP adapter.
 
-  Supported versions:
-
-  - WinSCP version [5.15.4](https://winscp.net/download/WinSCP-5.15.4-Automation.zip) . Download automation library at [WinSCP](http://winscp.net) and extract to BizTalk installation folder.
-  - BizTalk Server 2020 with CU1 or CU2 - WinSCP version [5.17.6](https://winscp.net/download/WinSCP-5.17.6-Automation.zip)
-  - BizTalk Server 2020 with CU3 or CU4 - WinSCP version [5.19.2](https://winscp.net/download/WinSCP-5.19.2-Automation.zip)
-  - BizTalk Server 2020 with CU5 - WinSCP version [6.1.2](https://winscp.net/download/WinSCP-6.1.2-Automation.zip)
-  - BizTalk Server 2020 with CU6 - WinSCP version [6.3.5](https://winscp.net/download/WinSCP-6.3.5-Automation.zip)
+  BizTalk requires certain WinSCP version depending on which BizTalk cumulative update that is installed. For WinSCP version details, see [SFTP adapter documentation](../core/sftp-adapter.md).
 
 - **MQSeries adapter**: Optional. Required only when using IBM WebSphere MQ.
 
