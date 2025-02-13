@@ -8,7 +8,7 @@ brand: azure
 metadata:
   title: Microsoft BizTalk Server documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Explore documentation for Microsoft BizTalk Server # Required; article description that is displayed in search results. < 160 chars.
-  ms.service: biztalk-service #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: biztalk-server #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   author: haroldcampos #Required; your GitHub user alias, with correct capitalization.
   ms.author: hcampos #Required; microsoft alias of author; optional team alias.
