@@ -70,8 +70,8 @@ conceptualContent:
           itemType: overview
     - title: Announcements
       links:
-        - text: Integrate 2022
-          url: https://www.kovai.co/integrate-2022/
+        - text: Integrate events
+          url: https://www.kovai.co/events/
           itemType: reference
         - text: BizTalk magazine on Flipboard
           url: https://flipboard.com/@sandroasp/biztalkmagazine-hh6jepeby
