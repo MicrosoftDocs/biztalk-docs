@@ -49,13 +49,13 @@ For more information, see the following documentation:
 
 1.  In the BizTalk Server Administration console, expand BizTalk Server, expand **BizTalk Group**, expand **Applications**, and then expand the application under you want to create a receive location.
 
-2.  In the left pane, click the **Receive Ports** node and in the right pane, right-click the receive port with which you want to associate the new receive location, and then click **Properties**.
+1.  In the left pane, click the **Receive Ports** node and in the right pane, right-click the receive port with which you want to associate the new receive location, and then click **Properties**.
 
-3.  In the left pane of the **Receive Port Properties** dialog box, select **Receive Locations**, and in the right pane click **New** to create a new receive location.
+1.  In the left pane of the **Receive Port Properties** dialog box, select **Receive Locations**, and in the right pane click **New** to create a new receive location.
 
-4.  In the **Receive Location Properties** dialog box, in the **Transport** section, select **SFTP** from the **Type** drop-down list, and then click **Configure** to configure the transport properties for the receive location.
+1.  In the **Receive Location Properties** dialog box, in the **Transport** section, select **SFTP** from the **Type** drop-down list, and then click **Configure** to configure the transport properties for the receive location.
 
-5.  In the **SFTP Transport Properties**, do the following:
+1.  In the **SFTP Transport Properties**, do the following:
 
      **Others**
 
@@ -110,17 +110,17 @@ For more information, see the following documentation:
     | Port | Specifies the port address for the secure FTP server on which the file transfer takes place.|
     | Server Address | Specifies the server name or IP address of the secure FTP server.|
 
-6.  Click **OK**.
+1.  Click **OK**.
 
-7.  Enter the appropriate values in the **Receive Location Properties** dialog box to complete the configuration of the receive location and click **OK** to save settings. For information about the **Receive Locations Properties** dialog box, see [Create a Receive Location](../core/how-to-create-a-receive-location.md).
+1.  Enter the appropriate values in the **Receive Location Properties** dialog box to complete the configuration of the receive location and click **OK** to save settings. For information about the **Receive Locations Properties** dialog box, see [Create a Receive Location](../core/how-to-create-a-receive-location.md).
 
 ## Configure the send port
 
 1.  In the BizTalk Server Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **SFTP** for the **Type** option in the **Transport** section of the **General** tab.
 
-2.  On the **General** tab, in the **Transport** section, click the **Configure** button.
+1.  On the **General** tab, in the **Transport** section, click the **Configure** button.
 
-3.  In the **SFTP Transport Properties**, enter the following:
+1.  In the **SFTP Transport Properties**, enter the following:
 
     **Others**
 
@@ -166,7 +166,7 @@ For more information, see the following documentation:
     | Server Address | Specifies the server name or IP address of the secure FTP server.|
     | Target File Name | Specifies the name with which the file is transferred to the secure FTP server. You can also use macros for the target file name.|
 
-4.  Click **OK** and **OK** again to save settings.
+1.  Click **OK** and **OK** again to save settings.
 
 ## Use a newer WinSCP version
 
