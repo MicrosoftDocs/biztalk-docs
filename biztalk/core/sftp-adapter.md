@@ -15,7 +15,7 @@ BizTalk Server includes an **SFTP** adapter to send and receive messages from a 
 
 Starting with BizTalk Server 2016, the SFTP adapter connects to SFTP by using the WinSCP library, which supports a larger range of SFTP servers.
 
-1. Visit the [WinSCP website](https://winscp.net/eng/downloads.php), under .NET assembly COM library section, or the [SourceForge downloads website](https://sourceforge.net/projects/winscp/files/WinSCP/) for older versions. 
+1. Visit the [WinSCP website](https://winscp.net/eng/downloads.php) and find the **.NET assembly / COM library** section, or visit the [SourceForge downloads website](https://sourceforge.net/projects/winscp/files/WinSCP/) for older versions. 
 
 1. Make sure to use the supported WinSCP versions for each BizTalk Server version:
  * BizTalk Server 2020 CU6 - WinSCP version [6.3.5](https://sourceforge.net/projects/winscp/files/WinSCP/6.3.5/WinSCP-6.3.5-Automation.zip/download)
