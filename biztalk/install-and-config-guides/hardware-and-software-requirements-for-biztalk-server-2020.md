@@ -3,8 +3,8 @@ title: Hardware and Software Requirements for BizTalk Server 2020
 description: Describes the software prerequisites and supported version lists in order to install BizTalk Server 2020.
 ms.custom: biztalk-2020,devx-track-javaee-websphere
 ms.service: biztalk-server
-ms.date: 01/03/2023
-ms.reviewer: ""
+ms.date: 02/13/2025
+ms.reviewer: "niklase"
 ms.suite: ""
 ms.topic: article
 ---
@@ -35,8 +35,10 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 When applying a cumulative update, some of the required software versions may change. To see the software versions that are updated, read the KB article for the cumulative update. For a list of cumulative updates, go to [Service Pack and cumulative update list for BizTalk Server](https://support.microsoft.com/topic/service-pack-and-cumulative-update-list-for-biztalk-server-108e5e94-4558-8b57-d5fb-45984506d56f).
 
 - **Microsoft Windows**: Required. Supported versions include:
+  - Windows Server 2022 (with Desktop Experience) - requires minimum BizTalk 2020 [CU6](https://support.microsoft.com/help/5043408)
   - Windows Server 2019 (with Desktop Experience)
   - Windows Server 2016 (with Desktop Experience)
+  - Windows 11 - requires minimum BizTalk 2020 [CU6](https://support.microsoft.com/help/5043408)
   - Windows 10
 
 - **Internet Information Services (IIS)**: Provides a scalable web application infrastructure, and is required for EDI, BAM, Management REST API, and the SharePoint adapter.
@@ -88,7 +90,7 @@ When applying a cumulative update, some of the required software versions may ch
 
   Supported minimum versions:
 
-  - Microsoft OLE DB Driver 18.3.0 for SQL Server. Download at [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/download-oledb-driver-for-sql-server?view=sql-server-ver15&preserve-view=true).
+  - Microsoft OLE DB Driver 18.3.0 for SQL Server. Download 18.x at [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server?view=sql-server-ver15&preserve-view=true#1874).
 
 - **Microsoft SQL Server**: Required for BizTalk Server Runtime, EDI, and BAM. For optimal performance, Microsoft recommends the Enterprise Edition of SQL Server. Other considerations:
 
@@ -99,9 +101,10 @@ When applying a cumulative update, some of the required software versions may ch
 
   Supported versions:
 
+  - Microsoft SQL Server 2022 - requires minimum BizTalk 2020 [CU6](https://support.microsoft.com/help/5043408)
   - Microsoft SQL Server 2019
   - Microsoft SQL Server 2017
-  - Microsoft SQL Server 2016 SP2 CU7
+  - Microsoft SQL Server 2016 SP3
 
 - **SSIS Catalog** (SSIDB): Optional. Required to use BAM. [Create the SSIS Catalog](/sql/integration-services/catalog/ssis-catalog#create-the-ssis-catalog).
 
@@ -117,11 +120,7 @@ When applying a cumulative update, some of the required software versions may ch
 
 - **WinSCP**: Required to use the SFTP adapter.
 
-  Supported versions:
-
-  - WinSCP version [5.15.4](https://winscp.net/download/WinSCP-5.15.4-Automation.zip) . Download automation library at [WinSCP](http://winscp.net).
-  - BizTalk Server 2020 with CU1 or CU2 - WinSCP version [5.17.6](https://winscp.net/download/WinSCP-5.17.6-Automation.zip)
-  - BizTalk Server 2020 with CU3 or CU4 - WinSCP version [5.19.2](https://winscp.net/download/WinSCP-5.19.2-Automation.zip)
+  BizTalk requires a specific WinSCP version based on the installed BizTalk cumulative update. For WinSCP version details, see [SFTP adapter documentation](../core/sftp-adapter.md).
 
 - **MQSeries adapter**: Optional. Required only when using IBM WebSphere MQ.
 

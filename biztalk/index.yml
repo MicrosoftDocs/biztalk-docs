@@ -8,20 +8,20 @@ brand: azure
 metadata:
   title: Microsoft BizTalk Server documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Explore documentation for Microsoft BizTalk Server # Required; article description that is displayed in search results. < 160 chars.
-  ms.service: biztalk-service #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: biztalk-server #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
   author: haroldcampos #Required; your GitHub user alias, with correct capitalization.
   ms.author: hcampos #Required; microsoft alias of author; optional team alias.
-  ms.date: 04/10/2020 #Required; mm/dd/yyyy format.
+  ms.date: 02/13/2025 #Required; mm/dd/yyyy format.
 
 highlightedContent: 
   items:
     # Card 
-    - title: Install, config & upgrade
+    - title: Install, config, and upgrade
       itemType: how-to-guide
       url: ./install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md
     # Card
-    - title: Technical Guides
+    - title: Technical guides
       itemType: tutorial
       url: ./technical-guides/index.md
     # Card
@@ -31,9 +31,9 @@ highlightedContent:
 
 conceptualContent:
   items:
-    - title: Get Started
+    - title: Get started
       links:
-        - text: What's New
+        - text: What's new
           url: ./install-and-config-guides/whats-new-in-biztalk-server-2020.md
           itemType: whats-new
         - text: Get started
@@ -45,9 +45,9 @@ conceptualContent:
         - text: B2B
           url: ./core/trading-partner-management-using-biztalk-server.md
           itemType: overview
-    - title: Adapters & Accelerators
+    - title: Adapters and accelerators
       links:
-        - text: Adapters & Accelerators
+        - text: Adapters and accelerators
           url: ./adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server.md
           itemType: overview
         - text: Built-in adapters
@@ -70,54 +70,47 @@ conceptualContent:
           itemType: overview
     - title: Announcements
       links:
-        - text: Integrate 2022
-          url: https://www.kovai.co/integrate-2022/
+        - text: Integration events
+          url: https://www.kovai.co/events/
           itemType: reference
         - text: BizTalk magazine on Flipboard
           url: https://flipboard.com/@sandroasp/biztalkmagazine-hh6jepeby
           itemType: reference
     - title: Social media
       links:
-        - text: '@Biztalk_Server'
-          url: https://twitter.com/@Biztalk_Server
-          itemType: reference
-        - text: '@msbts'
-          url: https://twitter.com/hashtag/msbts
-          itemType: reference
-        - text: '@BizTalk Gurus'
-          url: https://twitter.com/BizTalkGurus
+        - text: '@BizTalkGurus'
+          url: https://x.com/BizTalkGurus
           itemType: reference
         - text: '@BizTalkers'
-          url: https://twitter.com/@BizTalkers
+          url: https://x.com/BizTalkers
+          itemType: reference
+        - text: 'LinkedIn: Microsoft BizTalk Server & Azure Integration'
+          url: https://www.linkedin.com/groups/53234/
+          itemType: reference
+        - text: 'LinkedIn: Microsoft BizTalk Group'
+          url: https://www.linkedin.com/groups/155025/
           itemType: reference
         - text: '@logicappsio'
-          url: https://twitter.com/@logicappsio
+          url: https://x.com/logicappsio
           itemType: reference
-        - text: '@MicrosoftFlow'
-          url: https://twitter.com/@MicrosoftFlow
+        - text: '@MSPowerPlat'
+          url: https://x.com/MSPowerPlat
           itemType: reference
         - text: '@AzureApiMgmt'
-          url: https://twitter.com/@AzureApiMgmt
-          itemType: reference
-        - text: BizTalk on Facebook
-          url: https://facebook.com/MicrosoftBiztalk
+          url: https://x.com/AzureApiMgmt
           itemType: reference
     - title: Partner training
       links:
-        - text: Pluralsight
-          url: https://www.pluralsight.com/search?q=biztalk
-          itemType: learn
-        - text: QuickLearn
-          url: https://www.quicklearn.com/biztalk-training.aspx
-          itemType: learn
         - text: BizTalk360
           url: https://www.biztalk360.com/biztalk-server-integration-training/
           itemType: learn
-
+        - text: Pluralsight
+          url: https://www.pluralsight.com/search?q=biztalk
+          itemType: learn
 additionalContent:
   # Supports up to 3 sections
   sections:
-    - title: For Developers # < 60 chars (optional)
+    - title: For developers # < 60 chars (optional)
       items:
         # Card
         - title: Documentation for developers
@@ -128,7 +121,7 @@ additionalContent:
           summary: Check out some of the great tools and adapters your peers are creating.
           url: https://archive.codeplex.com/?s=biztalk
         # Card
-        - title: Five day course on GitHub
+        - title: Five-day course on GitHub
           summary: Read all about installation and configuration, tooling, data type mapping, security, and more
           url: https://github.com/wmmihaa/BizTalk-Server---Developing-Integration-Solutions
     - title: Watch
@@ -138,7 +131,7 @@ additionalContent:
           url: https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg/search?query=integration
         # Card
         - title: Azure Logic Apps on YouTube
-          summary: Watch your Logic Apps PM team show you what's new, and what's coming.
+          summary: Watch the Azure Logic Apps PM team show you what's new, and what's coming.
           url: https://www.youtube.com/channel/UCbJQweD96Y7n-ebKpdLDJww
         # Card
         - title: Channel 9 videos
