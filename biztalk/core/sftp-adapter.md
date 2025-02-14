@@ -172,7 +172,7 @@ For more information, see the following documentation:
 
 To use a newer version of WinSCP with BizTalk Server, add an assembly redirection so BizTalk knows which assembly to load. The redirection is configured in the BizTalk Server configuration files: BTSNTSVC.exe.config (32-bit host instances) and BTSNTSVC64.exe.config (64-bit host instances). Due to a breaking change in WinSCP automation after version 6.1.2, BizTalk 2016 (all versions) and BizTalk 2020 before CU6 can only be redirected up to maximum 6.1.2 version. BizTalk 2020 CU6 and later can be redirected to newer versions. 
 
-The following includes sample configuration syntax. Be sure to replace `%NEWVERSION%` with your version of WinSCPnet.dll file:
+The following includes a sample configuration syntax. Make sure that you replace **`%NEWVERSION%`** with your version of the **WinSCPnet.dll** file:
 
 ```
 <configuration>
