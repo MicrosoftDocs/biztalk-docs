@@ -34,7 +34,7 @@ Starting with BizTalk Server 2016, the SFTP adapter connects to SFTP by using th
 
 For more information, see the following documentation:
 
-[Hardware and Software Requirements for BizTalk 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md)
+- [Hardware and Software Requirements for BizTalk 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md)
 [Hardware and Software Requirements for BizTalk 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)
 
 BizTalk Server 2013 and BizTalk Server 2013 R2 use older internal ssh library instead of WinSCP with limited SFTP server compatibility.
