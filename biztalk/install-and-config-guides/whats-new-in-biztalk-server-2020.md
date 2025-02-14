@@ -3,8 +3,8 @@ title: What's New in BizTalk Server 2020
 description: Changes and improvements, including feature packs, adapters, security, tracking, performance, and more in BizTalk Server 2020
 ms.custom: biztalk-2020
 ms.service: biztalk-server
-ms.date: 02/13/2020
-ms.reviewer: ""
+ms.date: 02/11/2025
+ms.reviewer: "niklase"
 ms.suite: ""
 ms.topic: article
 ---
@@ -17,7 +17,7 @@ Read about what's new in BizTalk Server 2020.
 
 | Feature | Description |  
 |---|---|  
-|Support for newer platforms | BizTalk Server 2020 adds support for the following Microsoft platforms:<br /><br /> -   Visual Studio 2019 (Enterprise and Professional editions are supported)<br />-   Windows Server 2019, Windows Server 2016, Windows 10<br />-   SQL Server 2019, SQL Server 2017, SQL Server 2016 SP2<br />-   Office 2019, Office 2016<br/><br/>[Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md)|
+| Support for newer platforms | BizTalk Server 2020 adds support for the following Microsoft platforms: <br><br>- Visual Studio 2019 (Enterprise and Professional editions are supported) <br>- Windows Server 2019, Windows Server 2016, Windows 10 <br>- SQL Server 2019, SQL Server 2017, SQL Server 2016 SP3 <br>- Office 2019, Office 2016 <br><br>BizTalk Server 2020 [CU6](https://support.microsoft.com/help/5043408) adds support for the following Microsoft platforms: <br><br>- Windows Server 2022, Windows 11 <br>- SQL Server 2022 <br><br>For more information, see [Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md). |
 | Analytics | Operational Data Monitoring and Analytics. <br/>Leveraging the power of Azure (Application Insight and Event Hub) for deep data storage and Power BI for reporting and viewing of data. <br/><br/>[Send tracking data to Azure](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)<br />[Configure data feed for Power BI](../core/operational-data-service.md)|
 | Application Lifecycle Management with VSTS | Using Visual Studio Team Services, you can define multi-server deployments of BizTalk Server 2020, and then maintain those systems throughout the application lifecycle. <br/><br/>[Configure automatic deployment using VSTS](../core/configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)|
 | Management APIs | Manage your environment remotely using the new REST APIs with full Swagger support. <br/><br/>[REST API reference](/rest/api/overview/biztalk/?view=rest-biztalk-2020&preserve-view=true)|
