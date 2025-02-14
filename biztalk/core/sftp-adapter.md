@@ -28,7 +28,7 @@ Starting with BizTalk Server 2016, the SFTP adapter connects to SFTP by using th
  * BizTalk Server 2016 CU5 or CU6 - WinSCP version [5.13.1](https://sourceforge.net/projects/winscp/files/WinSCP/5.13.1/WinSCP-5.13.1-Automation.zip/download)
  * BizTalk Server 2016 RTM to CU4 - WinSCP version [5.7.7](https://sourceforge.net/projects/winscp/files/WinSCP/5.7.7/WinSCP-5.7.7-Automation.zip/download)
 
-3. Download the correct **WinSCP-version-Automation.zip** file onto the BizTalk runtime servers.
+1. Download the correct **WinSCP-version-Automation.zip** file onto the BizTalk runtime servers.
 
 4. Decompress the **WinSCP-version-Automation.zip** contents, WinSCP.exe and WinSCPnet.dll, to the BizTalk installation folder. (%BTSINSTALLPATH%)
 
