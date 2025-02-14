@@ -30,7 +30,7 @@ Starting with BizTalk Server 2016, the SFTP adapter connects to SFTP by using th
 
 1. Download the correct **WinSCP-version-Automation.zip** file onto the BizTalk runtime servers.
 
-4. Decompress the **WinSCP-version-Automation.zip** contents, WinSCP.exe and WinSCPnet.dll, to the BizTalk installation folder. (%BTSINSTALLPATH%)
+1. Extract the **WinSCP-version-Automation.zip** contents, which contains WinSCP.exe and WinSCPnet.dll, to the BizTalk installation folder. (%BTSINSTALLPATH%)
 
 See also 
 [Hardware and Software Requirements for BizTalk 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md)
