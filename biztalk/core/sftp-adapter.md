@@ -12,7 +12,10 @@ ms.topic: "article"
 BizTalk Server includes an **SFTP** adapter to send and receive messages from a secure FTP server using the SSH file transfer protocol. This topic includes the steps to configure an **SFTP** receive location, and configure an SFTP send port to receive and send messages from a secure FTP server. It also includes common questions and answers.
 
 ## Prerequisites
-Starting with BizTalk Server 2016, the SFTP adapter uses WinSCP to connect to SFTP, and therefore supports a larger range of SFTP servers. **Download [WinSCP](https://winscp.net/eng/downloads.php)** WinSCP-version-Automation.zip file, under .NET assembly COM library section or [older downloads](https://sourceforge.net/projects/winscp/files/WinSCP/) , to the BizTalk runtime servers and decompress the contents, WinSCP.exe and WinSCPnet.dll, to the BizTalk installation folder. Be sure to check the supported WinSCP versions for each BizTalk Server version:
+
+Starting with BizTalk Server 2016, the SFTP adapter connects to SFTP by using WinSCP library, which supports a larger range of SFTP servers.
+1. Visit the [WinSCP website](https://winscp.net/eng/downloads.php), under .NET assembly COM library section, or the [SourceForge downloads website](https://sourceforge.net/projects/winscp/files/WinSCP/) for older versions. 
+2. Be sure to use the supported WinSCP versions for each BizTalk Server version:
  * BizTalk Server 2020 CU6 - WinSCP version [6.3.5](https://sourceforge.net/projects/winscp/files/WinSCP/6.3.5/WinSCP-6.3.5-Automation.zip/download)
  * BizTalk Server 2020 CU5 - WinSCP version [6.1.2](https://sourceforge.net/projects/winscp/files/WinSCP/6.1.2/WinSCP-6.1.2-Automation.zip/download)
  * BizTalk Server 2020 CU3 or CU4 - WinSCP version [5.19.2](https://sourceforge.net/projects/winscp/files/WinSCP/5.19.2/WinSCP-5.19.2-Automation.zip/download)
@@ -22,6 +25,8 @@ Starting with BizTalk Server 2016, the SFTP adapter uses WinSCP to connect to SF
  * BizTalk Server 2016 CU7 or CU8 - WinSCP version [5.15.9](https://sourceforge.net/projects/winscp/files/WinSCP/5.15.9/WinSCP-5.15.9-Automation.zip/download)
  * BizTalk Server 2016 CU5 or CU6 - WinSCP version [5.13.1](https://sourceforge.net/projects/winscp/files/WinSCP/5.13.1/WinSCP-5.13.1-Automation.zip/download)
  * BizTalk Server 2016 RTM to CU4 - WinSCP version [5.7.7](https://sourceforge.net/projects/winscp/files/WinSCP/5.7.7/WinSCP-5.7.7-Automation.zip/download)
+3. Download the correct **WinSCP-version-Automation.zip** file onto the BizTalk runtime servers.
+4. Decompress the **WinSCP-version-Automation.zip** contents, WinSCP.exe and WinSCPnet.dll, to the BizTalk installation folder. (%BTSINSTALLPATH%)
 
 See also 
 [Hardware and Software Requirements for BizTalk 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md)
