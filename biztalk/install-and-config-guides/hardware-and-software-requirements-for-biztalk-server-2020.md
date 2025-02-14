@@ -120,7 +120,7 @@ When applying a cumulative update, some of the required software versions may ch
 
 - **WinSCP**: Required to use the SFTP adapter.
 
-  BizTalk requires certain WinSCP version depending on which BizTalk cumulative update that is installed. For WinSCP version details, see [SFTP adapter documentation](../core/sftp-adapter.md).
+  BizTalk requires a specific WinSCP version based on the installed BizTalk cumulative update. For WinSCP version details, see [SFTP adapter documentation](../core/sftp-adapter.md).
 
 - **MQSeries adapter**: Optional. Required only when using IBM WebSphere MQ.
 
