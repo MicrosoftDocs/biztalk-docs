@@ -3,7 +3,7 @@ title: "Hardware and Software Requirements for BizTalk Server 2016"
 description: Software prerequisites and supported version lists to install BizTalk Server 2016
 ms.custom: "devx-track-javaee-websphere"
 ms.service: biztalk-server
-ms.date: "02/11/2025"
+ms.date: "02/14/2025"
 ms.reviewer: "niklase"
 ms.suite: ""
 ms.topic: "article"
