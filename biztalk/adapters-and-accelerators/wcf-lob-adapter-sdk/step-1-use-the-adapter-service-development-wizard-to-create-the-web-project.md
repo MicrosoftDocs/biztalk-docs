@@ -101,10 +101,12 @@ ms.topic: "article"
     |**AuthenticationType**|**HTTPUsernamePassword**|  
     |**UsernameHeader**|MyUserHeader|  
     |**PasswordHeader**|MyPassHeader|  
-  
-     These values will be used to specify the **adapterSecurityBridgeType** in the <**endpointBehaviors** element in web.confg.  
-  
-     ![Endpoint Configuration](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/3fd5784c-64e5-47c1-9a6f-10f12f77f726.gif "3fd5784c-64e5-47c1-9a6f-10f12f77f726")  
+
+    [!INCLUDE [authentication-security-guidance](../../includes/authentication-security-guidance.md)]
+
+    In the **web.config file**, these values specify the **adapterSecurityBridgeType** in the <**endpointBehaviors**> element.
+
+    ![Endpoint Configuration](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/3fd5784c-64e5-47c1-9a6f-10f12f77f726.gif "3fd5784c-64e5-47c1-9a6f-10f12f77f726")  
   
 3.  Click **Next**  
   

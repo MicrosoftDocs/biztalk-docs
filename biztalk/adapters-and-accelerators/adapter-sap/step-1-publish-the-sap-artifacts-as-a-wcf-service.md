@@ -107,6 +107,8 @@ ms.topic: "article"
        |UsernameHeader|Name for the user name header. For this example, specify **MyUserHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](/previous-versions/office/developer/sharepoint-2010/bb802855(v=office.14)).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
        |PasswordHeader|Name for the password header. For this example, specify **MyPassHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](/previous-versions/office/developer/sharepoint-2010/bb802855(v=office.14)).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
 
+       [!INCLUDE [authentication-security-guidance](../../includes/authentication-security-guidance.md)]
+
        The following figure shows the Configure Service and Endpoint Behaviors page with the specified values.
 
        ![Configure Service and Endpoint Behaviors page](../../adapters-and-accelerators/adapter-sap/media/0a286b0c-7f0d-46c5-9b56-29bef3a1deea.gif "0a286b0c-7f0d-46c5-9b56-29bef3a1deea")
