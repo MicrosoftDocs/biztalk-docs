@@ -6,7 +6,7 @@ ms.date: "12/13/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configure pipeline tracking in BizTalk Server
 Use the BizTalk Server Administration to configure tracking for a pipeline. You might want to configure tracking for troubleshooting and auditing purposes. You can view message properties, port events, and message events. You can also track message events and port events for messages.  

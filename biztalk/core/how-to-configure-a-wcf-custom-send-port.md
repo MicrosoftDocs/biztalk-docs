@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure a WCF-Custom Send Port
 You can configure a WCF-Custom send port either programmatically or by using the BizTalk Administration console.

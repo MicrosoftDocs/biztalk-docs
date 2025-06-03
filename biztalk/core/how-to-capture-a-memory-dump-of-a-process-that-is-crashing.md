@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Capture a Memory Dump of a Process that is Crashing
 The BizTalk process BTSNTSvc.exe is defined as **crashing** when the process is unexpectedly terminated by Windows. A crash is typically caused by an unhandled exception in the process such as an access violation or a stack overflow. In these situations, the Windows default debugger, Dr. Watson (drwtsn32.exe) catches the exception and terminates the process.  

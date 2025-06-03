@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the Flat File Assembler Pipeline Component
 The Flat File Assembler pipeline component is used to serialize an XML document into delimited or positional flat file format before sending it out of the server.  

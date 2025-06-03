@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the MIME-SMIME Decoder Pipeline Component
 The MIME/SMIME Decoder pipeline component is used for decoding and decrypting MIME/SMIME encoded messages and for verifying digital signatures of signed messages. This component is useful when secured document interchange is needed between external partners and BizTalk Server. This component can also be used for receiving messages with attachments.  

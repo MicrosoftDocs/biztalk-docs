@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the Flat File Disassembler Pipeline Component
 The Flat File Disassembler pipeline component is used for disassembling documents in flat file format and converting them into XML format.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Functoid Input Parameters
 Properly configuring the input parameters to the functoids in your map is one of the most important, and potentially error-prone, aspects of using functoids. You can configure the functoid input parameters as follows:  

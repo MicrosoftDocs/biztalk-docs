@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create Component Interfaces
 You create component interfaces using the PeopleSoft Application Designer. (For more information about Application Designer, see the PeopleSoft Enterprise documentation.)  

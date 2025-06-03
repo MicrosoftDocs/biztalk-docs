@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Build Orchestrations
 After you have completed an orchestration drawing, you build your BizTalk project into an assembly that encapsulates an executable orchestration.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Audit SSO
 You can use the MMC Snap-In or the command line to set both the positive and negative auditing levels. Results of the auditing are stored in both the event logs and the audit logs of the database.  

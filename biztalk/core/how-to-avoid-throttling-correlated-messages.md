@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Avoid Throttling Correlated Messages
 Messages that are en-queued into BizTalk Server, for example through a receive location or by orchestrations, can be processed in one of the following ways:  

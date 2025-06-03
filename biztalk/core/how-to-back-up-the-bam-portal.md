@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Back Up the BAM Portal
 If you are using Business Activity Monitoring (BAM), you must back up the BAM portal as part of backing up your BizTalk server. If you are not using BAM, this procedure is optional.

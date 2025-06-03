@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Correlation Sets
 To configure your correlation set, you can select an existing correlation type, create a new correlation type, or modify an existing correlation type.  

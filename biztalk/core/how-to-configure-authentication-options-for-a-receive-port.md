@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Authentication Options for a Receive Port
 This topic describes how to use the BizTalk Server Administration console to configure message authentication options for a receive port. These options take effect when party resolution authentication is configured. The options are:  

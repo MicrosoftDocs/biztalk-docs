@@ -6,7 +6,7 @@ ms.date: "10/22/2015"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure an SMTP Send Handler
 You can set SMTP send handler properties in the BizTalk Administration console. These send handler properties are used as the send port configuration values if the properties are not set on the individual SMTP send port.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Change the Tracking QueryTimeout Value
 By default, message and service instance tracking will time out if a query runs longer than 60 seconds. You can change the timeout value in the registry to enable queries to run longer than 60 seconds.  
