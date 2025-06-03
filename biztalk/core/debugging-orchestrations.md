@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Debugging Orchestrations
 Using the Group Hub page in the BizTalk Server Administration console, BizTalk enables you to trace, view, and report on high-level progress or low-level details of your business process and the components that implement it. In addition to that, you can also debug your orchestrations by writing the information to the event log to trace the output or using custom code to track your business process.  

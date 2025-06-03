@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Transforming and Routing a Message to Multiple Endpoints
 In this use case, the ESB performs a transformation on a message submitted through the Itinerary Web service on-ramp. A dynamic resolution lookup determines the map name and transforms the inbound message. Additionally, the itinerary specifies n number of target endpoints that the Itinerary service will dynamically resolve and to which it will route the transformed message. All operations occur at the messaging layer, as illustrated in Figure 1.  

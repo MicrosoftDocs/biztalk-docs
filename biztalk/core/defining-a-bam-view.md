@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Defining a BAM View
 Sometimes you do not want to expose all of your business data to all business users. You can create different BAM views that expose different types of information.  

@@ -3,7 +3,7 @@ description: "Learn more about: Step 4: Create a Receive Port for Accepting the 
 title: "Step 4: Create a Receive Port for Accepting the Batch Message"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 4: Create a Receive Port for Accepting the Batch Message
 In this step, you create and configure a port to receive the incoming batch.  

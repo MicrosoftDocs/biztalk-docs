@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa560701(v=BTS.80)
 ms:contentKeyID: 51528791
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # MSBTS\_TrackedMessageInstance.PartCount Property (WMI)

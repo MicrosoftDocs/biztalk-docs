@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Planning to Create Maps
 You use maps to convert input messages conforming to one schema into output messages conforming to a different schema. These conversions may be simple or quite complex, involving calculations and consolidation of information.  

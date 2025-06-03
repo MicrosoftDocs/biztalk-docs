@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SNA_ExtendedStatus Class
 Used to return error information if required  

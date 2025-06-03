@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with the Managed Provider for DB2
 The Managed Provider for DB2 operates in most ways as a normal data provider: you can connect to a DB2 database, execute commands, retrieve data, and use stored procedures.  

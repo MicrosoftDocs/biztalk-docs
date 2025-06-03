@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to: Create an Itinerary to Dynamically Route a Message to an Email Address Using an LDAP Query
 ## Goal  

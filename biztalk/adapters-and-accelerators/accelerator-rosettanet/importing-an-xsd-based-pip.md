@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Importing an XSD-based PIP
 While the majority of PIPS provided by RosettaNet.org are DTD-based, newer PIPS are XSD-based. The following procedure describes how to import XSD-based PIPS.

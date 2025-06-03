@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Handling Encoding in a Disassembler Pipeline Component
 Ensure that your custom disassembler component encodes outbound documents in one of the following formats:  

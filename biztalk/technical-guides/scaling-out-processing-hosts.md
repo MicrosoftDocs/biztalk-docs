@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Scaling Out Processing Hosts
 For information about scaling out processing hosts, see [Scaled-Out Processing Hosts](../core/scaled-out-processing-hosts.md) (https://go.microsoft.com/fwlink/?LinkId=151285).

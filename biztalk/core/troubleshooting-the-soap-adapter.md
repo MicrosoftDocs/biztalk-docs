@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting the SOAP Adapter
 This section describes troubleshooting techniques that can be used to diagnose problems with the SOAP adapter and known issues using the SOAP adapter.  

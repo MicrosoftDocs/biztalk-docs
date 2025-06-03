@@ -2,7 +2,7 @@
 title: Notes about IBM i computers
 description: Learn more about IBM i computers along with local and remote names.
 ms.service: host-integration-server
-ms.topic: conceptual
+ms.topic: article
 ms.date: 11/30/2017
 ---
 

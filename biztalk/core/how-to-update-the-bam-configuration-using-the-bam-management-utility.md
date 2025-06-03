@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Update the BAM Configuration Using the BAM Management Utility
 Administrators can use the BAM Management utility to update an existing BAM installation.  

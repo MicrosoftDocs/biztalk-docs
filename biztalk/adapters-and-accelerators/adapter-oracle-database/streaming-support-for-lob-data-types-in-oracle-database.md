@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Streaming Support for LOB Data Types in Oracle Database
 The Oracle database supports streaming on large object (LOB) data types. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]supports message streaming, which makes it possible to stream LOB data end-to-end between the Oracle database and an adapter client. However, streaming is not supported in the same manner across all programming models when you use the adapter.  

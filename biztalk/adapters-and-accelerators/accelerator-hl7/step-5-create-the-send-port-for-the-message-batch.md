@@ -3,7 +3,7 @@ description: "Learn more about: Step 5: Create the Send Port for the Message Bat
 title: "Step 5: Create the Send Port for the Message Batch"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 5: Create the Send Port for the Message Batch
 In this step, you create a send port to deliver the message batch that you create to the destination party. This is a static one-way port with a FILE adapter type. You designate a file folder for the destination (\Tutorial_BatchMsgDrop) where [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will drop the message batch file. You define a filter for the port indicating what type of message batches the ports will send. The filter specifies the destination of Tutorial_BatchDest and the message type of OutboundBatch.  

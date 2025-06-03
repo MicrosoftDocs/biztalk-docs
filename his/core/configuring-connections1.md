@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Connections
 If you run a wizard to create your connections, most of the configuration information will be added with the criteria you entered when the wizard runs. The IBM i Wizard, the Mainframe APPC/LU6.2 Wizard, and the 3270 Wizard step you through configuring connection properties, creating 3270 display LUs and an LU pool, and assigning the LUs to the LU pool.  

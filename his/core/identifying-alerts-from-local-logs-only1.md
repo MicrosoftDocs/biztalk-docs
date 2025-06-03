@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Identifying Alerts from Local Logs Only
 When only the local log of an alert is available, you can still obtain the information that would have been supplied on the alert. To do this, check the outage code given on Message 182 against the following list. Find the alert that uses this outage code, and then check the alert data in [SDLC Failure Alerts](../core/sdlc-failure-alerts2.md). Some Outage Codes are used for more than one alert. In these cases, you can find the appropriate alert by comparing the Failure causes codes given on Message 182 with those given in the alert data.  

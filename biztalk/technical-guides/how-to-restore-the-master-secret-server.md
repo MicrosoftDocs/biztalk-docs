@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Restore the Master Secret Server
 For information about restoring the master secret server, see [How to Restore the Master Secret](../core/how-to-restore-the-master-secret.md) (https://go.microsoft.com/fwlink/?LinkId=151394).

@@ -3,7 +3,7 @@ description: "Learn more about: Step 9: Restart BizTalk Server_hl7_main"
 title: "Step 9: Restart BizTalk Server_hl7_main"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 9: Restart BizTalk Server_hl7_main
 In this step, you restart [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] in order for the changes you made in this tutorial to take effect.  

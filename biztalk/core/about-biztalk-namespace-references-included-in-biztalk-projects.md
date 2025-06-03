@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # About BizTalk Namespace References Included in BizTalk Projects
 When you add a new BizTalk project, the following namespaces are included by default:  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Inlining Back-end Invocation
 The inline call version, of the full solutions, provides the fastest processing times. The inline version eliminates the overhead of persisting the request and response messages to and from the backend systems in the MessageBox database. In the adapter version, the message goes from the sending orchestration to the MessageBox. The host running the adapter picks up the message, and sends the message to the back-end process by again posting it to the message box.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # About BizTalk Message Context Properties
 When a document is received by a BizTalk Server adapter, the adapter creates a BizTalk message for the document. The BizTalk message contains the document that was received as well as a message context. The message context is a container for various properties that are used by BizTalk Server when processing the document. Each property in the Message Context is composed of three things, a name, a namespace, and a value. For example, the following message context property describes the Interchange ID for a document:  

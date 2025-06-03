@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Testing Connections with the 5250 Client
 The 5250 Client can be used to access your IBM i environment. The following topics detail running and configuring the 5250 Client application.  

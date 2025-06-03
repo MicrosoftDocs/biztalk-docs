@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Back Up the BAM Analysis and Tracking Analysis Server Databases
 The Business Activity Monitoring (BAM) Analysis database and the Tracking Analysis Server database store content in SQL Server Analysis Services cubes. The Backup BizTalk Server job does not back up these databases. Instead, to backup these databases, you must use SQL Server Analysis Manager.  

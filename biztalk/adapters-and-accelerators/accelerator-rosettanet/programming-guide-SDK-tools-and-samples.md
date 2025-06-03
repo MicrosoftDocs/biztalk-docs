@@ -6,7 +6,7 @@ ms.date: "08/09/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 
 # Programming guide, tools and samples in the RosettaNet SDK

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the MIME-SMIME Encoder Pipeline Component
 Use the MIME/SMIME Encoder pipeline component to encode and encrypt outgoing messages and to sign outgoing messages. This component is useful when you require secured document interchange between BizTalk Server and external partners. You can also use this component to send BizTalk Server multi-part messages.  

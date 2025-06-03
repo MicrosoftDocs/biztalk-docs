@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configure a physical port binding using a port binding file to Oracle E-Business Suite
 When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to generate metadata for Oracle E-Business Suite artifacts, other than the schema files, the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] also generates a port binding file. You can import this binding file into your BizTalk application to create a physical send or receive port. For instructions on importing binding files, see [Reuse Adapter Bindings with Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/reuse-adapter-bindings-with-oracle-e-business-suite.md). If you import this binding file, you do not have to manually create a physical send or receive port.  

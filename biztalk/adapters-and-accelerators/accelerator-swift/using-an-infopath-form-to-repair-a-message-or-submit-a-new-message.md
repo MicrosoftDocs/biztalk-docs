@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using an InfoPath Form to Repair a Message or Submit a New Message
 To repair, verify, approve, or create a message, you work in an [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] form that you open from within the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] MRSR Web site. The MRSR site contains an [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] form for each message type and an [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] form for unparsed messages. Message Repair and New Submission sends messages in need of repair, verification, or approval to the appropriate MRSR document library, where you can open it.  

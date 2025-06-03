@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Retrieve Connection Information
 Another common task you may want to perform with Windows Management Instrumentation (WMI) for Host Integration Server is retrieving information regarding a connection.  

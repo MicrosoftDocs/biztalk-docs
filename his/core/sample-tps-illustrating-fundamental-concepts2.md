@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Sample TPs Illustrating Fundamental Concepts
 The source code for TPSETUP (INSTALL.C) can be compiled to work in the Microsoft Windows environment.  

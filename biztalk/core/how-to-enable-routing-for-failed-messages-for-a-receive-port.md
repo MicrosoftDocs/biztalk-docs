@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enable Routing for Failed Messages for a Receive Port
 This topic describes how to use the BizTalk Server Administration console to enable routing for the messages processed by a receive port. When you enable this option, BizTalk Server will attempt to route any message that fails processing to a subscribing application (such as another receive port or orchestration schedule). When this option is not enabled (the default), BizTalk Server suspends failed messages and generates a negative acknowledgment (NACK). For background information about managing failed messages, see [Using Failed Message Routing](../core/using-failed-message-routing.md).  

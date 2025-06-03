@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsHisTrace_SNAServerManager Class
 The **MsHisTrace_SNAServerManager** class contains tracing properties for the SNA Manager.  

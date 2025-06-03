@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Character Encoding in the Flat File Disassembler Pipeline Component
 The following algorithm is used by the Flat File Disassembler component to determine which encoding to use for processing an incoming message:  

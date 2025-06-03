@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting BAM
 This topic provides information to help you troubleshoot problems you might encounter when using Business Activity Monitoring (BAM).  

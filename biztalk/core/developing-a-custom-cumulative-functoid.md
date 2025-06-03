@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Developing a Custom Cumulative Functoid
 Use a custom cumulative functoid to perform accumulation operations for values that occur multiple times within an instance message.  

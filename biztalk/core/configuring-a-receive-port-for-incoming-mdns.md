@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring a Receive Port for Incoming MDNs
 To receive an AS2 MDN, create a one-way HTTP receive port to receive the message and return a response back to the party.  

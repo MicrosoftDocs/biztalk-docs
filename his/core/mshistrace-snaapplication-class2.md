@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsHisTrace_SNAApplication Class
 The **MsHisTrace_SNAApplication** class contains tracing properties for any application that runs on top of Host Integration Server.  

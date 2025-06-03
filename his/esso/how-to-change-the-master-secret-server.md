@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Change the Master Secret Server
 After you set up the master secret server and configure the Credential database, you can change the master secret server if the original master secret server fails and cannot be recovered. To change the master secret server, you must promote a Single Sign-On (SSO) server to become the master secret server.  

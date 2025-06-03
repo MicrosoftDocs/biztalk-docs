@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the Terminate Shape
 ![Image that represents the Terminate shape.](../core/media/ebiz-orch-terminate.gif "ebiz_orch_terminate")  

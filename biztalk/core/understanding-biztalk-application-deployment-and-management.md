@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Understanding BizTalk Application Deployment and Management
 This section introduces the new application deployment and management features of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and provides background information that will help you understand how to use these features to deploy and manage BizTalk applications.  

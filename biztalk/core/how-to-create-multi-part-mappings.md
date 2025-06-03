@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create Multi-Part Mappings
 If you have multiple maps that are used together, you will need to combine them in an orchestration to test them together. The **Test Map** command works on only one map at a time.  

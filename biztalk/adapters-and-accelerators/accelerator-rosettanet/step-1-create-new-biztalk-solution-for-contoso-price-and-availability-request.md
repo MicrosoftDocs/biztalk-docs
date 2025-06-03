@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 1: Creating a New BizTalk Solution for the Contoso Price and Availability Request
 In this step, you create a Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] solution for the Contoso Price and Availability Request project. This project will contain the schemas and maps for the requests and responses for the 3A2 Price and Availability messages.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What is Event Tracking?
 Tracked message event data is based upon events (for example, when a service begins or ends, or when a message is sent or received). The message event tracking process returns a list of the events that have occurred, enabling you to see everything that happened based on the tracking filters you have set.  

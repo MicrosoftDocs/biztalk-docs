@@ -3,7 +3,7 @@ description: "Learn more about: Extending Enumerations"
 title: "Extending Enumerations"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Extending Enumerations
 You can add values to the enumerations that establish accepted values for many fields, segments, and data types in HL7 message body, acknowledgment, and message body schemas. This involves changing the set of values in a specific table in the common table values schema file for the HL7 version in which you are working (the **Tablevalues_\<**<em>version</em>**\>.xsd** schema file).  

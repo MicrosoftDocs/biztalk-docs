@@ -3,7 +3,7 @@ description: "Learn more about: Configuring Batching Acknowledgments"
 title: "Configuring Batching Acknowledgments"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Configuring Batching Acknowledgments
 You use [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Configuration Explorer to specify the acknowledgment properties for inbound and generated acknowledgments.  

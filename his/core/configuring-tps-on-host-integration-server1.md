@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring TPs on Host Integration Server
 The following topics describe how configuration of invoking and invokable transaction programs (TPs) works on Host Integration Server.  

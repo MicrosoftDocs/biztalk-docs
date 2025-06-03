@@ -2,7 +2,7 @@
 title: Choosing the Appropriate Programming Model
 description: Learn more about choosing the appropriate programming model for your solution.
 ms.service: host-integration-server
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 11/30/2017
 ---
 

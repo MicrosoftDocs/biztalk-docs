@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Pad Mainframe Character Strings with Spaces
 You can define the properties for a string such that the Transaction Integrator (TI) run-time environment adds space characters to pad the mainframe representation of the string instead of depending on a null termination character.  

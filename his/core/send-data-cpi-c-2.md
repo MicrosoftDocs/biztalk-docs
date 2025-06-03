@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Send_Data (CPI-C)
 The **Send_Data** call (function name **cmsend**) puts data in the send buffer of the local logical unit (LU) for transmission to the partner program.  

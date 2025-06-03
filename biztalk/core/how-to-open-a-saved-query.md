@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Open a Saved Query
 You can open a saved query directly from the folder where the query is saved or from within the BizTalk Server Administration Console. When you open a query directly from a folder, it opens the appropriate BizTalk Server group in the Administration Console. When you open a query from within the Administration Console, you have the option of running the query on any of the groups listed.  

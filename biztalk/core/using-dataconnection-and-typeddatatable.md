@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using DataConnection and TypedDataTable
 In many scenarios, using **DataConnection** provides better performance and consumes less memory than using **TypedDataTable**. However, **TypedDataTable** may be required in some cases because of certain restrictions on using **DataConnection**. In some other cases, using **TypedDataTable** may yield better performance than using **DataConnection**. This topic describes the criteria and factors that you should consider for choosing the right approach.  

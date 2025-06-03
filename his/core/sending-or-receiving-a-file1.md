@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Sending or Receiving a File
 After you have defined the settings you need to transfer files, and selected the file to transfer, you can send a file to or receive a file from the host. To send or receive a file, you must supply certain configuration information. This information includes the host filename, host file type, host file mode, data set name, carriage return, whether you are appending to an existing file, EBCDIC conversion, and carriage return line feed.  

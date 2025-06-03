@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Sending a Preserved Batch Interchange
 When the EDI send pipeline processes an outbound preserved batch interchange, it processes the batched interchange as a whole. It normally reuses the existing envelope (control) segments in creating the EDI interchange, rather than applying an envelope based upon the agreement. This occurs when the **Inbound batch processing option** property is set to **Preserve Interchange - suspend Interchange on Error** or **Preserve Interchange - suspend Transaction Sets on Error**.  

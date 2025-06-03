@@ -10,6 +10,7 @@ mtps_version: v=BTS.80
 dev_langs:
 - csharp
 - vb
+ms.topic: reference
 ---
 
 # MSBTS\_HostSetting.IsDefault Property (WMI)

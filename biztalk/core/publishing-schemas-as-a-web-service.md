@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Publishing Schemas as a Web Service
 You use the BizTalk Web Services Publishing Wizard to create Web services that use existing schemas. You declare the Web services, Web methods, and request and response schemas that you want to publish. Using the wizard, you define the target namespace, SOAP header requirements, and the location of the generated Web service project.  

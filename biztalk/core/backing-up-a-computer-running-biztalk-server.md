@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Backing Up a Computer Running BizTalk Server
 If a computer running BizTalk Server suffers an irrecoverable hardware failure, then you must replace that computer with an identical one. You should set up the replacement computer with the base platform software, software prerequisites, BizTalk Server components, and identical configuration settings. These configuration settings may consist of the appropriate registry entries, files, folders, and related Windows services necessary for the correct operation of your BizTalk applications.  

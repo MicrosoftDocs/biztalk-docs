@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the BAM Portal to Work on an NLB Cluster
 The BAM portal can be configured to work in a network load balancing (NLB) cluster.

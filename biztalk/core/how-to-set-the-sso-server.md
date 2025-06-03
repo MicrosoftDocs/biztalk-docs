@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set the SSO Server
 Each time you use ssomanage, you must first point the user to the Single Sign-On server you want to connect to.  

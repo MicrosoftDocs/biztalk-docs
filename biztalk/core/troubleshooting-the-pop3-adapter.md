@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting the POP3 Adapter
 This section describes known issues using the POP3 adapter.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure a BizTalk Host as a Cluster Resource
 This topic discusses the steps that you must follow to configure a BizTalk host as a cluster resource. To complete the steps in this topic, you must have already configured at least two BizTalk Servers in a BizTalk group as members of a Windows Server cluster. For more information about configuring a Windows Server cluster, see the Windows Server online Help.  

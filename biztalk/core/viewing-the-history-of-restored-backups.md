@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Viewing the History of Restored Backups
 To determine the last successful backup set restored, review the contents of the Master.dbo.bts_LogShippingHistory table. This table is populated by the Get Backup History job and updated by the Restore Databases job. When a backup is successfully restored, the Restored column is set to 1 and the RestoredDateTime is set to the current date and time.  

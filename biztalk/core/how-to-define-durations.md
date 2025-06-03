@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Define Durations
 Duration specifies the amount of time, defined by a beginning and ending milestone for a particular activity item. For example, the number of days a PO is valid.  

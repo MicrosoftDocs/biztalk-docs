@@ -3,7 +3,7 @@ description: "Learn more about: Step 8: Create a Map with BizTalk Mapper"
 title: "Step 8: Create a Map with BizTalk Mapper"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 8: Create a Map with BizTalk Mapper
 In this step, you use the BizTalk Mapper to create a map. You use this map to create links that associate the data (fields) in a replenishment request document to the data in a request denied document.  

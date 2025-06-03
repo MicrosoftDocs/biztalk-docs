@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enlist or Unenlist a Party for a Role
 This topic describes how to use the BizTalk Server Administration console to enlist or unenlist a party for a role. Enlisting a party for a role assigns the party to the role and unenlisting the party removes the party from the role.  

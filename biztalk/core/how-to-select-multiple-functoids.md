@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Select Multiple Functoids
 When dealing with large maps, you may want to perform operations on multiple functoids at the same time. In such cases, you can select all of the functoids of interest and then perform the operation. This is useful, for example, when you want to move a set of connected functoids, and their connecting links, from one grid page to another.  

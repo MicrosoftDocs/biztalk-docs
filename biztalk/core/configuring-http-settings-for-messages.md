@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring HTTP Settings for Messages
 As part of message-related HTTP settings, you can specify the properties expected by the Web server that receives AS2 messages.  

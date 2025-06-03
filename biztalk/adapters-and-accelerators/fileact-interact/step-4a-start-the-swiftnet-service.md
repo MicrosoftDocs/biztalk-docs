@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4A: Start the SWIFTNet Service
 Before you begin this step, you must complete [Step 3E: Add an INTERACT Send Port for the InterAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-3e-add-an-interact-send-port-for-the-interact-real-time-scenario.md).  

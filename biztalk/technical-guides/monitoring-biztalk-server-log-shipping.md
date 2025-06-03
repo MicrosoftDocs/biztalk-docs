@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Monitoring BizTalk Server Log Shipping
 To determine the last successful backup set of BizTalk Server databases and logs that have been restored, review the contents of the Master.dbo.bts_LogShippingHistory table on the destination [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance(s). This table is populated by the BizTalk Server Log Shipping Get Backup History job and is updated by the restore job. When a backup is successfully restored, the Restored column is set to a value of 1 and the RestoredDateTime is set to the current date and time.  

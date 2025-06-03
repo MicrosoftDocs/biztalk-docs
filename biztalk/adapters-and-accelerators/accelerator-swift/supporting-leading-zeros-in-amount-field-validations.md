@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Supporting Leading Zeros in Amount Field Validations
 The validation policies of some message types perform validations on Amount fields. To enable leading zeros in Amount fields, you must edit the validation policy for the message type. You can create a new version of the default validation policy, and edit the argument in the Business Rule Composer, or you can edit the default policy manually in a text editor before the policy is deployed.  

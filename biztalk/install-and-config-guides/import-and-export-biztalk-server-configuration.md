@@ -6,7 +6,7 @@ ms.date: "08/14/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Import and Export BizTalk Server Configuration
 The BizTalk Server Configuration provides a high-level analysis on the configuration state of the features you have installed on the local machine. The tool allows you to configure and unconfigure features, configure security settings, and import and export configurations.  

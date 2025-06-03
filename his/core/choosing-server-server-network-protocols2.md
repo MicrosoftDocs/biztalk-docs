@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Choosing Server/Server Network Protocols
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers communicate with each other using mailslot messages or directed datagrams over a network. Host Integration Server enables you to make choices concerning these broadcasts.  

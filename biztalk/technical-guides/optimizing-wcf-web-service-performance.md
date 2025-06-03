@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Optimizing WCF Web Service Performance
 WCF services expose numerous configuration parameters that affect performance. This topic provides general guidance for setting optimal values for these configuration parameters to improve performance of WCF services.

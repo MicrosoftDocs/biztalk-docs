@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing BAM
 Business Activity Monitoring (BAM) empowers business users by providing real-time access to critical business performance indicators. Business users can use this information to improve the speed and effectiveness of business operations. BAM collects the business activity information in a real-time, transaction-consistent way regardless of the complexity of a heterogeneous environment.  

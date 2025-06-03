@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using the Flat File Serializing Engine
 The flat file serializing engine is invoked by calling the **Serialize** method of the **IFFDocumentSpec** interface. By providing a customized **XmlReader** as the argument to the method, you can control the final data that gets serialized. Data could be in any format, or could simply be a reader created of off an XmlDocument.  

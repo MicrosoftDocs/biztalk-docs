@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating or Editing a Partner
 This topic describes how to create or edit a partner. The partner configuration describes and classifies the partner, sets the non-repudiation of origin period, configures certificates for the partner, and provides contact information.  

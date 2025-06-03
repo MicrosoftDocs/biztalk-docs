@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Throw Fault Exceptions from Orchestrations Published as WCF Services
 Two types of SOAP faults can be sent from an orchestration: typed and untyped SOAP faults. Typed SOAP faults are those in which an operation has a **System.ServiceModel.FaultContractAttribute** that specifies a custom SOAP fault type. Untyped SOAP faults are those that are not specified in the contract for an operation.  

@@ -2,7 +2,7 @@
 title: ACK message schema types
 description: Learn more about ACK message schema types for BizTalk Server.
 ms.service: biztalk-server
-ms.topic: conceptual
+ms.topic: article
 ms.date: 06/08/2017
 ---
 

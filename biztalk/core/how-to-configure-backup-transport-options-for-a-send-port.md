@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Backup Transport Options for a Send Port
 This topic describes how to use the BizTalk Server Administration console to configure backup transport options for a send port. The backup transport that you specify takes effect in the event the primary transport fails to function. Configuring the primary transport is described in [How to Create a Send Port](../core/how-to-create-a-send-port2.md).  

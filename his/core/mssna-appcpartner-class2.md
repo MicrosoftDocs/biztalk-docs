@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSna_AppcPartner Class
 A preconfigured combination of APPC local LU, remote LU, and Mode.  

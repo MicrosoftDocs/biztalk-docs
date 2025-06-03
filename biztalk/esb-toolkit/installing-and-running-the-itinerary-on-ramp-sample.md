@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing and Running the Itinerary On-Ramp Sample
 The Itinerary On-Ramp sample demonstrates how you can configure the ESB itinerary properties and run one-way and request-response messaging scenarios, such as the following:  

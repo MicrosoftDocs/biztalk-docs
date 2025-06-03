@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create a BizTalk Project
 After you create an XSD file for your application, you create a BizTalk project to contain the application. After you create the BizTalk project, you can add the XSD file as a standard item, and then use it to create your BizTalk application.  

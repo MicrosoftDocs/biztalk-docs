@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating a Price and Availability Request with the Fabrikam Sample
 In this step, you create a 3A2 Price and Availability request using the LOBWebApplication tool.  

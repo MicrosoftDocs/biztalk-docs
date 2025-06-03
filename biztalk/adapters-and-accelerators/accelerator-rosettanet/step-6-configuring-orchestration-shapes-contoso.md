@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 6: Configuring Orchestration Shapes (Contoso)
 In this step, you configure the orchestration shapes you added to the PrivateResponder orchestration that you created in [Step 5: Modifying the Contoso Private Process Orchestration](../../adapters-and-accelerators/accelerator-rosettanet/step-5-modifying-the-contoso-private-process-orchestration.md). This includes setting up the communication between Microsoft® BizTalk Server and the Enterprise Resource Planning (ERP) system for Contoso.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Making Orchestrations Transactional
 You can configure your orchestration as a transaction, in much the same way that you can configure a **Scope** shape as a transaction.  

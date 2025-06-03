@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 2: Set up the Salesforce System
 In this step, you configure Salesforce to send notifications when an opportunity is successfully closed. Before you can send notifications, you need to perform the following steps:

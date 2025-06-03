@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the XML Validator Pipeline Component
 The XML Validator pipeline component can be used in any stage (except Disassemble or Assemble) in a send or receive pipeline.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How To Determine Who Initiated a Transaction
 It is helpful to be able to determine who initiated a specific transaction, for example, when you need to track down the history of a transaction failure. You can also use this technique to implement resource or transaction-level, per user, security.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: tutorial
 ---
 # Tutorials: Using the Microsoft BizTalk Adapter for TIBCO Enterprise Message Service
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service is a development and run-time environment for line-of-business process management and automation. This section describes two SDK samples that present an end-to-end exercise in setting up and deploying the adapter so that you can get a quick start.  

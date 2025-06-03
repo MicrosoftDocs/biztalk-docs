@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: best-practice
 ---
 # Best practices and recommendations for the FTP Adapter
 Read about the best practices, security recommendations, and enhancements for the FTP adapter.

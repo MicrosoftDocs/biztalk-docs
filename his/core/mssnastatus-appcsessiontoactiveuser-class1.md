@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSnaStatus_APPCSessionToActiveUser Class
 The **MsSnaStatus_APPCSessionToActiveUser** class represents an association between a User connection and an APPC session.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Indicating Lost RTM Data
 When [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] sends response time monitor (RTM) data to the host, it can indicate to the host that RTM data may have been lost, that is, some host response times were not included in the RTM data sent to the host. This indication is sent when:  

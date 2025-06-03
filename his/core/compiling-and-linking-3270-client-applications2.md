@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Compiling and Linking 3270 Client Applications
 This section describes the 3270 client samples included with Host Integration Server. The samples are located in the \SDK\Samples\SNA folder..  

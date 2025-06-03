@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: best-practice
 ---
 # Best Practices for Updating Applications
 This topic describes best practices that you should consider using when updating BizTalk applications and artifacts.

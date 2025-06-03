@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using SOAP Headers
 Microsoft BizTalk Server provides support for defined and unknown SOAP headers. Defined SOAP headers are headers in the Web Service Description Language (WSDL) that are explicity stated in the Web service. Unknown SOAP headers are headers that in the WSDL that are not explicity stated in the Web service. For more information about using SOAP headers, see [SoapHeader Class](/dotnet/api/system.web.services.protocols.soapheader).

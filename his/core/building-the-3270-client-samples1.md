@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Building the 3270 Client Samples
 When you install Host Integration Server, all the 3270 client samples are built in a similar way, as described in this section. First, set the environment variables listed in the following table.  

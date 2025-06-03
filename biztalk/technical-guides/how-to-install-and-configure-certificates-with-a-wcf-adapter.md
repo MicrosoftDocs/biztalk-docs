@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Install and Configure Certificates with a WCF Adapter
 For information about installing and configuring certificates with WCF adapters, see [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md) (<https://go.microsoft.com/fwlink/?LinkId=155204>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.

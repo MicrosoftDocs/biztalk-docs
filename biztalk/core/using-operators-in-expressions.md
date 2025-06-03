@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Operators in Expressions
 The following XLANG/s operators are available for use in orchestration expressions. They adhere closely to the functionality of the corresponding operators in C#.  

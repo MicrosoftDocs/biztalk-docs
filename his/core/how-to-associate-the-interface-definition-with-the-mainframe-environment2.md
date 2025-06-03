@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Associate the Interface Definition with the Mainframe Environment
 After you create a BizTalk project for your application that uses the BizTalk Adapter for Host Applications, and then add the .xsd file to the project, you must identify your target mainframe, and then associate the interface definition with the mainframe environment.  

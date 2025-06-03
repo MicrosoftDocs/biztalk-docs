@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa577846(v=BTS.80)
 ms:contentKeyID: 51530174
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # MSBTS\_ReceiveLocationOrchestration.IsPrimary Property (WMI)

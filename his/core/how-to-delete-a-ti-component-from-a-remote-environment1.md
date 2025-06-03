@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete a TI Component from a Remote Environment
 Deleting a Transaction Integrator (TI) component from a remote environment (RE) deletes that component from the COM+ application. You can delete only one component at a time.  

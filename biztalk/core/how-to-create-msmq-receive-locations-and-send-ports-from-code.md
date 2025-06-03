@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Create MSMQ Receive Locations and Send Ports programmatically
 This topic explains how to use WMI to create a port or location for the MSMQ adapter.  

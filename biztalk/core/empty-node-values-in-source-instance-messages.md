@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Empty Node Values in Source Instance Messages
 There may be times when you do not want content in all of the schema nodes when you test a map.  

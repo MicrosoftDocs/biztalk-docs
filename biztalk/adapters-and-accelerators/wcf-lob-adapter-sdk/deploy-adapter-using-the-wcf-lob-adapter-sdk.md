@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Deploy adapter using the WCF LOB Adapter SDK
 This section describes steps for deploying and undeploying an adapter using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. It also describes how to create a deployment package for installation in test and production environments.  

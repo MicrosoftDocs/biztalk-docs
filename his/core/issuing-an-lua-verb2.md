@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Issuing an LUA Verb
 The following procedure is required to issue a logical unit application (LUA) verb. In this example, the verb issued is [RUI_INIT](./rui-init1.md).  

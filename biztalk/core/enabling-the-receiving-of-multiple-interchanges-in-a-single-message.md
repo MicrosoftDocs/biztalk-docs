@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Enabling the Receiving of Multiple Interchanges in a Single Message
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] can process a message that contains multiple interchanges. For an X12 message, such a message would include multiple ISA headers and IEA trailers. For an EDIFACT message, such a message would include multiple UNA/UNB headers and UNZ trailers.  

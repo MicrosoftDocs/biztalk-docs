@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Developer Machine Setup for the Service Oriented Solution
 Service Oriented Architecture (SOA) is an approach to building distributed systems. The service oriented solution demonstrates how several back-end systems using different protocols can be aggregated into a single service that clients can consume. This solution integrates services with an approach that guarantees delivery and performance characteristics for the service level agreement that you need to satisfy.  

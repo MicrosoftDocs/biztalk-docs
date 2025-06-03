@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Code a Transaction Integrator Application
 Once you have deployed a Transaction Integrator (TI) component, you can write code against that component. Once you are finished writing your code, you can test your code, and if necessary modify the interface to the TI component.  

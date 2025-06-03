@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Create TIBCO Rendezvous Send Handlers
 This section explains how to create a schema to use TIBCO Rendezvous in a BizTalk Server orchestration.  

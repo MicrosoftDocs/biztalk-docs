@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Tracing for TN3270
 You can enable or disable tracing for TN3270 using the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Trace application. [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Trace provides API, internal, and message tracing.  

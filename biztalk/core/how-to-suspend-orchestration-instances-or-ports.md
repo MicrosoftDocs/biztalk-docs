@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Suspend Orchestration Instances or Ports
 You can suspend orchestration instances or ports from a query results list in the BizTalk Server Administration Console.  

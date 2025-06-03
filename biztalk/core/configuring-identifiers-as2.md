@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Identifiers (AS2)
 In the partner agreement, you must specify the sender and receiver parties. These values are also used for agreement resolution for the inbound or outbound messages.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using the Ops Adapter
 The business process management solution uses the Ops adapter to handle error reports from the new error reporting feature. The solution includes a sample handler to process messages from the adapter, although you can easily write your own and use the adapter in other solutions. For information about the error reporting feature, see [Using Failed Message Routing](../core/using-failed-message-routing.md).  

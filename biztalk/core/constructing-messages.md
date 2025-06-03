@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Constructing Messages
 You construct a message any time that you introduce a message into your orchestration, either by receiving it or by assigning values to a message variable. Any message that you construct must have a message type, so that the runtime engine has a complete description of the object that it is working with. The multi-part message type can be user-defined, it can be a .NET class, or it can be a schema. You can construct messages in various ways: you can invoke a .NET class to create a message, assign one message to another, or use a transform to map certain values within a message to values within another message. Messages are also constructed by a receive action or when your orchestration accepts a message as a parameter.  

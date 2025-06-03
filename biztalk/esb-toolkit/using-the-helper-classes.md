@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using the Helper Classes
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes a set of helper classes used by the other processes, services, and components in the toolkit. Because these helper classes are also public, you can use them in your own code as required.  

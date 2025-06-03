@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Writing LUA Applications
 The information contained in this section will help you write logical unit application (LUA) application programs for use with Microsoft® Host Integration Server.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Deploying A4SWIFT Schemas
 You must deploy schemas for the SWIFT messages that you want to exchange.  

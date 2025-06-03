@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring the WCF Adapter to Intercept BAM Data
 This section contains information about the steps you must take to configure the BizTalk WCF adapter to work with the BAM WCF interceptor.  

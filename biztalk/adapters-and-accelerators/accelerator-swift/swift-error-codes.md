@@ -6,7 +6,7 @@ ms.date: "08/16/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # SWIFT Error Codes
 SWIFT defines many network-imposed validations against the set of financial (FIN) messages. Each validation relates to a type of check against the contents of the message, and is associated with a three-character error code. The first character of the error code implies the class of the problem detected, and is a letter. The remaining two characters denote the detail of the error (when combined with the class) and always appear as a two-digit code.

@@ -6,7 +6,7 @@ ms.date: "06/29/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Certificates for MIME or SMIME Messages
 To help secure data transfer on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must associate certificates installed in the certificate stores with the appropriate BizTalk artifacts. This applies to MIME/SMIME-encoded messages. It also applies to AS2 transport, which transports MIME/SMIME messages.

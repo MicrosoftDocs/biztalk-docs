@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use Expression Shape
 The **Expression** shape enables you to enter any XLANG/s expression you choose in your orchestration. For example, you can make a .NET call to run an external program, or simply manipulate the values of your orchestration variables.  

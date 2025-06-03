@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: upgrade-and-migration-article
 ---
 # How to Upgrade an Orchestration
 How to update an orchestration that is running in a production environment when the orchestration handles long-running transactions or is waiting for a response from a solicit-response port.

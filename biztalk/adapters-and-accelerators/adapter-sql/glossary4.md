@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: glossary
 ---
 # Terms used by the SQL adapter
 The following terms and definitions are used in [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] Help.  

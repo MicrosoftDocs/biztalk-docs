@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How To Connect a HIP Component to a Visual Basic Applications
 A key link in host-initiated processing (HIP) is the connection between the HIP component in Transaction Integrator (TI) and the client application. The connection between the HIP component and the Microsoft Visual Basic server DLL is created through matching elements of the HIP type library with elements of the Visual Basic project. The following table shows the relationship between the elements.  

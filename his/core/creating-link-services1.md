@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating Link Services
 By default, when [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] is installed, all the software files required by all standard link services are copied to the server, but the link services themselves are not installed or configured.  

@@ -3,6 +3,7 @@ description: "Learn more about: MSBTS_GroupSetting.BizTalkReadOnlyUserGroup Prop
 title: MSBTS_GroupSetting.BizTalkReadOnlyUserGroup Property (WMI)
 TOCTitle: MSBTS_GroupSetting.BizTalkReadOnlyUserGroup Property (WMI)
 ms.date: 09/13/2021
+ms.topic: reference
 ---
 
 # MSBTS\_GroupSetting.BizTalkReadOnlyUserGroup Property (WMI)

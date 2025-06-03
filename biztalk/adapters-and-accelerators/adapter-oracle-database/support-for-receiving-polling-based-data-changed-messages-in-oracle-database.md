@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Support for Receiving Polling-based Data-changed Messages in Oracle Database
 The[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] enables client programs to receive messages from the Oracle database informing them of changes to data stored in an Oracle database. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] supports receiving "polling-based" messages wherein the adapter executes a specified SELECT query, stored procedure, function, or procedure or function within a package, retrieves the data, and provides the result to the client at regular intervals of time. To enable this, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes a POLLINGSTMT operation. Moreover, all the stored procedures, functions, and procedures and function within packages are exposed as inbound operations for polling.  

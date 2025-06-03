@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Updating OLAP and RTA Connection String Properties
 For information about updating the OLAP and real-time aggregation (RTA) connection strings, see the following topics that describe restoring BAM databases to alternate computers:  

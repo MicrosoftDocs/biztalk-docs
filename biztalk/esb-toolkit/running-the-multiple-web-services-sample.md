@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Running the Multiple Web Services Sample
 The Multiple Web Services sample uses the Windows Forms test client application provided with the Itinerary On-Ramp sample.  

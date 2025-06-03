@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Assert
 *Assertion* is the process of adding object instances into the Business Rule engine's working memory. The engine processes each instance according to the conditions and actions that are written against the type of the instance, using the match-conflict resolution-action phases.  

@@ -3,7 +3,7 @@ title: "Using Host-Initiated SSO functionality in Enterprise Single Sign-On"
 description: "Learn more about: Using Host-Initiated SSO functionality in Enterprise Single Sign-On"
 ms.date: "12/15/2023"
 ms.service: host-integration-server
-ms.topic: "article"
+ms.topic: concept-article
 ---
 
 # Using Host-Initiated SSO functionality in Enterprise Single Sign-On

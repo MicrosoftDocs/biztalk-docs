@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure SSO in a Multicomputer Scenario
 This section contains instructions for configuring Enterprise Single Sign-On (SSO) in a three-computer scenario.  

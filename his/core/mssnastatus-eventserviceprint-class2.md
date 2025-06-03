@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSnaStatus_EventServicePrint Class
 The **MsSnaStatus_EventServicePrint** class describes a change to the **EventServicePrint** class.  

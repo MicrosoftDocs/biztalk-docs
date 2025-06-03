@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Providing High Availability with Fault Tolerance or Load Balancing
 This topic lists steps that you should complete to configure fault tolerance and/or load balancing for the components of a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment to provide high availability. Configuration of fault tolerance for these components will allow the system to continue operating if a particular component fails.

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Install Enterprise Single Sign-On
 After you back up the security data and export the encryption key in preparation for upgrading, it is time to install Enterprise Single Sign-On. You have several installation options. For more information, see [Installing Enterprise Single Sign-On](../esso/installing-enterprise-single-sign-on.md).  

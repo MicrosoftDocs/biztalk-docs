@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa560498(v=BTS.80)
 ms:contentKeyID: 51528526
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # MSBTS\_HostInstance.ConfigurationState Property (WMI)

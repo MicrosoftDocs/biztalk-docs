@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Displaying an EDI or AS2 Status Report
 When EDI and AS2 status reports are enabled, you will have access to the following status reports:  

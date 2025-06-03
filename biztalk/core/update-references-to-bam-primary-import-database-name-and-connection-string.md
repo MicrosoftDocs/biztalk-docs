@@ -6,7 +6,7 @@ ms.date: "02/01/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Update References to the BAM Primary Import Database Name and Connection String
 If you backed up your BAMPrimaryImport database in the event of a system or data failure, you can restore that backup to a different computer and rename the backup.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 3: Edit the Partner Interface Process
 In this step, you edit the Partner Interface Process (PIP) configuration settings to disable secure transport if you do not have a Secure Sockets Layer (SSL) certificate configured in Microsoft® Internet Information Services (IIS). Because the loopback scenario does not support signing for both incoming and outgoing messages, you must change the default settings to continue with the tutorial. You modify the STD_0C1_R01.02 PIP.  

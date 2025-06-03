@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsHisTrace_TN3270 Class
 The **MsHisTrace_TN3270** class contains tracing properties for the TN3270 service.  

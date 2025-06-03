@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Message Schema for Picklist Operations
 Picklists are special field types in business components. They represent a collection of values from which a user may pick a single value for assignment. Picklists are of different types. For more information about picklists and their types, refer to Siebel documentation.  

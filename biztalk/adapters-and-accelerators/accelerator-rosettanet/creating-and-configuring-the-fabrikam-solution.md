@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating and Configuring the Fabrikam Solution
 This section of the tutorial details the steps that you have to follow for the Fabrikam organization. The Fabrikam organization represents the buyer and therefore acts as the initiator for all Partner Interface Process (PIP) requests. In this tutorial, you create partner agreements for four PIPs, and build and deploy a line-of-business (LOB) ASP[!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] application to send a request to the Contoso computer based on a certain PIP type.  

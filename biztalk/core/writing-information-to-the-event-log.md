@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Writing Information to the Event Log
 You may want to monitor the progress of the different business processes within your BizTalk application by writing information to the default Application log or to a custom event log. Writing to the event log can be useful in the following scenarios:  

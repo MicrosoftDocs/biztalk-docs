@@ -3,7 +3,7 @@ description: "Learn more about: Step 5: Create the Receive Port for Accepting HI
 title: "Step 5: Create the Receive Port for Accepting HIS Messages"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 5: Create the Receive Port for Accepting HIS Messages
 In this step you create a receive port to specify the location for incoming messages sent by the Hospital Information System (HIS). Use the following procedure to create the receive port for accepting query response messages from the ADT system using the Minimal Lower Layer Protocol (MLLP) adapter.  

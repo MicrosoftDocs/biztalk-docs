@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Start and Stop DTC or SNA LU 6.2 Resync TP
 If necessary, you can manually stop and start the Microsoft Distributed Transaction Coordinator (DTC) and/or the SNA LU 6.2 Resync TP services by clicking **Services** in the **Administrative Tools** menu in Windows.  

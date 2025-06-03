@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing BAM Databases
 Administrators use the BAM Management utility (bm.exe) to set up, manage, and update the BAM databases. This section shows you how to use the BAM Management utility to perform these common administrator tasks for the BAM databases, which are described in the following table.  

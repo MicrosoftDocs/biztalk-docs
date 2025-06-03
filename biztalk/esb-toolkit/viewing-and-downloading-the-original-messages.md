@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Viewing and Downloading the Original Messages
 To view a fault message in greater detail, use the **Fault Viewer** pages of the ESB Management Portal.  

@@ -3,7 +3,7 @@ description: "Learn more about: Modifying 2.XML Schemas to Work with BizTalk Edi
 title: "Modifying 2.XML Schemas to Work with BizTalk Editor"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Modifying 2.XML Schemas to Work with BizTalk Editor
 HL7 2.XML schemas require modification to work properly with Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]). The following describes how to modify HL7 V2.XML schemas to enable you to use them with BizTalk Editor.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Show and Hide Property Schemas
 This topic describes how to use the BizTalk Server Administration console to show and hide property schemas in the Schemas folder for an application. A property schema is a simple version of a BizTalk schema that plays a role in the process of copying promoted properties back and forth between the instance message and the message context. You might want to hide property schemas to simplify the schema view, so that you only see document schemas.  

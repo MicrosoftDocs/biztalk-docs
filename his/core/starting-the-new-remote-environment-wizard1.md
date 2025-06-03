@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Starting the New Remote Environment Wizard
 You can use the **New Remote Environment Wizard** to define the characteristics of the environment that receives request from the Windows system.  

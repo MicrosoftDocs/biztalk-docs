@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Managing Password Synchronization
 Use the SSOMANAGE command-line utility to enable or disable Single Sign-On (SSO) features, and to display current SSO database settings.  

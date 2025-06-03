@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating and Configuring Connections
 You can create connections between [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] and your host computer with wizards or manually. [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] provides three wizards to help you install and configure connections to your host environment (HE).  

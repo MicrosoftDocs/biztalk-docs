@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing and Running the SQL Adapter Sample
 The SQL Adapter sample shows how you can use the dynamic resolution framework to execute a SQL stored procedure through the use of a WCF-Custom adapter provider. The sample uses the test client application provided with the Itinerary On-Ramp sample.  

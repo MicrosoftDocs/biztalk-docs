@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing Maps Within Projects
 This section provides step-by-step instructions for working with entire maps—for example, the steps involved in creating a map, specifying the schemas in the map, and saving maps. For information about building the mapping structure using links and functoids, see [Using Functoids to Create More Complex Mappings](../core/using-functoids-to-create-more-complex-mappings.md).  

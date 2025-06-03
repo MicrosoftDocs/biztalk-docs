@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsHisTrace_Global Class
 The **MsHisTrace_Global** class contains the global settings for Microsoft® Host Integration Server tracing.  

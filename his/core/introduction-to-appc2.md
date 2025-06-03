@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Introduction to APPC
 This section introduces the fundamental concepts of Advanced Program-to-Program Communications (APPC) in a distributed processing environment. These concepts include the following:  

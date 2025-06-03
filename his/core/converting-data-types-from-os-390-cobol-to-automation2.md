@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Converting Data Types from z/OS COBOL to Automation
 Use the tables in this topic as a guide when you set up the way you want Transaction Integrator (TI) to handle conversions from COBOL data types to Automation data types. For more information about the specific data types, see [Supported TI Data Types](../core/supported-ti-data-types2.md).  

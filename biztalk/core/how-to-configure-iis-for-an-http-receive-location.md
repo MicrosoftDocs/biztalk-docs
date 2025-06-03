@@ -6,7 +6,7 @@ ms.date: "10/10/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configure IIS for an HTTP Receive Location
 The HTTP receive location uses an application within Internet Information Services (IIS). This topic lists the steps to enable the HTTP receive location within IIS. 

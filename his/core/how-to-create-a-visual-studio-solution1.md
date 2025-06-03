@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create a Visual Studio Solution
 After you create, debug, and confirm your access to the host application, you can start to create the application for the BizTalk Adapter for Host Applications. The first task you must perform is to create a Visual Studio solution. This solution will contain the BizTalk Server and Host Integration Server projects that will, in turn, contain the necessary components for your application.  

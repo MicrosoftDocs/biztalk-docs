@@ -6,7 +6,7 @@ ms.date: "01/08/2019"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Configure the SSO Tickets in BizTalk Server

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Native Pipeline Components
 The following code shows how to configure native pipeline components using the `IPersistPropertyBag` interface.  

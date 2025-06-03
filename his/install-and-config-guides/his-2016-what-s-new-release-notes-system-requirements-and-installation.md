@@ -6,7 +6,7 @@ ms.date: "10/24/2016"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: release-notes
 ---
 # HIS 2016 - What's New, Release Notes, System Requirements, and Installation
 

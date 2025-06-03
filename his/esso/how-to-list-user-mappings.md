@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to List User Mappings
 Use the **listmappings** command to list all the existing mappings for the specified user. You must be a Single Sign-On (SSO) Administrator, Application Administrator, SSO Affiliate Administrator, or user to do this task.  

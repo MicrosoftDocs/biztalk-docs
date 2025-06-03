@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Sample TMA: Enterprise Single Sign-On
 This topic presents the threat model analysis (TMA) for the Enterprise Single Sign-On scenario for the sample architecture.

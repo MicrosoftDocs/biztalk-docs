@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Translate SAP query parameters into EXECQUERY command
 Explains how the parameters of a query translate into an EXECQUERY command text. This topic uses the example of a custom SAP query, ZQUERY_TST_NEW.  

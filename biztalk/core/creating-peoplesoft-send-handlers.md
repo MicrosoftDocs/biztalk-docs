@@ -6,7 +6,7 @@ ms.date: "10/19/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Create PeopleSoft send artifacts
 Microsoft BizTalk Adapter for PeopleSoft Enterprise accesses PeopleSoft and explores available components or processes SOAP requests. This topic shows you how to create the send artifacts in BizTalk Server Administration to use the PeopleSoft adapter.

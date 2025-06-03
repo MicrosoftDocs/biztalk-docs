@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set Credentials for the Affiliate Application Using the Client Utility
 Use the **setcredentials** command to set the credentials for a user so that the user can access a specific application.  

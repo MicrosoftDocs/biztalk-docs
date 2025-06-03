@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Recovering the Runtime Computers
 After the steps in the topic [Restoring the BizTalk Group](../technical-guides/restoring-the-biztalk-group.md) have been completed, the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime computers can be restored.  

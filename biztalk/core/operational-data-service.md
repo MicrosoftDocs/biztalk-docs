@@ -6,7 +6,7 @@ ms.date: "01/13/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Use the Operational Data Service to view BizTalk Server tracked data in Power BI

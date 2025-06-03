@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Splitting HIPAA Subdocuments
 EDI interchanges for HIPAA commonly have multiple child/sub documents within a single transaction set, as bounded by the ST/SE headers. The EDI receive pipeline supports creation of separate HIPAA subdocuments from such an transaction set. This is different from non-HIPAA EDI interchanges, in which a single transaction set is processed as a single message.  

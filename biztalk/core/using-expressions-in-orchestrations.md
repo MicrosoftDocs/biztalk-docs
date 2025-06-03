@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Expressions in Orchestrations
 You can use BizTalk Expression Editor to enter XLANG/s expressions to add logic to manipulate and test the values of your orchestration variables and messages. However, it is not a good practice to use it to perform high-level orchestration logic, which preferably would be visible in the orchestration drawing itself. For business process transparency and ease of reconfiguration, we recommend that you use simple and modular expressions.  

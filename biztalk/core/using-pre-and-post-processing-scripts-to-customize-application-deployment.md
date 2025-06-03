@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Pre- and Post-processing Scripts to Customize Application Deployment
 The topics in this section describe how to create pre- or post-processing scripts to perform actions when an application is imported, installed, or uninstalled. Pre-processing scripts perform an action or set of actions before application import or installation starts, and after uninstallation completes. Post-processing scripts perform an action or set of actions after application import or installation completes, or before uninstallation starts.  

@@ -3,7 +3,7 @@ description: "Learn more about: Planning for your solution"
 title: "Planning for your solution"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Planning for your solution
 This section provides information about what you should consider when planning for your Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] solution.  

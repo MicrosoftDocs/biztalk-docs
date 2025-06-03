@@ -3,7 +3,7 @@ description: "Learn more about: Step 6: Create the Send Port for the Acknowledgm
 title: "Step 6: Create the Send Port for the Acknowledgment Batch"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 6: Create the Send Port for the Acknowledgment Batch
 In this step, you create a send port to deliver the acknowledgment batch that you create to the source party. This is a static one-way port with a FILE adapter type. You designate a file folder for the source (\Tutorial_BatchACKDrop), where [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] will drop the acknowledgment batch file. You define a filter for the port indicating what type of acknowledgment batches the ports will send. The filter specifies the source of Tutorial_BatchSource and the message type of OutboundBatch.  

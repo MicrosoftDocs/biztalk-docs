@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using ESB Exception Management
 Errors and exceptions can occur in a range of contexts and during a number of different processing stages in an ESB. This section provides information about handling exceptions and describes how you can publish details through the ESB Management Portal.  

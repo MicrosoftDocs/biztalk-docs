@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Understanding DTA Tracking Performance Behavior
 The primary factors that determine maximum sustainable throughput (MST) for DTA tracking are:  

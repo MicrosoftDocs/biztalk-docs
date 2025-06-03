@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating a PeopleSoft HTTP Host and Port
 The Message publication architecture in PeopleSoft is known as Integration Broker. The main components of Integration Broker are as follows:  

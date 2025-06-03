@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Certificates with a SOAP Adapter
 The SOAP send adapter can help secure a connection with servers that accept or require client certificates. If you specify a client certificate, the SOAP send adapter uses the certificate when connecting with servers that require or accept client certificates. If you do not specify a client certificate and the destination server requires client certificates, the sender is not authenticated and the SOAP send adapter fails to send the message and follows the standard retry logic.  

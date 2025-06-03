@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configure the SOAP action for Oracle Database
 To complete any operation on the Oracle database using the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], adapter users must enter a SOAP action. The SOAP action communicates to the adapter what action should be completed. You can enter the SOAP action either at design time or at run time. However, if you enter the SOAP action both at design time and run time, the action you enter at design time is overridden.  

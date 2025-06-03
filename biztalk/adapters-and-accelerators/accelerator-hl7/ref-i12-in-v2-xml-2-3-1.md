@@ -3,7 +3,7 @@ description: "Learn more about: REF_I12 in V2.XML 2.3.1"
 title: "REF_I12 in V2.XML 2.3.1"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: reference
 ---
 # REF_I12 in V2.XML 2.3.1
 You must manually change the following code in the REF_I12 schema in V2.XML 2.3.1 after running the Update2XMLSchema tool:  

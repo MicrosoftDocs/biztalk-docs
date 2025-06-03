@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to View Related Activities and Related Documents
 In the BAM Web portal, you can view related activities and documents through the Business Activity Search Results page. You can navigate from one related activity to another, for example, if you search for a specific Purchase Order, you can look at the multiple shipments on the PO. You can also check for related documents, for example, for that same PO, you can look at the related sales order.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add Accounts to a View
 Administrators use the **add-account** command to associate users with BAM views and protect BAM Excel Spreadsheet views from unauthorized access. When users save BAM views, the views reference a SQL connection string that is hidden within the workbook. The workbook is protected, but you must ensure that the document is protected.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Change the URI of a Consumed Web Service
 After you deploy your orchestration, BizTalk Server configures a send port for each Web service that the orchestration references. By default, BizTalk uses the URL of the Web service at run time for the same URL for the imported Web service. You can change this URL using BizTalk Server Administration console.  

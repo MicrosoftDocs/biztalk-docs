@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting for Invokable TPs
 If there are difficulties with starting an invokable TP, there may be a mismatch between the information for the invokable TP, the invoking TP, and/or LUs in the Host Integration Server configuration. That is, there may be a mismatch between the parameters for [RECEIVE_ALLOCATE](./receive-allocate1.md), [TP_STARTED](./tp-started2.md), [ALLOCATE](./allocate2.md), or [MC_ALLOCATE](./mc-allocate2.md) and/or LU aliases specified in server configuration. LU aliases are configured using SNA Manager on Host Integration Server.  

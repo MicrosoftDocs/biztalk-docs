@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing and Running the Designer Extensibility Sample
 The Designer Extensibility sample shows how designer extensions can be developed to provide design-time support for configuration of custom resolvers and configuration of itinerary services.  

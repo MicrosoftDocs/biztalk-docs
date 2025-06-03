@@ -3,7 +3,7 @@ description: "Learn more about: Message Enrichment Tutorial"
 title: "Message Enrichment Tutorial"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: tutorial
 ---
 # Message Enrichment Tutorial
 This tutorial provides step-by-step procedures for using Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to solve a particular business problem: the message enrichment problem. The message enrichment tutorial describes a situation in which you have to add to, or enrich, a message that is not HL7-compliant and/or is incomplete. This can occur with an application, such as a patient registration application, or it can occur when you are populating a message with XML data from Microsoft [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)].  

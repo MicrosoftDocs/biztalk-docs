@@ -3,7 +3,7 @@ description: "Learn more about: Configuring Microsoft Client Connections"
 title: "Configuring Microsoft Client Connections"
 ms.date: "12/22/2023"
 ms.service: host-integration-server
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Configuring Microsoft Client Connections

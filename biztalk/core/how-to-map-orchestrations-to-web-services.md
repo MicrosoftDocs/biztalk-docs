@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Map Orchestrations to Web Services
 An orchestration can have multiple receive ports. Using the BizTalk Web Services Publishing Wizard, you select receive ports to publish as Web services. The wizard creates one Web service (.asmx file) for each receive port. The wizard can also create one Web service for all of the receive ports if they are the same receive port type (one-way or request/response). Operations become function calls. Each operation in the receive port becomes a Web method. Request operations become input parameters. Response operations become return types.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Sample Dehydration Calculation
 Here is an example of a sample calculation, using private bytes, to determine if BizTalk will dehydrate or not. It uses the default configured values, and some example run-time values.  

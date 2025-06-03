@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Updating an Orchestration Using Side-by-Side Versioning
 Changes to orchestrations can be more involved than changes to other artifacts, such as maps. If you have short-lived orchestrations, then a simple update may be sufficient. But if you have long-running orchestrations or cannot terminate existing instances, then side-by-side versioning will be your only option.

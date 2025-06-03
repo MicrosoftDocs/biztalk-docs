@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Log a Local User on to a Non-Windows Application
 After you set up your user with an affiliate application, you can use Single Sign-On (SSO) to access the external user name and credentials of the current user. Using these credentials, you can then log your user on to the affiliate application that is running on a host server.

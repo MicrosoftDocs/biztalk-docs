@@ -3,6 +3,7 @@ description: "Learn more about: MSBTS_GroupSetting.MaxAuditEntries Property (WMI
 title: MSBTS_GroupSetting.MaxAuditEntries Property (WMI)
 TOCTitle: MSBTS_GroupSetting.MaxAuditEntries Property (WMI)
 ms.date: 09/13/2021
+ms.topic: reference
 ---
 
 # MSBTS\_GroupSetting.MaxAuditEntries Property (WMI)

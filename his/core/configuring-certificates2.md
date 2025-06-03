@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Certificates
 The **TN3270 Server properties** dialog box contains a **Port/Security** tab, which allows you to configure the ports to be available to the TN3270 server. The security parameters are then configured on a port-by-port basis.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is the SOAP Adapter?
 Web services are programs with interfaces that adhere to the standards set forth in the Web Services Description Language (WSDL). You can use a Microsoft BizTalk Server orchestration to create and use Web services to combine separate but related business functions in a manageable and intuitive way. For more information about Web services and orchestration, see [Using Web Services](../core/using-web-services.md).  

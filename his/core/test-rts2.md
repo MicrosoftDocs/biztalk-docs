@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # TEST_RTS
 The **TEST_RTS** verb determines whether a request-to-send notification has been received from the partner transaction program (TP).  

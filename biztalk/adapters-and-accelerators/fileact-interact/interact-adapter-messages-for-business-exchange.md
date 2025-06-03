@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # InterAct Adapter Messages for Business Exchange
 There are four messages in the InterAct adapter end-to-end cycle. These messages are SWIFTNet primitives. The first and last messages comprise the client-side primitives, SwInt:ExchangeRequest and SwInt:ExchangeResponse. The middle two messages comprise the server-side primitives, SwInt:HandleRequest and SwInt:HandleResponse.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Planning for High Availability and Disaster Recovery
 Solutions developed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] are often mission-critical enterprise-level applications that require maximum availability. When these solutions are placed into production, costs associated with downtime can be measured in thousands of dollars per second. For this reason, you should employ specific strategies to maximize the high availability and disaster recovery capabilities that are available with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and the dependency software and hardware required to support a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution.

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Secure programming with the Oracle Database adapter
 ## How Do I Protect Credentials When I Use the Add Adapter Service Reference Visual Studio Plug-in?  

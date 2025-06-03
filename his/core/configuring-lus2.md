@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring LUs
 When a user configures a 5250 emulator to access an IBM i, the emulator is configured with the local and remote APPC LU alias names. The LU alias names are mapped to LU names that are used for the conversation with the IBM i.  

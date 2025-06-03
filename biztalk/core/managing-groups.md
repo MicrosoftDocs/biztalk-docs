@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing Groups
 This section provides procedures for managing a BizTalk group. You use the BizTalk Server group to represent a unit of organization—such as an enterprise, department, or hub—that requires a contained Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implementation. The BizTalk Management (BizTalkMgmtDb) database stores configuration information for the BizTalk group and the servers in that group. For more information about the BizTalk group, see [BizTalk Groups](../core/biztalk-groups.md).  

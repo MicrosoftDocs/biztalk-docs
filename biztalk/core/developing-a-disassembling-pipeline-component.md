@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Developing a Disassembling Pipeline Component
 A disassembling pipeline component receives one message on input and produces zero or more messages on output. Disassembling components are used to split interchanges of messages into individual documents. Disassembler components must implement the following interfaces:  

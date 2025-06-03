@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSnaStatus_TN5250Session Class
 The **MsSnaStatus_TN5250Session** class represents a TN5250 session status.  

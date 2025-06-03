@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using SSO
 You can use either the MMC Snap-in or the command line management utility (ssomanage) to manage the SSO system. This includes activities such as updating the SSO database, adding, deleting, and managing applications, and administering user mappings.  

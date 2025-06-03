@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: faq
 ---
 # SQL adapter FAQs
 The following are some frequently asked questions (FAQs) related to [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] and the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] in general.  

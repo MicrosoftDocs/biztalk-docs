@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Transactions and Handling Exceptions
 When you design an orchestration, you should consider carefully where problems might occur and how best to deal with them. Many orchestrations have several potential points of failure. Problems can arise for any number of other reasons; for example, a server might go down or a message might be badly formatted.

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Exporting Certificates
 This topic describes how to export a certificate by using the Certificate Export Wizard. Use this wizard to export either a public certificate or a private certificate.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 ---
 # Getting Started
 The following sections provide help for learning about, installing and configuring the Microsoft OLE DB Provider for DB2 (Data Provider).  

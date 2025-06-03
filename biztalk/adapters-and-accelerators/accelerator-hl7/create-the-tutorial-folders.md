@@ -3,7 +3,7 @@ description: "Learn more about: Create the Tutorial Folders"
 title: "Create the Tutorial Folders"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: tutorial
 ---
 # Create the Tutorial Folders
 Create the following folders using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer:  

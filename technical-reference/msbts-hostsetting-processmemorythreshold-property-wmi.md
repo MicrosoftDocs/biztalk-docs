@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa559112(v=BTS.80)
 ms:contentKeyID: 51526673
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # MSBTS\_HostSetting.ProcessMemoryThreshold Property (WMI)

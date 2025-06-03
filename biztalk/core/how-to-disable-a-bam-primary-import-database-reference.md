@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Disable a BAM Primary Import Database Reference
 Administrators use the **disable-reference** command to disable a reference to a specified BAM Primary Import database.  

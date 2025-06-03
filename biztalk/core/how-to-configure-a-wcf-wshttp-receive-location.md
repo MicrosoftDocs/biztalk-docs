@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure a WCF-WSHttp Receive Location
 You can configure a WCF-WSHttp receive location either programmatically or by using the BizTalk Administration console.  

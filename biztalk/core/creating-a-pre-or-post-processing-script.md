@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating a Pre- or Post-processing Script
 You can create a script to perform actions when an application is deployed, and then define when it will run during the deployment process. You can include both installation and cleanup code in the same script, using environment variables to delimit the code. You can also pass command-line arguments into the script.  

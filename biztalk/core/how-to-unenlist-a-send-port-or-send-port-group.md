@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Unenlist a Send Port or Send Port Group
 This topic describes how to use the BizTalk Server Administration console to unenlist a send port or send port group. Unenlisting a send port or send port group eliminates all subscriptions associated with that send port or send port group. You can unenlist both running and stopped send ports or send port groups. Unenlisting a send port or send port group automatically stops it.  

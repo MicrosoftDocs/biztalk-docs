@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating a BizTalk Application
 After you have created a BizTalk project and added the Transaction Integrator (TI) schema, you can start to create your BizTalk application. For more information, see the BizTalk Server documentation.  

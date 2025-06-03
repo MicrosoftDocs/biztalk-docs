@@ -3,7 +3,7 @@ description: "Learn more about: Step 4: Create the Receive Port for Accepting AD
 title: "Step 4: Create the Receive Port for Accepting ADT Query Messages"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 4: Create the Receive Port for Accepting ADT Query Messages
 You create a receive port to specify the location for incoming query messages sent by the Admissions, Discharge, and Transfer (ADT) system. Use the following procedure to create the receive port for accepting queries (QRY^Q01 messages) from the ADT system using the Minimal Lower Layer Protocol (MLLP) adapter.  

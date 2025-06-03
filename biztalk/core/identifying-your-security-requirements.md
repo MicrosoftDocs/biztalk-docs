@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Identifying Your Security Requirements
 The answers to the following questions help you plan the best way to deploy BizTalk Server in your environment.

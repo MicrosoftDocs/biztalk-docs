@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # SNA Trace Utility Overview
 The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Trace Utility (snatrace.exe) is a graphical tool that allows you to enable or disable tracing options and set the SNA Trace Utility parameters.  

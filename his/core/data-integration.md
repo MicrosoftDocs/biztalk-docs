@@ -4,7 +4,7 @@ description: Get started with data integration, including architecting data clie
 ms.custom: ""
 ms.date: 01/04/2018
 ms.service: host-integration-server
-ms.topic: "article"
+ms.topic: get-started
 ---
 
 # Get started with data integration - HIS

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with Exceptions and Fault Messages
 This section describes the methods by which the ESB Management Portal can be used to monitor the behavior of applications by viewing fault messages generated when errors occur, according to the following common tasks:  

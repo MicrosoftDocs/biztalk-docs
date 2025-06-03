@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Install the Business Process Management Solution
 The following steps describe how to prepare the computer for installing the Business Process Management (BPM) solution, and how to install the solution on this computer.

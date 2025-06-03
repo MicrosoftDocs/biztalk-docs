@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Upgrading from an Earlier Version of SSO
 If you are installing the Enterprise Single Sign-on (SSO) feature, and you already have an earlier version deployed on your computer (for example, from [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] CTP, or Microsoft BizTalk Server), you must follow these steps.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is a BAM Definition Schema?
 The BAM definition schema defines the structure of the observation model created by the business analyst.  

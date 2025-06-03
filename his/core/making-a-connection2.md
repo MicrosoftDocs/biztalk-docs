@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Making a Connection
 Give users and groups access to the mainframe environment, install connections, and verify the installation. For information on the IP-DLC Link Service, see [IP-DLC Link Service](./ip-dlc-link-service2.md).

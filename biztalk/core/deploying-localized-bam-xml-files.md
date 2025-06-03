@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Deploying Localized BAM XML Files
 Microsoft SQL Server Analysis Services supports Unicode mapping. However, there are known character corruption issues with SQL Server Analysis Services and Visual Basic Unicode mapping. Specifically, if the regional settings are not set to the correct localized language when the conversion from ANSI to Unicode occurs, the conversion is performed using the wrong locale information and character corruption occurs.  

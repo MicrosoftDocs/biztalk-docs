@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 3c: Insert Opportunity Details into a SQL Server Database
 By now we have built the orchestration to send a query to Salesforce and receive a response. In this section, we’ll update that orchestration to insert the response from Salesforce into an **OrderDetails** table in an on-premise SQL Server database, **Orders**. To achieve this, we’ll perform the following broad set of steps:  

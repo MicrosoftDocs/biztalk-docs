@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # RUI_BID
 The **RUI_BID** verb notifies the Request Unit Interface (RUI) application that a message is waiting to be read using [RUI_READ](../core/rui-read2.md).  

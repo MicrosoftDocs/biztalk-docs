@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Planning for Sustained Performance
 This section describes how to plan, test, and scale your BizTalk Server system so you have optimal performance.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Finding Further Information about LUA
 This section does not provide a detailed explanation of products, architectures, or standards other than those directly pertaining to the Microsoft® Windows® logical unit application (LUA) programming interface. For information about specific operating environments, refer to your system documentation. For information about SNA, refer to your system network documentation.  

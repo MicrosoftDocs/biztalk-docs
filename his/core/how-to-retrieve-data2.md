@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Retrieve Data
 Creating connection string information requires that you create an object that is derived from the `IConnectionString` class, such as `DB2OdbcConnectionString` or `DB2OleDbConnectionString`. After you create the string, you can save, modify, or retrieve information from it by using the associated properties.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: tutorial
 ---
 # Siebel Adapter Tutorials
 The first of the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] tutorials contains a step-by-step demonstration of how to present data from a Siebel system on a Microsoft SharePoint portal. The second [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] tutorial contains detailed instructions on how to migrate BizTalk projects created using the previous version of the Siebel adapter to use the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  

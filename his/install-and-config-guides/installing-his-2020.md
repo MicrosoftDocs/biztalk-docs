@@ -6,7 +6,7 @@ ms.date: "5/4/2020"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 
 # Install and configure HIS 2020

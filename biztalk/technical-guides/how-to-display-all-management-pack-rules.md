@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Display All Management Pack Rules
 Use the following procedure to display a list of rules for the management packs that you imported. The list of rules can be viewed in Office Excel.  

@@ -6,7 +6,7 @@ ms.date: "12/03/2015"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the Destination System for Log Shipping
 Log shipping provides standby server capabilities to reduce downtime in the event of a system failure. Log shipping allows you to automatically send transaction logs from the source system to the destination system. At the destination system, the transaction logs are restored to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases; keeping them closely synchronized with the source databases.  

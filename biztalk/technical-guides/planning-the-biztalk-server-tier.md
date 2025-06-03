@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Planning the BizTalk Server Tier
 This section contains topics with planning recommendations for the application tier of a BizTalk solution.  

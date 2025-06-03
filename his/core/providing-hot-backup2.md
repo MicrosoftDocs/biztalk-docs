@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Providing Hot Backup
 In the IBM i environment, Host Integration Server uses a combination of LU names and LU aliases over one or more servers to achieve transparent connections with hot backup to an IBM i.  

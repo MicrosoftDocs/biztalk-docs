@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4: Creating the HeaderHelper Project
 In this step, you create a [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] class library. When a private process orchestration receives an incoming message, the HeaderHelper library determines whether a document conversion is required and if it is required, performs that conversion. This lets your orchestration work with different versions of RosettaNet Implementation Framework (RNIF) documents. Additionally, when a 3A2 response message is sent, the HeaderHelper library performs an additional document conversion before transmitting the message.  

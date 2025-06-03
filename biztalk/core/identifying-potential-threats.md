@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Identifying Potential Threats
 You can use the STRIDE model to identify potential threats to your BizTalk Server deployment. STRIDE is an acronym derived from the following categories: *S*poofing identity, *T*ampering with data, *R*epudiation, *I*nformation disclosure, *D*enial of service, and Elevation of privileges. This section contains examples of potential threats to a BizTalk Server environment, and mechanisms to mitigate them.  

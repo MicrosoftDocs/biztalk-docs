@@ -6,7 +6,7 @@ ms.date: "12/30/2022"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Running the Bulk Load Content-Based Routing Sample
 This part of the sample demonstrates bulk loading a queue with messages that the ESB and Microsoft BizTalk will route to different destination queues based on the queue name specified in each message. It uses the features of the sample that you have seen in the previous two parts.  

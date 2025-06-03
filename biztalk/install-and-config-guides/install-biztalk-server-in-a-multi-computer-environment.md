@@ -6,7 +6,7 @@ ms.date: 01/14/2020
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: article
+ms.topic: install-set-up-deploy
 ---
 
 # Install BizTalk Server in a Multi-Computer Environment

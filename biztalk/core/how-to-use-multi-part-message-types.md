@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use Multi-part Message Types
 Each message has a multi-part message type, a description of the message structure that consists of zero or more message parts. The parts are defined by XML Schema Definition (XSD) language schemas or .NET classes. You can define your own multi-part message types, or you can use existing .NET classes and schemas.  

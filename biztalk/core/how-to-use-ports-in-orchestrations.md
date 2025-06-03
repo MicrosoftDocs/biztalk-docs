@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use Ports in Orchestrations
 You add ports to an orchestration in much the same way that you add controls to a Web Form or Windows Form. You can also add ports by using the Orchestration View window.  

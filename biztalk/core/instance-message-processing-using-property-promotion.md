@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Instance Message Processing Using Property Promotion
 Promoting properties by using the **Property Field** method requires the creation of a property schema. For more information about creating a property schema, see [How to Create Property Schemas](../core/how-to-create-property-schemas.md). As with all property promotion, you use the **Promote Properties** dialog box, which is accessible by using the **Promote Properties** property of the **Schema** node in message schemas.  

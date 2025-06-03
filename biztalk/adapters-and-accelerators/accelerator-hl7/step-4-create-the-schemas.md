@@ -3,7 +3,7 @@ description: "Learn more about: Step 4: Create the Schemas"
 title: "Step 4: Create the Schemas"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 4: Create the Schemas
 In this step, you create a new project (**BTAHL7 Project**) that contains the artifacts for this project: the schemas, map, and orchestration. You then create a schema (**Doorbell.xsd**) for the incoming XML-encoded message, and select an existing schema (**ADT_A04_22_GLO_DEF.xsd**) for the outgoing HL7-encoded message. You use these schemas to define the structure of the messages that you exchange within the orchestration.  

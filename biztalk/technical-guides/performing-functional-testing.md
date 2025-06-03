@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Performing Functional Testing
 You use functional testing to test a specific end-to-end scenario or a given use case in the context of a particular BizTalk application. A functional test should cover all the possible paths through a given scenario, including the failure paths. Failure paths should be evaluated to ensure that the application deals with failure conditions appropriately.  

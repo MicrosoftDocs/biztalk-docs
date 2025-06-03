@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add a Reference to an Application
 This topic provides information about using the BizTalk Server Administration console to add a reference from one application to another. You add a reference when you want to use an artifact in the current application that already exists in another application in the same BizTalk group. If you want to use the EDI-specific schemas, pipelines, and orchestrations (deployed in the BizTalk EDI Application) from another application such as BizTalk Application 1, you must add a reference to the BizTalk EDI Application. You should not add custom artifacts to the BizTalk EDI Application.

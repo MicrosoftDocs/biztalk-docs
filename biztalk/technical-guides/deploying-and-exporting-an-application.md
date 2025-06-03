@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Deploying and Exporting an Application
 This section contains detailed information about how to perform the steps involved in deploying a BizTalk application. The topics in this section support the following checklists:

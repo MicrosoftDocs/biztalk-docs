@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # IMS_MODNAME
 When using the IMS Connect programming model, IMS_MODNAME contains the name of the returned MOD Name assigned by the executed IMS transaction.  

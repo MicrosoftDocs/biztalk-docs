@@ -6,7 +6,7 @@ ms.date: "01/17/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Resolve incomplete BAM activity instances - BizTalk Server
 BAM stores data for incomplete activity instances in a special *active instance* table in the BAMPrimaryImport database.  

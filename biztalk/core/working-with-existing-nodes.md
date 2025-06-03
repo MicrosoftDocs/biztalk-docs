@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with Existing Nodes
 After nodes have been placed into the schema tree, you will probably find it necessary to move nodes to different locations, rename them, and so on. This section provides step-by-step instructions for the most common such tasks.  

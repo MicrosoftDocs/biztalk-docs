@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How To Use REOverride to Specify a Remote Environment
 To programmatically specify an RE, the application uses the managed context entry.  The context property must be set to true  on the method from within designer.  

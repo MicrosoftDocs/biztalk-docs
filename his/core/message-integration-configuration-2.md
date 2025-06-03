@@ -6,7 +6,7 @@ ms.date: "01/04/2018"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 ---
 # Get started with message integration - HIS
   

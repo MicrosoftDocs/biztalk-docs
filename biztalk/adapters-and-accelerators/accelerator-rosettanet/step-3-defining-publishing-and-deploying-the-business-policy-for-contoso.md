@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 3: Defining, Publishing, and Deploying the Business Policy for Contoso
 In this step, you create a business policy that reserves a set quantity of units for each product that Contoso manufactures to be used in case of an emergency.  

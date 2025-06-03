@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Determine a Web Message Part Type
 You can determine if a Web message part type is a primitive .NET type or a schema type by using the Properties window for a given Web message type.  

@@ -6,7 +6,7 @@ ms.date: "01/10/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing Artifacts
 This section describes how to manage artifacts, including how to add and remove them from a BizTalk application and how to configure their properties.  

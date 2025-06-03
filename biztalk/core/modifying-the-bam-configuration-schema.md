@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Modifying the BAM Configuration Schema
 The Configuration Wizard creates this configuration file automatically. You must modify this file manually if you change your server names or other configuration information after you complete the deployment.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 8: Building and Deploying the Contoso Orchestration
 In this step, you build the Orchestration project and deploy it using the BizTalk Deployment Wizard. This adds the assembly to the Configuration database and installs the assembly in the Global Assembly Cache (GAC).  

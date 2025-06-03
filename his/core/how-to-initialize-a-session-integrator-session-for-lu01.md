@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Initialize a Session Integrator Session for LU0
 The first action you must perform when you connect to an LU0 session for Session  Integrator is to create and initialize the `Microsoft.HostIntegration.SNA.Session.SessionLU0` object. As the name implies, `Microsoft.HostIntegration.SNA.Session.SessionLU0` represents the LU0 session to your application, and is the primary interface that you will use to access the SNA network.  

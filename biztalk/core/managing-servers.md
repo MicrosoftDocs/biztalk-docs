@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing Servers
 The Servers node in the BizTalk Server Administration Console lists all servers that belong to the BizTalk Server group. Using the procedures in this section, you can add or remove servers from the group, or move servers from one group to another.  

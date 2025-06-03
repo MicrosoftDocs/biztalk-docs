@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set the Enterprise SSO Server Using the Client Utility
 Each time you use **ssoclient**, you must first point the user to the correct Single Sign-On (SSO) server that contains their configuration information.  

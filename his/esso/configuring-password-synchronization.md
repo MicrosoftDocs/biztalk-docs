@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Password Synchronization
 Use the SSOCONFIG command-line utility to configure your password synchronization settings. You can use this tool to specify directories for replay files and also change maximum password synchronization age.  

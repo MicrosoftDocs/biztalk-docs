@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSna_Connection8022Dlc Class
 Describes a type of SNA connection that uses DLC 802.2 protocol over a Token Ring or Ethernet.  

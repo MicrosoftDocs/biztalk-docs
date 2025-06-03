@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 2: Creating the Contoso LOB Application Schemas for the Price and Availability Project Using BizTalk Editor
 In this step, you generate the schema to use to query the Contoso ERP system for the price and availability of a particular product. You generate this schema by using the Microsoft® SQL Adapter for BizTalk Server.  

@@ -6,7 +6,7 @@ ms.date: "01/14/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Send BizTalk Server tracking data to Azure

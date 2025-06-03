@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create an Affiliate Application
 You can use the MMC Snap-In or the **createapps** command to create one or more applications, as specified by the XML file. The following is an example XML file for Windows-Initiated Single Sign-On (SSO):  

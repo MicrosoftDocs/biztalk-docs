@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsHisTrace_SNANetMn Class
 The **MsHisTrace_SNANetMn** class contains SNA Net Management trace content.  

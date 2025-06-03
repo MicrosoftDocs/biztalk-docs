@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsHisTrace_SNAPrint Class
 The **MsHisTrace_SNAPrint** class contains tracing properties for the Host Print service.  

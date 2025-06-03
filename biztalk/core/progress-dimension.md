@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Progress Dimension
 Use a progress dimension to group BAM activities by milestones they have reached. This is best illustrated by an example.  

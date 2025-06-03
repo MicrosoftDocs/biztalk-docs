@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing SSO
 The following sections contain information regarding installation of the Enterprise Single Sign-On feature. Because of the complex relationships between SSO and other features and systems, and because of its importance to system security, you should read this section carefully before installing Enterprise Single Sign-On.  

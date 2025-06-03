@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Reference Additional BAM Primary Import Databases
 Administrators use the **enable-reference** command to reference additional BAM Primary Import databases. You reference multiple BAM Primary Import databases to facilitate viewing distributed BAM activities.  

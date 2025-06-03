@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 1: Creating a Certification Authority
 In this topic, you install the Certificate Services [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] component. You use it to generate the certificates that you need to promote secure communication between the Contoso and Fabrikam organizations. Each trading partner will have a private encryption certificate for communication and a private signature certificate for identification purposes. Additionally, the partners will share their public key certificates with each other to promote secure communication when implementing the 3A2 Partner Interface Process (PIP).  

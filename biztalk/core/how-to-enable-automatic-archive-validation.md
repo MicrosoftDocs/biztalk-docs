@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enable Automatic Archive Validation
 Archive validation enables you to validate the archives as they are created. Before you can enable automatic archive validation, you must set up a secondary database server, also called a validation server. Because the archiving process is a simple backup, it is possible that the actual image stored on the disk can be corrupted due to a hardware issue.  

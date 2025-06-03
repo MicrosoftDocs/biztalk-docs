@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Completing the MQ Channel Library Wizard
 Use this page to review the choices and settings you made in the previous wizard pages. You can return to an earlier wizard page to change a setting by clicking **Back**.  

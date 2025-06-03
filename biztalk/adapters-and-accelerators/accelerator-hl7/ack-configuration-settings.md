@@ -2,7 +2,7 @@
 title: ACK configuration settings
 description: Learn more about ACK configuration settings for BizTalk Server.
 ms.service: biztalk-server
-ms.topic: conceptual
+ms.topic: article
 ms.date: 06/08/2017
 ---
 

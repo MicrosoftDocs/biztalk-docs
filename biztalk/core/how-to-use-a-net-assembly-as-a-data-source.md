@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use a .NET Assembly as a Data Source
 You can specify a .NET assembly as a data source. You can subsequently select a class or class member from the assembly, and drag it onto a vocabulary definition or rule.  

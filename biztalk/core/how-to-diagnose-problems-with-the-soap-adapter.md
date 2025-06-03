@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Diagnose Problems with the SOAP Adapter
 This section contains steps that can be followed to help diagnose problems with the SOAP adapter.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Testing Maps
 After your map has compiled without warnings, it is time to test it. This section describes various aspects of testing maps.  

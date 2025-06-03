@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Backing Up and Restoring the BizTalk Server Databases
 This section provides information about how to back up and restore the BizTalk Server databases. You should follow the procedures in this section to ensure your ability to restore a consistent BizTalk Server environment in the event of a hardware failure. BizTalk Server performs distributed transactions across databases, so it is critical that you back up and then restore all databases.  

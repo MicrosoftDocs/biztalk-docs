@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Display the SSO Database Information
 You can view SSO database information by using the MMC Snap-In or the command line (ssomanage) utility.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSna_ConnectionSdlc Class
 A type of SNA connection that uses SDLC protocol over dial-up or leased lines.  

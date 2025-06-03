@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using SSO Efficiently in the Service Oriented Solution
 The service oriented solution uses Enterprise Single Sign-On (SSO) both to store configuration values and to handle credentials for the back-end systems. To reduce latency, the solution uses a local cache for the configuration values. The solution refreshes the cache every five minutes.  

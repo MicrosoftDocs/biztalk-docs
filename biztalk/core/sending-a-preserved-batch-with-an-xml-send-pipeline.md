@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Sending a Preserved Batch with an XML Send Pipeline
 Normally, a preserved batch is sent using an EDI send pipeline. However, you can also use an XML send pipeline to send a preserved batch. Since the preserved batch that is generated and dropped in the MessageBox by the EDI receive pipeline is in the XML format, the XML send pipeline would pass along the batch in XML format.  

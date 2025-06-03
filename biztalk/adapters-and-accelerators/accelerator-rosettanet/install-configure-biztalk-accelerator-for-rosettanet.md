@@ -4,7 +4,7 @@ description: See the hardware and software requirements, the install steps, and 
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 
 # Install BizTalk Accelerator for RosettaNet

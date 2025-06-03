@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set or View Remote Environment Properties
 Basic information about a remote environment (RE) is displayed on an item's property sheet. Property sheets are available for the following items:  

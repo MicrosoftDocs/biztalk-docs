@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add a Policy to an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to add a policy to a BizTalk application. When using the administration console, you can add more than one policy at a time. Adding a policy to an application makes it available for use by that application as well as any other applications that reference it.  

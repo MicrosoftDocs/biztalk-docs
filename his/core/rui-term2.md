@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # RUI_TERM
 The **RUI_TERM** verb ends both the logical unit (LU) session and the system services control point (SSCP) session for a given LUA LU.  

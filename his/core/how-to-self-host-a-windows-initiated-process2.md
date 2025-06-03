@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Self-Host a Windows-Initiated Process
 Self-Hosting is a technology that allows you the option of running a Transaction Integrator (TI) assembly in-process with an associated application. Self-Hosting improves performance of your application by not running the TI assembly through Internet Information Services (IIS).  

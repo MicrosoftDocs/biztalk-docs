@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Alerts, Notifications, and Subscriptions
 This section examines the ways that you can configure the ESB Management Portal to generate alerts when fault messages arrive at the portal and how to create subscriptions and notifications that can alert users automatically when errors occur. The common tasks are the following:  

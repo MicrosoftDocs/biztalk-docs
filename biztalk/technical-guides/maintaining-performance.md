@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Maintaining Performance
 This section provides information that is intended to help you resolve performance issues discovered during your routine maintenance checks. You can also use the tools and techniques described here proactively, to identify potential problems before they become critical issues.

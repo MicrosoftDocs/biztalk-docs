@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSnaStatus_EventTN5250Session Class
 The **MsSnaStatus_EventTN5250** class describes a change to the **EventTN5250Session** class.  

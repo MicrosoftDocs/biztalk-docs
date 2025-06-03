@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Install the Certificates for Encrypted Messages
 The following procedure lists the high-level steps that you have to follow to install the certificates for receiving and sending encrypted messages.  

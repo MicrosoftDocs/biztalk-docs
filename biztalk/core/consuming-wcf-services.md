@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Consuming WCF Services
 Consuming WCF services enables you to add existing WCF services to your business process. You can aggregate several WCF services into a single orchestration.  

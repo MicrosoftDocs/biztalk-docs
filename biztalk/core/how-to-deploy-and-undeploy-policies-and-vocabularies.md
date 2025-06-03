@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Deploy and Undeploy Policies and Vocabularies
 You can use the Rule Engine Deployment Wizard to deploy or undeploy a policy.  

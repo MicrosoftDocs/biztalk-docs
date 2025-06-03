@@ -6,7 +6,7 @@ ms.date: "11/16/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Event Hub adapter in BizTalk

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSnaStatus_ServiceSharedFolder Class
 The **MsSnaStatus_ServiceSharedFolder** class represents a TN3270 service status.  

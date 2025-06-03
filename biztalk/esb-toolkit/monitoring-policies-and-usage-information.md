@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Monitoring Policies and Usage Information
 The SOA Service Manager provides a mechanism that allows you to create and edit monitoring policies. For example, Figure 1 shows the screen for applying a policy template and activating monitoring for an application.

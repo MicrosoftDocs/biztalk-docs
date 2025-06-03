@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to List BAM Activities
 Administrators use the **get-activities** command of the BAM Management utility to list the activities in the local BAM Primary Import database.  

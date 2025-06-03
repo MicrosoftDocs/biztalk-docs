@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Tracing
 There are multiple options for tracing, which can help to capture problems in the data consumer application, OLE DB service components, Data Provider, DB2 network client, and DB2 database server.

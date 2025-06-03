@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Optimizing MQSeries Adapter Performance
 Configure the MQSeries adapter by using the following settings when possible to increase performance.  

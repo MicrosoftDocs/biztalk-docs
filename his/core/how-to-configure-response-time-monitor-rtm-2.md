@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Response Time Monitor (RTM)
 You can specify the times that RTM should send data and the trigger that causes it to register the host response. The configuration settings are on the **Response Time Monitor** tab of the **Properties** page for the selected SNA subdomain and are listed in the following table:  

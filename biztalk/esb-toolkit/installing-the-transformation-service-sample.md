@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing the Transformation Service Sample
 This section describes the process for installing the Transformation Service sample into the GlobalBank.ESB BizTalk application. You can install the Transformation Service sample from the solution project or use the Windows Installer file included with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. This section contains the following topics:  

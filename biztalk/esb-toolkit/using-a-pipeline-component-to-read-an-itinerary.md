@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using a Pipeline Component to Read an Itinerary
 A message that arrives in a receive pipeline can contain metadata in its SOAP header that defines its processing requirements (client-side itinerary). Figure 1 illustrates the use of the ESB Itinerary and ESB Dispatcher pipeline components.  

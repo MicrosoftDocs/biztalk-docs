@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Label a Link
 Labels are helpful to document the purpose of a functoid or a link in a map. You can use the **Label** property to name a link. This is useful when your map contains big schema structures and identifying the inputs and output links to a functoid becomes difficult.  

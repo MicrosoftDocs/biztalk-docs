@@ -6,7 +6,7 @@ ms.date: 04/22/2019
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Restore your databases - BizTalk Server

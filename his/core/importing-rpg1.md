@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Importing RPG
 The Report Program Generator (RPG) is oriented to programs written for use by distributed program call (DPC). The expectation is that the RPG source contains an `*ENTRY PLIST` operation statement. This statement leads the importer down the path of explicitly understanding the exact parameter names. This eliminates the picking and choosing of data areas found in the **Import COBOL Wizard**.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Setting A4SWIFT Properties
 To set A4SWIFT Properties, refer to the Profile Web Client Documentation located in \<drive\>:\Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Samples\CustomMRSRModel.

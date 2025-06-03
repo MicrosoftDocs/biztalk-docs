@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Use a Custom Web Part with the Siebel adapter
 This section provides information about using a custom Web Part with Microsoft Office SharePoint Server. To use a custom Web Part, you must do the following:  

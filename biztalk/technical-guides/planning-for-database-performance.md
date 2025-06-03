@@ -6,7 +6,7 @@ ms.date: "11/29/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Planning for Database Performance
 

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Working with Breakpoints
 You can set breakpoints by attaching to a suspended orchestration, or by setting a breakpoint on a class.  

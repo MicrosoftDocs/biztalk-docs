@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating Orchestrations
 This section describes the various tasks that you need to perform as you create your orchestrations and design your business process flows.  

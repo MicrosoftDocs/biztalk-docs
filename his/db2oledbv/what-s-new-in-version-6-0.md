@@ -6,7 +6,7 @@ ms.date: "2/5/2020"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: whats-new
 ---
 # What's New in Version 6.0
 The Microsoft OLE DB Provider for DB2 version 6.0 offers the following improvements:  

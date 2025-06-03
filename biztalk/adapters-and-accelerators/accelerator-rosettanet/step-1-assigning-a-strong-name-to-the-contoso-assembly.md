@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 1: Assigning a Strong Name to the Contoso Assembly
 In this step, you create and assign a strong name for your BizTalk assembly. A strong name guarantees the uniqueness of an assembly by assigning a digital signature and a unique key pair. Additionally, a strong name provides an integrity check to guarantee that the content of the assembly has not changed since you last built it.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MC_FLUSH
 The **MC_FLUSH** verb sends the contents of the local logical unit's (LU) send buffer to the partner LU and transaction program (TP). If the send buffer is empty, no action takes place.  

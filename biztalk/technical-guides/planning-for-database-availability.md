@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Planning for Database Availability
 The BizTalk Server Messaging engine ensures that business processes are reliable and durable by persisting process state and business data to a SQL Server database known as the BizTalk Messagebox database. Because the reliability and durability of the persisted data is only as good as the underlying data store, planning for high availability of the BizTalk Server databases is critically important.  

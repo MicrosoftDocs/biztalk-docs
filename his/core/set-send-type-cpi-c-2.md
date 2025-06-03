@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Set_Send_Type (CPI-C)
 The **Set_Send_Type** call (function name **cmsst**) specifies how data will be sent by the next [Send_Data](../core/send-data-cpi-c-2.md) call. It overrides the default send type established by [Initialize_Conversation](../core/initialize-conversation-cpi-c-1.md) or [Accept_Conversation](../core/accept-conversation-cpi-c-2.md). The default send type is CM_BUFFER_DATA, indicating that data only (and no control information) is to be sent.  

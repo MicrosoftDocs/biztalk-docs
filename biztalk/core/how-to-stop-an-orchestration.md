@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Stop an Orchestration
 This topic describes how to use the BizTalk Server Administration console to stop an orchestration. Stopping an orchestration deactivates and suspends all of the arriving activation messages.  

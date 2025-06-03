@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Character Encoding in XML Disassembler Pipeline Component
 The XML Disassembler uses the following algorithm to determine which encoding to use for processing incoming messages:  

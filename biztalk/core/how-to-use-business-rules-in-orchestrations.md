@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use Business Rules in Orchestrations
 You can create an instance of a Business Rules policy and execute it in your orchestration. To do this, add a Call Rules shape inside an atomic transaction scope, and configure a policy on it.

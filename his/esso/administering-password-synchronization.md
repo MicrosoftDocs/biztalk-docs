@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Administering Password Synchronization
 You can administer Password Synchronization in Enterprise Single Sign-On (SSO) through either the Microsoft Management Console (MMC) Snap-In or the command line. This topic describes how to perform various administration tasks with adapters.  

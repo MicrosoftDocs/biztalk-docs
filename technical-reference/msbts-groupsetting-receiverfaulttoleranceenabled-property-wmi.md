@@ -3,6 +3,7 @@ description: "Learn more about: MSBTS_GroupSetting.ReceiverFaultToleranceEnabled
 title: MSBTS_GroupSetting.ReceiverFaultToleranceEnabled Property (WMI)
 TOCTitle: MSBTS_GroupSetting.ReceiverFaultToleranceEnabled Property (WMI)
 ms.date: 09/13/2021
+ms.topic: reference
 ---
 
 # MSBTS\_GroupSetting.ReceiverFaultToleranceEnabled Property (WMI)

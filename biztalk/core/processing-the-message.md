@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Processing the Message
 All of the components described so far play a part in the processing of messages as they flow through BizTalk Server. This section provides more detail about how these components interact functionally, beginning with receiving a message. The following figure shows the make-up of a receive port and the flow of a message through the receive process.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Throttling Design Recommendations
 This section provides recommendations on how to design a solution to take advantage of throttling. The throttling engine enhancements in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] may significantly impact the performance of BizTalk Server  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Maximizing Background Processing on Host Integration Server Computers
 Servers used primarily for communications run many important background processes (processes not related to user actions in the current window). These servers generally do not need to run foreground processes at maximum speed. Therefore, Host Integration Server throughput can be increased by making the operating system more responsive to background processes and less responsive to foreground processes.  

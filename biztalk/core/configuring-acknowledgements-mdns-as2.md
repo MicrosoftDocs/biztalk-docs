@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Acknowledgements (MDNs) (AS2)
 In the partner agreement, you can specify how the party receiving the AS2 message generates an MDN response and sends it to back.  

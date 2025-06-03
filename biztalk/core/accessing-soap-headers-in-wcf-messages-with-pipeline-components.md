@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Accessing SOAP Headers in WCF Messages with Pipeline Components
 To access the SOAP headers with the WCF adapters in pipeline components, you use a combination of the context property name, **InboundHeaders**, and the target namespace `http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties`. The WCF adapters copy custom SOAP headers and standard SOAP headers in the inbound messages to the **InboundHeaders** property. The WCF adapters also allow you to programmatically select the properties you would like to promote or write to the context properties programmatically. See [SOAP Headers with Published WCF Services](../core/soap-headers-with-published-wcf-services.md) for more details.

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Building Connection Strings
 The Managed Provider for DB2 provides a strongly typed connection string builder class that inherits from `DbConnectionStringBuilder`. The connection string builders let developers programmatically create syntactically correct connection strings that are based on user input, and also parse and rebuild existing connection strings by using methods of the class. The `Microsoft.HostIntegration.MsDb2Client.MsDb2ConnectionStringBuilder` class provides strongly typed properties that correspond to the known key/values pairs allowed by the Managed Provider for DB2.  

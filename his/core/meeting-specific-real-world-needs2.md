@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Meeting Specific Real-World Needs
 The topics in this section show you how to use Transaction Integrator (TI) together with COM+ to meet specific real-world application integration needs.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Planning for Security
 This section contains information about the potential threats a Microsoft BizTalk Server environment may be vulnerable to, recommendations for mitigating Denial of Service attacks, and recommendations for helping to secure your BizTalk Server environment.  

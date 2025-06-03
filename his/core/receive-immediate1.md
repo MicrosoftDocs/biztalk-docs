@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # RECEIVE_IMMEDIATE
 The **RECEIVE_IMMEDIATE** verb receives any data currently available from the partner transaction program (TP). If no data is available, the local TP does not wait. To avoid blocking the conversation, the Microsoft Windows operating system can issue [RECEIVE_AND_WAIT](../core/receive-and-wait2.md) in conjunction with [WinAsyncAPPC](../core/winasyncappc1.md).  

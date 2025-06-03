@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Synchronizing Passwords
 You synchronize a password by using a password sync adapter. This adapter should be able to communicate with a specific, remote, non-Windows system, and should also be able to instruct that system to update password information.  

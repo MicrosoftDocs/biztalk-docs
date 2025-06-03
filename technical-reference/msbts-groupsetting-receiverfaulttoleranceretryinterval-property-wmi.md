@@ -3,6 +3,7 @@ description: "Learn more about: MSBTS_GroupSetting.ReceiverFaultToleranceRetryIn
 title: MSBTS_GroupSetting.ReceiverFaultToleranceRetryInterval Property (WMI)
 TOCTitle: MSBTS_GroupSetting.ReceiverFaultToleranceRetryInterval Property (WMI)
 ms.date: 09/13/2021
+ms.topic: reference
 ---
 
 # MSBTS\_GroupSetting.ReceiverFaultToleranceRetryInterval Property (WMI)

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: tutorial
 ---
 # Tutorial 3: AS2 Tutorial
 In this tutorial, you set up a solution that receives and sends EDIINT/AS2-encoded messages over an HTTP transport.  

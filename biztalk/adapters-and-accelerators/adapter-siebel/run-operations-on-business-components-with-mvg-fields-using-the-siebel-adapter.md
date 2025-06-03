@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Run Operations on Business Components with MVG Fields Using BizTalk Server and the Siebel adapter
 This section provides instructions on performing operation on a business component containing multi-value fields. To demonstrate an end-to-end operation on such business components, you need to perform:  

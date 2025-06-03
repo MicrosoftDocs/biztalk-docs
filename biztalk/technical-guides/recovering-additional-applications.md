@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Recovering Additional Applications
 There may be additional applications that must be restored as part of the overall application solution. Procedures for recovering additional applications must be defined by the application teams and made part of the overall disaster recovery plan.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Manage Other Visual Studio Windows
 Certain operations in BizTalk Editor use other Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] windows, namely the Output window and the Task List window. These windows are used to display output from operations, such as generating sample instance messages and validating schemas and instances. This topic provides step-by-step instructions about managing these windows.  

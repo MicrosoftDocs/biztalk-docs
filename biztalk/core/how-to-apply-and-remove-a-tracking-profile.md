@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Apply and Remove a Tracking Profile
 Once you have created or modified the tracking profile, the next step is to apply it to a test database and verify the result through integration testing. You can apply the tracking profile from within Tracking Profile Editor (TPE) itself or by using the command line.  

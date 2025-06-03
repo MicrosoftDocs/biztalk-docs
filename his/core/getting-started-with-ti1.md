@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 ---
 # Getting Started with TI
 This section explains some of the basics of using Transaction Integrator.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Choosing Network Protocols for Host Integration Server
 After you determine the server-to-host connection, you must choose the protocols to use for two additional [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] communication paths: client/server communication and server/server communication. You can use one protocol for both, or you can use a combination of different protocols, if all servers share at least one client/server protocol and use it for server/server communication.  

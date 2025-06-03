@@ -6,7 +6,7 @@ ms.date: "10/28/2015"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with the Configuration Framework
 The Configuration Framework enables you to quickly and easily change Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration at setup. In conjunction with the Microsoft Windows Installer (MSI), the Configuration Framework reads and reports the state of your computer and the configuration tasks requiring action.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Update the Host File System with the Data Adapter
 `HostFileDataAdapter.Update` is called to resolve changes from a `DataSet` object back to the data source. The `Update` method, like the `Fill` method, takes an instance of a `DataSet` as an argument.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SEND_DATA
 The **SEND_DATA** verb places data in the local logical unit's (LU) send buffer for transmission to the partner transaction program (TP).  

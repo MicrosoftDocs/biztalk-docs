@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create a Map without Maps
 If you have XSLT code you have been using to convert instance messages, you can use that code directly instead of creating a map.  

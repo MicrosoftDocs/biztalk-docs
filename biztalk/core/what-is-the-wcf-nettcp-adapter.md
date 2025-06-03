@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is the WCF-NetTcp Adapter?
 The WCF-NetTcp adapter provides connected cross-computer or cross-process communication in an environment in which both services and clients are WCF based. It provides full access to SOAP security, reliability, and transaction features. This adapter uses the TCP transport, and messages have binary encoding.  

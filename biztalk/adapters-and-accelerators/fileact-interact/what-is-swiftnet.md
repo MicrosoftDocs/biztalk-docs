@@ -6,7 +6,7 @@ ms.date: "12/30/2022"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is SWIFTNet?
 As a general purpose, industry-standard solution for the financial industry, SWIFTNet provides an application-independent, single window interface to all the connected applications of all the institutions participating in the global financial community. Actual access is controlled by the business policy decisions of each Service Administrator, not by the technical limitations of the infrastructure.  

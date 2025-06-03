@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsHisTrace_Config Class (TN5250)
 The **MsHisTrace_Config** class contains tracing properties for the TN5250 service.  

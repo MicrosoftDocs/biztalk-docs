@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # applicationEncoding
 The applicationEncodings type is Microsoft.HostIntegration.ConfigurationSectionHandlers, which defines  application-level encoding schemes and conversions.  

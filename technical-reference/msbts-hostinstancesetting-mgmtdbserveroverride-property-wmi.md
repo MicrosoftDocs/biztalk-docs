@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561682(v=BTS.80)
 ms:contentKeyID: 51533116
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # MSBTS\_HostInstanceSetting.MgmtDbServerOverride Property (WMI)

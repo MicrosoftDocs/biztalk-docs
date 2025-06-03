@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure a Windows SharePoint Services Send Port
 This topic describes how to create and configure a Windows SharePoint Services send port by using the BizTalk Server Administration Console.  

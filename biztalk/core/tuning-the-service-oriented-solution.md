@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Tuning the Service Oriented Solution
 The orchestrations collect performance information about many parts of the application through the Business Activity Monitoring (BAM) API. You may find the data helpful in tuning the application. You can also, of course, use the built-in performance counters.  

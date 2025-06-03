@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Optimizing BizTalk Server Performance
 This section provides guidelines for improving BizTalk Server performance. The optimizations listed are applied after BizTalk Server has been installed and configured.  

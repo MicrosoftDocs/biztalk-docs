@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing Aggregations
 Aggregations are cumulative operations against a data set to derive a generally representative characteristic or description for that data set. This section describes how to manage different elements of an aggregation, such as indexes, activities, and real-time aggregations (RTAs).  

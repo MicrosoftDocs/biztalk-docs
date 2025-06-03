@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to List Affiliate Applications
 Use the **listapps** command to list all the affiliate applications. If the user is a member of the Application Administrators account, this command only displays the application for which the user is an administrator.  

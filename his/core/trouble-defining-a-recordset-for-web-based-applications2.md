@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Trouble Defining a Recordset for Web-Based Applications
 In TI, a *recordset* consists of tabular data defined in COBOL source code on the mainframe. Tabular data is defined by a group item containing an OCCURS clause in the COBOL data area. When you import a COBOL data area into TI Designer, the following COBOL-to-Automation conversions take place:  

@@ -3,6 +3,7 @@ description: "Learn more about: MSBTS_GroupSetting.AllowTrackingSettingsImport P
 title: MSBTS_GroupSetting.AllowTrackingSettingsImport Property (WMI)
 TOCTitle: MSBTS_GroupSetting.AllowTrackingSettingsImport Property (WMI)
 ms.date: 09/13/2021
+ms.topic: reference
 ---
 
 # MSBTS\_GroupSetting.AllowTrackingSettingsImport Property (WMI)

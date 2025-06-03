@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Restoring the Contoso Database
 In this step, you use SQL Server Management Studio to run a SQL script to restore the Contoso database and its associated stored procedures. You also populate the database tables with preliminary data.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing BAM Security
 This section provides information about BAM security. It includes procedures for managing user accounts for BAM views and managing subscriptions to alerts.  

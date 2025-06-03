@@ -6,7 +6,7 @@ ms.date: 6/13/2018
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 
 # Install and configure HIS 2016

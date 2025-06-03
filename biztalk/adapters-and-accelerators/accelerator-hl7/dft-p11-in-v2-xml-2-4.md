@@ -3,7 +3,7 @@ description: "Learn more about: DFT_P11 in V2.XML 2.4"
 title: "DFT_P11 in V2.XML 2.4"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: reference
 ---
 # DFT_P11 in V2.XML 2.4
 You must manually change the following code in the DFT_P11 schema in V2.XML 2.4 after running the Update2XMLSchema tool:  

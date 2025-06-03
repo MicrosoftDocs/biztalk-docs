@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating an IP-DLC Connection
 You create and configure an IP-DLC link service connection as you would create any other link service connection.  

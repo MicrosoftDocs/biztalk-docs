@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Implementing BAM Activities with Event Streams
 A BAM activity represents a unit of work in the business, such as purchase order or loan application. The activity shows the history (milestones) and data about this unit of work to the business end user, or information worker. For example, a loan application activity might contain milestones such as “Loan approved” and data such as “Applicant name” and “Loan amount.” BAM activities often map directly to a business process, although as a high-level abstraction an activity is independent of the actual implementation of your IT infrastructure.  

@@ -2,7 +2,7 @@
 title: What is the 3270 Design Tool
 description: Learn about creating green-screen applications with the 3270 Design Tool for Azure Logic Apps.
 ms.service: host-integration-server
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 10/17/2023
 
 #CustomerIntent: As a programmer, I need to create metadata for the 3270 connector in Azure Logic Apps using the 3270 Design Tool.

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Viewing and Managing Auditing and History
 The ESB Management Portal automatically maintains a history log of events occurring in the portal, such as fault messages and Universal Description, Discovery, and Integration (UDDI) publications. It also generates an audit log, for which you can configure the level of auditing you require. This section describes the following common tasks:  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Receive query notifications On Multiple Receive Locations from SQL using BizTalk Server
 Consider a scenario where you have multiple receive locations created as part of different BizTalk applications configured to receive query notifications for the same table (e.g. Employee) in the same database. If a hundred records are inserted into the same table, all the receive locations will get the notification message. To effectively receive notifications across multiple receive locations, you can call operations from your BizTalk application in such a way that if a notification is received by one receive location, the other receive location does not get the same notification. So, you can effectively load-balance notifications received on multiple locations.  

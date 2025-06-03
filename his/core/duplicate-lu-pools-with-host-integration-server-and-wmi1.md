@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Duplicate LU Pools with Host Integration Server and WMI
 A VBScript ImportExport sample program written in Microsoft Visual Basic Scripting Edition (VBScript) is provided as part of the Host Integration Server SDK. This tool enables configuration information from Host Integration Server to be exported and saved to a text file using Windows Management Instrumentation (WMI) in MOF format. This text file can also be changed and imported using this sample program to change configuration information.  

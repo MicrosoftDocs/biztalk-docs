@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Converting Data Types from RPG to IBM i COBOL
 The Transaction Integrator (TI) run-time environment supports the use of IBM i COBOL running on an IBM i computer. The following table lists the Report Program Generator ( to  data type conversions supported by the TI run-time environment.  

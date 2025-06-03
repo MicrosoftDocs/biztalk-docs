@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SLI_PURGE
 The **SLI_PURGE** verb cancels [SLI_RECEIVE](../core/sli-receive2.md) verbs issued with a wait condition.  

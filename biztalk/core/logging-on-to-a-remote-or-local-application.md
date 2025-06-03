@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Logging on to a Remote or Local Application
 After you finish setting affiliate credentials for your user, you can use Enterprise Single Sign-On service (ENTSSO) to provide access to applications. If the user is local, you can use ENTSSO to retrieve credentials for a non-Windows application. In contrast, if the user is remote, you can use ENTSSO to retrieve credentials for a local application.  

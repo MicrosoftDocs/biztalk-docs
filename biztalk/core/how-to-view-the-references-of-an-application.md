@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to View the References of an Application
 This topic describes how to use the BizTalk Server Administration console to view the list of applications to which the current application has references. For more information about adding references, see [How to Add a Reference to Another Application](../core/how-to-add-a-reference-to-another-application.md). You can also view the list of applications that have references to this application.  

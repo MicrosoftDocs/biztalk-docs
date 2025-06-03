@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # OrchestrationBinding (BizTalk Server Sample)
 The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.ExplorerOM](/dotnet/api/microsoft.biztalk.explorerom) administrative objects to configure and manage orchestrations.

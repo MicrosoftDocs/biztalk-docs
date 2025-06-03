@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with the Managed Data Provider For Host Files
 The Managed Data Provider for Host Files operates in most ways as a normal data provider: you can connect to a host file system, execute commands and retrieve data.  

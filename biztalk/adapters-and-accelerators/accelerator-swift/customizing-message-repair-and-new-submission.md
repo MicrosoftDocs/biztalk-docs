@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Customizing Message Repair and New Submission
 This section describes ways in which you can customize the Message Repair and New Submission feature.  

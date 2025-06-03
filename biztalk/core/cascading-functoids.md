@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Cascading Functoids
 Functoids are said to be cascaded when one functoid is linked to another functoid before it is linked to a record or field in the destination schema. For example, you can create cascading functoids in which two concatenated strings produce a third string fed into a field in the destination schema.  

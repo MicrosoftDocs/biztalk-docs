@@ -2,7 +2,7 @@
 title: WCF-BasicHttp Adapter
 description: Learn about the WCF-BasicHttp Adapter in BizTalk Server.
 ms.service: biztalk-server
-ms.topic: conceptual
+ms.topic: article
 ms.date: 06/08/2017
 ---
 

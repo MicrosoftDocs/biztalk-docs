@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Service Encodings
 The DRDA Service maps code pages and supports custom code page conversions using an underlying HIS Encoder component and the Windows National Language Support (NLS) system components.  

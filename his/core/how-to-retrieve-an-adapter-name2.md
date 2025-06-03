@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Retrieve an Adapter Name
 One of the tasks you must perform when setting up an IPDLC connection is to retrieve the name of the adapter you are connecting with.  

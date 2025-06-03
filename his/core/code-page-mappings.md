@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Code Page Mappings
 You can specify service-level and application-level code page mapping overrides. Also, you can specify code point mapping overrides within a defined code page. For more information, see Deployment.

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Defining Business Activities and Views in Excel
 Your first step in creating any BAM solution is to identify what data you're interested in and how that data should be interpreted. To do this, you use the BAM Add-in for Excel. The add-in allows you to define a wish-list of the data of interest by defining a business activity. You can also define the way the data should be interpreted and shown to different categories of business users.  

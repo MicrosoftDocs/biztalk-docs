@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Receive Oracle E-Business Suite database change notifications using the WCF service model
 This topic demonstrates how to configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive query notification messages from an Oracle database. To demonstrate notifications, consider a table, ACCOUNTACTIVITY, with a “Processed” column. When a new record is inserted to this table, the value of the Status column is set to “n.” You can configure the adapter to receive notifications by registering for notifications using a SQL statement that retrieves all records that have “Processed” column as “n.” You can do so by specifying the SQL statement for the **NotificationStatement** binding property. After the adapter client receives the notification, it can contain the logic to do any subsequent tasks on the Oracle database. In this example, for the sake of simplicity, the adapter client lists all the records in the table that have the “Processed” column as “n.”

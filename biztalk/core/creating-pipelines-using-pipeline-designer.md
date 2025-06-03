@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating Pipelines Using Pipeline Designer
 Microsoft BizTalk Server works mainly with the XML document format. For a message to take full advantage of BizTalk Server processing, it must often be transformed from its native format into its XML representation. BizTalk Server pipelines perform this transformation, as well as other data-specific actions (such as data encryption or decryption, property promotion, and so on) on incoming and outgoing messages. This section provides conceptual and task-specific information about pipelines and Pipeline Designer.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create and Describe an Application to Single Sign-On
 A common administrative task that you might need to perform is adding an affiliate application into the Enterprise Single Sign-On (SSO) database. Adding an affiliate application to the Enterprise SSO database enables you to associate users and credentials with the affiliated application.  

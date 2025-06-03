@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Host Integration Server with WMI
 One of the reasons Windows Management Instrumentation (WMI) is implemented in Host Integration Server is to help in configuring and updating different technologies in your enterprise. As an extended sample, this section describes how to configure an IPDLC link service. This sample is a command prompt script that takes as input the host you want to go against and configures an IPDLC link service and independent session connection to the host.  

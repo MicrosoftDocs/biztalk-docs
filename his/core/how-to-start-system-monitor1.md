@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Start System Monitor
 You can start the Windows System Monitor in several ways. The following procedures describe how to start the system monitor from the operating system and from the SNA Manager.  

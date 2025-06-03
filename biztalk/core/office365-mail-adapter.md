@@ -6,7 +6,7 @@ ms.date: "04/16/2021"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Send and receive email with Office 365 Outlook Email adapter - BizTalk Server

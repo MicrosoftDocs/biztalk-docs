@@ -2,7 +2,7 @@
 title: Known issues - Installation
 description: Known issues and common problems and resolutions when installing and configuring BizTalk Server.
 ms.service: biztalk-server
-ms.topic: conceptual
+ms.topic: troubleshooting-known-issue
 ms.date: 11/30/2017
 ---
 

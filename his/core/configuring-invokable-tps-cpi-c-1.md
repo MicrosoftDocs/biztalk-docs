@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Invokable TPs (CPI-C)
 The following topics tell how to configure invokable transaction programs (TPs) for the various Microsoft® SNA service client types.  

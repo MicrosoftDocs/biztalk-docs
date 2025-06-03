@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Import a Policy
 This topic describes how to use the BizTalk Server Administration console to import a policy into a BizTalk group or the BTSTask command-line tool to import a policy into a BizTalk application.  

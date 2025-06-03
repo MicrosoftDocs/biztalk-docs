@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Remove BAM Alerts
 Administrators use the **remove-alerts** command to remove all the alerts from a specified view.  

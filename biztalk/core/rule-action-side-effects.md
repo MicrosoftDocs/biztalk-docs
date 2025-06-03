@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Rule Action Side Effects
 If the execution of an action affects the state of an object or a term used in conditions, that action is considered to have a side effect on the object.  

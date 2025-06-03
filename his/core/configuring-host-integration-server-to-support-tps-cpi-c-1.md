@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Host Integration Server to Support TPs (CPI-C)
 The following topics describe how the Host Integration Server configuration works with invoking and invokable transaction programs (TPs.)  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Work with Multiple Nodes Simultaneously
 Some operations can be performed on multiple nodes simultaneously, but the relevant nodes must all be selected. This topic provides instructions about how to work with multiple nodes simultaneously.  

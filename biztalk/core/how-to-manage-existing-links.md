@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Manage Existing Links
 Sometimes you may need to change the source or destination of a link, name or rename a link, or delete a link. This topic provides step-by-step instructions for performing these types of link operations.  

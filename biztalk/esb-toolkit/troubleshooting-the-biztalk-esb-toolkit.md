@@ -6,7 +6,7 @@ ms.date: "08/10/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 
 # Troubleshoot the BizTalk ESB Toolkit

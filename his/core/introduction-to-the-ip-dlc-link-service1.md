@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Introduction to the IP-DLC Link Service
 This section describes the overall architecture of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] system with IP-DLC link service functionality.  

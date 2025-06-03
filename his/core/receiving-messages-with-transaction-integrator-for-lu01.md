@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Receiving Messages with Transaction Integrator for LU0
 After you create and initialize your connection, you can receive information from the specified logical unit (LU). The primary way of receiving information with Session Integrator is with the `SessionLU0.Receive` method.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Accessing SOAP Headers in Pipeline Components
 You can access SOAP header context properties in pipeline components. You use a combination of the context property name and the target namespace `http://schemas.microsoft.com/BizTalk/2003/SOAPHeader`.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Deploy a Host File Interface
 Once you have finished importing and modifying the host file interface, you can deploy the interface. Deploying the interface allows you to write and test code against the interface.  

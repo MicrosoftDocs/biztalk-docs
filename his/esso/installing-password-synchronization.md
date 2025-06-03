@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Installing Password Synchronization
 As with the other Single Sign-On (SSO) features, Password Synchronization is not installed in the default [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] installation, and must be specifically selected during Setup.

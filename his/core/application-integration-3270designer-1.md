@@ -2,7 +2,7 @@
 title: 3270 Design Tool
 description: Learn about designing green-screen applications using the 3270 Design Tool.
 ms.service: host-integration-server
-ms.topic: conceptual
+ms.topic: get-started
 ms.date: 10/25/2023
 
 #CustomerIntent: As a programmer, I need to design 3270 applications using the 3270 Design Tool.

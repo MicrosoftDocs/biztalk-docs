@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # Error Codes for Open Messages
 The possible error codes for **Open(SSCP) Error Response** and **Open(PLU) Error Confirm** are shown in the following topics.  

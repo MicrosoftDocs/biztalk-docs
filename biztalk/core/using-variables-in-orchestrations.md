@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Variables in Orchestrations
 Orchestration Designer provides facilities for managing data in your orchestration. You can define data types in the Orchestration View window, create messages, variables, and parameters in the Orchestration View window, and use BizTalk Expression Editor to add logic to manipulate and test values.  

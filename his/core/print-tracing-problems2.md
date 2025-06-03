@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Print Tracing Problems
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] incorporates extensive tracing within the Host Print Service components and the messages that flow between them. The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Print Service communicates over two well-defined SNA APIs - FMI (Functional Management Interface) and the APPC (Application Program to Program Communication) API FMI is used for 3270 printing, while APPC API is used for IBM i printing.  

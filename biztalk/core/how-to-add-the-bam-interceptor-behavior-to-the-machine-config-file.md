@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add the BAM Interceptor Behavior to the Machine.config File
 To intercept data in BAM, you must add the BAM interceptor behavior to the Microsoft .NET machine.config file. You can do this in two ways:

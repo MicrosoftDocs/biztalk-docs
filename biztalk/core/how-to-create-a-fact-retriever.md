@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create a Fact Retriever
 A fact retriever is a component that is used to assert instances of long-term facts into a policy during its execution. You can implement the **IFactRetriever** interface and configure a policy version to use this implementation at run time to bring in the long-term fact instances. The policy version invokes the **UpdateFacts** method of the fact retriever implementation on every execution cycle, if a fact retriever is configured for that particular version.

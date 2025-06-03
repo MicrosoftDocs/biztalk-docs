@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Defining Routing and Message Transformation Service Invocations Using Itineraries
 In this use case, a message submitted for processing contains an itinerary SOAP header that describes the list of services to execute and their resolution requirements. Specifically, a transformation and routing service are defined, each optionally requiring resolution through a Universal Description, Discovery, and Integration (UDDI), Business Rules Engine Policy, XML Path Language (XPath), or STATIC lookup. This use case can be extended by adding other services to the itinerary at the time of message publication.  

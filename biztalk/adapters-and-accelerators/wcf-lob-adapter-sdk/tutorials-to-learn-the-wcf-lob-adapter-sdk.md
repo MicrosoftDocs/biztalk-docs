@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: tutorial
 ---
 # Tutorials to learn the WCF LOB Adapter SDK
 The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] tutorials contain information about how you can use [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] to develop feature-rich line of business adapters to facilitate enterprise application integration within your enterprise. By using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], the operations and data you expose can be consumed by any application that can consume a WCF binding, including [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  

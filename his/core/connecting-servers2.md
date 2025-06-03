@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Connecting Servers
 After you have determined a suitable deployment model and subdomain configuration, you must choose how to connect [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers to the host system, to client workstations, and to other [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers.  

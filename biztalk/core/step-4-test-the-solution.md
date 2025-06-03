@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4: Test the Solution
 In this topic you test the solution by dropping a dummy request message in the folder you associated with the FILE receive port. As explained in, you drop a dummy request message only to invoke the **WCF-WebHttp** send port. You can create a dummy request message like the following:  

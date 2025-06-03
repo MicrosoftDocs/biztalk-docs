@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Working with the Managed Provider for DB2 GetSchema Methods
 The `Connection` classes in the Managed Provider for DB2 implement a `GetSchema` method, which is used to retrieve schema information about the database that is currently connected, and the schema information returned from the `GetSchema` method comes in the form of a `DataTable` object. The `GetSchema` method is an overloaded method that provides optional parameters for specifying the schema collection to return, and restricting the amount of information that is returned.  

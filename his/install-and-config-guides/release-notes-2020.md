@@ -6,7 +6,7 @@ ms.date: "01/25/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: release-notes
 ---
 
 # Release Notes for Host Integration Server (HIS) 2020

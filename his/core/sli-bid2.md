@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SLI_BID
 The **SLI_BID** verb notifies the Session Level Interface (SLI) application that a message is waiting to be read using [SLI_RECEIVE](../core/sli-receive2.md). **SLI_BID** also provides the current status of the session to the Windows logical unit application (LUA) application.  

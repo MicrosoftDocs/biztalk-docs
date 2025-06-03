@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Viewing Historical and Tracked Data
 This section provides task-specific information about using how to view historical and tracked data from the Group Hub page in the BizTalk Server Administration Console.  

@@ -4,7 +4,7 @@ description: Get started with network integration, including hardware connectivi
 ms.custom: ""
 ms.date: 01/03/2018
 ms.service: host-integration-server
-ms.topic: "article"
+ms.topic: get-started
 ---
 
 # Getting started with network integration - HIS

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Include and Exclude Schemas
 A schema file can exist in a BizTalk project folder and not be included in that project. Such a schema is said to be excluded from the project. Excluded schemas are not compiled when you build the BizTalk project. This topic describes the steps required to include an excluded schema in a BizTalk project, and to exclude a schema from a BizTalk project.  

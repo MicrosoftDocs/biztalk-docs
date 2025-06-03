@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Save Event Logs
 You can save event logs for later reference or for historical data. Event log files can be saved as event files (*.evt), text files (\*.txt). or comma-delimited text files (\*.txt).  

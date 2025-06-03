@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Compiling and Linking an LUA Application
 Use the following procedure to compile and link a logical unit application (LUA) application.  

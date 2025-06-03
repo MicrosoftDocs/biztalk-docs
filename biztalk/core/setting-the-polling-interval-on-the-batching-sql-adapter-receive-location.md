@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Setting the Polling Interval on the Batching SQL Adapter Receive Location
 You can set the polling interval on the batching SQL adapter receive location (**BatchControlMessageRecvLoc**) differently on development and production computers. On a development server, Microsoft recommends that you keep the polling interval at the default of 30 seconds, for quick activation of the batching orchestration for an agreement. However, on a production server, a setting of 30 seconds may affect performance. Once you have activated a batch, you may want to set the polling interval to a higher value, such as five minutes.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: tutorial
 ---
 # Setting up MX End-to-End Tutorial
 The steps below highlight the steps required to execute the MX End-to-End tutorial.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Invoking TPs and SNA Service Configuration (CPI-C)
 For an SNA service to support the beginning of the invoking process, the following parameters must be configured correctly:  

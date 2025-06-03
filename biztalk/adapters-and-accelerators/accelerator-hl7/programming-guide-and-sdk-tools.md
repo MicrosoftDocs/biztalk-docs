@@ -3,7 +3,7 @@ description: "Learn more about: Programming guide and SDK tools"
 title: "Programming guide and SDK tools"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Programming guide and SDK tools
 This Software Development Kit (SDK) provides information for developers who are creating applications using any of the tools in Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], the public application programming interfaces (API), or the samples and utilities provided in the BTAHL7 SDK.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Import Bindings for an EDI-AS2 Solution
 This topic describes how to import the configuration of an EDI and/or AS2 solution onto another computer. Deployment of an EDI/AS2 solution is integrated with BizTalk application deployment. It is available through the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console and the BTSTask command-line tool.  

@@ -3,7 +3,7 @@ description: "View a list of topics about known issues that may help you avoid e
 title: "Known Issues1"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: troubleshooting-known-issue
 ---
 # Known Issues
 

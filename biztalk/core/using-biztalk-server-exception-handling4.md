@@ -6,7 +6,7 @@ ms.date: "10/24/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # BizTalk Server Exception Handling Overview
 

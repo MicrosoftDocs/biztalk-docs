@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Assign an Application to an Adapter
 To process information between a local application and a remote server, an adapter must have one or more applications assigned to it.  

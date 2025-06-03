@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Invoking TPs on Host Integration Server
 For a server running Host Integration Server to support the beginning of the invoking process (that is, to accept the [TP_STARTED](./tp-started2.md) and [ALLOCATE](./allocate2.md) or [MC_ALLOCATE](./mc-allocate2.md) verbs issued by an invoking TP), the following parameters must be configured correctly:  

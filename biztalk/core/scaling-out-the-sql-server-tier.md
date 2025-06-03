@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Scaling Out the SQL Server Tier
 For each BizTalk group, you add one Master MessageBox database. All the subsequent MessageBox databases that you add are called secondary MessageBoxes. The Master MessageBox handles all subscriptions and message routing. It can also publish messages. Secondary MessageBox databases will only publish messages when specifically configured to do so.  

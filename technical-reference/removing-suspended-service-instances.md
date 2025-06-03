@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb203857(v=BTS.80)
 ms:contentKeyID: 51529732
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: concept-article
 ---
 
 # Removing Suspended Service Instances

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Marking In-Progress Transactions as Complete in BAM
 Business Activity Monitoring (BAM) keeps data for incomplete trace instances in a special active instance table. If some instance records were started before the last backup but completed after the backup, those records will remain in the active instance table. Although this does not prevent the system from functioning, you can manually mark these records as completed so that they can be moved out of the active instance table.  

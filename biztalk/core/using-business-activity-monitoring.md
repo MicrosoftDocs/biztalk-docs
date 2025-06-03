@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Business Activity Monitoring
 Business Activity Monitoring (BAM) provides visibility into business processes independent of your IT environments and across a heterogeneous IT implementation. This distinguishes BAM from operational monitoring such message and instance monitoring. A key aspect of BAM is being able to view business data in as close to real time as possible, referred to as zero latency.  

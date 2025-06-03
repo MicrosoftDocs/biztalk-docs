@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete a Send Port Group
 This topic describes how use the BizTalk Server Administration console to delete a send port group from a BizTalk application. When you do this, the send port group is also deleted from the BizTalk Management database for the group. Deleting a send port group does not delete any send ports that it contains.  

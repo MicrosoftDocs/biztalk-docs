@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Send Port Association (AS2)
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses send port association to resolve an agreement for an outgoing AS2 message. An AS2 message is resolved to an agreement by matching the send port that subscribed to the message with the send port associated with an agreement. This topic provides instructions on how to associate send ports to an agreement.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the Throw Exception Shape
 You can explicitly throw exceptions in an orchestration by using the **Throw Exception** shape. When the throw is performed, the runtime engine will search for the nearest exception handler that can handle the type of exception being thrown.  

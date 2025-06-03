@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Fallback Acknowledgement Properties (EDIFACT)
 In the fallback agreement, you can specify what type of acknowledgment to return to a party.  

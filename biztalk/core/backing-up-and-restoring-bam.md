@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Backing Up and Restoring BAM
 This section provides information about how to back up and restore the BAM Analysis, Tracking Analysis, BAM Star Schema, and BAM Archive databases.  

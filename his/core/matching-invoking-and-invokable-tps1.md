@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Matching Invoking and Invokable TPs
 Each computer running Host Integration Server maintains a list of available invokable TP names and any LU aliases to be associated with the TP names. This information is obtained as follows:  

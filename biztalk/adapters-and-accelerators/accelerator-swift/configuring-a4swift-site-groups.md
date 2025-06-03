@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring A4SWIFT Site Groups
 You need to create the corresponding site groups to lock down the permissions on the document libraries created during Message Repair and New Submission configuration. To do so with the example in the preceding section, an A4SWIFT Administrator would go to the MRSR site and set up the following site groups:  

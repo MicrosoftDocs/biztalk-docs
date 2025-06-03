@@ -6,7 +6,7 @@ ms.date: "12/07/2015"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: tutorial
 ---
 # Tutorial: Integrating BizTalk Server 2013 with Salesforce
 Reviewers: [Nick Hauenstein](https://social.msdn.microsoft.com/profile/nick.hauenstein/), [Steef-Jan Wiggers](https://social.msdn.microsoft.com/profile/steef-jan%20wiggers)

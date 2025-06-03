@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # WinAPPCIsBlocking
 The **WinAPPCIsBlocking** function determines if a thread is executing while waiting for a previous blocking call to finish.  

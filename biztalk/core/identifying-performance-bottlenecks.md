@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Identifying Performance Bottlenecks
 Ideally, when a system is running at almost full capacity (optimal utilization of available resources), sustainable throughput can be achieved, lowering total cost of ownership (TCO).  

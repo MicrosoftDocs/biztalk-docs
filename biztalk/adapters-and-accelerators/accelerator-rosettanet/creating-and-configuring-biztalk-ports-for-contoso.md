@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating and Configuring BizTalk Ports for Contoso
 In this section, you integrate your current solution into Microsoft® BizTalk Server. Before you do this, you install your assembly in the Global Assembly Cache (GAC), and then configure it in the Configuration database. You then create and configure send ports using a SQL adapter and a HTTP adapter.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Sample Supply Chain Scenario
 One of the most fundamental processes in the high-technology supply chain is the exchange of purchase-order request and response messages. A buyer issues a purchase order, and a supplier acknowledges, at the line level, whether they accept or reject the order, or whether the order is pending.  

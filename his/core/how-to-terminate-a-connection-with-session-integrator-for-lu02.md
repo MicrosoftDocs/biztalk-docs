@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Terminate a Connection with Session Integrator for LU0
 After you finish sending and receiving information over the LU0 session, you must terminate your connection. Ending a session with Session Integrator consists primarily of calling `SessionLU0.Disconnect`.  

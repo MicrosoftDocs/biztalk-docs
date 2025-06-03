@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Extract_TP_Name (CPI-C)
 The **Extract_TP_Name** call (function name **cmetpn**) returns the *TP_name* characteristic.  

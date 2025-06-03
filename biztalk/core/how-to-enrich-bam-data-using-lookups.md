@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enrich BAM Data Using Lookups
 There are cases in which the data that is available at operation time does not contain everything you need for reporting purposes. For example, you may have a ProductID but not a ProductName at runtime. Since the BAM Activity represents an abstraction independent of how the data is actually collected, it should contain an item named as the final data that you want to see in the report "ProductName". Just like any other item, you can use this in interpretive constructs such as milestone groups, durations, dimensions, and measures. Since the ProductName is not available at runtime, you must get some additional data that is sufficient for performing a lookup, such as the ProductID.  

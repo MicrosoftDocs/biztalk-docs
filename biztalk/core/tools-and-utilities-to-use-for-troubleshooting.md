@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Tools and Utilities to Use for Troubleshooting
 This section describes several tools and utilities that can be useful for diagnosing the root cause of a problem in a Microsoft BizTalk Server component or dependency.

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Host Integration Server Concepts for 3270 Client Access
 This section describes some key concepts used in Host Integration Server when providing 3270 client access. The purpose of this section is to provide information that enables independent software vendors to integrate their 3270 emulators with Host Integration Server. Only the relevant parts of the Host Integration Server architecture are described.  

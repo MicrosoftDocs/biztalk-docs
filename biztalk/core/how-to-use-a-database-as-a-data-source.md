@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use a Database as a Data Source
 You can specify a database as a data source. You can subsequently select a table or table column from the database, and drag it onto a vocabulary definition or rule to use as a fact.  

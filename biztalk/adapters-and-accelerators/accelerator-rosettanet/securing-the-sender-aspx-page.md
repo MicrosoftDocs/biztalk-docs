@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Securing the Sender ASPX Page
 This topic describes how to protect the RNIFSend.aspx page from unauthorized use. There are two procedures that you can use:  

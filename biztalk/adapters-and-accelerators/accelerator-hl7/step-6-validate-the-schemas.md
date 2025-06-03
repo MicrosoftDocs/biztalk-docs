@@ -3,7 +3,7 @@ description: "Learn more about: Step 6: Validate the Schemas"
 title: "Step 6: Validate the Schemas"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 6: Validate the Schemas
 In this step, you use the validate schema command to determine if either of the schemas contains any internal inconsistencies, or has other issues that might prevent either schema from being used effectively for processing instance messages.  

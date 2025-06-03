@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Routine Maintenance Checklists
 This section lists the maintenance checks that should be performed on a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system on a routine basis as part of a preventive maintenance program. Performing these checks will help you determine whether there are reliability, administration, security, or performance issues with the system.  

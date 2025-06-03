@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is the WCF-CustomIsolated Adapter?
 The WCF-CustomIsolated adapter is used to enable the use of WCF extensibility components in BizTalk Server with an isolated host. The adapter enables complete flexibility of the WCF framework. It allows users to select and configure a WCF binding for the receive location, and to specify the endpoint behaviors and security settings. This adapter can only be used by transports that are hosted in Internet Information Services (IIS).  
