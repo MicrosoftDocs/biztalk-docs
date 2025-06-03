@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is the WCF-NetNamedPipe Adapter?
 The WCF-NetNamedPipe adapter provides cross-process communication on the same computer in an environment in which both services and clients are WCF based. It provides full access to SOAP reliability and transaction features. The adapter uses the named pipe transport, and messages have binary encoding. This adapter cannot be used in cross-computer communication.  

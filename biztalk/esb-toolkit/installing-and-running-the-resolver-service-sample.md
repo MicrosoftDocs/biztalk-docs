@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing and Running the Resolver Service Sample
 The Resolver Service sample uses a command-line application to execute the methods of the Resolver Web service and save the results to a disk file. You can open the test client project to run it and to examine the code to see how you can use the Resolver Web service in your own service-oriented architecture (SOA) and ESB applications.  

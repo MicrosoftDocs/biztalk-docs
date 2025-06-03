@@ -6,7 +6,7 @@ ms.date: "12/30/2022"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Running the JMS MQRFH2 Component Sample
 The JMS MQRFH2 Component sample consists of three parts:  

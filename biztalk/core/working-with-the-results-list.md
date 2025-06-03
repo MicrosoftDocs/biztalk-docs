@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with the Results List
 When you run a query in the Group Hub page, it generates a **Query results** list containing the search results, such as relevant messages, pipelines, and assemblies.  

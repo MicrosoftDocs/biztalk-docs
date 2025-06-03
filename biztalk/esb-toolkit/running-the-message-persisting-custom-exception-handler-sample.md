@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Running the Message Persisting Custom Exception Handler Sample
 The Message Persisting Custom Exception Handler sample demonstrates a loosely coupled, generic handler that receives fault messages, extracts the Microsoft BizTalk messages they contain, and writes them as disk files to the file system.  

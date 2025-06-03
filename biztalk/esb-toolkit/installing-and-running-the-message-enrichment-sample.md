@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing and Running the Message Enrichment Sample
 The Message Enrichment sample shows how you can develop an orchestration as a custom itinerary service to apply the Message Enrichment design pattern by querying a database and incorporating the response into your message. The sample uses the test client application provided with the Itinerary On-Ramp sample.  

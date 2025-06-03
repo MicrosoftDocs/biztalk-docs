@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing and Running the Multiple Web Services Sample
 The Multiple Web Services sample shows how you can develop an itinerary that can submit a message to multiple Web services, one after another, by using the Forwarder pipeline component. This sample requires that you have already installed the Itinerary On-Ramp sample.  

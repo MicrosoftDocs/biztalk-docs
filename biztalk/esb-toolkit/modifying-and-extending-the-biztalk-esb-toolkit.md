@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Modifying and Extending the BizTalk ESB Toolkit
 You can modify and/or extend [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] services and components to suit your specific requirements. For example, you may want to change the behavior of an existing component, create a custom messaging service to use in a pipeline, add providers and adapters, or add other custom features to the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  

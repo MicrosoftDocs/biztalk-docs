@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Analyzing Fault Trends Using Charts and Reports
 This section describes the charts and reports that the ESB Management Portal generates. These charts and reports provide valuable detail and trend information for faults, alerts, and message resubmission. You can view the following:  

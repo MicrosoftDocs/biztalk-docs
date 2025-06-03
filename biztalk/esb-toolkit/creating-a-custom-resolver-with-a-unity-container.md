@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating a Custom Resolver with a Unity Container
 You can create a custom resolver using the [Unity Application Block](/previous-versions/msp-n-p/ff678312(v=pandp.10)) (Unity) ([https://go.microsoft.com/fwlink/?LinkId=188286](/previous-versions/msp-n-p/ff678312(v=pandp.10))) for run-time dependency injection of resolution logic and metadata sources.

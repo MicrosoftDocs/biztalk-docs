@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Repairing and Resubmitting a Message
 To repair and resubmit a failed message, use the Faults page of the ESB Management Portal.  

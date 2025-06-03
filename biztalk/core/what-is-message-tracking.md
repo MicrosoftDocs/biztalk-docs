@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What is Message Tracking?
 A message is an electronic instance of data, as typically exchanged between two running business processes or applications. A message instance is made up of a message body, message properties, and metadata.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing and Running the BizTalk Operations Sample
 The Microsoft BizTalk Operations sample shows how you can query for operational data on BizTalk applications using the ESB BizTalk Operations Service. The ESB Management Portal uses this service to return or update information in the BizTalk management and tracking databases. The available information includes the following:  

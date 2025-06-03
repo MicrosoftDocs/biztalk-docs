@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating a Custom Adapter Provider
 After a resolver executes, as described in the previous sections, the dynamic resolution service checks whether the result is an endpoint (not a transformation). If it is an endpoint, the service instantiates the adapter manager, which is an instance of the **AdapterMgr** class.  

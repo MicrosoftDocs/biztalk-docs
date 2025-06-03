@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Repairing and Resubmitting Messages
 Fault messages displayed in the ESB Management Portal may be the result of an error in the values of the original message when submitted for processing. The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] supports "repair and resubmit" functionality that allows administrators or users to edit failed messages and resubmit them to the ESB for processing.  

@@ -3,7 +3,7 @@ description: "Learn more about: Training"
 title: Learn Biztalk Server
 ms.service: biztalk-server
 ms.date: 11/01/2018
-ms.topic: conceptual
+ms.topic: concept-article
 ---
 
 # Training

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Dynamic Resolution and Routing
 In addition to itinerary-based routing, the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] supports dynamic resolution as configuration-based routing to avoid the requirement for hard-coded routing information in components and services. This section contains the following topics:  

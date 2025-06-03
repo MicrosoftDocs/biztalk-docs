@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Viewing Message Flow
 A message flow is the set of contiguous processing steps taken by a message. You access the message view through the shortcut menu that appears when you right-click a service or message instance in the Group Overview page in the BizTalk Server Administration Console. Once in the Message Flow view, you can switch back and forth between the Message Flow view and the Orchestration Debugger.  
