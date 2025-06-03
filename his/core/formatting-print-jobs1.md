@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Formatting Print Jobs
 Host Print service can format print jobs by either using the Windows printer driver or by using a Printer Definition Table.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Extracting LUWIDs
 Both LUWIDs for a particular TP can be determined by issuing the [GET_TP_PROPERTIES](./get-tp-properties2.md) verb. The **GET_TP_PROPERTIES** verb returns the TP's unprotected LUWID in the **luw_id** field.  

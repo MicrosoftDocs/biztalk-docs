@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 f1_keywords: 
   - "SNA_Pool_3270"
   - "SNA_Pool_Lua"

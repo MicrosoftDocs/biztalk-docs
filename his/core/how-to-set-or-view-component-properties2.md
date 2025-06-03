@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set or View Component Properties
 A property sheet displays basic information about a Transaction Integrator (TI) component. Property sheets are available in Host Integration Server Designer (HIS Designer) for the following:  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Clear Event Logs
 In Windows, you can clear the event logs by selecting **Clear all Events** on the **Action** menu after selecting the appropriate log file. You have the option of saving the event log before you clear it.  

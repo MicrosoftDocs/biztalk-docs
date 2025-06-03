@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Handle Errors While Creating a Link Service
 As with most scripts, you need to write functions to handle any errors. This error handler scans the Windows Management Instrumentation (WMI) error queue for any relevant error information and posts and displays the error to the user.  

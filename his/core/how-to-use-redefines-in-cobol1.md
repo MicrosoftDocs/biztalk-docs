@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use REDEFINES in COBOL
 The COBOL import process in Transaction Integrator (TI) Project recognizes the REDEFINES clause in a data description entry and correctly associates the redefining entries with the redefined entry. You must select one of the redefined or redefining clauses as the entry that represents the data that will be transmitted.  

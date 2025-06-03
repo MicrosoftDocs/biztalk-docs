@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use Already Verified Authentication
 You can set the **Use Already Verified or Persistent Verification authentication** option on the remote environment (RE) Security property page in Transaction Integrator (TI) Manager.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing Host Integration Server Clients
 Host Integration Server client software allows client workstations to communicate with Host Integration Server computers to access host resources. Client software is installed on each workstation using applications that communicate using any Host Integration Server programmatic interfaces. Client software is available for the following platforms:  

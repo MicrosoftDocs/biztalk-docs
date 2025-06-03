@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Obtain a Single Value from a DB2 Database
 You might need to return database information that is just a single value rather than in the form of a table or data stream. For example, you might want to return the result of an aggregate function such as Count(*), Sum(Price), or Avg(Quantity). The `Command` object enables you to return single values by using the `ExecuteScalar` method. The `ExecuteScalar` method returns as a scalar value the value of the first column of the first row of the result set.  

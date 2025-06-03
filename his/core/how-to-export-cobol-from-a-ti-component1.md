@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Export COBOL from a TI Component
 You can use a component definition to generate COBOL syntax for the data declarations that describe input sent to, and output received from, the mainframe transaction program (TP). The generated COBOL syntax is saved in a text file. The file's contents are not an actual program, but data declarations. The file contains data only, not logic, and is intended to serve as a guideline, for example, for code that can be incorporated into a mainframe TP.  

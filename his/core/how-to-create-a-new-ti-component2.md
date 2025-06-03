@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create a New TI Component
 Use Host Integration Server Designer (HIS Designer) to create a new Transaction Integrator (TI) component and populate it with methods.  

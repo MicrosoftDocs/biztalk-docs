@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # GET_TP_PROPERTIES
 The **GET_TP_PROPERTIES** verb returns attributes of the transaction program (TP) and the current transaction.  

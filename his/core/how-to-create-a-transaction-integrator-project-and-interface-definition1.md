@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create a Transaction Integrator Project and Interface Definition
 When you are creating an application for the BizTalk Adapter for Host Applications, you first create a Visual Studio solution to contain your projects, and then you create a Transaction Integrator (TI) project. Using the TI project, you will create an interface definition of the host application. Later, you will use the interface definition, together with an associated .xml schema, to describe the interface to your BizTalk application.  
