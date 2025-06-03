@@ -6,7 +6,7 @@ ms.date: "01/10/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Create calendar events with the Office 365 Outlook Calendar adapter - BizTalk Server

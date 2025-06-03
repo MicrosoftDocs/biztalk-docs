@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Loop Paths
 An element in a schema is looping if its Max Occurs property is greater than 1. A loop path occurs when you draw a link between a looping element in the source schema and a looping element in the destination schema.  

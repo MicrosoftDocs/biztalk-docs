@@ -6,7 +6,7 @@ ms.date: "10/16/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Install BizTalk Adapter for TIBCO Enterprise Message Service
 

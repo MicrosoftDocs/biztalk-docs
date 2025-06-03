@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing Hosts and Service Accounts
 After you configure BizTalk Server, you must manage Windows groups and user accounts. This section provides information about how to manage these accounts for BizTalk Server.  

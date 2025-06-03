@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-known-issue
 ---
 # Known Issues in the BAM Portal
 This topic contains information to help you identify and resolve issues that can occur while you are using the BAM portal.  

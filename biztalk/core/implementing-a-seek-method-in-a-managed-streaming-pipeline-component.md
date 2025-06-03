@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Implementing a Seek Method in a Managed Streaming Pipeline Component
 The native **IStream** interface does not provide a method to check the current stream position, so the messaging engine uses the following **Seek** method.  

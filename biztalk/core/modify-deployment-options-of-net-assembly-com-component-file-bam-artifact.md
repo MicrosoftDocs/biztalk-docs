@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Modify the Deployment Options of a .NET Assembly, COM Component, File, or BAM Artifact
 This topic describes how to use the BizTalk Server Administration console to modify the deployment options of the following resource artifacts:  

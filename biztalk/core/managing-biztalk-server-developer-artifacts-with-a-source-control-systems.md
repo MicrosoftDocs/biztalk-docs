@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Managing BizTalk Server Developer Artifacts with a Source Control Systems
 Protecting your BizTalk project from unexpected system failures should be a top priority. One way to protect project files is to use a source code control system like Team Foundation Server Source Control and Microsoft Visual SourceSafe. This topic discusses some basic strategies for organizing projects to best work with any source control system, and then provides specific suggestions for using Visual SourceSafe.  

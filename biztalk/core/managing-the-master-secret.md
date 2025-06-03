@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing the Master Secret
 The master secret is the key used to encrypt all the information stored in the SSO database. If the master secret server fails and you lose the secret, you will not be able to retrieve the information stored in the SSO database. Therefore, it is very important to back up the master secret as soon as you generate it.  

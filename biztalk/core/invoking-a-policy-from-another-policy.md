@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Invoking a Policy from Another Policy
 You can invoke a policy (child) from another policy (parent) by using one of the following methods:  

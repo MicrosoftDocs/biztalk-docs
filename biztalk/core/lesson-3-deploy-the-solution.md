@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Lesson 3: Deploy the Solution
 The first step in deploying EAISolution is to add assemblies to the BizTalk Management database and the global assembly cache.  

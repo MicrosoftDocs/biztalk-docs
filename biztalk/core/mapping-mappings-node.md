@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Mapping (Mappings Node)
 The Mapping node of a binding file describes the mapping between a party port and role port type operation for the enlisted party.  

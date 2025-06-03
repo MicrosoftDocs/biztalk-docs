@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Investigating Orchestration, Port, and Message Failures
 You can use the Group Hub page in the BizTalk Server Administration Console to investigate orchestration, port, and message failures. The Group Hub page provides access to the current real-time state of the system, accessing data in the MessageBox database. You can view all service instances such as orchestrations, ports, and messaging, along with their associated messages. Using the Group Hub page you can:  

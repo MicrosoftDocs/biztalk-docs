@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Messaging Engine Interfaces
 There are three public interfaces that adapters can use to allow interaction with the Messaging Engine. These are outlined in the following sections.  

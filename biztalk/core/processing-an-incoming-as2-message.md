@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Processing an Incoming AS2 Message
 The AS2 receive pipelines process an incoming message over AS2. The AS2EdiReceive receive pipeline processes an EDI-encoded message, using the EDI Disassembler. The AS2Receive receive pipeline processes a non-EDI-encoded message, using the AS2 Disassembler. The two pipelines process the payload of the AS2 message and generate an MDN differently; however, both receive pipelines use the AS2 Decoder to process the AS2 message.  

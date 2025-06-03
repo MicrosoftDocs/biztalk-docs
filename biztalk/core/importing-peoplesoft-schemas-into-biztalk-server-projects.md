@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Import PeopleSoft Schemas into BizTalk Server Projects
 When you have created the PeopleSoft Enterprise system, you can browse the server and import schemas into a BizTalk Server project.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Planning for the BAM Portal
 This topic describes items that you should consider when planning your Business Activity Monitoring (BAM) portal deployment.

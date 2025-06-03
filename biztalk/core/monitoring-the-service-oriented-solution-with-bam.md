@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Monitoring the Service Oriented Solution with BAM
 The solution monitors activity in all versions of the **CustomerService** orchestration using the Business Activity Monitoring (BAM) API. More specifically, it uses the new **OrchestrationEventStream** object.  

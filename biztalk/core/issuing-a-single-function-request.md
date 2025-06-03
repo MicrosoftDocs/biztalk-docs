@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Issuing a Single-Function Request
 The following example, GetEffectiveAddress, is a single-function call to JD Edwards EnterpriseOne, and the result of this request is a standard response document. In a single-function request, only one callMethod within the XML object is specified.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Merging XML Documents
 One of the messages that the **OrderBroker** orchestration creates is one to update the SQL Server history database. This message contains fields from the order message as well as the original order message. The original order appears in this message a string. This matches the data type for the order history in the database.  

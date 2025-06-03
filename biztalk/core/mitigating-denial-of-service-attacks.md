@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Mitigating Denial of Service Attacks
 It is recommended to use the following mitigation techniques to help protect your BizTalk servers and services against Denial of Service attacks. You must decide which of these mitigation techniques are appropriate for your environment.

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Installing Certificates for the WCF Adapters
 The WCF adapters can use public key infrastructure (PKI) digital certificates for purposes of message encryption and decryption, message signing and verification (non-repudiation), and client authentication. This topic describes various certification usage scenarios and configuration option guidelines for using digital certificates with the WCF adapters.
