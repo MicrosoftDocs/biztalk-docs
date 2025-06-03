@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Envelopes (X12-Transaction Set Settings)
 In the **Envelops** page of the **Transaction Set Settings** section, you define how BizTalk Server generates the GS and ST segments for an X12-encoded interchange that it sends to the party. A GS segment identifies and specifies a functional group for an X12-encoded interchange. An ST segment is the message header for an X12-encoded interchange.  

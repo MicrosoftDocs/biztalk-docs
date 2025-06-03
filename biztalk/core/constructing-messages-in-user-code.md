@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Constructing Messages in User Code
 You can represent BizTalk messages at design time as XSD schemas, .NET classes or XLANGMessage.  

@@ -6,7 +6,7 @@ ms.date: "10/19/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.service: biztalk-server
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Configure environmental tokens and variables for automatic deployment

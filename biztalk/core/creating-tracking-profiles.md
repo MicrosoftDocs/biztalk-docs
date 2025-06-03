@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating Tracking Profiles
 You create a new tracking profile or modify an existing one to better manage and monitor a specific business process for your organization. The Tracking Profile Editor (TPE) allows you to define the data to collect to meet the business analyst's requirement. The profile you create or modify can be as simple or as complex as you like depending on your business requirements.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Consuming Web Services
 Consuming Web services enables you to add existing Web services to your business process. You can aggregate several Web services into a single orchestration.  

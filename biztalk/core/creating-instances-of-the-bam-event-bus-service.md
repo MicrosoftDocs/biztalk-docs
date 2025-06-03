@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating Instances of the BAM Event Bus Service
 The BAM Event Bus Service runs inside a BizTalk application host. You can use the default host to host the BAM Event Bus Service, or you can create a new host. If a host hosts the BAM Event Bus service, any new instances you create for that host also hosts the service.  

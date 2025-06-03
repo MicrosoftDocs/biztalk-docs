@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Send Ports Using Windows Sharepoint Services Context Properties
 This topic describes how to configure Windows SharePoint Services send ports at runtime using Windows Sharepoint Services context properties from a BizTalk orchestration. The same mechanism can be used to configure Windows SharePoint Services dynamic and late-bound send ports. The configuration properties for a dynamic send port are set in an orchestration at runtime. Adapter properties that are exposed in the **Windows SharePoint Services Transport Properties** dialog box can also be applied to a dynamic or late bound send port. To set configuration properties for a dynamic or late bound send port using the Windows Sharepoint Services adapter context properties follow these steps:  

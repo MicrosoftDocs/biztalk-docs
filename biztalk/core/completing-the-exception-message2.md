@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Complete the Exception Message Flow
 To complete the flow of the exception, create a **Send** message and redirect the fault Message_3 to a monitored folder.  

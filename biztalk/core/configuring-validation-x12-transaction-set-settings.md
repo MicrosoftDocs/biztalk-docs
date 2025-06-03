@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Validation (X12-Transaction Set Settings)
 The transaction set validation settings define how BizTalk Server validates the transaction sets received from a party. As part of validation settings you can specify which type of validation BizTalk Server will perform on an incoming interchange  

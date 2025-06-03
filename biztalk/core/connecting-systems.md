@@ -6,7 +6,7 @@ ms.date: "12/30/2022"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Connecting Systems
 The effective exchange of messages across different software on different machines is an absolute requirement for integration. Given the diversity of communication styles that exist, BizTalk Server must support a variety of protocols and message formats. As described next, a significant portion of the engine is devoted to making this communication work. One important fact to keep in mind, however, is that the engine works only with XML documents internally. Whatever format a message arrives in, it must be converted to an XML document after it is received. Similarly, if the recipient of a document can’t accept that document as XML, the engine converts it into the format expected by the target.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring a Static Send Port to Send EDI Interchanges and Acknowledgments
 To send an EDI acknowledgment or interchange, you can use either a static one-way send port or a static solicit-response (two-way) send port.  

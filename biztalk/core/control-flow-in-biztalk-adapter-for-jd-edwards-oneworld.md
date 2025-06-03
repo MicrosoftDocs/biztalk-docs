@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Control Flow in BizTalk Adapter for JD Edwards OneWorld
 This topic discusses the design time and run-time control flows in Microsoft BizTalk Adapter for JD Edwards OneWorld.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring the Sending and Receiving of EDI Acknowledgments
 To configure the sending of an EDI acknowledgment in response to a received interchange, you need to do the following:  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring AS2 Properties
 BizTalk Server uses AS2 properties to process incoming and outgoing EDIINT/AS2-encoded messages over HTTP/HTTPS transport. This section describes how to create parties for AS2 message transport and how to create AS2 agreements between the parties.  

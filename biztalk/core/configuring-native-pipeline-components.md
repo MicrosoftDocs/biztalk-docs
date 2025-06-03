@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Native Pipeline Components
 Pipeline components can expose their own custom properties at design time. Any public property defined in the component will be rendered in Pipeline Designer providing that read and write accessors for that property are implemented. Pipeline Designer will display the component properties in accordance with their declaration; for example, if the property is declared as read-only, it will be displayed as such in Pipeline Designer.  

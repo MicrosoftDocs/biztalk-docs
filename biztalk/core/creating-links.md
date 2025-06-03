@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating Links
 BizTalk Mapper helps you automate some elements involved in link creation. Simple link creation is similar to simple data types. There are more sophisticated forms of link creation that are more like structure assignment in a programming language. An example is a single link creation that specifies how multiple items of data are to be moved from input instance messages to corresponding output instance messages.  

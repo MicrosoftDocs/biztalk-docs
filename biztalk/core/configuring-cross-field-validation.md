@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Cross-Field Validation
 This topic describes how to enable cross field/segment validation on transaction-set data elements in EDI-encoded messages. To do so, you need to make two settings:  

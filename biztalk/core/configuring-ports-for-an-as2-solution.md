@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Ports for an AS2 Solution
 You can use the following receive and send ports to transmit EDI and non-EDI messages over AS2:  

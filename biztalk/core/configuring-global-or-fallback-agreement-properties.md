@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Global or Fallback Agreement Properties
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses fallback agreement properties to process a message when it does not discover an agreement to resolve to for an interchange. Fallback agreement properties are not used when the agreement is known, and do not apply to any or all agreements.  

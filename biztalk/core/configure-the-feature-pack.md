@@ -6,7 +6,7 @@ ms.date: "03/06/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configure the feature pack
 

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring BAM Alerts
 Administrators can modify certain elements of the BAM alert framework. This topic describes the configuration options available to administrators.
