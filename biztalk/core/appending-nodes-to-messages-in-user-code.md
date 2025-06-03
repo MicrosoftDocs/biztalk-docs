@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Appending Nodes to Messages in User Code
 Because of the way BizTalk Server handles messages, you cannot simply append a new node directly to an existing message. Instead, you must clone the existing message, as follows:  

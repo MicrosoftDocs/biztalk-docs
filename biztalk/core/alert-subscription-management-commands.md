@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Alert Subscription Management Commands
 The BAM management utility subscription management commands allow you to work with alert subscriptions.  

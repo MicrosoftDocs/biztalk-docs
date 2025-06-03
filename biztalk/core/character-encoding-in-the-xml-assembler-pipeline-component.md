@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Character Encoding in the XML Assembler Pipeline Component
 The XML Assembler pipeline component can produce messages in user-specified character encoding in two ways, as shown in the following table.  

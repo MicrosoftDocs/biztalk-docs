@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Batching
 *Batching* is a serialized processing of a set of messages that allows for optimizations with respect to database round trips. A batch is a unit of work that is atomic; that is, it either all succeeds or all fails. If one operation in a batch succeeds but another operation fails, all the operations that make up the batch are invalidated and must be repeated.  

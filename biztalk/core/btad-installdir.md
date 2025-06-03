@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # BTAD_InstallDir
 BTAD_InstallDir contains the installation path of the BizTalk application. This is only available when the action is Create or Update, and BTAD_HostClass is BizTalkHostInstance.  

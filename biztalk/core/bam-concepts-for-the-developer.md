@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # BAM Concepts for the Developer
 As a BAM developer, you need to be familiar with important BAM concepts, such as activities, continuations, and references. You should also understand the differences between tracking and transactional processing.  

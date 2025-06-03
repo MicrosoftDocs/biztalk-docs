@@ -6,7 +6,7 @@ ms.date: "02/26/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Message and Instance Data Tracking
 

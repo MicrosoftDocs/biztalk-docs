@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 ---
 # Get started with the with the WCF LOB Adapter SDK
 This section contains information that is relevant to users who are new to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. It contains topics about installation, required skills and knowledge, common developer tasks, available community resources, and tutorials.

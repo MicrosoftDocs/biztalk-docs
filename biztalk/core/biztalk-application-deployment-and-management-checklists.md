@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # BizTalk Application Deployment and Management Checklists
 This section provides checklists for the basic deployment and maintenance tasks that you may want to perform for BizTalk applications. Each checklist provides a list of the subtasks involved and links to the topics that describe how to perform them.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Host an adapter in IIS using the WCF LOB Adapter SDK
 This section contains information about hosting an adapter built by using the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] in Internet Information Services (IIS). For more information about other hosting options, see [Hosting Services](/dotnet/framework/wcf/hosting-services).

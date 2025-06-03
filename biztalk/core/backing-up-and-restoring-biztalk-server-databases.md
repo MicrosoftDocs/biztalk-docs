@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Backing Up and Restoring BizTalk Server Databases
 You use the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job to back up all of the databases in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] source system, except for some databases used by Business Activity Monitoring (BAM). The source system is the server or group of servers that contain live data. Because BAM databases have different backup and restore requirements, these databases are backed up and restored using other methods.  

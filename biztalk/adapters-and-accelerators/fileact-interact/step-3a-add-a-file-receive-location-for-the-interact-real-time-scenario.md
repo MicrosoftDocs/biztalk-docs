@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 3A: Add a FILE Receive Location for the InterAct Real-Time Scenario
 Set up a receive location that enables you to easily drop test files for validation. You use this location to test the scenario.  

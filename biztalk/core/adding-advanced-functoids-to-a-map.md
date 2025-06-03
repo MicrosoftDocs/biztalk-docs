@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Adding Advanced Functoids to a Map
 Functoids in the **Advanced** category are more complex to understand and use than the functoids in the other categories, together classified as basic functoids. You use advanced functoids when you need more complex maps. These maps might need to count records, loop through records with a variable number of subrecords, or run an arbitrarily complex script.  

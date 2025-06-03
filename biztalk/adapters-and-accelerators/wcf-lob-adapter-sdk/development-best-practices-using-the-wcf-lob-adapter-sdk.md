@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: best-practice
 ---
 # Development best practices using the WCF LOB Adapter SDK
 You can use the best practices in this topic to improve your applications and adapters.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4: Test the InterAct Store and Forward End-to-End Scenario
 Before you begin the steps in this section, you must complete [Step 3D: Add an INTERACT Send Port for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3d-add-an-interact-send-port-for-the-interact-store-and-forward-scenario.md).  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4: Test the InterAct Real-Time End-to-End Scenario
 You use the steps in this section to test the InterAct real-time scenario.  

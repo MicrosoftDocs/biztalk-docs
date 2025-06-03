@@ -6,7 +6,7 @@ ms.date: "01/30/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Backup and Restore
 Perform the following steps before you have a hardware failure to ensure that you can restore your BizTalk Server system.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4: Test FileAct Store and Forward End-to-End Scenario
 Complete [Step 3E: Add a FILE Send Port for the FileAct Store and Forward Scenario to capture Sw-ExchangeSnFResponse messages](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangesnfresponse-messages-for-fileact.md) before you begin the steps in this section.

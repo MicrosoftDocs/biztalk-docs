@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Compiling and Testing Maps
 After you have developed your map, the next step is to validate and test it. This section provides step-by-step instructions for validating and testing maps.  

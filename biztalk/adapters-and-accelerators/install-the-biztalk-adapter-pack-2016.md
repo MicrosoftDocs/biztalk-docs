@@ -6,7 +6,7 @@ ms.date: "04/16/2021"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to install the BizTalk Adapter Pack 2016
 ## Overview

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Build and Test the Adapter Project
 To test all of the changes made to the AdapterManagement project, rebuild the project. After a successful build, run the Add Adapter Metadata Wizard to ensure that all of the internal and external XSD files are added to the AdapterManagement project. For instructions on using the Add Adapter Metadata Wizard, see [How to Add Adapter Metadata to a BizTalk Project](../core/how-to-add-adapter-metadata-to-a-biztalk-project.md).  
