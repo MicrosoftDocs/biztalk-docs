@@ -6,7 +6,7 @@ ms.date: "11/29/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Scaling Out the BizTalk Server Databases
 To provide high availability for the BizTalk Server databases, configure two computers that are running SQL Server in a Windows cluster. These computers can run in an active/active, active/passive, or active/active/passive (requires three computers) configuration for redundancy and can store data on a shared drive (such as a RAID 1+0 SCSI disk array) or storage area network (SAN).  

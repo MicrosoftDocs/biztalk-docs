@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Optimizing Orchestration Performance
 This topic describes best practices for using orchestrations in BizTalk Server solutions. This includes recommendations for:

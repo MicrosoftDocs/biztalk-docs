@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Test Results: SQL Server Key Performance Indicators
 This topic summarizes SQL Server Key Performance Indicators (KPI) observed during the test scenarios. These tests evaluated the following SQL Server KPI:

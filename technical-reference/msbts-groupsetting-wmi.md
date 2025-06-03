@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578341(v=BTS.80)
 ms:contentKeyID: 51530817
 ms.date: 09/13/2021
 mtps_version: v=BTS.80
+ms.topic: concept-article
 ---
 
 # MSBTS\_GroupSetting (WMI)

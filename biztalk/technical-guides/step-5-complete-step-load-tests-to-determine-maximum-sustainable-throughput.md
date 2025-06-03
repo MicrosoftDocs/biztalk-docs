@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 5: Perform Step Load Pattern Tests to Determine Maximum Sustainable Throughput
 The simplest method for determining the Maximum Sustainable Throughput (MST) of a BizTalk Server solution with Visual Studio load testing is to perform a step load pattern and compare the total Documents received per second to the total Document processed per second. As long as the average total documents processed per second is greater than or equal to the average total documents received per second for the duration of the test, then the load is considered sustainable. If the average total documents received per second is greater than the average total documents processed per second for the duration of the test, then the load is not considered sustainable, and this will be evidenced by a corresponding growth in the value of the BizTalk:Message Box:General Counters\Spool Size counter. Over time, when a BizTalk Server application receives more documents than it can process, the unprocessed documents will accumulate in the MessageBox database, which will eventually induce a throttling condition and significantly degrade the performance of the BizTalk Server application.  
