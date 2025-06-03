@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to List BAM Views
 Administrators use the **get-views** command to list the BAM views deployed in the BAM Primary Import database on the computer on which the command is run.  

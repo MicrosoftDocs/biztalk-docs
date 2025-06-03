@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Import and Export Policies and Vocabularies
 You can use the Rules Engine Deployment Wizard to import or export a policy or vocabulary.  

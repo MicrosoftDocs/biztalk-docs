@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Export Bindings for a BizTalk Assembly
 This topic describes how to use the BizTalk Server Administration console or the command line to export the bindings for a BizTalk assembly to an .xml file. You can then import these bindings into a BizTalk application, which overwrites existing bindings with the imported bindings of the same name. You might want to export the bindings for an assembly before you update it, so that you can import the bindings after you update it to reapply them. For more information about updating applications and assemblies, see [Updating BizTalk Applications](../core/updating-biztalk-applications.md). For more information about using binding files, see [Binding Files and Application Deployment](../core/binding-files-and-application-deployment.md).  

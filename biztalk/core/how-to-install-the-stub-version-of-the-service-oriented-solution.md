@@ -6,7 +6,7 @@ ms.date: "12/30/2022"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Install the Stub Version of the Service Oriented Solution
 The following steps describe how to prepare your computer before you install the stub version of the service oriented solution, and then how to install the solution on your computer.

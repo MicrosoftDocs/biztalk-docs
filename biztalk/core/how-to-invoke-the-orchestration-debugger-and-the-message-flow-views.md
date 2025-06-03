@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Invoke the Orchestration Debugger and the Message Flow Views
 In the Group Hub page of the BizTalk Server Administration Console, the Query results pane displays the output of a query. From the context menu you can display the Orchestration Debugger or the Message Flow view.  

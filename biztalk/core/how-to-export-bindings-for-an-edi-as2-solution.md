@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Export Bindings for an EDI-AS2 Solution
 This topic describes how to export the configuration from a computer set up as an EDI and/or AS2 solution. This enables you to set up the same configuration on another computer in an automated fashion. You can export the bindings from an application, group, or assembly.  

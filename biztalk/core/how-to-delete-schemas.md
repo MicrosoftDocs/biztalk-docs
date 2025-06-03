@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete Schemas
 Sometimes you might want to not only exclude a schema from its BizTalk project, but also completely remove the schema from your hard disk. This is known as deleting, as opposed to excluding, a schema. This topic describes the steps required to delete a schema.  

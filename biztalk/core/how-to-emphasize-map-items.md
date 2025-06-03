@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Emphasize Map Items
 In the BizTalk Mapper, when you select a map item, all the associated links and functoids are emphasized. This is useful in maps with many links, where it is difficult to identify a relationship and the related schema items.  

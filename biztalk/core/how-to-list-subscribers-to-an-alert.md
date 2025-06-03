@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to List Subscribers to an Alert
 Administrators use the **get-subscriptions** command to list all of the subscribers to a specified alert.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to List Changes to the BAM Infrastructure
 Administrators use the **get-changes** command of the BAM Management utility to list current information about a deployed BAM definition. You can also use the get-changes command to list current deployment artifacts in the BAM Primary Import database.  

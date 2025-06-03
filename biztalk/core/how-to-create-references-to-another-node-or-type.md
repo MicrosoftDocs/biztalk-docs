@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Create References to Another Node or Type
 You can use global nodes to create reusable data types—fragments of structure—that you can use throughout the schema wherever that structure is appropriate. You can only use nodes that are direct children of the **Schema** node to create global types.  

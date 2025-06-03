@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Deploy or Undeploy a Policy
 This topic describes how to use the BizTalk Server Administration console to deploy or undeploy a policy manually. In addition, starting an application automatically deploys any policies it contains, and stopping an application automatically undeploys its policies. Deploying a policy puts it into effect in the application that uses it. Undeploying a policy makes it inactive so that it no longer functions in any application that uses it in the BizTalk group.  

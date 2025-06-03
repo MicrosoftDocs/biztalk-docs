@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Iterate ArrayList in Business Rules
 This section provides an example of iterating through members of an **ArrayList** in business rules.  

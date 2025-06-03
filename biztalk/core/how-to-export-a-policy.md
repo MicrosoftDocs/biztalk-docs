@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Export a Policy
 This topic describes how to use the BizTalk Server Administration console or the command line to export one or more policies and associated vocabularies.  

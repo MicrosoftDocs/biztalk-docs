@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Edit the Properties of a Receive Location
 This topic describes how to use the BizTalk Server Administration console to edit properties of an existing receive location. For instructions on creating a receive location, see [How to Create a Receive Location](../core/how-to-create-a-receive-location.md).  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create Service Accounts for New Hosts and Host Instances
 The Configuration Manager configures the necessary Windows groups and user accounts when you install and configure BizTalk Server on a single computer.  

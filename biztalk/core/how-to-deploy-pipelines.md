@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Deploy Pipelines
 Pipelines are compiled and deployed as part of the solution build and deploy process. The compiler calls the **Validate** method on each component, allowing the components to return compile errors on the configured information. After building, the pipeline is deployed in the same assembly with the rest of the solution when the solution is deployed.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Edit XPath Selector to Process Multiple Records
 Separate child TypedXmlDocuments are created when a TypedXmlDocument is asserted into the engine; see [Assert](../core/assert.md). The engine determines which child TypedXmlDocuments to create based on the XPath selectors defined in the rules. When you build rules in the Composer, the XPath Selector value defaults to the node above the node selected in the XML Schemas tab in the Facts Explorer. The XPath Field value defaults to the selected node itself, relative to its parent node.  

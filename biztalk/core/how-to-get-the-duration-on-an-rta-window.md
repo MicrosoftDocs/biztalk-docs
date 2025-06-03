@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Get the Duration on an RTA Window
 Administrators use the **get-rtawindow** command to get the duration for the specified real-time aggregation (RTA). The command returns the length of the duration and the units by which the duration is measured.  

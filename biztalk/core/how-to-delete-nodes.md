@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete Nodes
 There will be times when you want to delete a node in the schema tree. This topic provides step-by-step instructions for this task.  

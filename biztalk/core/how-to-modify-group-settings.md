@@ -6,7 +6,7 @@ ms.date: "02/10/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Update the BizTalk group settings

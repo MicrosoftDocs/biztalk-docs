@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Disable a Receive Location
 This topic describes how to use the BizTalk Server Administration console to disable a receive location. When you disable a receive location, it stops receiving messages. If you want, after disabling a receive location, you can enable it again, so that it will again receive messages.  

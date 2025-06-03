@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Map Multiple Assemblies
 BizTalk applications can consist of multiple assemblies in which the data items that a BAM activity references reside. The following procedure shows you how to map multiple assemblies to a tracking profile.  

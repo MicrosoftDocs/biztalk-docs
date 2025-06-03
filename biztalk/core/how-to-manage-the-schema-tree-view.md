@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Manage the Schema Tree View
 Management tasks with respect to the schema tree view can be divided into four categories: changing its size, changing its background color and font, changing its use of warning dialogs, and expanding and collapsing its tree structure. This topic provides step-by-step instructions for these various tasks.  
