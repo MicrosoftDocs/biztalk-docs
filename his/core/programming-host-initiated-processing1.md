@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Programming Host-Initiated Processing
 This section discusses various issues you need to understand to program host-initiated processing components and applications.  

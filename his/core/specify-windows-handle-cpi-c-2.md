@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Specify_Windows_Handle (CPI-C)
 The **Specify_Windows_Handle** call (function name **xchwnd**) sets the Microsoft® Windows® handle to which a message is sent on completion of an operation in nonblocking mode.  

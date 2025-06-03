@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # RECEIVE_ALLOCATE
 The **RECEIVE_ALLOCATE** verb is issued by the invoked transaction program (TP) to confirm that the invoked TP is ready to begin a conversation with the invoking TP that issued [ALLOCATE](../core/allocate2.md) or [MC_ALLOCATE](../core/mc-allocate2.md).  

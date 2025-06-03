@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # REQUEST_TO_SEND
 The **REQUEST_TO_SEND** verb notifies the partner transaction program (TP) that the local TP wants to send data.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SLI_CLOSE
 The **SLI_CLOSE** verb ends a session opened with [SLI_OPEN](../core/sli-open2.md). The LU-LU and LU-SSCP resources are released.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Server Configuration Setup Problems
 If a server is set up incorrectly, SNA Manager allows the administrator to make changes. Right-click the server that you want to modify.  

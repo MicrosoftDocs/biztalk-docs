@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Send_Error (CPI-C)
 The **Send_Error** call (function name **cmserr**) notifies the partner program that the local program has encountered an application-level error.  

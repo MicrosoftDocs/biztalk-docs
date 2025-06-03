@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Request_To_Send (CPI-C)
 The **Request_To_Send** call (function name **cmrts**) notifies the partner program that the local program wants to send data.  

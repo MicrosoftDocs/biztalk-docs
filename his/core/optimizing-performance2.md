@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Optimizing Performance
 If more than one [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer is currently in use, you can evaluate the demand and performance on the servers in order to obtain a benchmark, and to estimate hardware requirements for future growth. The two primary tools for this kind of evaluation are the [System Monitor](../core/system-monitor1.md), which is part of Windows, and the [Host Integration Server Status](../core/host-integration-server-status1.md) available through the SNA manager.  

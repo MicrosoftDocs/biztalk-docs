@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # RUI_WRITE
 The **RUI_WRITE** verb sends an SNA request or response unit from the logical unit application (LUA) application to the host over either the LU session or the system services control point (SSCP) session, and sends responses, SNA commands, and data from a Microsoft® Windows® LUA application to the host LU.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Running the SNA Trace Utility
 You can run the SNA Trace Utility from either the SNA Manager or from a command prompt.  

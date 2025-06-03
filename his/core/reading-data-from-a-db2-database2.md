@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Reading Data from a DB2 Database
 In addition to executing commands on a remote database, you can also retrieve information from the database to view locally.  

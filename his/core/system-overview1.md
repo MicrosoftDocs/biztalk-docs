@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # System Overview
 This topic outlines key points of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] implementation of the IP-DLC link service.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Remapping for the Standard IBM 101 Keyboard Layout
 When using the Host Integration Server 5250 Client, function keys located on the numeric keypad (such as PGUP, PGDN and ENTER) are not mapped to 5250 functions for PAGE UP, PAGE DOWN, and ENTER. The standard cursor control keys for PageUp and PageDown (located on the keypad positioned between the BACKSPACE and NUMLOCK keys) and the standard ENTER key do work.  

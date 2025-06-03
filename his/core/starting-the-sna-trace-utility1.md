@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Starting the SNA Trace Utility
 The following topics explain how to start the SNA Trace Utility from the SNA Manager, from the Windows **Start** menu, or from a command prompt.  

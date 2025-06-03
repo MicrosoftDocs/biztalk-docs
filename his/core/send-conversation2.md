@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SEND_CONVERSATION
 The **SEND_CONVERSATION** verb allocates a session between the local logical unit (LU) and partner LU, sends data on the session, and then deallocates the session.  

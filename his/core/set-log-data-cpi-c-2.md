@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Set_Log_Data (CPI-C)
 The **Set_Log_Data** call (function name **cmsld**) specifies a log message (log data) and its length to be sent to the partner logical unit (LU). This call is allowed only in basic conversations. It overrides the default log data, which is null, and the default log data length, which is zero.  

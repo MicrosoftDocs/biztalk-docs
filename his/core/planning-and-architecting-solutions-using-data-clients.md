@@ -6,7 +6,7 @@ ms.date: "12/14/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Planning and Architecting Solutions Using Data Clients
 ## Data Clients

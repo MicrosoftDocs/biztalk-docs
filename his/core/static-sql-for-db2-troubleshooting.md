@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Static SQL for DB2 Troubleshooting
 This topic describes common errors and coding mistakes that can occur when you work with the static SQL for DB2 packages feature in Microsoft ADO.NET Provider for DB2 (Data Provider).  

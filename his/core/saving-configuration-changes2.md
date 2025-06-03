@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Saving Configuration Changes
 If the SNA Manager is opened in the domain, it will attempt to obtain an exclusive lock on the configuration file when it is opened (unless opened in read-only mode). It is recommended that you do not run SNA Manager until all servers in the domain have been upgraded to Host Integration Server.  

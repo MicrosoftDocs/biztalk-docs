@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Programming Considerations
 This topic summarizes information about developing transaction programs (TPs) using APPC on Windows operating systems:  

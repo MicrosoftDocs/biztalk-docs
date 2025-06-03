@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Security Overview
 As corporate networks become increasingly integrated with the Internet and other external networks, the threat of unauthorized access to your corporate resources grows significantly. When you plan your networking environment, you must strike a balance between protecting your resources and allowing users unobstructed access to data.  

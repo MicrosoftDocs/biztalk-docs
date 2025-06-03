@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Saving a Configuration
 After you have configured a connection to the host, you can save it. While you are connected to the host application, you cannot open a new or existing configuration.  

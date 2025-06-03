@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # TP_ENDED
 The **TP_ENDED** verb is issued by both the invoking and invoked transaction program (TP), and notifies APPC that the TP is ending.  

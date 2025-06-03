@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Simplifying CPI-C Configuration (CPI-C)
 There are several features in Host Integration Server that can simplify configuration for Common Programming Interface for Communications (CPI-C):  

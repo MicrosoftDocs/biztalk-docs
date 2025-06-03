@@ -3,7 +3,7 @@ title: "Service for DRDA (Operations)"
 description: "Learn more about: Service for DRDA (Operations)"
 ms.date: "01/22/2024"
 ms.service: host-integration-server
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Service for DRDA (Operations)

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # System Monitor Overview
 Using the Windows System Monitor, you can view reports on CPU load, memory usage, and interrupt rate, as well as the overall throughput of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] traffic on the network. Restrained use of the system monitor is recommended because the tool itself can cause extra stress on the servers CPU. Specifically, this can happen if tracking all the details of many logical units (LUs) over the network from another server. Try to limit the system monitor to providing summary statistics only.  
