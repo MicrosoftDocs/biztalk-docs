@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Converting Data Types from Automation to z/OS COBOL
 Use the tables in this topic as a guide to specify how you want TI to handle conversions from Automation data types to COBOL data types. For more information about the specific data types, see [Supported TI Data Types](../core/supported-ti-data-types2.md).  

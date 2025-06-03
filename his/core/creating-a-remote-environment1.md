@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating a Remote Environment
 Remote environment (RE) definitions are created and managed from the Remote Environments folder. When the WIP (Windows-initiated processing) Console is first started, the remote environment folder is empty.  

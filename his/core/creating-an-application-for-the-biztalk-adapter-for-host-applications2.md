@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating an Application for the BizTalk Adapter for Host Applications
 The following list describes the steps that you must follow to create an application that uses the BizTalk Adapter for Host Applications:  

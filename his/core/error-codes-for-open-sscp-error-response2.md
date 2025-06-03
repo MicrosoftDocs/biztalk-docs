@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # Error Codes for Open(SSCP) Error Response
 The following table gives the values for error code 1 and error code 2 that can be returned on the **Open(SSCP) Error Response**.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring IMS for TCP/IP
 This section describes the necessary steps in configuring IMS for TCP/IP. It may also be necessary to set up and configure the Host Web Service. See your IBM documentation for information on this.  

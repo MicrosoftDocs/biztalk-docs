@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Choosing IP Settings
 IP settings assigned to the TN5250 definitions allow TN5250 clients to connect to the IBM i. By default, the TN5250 definition is not assigned an IP address or a subnet mask. This allows any TN5250 client to connect to the IBM i.  

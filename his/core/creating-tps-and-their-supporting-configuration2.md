@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Create TPs and Their Supporting Configuration
 The following procedure describes how to create transaction programs (TPs) and set up a supporting configuration.  

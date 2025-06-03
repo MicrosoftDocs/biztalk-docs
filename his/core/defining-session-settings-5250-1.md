@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Defining Session Settings (5250)
 Before you can connect to an IBM i system, you must define the settings you will need for your 5250 session such as the Local LU Alias, Remote APPC LU Alias, Host Code Page, and Display Size. You can also change the Device Name, although this is generally not necessary.  

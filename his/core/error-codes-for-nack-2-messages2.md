@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # Error Codes for Nack-2 Messages
 The possible error codes delivered to the function management interface (FMI) application on [Status-Acknowledge(Nack-2)](./status-acknowledge-nack-2-2.md) and [Status-Control(...) Negative-Acknowledge-2](./status-control-negative-acknowledge-11.md) messages are tabulated in the following table. A **Nack-2** is delivered to the application in response to data that is sent in error (or a [Status-Control(...) Request](./status-control-request2.md) that is in error). The data has not been sent to the host. The table indicates whether the error is critical, applying to the primary logical unit (PLU) connection only. If the error is critical, the critical failure indicator will be set in the message, and the application will receive a [Close(PLU) Request](./close-plu-request2.md) as the next message.  

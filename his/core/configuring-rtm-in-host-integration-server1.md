@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring RTM in Host Integration Server
 Use the SNA manager console to configure how response times are measured and classified. Response time monitor (RTM) statistics for a specific logical unit (LU) are sent to the host that owns the LU, rather than to the connection designated for NetView data.  

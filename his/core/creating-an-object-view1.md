@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating an Object View
 Object views in host-initiated processing (HIP) provide different ways to view and manage Windows Server objects in the HIP environment. During the definition of an object view, all methods or a subset of the Objects methods can be defined in the view. This helps provide a level of security by limiting the number of methods available for execution.  

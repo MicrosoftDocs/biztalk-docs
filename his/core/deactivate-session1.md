@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # DEACTIVATE_SESSION
 The **DEACTIVATE_SESSION** verb requests Microsoft® Host Integration Server to deactivate a particular session between the local logical unit (LU) and a specified partner LU, or all sessions on a particular mode.  

@@ -3,7 +3,7 @@ description: "Learn more about: ALLOCATE"
 title: "ALLOCATE"
 ms.date: "12/15/2023"
 ms.service: host-integration-server
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # ALLOCATE

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Adding a Remote Environment
 You can use the **Remote Environment Wizard** to define the characteristics of the environment that receives request from the Windows system.  

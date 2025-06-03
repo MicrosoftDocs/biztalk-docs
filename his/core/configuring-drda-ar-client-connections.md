@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring DRDA AR Client Connections
 The DRDA Service handles communication with DRDA AR clients across TCP/IP network connections. The DRDA Service supports optional encryption and failover features to improve security and reliability. You can edit the MsDrdaService.exe.config file to instruct the DRDA Service on how to manage the DRDA AR client connections. The **connectionManager** element of the MsDrdaService.exe.config file contains the network, security and failover settings for managing in-bound DRDA client connections. The **connectionManager** type is the Microsoft.HostIntegration.Drda.Server.TcpConnectionManager, which supports in-bound DRDA AR client connections across a TCP/IP network connection.  

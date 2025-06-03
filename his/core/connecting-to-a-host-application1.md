@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Connecting to a Host Application
 After defining session settings, you can automatically connect to the host every time you start the 3270 Client.  

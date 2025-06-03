@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Changing the Default Server Authentication Certificate Common Name (CN)
 By default, the TN3270 server will look for a certificate with a common name that matches its host name, for example, the name returned by **gethostname**. This can be changed by the following registry entry (stored in **HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/TN3270/Parameters**):  

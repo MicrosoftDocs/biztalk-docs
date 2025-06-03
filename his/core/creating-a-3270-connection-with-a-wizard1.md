@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating a 3270 Connection with a Wizard
 The following procedure details using a wizard to create a 3270 connection. The 3270 Continuous link service will be used as an example.  

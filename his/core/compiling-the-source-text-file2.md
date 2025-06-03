@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Compiling the Source Text File
 After you have created the source text file, the next step is to compile the file using the Pdfcomp (PDFCOMP.EXE) utility located in the \\*platform*\SYSTEM\PRINTSRV directory. To run Pdfcomp, type the following at the command prompt.  

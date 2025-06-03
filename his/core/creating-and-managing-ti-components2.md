@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating and Managing TI Components
 The topics in this section give you the information you need for creating and managing Transaction Integrator (TI) components.  

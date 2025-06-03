@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Application Integration (Troubleshooting)
 Use the information in this section to troubleshoot problems in your .NET Framework-based client application and Transaction Integrator (TI).  

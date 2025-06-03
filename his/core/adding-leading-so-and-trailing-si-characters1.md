@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Adding Leading SO and Trailing SI Characters
 For PIC G formatted strings, you can instruct the Transaction Integrator (TI) run-time environment to add a leading shift-out (SO) character and a trailing shift-in (SI) character by selecting the **Add Leading SO and Trailing SI** check box on the string's **COBOL Definition** tab (property page) in TI Project.  

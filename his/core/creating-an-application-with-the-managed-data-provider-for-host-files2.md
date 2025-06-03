@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating an Application with the Managed Data Provider for Host Files
 The following topics describe the basic setup for creating and deploying an application that uses the Managed Data Provider for Host Files.  

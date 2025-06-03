@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Controlling Services and Connections with WMI
 Another task that Windows Management Instrumentation (WMI) can perform is accessing services and connections throughout Host Integration Server. Two common procedures in this realm are displaying the status of all current connections, and retrieving information about a specified connection.  

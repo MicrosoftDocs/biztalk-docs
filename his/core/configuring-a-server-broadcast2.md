@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring a Server Broadcast
 You can configure a server broadcast to ensure that your servers use the appropriate protocols for your network configuration.  

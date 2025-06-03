@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # ACTIVATE_SESSION
 The **ACTIVATE_SESSION** verb requests Microsoft® Host Integration Server to activate a session between the local logical unit (LU) and a specified partner LU, using a specified mode. This verb completes either when the specified session has become active or when it has failed.  

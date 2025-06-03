@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Converting Data Types from Automation to RPG
 Use the following table as a guide when you specify the way you want Transaction Integrator (TI) to handle conversions from Automation data types to Report Program Generator (RPG) data types.  
