@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Work with Port Types
 A port type consists of a communication pattern, a set of operations (requests or responses), and the message types that those operations can work on. The pattern can be either one-way or request-response (two-way), and all operations defined on that port type must use the same pattern. Note that port types are direction-agnostic: direction is specified on individual ports.  

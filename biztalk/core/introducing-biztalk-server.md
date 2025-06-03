@@ -6,7 +6,7 @@ ms.date: "01/30/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Introducing BizTalk Server
 Tying systems together is expected, and has become the norm. As organizations move toward a service-oriented world, the real goal—creating effective business processes that unite separate systems into a coherent whole—comes within reach.  

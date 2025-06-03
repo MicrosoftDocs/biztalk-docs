@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Migrating Functoids
 When you migrate a map from previous versions of BizTalk Server to BizTalk Server, any functoids included in the map are also migrated. If the functoids you migrate do not include **Scripting** functoids, no additional migration tasks are required. However if your map includes **Scripting** functoids or custom functoids, you may have additional steps to perform.  

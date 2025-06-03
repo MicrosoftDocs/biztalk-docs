@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing Schemas Within Projects
 This section provides step-by-step instructions for working with entire schemas; for example, the steps involved in creating a schema, using multiple schemas together, and saving schemas. For information about working with nodes within a schema, see [Managing the Nodes Within a Schema](../core/managing-the-nodes-within-a-schema.md).  

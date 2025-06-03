@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing BAM Definitions
 A BAM definition is part of the BAM infrastructure. It defines the data to track and aggregate, as well as the business end user's view on the tracking data. The topics in this section give procedures for managing the elements of BAM definitions, which include activities, views, artifacts, and alerts.  

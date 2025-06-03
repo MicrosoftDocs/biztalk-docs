@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Looping Activities
 Looping activities refers to actions that loop within an orchestration. It is possible to capture the events from actions that loop within an orchestration. To do this, you create another activity and map all of the new activity milestones and data inside the loop. This is necessary because the data processing in the loop will occur more than once per scheduled execution. The following figure shows an example of this situation.  

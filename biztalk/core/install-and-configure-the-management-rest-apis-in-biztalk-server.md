@@ -6,7 +6,7 @@ ms.date: "01/10/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Install and configure the management REST APIs in BizTalk Server
 

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Instrumenting a Solution: Step-by-Step API Usage
 This topic describes how to instrument an application using the key BAM API class. In the following code snippets we have simplified the sample code by using constants and by using the minimum code necessary to instrument an application.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Planning for Schema Creation
 You use schemas to validate instances of messages that are meant to conform to the schema, to define how instance messages in different formats (XML and non-XML) can be translated back and forth, and to define how XML instance messages with one structure can be transformed into XML instance messages with a different structure. For more information about the distinction between instance message translation and instance message transformation, see [Transformation vs. Translation](../core/data-transformation.md).  

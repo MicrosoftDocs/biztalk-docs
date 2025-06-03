@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Monitoring the Business Process Management Solution with BAM
 The solution monitors the steps in processing orders using the Business Activity Monitoring (BAM) API. The design of the business process splits activities among multiple stages. Through, the activities can be re-combined to create a sense of a continuous process. BAM also provides aggregate data so that you can know how long different back-ends are taking, how many orders have been completed, and other similar information.  

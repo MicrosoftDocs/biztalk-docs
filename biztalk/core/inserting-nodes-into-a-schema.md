@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Inserting Nodes into a Schema
 One of the main types of tasks you will perform in the course of developing a schema is inserting nodes of various types into the schema tree at different locations and depths, thereby creating the structure that will represent the corresponding instance messages. This section describes several ways to insert a node.  

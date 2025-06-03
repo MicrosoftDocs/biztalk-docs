@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Invoking Business Rules in Orchestrations
 You can invoke a policy (or rule set) from an orchestration by using the **Call Rules** shape. The policy invokes the rule engine, which operates on the rules in the policy.  

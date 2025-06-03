@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Parsing Modes
 The parsing mode is an attribute on the schemaInfo record, with two modes: speed and complexity. The Parser Optimization property can be configured within the BizTalk Schema Editor.  

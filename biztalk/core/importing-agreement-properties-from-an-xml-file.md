@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Importing Agreement Properties from an XML File
 This section provides instructions on how to import agreement properties from an XML template file.  

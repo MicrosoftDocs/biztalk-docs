@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing MessageBox Databases
 The MessageBox database has three essential functions. It stores subscriptions and tracking information and it delivers the messages to the services that match the subscriptions. The MessageBox database is a host platform that stores the queues and state tables for each BizTalk Host. The MessageBox database also stores messages and message properties.  

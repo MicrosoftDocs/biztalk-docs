@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing the Nodes Within a Schema
 After you have a schema open for editing within BizTalk Editor, you will perform tasks like adding new nodes to the schema tree, setting properties on those nodes, examining and changing the properties of existing nodes, and so on. This section provides step-by-step instructions for performing a variety of such tasks.  

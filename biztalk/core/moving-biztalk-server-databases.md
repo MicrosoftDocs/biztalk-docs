@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Moving BizTalk Server Databases
 In any active data center, databases sometimes need to be moved to different hardware. For example, you might need to move a database when the database outgrows its hardware or when the hardware is upgraded or replaced by newer equipment. The procedures in this section describe how to move the most commonly moved BizTalk Server databases.  

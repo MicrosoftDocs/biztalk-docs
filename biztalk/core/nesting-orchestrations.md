@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Nesting Orchestrations
 You can use the **Call Orchestration** shape and the **Start Orchestration** shape to invoke one orchestration from another. You can nest orchestrations to arbitrary depths as well: for example, a called orchestration can call a third orchestration, which can call a fourth, and so on.  

@@ -6,7 +6,7 @@ ms.date: "01/13/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 
 # Managing BizTalk Server Security

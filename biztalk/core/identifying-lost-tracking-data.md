@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Identifying Lost Tracking Data
 You can use the BizTalk Server Administration console to help identify which tracking data has been lost as a result of a hardware failure. You can use the BizTalk Server Administration console for live or archived data.  

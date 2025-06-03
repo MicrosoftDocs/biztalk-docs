@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Message References in Message Assignment Shape
 When you first assign a .NET-based object to a message or message part, that message holds and maintains a reference to the object.  
