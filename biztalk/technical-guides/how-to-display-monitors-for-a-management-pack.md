@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Display Monitors for a Management Pack
 To display a list of outputs for a management pack's monitors and overrides using the Command Shell, use the following procedure.  

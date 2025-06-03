@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Updating an Application Using Side-by-Side Versioning
 The following checklist describes the process of deploying an updated version of a BizTalk application that will run side-by-side with an existing version.

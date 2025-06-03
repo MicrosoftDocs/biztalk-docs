@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Display Monitor Thresholds
 To display monitor thresholds, use the script described in this section. This script works for the majority of monitors. It creates a .csv file that includes the columns described in the following table, and can be viewed using Office Excel.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Finding and Eliminating Bottlenecks
 A successful BizTalk Server performance assessment is largely a matter of discovering the existence of, and then resolving, bottlenecks to accommodate either more throughput or reduced latency. This section describes various types of performance bottlenecks as they relate to BizTalk Server solutions and information about how to resolve the bottlenecks.  

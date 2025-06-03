@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Deploying BizTalk Server on Hyper-V
 This section provides recommendations and best practices for installing, configuring, and deploying a BizTalk Server solution in a Hyper-V virtual environment. This section describes advantages of deploying your BizTalk Server solution to a Hyper-V virtualized environment, recommendations for setting up the Hyper-V virtual machines and recommendations for installing and configuring BizTalk Server on the Hyper-V virtual machines.  

@@ -2,7 +2,7 @@
 title: "General optimizations - Part 1"
 description: Learn how to increase BizTalk Server performance after installation and configuration.
 ms.service: biztalk-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/08/2017
 ---
 

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using the Resolver Components in Your Code
 The following code fragment from the dynamic transformation agent shows the default just-in-time (JIT) resolution functionality. You can easily implement resolution in your own application by using similar code.  

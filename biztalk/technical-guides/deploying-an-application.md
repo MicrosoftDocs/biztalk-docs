@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Deploying an Application
 Deployment is the logistical distribution of application artifacts to ensure all necessary components are available to the systems that require them. These artifacts include BizTalk Server assemblies, .NET assemblies, schemas, maps, bindings, business rules, and certificates. The BizTalk application can be leveraged to help roll out artifacts to other computers added to the group or for staging (when transporting an application to another environment).

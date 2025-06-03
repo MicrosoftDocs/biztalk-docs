@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure BizTalk Server to Send Encrypted MIME/SMIME Messages
 This topic describes how to configure BizTalk Server to use certificates to send encrypted MIME/SMIME messages. The procedure below also applies to configuring the sending of encrypted messages over AS2 transport.  

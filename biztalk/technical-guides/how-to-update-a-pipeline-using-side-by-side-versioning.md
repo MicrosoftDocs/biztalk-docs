@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Update a Pipeline Using Side-by-Side Versioning
 The simple way to use a new pipeline added by side-by-side versioning is to select the newly deployed pipeline version in the send port or receive location. This will replace the old pipeline with the new one. However, if you need true side-by-side functionality for backwards-compatibility, then you must create new send ports and receive locations and bind them to the new pipeline version specified.  

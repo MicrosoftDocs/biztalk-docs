@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Cleaning the Destination Environment
 If the restore job encounters error conditions that cannot be resolved, clean the destination environment so that it can start from an empty environment. Running the stored procedure **sp_LogShippingClean** located in the master database on the destination [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance will “clean” the destination environment. This procedure drops all databases and deletes the last restored data set for the specified source.  

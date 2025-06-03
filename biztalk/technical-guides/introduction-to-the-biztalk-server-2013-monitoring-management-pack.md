@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Introduction to the BizTalk Server 2013 Monitoring Management Pack
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack provides both proactive and reactive monitoring of BizTalk Server deployment, applications and its constituent artifacts. The monitoring provided by this management pack includes health monitoring, availability and configuration monitoring, performance data collection, and default thresholds. You can integrate the monitoring of BizTalk Server components into your service-oriented monitoring scenarios. This management pack is provided as a Web download.

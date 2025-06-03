@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Updating an Assembly
 The following checklist describes the process of updating one or more artifacts in an application that has already been deployed, and then redeploying the application.

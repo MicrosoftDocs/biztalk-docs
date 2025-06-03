@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Export Bindings to a Binding File
 You can export the bindings of a BizTalk application into another existing BizTalk application using a binding file. You can also export all the bindings in a group or the binding for an assembly. Subsequently, you can import those bindings into either an application or group.

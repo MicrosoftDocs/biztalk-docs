@@ -6,7 +6,7 @@ ms.service: biztalk-server
 ms.date: 02/11/2025
 ms.reviewer: "niklase"
 ms.suite: ""
-ms.topic: article
+ms.topic: whats-new
 ---
 
 # What's New in BizTalk Server 2020

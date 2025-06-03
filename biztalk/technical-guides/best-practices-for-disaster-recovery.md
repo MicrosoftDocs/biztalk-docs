@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: best-practice
 ---
 # Best Practices for Disaster Recovery
 For information about best practices for disaster recovery for BizTalk Server, see [Best Practices for Backup and Restore](../core/best-practices-for-backup-and-restore.md).

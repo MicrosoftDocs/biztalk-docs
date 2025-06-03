@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Automating the Build Process
 An automated build process compiles, deploys and then runs build verification tests (BVTs) against the latest source code for a project at regular, predetermined intervals. Then a “build report,” which details the success or failure of the build process, is disseminated to the project stakeholders. The build report is analyzed to determine what areas of the project need attention and if the project should be rolled back to an earlier version/build.

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Resolve Incomplete BAM Activity Instances
 For information about resolving incomplete BAM activity instances, see [How to Resolve Incomplete Activity Instances](../core/how-to-resolve-incomplete-activity-instances.md) (https://go.microsoft.com/fwlink/?LinkId=151475).

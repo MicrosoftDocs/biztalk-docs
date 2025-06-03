@@ -6,7 +6,7 @@ ms.date: "11/01/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring BizTalk Server Log Shipping for Additional Databases
 

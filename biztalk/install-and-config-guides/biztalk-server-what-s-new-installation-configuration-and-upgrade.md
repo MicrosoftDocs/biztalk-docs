@@ -6,7 +6,7 @@ ms.service: biztalk-server
 ms.date: "01/10/2020"
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: whats-new
 ---
 # BizTalk Server What's New, Install, Configuration, and Upgrade
 Read about what's new, and how to install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. 

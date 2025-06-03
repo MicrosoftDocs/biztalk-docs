@@ -6,7 +6,7 @@ ms.service: biztalk-server
 ms.date: "08/10/2017"
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: whats-new
 ---
 # BizTalk Server 2013 and 2013 R2: What's New, Install, and Upgrade
 
