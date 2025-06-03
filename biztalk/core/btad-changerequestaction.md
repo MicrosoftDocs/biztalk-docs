@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # BTAD_ChangeRequestAction
 BTAD_ChangeRequestAction contains a value indicating a change request action.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4A: Start the SWIFTNet Service for the InterAct Store and Forward Scenario
 Before you begin this step, you must complete [Step 3D: Add an INTERACT Send Port for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3d-add-an-interact-send-port-for-the-interact-store-and-forward-scenario.md).  

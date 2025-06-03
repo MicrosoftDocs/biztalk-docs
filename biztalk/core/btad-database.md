@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # BTAD_Database
 When pre- and post-processing scripts run on application import, the BTAD_Database environment variable is set. It specifies the name of the BizTalk Management database for the group.  

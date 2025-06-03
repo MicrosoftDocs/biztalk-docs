@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Analyzing MQSeries Adapter Errors with the Trace Tools
 You use the trace tools to analyze messaging failures when you run your application. With the MQSeries adapter you must use two tools, one for the adapter and your BizTalk application (trace.cmd), and the other for the MQSAgent (MQSTrace.cmd). Both tools use tracelog.exe. You have to install tracelog.exe if you do not already have it.

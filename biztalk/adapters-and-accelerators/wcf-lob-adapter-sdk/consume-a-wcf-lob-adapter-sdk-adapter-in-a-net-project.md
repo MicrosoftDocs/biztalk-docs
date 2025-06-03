@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Consume a WCF LOB Adapter SDK adapter in a .NET project
 To consume an adapter built using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], you must add a service reference to the project. You can do this by:  

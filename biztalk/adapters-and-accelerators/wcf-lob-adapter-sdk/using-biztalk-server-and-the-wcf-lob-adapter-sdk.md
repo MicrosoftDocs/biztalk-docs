@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using BizTalk Server and the WCF LOB Adapter SDK
 This section contains information about the relationship of [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. Information contained in this section includes comparisons of the two different frameworks provided by each and tips for migrating the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] custom adapter.  

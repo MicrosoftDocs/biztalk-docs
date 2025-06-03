@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Use a service behavior to enter credentials with the WCF LOB Adapter SDK
 Many times, adapter consumers will be required to pass credentials to the target line of business system. To provide this functionality, you will need to provide a WCF service behavior.  

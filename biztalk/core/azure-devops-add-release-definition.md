@@ -6,7 +6,7 @@ ms.date: "9/20/2022"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Step 4: Create release definition

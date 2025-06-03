@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Backing Up and Restoring BizTalk Server
 In the event of hardware failure, having a good backup of your BizTalk Server databases and components is essential. A good backup will enable you to recover with little or no data loss. How you restore BizTalk Server depends on which components were installed on the system where hardware failure occurred. This guide covers the following hardware failure scenarios:  

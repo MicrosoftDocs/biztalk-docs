@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Accessing SOAP Headers in Orchestrations
 You can access the SOAP header context properties in orchestrations for defined and unknown SOAP headers. For more information about property schemas and context properties, see [Property Schemas](../core/property-schemas.md).  

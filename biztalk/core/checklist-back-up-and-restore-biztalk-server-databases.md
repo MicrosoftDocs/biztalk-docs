@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Back Up and Restore BizTalk Server Databases
 Before attempting to back up or restore BizTalk Server, be sure to familiarize yourself with the processes involved.  

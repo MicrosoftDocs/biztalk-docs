@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Changing BAM Runtime Settings
 In general, you configure the BAM Runtime components when you install Microsoft® BizTalk Server. You may want to change the BAM Runtime settings, for example to scale up your system or if you have password expiration policy.  

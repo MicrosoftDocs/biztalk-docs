@@ -2,7 +2,7 @@
 title: "Audit management operations"
 description: Learn how to audit BizTalk Server management operations. See how to turn on auditing and review audit logs. Understand audit log structure and information.
 ms.date: 07/20/2022
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: biztalk-server
 # optional metadata
 #ROBOTS:

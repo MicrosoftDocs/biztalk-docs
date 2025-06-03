@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshoot adapter created using the WCF LOB Adapter SDK
 This section describes troubleshooting information for the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. It includes problems and resolutions for performance counters and for tracing.  

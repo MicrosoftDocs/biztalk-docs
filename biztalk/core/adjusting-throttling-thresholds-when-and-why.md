@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Adjusting Throttling Thresholds: When and Why
 When it comes to throttling, one size does not fit all. There are a range of factors that will determine what the optimal settings should be. Out of the box, BizTalk Server provides default values that have been proven through testing to effectively protect a system from things like backlog overages. However, for some scenarios, this may be too aggressive. The following examples illustrate this point.  

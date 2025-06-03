@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # BTAD_HostClass
 BTAD_HostClass indicates whether the operation is being performed on the BizTalk Management database or the local computer.  
