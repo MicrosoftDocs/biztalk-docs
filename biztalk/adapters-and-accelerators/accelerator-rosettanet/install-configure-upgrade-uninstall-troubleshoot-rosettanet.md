@@ -5,7 +5,7 @@ ms.custom: ""
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ms.date: "08/09/2017"
 ---
 

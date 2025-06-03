@@ -6,7 +6,7 @@ ms.date: "08/09/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # About the RosettaNet accelerator
 Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] is a complete solution for the exchange of data between high-technology manufacturing computer applications based on the RosettaNet standards. Use this documentation set to become familiar with the services, capabilities, and features of [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  

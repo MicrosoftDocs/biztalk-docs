@@ -3,7 +3,7 @@ description: "Learn how to use the utilities included in the Microsoft BizTalk A
 title: "Utilities2"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Utilities Overview
 

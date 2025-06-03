@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Message Inspector Pipeline Component
 This pipeline component lets you examine all the parts of a multi-part message, and the message context, to determine whether there is a problem with the message. You use this component for troubleshooting purposes.  

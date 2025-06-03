@@ -3,7 +3,7 @@ description: "Learn more about: Step 12: Configure Orchestration Shapes"
 title: "Step 12: Configure Orchestration Shapes"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 12: Configure Orchestration Shapes
 In this step, you complete the configuration of the orchestration shapes in order to remove the insufficient configuration smart tags. You designate **DoorbellOutputMessage** as the output of the first transform process, designating **DoorbellMap.btm** as the map used in that process. You then designate **DoorbellFinalMessage** as the output of the second transform process, and add the expression that enriches the message with additional field data.

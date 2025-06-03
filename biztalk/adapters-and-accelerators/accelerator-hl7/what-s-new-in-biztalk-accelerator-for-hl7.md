@@ -3,7 +3,7 @@ title: "New in BizTalk Accelerator for HL7"
 description: Changes and updates with different versions of HL7 accelerator in BizTalk Server
 ms.date: "11/22/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: whats-new
 ---
 # What's new in BizTalk Accelerator for HL7
 Changes and updates with the [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)]. 

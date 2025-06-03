@@ -3,7 +3,7 @@ description: "Learn more about: Message Encodings"
 title: "Message Encodings"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Message Encodings
 It is not sufficient to define message semantics in order for HL7 to be useful. Once message content has been determined, the standard has to explain how to represent that content in an actual interface. That is to say, there must be a specified "message encoding". HL7 Version 2 supports two forms of message encoding, a custom delimiter-based encoding, and an XML encoding.  

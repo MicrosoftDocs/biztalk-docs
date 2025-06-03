@@ -3,7 +3,7 @@ description: "Learn more about: Step 8A: Configure Party Information for the ADT
 title: "Step 8A: Configure Party Information for the ADT System_hl7_main"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 8A: Configure Party Information for the ADT System_hl7_main
 In this step, you configure the party information for the ADT System.  

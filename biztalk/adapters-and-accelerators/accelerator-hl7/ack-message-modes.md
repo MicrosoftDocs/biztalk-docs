@@ -2,7 +2,7 @@
 title: ACK message modes
 description: Learn more about ACK message modes for BizTalk Server.
 ms.service: biztalk-server
-ms.topic: conceptual
+ms.topic: article
 ms.date: 06/08/2017
 ---
 

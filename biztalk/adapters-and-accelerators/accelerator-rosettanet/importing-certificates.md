@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Importing Certificates
 This section describes how to import certificates, including where to import them from, where to store them, and what tools to use to import them.  

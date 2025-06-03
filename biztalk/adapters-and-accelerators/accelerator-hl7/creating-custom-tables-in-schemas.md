@@ -3,7 +3,7 @@ description: "Learn more about: Creating Custom Tables in Schemas"
 title: "Creating Custom Tables in Schemas"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Creating Custom Tables in Schemas
 You can create a custom table in the tablevalues_\<*version*\>.xsd common schema. You can base a custom table on an existing data type, a base data type, or on an enumeration defined in a table.  

@@ -3,7 +3,7 @@ description: "Learn more about: Step 3: Create and Deploy a Trigger Event (Messa
 title: "Step 3: Create and Deploy a Trigger Event (Message) Project_hl7_main"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 3: Create and Deploy a Trigger Event (Message) Project_hl7_main
 In this step, you create the schema used by a trigger event message. For example, the Admissions Discharge and Transfer system (ADT) that sends a message to the Hospital Information System (HIS). You use this schema to define the format of your message.  

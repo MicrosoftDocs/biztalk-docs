@@ -3,7 +3,7 @@ description: "Learn more about: Troubleshooting Other Issues"
 title: "Troubleshooting Other Issues"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting Other Issues
 Addresses other issues related to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  

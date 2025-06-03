@@ -3,7 +3,7 @@ title: "Glossary for HL7 accelerator in BizTalk Server"
 description: Common terms and definitions to know and learn to use the BizTalk Accelerator for HL7
 ms.date: "08/16/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: glossary
 ---
 # Glossary - Microsoft BizTalk Accelerator for HL7
 Microsoft BizTalk Accelerator for HL7 uses the following terms and definitions.

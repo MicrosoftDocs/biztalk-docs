@@ -3,7 +3,7 @@ description: "Learn more about: Processing MLLP-encoded Messages"
 title: "Processing MLLP-encoded Messages"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Processing MLLP-encoded Messages
 The following sections provide information about the Minimal Lower Layer Protocol (MLLP) receive adapter and the MLLP send adapter used for HL7 V2.X message processing.  

@@ -3,7 +3,7 @@ description: "Learn more about: Validation Known Issues"
 title: "Validation Known Issues"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: troubleshooting-known-issue
 ---
 # Validation Known Issues
 This section contains useful information that may help you avoid validation errors.  

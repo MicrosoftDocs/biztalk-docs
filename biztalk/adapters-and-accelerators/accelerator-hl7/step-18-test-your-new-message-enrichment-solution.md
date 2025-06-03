@@ -3,7 +3,7 @@ description: "Learn more about: Step 18: Test Your New Message Enrichment Soluti
 title: "Step 18: Test Your New Message Enrichment Solution"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 18: Test Your New Message Enrichment Solution
 In this step, you test your solution by using the WSClient application to send a message to [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and seeing if the MLLPReceive application receives an HL7-formatted message as expected.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Defining a Business Rule for a Private Process Orchestration
 You can define a business rule for use in an acknowledgement private process. This lets you to modify the business rule dynamically without stopping the private-process orchestration. This process uses the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Business Rule Engine. This process involves the following steps:  

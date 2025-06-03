@@ -6,7 +6,7 @@ ms.date: "08/09/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 f1_keywords:
   - "btarn.configuration.introduction"
 ---

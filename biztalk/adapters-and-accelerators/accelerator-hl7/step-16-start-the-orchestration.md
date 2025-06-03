@@ -3,7 +3,7 @@ description: "Learn more about: Step 16: Start the Orchestration"
 title: "Step 16: Start the Orchestration"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 16: Start the Orchestration
 In this step, you enlist the service in order to associate the business process that you designed in the orchestration with the physical environment in which the orchestration will run. Additionally, you start the processing of the orchestration so that you can test your application.  

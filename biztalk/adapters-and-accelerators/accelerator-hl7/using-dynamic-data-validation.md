@@ -3,7 +3,7 @@ description: "Learn more about: Using Dynamic Data Validation"
 title: "Using Dynamic Data Validation"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Using Dynamic Data Validation
 An important part of dynamic data validation is validating message content against dynamic data, which includes validating the message format and the message content. A document schema, which MicrosoftBizTalk Server implements in an XSD file, defines and validates message formats. Business rules define message content, which [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] validates through Business Rule Engine policies. Content validation can include confirmation that data in the message instance matches data that may change with relative frequency. Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] implements this type of validation in a dynamic manner, so that you can update this data in a production environment, without having to recompile code or shut down services.  

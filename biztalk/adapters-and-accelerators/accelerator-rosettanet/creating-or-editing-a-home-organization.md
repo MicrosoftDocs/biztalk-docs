@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating or Editing a Home Organization
 This topic describes how to create or edit a home organization. The home organization configuration describes and classifies the organization, sets the non-repudiation of origin period, and provides contact information.  

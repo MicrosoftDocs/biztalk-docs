@@ -3,7 +3,7 @@ description: "Learn how to create an ADT^A03.txt file as a prerequisite to using
 title: "Preparing to Use the Tutorial2"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: tutorial
 ---
 # Prepare to Use the Tutorial
 

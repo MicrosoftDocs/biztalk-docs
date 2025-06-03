@@ -3,7 +3,7 @@ description: "Learn more about: Step 1: Configure Party Information for Batch In
 title: "Step 1: Configure Party Information for Batch In-Batch Out"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 1: Configure Party Information for Batch In/Batch Out
 In this step, you turn off fragmentation of batching for the party, enabling the Batch In/Batch Out scenario. You then restart [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to enable the configuration change to take effect.  

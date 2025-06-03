@@ -3,7 +3,7 @@ description: "Learn more about: Processing HL7 Messages"
 title: "Processing HL7 Messages"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Processing HL7 Messages
 This section provides specifics about HL7 messages, including message modes, scenarios, message types, and message formatting.  

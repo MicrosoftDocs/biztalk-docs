@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Message Editor Pipeline Component
 This component lets you edit automatically any part of a multipart message within a send or receive pipeline. You add this component to an existing pipeline to set up the replacement as part of typical processing.  
