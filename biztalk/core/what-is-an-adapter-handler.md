@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is an Adapter Handler?
 An adapter handler is an instance of a BizTalk host in which the adapter code runs. When you specify a send or receive handler for an adapter you are specifying which host instance the adapter code will run in the context of. An adapter handler is responsible for executing the adapter and contains properties for a specific instance of an adapter. A default BizTalk Server configuration will create adapter handlers for all of the installed adapters, but you may want to create additional adapter handlers for purposes of load balancing or to provide process isolation for a particular adapter handler.  

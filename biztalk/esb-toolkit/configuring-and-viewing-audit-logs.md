@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring and Viewing Audit Logs
 The ESB Management Portal maintains an audit log of actions that help you to monitor usage and track problems. Administrators can specify which events the portal will write to the audit log.  

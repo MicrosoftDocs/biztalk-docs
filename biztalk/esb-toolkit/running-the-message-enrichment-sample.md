@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Running the Message Enrichment Sample
 The Message Enrichment sample uses a Windows Forms test client application provided with the Itinerary On-Ramp sample.  

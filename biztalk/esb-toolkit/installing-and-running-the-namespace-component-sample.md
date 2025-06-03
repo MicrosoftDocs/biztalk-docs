@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing and Running the Namespace Component Sample
 The Namespace Component sample demonstrates typical usage scenarios for the ESB Namespace component. It shows how you can use the component to inject and remove namespaces in a document as part of the send and the receive process.  

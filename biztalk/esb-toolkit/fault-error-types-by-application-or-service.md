@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Fault Error Types by Application or Service
 This option displays an aggregate view of all faults by specified error type generated for a specified set of applications over a specified time. You can select the specific error type and application to display a report that lists the matching error type faults for that application. You can also export the list of faults as a Microsoft Excel spreadsheet.  

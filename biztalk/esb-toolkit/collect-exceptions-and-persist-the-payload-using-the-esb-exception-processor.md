@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Collecting Exceptions and Persisting the Payload Using the ESB Exception Processor
 In this use case, either the exception handler for an orchestration publishes an ESB fault message to the BizTalk Server Message Box or the BizTalk Failed Message Routing mechanism generates a fault message. A send port, preconfigured with the ESB Exception Encoder pipeline component, subscribes to both of the fault message types. It processes the fault messages and then persists them as disk files that you can view using InfoPath, as illustrated in Figure 1.  

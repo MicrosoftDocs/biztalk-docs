@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Defining Custom Orchestration Service Execution Using Itineraries
 In this use case, a message submitted for processing contains an itinerary SOAP header that describes the list of services to execute and their resolution requirements. The itinerary specifies one or more custom orchestrations or processes through which the message will pass during the processing cycle. Custom orchestrations have full control of the itinerary and other custom properties exposed in the message context. Optionally, the itinerary can contain dynamic resolution information that determines transformation requirements and endpoints for the message. Figure 1 illustrates a schematic view of the process.  

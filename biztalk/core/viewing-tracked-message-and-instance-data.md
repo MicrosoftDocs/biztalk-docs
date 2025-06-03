@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Viewing Tracked Message and Instance Data
 You can use historical and tracked data to help troubleshoot your BizTalk Server applications. For example, system administrators can use historical and tracked data to:  

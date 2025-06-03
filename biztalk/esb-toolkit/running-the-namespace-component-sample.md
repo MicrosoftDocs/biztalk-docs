@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Running the Namespace Component Sample
 The Namespace Component sample application contains four receive location/send port pairs. Each pair represents a test. The following are the four tests:  

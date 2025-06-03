@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is an Activity View?
 An activity view contains the imported BAM activity definition that you create with the BAM Add-In for Excel. The BAM activity definition is an abstract of your trace requirements for your business process. An activity can span multiple orchestrations and ports. You import the activity definition once and map it to each orchestration or messaging artifact that fulfills some part of the definition.  

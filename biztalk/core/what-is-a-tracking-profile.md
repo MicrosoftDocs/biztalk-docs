@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is a Tracking Profile?
 A profile is a set of characteristics that define a business process. A tracking profile contains the mapping of these characteristics from an activity to orchestrations and ports. A tracking profile is a file with a .btt file name extension.  

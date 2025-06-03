@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing the Exception Management Samples
 This section describes the process for installing the ESB Exception Management samples into the Microsoft BizTalk Server GlobalBank.ESB application. You can install the ESB Exception Management samples using the install scripts included with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. This section contains the following topics:  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # X12 TA1 Acknowledgment Error Codes
 This topic lists the error codes used within the segments of an X12 TA1 acknowledgment. For more information about these segments, see [X12 TA1 Acknowledgment](../core/x12-ta1-acknowledgment.md).  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Running the Transformation Service Sample
 You can execute the Transformation Service sample using any tool or utility that can execute Web service methods. Or, you can create your own test client that invokes the Transformation Web service.

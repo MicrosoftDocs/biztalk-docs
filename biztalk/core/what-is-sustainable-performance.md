@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Is Sustainable Performance?
 When planning for and estimating system sustainability, it is critical to think in terms of sustainability over the long term. The primary considerations are:  

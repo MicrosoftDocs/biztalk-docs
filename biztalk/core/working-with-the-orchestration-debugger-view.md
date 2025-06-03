@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with the Orchestration Debugger View
 You can access the Orchestration Debugger view by right-clicking a cell in a Results list and selecting Orchestration Debugger.  

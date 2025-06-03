@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with Grid Pages
 Creating maps for many business documents can involve numerous links and functoids, often enough to make the grid complex and difficult to understand. The solution to this potential complexity is the introduction of pages to the grid. You can isolate different aspects of your mapping into different pages, and then view and work with those pages separately.  

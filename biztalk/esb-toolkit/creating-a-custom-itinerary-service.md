@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating a Custom Itinerary Service
 You can modify and/or extend the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] itinerary services and components to suit your specific requirements. There are two ways in which you can create a custom itinerary service:  
