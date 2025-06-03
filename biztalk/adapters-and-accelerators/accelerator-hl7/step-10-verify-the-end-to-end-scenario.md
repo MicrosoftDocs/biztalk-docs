@@ -3,7 +3,7 @@ description: "Learn more about: Step 10: Verify the End-to-End Scenario"
 title: "Step 10: Verify the End-to-End Scenario"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 10: Verify the End-to-End Scenario
 In this step, you verify the end-to-end scenario for this tutorial.  

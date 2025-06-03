@@ -3,7 +3,7 @@ description: "Learn more about: Interrogative Tutorial"
 title: "Interrogative Tutorial"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: tutorial
 ---
 # Interrogative Tutorial
 This tutorial contains detailed steps that describe how you use Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to facilitate business processes in a Query/Response scenario.  

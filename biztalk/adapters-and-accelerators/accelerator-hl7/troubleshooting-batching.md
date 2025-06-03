@@ -3,7 +3,7 @@ description: "Learn more about: Troubleshooting Batching"
 title: "Troubleshooting Batching"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting Batching
 Addresses issues related to [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] batching.  

@@ -6,7 +6,7 @@ ms.date: "08/09/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Customizing Send and Receive Components
 The topics in this section describe how to create, customize, or set the properties of Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] send and receive components. These components include ASPX pages, send and receive ports, and adapters.  

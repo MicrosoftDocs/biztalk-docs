@@ -3,7 +3,7 @@ description: "Learn more about: Step 14: Publish the Orchestration as a Web Serv
 title: "Step 14: Publish the Orchestration as a Web Service"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 14: Publish the Orchestration as a Web Service
 In this step, you use the BizTalk Web Services Publishing Wizard to publish your orchestration as a Web service.  

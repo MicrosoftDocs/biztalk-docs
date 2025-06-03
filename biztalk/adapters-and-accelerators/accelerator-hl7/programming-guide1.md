@@ -3,7 +3,7 @@ description: "View the Microsoft BizTalk Accelerator for HL7 (BTAHL7) Programmin
 title: "Programming Guide1"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # BizTalk Accelerator for HL7 (BTAHL7) Programming Guide
 

@@ -3,7 +3,7 @@ description: "Learn more about: Step 3: Assign a Strong Name to the Assembly"
 title: "Step 3: Assign a Strong Name to the Assembly"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 3: Assign a Strong Name to the Assembly
 In this step, you create and assign a strong name for the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] assembly. A strong-named assembly provides several security benefits and is required in order to deploy your project in the global assembly cache (GAC). A strong name guarantees the uniqueness of the assembly by assigning a digital signature and a unique key pair. This also protects the lineage of the assembly by ensuring that no one can generate a subsequent version of the assembly. Lastly, a strong name provides a strong integrity check to guarantee that the contents of the assembly have not changed since you built it.  

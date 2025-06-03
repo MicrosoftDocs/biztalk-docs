@@ -3,7 +3,7 @@ description: "Learn more about: Handling Undeclared Z Segments"
 title: "Handling Undeclared Z Segments"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Handling Undeclared Z Segments
 There are two types of Z segments: declared Z segments and undeclared Z segments. While they are similar in that you use them for local purposes, they are very different in how you use them.  

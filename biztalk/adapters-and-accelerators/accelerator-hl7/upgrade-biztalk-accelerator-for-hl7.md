@@ -3,7 +3,7 @@ description: "Learn more about: Upgrade BizTalk Accelerator for HL7"
 title: "Upgrade BizTalk Accelerator for HL7"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ---
 # Upgrade BizTalk Accelerator for HL7
 Overview of the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] upgrade process. 

@@ -3,7 +3,7 @@ description: "Learn more about: Batching Known Issues"
 title: "Batching Known Issues"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: troubleshooting-known-issue
 ---
 # Batching Known Issues
 This section contains useful information that may help you avoid batching errors.  

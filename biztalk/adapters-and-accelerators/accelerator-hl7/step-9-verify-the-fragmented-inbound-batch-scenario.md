@@ -3,7 +3,7 @@ description: "Learn more about: Step 9: Verify the Fragmented Inbound Batch Scen
 title: "Step 9: Verify the Fragmented Inbound Batch Scenario"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 9: Verify the Fragmented Inbound Batch Scenario
 In this step, you verify the Fragmented Inbound Batch scenario.  

@@ -3,7 +3,7 @@ description: "Learn more about: Miscellaneous Known Issues"
 title: "Miscellaneous Known Issues2"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: troubleshooting-known-issue
 ---
 # Miscellaneous Known Issues
 This section contains useful information about miscellaneous errors.  

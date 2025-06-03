@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating the Contoso LOB Schemas and Maps
 In this section, you create the line-of-business (LOB) schemas that the Contoso organization uses in their ERP system. You use the Microsoft® BizTalk Server Mapper tool to create data transformations between the internal Contoso messages and the inbound and outbound RosettaNet message types.  

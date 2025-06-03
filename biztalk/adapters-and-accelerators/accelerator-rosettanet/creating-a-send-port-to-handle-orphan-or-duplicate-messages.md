@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating a Send Port to Handle Orphan or Duplicate Messages
 This topic describes how to set up a send port that you can use to delete orphan or duplicate messages.  

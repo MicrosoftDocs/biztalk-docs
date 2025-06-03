@@ -3,7 +3,7 @@ description: "Learn more about: Step 2: Create Common Schemas for V2.4"
 title: "Step 2: Create Common Schemas for V2.4"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 2: Create Common Schemas for V2.4
 The V2.4 schemas are commonly referenced schemas, which you use to validate the query and response message instances.  

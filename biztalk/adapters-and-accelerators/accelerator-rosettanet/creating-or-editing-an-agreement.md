@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating or Editing an Agreement
 This topic describes how to create or edit a trading partner agreement. A trading partner agreement configures the relationship between two trading partners, including their identities; the Partner Interface Process (PIP); the action, signal, and sync URLs; and the associated protocols.  

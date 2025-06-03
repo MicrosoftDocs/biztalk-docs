@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Generating and Enabling Certificates
 This tutorial uses certificates to sign and encrypt messages sent by the Contoso and Fabrikam organizations. If you have already completed the Double Action Tutorial, you may skip this step and move on to [Creating the Contoso Solution](../../adapters-and-accelerators/accelerator-rosettanet/creating-the-contoso-solution.md). To generate and use certificates for this tutorial, follow the procedures in the following topics:  

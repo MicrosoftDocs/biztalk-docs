@@ -3,7 +3,7 @@ description: "Learn more about: Step 10: Create an Orchestration"
 title: "Step 10: Create an Orchestration"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 10: Create an Orchestration
 In this step, you use Orchestration Designer to create an orchestration to represent the business process for retrieving additional patient details to fully populate an ADT_A04 message. Using Orchestration Designer, you select the orchestration shapes required to represent actions for this business process. In later exercises, you provide additional information to configure the shapes so that they can function properly.  

@@ -3,7 +3,7 @@ title: "Installation known issues"
 description: See the known issues when installing the HL7 accelerator in BizTalk Server.
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: troubleshooting-known-issue
 ---
 # Installation known issues
 Useful information that may help you avoid installation problems.  

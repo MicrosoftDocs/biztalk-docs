@@ -3,7 +3,7 @@ description: "Learn more about: Create the QRY^Q01.txt File"
 title: "Create the QRY^Q01.txt File"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Create the QRY^Q01.txt File
 Use the following procedure to create the patient query QRY^Q01.txt message file. You will use this file later to verify the tutorial scenario.  

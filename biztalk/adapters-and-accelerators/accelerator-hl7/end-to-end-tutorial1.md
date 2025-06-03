@@ -3,7 +3,7 @@ description: "End-to-End Tutorial to use and configure the BizTalk Accelerator f
 title: "BizTalk Accelerator for HL7 tutorial"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: tutorial
 f1_keywords: 
   - "btahl7.endtoendtutorial"
 ---

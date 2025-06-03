@@ -3,7 +3,7 @@ description: "Learn more about: Step 3: Add a Trigger Event (Message) Schema"
 title: "Step 3: Add a Trigger Event (Message) Schema"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Step 3: Add a Trigger Event (Message) Schema
 In this step, you create a new project based on the Empty [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Project template. To this project, you add the schema that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] will use to validate the messages in the incoming batch (ADT^A03). You add a reference to the project containing the v2.3.1 common schemas, assign the strong name to the project, and then deploy the project.  
