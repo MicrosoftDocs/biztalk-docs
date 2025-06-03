@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Read Pipeline Component Properties
 The Properties window contains two sections for components: general properties and component properties. General properties are common to all components, though their values change between components.  

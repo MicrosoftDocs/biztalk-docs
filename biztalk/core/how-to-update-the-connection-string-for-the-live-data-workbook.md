@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Update the Connection String for the Live Data Workbook
 When you move the BAM Primary Import database to another server, the connection string in a BAM live data workbook must be updated to point to the new server. You use the BAM Add-in for Excel to make this update.  

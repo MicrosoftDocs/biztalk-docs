@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Terminate Suspended Orchestration Instances
 You can terminate any suspended orchestration instances or ports from the Query results or preview pane in the BizTalk Server Administration Console.  

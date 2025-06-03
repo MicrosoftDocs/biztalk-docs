@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Optimize the Schema Tree View
 You can use the **Relevance View** in BizTalk Mapper to optimize the source and/or target schema trees. This topic provides instructions about how to perform the operation.  

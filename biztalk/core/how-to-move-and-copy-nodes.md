@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Move and Copy Nodes
 You will probably encounter situations where you want to move an existing node to a different location in the schema tree. You might also be able to save time by making a copy of an existing node and then pasting it into a different location in the schema tree. This topic provides step-by-step instructions for performing these tasks.  

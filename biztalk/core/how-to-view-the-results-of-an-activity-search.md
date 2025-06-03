@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to View the Results of an Activity Search
 Users can view the results of a query by clicking the **Execute Query** button in the upper section of the content frame of the BAM portal. The results of the query are displayed in the **Results** section at the bottom of the frame.  

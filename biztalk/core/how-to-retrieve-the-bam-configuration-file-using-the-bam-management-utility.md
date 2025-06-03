@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Retrieve the BAM Configuration File Using the BAM Management Utility
 Administrators and developers can use the BAM Management utility to retrieve the current configuration of the BAM infrastructure. The retrieved configuration can be used to migrate a BAM installation to a new server or it can be modified and used to update an existing BAM installation.  

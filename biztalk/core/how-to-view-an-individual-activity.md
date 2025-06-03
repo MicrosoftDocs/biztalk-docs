@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to View an Individual Activity
 You view activities in the Business Activity Search Results page of the BAM Web portal. For the steps to search for activities, see [How to Search for Activities](../core/how-to-search-for-activities.md).  

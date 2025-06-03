@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Resolve Map Warnings and Errors
 When you compile a map, you may find that warnings and errors result from the compilation process.  

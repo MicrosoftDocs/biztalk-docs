@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Update References to the BAM Archive Database Name
 If you backed up your BAMArchive databases, in the event of a system or data failure you can restore that backup and rename it.  

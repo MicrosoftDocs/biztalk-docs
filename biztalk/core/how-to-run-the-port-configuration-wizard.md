@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Run the Port Configuration Wizard
 You use the Port Configuration Wizard to create and configure a port in Orchestration Designer. A port must have a port type associated with it, and you use the wizard to select an existing port type or to create a new port type. For more information about ports and port types, see [Using Ports in Orchestrations](../core/using-ports-in-orchestrations.md).  

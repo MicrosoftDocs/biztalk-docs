@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Throw SOAP Exceptions from Orchestrations Published as a Web Service
 You can return a SOAP exception from an orchestration that you have published as a Web service. You add a fault message to your SOAP port and send the fault message instead of the response.  

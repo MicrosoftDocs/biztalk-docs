@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Rename View Items
 Often the data you collect for a business activity contains sensitive information, for example credit card numbers or social security numbers. This means that some types of business users should see only a filtered subset of the data.  

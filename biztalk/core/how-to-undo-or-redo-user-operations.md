@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Undo or Redo User Operations
 The support for undo/redo is yet another usability aid provided by the BizTalk Mapper. If you are not satisfied with modifications you have made, or if you have made a change by mistake, you can use undo to gradually come back to an earlier "untouched" state, and resume from there. Redo allows you to reapply the editing actions that have been undone. This topic provides information about the operations that you can undo/redo.  

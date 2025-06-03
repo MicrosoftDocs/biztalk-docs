@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Save a Query
 You can save a query for later reuse. By default, saved queries are stored in the **My Documents** folder of the user who created and saved them.  

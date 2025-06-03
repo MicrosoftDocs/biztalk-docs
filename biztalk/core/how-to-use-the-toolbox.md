@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use the Toolbox
 You create a pipeline by dragging components (shapes) from the Toolbox to the design surface. Pipeline Designer helps you assemble valid pipelines by placing certain restrictions on the creation process. You can only select Toolbox components that apply to the pipeline type you are creating. For example, a receive pipeline will show decoders, disassemblers, and validators as valid Toolbox components, while encoders and assemblers will be disabled (dimmed).  

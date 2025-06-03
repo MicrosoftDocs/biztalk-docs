@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Remove a Map from an Application
 This topic describes how to use the BizTalk Server Administration console to remove a map from a BizTalk application. You might want to remove a map after deploying a new version of the map. For more information and important considerations for updating application artifacts, see [Updating BizTalk Applications](../core/updating-biztalk-applications.md).  

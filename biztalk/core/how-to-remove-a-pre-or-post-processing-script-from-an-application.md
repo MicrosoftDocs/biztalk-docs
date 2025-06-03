@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Remove a Pre- or Post-processing Script from an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to remove a pre- or post-processing script from an application. This removes the script from the BizTalk Management database, so that it will not be exported in the application .msi file. This does not remove the script from the local file system, if it exists there.  

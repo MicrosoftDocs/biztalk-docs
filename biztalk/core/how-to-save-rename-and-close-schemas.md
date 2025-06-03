@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Save, Rename, and Close Schemas
 In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], schemas are XML Schema definition (XSD) language files and reside on the file system with .xsd extensions. When you use BizTalk Editor to develop schemas, you will routinely need to save and close schema files, and occasionally you may need to rename them. This topic describes the steps required to perform these basic operations.  

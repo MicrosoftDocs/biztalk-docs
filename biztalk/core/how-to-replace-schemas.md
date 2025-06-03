@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Replace Schemas
 There may be times when you want to replace either the source or destination schema in an existing map, such as when you receive an updated schema from a trading partner.  

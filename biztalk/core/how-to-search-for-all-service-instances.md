@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Search for All Service Instances
 You can use the **Query** tab in the BizTalk Server Administration Console to search for all service instances. You cannot unenlist a specific service type if there are any running or suspended instances. For example, before you can unenlist a specific service type, you can search for all service instances to ensure that there are no running or suspended instances.  

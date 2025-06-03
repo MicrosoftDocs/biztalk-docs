@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use the Role Link Shape
 A **Role Link** shape contains placeholders for an implements role or provider role and a uses role or consumer role. It can include one of either, or one of each.  

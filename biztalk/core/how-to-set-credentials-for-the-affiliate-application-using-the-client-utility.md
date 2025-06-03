@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set Credentials for the Affiliate Application Using the Client Utility
 Use this command to set the credentials for a user so that the user is able to access a specific application. This command also automatically enables the mapping.  

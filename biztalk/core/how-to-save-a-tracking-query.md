@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Save a Tracking Query
 You can save a message or service instances query using the Query Builder interface from within the BizTalk Server Administration console.  

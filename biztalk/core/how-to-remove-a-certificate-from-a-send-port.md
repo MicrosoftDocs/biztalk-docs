@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Remove a Certificate from a Send Port
 This topic describes how to use the BizTalk Server Administration console to remove a security certificate from a send port. When you do this, the send port will no longer encrypt messages; messages will be sent in clear text. Removing a certificate from a send port does not remove it from the certificate store.  

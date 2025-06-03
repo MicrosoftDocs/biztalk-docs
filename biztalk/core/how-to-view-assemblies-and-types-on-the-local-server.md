@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to View Assemblies and Types on the Local Server
 You can use the BizTalk Assembly Viewer to examine all BizTalk assemblies and types installed on the local server.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set the Source Links Compiler Value
 You can use the **Source Links** property of a link to specify how a value is retrieved from the source node and applied to the destination node. This topic explains the available choices and how to choose among them.  
