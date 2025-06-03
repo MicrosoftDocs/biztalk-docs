@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 ---
 # Getting Started
 This section describes the actions you should take before you import the management pack, any steps you should take after you import the management pack, and information about customizations.  

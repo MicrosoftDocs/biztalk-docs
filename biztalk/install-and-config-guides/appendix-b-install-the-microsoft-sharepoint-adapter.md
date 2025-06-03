@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Appendix B: Install the Microsoft SharePoint Adapter
 BizTalk Server includes a SharePoint adapter that can receive messages or send messages to SharePoint.

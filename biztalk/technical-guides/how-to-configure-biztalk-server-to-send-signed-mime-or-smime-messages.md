@@ -6,7 +6,7 @@ ms.date: "06/29/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure BizTalk Server to Send Signed MIME or SMIME Messages
 This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to use certificates to send signed MIME/SMIME messages. The procedure below also applies to configuring the sending of signed messages over AS2 transport.  

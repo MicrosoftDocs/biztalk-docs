@@ -6,7 +6,7 @@ ms.date: "06/11/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 
 # Checklist: Maintaining and Troubleshooting BizTalk Server Databases

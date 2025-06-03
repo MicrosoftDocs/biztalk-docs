@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Viewing History Information
 The ESB Management Portal maintains a history of all requests for Universal Description, Discovery, and Integration (UDDI) registration. Administrators can view this list within the portal.  

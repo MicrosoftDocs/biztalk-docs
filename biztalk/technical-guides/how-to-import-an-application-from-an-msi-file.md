@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Import an Application from an .msi File
 You can use the Import MSI Wizard in the BizTalk Server Administration Console or BTSTask to import a BizTalk application from an .msi file into a BizTalk group in the target environment and install the application on individual host instances in the group. The full import process performs the following operations:

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring a Dedicated Tracking Host
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is optimized for throughput, so the main orchestration and messaging engines do not actually move events or messages directly to the BizTalk Tracking (DTA) or Business Activity Monitoring (BAM) databases, since this would divert these engines from their primary job of executing business processes. Instead, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] leaves the events and messages in the MessageBox database and marks them as requiring a move to the BizTalk Tracking or BAM databases. A background process (the tracking host) then moves the events to the BizTalk Tracking and BAM databases, while a SQL Server Agent job copies tracked messages to the BizTalk Tracking database.

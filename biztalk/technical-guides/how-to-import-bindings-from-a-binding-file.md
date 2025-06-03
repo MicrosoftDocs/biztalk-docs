@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Import Bindings from a Binding File
 You can import the bindings of a BizTalk application into another existing BizTalk application by using a binding file. You can also import all the bindings for a group into a group or the bindings of an assembly into an application.

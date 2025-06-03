@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Adjust the Configuration Cache Refresh Interval
 The configuration cache refresh interval defines the time period in which BizTalk Server updates the configuration of the endpoints. When you start BizTalk Server, all items in BizTalk Server administration, such as MessageBox databases, server properties, adapters, and connections to the Tracking database, are stored in the configuration cache. All items in the cache are refreshed by the configuration refresh interval. By default this is every 60 seconds, except for the server database connections and server properties. This means that if you change the general properties for a BizTalk group, such as the SMTP host, the changes are picked up within 60 seconds. System changes made outside the currently open instance of the BizTalk Server Administration console are not reflected until you refresh it.  

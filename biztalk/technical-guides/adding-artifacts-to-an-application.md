@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Adding Artifacts to an Application
 You can add and configure artifacts, such as send and receive ports, receive locations, and orchestrations, by using the Administration console. You can also generate binding files and add them to the application if you want to apply different bindings for the different environments that you will import the application into.

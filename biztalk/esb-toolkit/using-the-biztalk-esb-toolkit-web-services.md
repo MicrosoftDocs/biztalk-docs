@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using the BizTalk ESB Toolkit Web Services
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] exposes all its core features as Web services; this enables entities outside of the ESB, perhaps running on non-Microsoft platforms, to participate in ESB exchanges and take advantage of the ESB capabilities. All the Web services are located in separate subfolders of the \Web folder of the ESB installation directory. The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes the following ESB Web services:  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Identify Bottlenecks in the BAM Primary Import Database
 To identify bottlenecks in the Business Activity Monitoring (BAM) database, perform the following steps:

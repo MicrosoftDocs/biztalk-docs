@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklists for Other Important Tasks
 This section contains checklists for other important tasks that you might need to perform on an ad-hoc basis. These include such tasks as deploying an application in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], exporting bindings for an application, and updating an application.  

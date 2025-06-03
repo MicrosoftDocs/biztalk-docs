@@ -6,7 +6,7 @@ ms.custom: biztalk-2020
 ms.date: 04/07/2020
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: article
+ms.topic: install-set-up-deploy
 ---
 
 # Set up and install prerequisites for BizTalk Server 2020

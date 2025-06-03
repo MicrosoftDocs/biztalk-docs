@@ -6,7 +6,7 @@ ms.date: 06/08/2017
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: article
+ms.topic: concept-article
 ---
 # Managing Certificates
 This section describes how to manage digital certificates used with BizTalk Server. Its topics describe how to install certificates (and which folder to install them into), and how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to use the certificate for MIME/SMIME and AS2, and for use with BizTalk adapters. Microsoft BizTalk Server can make use of public key infrastructure (PKI) digital certificates for purposes of document encryption and decryption, document signing and verification (non-repudiation), and party resolution.  

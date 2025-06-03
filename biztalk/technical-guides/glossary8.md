@@ -2,7 +2,7 @@
 title: Glossary
 description: Learn more about the terms used in BizTalk Server.
 ms.service: biztalk-server
-ms.topic: conceptual
+ms.topic: glossary
 ms.date: 06/08/2017
 ---
 

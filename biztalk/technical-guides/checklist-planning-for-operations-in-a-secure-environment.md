@@ -6,7 +6,7 @@ ms.date: "06/29/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Planning for Operations in a Secure Environment
 

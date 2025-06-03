@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing BizTalk Server
 This section provides guidance for managing a BizTalk Server system in a production environment. The procedures that follow generally assume you are working with a BizTalk application after deployment. These procedures describe best practices and concepts for routine operations including the following:  

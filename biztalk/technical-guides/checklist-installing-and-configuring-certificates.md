@@ -6,7 +6,7 @@ ms.date: "06/29/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Installing and Configuring Certificates
 This topic describes the steps involved in setting up certificates for use with BizTalk Server.  

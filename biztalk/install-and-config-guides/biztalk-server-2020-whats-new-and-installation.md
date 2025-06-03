@@ -6,7 +6,7 @@ ms.service: biztalk-server
 ms.date: "03/23/2020"
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: whats-new
 ---
 
 # BizTalk Server 2020: What's New, and Installation

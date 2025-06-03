@@ -6,7 +6,7 @@ ms.service: biztalk-server
 ms.date: "12/30/2022"
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: upgrade-and-migration-article
 ---
 
 # Upgrade to BizTalk Server 2020

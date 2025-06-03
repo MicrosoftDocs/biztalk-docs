@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Checklist: Testing Operational Readiness
 Testing for operational readiness is a vital procedure that is often overlooked or is performed only minimally. Thorough testing is a critical requirement of any enterprise-level application, and a solution developed using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is no exception. At a minimum, you should perform the following testing before moving a BizTalk solution into production:  

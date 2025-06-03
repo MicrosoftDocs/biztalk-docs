@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Display Performance Collection Rules
 To display performance collection rules, use the script in this section. This script works for the majority of rules. It creates a .csv file that includes the columns listed in the following table, and can be viewed using Office Excel.  

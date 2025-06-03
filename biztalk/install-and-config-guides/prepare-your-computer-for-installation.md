@@ -6,7 +6,7 @@ ms.date: "12/30/2022"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Prepare Your Computer for Installation
 This topic lists the steps to prepare your computer by installing and configuring all software prerequisites, and then creating accounts and setting permissions.

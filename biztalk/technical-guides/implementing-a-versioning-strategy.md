@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Implementing a Versioning Strategy
 Versioning is the act of updating the implementation of an artifact and incrementing its version number.

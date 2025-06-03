@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: best-practice
 ---
 # Best Practices for Monitoring with Operations Manager 2007
 Adhere to the best practices listed in this topic to effectively monitor your applications using Operations Manager 2007.  

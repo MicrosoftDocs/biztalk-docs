@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing Applications
 A BizTalk application is a logical container for application artifacts, such as orchestrations, pipelines, schemas, maps, and ports. BizTalk applications enable you to include related components in the same container. Any artifact within an application may refer to any other artifacts within that application, or to any artifact in any referenced application. For a complete list of artifacts that can be in a BizTalk application, see [What is a BizTalk Application?](../core/what-is-a-biztalk-application.md) (https://go.microsoft.com/fwlink/?LinkId=154994).

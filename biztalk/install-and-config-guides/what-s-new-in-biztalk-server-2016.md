@@ -6,7 +6,7 @@ ms.service: biztalk-server
 ms.date: "6/22/2018"
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: whats-new
 ---
 # What's New in BizTalk Server 2016
 Read about what's new in [!INCLUDE[bts2016](../includes/bts2016-md.md)]. 

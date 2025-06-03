@@ -2,7 +2,7 @@
 title: Known issues in installation, configuration, and deployment
 description: Learn about known issues around installation, configuration, and deployment for BizTalk Server.
 ms.service: biztalk-server
-ms.topic: conceptual
+ms.topic: troubleshooting-known-issue
 ms.date: 06/08/2017
 ---
 
