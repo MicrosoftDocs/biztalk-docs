@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Run the Business Process Management Solution
 The following steps describe how to run and validate the Business Process Management solution on a single computer.  

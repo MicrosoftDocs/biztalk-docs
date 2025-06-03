@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to View Instance Information for a Receive Port
 This topic describes how to use the BizTalk Server Administration console to view the service instances for a receive port. Each time the receive port receives a message, a service instance is created to process the message. When you follow the procedure in this topic, instance information displays in the Group Overview page for the receive port.  

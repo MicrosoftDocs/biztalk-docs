@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Remove Deployed Artifacts
 Administrators use the **remove-all** command to remove artifacts deployed in the BAM Primary Import database. The supplied BAM definition is either an XML file or an Excel Workbook containing information about the artifacts to be removed.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set Up the BAM Databases Using the BAM Management Utility
 Administrators typically use the BizTalk Server configuration utility to set up the BAM databases. You can use the BAM Management utility (bm.exe) as an alternate method to set up the databases.  

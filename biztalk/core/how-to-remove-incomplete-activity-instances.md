@@ -6,7 +6,7 @@ ms.date: "01/18/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Remove Incomplete Activity Instances
 When a BAM definition file is deployed, five tables are created in the BAM Primary Import database for each activity defined in the definition file. These tables are:  

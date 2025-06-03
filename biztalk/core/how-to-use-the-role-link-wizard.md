@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use the Role Link Wizard
 The Role Link Wizard enables you to create a new role link or modify an existing one. You can use it to set or view the name, type, and access restriction of the role link, as well as the implements role and the uses role that compose the role link type. To understand how role links work, see [Using Role Links in Orchestrations](../core/using-role-links-in-orchestrations.md).  

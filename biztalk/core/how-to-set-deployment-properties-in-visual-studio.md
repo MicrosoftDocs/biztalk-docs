@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set Deployment Properties in Visual Studio
 Before you can deploy a solution from [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] into a BizTalk application, you must first set project properties. If a solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] contains multiple projects, you must separately configure properties for each project.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Search for Suspended Service Instances
 You can use the **Query** tab in the BizTalk Server Administration Console to search for suspended service instances. You can search for a specific subset of messages to locate a specific message associated with a service name, type, host, etc.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Start a Send Port or Send Port Group
 This topic describes how to use the BizTalk Server Administration console to start a send port or send port group. You must start a send port or send port group before it can process messages. If you start an unenlisted send port or send port group, BizTalk enlists the send port or send port group before starting it. A send port group must contain at least one send port in an enlisted state before you can start the send port group. Starting and stopping a send port group does not affect the state of any send ports that it contains.  

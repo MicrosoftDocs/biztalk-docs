@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Optimize the Display of Links
 When the schemas are big, your maps might include a large number of links between the source and the destination schemas. With many links across the map surface, you may find it difficult to track a link or an object you need to work on. Also, it can be difficult for you to track an end-to-end relationship between a source schema, the links, the functoids, and the destination schema. In the BizTalk Mapper, you can better manage complex and large schemas, and bring out an optimized display of links in the map. This topic provides details about how to view links.  

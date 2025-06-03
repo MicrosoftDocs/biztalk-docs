@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Open a Pipeline
 Opening a pipeline file causes Pipeline Designer to appear with the defined pipeline and its stages in the design area. In addition, the Pipeline Designer Toolbox and the Properties window will appear if they are not already open.  

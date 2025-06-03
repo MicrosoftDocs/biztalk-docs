@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Recover the BizTalk Server Configuration
 As part of recovering your BizTalk server, you must also import the configuration file that you created when you installed BizTalk Server.  

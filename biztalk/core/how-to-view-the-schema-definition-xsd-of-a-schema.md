@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to View the Schema Definition (XSD) of a Schema
 This topic describes how to use the BizTalk Server Administration console to view the schema definition (XSD) of a schema. You might want to do this to troubleshoot schema validation errors or validate that the correct schema is deployed.  

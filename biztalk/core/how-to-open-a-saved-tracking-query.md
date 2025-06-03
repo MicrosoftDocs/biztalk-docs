@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Open a Saved Tracking Query
 You can open a message or service instance query against live tracking data (currently running service instances and messages). This is done by using the Query tab on the Group Hub page from within the BizTalk Server Administration Console.  

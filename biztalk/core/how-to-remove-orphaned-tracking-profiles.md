@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Remove Orphaned Tracking Profiles
 Tracking profiles are associated with an activity. If an activity is undeployed, the associated tracking profiles can become orphaned, which means they are no longer associated with an activity. You can use the following procedure to remove the tracking profile.  

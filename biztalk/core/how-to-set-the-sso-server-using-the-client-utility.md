@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set the SSO Server Using the Client Utility
 Each time you use ssoclient, you must first point the user to the correct Single Sign-On server that contains their configuration information.  

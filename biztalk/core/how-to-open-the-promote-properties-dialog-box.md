@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Open the Promote Properties Dialog Box
 Property promotion is managed in the **Promote Properties** dialog box. This topic provides step-by-step instructions for opening this dialog box to manage your promoted properties.  

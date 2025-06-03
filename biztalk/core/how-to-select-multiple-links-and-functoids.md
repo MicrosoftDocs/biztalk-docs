@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Select Multiple Links and Functoids
 When you want to perform a similar operation on a group of functoids and/or links in a map, you can select that group of functoids and/or links all at the same time. This topic provides information about how to perform this operation.  

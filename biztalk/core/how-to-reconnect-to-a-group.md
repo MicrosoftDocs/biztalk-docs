@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Reconnect to a Group
 A group that you previously connected to your BizTalk server may sometimes appear as unavailable in the BizTalk Server Administration Console. For example, a group can become unavailable to the Administration Console when the computer where the group resides is restarted. You can reconnect to an unavailable BizTalk Server group by using **Refresh** if the group is unavailable.  

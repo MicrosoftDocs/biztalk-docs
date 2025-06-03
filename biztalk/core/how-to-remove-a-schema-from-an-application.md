@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Remove a Schema from an Application
 This topic describes how to use the BizTalk Server Administration console to remove a schema from an application. This procedure removes the schema from the BizTalk Management database for the group as well. You might want to remove a schema after deploying a new version of the schema. For more information and important considerations for updating application artifacts, see [Updating BizTalk Applications](../core/updating-biztalk-applications.md).  

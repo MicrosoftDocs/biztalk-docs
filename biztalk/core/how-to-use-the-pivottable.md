@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use the PivotTable
 When you have defined a BAM view that includes dimensions and measures, you need to update one or more PivotTables associated with that view.  

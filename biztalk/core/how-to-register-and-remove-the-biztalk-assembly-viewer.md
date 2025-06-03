@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Register and Remove the BizTalk Assembly Viewer
 The BizTalk Assembly Viewer is not registered automatically during BizTalk Server setup. To register or remove the BizTalk Assembly Viewer, follow these steps.  

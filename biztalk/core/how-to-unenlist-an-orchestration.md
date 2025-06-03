@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Unenlist an Orchestration
 This topic describes how to unenlist an orchestration by using the BizTalk Server Administration console. Unenlisting an orchestration removes it from the host. This removes the subscription so that the orchestration no longer processes messages. You must unenlist an orchestration before you can edit its bindings.  

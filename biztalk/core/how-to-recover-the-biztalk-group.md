@@ -6,7 +6,7 @@ ms.date: "01/30/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Recover the BizTalk Group
 You must rejoin the BizTalk Server to an existing BizTalk group as part of the system recovery process.  

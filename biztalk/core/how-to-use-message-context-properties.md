@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use Message Context Properties
 System properties are mostly used internally by BizTalk Messaging Engine and its components. In general, changing the values set by the engine for those properties is not recommended, because it may affect the execution logic of the engine. However, there are a large number of properties that you can change.  
