@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-known-issue
 ---
 # Read the installation known issues
 [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] have known issues listed in the following sections.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 3: Create Send and Receive Ports for the InterAct Real-Time Scenario
 For information about BizTalk Server send and receive ports, and receive locations, see [Managing Artifacts](../../core/managing-artifacts.md) in the BizTalk Server docs.  

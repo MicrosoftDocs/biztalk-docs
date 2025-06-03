@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Receive Polling Messages Across Multiple Receive Ports from SQL using BizTalk Server
 Consider a scenario where you want to create a BizTalk application that includes two polling operations. Each polling operation polls separate tables, Employee and Customer, from the same database. When you deploy such an application in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you will need to create two receive ports. The connection URI for each receive port will be:  
