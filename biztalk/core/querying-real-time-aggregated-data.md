@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Querying Real-Time Aggregated Data
 The real-time aggregation (RTA) data is available for queries in a dynamically created SQL View in the BAM Primary Import database.  

@@ -6,7 +6,7 @@ ms.date: "01/14/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Schedule SQL Server Integration Services Packages in BizTalk Server

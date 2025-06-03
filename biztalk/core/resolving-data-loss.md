@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Resolving Data Loss
 Recovering lost data can be difficult or impossible. The topics in this section describe processes you can follow to help minimize data loss.  

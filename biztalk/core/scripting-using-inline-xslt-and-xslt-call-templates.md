@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Scripting Using Inline XSLT and XSLT Call Templates
 You can directly write Extensible Stylesheet Language Transformations (XSLT) stylesheets for use in the **Scripting** functoid. This enables you to perform transformations, that links and built-in functoids may not be able to represent. There are two kinds of XSLT scripts: inline XSLT and XSLT call templates. When you select either in the **Select script type** dropdown in the **Configure Scripting Functoid** dialog box, sample code appears that you may use.  

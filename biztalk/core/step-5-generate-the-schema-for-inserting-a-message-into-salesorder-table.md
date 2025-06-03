@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 5 (On Premises): Generate the Schema for Inserting a Message inito SalesOrder Table
 According to the business scenario, the X12 sales order message sent from Contoso must be inserted into Northwind’s **SalesOrder** table if the quantity ordered is greater than 100. To insert a message into a **SalesOrder** table, you must generate the schema for the **Insert** operation on the table. In this topic, you will create a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution, and then use the [!INCLUDE[consumeadapterservshort](../includes/consumeadapterservshort-md.md)] to generate the schema for performing an **Insert** operation on the **SalesOrder** table.  

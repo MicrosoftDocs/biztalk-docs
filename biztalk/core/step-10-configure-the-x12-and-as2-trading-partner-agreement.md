@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 10: Configure the X12 and AS2 Trading Partner Agreement
 ![Step 10 of 11](../core/media/tut-step10-of-11.gif "Tut_Step10_of_11")  

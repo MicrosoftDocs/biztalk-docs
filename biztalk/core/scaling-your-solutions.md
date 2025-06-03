@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Scaling Your Solutions
 BizTalk Server architecture provides a very good support for scalability. The scaling patterns that you choose depend on complexity of your scenario, hardware and the throughput/Latency requirements. You should start with a smaller topology initially and try to scale-up or down based on the guidelines in this section.  

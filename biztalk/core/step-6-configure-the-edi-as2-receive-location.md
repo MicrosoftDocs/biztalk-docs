@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 6: Configure the EDI-AS2 Receive Location
 ![Step 6 of 11](../core/media/tut-step6-of-11.gif "Tut_Step6_of_11")  

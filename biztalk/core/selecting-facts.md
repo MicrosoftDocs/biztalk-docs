@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Selecting Facts
 You can specify data source references that you can save in your rule store for subsequent use as facts in your rules and vocabularies. You can specify XSD schemas and their XML document elements and attributes, .NET assemblies and their classes and class members, or databases and their tables and table columns.  

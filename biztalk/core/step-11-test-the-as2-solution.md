@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 11: Test the AS2 Solution
 ![Step 11 of 11](../core/media/tut-step11-of-11.gif "Tut_Step11_of_11")  

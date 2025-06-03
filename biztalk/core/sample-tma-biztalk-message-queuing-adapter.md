@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Sample TMA: BizTalk Message Queuing Adapter
 This topic presents the threat model analysis (TMA) for the BizTalk Message Queuing adapter scenario for the sample architecture.  

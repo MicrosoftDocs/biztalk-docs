@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Staging Tasks for BizTalk Application Deployment
 The following are the steps involved in deploying a BizTalk application to a staging environment.  

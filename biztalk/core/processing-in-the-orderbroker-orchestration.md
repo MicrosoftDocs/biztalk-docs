@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Processing in the OrderBroker Orchestration
 This section describes how the **OrderBroker** orchestration takes orders and prepares them for a process manager. The section begins by discussing the general workings of the orchestration. The next part discusses how the orchestration processes a message. It then highlights how the orchestration uses an atomic transaction to improve performance.  

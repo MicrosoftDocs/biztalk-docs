@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 1: Reference the Schema DLL
 In BizTalk, messages are immutable. Therefore, to change a property value you must create and modify a new message. You create and modify the new message by inserting a message assignment shape between the Receive and Send shapes.  

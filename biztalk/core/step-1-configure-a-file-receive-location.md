@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 1: Configure a FILE Receive Location
 In this topic, you configure a FILE receive location that consumes the dummy request message that you drop to a file folder to invoke the send port.  

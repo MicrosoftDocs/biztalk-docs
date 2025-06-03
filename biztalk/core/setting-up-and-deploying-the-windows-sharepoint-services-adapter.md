@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Setting Up and Deploying the Windows SharePoint Services Adapter
 The topics in this section discuss setting up and deploying the Windows SharePoint Services (WSS) adapter in both a single-server deployment and a multi-server deployment.  

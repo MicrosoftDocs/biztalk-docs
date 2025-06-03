@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Sizing the Tracking Database to Track Message Bodies
 If you plan to track the message bodies in the BizTalk Tracking database, then you will also need to account for the size of these bodies in your calculation. Use the following equation:  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Securing Your Deployment of SSO
 This section outlines a typical scenario for secure deployment of Enterprise Single Sign-On. For detailed procedures on the actions to take in SQL Server, see your SQL Server documentation.  

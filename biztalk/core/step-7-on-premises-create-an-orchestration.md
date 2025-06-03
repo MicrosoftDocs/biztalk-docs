@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 7 (On Premises): Create an Orchestration
 According to the business scenario, after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives the sales order message from the Service Bus Queue, it needs to check whether the quantity ordered in the message is greater than 100. If the quantity is greater than 100, the message is inserted into the **SalesOrder** table. Otherwise, the message is sent to a shared file location. Northwind achieves this business logic by creating an orchestration. This topic provides step-by-step guidance on how to create the orchestration.  

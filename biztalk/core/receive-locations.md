@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Receive Locations
 Creating a receive location involves specifying an address at which inbound messages arrive and the messaging pipeline that processes the message received at that address. Only administrators can create and enable receive locations.  

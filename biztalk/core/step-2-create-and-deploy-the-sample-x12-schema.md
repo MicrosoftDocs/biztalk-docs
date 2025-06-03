@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 2: Create and Deploy the Sample X12 Schema
 ![Step 2 of 11](../core/media/tut-step2-of-11.gif "Tut_Step2_of_11")  

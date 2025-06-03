@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Replace Public Key Token Utility
 This utility can be used to replace either a public key token or variable in a file with a public key token derived from a strong name assembly key (.snk) file.  

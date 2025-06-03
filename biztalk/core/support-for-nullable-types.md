@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Support for Nullable Types
 The rule engine supports using nullable types in a business rule. You can use nullable types in .NET class bindings, XML bindings, and database bindings. Currently, the Business Rule Composer tool does not support using nullable types in a business rule. You can use the nullable types when creating rules programmatically.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Remove a .NET Assembly, Certificate, or Other Resource Artifact from an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to remove the following resource artifacts from a BizTalk application. Using the procedures in this topic removes the artifact from the BizTalk Management database. It does not remove the artifact from the file system, certificate store, Internet Information Services (IIS), or the Windows registry, if it exists in any of these locations. In addition, if you remove a binding file, the bindings remain unchanged – only the binding file is removed.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Scaling Out the BizTalk Server Tier
 To scale out the BizTalk tier, add more hardware to the existing topology. It is recommended that you add hardware in the following scenarios:  

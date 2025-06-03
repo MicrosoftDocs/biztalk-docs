@@ -6,7 +6,7 @@ ms.date: "04/16/2021"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Single Sign-On requirements for BizTalk Server
 
