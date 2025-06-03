@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Adding Certificates to the Certificates Store on the Client
 Use the following steps to add certificates to the Personal folder in the certificates store on each client computer. The certificates must be added to the Personal folder in the Certificates - Current User store.  

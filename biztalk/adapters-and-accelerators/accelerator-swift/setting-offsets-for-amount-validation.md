@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Setting Offsets for Amount Validation
 The usage rules for Amount fields in message types MT102, MT103, and MT103PLUS are validated by rules in their respective validation policies. The Amount fields can be matched exactly or can be validated to be within a range of amounts.  

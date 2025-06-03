@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Generating Category 0 and MT121 Forms
 Category 0 and MT121 InfoPath forms generation require different template files. Category 0 forms are divided into 5 categories. General categories messages are generated in the same way as do the rest of the MT categories. Examples of other 4 categories with their message names are given below:  

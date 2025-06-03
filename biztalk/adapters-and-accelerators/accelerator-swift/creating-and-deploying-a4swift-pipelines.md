@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating and Deploying A4SWIFT Pipelines
 Perform the following steps to create and deploy SWIFT pipelines for message repair and new submission, as shown in the following figure.  

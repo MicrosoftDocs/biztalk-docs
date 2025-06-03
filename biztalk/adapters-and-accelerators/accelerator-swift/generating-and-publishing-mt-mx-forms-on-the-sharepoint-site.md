@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Generating and Publishing MT/MX Forms on the SharePoint Site
 **To generate and publish MT/MX forms on a SharePoint site:**  

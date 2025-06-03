@@ -4,7 +4,7 @@ description: Follow the upgrade steps to update BTARN to the current version in 
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.suite: ""
-ms.topic: "article"
+ms.topic: upgrade-and-migration-article
 ---
 
 # Upgrade the RosettaNet accelerator

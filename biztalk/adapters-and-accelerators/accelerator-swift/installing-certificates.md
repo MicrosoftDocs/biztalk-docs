@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Installing Certificates
 To send, repair, or submit messages, you must have the proper certificates installed. This topic describes how to add certificates. In a production environment, see your IT department for certificates.  

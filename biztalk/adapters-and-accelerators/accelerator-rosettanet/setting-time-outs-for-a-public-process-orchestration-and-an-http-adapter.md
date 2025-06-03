@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Setting Time-Outs for a Public-Process Orchestration and an HTTP Adapter
 When you use a public-process orchestration with an HTTP adapter in a synchronous scenario, you must set the time-outs for each appropriately. The time-out setting for the orchestration (Time to Perform) must be smaller than the time-out for the HTTP adapter (Request Timeout). This is because if the setting for the HTTP adapter is smaller, the adapter could time out before the orchestration. This gives the adapter control of the process. The orchestration must be in control of the process; therefore, its time-out setting must be smaller.  

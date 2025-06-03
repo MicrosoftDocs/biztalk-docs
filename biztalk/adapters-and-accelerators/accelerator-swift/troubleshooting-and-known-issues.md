@@ -6,7 +6,7 @@ ms.date: "08/16/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-known-issue
 ---
 # Troubleshooting and known issues
 This section provides a centralized location for information related to troubleshooting Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].  

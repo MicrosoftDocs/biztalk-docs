@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 7: Creating and Configuring Ports
 In this step, you create and configure the ports you use to communicate with business processes. Each port has a type, direction, and binding property. These properties establish the direction and pattern of communication, the location of where the message is sent or received, and how the communication occurs.  

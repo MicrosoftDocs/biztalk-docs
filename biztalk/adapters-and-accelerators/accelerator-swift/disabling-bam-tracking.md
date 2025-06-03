@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Disabling BAM Tracking
 By default, BAM tracking is enabled for FIN Response Reconciliation. You can disable it as follows.  

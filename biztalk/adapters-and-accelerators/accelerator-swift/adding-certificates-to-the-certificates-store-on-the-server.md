@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Adding Certificates to the Certificates Store on the Server
 Use the following steps to add certificates to the Other People folder in the Certificates (Local Computer) store on the server computer.  

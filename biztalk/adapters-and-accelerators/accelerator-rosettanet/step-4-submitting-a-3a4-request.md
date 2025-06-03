@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4: Submitting a 3A4 Request
 In this step, you prepare and submit a request using the Partner Interface Process (PIP) for a 3A4 - Request Purchase Order. This PIP enables a buyer organization to submit a purchase order request to a supplier. Generally, you request the 3A4 - Request Purchase Order after running a product availability query using the 3A2 - Request Price and Availability PIP. The 3A4 PIP is an asynchronous PIP that sends receipt acknowledgements.  

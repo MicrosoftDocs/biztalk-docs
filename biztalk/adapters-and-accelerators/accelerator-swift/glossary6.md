@@ -6,7 +6,7 @@ ms.date: "08/16/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: glossary
 ---
 # Glossary - Microsoft BizTalk Accelerator for SWIFT
 Microsoft BizTalk Accelerator for SWIFT uses the following glossary terms and definitions.  

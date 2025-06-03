@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Removing Usage Rule Validation
 Usage rules are defined in SWIFT standards and enforced by [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] business policies specific to each message type. These usage rules are guidelines that you can use to provide extra validation for a field. Unlike network validation rules, which are mandatory, you can choose not to require usage rules for a message type. If that is the case, you can do either of the following:  

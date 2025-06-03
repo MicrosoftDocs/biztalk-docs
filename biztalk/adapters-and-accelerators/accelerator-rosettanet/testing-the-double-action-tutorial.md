@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: tutorial
 ---
 # Testing the Double Action Tutorial
 In this section, you use the Contoso and Fabrikam solutions that you created in the earlier sections to test four different Partner Interface Processes (PIPs): 0C2, 0C4, 3A2 and 3A4. You use the LOBWebApplication on the Fabrikam computer to make the request. The system will send the request using an enhanced communication channel to the Contoso computer. The Double Action orchestration will generate an appropriate response based on the PIP you use.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with PIPs
 The topics in this section describe how to work with Partner Interface Processes (PIPs). PIPs define business processes between trading partners, providing common business-process definitions for all RosettaNet message exchanges. PIPs specify the service content of messages.  

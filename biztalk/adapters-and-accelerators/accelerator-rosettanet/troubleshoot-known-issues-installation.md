@@ -4,7 +4,7 @@ description: Recommendations for installing SQL, the service account for the hos
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-known-issue
 ---
 
 

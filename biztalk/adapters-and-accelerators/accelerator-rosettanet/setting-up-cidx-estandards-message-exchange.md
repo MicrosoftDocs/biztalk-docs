@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Setting Up CIDX eStandards Message Exchange
 This topic describes how to set up Chemical Data Exchange (CIDX) eStandards message exchange. CIDX requires that you set the following three properties:  
