@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Invoking TPs and Host Integration Server Configuration
 For Host Integration Server to support the beginning of the invoking process (to accept the TP_STARTED and ALLOCATE verbs issued by an invoking TP), the following parameters must be configured correctly:  

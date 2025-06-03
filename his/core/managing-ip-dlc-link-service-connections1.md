@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing IP-DLC Link Service Connections
 This section gives procedures for creating, configuring, viewing, and deleting IP-DLC link service connections.  

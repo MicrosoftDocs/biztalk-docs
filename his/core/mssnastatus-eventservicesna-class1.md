@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSnaStatus_EventServiceSna Class
 The **MsSnaStatus_EventServiceSna** class describes a change to the **EventServiceSna** class.  

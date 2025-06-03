@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing TI Calls with Status and Timeout Properties
 A client application can manage its calls to a Transaction Integrator (TI) Automation server by checking the TI component's remote environment (RE) **Status** property and the **Timeout** property.  

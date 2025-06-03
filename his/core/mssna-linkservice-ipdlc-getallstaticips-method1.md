@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSna_LinkService_IpDlc.GetAllStaticIPs Method
 The **GetAllStaticIPs** method returns the list of all the static IP addresses on the local machine.  

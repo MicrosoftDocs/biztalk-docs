@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSna_AccountAvailableAppcLu Class
 For the logged-on user account and workstation, the assigned APPC LU resources.  

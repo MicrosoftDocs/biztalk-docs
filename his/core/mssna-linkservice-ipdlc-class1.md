@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSna_LinkService_IpDlc Class
 The **MsSna_LinkService_IpDlc** class represents the SNA IP-DLC link service.  
