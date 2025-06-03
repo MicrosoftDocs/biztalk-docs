@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Streaming Oracle Database LOB Data Types Using the WCF Channel Model
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports end-to-end streaming of LOB data for certain operations. The sections in this topic describe how to implement streaming for LOB data when you use the WCF channel model.  

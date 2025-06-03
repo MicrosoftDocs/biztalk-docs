@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Streaming large object data types in Oracle Database adapter
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports streaming for Oracle large object (LOB) data types. With the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] operations are invoked and responses are returned by exchanging SOAP messages. A SOAP message body is composed of XML nodes.  

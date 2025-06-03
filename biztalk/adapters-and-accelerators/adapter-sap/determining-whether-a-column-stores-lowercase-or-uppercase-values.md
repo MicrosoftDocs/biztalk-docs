@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Determining Whether a Column Stores Lowercase or Uppercase Values
 This section lists high-level tasks to be performed on the SAP system to determine whether a column in an SAP table stores lowercase or uppercase characters. For detailed instructions on how to perform this task you must contact your SAP administrator or refer to SAP documentation.  

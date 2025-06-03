@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Run an Insert Operation in Oracle Database using the WCF Channel Model
 This section shows how to insert a record into an Oracle database by using a channel. You must specify both a message body and a message action when you send a message.  

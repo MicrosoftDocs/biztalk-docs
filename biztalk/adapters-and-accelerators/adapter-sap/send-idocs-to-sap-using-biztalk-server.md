@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Send IDOCs to SAP using BizTalk Server
 All IDOC calls to SAP are internally treated as tRFC calls where the adapter acts as a tRFC client and calls an RFC in SAP to send an IDOC. This section provides information on sending IDOCs to SAP by using the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces two different operations to send IDOCs:  

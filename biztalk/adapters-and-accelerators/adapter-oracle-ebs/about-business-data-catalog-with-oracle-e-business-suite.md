@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # About business data catalog with Oracle E-Business Suite
 The Business Data Catalog is a new integration component in Microsoft Office SharePoint Server 2007 and later. The Business Data Catalog is a shared service and surfaces business data from backend applications via databases and Web services, without the need for writing any code. It is a metadata repository that defines business entities like customers, invoices, and purchase orders. Once defined, clients can use these entities.

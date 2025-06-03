@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Create and send an RFC in SAP
 Lists high-level tasks to complete on the SAP system to create an RFC. Each task may involve very detailed procedures. As a result, we recommend contacting your SAP administrator to complete these tasks, or refer to the SAP guidance.  

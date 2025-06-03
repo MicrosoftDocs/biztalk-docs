@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Read about Data Provider types for the SAP Connection String
 To establish connectivity to an SAP system, ADO.NET clients must specify the SAP connection properties in the form of a connection string. The format for the SAP ADO connection string looks like:

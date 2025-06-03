@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Receive polling-based data-changed messages from Oracle E-Business Suite
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] supports receiving polling-based data-changed messages by polling the interface tables, interface views, tables, and views. The adapter delivers the messages to your application by:  

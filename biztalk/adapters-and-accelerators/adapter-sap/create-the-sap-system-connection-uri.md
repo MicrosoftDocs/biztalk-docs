@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Create the SAP system connection URI
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] connection URI contains properties that the adapter uses to establish a connection to the SAP system.  
