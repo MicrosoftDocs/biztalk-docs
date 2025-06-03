@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Sending IDOCs from an SAP System
 High-level tasks to complete on the SAP system to send an IDOC from the SAP system to an external application. Contact your SAP administrator for performing these tasks or see the SAP guidance.  

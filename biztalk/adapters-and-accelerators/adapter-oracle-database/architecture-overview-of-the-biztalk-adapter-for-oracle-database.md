@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Architecture overview of the BizTalk Adapter for Oracle Database
 Describes the architecture for the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].

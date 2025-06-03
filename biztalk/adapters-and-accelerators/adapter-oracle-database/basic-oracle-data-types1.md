@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # About Basic Oracle Data Types
 This topic describes how the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces basic Oracle data types.  

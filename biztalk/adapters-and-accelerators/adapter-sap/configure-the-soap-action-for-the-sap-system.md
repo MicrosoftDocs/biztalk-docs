@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configure the SOAP action for the SAP system
 To perform any operation on the SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], adapter users must specify a SOAP action. The SOAP action communicates to the adapter what action should be performed. You can specify the SOAP action either at design time or at run time. However, if you specify the SOAP action both at design time and run time, the action you specified at design time will be overridden.  

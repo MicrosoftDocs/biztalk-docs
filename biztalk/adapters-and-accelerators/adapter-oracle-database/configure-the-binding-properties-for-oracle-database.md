@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configure the binding properties for Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces several binding properties that enable you to control some of its behavioral characteristics. This section provides information about setting the binding properties from Visual Studio and from the BizTalk Server Administration console. From Visual Studio, you must specify the binding properties while generating schema for specific operations. From BizTalk Server, you must specify the binding properties as part of the send or receive port for sending or receiving messages from the Oracle database.  

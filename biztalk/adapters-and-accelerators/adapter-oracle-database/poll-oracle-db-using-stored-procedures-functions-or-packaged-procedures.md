@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Poll Oracle Database Using Stored Procedures, Functions, or Packaged Procedures and Functions
 You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive periodic data-change messages by using stored procedures, functions, or packaged procedures and functions to periodically poll the Oracle database. You can specify a stored procedure, function, or packaged procedure and function as a polling statement that the adapter executes periodically to poll the Oracle database.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Overview of BizTalk Adapter for Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] exposes the Oracle database as a WCF service. Adapter clients can perform operations on the Oracle database by exchanging SOAP messages with the adapter. The adapter consumes the WCF message and makes appropriate ODP.NET calls to perform the operation. The adapter returns the response from the Oracle database back to the client in the form of SOAP messages.  

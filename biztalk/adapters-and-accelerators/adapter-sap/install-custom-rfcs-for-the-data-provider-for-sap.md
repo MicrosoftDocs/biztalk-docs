@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Install Custom RFCs for the Data Provider for SAP
 Install the custom RFCs if you want to use the .NET Framework Data Provider for mySAP Business Suite to access the SAP system.

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Message Schemas for RECORD Types
 Oracle RECORD types are structured PL/SQL data types that consist of one or more simple or structured database types. RECORD types are primarily used in PL/SQL stored procedures and functions to send and receive hierarchical data.  

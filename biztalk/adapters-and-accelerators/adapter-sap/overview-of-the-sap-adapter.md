@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Overview of the SAP adapter
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes the SAP system as a WCF service. Adapter clients can perform operations on the SAP system by exchanging SOAP messages with the adapter. The adapter consumes the WCF message and makes appropriate calls to the SAP system to perform the operation. The adapter returns the response from the SAP system back to the client in the form of SOAP messages.  

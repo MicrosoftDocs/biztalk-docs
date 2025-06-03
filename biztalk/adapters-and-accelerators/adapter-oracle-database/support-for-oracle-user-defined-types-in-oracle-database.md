@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Support for Oracle User-Defined Types in Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports performing operations on artifacts in the Oracle database that contain Oracle User-Defined Types (UDTs). The UDTs can be present in the following artifacts:

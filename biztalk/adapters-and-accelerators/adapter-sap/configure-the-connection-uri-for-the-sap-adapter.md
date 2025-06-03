@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configure the connection URI for the SAP adapter
 A connection URI is a connection string to connect to an SAP system. It contains various parameters required to establish connection with an SAP system. At design time, you must specify the URI to connect to the SAP system to generate the metadata. At run time, you must specify the URI to connect to the SAP system to perform operations.  

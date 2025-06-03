@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Architecture overview of the BizTalk Adapter for mySAP Business Suite
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] implements a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding, which contains a single custom transport binding element that enables communication with an SAP system. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] is wrapped by the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] runtime and is exposed to applications through the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel architecture. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] communicates with the SAP system through either the 64-bit or 32-bit version of the SAP Unicode RFC SDK (librfc32u.dll).

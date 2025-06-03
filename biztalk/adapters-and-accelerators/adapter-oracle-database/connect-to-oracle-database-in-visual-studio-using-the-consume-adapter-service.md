@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Connect to Oracle Database in Visual Studio using the Consume Adapter Service
 The Consume Adapter Service Add-in is installed when you install WCF LOB Adapter SDK. The Consume Adapter Service Add-in loads all the WCF-Custom bindings installed on the computer. To connect to the Oracle database using the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] in a BizTalk project, you must use the **oracleDBBinding**.  

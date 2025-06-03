@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Create the Oracle E-Business Suite connection URI
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] connection URI contains properties that the adapter uses to establish a connection to Oracle E-Business Suite, and essentially the underlying Oracle database. The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] supports two ways of connecting to the underlying Oracle database: using tnsnames.ora and without using tnsnames.ora. Based on the kind of connectivity approach, the format of the connection URI is also different. This topic provides information about the Oracle connection URI and also provides links to other topics that explain how to specify a URI in different programming scenarios.  
