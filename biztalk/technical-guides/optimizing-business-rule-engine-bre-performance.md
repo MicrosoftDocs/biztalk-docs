@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Optimizing Business Rule Engine (BRE) Performance
 The following factors should be considered when implementing the Business Rule Engine (BRE) in a BizTalk Server solution:  

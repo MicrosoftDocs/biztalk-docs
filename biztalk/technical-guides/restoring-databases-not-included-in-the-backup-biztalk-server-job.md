@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Restoring Databases Not Included in the Backup BizTalk Server Job
 This section describes how to restore databases that are part of the overall BizTalk solution but are not backed up by the Backup BizTalk Server job. All databases that are part of a BizTalk solution will be backed up by using the Backup BizTalk Server job except for the following:  

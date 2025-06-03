@@ -3,6 +3,7 @@ description: "Learn more about: MSBTS_GroupSetting.AuditingEnabled Property (WMI
 title: MSBTS_GroupSetting.AuditingEnabled Property (WMI)
 TOCTitle: MSBTS_GroupSetting.AuditingEnabled Property (WMI)
 ms.date: 09/13/2021
+ms.topic: reference
 ---
 
 # MSBTS\_GroupSetting.AuditingEnabled Property (WMI)

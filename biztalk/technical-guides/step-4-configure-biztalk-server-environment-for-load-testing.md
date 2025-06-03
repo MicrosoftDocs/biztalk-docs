@@ -6,7 +6,7 @@ ms.date: "06/29/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4: Configure BizTalk Server Environment for Load Testing
 This topic provides information for creating the BizTalk Server Receive Locations, Receive Ports, and Send Ports required to run the sample code described in the topics [Step 1: Create a Unit Test to Submit Documents to BizTalk Server](~/technical-guides/step-1-create-a-unit-test-to-submit-documents-to-biztalk-server.md) and [Step 3: Create a Load Test to Perform Multiple Unit Tests Simultaneously](~/technical-guides/step-3-create-a-load-test-to-perform-multiple-unit-tests-simultaneously.md).

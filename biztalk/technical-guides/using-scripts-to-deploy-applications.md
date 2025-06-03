@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Using Scripts to Deploy Applications
 You should use scripts to deploy BizTalk applications where possible. Scripting reduces the risk of human error during the deployment process. You should also document your deployment procedures in depth. You should document anything that you do not script with very detailed steps. This includes documenting any changes to external systems and to deployment of non-Microsoft components.

@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts06.bam.workbook.viewwizard.completing
+ms.topic: concept-article
 ---
 
 # Completing the Business Activity Monitoring View Wizard Page

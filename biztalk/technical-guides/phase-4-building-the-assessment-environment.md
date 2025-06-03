@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Phase 4: Building the Assessment Environment
 The Build lab phase of a performance assessment is used to install the hardware and software for the environment in conformance to the design decisions made in previous phases. Because the Build lab phase can be time consuming, it is not unusual for this phase to overlap earlier phases. In many scenarios, the hardware and operating system may be installed before a final decision has been made as to the application architecture. The Build lab phase of a performance assessment typically includes the tasks discussed in this topic.  

@@ -6,7 +6,7 @@ ms.date: "12/09/2015"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Test Scenario Server Architecture
 This topic provides an overview of the flow of messages between servers during load testing and the distinct server architectures against which the load test was performed.

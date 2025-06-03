@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Performing Load and Throughput Testing
 You should make available an environment that matches your production environment for performance and stress testing. This environment should have all standard services installed and running, such as monitoring agents and antivirus software.

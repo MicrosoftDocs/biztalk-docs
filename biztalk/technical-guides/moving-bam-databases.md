@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Moving BAM Databases
 This section describes how to move the BAM-related [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases from one [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer to another.  

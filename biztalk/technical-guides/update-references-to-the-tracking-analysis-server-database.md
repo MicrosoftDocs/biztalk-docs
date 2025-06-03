@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Update References to the Tracking Analysis Server Database
 The Tracking Analysis Server database is an optional and contains the online analytical processing (OLAP) cubes. These OLAP cubes are aggregations of data contained in the BizTalk Tracking database.

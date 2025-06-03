@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Preparing the Disaster Recovery SQL Servers
 Createa set of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instances in the disaster recovery site. To ensure that the disaster recovery [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instances can provide the same level of performance as the production [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instances, the disaster recovery [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instances should be configured with similar hardware and number of physical computers running [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. In this scenario, BizTalk Server log shipping will be configured for each production [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instance to apply to a corresponding [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] database instance at the disaster recovery site.  

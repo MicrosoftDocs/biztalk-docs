@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Scaling Out Sending Hosts
 For more information about scaling out sending hosts, see [Scaled-Out Sending Hosts](../core/scaled-out-sending-hosts.md) (https://go.microsoft.com/fwlink/?LinkId=151286).

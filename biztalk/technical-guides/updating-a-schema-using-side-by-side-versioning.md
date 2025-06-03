@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Updating a Schema Using Side-by-Side Versioning
 You can perform side-by-side versioning with schemas. You do so by adding a new version of the schema to an assembly, upgrading the version of the schema, while leaving the existing schema (and its version) unchanged.

@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa560883(v=BTS.80)
 ms:contentKeyID: 51529035
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: concept-article
 ---
 
 # Looping Functoid Reference

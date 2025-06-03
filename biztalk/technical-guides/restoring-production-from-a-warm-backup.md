@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Restoring Production from a Warm Backup
 If the source system becomes unreliable, it is possible to restore the databases from the destination to the source. Perform the following procedure to restore databases from the destination to the source.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Performing Bottleneck Testing and Tuning
 You should complete performance testing to determine bottlenecks in the system and to tune the system accordingly.  

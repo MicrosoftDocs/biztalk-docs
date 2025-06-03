@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 dev_langs:
 - csharp
+ms.topic: concept-article
 ---
 
 # Enumerating and Starting All Host Instances Using WMI

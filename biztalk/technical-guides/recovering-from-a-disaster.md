@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Recovering from a Disaster
 This section details the steps to transfer production operations to the disaster recovery site. For the purposes of this section, the online production system is referred to as the “source” system. The disaster recovery site is referred to as the “destination” system. This section provides an overview of the disaster recovery process.  

@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 dev_langs:
 - csharp
+ms.topic: concept-article
 ---
 
 # Saving a Message to a File Using WMI

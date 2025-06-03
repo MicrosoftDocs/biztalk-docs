@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Scaling Out Receiving Hosts
 To make receiving hosts highly available, you must have two or more [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers that are running instances of each receiving host. By scaling out the receiving hosts you can increase the availability for BizTalk Server deployments that are messaging-intensive. While these deployments might perform minimal processing for orchestrations, they can route many messages of varying types with great speed and reliability.

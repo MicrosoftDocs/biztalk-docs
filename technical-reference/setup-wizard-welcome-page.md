@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561007(v=BTS.80)
 ms:contentKeyID: 51529188
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: install-set-up-deploy
 ---
 
 # Setup Wizard, Welcome Page

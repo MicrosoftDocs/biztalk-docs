@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 dev_langs:
 - csharp
+ms.topic: concept-article
 ---
 
 # Resuming Suspended Service Instances That Failed to be Sent to a Specific URL Using WMI

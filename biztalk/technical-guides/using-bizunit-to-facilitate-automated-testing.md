@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using BizUnit to Facilitate Automated Testing
 This section describes the stages of a BizUnit test case, how to implement a BizUnit XML configuration file, and how to use BizUnit in conjunction with LoadGen to automate testing.  
