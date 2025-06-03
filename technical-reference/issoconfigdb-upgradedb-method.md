@@ -10,6 +10,7 @@ mtps_version: v=BTS.80
 dev_langs:
 - vb
 - c++
+ms.topic: upgrade-and-migration-article
 ---
 
 # ISSOConfigDB.UpgradeDB Method

@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa559847(v=BTS.80)
 ms:contentKeyID: 51527691
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # MSBTS\_SendPortGroup2SendPort.MgmtDbServerOverride Property (WMI)
