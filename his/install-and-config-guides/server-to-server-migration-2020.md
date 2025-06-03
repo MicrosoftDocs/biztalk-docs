@@ -2,7 +2,7 @@
 title: Host Integration Server server-to-server Migration
 description: Learn more about server to server migration for Host Integration Server.
 ms.service: host-integration-server
-ms.topic: article
+ms.topic: how-to
 ms.date: 01/25/2023
 ---
 

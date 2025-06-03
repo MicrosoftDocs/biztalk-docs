@@ -6,7 +6,7 @@ ms.date: 5/4/2020
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: whats-new
 ---
 # What's New in HIS 2020
 Read about what's new in Host Integration Server 2020.  

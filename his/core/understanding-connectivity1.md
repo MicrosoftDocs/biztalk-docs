@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Understanding Connectivity
 After you have completed [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] installation, you are ready to configure your installation. This section provides the concepts and procedures for configuring [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  

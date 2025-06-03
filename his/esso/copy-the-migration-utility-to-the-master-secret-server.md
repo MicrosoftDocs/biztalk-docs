@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Copy the Migration Utility to the Master Secret Server
 The Migration Utility is not installed with the rest of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]. You must manually copy it to the master secret server.  

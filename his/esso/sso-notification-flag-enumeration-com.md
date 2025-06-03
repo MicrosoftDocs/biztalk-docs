@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SSO_NOTIFICATION_FLAG Enumeration (COM)
 Specifies the different types of flags used for Enterprise Single Sign-On (SSO).  

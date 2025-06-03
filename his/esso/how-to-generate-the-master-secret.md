@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Generate the Master Secret
 You must have administrator rights on the master secret server in order to generate the master secret. In addition, you must perform this task from the master secret server.  

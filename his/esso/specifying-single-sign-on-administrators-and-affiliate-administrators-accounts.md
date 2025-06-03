@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Specifying Single Sign-On Administrators and Affiliate Administrators Accounts
 The Enterprise Single Sign-On (SSO) Administrators and Affiliate Administrators accounts can be host group or individual accounts. You must create these accounts before you configure the SSO system. When you are using domain accounts, you must create the SSO Administrators and SSO Affiliate Administrators accounts as domain global security groups in the domain controller. You must be a domain administrator to create these accounts.  

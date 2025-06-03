@@ -6,7 +6,7 @@ ms.date: "2/5/2020"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Installing Data Provider Version 6.0
 This topic provides instructions to install the Data Provider Version 6.0.

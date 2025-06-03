@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Enabling and Disabling Host Initiated SSO
 By default, host initiated Single Sign-On (SSO) is not enabled in the Single Sign-On system, and must be enabled by the SSO Administrator.  

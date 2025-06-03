@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set Credentials for a User Mapping
 Use the **setcredentials** command to set the credentials for a user to access a specific application.  

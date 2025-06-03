@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Viewing Connections
 As with other connections, you can view IP-DLC link service connections in the list view of the **Connections** folder.  

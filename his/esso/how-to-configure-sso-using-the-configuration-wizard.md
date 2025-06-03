@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure SSO Using the Configuration Wizard
 Use the **Enterprise Single Sign-On (SSO)** page to configure your SSO settings.  

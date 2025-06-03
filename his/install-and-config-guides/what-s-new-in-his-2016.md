@@ -6,7 +6,7 @@ ms.date: 2/5/2020
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: whats-new
 ---
 # What's New in HIS 2016
 Read about what's new in [!INCLUDE[his2016](../includes/his2016-md.md)].  

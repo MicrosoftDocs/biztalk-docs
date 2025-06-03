@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # WinCPICIsBlocking
 The **WinCPICIsBlocking** function determines if a task is executing while waiting for a previous blocking call to finish.  

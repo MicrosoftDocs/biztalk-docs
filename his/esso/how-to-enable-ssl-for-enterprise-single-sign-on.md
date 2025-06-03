@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enable SSL for Enterprise Single Sign-On
 Use the following command to enable Secure Sockets Layer (SSL) between all the Enterprise Single Sign-On (SSO) servers and the Credential database.  

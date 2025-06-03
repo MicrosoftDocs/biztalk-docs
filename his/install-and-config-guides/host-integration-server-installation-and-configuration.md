@@ -6,7 +6,7 @@ ms.date: 05/28/2020
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 
 # Host Integration Server Installation and Configuration

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Audit Enterprise Single Sign-On
 Use this command to set both the positive and negative auditing levels. Single Sign-On (SSO) administrators can set the positive and negative audit levels that suit their corporate policies. You can set positive and negative audits to one of the following levels:  

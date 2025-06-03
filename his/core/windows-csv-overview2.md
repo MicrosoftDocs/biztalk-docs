@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Windows CSV Overview
 Common service verbs (CSVs) are a set of programming functions provided by Host Integration Server. The CSVs provide convert, log, trace, and transfer services to applications.  

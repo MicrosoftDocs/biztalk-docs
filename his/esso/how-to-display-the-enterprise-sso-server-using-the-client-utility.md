@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Display the Enterprise SSO Server Using the Client Utility
 Use the **showserver** command to display the Single Sign-On (SSO) server to which the user is currently pointing.  

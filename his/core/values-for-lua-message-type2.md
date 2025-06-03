@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Values for lua_message_type
 The following table describes the possible values for **lua_message_type**.  

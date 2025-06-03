@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Upgrading from Host Integration Server 2000 or SNA Server 4.0
 Older versions of Host Integration Server, such as Host Integration Server 2000 and SNA Server 4.0, provided both Single Sign-On and password synchronization through their host security feature. This feature was based around the host security domain, which contained user mappings to map credentials between Windows and host systems.  

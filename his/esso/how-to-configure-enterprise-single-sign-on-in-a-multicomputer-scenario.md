@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Enterprise Single Sign-On in a Multicomputer Scenario
 This section contains instructions for configuring Enterprise Single Sign-On (SSO) in a three-computer scenario.  

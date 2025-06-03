@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with the Host File Adapter and Dataset
 A `HostFileDataAdapter` is used to retrieve data from a data source and populate tables within a dataset. The `HostFileDataAdapter` also resolves changes made to the dataset back to the data source. The `HostFileDataAdapter` uses the `HostFileConnection` object to connect to a data source, and it uses `HostFileCommand` objects to retrieve data from and resolve changes to the data source.  

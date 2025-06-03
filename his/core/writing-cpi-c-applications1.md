@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Writing CPI-C Applications
 A processing task accomplished by programs using Common Programming Interface for Communications (CPI-C) is called a transaction. Consequently, programs that use CPI-C are called transaction programs (TPs). These programs communicate as peers, on an equal (rather than hierarchical) basis. The TPs use CPI-C calls to exchange status information and application data. Each TP uses CPI-C calls to supply parameters to CPI-C, which performs the preferred function and returns parameters to the TP.  

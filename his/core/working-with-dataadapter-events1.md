@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with DataAdapter Events
 `MsDb2DataAdapter` exposes two events you can use to respond to changes made to data at the data source. The following table shows the `MsDb2DataAdapter` events.  
