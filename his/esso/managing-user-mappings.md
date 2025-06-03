@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Managing User Mappings
 This section provides information about how to create and configure the Enterprise Single Sign-On (SSO) mappings.  

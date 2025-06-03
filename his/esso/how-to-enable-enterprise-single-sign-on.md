@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enable Enterprise Single Sign-On
 The enabling command enables the entire Enterprise Single Sign-On (SSO) system. After you run the enabling command, there is a short delay before all Single Sign-On servers are enabled, because each server polls the Credential database for the latest global information.  

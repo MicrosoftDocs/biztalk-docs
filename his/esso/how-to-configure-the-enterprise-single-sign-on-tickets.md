@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the Enterprise Single Sign-On Tickets
 You can use the Microsoft Management Console (MMC) Snap-In or the command line to control ticket behavior for the entire Single Sign-On (SSO) system, including whether to allow tickets, and whether the system must validate the tickets. You can use **Yes**, **No**, **On**, or **Off** to indicate whether to allow or validate tickets. These words are case independent, and they must be used regardless of your language settings.  

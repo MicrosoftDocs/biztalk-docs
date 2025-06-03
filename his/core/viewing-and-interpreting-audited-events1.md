@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Viewing and Interpreting Audited Events
 Events audited by Host Integration Server are recorded on the server in which they occur. They are not stored centrally, in contrast with other records generated through Host Integration Server.  

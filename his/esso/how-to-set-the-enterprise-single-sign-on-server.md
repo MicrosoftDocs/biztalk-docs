@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set the Enterprise Single Sign-On Server
 Every time that you use the command line management utility, ssomanage, you must first point the user to the Single Sign-On (SSO) server that you want to connect to.  

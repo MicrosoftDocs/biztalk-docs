@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with Dependent APPC LUs
 To communicate with a remote TP, a dependent local APPC LU requires the support of a mainframe. You can't use dependent APPC LUs to communicate with IBM i computers. Unlike independent APPC LUs, dependent APPC LUs only allow a single session per LU.  

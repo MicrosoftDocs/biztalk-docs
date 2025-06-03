@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with Connection Strings and the Managed Provider for DB2
 A connection string contains initialization information passed as a parameter from a data provider to a data source, which is then parsed immediately after being set. Syntax errors generate a run-time exception, but other errors can be found only after the data source has validated the information in the connection string. After the information is validated, the data source sets various connection string options that enable the connection and allow it to be opened.  

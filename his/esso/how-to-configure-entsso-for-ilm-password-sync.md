@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure ENTSSO for ILM Password Sync
 After configuring the XML file and FIM 2007, the remaining configuration steps take place in the Enterprise Single Sign-On (ENTSSO) system. Follow these steps to allow Password Sync from FIM 2007.  

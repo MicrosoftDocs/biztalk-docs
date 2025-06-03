@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Working with Independent APPC LUs
 An independent LU can communicate directly with a peer system and does not need the support of a host computer. Independent APPC LUs, as used in IBM i APPN networks, provide the ability to run multiple, concurrent, parallel sessions between a local and remote LU pair.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Export the Encryption Key
 If you are migrating from Host Integration Server 2000, you must export the encryption key. The encryption key is a security device that Host Integration Server 2000 uses to encrypt user passwords. It must be backed up because the migration utility will need it as part of the migration process.  

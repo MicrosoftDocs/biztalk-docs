@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting Tools and Tips
 Using the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] management console, SNA Manager, you can view the status and properties of services, connections, 3270 sessions, APPC sessions, LUA sessions and the number of active users. Server status information includes Active, Inactive, Pending, Stopping, Active [Out of Date] or Error. If the server is active, the number of licensed users and licensed sessions is also shown  

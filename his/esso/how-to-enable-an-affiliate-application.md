@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enable an Affiliate Application
 You can use the MMC Snap-In or the **enableapp** command to enable the specified affiliate application.  

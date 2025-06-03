@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Viewing Link Service Properties
 As with other link services, you can view IP-DLC link service properties by using the context menu in the list view of the **Link Services** folder.  

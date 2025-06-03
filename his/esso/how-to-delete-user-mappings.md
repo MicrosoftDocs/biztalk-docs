@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete User Mappings
 Use these commands to delete one or more user mappings, as specified in the XML file. The following is an example XML file.  

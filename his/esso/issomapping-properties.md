@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # ISSOMapping Properties
 The properties of the **ISSOMapping** interface are listed in the following table. For a complete list of **ISSOMapping** interface members, see [ISSOMapping Members](../esso/issomapping-members.md).  

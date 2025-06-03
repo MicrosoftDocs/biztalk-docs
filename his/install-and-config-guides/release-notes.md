@@ -6,7 +6,7 @@ ms.date: 01/25/2024
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: release-notes
 ---
 # Release Notes
 

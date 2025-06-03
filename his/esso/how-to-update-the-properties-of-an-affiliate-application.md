@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Update the Properties of an Affiliate Application
 Use the MMC Snap-In or the **updateapps** command to update one or more application properties, as specified by the XML file. You must be an affiliate administrator to perform this task. The following is an example XML file that lists the fields you can update.  
