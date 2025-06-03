@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Change the Frequency With Which Alerts Are Evaluated
 There are cases in which the SQL Notifications services generator may not keep up with events being raised by the BAM event provider when deployed with the default settings. You can increase the frequency (the quantum duration) with which events are evaluated for alerts by modifying the Notification Services adf.xml file.

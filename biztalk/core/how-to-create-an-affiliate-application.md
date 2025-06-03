@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create an Affiliate Application
 You can use the MMC Snap-In or this command to create one or more applications, as specified by the XML file. An example XML file for Windows Initiated SSO is:  

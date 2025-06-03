@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the Delay Shape
 ![Image that represents the Delay shape.](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")  

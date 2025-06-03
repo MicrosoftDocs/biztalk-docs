@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Back Up and Restore SQL Agent Jobs
 This topic describes how to back up and restore SQL Server Agent Jobs. You should back up your SQL jobs after you configure them.  

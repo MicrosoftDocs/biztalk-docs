@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure an HTTP Send Port
 You can configure an HTTP send port either programmatically or by using the BizTalk Server Administration console.  

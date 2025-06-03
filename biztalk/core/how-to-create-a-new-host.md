@@ -7,7 +7,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Create a New Host
 A BizTalk Host is a logical container for items such as adapter handlers, receive locations (including pipelines), and orchestrations. We recommend that you use separate hosts for processing, receiving, and sending messages, and that you use separate hosts for trusted and non-trusted items to facilitate implementing security measures and to improve manageability of the hosts. You can install only one instance of a host per BizTalk server. For more information about hosts, see [Hosts](../core/hosts.md).  

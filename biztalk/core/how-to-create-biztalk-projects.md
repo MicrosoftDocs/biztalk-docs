@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create BizTalk Projects
 To create an application that runs on BizTalk Server, you start by adding one or more BizTalk projects to a solution. This section describes some of the tasks that you might perform when you work with BizTalk projects.

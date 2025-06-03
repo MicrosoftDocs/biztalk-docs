@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create Expressions
 BizTalk Expression Editor enables you to create XLANG/s expressions to expand the capabilities of various Orchestration Designer shapes. You can create XLANG/s expressions to make decisions, set delays, make .NET calls, and test while loop conditions.  

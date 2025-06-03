@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Construct a Web Message Part from a Schema Type
 You create a Web message part from a schema type by using a **Transform** shape. Alternatively, you can create a Web message part from a schema type by using a .NET helper class to set the parts. For more information on creating message types by using a .NET class, see [Constructing Messages in User Code](../core/constructing-messages-in-user-code.md).  

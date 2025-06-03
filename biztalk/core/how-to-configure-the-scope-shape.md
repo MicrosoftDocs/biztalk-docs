@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the Scope Shape
 The **Scope** shape provides a contextual framework for its contents. The first block of a **Scope** shape is the context block, or body, in which the basic actions of the scope take place; it is analogous to the try block in a try/catch statement. Following the body, the **Scope** shape may also include one or more exception-handler blocks and a compensation block.  

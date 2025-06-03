@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create a Tracking Profile
 You create tracking profiles to link BAM activity definitions to deployed assemblies and BizTalk Server messaging properties. When you open the Tracking Profile Editor, you can create a new tracking profile by either clicking the import activity link or the import menu item.  

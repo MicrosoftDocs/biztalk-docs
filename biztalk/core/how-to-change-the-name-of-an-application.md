@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Change the Name of an Application
 This topic describes how to use the BizTalk Server Administration console to change the name of an application. The application name that you use cannot already exist in the group.  

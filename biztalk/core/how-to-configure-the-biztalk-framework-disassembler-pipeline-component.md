@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the BizTalk Framework Disassembler Pipeline Component
 The BizTalk Framework Disassembler pipeline component should be used in the Disassemble stage of a receive pipeline.  

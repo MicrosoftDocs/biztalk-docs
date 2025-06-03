@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Change the Master Secret Server
 After you set up the master secret server and configure the SSO database, you can change the master secret server if the original master secret server fails and cannot be recovered. To change the master secret server, you need to promote an SSO server to become the master secret server.  

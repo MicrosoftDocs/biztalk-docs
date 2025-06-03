@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Consume Web Services in a Messaging Only Scenario
 One of the new enhancements for the SOAP adapter is ability to call Web services in a messaging only scenario by using content-based routing send ports. This feature makes it possible to consume Web services without creating orchestrations. It also provides better performance to consume Web services because messages do not pass through orchestrations.  

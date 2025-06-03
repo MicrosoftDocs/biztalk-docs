@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Create a Web Setup for Your Published Web Service
 You can create an installation package to facilitate setting up your Web service in a production environment. This produces an .MSI file.

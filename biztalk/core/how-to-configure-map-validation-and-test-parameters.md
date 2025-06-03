@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Map Validation and Test Parameters
 Before validating and testing a map, you need to set the map validation and test parameters in the **Properties** window of the map.  

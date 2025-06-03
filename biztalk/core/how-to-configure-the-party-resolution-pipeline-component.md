@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure the Party Resolution Pipeline Component
 The Party Resolution pipeline component is used to map the user security ID and the certificate subject for the client to a BizTalk Server party. The mapping is used to enforce authentication of the parties who send messages to BizTalk Server. For more information about partner management, see[Create an Agreement](managing-agreements.md).  

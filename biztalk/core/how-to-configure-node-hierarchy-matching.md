@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Node Hierarchy Matching
 When you create a link in a map, the BizTalk Mapper automatically creates compiler links to implement the link you have drawn. The **Target Links** property of a link controls how the BizTalk Mapper draws the compiler links. This topic provides information about how to set the target links.  

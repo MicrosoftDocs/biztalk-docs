@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Back Up the Master Secret
 You can back up the master secret from the master secret server onto an NTFS file system or removable media, such as a floppy disk.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure Filters for a Send Port
 This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to configure filters for a send port. You can use filters to create simple messaging or content-based routing (CBR) applications. A filter sets conditions for message properties or fields that determine which messages are routed to the send port. A filter does not filter the messages that an orchestration routes to the send port.  
