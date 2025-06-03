@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Trading Partner Agreements
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] processes message exchange with a partner by a trading partner agreement (TPA). The TPA defines the specifics of message processing and validation between the two partners. It defines how those partners implement the relevant Partner Interface Process (PIP), which specifies the message content for all implementations of a specific message type. The TPA also defines specifics of how the partners exchange messages over the Internet.  

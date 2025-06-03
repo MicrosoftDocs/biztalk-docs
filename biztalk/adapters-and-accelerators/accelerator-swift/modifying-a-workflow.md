@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Modifying a Workflow
 Please refer to \<Drive:\>\Program Files\Microsoft BizTalk Accelerator For SWIFT\SDK\Samples\ CustomMrsrModel\ ProfileWebClientUserManual.doc for more information.

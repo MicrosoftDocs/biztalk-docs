@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating and Submitting a New Message
 This section describes how to submit a new message. As with a repaired message, a new message must be verified and approved by people other than the message creator.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Messaging Samples
 The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Software Development Kit (SDK) includes samples that demonstrate messaging functionality. This section provides detailed information about the functionality demonstrated by these samples, instructions for building and running the samples, and the results that you can expect.  

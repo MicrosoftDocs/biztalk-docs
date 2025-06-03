@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 7: Create a Sample LOB Message
 In this step, you use the LOB Application utility to create a sample line-of-business (LOB) message.  

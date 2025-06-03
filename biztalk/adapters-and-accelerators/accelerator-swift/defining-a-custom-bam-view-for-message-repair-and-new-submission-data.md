@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Defining a Custom BAM View for Message Repair and New Submission Data
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Setup provides a BAM definition file that defines a business activity and a business view. You can deploy the BAM definition file to use that view, or you can create a custom view that you can add to the BAM definition file.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Handling an Unparsed Message
 This section describes how to handle an unparsed message. Unlike messages that fail validation, you cannot repair a message that [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] cannot parse. Message Repair and New Submission displays the message and the nature of the parsing error, and enables you to print the message or save it to a local file. You can then alert the entity that sent the message to the specific nature of the parsing failure.  

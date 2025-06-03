@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Deploying A4SWIFT Envelope Schemas
 You must include envelope schemas in schema projects whenever you set up Message Repair and New Submission. An envelope schema, such as EnvelopeMT103.xsd, is required to write to MRSR site.  

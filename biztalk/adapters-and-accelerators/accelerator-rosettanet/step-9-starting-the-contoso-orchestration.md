@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 9: Starting the Contoso Orchestration
 In this step, you complete the port configuration process by defining the physical source and destination locations. You bind the physical ports to the logical ports you created in [Step 7: Creating and Configuring Ports](../../adapters-and-accelerators/accelerator-rosettanet/step-7-creating-and-configuring-ports.md). You then enlist the service to associate the business process that you designed in the orchestration with the physical environment that the orchestration will run in. Finally, you start the orchestration so that it can participate in business transactions with Fabrikam.  

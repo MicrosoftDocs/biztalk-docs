@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Submitting Messages Through Receive Locations and InfoPath Forms
 Receive locations receive messages for submission into [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] applications. You can define receive locations as physical endpoints configured to receive messages using a specified transport protocol. For example, a receive location may be configured to receive files dropped to a particular file system folder using the FILE transport.  

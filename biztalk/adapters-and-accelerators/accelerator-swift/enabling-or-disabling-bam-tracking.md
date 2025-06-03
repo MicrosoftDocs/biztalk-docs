@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Enabling or Disabling BAM Tracking
 You can enable or disable BAM tracking at any point, even while the Message Repair and New Transmission process has transactions in process. However, if you disable BAM tracking while transactions are in process, the BAM data may be incomplete for those transactions. If this occurs, the history table will still contain accurate data for all instances.  

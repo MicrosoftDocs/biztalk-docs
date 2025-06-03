@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 2: Creating the Fabrikam LOBWebApplication
 In this step, you create the LOB application that Fabrikam uses to submit a 3A2 PIP request to Contoso. The LOBWebApplication project is installed in the [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] SDK. To run the Web application, you have to create a Microsoft Internet Information Services (IIS) virtual directory and build the LOBWebApplication project.  

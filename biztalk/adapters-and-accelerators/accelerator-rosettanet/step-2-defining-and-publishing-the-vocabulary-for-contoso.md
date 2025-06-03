@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 2: Defining and Publishing the Vocabulary for Contoso
 In this scenario, Contoso implements a business policy that makes sure that inventory is always on hand if an emergency occurs. You create business policies using the Business Rule Composer in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. In this step, you create the vocabulary to use when you define the business policy.  

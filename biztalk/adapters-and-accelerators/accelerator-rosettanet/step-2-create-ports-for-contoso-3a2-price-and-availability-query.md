@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 2: Creating Ports for the Contoso 3A2 Price and Availability Query/Response Scenario
 In this step, you create send ports using the SQL adapter provided by BizTalk Server. You use the SQL port for sending and receiving the 3A2 Price and Availability response to and from the ERP system for Contoso.  

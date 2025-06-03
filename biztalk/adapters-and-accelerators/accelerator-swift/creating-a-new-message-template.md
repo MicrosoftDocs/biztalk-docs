@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating a New Message Template
 You can create a new message template from an existing template. This enables a creator to create a new message instance on a custom form, such as a copy of a standard SWIFT form that already has some data entered into it. Using the new template, the creator does not have to enter all of the data required when using an empty form.  
