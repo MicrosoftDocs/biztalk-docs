@@ -2,7 +2,7 @@
 title: Network management with NetView
 description: Learn about managing your network with NetView.
 ms.service: host-integration-server
-ms.topic: conceptual
+ms.topic: article
 ms.date: 11/30/2017
 ---
 

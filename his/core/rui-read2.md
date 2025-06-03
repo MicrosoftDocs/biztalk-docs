@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # RUI_READ
 The **RUI_READ** verb receives responses, SNA commands, and data into a Microsoft® Windows® logical unit application (LUA) applications buffer.  

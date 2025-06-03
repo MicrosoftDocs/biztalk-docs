@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Specifying a File
 After you have defined the settings for transferring files, you can send a file to the host or receive a file from the host. You can select a file to transfer in one of two ways: by typing the name of the specific file to send or receive, or by browsing through a list of available files.  

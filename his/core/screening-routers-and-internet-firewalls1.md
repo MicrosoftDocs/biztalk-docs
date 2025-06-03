@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Screening Routers and Internet Firewalls
 You can configure destination port numbers in Host Integration Server for End-user and Administrator clients using TCP/IP.  

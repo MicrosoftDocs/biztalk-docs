@@ -6,7 +6,7 @@ ms.date: "01/03/2018"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configure Network Integration Overview
 

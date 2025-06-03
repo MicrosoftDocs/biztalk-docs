@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Optimizing Communications
 Servers used primarily for communications need to provide fast throughput, but they do not need to provide fast file access (as a file server would). Faster throughput will result if portions of memory are set aside for communications programs (such as Host Integration Server or Microsoft® SQL Server).  

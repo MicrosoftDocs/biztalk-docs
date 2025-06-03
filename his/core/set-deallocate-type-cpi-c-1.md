@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Set_Deallocate_Type (CPI-C)
 The **Set_Deallocate_Type** call (function name **cmsdt**) specifies how the conversation is to be deallocated.  

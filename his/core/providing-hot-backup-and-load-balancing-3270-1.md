@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Providing Hot Backup and Load Balancing (3270)
 The following diagram shows hot backup across host connections on the same server and across servers.  

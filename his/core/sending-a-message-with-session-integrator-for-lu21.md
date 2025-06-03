@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Sending a Message with Session Integrator for LU2
 After you create a connection, you can send information over the LU2 connection to the remote display.  

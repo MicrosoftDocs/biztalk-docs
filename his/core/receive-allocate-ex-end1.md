@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # RECEIVE_ALLOCATE_EX_END
 The RECEIVE_ALLOCATE_EX_END verb allows an application to deregister as the attach manager for a given Local APPC LU (lu_alias). This verb must be called for each lu_alias previously passed to the RECEIVE_ALLOCATE_EX request.  

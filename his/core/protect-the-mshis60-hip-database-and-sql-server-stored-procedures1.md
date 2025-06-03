@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Protect the MSHIS60_HIP Database and SQL Server Stored Procedures
 To prevent an attacker from spoofing their identity or tampering with the data or stored procedures in the HIP database, you should do the following:  

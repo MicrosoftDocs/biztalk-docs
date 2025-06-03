@@ -6,7 +6,7 @@ ms.date: "12/13/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Planning and Architecting Solutions Using Microsoft Service for DRDA
 The following sections provide help for planning and architecting solutions using Microsoft Service for DRDA (DRDA Service).

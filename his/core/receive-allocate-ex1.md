@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # RECEIVE_ALLOCATE_EX
 The RECEIVE_ALLOCATE_EX verb accepts a new VCB structure to allow registration of an attach manager.  

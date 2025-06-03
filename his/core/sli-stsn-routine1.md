@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SLI_STSN_ROUTINE
 The **SLI_STSN_ROUTINE** verb notifies the Microsoft® Windows® logical unit application (LUA) application that an STSN command has come from the host and allows the user-supplied routine to examine the request and formulate a response.  

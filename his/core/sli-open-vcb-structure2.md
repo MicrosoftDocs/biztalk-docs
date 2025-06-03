@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SLI_OPEN VCB Structure
 The following structure shows the **SLI_OPEN** fields of the **LUA SPECIFIC** union member for the [SLI_OPEN](../core/sli-open2.md) verb.  

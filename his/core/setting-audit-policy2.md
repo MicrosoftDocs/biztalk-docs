@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Setting Audit Policy
 You can set the audit policies within the operating system. The audit policies control which events will be logged to the event log files.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # RECEIVE_AND_POST
 The **RECEIVE_AND_POST** verb receives application data and status information asynchronously. This allows the local transaction program (TP) to proceed with processing while data is still arriving at the local logical unit (LU).  

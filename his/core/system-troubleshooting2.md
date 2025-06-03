@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # System Troubleshooting
 When gathering information about system difficulties, it is best to start with information provided by the Windows Event Log and System Monitor, see [Windows Utilities](../core/windows-utilities2.md) for additional information.  
