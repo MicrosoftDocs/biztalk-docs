@@ -6,7 +6,7 @@ ms.date: "01/18/2019"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Polling in SQL Server using the SQL adapter
 [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] enables adapter clients to receive data-change messages from the SQL Server database. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] supports receiving "polling-based" messages wherein the adapter executes a specified SQL statement (SELECT statement or stored procedure), retrieves or updates the data, and provides the result to the adapter client at regular intervals of time.

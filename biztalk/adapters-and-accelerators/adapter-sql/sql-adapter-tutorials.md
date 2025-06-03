@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: tutorial
 ---
 # SQL Adapter Tutorials
 The first of the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] tutorials contains detailed instructions on how to migrate BizTalk projects created using the previous version of the SQL adapter to use the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. The other [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] contains, scenario-based, step-by-step instructions on performing operations on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  

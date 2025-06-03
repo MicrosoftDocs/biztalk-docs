@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Architecture overview of the BizTalk Adapter for Siebel eBusiness Applications
 Describes the architecture of end-to-end solutions that use the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] to operate on a Siebel system, and also the internal architecture of the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].

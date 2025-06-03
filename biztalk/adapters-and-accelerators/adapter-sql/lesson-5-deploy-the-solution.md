@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Lesson 5: Deploy the Solution
 In this lesson, you deploy the BizTalk solution using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. In the BizTalk orchestration designer, you created logical ports. You will now create the physical ports and then configure the BizTalk application by mapping the logical ports to the physical ports.  

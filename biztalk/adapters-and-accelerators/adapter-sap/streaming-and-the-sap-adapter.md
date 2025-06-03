@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Streaming and the SAP Adapter
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports message streaming between itself and a client application. With the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] operations are invoked and responses are returned by exchanging SOAP messages. A SOAP message body is composed of XML nodes.  

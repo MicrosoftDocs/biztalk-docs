@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 ---
 # Getting Started with the FileAct and InterAct Adapters
 The Society for Worldwide Interbank Financial Telecommunication (SWIFT) supplies secure messaging services and interface software to wholesale financial entities.  

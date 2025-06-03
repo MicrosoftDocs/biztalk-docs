@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Overview of BizTalk Adapter for SQL Server
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the SQL Server database as a WCF service. Adapter clients can perform operations on the SQL Server database by exchanging SOAP messages with the adapter. The adapter consumes the SOAP message and makes appropriate ADO.NET calls to perform the operation. The adapter returns the response from the SQL Server database back to the client in the form of SOAP messages.  

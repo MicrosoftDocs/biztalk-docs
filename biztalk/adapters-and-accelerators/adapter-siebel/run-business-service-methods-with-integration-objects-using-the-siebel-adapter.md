@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Invoke Business Service Methods with Integration Objects using the Siebel adapter
 The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] enables adapter clients to invoke business service methods that work with integration objects. These business services typically have IN, OUT, or IN OUT parameters of "hierarchy" data type to send or receive integration object data.  

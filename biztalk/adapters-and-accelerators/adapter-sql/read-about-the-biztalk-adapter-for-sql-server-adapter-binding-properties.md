@@ -6,7 +6,7 @@ ms.date: 01/18/2019
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: article
+ms.topic: how-to
 ---
 # Read about the BizTalk Adapter for SQL Server adapter binding properties
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces several binding properties. By setting these properties, you can control some of the adapter's behavior. This section describes the binding properties exposed by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. It also shows how you can access them by using .NET programming or by setting properties on a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] physical port binding.  
