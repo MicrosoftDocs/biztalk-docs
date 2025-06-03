@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: tutorial
 ---
 # Tutorial: Using the BizTalk Adapter for JD Edwards EnterpriseOne
 The following demonstrates using BizTalk Context Properties to control the J.D.  Edwards OneWorld session in your orchestration. The tutorial assumes you have an orchestration that sends BeginDoc, EditLine and EndDoc calls to a send port bound to the Microsoft BizTalk Adapter for J.D. Edwards OneWorld.  

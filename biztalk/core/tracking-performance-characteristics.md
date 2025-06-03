@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Tracking Performance Characteristics
 This section explains how to measure maximum sustainable tracking throughput, and how to size your BizTalk Tracking database.  

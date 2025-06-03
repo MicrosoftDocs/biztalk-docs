@@ -6,7 +6,7 @@ ms.date: "11/30/2018"
 ms.service: biztalk-server
 ms.reviewer: "niklase"
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting BizTalk Server Administration
 This section provides a centralized location for information about common problems encountered while using the BizTalk Server Administration console.

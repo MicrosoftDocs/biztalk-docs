@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using an Activity
 The simplest way to use BAM is to send explicit milestones or data using the BAM API. You can think of the BAM activity as a record in a SQL table that you are keeping in synchronization with the actual unit of work.  

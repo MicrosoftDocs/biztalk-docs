@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Tracking Dependencies Between Artifacts in a BizTalk Server Application
 A typical [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application involves various artifacts such as orchestrations, send ports, receive locations, pipelines, schemas, maps, and the likes. All these artifacts have dependencies on each other. The following table lists these dependencies.  

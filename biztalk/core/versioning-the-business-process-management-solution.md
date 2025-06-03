@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Versioning the Business Process Management Solution
 The Business Process Management solution is designed so that you can replace stages if necessary. The design also provides for an easier method of versioning schemas.  

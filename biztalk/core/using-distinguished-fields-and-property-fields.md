@@ -6,7 +6,7 @@ ms.date: "05/02/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Distinguished Fields and Property Fields
 Distinguished fields are message data of special interest that you use primarily to make decisions or to manipulate data in your orchestration.  
