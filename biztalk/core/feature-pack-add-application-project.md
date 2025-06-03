@@ -6,7 +6,7 @@ ms.date: "9/20/2022"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Step 1: Add the BizTalk Server Application project in Visual Studio

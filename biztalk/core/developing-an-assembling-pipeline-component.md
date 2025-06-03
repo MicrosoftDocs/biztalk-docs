@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Developing an Assembling Pipeline Component
 An assembling pipeline component is a .NET or COM component that receives several messages on input and produces one message on output. Assembling components are used to collect individual documents into the message interchange batch.  

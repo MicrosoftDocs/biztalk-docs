@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Developing BizTalk Server Applications
 This section contains information for developers who are tasked with creating BizTalk projects. Projects are created using the BizTalk project System Design Environment, which allows you to design, organize, and build the various elements of BizTalk applications. The following sections describe this process in detail.  

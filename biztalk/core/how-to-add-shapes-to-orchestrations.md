@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add Shapes to Orchestrations
 This section describes the procedures for adding and removing shapes in your orchestration. For more information about the available shapes, see [Orchestration Shapes](../core/orchestration-shapes.md).  

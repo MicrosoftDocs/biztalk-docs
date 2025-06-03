@@ -6,7 +6,7 @@ ms.date: "01/10/2020"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Deploying and Managing BizTalk Applications
 This section provides information about managing BizTalk applications, including how to deploy, modify, update, and undeploy them. BizTalk applications provide a way to view and manage the items, called "artifacts," that make up a BizTalk business solution. Examples of artifacts are BizTalk assemblies, .NET assemblies, schemas, maps, bindings, and certificates.  

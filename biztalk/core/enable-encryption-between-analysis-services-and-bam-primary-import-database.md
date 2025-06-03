@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enable Encryption Between Analysis Services and the BAM Primary Import Database
 Encryption is not enabled by default during an installation or upgrade of BAM. To enable encryption, you must set the UseEncryption flag in the BAM configuration XML file to a value of 1.

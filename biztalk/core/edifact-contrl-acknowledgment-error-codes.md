@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # EDIFACT CONTRL Acknowledgment Error Codes
 This topic lists the error codes used within the segments of an EDIFACT CONTRL acknowledgment. For more information about these segments, see [EDIFACT CONTRL Acknowledgment](../core/edifact-contrl-acknowledgment.md).  

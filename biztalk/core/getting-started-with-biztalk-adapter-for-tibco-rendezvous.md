@@ -6,7 +6,7 @@ ms.date: "10/23/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 ---
 # Get started with BizTalk Adapter for TIBCO Rendezvous
 

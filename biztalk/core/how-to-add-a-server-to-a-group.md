@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add a Server to a Group
 You can use BizTalk Server Configuration to add a server to a BizTalk group. You add additional servers to a BizTalk group to scale out your BizTalk Server environment.  

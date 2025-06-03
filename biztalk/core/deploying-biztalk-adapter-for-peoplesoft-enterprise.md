@@ -6,7 +6,7 @@ ms.date: "10/19/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Deploy BizTalk Adapter for PeopleSoft Enterprise
 This section provides information about deploying BizTalk Adapter for PeopleSoft Enterprise.  

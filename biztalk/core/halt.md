@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Halt
 You can use the **Halt** function to halt the current rule engine execution. The **Halt** function takes one parameter of type `Boolean`. If you specify the value for the parameter as `true`, the rule engine also clears the agenda that contains the pending candidate rules.  

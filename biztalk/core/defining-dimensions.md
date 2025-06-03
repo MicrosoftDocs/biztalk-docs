@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Defining Dimensions
 Microsoft Excel defines dimensions as categories used to organize data in a table into levels that will be used for analysis. For example, a location data dimension might contain levels such as city, state/province, and country/region. When creating BAM Views in the BAM View wizard, you can add one or more of the following dimension types:  

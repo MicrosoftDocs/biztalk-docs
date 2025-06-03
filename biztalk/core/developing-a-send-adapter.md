@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Developing a Send Adapter
 This section describes the object interactions that occur within send adapters. You can use this information to guide custom adapter development when creating send adapters, or to learn about how the native adapters work.  

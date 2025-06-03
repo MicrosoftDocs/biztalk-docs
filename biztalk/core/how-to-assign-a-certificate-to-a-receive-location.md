@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Assign a Certificate to a Receive Location
 This topic describes how to use the BizTalk Server Administration console to assign a security certificate to a receive location. You can perform this procedure on a two-way receive location only. The certificate must exist in the Other People certificate store on the computer running BizTalk Server, or messages associated with this receive location will not be processed, and errors will be logged.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Debugging Orchestration Runtime Errors
 This section contains a set of questions and answers designed to help you resolve runtime issues with your orchestrations.  

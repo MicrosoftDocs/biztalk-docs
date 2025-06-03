@@ -6,7 +6,7 @@ ms.date: "10/24/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # Deploy TIBCO Rendezvous ports and assemblies
   

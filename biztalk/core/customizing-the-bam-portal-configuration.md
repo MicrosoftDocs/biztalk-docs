@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Customizing the BAM Portal Configuration
 There are a number of configurable options on the BAM portal. The following procedures show you how to modify the BAM portal to obtain the best user experience.

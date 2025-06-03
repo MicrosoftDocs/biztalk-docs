@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # General Troubleshooting Questions and Answers
 This topic has questions and answers to help you resolve issues with the BizTalk Mapper.  

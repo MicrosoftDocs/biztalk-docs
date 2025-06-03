@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Defining Data in BAM
 You use the BAM Excel Add-in to define the data you want BAM to collect, and define the way in which the data will be shared. You use BAM activities to define the data, and you use BAM views to define the data that other users can see.  

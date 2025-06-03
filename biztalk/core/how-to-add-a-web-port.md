@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add a Web Port
 You add a Web port on the port surface in Orchestration Designer. Unlike other configured ports, Web ports support a mixture of request (one-way) and request/response (two-way) operations. Each operation in the Web port represents a Web method. If the Web method contains *input* and *output* parameters, BizTalk creates a request/response operation. If the Web service contains only an *input* parameter, BizTalk only creates a one-way operation.  
