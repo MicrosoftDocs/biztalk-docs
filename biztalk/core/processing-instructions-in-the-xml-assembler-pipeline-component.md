@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Processing Instructions in the XML Assembler Pipeline Component
 Processing instructions provide information to the application that processes an XML document. Such information may include instructions about how to process the document, how to display it, and so on.  

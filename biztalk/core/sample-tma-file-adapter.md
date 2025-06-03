@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Sample TMA: File Adapter
 This topic presents the threat model analysis (TMA) for the File adapter scenario for the sample architecture. The following figure shows the sample architecture for the File adapter scenario.  

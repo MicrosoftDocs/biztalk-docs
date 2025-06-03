@@ -6,7 +6,7 @@ ms.date: "12/08/2015"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 8 (On Premises): Configure the BizTalk Server Application
 In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration. In this step, you’ll build, deploy, and configure the application.

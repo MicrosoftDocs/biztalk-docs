@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 3a: Receive Salesforce Opportunity Notification into BizTalk Server
 In this step, we start creating a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. We should first include the message schema for the opportunities notification message that we’ll get from Salesforce and then start creating an orchestration to process the message.  

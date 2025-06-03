@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Reusing Properties from Another Agreement
 You can reuse properties between agreements. This can save a significant amount of time when either most or all of the properties of a new agreement are the same as those of an existing agreement. The [!INCLUDE[firstref_TPM](../includes/firstref-tpm-md.md)] user interface in BizTalk Server enables you to export an agreement into an XML template file. You can then import the XML template to reuse the same agreement properties.  

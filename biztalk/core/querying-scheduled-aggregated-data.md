@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Querying Scheduled Aggregated Data
 Scheduled aggregation data is available to queries through dynamically created OLAP cubes in the  BAM Analysis database.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Reporting Mode in Orchestration Debugger
 Reporting mode uses tracked events to show what has happened. It uses data tracked using the **Orchestration Events** option flag. This flag must be set prior to the execution of the orchestration instance. To enable event tracking for a particular orchestration, see [How to Configure Tracking for an Orchestration](../core/how-to-configure-tracking-for-an-orchestration.md).  

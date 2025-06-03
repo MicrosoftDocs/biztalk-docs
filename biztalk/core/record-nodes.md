@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Record Nodes
 In BizTalk Editor, you use a **Record** node to represent a collection of information, the individual items of which can be:  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 3: Configure a One-way FILE Send Port
 In this step you configure a one-way FILE send port that consumes the response message received from the REST interface and copies it to a file location.  

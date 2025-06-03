@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Programming with Business Rules Framework
 This section covers BRE programmer related tasks such as executing policies programmatically and creating a fact retriever component.  

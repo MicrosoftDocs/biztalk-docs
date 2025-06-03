@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 8: Configure the 997 Send Port
 ![Step 8 of 11](../core/media/tut-step8-of-11.gif "Tut_Step8_of_11")  

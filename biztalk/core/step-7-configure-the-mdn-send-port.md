@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 7: Configure the MDN Send Port
 ![Step 7 of 11](../core/media/tut-step7-of-11.gif "Tut_Step7_of_11")  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 5: Build the EAISchemas Project
 ![Step 5 of 5](../core/media/step-5of5.gif "Step_5of5")  

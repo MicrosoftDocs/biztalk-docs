@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Start Send Port (BizTalk Server Sample)
 The Start Send Port sample demonstrates how to start a send port and optionally set the Primary Transport Address when using the FILE adapter.

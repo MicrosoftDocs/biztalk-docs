@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Scaling the Service Oriented Solution
 To scale the solution to support higher throughput while maintaining low message latency requires you to use the inline version of the solution. The inline solution bypasses the MessageBox database when interacting with the back-end systems.  

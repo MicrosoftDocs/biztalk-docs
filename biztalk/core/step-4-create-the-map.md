@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Step 4: Create the Map
 ![Step 4 of 5](../core/media/step-4of5.gif "Step_4of5")  

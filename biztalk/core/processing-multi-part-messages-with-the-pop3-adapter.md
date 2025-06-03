@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Processing Multi Part Messages with the POP3 Adapter
 The POP3 Adapter can process MIME-encoded messages that conform to the IETF standards documented in [RFC 2045](https://go.microsoft.com/fwlink/?LinkId=58810), [RFC 2046](https://go.microsoft.com/fwlink/?LinkId=58811), and [RFC 2047](https://go.microsoft.com/fwlink/?LinkId=58812). MIME encoded messages can have from one to many parts with different content types. This topic discusses the how the POP3 adapter processes multi part MIME encoded messages.

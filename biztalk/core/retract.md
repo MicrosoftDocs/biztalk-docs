@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Retract
 You can use the **Retract** function to remove objects from the Business Rule Engine's working memory. The following paragraphs describe the behavior associated with retracting entities of different types from the rule engine's working memory.  

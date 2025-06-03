@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Providing High Availability for BizTalk Hosts
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides great flexibility for addressing high availability because you can strategically dedicate logical hosts to run specific areas of functionality such as receiving messages, sending messages or processing orchestrations.  

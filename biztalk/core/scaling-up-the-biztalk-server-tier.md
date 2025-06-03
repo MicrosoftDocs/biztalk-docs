@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Scaling Up the BizTalk Server Tier
 To scale up the BizTalk tier, you upgrade the CPU, memory, IO and other resources. The following figure shows an example of how you might scale up the BizTalk tier from a two processor computer to a four processor computer.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Support for Class Inheritance in the Business Rule Engine
 One of the key features of Object Oriented Programming (OOP) languages is inheritance. Inheritance is the ability to use all of the functionality of an existing class, and extend those capabilities without rewriting the original class.  

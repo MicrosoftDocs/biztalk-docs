@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Publishing WCF Services with the Isolated WCF Receive Adapters
 The BizTalk Windows Communication Foundation (WCF) adapters allow [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to communicate with WCF-based applications. The BizTalk WCF adapters include seven physical adapters. Each adapter, except the WCF-CustomIsolated adapter, consists of send and receive adapters.

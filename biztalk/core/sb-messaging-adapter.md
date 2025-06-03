@@ -6,7 +6,7 @@ ms.date: "11/21/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # SB-Messaging Adapter

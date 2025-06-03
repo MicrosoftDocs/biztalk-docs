@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Publishing Service Metadata for the WCF Receive Adapters
 You can use the BizTalk WCF Service Publishing Wizard to create WCF services for publishing service metadata for existing WCF receive locations. To generate client service model code from the published metadata documents you can use the Service Model Metadata Utility tool (SvcUtil.exe) included in the Windows Software Development Kit (SDK) and .NET Framework Runtime Components.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Sending and Receiving Large Messages Using the MSMQ Adapter
 The MSMQ adapter default message handling depends, in part, on the size of the message. When a message is less than four megabytes (4 MB), the MSMQ adapter uses the .NET Framework Class Library. Otherwise, it uses the large message extensions in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

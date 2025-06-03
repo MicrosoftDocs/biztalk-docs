@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Sample TMA: HTTP and SOAP Adapters
 This topic presents the threat model analysis (TMA) for the HTTP and SOAP (Web services) adapter scenario for the sample architecture. The following figure shows the sample architecture for the HTTP and SOAP adapters scenario.

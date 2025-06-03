@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Programming Single Sign-On Overview
 A business process that relies on several different applications is likely to face the challenge of dealing with several different security domains. Accessing an application on a Microsoft Windows operating system might require one set of security credentials, whereas accessing an application on an IBM mainframe might require different credentials. Dealing with this profusion of credentials is hard for users, and it can pose an even greater challenge for automating processes. To address this problem, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes Enterprise Single Sign-On (SSO). SSO lets you map a Windows user ID to non-Windows user credentials. This service can simplify business processes that use applications on diverse systems.  

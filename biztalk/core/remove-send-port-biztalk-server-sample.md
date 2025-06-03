@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Remove Send Port (BizTalk Server Sample)
 The Remove Send Port sample demonstrates how to unenlist and remove one or more send ports.

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Root Nodes
 In BizTalk Editor, child nodes of the **Schema** node are known as **Root** nodes. **Root** nodes are a special type of **Record** node, and have a few more properties than regular **Record** nodes. The **Root** node represents the type of document described by the schema, and can be renamed as appropriate. For example, you can rename the **Root** node so that it describes the type of message that the schema represents, such as purchaseOrder, orderAcknowledgment, or shipNotice.  

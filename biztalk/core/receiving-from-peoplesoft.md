@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Receiving from PeopleSoft
 The Microsoft Adapter for PeopleSoft Enterprise is a send adapter. The adapter supports solicit-response, so that you can send a query and get back a response. However, if you want only to receive data from PeopleSoft, you must take two additional steps:  
