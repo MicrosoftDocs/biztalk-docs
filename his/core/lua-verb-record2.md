@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # LUA_VERB_RECORD
 The logical unit application (LUA) verb control block (VCB) structure is as follows:  

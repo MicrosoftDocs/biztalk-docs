@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # IP-DLC Link Service Concepts and Terminology
 The following is a brief introduction to the terminology and concepts that are referred to in this section, including APPN and HPR.  

@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSna_PrintSessionAppc Class
 Extends a print session. Uses APPC LU 6.2 protocols to communicate with the host.  

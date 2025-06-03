@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # LUA_EXT_ENTRY
 The following structure shows the **LUA_EXT_ENTRY** fields of the [LUA SPECIFIC.SLI_OPEN](../core/lua-specific-sli-open1.md) union member for the [SLI_OPEN](../core/sli-open2.md) verb.  

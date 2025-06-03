@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSna_AccountAssigned3270Services Class
 Used to query for services on which a specific workstation or user has 3270 LUs/pools.  

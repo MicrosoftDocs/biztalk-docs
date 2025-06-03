@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Making Connections
 Before messages can flow across a connection, the connection must be established or opened. This is necessary because a partner (P1) does not initially know the locality partner index (LPI) address of the partner with which it wants to communicate. There may not even be a suitable partner with which to communicate.  

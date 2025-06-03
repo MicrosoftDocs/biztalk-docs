@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # MsSna_Connection.ExchangePassthroughLus Method
 Returns a value that determines if two LUs are part of a passthrough connection pair.  
