@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring EDI Acknowledgments
 The topics in this section describe how to enable sending and receiving of EDI acknowledgments.  

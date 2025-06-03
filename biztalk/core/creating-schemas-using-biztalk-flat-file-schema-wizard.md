@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating Schemas Using BizTalk Flat File Schema Wizard
 The BizTalk Flat File Schema Wizard is designed to simplify the process of creating flat file schemas by providing the following:  

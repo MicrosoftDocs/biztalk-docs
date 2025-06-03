@@ -6,7 +6,7 @@ ms.date: "09/28/2018"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring the FTP Adapter
 

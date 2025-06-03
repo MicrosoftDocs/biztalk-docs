@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Creating Affiliate Applications for PeopleSoft Enterprise
 The following steps show how to start using affiliate applications and Single Sign-On (SSO).  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Receiver MDN Settings
 As part of receiver MDN settings, you can specify the properties that govern MDN generation based on the AS2 message header.  

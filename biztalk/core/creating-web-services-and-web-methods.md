@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Creating Web Services and Web Methods
 When you publish schemas as a Web service, you control the creation of Web services and Web methods in the BizTalk Web Services Publishing Wizard. You can rename the Web service description, Web service and Web method inside the tree available on the Web Services page. You can add and remove Web services and Web methods. The wizard uses the root element names of the selected request schemas as the input parameter name. The Web method return value returns the response schema.  

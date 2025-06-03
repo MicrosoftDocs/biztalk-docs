@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Constructing Web Messages
 You construct a Web message from a Web message type. When you add a Web reference, BizTalk automatically creates Web message types, which BizTalk creates based on the Web methods from the added Web service. You add a Web message to your orchestration, setting the message type to one of the Web message types. You create individual message parts based on primitive .NET or schema types. You can construct a Web message that contains no message parts.  

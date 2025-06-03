@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Fallback Validation Properties (EDIFACT)
 This section provides instructions on how to prevent duplicate control numbers from being processed.  
