@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa560275(v=BTS.80)
 ms:contentKeyID: 51528191
 ms.date: 12/06/2023
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # MSBTS\_HostInstance.Install Method
