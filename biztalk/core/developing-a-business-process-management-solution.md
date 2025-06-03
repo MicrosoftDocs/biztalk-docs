@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Developing a Business Process Management Solution
 This section describes the basic patterns involved in the design of the solution and how those patterns translate into BizTalk components and structures. It also follows an order message through processing in the solution, provides additional implementation details, tells you how to version and scale the solution, and provides message and file references. For more information about the solution and the business requirements behind its design, see "Business Requirements" in [Understanding the Business Process Management Solution](../core/understanding-the-business-process-management-solution.md).  

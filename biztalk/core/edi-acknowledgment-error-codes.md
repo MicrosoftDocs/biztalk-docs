@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # EDI Acknowledgment Error Codes
 This sections contains reference topics describing the error codes used in EDI messages.  

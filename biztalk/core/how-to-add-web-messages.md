@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add Web Messages
 You create Web message variables in the Orchestration View window. You must set the message type for the Web message to a Web message type.  

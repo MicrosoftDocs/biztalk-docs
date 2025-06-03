@@ -6,7 +6,7 @@ ms.date: "10/16/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 ---
 # Get started with BizTalk Adapter for JD Edwards OneWorld
 

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add a BAM Artifact to an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to add a BAM artifact to a BizTalk application. Adding a BAM definition file does not deploy the BAM definition. The BAM definition is deployed when the application .msi file is imported.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add Parameters to Orchestrations
 You can specify what parameters your orchestration should take in the Orchestration View window. An orchestration can take the following items as parameters:  

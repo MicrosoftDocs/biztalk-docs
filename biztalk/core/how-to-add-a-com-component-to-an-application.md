@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add a COM Component to an Application
 This topic describes how to use the BizTalk Server Administration console or the command line to add a COM component to a BizTalk application:  

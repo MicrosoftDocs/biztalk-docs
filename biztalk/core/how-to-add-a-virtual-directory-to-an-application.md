@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add a Virtual Directory to an Application
 This topic describes how to use the BTSTask command-line tool to add a virtual directory to a BizTalk application. This option is not available in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. You might want to add a virtual directory if you have written a custom Web service or created an ASP.NET Web site for interfacing with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and want to deploy the virtual directory with the application.  

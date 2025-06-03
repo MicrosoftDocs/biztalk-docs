@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Enlist Orchestration (BizTalk Server Sample)
 The Enlist Orchestration sample demonstrates how to enlist a BizTalk Server orchestration to a host.

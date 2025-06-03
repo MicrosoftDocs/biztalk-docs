@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add a Receive Location to a Receive Port
 This topic describes how to use the BizTalk Server Administration console to add a new receive location to a receive port.  

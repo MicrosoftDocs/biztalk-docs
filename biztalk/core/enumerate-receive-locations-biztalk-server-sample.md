@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Enumerate Receive Locations (BizTalk Server Sample)
 The Enumerate Receive Locations sample demonstrates how to retrieve details about one or more receive locations.

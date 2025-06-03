@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add or Remove Messages in Orchestrations
 A message is the basic unit of communication in an orchestration. It contains one or more parts along with context data that describes properties of the message and its contents.  

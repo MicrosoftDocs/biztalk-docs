@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Customizing Enumerations in the Envelope Schema
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to customize ID field enumerations in the service (envelope) schema. This enables you to receive or send interchanges that have non-standard values (outside the set of values defined by the X12 standards body) in the sender or receiver ID fields in the envelope. It also enables you to change the qualifiers that are available in drop-down lists for header values in agreement property definitions.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Get Method
 Used to retrieve properties based on the input key parameters (key1, key2, … keyn). The output parameter is a structure containing the properties of the record that matches the key parameters. If the component interface has only one instance (that is, there is no key), the Get function does not contain any key parameter. Also see [Find Method](../core/find-method.md).  

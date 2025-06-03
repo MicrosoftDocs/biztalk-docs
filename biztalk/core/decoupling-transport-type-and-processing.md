@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Decoupling Transport Type and Processing
 In a service oriented solution, a clear line often exists between the business processing and the specifics of transmitting and receiving messages. This enables you to change the business process or the messaging part of the solution independently.  

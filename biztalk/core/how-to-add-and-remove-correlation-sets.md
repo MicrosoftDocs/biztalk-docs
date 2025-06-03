@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add and Remove Correlation Sets
 You can use the Orchestration View window to add correlation sets to or remove them from your orchestration. A correlation set is an instance of a correlation type.  

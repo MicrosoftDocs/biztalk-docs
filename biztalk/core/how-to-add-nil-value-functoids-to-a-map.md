@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add Nil Value Functoids to a Map
 The **Nil Value** functoid sets the value of the destination node to **Nil**.  

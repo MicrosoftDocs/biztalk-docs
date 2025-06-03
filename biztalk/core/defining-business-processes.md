@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Defining Business Processes
 The exchange of messages between different systems is a necessary part of solving the problems that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] addresses. The real goal, however, is to define and execute business processes based on the applications. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] engine uses orchestrations to define the logic of these business processes. To create and evaluate groups of business rules, it uses the Business Rule Engine. This section describes both orchestrations and the Business Rule Engine.  

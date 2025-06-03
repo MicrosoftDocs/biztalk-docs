@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Enabling Adapter Framework Configuration Extensions
 The BizTalk Adapter Framework provides several extensions to improve the user experience. To use these extensions, import the framework's schema, BiztalkAdapterFramework.xsd. Importing the schema enables you to access decorations and specialized types and to use them in the adapter's configuration schema, as described below. The following code shows how to import the schema:  

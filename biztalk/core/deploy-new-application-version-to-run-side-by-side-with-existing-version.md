@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Deploy a New Version of an Application to Run Side-by-side with an Existing Version
 How to deploy a new version of an application that will run side-by-side with an existing version. 

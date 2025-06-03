@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Designing with Patterns: the Service Oriented Solution
 The service-oriented solution shows how to expose a BizTalk application as a service for use by other applications. Presenting an application as a service enables other applications to easily consume the information and use it in the services that they provide.

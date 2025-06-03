@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Filter
 The `Filter` element contains an `Expression` that evaluates to `true` or `false` and determines when an event should be processed or skipped.  
