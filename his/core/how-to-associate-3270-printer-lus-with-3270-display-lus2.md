@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Associate 3270 Printer LUs with 3270 Display LUs
 Users who have host applications with direct relationships between display LUs and printer LUs can associate printers with the LUs.  

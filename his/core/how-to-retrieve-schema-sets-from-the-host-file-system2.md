@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Retrieve Schema Sets from the Host File System
 When a `HostFileConnection` is open, you can retrieve schema information about the target data by using the `GetSchema` method. `GetSchema` returns a `DataTable` object populated with the rows and columns that contain the schema information of the target of the current connection.  

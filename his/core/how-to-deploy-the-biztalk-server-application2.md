@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Deploy the BizTalk Server Application
 After a developer has created and exported an application for the BizTalk Adapter for Host Applications, an IT professional can import it, update the connection properties, and deploy the application.  

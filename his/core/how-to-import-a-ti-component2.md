@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Import a TI Component
 You can import the methods, recordsets, and user-defined types from an existing component library to another component library. This is useful, for example, if you want to build a new component library based on an existing one.  

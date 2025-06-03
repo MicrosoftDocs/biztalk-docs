@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Extract_Sync_Level (CPI-C)
 The **Extract_Sync_Level** call (function name **cmesl**) returns the synchronization level for a specified conversation.  

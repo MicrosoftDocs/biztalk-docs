@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set a Default Remote Environment
 Each Transaction Integrator (TI) component must be associated with a remote environment (RE) type. When you register a TI component by adding it to a COM+ application , the component is associated with the first instance of the same type that you defined using TI Manager. For example, if you create an instance of a CICS using LU 6.2 RE with the default name of CICS1, any component created for use with a CICS using LU 6.2 RE will be associated with CICS1. If you define more REs of the same type (for example, CICS2 and CICS3), you can specify the default RE for associated components that you later deploy.  

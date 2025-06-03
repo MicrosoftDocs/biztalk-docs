@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Set ASP Security for Host Integration Server and WMI
 WMI scripting using Active Server Pages (ASP) is enabled automatically on Windows. For the correct security setting for ASP on Windows, it is recommended that you set **Anonymous Authentication** to **Off** and enable **Integrated Windows Authentication** in the Internet Information Services (IIS) configuration for directories with ASP files used with Host Integration Server. To access Host Integration Server configuration and status information, an application or user must have the appropriate administrative rights, which are not available with anonymous authentication. Use the following procedure on Windows to correctly configure security using ASP.  

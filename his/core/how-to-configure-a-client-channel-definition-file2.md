@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure a Client Channel Definition File
 To specify a channel definition, you must provide a client channel definition file for WebSphere MQ Client components to use if the following are true:  

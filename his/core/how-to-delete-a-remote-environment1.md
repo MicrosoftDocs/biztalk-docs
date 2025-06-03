@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete a Remote Environment
 You can delete a remote environment (RE) when, for example, you need to move a mainframe transaction program (TP) from one region of the mainframe to another. When you delete an RE, all Transaction Integrator (TI) components assigned to that RE are placed in the Unassigned Components folder in TI Manager.  

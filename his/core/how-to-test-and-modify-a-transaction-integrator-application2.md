@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Test and Modify a Transaction Integrator Application
 After you have finished coding your application, you may test and modify your application. During this process, you may need to undeploy and modify the host file interface.  

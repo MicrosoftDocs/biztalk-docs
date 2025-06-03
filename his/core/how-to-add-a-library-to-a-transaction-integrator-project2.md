@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add a Library to a Transaction Integrator Project
 Once you have created the Transaction Integrator (TI) project, you need to add an assembly to the project. Once you have added the assembly, you can import a host file definition.  

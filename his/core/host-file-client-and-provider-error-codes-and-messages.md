@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # Host File Client and Provider Error Codes and Messages
 The following table lists the Host File client and provider error codes, error message text, description and recommend action.  

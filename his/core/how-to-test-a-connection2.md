@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Test a Connection
 After you create the appropriate connection string and store it in a file, you can programmatically test the validity of your connection with a call to  `Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.TestConnection%2A`.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Assign a Different Code Page to a Remote Environment
 Use a remote environment (RE) to describe each CICS or IMS mainframe environment. Use Transaction Integrator (TI) Manager to create, modify, and delete REs.  

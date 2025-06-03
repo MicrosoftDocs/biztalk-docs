@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Retrieve Data from the Host File System
 Just as you can do with other managed data providers, you can access host data with an implementation of a `DataReader` object through `HostfileCommand`.  

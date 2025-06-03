@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Configure SSO for the Host Application Adapter
 When using the BizTalk Adapter for Host Applications with the BizTalk Server Service Account, it is necessary to create and map a Single Sign-On Affiliate Application.  

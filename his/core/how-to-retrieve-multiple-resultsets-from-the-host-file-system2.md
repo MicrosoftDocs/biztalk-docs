@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Retrieve Multiple Resultsets from the Host File System
 If multiple result sets are returned, the DBDataReader class provides the `NextResult` method to iterate through the result sets in order.  

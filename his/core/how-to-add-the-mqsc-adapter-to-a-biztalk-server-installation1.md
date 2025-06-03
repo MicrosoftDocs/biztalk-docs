@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Add the MQSC Adapter to a BizTalk Server Installation
 When you install the BizTalk Adapter for WebSphere MQ (MQSC Adapter), the BizTalk Adapters for Host Systems installation process adds the adapter to your BizTalk Server installation by default. Following installation, if for any reason the adapter is missing from the BizTalk Server Administration Console (for example, if it was deleted during testing), you can add it manually by using the following procedure.  

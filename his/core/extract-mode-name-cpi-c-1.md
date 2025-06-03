@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Extract_Mode_Name (CPI-C)
 The **Extract_Mode_Name** call (function name **cmemn**) returns the mode name and mode name length for a specified conversation.  

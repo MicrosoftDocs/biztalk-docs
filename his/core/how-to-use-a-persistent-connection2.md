@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How To Use a Persistent Connection
 The following topic describes how to use a persistent connection with Windows-Initiated Processing (WIP)  

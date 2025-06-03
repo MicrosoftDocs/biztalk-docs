@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Move a TI Component to Another Remote Environment
 Each Transaction Integrator (TI) component is associated with a specific remote environment (RE), such as CICS Using LU 6.2, when you create the component in HIS Designer. Windows automatically registers a TI component with its appropriate RE when you add the TI component to a COM+ application to create a TI Automation server.  

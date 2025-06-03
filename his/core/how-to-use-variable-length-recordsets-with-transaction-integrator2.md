@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Use Variable Length Recordsets with Transaction Integrator
 When data of variable length with field type of recordset is sent to the host by way of COM Transaction Integrator (COMTI), COMTI sends the final field to the host padded with NULL characters (0x00) up to the defined maximum size of the field.  
