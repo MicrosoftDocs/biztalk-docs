@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enlist a Send Port or Send Port Group
 This topic describes how to use the BizTalk Server Administration console to enlist a send port or send port group. Enlisting a send port or send port group associates the send port or send port group with a BizTalk host and creates the subscriptions for the send port or send port group. If a send port group does not contain a send port, enlisting the send port group does not create any subscriptions. In addition, enlisting a send port group does not change the state of any send ports that it contains.  

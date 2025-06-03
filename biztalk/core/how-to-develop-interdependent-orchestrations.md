@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Develop Interdependent Orchestrations
 You can use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to develop a set of orchestrations that have interdependent Web services. This scenario arises when you have orchestrations that reference data types and/or ports in the orchestration from which they were called. An example of this type of scenario is characterized by the following:  

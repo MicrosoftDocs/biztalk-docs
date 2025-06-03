@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete an Adapter Handler
 You can delete a send or receive adapter handler by using the BizTalk Server Administration Console.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Modify an Aggregation
 You use PivotTable reports in Office Web Components the same way you use PivotTable reports in Excel. You can add and remove rows, columns, and filters to generate views of the aggregated data on which you can create alerts.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Install a BizTalk Application
 This topic describes how to install an application on the local computer by double-clicking the Windows Installer (.msi) file for the application in the Windows interface or by running msiexec from the command line. You can also start the Installation Wizard as the last step of the Import Wizard, as described in [How to Import a BizTalk Application](../core/how-to-import-a-biztalk-application.md).  

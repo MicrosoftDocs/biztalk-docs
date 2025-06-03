@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Generate the Master Secret
 You must have administrator rights on the master secret server in order to perform this task. In addition, you must perform this task from the master secret server.  

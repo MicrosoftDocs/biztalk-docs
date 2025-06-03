@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enlist an Orchestration
 This topic describes how to use the BizTalk Server Administration console to enlist an orchestration into a host. The orchestration must be enlisted before you can start it.  

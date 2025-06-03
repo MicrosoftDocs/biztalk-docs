@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete a Receive Port
 This topic describes how to use the BizTalk Server Administration console to delete a receive port from a BizTalk application. When you do this, the receive port is also deleted from the BizTalk Management database for the group, as are all receive locations in this receive port.  

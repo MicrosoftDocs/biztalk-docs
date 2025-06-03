@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Get a List of Indexes on an Aggregation
 Administrators use the **get-index** command to get a list of all the indexes on the specified activity.  

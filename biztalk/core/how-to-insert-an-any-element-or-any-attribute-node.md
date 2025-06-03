@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Insert an Any Element or Any Attribute Node
 BizTalk Editor supports two types of any nodes: **Any Element** and **Any Attribute**. These nodes allow you to create locations within your schema that correspond to locations within the corresponding instance messages where you do not know what elements or attributes will appear. For detailed information about how these nodes are interpreted when processing instance messages, refer directly to information about the XML Schema definition (XSD) language on the Web. For links to this information, see [XSD Resources on the Web](../core/xsd-resources-on-the-web.md).  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Insert a Sequence Group, Choice Group, or All Group Node
 BizTalk Editor supports three types of group nodes for elements: **Sequence Group**, **Choice Group**, and **All Group**. These different types of group nodes establish different constraints on the child nodes of the group in corresponding instance messages. For information about the constraints of these different types of groups, you should refer directly to information about the XML Schema definition (XSD) language on the Web. For links to this information, see [XSD Resources on the Web](../core/xsd-resources-on-the-web.md).  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Debug Maps
 The **Debug Map** feature is useful in identifying and fixing complex mapping issues. This topic provides step-by-step instructions for debugging maps using the inline XSLT debugger.  

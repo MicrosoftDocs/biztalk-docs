@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Manage Multiple Receive Locations Using the MSMQ Adapter
 To increase performance, the MSMQ adapter is multithreaded. If you have many receive locations, there may not be enough threads available for all the receive locations. This prevents some of the receive locations from picking up messages. There are three ways to solve this problem:  

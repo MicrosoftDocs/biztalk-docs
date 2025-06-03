@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Enable a Receive Location
 This topic describes how to use the BizTalk Server Administration console to enable a receive location. A receive location must be enabled before it can receive messages.  

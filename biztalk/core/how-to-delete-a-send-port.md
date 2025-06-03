@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete a Send Port
 This topic describes how to use the BizTalk Server Administration console to delete a send port from a BizTalk application. When you do this, the send port is also deleted from the BizTalk Management database for the group.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Manage Views
 In the process of developing BizTalk maps, you may want to change the sizes of the source or destination schema tree views, or the size of the grid view. Sometimes, you may want to open your map in the same view you had closed earlier. This topic provides step-by-step instructions for these tasks.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Deploy Policies
 You can deploy policies programmatically by using the [Microsoft.RuleEngine.RuleSetDeploymentDriver](/dotnet/api/microsoft.biztalk.ruleengineextensions.rulesetdeploymentdriver) class in the **Microsoft.RuleEngine.RuleEngineExtensions** namespace. The following sample code demonstrates how to use the [Microsoft.RuleEngine.RuleSetDeploymentDriver](/dotnet/api/microsoft.biztalk.ruleengineextensions.rulesetdeploymentdriver) class to deploy a policy named **LoanProcessing**:  

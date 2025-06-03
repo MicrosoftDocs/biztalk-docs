@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Determine and Set Event Writer Roles for Activities
 BAM provides two modes of security when writing events on activities. You can grant permissions to write events on individual activities or you can grant permissions to write events on all deployed activities.  

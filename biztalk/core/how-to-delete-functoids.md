@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Delete Functoids
 When developing maps, you will sometimes need to delete an existing functoid. Deleting a functoid also deletes the associated input and output links, as well as any additional input parameters, script specification, and table grid configuration.  

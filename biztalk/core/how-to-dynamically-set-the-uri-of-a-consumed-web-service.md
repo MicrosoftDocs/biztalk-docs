@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Dynamically Set the URI of a Consumed Web Service
 When you create a Web port for a consumed Web service, you can select a dynamic port binding. When you select a dynamic port binding, you must set the URI of the consumed Web service at run time. The selected URI must call a Web service that has the same Web proxy as the Web service that you used to create the Web port type.  

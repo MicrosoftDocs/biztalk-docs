@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Define Milestone Groups
 Use a milestone group to put related milestones together, for example the beginning and end milestones that define how long a Purchase Order is valid. You can then use the milestone group as a single milestone.  

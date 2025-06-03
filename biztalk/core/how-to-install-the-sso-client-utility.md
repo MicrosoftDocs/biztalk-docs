@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: install-set-up-deploy
 ---
 # How to Install the SSO Client Utility
 The stand-alone SSO client utility (command-line utility and user interface-based) allows end users to configure their client mappings in the SSO database. You can install the client utility from a self-extracting file (SSOClientInstall.exe) which is installed with the SSO administration feature. Administrators can also make the installer package available to client users by placing a copy of the installer package on a network share.  

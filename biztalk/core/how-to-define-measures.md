@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Define Measures
 A measure defines how an activity is calculated. When you create a BAM view you can define a measure for the activity in the view. For example, for a purchase order activity, you can calculate the total PO amount, the number of POs, the average PO amount, and so on.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Create Vocabulary Definitions
 You can use the Vocabulary Definition Wizard to create vocabulary definitions. You can define a vocabulary definition as a constant value, a range of values, a set of values, or elements of a .NET assembly, XML document, or database table. If you select a public variable, there will be **Get** and **Set** options just like in Database and XML definition wizard.  

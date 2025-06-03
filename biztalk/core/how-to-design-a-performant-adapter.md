@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # How to Design a Performant Adapter
 For performance purposes all adapters should be batch-aware with regard to submitting batches of messages, transmitting batches, and generally performing operations on messages in batches. Adapters should try to expose configurable performance-related attributes, such as the size of batches or the number of bytes in a batch, that are configurable from the adapter's design-time user interface.  
