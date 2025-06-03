@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa547893(v=BTS.80)
 ms:contentKeyID: 51531166
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # MSBTS\_SendHandler2.HostName Property (WMI)

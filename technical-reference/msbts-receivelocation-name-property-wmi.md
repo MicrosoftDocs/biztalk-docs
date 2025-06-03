@@ -10,6 +10,7 @@ mtps_version: v=BTS.80
 dev_langs:
 - vb
 - csharp
+ms.topic: reference
 ---
 
 # MSBTS\_ReceiveLocation.Name Property (WMI)

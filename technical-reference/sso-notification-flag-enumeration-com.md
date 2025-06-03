@@ -12,6 +12,7 @@ dev_langs:
 - csharp
 - c++
 - jscript
+ms.topic: reference
 ---
 
 # SSO\_NOTIFICATION\_FLAG Enumeration (COM)
