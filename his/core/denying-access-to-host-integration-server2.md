@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Denying Access to Host Integration Server
 You can use one of two methods to deny a user or group the ability to use Host Integration Server. Either remove the user or group from the list of those who have permissions, or assign No Access to the user or group.  

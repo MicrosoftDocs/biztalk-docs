@@ -6,7 +6,7 @@ ms.date: "01/30/2024"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: get-started
 ---
 # Get started with application integration - HIS and Azure Logic Apps
 

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Correlating Messages with Request-Reply
 There are two ways to correlate messages in BizTalk Server orchestrations for MQSeries request-reply scenarios. The first is to supply the correlation identifier by setting both the MessageID (MQMD_MsgID) and the CorrelationID (MQMD_CorrelationID) to the same value. The second is to use the BizTalk_CorrelationId context property.  

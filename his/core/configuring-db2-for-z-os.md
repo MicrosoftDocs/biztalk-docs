@@ -2,7 +2,7 @@
 title: "Configuring DB2 for z-OS"
 description: "Learn more about: Configuring DB2 for z-OS"
 ms.service: host-integration-server
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Configuring DB2 for z-OS

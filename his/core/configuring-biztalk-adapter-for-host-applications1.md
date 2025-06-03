@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring BizTalk Adapter for Host Applications
 The **BizTalk Adapter for Host Application Configuration** dialog box allows you to define and manage connections to remote IBM CICS, IMS or iSeries systems. It is launched when you click the **Connection Strings** property value field. You can use the **BizTalk Adapter for Host Application Configuration** dialog box to add a TI .NET assembly. You can use it as part of the mapping, to import, export and delete mappings, edit connection strings, and view properties of a TI .NET assembly.  

@@ -6,7 +6,7 @@ ms.date: "12/13/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Choosing a Connection Type
 A [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer can only use an IP-DLC connection.

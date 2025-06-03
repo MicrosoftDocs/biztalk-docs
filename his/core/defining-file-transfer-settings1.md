@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Defining File Transfer Settings
 Using the 3270 Client, you can transfer a file between your computer and a host application. However, before you can send a file to the host or receive a file from the host, you must define the transfer settings that you need. These settings tell the 3270 Client which host environment you will be using (VM/CMS, TSO, or CICS) as well as the parameters for the connection between your computer and the host.  

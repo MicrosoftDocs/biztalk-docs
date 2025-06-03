@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Connecting to and Disconnecting from a DB2 Database
 There are two ways to connect and disconnect to a DB2 database. The first and most common way is using an MsDb2Connection to open and close the connection. The second method is to access a connection pool.  

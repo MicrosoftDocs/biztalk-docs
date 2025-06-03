@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Choosing a Trace Type
 After selecting one or more [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] components to be traced, decide the type of tracing to apply.  

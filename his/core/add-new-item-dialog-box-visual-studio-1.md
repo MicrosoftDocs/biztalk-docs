@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Add New Item Dialog Box (Visual Studio)
 The **Add New Item** dialog box enables you to add an item to the currently selected project. There are two panes in the dialog box:  

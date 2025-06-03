@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Administering Sections of HIS (WMI)
 Host Integration Server is included with Windows Management Instrumentation (WMI) providers that grant administrative access to the following areas:  

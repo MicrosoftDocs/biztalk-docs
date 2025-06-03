@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Defining an SNA Remote Environment
 You can define an SNA (APPC/LU 6.2) remote environment (RE) instance to fit each of the following three mainframe-based programming models:  

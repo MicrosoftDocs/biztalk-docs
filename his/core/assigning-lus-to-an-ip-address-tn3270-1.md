@@ -3,7 +3,7 @@ description: "Learn more about: Assigning LUs to an IP Address (TN3270)"
 title: "Assigning LUs to an IP Address (TN3270)1"
 ms.date: "11/30/2017"
 ms.service: host-integration-server
-ms.topic: "article"
+ms.topic: concept-article
 ---
 
 # Assigning LUs to an IP Address (TN3270)

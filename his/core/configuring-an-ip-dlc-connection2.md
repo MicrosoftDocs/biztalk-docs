@@ -6,7 +6,7 @@ ms.date: "01/26/2024"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 f1_keywords:
   - "his_ip_dlc_managing_ip_dlc_link_service_connections_kmdz"
 ---

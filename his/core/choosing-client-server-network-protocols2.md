@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Choosing Client/Server Network Protocols
 Host Integration Server client computers can communicate through a number of different local area APIs or network transports: Microsoft Networking (Named Pipes), or TCP/IP (sockets). The network software and the Host Integration Server software must be installed correctly on both clients and servers for them to handle different protocols correctly. Correct installation ensures two essential aspects of communication:  

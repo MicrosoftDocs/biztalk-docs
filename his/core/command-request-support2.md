@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Command Request Support
 The next three tables list the SNA command requests supported by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]. Note that not all commands are supported for every LU-to-LU session type. For example, Bracket Initiation Stopped (BIS) is only supported for use by an APPC LU.  

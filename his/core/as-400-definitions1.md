@@ -2,7 +2,7 @@
 title: Definitions for IBM i
 description: Learn more about definitions for IBM i.
 ms.service: host-integration-server
-ms.topic: conceptual
+ms.topic: article
 ms.date: 11/28/2023
 ---
 

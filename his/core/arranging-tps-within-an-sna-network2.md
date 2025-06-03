@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Arranging TPs Within an SNA Network
 If your installation of Microsoft® Host Integration Server contains multiple systems (multiple clients and/or multiple computers running Host Integration Server), you can place a given invokable transaction program (TP) on more than one system. When an invoking request is received in such an installation, there can be a choice of systems on which to run the invokable TP.  

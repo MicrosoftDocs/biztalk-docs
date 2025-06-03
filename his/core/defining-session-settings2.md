@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Defining Session Settings
 Before you can connect to a host, you must define the settings you will need for your session. These settings include the LU or Pool Name and the Host Code Page.  

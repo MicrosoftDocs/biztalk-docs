@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Designing and Coding TPs (CPI-C)
 The following topics provide background information about designing and coding transaction programs (TPs).  

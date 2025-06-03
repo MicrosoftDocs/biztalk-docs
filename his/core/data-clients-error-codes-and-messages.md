@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # Data Clients Error Codes and Messages
 The Data Clients for DB2 and Informix connect to IBM DB2 and Informix databases using the Distributed Relational Database Architecture (DRDA) protocol and formats. Using a Network Monitor, you can trace the DRDA protocol code points (commands) and instance variables (command parameters) when connecting across a TCP/IP network. The DRDA protocol code points are published as an industry standard through Open Group. You can download DRDA V5 Vol. 1: Distributed Relational Database Architecture, publication number C112 and V5 Vol. 3: Distributed Data Management Architecture, publication number C114, published July 2011, from `http://www.opengroup/.org/dbiop`.  

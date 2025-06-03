@@ -6,7 +6,7 @@ ms.date: "12/13/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring Your Enterprise
 [Making and Testing a Connection](../core/making-and-testing-a-connection2.md) provides the basic steps to configure a link service, make a connection, create logical units (LU), and log on to a host computer; this section follows a similar format and provides the concepts and procedures for configuring [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] in your enterprise.  

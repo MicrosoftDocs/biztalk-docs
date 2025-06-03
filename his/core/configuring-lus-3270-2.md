@@ -6,7 +6,7 @@ ms.date: "01/26/2024"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuring LUs (3270)
 This section provides information detailing configuring logical units (LU).  

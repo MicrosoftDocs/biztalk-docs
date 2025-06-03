@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Closing the PLU Connection
 Either the application or the local node can terminate the primary logical unit (PLU) connection. The criteria for closing are:  

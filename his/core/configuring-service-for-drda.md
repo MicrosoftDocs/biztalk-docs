@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Configuring Service for DRDA
 IT professionals can specify the basic required DRDA Service configuration settings by running the interactive or unattended installation program. The installation and configuration process registers the MsDrdaService.exe as a service.  

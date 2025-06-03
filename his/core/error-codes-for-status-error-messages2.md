@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-error-codes
 ---
 # Error Codes for Status-Error Messages
 The possible error codes delivered to the function management interface (FMI) application on [Status-Error](./status-error1.md) messages are tabulated in the following table. A **Status-Error** message is delivered to the application in one of several cases, as shown in the following list:  
