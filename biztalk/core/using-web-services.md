@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Web Services
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Web services. BizTalk Server enables the reuse and aggregation of all your existing Web services within your orchestrations. You can also publish (expose) your orchestrations as Web services to separate the Web service logic from the business process logic.

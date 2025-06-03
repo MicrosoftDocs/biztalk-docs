@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using .NET Assembly as a Data Source
 This topic discusses how to use a .NET assembly as a data source, and how to access members of a .NET class from rules.  

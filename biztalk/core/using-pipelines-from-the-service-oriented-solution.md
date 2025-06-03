@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Pipelines from the Service Oriented Solution
 The inline version of the customer service orchestration (**CustomerService**) calls the payment tracking system directly. To prepare the sent message and process the received message, the orchestration calls the pipelines from code. This allows the reuse of the pipelines from the other scenarios versions. It also maintains the decoupling of the orchestration from the pipeline stages.  

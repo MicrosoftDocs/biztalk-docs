@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Rule Editor
 Use the Rule Editor to view and edit conditions in the Conditions Editor and actions in the Actions Editor for the selected rule.  

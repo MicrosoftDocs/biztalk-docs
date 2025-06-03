@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Policy Explorer
 You can use the Policy Explorer to manage policies and rules in the rule store. You can create, modify, and delete policies and rules, and you can test, publish, deploy, and undeploy policies.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting EDI and AS2 Solutions
 The topics in this section describe known issues with the EDI and AS2 solutions in BizTalk Server, and describe common troubleshooting steps that can be used to identify and resolve problems that may be occurring in EDI and AS2 solutions.  

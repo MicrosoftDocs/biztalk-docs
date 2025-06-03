@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Testing Schemas
 After you have created your schema, you may want to validate that it describes the XML structure you intend it to describe. You can perform the following three operations on your schema to validate it:  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Tracking Profile Editor
 This section describes the Tracking Profile Editor (TPE). The TPE is a tool that developers use to create or modify maps, known as tracking profiles, between items in a BAM activity and the BizTalk solution sources for those items. The TPE consists of a graphical user interface that allows developers to map a specific view of internal business processes, as well as associated data, to orchestrations and ports.  

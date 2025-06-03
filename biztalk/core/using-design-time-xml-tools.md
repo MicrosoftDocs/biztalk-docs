@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Design-Time XML Tools
 The EDI XML tools enable you to perform design-time operations on EDI schemas and maps. The tools are executed from the menu displayed when you right-click a schema or map in the Solution Explorer pane of Visual Studio.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Understanding the Service Oriented Solution
 The service oriented solution presents a credit balance reporting application designed as a service. The application, in turn, uses three backend applications, exposed as services themselves, to get the information needed for the credit balance.

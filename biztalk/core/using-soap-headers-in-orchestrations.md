@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using SOAP Headers in Orchestrations
 Orchestrations use property schemas to define SOAP header context properties. You use the BizTalk Editor to set SOAP header context properties.  

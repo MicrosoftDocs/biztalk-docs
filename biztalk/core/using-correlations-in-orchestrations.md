@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Using Correlations in Orchestrations
 Correlation is the process of matching an incoming message with the appropriate instance of an orchestration. For example, orchestration sends out of a message and receives the response or responses back into the same orchestration. There are three correlated messages exchange patterns:

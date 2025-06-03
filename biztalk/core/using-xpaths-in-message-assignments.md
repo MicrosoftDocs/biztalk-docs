@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using XPaths in Message Assignments
 You can use the **xpath** function to assign an XPath value to a message part, or to assign a value to an XPath that refers to a message part. For more information on assigning to messages and message parts, see [Constructing Messages](../core/constructing-messages.md).  

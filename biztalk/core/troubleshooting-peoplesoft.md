@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshoot PeopleSoft
 This section lists error messages in the PeopleSoft Enterprise system, their descriptions, and possible corrections. It also describes how to use Event Tracing for Windows and lists common issues.  

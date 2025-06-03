@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using the Adapter Framework Tools
 The BizTalk Adapter Framework uses the following tools and views to manage and develop custom adapters:  

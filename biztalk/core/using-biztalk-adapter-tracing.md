@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Using BizTalk Adapter Tracing
 This topic describes how to install the Trace Log tool and how to enable BizTalk adapter tracing.

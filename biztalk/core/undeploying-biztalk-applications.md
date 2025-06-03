@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Undeploying BizTalk Applications
 You must undeploy a BizTalk application to remove it from your BizTalk group and host computers. This section describes the following tasks involved in undeploying an application:  

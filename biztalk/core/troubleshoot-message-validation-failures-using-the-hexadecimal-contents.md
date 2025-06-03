@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting Message Validation Failures by Viewing the Hexadecimal Contents of Suspended Messages
 If a message is suspended due to validation failures, it may be helpful to view the hexadecimal representation of the message parts to determine the cause of the validation failure. This topic lists steps that can be followed to view the hexadecimal representation of the parts of a suspended message.

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using BizTalk Mapper Commands
 When BizTalkMapper becomes active, it adds a menu called **BizTalk** to the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. This menu provides access to the BizTalk Mapper commands and their functionality. When BizTalk Mapper is active, the **BizTalk** menu provides the commands that are specific to editing BizTalk maps.  

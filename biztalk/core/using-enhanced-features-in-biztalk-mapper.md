@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Using Enhanced Features in BizTalk Mapper
 The BizTalk Mapper introduces a set of usability enhancements to help you handle complex maps.  
