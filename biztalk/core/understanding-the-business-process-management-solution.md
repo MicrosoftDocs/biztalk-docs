@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Understanding the Business Process Management Solution"
 title: "Understanding the Business Process Management Solution"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: concept-article
+ms.custom:
+  - sfi-image-nochange
 ---
 # Understanding the Business Process Management Solution
 The solution described in this section presents one way to implement a business process management application. In an ideal business process manager, the parts of the solution representing the business process—the business rules, communicating with specific backend systems, sending response messages—are separate from the infrastructure supporting the process.  

@@ -1,12 +1,14 @@
 ---
 title: Configure using Basic or Custom configuration
 description: Steps to do a basic or custom configuration of BizTalk Server, and learn what happens with each configuration
-ms.custom: biztalk-2020
 ms.date: 01/14/2020
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - biztalk-2020
+  - sfi-image-nochange
 ---
 
 # Configure BizTalk Server

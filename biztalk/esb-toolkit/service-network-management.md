@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Service Network Management"
 title: "Service Network Management"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
+ms.custom:
+  - sfi-image-nochange
 ---
 # Service Network Management
 Effective run-time governance requires knowledge of the services deployed into the run-time environment. AmberPoint SMS can discover the actual receive locations and send ports deployed within a BizTalk Management Group, as shown in Figure 1.  

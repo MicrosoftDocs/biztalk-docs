@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Execute a PeopleSoft Enterprise Sample Get"
 title: "Executing a PeopleSoft Enterprise Sample Get"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # Execute a PeopleSoft Enterprise Sample Get
 The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system by using the PeopleSoft adapter. This adapter is included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

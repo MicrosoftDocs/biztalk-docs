@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: The InfoPath Message Template"
 title: "The InfoPath Message Template"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
+ms.custom:
+  - sfi-image-nochange
 ---
 # The InfoPath Message Template
 As an alternative to viewing ESB fault messages in the ESB Management Portal, users can take advantage of a Microsoft InfoPath message template named the ESB Exception Message Viewer, provided with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  

@@ -3,6 +3,7 @@ title: "Configuring DB2 for z-OS"
 description: "Learn more about: Configuring DB2 for z-OS"
 ms.service: host-integration-server
 ms.topic: how-to
+ms.custom: sfi-image-nochange
 ---
 
 # Configuring DB2 for z-OS
