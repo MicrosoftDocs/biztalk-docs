@@ -94,7 +94,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
    5. **User name:** \<enter your PeopleSoft UserID\>  
   
-      ![Screenshot that shows where to type your PeopleSoft user ID.](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
+      ![Screenshot that shows where to type your PeopleSoft user ID.](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "00aa00aa-bb11-cc22-dd33-44ee44ee44ee")  
   
 4. Click **OK** twice to close the dialog boxes.  
   
@@ -364,7 +364,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 16. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console,right-click the **PS_Test** application and then click **Start**.  
   
-     ![Image that shows the BizTalk Server Administration console.](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
+     ![Image that shows the BizTalk Server Administration console.](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "00aa00aa-bb11-cc22-dd33-44ee44ee44ee")  
   
 #### Test the orchestration  
   

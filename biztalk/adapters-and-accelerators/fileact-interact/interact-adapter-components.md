@@ -17,7 +17,7 @@ The InterAct adapter has a client and a server component. Note that there may be
   
  In the following figure, the client application uses A4SWIFT and the InterAct adapter. BizTalk Server is the middleware, which communicates to the remote API host adapter over TCPIP.  
   
- ![InterAct client application](../../adapters-and-accelerators/fileact-interact/media/7aeada39-6264-498b-92e8-303eb0cf369b.gif "7aeada39-6264-498b-92e8-303eb0cf369b")  
+ ![InterAct client application](../../adapters-and-accelerators/fileact-interact/media/7aeada39-6264-498b-92e8-303eb0cf369b.gif "00001111-aaaa-2222-bbbb-3333cccc4444")  
   
  In the following figure, the server application uses A4SWIFT and the InterAct adapter. BizTalk Server is the middleware, which communicates to the remote API host adapter over TCPIP.  
   
