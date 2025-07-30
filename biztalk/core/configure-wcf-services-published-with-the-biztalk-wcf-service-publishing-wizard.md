@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: How to Configure WCF Services Published with the BizTalk WCF Service Publishing Wizard"
 title: "How to Configure WCF Services Published with the BizTalk WCF Service Publishing Wizard"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # How to Configure WCF Services Published with the BizTalk WCF Service Publishing Wizard
 After publishing WCF services with the BizTalk WCF Service Publishing Wizard, you must configure them properly. This topic describes how to configure the published WCF services.

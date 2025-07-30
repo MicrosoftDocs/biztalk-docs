@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Scenario: Distributing Artifacts Among Multiple Computers"
 title: "Scenario: Distributing Artifacts Among Multiple Computers"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
+ms.custom:
+  - sfi-image-nochange
 ---
 # Scenario: Distributing Artifacts Among Multiple Computers
 This topic describes the application deployment scenario when the artifacts in an application are selectively installed on different computers. You might want to do this if you want certain assemblies or other types of artifacts in an application to be installed only on specific computers in a BizTalk group. To do this, you can export the artifacts included in an application into multiple .msi files, according to which artifacts you want to install together on a physical computer.  

@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Certificate Stores that BizTalk Server Uses"
 title: "Certificate Stores that BizTalk Server Uses"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
+ms.custom:
+  - sfi-image-nochange
 ---
 # Certificate Stores that BizTalk Server Uses
 BizTalk Server uses two types of certificate stores, the Other People certificate store for public keys, and the Personal certificate store for each host instance service account for the private key.  

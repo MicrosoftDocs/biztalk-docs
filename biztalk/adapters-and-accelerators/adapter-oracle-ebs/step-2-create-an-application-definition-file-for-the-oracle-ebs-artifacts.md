@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Step 2: Create an application definition file for the Oracle E-Business Suite artifacts"
 title: "Step 2: Create an application definition file for the Oracle E-Business Suite artifacts"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # Step 2: Create an application definition file for the Oracle E-Business Suite artifacts
 ![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")

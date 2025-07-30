@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Adapter Framework Configuration Schema Decoration Tags"
 title: "Adapter Framework Configuration Schema Decoration Tags"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
+ms.custom:
+  - sfi-image-nochange
 ---
 # Adapter Framework Configuration Schema Decoration Tags
 You can use the tags described in this topic within the configuration schema files to display and organize data on the adapter property pages.  

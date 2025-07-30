@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Run a Predefined Itinerary On-Ramp Sample"
 title: "Run a Predefined Itinerary On-Ramp Sample"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # Run a Predefined Itinerary On-Ramp Sample
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes 20 predefined Itinerary use cases you can execute. For a list of these use cases, see [The Sample Itinerary Scenarios](../esb-toolkit/the-sample-itinerary-scenarios.md).  

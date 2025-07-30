@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Execute a PeopleSoft Enterprise Sample Get"
 title: "Executing a PeopleSoft Enterprise Sample Get"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # Execute a PeopleSoft Enterprise Sample Get
 The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system by using the PeopleSoft adapter. This adapter is included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
@@ -94,7 +95,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
    5. **User name:** \<enter your PeopleSoft UserID\>  
   
-      ![Screenshot that shows where to type your PeopleSoft user ID.](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
+      ![Screenshot that shows where to type your PeopleSoft user ID.](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif)  
   
 4. Click **OK** twice to close the dialog boxes.  
   
@@ -120,11 +121,11 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 5. Scroll down, select **LOCATION**, and then click **Finish**.  
   
-    ![Image that shows where to select LOCATION.](../core/media/0506affd-3caa-47cb-9c25-f49c8a0ad614.gif "0506affd-3caa-47cb-9c25-f49c8a0ad614")  
+    ![Image that shows where to select LOCATION.](../core/media/0506affd-3caa-47cb-9c25-f49c8a0ad614.gif)  
   
 6. In Solution Explorer, there is a new BizTalk orchestration and two new associated schema files. These files are created by the Add Adapter Wizard. Double-click the **BizTalk Orchestration.odx** file to open the orchestration.  
   
-    ![Image that shows the BizTalk orchestration and two associated schema files.](../core/media/825c5690-78eb-4048-9a47-cd3fc7310b7b.gif "825c5690-78eb-4048-9a47-cd3fc7310b7b")  
+    ![Image that shows the BizTalk orchestration and two associated schema files.](../core/media/825c5690-78eb-4048-9a47-cd3fc7310b7b.gif)  
   
    This orchestration accepts as input an XML file formatted for the PeopleSoft **Get** method and sends the XML file to the PeopleSoft system. The **Get** method retrieves location information from the PeopleSoft system and returns it to the BizTalk orchestration. The orchestration uses ports to facilitate this communication with the adapter and the PeopleSoft system. The ports you will configure here are for receiving and sending XML files. The outgoing XML file tells the PeopleSoft system that this is a **Get** operation. The incoming XML file returns the location information to the orchestration.  
   
@@ -186,7 +187,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 3. On the **Select a Port Type** page, select **Use an existing Port Type**. For **Available Port Types**, select **PS_Test.LOCATION**, and then click **Next**.  
   
-    ![Image that shows where to select the port type.](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294d-4124-a29d-aeb42bbb107e")  
+    ![Image that shows where to select the port type.](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif)  
   
 4. Click **Next** to go to the **Port Binding** page, and then select the following property values:  
   
@@ -220,7 +221,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 2.  On the left port surface, click **Request** on the **FileOut** port. In the Properties window, expand **Message Type**, expand **Multi-part Message**, and then click **PS_Test.GetResponse**.  
   
-     ![Image that shows select PS_Test.GetResponse.](../core/media/6b844ca3-322a-47b3-8cfd-68652c950752.gif "6b844ca3-322a-47b3-8cfd-68652c950752")  
+    ![Image that shows select PS_Test.GetResponse.](../core/media/6b844ca3-322a-47b3-8cfd-68652c950752.gif)  
   
 3.  Select the **FileIn** port and drag its outgoing send arrow to the incoming converse receive arrow on the **FromDisk** shape.  
   
@@ -228,9 +229,9 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 5.  Rename existing generic message names to more descriptive names to adhere to good application design principles. In Solution Explorer, click the **Orchestration View** tab. Under **Messages**, change the identifier for **Message_1** to **PS_Msg**. Change the identifier for **Message_2** to **PS_Resp**.  
   
-     ![Image that shows the Orchestration View dialog box.](../core/media/5ec92b81-4a55-4d44-a360-78a6aaa64255.gif "5ec92b81-4a55-4d44-a360-78a6aaa64255")  
+     ![Image that shows the Orchestration View dialog box.](../core/media/5ec92b81-4a55-4d44-a360-78a6aaa64255.gif)  
   
-     ![Image that shows the PS_Msg Message properties.](../core/media/04b31c26-73a6-40a6-8d50-39c7c929d6a1.gif "04b31c26-73a6-40a6-8d50-39c7c929d6a1")  
+     ![Image that shows the PS_Msg Message properties.](../core/media/04b31c26-73a6-40a6-8d50-39c7c929d6a1.gif)  
   
 6.  Highlight the **To_PS** send shape and set its **Message** property to **PS_Msg**.  
   
@@ -240,7 +241,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 9. Connect the **From_PS** send shape to the **Response** portion of the **Get** method on the **PeopleSoft_Port** port.  
   
-     ![Image that shows where to the select From_PS send shape.](../core/media/d16e02bc-954c-4aa2-99d6-3fee1222c730.gif "d16e02bc-954c-4aa2-99d6-3fee1222c730")  
+     ![Image that shows where to the select From_PS send shape.](../core/media/d16e02bc-954c-4aa2-99d6-3fee1222c730.gif)  
   
 ## Step 4: Build and Deploy the Project  
  Now the BizTalk project is complete and you can build and deploy it in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
@@ -290,7 +291,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 2. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **Console Root**, expand **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration**, expand **BizTalk Group**, expand **Applications**, right-click **PS_Test** and then click **Configure**.  
   
-    ![Image that shows wher to expand Applications and right-click PS_Test.](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif "e45f4c8b-fc8a-492a-9824-5232eb728d95")  
+    ![Image that shows wher to expand Applications and right-click PS_Test.](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif)  
   
 3. Select **Orchestration_1** and click the **Host** drop-down box. Select **BizTalkServerApplication**.  
   
@@ -298,7 +299,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 5. For **Name**, type `FileInPort`, and then click **OK**. A message box appears stating that you need to designate a receive location. Click **OK**, and then click **New**.  
   
-    ![Image that shows where to type the FileInPort name.](../core/media/298638b6-0eb8-49c4-8a2e-485571d070cf.gif "298638b6-0eb8-49c4-8a2e-485571d070cf")  
+    ![Image that shows where to type the FileInPort name.](../core/media/298638b6-0eb8-49c4-8a2e-485571d070cf.gif)  
   
 6. Type or select the following values for the properties:  
   
@@ -310,11 +311,11 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
     **Receive Pipeline**: **XMLReceive**  
   
-    ![Screenshot that shows where to set the receive location properties.](../core/media/613a5dbc-effe-4827-a72b-d16eef8d0e8a.gif "613a5dbc-effe-4827-a72b-d16eef8d0e8a")  
+    ![Screenshot that shows where to set the receive location properties.](../core/media/613a5dbc-effe-4827-a72b-d16eef8d0e8a.gif)  
   
 7. Click **Configure** and type `C:\LABS\PS_TEST\FILEIN` for **Receive Folder**, and then click **OK** three times.  
   
-    ![Image that shows where to configure the Receive folder.](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")  
+    ![Image that shows where to configure the Receive folder.](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif)  
   
 8. Click **\<None\>** for **PeopleSoft_Port** in the drop-down list.  
   
@@ -364,7 +365,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 16. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console,right-click the **PS_Test** application and then click **Start**.  
   
-     ![Image that shows the BizTalk Server Administration console.](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
+     ![Image that shows the BizTalk Server Administration console.](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif)  
   
 #### Test the orchestration  
   
@@ -385,7 +386,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 3.  In a few seconds, an XML file should appear in the **C:\Labs\PS_Test\FileOut** folder. This should contain the data from the record where the location is AUS01.  
   
-     ![Image that shows contents of the XML file.](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-b200-c3c550079ccb")  
+     ![Image that shows contents of the XML file.](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif)  
   
      This returned record data should match what was returned by the query against the PeopleSoft system in PeopleSoft Lab 1. By comparing the values you obtained in Lab 1, specifically the **Address1** and **Address2** lines, to what is shown here in the **\<LOCATION:ADDRESS1\>** and **\<LOCATION:ADDRESS2\>** fields, you can verify that the **Get** method worked properly.  
   

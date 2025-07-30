@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Execute a JD Edwards OneWorld Sample Query"
 title: "Execute a JD Edwards OneWorld Sample Query"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 
 # Execute a JD Edwards OneWorld Sample Query

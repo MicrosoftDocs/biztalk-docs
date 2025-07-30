@@ -8,7 +8,9 @@ ms.service: biztalk-server
 #ROBOTS:
 ms.reviewer: 
 ms.suite:
-ms.custom: "biztalk-2020"
+ms.custom:
+  - biztalk-2020
+  - sfi-image-nochange
 ---
 
 # Azure Blob storage adapter in BizTalk Server
