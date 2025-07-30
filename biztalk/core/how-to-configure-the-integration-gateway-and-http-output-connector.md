@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: How to Configure the Integration Gateway and HTTP Output Connector"
 title: "How to Configure the Integration Gateway and HTTP Output Connector"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # How to Configure the Integration Gateway and HTTP Output Connector
 Follow these steps to configure the Integration Gateway and HTTP Output Connector.  

@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Step 3: Implement the Connection for the Echo Adapter"
 title: "Step 3: Implement the Connection for the Echo Adapter"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # Step 3: Implement the Connection for the Echo Adapter
 ![Step 3 of 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-3of9.gif "Step_3of9")  

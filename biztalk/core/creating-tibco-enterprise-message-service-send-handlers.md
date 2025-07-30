@@ -1,12 +1,13 @@
 ---
 title: "Create TIBCO EMS send artifacts"
 description: Create the send port, and configure the transport properties to use the TIBCO Enterprise Message Service adapter in BizTalk Server
-ms.custom: ""
 ms.date: "10/23/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # Creating  TIBCO Enterprise Message Service Send Handlers
 This section explains how to set the send port to connect to TIBCO Enterprise Message Service (EMS) and how to include XML in your orchestration to interact with TIBCO EMS at run time.  

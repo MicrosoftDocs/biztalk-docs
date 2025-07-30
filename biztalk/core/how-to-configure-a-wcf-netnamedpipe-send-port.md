@@ -4,6 +4,7 @@ description: Learn how to configure a WCF-NetNamedPipe Send Port in BizTalk Serv
 ms.service: biztalk-server
 ms.topic: how-to
 ms.date: 06/08/2017
+ms.custom: sfi-ropc-nochange
 ---
 
 # Configure a WCF-NetNamedPipe Send Port

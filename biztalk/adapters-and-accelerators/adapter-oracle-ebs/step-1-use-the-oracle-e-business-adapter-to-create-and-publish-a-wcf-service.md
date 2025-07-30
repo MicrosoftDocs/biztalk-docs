@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service"
 title: "Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service"
-ms.custom: ""
 ms.date: "02/28/2025"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service
 ![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")

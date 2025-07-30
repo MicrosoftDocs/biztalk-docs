@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Step 1: Use the Adapter Service Development Wizard to Create the Web Project"
 title: "Step 1: Use the Adapter Service Development Wizard to Create the Web Project"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: how-to
+ms.custom:
+  - sfi-image-nochange
 ---
 # Step 1: Use the Adapter Service Development Wizard to Create the Web Project
 ![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  

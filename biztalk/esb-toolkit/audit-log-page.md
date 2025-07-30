@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Audit Log Page"
 title: "Audit Log Page"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
+ms.custom:
+  - sfi-image-nochange
 ---
 # Audit Log Page
 Figure 1 shows the Audit Log page. This page displays a list of audited events.  

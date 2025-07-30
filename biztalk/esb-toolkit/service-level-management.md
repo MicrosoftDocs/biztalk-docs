@@ -1,12 +1,13 @@
 ---
 description: "Learn more about: Service Level Management"
 title: "Service Level Management"
-ms.custom: ""
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.topic: "article"
+ms.custom:
+  - sfi-image-nochange
 ---
 # Service Level Management
 The AmberPoint SMS Service Level Manager provides visibility into specific performance and availability issues within enterprise-level SOA-based systems. It instruments and tracks the metrics for each Microsoft BizTalk Server receive location and send port. This provides real-time health and status indication, in addition to ongoing performance characterization of these components. Figure 1 shows the display of the metrics associated with a receive location.  
