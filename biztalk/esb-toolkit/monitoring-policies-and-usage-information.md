@@ -9,8 +9,18 @@ ms.topic: concept-article
 ms.custom:
   - sfi-image-nochange
 ---
+
 # Monitoring Policies and Usage Information
-The SOA Service Manager provides a mechanism that allows you to create and edit monitoring policies. For example, Figure 1 shows the screen for applying a policy template and activating monitoring for an application.
+
+The SOA Service Manager provides a mechanism that allows you to create and edit monitoring policies.
+
+> [!NOTE]
+>
+> SOA Service Manager and Workbench products were products from SOA Software, Inc. that 
+> integrated with BizTalk Server. SOA Software rebranded as Akana, and these tools have
+> evolved since that time. For more information, visit the [Akana website](https://go.microsoft.com/fwlink/?LinkId=188559).
+
+For example, Figure 1 shows the screen for applying a policy template and activating monitoring for an application.
 
  ![Monitoring Features](../esb-toolkit/media/ch9-monitoringfeatures.jpg "Ch9-MonitoringFeatures")
 
@@ -32,7 +42,4 @@ The SOA Service Manager provides a mechanism that allows you to create and edit 
 
  **Figure 3**
 
- **The SOA Service Manager showing details of an individual message**
-
-> [!NOTE]
->  SOA Service Manager and Workbench products are products from SOA Software, Inc. that integrate with BizTalk Server. For more information about SOA Software and their products, and to download the latest installation and operational instructions, see the [SOA Software](https://go.microsoft.com/fwlink/?LinkId=188559) Web site.
+ **SOA Service Manager shows details of an individual message**
