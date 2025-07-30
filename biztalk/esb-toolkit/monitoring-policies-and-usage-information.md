@@ -17,8 +17,8 @@ The SOA Service Manager provides a mechanism that allows you to create and edit 
 > [!NOTE]
 >
 > SOA Service Manager and Workbench products were products from SOA Software, Inc. that 
-> integrated with BizTalk Server. SOA Software rebranded as Akana, and these tools have
-> evolved since that time. For more information, visit the [Akana website](https://go.microsoft.com/fwlink/?LinkId=188559).
+> integrated with BizTalk Server. These tools rebranded as Akana, now owned by Perforce,
+> and have evolved since then. For more information, visit the [Perforce website](https://go.microsoft.com/fwlink/?LinkId=188559).
 
 For example, Figure 1 shows the screen for applying a policy template and activating monitoring for an application.
 
