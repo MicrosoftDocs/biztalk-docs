@@ -56,7 +56,7 @@ IEA*1*000000025~
      Open a command prompt and navigate to the solution where you built the **MessageSender** project. Run the following command to send the request message with order quantity more than 100:
 
     ```
-    MessageSender.exe <service bus namespace> owner <issuer key>https://<namespace>.servicebus.appfabriclabs.com/7576ff3d-a0f3-4a46-a4f6-f5be4a50616a/DemoAgreement<path to the sample message> "text/plain"
+    MessageSender.exe <Service-Bus-namespace> owner <issuer-key>https://<namespace>.servicebus.appfabriclabs.com/<generated-GUID>/DemoAgreement <path to the sample message> "text/plain"
     ```
 
 3.  Open SQL Server Management Studio, connect to the database that contains the **SalesOrder** table, and verify that a new record is inserted into the table. Notice the value in the **Qty** column; it must be *121*.
