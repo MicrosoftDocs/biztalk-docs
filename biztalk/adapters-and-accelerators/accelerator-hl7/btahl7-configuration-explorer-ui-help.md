@@ -3,7 +3,7 @@ title: "Use BTAHL7 Configuration Explorer"
 description: Use HL7 accelerator Configuration Explorer to configure Parties, and use the Global Settings
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # BTAHL7 Configuration Explorer UI Help
 How to use the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer, including Parties and the Global Settings.

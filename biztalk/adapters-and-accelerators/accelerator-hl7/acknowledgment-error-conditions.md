@@ -2,7 +2,7 @@
 title: Acknowledgment error conditions
 description: Learn more about acknowledgment error conditions in BizTalk Accelerator for HL7.
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: error-reference
 ms.date: 06/08/2017
 ---
 

@@ -3,7 +3,7 @@ description: "Learn more about: Batch Schedule Tab"
 title: "Batch Schedule Tab"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.batchschedule"
 ---
