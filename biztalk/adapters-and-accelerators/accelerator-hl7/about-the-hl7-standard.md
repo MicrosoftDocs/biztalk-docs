@@ -2,7 +2,7 @@
 title: HL7 standard
 description: Learn more about the HL7 Standard for BizTalk Server.
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/08/2017
 ---
 
