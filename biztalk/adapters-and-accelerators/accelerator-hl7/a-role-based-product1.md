@@ -2,7 +2,7 @@
 title: Role-centric features
 description: Learn more about BizTalk Server as a role-based product.
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/08/2017
 ---
 

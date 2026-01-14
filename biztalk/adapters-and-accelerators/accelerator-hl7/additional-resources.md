@@ -3,7 +3,7 @@ description: "Learn more about: Additional Resources"
 title: "Additional Resources"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Additional Resources
 In addition to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] and MicrosoftBizTalk Server Help, there are additional resources that discuss programming on this platform. For more information about these resources, go to the following Web sites:

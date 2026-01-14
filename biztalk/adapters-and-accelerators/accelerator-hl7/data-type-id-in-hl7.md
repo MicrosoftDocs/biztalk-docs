@@ -3,7 +3,7 @@ description: "Learn more about: Data Type ID in HL7"
 title: "Data Type ID in HL7"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Data Type ID in HL7
 In the case of HL7 V2.1, the data type ID is a placeholder for undefined data types. The following are examples of its usage:  
