@@ -2,7 +2,7 @@
 title: Acknowledgment settings
 description: Learn about acknowledgment settings in BizTalk Server.
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/08/2017
 ---
 # Acknowledgment Settings

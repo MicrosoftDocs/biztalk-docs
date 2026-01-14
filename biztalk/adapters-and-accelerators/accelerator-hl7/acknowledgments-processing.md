@@ -3,7 +3,7 @@ description: "Learn more about: Acknowledgments Processing"
 title: "Acknowledgments Processing"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Acknowledgments Processing
 The HL7 specification supports exchange of messages in two formats:  

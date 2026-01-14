@@ -2,7 +2,7 @@
 title: Acknowledgment tab
 description: Learn more about the Acknowledgment tab in BizTalk Server.
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ms.date: 06/08/2017
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.acknowledgement"
