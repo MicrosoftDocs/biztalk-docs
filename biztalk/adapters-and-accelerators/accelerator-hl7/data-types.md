@@ -3,7 +3,7 @@ description: "Learn more about: Data Types"
 title: "Data Types"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Data Types
 The data type specification is an important tool for partitioning the complexity of the HL7 standard, and is critical to understanding the data contents of an HL7 field. Some data types are simple and contain only one component, and some contain many components and subcomponents. For example, PID.5 Patient Name has the data type XPN in Version 2.4. This data type supports the common subdivisions of an English language name, for example, surname, first name, middle name, as well as suffix, prefix, name type code, and name validity (date) range.  
