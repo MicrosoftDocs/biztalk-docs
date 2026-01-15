@@ -3,7 +3,7 @@ description: "Learn more about: How BizTalk Accelerator for HL7 Works"
 title: "How BizTalk Accelerator for HL7 Works"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # How BizTalk Accelerator for HL7 Works
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provides a health care solution by building on Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. It does so by providing support for health care messages, and adding health care-specific components that tailor the message processing to health care applications.  

@@ -3,7 +3,7 @@ description: "Learn more about: Global Settings Tab"
 title: "Global Settings Tab"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: how-to
+ms.topic: ui-reference
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.globalsettings"
 ---

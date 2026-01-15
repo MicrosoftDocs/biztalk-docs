@@ -3,7 +3,7 @@ description: "Learn more about: Learn the HL7 accelerator and the BizTalk tools 
 title: "Learn the HL7 accelerator and the BizTalk tools available"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Learn the HL7 accelerator and the BizTalk tools available
 Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] is a highly versatile and performant complete health care solution for the exchange of data between health care computer applications based on the Health Level Seven (HL7) standard.  
