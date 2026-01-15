@@ -3,7 +3,7 @@ description: "Learn more about: Help Desk Tab"
 title: "Help Desk Tab"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: ui-reference
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.helpdesk"
 ---

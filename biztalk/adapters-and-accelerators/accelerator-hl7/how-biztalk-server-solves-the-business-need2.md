@@ -3,7 +3,7 @@ description: "Learn how the BizTalk Accelerator for HL7 can solve your health ca
 title: "How BizTalk Server Solves the Business Need2"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # How Microsoft BizTalk Server Solves the Business Need
 

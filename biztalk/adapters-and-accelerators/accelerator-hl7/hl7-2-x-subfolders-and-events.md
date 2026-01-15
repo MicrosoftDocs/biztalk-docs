@@ -3,7 +3,7 @@ description: "Learn more about: HL7 2.X Subfolders and Events"
 title: "HL7 2.X Subfolders and Events"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # HL7 2.X Subfolders and Events
 The following subsections list the subfolders created by the setup wizard for each version of HL7 2.X, and the events within each subfolder.  

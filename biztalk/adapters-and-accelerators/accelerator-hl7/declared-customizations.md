@@ -3,7 +3,7 @@ description: "Learn more about: Declared Customizations"
 title: "Declared Customizations"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Declared Customizations
 With declared customizations, you have the flexibility of modifying or adding to HL7 messages. You can even define a new type of message. You can do this in any of the following ways:  

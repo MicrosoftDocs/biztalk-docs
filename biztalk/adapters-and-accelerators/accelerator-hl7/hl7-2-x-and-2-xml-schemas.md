@@ -3,7 +3,7 @@ description: "Learn more about: HL7 2.X and 2.XML Schemas"
 title: "HL7 2.X and 2.XML Schemas"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # HL7 2.X and 2.XML Schemas
 The HL7 organization publishes two sets of schemas: HL7 2.X schemas, used for HL7-encoded messages, and HL7 2.XML schemas, used for XML-encoded messages.  
