@@ -3,7 +3,7 @@ description: "Learn more about: HL7 2.X Common Schema Files"
 title: "HL7 2.X Common Schema Files"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # HL7 2.X Common Schema Files
 Each HL7 message schema requires common schema files that supply schema definitions for data types, segments, and tables. These common schema files are defined for each version of HL7 2.X. The deployed project in Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] containing the message schema must reference a deployed instance of the common project that contains the three common schemas.  
