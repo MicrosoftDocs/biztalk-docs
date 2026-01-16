@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.bpel.wizard.main
+ms.topic: ui-reference
 ---
 
 # BPEL Import Wizard Pages
