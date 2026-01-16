@@ -3,7 +3,7 @@ description: "Learn more about: Segments Common Schemas"
 title: "Segments Common Schemas"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Segments Common Schemas
 The **segments_\<*version*\>.xsd** file includes datatypes_\<*version*\>.xsd and contains the definition of all the segments related to the HL7 version. Each message schema uses segments_\<*version*\>.xsd. HL7 message definitions are under each subfolder and include segments_\<*version*\>.xsd. The SegmentDataElements and DataElements Access database tables generate the segments_\<*version*\>.xsd file, which includes a pointer to the Fields.xsd schema file for all data types. The schema file name format is:  

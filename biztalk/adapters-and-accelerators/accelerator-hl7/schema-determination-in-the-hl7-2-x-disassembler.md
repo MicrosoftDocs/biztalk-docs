@@ -3,7 +3,7 @@ description: "Learn more about: Schema Determination in the HL7 2.X Disassembler
 title: "Schema Determination in the HL7 2.X Disassembler"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Schema Determination in the HL7 2.X Disassembler
 HL7 2.X messages contain a header segment (MSH), followed by a number of body segments and an optional number of Z segments. MSH contains 21 fields.  

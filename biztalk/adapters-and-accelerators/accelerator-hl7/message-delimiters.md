@@ -3,7 +3,7 @@ description: "Learn more about: Message Delimiters"
 title: "Message Delimiters"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Message Delimiters
 Message events defined by HL7 standards take the following form:  

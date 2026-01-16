@@ -3,7 +3,7 @@ description: "Learn more about: MLLP Transport Properties Dialog Box UI Help"
 title: "MLLP Transport Properties Dialog Box UI Help"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: ui-reference
 f1_keywords: 
   - "btahl7.mllp.transportproperties"
 ---

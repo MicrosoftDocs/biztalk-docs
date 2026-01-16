@@ -3,7 +3,7 @@ description: "Learn more about: Schema Determination in the HL7 2.X Assembler"
 title: "Schema Determination in the HL7 2.X Assembler"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Schema Determination in the HL7 2.X Assembler
 When a message flows to the serializer, the serializer in Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) uses MSH5 (destination party) of the message to determine the operations to be performed on the message. Such operations include:  

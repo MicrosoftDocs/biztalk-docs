@@ -3,7 +3,7 @@ description: "Learn more about: MllpReceive Tool"
 title: "MllpReceive Tool"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # MllpReceive Tool
 You can use the MllpReceive tool to receive data from an MLLP send port.  
