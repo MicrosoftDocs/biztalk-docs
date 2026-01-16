@@ -10,6 +10,7 @@ mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.ediagreement.batchschedule
 - bts10.edir2.EDI.party.batches.scheduler
+ms.topic: ui-reference
 ---
 
 # Batch Schedule Page
