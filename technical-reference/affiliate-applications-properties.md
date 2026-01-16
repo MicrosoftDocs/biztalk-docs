@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb727828(v=BTS.80)
 ms:contentKeyID: 51527868
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: how-to
 ---
 
 # Affiliate Applications Properties
