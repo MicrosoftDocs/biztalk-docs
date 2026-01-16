@@ -3,7 +3,7 @@ description: "Learn more about: The Need for Health Care Systems Integration"
 title: "The Need for Health Care Systems Integration"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # The Need for Health Care Systems Integration
 Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] provides health care providers with solutions for their application integration and business-process automation needs. This topic describes some of the business challenges that health care organizations face, and how systems incorporating Microsoft [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] can help those organizations meet those challenges. Also take a look at a common scenario demonstrating a sample business scenario with [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)].  

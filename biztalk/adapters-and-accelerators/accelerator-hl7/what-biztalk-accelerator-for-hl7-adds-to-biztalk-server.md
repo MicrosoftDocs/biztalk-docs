@@ -3,7 +3,7 @@ description: "Learn more about: What BizTalk Accelerator for HL7 Adds to BizTalk
 title: "What BizTalk Accelerator for HL7 Adds to BizTalk Server"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # What BizTalk Accelerator for HL7 Adds to BizTalk Server
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) builds a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] integration system into a health care integration system. It adds functionality that health care organizations require.  

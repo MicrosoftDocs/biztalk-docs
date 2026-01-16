@@ -2,7 +2,7 @@
 title: BizTalk Server code samples
 description: Download BizTalk Server sample collections, or browse individual samples.
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: sample
 ms.date: 09/25/2023
 ---
 # BizTalk Server Code Samples

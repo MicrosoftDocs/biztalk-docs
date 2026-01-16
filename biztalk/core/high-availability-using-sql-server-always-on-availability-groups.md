@@ -6,7 +6,7 @@ ms.date: 01/14/2020
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: article
+ms.topic: concept-article
 ---
 # High Availability using SQL Server Always On Availability Groups - BizTalk Server
 

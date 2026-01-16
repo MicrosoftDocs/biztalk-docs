@@ -3,7 +3,7 @@ description: "Learn more about: Undeclared Customizations"
 title: "Undeclared Customizations"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Undeclared Customizations
 You can add data to a message without defining the format or nature of the data. You do so by using undeclared Z segments. Undeclared Z segments are unexpected instances at the end of a message. The parser/XML validator does not validate the segment. It is not defined by any schema. Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) treats the segment as a binary large object (BLOB).  

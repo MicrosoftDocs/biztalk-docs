@@ -2,7 +2,7 @@
 title: Other Resources
 description: Learn more about other resources for BizTalk Server.
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/08/2017
 ---
 

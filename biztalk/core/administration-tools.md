@@ -6,7 +6,7 @@ ms.date: 01/10/2020
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: article
+ms.topic: concept-article
 ---
 # Administrative and performance tools
 

@@ -3,7 +3,7 @@ description: "Learn more about: Validation Settings"
 title: "Validation Settings"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # Validation Settings
 Using [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], you can validate your messages against the HL7 standard. [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] ensures that the messages you send or receive have a message structure and body segment that conforms to the HL7 standard. You can also validate HL7 supported custom data types, and allow trailing delimiters. You use the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer **Validation** tab to configure validation.  
