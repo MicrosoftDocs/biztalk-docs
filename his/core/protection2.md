@@ -2,7 +2,7 @@
 title: DRDA service security
 description: Learn about security and protection for the Distributed Relational Database Architecture (DRDA) service, including authentication methods and encryption options.
 ms.service: host-integration-server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/30/2017
 
 ##CustomerIntent: As an IT professional, I want to learn about security options to protect the DRDA service.
