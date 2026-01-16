@@ -3,7 +3,7 @@ description: "Learn more about: MllpSend Tool"
 title: "MllpSend Tool"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: how-to
 ---
 # MllpSend Tool
 You can use the MllpSend tool to send data to an MLLP receive location.  

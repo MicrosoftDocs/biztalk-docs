@@ -3,7 +3,7 @@ description: "Learn more about: MLLP Receive Adapter Processing"
 title: "MLLP Receive Adapter Processing"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # MLLP Receive Adapter Processing
 The Minimal Lower Layer Protocol (MLLP) receive adapter supports both one-way and two-way request response modes. The adapter listens and accepts connections.  

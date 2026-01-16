@@ -3,7 +3,7 @@ title: "Parties tab in the HL7 accelerator in BizTalk Server| Microsoft Docs"
 description: Use the BTAHL7 Configuration Explorer to view existing parties, and configure acknowledgments in BizTalk Server
 ms.date: "08/14/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Parties in BTAHL7 Configuration Explorer
 You use the **Parties** tab to view the available parties and specify [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] configuration for a particular party that you choose, and to configure properties for acknowledgments. 

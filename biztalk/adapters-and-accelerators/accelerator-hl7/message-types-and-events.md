@@ -3,7 +3,7 @@ description: "Learn more about: Message Types and Events"
 title: "Message Types and Events"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Message Types and Events
 The HL7 standard has grouped messages that relate to a particular grouping of real-world events together as *message type* ADT. These messages involve trigger events, such as patient administration. Version 2.4 of the HL7 standard defines more than 100 message types, each of which the HL7 organization has assigned a unique three-character message type code. As versions of the HL7 standard have evolved, the HL7 organization has added new message types to provide new capabilities.  

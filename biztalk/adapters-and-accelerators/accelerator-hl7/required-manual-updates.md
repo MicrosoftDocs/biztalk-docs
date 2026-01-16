@@ -3,7 +3,7 @@ description: "Learn more about: Required Manual Updates"
 title: "Required Manual Updates"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Required Manual Updates
 After the Update2XMLSchema tool transforms the HL7 schemas into versions that [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] can use, you must manually update some fields of the resulting schemas.  
