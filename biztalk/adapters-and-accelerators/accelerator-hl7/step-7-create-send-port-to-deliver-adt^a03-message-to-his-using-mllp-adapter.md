@@ -3,7 +3,7 @@ description: "Learn more about: Step 7: Create a Send Port to Deliver the ADT^A0
 title: "Step 7: Create a Send Port to Deliver the ADT^A03 Message to HIS Using the MLLP Adapter"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: tutorial
 ---
 # Step 7: Create a Send Port to Deliver the ADT^A03 Message to HIS Using the MLLP Adapter
 In this step, you create the send port to send the message to the Hospital Information System (HIS) using the MLLP adapter.  

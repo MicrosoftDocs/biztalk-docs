@@ -3,7 +3,7 @@ description: "Learn more about: Update, repair, or uninstall BizTalk Accelerator
 title: "Update, repair, or uninstall BizTalk Accelerator for HL7"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: install-set-up-deploy
 ---
 # Update, repair, or uninstall BizTalk Accelerator for HL7
 

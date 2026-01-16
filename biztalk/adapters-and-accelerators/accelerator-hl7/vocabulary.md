@@ -3,7 +3,7 @@ description: "Learn more about: Vocabulary"
 title: "Vocabulary"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Vocabulary
 HL7 Version 2 provides some support for vocabularies for coded elements, but for the most part, provides a structure that transmits codes drawn from local coding systems.  

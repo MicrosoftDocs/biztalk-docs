@@ -3,7 +3,7 @@ description: "Learn more about: Systems Integration with BizTalk Server"
 title: "HL7 Systems Integration"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Systems Integration with Microsoft BizTalk Server
 Microsoft BizTalk Server is an integration server designed for eBusiness applications. It is built on the  Windows Server, SQL Server, and SharePoint, and leverages the functionality of  Visual Studio. This technology stack provides a range of functionality and features for developing, implementing, operating, and maintaining your solution.  

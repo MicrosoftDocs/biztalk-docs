@@ -3,7 +3,7 @@ title: "Error - The output XML Type Blob is stored in the following file (&lt;fi
 description: "Learn more about the message 'Error - The output XML Type Blob is stored in the following file (&lt;file:---{0}&gt;). Error: {1}'"
 ms.date: 06/08/2017
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: error-reference
 ---
 
 # Error - The output XML Type Blob is stored in the following file (&lt;file:---{0}&gt;). Error: {1}

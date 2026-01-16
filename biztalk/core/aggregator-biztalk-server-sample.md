@@ -2,7 +2,7 @@
 title: Aggregator sample
 description: Learn about the Aggregator sample for BizTalk Server.
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: sample
 ms.date: 06/08/2017
 ---
 
