@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.edir2.status.AS2
+ms.topic: ui-reference
 ---
 
 # AS2 Message and Correlated MDN Status Page UI

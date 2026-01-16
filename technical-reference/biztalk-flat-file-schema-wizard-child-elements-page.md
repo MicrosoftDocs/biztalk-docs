@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.ffwizard.childelements
+ms.topic: ui-reference
 ---
 
 # BizTalk Flat File Schema Wizard, Child Elements Page
