@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa547865(v=BTS.80)
 ms:contentKeyID: 51531011
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference 
 ---
 
 # 10^n Functoid
