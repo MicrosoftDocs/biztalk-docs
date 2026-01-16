@@ -6,7 +6,7 @@ ms.date: 06/08/2017
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: article
+ms.topic: concept-article
 ---
 # Appendix B: Hyper-V Architecture and Feature Overview
 This topic provides an overview of Hyper-V architecture, describes advantages and disadvantages of Hyper-V.  

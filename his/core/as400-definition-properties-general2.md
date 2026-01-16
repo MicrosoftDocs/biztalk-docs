@@ -2,7 +2,7 @@
 title: IBM i general definition properties
 description: Learn more about general definition properties for IBM i.
 ms.service: host-integration-server
-ms.topic: article
+ms.topic: how-to
 ms.date: 11/28/2023
 ---
 
