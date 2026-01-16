@@ -10,6 +10,7 @@ mtps_version: v=BTS.80
 f1_keywords:
 - VS.chooseitems.BizTalk_Pipeline_Components
 - bts10.pipelines.toolbox.customize
+ms.topic: ui-reference
 ---
 
 # Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab

@@ -10,6 +10,7 @@ mtps_version: v=BTS.80
 f1_keywords:
 - VS.chooseitems.Functoids
 - bts10.mapper.toolbox
+ms.topic: ui-reference
 ---
 
 # Choose Toolbox Items Dialog Box, BizTalk Mapper Functoids Tab
