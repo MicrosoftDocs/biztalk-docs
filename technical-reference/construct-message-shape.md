@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.orch.shape.message.construct
+ms.topic: ui-reference 
 ---
 
 # Construct Message Shape
