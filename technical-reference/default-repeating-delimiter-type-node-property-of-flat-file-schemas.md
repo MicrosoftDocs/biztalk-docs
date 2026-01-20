@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa558797(v=BTS.80)
 ms:contentKeyID: 51526475
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Default Repeating Delimiter Type (Node Property of Flat File Schemas)
