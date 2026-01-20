@@ -8,6 +8,7 @@ ms:contentKeyID: 51525949
 ms.date: 12/27/2019
 ms.custom: biztalk-2020
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Grid Properties
