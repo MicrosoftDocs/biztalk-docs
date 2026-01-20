@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb743587(v=BTS.80)
 ms:contentKeyID: 51529769
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: how-to
 ---
 
 # EDI Design-Time XML Tools UI Help

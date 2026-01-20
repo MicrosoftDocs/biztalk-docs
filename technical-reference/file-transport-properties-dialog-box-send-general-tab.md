@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adaptors.file.transport.send.general
+ms.topic: ui-reference
 ---
 
 # File Transport Properties Dialog Box, Send, General Tab
