@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa558767(v=BTS.80)
 ms:contentKeyID: 51526458
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Group Max Occurs (Node Property of All Schemas)

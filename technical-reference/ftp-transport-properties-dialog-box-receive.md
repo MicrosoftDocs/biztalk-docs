@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adaptors.ftp.transport.props1
+ms.topic: ui-reference
 ---
 
 # FTP Transport Properties Dialog Box, Receive
