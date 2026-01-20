@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.mapper.functoid.inputs
+ms.topic: ui-reference
 ---
 
 # Configure \<Functoid\> Functoid Dialog Box
