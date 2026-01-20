@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb743688(v=BTS.80)
 ms:contentKeyID: 51531494
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: how-to
 ---
 
 # Create New Affiliate Application Wizard
