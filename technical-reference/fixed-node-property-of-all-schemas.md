@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa560089(v=BTS.80)
 ms:contentKeyID: 51527939
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Fixed (Node Property of All Schemas)

@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - Microsoft.BizTalk.Component.FFAsmComp
+ms.topic: ui-reference
 ---
 
 # Flat File Assembler Pipeline Component Properties
