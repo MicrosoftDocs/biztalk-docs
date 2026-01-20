@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg162775(v=BTS.80)
 ms:contentKeyID: 51525931
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: how-to
 ---
 
 # Create New Password Sync Adapter Wizard: Advanced Filter

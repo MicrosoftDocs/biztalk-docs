@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb728006(v=BTS.80)
 ms:contentKeyID: 51530536
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: how-to
 ---
 
 # Create New Password Sync Adapter Wizard
