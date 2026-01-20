@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-custom.handler.receive.extensions
+ms.topic: ui-reference
 ---
 
 # \<Host Name\> Properties Dialog Box, WCF Extensions Tab (WCF-Custom or WCF-CustomIsolated Adapter Receive Handler)

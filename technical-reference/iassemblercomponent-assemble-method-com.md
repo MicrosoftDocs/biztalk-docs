@@ -10,6 +10,7 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IAssemblerComponent.Assemble Method (COM)
