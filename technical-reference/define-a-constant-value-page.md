@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.bre.constants
+ms.topic: ui-reference
 ---
 
 # Define a Constant Value Page

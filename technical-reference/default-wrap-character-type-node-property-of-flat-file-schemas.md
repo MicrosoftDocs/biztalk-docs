@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578478(v=BTS.80)
 ms:contentKeyID: 51531321
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Default Wrap Character Type (Node Property of Flat File Schemas)
