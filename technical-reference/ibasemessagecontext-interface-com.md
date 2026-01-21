@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578256(v=BTS.80)
 ms:contentKeyID: 51530692
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IBaseMessageContext Interface (COM)
