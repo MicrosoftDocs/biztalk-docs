@@ -12,7 +12,6 @@ ms.topic: reference
 
 # IDocumentSpec Properties (COM)
 
-Â 
 
 The properties of the **IDocumentSpec** interface are listed here. For a complete list of **IDocumentSpec** interface members, see the [IDocumentSpec Members (COM)](idocumentspec-members-com.md) topic.
 
