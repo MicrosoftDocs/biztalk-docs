@@ -12,7 +12,6 @@ ms.topic: reference
 
 # Imports (Node Property of All Schemas)
 
-Â 
 
 Use the **Imports** property to use structure definitions provided by other schemas within the schema you are editing using the XSD include, import, and redefine mechanisms, and to examine the default namespaces and namespace prefixes associated with the schema being edited.
 

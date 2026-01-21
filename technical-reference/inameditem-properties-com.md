@@ -12,7 +12,6 @@ ms.topic: reference
 
 # INamedItem Properties (COM)
 
-Â 
 
 The properties of the **INamedItem** interface are listed here. For a complete list of **INamedItem** interface members, see the [INamedItem Members](inameditem-members-com.md).
 

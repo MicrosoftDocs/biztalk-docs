@@ -12,7 +12,6 @@ ms.topic: reference
 
 # Import Settings Wizard UI Help
 
-Â 
 
 This section provides instructions for the Import Settings Wizard. You access this information by pressing the F1 key or clicking **Help** in the Wizard.
 
