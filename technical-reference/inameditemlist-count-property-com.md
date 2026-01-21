@@ -15,7 +15,6 @@ ms.topic: reference
 
 # INamedItemList.Count Property (COM)
 
-Â 
 
 Gets the number of items in the list.
 
@@ -78,7 +77,7 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**Â Â Windows
+**Platforms:**  Windows
 
 ## See Also
 

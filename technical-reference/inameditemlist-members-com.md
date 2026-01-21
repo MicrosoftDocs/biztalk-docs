@@ -12,7 +12,6 @@ ms.topic: reference
 
 # INamedItemList Members (COM)
 
-Â 
 
 [INamedItemList overview](inameditemlist-interface-com.md)
 
@@ -21,7 +20,7 @@ ms.topic: reference
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Count property."/>Â <a href="inameditemlist-count-property-com.md">Count</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Count property."/> <a href="inameditemlist-count-property-com.md">Count</a></td>
 <td>Gets the number of items in the list.</td>
 </tr>
 </tbody>
@@ -33,7 +32,7 @@ ms.topic: reference
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetItem method."/>Â <a href="inameditemlist-getitem-method-com.md">GetItem</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetItem method."/> <a href="inameditemlist-getitem-method-com.md">GetItem</a></td>
 <td>Accesses the items in the list.</td>
 </tr>
 </tbody>

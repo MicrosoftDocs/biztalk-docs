@@ -20,11 +20,11 @@ The properties of the **INamedItem** interface are listed here. For a complete l
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Name property in the INamedItem interface." />Â <a href="inameditem-name-property-com.md">Name</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Name property in the INamedItem interface." /> <a href="inameditem-name-property-com.md">Name</a></td>
 <td>Gets the name of the item.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Value property in the INamedItem interface." />Â <a href="inameditem-value-property-com.md">Value</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Value property in the INamedItem interface." /> <a href="inameditem-value-property-com.md">Value</a></td>
 <td>Gets the value of the item.</td>
 </tr>
 </tbody>

@@ -12,7 +12,6 @@ ms.topic: reference
 
 # INamedItemList Interface (COM)
 
-Â 
 
 Defines methods and properties used in accessing document schemas from managed and unmanaged code.
 
@@ -20,7 +19,7 @@ For a list of all members of this type, see [INamedItemList Members (COM)](iname
 
 ## Requirements
 
-**Platforms:**Â Â Windows
+**Platforms:**  Windows
 
 ## See Also
 
