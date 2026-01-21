@@ -12,7 +12,6 @@ ms.topic: reference
 
 # IOneWayAsyncTxn Interface
 
-Â 
 
 The **IOneWayAsync** interface is used for the WCF-NetMsmq one-way transactional receive locations. The WCF adapters asynchronously process messages incoming through this interface.
 

@@ -15,7 +15,6 @@ ms.topic: reference
 
 # IPipelineContext.ComponentIndex Property (COM)
 
-Â 
 
 Gets the index of the current component in the stage.
 
@@ -78,7 +77,7 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**Â Â Windows
+**Platforms:**  Windows
 
 ## See Also
 

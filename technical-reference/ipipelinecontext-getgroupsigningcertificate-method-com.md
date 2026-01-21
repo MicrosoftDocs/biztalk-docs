@@ -15,7 +15,6 @@ ms.topic: reference
 
 # IPipelineContext.GetGroupSigningCertificate Method (COM)
 
-Â 
 
 Get access to the helper interface to work with BizTalk Server message objects.
 

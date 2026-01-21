@@ -12,7 +12,6 @@ ms.topic: reference
 
 # IOneWayAsyncTxn.BizTalkSubmit Method
 
-Â 
 
 Causes the runtime to create WSDL operations in the metadata. This method should never get invoked.
 

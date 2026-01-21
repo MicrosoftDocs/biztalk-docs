@@ -15,7 +15,6 @@ ms.topic: reference
 
 # IPipelineContext.GetDocumentSpecByName Method (COM)
 
-Â 
 
 Gets the [IDocumentSpec](idocumentspec-interface-com.md) object for the specified document name.
 
@@ -83,7 +82,7 @@ This method indicates errors by setting the **Number** property of the global **
 
 ## Requirements
 
-**Platforms:**Â Â Windows
+**Platforms:**  Windows
 
 ## See Also
 

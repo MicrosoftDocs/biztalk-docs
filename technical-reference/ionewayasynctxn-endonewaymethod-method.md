@@ -12,7 +12,6 @@ ms.topic: reference
 
 # IOneWayAsyncTxn.EndOneWayMethod Method
 
-Â 
 
 \<End\> method corresponding to **BeginTwoWayMethod** for the asynchronous operation implementation.
 
