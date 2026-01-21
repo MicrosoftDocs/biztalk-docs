@@ -12,7 +12,6 @@ ms.topic: reference
 
 # Integer Functoid
 
-Â 
 
 Use the **Integer** functoid ( ![Icon that represents the Integer functoid.](images/Aa560329.93d37f07-a527-4d12-8872-d7856e652c34(BTS.80).jpeg)) to return the integer portion of a numeric input parameter.
 
