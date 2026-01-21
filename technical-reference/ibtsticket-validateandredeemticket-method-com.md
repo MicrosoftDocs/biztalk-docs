@@ -8,7 +8,6 @@ ms:contentKeyID: 51531108
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
 ms.topic: reference
-ms.topic: reference
 dev_langs:
 - csharp
 - c++
