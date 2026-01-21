@@ -9,7 +9,6 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 ms.topic: reference
 ms.topic: reference
-ms.topic: reference
 ---
 
 # IBTBatchTransmitter Interface (COM)
