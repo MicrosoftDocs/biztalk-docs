@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.edir2.status.interchange.aggregation
+ms.topic: ui-reference
 ---
 
 # Interchange Aggregation Report Page UI
