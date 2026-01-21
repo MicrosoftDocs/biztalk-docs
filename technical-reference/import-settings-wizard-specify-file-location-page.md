@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import Settings Wizard, Specify File Location Page"
 title: Import Settings Wizard, Specify File Location Page
 TOCTitle: Import Settings Wizard, Specify File Location Page
@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - Bts10.settings.ImportFile
+ms.topic: reference
 ---
 
 # Import Settings Wizard, Specify File Location Page
 
- 
+Â 
 
 Use the **Specify File Location** tab to specify the XML file that contains the export settings of the source environment you want to import to the destination environment.
 

@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import Settings Wizard, Import Summary Page"
 title: Import Settings Wizard, Import Summary Page
 TOCTitle: Import Settings Wizard, Import Summary Page
@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - Bts10.settings.ImportSummary
+ms.topic: reference
 ---
 
 # Import Settings Wizard, Import Summary Page
 
- 
+Â 
 
 Use the **Import Summary** tab to verify if all the import settings for destination and source environments you created are as desired.
 

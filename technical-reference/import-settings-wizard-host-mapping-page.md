@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import Settings Wizard, Host Mapping Page"
 title: Import Settings Wizard, Host Mapping Page
 TOCTitle: Import Settings Wizard, Host Mapping Page
@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - Bts10.settings.ImportHostMap
+ms.topic: reference
 ---
 
 # Import Settings Wizard, Host Mapping Page
 
- 
+Â 
 
 Use the **Host Mapping** tab to map the source host to the destination host. You can map a single source host to multiple destination hosts.
 

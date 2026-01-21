@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import BAM Activity Definition Dialog Box"
 title: Import BAM Activity Definition Dialog Box
 TOCTitle: Import BAM Activity Definition Dialog Box
@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.tpe.selectassembly1
+ms.topic: reference
 ---
 
 # Import BAM Activity Definition Dialog Box
 
- 
+Â 
 
 Use the **Import BAM Activity Definition** dialog box to select the activity for which you want to create a tracking profile from the list of BAM activities deployed in the BizTalk Management database (also known as the Configuration database).
 

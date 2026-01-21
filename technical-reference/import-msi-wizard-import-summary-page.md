@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import MSI Wizard, Import Summary Page"
 title: Import MSI Wizard, Import Summary Page
 TOCTitle: Import MSI Wizard, Import Summary Page
@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.appdeploy.app.import.summary
+ms.topic: reference
 ---
 
 # Import MSI Wizard, Import Summary Page
 
- 
+Â 
 
 Use the **Import Summary** page to verify the selections you have made. To change a selection, click **Back**; otherwise, click **Import** to initiate the import process.
 

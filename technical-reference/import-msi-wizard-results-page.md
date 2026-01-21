@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import MSI Wizard, Results Page"
 title: Import MSI Wizard, Results Page
 TOCTitle: Import MSI Wizard, Results Page
@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.appdeploy.app.import.results
+ms.topic: reference
 ---
 
 # Import MSI Wizard, Results Page
 
- 
+Â 
 
 This is the final page of the Import Wizard. If the import operation was successful, this page provides the option to install the application on the local computer. It is not necessary to install the application on this computer, unless you plan to run the application on it. Before the application can begin functioning, however, you must install the application on the computers that will run it and also start the application from within the BizTalk Administration console.
 

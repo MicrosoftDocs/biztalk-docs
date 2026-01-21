@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IDocumentSpec Interface (COM)"
 title: IDocumentSpec Interface (COM)
 TOCTitle: IDocumentSpec Interface (COM)
@@ -7,11 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa559883(v=BTS.80)
 ms:contentKeyID: 51527741
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IDocumentSpec Interface (COM)
 
- 
+Â 
 
 Encapsulates a top-level element in an XML Schema definition (XSD) schema. Also defines a set of associated actions.
 

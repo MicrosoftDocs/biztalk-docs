@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: INamedItemList Methods (COM)"
 title: INamedItemList Methods (COM)
 TOCTitle: INamedItemList Methods (COM)
@@ -7,11 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa562101(v=BTS.80)
 ms:contentKeyID: 51533649
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # INamedItemList Methods (COM)
 
- 
+Â 
 
 The methods of the **INamedItemList** interface are listed here. For a complete list of **INamedItemList** interface members, see the [INamedItemList Members](inameditemlist-members-com.md) topic.
 
@@ -20,7 +21,7 @@ The methods of the **INamedItemList** interface are listed here. For a complete 
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetItem method."/> <a href="inameditemlist-getitem-method-com.md">GetItem</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetItem method."/>Â <a href="inameditemlist-getitem-method-com.md">GetItem</a></td>
 <td>Accesses the items in the list.</td>
 </tr>
 </tbody>

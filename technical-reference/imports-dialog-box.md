@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Imports Dialog Box"
 title: Imports Dialog Box
 TOCTitle: Imports Dialog Box
@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.editor.imports
+ms.topic: reference
 ---
 
 # Imports Dialog Box
 
- 
+Â 
 
 Use the **Imports** dialog box to add XSD **import**, **include**, or **redefine** directives to your schema, enabling it to use and redefine schema definitions from another XSD schema.
 
@@ -36,7 +37,7 @@ Use the **Imports** dialog box to add XSD **import**, **include**, or **redefine
 <tr class="odd">
 <td><strong>Delete schema button</strong><br />
 <br />
- <img src="images/Aa561606.4bd6c6e7-93bf-4cdd-b1b2-8bd460a48dd9(BTS.80).jpeg" alt="Icon that represents the Delete schema button."/></td>
+Â <img src="images/Aa561606.4bd6c6e7-93bf-4cdd-b1b2-8bd460a48dd9(BTS.80).jpeg" alt="Icon that represents the Delete schema button."/></td>
 <td>Remove a previously imported, included, or redefined schema.<br />
 <br />
 This button is unavailable for any automatically imported schemas, such as XMLSchema from w3.org.</td>
@@ -44,7 +45,7 @@ This button is unavailable for any automatically imported schemas, such as XMLSc
 <tr class="even">
 <td><strong>Edit namespace prefix button</strong><br />
 <br />
- <img src="images/Aa561606.b88dbfbf-1547-4bdf-9d0b-3d9d55ae4fe2(BTS.80).jpeg" alt="Icon that represents the Edit namespace prefix button."/></td>
+Â <img src="images/Aa561606.b88dbfbf-1547-4bdf-9d0b-3d9d55ae4fe2(BTS.80).jpeg" alt="Icon that represents the Edit namespace prefix button."/></td>
 <td>Edit (in place) the automatically generated namespace prefix associated with any schema that you have imported, included, or redefined.<br />
 <br />
 You can also edit the prefix by double-clicking the prefix entry.</td>

@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: INamedItemList.GetItem Method (COM)"
 title: INamedItemList.GetItem Method (COM)
 TOCTitle: INamedItemList.GetItem Method (COM)
@@ -10,11 +10,12 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # INamedItemList.GetItem Method (COM)
 
- 
+Â 
 
 Accesses the items in the list.
 
@@ -82,7 +83,7 @@ This method indicates errors by setting the **Number** property of the global **
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**Â Â Windows
 
 ## See Also
 

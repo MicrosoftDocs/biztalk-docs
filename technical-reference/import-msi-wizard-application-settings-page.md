@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import MSI Wizard, Application Settings Page"
 title: Import MSI Wizard, Application Settings Page
 TOCTitle: Import MSI Wizard, Application Settings Page
@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.appdeploy.app.import.settings
+ms.topic: reference
 ---
 
 # Import MSI Wizard, Application Settings Page
 
- 
+Â 
 
 Use the **Application Settings** page to view or select the application into which the .msi file will be imported, view the references required by the application, and select the applications, if any, to which you want to add a reference.
 

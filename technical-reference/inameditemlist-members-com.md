@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: INamedItemList Members (COM)"
 title: INamedItemList Members (COM)
 TOCTitle: INamedItemList Members (COM)
@@ -7,11 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578665(v=BTS.80)
 ms:contentKeyID: 51531594
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # INamedItemList Members (COM)
 
- 
+Â 
 
 [INamedItemList overview](inameditemlist-interface-com.md)
 
@@ -20,7 +21,7 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Count property."/> <a href="inameditemlist-count-property-com.md">Count</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Count property."/>Â <a href="inameditemlist-count-property-com.md">Count</a></td>
 <td>Gets the number of items in the list.</td>
 </tr>
 </tbody>
@@ -32,7 +33,7 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetItem method."/> <a href="inameditemlist-getitem-method-com.md">GetItem</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetItem method."/>Â <a href="inameditemlist-getitem-method-com.md">GetItem</a></td>
 <td>Accesses the items in the list.</td>
 </tr>
 </tbody>

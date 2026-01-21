@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IDocumentSpec Methods (COM)"
 title: IDocumentSpec Methods (COM)
 TOCTitle: IDocumentSpec Methods (COM)
@@ -7,11 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561048(v=BTS.80)
 ms:contentKeyID: 51529246
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IDocumentSpec Methods (COM)
 
- 
+Â 
 
 The methods of the **IDocumentSpec** interface are listed here. For a complete list of **IDocumentSpec** interface members, see the [IDocumentSpec Members (COM)](idocumentspec-members-com.md) topic.
 
@@ -20,15 +21,15 @@ The methods of the **IDocumentSpec** interface are listed here. For a complete l
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetBodyPath Method (COM) method."/> <a href="idocumentspec-getbodypath-method-com.md">IDocumentSpec.GetBodyPath Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetBodyPath Method (COM) method."/>Â <a href="idocumentspec-getbodypath-method-com.md">IDocumentSpec.GetBodyPath Method (COM)</a></td>
 <td>Returns the XML Path (XPath) to the node in the document where the body part begins.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM) method."/> <a href="idocumentspec-getpropertyannotationenumerator-method-com.md">IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM) method."/>Â <a href="idocumentspec-getpropertyannotationenumerator-method-com.md">IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)</a></td>
 <td>Gets the property annotation.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetSchemaCollection Method (COM) method."/> <a href="idocumentspec-getschemacollection-method-com.md">IDocumentSpec.GetSchemaCollection Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetSchemaCollection Method (COM) method."/>Â <a href="idocumentspec-getschemacollection-method-com.md">IDocumentSpec.GetSchemaCollection Method (COM)</a></td>
 <td>Do not use; this method has been deprecated.</td>
 </tr>
 </tbody>

@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IDocumentSpec Members (COM)"
 title: IDocumentSpec Members (COM)
 TOCTitle: IDocumentSpec Members (COM)
@@ -7,11 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561506(v=BTS.80)
 ms:contentKeyID: 51532867
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IDocumentSpec Members (COM)
 
- 
+Â 
 
 [IDocumentSpec Interface (COM)](idocumentspec-interface-com.md)
 
@@ -20,11 +21,11 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the DocSpecName property."/> <a href="idocumentspec-docspecname-property-com.md">DocSpecName</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the DocSpecName property."/>Â <a href="idocumentspec-docspecname-property-com.md">DocSpecName</a></td>
 <td>Gets the specification name of the current document.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the DocType property."/> <a href="idocumentspec-doctype-property-com.md">DocType</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the DocType property."/>Â <a href="idocumentspec-doctype-property-com.md">DocType</a></td>
 <td>Gets the type of the document.</td>
 </tr>
 </tbody>
@@ -36,15 +37,15 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetBodyPath method."/> <a href="idocumentspec-getbodypath-method-com.md">GetBodyPath</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetBodyPath method."/>Â <a href="idocumentspec-getbodypath-method-com.md">GetBodyPath</a></td>
 <td>Returns the XML Path (XPath) to the node in the document where the body part begins.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetPropertyAnnotationEnumerator method."/> <a href="idocumentspec-getpropertyannotationenumerator-method-com.md">GetPropertyAnnotationEnumerator</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetPropertyAnnotationEnumerator method."/>Â <a href="idocumentspec-getpropertyannotationenumerator-method-com.md">GetPropertyAnnotationEnumerator</a></td>
 <td>Gets the property annotation.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetSchemaCollection method."/> <a href="idocumentspec-getschemacollection-method-com.md">GetSchemaCollection</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetSchemaCollection method."/>Â <a href="idocumentspec-getschemacollection-method-com.md">GetSchemaCollection</a></td>
 <td>Do not use; this method has been deprecated.</td>
 </tr>
 </tbody>

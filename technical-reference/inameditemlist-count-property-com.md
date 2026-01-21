@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: INamedItemList.Count Property (COM)"
 title: INamedItemList.Count Property (COM)
 TOCTitle: INamedItemList.Count Property (COM)
@@ -10,11 +10,12 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # INamedItemList.Count Property (COM)
 
- 
+Â 
 
 Gets the number of items in the list.
 
@@ -77,7 +78,7 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**Â Â Windows
 
 ## See Also
 

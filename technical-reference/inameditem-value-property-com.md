@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: INamedItem.Value Property (COM)"
 title: INamedItem.Value Property (COM)
 TOCTitle: INamedItem.Value Property (COM)
@@ -10,11 +10,12 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # INamedItem.Value Property (COM)
 
- 
+Â 
 
 Gets the value of the item.
 
@@ -77,7 +78,7 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**Â Â Windows
 
 ## See Also
 
