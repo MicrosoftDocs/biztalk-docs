@@ -7,6 +7,9 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561794(v=BTS.80)
 ms:contentKeyID: 51533238
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
+ms.topic: reference
+ms.topic: reference
 ---
 
 # IBTTransmitter Members (COM)
