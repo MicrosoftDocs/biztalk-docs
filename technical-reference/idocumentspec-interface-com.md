@@ -12,7 +12,6 @@ ms.topic: reference
 
 # IDocumentSpec Interface (COM)
 
-Â 
 
 Encapsulates a top-level element in an XML Schema definition (XSD) schema. Also defines a set of associated actions.
 

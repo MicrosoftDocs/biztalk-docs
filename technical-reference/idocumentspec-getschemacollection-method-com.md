@@ -15,7 +15,6 @@ ms.topic: reference
 
 # IDocumentSpec.GetSchemaCollection Method (COM)
 
-Â 
 
 Gets the schema collection.
 
@@ -76,7 +75,7 @@ The BizTalk Server Messaging Engine calls this method prior to pushing messages 
 
 ## Requirements
 
-**Platforms:**Â Â Windows
+**Platforms:** Windows
 
 ## See Also
 
