@@ -6,6 +6,7 @@ ms:assetid: 69099b5a-7844-4945-9af6-6267c14ce8e7
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa771299(v=BTS.80)
 ms:contentKeyID: 51528641
 ms.date: 08/30/2017
+ms.topic: reference
 mtps_version: v=BTS.80
 dev_langs:
 - c++
