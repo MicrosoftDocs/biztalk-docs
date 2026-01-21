@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import Settings Wizard, Host Mapping Page
 
-Â 
 
 Use the **Host Mapping** tab to map the source host to the destination host. You can map a single source host to multiple destination hosts.
 

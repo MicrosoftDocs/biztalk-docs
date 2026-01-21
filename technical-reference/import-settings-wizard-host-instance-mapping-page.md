@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import Settings Wizard, Host Instance Mapping Page
 
-Â 
 
 Use the **Host Instance Mapping** tab to map a host instance on the source side to a host instance on the destination side. You can map a host instance on the source side to multiple host instances on the destination side.
 

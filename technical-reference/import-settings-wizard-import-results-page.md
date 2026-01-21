@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import Settings Wizard, Import Results Page
 
-Â 
 
 The **Import Results** page appears after you have imported the group, host, and host instance settings of source environment to the destination environment. Click **Finish** to exit the wizard.
 

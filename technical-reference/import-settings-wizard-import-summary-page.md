@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import Settings Wizard, Import Summary Page
 
-Â 
 
 Use the **Import Summary** tab to verify if all the import settings for destination and source environments you created are as desired.
 

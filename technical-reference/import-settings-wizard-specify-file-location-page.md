@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import Settings Wizard, Specify File Location Page
 
-Â 
 
 Use the **Specify File Location** tab to specify the XML file that contains the export settings of the source environment you want to import to the destination environment.
 
