@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import MSI Wizard, Welcome Page
 
-Â 
 
 Use the **Welcome to the Import Wizard** page to select the .msi file to import. This must be an .msi file that was exported from another BizTalk application. Importing the .msi file will create the application and its artifacts in the current BizTalk group.
 

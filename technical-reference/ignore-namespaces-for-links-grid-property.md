@@ -12,7 +12,6 @@ ms.topic: reference
 
 # Ignore Namespaces for Links (Grid Property)
 
-Â 
 
 Use the **Ignore Namespaces for Links** property to indicate whether the links stored in the map contain any references to the namespaces used in the schemas.
 

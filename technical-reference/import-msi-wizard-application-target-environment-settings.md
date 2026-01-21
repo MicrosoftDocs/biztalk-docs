@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import MSI Wizard: Application Target Environment Settings
 
-Â 
 
 Use the **Application Target Environment Settings** page to specify which bindings to apply to this application on import. If you added one or more binding files to the application before it was exported into the .msi file, and specified a target environment for each binding file you added, the target environments that you specified will appear in the list. Otherwise, only \<Default\> will display. This option applies all of the application bindings that were exported into the .msi file and that do not have a target environment specified.
 

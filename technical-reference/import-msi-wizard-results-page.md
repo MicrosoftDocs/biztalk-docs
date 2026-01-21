@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import MSI Wizard, Results Page
 
-Â 
 
 This is the final page of the Import Wizard. If the import operation was successful, this page provides the option to install the application on the local computer. It is not necessary to install the application on this computer, unless you plan to run the application on it. Before the application can begin functioning, however, you must install the application on the computers that will run it and also start the application from within the BizTalk Administration console.
 

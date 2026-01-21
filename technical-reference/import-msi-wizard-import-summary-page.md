@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import MSI Wizard, Import Summary Page
 
-Â 
 
 Use the **Import Summary** page to verify the selections you have made. To change a selection, click **Back**; otherwise, click **Import** to initiate the import process.
 

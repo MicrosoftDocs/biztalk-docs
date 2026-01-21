@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import BAM Activity Definition Dialog Box
 
-Â 
 
 Use the **Import BAM Activity Definition** dialog box to select the activity for which you want to create a tracking profile from the list of BAM activities deployed in the BizTalk Management database (also known as the Configuration database).
 

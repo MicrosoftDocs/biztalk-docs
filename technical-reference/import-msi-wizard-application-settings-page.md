@@ -14,7 +14,6 @@ ms.topic: reference
 
 # Import MSI Wizard, Application Settings Page
 
-Â 
 
 Use the **Application Settings** page to view or select the application into which the .msi file will be imported, view the references required by the application, and select the applications, if any, to which you want to add a reference.
 

@@ -28,7 +28,7 @@ The methods of the **IDocumentSpec** interface are listed here. For a complete l
 <td>Gets the property annotation.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetSchemaCollection Method (COM) method."/>Â <a href="idocumentspec-getschemacollection-method-com.md">IDocumentSpec.GetSchemaCollection Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetSchemaCollection Method (COM) method."/> <a href="idocumentspec-getschemacollection-method-com.md">IDocumentSpec.GetSchemaCollection Method (COM)</a></td>
 <td>Do not use; this method has been deprecated.</td>
 </tr>
 </tbody>
