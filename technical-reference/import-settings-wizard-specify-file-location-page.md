@@ -9,7 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - Bts10.settings.ImportFile
-ms.topic: reference
+ms.topic: ui-reference
 ---
 
 # Import Settings Wizard, Specify File Location Page

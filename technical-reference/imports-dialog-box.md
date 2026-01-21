@@ -9,7 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.editor.imports
-ms.topic: reference
+ms.topic: ui-reference
 ---
 
 # Imports Dialog Box
