@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext.PipelineName Property (COM)"
 title: IPipelineContext.PipelineName Property (COM)
 TOCTitle: IPipelineContext.PipelineName Property (COM)
@@ -10,11 +10,12 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IPipelineContext.PipelineName Property (COM)
 
- 
+Â 
 
 Gets the name of the pipeline.
 
@@ -77,10 +78,11 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**Â Â Windows
 
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)  
 [IPipelineContext Members (COM)](ipipelinecontext-members-com.md)
+
 

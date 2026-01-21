@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext.PipelineID Property (COM)"
 title: IPipelineContext.PipelineID Property (COM)
 TOCTitle: IPipelineContext.PipelineID Property (COM)
@@ -10,11 +10,12 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IPipelineContext.PipelineID Property (COM)
 
- 
+Â 
 
 Gets the ID of the pipeline to which the component belongs.
 
@@ -76,10 +77,11 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**Â Â Windows
 
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)  
 [IPipelineContext Members (COM)](ipipelinecontext-members-com.md)
+
 

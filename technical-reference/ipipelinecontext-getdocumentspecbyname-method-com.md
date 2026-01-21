@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext.GetDocumentSpecByName Method (COM)"
 title: IPipelineContext.GetDocumentSpecByName Method (COM)
 TOCTitle: IPipelineContext.GetDocumentSpecByName Method (COM)
@@ -10,11 +10,12 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IPipelineContext.GetDocumentSpecByName Method (COM)
 
- 
+Â 
 
 Gets the [IDocumentSpec](idocumentspec-interface-com.md) object for the specified document name.
 
@@ -82,10 +83,11 @@ This method indicates errors by setting the **Number** property of the global **
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**Â Â Windows
 
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)  
 [IPipelineContext Members (COM)](ipipelinecontext-members-com.md)
+
 

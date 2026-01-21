@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext Interface (COM)"
 title: IPipelineContext Interface (COM)
 TOCTitle: IPipelineContext Interface (COM)
@@ -7,11 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa560782(v=BTS.80)
 ms:contentKeyID: 51528887
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IPipelineContext Interface (COM)
 
- 
+Â 
 
 Defines the methods used to access all document processing-specific interfaces.
 
@@ -26,4 +27,5 @@ For a list of all members of this type, see [IPipelineContext Members](ipipeline
 ## See Also
 
 [IPipelineContext Members (COM)](ipipelinecontext-members-com.md)
+
 

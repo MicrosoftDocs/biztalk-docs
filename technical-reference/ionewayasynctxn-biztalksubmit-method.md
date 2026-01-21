@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IOneWayAsyncTxn.BizTalkSubmit Method"
 title: IOneWayAsyncTxn.BizTalkSubmit Method
 TOCTitle: IOneWayAsyncTxn.BizTalkSubmit Method
@@ -7,11 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb727701(v=BTS.80)
 ms:contentKeyID: 51526972
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IOneWayAsyncTxn.BizTalkSubmit Method
 
- 
+Â 
 
 Causes the runtime to create WSDL operations in the metadata. This method should never get invoked.
 

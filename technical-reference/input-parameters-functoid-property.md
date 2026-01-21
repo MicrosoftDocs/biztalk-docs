@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Input Parameters (Functoid Property)"
 title: Input Parameters (Functoid Property)
 TOCTitle: Input Parameters (Functoid Property)
@@ -7,11 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561660(v=BTS.80)
 ms:contentKeyID: 51533058
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Input Parameters (Functoid Property)
 
- 
+Â 
 
 Use the **Input Parameters** property to open the **Configure \<Functoid\> Functoid** dialog box, in which you can configure input parameters for the functoid, including changing the order of the input parameters when necessary, and creating constant input parameters to supplement the link input parameters.
 
@@ -42,4 +43,5 @@ For more information about how this property is used to establish the correct se
 ## See Also
 
 [General Functoid Properties](general-functoid-properties.md)
+
 

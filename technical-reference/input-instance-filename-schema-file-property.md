@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Input Instance Filename (Schema File Property)"
 title: Input Instance Filename (Schema File Property)
 TOCTitle: Input Instance Filename (Schema File Property)
@@ -7,11 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578118(v=BTS.80)
 ms:contentKeyID: 51530523
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Input Instance Filename (Schema File Property)
 
- 
+Â 
 
 Use the **Input Instance Filename** property to configure the full path of a file containing an input instance message you want to validate as conforming to the selected schema.
 
@@ -41,4 +42,5 @@ You can provide this property value in multiple ways:
 
 [Schema File Properties](schema-file-properties.md)  
 [Validate Instance Input Type (Schema File Property)](validate-instance-input-type-schema-file-property.md)
+
 
