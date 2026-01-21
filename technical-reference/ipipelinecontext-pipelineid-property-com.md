@@ -15,7 +15,6 @@ ms.topic: reference
 
 # IPipelineContext.PipelineID Property (COM)
 
-Â 
 
 Gets the ID of the pipeline to which the component belongs.
 
@@ -77,7 +76,7 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**Â Â Windows
+**Platforms:**  Windows
 
 ## See Also
 

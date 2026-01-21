@@ -15,7 +15,6 @@ ms.topic: reference
 
 # IPipelineContext.PipelineName Property (COM)
 
-Â 
 
 Gets the name of the pipeline.
 
@@ -78,7 +77,7 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**Â Â Windows
+**Platforms:**  Windows
 
 ## See Also
 

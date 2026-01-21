@@ -15,7 +15,6 @@ ms.topic: reference
 
 # IPipelineContext.StageID Property (COM)
 
-Â 
 
 Gets the ID of the stage in the pipeline.
 
@@ -77,7 +76,7 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**Â Â Windows
+**Platforms:**  Windows
 
 ## See Also
 
