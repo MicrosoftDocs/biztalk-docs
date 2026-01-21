@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportConfig Interface (COM)"
 title: IBTTransportConfig Interface (COM)
 TOCTitle: IBTTransportConfig Interface (COM)
+ms.topic: reference
 ms:assetid: 5550a601-db81-45e8-ad81-c566c1b0376c
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560221(v=BTS.80)
 ms:contentKeyID: 51528128

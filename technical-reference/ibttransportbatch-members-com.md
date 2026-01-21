@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch Members (COM)"
 title: IBTTransportBatch Members (COM)
 TOCTitle: IBTTransportBatch Members (COM)
+ms.topic: reference
 ms:assetid: 59bb0b1f-6599-426b-858b-ddf2bd733d26
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560303(v=BTS.80)
 ms:contentKeyID: 51528229
