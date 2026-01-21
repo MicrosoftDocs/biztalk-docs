@@ -12,7 +12,6 @@ ms.topic: reference
 
 # Index Functoid Reference
 
-Â 
 
 Use the **Index** functoid ( ![Icon that represents the Index functoid.](images/Aa547061.0f578133-d730-4d60-bc4a-2832c31294b5(BTS.80).jpeg)) to retrieve and output a specific value or set of values from a (potentially nested) repeating structure in an input instance message.
 
@@ -22,7 +21,7 @@ Use the **Index** functoid ( ![Icon that represents the Index functoid.](images/
 
 **Parameter 2:** A positive number indicating the index of the value sought, as indicated by parameter 1, within the most deeply nested repeating structure in which it occurs.
 
-**Parameters 3 â€“ 100:** Optionally, a positive number indicating the index of the value sought, as indicated by parameter 1, within the **next** most deeply nested repeating structure in which it occurs.
+**Parameters 3 - 100:** Optionally, a positive number indicating the index of the value sought, as indicated by parameter 1, within the **next** most deeply nested repeating structure in which it occurs.
 
 Parameters 1 and 2 are required. Subsequent parameters are optional, and their number is limited only by the depth of the repeating structures in which the value sought is nested.
 

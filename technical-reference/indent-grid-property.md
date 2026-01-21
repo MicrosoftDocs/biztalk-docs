@@ -12,7 +12,6 @@ ms.topic: reference
 
 # Indent (Grid Property)
 
-Â 
 
 Use the **Indent** property to specify whether the XML in destination instance messages produced by using this map will be indented for improved readability.
 

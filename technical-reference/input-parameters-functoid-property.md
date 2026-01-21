@@ -12,7 +12,6 @@ ms.topic: reference
 
 # Input Parameters (Functoid Property)
 
-Â 
 
 Use the **Input Parameters** property to open the **Configure \<Functoid\> Functoid** dialog box, in which you can configure input parameters for the functoid, including changing the order of the input parameters when necessary, and creating constant input parameters to supplement the link input parameters.
 

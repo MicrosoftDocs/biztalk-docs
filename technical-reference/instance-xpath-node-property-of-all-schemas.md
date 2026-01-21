@@ -12,7 +12,6 @@ ms.topic: reference
 
 # Instance XPath (Node Property of All Schemas)
 
-Â 
 
 Use the **Instance XPath** property to view the XPath of the element or attribute associated with the selected node in an instance message.
 

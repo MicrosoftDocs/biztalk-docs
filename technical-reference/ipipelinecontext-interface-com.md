@@ -12,7 +12,6 @@ ms.topic: reference
 
 # IPipelineContext Interface (COM)
 
-Â 
 
 Defines the methods used to access all document processing-specific interfaces.
 

@@ -12,7 +12,6 @@ ms.topic: reference
 
 # IOneWayAsync.BeginOneWayMethod Method
 
-Â 
 
 Asynchronously processes messages incoming through the WCF-NetMsmq one-way non-transactional receive locations.
 
