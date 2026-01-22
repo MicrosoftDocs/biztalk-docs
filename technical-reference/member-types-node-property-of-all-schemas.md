@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578231(v=BTS.80)
 ms:contentKeyID: 51530721
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Member Types (Node Property of All Schemas)

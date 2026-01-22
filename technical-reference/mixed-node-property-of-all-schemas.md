@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa577926(v=BTS.80)
 ms:contentKeyID: 51530333
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Mixed (Node Property of All Schemas)

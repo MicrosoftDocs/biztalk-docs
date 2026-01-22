@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa559321(v=BTS.80)
 ms:contentKeyID: 51526978
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # MinFacet Type (Node Property of All Schemas)
