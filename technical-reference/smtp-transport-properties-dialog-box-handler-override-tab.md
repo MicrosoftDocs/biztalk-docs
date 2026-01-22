@@ -6,6 +6,7 @@ ms:assetid: bfacf52d-37af-418c-8deb-e43ccb5de825
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578424(v=BTS.80)
 ms:contentKeyID: 51530918
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adaptors.smtp.transport.override

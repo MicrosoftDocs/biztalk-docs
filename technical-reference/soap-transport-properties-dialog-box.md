@@ -6,6 +6,7 @@ ms:assetid: 818c592d-eedf-4665-b40b-aba1cec5a9f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561089(v=BTS.80)
 ms:contentKeyID: 51529296
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adaptors.soap.transport

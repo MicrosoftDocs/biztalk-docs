@@ -6,6 +6,7 @@ ms:assetid: 070aaab8-0b67-419d-816c-15fb2594c7f1
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa547068(v=BTS.80)
 ms:contentKeyID: 51526015
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adaptors.soap.transport.proxy
