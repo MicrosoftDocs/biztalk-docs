@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportConfig Methods (COM)"
 title: IBTTransportConfig Methods (COM)
 TOCTitle: IBTTransportConfig Methods (COM)
+ms.topic: reference
 ms:assetid: 9df19c22-0a4d-439d-9d25-cc66879f69a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa577597(v=BTS.80)
 ms:contentKeyID: 51530045

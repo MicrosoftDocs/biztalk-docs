@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch.MoveToNextTransport Method (COM)"
 title: IBTTransportBatch.MoveToNextTransport Method (COM)
 TOCTitle: IBTTransportBatch.MoveToNextTransport Method (COM)
+ms.topic: reference
 ms:assetid: de2eb846-709d-403e-80a8-577826d5f459
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561470(v=BTS.80)
 ms:contentKeyID: 51532821

@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch.Clear Method (COM)"
 title: IBTTransportBatch.Clear Method (COM)
 TOCTitle: IBTTransportBatch.Clear Method (COM)
+ms.topic: reference
 ms:assetid: 2f54feaa-86d2-4c69-87b7-c7a7e5d321fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa559437(v=BTS.80)
 ms:contentKeyID: 51527081

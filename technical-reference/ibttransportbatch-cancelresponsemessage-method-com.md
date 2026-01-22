@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch.CancelResponseMessage Method (COM)"
 title: IBTTransportBatch.CancelResponseMessage Method (COM)
 TOCTitle: IBTTransportBatch.CancelResponseMessage Method (COM)
+ms.topic: reference
 ms:assetid: 97afd5ed-694a-4b96-804c-2f57ef81e355
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa577461(v=BTS.80)
 ms:contentKeyID: 51529876

@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch Methods (COM)"
 title: IBTTransportBatch Methods (COM)
 TOCTitle: IBTTransportBatch Methods (COM)
+ms.topic: reference
 ms:assetid: 4b2e4be0-b9b1-49d0-af6d-dd8f235ec0b4
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560013(v=BTS.80)
 ms:contentKeyID: 51527848

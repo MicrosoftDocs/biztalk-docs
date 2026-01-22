@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch.SubmitRequestMessage Method (COM)"
 title: IBTTransportBatch.SubmitRequestMessage Method (COM)
 TOCTitle: IBTTransportBatch.SubmitRequestMessage Method (COM)
+ms.topic: reference
 ms:assetid: 772f55ee-b0a4-49e4-83b4-dc1c5e35f4e8
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560878(v=BTS.80)
 ms:contentKeyID: 51529029

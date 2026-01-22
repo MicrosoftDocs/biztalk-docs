@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransport Properties (COM)"
 title: IBTTransport Properties (COM)
 TOCTitle: IBTTransport Properties (COM)
+ms.topic: reference
 ms:assetid: 6ec436b4-c57b-47f2-a0b5-053acc30aecf
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560727(v=BTS.80)
 ms:contentKeyID: 51528813
