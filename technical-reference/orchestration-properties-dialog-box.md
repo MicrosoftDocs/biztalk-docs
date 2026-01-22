@@ -6,6 +6,7 @@ ms:assetid: eb5af3a9-a9bd-4c11-a961-6a203f2a9d24
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561744(v=BTS.80)
 ms:contentKeyID: 51533172
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.orchestration.properties

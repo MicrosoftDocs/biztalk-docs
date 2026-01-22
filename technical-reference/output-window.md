@@ -6,6 +6,7 @@ ms:assetid: 74892932-d4ec-48f7-8059-155890ccac08
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560833(v=BTS.80)
 ms:contentKeyID: 51528954
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.bre.outputwindow

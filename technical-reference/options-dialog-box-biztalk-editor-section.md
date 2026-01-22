@@ -6,6 +6,7 @@ ms:assetid: 32bbe3ba-8c8c-407b-855a-31d89bea4f8b
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa559503(v=BTS.80)
 ms:contentKeyID: 51527173
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.editor.options
