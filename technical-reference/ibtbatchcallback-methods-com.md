@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561536(v=BTS.80)
 ms:contentKeyID: 51532930
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IBTBatchCallBack Methods (COM)
