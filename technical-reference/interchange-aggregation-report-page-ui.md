@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.edir2.status.interchange.aggregation
+ms.topic: ui-reference
 ---
 
 # Interchange Aggregation Report Page UI
 
- 
+
 
 The properties included in this page define which interchanges (including acknowledgments) will be included in the Interchange Aggregation status report. The interchange aggregation report will show all interchanges that are processed by the EDI send and receive pipelines and that meet the criteria defined on this page.
 

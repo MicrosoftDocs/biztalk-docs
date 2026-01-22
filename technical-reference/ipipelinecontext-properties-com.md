@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext Properties (COM)"
 title: IPipelineContext Properties (COM)
 TOCTitle: IPipelineContext Properties (COM)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa577405(v=BTS.80)
 ms:contentKeyID: 51529782
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IPipelineContext Properties (COM)
 
- 
 
 The properties of the **IPipelineContext** interface are listed here. For a complete list of **IPipelineContext** interface members, see the [IPipelineContext Members](ipipelinecontext-members-com.md) topic.
 
@@ -50,4 +50,5 @@ The properties of the **IPipelineContext** interface are listed here. For a comp
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)
+
 

@@ -9,11 +9,12 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.edir2.status.interchange.ack
+ms.topic: ui-reference
 ---
 
 # Interchange Status and ACK Details Page UI
 
- 
+
 
 If you right-click a row in the query results on the EDI Interchange and Correlated ACK Status Page, and click the **Interchange status and ack details** command, details about the interchange and its technical and functional acknowledgments related to that interchange will be displayed.
 

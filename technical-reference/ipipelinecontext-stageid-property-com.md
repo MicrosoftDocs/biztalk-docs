@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext.StageID Property (COM)"
 title: IPipelineContext.StageID Property (COM)
 TOCTitle: IPipelineContext.StageID Property (COM)
@@ -10,11 +10,11 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IPipelineContext.StageID Property (COM)
 
- 
 
 Gets the ID of the stage in the pipeline.
 
@@ -76,10 +76,11 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**  Windows
 
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)  
 [IPipelineContext Members (COM)](ipipelinecontext-members-com.md)
+
 

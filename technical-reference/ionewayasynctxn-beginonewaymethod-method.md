@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IOneWayAsyncTxn.BeginOneWayMethod Method"
 title: IOneWayAsyncTxn.BeginOneWayMethod Method
 TOCTitle: IOneWayAsyncTxn.BeginOneWayMethod Method
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb743430(v=BTS.80)
 ms:contentKeyID: 51528615
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IOneWayAsyncTxn.BeginOneWayMethod Method
 
- 
 
 Asynchronously processes messages incoming through the WCF-NetMsmq one-way transactional receive locations.
 
@@ -46,4 +46,5 @@ This method returns the status of the asynchronous operation.
 ## See Also
 
 [IOneWayAsyncTxn.EndOneWayMethod Method](ionewayasynctxn-endonewaymethod-method.md)
+
 

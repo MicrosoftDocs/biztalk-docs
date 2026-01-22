@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext Methods (COM)"
 title: IPipelineContext Methods (COM)
 TOCTitle: IPipelineContext Methods (COM)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa559897(v=BTS.80)
 ms:contentKeyID: 51527704
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IPipelineContext Methods (COM)
 
- 
 
 The methods of the **IPipelineContext** interface are listed here. For a complete list of **IPipelineContext** interface members, see the [IPipelineContext Members](ipipelinecontext-members-com.md) topic.
 
@@ -42,4 +42,5 @@ The methods of the **IPipelineContext** interface are listed here. For a complet
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)
+
 

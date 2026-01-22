@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext.GetMessageFactory Method (COM)"
 title: IPipelineContext.GetMessageFactory Method (COM)
 TOCTitle: IPipelineContext.GetMessageFactory Method (COM)
@@ -10,11 +10,11 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IPipelineContext.GetMessageFactory Method (COM)
 
- 
 
 Get access to the helper interface to work with BizTalk Server message objects.
 
@@ -77,10 +77,11 @@ This method indicates errors by setting the **Number** property of the global **
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**  Windows
 
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)  
 [IPipelineContext Members (COM)](ipipelinecontext-members-com.md)
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext.ComponentIndex Property (COM)"
 title: IPipelineContext.ComponentIndex Property (COM)
 TOCTitle: IPipelineContext.ComponentIndex Property (COM)
@@ -10,11 +10,11 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IPipelineContext.ComponentIndex Property (COM)
 
- 
 
 Gets the index of the current component in the stage.
 
@@ -77,10 +77,11 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**  Windows
 
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)  
 [IPipelineContext Members (COM)](ipipelinecontext-members-com.md)
+
 
