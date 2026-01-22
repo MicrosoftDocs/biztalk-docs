@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import MSI Wizard: Application Target Environment Settings"
 title: 'Import MSI Wizard: Application Target Environment Settings'
 TOCTitle: 'Import MSI Wizard: Application Target Environment Settings'
@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.appdeploy.app.import.environment
+ms.topic: ui-reference
 ---
 
 # Import MSI Wizard: Application Target Environment Settings
 
- 
 
 Use the **Application Target Environment Settings** page to specify which bindings to apply to this application on import. If you added one or more binding files to the application before it was exported into the .msi file, and specified a target environment for each binding file you added, the target environments that you specified will appear in the list. Otherwise, only \<Default\> will display. This option applies all of the application bindings that were exported into the .msi file and that do not have a target environment specified.
 

@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IDocumentSpec Methods (COM)"
 title: IDocumentSpec Methods (COM)
 TOCTitle: IDocumentSpec Methods (COM)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561048(v=BTS.80)
 ms:contentKeyID: 51529246
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IDocumentSpec Methods (COM)
 
- 
 
 The methods of the **IDocumentSpec** interface are listed here. For a complete list of **IDocumentSpec** interface members, see the [IDocumentSpec Members (COM)](idocumentspec-members-com.md) topic.
 

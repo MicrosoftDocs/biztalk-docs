@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IDocumentSpec.GetSchemaCollection Method (COM)"
 title: IDocumentSpec.GetSchemaCollection Method (COM)
 TOCTitle: IDocumentSpec.GetSchemaCollection Method (COM)
@@ -10,11 +10,11 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IDocumentSpec.GetSchemaCollection Method (COM)
 
- 
 
 Gets the schema collection.
 
@@ -75,7 +75,7 @@ The BizTalk Server Messaging Engine calls this method prior to pushing messages 
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:** Windows
 
 ## See Also
 

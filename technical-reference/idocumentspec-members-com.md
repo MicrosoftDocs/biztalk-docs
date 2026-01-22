@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IDocumentSpec Members (COM)"
 title: IDocumentSpec Members (COM)
 TOCTitle: IDocumentSpec Members (COM)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561506(v=BTS.80)
 ms:contentKeyID: 51532867
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IDocumentSpec Members (COM)
 
- 
 
 [IDocumentSpec Interface (COM)](idocumentspec-interface-com.md)
 

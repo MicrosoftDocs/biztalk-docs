@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: INamedItem Properties (COM)"
 title: INamedItem Properties (COM)
 TOCTitle: INamedItem Properties (COM)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa559965(v=BTS.80)
 ms:contentKeyID: 51527823
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # INamedItem Properties (COM)
 
- 
 
 The properties of the **INamedItem** interface are listed here. For a complete list of **INamedItem** interface members, see the [INamedItem Members](inameditem-members-com.md).
 

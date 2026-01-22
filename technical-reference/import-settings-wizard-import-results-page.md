@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import Settings Wizard, Import Results Page"
 title: Import Settings Wizard, Import Results Page
 TOCTitle: Import Settings Wizard, Import Results Page
@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - Bts10.settings.ImportResults
+ms.topic: ui-reference
 ---
 
 # Import Settings Wizard, Import Results Page
 
- 
 
 The **Import Results** page appears after you have imported the group, host, and host instance settings of source environment to the destination environment. Click **Finish** to exit the wizard.
 

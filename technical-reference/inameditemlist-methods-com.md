@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: INamedItemList Methods (COM)"
 title: INamedItemList Methods (COM)
 TOCTitle: INamedItemList Methods (COM)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa562101(v=BTS.80)
 ms:contentKeyID: 51533649
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # INamedItemList Methods (COM)
 
- 
 
 The methods of the **INamedItemList** interface are listed here. For a complete list of **INamedItemList** interface members, see the [INamedItemList Members](inameditemlist-members-com.md) topic.
 

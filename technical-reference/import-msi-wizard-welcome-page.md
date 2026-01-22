@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import MSI Wizard, Welcome Page"
 title: Import MSI Wizard, Welcome Page
 TOCTitle: Import MSI Wizard, Welcome Page
@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.appdeploy.app.import.welcome
+ms.topic: ui-reference
 ---
 
 # Import MSI Wizard, Welcome Page
 
- 
 
 Use the **Welcome to the Import Wizard** page to select the .msi file to import. This must be an .msi file that was exported from another BizTalk application. Importing the .msi file will create the application and its artifacts in the current BizTalk group.
 
