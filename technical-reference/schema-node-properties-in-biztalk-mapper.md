@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa558721(v=BTS.80)
 ms:contentKeyID: 51526401
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Schema Node Properties in BizTalk Mapper

@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561084(v=BTS.80)
 ms:contentKeyID: 51529291
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Sensitive Information (Node Property of Property Schemas)
