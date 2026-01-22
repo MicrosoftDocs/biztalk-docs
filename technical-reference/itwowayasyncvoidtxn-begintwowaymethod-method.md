@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb743505(v=BTS.80)
 ms:contentKeyID: 51529318
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # ITwoWayAsyncVoidTxn.BeginTwoWayMethod Method
