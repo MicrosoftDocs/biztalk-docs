@@ -6,6 +6,7 @@ ms:assetid: bf4a79e2-7079-414f-a3b4-af0ea5efc8b4
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578420(v=BTS.80)
 ms:contentKeyID: 51531010
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.orch.policy.config

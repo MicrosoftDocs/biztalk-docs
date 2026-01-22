@@ -6,6 +6,7 @@ ms:assetid: fe4dfc1d-299e-4af1-a7fc-29045f3b9b6c
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa562147(v=BTS.80)
 ms:contentKeyID: 51533786
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.resultsobject.policy

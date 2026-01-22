@@ -6,6 +6,7 @@ ms:assetid: 569f7acf-2c96-4f1e-a7a1-ccf1c893084c
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560248(v=BTS.80)
 ms:contentKeyID: 51528151
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.editor.props.promote
