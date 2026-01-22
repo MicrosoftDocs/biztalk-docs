@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa560552(v=BTS.80)
 ms:contentKeyID: 51528576
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Root Reference (Node Property of All Schemas)
