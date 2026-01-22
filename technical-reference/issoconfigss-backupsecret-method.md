@@ -6,6 +6,7 @@ ms:assetid: cf538003-412b-45e9-87d7-9d37f846533a
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa771919(v=BTS.80)
 ms:contentKeyID: 51531350
 ms.date: 08/30/2017
+ms.topic: reference
 mtps_version: v=BTS.80
 dev_langs:
 - vb
