@@ -6,6 +6,7 @@ ms:assetid: 7157a5c5-38bf-4c68-9c7c-8d4f7280316d
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560772(v=BTS.80)
 ms:contentKeyID: 51528874
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.esso.pws.properties.general

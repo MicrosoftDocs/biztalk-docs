@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa546762(v=BTS.80)
 ms:contentKeyID: 51525891
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Supplemental Node Properties for Flat File Schemas

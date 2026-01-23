@@ -8,6 +8,7 @@ ms:contentKeyID: 51526367
 ms.date: 12/23/2019
 ms.custom: biztalk-2020
 mtps_version: v=BTS.80
+ms.topic: ui-reference
 f1_keywords:
 - bts10.admin.sendport.properties
 ---

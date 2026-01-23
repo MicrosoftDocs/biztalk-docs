@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa560320(v=BTS.80)
 ms:contentKeyID: 51528254
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: ui-reference
 f1_keywords:
 - bts10.adaptors.mqseries.transport.send
 ---

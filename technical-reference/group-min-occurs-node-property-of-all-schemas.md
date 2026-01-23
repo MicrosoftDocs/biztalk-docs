@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa559873(v=BTS.80)
 ms:contentKeyID: 51527729
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Group Min Occurs (Node Property of All Schemas)

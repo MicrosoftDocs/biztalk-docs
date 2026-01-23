@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext Members (COM)"
 title: IPipelineContext Members (COM)
 TOCTitle: IPipelineContext Members (COM)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578647(v=BTS.80)
 ms:contentKeyID: 51531680
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IPipelineContext Members (COM)
 
- 
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)
 
@@ -74,4 +74,5 @@ mtps_version: v=BTS.80
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)
+
 

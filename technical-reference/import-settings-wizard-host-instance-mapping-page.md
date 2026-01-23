@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import Settings Wizard, Host Instance Mapping Page"
 title: Import Settings Wizard, Host Instance Mapping Page
 TOCTitle: Import Settings Wizard, Host Instance Mapping Page
@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - Bts10.settings.ImportHostInstanceMap
+ms.topic: ui-reference
 ---
 
 # Import Settings Wizard, Host Instance Mapping Page
 
- 
 
 Use the **Host Instance Mapping** tab to map a host instance on the source side to a host instance on the destination side. You can map a host instance on the source side to multiple host instances on the destination side.
 

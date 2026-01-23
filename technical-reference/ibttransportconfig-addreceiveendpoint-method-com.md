@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportConfig.AddReceiveEndpoint Method (COM)"
 title: IBTTransportConfig.AddReceiveEndpoint Method (COM)
 TOCTitle: IBTTransportConfig.AddReceiveEndpoint Method (COM)
+ms.topic: reference
 ms:assetid: d215daf8-c25b-4601-af3d-ded7cddde612
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578554(v=BTS.80)
 ms:contentKeyID: 51531541

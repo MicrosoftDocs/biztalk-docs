@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff629765(v=BTS.80)
 ms:contentKeyID: 51531008
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: how-to
 ---
 
 # BizTalk Settings Dashboard, Host Page, Resource Based Throttling Tab

@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransport.Name Property (COM)"
 title: IBTTransport.Name Property (COM)
 TOCTitle: IBTTransport.Name Property (COM)
+ms.topic: reference
 ms:assetid: 1e3d4eb6-d245-4ad1-bf33-f8d81bc44277
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa559110(v=BTS.80)
 ms:contentKeyID: 51526671

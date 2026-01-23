@@ -6,6 +6,7 @@ ms:assetid: 80e18371-7869-4ecc-b685-c571d5e214fd
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561071(v=BTS.80)
 ms:contentKeyID: 51529275
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.mapper.options

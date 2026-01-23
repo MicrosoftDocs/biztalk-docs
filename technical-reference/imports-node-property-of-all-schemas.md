@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Imports (Node Property of All Schemas)"
 title: Imports (Node Property of All Schemas)
 TOCTitle: Imports (Node Property of All Schemas)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578526(v=BTS.80)
 ms:contentKeyID: 51531390
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Imports (Node Property of All Schemas)
 
- 
 
 Use the **Imports** property to use structure definitions provided by other schemas within the schema you are editing using the XSD include, import, and redefine mechanisms, and to examine the default namespaces and namespace prefixes associated with the schema being edited.
 

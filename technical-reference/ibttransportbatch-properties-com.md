@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch Properties (COM)"
 title: IBTTransportBatch Properties (COM)
 TOCTitle: IBTTransportBatch Properties (COM)
+ms.topic: reference
 ms:assetid: ec412d66-f66e-4c8e-80a6-ef200365a4f2
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561761(v=BTS.80)
 ms:contentKeyID: 51533223

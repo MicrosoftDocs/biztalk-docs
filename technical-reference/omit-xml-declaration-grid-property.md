@@ -6,6 +6,7 @@ ms:assetid: a2203d8a-f518-4c5f-87b0-f10189a27233
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa577809(v=BTS.80)
 ms:contentKeyID: 51530182
 ms.date: 08/30/2017
+ms.topic: reference
 mtps_version: v=BTS.80
 ---
 

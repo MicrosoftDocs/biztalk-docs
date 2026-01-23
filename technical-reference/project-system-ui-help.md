@@ -6,6 +6,7 @@ ms:assetid: d3f9a849-1f2f-4f8e-8a38-e488fcbf1964
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578588(v=BTS.80)
 ms:contentKeyID: 51531472
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.projectsystem.main

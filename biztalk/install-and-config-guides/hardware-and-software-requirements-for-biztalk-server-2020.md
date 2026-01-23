@@ -6,7 +6,7 @@ ms.service: biztalk-server
 ms.date: 02/13/2025
 ms.reviewer: "niklase"
 ms.suite: ""
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Hardware and Software Requirements for BizTalk Server 2020

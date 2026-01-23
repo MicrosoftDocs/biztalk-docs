@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransport.TransportType Property (COM)"
 title: IBTTransport.TransportType Property (COM)
 TOCTitle: IBTTransport.TransportType Property (COM)
+ms.topic: reference
 ms:assetid: 9d676d74-89dd-41ed-8ee3-81e9f34fa88e
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa577583(v=BTS.80)
 ms:contentKeyID: 51530024

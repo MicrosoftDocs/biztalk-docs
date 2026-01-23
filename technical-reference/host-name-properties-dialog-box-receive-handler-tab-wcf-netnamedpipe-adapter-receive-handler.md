@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-netnamedpipe.receivehandler.receivehandler
+ms.topic: ui-reference
 ---
 
 # \<Host Name\> Properties Dialog Box, Receive Handler Tab (WCF-NetNamedPipe Adapter Receive Handler)

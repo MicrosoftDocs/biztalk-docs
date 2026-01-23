@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.group.connecttracking
+ms.topic: ui-reference
 ---
 
 # Connect To Existing BizTalk Tracking Database Dialog Box

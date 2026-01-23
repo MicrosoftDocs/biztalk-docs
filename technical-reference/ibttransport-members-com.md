@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransport Members (COM)"
 title: IBTTransport Members (COM)
 TOCTitle: IBTTransport Members (COM)
+ms.topic: reference
 ms:assetid: 86d90144-449d-4dc1-a56b-8d3d9bb3032e
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561199(v=BTS.80)
 ms:contentKeyID: 51529441

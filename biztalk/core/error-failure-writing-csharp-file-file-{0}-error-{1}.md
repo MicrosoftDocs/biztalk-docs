@@ -3,7 +3,7 @@ description: "Learn more about: Error - Failure writing CSharp file (&lt;file:--
 title: "Error - Failure writing CSharp file (&lt;file:---{0}&gt;). Error: {1} | Microsoft Docs"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: conceptual
+ms.topic: error-reference
 ---
 
 # Error - Failure writing CSharp file (&lt;file:---{0}&gt;). Error: {1}

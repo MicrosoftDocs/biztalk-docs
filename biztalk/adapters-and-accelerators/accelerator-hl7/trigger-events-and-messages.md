@@ -3,7 +3,7 @@ description: "Learn more about: Trigger Events and Messages"
 title: "Trigger Events and Messages"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Trigger Events and Messages
 In a digital health care system, applications create HL7 messages because of a real-world event, such as the placing of a laboratory order or drug order. The HL7 organization has written the HL7 standard based on the assumption that an event in the real world of health care creates the need for data to flow among applications, even when these applications span heterogeneous systems. The HL7 standard calls this real-world event a *trigger event*. An automated system must systematically recognize the trigger event.  

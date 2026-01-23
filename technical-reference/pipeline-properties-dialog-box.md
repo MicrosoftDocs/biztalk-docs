@@ -6,6 +6,7 @@ ms:assetid: 595e8ade-ce12-4bbb-b9b0-ebeea7bb14a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560297(v=BTS.80)
 ms:contentKeyID: 51528234
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.pipeline.properties

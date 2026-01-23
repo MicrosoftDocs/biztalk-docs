@@ -3,7 +3,7 @@ description: Move to Host Integration Server 2020 from an older or previous vers
 title: HIS 2020 Migration Tool
 ms.date: 01/25/2024
 ms.service: host-integration-server
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Host Integration Server migration tool

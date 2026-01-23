@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportConfig.RemoveReceiveEndpoint Method (COM)"
 title: IBTTransportConfig.RemoveReceiveEndpoint Method (COM)
 TOCTitle: IBTTransportConfig.RemoveReceiveEndpoint Method (COM)
+ms.topic: reference
 ms:assetid: fdd25340-3319-4df2-8b3b-bda75280f346
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa562137(v=BTS.80)
 ms:contentKeyID: 51533779

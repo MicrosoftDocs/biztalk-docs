@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb743485(v=BTS.80)
 ms:contentKeyID: 51528970
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # ITwoWayAsyncVoid.BizTalkSubmit Method

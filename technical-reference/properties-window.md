@@ -6,6 +6,7 @@ ms:assetid: d0c2e99d-c7dd-47d9-98a5-b4f871be179e
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578524(v=BTS.80)
 ms:contentKeyID: 51531498
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.bre.props

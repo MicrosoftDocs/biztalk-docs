@@ -6,6 +6,7 @@ ms:assetid: d0bba641-1112-4770-8e85-6e0fe74c0d3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578523(v=BTS.80)
 ms:contentKeyID: 51531497
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adaptors.smtp.transport.attachments

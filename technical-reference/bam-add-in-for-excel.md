@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa577656(v=BTS.80)
 ms:contentKeyID: 51530057
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: how-to
 ---
 
 # BAM Add-In for Excel

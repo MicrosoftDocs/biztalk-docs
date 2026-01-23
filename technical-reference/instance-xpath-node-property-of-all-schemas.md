@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Instance XPath (Node Property of All Schemas)"
 title: Instance XPath (Node Property of All Schemas)
 TOCTitle: Instance XPath (Node Property of All Schemas)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa559880(v=BTS.80)
 ms:contentKeyID: 51527735
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Instance XPath (Node Property of All Schemas)
 
- 
 
 Use the **Instance XPath** property to view the XPath of the element or attribute associated with the selected node in an instance message.
 
@@ -42,4 +42,5 @@ When you examine the **Instance XPath** property for **Any Element** and **Any A
 ## See Also
 
 [Node Properties of All Schemas](node-properties-of-all-schemas.md)
+
 

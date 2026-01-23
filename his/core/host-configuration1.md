@@ -2,7 +2,7 @@
 title: Host configuration
 description: Learn more about host configuration.
 ms.service: host-integration-server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/30/2017
 ---
 

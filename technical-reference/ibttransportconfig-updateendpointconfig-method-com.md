@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportConfig.UpdateEndpointConfig Method (COM)"
 title: IBTTransportConfig.UpdateEndpointConfig Method (COM)
 TOCTitle: IBTTransportConfig.UpdateEndpointConfig Method (COM)
+ms.topic: reference
 ms:assetid: cdb73a17-f39f-425c-8fd2-6a496f9717f9
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa548075(v=BTS.80)
 ms:contentKeyID: 51531304

@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Ignore Namespaces for Links (Grid Property)"
 title: Ignore Namespaces for Links (Grid Property)
 TOCTitle: Ignore Namespaces for Links (Grid Property)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa577689(v=BTS.80)
 ms:contentKeyID: 51530154
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Ignore Namespaces for Links (Grid Property)
 
- 
 
 Use the **Ignore Namespaces for Links** property to indicate whether the links stored in the map contain any references to the namespaces used in the schemas.
 

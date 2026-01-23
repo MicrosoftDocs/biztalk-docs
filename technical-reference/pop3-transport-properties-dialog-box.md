@@ -6,6 +6,7 @@ ms:assetid: 7a8f6bc5-2af2-4fd7-abbc-865f9995d60a
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560945(v=BTS.80)
 ms:contentKeyID: 51529108
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adaptors.pop3.receive

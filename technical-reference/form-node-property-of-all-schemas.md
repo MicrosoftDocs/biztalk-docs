@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561862(v=BTS.80)
 ms:contentKeyID: 51533324
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Form (Node Property of All Schemas)

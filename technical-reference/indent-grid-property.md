@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Indent (Grid Property)"
 title: Indent (Grid Property)
 TOCTitle: Indent (Grid Property)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578033(v=BTS.80)
 ms:contentKeyID: 51530476
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Indent (Grid Property)
 
- 
 
 Use the **Indent** property to specify whether the XML in destination instance messages produced by using this map will be indented for improved readability.
 
@@ -58,4 +58,5 @@ This property provides a value for the **indent** attribute of the XSL **output*
 ## See Also
 
 [Grid Properties](grid-properties.md)
+
 

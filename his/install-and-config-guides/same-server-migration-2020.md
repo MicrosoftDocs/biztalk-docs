@@ -2,7 +2,8 @@
 title: Same Server Migration with the HIS Migration tool
 description: Learn how to use the HIS Migration tool to migrate from an earlier edition of Host Integration Server to Host Integration Server 2020 or 2016 on the same server.
 ms.service: host-integration-server
-ms.topic: article
+ms.topic: upgrade-and-migration-article
+ms.date: 05/13/2020
 ---
 
 # Same Server Migration with the HIS Migration tool

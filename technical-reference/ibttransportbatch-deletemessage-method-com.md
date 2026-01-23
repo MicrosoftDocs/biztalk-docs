@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch.DeleteMessage Method (COM)"
 title: IBTTransportBatch.DeleteMessage Method (COM)
 TOCTitle: IBTTransportBatch.DeleteMessage Method (COM)
+ms.topic: reference
 ms:assetid: c556ef11-2db1-4d2e-ae84-e0300ab6ec86
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa547897(v=BTS.80)
 ms:contentKeyID: 51531054

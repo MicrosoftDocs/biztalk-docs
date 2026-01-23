@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa577806(v=BTS.80)
 ms:contentKeyID: 51530180
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topoc: reference
 ---
 
 # Choice Group Node Properties

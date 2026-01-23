@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - Microsoft.BizTalk.Component.BtfDasmComp
+ms.topic: ui-reference
 ---
 
 # BizTalk Framework Disassembler Pipeline Component Properties

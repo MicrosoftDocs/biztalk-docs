@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch.Done Method (COM)"
 title: IBTTransportBatch.Done Method (COM)
 TOCTitle: IBTTransportBatch.Done Method (COM)
+ms.topic: reference
 ms:assetid: b84d540f-c82d-4bef-b1a0-88ffce0475c0
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578288(v=BTS.80)
 ms:contentKeyID: 51530765

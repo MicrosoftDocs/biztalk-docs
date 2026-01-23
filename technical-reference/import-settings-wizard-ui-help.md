@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: Import Settings Wizard UI Help"
 title: Import Settings Wizard UI Help
 TOCTitle: Import Settings Wizard UI Help
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff629789(v=BTS.80)
 ms:contentKeyID: 51532984
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: how-to
 ---
 
 # Import Settings Wizard UI Help
 
- 
 
 This section provides instructions for the Import Settings Wizard. You access this information by pressing the F1 key or clicking **Help** in the Wizard.
 

@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561290(v=BTS.80)
 ms:contentKeyID: 51529580
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference 
 ---
 
 # Default Escape Character Type (Node Property of Flat File Schemas)

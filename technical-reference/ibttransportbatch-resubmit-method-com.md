@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportBatch.Resubmit Method (COM)"
 title: IBTTransportBatch.Resubmit Method (COM)
 TOCTitle: IBTTransportBatch.Resubmit Method (COM)
+ms.topic: reference
 ms:assetid: 5c026cd0-08f9-4c70-a73f-8ebe5b116559
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560356(v=BTS.80)
 ms:contentKeyID: 51528298

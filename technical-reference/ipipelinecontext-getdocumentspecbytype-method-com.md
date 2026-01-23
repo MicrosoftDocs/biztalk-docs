@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext.GetDocumentSpecByType Method (COM)"
 title: IPipelineContext.GetDocumentSpecByType Method (COM)
 TOCTitle: IPipelineContext.GetDocumentSpecByType Method (COM)
@@ -10,11 +10,11 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IPipelineContext.GetDocumentSpecByType Method (COM)
 
- 
 
 Gets the [IDocumentSpec](idocumentspec-interface-com.md) object for specified document type.
 
@@ -82,10 +82,11 @@ This method indicates errors by setting the **Number** property of the global **
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**  Windows
 
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)  
 [IPipelineContext Members (COM)](ipipelinecontext-members-com.md)
+
 

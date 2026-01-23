@@ -2,6 +2,7 @@
 description: "Learn more about: Database Lookup Functoid"
 title: Database Lookup Functoid
 ms.date: 08/30/2017
+ms.topic: reference
 ---
 
 # Database Lookup Functoid

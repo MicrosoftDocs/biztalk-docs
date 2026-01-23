@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adaptors.add.wizard.dialog
+ms.topic: ui-reference
 ---
 
 # Add Adapter Metadata Wizard Dialog Box

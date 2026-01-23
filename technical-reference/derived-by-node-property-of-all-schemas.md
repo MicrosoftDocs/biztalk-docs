@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578709(v=BTS.80)
 ms:contentKeyID: 51531659
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # Derived By (Node Property of All Schemas)

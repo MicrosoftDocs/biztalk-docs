@@ -3,7 +3,7 @@ description: "Learn more about: Part 3: Create-Batch Scenario"
 title: "Part 3: Create-Batch Scenario"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: tutorial
 ---
 # Part 3: Create-Batch Scenario
 In this part of the scenario, you receive two incoming messages, combine them into a batched message, and send the batch to a destination. BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) returns an acknowledgment batch containing the two acknowledgments generated for the messages from the destination to the source. The following figure shows the process flow of this part of the tutorial.  

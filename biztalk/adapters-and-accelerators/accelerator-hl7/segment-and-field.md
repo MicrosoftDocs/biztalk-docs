@@ -3,7 +3,7 @@ description: "Learn more about: Segment and Field"
 title: "Segment and Field"
 ms.date: "06/08/2017"
 ms.service: biztalk-server
-ms.topic: article
+ms.topic: concept-article
 ---
 # Segment and Field
 A segment table defines an HL7 segment. Each segment definition follows the pattern shown below.  

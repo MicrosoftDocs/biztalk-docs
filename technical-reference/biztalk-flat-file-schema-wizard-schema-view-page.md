@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.ffwizard.schemaview
+ms.topic: ui-reference
 ---
 
 # BizTalk Flat File Schema Wizard, Schema View Page

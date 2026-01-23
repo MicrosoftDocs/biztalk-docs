@@ -6,6 +6,7 @@ ms:assetid: c87d8522-e9fa-4468-8451-58a3e057f003
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb728132(v=BTS.80)
 ms:contentKeyID: 51531253
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.esso.server.properties.service

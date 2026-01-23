@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: INamedItem Interface (COM)"
 title: INamedItem Interface (COM)
 TOCTitle: INamedItem Interface (COM)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa578127(v=BTS.80)
 ms:contentKeyID: 51530587
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # INamedItem Interface (COM)
 
- 
 
 Defines properties used in accessing document schemas from managed and unmanaged code.
 
@@ -19,7 +19,7 @@ For a list of all members of this type, see [INamedItem Members (COM)](inamedite
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:** Windows
 
 ## See Also
 

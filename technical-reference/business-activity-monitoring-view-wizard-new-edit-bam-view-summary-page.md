@@ -9,6 +9,7 @@ ms.date: 08/30/2017
 mtps_version: v=BTS.80
 f1_keywords:
 - bts06.bam.workbook.viewwizard.summary
+ms.topic: ui-reference
 ---
 
 # Business Activity Monitoring View Wizard, New-Edit BAM View: Summary Page

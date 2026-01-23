@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IOneWayAsync.EndOneWayMethod Method"
 title: IOneWayAsync.EndOneWayMethod Method
 TOCTitle: IOneWayAsync.EndOneWayMethod Method
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb727719(v=BTS.80)
 ms:contentKeyID: 51527008
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # IOneWayAsync.EndOneWayMethod Method
 
- 
 
 \<End\> method corresponding to **BeginTwoWayMethod** for the asynchronous operation implementation.
 
@@ -35,4 +35,5 @@ The status of the asynchronous operation.
 ## See Also
 
 [IOneWayAsync.BeginOneWayMethod Method](ionewayasync-beginonewaymethod-method.md)
+
 

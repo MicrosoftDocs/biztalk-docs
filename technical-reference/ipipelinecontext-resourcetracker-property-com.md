@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: IPipelineContext.ResourceTracker Property (COM)"
 title: IPipelineContext.ResourceTracker Property (COM)
 TOCTitle: IPipelineContext.ResourceTracker Property (COM)
@@ -10,11 +10,11 @@ mtps_version: v=BTS.80
 dev_langs:
 - c++
 - vb
+ms.topic: reference
 ---
 
 # IPipelineContext.ResourceTracker Property (COM)
 
- 
 
 Reports the objects used during execution.
 
@@ -77,10 +77,11 @@ This property indicates errors by setting the **Number** property of the global 
 
 ## Requirements
 
-**Platforms:**  Windows
+**Platforms:**  Windows
 
 ## See Also
 
 [IPipelineContext Interface (COM)](ipipelinecontext-interface-com.md)  
 [IPipelineContext Members (COM)](ipipelinecontext-members-com.md)
+
 

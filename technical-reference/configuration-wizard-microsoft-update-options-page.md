@@ -3,7 +3,7 @@ description: "Learn more about: Configuration Wizard, Microsoft Update Options P
 title: Configuration Wizard, Microsoft Update Options Page
 ms.service: biztalk-server
 ms.date: 08/30/2017
-ms.topic: conceptual
+ms.topic: how-to
 ---
 
 # Configuration Wizard, Microsoft Update Options Page

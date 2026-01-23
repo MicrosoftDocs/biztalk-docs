@@ -1,4 +1,4 @@
----
+﻿---
 description: "Learn more about: INamedItem Members (COM)"
 title: INamedItem Members (COM)
 TOCTitle: INamedItem Members (COM)
@@ -7,11 +7,11 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa562155(v=BTS.80)
 ms:contentKeyID: 51533802
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: reference
 ---
 
 # INamedItem Members (COM)
 
- 
 
 [INamedItem Interface (COM)](inameditem-interface-com.md)
 

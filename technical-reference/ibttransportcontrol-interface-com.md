@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportControl Interface (COM)"
 title: IBTTransportControl Interface (COM)
 TOCTitle: IBTTransportControl Interface (COM)
+ms.topic: reference
 ms:assetid: 20bb526b-4c86-401a-8cb8-e2dd1b312677
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa559152(v=BTS.80)
 ms:contentKeyID: 51526745

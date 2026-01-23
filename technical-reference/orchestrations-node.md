@@ -6,6 +6,7 @@ ms:assetid: 83ffd13a-9ae1-4862-b070-474de220b41a
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561147(v=BTS.80)
 ms:contentKeyID: 51529365
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.node.orchestrations

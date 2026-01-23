@@ -2,7 +2,7 @@
 title: Host Integration Server 3270 Connectivity
 description: Learn more about Host Integration Server 3270 connectivity.
 ms.service: host-integration-server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 12/13/2023
 
 ---

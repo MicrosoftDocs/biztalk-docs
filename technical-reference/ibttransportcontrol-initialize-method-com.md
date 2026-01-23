@@ -2,6 +2,7 @@
 description: "Learn more about: IBTTransportControl.Initialize Method (COM)"
 title: IBTTransportControl.Initialize Method (COM)
 TOCTitle: IBTTransportControl.Initialize Method (COM)
+ms.topic: reference
 ms:assetid: 861280f6-75e9-4f7b-a5ad-4175a1bb51a9
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561188(v=BTS.80)
 ms:contentKeyID: 51529420

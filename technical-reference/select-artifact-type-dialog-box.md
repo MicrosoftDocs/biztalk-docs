@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561170(v=BTS.80)
 ms:contentKeyID: 51529402
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: ui-reference
 f1_keywords:
 - bts10.orch.artifact.type.select
 ---
