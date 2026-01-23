@@ -6,6 +6,7 @@ ms:assetid: b61bbc28-5e68-4034-8afd-63e003a87c42
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578246(v=BTS.80)
 ms:contentKeyID: 51530736
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.orch.view.window
