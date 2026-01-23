@@ -7,7 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Aa561208(v=BTS.80)
 ms:contentKeyID: 51529453
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
-ms.topic: samples
+ms.topic: sample
 ---
 
 # WMI Script Samples
