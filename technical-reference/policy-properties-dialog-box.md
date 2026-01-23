@@ -6,6 +6,7 @@ ms:assetid: b44d2456-7079-4a08-89f5-a79029178ee6
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578202(v=BTS.80)
 ms:contentKeyID: 51530683
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.policy.properties

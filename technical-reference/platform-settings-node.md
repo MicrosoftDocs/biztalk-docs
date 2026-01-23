@@ -6,6 +6,7 @@ ms:assetid: 277ea779-3fff-4d28-96fc-d8d860a3c93c
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa559281(v=BTS.80)
 ms:contentKeyID: 51526931
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.node.platformsettings
