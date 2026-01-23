@@ -6,6 +6,7 @@ ms:assetid: ca3e9dde-982c-47cc-8ec0-1fbe11506641
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb226528(v=BTS.80)
 ms:contentKeyID: 51531292
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-basichttp.transport.send.proxy

@@ -6,6 +6,7 @@ ms:assetid: 5ab6f835-cf7c-4155-8675-15c9edebae73
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560322(v=BTS.80)
 ms:contentKeyID: 51528270
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.bre.vocab

@@ -6,6 +6,7 @@ ms:assetid: 37d87be9-3664-4bab-a781-21dd8ad13337
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb246039(v=BTS.80)
 ms:contentKeyID: 51527371
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-adapters.transport.send.clientcredentials

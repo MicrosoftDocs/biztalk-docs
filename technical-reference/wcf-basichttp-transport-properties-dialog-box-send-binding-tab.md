@@ -6,6 +6,7 @@ ms:assetid: faf38378-34b5-4282-ba86-3c72ba610451
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb259980(v=BTS.80)
 ms:contentKeyID: 51533583
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-basichttp.transport.send.binding
