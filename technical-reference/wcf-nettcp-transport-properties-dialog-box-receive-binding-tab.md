@@ -6,6 +6,7 @@ ms:assetid: f7c2ca6b-ba68-47d4-88f9-847547aa22da
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb259974(v=BTS.80)
 ms:contentKeyID: 51533489
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-nettcp.transport.receive.binding

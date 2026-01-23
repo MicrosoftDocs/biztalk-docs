@@ -6,6 +6,7 @@ ms:assetid: 4059915a-9a01-4b64-8349-4c4864bcb5d6
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb246053(v=BTS.80)
 ms:contentKeyID: 51527528
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-netmsmq.transport.receive.general
