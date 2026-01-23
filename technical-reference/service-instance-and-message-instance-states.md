@@ -6,6 +6,7 @@ ms:assetid: 2666a27c-e5f7-4ae6-8f12-afa06bba8876
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa559264(v=BTS.80)
 ms:contentKeyID: 51526908
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.servicemessageinstance.properties

@@ -6,6 +6,7 @@ ms:assetid: 106c3703-5085-41e6-b921-36bd700908b1
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb743353(v=BTS.80)
 ms:contentKeyID: 51526277
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.esso.server.properties.audit
