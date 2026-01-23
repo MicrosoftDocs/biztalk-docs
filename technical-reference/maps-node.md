@@ -6,6 +6,7 @@ ms:assetid: f6b8f4d1-e39f-4449-82cd-6f5d3ed108f1
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561978(v=BTS.80)
 ms:contentKeyID: 51533490
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.node.maps

@@ -6,6 +6,7 @@ ms:assetid: f0c35338-138e-47ad-9f41-19e017bd7d68
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561850(v=BTS.80)
 ms:contentKeyID: 51533337
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.mapper.props.testmap
