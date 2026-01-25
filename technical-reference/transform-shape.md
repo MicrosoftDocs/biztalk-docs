@@ -6,6 +6,7 @@ ms:assetid: 0bf78389-597f-437c-a893-88ec99147f55
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa547255(v=BTS.80)
 ms:contentKeyID: 51526139
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.orch.shape.transform

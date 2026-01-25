@@ -6,6 +6,7 @@ ms:assetid: 7c789f7f-f385-4c9a-9286-beb2c9d6aac4
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa560978(v=BTS.80)
 ms:contentKeyID: 51529149
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts06.bam.portal.view
