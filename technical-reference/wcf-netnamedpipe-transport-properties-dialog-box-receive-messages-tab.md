@@ -6,6 +6,7 @@ ms:assetid: e64963d6-3205-4597-816e-9ec5af9df0ce
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb259951(v=BTS.80)
 ms:contentKeyID: 51533043
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-netnamedpipe.transport.receive.messages

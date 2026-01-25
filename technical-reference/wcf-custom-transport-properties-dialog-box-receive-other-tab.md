@@ -6,6 +6,7 @@ ms:assetid: f28cf430-400a-4ce0-8378-f2c0f98b41f4
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb259968(v=BTS.80)
 ms:contentKeyID: 51533392
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-custom.transport.receive.other

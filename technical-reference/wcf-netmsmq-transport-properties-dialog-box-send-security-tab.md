@@ -6,6 +6,7 @@ ms:assetid: 35d394bb-d719-4280-9f70-9deb46cae097
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb246035(v=BTS.80)
 ms:contentKeyID: 51527320
 ms.date: 08/30/2017
+ms.topic: ui-reference
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.adapters.wcf-netmsmq.transport.send.security
