@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb246090(v=BTS.80)
 ms:contentKeyID: 51527990
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
+ms.topic: ui-reference
 f1_keywords:
 - bts10.adapters.wcf-nettcp.transport.send.general
 ---

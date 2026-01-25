@@ -8,6 +8,7 @@ ms:contentKeyID: 51531004
 ms.date: 01/14/2020
 ms.custom: biztalk-2020
 mtps_version: v=BTS.80
+ms.topic: ui-reference
 f1_keywords:
 - Microsoft.BizTalk.Component.XmlDasmComp
 ---
