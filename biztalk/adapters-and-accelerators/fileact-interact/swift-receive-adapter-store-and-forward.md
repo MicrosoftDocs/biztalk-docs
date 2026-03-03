@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # SWIFT Receive Adapter Store and Forward
 The receive adapter receives messages from the SWIFT store and forward (SnF) queue. To receive messages from the queue, the adapter must open a session with the SnF queue. To open the queue, it must have a dedicated client process that establishes the session with the queue. In the design, this process is implemented as a COM plus out-of-proc component.  

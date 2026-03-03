@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Run ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations using the SQL adapter
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the following operations at the root level:

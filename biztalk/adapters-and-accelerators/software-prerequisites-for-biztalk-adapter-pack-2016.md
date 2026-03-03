@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Software prerequisites for BizTalk Adapter Pack 2016
 Lists the software requirements for the Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] (BAP) included with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)].

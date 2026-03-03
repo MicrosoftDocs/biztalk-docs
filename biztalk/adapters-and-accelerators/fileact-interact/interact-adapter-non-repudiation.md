@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # InterAct Adapter Non-Repudiation
 Non-repudiation support for an outgoing InterAct message is obtained by setting the SwInt:NRIndicator to TRUE in the SwInt:RequestControl or SwInt:ResponseControl, as appropriate. This is required only if the service does not select non-repudiation support by default, according to the Service Profile.  
