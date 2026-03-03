@@ -4,7 +4,7 @@ description: Undeploy artifacts, and unconfigure BTARN to remove the accelerator
 ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 
 # Uninstall the RosettaNet accelerator

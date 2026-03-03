@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What BizTalk Accelerator for RosettaNet Adds to BizTalk Server
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] builds a Microsoft BizTalk Server integration system into a RosettaNet-compliant integration system. It adds everything you must have to implement a RosettaNet-compliant solution.  

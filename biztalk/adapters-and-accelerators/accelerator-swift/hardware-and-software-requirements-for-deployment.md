@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: best-practice
 ---
 # Hardware and Software Requirements for Deployment
 The following table lists the hardware and software recommendations and requirements for each server in the prescribed deployment architecture. For details about configuring required software, see [Deploying Your Servers](../../adapters-and-accelerators/accelerator-swift/deploying-your-servers.md).  
