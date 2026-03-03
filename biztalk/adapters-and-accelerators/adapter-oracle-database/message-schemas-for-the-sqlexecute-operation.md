@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Message Schemas for the SQLEXECUTE Operation
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces strongly-typed metadata for artifacts present in the LOB system and exposes standard operations on these artifacts. However, there are scenarios where an application might require the execution of an arbitrary SQL statement that is driven by the business logic in the application. For example, you may want to:  
