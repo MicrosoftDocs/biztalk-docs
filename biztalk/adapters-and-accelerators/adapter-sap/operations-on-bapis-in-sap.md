@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Operations on BAPIs in SAP
 A Business Application Programming Interface (BAPI) is a method of a SAP business object that can be called by an external process. BAPIs are transactional on the SAP system.  

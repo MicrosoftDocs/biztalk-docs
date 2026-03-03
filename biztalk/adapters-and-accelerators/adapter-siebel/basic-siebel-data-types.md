@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Basic Siebel Data Types
 This section describes how Siebel data types are supported on the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].  
