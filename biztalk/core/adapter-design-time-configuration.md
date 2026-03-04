@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Adapter Design-Time Configuration
 An adapter contains both a run-time and a design-time component. The run-time component is not visible to a user. It is transparently responsible for the transmission, receipt, and processing of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] messages.  

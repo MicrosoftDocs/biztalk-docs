@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Certificates that BizTalk Server Uses for Signed Messages
 BizTalk Server supports signing outbound messages and signature verification for inbound Secure Multipurpose Internet Mail Extensions (S/MIME) messages. BizTalk Server uses S/MIME versions 2 and 3 to sign outbound messages and to validate the signature of inbound messages. Similarly, you can configure BizTalk Server to sign and then encrypt the messages it sends to its partners.  

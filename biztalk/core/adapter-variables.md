@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Adapter Variables
 There are a number of variables that any custom adapter needs to handle. Values assigned to these variables influence custom logic that the adapter implements. Transport-specific or application-specific configuration properties can also help to support your solution. The following table lists these common variables. You must decide if you want to support each one in your custom adapter.  

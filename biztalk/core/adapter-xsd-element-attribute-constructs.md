@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Adapter XSD Element-Attribute Constructs
 The following tables list XSD element-attribute constructs supported by the Adapter Framework. The vertical axis contains the supported element types, and the horizontal axis contains the valid attribute types for each element.  

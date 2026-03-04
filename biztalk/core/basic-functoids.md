@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Basic Functoids
 Any functoid not in the **Advanced** category is considered a basic functoid. Basic functoids are generally easy to use, having few and, often, straightforward input parameters to be configured. This section provides conceptual information about the basic functoids, organized by category.  
