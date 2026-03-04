@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Messages Represented as .NET Classes
 This approach first involves creating a .NET class that defines your message type. The class must have a default constructor or the orchestration using it will not compile. A simple example of such a class is shown here.  

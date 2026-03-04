@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Message Mapping in TIBCO Rendezvous
 TIBCO Rendezvous messages are composed of header information and a set of message fields. The header information is directly mapped to message context properties.  

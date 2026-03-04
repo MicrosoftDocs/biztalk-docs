@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # ExportApp Command
 Exports a BizTalk application to an .msi file. If an .msi file having the same file name and path already exists, the existing .msi file is overwritten.  

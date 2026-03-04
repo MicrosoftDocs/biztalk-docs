@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # ModuleRef (ModuleRefCollection Node)
 The ModuleRef node of a binding file contains specific information about a .NET assembly that was exported with the binding file. A ModuleRef node can include but is not limited to descriptions of assemblies that contain custom code, schemas, and orchestrations.  
