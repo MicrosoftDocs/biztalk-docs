@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Deployment of BAM Definition (Observation Model) Commands
 The BAM management utility deployment commands allow you to apply, modify, and remove definitions.  
