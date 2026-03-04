@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: biztalk/core/getuserkey.md
+ms.topic: reference
 ---
 # GetUserKey
 Pushes the current user key onto the stack.  
