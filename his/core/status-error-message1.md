@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "concept-article"
+ms.topic: concept-article
 ---
 # Status-Error Message
 [Status-Error](./status-error1.md) messages flow from the local node to the application to report request reject and response header (RH) usage error conditions for:  

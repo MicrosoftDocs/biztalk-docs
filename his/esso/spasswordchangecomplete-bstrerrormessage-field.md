@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "concept-article"
+ms.topic: concept-article
 ---
 # SPasswordChangeComplete.bstrErrorMessage Field
 A string containing an error message.  

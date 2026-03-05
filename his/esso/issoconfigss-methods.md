@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "reference"
+ms.topic: reference
 ---
 # ISSOConfigSS Methods
 The following table describes the **ISSOConfigSS** methods.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "concept-article"
+ms.topic: concept-article
 ---
 # ISSOMapper2.GetApplications2 Method
 The GetApplications2 method retrieves the available applications for a Microsoft Windows user.  

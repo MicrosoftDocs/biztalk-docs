@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "reference"
+ms.topic: reference
 ---
 # ISSOConfigStore Methods
 The methods of the **ISSOConfigStore** interface are listed in the following table. For a complete list of **ISSOConfigStore** interface members, see [ISSOConfigStore Members](../esso/issoconfigstore-members.md).  

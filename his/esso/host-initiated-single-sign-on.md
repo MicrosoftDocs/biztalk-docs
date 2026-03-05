@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "concept-article"
+ms.topic: concept-article
 ---
 # Host Initiated Single Sign-On
 Host-initiated Single Sign-On (SSO) enables a request from the host system to access a resource on a Windows system. The host system (for example, an RACF account) exists in a non-Windows environment and under the context of a non-Windows user. The Single Sign-On Credential Store maps host accounts to Windows accounts, enabling this access.  

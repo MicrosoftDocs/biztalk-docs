@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "concept-article"
+ms.topic: concept-article
 ---
 # ISSOConfigStore Interface (COM)
 The **ISSOConfigStore** interface provides administration functions for the Enterprise Single Sign-On (SSO) config store.  

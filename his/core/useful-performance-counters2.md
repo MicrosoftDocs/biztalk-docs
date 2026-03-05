@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "concept-article"
+ms.topic: concept-article
 ---
 # Useful Performance Counters
 Performance counters allow you to see where computer resources are being used. The counters described below provide valuable information for evaluating the demand on, and performance of, [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] components.  
