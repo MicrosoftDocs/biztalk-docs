@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: "concept-article"
 ---
 # Operations
 This section details code page conversions, data type mapping, and performance of the data provider.  

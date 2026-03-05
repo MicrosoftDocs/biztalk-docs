@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: "reference"
 ---
 # TrnsDT Resource Files
 The **TrnsDt** API uses a series of resource files that contain the necessary translation tables, which are listed in the following table.  
