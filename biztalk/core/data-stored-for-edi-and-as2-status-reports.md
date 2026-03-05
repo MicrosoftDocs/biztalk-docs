@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Data Stored for EDI and AS2 Status Reports
 The topics in this section describe what data is stored for EDI and AS2 status reports when status reporting is activated.  

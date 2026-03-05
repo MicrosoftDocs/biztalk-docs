@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # EDI Solution Architecture
 Electronic Data Interchange (EDI) is one of the most prevalent means by which business entities exchange data electronically. EDI usage entails message syntax and standards (including ANSI X12 and UN/EDIFACT), messaging protocol, and transports. The following are characteristics of EDI messaging:  

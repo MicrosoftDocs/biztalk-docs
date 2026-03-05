@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Enlisted Parties (Role Node)
 The Enlisted Parties node of a binding file is the parent node for all of the Enlisted Party nodes which contain specific information about the enlisted parties associated with a role that is exported with the binding file.  
