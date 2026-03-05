@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: sample
 ---
 # BAM API (BizTalk Server Sample)
 The BAM API sample illustrates how to incorporate calls to the BAM API into an application to save key information that you can monitor.  

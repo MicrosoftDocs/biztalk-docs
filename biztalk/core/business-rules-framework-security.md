@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Business Rules Framework Security
 The Business Rule Engine operates in the security context of the hosting application. The identity of the rule engine instance during execution is that of the thread context that invokes the **Policy.Execute** method.  

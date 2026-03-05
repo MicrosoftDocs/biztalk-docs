@@ -6,7 +6,7 @@ ms.date: "03/24/2016"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Community Resources
 Plug into the BizTalk Server community to connect with other developers and admins and get answers to your questions, read the latest from different BizTalk community resources, watch Channel 9 videos, dive into Azure, and more.

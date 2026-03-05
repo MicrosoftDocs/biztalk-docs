@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: whats-new
 ---
 # Changes to BizTalk Project System in BizTalk Server 2013
 This topic gives you a high-level overview of changes to the BizTalk Project System in BizTalk Server.
