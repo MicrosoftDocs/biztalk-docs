@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Parallel Convoys
 A parallel convoy enables multiple single messages to join together to achieve a required result. The set of related messages can arrive in any order, but BizTalk Server must receive all of them before starting the process.

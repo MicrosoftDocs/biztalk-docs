@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Sequential Convoys
 A sequential convoy enables multiple single messages to join together to achieve a required result. A sequential convoy is a set of related messages that have a predefined order. Although the messages do not have to be exactly the same, BizTalk Server must receive them in a sequential order.  

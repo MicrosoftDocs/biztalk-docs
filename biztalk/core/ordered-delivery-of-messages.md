@@ -6,7 +6,7 @@ ms.date: "12/23/2019"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 
 # Ordered Delivery of Messages in BizTalk Server

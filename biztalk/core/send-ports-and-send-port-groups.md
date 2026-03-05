@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Send Ports and Send Port Groups
 A *send port* is the location to which Microsoft BizTalk Server sends messages or from which BizTalk Server receives messages. It also provides the technology that BizTalk Server uses to implement the communication action. The name of the port uniquely identifies the location.  

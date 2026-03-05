@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Performance Considerations When Using the Rule Engine
 This topic discusses how the rule engine performs in various scenarios and with different values for the configuration/tuning parameters.  

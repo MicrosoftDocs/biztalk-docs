@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Pattern Catalog for the Business Process Management Solution
 The patterns in the business process management solution include common patterns of programming BizTalk Server, as well as the enterprise integration patterns in preceding sections. The list in this section includes both kinds of patterns.  

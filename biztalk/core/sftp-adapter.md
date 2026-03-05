@@ -6,7 +6,7 @@ ms.date: "02/14/2025"
 ms.service: biztalk-server
 ms.reviewer: "niklase"
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # SFTP Adapter
 BizTalk Server includes an **SFTP** adapter to send and receive messages from a secure FTP server using the SSH file transfer protocol. This topic includes the steps to configure an **SFTP** receive location, and configure an SFTP send port to receive and send messages from a secure FTP server. It also includes common questions and answers.

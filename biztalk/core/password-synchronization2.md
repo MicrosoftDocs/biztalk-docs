@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Password Synchronization
 The purpose of Password Synchronization is to simplify administration of the SSO database, and to keep passwords in sync across user directories.  

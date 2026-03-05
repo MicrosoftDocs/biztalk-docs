@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Order Flow through the Process Manager
 This section describes how the Southridge Video order process manager, the **OrderManager** orchestration, processes orders. This section follows a new order through the orchestration. The section also discusses how the orchestration handles updates to orders.  
