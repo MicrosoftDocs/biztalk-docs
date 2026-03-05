@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Microsoft.BizTalk.DefaultPipelines Reference
 The **Microsoft.BizTalk.DefaultPipelines** namespace contains the following pipelines:  

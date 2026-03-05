@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # How Adapters Handle Large Messages
 The BizTalk Messaging Engine can process very large messages and imposes no restriction on the maximum size of a message. However, you should consider limits to message size to maintain optimum performance and resource management. As message size increases the number of messages processed per second decreases. Consider the average message size, message type, and number of messages being processed by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] when designing your scenario and planning for capacity.  

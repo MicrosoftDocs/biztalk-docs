@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # HTTP Receive Adapter
 The receive location for the HTTP receive adapter is a distinct URL configured through the BizTalk Server Administration console.  

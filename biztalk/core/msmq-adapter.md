@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # MSMQ Adapter
 The MSMQ adapter lets you use Message Queuing 4.0 from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Integrating Message Queuing technology with BizTalk Server enables applications that are running at different times to communicate across heterogeneous networks and systems that may be temporarily offline.  
