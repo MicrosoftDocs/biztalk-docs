@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: best-practice
 ---
 # Other Activities That Can Affect Dehydration Behavior
 The following activities directly or indirectly impact dehydration and overall performance and so should be factored into any testing scenarios.  

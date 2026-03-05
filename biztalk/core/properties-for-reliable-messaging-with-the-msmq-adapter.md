@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Properties for Reliable Messaging with the MSMQ Adapter
 You can improve the reliability of sending and receiving messages with the MSMQ adapter by the way you configure the MSMQ adapter. This topic discusses using several configuration properties for reliable messaging.  

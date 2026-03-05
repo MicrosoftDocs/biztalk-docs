@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Node Name Property
 As you use BizTalk Editor to insert nodes into the schema tree, some nodes are meant to be renamed and others are not. Essentially, you can and should rename **Record** nodes, **Field Element** nodes, and **Field Attribute** nodes. The names that you give to these nodes will become the names of the XML elements and attributes in the message that the schema defines.  
