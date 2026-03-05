@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: biztalk/core/single-sign-on-event-10555.md
+ms.topic: error-reference
 ---
 # Single Sign-On: Event 10555
 ## Details  
