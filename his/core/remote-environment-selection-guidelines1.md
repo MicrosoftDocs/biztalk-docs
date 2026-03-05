@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Remote Environment Selection Guidelines
 Consider these guidelines when you are using the `SelectionHint` property to specify a remote environment (RE) programmatically:  

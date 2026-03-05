@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # SNA Print Server Data Filter API
 You configure the path to the print data filter DLL. This DLL is used by all sessions actively using the Host Print service. However, the print data filter DLL can specify whether or not it wants a given session's print data passed to it.  

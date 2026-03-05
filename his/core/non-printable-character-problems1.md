@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Non-printable Character Problems
 Characters below 0x40 in the 3270 datastream are considered "non-printable" characters. Some of these values are used by 3270 Orders and SCS codes. By default, if Host Print Service encounters a non-printable character that is not an SCS code or 3270 Order, it rejects the frame, or in some cases translates the character to an ASCII space and continues on. To force Host Print Service to process all characters, and translate them to their ASCII equivalents according to the code page being used, a registry entry has been made available. To add this entry, find the following key using REGEDT32:  

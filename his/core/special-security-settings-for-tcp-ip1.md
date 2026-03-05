@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Special Security Settings for TCP/IP
 Two special security settings are available for the TCP/IP protocol for CICS and IMS:  

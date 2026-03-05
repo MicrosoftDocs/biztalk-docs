@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Relationships between the .NET Provider for DB2 Interfaces
 The Managed Provider for DB2 interfaces interact in different ways—with the exception of MsDb2DataAdapter, the remaining classes adhere to a rigid parent/child relationship:  

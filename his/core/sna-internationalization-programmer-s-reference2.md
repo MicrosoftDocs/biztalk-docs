@@ -6,7 +6,7 @@ ms.date: "12/12/2023"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # SNA Internationalization Programmer&#39;s Reference
 This section describes the features available in Host Integration Server for programming support for international languages and different national language character sets.  

@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Named Pipes Clients
 ![Image that shows how a Microsoft Networking client can connect to the mainframe.](../core/media/ref11.gif "ref11")  
