@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: how-to
 ---
 # Optional Configurations
 After you import the BizTalk Server Management Pack, the navigation pane of the Monitoring pane displays the object types that are discovered automatically. For a list of object types, see [Objects the Management Pack Discovers](../technical-guides/objects-the-management-pack-discovers.md) section. You can modify the default discovery configuration of objects discovered by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack. You use the overrides feature of Operations Manager 2007 R2/2012 to change configuration settings.

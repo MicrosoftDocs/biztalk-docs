@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Add Alert Subscription and Edit Subscription Pages
 The Add Alert Subscription and Edit Subscription pages are similar. They differ in that the Edit Subscription page shows the subscriber ID (the Microsoft Windows account of the current portal user), and has a different set of buttons. Figure 1 shows the Add Alert Subscription and Edit Subscription pages.  

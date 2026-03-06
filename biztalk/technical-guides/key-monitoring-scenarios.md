@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Key Monitoring Scenarios
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack for Operations Manager 2007 R2/2012 includes a number of key monitoring scenarios described in the table that follows.  

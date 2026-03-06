@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Phases of a Performance Assessment
 One of the primary goals of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is to provide maximum flexibility for accommodating as many processing scenarios as possible. Because of this great flexibility, one of the primary challenges facing developers of a BizTalk solution is to determine how to make best use of the features available in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to meet their business needs. This flexibility also poses a challenge when optimizing the performance of a BizTalk Server solution.  

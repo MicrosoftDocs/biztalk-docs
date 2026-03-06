@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Faults over Time by Application or Service
 This option displays a count of faults over a specified period for a specified set of applications. You can select an application to display a trend chart that shows the number of faults over time for specific services within the application. Selecting a specific service displays a report that lists the faults for that service. You can also export the list of faults as a Microsoft Excel spreadsheet.  

@@ -6,7 +6,7 @@ ms.service: biztalk-server
 ms.date: "04/16/2019"
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Post-configuration steps to optimize your environment
 Post-configuration steps to help improve performance, maintain your BizTalk environment, and install the EDI schemas.

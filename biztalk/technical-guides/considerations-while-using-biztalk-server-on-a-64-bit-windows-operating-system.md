@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: best-practice
 ---
 # Considerations While Using BizTalk Server on a 64-bit Windows Operating System
 When using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a 64-bit Windows operating system, make sure you consider the issues described in this topic. For frequently asked questions related to 64-bit support for Microsoft BizTalk Server, see [BizTalk Server 64-bit Support](../core/biztalk-server-64-bit-support2.md) (<https://go.microsoft.com/fwlink/?LinkID=155306>).
