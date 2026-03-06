@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Connections Used for NetView and RTM
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] can make use of NetView, a reporting system that runs on an IBM host (mainframe). NetView sends alerts between the host and the PCs that connect to it. Host Integration Server can also receive information from Response Time Monitor (RTM), a 3270 and NetView facility that monitors the amount of time it takes for a host to respond during 3270 display sessions.  

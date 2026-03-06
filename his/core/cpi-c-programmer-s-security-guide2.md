@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # CPI-C Programmer&#39;s Security Guide
 The following topics discuss security as it applies to the CPI-C section of the Host Integration Server SDK.  
