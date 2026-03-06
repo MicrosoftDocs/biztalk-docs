@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Transaction Integrator Performance Guide
 To ensure excellent performance out of the box, Microsoft has run performance tests on Transaction Integrator (TI) to determine its performance and scalability in various deployment situations. This section discusses what was learned about TI.  
