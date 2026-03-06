@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Validation with Business Rules
 A common way to do validation is to construct a set of business rules using the Business Rules Framework. Then you use the Call Rules shape in the orchestration where you want to perform validation.  

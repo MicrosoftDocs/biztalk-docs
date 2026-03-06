@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Happens to Artifacts During Installation and Uninstallation
 This topic describes how BizTalk Server handles file-based artifacts included in a BizTalk application when you install and uninstall the application.  

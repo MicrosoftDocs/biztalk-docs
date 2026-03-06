@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Happens When Artifacts Are Added and Removed
 This topic describes what happens when you add artifacts to an application. You can add file-based artifacts to an application by using the BizTalk Server Administration console or the BTSTask command-line tool. File-based artifacts include the following types:  

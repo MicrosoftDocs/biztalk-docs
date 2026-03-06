@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Ways to Interpret Special Characters as Part of a Field Value
 Fields in both positional and delimited records can contain special characters of different types, such as pad, wrap, and escape characters. Delimited records can also contain one or more different delimiter characters that are used to separate the fields within a record and one record from another record. Sometimes these special characters are part of the data itself, and are not meant to be interpreted as special in those cases.  

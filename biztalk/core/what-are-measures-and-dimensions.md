@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Are Measures and Dimensions?
 Dimensions and measures are the physical aspects of data aggregation. This topic describes what measures and dimensions are, using a BAM scenario to provide context.  
