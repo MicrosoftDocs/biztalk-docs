@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Remotely Administering Transaction Integrator
 Transaction Integrator (TI) does not support remote installation or configuration, and it does not support remote administration of Windows-initiated processing (WIP) except through use of the Windows Remote Desktop. TI does support remote administration of host-initiated processing through the use of TI Manager and the Remote Desktop. TI also supports the use of remote SQL Server databases.  

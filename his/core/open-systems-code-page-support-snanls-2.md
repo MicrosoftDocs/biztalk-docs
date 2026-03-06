@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Open Systems Code Page Support (SNANLS)
 The following table shows the Open Systems NLS code pages and host character code set identifiers (CCSIDs) supported by SNA National Language Support (SNANLS) in Host Integration Server.  

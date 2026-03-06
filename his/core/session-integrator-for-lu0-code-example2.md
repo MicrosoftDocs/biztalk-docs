@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: sample
 ---
 # Session Integrator for LU0 Code Example
 The following code example shows how to use the primary techniques for creating an LU0 connection, logging on to the LU0 session, sending and receiving information, and terminating the connection.  

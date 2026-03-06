@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Network Integration Security Guides
 The network integration features of Microsoft Host Integration Server fall into several areas. Each area has a Security guide.  
