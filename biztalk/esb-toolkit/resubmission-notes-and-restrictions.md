@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: checklist
 ---
 # Resubmission Notes and Restrictions
 The following notes and restrictions apply to the resubmission process:  

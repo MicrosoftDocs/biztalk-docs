@@ -6,7 +6,7 @@ ms.date: "11/29/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Appendix C: BizTalk Server and SQL Server Hyper-V Supportability
 The test scenarios described in [Testing BizTalk Server Virtualization Performance](../technical-guides/testing-biztalk-server-virtualization-performance.md) were performed with BizTalk Server and SQL Server. See:

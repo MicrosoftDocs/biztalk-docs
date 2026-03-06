@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # How the Resolver Service Sample Works
 The Resolver Service sample instantiates the Resolver service and passes the message you specify to it for processing. The Resolver Service sample client application uses the first parameter as the path to the ResolverList.xml file, which contains multiple resolver requests, and sends these requests to the Resolver service. For example, the following is the XPATH request used in the sample.  

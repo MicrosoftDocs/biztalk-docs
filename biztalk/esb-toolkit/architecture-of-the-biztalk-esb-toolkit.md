@@ -6,7 +6,7 @@ ms.date: "12/30/2022"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Architecture of the BizTalk ESB Toolkit
 The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] consists of a series of interoperating components that support and implement a loosely coupled messaging environment that makes it easier to build message-based enterprise applications. The services and components fall naturally into the following seven categories:  
