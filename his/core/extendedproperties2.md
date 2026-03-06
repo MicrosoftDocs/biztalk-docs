@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # ExtendedProperties
 A `DataSet` object (like `DataTable` and `DataColumn`) has an `ExtendedProperties` property. `ExtendedProperties` is a `PropertyCollection` where you can add customized information, such as the SELECT statement that was used to generate the result set or a date/time stamp of when the data was generated. The `ExtendedProperties` collection is persisted with the schema information for the `DataSet` (and also the `DataTable` and `DataColumn`).  

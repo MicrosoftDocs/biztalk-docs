@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # FILLER for Discontiguous Output Area and Return Value
 If the return value is discontiguous from the output area, you must calculate and manually specify the filler between the return value and the output area.  

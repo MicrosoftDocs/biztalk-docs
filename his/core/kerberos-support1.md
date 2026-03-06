@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Kerberos Support
 In addition to NTLM, Kerberos support is now available. To use Kerberos support, it is necessary to set a Service Principal Name (SPN) for each server in the subdomain. You can do this through the command line as follows:  
