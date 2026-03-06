@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Data Type
 Header properties in MQSeries messages are data structures contained in the message itself. The adapter automatically validates and converts certain values in MQSeries message headers when sending and receiving messages.  

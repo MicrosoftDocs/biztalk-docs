@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Inbound Chaining
 The division of application data into [Data](./data1.md) messages and the control of inbound chaining are the responsibility of the application.  

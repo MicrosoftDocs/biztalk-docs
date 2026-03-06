@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Iterative Model
 In the Iterative model, the Listener and Server portions of the application coexist in the same CICS or IMS TP, so the TP holds the socket until all application processing has been completed. The Iterative model uses this sequence:  

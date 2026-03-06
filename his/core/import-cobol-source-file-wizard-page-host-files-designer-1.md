@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 f1_keywords: 
   - "ebiz.his.2006.tidesigner.wizard.importcobol.selectitem.hostfiles"
 ---

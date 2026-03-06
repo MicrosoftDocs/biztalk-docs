@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Extensions for the Windows Environment
 This section describes API extensions to Microsoft® Windows® Common Programming Interface for Communications (CPI-C) that allow nonblocking or asynchronous verb completion. Asynchronous verbs return control to the program immediately, without waiting for full execution, and must notify the application later when the verb has been completed. An application is also notified in response to the completion of a [Wait_For_Conversation](../core/wait-for-conversation-cpi-c-1.md) call. In contrast, synchronous verbs block, that is, the function call does not return until the call has completed.  
