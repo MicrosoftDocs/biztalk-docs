@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # 3270 User Name and Password Replacement
 The SNA node on the host monitors the inbound session for a replacement sequence consisting of the **3270SSOPrefix** string immediately followed by one of the strings **3270SSOUserTag** or **3270SSOPwdTag**. Thus, the default user name string that would be scanned for and replaced is MS$SAMEU. When this string is found in the inbound session data, the node looks up the corresponding information (host user name in the Enterprise Single Sign-On (ESSO)database) and overwrites MS$SAMEU with this information. The same process occurs for the password string that would be scanned for and replaced, which defaults to MS$SAMEP.  

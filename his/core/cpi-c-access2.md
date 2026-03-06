@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # CPI-C Access
 Common Programming Interface for Communications (CPI-C) provides a consistent application programming interface for network applications. CPI-C is a set of C-language routines that applications distributed across an SNA network can use to communicate as peers and exchange data to accomplish a processing task.  

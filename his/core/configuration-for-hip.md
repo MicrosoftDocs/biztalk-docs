@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Configuration for HIP
 The TI Configuration Tool provides assistance in creating the HIPService.exe.config file that gives the HIP runtime engine the information necessary to read incoming data, process the data via a custom written component, and send back response data.  When run as an admin, the tool will also install the configured HIP Services and can be used to start and stop the HIP Services.  The TI Runtime uses the HIPService.exe.config file that resides in the %snaroot% directory.

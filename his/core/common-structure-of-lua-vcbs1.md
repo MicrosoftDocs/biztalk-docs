@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # Common Structure of LUA VCBs
 The following data structure shows the parameters that are common to all Microsoft® Windows® logical unit application (LUA) verbs.  
