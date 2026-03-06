@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # What Happens When Artifacts Are Exported
 This topic describes what happens when you export artifacts. There are three ways to export artifacts, which are covered in this topic:  

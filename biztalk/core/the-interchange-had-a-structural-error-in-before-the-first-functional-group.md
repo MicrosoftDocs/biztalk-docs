@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: error-reference
 ---
 # The interchange had a structural error in-before the first functional group
 ## Details  

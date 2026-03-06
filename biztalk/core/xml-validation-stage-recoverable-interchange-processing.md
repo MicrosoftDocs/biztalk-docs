@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # XML Validation Stage (Recoverable Interchange Processing)
 The **XML validator** pipeline component processes an interchange in two modes:  

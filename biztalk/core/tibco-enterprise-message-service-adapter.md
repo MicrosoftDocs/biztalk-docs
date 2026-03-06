@@ -6,7 +6,7 @@ ms.date: "10/23/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # TIBCO Enterprise Message Service Adapter
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service enables you to publish and subscribe to queues and topics managed by TIBCO EMS using btsBizTalkServerNoVersion.  The following sections discuss getting started, creating applications, and more.  

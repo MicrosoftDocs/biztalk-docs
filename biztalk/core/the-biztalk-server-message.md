@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # The BizTalk Server Message
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is, at its core, a message-handling engine. To understand the details of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], it is important to understand messages and how they are represented, stored, and processed by BizTalk Server. The details of how BizTalk Server works with messages become easier to understand after you have gained an understanding of what a message is.  

@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # TPE Activity View Nodes
 The topics in this section describe the types of tree nodes used by Tracking Profile Editor to map a specific view of an internal business processes, as well as associated data, to an orchestration.  

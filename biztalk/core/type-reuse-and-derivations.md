@@ -6,7 +6,7 @@ ms.date: "06/08/2017"
 ms.service: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # Type Reuse and Derivations
 Within XML Schema definition (XSD) language, complex global types provide a mechanism for defining a structured data type that can be reused, and potentially redefined, at various locations within your schema. Perhaps the most classic example is an address structure that includes a name, street, city, state, and so on. Further, the name itself might be a structure that includes first, middle, and last name strings. If this complex structure is defined globally, you can use it in multiple locations within your schema, such as for both a shipping address and a billing address.  
