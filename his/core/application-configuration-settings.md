@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: reference
 ---
 # staticSql, drda.sqlErrorMappings, and drdaAs.drdaService configuration settings
 The topics in this section describe the installation steps, and the XML schema elements that are used by Host Integration Server  

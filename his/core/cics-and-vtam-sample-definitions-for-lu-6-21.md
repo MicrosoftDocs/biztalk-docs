@@ -6,7 +6,7 @@ ms.date: "11/30/2017"
 ms.service: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
-ms.topic: "article"
+ms.topic: concept-article
 ---
 # CICS and VTAM Sample Definitions for LU 6.2
 This topic presents sample definitions for CICS (version 1.6) and VTAM (version 3.2) for [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer connections to an IBM host system for LU 6.2 operation.  
